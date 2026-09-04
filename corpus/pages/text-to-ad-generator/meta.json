@@ -4,5 +4,9 @@
  "title": "Instant Static Ad Generator for Meta and Google | Picsart",
  "family": "tool",
  "fetched_at": "2026-09-04T13:39:00+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 26,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Seedance 2.5 vs Kling 3.0: AI Video Model Comparison",
  "family": "compare-models",
  "fetched_at": "2026-09-04T12:59:54+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 38,
+  "failed": 0
+ }
 }

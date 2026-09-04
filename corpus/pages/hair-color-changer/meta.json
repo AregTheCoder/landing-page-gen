@@ -4,5 +4,9 @@
  "title": "Hair Color Changer \u2013 Change Your Hair Color Online | Picsart",
  "family": "tool",
  "fetched_at": "2026-09-04T13:35:46+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 23,
+  "failed": 0
+ }
 }

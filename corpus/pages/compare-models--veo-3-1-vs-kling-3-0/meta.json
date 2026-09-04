@@ -4,5 +4,9 @@
  "title": "Veo 3.1 vs Kling 3.0: AI Video Model Comparison",
  "family": "compare-models",
  "fetched_at": "2026-09-04T13:24:30+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 28,
+  "failed": 0
+ }
 }

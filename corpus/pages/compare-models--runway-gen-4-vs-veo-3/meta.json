@@ -4,5 +4,9 @@
  "title": "Runway Gen 4 vs Veo 3.1: Which Makes Better AI Videos",
  "family": "compare-models",
  "fetched_at": "2026-09-04T13:23:44+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 26,
+  "failed": 0
+ }
 }

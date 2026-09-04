@@ -4,5 +4,9 @@
  "title": "Picsart CLI | Image, Video & Audio for Developers",
  "family": "other",
  "fetched_at": "2026-09-04T13:27:41+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 17,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Free Image Cropper \u2013 Crop Images Online in Seconds | Picsart",
  "family": "other",
  "fetched_at": "2026-09-04T13:26:21+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 33,
+  "failed": 0
+ }
 }

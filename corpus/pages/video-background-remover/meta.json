@@ -4,5 +4,9 @@
  "title": "Video Background Remover - Erase Video Backgrounds for Free",
  "family": "tool",
  "fetched_at": "2026-09-04T13:39:16+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 38,
+  "failed": 0
+ }
 }

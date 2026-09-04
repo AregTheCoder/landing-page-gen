@@ -4,5 +4,9 @@
  "title": "Image Enlarger - Enlarge Photos Without Losing Quality",
  "family": "other",
  "fetched_at": "2026-09-04T13:28:44+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 33,
+  "failed": 0
+ }
 }

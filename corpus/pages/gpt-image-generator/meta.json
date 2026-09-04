@@ -4,5 +4,9 @@
  "title": "Picsart GPT Image Generator Powered by OpenAI",
  "family": "tool",
  "fetched_at": "2026-09-04T13:35:37+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 31,
+  "failed": 0
+ }
 }

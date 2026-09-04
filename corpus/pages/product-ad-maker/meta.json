@@ -4,5 +4,9 @@
  "title": "Product Ad Maker - Create Appealing Product Ads in Minutes",
  "family": "tool",
  "fetched_at": "2026-09-04T13:37:47+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 16,
+  "failed": 0
+ }
 }

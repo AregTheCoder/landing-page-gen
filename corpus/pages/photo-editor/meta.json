@@ -4,5 +4,9 @@
  "title": "Free Photo Editor - Online Image Editing For Creators | Picsart",
  "family": "tool",
  "fetched_at": "2026-09-04T13:37:06+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 50,
+  "failed": 0
+ }
 }

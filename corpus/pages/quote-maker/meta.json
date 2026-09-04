@@ -4,5 +4,9 @@
  "title": "Free Quote Poster Maker - Design Stunning Quote Posters",
  "family": "tool",
  "fetched_at": "2026-09-04T13:37:56+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 43,
+  "failed": 0
+ }
 }

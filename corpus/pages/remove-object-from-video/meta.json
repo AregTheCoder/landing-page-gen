@@ -4,5 +4,9 @@
  "title": "Remove Object from Video - Object Remover from Video | Picsart",
  "family": "other",
  "fetched_at": "2026-09-04T13:29:36+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 39,
+  "failed": 0
+ }
 }
