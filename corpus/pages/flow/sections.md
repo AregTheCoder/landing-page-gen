@@ -20,7 +20,7 @@ Try now Explore templates
 
 ### Start with a Flow template
 Explore community-built templates for repeatable creative workflows, then remix one for your own project.
-[Browse all templates](/flow/templates/)
+[Browse all templates](https://picsart.com/flow/templates/)
 
 ## S03 feature-callout
 

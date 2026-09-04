@@ -120,7 +120,7 @@ Get started now
 ## S11 feature-list
 
 Still got questions? Find answers
-[Email us](/cdn-cgi/l/email-protection#fe8d8b8e8e918c8abe8e979d8d9f8c8ad09d9193)
+[Email us](https://picsart.com/cdn-cgi/l/email-protection#fe8d8b8e8e918c8abe8e979d8d9f8c8ad09d9193)
 01
 How does the AI learn my brand style?
 The AI analyzes your past creative assets—like ads, colors, copy, and visuals - to detect consistent patterns in tone, imagery and layout. It then uses this data to generate new content that matches your brand’s look and feel.

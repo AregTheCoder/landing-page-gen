@@ -13,29 +13,29 @@ Start creating
 
 ### Design quote posters with AI image models
 Use image models to transform quote posters into polished visuals, design ideas, and ready-to-edit assets.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -56,42 +56,42 @@ Get full control over your quote poster design by rearranging elements, adding y
 Picsart’s constantly updating template library offers a quicker way of creating posters. Just find a template that fits your needs and customize it as much or as little as you like to make it unique to you and your content.
 ![image creative 244x367: Inspiring Blue Pinterest Pin with Quote](https://cdn-basic-content-api.picsart.io/p/f9624e59-e017-4e2c-8390-503b59ea4867.png)
 Plus
-[Try it out](/create/editor/?template=6381747879346857&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6381747879346857&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Study Smart Pinterest Pin with Blue](https://cdn-basic-content-api.picsart.io/p/45de37d6-12f2-46ca-844e-db1e437b788f.png)
-[Try it out](/create/editor/?template=5491747876029691&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5491747876029691&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Inspirational Green Instagram Story for Teachers](https://cdn-basic-content-api.picsart.io/p/6bec73f5-dee9-48fb-92cd-860626f73486.png)
 Plus
-[Try it out](/create/editor/?template=7661747883516775&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7661747883516775&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Motivational Instagram-Square Post in Bold Red](https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png)
-[Try it out](/create/editor/?template=1781747881796779&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1781747881796779&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Inspirational Teacher Instagram-Story in White and Black](https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png)
 Plus
-[Try it out](/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Motivational Instagram-Square Post with Pink Text](https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png)
-[Try it out](/create/editor/?template=7401747881291845&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7401747881291845&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Motivational Blue Instagram Story With Quote](https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png)
 Plus
-[Try it out](/create/editor/?template=7391747872863066&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7391747872863066&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Heartfelt Blue Pinterest Pin with Quote](https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png)
-[Try it out](/create/editor/?template=5141747889680487&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5141747889680487&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Motivational Exams Preparation Pinterest Pin Pink](https://cdn-basic-content-api.picsart.io/p/ee92bd60-b347-48a6-8867-8151dfa441ee.png)
 Plus
-[Try it out](/create/editor/?template=3971747877742039&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3971747877742039&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Inspiring Pink Pinterest-Pin for Teacher Appreciation](https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png)
-[Try it out](/create/editor/?template=7961747885508739&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7961747885508739&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Motivational Instagram-Square Post in Blue Theme](https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png)
 Plus
-[Try it out](/create/editor/?template=8621747880428638&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8621747880428638&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Inspirational Teacher Quote Instagram Square Template](https://cdn-basic-content-api.picsart.io/p/d20b6d41-2ff1-406b-8567-399c3621ee91.png)
-[Try it out](/create/editor/?template=7681747893762781&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7681747893762781&category=templates&source=templates&origin=template_item)
 ![image creative 1080x1080: Inspirational Pink and Orange Instagram-Square Post](https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png)
 Plus
-[Try it out](/create/editor/?template=8741747892596132&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8741747892596132&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Inspirational Green Pinterest Pin for Teachers](https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png)
-[Try it out](/create/editor/?template=1851747889932235&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1851747889932235&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Inspiring Teacher Instagram Story with Pink](https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.png)
 Plus
-[Try it out](/create/editor/?template=4861747882512440&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4861747882512440&category=templates&source=templates&origin=template_item)
 
 ## S05 how-it-works
 

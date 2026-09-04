@@ -140,42 +140,42 @@ Absolutely - customize any of our pre-made photo collage layouts, any way you se
 Tap into Picsart's vast collage template library to create custom collage designs in no time. Whether you're creating personal memories or promotional collages, there's an option waiting for you. Simply pick one, insert your photos, and tweak the design to match your vision.
 ![image creative 244x244: Warm Autumn Instagram-Square Post with Orange](https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png)
 Plus
-[Try it out](/create/editor/?template=6291755719928315&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6291755719928315&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Warm Autumn Instagram Square Post Design](https://cdn-basic-content-api.picsart.io/p/6faf73c8-07da-41a2-93a7-639089d77935.png)
-[Try it out](/create/editor/?template=2191755775388219&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2191755775388219&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Charming Autumn Days Instagram Square Post](https://cdn-basic-content-api.picsart.io/p/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e.png)
 Plus
-[Try it out](/create/editor/?template=2701755788011267&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2701755788011267&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Autumn Mood Instagram Square Post with Orange](https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png)
-[Try it out](/create/editor/?template=4731755769542035&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4731755769542035&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Warm Autumn Instagram-Square Post Featuring Brown](https://cdn-basic-content-api.picsart.io/p/518e1590-a995-4433-b5d6-5c49cf6aed92.png)
 Plus
-[Try it out](/create/editor/?template=5671755765645785&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5671755765645785&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Cozy Autumn Instagram Square Post in Orange](https://cdn-basic-content-api.picsart.io/p/07aee7e3-0b24-4c3d-a31f-44b4ca72f794.png)
-[Try it out](/create/editor/?template=3741755715412352&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3741755715412352&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Blue and White Greek Travel Post Template](https://cdn-template.picsart.com/templates-cdn/d7b55eac-58e1-4307-9667-434f43d3641d.png)
 Plus
-[Try it out](/create/editor/?template=388219676278700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219676278700&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Cozy Autumn Instagram-Square Post with Brown](https://cdn-basic-content-api.picsart.io/p/5695bb5c-9fd3-48ba-ac04-3e4c469edd9b.png)
-[Try it out](/create/editor/?template=8911755783722852&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8911755783722852&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Explore Arizona This Summer Travel Poster](https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png)
 Plus
-[Try it out](/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Warm Autumn Vibes Instagram-Square Post Template](https://cdn-basic-content-api.picsart.io/p/e7997f4a-f294-45a9-a31b-9763e4fe62c0.png)
-[Try it out](/create/editor/?template=3811755713328049&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3811755713328049&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Summer Road Trip Instagram Story Template White](https://cdn-basic-content-api.picsart.io/p/2bd8b851-7dc1-4338-8847-59a4e0999e53.png)
 Plus
-[Try it out](/create/editor/?template=8561787925599143&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8561787925599143&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Santorini Life Experience Travel Poster Pink](https://cdn-template.picsart.com/templates-cdn/64325027-8601-45c8-8a51-d49f8ae23f12.png)
-[Try it out](/create/editor/?template=388219677104700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219677104700&category=templates&source=templates&origin=template_item)
 ![image creative 244x305: Vintage Beige Instagram Portrait Post Summer Fun](https://cdn-basic-content-api.picsart.io/p/998f8957-b6c2-444b-87ae-a6ada8ac150c.png)
 Plus
-[Try it out](/create/editor/?template=8421787925729111&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8421787925729111&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Chic Travel Postcard Template in Pastel Tones](https://cdn-template.picsart.com/templates-cdn/a552d0ef-06f2-4549-90ec-39f057b5e8e8.png)
-[Try it out](/create/editor/?template=388219677006700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219677006700&category=templates&source=templates&origin=template_item)
 ![image creative 244x305: Retro Summer Poster with Blue and Pink Hues](https://cdn-basic-content-api.picsart.io/p/c86611d4-671e-48a6-b5f4-ac8be827408c.png)
 Plus
-[Try it out](/create/editor/?template=6641787925762285&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6641787925762285&category=templates&source=templates&origin=template_item)
 Browse collage templates
 
 ## S16 link-grid

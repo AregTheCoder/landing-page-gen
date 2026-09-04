@@ -16,8 +16,10 @@ compare-models 18, ai-tool 13, hub 13). Regenerate with
 `hub` (catalog pages, no campaign media); add them with `fetch --family hub`.
 Snapshots live in `corpus/pages/<slug>/` (raw.html, page.html with `data-lp*`
 stamps and local `media/` links, media/, page.png, render.json, meta.json,
-sections.md); only sections.md and meta.json are committed. About 9 MB of
-media per page (images 5 MB, videos 4 MB), so roughly 2 GB for the corpus.
+sections.md); only sections.md and meta.json are committed. The 199
+snapshots take 4 GB on disk (media, full-page screenshots, raw HTML); 9 of
+4551 media nodes point at assets the CDN no longer serves (404) and keep
+their absolute URL.
 
 ## Decisions log
 

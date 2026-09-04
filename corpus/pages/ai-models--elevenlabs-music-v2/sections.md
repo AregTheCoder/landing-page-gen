@@ -87,29 +87,29 @@ See all tutorials
 
 ### Explore more models like ElevenLabs Music v2
 Compare ElevenLabs Music v2 with other audio models for music, sound, and creative production.
-[KL Kling T2A New](/ai-playground/?model=kling-t2a&mode=audio)
+[KL Kling T2A New](https://picsart.com/ai-playground/?model=kling-t2a&mode=audio)
 Text-to-audio clips of 3–10 seconds from a prompt description. Cinematic Music generation See model
-[KL Kling V2A New](/ai-playground/?model=kling-v2a&mode=audio)
+[KL Kling V2A New](https://picsart.com/ai-playground/?model=kling-v2a&mode=audio)
 Extract or generate a matching audio track from an uploaded video. Cinematic Music generation See model
-[SA Seed Audio Multilingual New](/ai-playground/?model=seed-audio-1.0-multilingual&mode=audio)
+[SA Seed Audio Multilingual New](https://picsart.com/ai-playground/?model=seed-audio-1.0-multilingual&mode=audio)
 Synthesize natural speech in 20 languages — pick a named voice or clone one from a reference audio. Reference input Music generation See model
-[SA Seed Audio New](/ai-playground/?model=seed-audio-1.0&mode=audio)
+[SA Seed Audio New](https://picsart.com/ai-playground/?model=seed-audio-1.0&mode=audio)
 Synthesize natural English or Chinese speech — pick a named voice or clone one from a reference audio. Reference input Music generation See model
-[GR Grok TTS](/ai-playground/?model=grok-tts&mode=audio)
+[GR Grok TTS](https://picsart.com/ai-playground/?model=grok-tts&mode=audio)
 Expressive text-to-speech from xAI Grok with multilingual support. Music generation See model
-[Gemini 2.5 Flash TTS](/ai-playground/?model=gemini-2.5-flash-tts&mode=audio)
+[Gemini 2.5 Flash TTS](https://picsart.com/ai-playground/?model=gemini-2.5-flash-tts&mode=audio)
 Google Gemini native text-to-speech with expressive multilingual voices. Fast generation Music generation See model
-[Gemini 2.5 Pro TTS](/ai-playground/?model=gemini-2.5-pro-tts&mode=audio)
+[Gemini 2.5 Pro TTS](https://picsart.com/ai-playground/?model=gemini-2.5-pro-tts&mode=audio)
 Premium Gemini TTS with richer expressiveness and multi-speaker support. Pro quality Music generation See model
-[EL Eleven v3](/ai-playground/?model=eleven-v3&mode=audio)
+[EL Eleven v3](https://picsart.com/ai-playground/?model=eleven-v3&mode=audio)
 Latest voice engine with expanded tone and pacing control. Music generation See model
-[EL Eleven Multilingual v2](/ai-playground/?model=eleven-multilingual-v2&mode=audio)
+[EL Eleven Multilingual v2](https://picsart.com/ai-playground/?model=eleven-multilingual-v2&mode=audio)
 Stable multilingual speech across 29+ languages with natural rhythm. Music generation See model
-[EL ElevenLabs SFX v2](/ai-playground/?model=elevenlabs-sfx&mode=audio)
+[EL ElevenLabs SFX v2](https://picsart.com/ai-playground/?model=elevenlabs-sfx&mode=audio)
 Create custom sound effects from a text description — up to 30 seconds. Music generation See model
-[EL ElevenLabs Music v2](/ai-playground/?model=elevenlabs-music-v2&mode=audio)
+[EL ElevenLabs Music v2](https://picsart.com/ai-playground/?model=elevenlabs-music-v2&mode=audio)
 Generate music with vocals or instrumental from a text prompt. Music generation See model
-[EL Eleven STS v2](/ai-playground/?model=eleven-sts-v2&mode=audio)
+[EL Eleven STS v2](https://picsart.com/ai-playground/?model=eleven-sts-v2&mode=audio)
 Swap your voice to a different speaker while keeping timing and emotion. Music generation See model
 
 ## S11 faq

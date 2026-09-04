@@ -13,29 +13,29 @@ Design a poster
 
 ### Design posters with AI image models
 Use image models to transform posters into polished visuals, design ideas, and ready-to-edit assets.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -70,42 +70,42 @@ Use the Start creating button to open the Picsart editor and get started.
 It’s easy to create art with graphic design templates. Choose from stunning templates made by professional designers and edit them with just a few clicks.
 ![image creative 244x377: Fall Style Poster with Earthy Vibes](https://cdn-basic-content-api.picsart.io/p/5c95e58c-5653-48a2-b54c-4df39fd8792e.png)
 Plus
-[Try it out](/create/editor/?template=6171719864497731&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6171719864497731&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Vibrant Green Back-to-School Poster Design](https://cdn-template.picsart.com/templates-cdn/7b55ae43-1fa7-4f0f-a418-742fef17127c.jpg)
-[Try it out](/create/editor/?template=400091963007700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=400091963007700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Elegant Fall Fashion Poster with Beige Footwear](https://cdn-basic-content-api.picsart.io/p/f4b34e78-a548-4def-b5f7-6db0fec71bd3.png)
 Plus
-[Try it out](/create/editor/?template=4871718366765936&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4871718366765936&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Energize Learning with Yellow School Poster](https://cdn-basic-content-api.picsart.io/p/5bb8a98a-af88-426a-b6db-aad1fb703f0c.png)
-[Try it out](/create/editor/?template=405530153037700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=405530153037700&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Inspirational Teacher Instagram-Story in White and Black](https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png)
 Plus
-[Try it out](/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Summer Sale Teal and Pink Poster Design](https://cdn-template.picsart.com/templates-cdn/b18e90f1-a028-437c-9e0d-3d0b5d0f8c55.jpg)
-[Try it out](/create/editor/?template=388219686012700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219686012700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Explore Italy's Wonders with This Poster](https://cdn-basic-content-api.picsart.io/p/e910d03a-4e85-41a2-b61f-9b96558b8cba.png)
 Plus
-[Try it out](/create/editor/?template=5281743020555097&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5281743020555097&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Vibrant Blue Instagram Story For Back To School](https://cdn-basic-content-api.picsart.io/p/84758a21-f09d-41ba-a831-951e6e7087d5.png)
-[Try it out](/create/editor/?template=1571752661965452&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1571752661965452&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Explore Iconic Dubai Landmarks Poster in Blue](https://cdn-basic-content-api.picsart.io/p/a3b7e70e-1711-41b0-9f96-49b275666b35.png)
 Plus
-[Try it out](/create/editor/?template=1511743017168546&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1511743017168546&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Educational Inspirational Poster Design Teal Orange](https://cdn-template.picsart.com/templates-cdn/d95a4386-9352-4dd5-8c2f-87cb4680ccd5.jpg)
-[Try it out](/create/editor/?template=388219683250700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219683250700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Explore Arizona This Summer Travel Poster](https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png)
 Plus
-[Try it out](/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Chic Red Shoe Styles Fall Poster Design](https://cdn-basic-content-api.picsart.io/p/c636c95b-ff90-4c01-9387-15c5c5cdae0b.png)
-[Try it out](/create/editor/?template=8211718365952595&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8211718365952595&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Vibrant Anniversary Sale Poster in Black](https://cdn-basic-content-api.picsart.io/p/39c40f4a-4d1d-465b-958b-3c328468d638.png)
 Plus
-[Try it out](/create/editor/?template=2231722523512912&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2231722523512912&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Stylish Seasonal Fashion Sale Poster Design](https://cdn-basic-content-api.picsart.io/p/6324ae1d-7195-4d42-99ff-75a03e6ecf8d.png)
-[Try it out](/create/editor/?template=6651719235230524&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6651719235230524&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Summer Sale Poster in Brown Tones](https://cdn-basic-content-api.picsart.io/p/f2e23df1-18a1-4e5f-ad92-f58f6f712620.png)
 Plus
-[Try it out](/create/editor/?template=8671719320217353&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8671719320217353&category=templates&source=templates&origin=template_item)
 See all
 
 ## S06 feature-callout

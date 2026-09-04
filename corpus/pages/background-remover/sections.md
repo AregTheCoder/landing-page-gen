@@ -161,7 +161,7 @@ Margaret
 Very excellent, I am highly impressed! I don't mind calling Picsart the best of the best!
 Emmanuel
 
-## S14 feature-list
+## S14 feature-callout
 
 ### BG Remover made simple: Photo editing tutorial for clean cutouts
 Want to learn how to remove backgrounds like a pro? This photo editing tutorial introduces one of the most useful photo editing basics - background removal - and shows you how to do it seamlessly using Picsart’s online tools.

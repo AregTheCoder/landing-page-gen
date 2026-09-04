@@ -13,29 +13,29 @@ Create a PNG logo
 
 ### Improve PNG logos with AI image models
 Use image models to explore logo concepts, clean transparent assets, and brand-ready graphics.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -105,42 +105,42 @@ Create a PNG logo
 Explore Picsart's massive library of ready-to-use templates and create a PNG logo online for free. Design custom stylish PNG logos for your brand and business easily with the PNG logo maker.
 ![image decorative 244x244: Kira Lane Elegant Logo with Black Design](https://cdn-basic-content-api.picsart.io/p/52b80771-6843-4a12-927d-e9db2c79f2ef.png)
 Plus
-[Try it out](/create/editor/?template=6001757079998676&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6001757079998676&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Sleek Black and Gold Pilates Studio Logo](https://cdn-template.picsart.com/templates-cdn/8f7eec6d-e2c3-4826-ba18-7a5dabb619f2.png)
-[Try it out](/create/editor/?template=388219680034700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680034700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Stylish Black Logo Featuring Mode Fit](https://cdn-basic-content-api.picsart.io/p/def57676-7c34-4fdd-8060-2ad9380f2d2b.png)
 Plus
-[Try it out](/create/editor/?template=7821757079799713&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7821757079799713&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Elegant Green Health Branding Logo Design](https://cdn-template.picsart.com/templates-cdn/51bb43e2-2b51-41fc-87c1-825d40912b31.png)
-[Try it out](/create/editor/?template=388219680041700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680041700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Lotus Calm Purple Logo Design Template](https://cdn-basic-content-api.picsart.io/p/43f5e51c-55a7-41a4-9056-3691c7c405f5.png)
 Plus
-[Try it out](/create/editor/?template=6111757077709348&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6111757077709348&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Bold Black Friday Sale Poster Design](https://cdn-template.picsart.com/templates-cdn/91e66a7f-0455-44df-b654-29adfe9541ea.png)
-[Try it out](/create/editor/?template=388219680039700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680039700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Sleek Black Axis Cloud Logo Design](https://cdn-basic-content-api.picsart.io/p/ab47e37d-c2af-42da-8da0-20c182099e5d.png)
 Plus
-[Try it out](/create/editor/?template=2601757078514947&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2601757078514947&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Vibrant Gym Membership Poster Design](https://cdn-template.picsart.com/templates-cdn/71f2826b-9f79-4642-9989-ec99dbd15803.png)
-[Try it out](/create/editor/?template=388219680054700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680054700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Chic Gray Logo Poster With Text](https://cdn-basic-content-api.picsart.io/p/8c1b9d12-6882-4a74-9199-fe6cd3a77adb.png)
 Plus
-[Try it out](/create/editor/?template=7481757079080826&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7481757079080826&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Chic Orange Black Minimalist Logo Design](https://cdn-template.picsart.com/templates-cdn/0f7daa2e-dda6-4d24-a5bc-c1c8b569aed6.png)
-[Try it out](/create/editor/?template=388219680043700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680043700&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Vibrant Red Pasta Club Poster Design](https://cdn-basic-content-api.picsart.io/p/04b5e6e0-c99d-4879-bdbc-e9863b0d229b.png)
 Plus
-[Try it out](/create/editor/?template=2021756464847090&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2021756464847090&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Elegant Black and White Logo Poster Design](https://cdn-basic-content-api.picsart.io/p/8a94b6e7-4ba4-49d4-b1fd-ad79424da312.png)
-[Try it out](/create/editor/?template=406725853014700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=406725853014700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Luna Flow Yoga Logo in Vibrant Blue](https://cdn-basic-content-api.picsart.io/p/85f01ea0-ba93-44fe-9913-17d4e275b9ed.png)
 Plus
-[Try it out](/create/editor/?template=1881757077444158&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1881757077444158&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Chic Monochrome Designer Business Card Post](https://cdn-basic-content-api.picsart.io/p/84bf9e5e-3aa5-4c89-a020-35a2ef746c71.png)
-[Try it out](/create/editor/?template=406725899007700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=406725899007700&category=templates&source=templates&origin=template_item)
 ![image decorative 244x244: Sage Green Botanical Logo Poster Design](https://cdn-basic-content-api.picsart.io/p/ba2f3475-899d-44f4-b124-b5e034ed5533.png)
 Plus
-[Try it out](/create/editor/?template=6761756460782421&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6761756460782421&category=templates&source=templates&origin=template_item)
 Create a PNG logo
 
 ## S11 feature-callout

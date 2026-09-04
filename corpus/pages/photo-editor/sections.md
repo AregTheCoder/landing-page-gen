@@ -17,15 +17,15 @@ Edit photos, create designs, and generate visuals with intuitive tools and built
 
 ### Get a complete photo editing toolkit in one place
 ![image creative 276x276: photo editing toolkit](https://cdn-cms-uploads.picsart.com/cms-uploads/7ec123fe-f550-4527-965e-34513d0dcfb2.avif)
-[Edit a photo](/create/editor/?category=text)
+[Edit a photo](https://picsart.com/create/editor/?category=text)
 ![image ui-screenshot 276x276: add text to photo with Picsart photo editor](https://cdn-cms-uploads.picsart.com/cms-uploads/23e0ccff-1a6c-4260-afcd-0c2e75d75e7a.avif)
-[Edit a photo](/create/editor/?category=text)
+[Edit a photo](https://picsart.com/create/editor/?category=text)
 ![image ui-screenshot 276x276: change background with Picsart photo editor](https://cdn-cms-uploads.picsart.com/cms-uploads/577b9deb-f15f-4c4e-8586-b1e91686d4c2.avif)
-[Edit a photo](/create/editor/?category=text)
+[Edit a photo](https://picsart.com/create/editor/?category=text)
 ![image ui-screenshot 276x276: remove photo background with Picsart photo editor](https://cdn-cms-uploads.picsart.com/cms-uploads/3a33d302-4dbc-4e9e-847e-3c4c1df869ea.avif)
-[Edit a photo](/create/editor/?category=text)
+[Edit a photo](https://picsart.com/create/editor/?category=text)
 ![image creative 276x276: photo editing toolkit with ai features](https://cdn-cms-uploads.picsart.com/cms-uploads/a7c397b2-771b-4bee-9f75-71e0ae48e0a2.avif)
-[Edit a photo](/create/editor/?category=text)
+[Edit a photo](https://picsart.com/create/editor/?category=text)
 
 ## S03 feature-row
 

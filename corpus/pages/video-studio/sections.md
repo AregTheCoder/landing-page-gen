@@ -7,11 +7,11 @@
 ## Video Studio: all your video tools in one place
 Trim, merge, crop, resize, convert, compress, change speed, add effects, remove backgrounds, and blur faces - every quick video tool in one place. Picsart's Video Studio runs free in your browser, so you can edit and export in seconds with nothing to install.
 [button: Edit videos]
-[Try this vibe](edit videos online)
-[Try this vibe](video studio online for free)
-[Try this vibe](online video studio)
-[Try this vibe](edit videos with video studio toolkit)
-[Try this vibe](free video studio )
+[Try this vibe](https://picsart.com/edit videos online)
+[Try this vibe](https://picsart.com/video studio online for free)
+[Try this vibe](https://picsart.com/online video studio)
+[Try this vibe](https://picsart.com/edit videos with video studio toolkit)
+[Try this vibe](https://picsart.com/free video studio )
 
 ## S02 feature-row
 

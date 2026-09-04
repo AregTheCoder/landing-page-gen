@@ -13,29 +13,29 @@ Make a card
 
 ### Design cards with AI image models
 Use image models to transform cards into polished visuals, design ideas, and ready-to-edit assets.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -70,42 +70,42 @@ Browse through the card templates library to find something that fits your visio
 Just select a template that closely resembles your vision and the occasion, customize the text, add photos if necessary, and you’re good to go!
 ![image creative 244x434: Blue and White Greek Travel Post Template](https://cdn-template.picsart.com/templates-cdn/d7b55eac-58e1-4307-9667-434f43d3641d.png)
 Plus
-[Try it out](/create/editor/?template=388219676278700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219676278700&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Autumn Orange Thanksgiving Bingo Poster](https://cdn-basic-content-api.picsart.io/p/5163d720-a12d-4c5c-9442-ed6ab2c7517d.png)
-[Try it out](/create/editor/?template=388219690089700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219690089700&category=templates&source=templates&origin=template_item)
 ![image creative 244x342: Warm Thanksgiving Dinner Invitation Card](https://cdn-basic-content-api.picsart.io/p/0a740f7c-ce21-4c44-bf6f-158f7153c948.png)
 Plus
-[Try it out](/create/editor/?template=3541760438471380&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3541760438471380&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Santorini Life Experience Travel Poster Pink](https://cdn-template.picsart.com/templates-cdn/64325027-8601-45c8-8a51-d49f8ae23f12.png)
-[Try it out](/create/editor/?template=388219677104700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219677104700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Orange Summer Hats Gift Card Voucher Design](https://cdn-basic-content-api.picsart.io/p/696adcb9-5ecc-454e-b5c0-4ce45f0d4091.png)
 Plus
-[Try it out](/create/editor/?template=4931717436507635&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4931717436507635&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Chic Pink Blue Travel Diary Post](https://cdn-template.picsart.com/templates-cdn/188b63c8-bf5d-40d3-af05-4996b8d82805.png)
-[Try it out](/create/editor/?template=388219676275700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219676275700&category=templates&source=templates&origin=template_item)
 ![image creative 244x342: Warm Apricot Thanksgiving Greeting Card Design](https://cdn-basic-content-api.picsart.io/p/241c701d-79ee-4747-b7bc-dcef01ee1272.png)
 Plus
-[Try it out](/create/editor/?template=5141714483305311&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5141714483305311&category=templates&source=templates&origin=template_item)
 ![image creative 244x341: Autumn Shades Thanksgiving Family Post](https://cdn-basic-content-api.picsart.io/p/e1dba075-72ac-4d50-a1f2-5ee4e47aabee.png)
-[Try it out](/create/editor/?template=388219688287700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219688287700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Elegant Grand Opening Gift Card Design](https://cdn-basic-content-api.picsart.io/p/3ec81d23-ab41-4ab6-a5ed-55d1ddd836c8.png)
 Plus
-[Try it out](/create/editor/?template=4571719486970794&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4571719486970794&category=templates&source=templates&origin=template_item)
 ![image creative 244x341: Warm Autumn Gratitude Family Thanksgiving Poster](https://cdn-basic-content-api.picsart.io/p/a869df00-9e20-4478-a8f3-4607aa3cb4ec.png)
-[Try it out](/create/editor/?template=388219688289700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219688289700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Chic Pink Fall Boots Gift Card Voucher](https://cdn-basic-content-api.picsart.io/p/5c00a559-9f3b-4096-bba1-7ecd3bd9a180.png)
 Plus
-[Try it out](/create/editor/?template=3671718782273029&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3671718782273029&category=templates&source=templates&origin=template_item)
 ![image creative 244x341: Autumn Harvest Family Gathering Invitation Post](https://cdn-basic-content-api.picsart.io/p/a5aa7364-27ec-44fa-8346-2b0e1e241ccb.png)
-[Try it out](/create/editor/?template=388219688288700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219688288700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Red Shoe Giveaway Gift Card with Purple Flair](https://cdn-basic-content-api.picsart.io/p/3f5c7dfe-1281-4a7b-9675-08b6080b2707.png)
 Plus
-[Try it out](/create/editor/?template=4041718883061593&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4041718883061593&category=templates&source=templates&origin=template_item)
 ![image creative 1500x2100: Autumnal Thanksgiving Greetings Poster Design](https://cdn-basic-content-api.picsart.io/p/0e903c2b-f46c-461f-b949-b41aae6bf832.png)
-[Try it out](/create/editor/?template=388219678072700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219678072700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Orange Autumn Sale and Giveaway Gift-Card Ad](https://cdn-basic-content-api.picsart.io/p/bab98c45-96e0-4814-8900-4ddb84da7e85.png)
 Plus
-[Try it out](/create/editor/?template=3951718874271966&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3951718874271966&category=templates&source=templates&origin=template_item)
 
 ## S06 feature-callout
 

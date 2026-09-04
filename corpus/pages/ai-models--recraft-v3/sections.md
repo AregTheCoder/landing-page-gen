@@ -109,29 +109,29 @@ See all tutorials
 
 ### Explore more models like Recraft V3
 Compare Recraft V3 with other image models for campaign visuals, design assets, and creative tests.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S11 faq

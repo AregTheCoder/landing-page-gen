@@ -13,29 +13,29 @@ Create a wallpaper
 
 ### Design wallpapers with AI image models
 Use image models to transform wallpapers into polished visuals, design ideas, and ready-to-edit assets.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -156,42 +156,42 @@ Poster Maker Design eye-catching posters for any purpose without needing design 
 The Picsart wallpaper creator comes with a vast selection of wallpaper templates for all occasions. Here’s a sneak peek at the wallpaper templates waiting for you in Picsart.
 ![image creative 244x137: Summer Vision Board Desktop Wallpaper Background in Orange](https://cdn-basic-content-api.picsart.io/p/59c27396-1d48-4964-b154-ec22329a0db2.png)
 Plus
-[Try it out](/create/editor/?template=7851764685305948&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7851764685305948&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Golden Hour Desktop Wallpaper Background in Orange](https://cdn-basic-content-api.picsart.io/p/bb564284-dba5-4654-beac-d3b117e853f6.png)
-[Try it out](/create/editor/?template=5901755862112889&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=5901755862112889&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Trendy Yellow Phone Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/be66e1b4-5973-453b-aa36-a7598bc68dbf.png)
 Plus
-[Try it out](/create/editor/?template=2141748862767540&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2141748862767540&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Serene Desktop Wallpaper Background in Golden Hues](https://cdn-basic-content-api.picsart.io/p/96767db2-3837-4e03-a472-3bbd3ad22708.png)
-[Try it out](/create/editor/?template=6311755857737329&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6311755857737329&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Elegant Black and White Planner Voucher Template](https://cdn-basic-content-api.picsart.io/p/6ff5aba5-d135-4f9e-a294-147cd7854a53.png)
 Plus
-[Try it out](/create/editor/?template=6131695658758105&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6131695658758105&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Inspiring Vision Board Desktop Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png)
-[Try it out](/create/editor/?template=4841764595505799&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4841764595505799&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Sage Green Elegant Organizational Post Template](https://cdn-basic-content-api.picsart.io/p/2aa2916e-b698-49b8-aedf-2f3ded19d341.png)
 Plus
-[Try it out](/create/editor/?template=3961696504586189&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3961696504586189&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Charming Cat Trio Social Media Post](https://cdn-basic-content-api.picsart.io/p/2a0d3a6a-7f0d-481c-b297-6936f4b414b7.png)
-[Try it out](/create/editor/?template=3371695220527745&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3371695220527745&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Vision Board Desktop Wallpaper Background in Beige](https://cdn-basic-content-api.picsart.io/p/b4e3eb13-bfad-43c9-b30a-8b9c72ad1dae.png)
 Plus
-[Try it out](/create/editor/?template=8901764600544759&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8901764600544759&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Earthy Tones Organizer Post Template Design](https://cdn-basic-content-api.picsart.io/p/2b05c521-c2e1-44f0-a194-7e23dcf305fe.png)
-[Try it out](/create/editor/?template=2461695658997204&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2461695658997204&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Refreshing Phone Wallpaper Background for New Month Energy](https://cdn-basic-content-api.picsart.io/p/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec.png)
 Plus
-[Try it out](/create/editor/?template=4731764661598291&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=4731764661598291&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Sail Away Designs Nautical Poster with Blue Hues](https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6654.jpg)
-[Try it out](/create/editor/?template=390120491037700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=390120491037700&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Serene Lifestyle Phone Wallpaper Background in Beige](https://cdn-basic-content-api.picsart.io/p/94ba0101-852b-4143-9f4d-8950a208f9ba.png)
 Plus
-[Try it out](/create/editor/?template=3781764671164828&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3781764671164828&category=templates&source=templates&origin=template_item)
 ![image creative 244x137: Blue Wave Surfing Poster Template Design](https://cdn-template.picsart.com/templates-cdn/c579b7d5-60c3-4b79-9798-99bdd27f4d29.png)
-[Try it out](/create/editor/?template=388219680071700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219680071700&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Inspiring Vision Board Phone Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/b8224b9a-8746-40af-b413-b664176196d7.png)
 Plus
-[Try it out](/create/editor/?template=8701764693818562&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8701764693818562&category=templates&source=templates&origin=template_item)
 See all templates
 
 ## S15 pricing

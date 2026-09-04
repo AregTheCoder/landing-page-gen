@@ -13,29 +13,29 @@ Upload image
 
 ### Make image-to-video clips with AI video models
 Use video models to transform clips, footage, and prompts into image-to-video clips for social, ads, and creative workflows.
-[SE Seedance 2.0 New](/ai-models/seedance-2-0/)
+[SE Seedance 2.0 New](https://picsart.com/ai-models/seedance-2-0/)
 Next-gen cinematic video with optional audio and reference image. Up to 4K. Reference input Audio 4K Cinematic See model
-[SE Seedance 2.0 Fast New](/ai-playground/?model=seedance-2.0-fast&mode=video)
+[SE Seedance 2.0 Fast New](https://picsart.com/ai-playground/?model=seedance-2.0-fast&mode=video)
 Fast cinematic video with audio, reference images, and start/end frame control. Reference input Audio Fast generation Cinematic See model
-[SE Seedance 2.0 Video Edit New](/ai-playground/?model=seedance-2.0-video-edit&mode=video)
+[SE Seedance 2.0 Video Edit New](https://picsart.com/ai-playground/?model=seedance-2.0-video-edit&mode=video)
 Edit video — replace subjects, add or remove objects, restyle scenes with reference images. Video editing Reference input Video generation See model
-[SE Seedance 2.0 Fast Video Edit New](/ai-playground/?model=seedance-2.0-fast-video-edit&mode=video)
+[SE Seedance 2.0 Fast Video Edit New](https://picsart.com/ai-playground/?model=seedance-2.0-fast-video-edit&mode=video)
 Fast video edit — modify scenes with reference images. Video editing Reference input Fast generation See model
-[Sora 2 Pro](/ai-playground/?model=sora-2-pro&mode=video)
+[Sora 2 Pro](https://picsart.com/ai-playground/?model=sora-2-pro&mode=video)
 Up to 1080p with strong physical realism and optional reference image. Reference input 1080p Pro quality Cinematic See model
-[Sora 2](/ai-models/sora-2/)
+[Sora 2](https://picsart.com/ai-models/sora-2/)
 Naturalistic 720p video with lifelike motion and character detail. Cinematic Video generation See model
-[WA Wan 2.7](/ai-models/wan-2-7/)
+[WA Wan 2.7](https://picsart.com/ai-models/wan-2-7/)
 Wan 2.7 T2V — up to 15s at 1080p with audio input and prompt enhancement. Text to video Audio 1080p Cinematic See model
-[KL Kling V3](/ai-playground/?model=kling-v3&mode=video)
+[KL Kling V3](https://picsart.com/ai-playground/?model=kling-v3&mode=video)
 Long-form video up to 15s with native audio and start/end frame control. Audio Cinematic Video generation See model
-[KL Kling V3 Turbo New](/ai-playground/?model=kling-v3-turbo&mode=video)
+[KL Kling V3 Turbo New](https://picsart.com/ai-playground/?model=kling-v3-turbo&mode=video)
 Faster V3 variant — long-form video up to 15s with native audio, start/end frame control, and 720p/1080p output. Audio 1080p Fast generation Cinematic See model
-[KL Kling V2.6](/ai-playground/?model=kling-v2-6&mode=video)
+[KL Kling V2.6](https://picsart.com/ai-playground/?model=kling-v2-6&mode=video)
 Mature pipeline with audio and pro-tier rendering. Audio Pro quality Cinematic See model
-[KL Kling V3 Omni](/ai-playground/?model=kling-v3-omni&mode=video)
+[KL Kling V3 Omni](https://picsart.com/ai-playground/?model=kling-v3-omni&mode=video)
 Flexible generation across creative styles using V3 Omni architecture, with optional 4K output. 4K Cinematic Video generation See model
-[KL Kling Video O1 New](/ai-playground/?model=kling-video-o1&mode=video)
+[KL Kling Video O1 New](https://picsart.com/ai-playground/?model=kling-video-o1&mode=video)
 O1-architecture video generation with 5 or 10 second output. Cinematic Video generation See model
 
 ## S03 cta-band

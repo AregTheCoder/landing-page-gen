@@ -38,7 +38,7 @@ Start editing
 
 ### Your all-in-one Video Editor for easy creation
 Edit videos online for free with a Video Editor designed for easy creation and everyday use. With no setup or learning curve, you can move from quick tweaks to full projects directly in your browser. Video and audio come together on a single timeline, making it easy to organize clips, sound, and layers as you edit.
-[Try now](/create/editor/?category=videos&experienceMode=video)
+[Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
 ![video ui-screenshot 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2b92d8d2-38a9-420d-bf3d-2612241e1c82.webm)
 
 ## S05 feature-callout
@@ -46,13 +46,13 @@ Edit videos online for free with a Video Editor designed for easy creation and e
 ![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/436bc13e-c439-4fed-a7e3-c82858d0fefe.webm)
 ### Enhance videos with text, music, or subtitles
 Enhance your videos with an easy Video Editor built for clear, engaging storytelling. Add text overlays to emphasize key moments, use background music or voiceovers, and generate auto-subtitles for clarity and accessibility. With a multi-track timeline, you can fine-tune fonts, timing, playback speed, and audio levels across layers in a few clicks without complex editing.
-[Try now](/create/editor/?category=videos&experienceMode=video)
+[Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
 
 ## S06 feature-callout
 
 ### Use video editing for social media
 Use a social media Video Editor to edit videos online for Instagram, TikTok, YouTube Shorts, and more. Format, trim, and customize clips to match each platform’s specs while keeping your workflow fast and consistent. Beyond social content, the Video Editor also works for personal projects, announcements, product highlights, and simple promotional videos for small businesses.
-[Try now](/create/editor/?category=videos&experienceMode=video)
+[Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
 ![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b.webm)
 
 ## S07 feature-callout
@@ -60,13 +60,13 @@ Use a social media Video Editor to edit videos online for Instagram, TikTok, You
 ![video ui-screenshot 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6e732a16-a8f3-45e6-bdca-1d5008a5ea0c.webm)
 ### Streamline editing with an AI Video Editor
 Prefer a more automated way to edit? Alongside the standard Video Editor, Picsart also offers a dedicated AI Video Editor designed to speed up everyday tasks. With smart video editing features, AI helps handle adjustments, enhancements, and repetitive edits, while you stay fully in control of the final result. It’s a faster editing option when you want extra help without replacing hands-on creativity.
-[Try now](/create/editor/?category=videos&experienceMode=video)
+[Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
 
 ## S08 feature-callout
 
 ### Create faster using customizable video templates
 Alongside powerful editing tools, Picsart also offers a rich library of video templates to help you get started faster. These customizable video templates give you a strong starting point without locking you in, so you can change text, visuals, music, and timing directly inside the Video Editor. Save time on setup while keeping full creative control over every edit.
-[Try now](/create/editor/?category=videos&experienceMode=video)
+[Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
 ![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/80dfd65a-b289-404a-b8c6-0598c7c1b353.webm)
 
 ## S09 use-case-grid
@@ -79,7 +79,7 @@ Alongside powerful editing tools, Picsart also offers a rich library of video te
 [button: Run marketing campaigns]
 #### Create for social media
 Keep up with trends without long edits. Turn clips into TikToks, Reels, and Shorts with presets, smart cuts, and perfect sizing. Post faster and stay consistent.
-[Create social media video](/create/editor/?category=videos)
+[Create social media video](https://picsart.com/create/editor/?category=videos)
 ![image creative 500x500: Create for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/b21a711b-186b-445c-b004-764cc3d733e9.avif)
 
 ## S10 feature-list

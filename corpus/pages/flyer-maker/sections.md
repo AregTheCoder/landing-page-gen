@@ -13,29 +13,29 @@ Start creating
 
 ### Design flyers with AI image models
 Use image models to transform flyers into polished visuals, design ideas, and ready-to-edit assets.
-[GPT Image 2 New](/ai-models/gpt-2/)
+[GPT Image 2 New](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[Nano Banana 2 New](/ai-models/nano-banana-2/)
+[Nano Banana 2 New](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro New](/ai-models/nano-banana-pro/)
+[Nano Banana Pro New](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex New](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex New](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
-[KL Kling 3.0 Image](/ai-playground/?model=kling-3.0-image&mode=image)
+[KL Kling 3.0 Image](https://picsart.com/ai-playground/?model=kling-3.0-image&mode=image)
 Cinematic visuals with up to 4K resolution and 10 reference images. Reference input 4K Cinematic See model
-[KL Kling O1 Image](/ai-playground/?model=kling-o1-image&mode=image)
+[KL Kling O1 Image](https://picsart.com/ai-playground/?model=kling-o1-image&mode=image)
 O1-architecture image generation with multi-reference support. Reference input Cinematic Image generation See model
-[HU Hunyuan V3](/ai-playground/?model=hunyuan-v3&mode=image)
+[HU Hunyuan V3](https://picsart.com/ai-playground/?model=hunyuan-v3&mode=image)
 Infographic-friendly generation with readable text and cfg control. Image generation See model
-[LU Luma UNI-1](/ai-playground/?model=luma-uni-1&mode=image)
+[LU Luma UNI-1](https://picsart.com/ai-playground/?model=luma-uni-1&mode=image)
 Luma UNI-1 — agentic image generation and editing with up to 9 reference images. Reference input Cinematic Image generation See model
-[LU Luma UNI-1 Max](/ai-playground/?model=luma-uni-1-max&mode=image)
+[LU Luma UNI-1 Max](https://picsart.com/ai-playground/?model=luma-uni-1-max&mode=image)
 Luma UNI-1 Max — higher-quality UNI-1 variant with the same multi-reference editing controls. Reference input Cinematic Image generation See model
-[SE Seedream 5.0 Pro](/ai-playground/?model=seedream-5.0-pro&mode=image)
+[SE Seedream 5.0 Pro](https://picsart.com/ai-playground/?model=seedream-5.0-pro&mode=image)
 Top-tier single-image generation with up to 10 reference images and 2K detail. Reference input Pro quality Image generation See model
-[SE Seedream 4.7](/ai-playground/?model=seedream-4.7&mode=image)
+[SE Seedream 4.7](https://picsart.com/ai-playground/?model=seedream-4.7&mode=image)
 Reliable all-purpose generation with readable text overlay. Image generation See model
 
 ## S03 feature-row
@@ -56,42 +56,42 @@ From custom text and images to brand colors and logos, create 100% unique flyers
 Need design inspiration? Get the ball rolling with premade flyer templates. Create sales promos to attract new clients, make restaurant menus showcasing your offerings, or design recruitment flyers and event announcements to promote your organization.
 ![image creative 244x316: Kids Place Back-to-School Ad with Vibrant Colors](https://cdn-basic-content-api.picsart.io/p/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b.png)
 Plus
-[Try it out](/create/editor/?template=2971678896381704&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2971678896381704&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Blue and Yellow Educational Services Poster](https://cdn-basic-content-api.picsart.io/p/0a66a108-6b5e-403e-95b1-1cc64c9a5270.png)
-[Try it out](/create/editor/?template=394206460035700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=394206460035700&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Teal Instagram-Square Grand Opening Post](https://cdn-basic-content-api.picsart.io/p/3c080de4-1a0f-4492-919f-2a9d3d07799a.png)
 Plus
-[Try it out](/create/editor/?template=1881719499912904&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1881719499912904&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Bright Blue and Pink Summer Sale Poster](https://cdn-template.picsart.com/templates-cdn/7a0f7563-d949-441e-ac84-cb0433b73d68.jpg)
-[Try it out](/create/editor/?template=392559152043700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=392559152043700&category=templates&source=templates&origin=template_item)
 ![image creative 244x122: Vibrant Purple Seminar Banner for Sexual Health Education](https://cdn-basic-content-api.picsart.io/p/471a3601-89c5-4347-8455-272fe44e4cde.png)
 Plus
-[Try it out](/create/editor/?template=7881756863373505&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7881756863373505&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Vibrant Yellow and Black Photography Exhibit Poster](https://cdn-basic-content-api.picsart.io/p/29d2cf10-48e1-4106-a656-9bdaaeddc7b6.png)
-[Try it out](/create/editor/?template=388219693026700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=388219693026700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Bold Black and Gold Friday Flyer](https://cdn-basic-content-api.picsart.io/p/0292d436-0202-4430-9403-594241842702.png)
 Plus
-[Try it out](/create/editor/?template=6961762363771882&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=6961762363771882&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Teal and Chalkboard Educational Center Poster](https://cdn-basic-content-api.picsart.io/p/c766aa44-5bab-4c52-a095-f777873b5c17.png)
-[Try it out](/create/editor/?template=394206356021700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=394206356021700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Black Friday Sale Flyer With Black Elegance](https://cdn-basic-content-api.picsart.io/p/610afd69-b6f5-4c78-82fa-0baef760f311.png)
 Plus
-[Try it out](/create/editor/?template=8711762261672311&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8711762261672311&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Vibrant Purple School Event Poster Design](https://cdn-basic-content-api.picsart.io/p/2fda439c-655a-4b1d-aed4-f16484f0126f.png)
-[Try it out](/create/editor/?template=391269708013700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=391269708013700&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Red and Blue Independence Day Sale Poster](https://cdn-basic-content-api.picsart.io/p/da97fb46-b3e8-4926-85ad-34e2c338793e.png)
 Plus
-[Try it out](/create/editor/?template=8341678896543142&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=8341678896543142&category=templates&source=templates&origin=template_item)
 ![image creative 244x316: Boost Your Test Scores SAT Prep Ad in Earthy Tones](https://cdn-basic-content-api.picsart.io/p/4786e58b-5685-4697-af5f-e490660b8567.png)
-[Try it out](/create/editor/?template=391346098006700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=391346098006700&category=templates&source=templates&origin=template_item)
 ![image creative 244x346: Elegant Beige Flyer for Luxury Real Estate](https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.png)
 Plus
-[Try it out](/create/editor/?template=7341772533380431&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=7341772533380431&category=templates&source=templates&origin=template_item)
 ![image creative 2550x3300: Orange Melody Dynamo Music Poster](https://cdn-template.picsart.com/templates-cdn/94d8ad0a-14a3-4887-9be0-80b3da44af11.jpg)
-[Try it out](/create/editor/?template=391348709023700&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=391348709023700&category=templates&source=templates&origin=template_item)
 ![image creative 244x271: Elegant White Flyer with Inspirational Message](https://cdn-basic-content-api.picsart.io/p/81be117d-8812-40b2-af13-f67c0c2c196d.png)
 Plus
-[Try it out](/create/editor/?template=2021765363351333&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=2021765363351333&category=templates&source=templates&origin=template_item)
 
 ## S05 how-it-works
 

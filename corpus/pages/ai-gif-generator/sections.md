@@ -13,29 +13,29 @@ Start creating
 
 ### Create GIFs with AI image and video models
 Use image and video models to turn still ideas into animated GIFs and short social loops.
-[GPT Image 2 New Image](/ai-models/gpt-2/)
+[GPT Image 2 New Image](https://picsart.com/ai-models/gpt-2/)
 Next-gen GPT image model with arbitrary output dimensions and multi-image input. Reference input Image generation See model
-[SE Seedance 2.0 New Video](/ai-models/seedance-2-0/)
+[SE Seedance 2.0 New Video](https://picsart.com/ai-models/seedance-2-0/)
 Next-gen cinematic video with optional audio and reference image. Up to 4K. Reference input Audio 4K Cinematic See model
-[SE Seedance 2.0 Fast New Video](/ai-playground/?model=seedance-2.0-fast&mode=video)
+[SE Seedance 2.0 Fast New Video](https://picsart.com/ai-playground/?model=seedance-2.0-fast&mode=video)
 Fast cinematic video with audio, reference images, and start/end frame control. Reference input Audio Fast generation Cinematic See model
-[SE Seedance 2.0 Video Edit New Video](/ai-playground/?model=seedance-2.0-video-edit&mode=video)
+[SE Seedance 2.0 Video Edit New Video](https://picsart.com/ai-playground/?model=seedance-2.0-video-edit&mode=video)
 Edit video — replace subjects, add or remove objects, restyle scenes with reference images. Video editing Reference input Video generation See model
-[SE Seedance 2.0 Fast Video Edit New Video](/ai-playground/?model=seedance-2.0-fast-video-edit&mode=video)
+[SE Seedance 2.0 Fast Video Edit New Video](https://picsart.com/ai-playground/?model=seedance-2.0-fast-video-edit&mode=video)
 Fast video edit — modify scenes with reference images. Video editing Reference input Fast generation See model
-[Sora 2 Pro Video](/ai-playground/?model=sora-2-pro&mode=video)
+[Sora 2 Pro Video](https://picsart.com/ai-playground/?model=sora-2-pro&mode=video)
 Up to 1080p with strong physical realism and optional reference image. Reference input 1080p Pro quality Cinematic See model
-[Sora 2 Video](/ai-models/sora-2/)
+[Sora 2 Video](https://picsart.com/ai-models/sora-2/)
 Naturalistic 720p video with lifelike motion and character detail. Cinematic Video generation See model
-[WA Wan 2.7 Video](/ai-models/wan-2-7/)
+[WA Wan 2.7 Video](https://picsart.com/ai-models/wan-2-7/)
 Wan 2.7 T2V — up to 15s at 1080p with audio input and prompt enhancement. Text to video Audio 1080p Cinematic See model
-[Nano Banana 2 Image](/ai-models/nano-banana-2/)
+[Nano Banana 2 Image](https://picsart.com/ai-models/nano-banana-2/)
 Fast 4K generation with accurate text and search-grounded accuracy. 4K Fast generation Image generation See model
-[Nano Banana Pro Image](/ai-models/nano-banana-pro/)
+[Nano Banana Pro Image](https://picsart.com/ai-models/nano-banana-pro/)
 Top-tier 4K images with precise multilingual text rendering. 4K Pro quality Image generation See model
-[FL Flux 2 Flex Image](/ai-models/flux-2-flex/)
+[FL Flux 2 Flex Image](https://picsart.com/ai-models/flux-2-flex/)
 Adaptable generation across varied visual styles up to 4K. 4K Image generation See model
-[SE Seedream 5.0 Lite Image](/ai-playground/?model=seedream-5.0-lite&mode=image)
+[SE Seedream 5.0 Lite Image](https://picsart.com/ai-playground/?model=seedream-5.0-lite&mode=image)
 Speedy 3K output with negative prompt and dual-image input support. Reference input Fast generation Image generation See model
 
 ## S03 feature-row
