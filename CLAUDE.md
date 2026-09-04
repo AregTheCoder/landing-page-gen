@@ -48,9 +48,10 @@ the served URL is kept on each element as `data-lp-src`.
 - A worker writes `workflow.yaml` (every step, model, params, gate) before
   running anything, and preflights every paid step. `result.md` follows the
   output contract in the `build-landing-page` skill.
-- Paid calls only on the `b05f6314` connector, only inside an active run
-  (`runs/current`), only after a preflight. The `hooks/` scripts enforce this
-  and log every URL to `ledger.jsonl`.
+- Paid calls only on the `b05f6314` connector and only after a preflight.
+  Inside an active run (`runs/current` exists) the `hooks/` scripts enforce
+  this, deny dry-run and over-cap calls, and log every URL to
+  `ledger.jsonl`; outside a run the guard allows everything.
 - Roles `ui-screenshot`, `icon`, `decorative` are never generated.
 - Images carry no text; page copy is HTML.
 - Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.

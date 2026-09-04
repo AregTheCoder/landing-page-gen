@@ -22,11 +22,12 @@ DEFAULT_MODELS = {
 
 
 def current_run():
+    """<repo>/runs/current, located from this file: CLAUDE_PROJECT_DIR points
+    at the workspace folder, not this repo, and the cwd is not guaranteed."""
     override = os.environ.get("LP_RUNS_CURRENT")
     if override:
         return Path(override)
-    root = Path(os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd()))
-    return root / "runs" / "current"
+    return Path(__file__).resolve().parents[1] / "runs" / "current"
 
 
 def read_hook_input():
