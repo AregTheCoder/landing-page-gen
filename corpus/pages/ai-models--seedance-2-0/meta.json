@@ -4,5 +4,9 @@
  "title": "Seedance 2.0 AI Model \u2013 Multimodal Video & Image Generation",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:18:05+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 44,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Recraft V3 - Design-Aware Ai Image Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:15:46+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 34,
+  "failed": 0
+ }
 }

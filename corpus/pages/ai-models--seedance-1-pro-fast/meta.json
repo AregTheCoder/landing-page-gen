@@ -4,5 +4,9 @@
  "title": "Seedance 1 Pro Fast - Rapid AI Video Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:17:45+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 42,
+  "failed": 0
+ }
 }

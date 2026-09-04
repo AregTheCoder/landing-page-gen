@@ -4,5 +4,9 @@
  "title": "Recraft Explore - Recraft's Discovery AI Image Model",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:15:37+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 28,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Recraft V4.1 \u2014 Design-quality AI image generation in Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:15:57+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 35,
+  "failed": 0
+ }
 }

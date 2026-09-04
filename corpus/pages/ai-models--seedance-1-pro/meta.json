@@ -4,5 +4,9 @@
  "title": "Seedance 1 Pro - Flagship AI Video Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:17:56+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 37,
+  "failed": 0
+ }
 }

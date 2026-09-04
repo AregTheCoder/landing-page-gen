@@ -4,5 +4,9 @@
  "title": "Runway Gen4 Image - Reference-Based Ai Image Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:17:35+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 29,
+  "failed": 0
+ }
 }
