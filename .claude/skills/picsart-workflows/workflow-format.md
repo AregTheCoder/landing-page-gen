@@ -50,6 +50,28 @@ credits: {quoted: 16, spent: 0}
 rounds: 1
 ```
 
+A video step carries the video non-negotiables explicitly:
+
+```yaml
+  - id: 2
+    tool: picsart_generate
+    model: seedance-2.5
+    params:
+      prompt: "the print slides between square, tall and wide frames, no text or logos"
+      aspectRatio: "1:1"
+      resolution: 720p
+      duration: 5
+      generateAudio: false
+      async: true
+      extra: {startFrame: "<step 1 passed>"}
+    quoted_credits: 35
+    gate: "edges of the print stay visible, motion is smooth, nothing added"
+    status: pending
+    outputs: []
+    passed: null
+    note: ""
+```
+
 ## Rules
 
 - `<step N passed>` placeholders are replaced by the real URL when step N

@@ -25,7 +25,20 @@ the workflow, credits quoted vs spent, review rounds and verdict; a complete
 
 The rubric lives in the `picsart-workflows` skill (`evaluation.md`). Rules
 below are lessons that reviews teach; each adds one line with the run that
-taught it. Starts empty.
+taught it.
+
+- Still-to-motion whose motion reshapes or reframes the picture needs a still
+  with visible edges and margin (a print on a plain backdrop), not a
+  full-bleed scene; a full-bleed still gives the video model nothing to move.
+  (runs/dry-1 S01, review 1)
+- Every video step states `generateAudio: false`, `async: true` and ends its
+  prompt with ", no text or logos"; the reviewer checks the yaml, not the
+  intent. (runs/dry-1 S01, review 1)
+- A worker's "examples share finish X" claim must hold for every example it
+  names; say which examples differ. (runs/dry-1 S01, review 1)
+- Anything the call must carry (`async: true`, `generateAudio: false`) lives
+  in the step's `params`, never only in its `note`; `params` is what is sent.
+  (runs/dry-1 S01, review 2)
 
 ## Non-goals
 
