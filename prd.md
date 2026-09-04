@@ -55,6 +55,9 @@ taught it.
 - Thumbnails under about 400 px go to `gemini-3.1-flash-image` at a native
   ratio (5:4 exists there, 3 credits) rather than the pro model cropped; pro
   fidelity is invisible at that size. (runs/dry-1 S11, round 2)
+- `gemini-3-pro-image` with `count: 2` returned one image and charged for two
+  (10 credits, twice). Use `count: 1` and re-run for a second candidate; the
+  ledger, not the response, says what was paid. (runs/trial-1 S07)
 
 ## Non-goals
 
