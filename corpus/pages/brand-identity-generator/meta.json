@@ -4,5 +4,9 @@
  "title": "Brand Identity Generator \u2013 Build a Professional Brand Identity",
  "family": "tool",
  "fetched_at": "2026-09-04T13:34:30+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 30,
+  "failed": 0
+ }
 }
