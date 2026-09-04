@@ -51,9 +51,9 @@ their absolute URL.
 
 ## Branch
 
-Work since Milestone 0 is on `milestone-1-corpus` (not merged into `main`,
-not pushed). Merge when Areg is happy with it; a fresh session should start
-on that branch.
+`main` is fast-forwarded to `milestone-1-corpus` after each milestone (last:
+2026-09-04, Milestone 2). New work branches off `main`. No remote is
+configured; the repo lives on this Mac only.
 
 ## Open questions
 
