@@ -32,6 +32,10 @@ compare-models 18, ai-tool 13, hub 13). Regenerate with
 
 ## Open questions
 
+- Next commit: move `.claude/agents/`, the two skills, and the hook wiring from
+  the workspace `.claude/` into this repo's `.claude/`, and change hook paths to
+  `$CLAUDE_PROJECT_DIR/hooks/...`. The session now runs from this folder, so
+  the parent's agents and hooks are not loaded.
 - The deny rule `Read(./**/.env.*)` also blocks writing `.env.example`; narrow it (e.g. `.env.local`) or create the file by hand.
 - Which families from `corpus/pages.yaml` go into the corpus (all 218, or ai-models + compare-models + tool)?
 - Worker model: `sonnet` (default now) or `opus`; decide on Milestone 3 reject rates.
