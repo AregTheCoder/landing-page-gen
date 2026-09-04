@@ -25,6 +25,7 @@ quality rules, one line per lesson learned.
 ```
 uv run lp-corpus discover --seed <url>                   # -> corpus/pages.yaml
 uv run lp-corpus fetch --family tool --sectionize        # or: fetch /ai-image-generator/ ...
+uv run lp-corpus media --all                             # download media for snapshots fetched --no-media
 uv run lp-corpus sectionize --all                        # re-index after sectionize.py changes
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
 uv run lp-corpus similar --type hero --query "<headline and body>" \
@@ -34,7 +35,8 @@ uv run lp-inject runs/<run>
 
 Slugs are the URL path with `/` as `--` (`ai-models--flux-3`). `fetch` needs
 Chromium (`uv run playwright install chromium`); `--no-render` skips it and
-loses screenshot and slot sizes.
+loses screenshot and slot sizes. Snapshots carry their media in `media/`;
+the served URL is kept on each element as `data-lp-src`.
 
 ## Test
 

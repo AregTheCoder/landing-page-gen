@@ -18,7 +18,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup, Comment
 
-from . import discover
+from . import discover, media
 
 HOST = "https://picsart.com"
 UA_BROWSER = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -122,30 +122,44 @@ class Renderer:
             page = ctx.new_page()
             page.goto(url, wait_until="load", timeout=90_000)
             page.wait_for_timeout(1500)
-            # Sections use content-visibility:auto, which leaves them unpainted
-            # in a full-page capture; force them visible, then scroll once so
-            # lazy media loads.
-            page.add_style_tag(content="*{content-visibility:visible!important;contain:none!important}")
-            y, height = 0, page.evaluate("document.body.scrollHeight")
-            while y < height:
-                page.evaluate(f"window.scrollTo(0,{y})")
-                page.wait_for_timeout(200)
-                y += 700
-                height = page.evaluate("document.body.scrollHeight")
-            page.wait_for_timeout(800)
-            geometry = page.evaluate(GEOMETRY_JS)
-            page.evaluate("window.scrollTo(0,0)")
-            page.wait_for_timeout(500)
-            page.screenshot(path=str(png_path), full_page=True)
-            return geometry
+            try:
+                return self._capture(page, png_path)
+            except Exception as exc:
+                # A client-side redirect right after load destroys the context;
+                # let the new document settle and capture once more.
+                if "Execution context was destroyed" not in str(exc):
+                    raise
+                page.wait_for_load_state("load")
+                page.wait_for_timeout(1500)
+                return self._capture(page, png_path)
         finally:
             ctx.close()
 
+    @staticmethod
+    def _capture(page, png_path):
+        # Sections use content-visibility:auto, which leaves them unpainted
+        # in a full-page capture; force them visible, then scroll once so
+        # lazy media loads.
+        page.add_style_tag(content="*{content-visibility:visible!important;contain:none!important}")
+        y, height = 0, page.evaluate("document.body.scrollHeight")
+        while y < height:
+            page.evaluate(f"window.scrollTo(0,{y})")
+            page.wait_for_timeout(200)
+            y += 700
+            height = page.evaluate("document.body.scrollHeight")
+        page.wait_for_timeout(800)
+        geometry = page.evaluate(GEOMETRY_JS)
+        page.evaluate("window.scrollTo(0,0)")
+        page.wait_for_timeout(500)
+        page.screenshot(path=str(png_path), full_page=True)
+        return geometry
 
-def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print):
+
+def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print, localise=True):
     """Fetch, reassemble and store one page. Returns its folder.
 
-    Writes raw.html (as served), page.html (reassembled, script-free snapshot
+    Writes raw.html (as served), page.html (reassembled, script-free snapshot;
+    with localise its media downloaded into media/ and linked locally, else
     with <base>), meta.json, and with a renderer also page.png and render.json."""
     url = HOST + discover.normalize(url) if not url.startswith("http") else url
     slug = slug_for(url)
@@ -156,17 +170,29 @@ def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print):
     (out / "raw.html").write_text(raw)
     soup = reassemble(raw)
     title = soup.title.get_text(strip=True) if soup.title else ""
-    snapshot_html(soup)
-    (out / "page.html").write_text(str(soup))
     meta = {
         "slug": slug, "url": url, "title": title,
         "family": family or discover.classify(urllib.parse.urlsplit(url).path),
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
+    if soup.body is None or len(soup.body.get_text(strip=True)) < 200:
+        # Some paths serve the client-side app shell (title "Picsart", a few
+        # KB, no server-rendered text). Record it so fetch does not retry;
+        # no snapshot. Pages without <main> but with content are sectionized
+        # from <body>.
+        meta["shell"] = True
+        (out / "meta.json").write_text(json.dumps(meta, indent=1))
+        log(f"skipped {slug}: app shell without <main> ({len(raw) // 1024} KB)")
+        return out
+    snapshot_html(soup)
+    if localise:
+        meta["media"] = media.localise_html(soup, out / "media", log=log)
+    (out / "page.html").write_text(str(soup))
     if renderer is not None:
         geometry = renderer.render(url, out / "page.png")
         (out / "render.json").write_text(json.dumps(geometry, indent=1))
         meta["rendered"] = True
     (out / "meta.json").write_text(json.dumps(meta, indent=1))
-    log(f"fetched {slug} in {time.time() - t0:.1f}s ({len(raw) // 1024} KB{', rendered' if renderer else ''})")
+    files = f", {meta['media']['ok']} media files" if localise else ""
+    log(f"fetched {slug} in {time.time() - t0:.1f}s ({len(raw) // 1024} KB{files}{', rendered' if renderer else ''})")
     return out

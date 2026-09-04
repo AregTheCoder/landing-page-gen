@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db, discover, sectionize, similar, skeleton, snapshot
+from . import db, discover, media, sectionize, similar, skeleton, snapshot
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -38,6 +38,7 @@ def main(argv=None) -> int:
     f.add_argument("--family", action="append", default=[], help="fetch every page of this family from pages.yaml (repeatable)")
     f.add_argument("--all", action="store_true", help="fetch every page in pages.yaml")
     f.add_argument("--no-render", action="store_true", help="skip Playwright (no screenshot, no rendered sizes)")
+    f.add_argument("--no-media", action="store_true", help="keep media as CDN links instead of downloading into media/")
     f.add_argument("--force", action="store_true", help="re-fetch pages that already have a snapshot")
     f.add_argument("--sectionize", action="store_true", help="index each page right after fetching it")
 
@@ -45,17 +46,21 @@ def main(argv=None) -> int:
     s.add_argument("slugs", nargs="*")
     s.add_argument("--all", action="store_true", help="every fetched page")
 
+    md = sub.add_parser("media", help="Download a snapshot's images and videos into media/ and link them locally")
+    md.add_argument("slugs", nargs="*")
+    md.add_argument("--all", action="store_true", help="every fetched page")
+
     k = sub.add_parser("skeleton", help="Emit skeleton.md (+ slots.json): all text, every media node as a slot block")
     k.add_argument("slug")
     k.add_argument("--out", type=Path, required=True)
 
-    m = sub.add_parser("similar", help="Find the k closest sections of one type, with their media")
-    m.add_argument("--type", required=True, choices=db.SECTION_TYPES)
-    m.add_argument("--query", required=True, help="headline plus body text of the target section")
-    m.add_argument("-k", type=int, default=3)
-    m.add_argument("--exclude", help="page slug to leave out (the page the skeleton came from)")
-    m.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
-    m.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
+    sm = sub.add_parser("similar", help="Find the k closest sections of one type, with their media")
+    sm.add_argument("--type", required=True, choices=db.SECTION_TYPES)
+    sm.add_argument("--query", required=True, help="headline plus body text of the target section")
+    sm.add_argument("-k", type=int, default=3)
+    sm.add_argument("--exclude", help="page slug to leave out (the page the skeleton came from)")
+    sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
+    sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
 
     a = p.parse_args(argv)
     if a.cmd == "init":
@@ -68,6 +73,8 @@ def main(argv=None) -> int:
         return cmd_fetch(a)
     if a.cmd == "sectionize":
         return cmd_sectionize(a)
+    if a.cmd == "media":
+        return cmd_media(a)
     if a.cmd == "skeleton":
         con = db.connect(a.db)
         out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
@@ -115,8 +122,10 @@ def cmd_fetch(a):
         log("fetch: give URLs, --family <f> or --all")
         return 2
     if not a.force:
-        skipped = [u for u, _ in targets if (a.pages_dir / snapshot.slug_for(u) / "page.html").exists()]
-        targets = [(u, f) for u, f in targets if (a.pages_dir / snapshot.slug_for(u) / "page.html").exists() is False]
+        # meta.json is written last, so its presence means the whole page landed
+        done = lambda u: (a.pages_dir / snapshot.slug_for(u) / "meta.json").exists()  # noqa: E731
+        skipped = [u for u, _ in targets if done(u)]
+        targets = [(u, f) for u, f in targets if not done(u)]
         if skipped:
             log(f"skipping {len(skipped)} already fetched (use --force to redo)")
     con = db.connect(a.db) if a.sectionize else None
@@ -126,7 +135,8 @@ def cmd_fetch(a):
         for i, (url, family) in enumerate(targets, 1):
             log(f"[{i}/{len(targets)}] {url}")
             try:
-                page_dir = snapshot.save_page(url, a.pages_dir, renderer=renderer, family=family, log=log)
+                page_dir = snapshot.save_page(url, a.pages_dir, renderer=renderer, family=family, log=log,
+                                              localise=not a.no_media)
                 if con is not None:
                     sectionize.sectionize_page(page_dir, con, log=log)
             except Exception as exc:  # keep going through the inventory
@@ -144,25 +154,59 @@ def cmd_fetch(a):
     return 1 if failures else 0
 
 
-def cmd_sectionize(a):
-    con = db.connect(a.db)
-    dirs = [a.pages_dir / s for s in a.slugs]
+def is_snapshot(d):
+    """A complete snapshot: meta.json is written last; app shells have no page.html."""
+    return (d / "meta.json").exists() and (d / "page.html").exists()
+
+
+def page_dirs(a):
     if a.all:
-        dirs = sorted(d for d in a.pages_dir.iterdir() if (d / "page.html").exists())
+        return sorted(d for d in a.pages_dir.iterdir() if is_snapshot(d))
+    return [a.pages_dir / s for s in a.slugs]
+
+
+def for_each_page(a, step):
+    """Run step(page_dir) over the requested snapshots; collect failures."""
+    dirs = page_dirs(a)
     if not dirs:
-        log("sectionize: give slugs or --all")
-        return 2
+        log(f"{a.cmd}: give slugs or --all")
+        return None
     failures = []
     for d in dirs:
-        if not (d / "page.html").exists():
-            failures.append((d.name, "no snapshot; run fetch first"))
-            log(f"{d.name}: no snapshot; run `lp-corpus fetch` first")
+        if not is_snapshot(d):
+            failures.append((d.name, "no complete snapshot (missing, partial, or an app shell)"))
+            log(f"{d.name}: no complete snapshot; run `lp-corpus fetch` first")
             continue
         try:
-            sectionize.sectionize_page(d, con, log=log)
+            step(d)
         except Exception as exc:
             failures.append((d.name, repr(exc)))
             log(f"  FAILED {d.name}: {exc!r}")
+    return failures
+
+
+def cmd_media(a):
+    counts = {"ok": 0, "failed": 0}
+
+    def step(d):
+        c = media.localise_page(d, log=log)
+        counts["ok"] += c["ok"]
+        counts["failed"] += c["failed"]
+
+    failures = for_each_page(a, step)
+    if failures is None:
+        return 2
+    print(f"media: {counts['ok']} files downloaded or present, {counts['failed']} failed -> {a.pages_dir}")
+    for slug, err in failures:
+        print(f"  failed: {slug}: {err}")
+    return 1 if failures else 0
+
+
+def cmd_sectionize(a):
+    con = db.connect(a.db)
+    failures = for_each_page(a, lambda d: sectionize.sectionize_page(d, con, log=log))
+    if failures is None:
+        return 2
     n_pages, n_sections, n_media = con.execute(
         "SELECT (SELECT count(*) FROM pages), (SELECT count(*) FROM sections), (SELECT count(*) FROM media)").fetchone()
     print(f"corpus: {n_pages} pages, {n_sections} sections, {n_media} media in {a.db}")

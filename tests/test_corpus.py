@@ -169,3 +169,126 @@ def test_slug_for():
     assert snapshot.slug_for("https://picsart.com/ai-image-generator/") == "ai-image-generator"
     assert snapshot.slug_for("/ai-models/flux-3/") == "ai-models--flux-3"
     assert snapshot.slug_for("https://picsart.com/") == "home"
+
+
+# ---------- local media ----------
+
+from landing_page_gen.corpus import media  # noqa: E402
+
+PROXY_HERO1 = "/landings-ssr/_next/image/?url=https%3A%2F%2Fcdn-cms-uploads.picsart.com%2Fcms-uploads%2Fhero1.avif&w=3840&q=75"
+
+
+def fake_download_factory(calls):
+    from PIL import Image
+
+    def fake_download(url, dest, timeout=60):
+        calls.append(url)
+        if "ghost" in url:
+            raise OSError("404")
+        Image.new("RGB", (4, 4), "blue").save(dest, format="PNG")
+        return dest
+    return fake_download
+
+
+def test_local_name_is_readable_unique_and_stable():
+    a = media.local_name("https://cdn.x/cms-uploads/84bdf497-68e2.avif")
+    assert a.startswith("84bdf497-68e2-") and a.endswith(".avif")
+    assert media.local_name("https://cdn.x/cms-uploads/84bdf497-68e2.avif") == a
+    assert media.local_name("https://cdn.x/a.png?type=webp&r=400") != media.local_name("https://cdn.x/a.png")
+    assert media.local_name("https://cdn.x/noext").endswith("-" + media.local_name("https://cdn.x/noext")[-12:-4] + ".bin")
+
+
+def test_media_localises_page_and_is_idempotent(tmp_path, monkeypatch):
+    calls = []
+    monkeypatch.setattr(media, "download", fake_download_factory(calls))
+    d = make_page(tmp_path / "pages", "comic-book-generator")
+    counts = media.localise_page(d, log=lambda m: None)
+    assert counts == {"ok": 7, "failed": 1}
+    assert len(list((d / "media").iterdir())) == 7
+    assert json.loads((d / "meta.json").read_text())["media"] == counts
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup((d / "page.html").read_text(), "html.parser")
+    assert soup.find("base") is None
+    hero1 = soup.find("img", alt="comic panel of a hero")
+    assert hero1["src"].startswith("media/hero1-") and hero1["src"].endswith(".avif")
+    assert hero1["data-lp-src"] == PROXY_HERO1
+    assert not hero1.has_attr("srcset") and not hero1.has_attr("sizes")
+    assert soup.find("picture").find("source") is None
+    ghost = soup.find("img", alt="never shown")
+    assert ghost["src"] == "https://cdn-cms-uploads.picsart.com/cms-uploads/ghost.avif" and ghost["data-lp-src"]
+    assert soup.find("video")["src"].startswith("media/style-") and soup.find("video")["data-lp-src"].endswith("style.webm")
+    assert soup.find("a", string="any AI model")["href"] == "https://picsart.com/ai-models/"
+    assert soup.find("link", rel="stylesheet")["href"].startswith("https://")
+    html_before = (d / "page.html").read_text()
+    calls.clear()
+    assert media.localise_page(d, log=lambda m: None) == {"ok": 7, "failed": 1}
+    assert calls == ["https://cdn-cms-uploads.picsart.com/cms-uploads/ghost.avif"], "only the failed asset is retried"
+    assert (d / "page.html").read_text() == html_before
+
+
+def test_sectionize_after_media_keeps_src_geometry_and_fills_local_path(tmp_path, monkeypatch):
+    monkeypatch.setattr(media, "download", fake_download_factory([]))
+    con = db.connect(tmp_path / "c.db")
+    d = make_page(tmp_path / "pages", "comic-book-generator", hero_render())
+    media.localise_page(d, log=lambda m: None)
+    sections = sectionize.sectionize_page(d, con, log=lambda m: None)
+    assert [s["type"] for s in sections][:4] == ["hero", "feature-callout", "tutorial-grid", "faq"]
+    hero = sections[0]
+    assert hero["media"][0]["src"] == HERO1, "DB keeps the CDN URL"
+    assert hero["media"][0]["width"] == 300, "geometry still matched through data-lp-src"
+    assert hero["media"][0]["local"].startswith("media/hero1-")
+    rows = con.execute("SELECT slot_id, local_path FROM media ORDER BY id").fetchall()
+    assert rows[0]["local_path"] == str(d / hero["media"][0]["local"])
+    assert all(r["local_path"] for r in rows), "the 0x0 ghost was dropped, everything else is local"
+    html = (d / "page.html").read_text()
+    assert 'data-lp-src="' in html and 'data-lp="S01-m1"' in html, "re-sectionizing keeps the source attribute"
+
+
+def test_similar_reuses_local_media(tmp_path, monkeypatch):
+    monkeypatch.setattr(media, "download", fake_download_factory([]))
+    con = db.connect(tmp_path / "c.db")
+    for slug in ("comic-book-generator", "manga-maker"):
+        d = make_page(tmp_path / "pages", slug, hero_render())
+        media.localise_page(d, log=lambda m: None)
+        sectionize.sectionize_page(d, con, log=lambda m: None)
+
+    def no_network(url, dest, timeout=60):
+        raise AssertionError(f"unexpected download of {url}")
+    monkeypatch.setattr(similar, "download", no_network)
+    rows = similar.find_similar(con, "hero", "comic", k=1, exclude="comic-book-generator")
+    written = similar.write_examples(con, rows, tmp_path / "ex", log=lambda m: None)
+    assert (tmp_path / "ex" / "1-manga-maker-S01-m1.png").exists()
+    assert "local: 1-manga-maker-S01-m1.png" in written[0].read_text()
+
+
+def test_fetch_localises_by_default(tmp_path, monkeypatch):
+    monkeypatch.setattr(snapshot, "fetch_html", lambda url, timeout=30: FIXTURE.read_text())
+    monkeypatch.setattr(media, "download", fake_download_factory([]))
+    d = snapshot.save_page("/comic-book-generator/", tmp_path / "pages", renderer=None, log=lambda m: None)
+    assert json.loads((d / "meta.json").read_text())["media"] == {"ok": 7, "failed": 1}
+    assert "<base" not in (d / "page.html").read_text() and (d / "media").is_dir()
+    d2 = snapshot.save_page("/manga-maker/", tmp_path / "pages", renderer=None, log=lambda m: None, localise=False)
+    assert "<base" in (d2 / "page.html").read_text() and not (d2 / "media").exists()
+
+
+def test_fetch_records_app_shell_without_snapshot(tmp_path, monkeypatch):
+    shell = "<html><head><title>Picsart</title></head><body><div id='root'></div><script>x</script></body></html>"
+    monkeypatch.setattr(snapshot, "fetch_html", lambda url, timeout=30: shell)
+    d = snapshot.save_page("/ai-enhance/", tmp_path / "pages", renderer=None, log=lambda m: None)
+    meta = json.loads((d / "meta.json").read_text())
+    assert meta["shell"] is True and meta["title"] == "Picsart"
+    assert not (d / "page.html").exists() and not (d / "media").exists()
+    assert not cli.is_snapshot(d)
+
+
+def test_cli_media_all(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(media, "download", fake_download_factory([]))
+    pages = tmp_path / "pages"
+    make_page(pages, "comic-book-generator")
+    assert cli.main(["--pages-dir", str(pages), "media", "--all"]) == 0
+    assert "media: 7 files downloaded or present, 1 failed" in capsys.readouterr().out
+    slots = tmp_path / "s" / "skeleton.md"
+    dbp = str(tmp_path / "c.db")
+    assert cli.main(["--db", dbp, "--pages-dir", str(pages), "sectionize", "--all"]) == 0
+    assert cli.main(["--db", dbp, "skeleton", "comic-book-generator", "--out", str(slots)]) == 0
+    assert json.loads((slots.parent / "slots.json").read_text())["slots"]["S01-m1"]["local"].endswith(".avif")

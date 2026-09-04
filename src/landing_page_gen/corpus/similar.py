@@ -4,16 +4,13 @@ example excerpts (Markdown plus downloaded media) for a worker's brief."""
 import re
 import shutil
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 from . import db
+from .media import download  # noqa: F401  (tests monkeypatch similar.download)
 
 STOP = {"the", "and", "for", "with", "your", "you", "from", "that", "this", "are", "can", "any", "all",
         "into", "one", "our", "how", "what", "use", "get", "more", "make", "made", "new", "just", "every"}
-UA = "Mozilla/5.0 (Macintosh) lp-corpus/0.1"
-
-
 def fts_query(query, limit=40):
     tokens = []
     for t in re.findall(r"[A-Za-z0-9]+", query):
@@ -54,20 +51,16 @@ def find_similar(con, type_, query, k=3, exclude=None, need_media=True):
     return out
 
 
-def download(url, dest, timeout=60):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as r, open(dest, "wb") as f:
-        shutil.copyfileobj(r, f)
-    return dest
-
-
 def to_png(path):
-    """Images arrive as AVIF/WebP, which agents cannot view; convert to PNG."""
+    """Images arrive as AVIF/WebP (sometimes behind a .png name), which agents
+    cannot view; re-encode as PNG by content, not by suffix."""
     from PIL import Image
     png = path.with_suffix(".png")
     with Image.open(path) as im:
-        im.convert("RGB").save(png)
-    path.unlink()
+        rgb = im.convert("RGB")
+    rgb.save(png)
+    if path != png:
+        path.unlink()
     return png
 
 
@@ -85,9 +78,15 @@ class FrameGrabber:
         self._browser.close()
         self._pw.stop()
 
-    def grab(self, url, png, at=1.0):
+    def grab(self, src, png, at=1.0):
+        """src: a CDN URL or a local Path (served to Chromium through a route,
+        since a set_content page may not load file:// media)."""
         page = self._browser.new_page(viewport={"width": 1280, "height": 720})
         try:
+            url = str(src)
+            if isinstance(src, Path):
+                url = "http://lp.local/" + src.name
+                page.route(url, lambda route: route.fulfill(path=str(src)))
             page.set_content(f'<body style="margin:0;background:#000"><video id="v" src="{url}" muted playsinline></video>')
             page.wait_for_function("document.getElementById('v').readyState >= 2", timeout=30_000)
             page.evaluate(f"""() => {{ const v = document.getElementById('v');
@@ -104,7 +103,8 @@ MAX_EXAMPLE_MEDIA = 4
 
 def write_examples(con, rows, out_dir, log=print, grabber=None):
     """One <n>-<slug>-<sid>.md per hit plus up to MAX_EXAMPLE_MEDIA of its
-    generated-role media as PNG (images converted, videos as a still)."""
+    generated-role media as PNG (images converted, videos as a still), taken
+    from the snapshot's local copy when there is one."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
@@ -115,17 +115,20 @@ def write_examples(con, rows, out_dir, log=print, grabber=None):
         files = []
         for m in gen[:MAX_EXAMPLE_MEDIA]:
             dest = out_dir / f"{stem}-{m['slot_id'].split('-')[-1]}.png"
+            local = Path(m["local_path"]) if m["local_path"] and Path(m["local_path"]).exists() else None
             try:
                 if m["kind"] == "video":
                     if grabber is None:
                         continue
-                    grabber.grab(m["src"], dest)
+                    grabber.grab(local or m["src"], dest)
                 else:
                     ext = Path(urllib.parse.urlsplit(m["src"]).path).suffix or ".bin"
-                    tmp = dest.with_suffix(ext) if ext.lower() != ".png" else dest
-                    download(m["src"], tmp)
-                    if tmp != dest:
-                        to_png(tmp)
+                    tmp = dest.with_suffix(ext)
+                    if local:
+                        shutil.copyfile(local, tmp)
+                    else:
+                        download(m["src"], tmp)
+                    to_png(tmp)
             except Exception as exc:  # a missing example asset is not fatal
                 log(f"  could not fetch {m['src']}: {exc}")
                 continue

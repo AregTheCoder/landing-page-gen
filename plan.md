@@ -15,8 +15,9 @@ compare-models 18, ai-tool 13, hub 13). Regenerate with
 `uv run lp-corpus discover --seed <url>`. The corpus holds every family but
 `hub` (catalog pages, no campaign media); add them with `fetch --family hub`.
 Snapshots live in `corpus/pages/<slug>/` (raw.html, page.html with `data-lp*`
-stamps, page.png, render.json, meta.json, sections.md); only sections.md and
-meta.json are committed.
+stamps and local `media/` links, media/, page.png, render.json, meta.json,
+sections.md); only sections.md and meta.json are committed. About 9 MB of
+media per page (images 5 MB, videos 4 MB), so roughly 2 GB for the corpus.
 
 ## Decisions log
 
@@ -38,6 +39,7 @@ meta.json are committed.
 | 2026-09-04 | `sectionize` stamps the snapshot: `data-lp-section="S03"`, `data-lp="S03-m1"`, `data-lp-t="S03-t2"`; the DB stores those selectors and `skeleton` emits `slots.json` with them. | `lp-inject` then needs no DOM-path selectors; the stamps survive any re-serialisation of `page.html`. |
 | 2026-09-04 | Media `src` is stored as the CDN asset URL (Next.js `/_next/image?url=` proxy unwrapped). `similar` writes examples as PNG: AVIF/WebP converted with Pillow, videos as a still grabbed with Chromium at t=1 s. | Agents view files with `Read`, which cannot open AVIF or WebM; Playwright's bundled ffmpeg has no VP9 decoder. |
 | 2026-09-04 | `skeleton.md` format: YAML frontmatter (`page, source, snapshot, brand, audience, defaults, budget, notes`), `## Sxx type`, `- tN tag: text -> href`, one fenced ```slot YAML block per media node (`id, kind, role, size, aspect, natural, duration_s, src, alt`), `> annotation:` per generated-role slot. `aspect` is quoted because bare `9:16` is a sexagesimal integer to YAML 1.1 parsers. | One file the manager parses and a human edits; ids map back to the stamps. |
+| 2026-09-04 | Snapshots hold their media: `fetch` (and `lp-corpus media` for older snapshots) downloads every `img src`, `video src` and `poster` into `corpus/pages/<slug>/media/<stem>-<8 hex of the URL><ext>`, points the attribute at the copy, keeps the served attribute in `data-lp-src` / `data-lp-poster`, drops `srcset`, `sizes`, image preloads and `<picture>` sources, and removes `<base>` after absolutising the remaining relative links. `media.local_path` and `slots.json` `local` carry the path; `similar` copies from it. Stylesheets, fonts and CSS backgrounds stay remote. | Areg's call: a snapshot must not lose its images when the CDN drops an asset, and `lp-inject` can ship `media/` with `dist/`. Relative `media/` paths cannot coexist with `<base href="https://picsart.com/">`. |
 | 2026-09-04 | `similar`: BM25 over section Markdown filtered by type, one section per page, source page excluded with `--exclude`, only sections with a `creative`/`thumbnail` slot, type-only fallback when the query matches nothing; at most 4 media files per example. | Briefs need media to look at, not the page's own section; 10 hero carousel images per example bloated a brief to 15 MB. |
 | 2026-09-04 | Package uses a `src/` layout with one package and two console scripts. | Zero build-backend configuration with `uv_build`. |
 | 2026-09-04 | Repo declares an empty `[tool.uv.workspace]`. | `~/pyproject.toml` is a uv workspace; without this, uv adopts the project as a member and puts `.venv` and `uv.lock` in the home directory. |
@@ -51,4 +53,6 @@ meta.json are committed.
 - The deny rule `Read(./**/.env.*)` also blocks writing `.env.example`; narrow it (e.g. `.env.local`) or create the file by hand.
 - Worker model: `sonnet` (default now) or `opus`; decide on Milestone 3 reject rates.
 - `page.png` (1440 px wide, full page) is stored but nothing reads it yet; the reviewer could compare against it.
+- Offline, a snapshot shows its images and videos but not its styling: CSS chunks, fonts and the few `background-image:url(...)` assets are still remote. Localise those too if a fully offline `dist/` is ever needed.
+- A few `other`/`ai-tool` paths (e.g. `/ai-agent/`) serve a 1 KB SPA shell with no sections; drop them from `pages.yaml` or ignore them in `similar` (they have no media so they never match).
 - Role guesses to watch in Milestone 2: every `feature-callout` video is `creative` unless the headline says "inside Picsart" or "built-in tools"; product-demo videos will slip through as creative.

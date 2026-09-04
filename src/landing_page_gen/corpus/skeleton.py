@@ -86,7 +86,7 @@ def slots_json(page, sections):
         "sections": {s["sid"]: {"type": s["type"], "selector": s["selector"]} for s, _, _ in sections},
         "slots": {
             m["slot_id"]: {"kind": m["kind"], "role": m["role"], "selector": m["selector"], "src": m["src"],
-                           "size": [m["width"], m["height"]], "aspect": m["aspect"]}
+                           "local": m["local_path"], "size": [m["width"], m["height"]], "aspect": m["aspect"]}
             for _, _, media in sections for m in media
         },
         "texts": {t["tid"]: {"tag": t["tag"], "selector": t["selector"]} for _, texts, _ in sections for t in texts},

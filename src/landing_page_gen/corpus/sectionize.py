@@ -174,6 +174,17 @@ def media_src(el):
     return src
 
 
+def source_attr(el):
+    """The src as the site served it: kept in data-lp-src once media.py has
+    pointed src at a local copy. Keys render.json geometry and the CDN URL."""
+    return el.get("data-lp-src") or media_src(el)
+
+
+def local_src(el):
+    src = media_src(el)
+    return src if src.startswith("media/") else None
+
+
 def media_role(el, kind, alt, w, h, section_type, root):
     """Roles are a first guess for the hand-edited skeleton. Order matters:
     size before words (a 40px "logo" is an icon), thumbnail sections before
@@ -291,7 +302,7 @@ def build_section(root, idx, sid, geo):
             href = el.get("href") if el.name == "a" else None
             texts.append({"el": el, "tag": el.name, "text": text, "href": href})
         else:
-            src_attr = media_src(el)
+            src_attr = source_attr(el)
             src = cdn_url(src_attr)
             if not src or src in seen_src:
                 continue
@@ -307,6 +318,7 @@ def build_section(root, idx, sid, geo):
                 "nat_width": g["nat_w"] if g else _int(el.get("width")),
                 "nat_height": g["nat_h"] if g else _int(el.get("height")),
                 "duration": g["duration"] if g else None,
+                "local": local_src(el),
             })
     links = [a.get("href") or "" for a in root.find_all("a", href=True)]
     buttons = [b for b in root.find_all("button") if not is_hidden(b)]
@@ -413,10 +425,11 @@ def sectionize_page(page_dir, con, log=print):
             "INSERT INTO texts(section_id, tid, tag, text, href, selector) VALUES (?,?,?,?,?,?)",
             [(section_id, t["tid"], t["tag"], t["text"], t["href"], f'[data-lp-t="{t["tid"]}"]') for t in s["texts"]])
         con.executemany(
-            "INSERT INTO media(section_id, slot_id, kind, role, src, alt, width, height, aspect, nat_width, nat_height, duration, selector) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO media(section_id, slot_id, kind, role, src, alt, width, height, aspect, nat_width, nat_height, duration, local_path, selector) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             [(section_id, m["slot_id"], m["kind"], m["role"], m["src"], m["alt"], m["width"], m["height"], m["aspect"],
-              m["nat_width"], m["nat_height"], m["duration"], f'[data-lp="{m["slot_id"]}"]') for m in s["media"]])
+              m["nat_width"], m["nat_height"], m["duration"], str(page_dir / m["local"]) if m["local"] else None,
+              f'[data-lp="{m["slot_id"]}"]') for m in s["media"]])
     con.commit()
     log(f"{slug}: {len(sections)} sections, {sum(s['media_count'] for s in sections)} media")
     for s in sections:

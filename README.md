@@ -32,8 +32,11 @@ uv run lp-corpus similar --type hero --query "AI Image Generator ..." \
 ```
 
 `fetch` reads the server-rendered HTML, reassembles the React streaming
-segments in Python, and opens the page once in Chromium for a full-page
-screenshot and the rendered size of every image and video. `sectionize`
+segments in Python, downloads every image and video into `media/` and links
+them locally (the served URL stays on the element as `data-lp-src`), and
+opens the page once in Chromium for a full-page screenshot and the rendered
+size of every image and video. `lp-corpus media --all` does the download step
+for snapshots fetched with `--no-media`. `sectionize`
 splits `<main>` into typed sections, stamps every text and media node with a
 `data-lp*` id in `page.html`, and indexes everything in `corpus/corpus.db`
 (SQLite + FTS5). `skeleton` writes the editable page description; `similar`
@@ -84,13 +87,14 @@ src/landing_page_gen/inject/   lp-inject: media + text re-injection into the sna
 hooks/                         Claude Code hooks: credit guard, ledger, worker contract
 tests/                         pytest; tests/fixtures/streamed.html is a saved streamed-SSR page
 corpus/pages.yaml              page inventory from `discover`
-corpus/pages/<slug>/           raw.html, page.html (stamped), page.png, render.json, meta.json, sections.md
+corpus/pages/<slug>/           raw.html, page.html (stamped, local media), media/, page.png, render.json, meta.json, sections.md
 corpus/corpus.db               pages, sections, texts, media, sections_fts (gitignored, rebuildable)
 runs/<run>/                    skeleton.md, slots.json, sections/Sxx/, ledger.jsonl, page.md, dist/  (gitignored)
 ```
 
 Only `sections.md` and `meta.json` under `corpus/pages/` are committed; the
-rest is rebuilt by `lp-corpus fetch --all --sectionize` (about 12 s per page).
+rest is rebuilt by `lp-corpus fetch --all --sectionize` (about 15 s and 9 MB
+per page).
 
 The agent side (skills `build-landing-page`, `picsart-workflows`; agents
 `section-worker`, `section-reviewer`; hook wiring) lives in the workspace
