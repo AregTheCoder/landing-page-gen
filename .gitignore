@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Run output (generated media, ledgers) and scraped corpus binaries.
+# corpus.db and page.html are rebuildable from `lp-corpus fetch`.
+runs/
+corpus/corpus.db
+corpus/pages/*/media/
+corpus/pages/*/page.png
+
+.DS_Store
+.pytest_cache/

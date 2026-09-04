@@ -1,0 +1,32 @@
+[project]
+name = "landing-page-gen"
+version = "0.1.0"
+description = "Picsart media workflows for a full landing page: corpus tool, manager/worker agents, HTML re-injection"
+authors = [
+    { name = "Areg Sarkisyan", email = "areg.sarkisyan@picsart.work" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "markdownify>=1.2.3",
+    "pillow>=12.3.0",
+    "playwright>=1.62.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+lp-corpus = "landing_page_gen.corpus.cli:main"
+lp-inject = "landing_page_gen.inject.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+# Empty on purpose: makes this repo its own uv workspace root, so uv stops
+# walking up to ~/pyproject.toml and keeps .venv and uv.lock in here.
+[tool.uv.workspace]
