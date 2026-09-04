@@ -4,5 +4,9 @@
  "title": "PixVerse AI Video Model (C1 & V6) | Cinematic AI Video | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:14:13+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 44,
+  "failed": 0
+ }
 }
