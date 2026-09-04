@@ -52,6 +52,9 @@ taught it.
 - A gate with `count` > 1 says how the pick is made, has a failure branch, and
   when lp-inject will crop the output it checks that the subject sits inside
   the slot's safe band. (runs/dry-1 S06 and S08, review 1)
+- Thumbnails under about 400 px go to `gemini-3.1-flash-image` at a native
+  ratio (5:4 exists there, 3 credits) rather than the pro model cropped; pro
+  fidelity is invisible at that size. (runs/dry-1 S11, round 2)
 
 ## Non-goals
 
