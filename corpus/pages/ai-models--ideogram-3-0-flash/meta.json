@@ -4,5 +4,9 @@
  "title": "Ideogram 3.0 Flash - Fast AI Image Generation Model",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:10:19+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 32,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Flux Kontext Pro AI Model | Professional Context-Aware Editing | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:07:24+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 24,
+  "failed": 0
+ }
 }

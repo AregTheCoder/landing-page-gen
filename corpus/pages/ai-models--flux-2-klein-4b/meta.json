@@ -4,5 +4,9 @@
  "title": "Flux 2 Klein 4B - Picsart's Free Flux 2 AI Image Model",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:06:45+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 35,
+  "failed": 0
+ }
 }

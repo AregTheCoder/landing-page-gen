@@ -4,5 +4,9 @@
  "title": "AI Asset Maker \u2013 Generate branded content with AI | Picsart",
  "family": "tool",
  "fetched_at": "2026-09-04T13:31:03+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 22,
+  "failed": 0
+ }
 }

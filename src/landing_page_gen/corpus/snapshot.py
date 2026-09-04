@@ -182,7 +182,7 @@ def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print, l
         # from <body>.
         meta["shell"] = True
         (out / "meta.json").write_text(json.dumps(meta, indent=1))
-        log(f"skipped {slug}: app shell without <main> ({len(raw) // 1024} KB)")
+        log(f"skipped {slug}: app shell, no server-rendered text ({len(raw) // 1024} KB)")
         return out
     snapshot_html(soup)
     if localise:

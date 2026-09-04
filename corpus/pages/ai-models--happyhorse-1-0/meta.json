@@ -4,5 +4,9 @@
  "title": "HappyHorse 1.0 - #1 Ranked AI Video Model with Native Audio",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:09:29+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 42,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "Lyria 3 AI Music Model | Generate Full Songs with AI",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:13:10+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 44,
+  "failed": 0
+ }
 }

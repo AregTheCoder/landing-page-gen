@@ -4,5 +4,9 @@
  "title": "Kling 3.0 Omni - Multimodal AI Video Generation with Reference Control",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:11:19+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 40,
+  "failed": 0
+ }
 }

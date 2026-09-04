@@ -4,5 +4,9 @@
  "title": "GPT Image 1 AI Model | OpenAI Native Image Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:08:31+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 36,
+  "failed": 0
+ }
 }

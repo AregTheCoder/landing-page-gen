@@ -4,5 +4,9 @@
  "title": "Flux 3 AI Model | Image, Video & Audio in One Model",
  "family": "ai-models",
  "fetched_at": "2026-09-04T12:59:41+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 45,
+  "failed": 0
+ }
 }

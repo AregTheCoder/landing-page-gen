@@ -4,5 +4,9 @@
  "title": "Ideogram V4 | Open-Weight AI Image Generator AI Model",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:10:30+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 37,
+  "failed": 0
+ }
 }

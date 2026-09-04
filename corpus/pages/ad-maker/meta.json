@@ -4,5 +4,9 @@
  "title": "Ad Maker \u2013 Create, Run, and Analyze Ads More Effectively",
  "family": "tool",
  "fetched_at": "2026-09-04T13:30:39+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 45,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "AI Art Generator - Create AI Art for Free | Picsart",
  "family": "tool",
  "fetched_at": "2026-09-04T13:30:50+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 42,
+  "failed": 0
+ }
 }

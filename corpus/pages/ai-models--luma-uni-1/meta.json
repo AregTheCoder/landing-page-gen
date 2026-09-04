@@ -4,5 +4,9 @@
  "title": "Luma Uni-1 AI Model | Reasoning-First Image Generation",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:13:00+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 37,
+  "failed": 0
+ }
 }

@@ -4,5 +4,9 @@
  "title": "AI Mockup Generator - Create Mockups for Products Online",
  "family": "tool",
  "fetched_at": "2026-09-04T13:32:21+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 23,
+  "failed": 0
+ }
 }

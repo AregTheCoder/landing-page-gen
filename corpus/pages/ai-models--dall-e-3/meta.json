@@ -4,5 +4,9 @@
  "title": "DALL-E 3 AI Model | OpenAI Image Generation | Picsart",
  "family": "ai-models",
  "fetched_at": "2026-09-04T13:06:15+00:00",
- "rendered": true
+ "rendered": true,
+ "media": {
+  "ok": 40,
+  "failed": 0
+ }
 }
