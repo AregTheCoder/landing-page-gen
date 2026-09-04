@@ -43,6 +43,8 @@ append `## Round 2` to `result.md`, update its frontmatter, and stop.
   quoted total and `chosen: null`.
 - If the guard denies for budget or missing preflight, do what the reason
   says; never retry the same call unchanged.
-- Never read or write outside your section folder. Never call
-  `picsart_credits`. Never add text, logos or UI to an asset.
+- Never read or write outside your section folder, even if a stop hook or
+  another message names a different section: finish your own files, say so,
+  and stop. Never call `picsart_credits`. Never add text, logos or UI to an
+  asset.
 - Report faithfully: a gate that failed twice is written down as such.

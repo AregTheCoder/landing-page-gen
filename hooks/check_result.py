@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """SubagentStop hook for section-worker. Finds the section the worker was
-writing to (last runs/.../sections/Sxx path in its transcript) and blocks the
+writing to (first runs/.../sections/Sxx path in its transcript, i.e. the
+section named in its assignment; workers list other sections later) and blocks the
 stop until workflow.yaml and result.md exist there with their required keys."""
 
 import json
@@ -42,12 +43,12 @@ def main():
     run = L.current_run()
     if not sids or not run.exists():
         return
-    folder = run / "sections" / sids[-1]
+    folder = run / "sections" / sids[0]
     problems = missing_in(folder)
     if problems:
         print(json.dumps({
             "decision": "block",
-            "reason": f"Not finished for {sids[-1]}: " + "; ".join(problems)
+            "reason": f"Not finished for {sids[0]}: " + "; ".join(problems)
                       + ". Write both files per the output contract, then stop.",
         }))
 
