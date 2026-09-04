@@ -7,7 +7,7 @@
 ## AI Product Image Generator
 Turn phone shots into campaigns with Picsart’s AI Product Image Generator. In just 60 seconds, transform everyday photos into polished ads - no studio needed, just your phone and a quick upload.
 Start creating
-![image creative 480x480: Ai product photo generator](https://cdn-cms-uploads.picsart.com/cms-uploads/f7dd9043-fa02-4f69-8cc3-588cbc8ff458.webp)
+![image creative 480x480: Ai product photo generator](media/f7dd9043-fa02-4f69-8cc3-588cbc8ff458-dc42ef81.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f7dd9043-fa02-4f69-8cc3-588cbc8ff458.webp")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Icon for fast creation](https://cdn-cms-uploads.picsart.com/cms-uploads/31f9a163-c553-45bf-baef-2a982c8f2693.png)
+![image icon 96x96: Icon for fast creation](media/31f9a163-c553-45bf-baef-2a982c8f2693-5714d115.png "https://cdn-cms-uploads.picsart.com/cms-uploads/31f9a163-c553-45bf-baef-2a982c8f2693.png")
 #### Create ads in seconds
 With the AI Product Ad Generator, quickly turn phone shots into polished, professional campaigns.
-![image icon 96x96: Icon for ecommerce readiness](https://cdn-cms-uploads.picsart.com/cms-uploads/a10686e1-8401-42ed-9c2f-87054316694c.png)
+![image icon 96x96: Icon for ecommerce readiness](media/a10686e1-8401-42ed-9c2f-87054316694c-1cb4391c.png "https://cdn-cms-uploads.picsart.com/cms-uploads/a10686e1-8401-42ed-9c2f-87054316694c.png")
 #### E-commerce ready
 The AI product photo enhancer helps Shopify, Etsy, and social platform ads appear polished and professional.
-![image icon 96x96: Icon for multi format support](https://cdn-cms-uploads.picsart.com/cms-uploads/f4b5835f-8ff1-4946-9f56-1d4d820c661c.png)
+![image icon 96x96: Icon for multi format support](media/f4b5835f-8ff1-4946-9f56-1d4d820c661c-ca148b64.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f4b5835f-8ff1-4946-9f56-1d4d820c661c.png")
 #### Multi-format
 With the Product Photo to Ad Generator, create static, carousel, or animated creatives for campaigns.
 
@@ -62,53 +62,53 @@ Snap a quick picture on your iPhone or Android and upload it directly into the m
 #### Customize with AI
 4
 #### Generate your campaign
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/dc8eea65-c393-4e78-83b4-69ef77d2c596.webm)
+![video ui-screenshot 480x600: ](media/dc8eea65-c393-4e78-83b4-69ef77d2c596-fcd1442e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/dc8eea65-c393-4e78-83b4-69ef77d2c596.webm")
 
 ## S05 feature-callout
 
 ### AI Product Photo Generator for Ads
 Picsart’s AI Product Photo Generator transforms simple phone shots into polished ad creatives in seconds. Built for solopreneurs, small businesses, and online sellers, it makes professional-looking campaigns easy - without the cost or hassle of a studio.
-![image creative 480x480: Generate product photo from a phone shot](https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp)
+![image creative 480x480: Generate product photo from a phone shot](media/19bdc9aa-b771-4223-89dd-34ce17035142-d51deeb7.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp")
 
 ## S06 feature-callout
 
 ### Phone shot to product shot in seconds
 Take a quick photo on your iPhone or Android and turn it into a polished product shot in under 60 seconds. With Picsart’s AI Product Photo Generator, you get professional-quality results without effort. Pair it with tools like the Ad Maker or AI Image Generator to create standout campaigns.
-![image creative 480x480: Phone shot to product shot](https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp)
+![image creative 480x480: Phone shot to product shot](media/fc728ce2-88dc-4d22-afe5-61b18ace1d0f-a9bb0f2f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp")
 
 ## S07 feature-callout
 
 ### AI Product Ad Generator for professional results
 With Picsart’s AI Product Image Generator, there’s no need for a studio or a costly photographer. The tool enhances lighting, focus, and backgrounds so even simple phone photos look professional and on-brand. For even more refined results, use the AI Product Background Generator and AI Photo Editor .
-![image creative 480x480: Generate product ad images](https://cdn-cms-uploads.picsart.com/cms-uploads/39120e67-c950-4588-84c4-7562280b8e10.webp)
+![image creative 480x480: Generate product ad images](media/39120e67-c950-4588-84c4-7562280b8e10-a8ba783a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/39120e67-c950-4588-84c4-7562280b8e10.webp")
 
 ## S08 feature-callout
 
 ### AI Product Image Generator for every seller
 From solo founders to small shops, Shopify product photo AI and Etsy product photo generator tools make ads quick and affordable. Marketers use the AI ad generator for e-commerce to A/B test campaigns, while social sellers create product ads from iPhone photos. With this tool, anyone can launch polished creatives in minutes.
-![image creative 480x480: Ai product ad image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/ebe8e85d-1307-4ba8-8746-5fedfa68e717.webp)
+![image creative 480x480: Ai product ad image generation](media/ebe8e85d-1307-4ba8-8746-5fedfa68e717-ecd44788.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ebe8e85d-1307-4ba8-8746-5fedfa68e717.webp")
 
 ## S09 tutorial-grid
 
 ### Understand AI image generation
 Learn how prompts, styles, and model choices shape images.
-![image thumbnail 294x196: How to generate your first AI image from text prompts preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e107fc3d-526a-4097-a693-61b4f0a54ad2.avif)
+![image thumbnail 294x196: How to generate your first AI image from text prompts preview](media/e107fc3d-526a-4097-a693-61b4f0a54ad2-2669073f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e107fc3d-526a-4097-a693-61b4f0a54ad2.avif")
 Image generation
 #### How to generate your first AI image from text prompts
 3 min Beginner
-![image thumbnail 294x196: How to create AI art in any style with model selection preview](https://cdn-cms-uploads.picsart.com/cms-uploads/38acf6dc-07e4-4c1b-a4e2-097613d89881.avif)
+![image thumbnail 294x196: How to create AI art in any style with model selection preview](media/38acf6dc-07e4-4c1b-a4e2-097613d89881-9abda739.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/38acf6dc-07e4-4c1b-a4e2-097613d89881.avif")
 Image generation
 #### How to create AI art in any style with model selection
 4 min Intermediate
-![image thumbnail 294x196: How to generate multiple variations of one AI image idea preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e83771a0-9647-4d20-949d-7a59fd8f475b.avif)
+![image thumbnail 294x196: How to generate multiple variations of one AI image idea preview](media/e83771a0-9647-4d20-949d-7a59fd8f475b-09ba1ce6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e83771a0-9647-4d20-949d-7a59fd8f475b.avif")
 Image generation
 #### How to generate multiple variations of one AI image idea
 5 min Advanced
-![image thumbnail 294x196: How to create consistent AI characters across multiple images preview](https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif)
+![image thumbnail 294x196: How to create consistent AI characters across multiple images preview](media/39dc567c-a369-450d-aa19-b64f2b738fe7-36b112a9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif")
 Image generation
 #### How to create consistent AI characters across multiple images
 5 min Advanced
-![image thumbnail 294x196: How to generate AI images with readable text and logos preview](https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif)
+![image thumbnail 294x196: How to generate AI images with readable text and logos preview](media/358649ff-86d4-4eb0-9a4f-39924d0aeca6-ffb71e42.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif")
 Image generation
 #### How to generate AI images with readable text and logos
 4 min Intermediate
@@ -130,19 +130,19 @@ An AI Product Image Generator is a tool that transforms regular photos into poli
 ## S11 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: Picsart AI Ad Maker: The all-in-one ad maker platform](https://pastatic.picsart.com/cms-pastatic/02d58934-664d-4aee-91b8-e327310aa41d.png)
+![image thumbnail 342x282: Picsart AI Ad Maker: The all-in-one ad maker platform](media/02d58934-664d-4aee-91b8-e327310aa41d-61d77ebf.png "https://pastatic.picsart.com/cms-pastatic/02d58934-664d-4aee-91b8-e327310aa41d.png")
 AI Ad Maker Create ads, optimize performance, and scale campaigns using smart tools built to deliver results.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: ai image generator](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI Image Generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: Generate templates with ai](https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp)
+![image thumbnail 342x282: Generate templates with ai](media/609c7793-6c4c-4046-ac42-5eb41c1bf823-1537c3a4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp")
 AI Template Generator Turn ideas into ready-to-use templates with Picsart’s AI Template Generator in seconds.
-![image thumbnail 342x282: Ai variation generator](https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp)
+![image thumbnail 342x282: Ai variation generator](media/417917f0-159c-42ad-9f01-05c3ff66355a-5daffba1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp")
 Variation Generator Create designs in bulk with Picsart’s Variation Generator.
-![image thumbnail 342x282: generate fonts with ai online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/b6344625-f048-4a72-ae08-fd73da29c4ff.png)
+![image thumbnail 342x282: generate fonts with ai online for free](media/b6344625-f048-4a72-ae08-fd73da29c4ff-999c0614.png "https://cdn-cms-uploads.picsart.com/cms-uploads/b6344625-f048-4a72-ae08-fd73da29c4ff.png")
 AI Font Generator Generate unique fonts instantly with Picsart’s AI Font Generator.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI Photo Enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: Picsart image cropper](https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png)
+![image thumbnail 342x282: Picsart image cropper](media/54f94706-2d77-4570-89ad-94e9a83409b2-de9b77e1.png "https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png")
 Image Cropper Keep what matters with an easy-to-use image cropper tool.
 
 ## S12 pricing

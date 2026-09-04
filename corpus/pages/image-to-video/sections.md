@@ -7,7 +7,7 @@
 ## Animate your photos with Image-to-Video AI in seconds
 With Picsart’s Image-to-Video tool, turning static images into short videos is fast and simple. Upload 1-2 photos to create scroll-stopping product visuals - complete with motion, subtle animations and pro-level polish. Ideal for showcasing items on social, websites, and marketing materials without any video editing skills.
 Upload image
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/bdc00d0f-8e7c-4279-ad7a-804a1b254354.webm)
+![video creative 480x480: ](media/bdc00d0f-8e7c-4279-ad7a-804a1b254354-fb22bd75.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/bdc00d0f-8e7c-4279-ad7a-804a1b254354.webm")
 
 ## S02 link-grid
 
@@ -41,20 +41,20 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 ## S03 cta-band
 
 4.9/5
-![image icon 42x48: G2 Spring 2026 Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png)
-![image icon 42x48: G2 Spring 2026 Momentum Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png)
-![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png)
-![image icon 42x48: G2 Users Love Us badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png)
+![image icon 42x48: G2 Spring 2026 Leader badge](media/8463ca02-9a08-40e5-80ac-b231eb974a09-74bebdaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png")
+![image icon 42x48: G2 Spring 2026 Momentum Leader badge](media/7115d730-f23a-471b-9500-c104e43b264f-73ace4f9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png")
+![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](media/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e-f239a1b2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png")
+![image icon 42x48: G2 Users Love Us badge](media/8fd68c39-abbb-4835-ab78-f563bf63eaea-8bfed398.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png")
 
 ## S04 feature-row
 
-![image icon 96x96: icon for ai](https://cdn-cms-uploads.picsart.com/cms-uploads/fb0cd609-bc8f-444c-901f-4fce22cf2628.png)
+![image icon 96x96: icon for ai](media/fb0cd609-bc8f-444c-901f-4fce22cf2628-54a8914e.png "https://cdn-cms-uploads.picsart.com/cms-uploads/fb0cd609-bc8f-444c-901f-4fce22cf2628.png")
 #### AI-powered image-to-video conversion
 Turn static images into motion - zero equipment, zero hassle.
-![image icon 96x96: icon for video generator](https://cdn-cms-uploads.picsart.com/cms-uploads/f0f40002-4ceb-4f7b-8313-23fa6c1958e1.png)
+![image icon 96x96: icon for video generator](media/f0f40002-4ceb-4f7b-8313-23fa6c1958e1-3ef7bec9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f0f40002-4ceb-4f7b-8313-23fa6c1958e1.png")
 #### Fast, professional-quality video results
 Produce high-quality videos instantly - no video software or skills required.
-![image icon 96x96: icon for a folder](https://cdn-cms-uploads.picsart.com/cms-uploads/ff941f4e-91c0-415e-b2fa-7f9652e9d04f.png)
+![image icon 96x96: icon for a folder](media/ff941f4e-91c0-415e-b2fa-7f9652e9d04f-3b9c5ade.png "https://cdn-cms-uploads.picsart.com/cms-uploads/ff941f4e-91c0-415e-b2fa-7f9652e9d04f.png")
 #### Custom styles and guided prompts
 Choose a style and add a prompt to shape your video’s look, mood, and movement.
 
@@ -108,37 +108,37 @@ Choose one or two photos as reference frames to kickstart your video.
 #### Adjust settings
 4
 #### Generate and download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/daecc624-b9e9-41f5-a9a7-e7733eb755a5.webm)
+![video ui-screenshot 480x600: ](media/daecc624-b9e9-41f5-a9a7-e7733eb755a5-cdc67305.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/daecc624-b9e9-41f5-a9a7-e7733eb755a5.webm")
 
 ## S08 feature-callout
 
 ### Animate your photos using Image to Video AI
 Picsart’s Image to Video AI turns still images into dynamic videos within moments. Upload your photo, pick a style, and let AI add cinematic effects with smooth motion and natural transitions for a professional finish. Go from gentle movements to dramatic effects, with results that look studio-made. Use it to create engaging social content, highlight products, or enhance your marketing with movement.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/63ce8e4f-ed34-4fa6-bccc-24088399f766.webm)
+![video creative 480x480: ](media/63ce8e4f-ed34-4fa6-bccc-24088399f766-547ca3c7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/63ce8e4f-ed34-4fa6-bccc-24088399f766.webm")
 
 ## S09 feature-callout
 
 ### Create engaging videos for product listings
 Use Picsart's Image-to-Video tool to transform plain product shots into short, engaging videos. AI handles the animation, voiceover, and clean backgrounds - perfect for turning static images into polished content for your Etsy or eBay listings and ad campaigns.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f5f928a7-43e9-4273-8341-db083d3fa851.webm)
+![video creative 480x480: ](media/f5f928a7-43e9-4273-8341-db083d3fa851-50402d2e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f5f928a7-43e9-4273-8341-db083d3fa851.webm")
 
 ## S10 feature-callout
 
 ### Convert images to videos for events, stories, and branding
 Picsart’s Image to Video AI can turn any image into a dynamic video for a wide range of projects. Use it for event promotions, brand campaigns, educational content, creative portfolios, or personal storytelling. With flexible styles and smart effects, visuals adapt naturally to different themes and purposes.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0e7c6b6c-c9a2-467f-9798-23ab2b655dc7.webm)
+![video creative 480x480: ](media/0e7c6b6c-c9a2-467f-9798-23ab2b655dc7-94ed7600.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0e7c6b6c-c9a2-467f-9798-23ab2b655dc7.webm")
 
 ## S11 feature-callout
 
 ### Turn images intro viral social video
 Turn static photos into dynamic short videos for TikTok, Instagram, and more using Picsart's Image-to-Video tool. Whether you're sharing a concept or showcasing a product, this tool makes it easy to stand out by turning static images into short videos designed for maximum engagement.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/aaad850e-374f-4cac-aec2-f7fbd85425a8.webm)
+![video creative 480x480: ](media/aaad850e-374f-4cac-aec2-f7fbd85425a8-59860829.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/aaad850e-374f-4cac-aec2-f7fbd85425a8.webm")
 
 ## S12 feature-callout
 
 ### Customize your AI video for maximum impact
 Easily customize every element when turning static images into short videos. Adjust the duration, pick your resolution, and apply dynamic camera movements such as smooth sweeps, close-up zooms, or cinematic rotations. Add a voiceover to deliver message exactly how you want it - fully tailored and polished.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4f66cb71-2332-4968-80f5-104ff0705ff2.webm)
+![video creative 480x480: ](media/4f66cb71-2332-4968-80f5-104ff0705ff2-340245e5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/4f66cb71-2332-4968-80f5-104ff0705ff2.webm")
 
 ## S13 link-grid
 

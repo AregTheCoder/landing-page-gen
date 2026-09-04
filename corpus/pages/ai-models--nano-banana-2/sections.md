@@ -7,7 +7,7 @@
 ## Nano Banana 2: Pro-Level Quality at Flash Speed
 Picsart’s AI Image Generator now features Nano Banana 2, Google’s latest image generation model built on Gemini 3.1 Flash Image. Nano Banana 2 combines Pro-level quality with Flash speed - delivering high-end visuals, reliable character consistency, and advanced text rendering without the slower processing times of premium models. Picsart is among the first creative platforms to integrate it.
 Start generating
-![image creative 480x480: Nano Banana 2 AI image generation model](https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp)
+![image creative 480x480: Nano Banana 2 AI image generation model](media/fac139f1-0aae-4888-99f2-8fdf603c8900-7568b314.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp")
 
 ## S02 interactive-demo
 
@@ -18,22 +18,22 @@ Start generating
 ## S03 gallery
 
 ### Images created with Nano Banana 2
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ca787233-bea0-4fb3-92ae-3f6c1c3af080.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6f2acbc4-3bfd-49a4-bb07-9d6dc399561c.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1d484fc9-1f0f-4b2f-9ba3-850661a2e6d3.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cddfb909-b6d5-4aea-95c2-c01ae03c88a3.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cd6962d3-9b7d-4bdc-81b1-4d4e2d35e9b4.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/452ff7b9-5590-4f46-a852-5c0f48fe48e2.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/69d930ac-f093-4f6c-b27c-987430488f0c.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e471093a-6f7e-408a-bab0-f7e143baaae6.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/76b0a464-9283-4acc-bce1-d35adf1c8664.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e1af1637-8c6d-4bc6-829a-e6b03c928c0a.avif)
+![image creative 196x348: ](media/ca787233-bea0-4fb3-92ae-3f6c1c3af080-8a240068.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ca787233-bea0-4fb3-92ae-3f6c1c3af080.avif")
+![image creative 196x348: ](media/6f2acbc4-3bfd-49a4-bb07-9d6dc399561c-0ec89e3f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6f2acbc4-3bfd-49a4-bb07-9d6dc399561c.avif")
+![image creative 196x348: ](media/1d484fc9-1f0f-4b2f-9ba3-850661a2e6d3-ee6d5c3a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d484fc9-1f0f-4b2f-9ba3-850661a2e6d3.avif")
+![image creative 196x348: ](media/cddfb909-b6d5-4aea-95c2-c01ae03c88a3-2bf11ff7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cddfb909-b6d5-4aea-95c2-c01ae03c88a3.avif")
+![image creative 196x348: ](media/cd6962d3-9b7d-4bdc-81b1-4d4e2d35e9b4-6ecb1411.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cd6962d3-9b7d-4bdc-81b1-4d4e2d35e9b4.avif")
+![image creative 196x348: ](media/452ff7b9-5590-4f46-a852-5c0f48fe48e2-7788161c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/452ff7b9-5590-4f46-a852-5c0f48fe48e2.avif")
+![image creative 196x348: ](media/69d930ac-f093-4f6c-b27c-987430488f0c-6e1bcb73.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/69d930ac-f093-4f6c-b27c-987430488f0c.avif")
+![image creative 196x348: ](media/e471093a-6f7e-408a-bab0-f7e143baaae6-8f52a096.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e471093a-6f7e-408a-bab0-f7e143baaae6.avif")
+![image creative 196x348: ](media/76b0a464-9283-4acc-bce1-d35adf1c8664-7dcd1ba6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/76b0a464-9283-4acc-bce1-d35adf1c8664.avif")
+![image creative 196x348: ](media/e1af1637-8c6d-4bc6-829a-e6b03c928c0a-8bf76b11.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e1af1637-8c6d-4bc6-829a-e6b03c928c0a.avif")
 
 ## S04 feature-callout
 
 ### What is Nano Banana 2?
 Nano Banana 2 is Google’s latest image generation model, built on Gemini 3.1 Flash Image. It sits right between Nano Banana and Nano Banana Pro, delivering near-Pro results at much faster speeds with up to 40% lower API cost. With support for up to five consistent characters, fourteen objects per scene, resolutions from 512px to 4K, and advanced text rendering with in-image localization, Nano Banana 2 represents the sweet spot of quality and speed for modern creative workflows. For a deeper look at how it stacks up, see our Nano Banana models comparison .
-![image creative 480x480: Nano Banana 2 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90)
+![image creative 480x480: Nano Banana 2 AI model](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-873f1e42.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90")
 
 ## S05 use-case-grid
 
@@ -43,43 +43,43 @@ What you can create with Nano Banana 2
 [button: Create marketing content fast]
 [button: Explore with web grounding]
 Create Pro-level visuals from text prompts at Gemini Flash speed. Ideal for rapid prototyping, brainstorming sessions, and high-volume content creation where waiting for premium models isn’t an option.
-![image creative 879x418: Nano Banana 2 for fast image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp)
+![image creative 879x418: Nano Banana 2 for fast image generation](media/a90b63ab-64e4-4b4f-a541-cdec37abc167-0da70bbd.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Nano Banana 2
 Nano Banana 2 now serves as the default image generation model inside Picsart Flow . There’s no new button to hunt for, no complicated setup - the upgrade happened quietly in the background with obvious results. Start with a text prompt that generates a product scene, then instantly connect it to background removal, lighting adjustments, color grading, resizing, and export. Nano Banana 2 is also integrated into Picsart Aura , bringing the same speed and quality to chat-driven visual creation.
-![image creative 480x480: How Picsart uses Nano Banana 2](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: How Picsart uses Nano Banana 2](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Nano Banana 2
 Nano Banana 2 hits the sweet spot that creators have been waiting for — near-Pro quality at Flash speed. It delivers sharper, more dynamic lighting, maintains character consistency across complex scenes, and renders text reliably in multiple languages. With up to 40% lower API cost than premium models and Gemini’s broader knowledge base powering more faithful prompt interpretation, Nano Banana 2 is the go-to choice for creators who need professional output without professional wait times.
-![image creative 480x480: Why creators choose Nano Banana 2](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Why creators choose Nano Banana 2](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S08 feature-callout
 
 ### Nano Banana 2 inside the Picsart ecosystem
 Nano Banana 2 now serves as the default image generation model inside Picsart AI Playground and Flow . There's no new button to hunt for, no complicated setup — the upgrade happened quietly in the background, with obvious results. Start with a text prompt that generates a product scene, then instantly connect it to background removal, lighting adjustments, color grading, resizing, and export. You can also generate with Nano Banana 2 in AI Playground, comparing its output against 150+ other models from a single prompt. And you can reach it whichever way you work: on the web, in the desktop app , or built straight into your own projects via CLI, MCP, REST API, and SDK.
-![image creative 480x480: Nano Banana 2 inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Nano Banana 2 inside the Picsart ecosystem](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -129,13 +129,13 @@ Nano Banana 2 is Google’s latest AI image generation model, built on Gemini 3.
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Nano Banana 2 Integration](https://cdnblog.picsart.com/2026/02/CR6772_Picsart_NanoBanana2_750x450.png)
+![image thumbnail 342x282: Nano Banana 2 Integration](media/CR6772_Picsart_NanoBanana2_750x450-99930367.png "https://cdnblog.picsart.com/2026/02/CR6772_Picsart_NanoBanana2_750x450.png")
 Nano Banana 2 Integration How Picsart integrates Nano Banana 2 for AI image generation.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: ai video generation](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Kling A cutting-edge generative video model focused on producing detailed, physically consistent videos from text and image prompts.
-![image thumbnail 342x282: ai generation](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: ai generation](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora Sora helps creators produce video content more efficiently while lowering traditional production barriers.
 
 ## S13 pricing

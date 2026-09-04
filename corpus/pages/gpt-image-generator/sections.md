@@ -7,7 +7,7 @@
 ## Create visuals with the GPT Image Generator
 Turn ideas into polished visuals in seconds. Picsart’s GPT image generator combines OpenAI’s image generation with powerful design tools, giving you more control over how your images look, feel, and function.
 Generate GPT image
-![image creative 480x480: gpt image generator powered by openai](https://cdn-cms-uploads.picsart.com/cms-uploads/ff8ac657-9599-450d-96f3-c25284f1b642.webp)
+![image creative 480x480: gpt image generator powered by openai](media/ff8ac657-9599-450d-96f3-c25284f1b642-17ebdbad.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff8ac657-9599-450d-96f3-c25284f1b642.webp")
 
 ## S02 link-grid
 
@@ -65,13 +65,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S04 feature-row
 
-![image icon 96x96: icon for fast gpt image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/8d49a6bc-71f3-4f97-94f0-09d601a05126.png)
+![image icon 96x96: icon for fast gpt image generation](media/8d49a6bc-71f3-4f97-94f0-09d601a05126-25a5dc0c.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8d49a6bc-71f3-4f97-94f0-09d601a05126.png")
 #### Fast image generation
 Use the GPT Image Generator to create original and high-quality images quickly from simple prompts.
-![image icon 96x96: icon for gpt images powered by openai](https://cdn-cms-uploads.picsart.com/cms-uploads/9dbf2ec8-82b8-4747-93d6-9705cb8424e7.png)
+![image icon 96x96: icon for gpt images powered by openai](media/9dbf2ec8-82b8-4747-93d6-9705cb8424e7-da0fc1a2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9dbf2ec8-82b8-4747-93d6-9705cb8424e7.png")
 #### Built with advanced AI technology
 Powered by OpenAI, Picsart generates GPT images with detail and clarity, turning short descriptions into visually rich and ready-to-use results.
-![image icon 96x96: icon for reliable gpt image generator tool](https://cdn-cms-uploads.picsart.com/cms-uploads/7fd79584-caa3-4238-83b4-f7958f00cd16.png)
+![image icon 96x96: icon for reliable gpt image generator tool](media/7fd79584-caa3-4238-83b4-f7958f00cd16-09b79a39.png "https://cdn-cms-uploads.picsart.com/cms-uploads/7fd79584-caa3-4238-83b4-f7958f00cd16.png")
 #### Reliable AI, unique outcomes
 Each GPT image is one of a kind and created securely, giving you results you can count on.
 
@@ -85,47 +85,47 @@ Start with a short prompt that includes key details, such as subject, style, set
 #### Adjust and fine-tune your result
 3
 #### Save and use your GPT image
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2cffaf14-ffbc-4b00-a9b0-5f2f8b3caa48.mp4)
+![video ui-screenshot 480x600: ](media/2cffaf14-ffbc-4b00-a9b0-5f2f8b3caa48-565e9885.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/2cffaf14-ffbc-4b00-a9b0-5f2f8b3caa48.mp4")
 
 ## S06 feature-callout
 
 ### Discover what’s possible with the GPT Image Generator
 The GPT image generator is perfect for visualizing ideas for marketing campaigns, creating backgrounds for social media, designing custom cards, or producing concept art. It’s especially useful when starting with no assets, helping you create GPT images from scratch. Use it to explore unique directions for mood boards, storytelling, quick mockups, and more.
-![image creative 480x480: gpt image generator online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/33bb57f2-81f2-4a61-b69f-088db7f712e7.webp)
+![image creative 480x480: gpt image generator online for free](media/33bb57f2-81f2-4a61-b69f-088db7f712e7-324d76ce.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/33bb57f2-81f2-4a61-b69f-088db7f712e7.webp")
 
 ## S07 feature-callout
 
 ### Use the GPT Image Generator for creative projects
 The GPT image generator is perfect for quickly visualizing ideas for marketing campaigns, designing greeting cards, building social media backgrounds or producing concept art. It’s especially useful when starting with no assets, helping you create GPT images from scratch. This tool supports visual storytelling, brainstorming, mood boards and mockups - offering a new way to generate completely original content beyond traditional editing.
-![image creative 480x480: gpt image generator for creative projects](https://cdn-cms-uploads.picsart.com/cms-uploads/081fcfeb-e376-43d6-b306-01b388bc3d98.webp)
+![image creative 480x480: gpt image generator for creative projects](media/081fcfeb-e376-43d6-b306-01b388bc3d98-57603801.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/081fcfeb-e376-43d6-b306-01b388bc3d98.webp")
 
 ## S08 feature-callout
 
 ### Refine and customize your GPT-generated images
 After generating your GPT images, use Picsart’s editing tools to refine and customize them. Remove Objects , apply AI Filters , or Replace Elements to match your creative needs. From cleaning up backgrounds to adding branded details, you can easily edit GPT images and enhance them for any use.
-![image creative 480x480: customize gpt-generated images](https://cdn-cms-uploads.picsart.com/cms-uploads/0989c328-8404-4b93-86b4-fe75d9c65d94.webp)
+![image creative 480x480: customize gpt-generated images](media/0989c328-8404-4b93-86b4-fe75d9c65d94-b2235921.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0989c328-8404-4b93-86b4-fe75d9c65d94.webp")
 
 ## S09 tutorial-grid
 
 ### Understand AI image generation
 Learn how prompts, styles, and model choices shape images.
-![image thumbnail 294x196: How to generate your first AI image from text prompts preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e107fc3d-526a-4097-a693-61b4f0a54ad2.avif)
+![image thumbnail 294x196: How to generate your first AI image from text prompts preview](media/e107fc3d-526a-4097-a693-61b4f0a54ad2-2669073f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e107fc3d-526a-4097-a693-61b4f0a54ad2.avif")
 Image generation
 #### How to generate your first AI image from text prompts
 3 min Beginner
-![image thumbnail 294x196: How to create AI art in any style with model selection preview](https://cdn-cms-uploads.picsart.com/cms-uploads/38acf6dc-07e4-4c1b-a4e2-097613d89881.avif)
+![image thumbnail 294x196: How to create AI art in any style with model selection preview](media/38acf6dc-07e4-4c1b-a4e2-097613d89881-9abda739.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/38acf6dc-07e4-4c1b-a4e2-097613d89881.avif")
 Image generation
 #### How to create AI art in any style with model selection
 4 min Intermediate
-![image thumbnail 294x196: How to generate multiple variations of one AI image idea preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e83771a0-9647-4d20-949d-7a59fd8f475b.avif)
+![image thumbnail 294x196: How to generate multiple variations of one AI image idea preview](media/e83771a0-9647-4d20-949d-7a59fd8f475b-09ba1ce6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e83771a0-9647-4d20-949d-7a59fd8f475b.avif")
 Image generation
 #### How to generate multiple variations of one AI image idea
 5 min Advanced
-![image thumbnail 294x196: How to create consistent AI characters across multiple images preview](https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif)
+![image thumbnail 294x196: How to create consistent AI characters across multiple images preview](media/39dc567c-a369-450d-aa19-b64f2b738fe7-36b112a9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif")
 Image generation
 #### How to create consistent AI characters across multiple images
 5 min Advanced
-![image thumbnail 294x196: How to generate AI images with readable text and logos preview](https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif)
+![image thumbnail 294x196: How to generate AI images with readable text and logos preview](media/358649ff-86d4-4eb0-9a4f-39924d0aeca6-ffb71e42.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif")
 Image generation
 #### How to generate AI images with readable text and logos
 4 min Intermediate
@@ -149,17 +149,17 @@ OpenAI's image generation technology uses advanced language and vision models to
 ## S11 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: convert photos to hd online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png)
+![image thumbnail 342x282: convert photos to hd online for free](media/18256ca7-8db2-49e1-a7b9-b7ebe0e51354-3b846eaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png")
 HD Photo Converter Convert any image to HD quality instantly with Picsart’s AI tool.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png)
+![image thumbnail 342x282: background changer](media/58dbd546-e722-4bd6-8979-2a542338ebc3-55e3e5c9.png "https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png")
 Background Changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI Photo Enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI Writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: AI avatar generator tool](https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png)
+![image thumbnail 342x282: AI avatar generator tool](media/9451d801-0759-4e1c-96b3-b6fc67d366a0-2cf1b915.png "https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png")
 AI avatar Generate portraits in various styles with AI.
 
 ## S12 pricing

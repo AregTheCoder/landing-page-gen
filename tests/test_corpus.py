@@ -85,6 +85,7 @@ def test_sectionize_types_roles_and_stamps(tmp_path):
     assert row[0] == 5
     hit = con.execute("SELECT s.sid FROM sections_fts f JOIN sections s ON s.id = f.rowid WHERE sections_fts MATCH 'manga'").fetchone()
     assert hit["sid"] == "S02"
+    assert f"]({HERO1})" in hero["md"], "without a local copy the media line links the CDN URL"
     # re-indexing replaces rather than duplicates
     sectionize.sectionize_page(d, con, log=lambda m: None)
     assert con.execute("SELECT count(*) FROM sections").fetchone()[0] == 7
@@ -242,6 +243,8 @@ def test_sectionize_after_media_keeps_src_geometry_and_fills_local_path(tmp_path
     assert all(r["local_path"] for r in rows), "the 0x0 ghost was dropped, everything else is local"
     html = (d / "page.html").read_text()
     assert 'data-lp-src="' in html and 'data-lp="S01-m1"' in html, "re-sectionizing keeps the source attribute"
+    md = (d / "sections.md").read_text()
+    assert f'](media/hero1-' in md and f'.avif "{HERO1}")' in md, "sections.md links the local file, CDN URL as title"
 
 
 def test_similar_reuses_local_media(tmp_path, monkeypatch):
@@ -292,3 +295,5 @@ def test_cli_media_all(tmp_path, monkeypatch, capsys):
     assert cli.main(["--db", dbp, "--pages-dir", str(pages), "sectionize", "--all"]) == 0
     assert cli.main(["--db", dbp, "skeleton", "comic-book-generator", "--out", str(slots)]) == 0
     assert json.loads((slots.parent / "slots.json").read_text())["slots"]["S01-m1"]["local"].endswith(".avif")
+    skel = slots.read_text()
+    assert "\nlocal: " in skel and "/media/hero1-" in skel, "slot blocks name the local file"

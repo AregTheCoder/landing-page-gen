@@ -6,13 +6,13 @@
 
 ## Remove unwanted objects, texts, defects and watermarks from photos online
 Reclaim control of your images from intrusive objects with the Picsart object remover tool. Leave it to AI to remove any object, text, defect, or watermark from your photos and make it look like nothing was ever there.
-![image creative 238x238: remove image from product](https://cdn-cms-uploads.picsart.com/cms-uploads/1b997fa2-2b70-4943-9cf7-30238910a57f.webp)
-![image creative 122x122: removed object from image](https://cdn-cms-uploads.picsart.com/cms-uploads/3a78a237-3355-4d87-adfa-1e53dde4a5fb.webp)
-![image creative 171x171: people dancing](https://cdn-cms-uploads.picsart.com/cms-uploads/ad9d863b-c78a-446a-b5a7-1916905cd740.webp)
+![image creative 238x238: remove image from product](media/1b997fa2-2b70-4943-9cf7-30238910a57f-d8a840de.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1b997fa2-2b70-4943-9cf7-30238910a57f.webp")
+![image creative 122x122: removed object from image](media/3a78a237-3355-4d87-adfa-1e53dde4a5fb-a1ad3c57.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3a78a237-3355-4d87-adfa-1e53dde4a5fb.webp")
+![image creative 171x171: people dancing](media/ad9d863b-c78a-446a-b5a7-1916905cd740-2bea1241.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ad9d863b-c78a-446a-b5a7-1916905cd740.webp")
 4.9/5 (1,379 reviews)
-![image creative 130x55: apple best app choice](https://cdn-cms-uploads.picsart.com/cms-uploads/0d777198-2575-4c59-b061-1827e682fa7c.svg)
-![image creative 130x55: 10+ million backgrounds removed](https://cdn-cms-uploads.picsart.com/cms-uploads/5daf66a7-5a48-4b82-82ee-c65a5796f6ef.svg)
-![image creative 130x55: Google best app choice](https://cdn-cms-uploads.picsart.com/cms-uploads/5127d44b-99f3-4b28-a164-3f436bb2c831.svg)
+![image creative 130x55: apple best app choice](media/0d777198-2575-4c59-b061-1827e682fa7c-a1f343cc.svg "https://cdn-cms-uploads.picsart.com/cms-uploads/0d777198-2575-4c59-b061-1827e682fa7c.svg")
+![image creative 130x55: 10+ million backgrounds removed](media/5daf66a7-5a48-4b82-82ee-c65a5796f6ef-46667741.svg "https://cdn-cms-uploads.picsart.com/cms-uploads/5daf66a7-5a48-4b82-82ee-c65a5796f6ef.svg")
+![image creative 130x55: Google best app choice](media/5127d44b-99f3-4b28-a164-3f436bb2c831-4cc28f4b.svg "https://cdn-cms-uploads.picsart.com/cms-uploads/5127d44b-99f3-4b28-a164-3f436bb2c831.svg")
 
 ## S02 link-grid
 
@@ -45,13 +45,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: ai removal tool icon](https://cdn-cms-uploads.picsart.com/cms-uploads/56a13789-8162-4e2c-a38b-30e04750259d.png)
+![image icon 96x96: ai removal tool icon](media/56a13789-8162-4e2c-a38b-30e04750259d-0e465d64.png "https://cdn-cms-uploads.picsart.com/cms-uploads/56a13789-8162-4e2c-a38b-30e04750259d.png")
 #### AI powered object remover
 When you remove an object, AI replaces that part of the photo with a custom-generated image.
-![image icon 96x96: easy removal icon](https://cdn-cms-uploads.picsart.com/cms-uploads/9ea879ab-30e3-42ed-89ad-e2f6da408de9.png)
+![image icon 96x96: easy removal icon](media/9ea879ab-30e3-42ed-89ad-e2f6da408de9-6347d07b.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9ea879ab-30e3-42ed-89ad-e2f6da408de9.png")
 #### Easy-to-use object remover
 It can’t get easier than this. Just brush over the unwanted object and it’s gone!
-![image icon 96x96: Download icon](https://cdn-cms-uploads.picsart.com/cms-uploads/923d4e13-0960-4b64-865c-b26338ac9dd0.png)
+![image icon 96x96: Download icon](media/923d4e13-0960-4b64-865c-b26338ac9dd0-abdecbf2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/923d4e13-0960-4b64-865c-b26338ac9dd0.png")
 #### High-quality downloads
 Export your edits in a crispy clear quality.
 
@@ -67,13 +67,13 @@ Select the image you’d like to remove an object from.
 #### Customize
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0a0baa9d-c961-4add-b2e7-9b72bbd99488.webm)
+![video ui-screenshot 480x600: ](media/0a0baa9d-c961-4add-b2e7-9b72bbd99488-795bcc78.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0a0baa9d-c961-4add-b2e7-9b72bbd99488.webm")
 
 ## S05 feature-callout
 
 ### Remove any object from photo with AI
 Easily erase unwanted elements from your photos in seconds using advanced AI. Got a passerby in the background, clutter on a table or something else ruining your perfect shot? Just highlight the area with the remove brush in the Picsart Editor. The AI will smoothly blend it with the surrounding background - no editing skills required.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/55a2a136-015d-4c1c-abd8-9028ac23cb01.webm)
+![video creative 480x480: ](media/55a2a136-015d-4c1c-abd8-9028ac23cb01-15b87fc7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/55a2a136-015d-4c1c-abd8-9028ac23cb01.webm")
 
 ## S06 use-case-grid
 
@@ -83,101 +83,101 @@ Object remover in action
 [button: People]
 [button: Real estate]
 [button: Design mockups]
-![image creative 423x325: Original](https://cdn-cms-uploads.picsart.com/cms-uploads/6854f93f-b67d-49f9-a896-4ffddc33c850.webp)
+![image creative 423x325: Original](media/6854f93f-b67d-49f9-a896-4ffddc33c850-160a8d0f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6854f93f-b67d-49f9-a896-4ffddc33c850.webp")
 Original
-![image creative 423x325: Unwanted objects selected](https://cdn-cms-uploads.picsart.com/cms-uploads/39dcb17e-7a61-4610-a9c5-0991249921b2.webp)
+![image creative 423x325: Unwanted objects selected](media/39dcb17e-7a61-4610-a9c5-0991249921b2-e655b90f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/39dcb17e-7a61-4610-a9c5-0991249921b2.webp")
 Unwanted objects selected
-![image creative 423x325: Unwanted objects removed](https://cdn-cms-uploads.picsart.com/cms-uploads/96e2aaae-135b-45c2-a9b6-3e7f7a623e06.webp)
+![image creative 423x325: Unwanted objects removed](media/96e2aaae-135b-45c2-a9b6-3e7f7a623e06-17d93a2a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/96e2aaae-135b-45c2-a9b6-3e7f7a623e06.webp")
 Unwanted objects removed
 
 ## S07 feature-callout
 
 ### Remove unwanted objects
 Remove anything from your image with smart, flexible control. Picsart’s AI Object Remover lets you choose from smart selection options - brush, background, foreground, text detection, and AI-assisted tools, so every edit fits your scene. A quick demo animation shows how it works before you start, making it easy to select, remove, and refine with natural-looking results in seconds.
-![image creative 480x480: Remove objects from photo](https://cdn-cms-uploads.picsart.com/cms-uploads/b1482f9a-3cfa-45e2-a23b-eff12e9210c8.avif)
+![image creative 480x480: Remove objects from photo](media/b1482f9a-3cfa-45e2-a23b-eff12e9210c8-cf03bbc8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b1482f9a-3cfa-45e2-a23b-eff12e9210c8.avif")
 
 ## S08 feature-callout
 
 ### Use AI for background or foreground selection
 Background clutter can distract from what matters most in a photo. With Picsart’s Object Remover, use AI-assisted background or foreground selection to remove furniture, cables, or random objects in just a few steps. Select what you want gone, and AI rebuilds the scene naturally - keeping the focus exactly where it belongs.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/07683daf-e02b-4000-8942-e418d7fb71f3.webm)
+![video creative 480x480: ](media/07683daf-e02b-4000-8942-e418d7fb71f3-61c20a3b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/07683daf-e02b-4000-8942-e418d7fb71f3.webm")
 
 ## S09 feature-callout
 
 ### Remove unwanted objects with brushing
 Quickly remove anything by brushing directly over it. The brush tool gives you hands-on control, so you can paint over people, objects, or distractions exactly where you want them gone. Adjust the brush size for precision, swipe over the area, and let AI fill in the background with clean, natural results that blend seamlessly.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/96af8011-3a73-49b8-9353-bccec84311ed.webm)
+![video creative 480x480: ](media/96af8011-3a73-49b8-9353-bccec84311ed-cf6b917a.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/96af8011-3a73-49b8-9353-bccec84311ed.webm")
 
 ## S10 feature-callout
 
 ### Remove text automatically with detection
 Unwanted text, captions, or logos don’t need manual work anymore. With Detect text, the tool automatically finds text elements in your image, so you can select and remove them in one click. AI rebuilds the background instantly, making it easy to clean up photos or prepare designs for reuse without starting over.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4b72a24e-ec64-4d9d-a43b-1bce3579f919.webm)
+![video creative 480x480: ](media/4b72a24e-ec64-4d9d-a43b-1bce3579f919-775b61ac.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/4b72a24e-ec64-4d9d-a43b-1bce3579f919.webm")
 
 ## S11 feature-callout
 
 ### Clean up details with one click
 Small distractions add up, but removing them doesn’t have to be tedious. Use an AI-assisted option to quickly identify and remove cables, clutter, shadows, or background objects with minimal effort. AI understands the scene and fills in the gaps naturally, so you can clean up images faster - no manual brushing required. Just select, remove, and move on with a clearer image that’s ready for content, products, or keepsakes.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/22fbb1ac-73cf-4e91-bbb8-086e92e8f9d1.webm)
+![video creative 480x480: ](media/22fbb1ac-73cf-4e91-bbb8-086e92e8f9d1-538b433e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/22fbb1ac-73cf-4e91-bbb8-086e92e8f9d1.webm")
 
 ## S12 feature-callout
 
 ### Make your visuals brand-ready
 Clean up branded content fast - remove watermarks, logos or text overlays from product photos, mockups, UGC or promo visuals. No need to reshoot or rely on complicated software. Just highlight the mark and the object remover erases it in seconds for a clean and polished finish.
-![image creative 480x480: Make your visuals brand-ready](https://cdn-cms-uploads.picsart.com/cms-uploads/ae15a6af-87d8-4c82-9a30-62ed7d8f6f35.avif)
+![image creative 480x480: Make your visuals brand-ready](media/ae15a6af-87d8-4c82-9a30-62ed7d8f6f35-4434c4cf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ae15a6af-87d8-4c82-9a30-62ed7d8f6f35.avif")
 
 ## S13 feature-callout
 
 ### Describe edits to AI with simple prompts
 Prefer to edit with words instead of tools? Use Describe changes to AI to tell the editor what you want to be gone. Type a short prompt describing the object, text, or detail you want removed, and AI applies the edit in seconds. Every feature - brushing, text detection, click-to-select, and background or foreground removal - can be triggered through prompts. Explore the tools to see what works best for your image, then use AI descriptions to apply edits faster and more intuitively.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0db25921-ff6f-4bc4-84c8-dfd2493ff934.webm)
+![video creative 480x480: ](media/0db25921-ff6f-4bc4-84c8-dfd2493ff934-a7187065.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0db25921-ff6f-4bc4-84c8-dfd2493ff934.webm")
 
 ## S14 link-grid
 
 ### Continue your editing journey with Picsart
 Don’t limit yourself with the object remover. Use Picsart’s other AI photo editing tools to finesse your visuals.
-![image thumbnail 342x282: photo editor tool](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: photo editor tool](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: ai image generator](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI Image Generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: background changer](https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp)
+![image thumbnail 342x282: background changer](media/7050565e-7d78-4ddb-9a78-edb7cbcc7a05-61a5849e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp")
 Background Changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: Picsart's background remover](https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp)
+![image thumbnail 342x282: Picsart's background remover](media/b54783a7-b787-46b5-b1bd-492de2715ea0-b0b46c88.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp")
 Background Remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: Picsart's collection of photo effects and filters](https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png)
+![image thumbnail 342x282: Picsart's collection of photo effects and filters](media/ae1acc0b-b019-4103-ba7d-a09db912d4af-1629c915.png "https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png")
 Photo Effects Change the feel of your visuals with eye-catching photo effects & aesthetic filters.
-![image thumbnail 342x282: Collage maker](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Collage maker](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage Maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: ai image enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: ai image enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: text editor](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: text editor](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 Text Editor Complement your images with a vast library of free fonts.
-![image thumbnail 342x282: resize image](https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png)
+![image thumbnail 342x282: resize image](media/d009e3c0-dbcc-4a71-9854-f4c6ed474968-90089800.png "https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png")
 Resize Image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: creat art with AI](https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png)
+![image thumbnail 342x282: creat art with AI](media/c55073c6-c4e6-42e2-adf9-e76466c8d55f-d4b1913d.png "https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png")
 Ai art generator Generate eye-catching art in seconds with AI.
 
 ## S15 tutorial-grid
 
 ### Learn image editing basics
 Learn how to make cleaner edits with practical steps.
-![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif)
+![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](media/4590d202-ac58-41a9-98f5-ade8a0a935cc-4992e832.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif")
 Image editing
 #### Remove unwanted objects from photos with AI
 3 min Beginner
-![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif)
+![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](media/2e34fa80-b802-4f1e-b499-8c7c7d155b6a-a724e4f7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif")
 Image editing
 #### Replace objects in photos with AI-generated content
 4 min Intermediate
-![image thumbnail 294x196: How to expand images beyond their borders with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif)
+![image thumbnail 294x196: How to expand images beyond their borders with AI preview](media/161cd981-bf05-4fcf-baf1-807d483f0914-d0e4bf77.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif")
 Image editing
 #### How to expand images beyond their borders with AI
 4 min Beginner
-![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif)
+![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](media/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3-147f820d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif")
 Image editing
 #### Upscale low-resolution images to HD with AI
 3 min Beginner
-![image thumbnail 294x196: Edit any part of an image with text prompts preview](https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif)
+![image thumbnail 294x196: Edit any part of an image with text prompts preview](media/59502b73-e489-4109-b87e-f5375f27425f-bd34795a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif")
 Image editing
 #### Edit any part of an image with text prompts
 4 min Intermediate
@@ -196,11 +196,11 @@ Picsart makes it easy. Simply upload the photo that you wish to edit into the Pi
 ## S17 link-grid
 
 ### Latest in object remover
-![image thumbnail 342x282: ](https://cdnblog.picsart.com/2020/07/clutter-2.jpg?to=max&r=780&q=90)
+![image thumbnail 342x282: ](media/clutter-2-ff682e3a.jpg "https://cdnblog.picsart.com/2020/07/clutter-2.jpg?to=max&r=780&q=90")
 How to remove objects, text and people from a picture
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png?type=webp&r=548&to=min?type=webp&r=548&to=min)
+![image thumbnail 342x282: ](media/133128a4-a158-4d07-ad54-806b6da0f832-0884512f.png "https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png?type=webp&r=548&to=min?type=webp&r=548&to=min")
 Introducing AI Replace and AI Background: tools to customize scenes and objects in images
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min?type=webp&r=548&to=min)
+![image thumbnail 342x282: ](media/b4127bb0-9159-4cc7-96dd-64ee3cae4706-6355685e.png "https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min?type=webp&r=548&to=min")
 How to remove people from a photo in a few clicks
 
 ## S18 pricing

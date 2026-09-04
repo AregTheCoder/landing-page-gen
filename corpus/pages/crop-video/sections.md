@@ -6,7 +6,7 @@
 
 ## Crop videos online in seconds
 Crop any part of your video with a fast, flexible Video Cropper that works right in your browser. This free tool helps you adjust framing, remove distractions, and prepare videos for any platform, with everything running online – no downloads or complicated setup.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6faafd18-137c-468a-9c04-010d5188bce9.webm)
+![video creative 480x480: ](media/6faafd18-137c-468a-9c04-010d5188bce9-4db2c8c8.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6faafd18-137c-468a-9c04-010d5188bce9.webm")
 
 ## S02 link-grid
 
@@ -39,13 +39,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 feature-row
 
-![image icon 96x96: icon for free video cropping](https://cdn-cms-uploads.picsart.com/cms-uploads/e3565b5b-182d-40e9-9236-5ec466649753.png)
+![image icon 96x96: icon for free video cropping](media/e3565b5b-182d-40e9-9236-5ec466649753-b296af00.png "https://cdn-cms-uploads.picsart.com/cms-uploads/e3565b5b-182d-40e9-9236-5ec466649753.png")
 #### Enables free video cropping
 Enables crop video free with an intuitive Video Cropper that lets you adjust frames quickly while preserving original quality.
-![image icon 96x96: icon for all video formats](https://cdn-cms-uploads.picsart.com/cms-uploads/3f713976-9407-4571-972f-8e3888e58815.png)
+![image icon 96x96: icon for all video formats](media/3f713976-9407-4571-972f-8e3888e58815-040c87ff.png "https://cdn-cms-uploads.picsart.com/cms-uploads/3f713976-9407-4571-972f-8e3888e58815.png")
 #### Supports all major video formats
 Supports online video cropping across popular formats, making this Video Cropper flexible for any workflow or platform.
-![image icon 96x96: icon for video cropper for every platform](https://cdn-cms-uploads.picsart.com/cms-uploads/01842b72-7d48-48da-967a-691c39a2795c.png)
+![image icon 96x96: icon for video cropper for every platform](media/01842b72-7d48-48da-967a-691c39a2795c-06042fac.png "https://cdn-cms-uploads.picsart.com/cms-uploads/01842b72-7d48-48da-967a-691c39a2795c.png")
 #### Enables one video to fit every platform
 Turn one 4K video into crisp vertical formats for YouTube, TikTok, Reels, and Shorts.
 
@@ -61,31 +61,31 @@ Add your video to the editor from your device and place it on the canvas to get 
 #### Preview and fine-tune
 4
 #### Export your video
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/5597d4c8-6263-430a-beea-27ce7386a100.webm)
+![video ui-screenshot 480x600: ](media/5597d4c8-6263-430a-beea-27ce7386a100-7c13ea13.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/5597d4c8-6263-430a-beea-27ce7386a100.webm")
 
 ## S05 feature-callout
 
 ### Crop videos online for free
 An online Video Cropper helps you adjust the visible area of any video directly in your browser. Crop videos online with precise frame control while preserving resolution and clarity. Designed for beginners and experienced editors, it removes the need for downloads, conversions, or complex setup so you can focus on clean, accurate framing.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8c4ba4d3-8de0-4a59-a850-6149e8baa908.webm)
+![video creative 480x480: ](media/8c4ba4d3-8de0-4a59-a850-6149e8baa908-1f44bfa5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/8c4ba4d3-8de0-4a59-a850-6149e8baa908.webm")
 
 ## S06 feature-callout
 
 ### Crop videos online with precise control
 Editing video frames doesn’t require extra software or complex tools. Crop videos online directly in your browser using the Video Cropper to select the exact area you want to keep in frame. Adjust the crop box to remove distractions, focus on a subject, or reframe content while preserving resolution and clarity for any use case.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3007c0dc-b0f0-4bb4-a1f1-d5401e016d75.webm)
+![video creative 480x480: ](media/3007c0dc-b0f0-4bb4-a1f1-d5401e016d75-755bd935.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3007c0dc-b0f0-4bb4-a1f1-d5401e016d75.webm")
 
 ## S07 feature-callout
 
 ### Crop, trim, and resize videos in one place
 Fine-tune both the frame and timing of your video using a single, streamlined editor. Crop video content to focus on what matters, trim video clips to remove unwanted moments, and resize dimensions to match different platforms – all without switching tools or re-uploading files. Once the basics are set, continue refining your edit in the built-in Video Editor . You can trim video clips with precision, add text to video for context or emphasis, or add music to video to shape the mood, all in one consistent workflow.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cf0bb5c6-1b04-4499-bcb9-400ca541859f.webm)
+![video creative 480x480: ](media/cf0bb5c6-1b04-4499-bcb9-400ca541859f-25100c11.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/cf0bb5c6-1b04-4499-bcb9-400ca541859f.webm")
 
 ## S08 feature-callout
 
 ### Continue editing with powerful video tools
 Cropping sets the frame, but polishing a video goes further. Use video editing tools to add text for clarity, add music to shape mood, generate captions with an Auto-Caption Generator , or adjust pacing with video speed control. Each edit builds smoothly on your cropped video without disrupting your workflow.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/dfef6882-46af-4982-973c-1d745ff42c46.webm)
+![video creative 480x480: ](media/dfef6882-46af-4982-973c-1d745ff42c46-cb7ed358.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/dfef6882-46af-4982-973c-1d745ff42c46.webm")
 
 ## S09 faq
 
@@ -101,17 +101,17 @@ The best video crop tool is one that works online, supports common formats, and 
 ## S10 link-grid
 
 ### More Tools to Love
-![image thumbnail 342x282: ai video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: ai video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
-![image thumbnail 342x282: ai text to video for free](https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp)
+![image thumbnail 342x282: ai text to video for free](media/d550a93d-11cc-4957-a15a-ef53e95596c9-190bc179.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp")
 AI Text-to-Video Turn written prompts into scroll-stopping content with Picsart's Text-to-Video AI.
-![image thumbnail 342x282: remove video background online and free](https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png)
+![image thumbnail 342x282: remove video background online and free](media/141eb68c-5548-4161-a378-015c5979503d-bb5d1309.png "https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png")
 Video Background Remover Erase video backgrounds with Picsart's AI-powered Video Background Remover.
-![image thumbnail 342x282: add subtitles to videos online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp)
+![image thumbnail 342x282: add subtitles to videos online for free](media/abb45bdc-e5f5-4580-84b2-890d2582fe08-d2f8944a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp")
 Add Subtitles to Video Generate accurate subtitles for any video in seconds.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: online ai image to video generator](https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png)
+![image thumbnail 342x282: online ai image to video generator](media/f07c4157-d746-46cb-8d6d-35051270884b-86874bbb.png "https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png")
 AI Image-to-Video Turn any image into a dynamic video with AI.
 
 ## S11 pricing

@@ -4,7 +4,7 @@
 
 ## S01 hero
 
-![image creative 1440x640: girl holding a flower](https://cdn140.picsart.com/61429107066560758315.jpg)
+![image creative 1440x640: girl holding a flower](media/61429107066560758315-a525f404.jpg "https://cdn140.picsart.com/61429107066560758315.jpg")
 ## Take The Pain Out Of Editing With This Free Online Video Resizer
 Instantly resize videos and change dimensions with this indispensable tool.
 Resize Video
@@ -40,11 +40,11 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 feature-callout
 
-![image creative 541x406: ](https://cdn140.picsart.com/28433458737789537458.jpg)
+![image creative 541x406: ](media/28433458737789537458-5113e2e9.jpg "https://cdn140.picsart.com/28433458737789537458.jpg")
 Resize Videos for Social Media
 As you probably know by now (or learned the hard way), what works on one social media channel doesn’t always work on another. That would just be too easy. Platforms like Instagram, YouTube, and Facebook each come with their own quirks and requirements. When it comes to optimal video dimensions, you have to make considerations and adjustments for all three. Otherwise, you risk losing your audience’s trust and attention. Or getting attention for all the wrong reasons. To avoid having your video cropped or automatically readjusted by the platform’s host software, the Picsart video resizer can help save a lot of blushes. Picsart offers optimal resizing for Instagram stories and posts, Facebook stories and posts, as well as YouTube videos. You can easily resize your video online by selecting the format of your choice, and replicating the process for each platform. That way, when you’re ready to go live with your video, you can share each optimized file to its respective channel. This online video resizer works both horizontally and vertically too. So you can post in confidence, knowing your Facebook and Instagram stories have never looked so swish.
 Resize Video
-![image creative 541x406: ](https://cdn140.picsart.com/36859796455276761041.jpg)
+![image creative 541x406: ](media/36859796455276761041-94012051.jpg "https://cdn140.picsart.com/36859796455276761041.jpg")
 Simplify Your Editing Process With This Video Resizer
 Using this Picsart editing tool you can resize a video within minutes. All it takes is a few clicks and your videos will be ready to go on the social media outlet of your choice. You can even use these videos in your blog or website. Easily resize to 1:1 (square), 16:9 (horizontal), 9:16, and 4:5 (vertical). Ordinarily, messing with video dimensions manually could potentially affect your overall video quality, but with this online video resizer you don’t have to worry about that. You won’t compromise on quality with this tool. Additionally, the Picsart Video Editor provides an intuitive layout for you to edit your files with ease. Upload your video in MOV, MP4, AVI, WEBM, FLV, or other formats and get straight to the task of editing. You can trim your video to adjust the duration, and make it fit the dimensions you want with the video resizer. This tool is indispensable for small business owners, busy bloggers, social media managers, and freelancers who create promotional content, tutorials, and quick how-tos. Producing social media content is never easy. Picsart gives you the tools to at least make the whole process a little more fun and a lot less stressful.
 Resize Video
@@ -52,13 +52,13 @@ Resize Video
 ## S04 use-case-grid
 
 ### Benefits
-![image creative 541x406: ](https://cdn130.picsart.com/13210973334373628463.jpg)
+![image creative 541x406: ](media/13210973334373628463-80de4f4a.jpg "https://cdn130.picsart.com/13210973334373628463.jpg")
 #### Video Resizing Done Quickly
 You can resize videos directly in your browser. You no longer need to learn complex video editing software to achieve professional-looking content for your social media channels.
-![image creative 541x406: ](https://cdn130.picsart.com/97496516415030213401.jpg)
+![image creative 541x406: ](media/97496516415030213401-fdb543e2.jpg "https://cdn130.picsart.com/97496516415030213401.jpg")
 #### Multiple Video Formats Supported
 The Picsart online video resizer offers support for most popular formats. You can upload videos in MOV, MP4, AVI, WEBM, FLV, and more.
-![image creative 541x406: ](https://cdn140.picsart.com/66235342018860345323.jpg)
+![image creative 541x406: ](media/66235342018860345323-ee4b66d5.jpg "https://cdn140.picsart.com/66235342018860345323.jpg")
 #### Intuitive Interface
 This online video resizer is so simple that anyone could use it. Create custom videos for each social media platform, without spending hours on editing. You’ll have your content ready in no time.
 
@@ -74,12 +74,12 @@ This online video resizer is so simple that anyone could use it. Create custom v
 ## S06 gallery
 
 Picsart Featured In
-![image creative 202x112: Mashable](https://cdn130.picsart.com/09802469177636365765.png)
-![image creative 202x112: Esquire](https://cdn130.picsart.com/47285095719821756583.png)
-![image creative 202x112: People](https://cdn130.picsart.com/89463096757124705655.png)
-![image creative 202x112: Forbes](https://cdn130.picsart.com/63805377597830460503.png)
-![image creative 202x112: TechCrunch](https://cdn130.picsart.com/49796878310296543626.png)
-![image creative 202x111: BuzzFeed](https://yearly-cdn.picsart.com/cdn140/51714614398164496144.png)
+![image creative 202x112: Mashable](media/09802469177636365765-c08b0b5a.png "https://cdn130.picsart.com/09802469177636365765.png")
+![image creative 202x112: Esquire](media/47285095719821756583-eb5f470e.png "https://cdn130.picsart.com/47285095719821756583.png")
+![image creative 202x112: People](media/89463096757124705655-d19d23df.png "https://cdn130.picsart.com/89463096757124705655.png")
+![image creative 202x112: Forbes](media/63805377597830460503-2a9ef96b.png "https://cdn130.picsart.com/63805377597830460503.png")
+![image creative 202x112: TechCrunch](media/49796878310296543626-eb15a332.png "https://cdn130.picsart.com/49796878310296543626.png")
+![image creative 202x111: BuzzFeed](media/51714614398164496144-70110c77.png "https://yearly-cdn.picsart.com/cdn140/51714614398164496144.png")
 
 ## S07 pricing
 

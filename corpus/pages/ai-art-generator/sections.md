@@ -7,34 +7,34 @@
 ## Free AI Art Generator
 Generate AI art in 48+ styles, from abstract and pop art to oil painting, pixel art, and graffiti, all in a full-screen workspace. Type your idea and watch it turn into expressive, artistic visuals. No design skills needed.
 [button: Start generating]
-![image creative 196x348: Pop art AI portrait generator creating bold colorful celebrity-style artwork](https://cdn-cms-uploads.picsart.com/cms-uploads/c89a2aab-3c24-4656-ac08-e93d20081fca.avif)
+![image creative 196x348: Pop art AI portrait generator creating bold colorful celebrity-style artwork](media/c89a2aab-3c24-4656-ac08-e93d20081fca-61bf4942.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c89a2aab-3c24-4656-ac08-e93d20081fca.avif")
 Pop Art
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Anime-inspired AI art generator transforming photos into illustrated city scenes](https://cdn-cms-uploads.picsart.com/cms-uploads/5a56e2bb-5647-4f74-8d5f-6e84dd3f98ef.avif)
+![image creative 196x348: Anime-inspired AI art generator transforming photos into illustrated city scenes](media/5a56e2bb-5647-4f74-8d5f-6e84dd3f98ef-a9b57aea.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5a56e2bb-5647-4f74-8d5f-6e84dd3f98ef.avif")
 Anime
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image decorative 196x348: 3D clay-style AI character generator creating playful animated avatars](https://cdn-cms-uploads.picsart.com/cms-uploads/abc464ce-ce4f-4f46-8eb9-3328fa93aed4.avif)
+![image decorative 196x348: 3D clay-style AI character generator creating playful animated avatars](media/abc464ce-ce4f-4f46-8eb9-3328fa93aed4-7bc8f97e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/abc464ce-ce4f-4f46-8eb9-3328fa93aed4.avif")
 3D Clay
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Japanese art style AI image generator creating scenic ukiyo-e inspired artwork](https://cdn-cms-uploads.picsart.com/cms-uploads/2b0f659c-d6d7-431d-8033-26bcb58b0cb1.avif)
+![image creative 196x348: Japanese art style AI image generator creating scenic ukiyo-e inspired artwork](media/2b0f659c-d6d7-431d-8033-26bcb58b0cb1-d6a4cdd2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2b0f659c-d6d7-431d-8033-26bcb58b0cb1.avif")
 Japanese Art
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Low poly AI art generator turning images into geometric 3D illustrations](https://cdn-cms-uploads.picsart.com/cms-uploads/d60937f1-9cf2-44d6-9c31-c302e47c7545.avif)
+![image creative 196x348: Low poly AI art generator turning images into geometric 3D illustrations](media/d60937f1-9cf2-44d6-9c31-c302e47c7545-a7521993.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d60937f1-9cf2-44d6-9c31-c302e47c7545.avif")
 Low Poly
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: AI image generator creating detailed miniature village diorama artwork](https://cdn-cms-uploads.picsart.com/cms-uploads/ca274466-0f2b-4fac-8aed-9c48821a2e54.avif)
+![image creative 196x348: AI image generator creating detailed miniature village diorama artwork](media/ca274466-0f2b-4fac-8aed-9c48821a2e54-7cb000d8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ca274466-0f2b-4fac-8aed-9c48821a2e54.avif")
 Miniature
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Surreal AI art generator producing dreamlike abstract fantasy paintings](https://cdn-cms-uploads.picsart.com/cms-uploads/cb7071d2-2b2f-49a9-9142-b5ac1810f81c.avif)
+![image creative 196x348: Surreal AI art generator producing dreamlike abstract fantasy paintings](media/cb7071d2-2b2f-49a9-9142-b5ac1810f81c-c8a2cfa6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb7071d2-2b2f-49a9-9142-b5ac1810f81c.avif")
 Surreal
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Pixel art AI generator creating retro underwater gaming scenes](https://cdn-cms-uploads.picsart.com/cms-uploads/67cbb408-89e0-42ae-ac61-007c03ecd9e1.avif)
+![image creative 196x348: Pixel art AI generator creating retro underwater gaming scenes](media/67cbb408-89e0-42ae-ac61-007c03ecd9e1-5f6fba35.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/67cbb408-89e0-42ae-ac61-007c03ecd9e1.avif")
 Pixel Art
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Classical portrait AI generator blending renaissance aesthetics with futuristic fashion](https://cdn-cms-uploads.picsart.com/cms-uploads/9a396ec1-ea03-4ffa-a142-6e06bf8d4eeb.avif)
+![image creative 196x348: Classical portrait AI generator blending renaissance aesthetics with futuristic fashion](media/9a396ec1-ea03-4ffa-a142-6e06bf8d4eeb-32f31ea8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9a396ec1-ea03-4ffa-a142-6e06bf8d4eeb.avif")
 Classical
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 196x348: Steampunk AI portrait generator creating cinematic sci-fi character artwork](https://cdn-cms-uploads.picsart.com/cms-uploads/30e1350a-c926-444f-ae49-8d6be22dff0a.avif)
+![image creative 196x348: Steampunk AI portrait generator creating cinematic sci-fi character artwork](media/30e1350a-c926-444f-ae49-8d6be22dff0a-f4796b0e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/30e1350a-c926-444f-ae49-8d6be22dff0a.avif")
 Steampunk
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
 
@@ -88,17 +88,17 @@ Launch the AI Image Generator in the editor to start creating in a full-screen w
 #### Generate and refine
 4
 #### Download your artwork
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/26ee8102-c4cb-49e8-8fff-0828be10f94e.webm)
+![video ui-screenshot 480x600: ](media/26ee8102-c4cb-49e8-8fff-0828be10f94e-665886e6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/26ee8102-c4cb-49e8-8fff-0828be10f94e.webm")
 
 ## S05 feature-callout
 
 ### Bring your artistic vision to life with a free AI art generator
 Powered by advanced AI technology, the Picsart AI art generator makes it possible for anyone to create beautiful works of art without any drawing skills. Whether you're an experienced artist or a complete beginner, you'll love the endless possibilities the AI art maker offers.
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/a44d035a-4f24-4228-b68a-866e2e864683.avif)
+![image creative 539x539: image](media/a44d035a-4f24-4228-b68a-866e2e864683-2c5b6a7d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a44d035a-4f24-4228-b68a-866e2e864683.avif")
 
 ## S06 feature-callout
 
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/ab7e3042-545f-494f-adaa-8a5643c045f8.avif)
+![image creative 539x539: image](media/ab7e3042-545f-494f-adaa-8a5643c045f8-2e4b659e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ab7e3042-545f-494f-adaa-8a5643c045f8.avif")
 ### Create art from words with AI
 You do the describing and AI does all the drawing. All you have to do is type your vision for the artwork in a couple of words in the AI image generator and that’s it! You’ll get several variants of AI-generated art so you can choose the one that you like the most. And if you didn’t get what you were looking for, you can always regenerate new versions with ease. No drawing or advanced graphic design skills required!
 
@@ -106,11 +106,11 @@ You do the describing and AI does all the drawing. All you have to do is type yo
 
 ### Compare AI models and guide your results
 Explore how different AI models interpret the same idea in the full-screen view, where you can browse a gallery of generated images and compare results side by side. For example, Flux 2 Max creates high-detail, realistic visuals, while Ideogram V3 excels at bold graphics and text. This makes it easier to choose the model that matches your style and get more consistent results from your prompts.
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/3be6d3df-534e-452b-9d27-23192bc263bf.avif)
+![image creative 539x539: image](media/3be6d3df-534e-452b-9d27-23192bc263bf-fca838a4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3be6d3df-534e-452b-9d27-23192bc263bf.avif")
 
 ## S08 feature-callout
 
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/38e23ca7-b28b-44dd-ad3c-9eb73f87af0c.avif)
+![image creative 539x539: image](media/38e23ca7-b28b-44dd-ad3c-9eb73f87af0c-b678a897.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/38e23ca7-b28b-44dd-ad3c-9eb73f87af0c.avif")
 ### Explore 48+ styles and refine your prompts
 Type your idea once and see it transformed across a wide range of artistic styles, from anime and manga to cubism, surrealism, and vintage aesthetics. As you review variations, refine your prompt with details like mood, composition, or technique. You can also upload a reference image to guide the result and get closer to your vision.
 
@@ -118,7 +118,7 @@ Type your idea once and see it transformed across a wide range of artistic style
 
 ### Tweak your AI-generated art with the Picsart AI Photo Editing tools
 Want to finesse your AI-generated art? You can do further tweaks all in one photo editing interface. Picsart’s suite of photo editing tools covers all possible visual refining needs. Everything from cropping, collaging, and adding text, to more advanced AI tools like creating an AI background or removing a specific object, to upscaling the resolution with AI enhance.
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/ea4a0d75-8ee1-4f00-9976-70ab5ff3cd11.avif)
+![image creative 539x539: image](media/ea4a0d75-8ee1-4f00-9976-70ab5ff3cd11-73494168.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ea4a0d75-8ee1-4f00-9976-70ab5ff3cd11.avif")
 
 ## S10 use-case-grid
 
@@ -134,18 +134,18 @@ Create high-resolution AI art for posters, framed prints, and canvas designs. Ge
 [AI Background](https://picsart.com/ai-background/)
 [Photo editor](https://picsart.com/photo-editor/)
 [Print store](https://picsart.com/print/)
-![image creative 500x500: Wall art & prints](https://cdn-cms-uploads.picsart.com/cms-uploads/6985cfaa-3e86-4839-88d7-3cd69c9a6103.avif)
+![image creative 500x500: Wall art & prints](media/6985cfaa-3e86-4839-88d7-3cd69c9a6103-d136e8e2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6985cfaa-3e86-4839-88d7-3cd69c9a6103.avif")
 
 ## S11 gallery
 
 ### Create beyond art with the AI Image Generator
-![image creative 651x366: oil painting AI artwork](https://cdn-cms-uploads.picsart.com/cms-uploads/510a4e1b-d6fa-4f80-9e32-fe5164cc17c8.avif)
+![image creative 651x366: oil painting AI artwork](media/510a4e1b-d6fa-4f80-9e32-fe5164cc17c8-6a120d90.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/510a4e1b-d6fa-4f80-9e32-fe5164cc17c8.avif")
 Oil Painting
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 651x366: ai painted portrait effect](https://cdn-cms-uploads.picsart.com/cms-uploads/49a62bce-5315-49c3-9f7f-0b3956776cb0.avif)
+![image creative 651x366: ai painted portrait effect](media/49a62bce-5315-49c3-9f7f-0b3956776cb0-2444b299.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/49a62bce-5315-49c3-9f7f-0b3956776cb0.avif")
 Painted Portrait
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
-![image creative 651x366: japanese-style AI illustration](https://cdn-cms-uploads.picsart.com/cms-uploads/cd08ccdf-31b7-4ca5-9f9e-e35e49bedefe.avif)
+![image creative 651x366: japanese-style AI illustration](media/cd08ccdf-31b7-4ca5-9f9e-e35e49bedefe-f78042c3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cd08ccdf-31b7-4ca5-9f9e-e35e49bedefe.avif")
 Japanese Style
 [Generate](https://picsart.com/create?app=com.picsart.social.ai-image-generator)
 
@@ -197,37 +197,37 @@ Start creating with free credits and explore the AI art generator before upgradi
 ## S14 testimonial
 
 ### Testimonials
-![image decorative 194x193: First block decoration](https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png?type=webp&to=min&r=400)
-![image decorative 170x183: First block bottom decoration](https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png?type=webp&to=min&r=400)
+![image decorative 194x193: First block decoration](media/a815825f-4663-46ba-a66e-51194ace3cfc-986bb7ce.png "https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png?type=webp&to=min&r=400")
+![image decorative 170x183: First block bottom decoration](media/1d88e0dc-348a-4894-bd7c-55eebbffedef-bdf12fcc.png "https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png?type=webp&to=min&r=400")
 It feels like a real creative workspace, not just a generator.
 I can test different styles, compare results from multiple models, and refine everything in one place. It's fast, visual, and actually helps me explore ideas instead of guessing prompts.
 Alex M., Graphic Designer
 Seeing my idea across multiple styles instantly changed how I create.
 I type one prompt and get variations in completely different artistic directions. It makes experimenting easy and helps me land on the exact look I want much faster.
 Priya S., Digital Artist
-![image icon 120x119: Second block decoration](https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png?type=webp&to=min&r=400)
+![image icon 120x119: Second block decoration](media/77516d06-3a4d-4469-ae46-488ec17d15f8-b6786f1e.png "https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png?type=webp&to=min&r=400")
 From concept to final artwork without switching tools.
 I generate, tweak, and polish everything in the same editor. The full-screen setup makes it easy to stay focused, and the results are high enough quality for real projects.
 Daniel R., Creative Director
-![image icon 120x120: Testimonial decoration](https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png?type=webp&to=min&r=400)
+![image icon 120x120: Testimonial decoration](media/2be32773-9229-4230-b4d4-065326861a1e-9d759bf5.png "https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png?type=webp&to=min&r=400")
 
 ## S15 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -257,9 +257,9 @@ Yes, you can refine your artwork using prompt-based edits or enhance it in the e
 
 ### Discover more AI tools
 Turn ideas into completed projects with the speed of light by utilizing AI superpowers.
-![image thumbnail 419x360: AI Image Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp?type=webp&to=min&r=400)
-![image thumbnail 419x360: AI Image Enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp?type=webp&to=min&r=400)
-![image thumbnail 419x360: AI Background](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png?type=webp&to=min&r=400)
+![image thumbnail 419x360: AI Image Generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-39a4070c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp?type=webp&to=min&r=400")
+![image thumbnail 419x360: AI Image Enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-148aaa31.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp?type=webp&to=min&r=400")
+![image thumbnail 419x360: AI Background](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-6b4a6d09.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png?type=webp&to=min&r=400")
 AI Image Generator Type your vision and let AI transform your words into fascinating images. AI Image Enhancer Upscale the resolution of multiple images with AI in one go. AI Background Generate unique backgrounds from scratch with just a prompt.
 
 ## S18 pricing

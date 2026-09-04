@@ -7,7 +7,7 @@
 ## Free quote poster maker: Design inspiring quote posters online
 Design your own quote posters in minutes with Picsart's free online poster maker. Choose from a library of templates and customize them with intuitive tools. No need for design experience.
 Start creating
-![image creative 480x480: Free online quote poster maker for inspiring designs.](https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png)
+![image creative 480x480: Free online quote poster maker for inspiring designs.](media/57622864-8048-4eb2-9227-f1b91d8ca6b4-3a5fa6b6.png "https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Easy to use](https://pastatic.picsart.com/cms-pastatic/a5c7915c-94e4-41bd-b43e-ad545076f30d.png)
+![image icon 96x96: Easy to use](media/a5c7915c-94e4-41bd-b43e-ad545076f30d-0f810347.png "https://pastatic.picsart.com/cms-pastatic/a5c7915c-94e4-41bd-b43e-ad545076f30d.png")
 #### Easy to use
 Create the perfect quote poster with Picsart’s beginner-friendly tools.
-![image icon 96x96: Customizable templates](https://pastatic.picsart.com/cms-pastatic/80cd457d-0ee8-4f4e-8e51-fdbcd7aa849a.png)
+![image icon 96x96: Customizable templates](media/80cd457d-0ee8-4f4e-8e51-fdbcd7aa849a-942c4cd6.png "https://pastatic.picsart.com/cms-pastatic/80cd457d-0ee8-4f4e-8e51-fdbcd7aa849a.png")
 #### Customizable templates
 Start with a template, customize it as much or as little as you like, and get a poster design much quicker.
-![image icon 96x96: Full customization](https://pastatic.picsart.com/cms-pastatic/72968e9d-3f36-4ce7-8488-ce64defd2f52.png)
+![image icon 96x96: Full customization](media/72968e9d-3f36-4ce7-8488-ce64defd2f52-98ac122b.png "https://pastatic.picsart.com/cms-pastatic/72968e9d-3f36-4ce7-8488-ce64defd2f52.png")
 #### Full customization
 Get full control over your quote poster design by rearranging elements, adding your own visuals, and more.
 
@@ -54,42 +54,42 @@ Get full control over your quote poster design by rearranging elements, adding y
 
 ### Take a peek at quote poster maker templates
 Picsart’s constantly updating template library offers a quicker way of creating posters. Just find a template that fits your needs and customize it as much or as little as you like to make it unique to you and your content.
-![image creative 244x367: Inspiring Blue Pinterest Pin with Quote](https://cdn-basic-content-api.picsart.io/p/f9624e59-e017-4e2c-8390-503b59ea4867.png)
+![image creative 244x367: Inspiring Blue Pinterest Pin with Quote](media/f9624e59-e017-4e2c-8390-503b59ea4867-f2c8114e.png "https://cdn-basic-content-api.picsart.io/p/f9624e59-e017-4e2c-8390-503b59ea4867.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=6381747879346857&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Study Smart Pinterest Pin with Blue](https://cdn-basic-content-api.picsart.io/p/45de37d6-12f2-46ca-844e-db1e437b788f.png)
+![image creative 244x367: Study Smart Pinterest Pin with Blue](media/45de37d6-12f2-46ca-844e-db1e437b788f-9ed2e3a1.png "https://cdn-basic-content-api.picsart.io/p/45de37d6-12f2-46ca-844e-db1e437b788f.png")
 [Try it out](https://picsart.com/create/editor/?template=5491747876029691&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Inspirational Green Instagram Story for Teachers](https://cdn-basic-content-api.picsart.io/p/6bec73f5-dee9-48fb-92cd-860626f73486.png)
+![image creative 244x434: Inspirational Green Instagram Story for Teachers](media/6bec73f5-dee9-48fb-92cd-860626f73486-87bc77e4.png "https://cdn-basic-content-api.picsart.io/p/6bec73f5-dee9-48fb-92cd-860626f73486.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7661747883516775&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Motivational Instagram-Square Post in Bold Red](https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png)
+![image creative 244x244: Motivational Instagram-Square Post in Bold Red](media/2ffd9c10-3f4b-478e-8e64-01f04e398045-cf062dd8.png "https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png")
 [Try it out](https://picsart.com/create/editor/?template=1781747881796779&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Inspirational Teacher Instagram-Story in White and Black](https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png)
+![image creative 244x434: Inspirational Teacher Instagram-Story in White and Black](media/017f6029-3a7f-43dd-9d35-0654373a94c7-f0682517.png "https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Motivational Instagram-Square Post with Pink Text](https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png)
+![image creative 244x244: Motivational Instagram-Square Post with Pink Text](media/db5531db-0f45-4ce3-94e2-9f67619a2255-abcbcc32.png "https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png")
 [Try it out](https://picsart.com/create/editor/?template=7401747881291845&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Motivational Blue Instagram Story With Quote](https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png)
+![image creative 244x434: Motivational Blue Instagram Story With Quote](media/ee6a56be-ee66-4dab-9b5c-671fdde67f95-c38eb546.png "https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7391747872863066&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Heartfelt Blue Pinterest Pin with Quote](https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png)
+![image creative 244x367: Heartfelt Blue Pinterest Pin with Quote](media/7fe69878-9045-4548-859b-d309e53df4d8-b09228a8.png "https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png")
 [Try it out](https://picsart.com/create/editor/?template=5141747889680487&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Motivational Exams Preparation Pinterest Pin Pink](https://cdn-basic-content-api.picsart.io/p/ee92bd60-b347-48a6-8867-8151dfa441ee.png)
+![image creative 244x367: Motivational Exams Preparation Pinterest Pin Pink](media/ee92bd60-b347-48a6-8867-8151dfa441ee-aa3852f9.png "https://cdn-basic-content-api.picsart.io/p/ee92bd60-b347-48a6-8867-8151dfa441ee.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=3971747877742039&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Inspiring Pink Pinterest-Pin for Teacher Appreciation](https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png)
+![image creative 244x367: Inspiring Pink Pinterest-Pin for Teacher Appreciation](media/32cc7938-60b9-4396-8b3e-eeaed4b07125-feaca708.png "https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png")
 [Try it out](https://picsart.com/create/editor/?template=7961747885508739&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Motivational Instagram-Square Post in Blue Theme](https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png)
+![image creative 244x244: Motivational Instagram-Square Post in Blue Theme](media/a5937a03-f0ef-455f-8fa1-ee7defbe20d8-04a2c1a0.png "https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8621747880428638&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Inspirational Teacher Quote Instagram Square Template](https://cdn-basic-content-api.picsart.io/p/d20b6d41-2ff1-406b-8567-399c3621ee91.png)
+![image creative 244x244: Inspirational Teacher Quote Instagram Square Template](media/d20b6d41-2ff1-406b-8567-399c3621ee91-9e820fc6.png "https://cdn-basic-content-api.picsart.io/p/d20b6d41-2ff1-406b-8567-399c3621ee91.png")
 [Try it out](https://picsart.com/create/editor/?template=7681747893762781&category=templates&source=templates&origin=template_item)
-![image creative 1080x1080: Inspirational Pink and Orange Instagram-Square Post](https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png)
+![image creative 1080x1080: Inspirational Pink and Orange Instagram-Square Post](media/e7d0092e-313f-4b75-84e1-61e14a51f548-a900af48.png "https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8741747892596132&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Inspirational Green Pinterest Pin for Teachers](https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png)
+![image creative 244x367: Inspirational Green Pinterest Pin for Teachers](media/acb915fe-f981-4908-8995-e52ac19de881-4556c593.png "https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png")
 [Try it out](https://picsart.com/create/editor/?template=1851747889932235&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Inspiring Teacher Instagram Story with Pink](https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.png)
+![image creative 244x434: Inspiring Teacher Instagram Story with Pink](media/b4210775-80eb-4ab1-a765-fd056482c671-bf76ccaa.png "https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=4861747882512440&category=templates&source=templates&origin=template_item)
 
@@ -105,25 +105,25 @@ Use the Start creating button to open the Picsart editor.
 #### Customize
 4
 #### Download
-![image creative 480x600: How to create a custom quote poster](https://pastatic.picsart.com/cms-pastatic/ca8a7e13-da5d-49e4-8c3d-2c7b235e4eb9.png)
+![image creative 480x600: How to create a custom quote poster](media/ca8a7e13-da5d-49e4-8c3d-2c7b235e4eb9-c2c64db4.png "https://pastatic.picsart.com/cms-pastatic/ca8a7e13-da5d-49e4-8c3d-2c7b235e4eb9.png")
 
 ## S06 feature-callout
 
 ### Design a custom quote poster with ease
 Breathe life into your favorite quotes with a custom poster that captures the emotion and meaning behind every word. Picsart’s design tools make it effortless to turn inspiration into an appealing visual that speaks directly to your audience’s heart and mind.
-![image creative 480x480: Design a custom quote poster](https://pastatic.picsart.com/cms-pastatic/cf38e144-65ac-46b7-ac20-8b9ba1c23096.png)
+![image creative 480x480: Design a custom quote poster](media/cf38e144-65ac-46b7-ac20-8b9ba1c23096-d541553d.png "https://pastatic.picsart.com/cms-pastatic/cf38e144-65ac-46b7-ac20-8b9ba1c23096.png")
 
 ## S07 feature-callout
 
 ### Templates that illuminate every sentiment
 Discover a faster way of designing with Picsart’s curated collection of quote poster templates . Whether you're seeking motivation, creating wall art, or sharing wisdom, find the perfect quote poster template that transforms words into a memorable content piece. From minimalist designs to bold graphic statements, your ideal template is waiting.
-![image creative 480x480: Quote poster templates](https://pastatic.picsart.com/cms-pastatic/55c91c8a-11a3-4b6e-ab28-23b8097f0af3.png)
+![image creative 480x480: Quote poster templates](media/55c91c8a-11a3-4b6e-ab28-23b8097f0af3-dea6a637.png "https://pastatic.picsart.com/cms-pastatic/55c91c8a-11a3-4b6e-ab28-23b8097f0af3.png")
 
 ## S08 feature-callout
 
 ### Craft a poster as unique as your message
 Bring quotes to life with Picsart’s intuitive image editing tools that make professional design accessible to everyone. Layer elements, play with typography, and create a poster that's not just a design, but a personal statement. Tap into the built-in design asset library and tools like AI image generator to source or create visual elements that match your vision.
-![image creative 480x480: Create unique quote posters with intuitive tools](https://pastatic.picsart.com/cms-pastatic/517b85da-c031-478c-82c6-a70c3518c366.png)
+![image creative 480x480: Create unique quote posters with intuitive tools](media/517b85da-c031-478c-82c6-a70c3518c366-8b03c0a9.png "https://pastatic.picsart.com/cms-pastatic/517b85da-c031-478c-82c6-a70c3518c366.png")
 
 ## S09 feature-list
 

@@ -8,7 +8,7 @@ AI VIDEO MODELS
 ## Runway Gen 4 vs Veo 3.1: speed or cinematic quality
 Runway Gen 4 is built for fast, stylized video with hands-on tools like Act-Two and Aleph for editing and control. Veo 3.1 focuses on output quality, delivering native 4K video with synchronized audio and cinematic realism. Compare both side by side in Picsart AI Playground.
 Start generating
-![image creative 480x480: Runway Gen 4 vs Veo 3.1 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/e6044b29-c0f0-494b-b8b3-f41180fecf9a.avif)
+![image creative 480x480: Runway Gen 4 vs Veo 3.1 AI video model comparison](media/e6044b29-c0f0-494b-b8b3-f41180fecf9a-151d98d4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e6044b29-c0f0-494b-b8b3-f41180fecf9a.avif")
 
 ## S02 interactive-demo
 
@@ -33,31 +33,31 @@ Veo 3.1
 
 ### See how Runway Gen 4 and Veo 3.1 work
 Runway Gen 4 focuses on creative control and speed. With tools like Act-Two for performance transfer and Aleph for in-video editing, it lets you shape scenes directly and experiment quickly. Fast generation and advanced camera control make it a strong fit for production workflows. Veo 3.1 focuses on output quality. It generates native 4K video at up to 60fps with synchronized audio, accurate lip sync, and consistent characters across scenes. Built into the Google ecosystem, it's designed for more polished, cinematic results.
-![image creative 480x480: See how Runway Gen 4 and Veo 3.1 work](https://cdn-cms-uploads.picsart.com/cms-uploads/e1374d34-cef3-4150-93d3-ba65eec736e9.avif)
+![image creative 480x480: See how Runway Gen 4 and Veo 3.1 work](media/e1374d34-cef3-4150-93d3-ba65eec736e9-7ca4464d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e1374d34-cef3-4150-93d3-ba65eec736e9.avif")
 
 ## S05 feature-callout
 
 ### Compare video quality, audio, and output
 Output quality is where Veo 3.1 stands out. It generates native 4K video with selectable frame rates, while Runway Gen 4 defaults to lower resolution and requires upscaling. For cinematic or broadcast content, Veo has a clear advantage. Audio is the biggest gap. Veo produces fully synchronized sound - dialogue, music, and effects - in a single render, while Runway requires audio to be added separately. In terms of style, Runway leans toward stylized, VFX-driven visuals, while Veo delivers more photorealistic, cinematic footage.
-![image creative 480x480: Compare video quality audio and output](https://cdn-cms-uploads.picsart.com/cms-uploads/6612e61a-e781-4a69-87e9-4dfe6917be04.avif)
+![image creative 480x480: Compare video quality audio and output](media/6612e61a-e781-4a69-87e9-4dfe6917be04-376ee831.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6612e61a-e781-4a69-87e9-4dfe6917be04.avif")
 
 ## S06 feature-callout
 
 ### Explore creative tools and control
 Creative control is where Runway Gen 4 stands out. Tools like Act-Two transfer real-world performance into AI characters, while Aleph lets you edit scenes directly - adjusting objects, lighting, and camera angles. Combined with advanced camera paths, it offers a more hands-on workflow. Veo 3.1 keeps control simpler, focusing on consistent output. Features like Ingredients to Video help maintain characters across scenes, while clip extension and vertical formats support longer, social-ready content. Runway offers more control, while Veo delivers more polished results out of the box.
-![image creative 480x480: Explore creative tools and control](https://cdn-cms-uploads.picsart.com/cms-uploads/aa408e59-a8eb-44f5-91bc-182c1076e3fd.avif)
+![image creative 480x480: Explore creative tools and control](media/aa408e59-a8eb-44f5-91bc-182c1076e3fd-52ca4cfc.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/aa408e59-a8eb-44f5-91bc-182c1076e3fd.avif")
 
 ## S07 feature-callout
 
 ### Understand speed, pricing, and platform integration
 Speed gives Runway Gen 4 a clear edge. Its Turbo mode generates videos much faster, making it ideal for rapid prototyping and iteration, while Veo 3.1 focuses more on output quality than speed. Pricing depends on usage. Veo offers a lower entry price, while Runway provides more flexible plans, including an unlimited option for high-volume workflows. Ecosystem also matters - Runway fits standalone creative pipelines, while Veo integrates with tools like Google Drive, YouTube, and Ads.
-![image creative 480x480: Understand speed pricing and platform integration](https://cdn-cms-uploads.picsart.com/cms-uploads/020cb13e-8745-41e9-afd4-4934b0d98c3f.avif)
+![image creative 480x480: Understand speed pricing and platform integration](media/020cb13e-8745-41e9-afd4-4934b0d98c3f-014c48fa.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/020cb13e-8745-41e9-afd4-4934b0d98c3f.avif")
 
 ## S08 feature-callout
 
 ### Pick the best model for your needs
 If you are aiming for speed, hands-on control, and flexible editing, Runway Gen 4 is the better fit - especially for ads, creative experimentation, and workflows that require fast iteration. If you need higher-quality output with native 4K, synchronized audio, and more cinematic results, Veo 3.1 is a stronger choice for polished content and storytelling. If you want flexibility, use Picsart to access both models and choose the best one for each project.
-![image creative 480x480: Pick the best AI video model for your needs](https://cdn-cms-uploads.picsart.com/cms-uploads/bbc0f909-707b-4e8a-885b-867f9c8b921a.avif)
+![image creative 480x480: Pick the best AI video model for your needs](media/bbc0f909-707b-4e8a-885b-867f9c8b921a-9b54436c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bbc0f909-707b-4e8a-885b-867f9c8b921a.avif")
 
 ## S09 tutorial-grid
 
@@ -66,15 +66,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -96,15 +96,15 @@ It depends on your needs. Runway Gen 4 is faster and offers more creative contro
 ## S11 link-grid
 
 ### More AI model comparisons
-![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI model comparison](media/ff20b102-6a77-4fd6-81f1-d75266821170-15c3ed8e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp")
 GPT Image 1.5 vs Flux 2 Pro Compare OpenAI GPT Image 1.5 and Flux 2 Pro for AI image generation side by side.
-![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/b288c697-66d7-4711-8477-fd73133420e2.avif)
+![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI model comparison](media/b288c697-66d7-4711-8477-fd73133420e2-eb749697.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b288c697-66d7-4711-8477-fd73133420e2.avif")
 Nano Banana 2 vs Flux 2 Pro Compare Nano Banana 2 and Flux 2 Pro for fast, high-quality AI image generation.
-![image thumbnail 342x282: Kling 3.0 vs Runway Gen 4 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp)
+![image thumbnail 342x282: Kling 3.0 vs Runway Gen 4 AI model comparison](media/cfcfb357-0b12-47f5-8e78-e4e65168c6db-7591564f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp")
 Kling 3.0 vs Runway Gen 4 Compare Kling 3.0 and Runway Gen 4 for AI video generation, quality, speed, and pricing.
-![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp)
+![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI model comparison](media/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7-f00fba9f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp")
 Seedance 2.0 vs Kling 3.0 Compare Seedance 2.0 and Kling 3.0 for multimodal control vs cinematic video quality.
-![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp)
+![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI model comparison](media/135dae81-f8b2-4487-b873-cebf4340b36a-8b6dfff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp")
 Veo 3.1 vs Kling 3.0 Compare Google Veo 3.1 and Kling 3.0 for 4K video, audio, and creative control.
 
 ## S12 pricing

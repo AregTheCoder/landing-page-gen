@@ -8,7 +8,7 @@ AI IMAGE MODELS
 ## WAN 2.6: text-to-image AI generation
 WAN 2.6 is a text-to-image generation model from Alibaba's Tongyi Wanxiang lab. Built on a large-scale Mixture-of-Experts architecture, it generates detailed images with strong prompt adherence, natural compositions, and multi-language text rendering support.
 Start generating
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S02 interactive-demo
 
@@ -25,13 +25,13 @@ Start generating
 
 ### What is WAN 2.6?
 WAN 2.6 is a text-to-image model from Alibaba's Tongyi Wanxiang lab, built on a Mixture-of-Experts (MoE) architecture. It generates high-quality images from text prompts with strong compositional understanding, natural lighting, and support for multi-language text rendering. The model is integrated in Picsart's AI Video Generator.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90)
+![image creative 480x480: Flux 2 Flex AI image generation](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-873f1e42.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90")
 
 ## S04 feature-callout
 
 ### What is WAN 2.6?
 WAN 2.6 is a text-to-image model from Alibaba's Tongyi Wanxiang lab, built on a Mixture-of-Experts (MoE) architecture. It generates high-quality images from text prompts with strong compositional understanding, natural lighting, and support for multi-language text rendering.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S05 use-case-grid
 
@@ -40,19 +40,19 @@ What you can create with WAN 2.6
 [button: Create artistic and stylized visuals]
 [button: Build marketing and product visuals]
 Create images with stunning realism, accurate lighting, natural textures, and rich detail that makes AI-generated visuals feel like professional photography.
-![image creative 879x418: Flux 2 Flex for photorealistic image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Flux 2 Flex for photorealistic image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### What is WAN 2.6?
 WAN 2.6 is a text-to-image model from Alibaba's Tongyi Wanxiang lab, built on a Mixture-of-Experts (MoE) architecture. It generates high-quality images from text prompts with strong compositional understanding, natural lighting, and support for multi-language text rendering.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose WAN 2.6
 Creators choose WAN 2.6 for its strong prompt interpretation and multi-language text rendering capabilities. Its MoE architecture handles complex, multi-element scenes with reliable compositional accuracy.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S08 tutorial-grid
 
@@ -61,15 +61,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -119,11 +119,11 @@ WAN 2.6 is an advanced AI image generation model from Black Forest Labs, designe
 ## S11 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Runway Gen 4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video generation with consistent characters and realistic motion.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
 
 ## S12 pricing

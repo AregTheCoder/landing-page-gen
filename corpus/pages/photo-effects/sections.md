@@ -7,15 +7,15 @@
 ## Free creative photo filters and effects
 Transform your photos into artistic masterpieces with free photo filters from Picsart. These filters gently shift color, texture, and tone so your image feels more polished without extra work. You can also try these photo effects to add atmosphere and depth, giving your picture a mood that feels intentional and uniquely yours.
 Apply photo effects
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6a717d80-8e5d-45f8-a39b-475fc900c82b.webm)
+![video creative 480x480: ](media/6a717d80-8e5d-45f8-a39b-475fc900c82b-c2d54b9d.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6a717d80-8e5d-45f8-a39b-475fc900c82b.webm")
 
 ## S02 cta-band
 
 4.9/5
-![image icon 42x48: G2 Spring 2026 Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png)
-![image icon 42x48: G2 Spring 2026 Momentum Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png)
-![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png)
-![image icon 42x48: G2 Users Love Us badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png)
+![image icon 42x48: G2 Spring 2026 Leader badge](media/8463ca02-9a08-40e5-80ac-b231eb974a09-74bebdaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png")
+![image icon 42x48: G2 Spring 2026 Momentum Leader badge](media/7115d730-f23a-471b-9500-c104e43b264f-73ace4f9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png")
+![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](media/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e-f239a1b2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png")
+![image icon 42x48: G2 Users Love Us badge](media/8fd68c39-abbb-4835-ab78-f563bf63eaea-8bfed398.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png")
 
 ## S03 gallery
 
@@ -73,13 +73,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S05 feature-row
 
-![image icon 96x96: ai icon](https://pastatic.picsart.com/cms-pastatic/3188c10f-2f1a-4395-8ecf-442894b7388c.png)
+![image icon 96x96: ai icon](media/3188c10f-2f1a-4395-8ecf-442894b7388c-71c7b4d6.png "https://pastatic.picsart.com/cms-pastatic/3188c10f-2f1a-4395-8ecf-442894b7388c.png")
 #### 100+ AI-powered effects & filters
 Take your visuals to the next level with a library of Picsart Photo Filters and Effects.
-![image icon 96x96: quick icon](https://pastatic.picsart.com/cms-pastatic/4a62925a-a7ed-4970-99f0-f769521d6889.png)
+![image icon 96x96: quick icon](media/4a62925a-a7ed-4970-99f0-f769521d6889-1de7f68a.png "https://pastatic.picsart.com/cms-pastatic/4a62925a-a7ed-4970-99f0-f769521d6889.png")
 #### One-step application
 Instantly apply various effects and filters. No rocket science involved.
-![image icon 96x96: free icon](https://pastatic.picsart.com/cms-pastatic/3227539b-6a3e-42f2-b44f-8d8b51f830aa.png)
+![image icon 96x96: free icon](media/3227539b-6a3e-42f2-b44f-8d8b51f830aa-a3c6132e.png "https://pastatic.picsart.com/cms-pastatic/3227539b-6a3e-42f2-b44f-8d8b51f830aa.png")
 #### Free-to-use effects
 Get a large selection of effects and filters free of charge.
 
@@ -95,62 +95,62 @@ Select an image from your library that you’d like to edit.
 #### Customize
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/75ba9fda-3ffc-4237-b55a-687d9f111fc6.webm)
+![video ui-screenshot 480x600: ](media/75ba9fda-3ffc-4237-b55a-687d9f111fc6-47a4a587.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/75ba9fda-3ffc-4237-b55a-687d9f111fc6.webm")
 
 ## S07 feature-callout
 
 ### Popular and aesthetic filters, all in one place
 Anyone can become an editing pro with Picsart Photo Editor ! Take advantage of easy-to-use Photo Effects to instantly get the look you want. Try out trendy and aesthetic filters all in one place, add a touch of glamour, or create a moody atmosphere in just a few seconds. Whether you're an aspiring influencer or just want to spice up your social media feed, Picsart Photo Editor has got you covered!
-![image creative 480x480: most popular image filters and effects only in Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/543e0b23-8514-41b4-b5ea-6924c0ed1b1d.webp)
+![image creative 480x480: most popular image filters and effects only in Picsart](media/543e0b23-8514-41b4-b5ea-6924c0ed1b1d-8e30bbed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/543e0b23-8514-41b4-b5ea-6924c0ed1b1d.webp")
 
 ## S08 feature-callout
 
 ### AI-powered effects to turn images into art
 Transform your photos into stunning works of art with our AI-powered effects collection. Use the innovative cartoonizer effect to transform your photo into a fun and colorful cartoon-like character. Or add a touch of Renaissance to your edits with the photo-to-painting filter that will apply a painterly effect mimicking the look of oil or acrylic paints. Additionally, try out the watercolor effect that can add a soft and dreamy quality to your photos. With these powerful AI-powered effects, you can easily create professional-looking photos that are sure to impress.
-![image creative 480x480: AI powered photo effects and filters](https://cdn-cms-uploads.picsart.com/cms-uploads/f1d38456-2f38-418e-81aa-64fe70ca9a08.webp)
+![image creative 480x480: AI powered photo effects and filters](media/f1d38456-2f38-418e-81aa-64fe70ca9a08-c7018398.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f1d38456-2f38-418e-81aa-64fe70ca9a08.webp")
 
 ## S09 feature-callout
 
 ### Black and white filters for a dramatic and timeless touch
 Tweak the mood with more than a dozen black-and-white filters available at your fingertips. Want to add a touch of timelessness with a simple B&W filter? Or maybe you want to travel back in time and get your own long-exposure vintage portrait? It’s all in there, and it takes only a second to apply. So maybe save your time traveling skills for another time.
-![image creative 480x480: before change](https://cdn-cms-uploads.picsart.com/cms-uploads/4a86bce5-bd56-4f27-9b97-ed6c67425a30.webp)
-![image creative 480x480: after change](https://cdn-cms-uploads.picsart.com/cms-uploads/6b9bdf16-5198-44bd-b9e1-b6f6493d1b38.webp)
+![image creative 480x480: before change](media/4a86bce5-bd56-4f27-9b97-ed6c67425a30-1a8d2ff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4a86bce5-bd56-4f27-9b97-ed6c67425a30.webp")
+![image creative 480x480: after change](media/6b9bdf16-5198-44bd-b9e1-b6f6493d1b38-66d345cf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6b9bdf16-5198-44bd-b9e1-b6f6493d1b38.webp")
 
 ## S10 feature-callout
 
 ### Minimalistic Photo Effects that play well with natural beauty
 Not all effects are high drama. For a more minimalistic vibe, try our aesthetic Photo Effects, which maintain a soft, natural look by subtly enhancing the lighting and colors of your images. Then, adding your personal touches will make sure that every photo, even with filters applied, will maintain your authenticity and charm.
-![image creative 480x480: natural photo filters](https://cdn-cms-uploads.picsart.com/cms-uploads/bcc56313-d4c2-46ec-9775-da3e7ec18eb4.webp)
+![image creative 480x480: natural photo filters](media/bcc56313-d4c2-46ec-9775-da3e7ec18eb4-d6d64930.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bcc56313-d4c2-46ec-9775-da3e7ec18eb4.webp")
 
 ## S11 feature-callout
 
 ### Blur effects to bring focus to what's most important
 Play around with the focus with our AI-powered blur photo filters that add depth to your images. Blur out distracting backgrounds to guide the viewers to what’s important in the photo: you. Reduce unnecessary noise and add a soft touch to the pixels to get the highly sought-after bokeh effect. No expensive equipment required for pro-looking portraits.
-![image creative 480x480: before change](https://cdn-cms-uploads.picsart.com/cms-uploads/5009397a-d634-4f63-828f-ae1d362f8ce8.webp)
-![image creative 480x480: after change](https://cdn-cms-uploads.picsart.com/cms-uploads/ed134b94-4db2-4451-bc18-07a4d5ed4bf4.webp)
+![image creative 480x480: before change](media/5009397a-d634-4f63-828f-ae1d362f8ce8-eca30f0b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5009397a-d634-4f63-828f-ae1d362f8ce8.webp")
+![image creative 480x480: after change](media/ed134b94-4db2-4451-bc18-07a4d5ed4bf4-ca82620d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ed134b94-4db2-4451-bc18-07a4d5ed4bf4.webp")
 
 ## S12 feature-callout
 
 ### Explore more free photo editing tools from Picsart
 After experimenting with photo effects, you can explore Picsart’s full range of AI tools to enhance any image. Improve quality with the AI Photo Editor or AI Image Enhancer , change backgrounds in seconds, create original visuals using the AI Image Generator , and add creative elements like text, stickers, and collages - all in one place.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/11da1e05-301c-4662-b389-42464e9956b7.webm)
+![video creative 480x480: ](media/11da1e05-301c-4662-b389-42464e9956b7-9bc0a398.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/11da1e05-301c-4662-b389-42464e9956b7.webm")
 
 ## S13 link-grid
 
 ### More Photo Effects to discover
-![image thumbnail 342x282: photo to cartoon effect](https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.png)
+![image thumbnail 342x282: photo to cartoon effect](media/45cc9c35-338a-4e3b-9b00-1682328506f1-37139ad9.png "https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.png")
 Photo-to-Cartoon Get your own cartoon character adaptation in a second with this effect.
-![image thumbnail 342x282: photo into art](https://pastatic.picsart.com/cms-pastatic/ca814ade-76eb-411f-9a88-50eafdfa15bb.png)
+![image thumbnail 342x282: photo into art](media/ca814ade-76eb-411f-9a88-50eafdfa15bb-36d23b93.png "https://pastatic.picsart.com/cms-pastatic/ca814ade-76eb-411f-9a88-50eafdfa15bb.png")
 Photo into Art Turn your photos into museum-worthy works of art with AI technology.
-![image thumbnail 342x282: watercolor effect](https://cdn140.picsart.com/18910633441796797381.jpg)
+![image thumbnail 342x282: watercolor effect](media/18910633441796797381-4ea164ec.jpg "https://cdn140.picsart.com/18910633441796797381.jpg")
 Watercolor Effect Give your brushes a rest and instantly turn any photos into watercolor masterpieces.
-![image thumbnail 342x282: blur effect](https://pastatic.picsart.com/cms-pastatic/7ebc18ee-0a25-48c3-b5db-56462564a376.png)
+![image thumbnail 342x282: blur effect](media/7ebc18ee-0a25-48c3-b5db-56462564a376-cd12dbc1.png "https://pastatic.picsart.com/cms-pastatic/7ebc18ee-0a25-48c3-b5db-56462564a376.png")
 Blur Image Bokeh-ify your images with a selection of blur effects.
-![image thumbnail 342x282: colorize effect](https://cdn140.picsart.com/38367935332238361223.png)
+![image thumbnail 342x282: colorize effect](media/38367935332238361223-230e4a25.png "https://cdn140.picsart.com/38367935332238361223.png")
 Colorize Images Play around with effects that invert, add, and remove colors.
-![image thumbnail 342x282: light effect](https://cdn140.picsart.com/82424493846351274658.png)
+![image thumbnail 342x282: light effect](media/82424493846351274658-a28f3e41.png "https://cdn140.picsart.com/82424493846351274658.png")
 Light Effects Get studio-level lighting in a matter of seconds with these filters.
-![image thumbnail 342x282: shadow](https://pastatic.picsart.com/cms-pastatic/7fdacf64-73bf-4af7-9a3d-02535e4e3b22.png)
+![image thumbnail 342x282: shadow](media/7fdacf64-73bf-4af7-9a3d-02535e4e3b22-06bb1a2f.png "https://pastatic.picsart.com/cms-pastatic/7fdacf64-73bf-4af7-9a3d-02535e4e3b22.png")
 Add Shadow Add depth and dimension with the shadow effect.
 
 ## S14 feature-callout
@@ -170,23 +170,23 @@ The FX category has tons of Picsart fan-favorite filters and effects. Whether it
 ## S16 link-grid
 
 ### Continue your editing journey with popular editing tools
-![image thumbnail 342x282: Picsart online photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: Picsart online photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
-![image thumbnail 342x282: change background of images with Picsart's background remover tool](https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp)
+![image thumbnail 342x282: change background of images with Picsart's background remover tool](media/7050565e-7d78-4ddb-9a78-edb7cbcc7a05-61a5849e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp")
 Background Changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: Picsart's background remover](https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp)
+![image thumbnail 342x282: Picsart's background remover](media/b54783a7-b787-46b5-b1bd-492de2715ea0-b0b46c88.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp")
 Background Remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: ai image generator](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI Image Generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: Collage maker](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Collage maker](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage Maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: black hair woman standing in a white sand with blue long piece of cloth](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: black hair woman standing in a white sand with blue long piece of cloth](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Remove Objects No more ruined photos! Get rid of unwanted texts and backgrounds with just a few clicks.
-![image thumbnail 342x282: Add text to photos with Picsart](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: Add text to photos with Picsart](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 Text Editor Complement your images with a vast library of free fonts.
-![image thumbnail 342x282: ai art generator](https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png)
+![image thumbnail 342x282: ai art generator](media/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3-ce3fa1ce.png "https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png")
 AI Art Generator Generate eye-catching artwork of various styles and movements in seconds with AI.
 
 ## S17 pricing

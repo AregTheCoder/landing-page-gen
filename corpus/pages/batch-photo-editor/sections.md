@@ -7,7 +7,7 @@
 ## Batch Photo Editor: Edit Multiple Photos at Once
 Edit, enhance, and export a whole batch of photos at once with the Picsart batch photo editor. Crop, resize, remove and replace backgrounds, apply filters and effects, add watermarks, and AI-enhance up to 50 images in a single pass, and apply one look across the set or different settings to each image without leaving the tool.
 Start batch editing
-![image ui-screenshot 480x480: batch photo editor](https://cdn-cms-uploads.picsart.com/cms-uploads/06e34c90-139d-4c98-9e6f-1eaf748ecd3e.avif)
+![image ui-screenshot 480x480: batch photo editor](media/06e34c90-139d-4c98-9e6f-1eaf748ecd3e-e750c2e9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/06e34c90-139d-4c98-9e6f-1eaf748ecd3e.avif")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Faster editing](https://pastatic.picsart.com/cms-pastatic/9776b2d7-fc3d-4c97-873b-7792d076e7e9.png)
+![image icon 96x96: Faster editing](media/9776b2d7-fc3d-4c97-873b-7792d076e7e9-428aa806.png "https://pastatic.picsart.com/cms-pastatic/9776b2d7-fc3d-4c97-873b-7792d076e7e9.png")
 #### Edit in bulk, not one by one
 Crop, resize, remove backgrounds, apply effects, and AI-enhance up to 50 photos in one pass.
-![image icon 96x96: all-in-one batch editing](https://pastatic.picsart.com/cms-pastatic/98a1123f-79b8-4f4c-baf8-87b01db286b8.png)
+![image icon 96x96: all-in-one batch editing](media/98a1123f-79b8-4f4c-baf8-87b01db286b8-e18e3304.png "https://pastatic.picsart.com/cms-pastatic/98a1123f-79b8-4f4c-baf8-87b01db286b8.png")
 #### AI built into every step
 Generate AI backgrounds, enhance quality, and remove backgrounds across a whole batch in seconds.
-![image icon 96x96: Consistent results for every image](https://pastatic.picsart.com/cms-pastatic/6ca622ab-abfe-42f2-ba16-3c4e8c82de58.png)
+![image icon 96x96: Consistent results for every image](media/6ca622ab-abfe-42f2-ba16-3c4e8c82de58-63b4d84c.png "https://pastatic.picsart.com/cms-pastatic/6ca622ab-abfe-42f2-ba16-3c4e8c82de58.png")
 #### Control every image
 Give different photos different settings in one batch - just select which images each edit applies to.
 
@@ -62,99 +62,99 @@ Click Select File to open the batch editor.
 #### Edit photos
 4
 #### Save
-![image creative 480x600: how to edit images in batches](https://cdn-cms-uploads.picsart.com/cms-uploads/a49dfb87-3b48-4b44-9133-8673e2699455.webp)
+![image creative 480x600: how to edit images in batches](media/a49dfb87-3b48-4b44-9133-8673e2699455-7c379346.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a49dfb87-3b48-4b44-9133-8673e2699455.webp")
 
 ## S05 feature-callout
 
 ### Automate your editing workflow with the Batch Editor
 Handle repetitive edits across dozens of photos in one move. Cropping, resizing, and adjusting images one by one eats hours, so the Picsart batch photo editor applies your changes to up to 50 photos at once and gets the busywork done in a single pass.
-![image creative 480x480: workflow automation with bulk editing](https://cdn-cms-uploads.picsart.com/cms-uploads/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5.avif)
+![image creative 480x480: workflow automation with bulk editing](media/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5-92ca3115.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5.avif")
 
 ## S06 feature-callout
 
 ### Remove and replace backgrounds in bulk
 Polish images for social and e-commerce with the built-in bulk background remover . AI erases backgrounds across your whole batch automatically, for people or objects, with high accuracy. Replace them with a transparent background, a solid color, an AI-generated backdrop, or a shadow or minimalist style from the built-in library, then use the Position controls to move, scale, and rotate your subject until it sits exactly right.
-![image creative 480x480: batch background removal](https://cdn-cms-uploads.picsart.com/cms-uploads/4604e99a-38c6-400e-a629-afd092c3c741.avif)
+![image creative 480x480: batch background removal](media/4604e99a-38c6-400e-a629-afd092c3c741-a7ad1909.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4604e99a-38c6-400e-a629-afd092c3c741.avif")
 
 ## S07 feature-callout
 
 ### Generate professional AI backgrounds in bulk
 Transform an entire photoshoot in seconds with AI background generation, now front and center with a redesigned, easy-to-find action. Pick a suggested AI style and create studio-quality backdrops with a consistent look across every image, whether you need professional headshots or product shots that make your subjects stand out.
-![image creative 480x480: Generate professional AI backgrounds in bulk](https://cdn-cms-uploads.picsart.com/cms-uploads/c1276496-9670-4cef-b711-e77e11fc6369.avif)
+![image creative 480x480: Generate professional AI backgrounds in bulk](media/c1276496-9670-4cef-b711-e77e11fc6369-b9d4c142.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c1276496-9670-4cef-b711-e77e11fc6369.avif")
 
 ## S08 feature-callout
 
 ### Improve image quality simultaneously
 Give blurry or pixelated photos a second life with the built-in AI enhancer . One click enhances your whole batch, ideal for product and real estate listings, carousel posts, and anywhere image quality matters. The AI handles the rest.
-![image creative 480x480: improve image quality in batches](https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif)
+![image creative 480x480: improve image quality in batches](media/98672563-3417-4219-ac98-50e06cf53362-534dbf0b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif")
 
 ## S09 feature-callout
 
 ### Flip, crop, and rotate up to 50 photos
 Crop , rotate, and flip up to 50 photos in a single pass. Free-form crop each image before applying, or pick a preset size like an Instagram Story, a Pinterest Pin, a TikTok Post, or a LinkedIn Post to batch crop for any platform.
-![image creative 480x480: rotate multiple photos as once](https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif)
+![image creative 480x480: rotate multiple photos as once](media/fa2a98b6-afcc-47dd-bd12-9e40c965a978-792e2ee7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif")
 
 ## S10 feature-callout
 
 ### Add watermarks fast with bulk editing
 Watermark a whole set in one go. Upload your logo, choose a position or pattern, set the opacity, and apply it across the batch. Protect your photos and stock images without spending hours doing it by hand.
-![image creative 480x480: add watermarks on photos in bulk](https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif)
+![image creative 480x480: add watermarks on photos in bulk](media/bafb40e8-e086-41bf-b7d3-4f8f566c0338-ace1ce4a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif")
 
 ## S11 feature-callout
 
 ### Resize photos in batch for socials and e-commerce
 Resize a whole batch to the exact dimensions a platform needs, with no quality loss and no percentage-based guessing. Upload your images, set a custom resolution, and the built-in bulk resizer sizes them for socials and e-commerce in seconds.
-![image creative 480x480: resize photos in batch](https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif)
+![image creative 480x480: resize photos in batch](media/b95353fc-7b53-4ee4-9103-0cfc539d5c3b-41962feb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif")
 
 ## S12 feature-callout
 
 ### Boost your small business’ online presence with ease
 Run your small business or freelance work on far less editing time. The batch photo editor automates the repetitive parts, from social content calendars to e-commerce listings and event galleries, so you reclaim hours for the work that actually grows the business.
-![image creative 480x480: online batch photo editing](https://cdn-cms-uploads.picsart.com/cms-uploads/f1a23ccd-9393-4a48-9b10-b1d829bf7e0e.avif)
+![image creative 480x480: online batch photo editing](media/f1a23ccd-9393-4a48-9b10-b1d829bf7e0e-efb13a7d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f1a23ccd-9393-4a48-9b10-b1d829bf7e0e.avif")
 
 ## S13 link-grid
 
 ### Continue your editing journey with Picsart
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/b9fa617f-1059-4cee-b27a-55ffe7d33c0f-133dfd25.png "https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png")
 Remove background Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: ai image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: ai image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI enhance Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: Crop images online tool on Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png)
+![image thumbnail 342x282: Crop images online tool on Picsart photo editor](media/54f94706-2d77-4570-89ad-94e9a83409b2-de9b77e1.png "https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png")
 Image cropper Keep what matters with an easy-to-use image cropper tool.
-![image thumbnail 342x282: resize images](https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png)
+![image thumbnail 342x282: resize images](media/d009e3c0-dbcc-4a71-9854-f4c6ed474968-90089800.png "https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png")
 Resize image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: ai photo editing tools](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editing tools](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI photo editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: all in one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all in one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png)
+![image thumbnail 342x282: background changer](media/58dbd546-e722-4bd6-8979-2a542338ebc3-55e3e5c9.png "https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png")
 Background changer Swap up the backdrop or remove it altogether
-![image thumbnail 342x282: Create a transparent background for versatile branding.](https://pastatic.picsart.com/cms-pastatic/28b7237a-98f0-4954-9818-d219caf6fc3e.png)
+![image thumbnail 342x282: Create a transparent background for versatile branding.](media/28b7237a-98f0-4954-9818-d219caf6fc3e-c1aa9007.png "https://pastatic.picsart.com/cms-pastatic/28b7237a-98f0-4954-9818-d219caf6fc3e.png")
 Logo background remover Create transparent backgrounds for your logo files with ease.
-![image thumbnail 342x282: remove text from images](https://pastatic.picsart.com/cms-pastatic/09dbbb5c-31bb-4bcf-acab-90c67125a656.png)
+![image thumbnail 342x282: remove text from images](media/09dbbb5c-31bb-4bcf-acab-90c67125a656-e63573b9.png "https://pastatic.picsart.com/cms-pastatic/09dbbb5c-31bb-4bcf-acab-90c67125a656.png")
 Text remover Erase unwanted text and advertisements from any image with AI.
 
 ## S14 tutorial-grid
 
 ### Learn image editing basics
 Learn how to make cleaner edits with practical steps.
-![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif)
+![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](media/4590d202-ac58-41a9-98f5-ade8a0a935cc-4992e832.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif")
 Image editing
 #### Remove unwanted objects from photos with AI
 3 min Beginner
-![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif)
+![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](media/2e34fa80-b802-4f1e-b499-8c7c7d155b6a-a724e4f7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif")
 Image editing
 #### Replace objects in photos with AI-generated content
 4 min Intermediate
-![image thumbnail 294x196: How to expand images beyond their borders with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif)
+![image thumbnail 294x196: How to expand images beyond their borders with AI preview](media/161cd981-bf05-4fcf-baf1-807d483f0914-d0e4bf77.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif")
 Image editing
 #### How to expand images beyond their borders with AI
 4 min Beginner
-![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif)
+![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](media/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3-147f820d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif")
 Image editing
 #### Upscale low-resolution images to HD with AI
 3 min Beginner
-![image thumbnail 294x196: Edit any part of an image with text prompts preview](https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif)
+![image thumbnail 294x196: Edit any part of an image with text prompts preview](media/59502b73-e489-4109-b87e-f5375f27425f-bd34795a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif")
 Image editing
 #### Edit any part of an image with text prompts
 4 min Intermediate

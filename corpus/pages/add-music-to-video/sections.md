@@ -7,7 +7,7 @@
 ## Add music to video online
 Create custom, copyright-safe music with AI or browse ready-to-use tracks. Add voiceovers, sound effects, and background audio to your video in one fast, simple online editor.
 Add audio to video
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2b81516d-b59b-4b87-a14f-4f02c94b98bf.webm)
+![video creative 480x480: ](media/2b81516d-b59b-4b87-a14f-4f02c94b98bf-365ac6c3.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2b81516d-b59b-4b87-a14f-4f02c94b98bf.webm")
 
 ## S02 link-grid
 
@@ -40,25 +40,25 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 gallery
 
-![image creative 196x348: animated seaside town video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/ed1c1390-0f67-479e-8950-35e70dd6fe8b.avif)
-![image creative 196x348: portrait video with plush toys and added music](https://cdn-cms-uploads.picsart.com/cms-uploads/7baba4cc-7e69-4106-b465-4b7c9d59355d.avif)
-![image creative 196x348: outdoor headphones video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/f318e9cf-5cc9-4a88-9b86-42168d32933f.avif)
-![image creative 196x348: 3D character neon video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/cfd931e1-082c-4d29-81ec-a2f4253b76aa.avif)
-![image creative 196x348: cherry blossom video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/05f2c15a-5bf0-49b2-8930-e5cdeebfa489.avif)
-![image creative 196x348: social media pose video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/6c97b212-9e1d-4f09-b117-260886cb32e9.avif)
-![image creative 196x348: sunset dancing video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/6eefbe55-6ca2-4c0f-955d-ebc00a17c2e1.avif)
-![image creative 196x348: surreal mushroom video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/c3628009-24ab-4590-ae44-c0889084f696.avif)
-![image creative 196x348: headphones video with added music](https://cdn-cms-uploads.picsart.com/cms-uploads/10c70f7f-40cc-42df-a7c7-6574a19735e3.avif)
+![image creative 196x348: animated seaside town video with added music](media/ed1c1390-0f67-479e-8950-35e70dd6fe8b-066527ea.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ed1c1390-0f67-479e-8950-35e70dd6fe8b.avif")
+![image creative 196x348: portrait video with plush toys and added music](media/7baba4cc-7e69-4106-b465-4b7c9d59355d-403ba499.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7baba4cc-7e69-4106-b465-4b7c9d59355d.avif")
+![image creative 196x348: outdoor headphones video with added music](media/f318e9cf-5cc9-4a88-9b86-42168d32933f-de6524af.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f318e9cf-5cc9-4a88-9b86-42168d32933f.avif")
+![image creative 196x348: 3D character neon video with added music](media/cfd931e1-082c-4d29-81ec-a2f4253b76aa-5553fcff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cfd931e1-082c-4d29-81ec-a2f4253b76aa.avif")
+![image creative 196x348: cherry blossom video with added music](media/05f2c15a-5bf0-49b2-8930-e5cdeebfa489-bda3d0b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/05f2c15a-5bf0-49b2-8930-e5cdeebfa489.avif")
+![image creative 196x348: social media pose video with added music](media/6c97b212-9e1d-4f09-b117-260886cb32e9-1ddb71f1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6c97b212-9e1d-4f09-b117-260886cb32e9.avif")
+![image creative 196x348: sunset dancing video with added music](media/6eefbe55-6ca2-4c0f-955d-ebc00a17c2e1-91d66acd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6eefbe55-6ca2-4c0f-955d-ebc00a17c2e1.avif")
+![image creative 196x348: surreal mushroom video with added music](media/c3628009-24ab-4590-ae44-c0889084f696-ed781a9a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c3628009-24ab-4590-ae44-c0889084f696.avif")
+![image creative 196x348: headphones video with added music](media/10c70f7f-40cc-42df-a7c7-6574a19735e3-0159b078.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/10c70f7f-40cc-42df-a7c7-6574a19735e3.avif")
 
 ## S04 feature-row
 
-![image icon 96x96: add music icon](https://cdn-cms-uploads.picsart.com/cms-uploads/bb7f005f-4a5d-453c-9127-839eebe28842.png)
+![image icon 96x96: add music icon](media/bb7f005f-4a5d-453c-9127-839eebe28842-3f99c226.png "https://cdn-cms-uploads.picsart.com/cms-uploads/bb7f005f-4a5d-453c-9127-839eebe28842.png")
 #### Fast music adding
 Add music to video in seconds using a simple editor that keeps sound and visuals perfectly in sync.
-![image icon 96x96: audio editing icon](https://cdn-cms-uploads.picsart.com/cms-uploads/a40e8808-5e67-4d13-b062-74ab2c3569ee.png)
+![image icon 96x96: audio editing icon](media/a40e8808-5e67-4d13-b062-74ab2c3569ee-1e63cb4c.png "https://cdn-cms-uploads.picsart.com/cms-uploads/a40e8808-5e67-4d13-b062-74ab2c3569ee.png")
 #### Intuitive audio editing
 Add audio to video using an intuitive editor that makes it easy to test tracks and control volume across different moments.
-![image icon 96x96: microphone icon](https://cdn-cms-uploads.picsart.com/cms-uploads/1b3cf20b-19f6-4938-a718-12bb36545a5d.png)
+![image icon 96x96: microphone icon](media/1b3cf20b-19f6-4938-a718-12bb36545a5d-480146a6.png "https://cdn-cms-uploads.picsart.com/cms-uploads/1b3cf20b-19f6-4938-a718-12bb36545a5d.png")
 #### Flexible voiceover workflow
 Turn written text into spoken audio by selecting a voice, without recording or extra equipment.
 
@@ -74,25 +74,25 @@ In the left sidebar, click Apps to browse available editing tools.
 #### Add music or voiceover
 4
 #### Adjust and export
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/60ae7a28-8b84-48f8-81a2-4c50bdf27118.webm)
+![video ui-screenshot 480x600: ](media/60ae7a28-8b84-48f8-81a2-4c50bdf27118-f46cc5e7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/60ae7a28-8b84-48f8-81a2-4c50bdf27118.webm")
 
 ## S06 feature-callout
 
 ### Add music to video to set the tone
 Music helps structure a video and guide how scenes connect. With this Video Music Editor, you can add music to video online without technical skills or software installs. Select a track, place it where it fits, and adjust timing and volume to support your video’s flow, no matter if you’re editing personal clips or everyday content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a40e539d-971a-460e-b6c0-32957865f073.webm)
+![video creative 480x480: ](media/a40e539d-971a-460e-b6c0-32957865f073-44ee0607.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a40e539d-971a-460e-b6c0-32957865f073.webm")
 
 ## S07 feature-callout
 
 ### Add audio to video with trending tracks
 Using current audio styles helps videos stay aligned with today’s content formats. When you add audio to video with popular audio options, your clips feel more relevant across platforms. Choose background music for videos from a broad range of categories, adjust volume levels, and place tracks precisely where they support each part of your video.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0717fc40-0e5c-4b50-ae5a-1059d8d4ec69.webm)
+![video creative 480x480: ](media/0717fc40-0e5c-4b50-ae5a-1059d8d4ec69-84dc5418.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0717fc40-0e5c-4b50-ae5a-1059d8d4ec69.webm")
 
 ## S08 feature-callout
 
 ### Personalize videos with AI-generated audio
 Turn written text into natural voice-overs directly in the editor. With the AI Audio Generator, you can add voiceover to video by choosing from voices suited for ads, trailers, vlogs, news, or meditation. Fine-tune delivery with pauses or emotion changes, then adjust timing, placement, and volume - no recording or extra tools needed.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/9c10b10d-077a-4ed1-aa47-7ba4f51e6022.webm)
+![video creative 480x480: ](media/9c10b10d-077a-4ed1-aa47-7ba4f51e6022-34bd0f93.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/9c10b10d-077a-4ed1-aa47-7ba4f51e6022.webm")
 
 ## S09 use-case-grid
 
@@ -103,19 +103,19 @@ Turn written text into natural voice-overs directly in the editor. With the AI A
 [button: Automate faceless videos]
 Boost social videos
 Trending audio drives reach on TikTok, Reels, and Shorts. Add music to video using viral sounds or AI tracks, then sync and export in seconds.
-![image creative 623x623: boost social videos with add to music video tool](https://cdn-cms-uploads.picsart.com/cms-uploads/8787dc19-1d3e-47a0-80b0-7af054cca1ad.avif)
+![image creative 623x623: boost social videos with add to music video tool](media/8787dc19-1d3e-47a0-80b0-7af054cca1ad-6d7c3c0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8787dc19-1d3e-47a0-80b0-7af054cca1ad.avif")
 
 ## S10 feature-callout
 
 ### Use background music for reels, vlogs, ads, and more
 Add music to videos to support structure and consistency across different formats. For reels and TikTok videos, background music for videos helps align clips with common content styles and keeps edits cohesive. In vlogs, sound creates continuity from start to finish. For ads and promotional clips, music helps deliver messages clearly and keeps videos focused and professional.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fe5e78cb-2e5a-4b94-afe7-b364e3256600.webm)
+![video creative 480x480: ](media/fe5e78cb-2e5a-4b94-afe7-b364e3256600-e7816932.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/fe5e78cb-2e5a-4b94-afe7-b364e3256600.webm")
 
 ## S11 feature-callout
 
 ### Strengthen your content with more video editing tools
 Adding music sets the foundation, but it’s only part of the editing process. After setting the sound, you can continue refining your video using built-in video editing tools. Trim video clips for cleaner structure, add text to video for clarity, adjust visuals, and fine-tune details - all within the same Video Editor , without switching tools or workflows.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a83ccd42-c8be-48d0-bc01-2582301bf7f3.webm)
+![video creative 480x480: ](media/a83ccd42-c8be-48d0-bc01-2582301bf7f3-8f9cc2f7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a83ccd42-c8be-48d0-bc01-2582301bf7f3.webm")
 
 ## S12 feature-list
 
@@ -160,17 +160,17 @@ A good app makes it easy to add music to videos online, control timing and volum
 ## S15 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: image of a boy with a sense of creativity text on it](https://cdn140.picsart.com/05096155402720415751.png)
+![image thumbnail 342x282: image of a boy with a sense of creativity text on it](media/05096155402720415751-16e73336.png "https://cdn140.picsart.com/05096155402720415751.png")
 Add Text to Video Easily add text to videos online to achieve stunning edits.
-![image thumbnail 342x282: AI text to video for free](https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp)
+![image thumbnail 342x282: AI text to video for free](media/d550a93d-11cc-4957-a15a-ef53e95596c9-190bc179.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp")
 AI Text-to-Video Turn written prompts into scroll-stopping content with Picsart’s Text-to-Video AI.
-![image thumbnail 342x282: online AI image to video generator](https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png)
+![image thumbnail 342x282: online AI image to video generator](media/f07c4157-d746-46cb-8d6d-35051270884b-86874bbb.png "https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png")
 AI Image-to-Video Turn any image into a dynamic video with AI.
-![image thumbnail 342x282: remove object from video](https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png)
+![image thumbnail 342x282: remove object from video](media/31ad13c3-278d-48aa-9688-9eb04300c6f7-02a740d0.png "https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png")
 Video Object Remover Get rid of unnecessary details from your videos with the help of AI.
-![image thumbnail 342x282: remove video background online and free](https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png)
+![image thumbnail 342x282: remove video background online and free](media/141eb68c-5548-4161-a378-015c5979503d-bb5d1309.png "https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png")
 Video Background Remover Erase video backgrounds with Picsart’s AI-powered Video Background Remover.
-![image thumbnail 342x282: add subtitles to videos online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp)
+![image thumbnail 342x282: add subtitles to videos online for free](media/abb45bdc-e5f5-4580-84b2-890d2582fe08-d2f8944a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp")
 Add Subtitles to Video Generate accurate subtitles for any video in seconds.
 
 ## S16 pricing

@@ -4,16 +4,16 @@
 
 ## S01 hero
 
-![image creative 264x412: Frame](https://pastatic.picsart.com/cms-pastatic/0783170e-28b2-4bf7-b766-5acdf297a301.png)
+![image creative 264x412: Frame](media/0783170e-28b2-4bf7-b766-5acdf297a301-9b698bea.png "https://pastatic.picsart.com/cms-pastatic/0783170e-28b2-4bf7-b766-5acdf297a301.png")
 ## Your AI-powered Ad Maker
 Create ads, optimize performance, and scale campaigns using smart tools built to deliver results.
 Get started
-![image creative 151x151: Frame](https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png)
-![image creative 264x260: Frame](https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png)
+![image creative 151x151: Frame](media/b262ccd9-133c-4d5c-9bd5-42486d968e20-e90f10ac.png "https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png")
+![image creative 264x260: Frame](media/49d88aeb-12af-4b54-93ee-8a9185cb9946-f17038cd.png "https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png")
 
 ## S02 feature-callout
 
-![image decorative 153x160: Icon](https://pastatic.picsart.com/cms-pastatic/9dc7a313-6212-45b9-82e7-cf6e0a6f6cf2.png)
+![image decorative 153x160: Icon](media/9dc7a313-6212-45b9-82e7-cf6e0a6f6cf2-dc89a349.png "https://pastatic.picsart.com/cms-pastatic/9dc7a313-6212-45b9-82e7-cf6e0a6f6cf2.png")
 Let`s
 generate
 deploy
@@ -24,7 +24,7 @@ ads
 
 ## S03 feature-callout
 
-![video creative 1440x800: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf.mp4)
+![video creative 1440x800: ](media/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf-c89cc739.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf.mp4")
 All your marketing, one easy platform
 From idea to execution, use Picsart’s free ad creator to make an advertisement without the complexity.
 
@@ -38,7 +38,7 @@ Generate ads, save time
 Turn ideas into finished ads
 Use the Ad generator to create ads that match your vision. Start with a simple idea and turn it into high-performing, custom ads - fast, with our Ad Maker.
 Get started now
-![image creative 600x458: Visual](https://cdn-cms-uploads.picsart.com/cms-uploads/39884e5e-010c-4afe-bd8e-3154d79c54f5.png)
+![image creative 600x458: Visual](media/39884e5e-010c-4afe-bd8e-3154d79c54f5-34011394.png "https://cdn-cms-uploads.picsart.com/cms-uploads/39884e5e-010c-4afe-bd8e-3154d79c54f5.png")
 
 ## S05 interactive-demo
 
@@ -84,32 +84,32 @@ editable photos, templates, and more
 
 ## S08 testimonial
 
-![image decorative 194x193: First block decoration](https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png)
-![image decorative 170x183: First block bottom decoration](https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png)
+![image decorative 194x193: First block decoration](media/a815825f-4663-46ba-a66e-51194ace3cfc-dfe7034d.png "https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png")
+![image decorative 170x183: First block bottom decoration](media/1d88e0dc-348a-4894-bd7c-55eebbffedef-a598cdf9.png "https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png")
 Fantastic. Very user friendly
 Fantastic. Very user friendly. Thanks to Picsart, anybody can generate images now!
 Madan
 New designs, new features
 I’ve been using Picsart for a long time, and it’s never boring for me, every week something new is coming: new designs, new features, new solutions.
 Levon_Grigoryan
-![image icon 120x119: Second block decoration](https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png)
+![image icon 120x119: Second block decoration](media/77516d06-3a4d-4469-ae46-488ec17d15f8-93068584.png "https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png")
 It’s my go-to app
 I can’t get enough of Picsart! It’s my go-to app for adding that extra bit of flair to my photos.
 Lauren
-![image icon 120x120: Testimonial decoration](https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png)
+![image icon 120x120: Testimonial decoration](media/2be32773-9229-4230-b4d4-065326861a1e-e4b1d071.png "https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png")
 
 ## S09 gallery
 
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/d9e6a6e9-da49-42a4-8c85-0d1ac7dff763.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/709fbb3c-d2fb-4897-bc5c-e12b958548ef.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/d4f982aa-b920-427a-9449-18b71e12b860.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/2a0afc16-37c6-4bc4-bce2-16870f021228.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/6957048b-158c-4ef1-ae5c-7b2bffd4c297.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/1383c91a-6894-4a0c-9a46-3089011f69eb.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/e79e82fe-5f5f-4fb5-8cc6-2e8db842131e.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/1b7381fb-4569-449d-ab96-39e88b8b9f33.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/1d2b0270-51a6-4329-ab51-0841724ed9b1.webp)
-![image creative 167x83: Vector](https://cdn-cms-uploads.picsart.com/cms-uploads/7d6fa6ff-292a-4061-8924-72af14d5b5a4.webp)
+![image creative 167x83: Vector](media/d9e6a6e9-da49-42a4-8c85-0d1ac7dff763-0a70439c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d9e6a6e9-da49-42a4-8c85-0d1ac7dff763.webp")
+![image creative 167x83: Vector](media/709fbb3c-d2fb-4897-bc5c-e12b958548ef-fca4d3b8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/709fbb3c-d2fb-4897-bc5c-e12b958548ef.webp")
+![image creative 167x83: Vector](media/d4f982aa-b920-427a-9449-18b71e12b860-a260777b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d4f982aa-b920-427a-9449-18b71e12b860.webp")
+![image creative 167x83: Vector](media/2a0afc16-37c6-4bc4-bce2-16870f021228-96ed458f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2a0afc16-37c6-4bc4-bce2-16870f021228.webp")
+![image creative 167x83: Vector](media/6957048b-158c-4ef1-ae5c-7b2bffd4c297-5ab95b0c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6957048b-158c-4ef1-ae5c-7b2bffd4c297.webp")
+![image creative 167x83: Vector](media/1383c91a-6894-4a0c-9a46-3089011f69eb-315a1215.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1383c91a-6894-4a0c-9a46-3089011f69eb.webp")
+![image creative 167x83: Vector](media/e79e82fe-5f5f-4fb5-8cc6-2e8db842131e-9ad86278.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e79e82fe-5f5f-4fb5-8cc6-2e8db842131e.webp")
+![image creative 167x83: Vector](media/1b7381fb-4569-449d-ab96-39e88b8b9f33-ee2a878a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1b7381fb-4569-449d-ab96-39e88b8b9f33.webp")
+![image creative 167x83: Vector](media/1d2b0270-51a6-4329-ab51-0841724ed9b1-6224262f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1d2b0270-51a6-4329-ab51-0841724ed9b1.webp")
+![image creative 167x83: Vector](media/7d6fa6ff-292a-4061-8924-72af14d5b5a4-08a60538.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7d6fa6ff-292a-4061-8924-72af14d5b5a4.webp")
 
 ## S10 cta-band
 

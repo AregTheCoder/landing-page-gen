@@ -7,7 +7,7 @@
 ## Recraft V4.1: more beautiful by nature
 The next-generation Recraft model, now in Picsart. Recraft V4.1 builds on V4's design-first foundation with cleaner photorealism, dreamier gradients, sharper object understanding, smoother 3D rendering, and better results from shorter prompts. Generate raster images, vectors, logos, and typography — all from a single design-quality AI model. Available in the AI Image Generator and AI Playground.
 Start generating with AI Playground
-![image creative 480x480: Recraft V4.1 AI video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/64cbe910-3dd0-4a04-a614-aa9240b673f4.avif)
+![image creative 480x480: Recraft V4.1 AI video generation](media/64cbe910-3dd0-4a04-a614-aa9240b673f4-5fd97e3c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/64cbe910-3dd0-4a04-a614-aa9240b673f4.avif")
 
 ## S02 interactive-demo
 
@@ -18,43 +18,43 @@ Start generating with AI Playground
 ## S03 gallery
 
 ### Design-quality images, taken further
-![image creative 196x348: Recraft 4.1 generated image 8](https://cdn-cms-uploads.picsart.com/cms-uploads/ba3b4993-daca-448b-89ea-87a70df04cc7.avif)
+![image creative 196x348: Recraft 4.1 generated image 8](media/ba3b4993-daca-448b-89ea-87a70df04cc7-3c042c0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ba3b4993-daca-448b-89ea-87a70df04cc7.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 1](https://cdn-cms-uploads.picsart.com/cms-uploads/cc0a8058-5cd6-4291-a4e2-a49d81045d8c.avif)
+![image creative 196x348: Recraft 4.1 generated image 1](media/cc0a8058-5cd6-4291-a4e2-a49d81045d8c-4766cf2e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cc0a8058-5cd6-4291-a4e2-a49d81045d8c.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 2](https://cdn-cms-uploads.picsart.com/cms-uploads/61a82e28-09a4-4ef1-b348-4883956dd569.avif)
+![image creative 196x348: Recraft 4.1 generated image 2](media/61a82e28-09a4-4ef1-b348-4883956dd569-2cf738fa.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/61a82e28-09a4-4ef1-b348-4883956dd569.avif")
 Prescott
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 3](https://cdn-cms-uploads.picsart.com/cms-uploads/386f86cf-c203-4472-9360-afe40d1734cc.avif)
+![image creative 196x348: Recraft 4.1 generated image 3](media/386f86cf-c203-4472-9360-afe40d1734cc-b2772df1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/386f86cf-c203-4472-9360-afe40d1734cc.avif")
 Woolf
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 4](https://cdn-cms-uploads.picsart.com/cms-uploads/81187271-9817-4084-b908-6f0bc6812a70.avif)
+![image creative 196x348: Recraft 4.1 generated image 4](media/81187271-9817-4084-b908-6f0bc6812a70-b2fb4f2d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/81187271-9817-4084-b908-6f0bc6812a70.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 5](https://cdn-cms-uploads.picsart.com/cms-uploads/d5cf517c-d05e-47d1-aae5-b71b77667331.avif)
+![image creative 196x348: Recraft 4.1 generated image 5](media/d5cf517c-d05e-47d1-aae5-b71b77667331-74912c70.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d5cf517c-d05e-47d1-aae5-b71b77667331.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 6](https://cdn-cms-uploads.picsart.com/cms-uploads/021fefec-c66d-4383-b706-ecf9f9167fbc.avif)
+![image creative 196x348: Recraft 4.1 generated image 6](media/021fefec-c66d-4383-b706-ecf9f9167fbc-a14399a7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/021fefec-c66d-4383-b706-ecf9f9167fbc.avif")
 Sloane
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 7](https://cdn-cms-uploads.picsart.com/cms-uploads/f63e9d2d-6cbb-4e2b-9970-beaa580e4f1c.avif)
+![image creative 196x348: Recraft 4.1 generated image 7](media/f63e9d2d-6cbb-4e2b-9970-beaa580e4f1c-aabb97ab.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f63e9d2d-6cbb-4e2b-9970-beaa580e4f1c.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 9](https://cdn-cms-uploads.picsart.com/cms-uploads/3496c786-cc36-4f1e-8854-e2ddc5cd1a10.avif)
+![image creative 196x348: Recraft 4.1 generated image 9](media/3496c786-cc36-4f1e-8854-e2ddc5cd1a10-f3b0ff72.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3496c786-cc36-4f1e-8854-e2ddc5cd1a10.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 10](https://cdn-cms-uploads.picsart.com/cms-uploads/89d7f034-bd95-474a-a2c4-760c8acf631e.avif)
+![image creative 196x348: Recraft 4.1 generated image 10](media/89d7f034-bd95-474a-a2c4-760c8acf631e-d38e0818.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/89d7f034-bd95-474a-a2c4-760c8acf631e.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
-![image creative 196x348: Recraft 4.1 generated image 11](https://cdn-cms-uploads.picsart.com/cms-uploads/127e1660-e59d-45a5-820d-bd9774213978.avif)
+![image creative 196x348: Recraft 4.1 generated image 11](media/127e1660-e59d-45a5-820d-bd9774213978-99652b76.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/127e1660-e59d-45a5-820d-bd9774213978.avif")
 [Generate](https://picsart.com/ai-playground/?model=recraftv4_1)
 
 ## S04 feature-callout
 
 ### What is Recraft V4.1?
 Recraft V4.1 is the next-generation release in the Recraft V4 family — a design-first AI image model built by the team behind CatBoost, one of the most widely used machine learning libraries in the world. V4.1 carries V4's design aesthetic and pushes it further: more natural photorealism, dreamier gradients, sharper object understanding, smoother 3D rendering, and cleaner icons and vectors by default. The result is an image model with real design sensibility — one that reads short prompts well and turns intent into polished output. Available in Picsart through the AI Image Generator and the AI Playground.
-![image creative 480x480: Recraft 4.1 AI video generation model](https://cdn-cms-uploads.picsart.com/cms-uploads/c579f32a-5351-4aed-8e35-cf2a26b52f14.avif)
+![image creative 480x480: Recraft 4.1 AI video generation model](media/c579f32a-5351-4aed-8e35-cf2a26b52f14-6182e5df.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c579f32a-5351-4aed-8e35-cf2a26b52f14.avif")
 
 ## S05 feature-callout
 
 ### From short prompts to polished pixels
 V4.1 is more expressive than V4 — bringing its own point of view to every prompt, experimenting with light, mood, and composition. Type fewer words, get more intentional output. The model is tuned to read what you mean, not just what you wrote, which makes it ideal for fast concepting, editorial visuals, and final creative deliverables.
-![image creative 480x480: Recraft 4.1 AI video generation ai model](https://cdn-cms-uploads.picsart.com/cms-uploads/3efe7c6f-3873-4f63-912b-e47dad5b9dd1.avif)
+![image creative 480x480: Recraft 4.1 AI video generation ai model](media/3efe7c6f-3873-4f63-912b-e47dad5b9dd1-e6612245.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3efe7c6f-3873-4f63-912b-e47dad5b9dd1.avif")
 
 ## S06 use-case-grid
 
@@ -63,37 +63,37 @@ V4.1 is more expressive than V4 — bringing its own point of view to every prom
 [button: Logos, icons & vectors]
 [button: Illustration & 3D-style art]
 Recraft V4.1 sharpens photorealism with cleaner light, smoother gradients, and better object understanding. Ideal for product shots, editorial photography, and lifestyle imagery.
-![image creative 879x418: Recraft 4.1 for Photoreal scenes & products](https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif)
+![image creative 879x418: Recraft 4.1 for Photoreal scenes & products](media/f2fb27ec-09e1-4074-a845-29995c9d59d7-87b05e9a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif")
 
 ## S07 feature-callout
 
 ### Four variants for every creative job
 Recraft V4.1 ships as a family. V4.1 is the main expressive raster model — most flexible, best for exploration. V4.1 Pro is the high-resolution variant, built for premium creative output and larger final assets. V4.1 Vector handles logos, typography, and illustrations where the line matters. V4.1 Utility is the controlled-output model for production work — flatter lighting, front-facing composition, and predictable results when consistency beats art direction. All four are available in Picsart.
-![image creative 480x480: recraft 4.1 realistic image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/4eeca13c-c557-4579-ba17-e4cfd90a76ec.avif)
+![image creative 480x480: recraft 4.1 realistic image generation](media/4eeca13c-c557-4579-ba17-e4cfd90a76ec-a81fb75e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4eeca13c-c557-4579-ba17-e4cfd90a76ec.avif")
 
 ## S08 feature-callout
 
 ### How Recraft V4.1 works in Picsart
 Open the AI Playground and choose Recraft V4.1 from the model picker — write a short prompt and generate. Or pick other models like Flux , Nano Banana , Imagen , and Ideogram on the same prompt. The AI Image Generato r is your fast everyday path; the AI Playground is where you decide which model wins for each project.
-![image creative 480x480: Recraft 4.1 image model](https://cdn-cms-uploads.picsart.com/cms-uploads/859caf7c-1ad2-44f7-9cfe-e24924552d79.avif)
+![image creative 480x480: Recraft 4.1 image model](media/859caf7c-1ad2-44f7-9cfe-e24924552d79-c7da0428.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/859caf7c-1ad2-44f7-9cfe-e24924552d79.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -143,11 +143,11 @@ Recraft V4.1 is the next-generation release in the Recraft V4 image-model family
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
-![image thumbnail 342x282: Sora AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Sora AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model A generative AI model built for video creation and visual storytelling.
 
 ## S13 pricing

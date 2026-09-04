@@ -8,7 +8,7 @@ PREMIUM STYLE-CONSISTENT VECTORS
 ## Recraft V4 Styles Pro Vector: lock your look, generate scalable SVG vectors
 Premium, style-consistent SVG vector generation. Recraft V4 Styles Pro Vector is the Pro-tier, style-reference vector model in the Recraft V4 family - feed it up to five reference images from any source and it locks onto that exact style (palette, shapes, linework, and composition), then generates clean, infinitely scalable SVG vectors to match. Perfect for logos, icons, and illustrations that stay razor-sharp at any size. Now in Picsart's AI Playground.
 Start generating
-![image creative 480x480: Recraft V4 Styles Pro Vector SVG vector generation](https://pcdn.picsart.com/cms-uploads/86f73fc9-6ff2-49a9-adf7-e74b44a246c1.avif)
+![image creative 480x480: Recraft V4 Styles Pro Vector SVG vector generation](media/86f73fc9-6ff2-49a9-adf7-e74b44a246c1-9a2e8d3a.avif "https://pcdn.picsart.com/cms-uploads/86f73fc9-6ff2-49a9-adf7-e74b44a246c1.avif")
 
 ## S02 interactive-demo
 
@@ -19,42 +19,42 @@ Start generating
 ## S03 gallery
 
 ### Vectors created with Recraft V4 Styles Pro Vector
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/06daf4fe-953c-459c-942f-1ac5cfcfb146.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/318a6f41-e32a-4250-8545-ff60adfe2318.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/48914862-3a44-46ad-96d2-47a885fdd4a7.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/c73ec25a-c0a6-4a4e-8ba7-c6d0a55b8eaf.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/25604192-10ad-467a-8773-b2e4e4d2512b.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/57ac45a7-8b7f-4ddd-87a0-feb3ecf23712.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample](https://pcdn.picsart.com/cms-uploads/2c86ecb6-ab1b-4589-bcd5-7fbd05ed2b5d.avif)
-![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](https://pcdn.picsart.com/cms-uploads/f102931f-a3fd-451c-9216-f3b1fc0bde13.avif)
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/06daf4fe-953c-459c-942f-1ac5cfcfb146-67814598.avif "https://pcdn.picsart.com/cms-uploads/06daf4fe-953c-459c-942f-1ac5cfcfb146.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/318a6f41-e32a-4250-8545-ff60adfe2318-f9184d2e.avif "https://pcdn.picsart.com/cms-uploads/318a6f41-e32a-4250-8545-ff60adfe2318.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/48914862-3a44-46ad-96d2-47a885fdd4a7-dc464956.avif "https://pcdn.picsart.com/cms-uploads/48914862-3a44-46ad-96d2-47a885fdd4a7.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/c73ec25a-c0a6-4a4e-8ba7-c6d0a55b8eaf-30f5be35.avif "https://pcdn.picsart.com/cms-uploads/c73ec25a-c0a6-4a4e-8ba7-c6d0a55b8eaf.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/25604192-10ad-467a-8773-b2e4e4d2512b-77a88310.avif "https://pcdn.picsart.com/cms-uploads/25604192-10ad-467a-8773-b2e4e4d2512b.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/57ac45a7-8b7f-4ddd-87a0-feb3ecf23712-c6728dcd.avif "https://pcdn.picsart.com/cms-uploads/57ac45a7-8b7f-4ddd-87a0-feb3ecf23712.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample](media/2c86ecb6-ab1b-4589-bcd5-7fbd05ed2b5d-4b30c822.avif "https://pcdn.picsart.com/cms-uploads/2c86ecb6-ab1b-4589-bcd5-7fbd05ed2b5d.avif")
+![image creative 196x348: Recraft V4 Styles Pro Vector sample (placeholder)](media/f102931f-a3fd-451c-9216-f3b1fc0bde13-cb4d0c45.avif "https://pcdn.picsart.com/cms-uploads/f102931f-a3fd-451c-9216-f3b1fc0bde13.avif")
 
 ## S04 feature-callout
 
 SCALABLE BY DESIGN
 ### Lock a style, generate infinitely scalable vectors
 Recraft V4 Styles Pro Vector is the premium, style-reference vector model in the Recraft V4 family, built by the team behind CatBoost. Instead of describing a look in words, upload one to five reference images - and they can come from anywhere, not just Recraft - and the model captures the palette, shapes, linework, and composition they share, then renders it as clean SVG vector output. No training or fine-tuning: attach references and generate. Because the result is true vector art (not pixels), every logo, icon, and illustration scales from a favicon to a billboard without ever losing an edge. Need premium raster instead? Switch to Recraft V4 Styles Pro .
-![image creative 480x480: What is Recraft V4 Styles Pro Vector](https://pcdn.picsart.com/cms-uploads/2277ef85-3705-451e-836f-6320fd6f23eb.avif)
+![image creative 480x480: What is Recraft V4 Styles Pro Vector](media/2277ef85-3705-451e-836f-6320fd6f23eb-e3eeec2d.avif "https://pcdn.picsart.com/cms-uploads/2277ef85-3705-451e-836f-6320fd6f23eb.avif")
 
 ## S05 feature-callout
 
 STYLE-LOCKED VECTORS
 ### Editable SVGs that stay perfectly on-style
 Give Recraft V4 Styles Pro Vector up to five style references and choose how closely to follow them - Precise locks onto the reference meticulously, while Flexible matches the overall vibe. It extracts the palette, linework, shapes, and compositional language they share, then generates matching SVG vectors, and the Pro tier keeps paths clean for complex marks. Produce up to six on-style variations at once and export across a full range of aspect ratios - from square 1:1 to wide 16:9 and tall 9:16 - as resolution-independent vectors you can drop straight into any design tool and edit path by path.
-![image creative 480x480: Recraft V4 Styles Pro Vector capabilities](https://pcdn.picsart.com/cms-uploads/932bc074-e1fc-4abe-9a39-0a6c7507d35c.avif)
+![image creative 480x480: Recraft V4 Styles Pro Vector capabilities](media/932bc074-e1fc-4abe-9a39-0a6c7507d35c-9e841ad9.avif "https://pcdn.picsart.com/cms-uploads/932bc074-e1fc-4abe-9a39-0a6c7507d35c.avif")
 
 ## S06 feature-callout
 
 ONE STYLE, EVERY FORMAT
 ### On-style vectors, wherever you design
 Inside Picsart, Recraft V4 Styles Pro Vector runs in the AI Playground , where you drop in your style references, add a prompt, and generate on-style SVG vectors in one place. And you can reach it whichever way you work: on the web, in the desktop app, or built straight into your own projects via CLI, MCP, REST API, and SDK - with no third-party API keys or separate subscriptions to manage. Explore the rest of the family, from Recraft V4 Styles to Recraft V4 .
-![image ui-screenshot 480x480: How Recraft V4 Styles Pro Vector works in Picsart](https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif)
+![image ui-screenshot 480x480: How Recraft V4 Styles Pro Vector works in Picsart](media/3d65a628-c41d-4d5d-813c-0c7b2c8820dc-7d7a935a.avif "https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif")
 
 ## S07 feature-callout
 
 91.6% PREFERRED
 ### Preferred for style match, 91.6% of the time
 In blind testing judged by external evaluators across 159 real-world styles, Recraft V4 Styles' Precise mode was preferred over seven leading models - GPT Image 2 High, Nano Banana Pro, Seedream 5.0 Pro, Flux 2 Max, Nano Banana 2, Midjourney, and Krea 2 Large - winning 91.6% of head-to-head matchups (tested August 14, 2026). Recraft V4 Styles Pro Vector delivers that style accuracy as clean, editable SVGs - references from anywhere, no training required - so a whole brand system stays visually coherent as scalable vector files, not one-off raster exports.
-![image creative 480x480: Why creators choose Recraft V4 Styles Pro Vector](https://pcdn.picsart.com/cms-uploads/a3502ec3-cfed-45f4-8f3d-6ae643df6603.avif)
+![image creative 480x480: Why creators choose Recraft V4 Styles Pro Vector](media/a3502ec3-cfed-45f4-8f3d-6ae643df6603-5bd256e8.avif "https://pcdn.picsart.com/cms-uploads/a3502ec3-cfed-45f4-8f3d-6ae643df6603.avif")
 
 ## S08 use-case-grid
 
@@ -63,25 +63,25 @@ What you can create with Recraft V4 Styles Pro Vector
 [button: Build matching icon sets]
 [button: Create print-ready vector art]
 Lock a single visual style and generate crisp SVG logos and brand marks that scale cleanly from app icon to storefront signage.
-![image decorative 879x418: Recraft V4 Styles Pro Vector logo and brand mark design](https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif)
+![image decorative 879x418: Recraft V4 Styles Pro Vector logo and brand mark design](media/4494bd31-94da-4f87-8f02-c8dd0c468d59-d70d1690.avif "https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -131,19 +131,19 @@ Recraft V4 Styles Pro Vector is the premium, style-reference vector model in the
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Recraft V4 Styles Pro AI Model](https://pcdn.picsart.com/cms-uploads/8388005a-df5e-4964-9e15-286757219ef1.webp)
+![image thumbnail 342x282: Recraft V4 Styles Pro AI Model](media/8388005a-df5e-4964-9e15-286757219ef1-50eb376a.webp "https://pcdn.picsart.com/cms-uploads/8388005a-df5e-4964-9e15-286757219ef1.webp")
 Recraft V4 Styles Pro Premium style-consistent raster images with pro-grade detail.
-![image thumbnail 342x282: Recraft V4 Styles AI Model](https://pcdn.picsart.com/cms-uploads/408e7006-9b72-4c2c-960f-6d2df875555e.webp)
+![image thumbnail 342x282: Recraft V4 Styles AI Model](media/408e7006-9b72-4c2c-960f-6d2df875555e-ff97b653.webp "https://pcdn.picsart.com/cms-uploads/408e7006-9b72-4c2c-960f-6d2df875555e.webp")
 Recraft V4 Styles Style-consistent image generation from your reference images.
-![image thumbnail 342x282: Recraft V4 AI Model](https://pcdn.picsart.com/cms-uploads/c88d7a70-d98d-4775-98fd-ab9f56ed80b3.webp)
+![image thumbnail 342x282: Recraft V4 AI Model](media/c88d7a70-d98d-4775-98fd-ab9f56ed80b3-8ea61631.webp "https://pcdn.picsart.com/cms-uploads/c88d7a70-d98d-4775-98fd-ab9f56ed80b3.webp")
 Recraft V4 Design-quality AI image generation with editable SVG vector output.
-![image thumbnail 342x282: Recraft V4 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp)
+![image thumbnail 342x282: Recraft V4 Pro AI Model](media/fdf44d95-a1c2-42ef-ab13-45b5195f5aec-62f4bdb4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp")
 Recraft V4 Pro Pro-tier Recraft V4 with sharper detail for demanding design work.
-![image thumbnail 342x282: Recraft V4.1 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp)
+![image thumbnail 342x282: Recraft V4.1 AI Model](media/4167925f-59ee-462f-a212-453f8fa8436a-4aba3e4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp")
 Recraft V4.1 Next-generation Recraft raster output with refined detail.
-![image thumbnail 342x282: Recraft V3 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif)
+![image thumbnail 342x282: Recraft V3 AI Model](media/a89c4513-fb96-4a23-97ef-f3230d64d89f-b401e969.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif")
 Recraft V3 SVG vector, illustration, and photo styles with readable in-image text.
-![image thumbnail 342x282: Recraft Explore AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp)
+![image thumbnail 342x282: Recraft Explore AI Model](media/fac139f1-0aae-4888-99f2-8fdf603c8900-7568b314.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp")
 Recraft Explore Explore multiple creative image directions from a single prompt.
 
 ## S13 pricing

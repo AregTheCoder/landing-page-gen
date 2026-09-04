@@ -7,7 +7,7 @@
 ## AI content generator: Quick and easy content creation
 From social media captions to quotes, it has never been easier to streamline your creative process. Use the Picsart free AI content generator for all of your content creation needs. Try now with limited free generations.
 Try AI content generator
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/05d04dc5-5ee2-4381-ae34-2f7632b482b3.webm)
+![video creative 480x480: ](media/05d04dc5-5ee2-4381-ae34-2f7632b482b3-ba77a585.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/05d04dc5-5ee2-4381-ae34-2f7632b482b3.webm")
 
 ## S02 how-it-works
 
@@ -23,31 +23,31 @@ Open the AI content generating tool by clicking the button in the banner at the 
 #### Add to canvas
 5
 #### Download it
-![image creative 480x602: how to generate content with ai](https://pastatic.picsart.com/cms-pastatic/439ccff6-304b-46f3-9765-704aaba568e2.png)
+![image creative 480x602: how to generate content with ai](media/439ccff6-304b-46f3-9765-704aaba568e2-0256c81a.png "https://pastatic.picsart.com/cms-pastatic/439ccff6-304b-46f3-9765-704aaba568e2.png")
 
 ## S03 feature-callout
 
 ### Instantly generate unique content with AI
 If you’re looking to save time on content creation, look no further than artificial intelligence. Whether you want to generate quotes for your next social media post or generate captions for your next marketing campaign, the Picsart AI Content Generator is a powerful tool that can help you expedite the creative process with fresh ideas and content. Our AI tool uses machine learning algorithms to generate unique text based on your prompts, so you can instantly generate human-like text for any of your content needs.
 Try AI content generator
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8988a91f-b7fa-4fa5-8347-b22ab21e4a9d.webm)
+![video creative 480x480: ](media/8988a91f-b7fa-4fa5-8347-b22ab21e4a9d-3f068753.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/8988a91f-b7fa-4fa5-8347-b22ab21e4a9d.webm")
 
 ## S04 feature-callout
 
 ### Save time with AI content creation
 With a free AI content generator at your side, you can say goodbye to starting from scratch with effortless content creation. Our innovative AI tool can generate paragraphs on any topic based on your input prompt. Simply type a few words about your caption, quote, or paragraph — and let AI work its magic. When you’re finished generating text, easily add your new content to an image or blank canvas. Need some extra inspiration? Check out our AI Backgrounds for a truly unique design, or upload your photo to AI Enhance to improve the quality before editing.
 Try AI content generator
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0672af7c-151c-45b2-b1d4-8cc4b1d90d04.webm)
+![video creative 480x480: ](media/0672af7c-151c-45b2-b1d4-8cc4b1d90d04-f29bbeb1.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0672af7c-151c-45b2-b1d4-8cc4b1d90d04.webm")
 
 ## S05 link-grid
 
 ### Everything you can create with AI content generation
 The AI content creator can handle it all. Whether you need content that’s very long or very short or anything in between, you can easily rely on AI to put together a compelling copy for you.
-![image thumbnail 342x282: Caption generator](https://pastatic.picsart.com/cms-pastatic/a7d76f90-5d5c-4f88-a1b2-1e1bc968730e.png)
+![image thumbnail 342x282: Caption generator](media/a7d76f90-5d5c-4f88-a1b2-1e1bc968730e-ed6e2b3e.png "https://pastatic.picsart.com/cms-pastatic/a7d76f90-5d5c-4f88-a1b2-1e1bc968730e.png")
 Caption Generator Quickly and effortlessly craft the perfect caption to go along with social media posts of any kind and occasion.
-![image thumbnail 342x282: quote generator](https://pastatic.picsart.com/cms-pastatic/0cda6c41-8faf-4d4a-b12d-cda79108ce61.png)
+![image thumbnail 342x282: quote generator](media/0cda6c41-8faf-4d4a-b12d-cda79108ce61-c559f7b2.png "https://pastatic.picsart.com/cms-pastatic/0cda6c41-8faf-4d4a-b12d-cda79108ce61.png")
 Quote Generator Get inspired to inspire with AI-generated motivational quotes and affirmations for social media, vision boards, and more.
-![image thumbnail 342x282: sentence generator](https://pastatic.picsart.com/cms-pastatic/4336ce66-4f4c-4673-b181-86486dd441a0.png)
+![image thumbnail 342x282: sentence generator](media/4336ce66-4f4c-4673-b181-86486dd441a0-5ab0e6b8.png "https://pastatic.picsart.com/cms-pastatic/4336ce66-4f4c-4673-b181-86486dd441a0.png")
 Sentence Generator Populate your visual content with meaningful sentence-long content. Perfect for when you need short content for visuals, stories, etc.
 Start now
 
@@ -56,14 +56,14 @@ Start now
 ### Leverage AI content generation to promote your brand
 We know that creating marketing materials can feel daunting, so we’re here to help. Whether you’re crafting t-shirt designs, creating an Etsy banner for your business, or an ad copy for your next campaign, Picart’s content generator AI tool can generate sentences on marketing topics in just a few minutes. For extra inspiration, tap into the AI Image Generator to tell your brand’s story with efficient content creation and stunning visuals.
 Try AI content generator
-![image creative 480x480: generate content for marketing materials](https://pastatic.picsart.com/cms-pastatic/548dbd95-9988-44ab-83ee-aaed49a5a712.png)
+![image creative 480x480: generate content for marketing materials](media/548dbd95-9988-44ab-83ee-aaed49a5a712-d02349a1.png "https://pastatic.picsart.com/cms-pastatic/548dbd95-9988-44ab-83ee-aaed49a5a712.png")
 
 ## S07 feature-callout
 
 ### The best AI content generator for creativity
 Want to push your creative boundaries? From scroll-stopping Instagram captions to engaging paragraphs and quotes, Picsart’s content creator AI tool can transform your creative process with one-of-a-kind content. When you’re done generating text and uploading your visual, you can fine-tune your design with AI photo editing . The creative possibilities are endless!
 Try AI content generator
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1bd451b2-ab20-449f-b5e1-ce95ab2d5882.webm)
+![video creative 480x480: ](media/1bd451b2-ab20-449f-b5e1-ce95ab2d5882-2979edae.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1bd451b2-ab20-449f-b5e1-ce95ab2d5882.webm")
 
 ## S08 faq
 
@@ -83,17 +83,17 @@ You can try the Picsart AI Content Generator with a limited amount of free gener
 
 ### Discover more AI tools
 See how AI tools can be your creative assistant and help you turn concepts into completed projects.
-![image thumbnail 342x282: ai image enhancer](https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png)
+![image thumbnail 342x282: ai image enhancer](media/3d6dc29e-f572-4926-8c78-29199699ddb8-d31813ff.png "https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png")
 AI Enhance Automatically enhance your image with just one click. This AI-assisted tool improves multiple aspects in one fell swoop for effortless editing.
-![image thumbnail 342x282: AI avatar generator tool](https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png)
+![image thumbnail 342x282: AI avatar generator tool](media/e406abf2-c475-4919-be1e-c57be0648628-9d9d3ef5.png "https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png")
 AI Avatar Ever picture yourself as a mythical creature or a character from a graphic novel? Create your digital AI avatars and wonder no more.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/bf789f0d-1ba7-489e-94b0-029b56ba2e8a-5207dc4d.png "https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png")
 AI Replace Replace any object with something else, all from a simple text description. Turn a chair into an elephant? Poof. (We almost called it AI Genie.)
-![image thumbnail 342x282: AI background tool](https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png)
+![image thumbnail 342x282: AI background tool](media/133128a4-a158-4d07-ad54-806b6da0f832-0a286a9f.png "https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png")
 AI Background Swap out the background of any image with anything else you can conjure up. Expensive products shoots just became obsolete.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png)
+![image thumbnail 342x282: ai photo editor](media/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4-f224ac10.png "https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png")
 AI photo editing tools The all-in-one Picsart photo editor boasts a full suite of AI tools that make the photo editing and image creation experience fast and seamless.
-![image thumbnail 342x282: Picsart text to image generator](https://pastatic.picsart.com/cms-pastatic/034a35d6-8cba-4b65-9fc2-79455f40aa8a.png)
+![image thumbnail 342x282: Picsart text to image generator](media/034a35d6-8cba-4b65-9fc2-79455f40aa8a-32508a70.png "https://pastatic.picsart.com/cms-pastatic/034a35d6-8cba-4b65-9fc2-79455f40aa8a.png")
 AI Image Generator Transform words into an image in a second with the Picsart AI Image Generator.
 Start editing
 
@@ -116,10 +116,10 @@ Need to add the finishing touches to your design? When you’re finished generat
 ## S11 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S12 pricing
 

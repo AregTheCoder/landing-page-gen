@@ -7,7 +7,7 @@
 ## Gemini 2.5 Flash AI model for next-gen visual content
 The Gemini 2.5 Flash AI model is a generative AI model built for fast, high-quality visual creation. In Picsart, it powers image generation tools that help creators generate, enhance, and transform visuals with less effort and more creative control.
 Start generating
-![image creative 480x480: Nano banana AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image creative 480x480: Nano banana AI model](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 
 ## S02 interactive-demo
 
@@ -17,19 +17,19 @@ Start generating
 ## S03 gallery
 
 ### Images created with Gemini 2.5 Flash
-![image creative 276x276: Gemini 2.5 Flash generated image - Portrait photography](https://cdn-cms-uploads.picsart.com/cms-uploads/5574c147-8ebf-46aa-8283-f2df1ed29910.avif)
+![image creative 276x276: Gemini 2.5 Flash generated image - Portrait photography](media/5574c147-8ebf-46aa-8283-f2df1ed29910-cba467df.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5574c147-8ebf-46aa-8283-f2df1ed29910.avif")
 [Create](https://picsart.com/ai-playground/?model=gemini-2.5-flash-image)
 Portrait photography
-![image creative 276x276: Gemini 2.5 Flash generated image - Kaiseki food photography](https://cdn-cms-uploads.picsart.com/cms-uploads/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41.avif)
+![image creative 276x276: Gemini 2.5 Flash generated image - Kaiseki food photography](media/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41-a6bfc0ff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41.avif")
 [Create](https://picsart.com/ai-playground/?model=gemini-2.5-flash-image)
 Kaiseki food photography
-![image creative 276x276: Gemini 2.5 Flash generated image - Architectural interiors](https://cdn-cms-uploads.picsart.com/cms-uploads/999164f6-eab3-4d65-ad47-f7ac26b2f3a1.avif)
+![image creative 276x276: Gemini 2.5 Flash generated image - Architectural interiors](media/999164f6-eab3-4d65-ad47-f7ac26b2f3a1-ffe9136e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/999164f6-eab3-4d65-ad47-f7ac26b2f3a1.avif")
 [Create](https://picsart.com/ai-playground/?model=gemini-2.5-flash-image)
 Architectural interiors
-![image creative 276x276: Gemini 2.5 Flash generated image - 3D typography poster](https://cdn-cms-uploads.picsart.com/cms-uploads/8f85f2a2-9e22-496c-babb-7410de0f76fa.avif)
+![image creative 276x276: Gemini 2.5 Flash generated image - 3D typography poster](media/8f85f2a2-9e22-496c-babb-7410de0f76fa-25d86c99.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8f85f2a2-9e22-496c-babb-7410de0f76fa.avif")
 [Create](https://picsart.com/ai-playground/?model=gemini-2.5-flash-image)
 3D typography poster
-![image creative 276x276: Gemini 2.5 Flash generated image - Elderly portrait](https://cdn-cms-uploads.picsart.com/cms-uploads/5c872d10-5d75-4919-8069-f873eb2850b5.avif)
+![image creative 276x276: Gemini 2.5 Flash generated image - Elderly portrait](media/5c872d10-5d75-4919-8069-f873eb2850b5-4681ae7c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5c872d10-5d75-4919-8069-f873eb2850b5.avif")
 [Create](https://picsart.com/ai-playground/?model=gemini-2.5-flash-image)
 Elderly portrait
 
@@ -37,7 +37,7 @@ Elderly portrait
 
 ### What is Gemini 2.5 Flash?
 Gemini 2.5 Flash is a modern AI model built for visual content generation and enhancement. It helps create, refine, and transform images quickly, focusing on creative flexibility and output quality. In Picsart, Gemini 2.5 Flash supports intuitive tools that make advanced visual creation simple and accessible for everyone. Gemini 2.5 Flash Image is widely known by its community nickname, Nano Banana — both refer to the same Google model.
-![image creative 480x480: Gemini 2.5 Flash Model](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Gemini 2.5 Flash Model](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S05 use-case-grid
 
@@ -47,43 +47,43 @@ How does Gemini 2.5 Flash support visual creation
 [button: Edit images]
 [button: Experiment with creative styles]
 Create high-quality visuals from ideas in seconds, making image creation faster and more flexible.
-![image creative 879x418: Gemini 2.5 Flash for Image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Gemini 2.5 Flash for Image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Gemini 2.5 Flash
 Gemini 2.5 Flash — also known as Nano Banana — is integrated into Picsart’s AI Image Generator and AI Playground , where it powers fast, high-quality image creation directly inside the platform. Users don’t need to interact with the model itself — Picsart’s tools handle the integration, helping creators work faster, produce sharper visuals, and explore ideas with greater creative flexibility.
-![image creative 480x480: nano banana for image enhancement](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: nano banana for image enhancement](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Gemini 2.5 Flash
 Gemini 2.5 Flash helps creators move from idea to output faster while reducing manual effort. It supports high-quality visual results without complex workflows, making image creation more efficient. By working behind the scenes, Gemini 2.5 Flash keeps advanced visual creation accessible to non-technical users who want professional-looking results.
-![image creative 480x480: nano banana for creative tools](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: nano banana for creative tools](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S08 feature-callout
 
 ### Gemini 2.5 Flash inside the Picsart ecosystem
 Gemini 2.5 Flash is one of several AI models that power Picsart’s creative ecosystem. It works alongside other advanced models — including its higher-tier sibling, Nano Banana Pro — to support image creation across the platform. This multi-model approach helps ensure reliable performance, creative flexibility, and consistently high-quality results for a wide range of creative needs.
-![image creative 480x480: Nano banana inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Nano banana inside the Picsart ecosystem](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -132,15 +132,15 @@ The Gemini 2.5 Flash AI model is a generative AI model focused on visual content
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: ai video generation](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Kling A cutting-edge generative video model focused on producing detailed, physically consistent videos from text and image prompts.
-![image thumbnail 342x282: ai generation](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: ai generation](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora Sora helps creators produce video content more efficiently while lowering traditional production barriers.
-![image thumbnail 342x282: AI model Nano Banana Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image thumbnail 342x282: AI model Nano Banana Pro](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 Nano Banana Pro Google’s higher-tier image generation model (Gemini 3 Pro Image) for premium-quality visual creation.
-![image thumbnail 342x282: AI model Nano Banana 2](https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp)
+![image thumbnail 342x282: AI model Nano Banana 2](media/548b38f1-6008-4354-9972-f18276ecf4a7-e7a29cc2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp")
 Nano Banana 2 The next-generation image model from Google built for sharper visuals and smarter edits.
 
 ## S13 pricing

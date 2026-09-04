@@ -8,7 +8,7 @@ AI IMAGE MODELS COMPARISON
 ## Compare Recraft V4 vs Midjourney V7 for AI image generation
 Recraft V4 and Midjourney V7 represent two distinct approaches to AI image generation. Recraft focuses on design precision, typography, and vector output, while Midjourney is known for artistic quality and creative expression. This Recraft V4 vs Midjourney comparison helps you choose the right model for your workflow.
 Try Recraft V4
-![image creative 480x480: Recraft V4 vs Midjourney V7 AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/42c2618b-d6b7-496c-973a-5da761fa9fb9.avif)
+![image creative 480x480: Recraft V4 vs Midjourney V7 AI image generation comparison](media/42c2618b-d6b7-496c-973a-5da761fa9fb9-1bbee35a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/42c2618b-d6b7-496c-973a-5da761fa9fb9.avif")
 
 ## S02 interactive-demo
 
@@ -69,31 +69,31 @@ Artistic visuals, concept art
 
 ### Break down Recraft V4 vs Midjourney models
 Recraft V4 focuses on design workflows. It produces structured layouts, accurate typography, and scalable vector graphics, making it ideal for brand assets and production-ready visuals. Midjourney V7 focuses on artistic output. It generates visually rich, stylized images with strong aesthetics, making it a popular choice for creative exploration and concept-driven work.
-![image creative 480x480: Recraft V4 vs Midjourney V7 AI image model overview](https://cdn-cms-uploads.picsart.com/cms-uploads/94af3bb1-e27f-4c63-a8de-c78698b69ee7.avif)
+![image creative 480x480: Recraft V4 vs Midjourney V7 AI image model overview](media/94af3bb1-e27f-4c63-a8de-c78698b69ee7-ac41af53.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/94af3bb1-e27f-4c63-a8de-c78698b69ee7.avif")
 
 ## S05 feature-callout
 
 ### Explore image quality: design precision vs artistic output
 The difference comes down to purpose. Recraft V4 treats text and layout as part of the composition, producing clean, balanced designs with accurate typography. Midjourney V7 emphasizes visual depth, generating more expressive images with rich textures and atmospheric lighting. Choose based on whether you need structure or style.
-![image creative 480x480: Recraft V4 vs Midjourney design precision and artistic output](https://cdn-cms-uploads.picsart.com/cms-uploads/0d6a2599-7bd5-442e-9cce-fb7c79898327.avif)
+![image creative 480x480: Recraft V4 vs Midjourney design precision and artistic output](media/0d6a2599-7bd5-442e-9cce-fb7c79898327-33a20d75.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0d6a2599-7bd5-442e-9cce-fb7c79898327.avif")
 
 ## S06 feature-callout
 
 ### Discover creative tools and workflow
 Creative workflows differ significantly. Recraft V4 offers tools built for production, including SVG output, multi-format export, and structured generation. Midjourney focuses on exploration, with personalization, style references, and remix tools that help refine visual direction. Recraft is built for design systems, while Midjourney supports creative experimentation.
-![image creative 480x480: Recraft V4 vs Midjourney creative tools and workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/64290735-7c14-448b-a076-c43c707ff070.avif)
+![image creative 480x480: Recraft V4 vs Midjourney creative tools and workflow](media/64290735-7c14-448b-a076-c43c707ff070-52931772.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/64290735-7c14-448b-a076-c43c707ff070.avif")
 
 ## S07 feature-callout
 
 ### Review speed, pricing, and access
 Speed is comparable overall, though Midjourney's Draft Mode enables faster iteration. Recraft includes a free tier and transparent API pricing, making it more flexible for teams and developers. Midjourney requires a subscription and operates within a closed ecosystem. Access depends on your workflow needs - open integration vs creative platform.
-![image creative 480x480: Recraft V4 vs Midjourney speed pricing and access](https://cdn-cms-uploads.picsart.com/cms-uploads/f5cb9116-d621-4b19-b12f-64e7a816f55a.avif)
+![image creative 480x480: Recraft V4 vs Midjourney speed pricing and access](media/f5cb9116-d621-4b19-b12f-64e7a816f55a-2e2dafd0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f5cb9116-d621-4b19-b12f-64e7a816f55a.avif")
 
 ## S08 feature-callout
 
 ### Try Recraft V4 and Midjourney in one place
 Switching between tools slows you down. With Picsart's AI Image Generator and AI Playground , you can access multiple image models in one place and test them using the same prompt. Compare results instantly, refine your ideas, and choose what works best for your project.
-![image creative 480x480: Try Recraft V4 and Midjourney in Picsart AI Playground](https://cdn-cms-uploads.picsart.com/cms-uploads/c2b972f4-ae2a-4849-84f3-bd735cdb0eae.avif)
+![image creative 480x480: Try Recraft V4 and Midjourney in Picsart AI Playground](media/c2b972f4-ae2a-4849-84f3-bd735cdb0eae-f9e1134e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c2b972f4-ae2a-4849-84f3-bd735cdb0eae.avif")
 
 ## S09 faq
 
@@ -111,7 +111,7 @@ It depends on your goal. Recraft V4 is better for design precision, typography, 
 ## S10 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp)
+![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](media/87d69495-9565-4aec-b716-f7c849e66b1b-54c4e794.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp")
 Flux 2 Pro vs Midjourney Compare Flux 2 Pro and Midjourney: speed, photorealism, control, and creative style.
 ![image thumbnail 342x38: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266824a5d.webp)
 GPT Image 1.5 vs Flux 2 Pro Compare GPT Image 1.5 and Flux 2 Pro: text rendering, photorealism, prompt adherence, and pricing.
@@ -125,7 +125,7 @@ Imagen 4.0 Ultra vs GPT Image 1.5 Compare Imagen 4.0 Ultra and GPT Image 1.5: ph
 Nano Banana 2 vs Flux 2 Pro Compare Nano Banana 2 and Flux 2 Pro: speed, prompt adherence, image quality, and creative control.
 ![image thumbnail 342x38: DALL-E 3 vs Midjourney AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/2adc1808-ac7d-4243-8b87-ebb39c93fbf4.webp)
 DALL-E 3 vs Midjourney Compare DALL-E 3 and Midjourney: text rendering, artistic style, control, and pricing.
-![image thumbnail 342x282: Recraft V4 vs Ideogram 3.0 Flash AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/287d248c-3dbd-4132-8dd8-138d9ce9e5e9.webp)
+![image thumbnail 342x282: Recraft V4 vs Ideogram 3.0 Flash AI image model comparison](media/287d248c-3dbd-4132-8dd8-138d9ce9e5e9-84b7115f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/287d248c-3dbd-4132-8dd8-138d9ce9e5e9.webp")
 Recraft V4 vs Ideogram 3.0 Flash Compare Recraft V4 and Ideogram 3.0 Flash: typography, SVG vectors, speed, and pricing.
 ![image thumbnail 342x282: Kling 3.0 vs Runway Gen 4 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e651685afb.webp)
 Kling 3.0 vs Runway Gen 4 Compare Kling 3.0 and Runway Gen 4: motion quality, camera control, and creative direction.

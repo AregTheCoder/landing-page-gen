@@ -63,18 +63,18 @@ Open the tool
 #### Open the AI Video Generator
 Use the button below to get started and access the AI video generator instantly.
 Start generating
-![image creative 579x579: Open the AI Video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif)
+![image creative 579x579: Open the AI Video Generator](media/afeaa6bf-84e5-412b-a78b-fc6caefbc92e-4daa4953.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif")
 
 ## S06 feature-callout
 
 ### Create scroll-stopping videos with AI in seconds
 Generate videos with AI in seconds using AI video maker — no camera, crew, or editing software needed. Turn a single sentence into a fully rendered video or transform images into dynamic clips with image-to-video and text-to-video tools. Create short loops, engaging clips, and social-ready content fast, all in one place.
 [Start generating](https://picsart.com/ai-playground/?mode=video)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c182c604-fad7-44de-bcc4-09a37006c4b3.webm)
+![video creative 539x539: ](media/c182c604-fad7-44de-bcc4-09a37006c4b3-8f1a1a03.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c182c604-fad7-44de-bcc4-09a37006c4b3.webm")
 
 ## S07 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/58579150-1ec7-4061-a477-6770068757e8.webm)
+![video creative 539x539: ](media/58579150-1ec7-4061-a477-6770068757e8-5d8d22b4.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/58579150-1ec7-4061-a477-6770068757e8.webm")
 ### Use AI Video Generator for creators, marketers, and brands
 Generate videos with an AI video maker designed for real-world use cases — from product demos and short-form social clips to ad creatives and brand storytelling. Create content for TikTok, Reels, and Shorts in minutes, tailored to your format and audience.
 [Try it free](https://picsart.com/ai-playground/?mode=video)
@@ -84,11 +84,11 @@ Generate videos with an AI video maker designed for real-world use cases — fro
 ### Get full creative control over your AI video
 Customize your AI video with simple controls for tone, pacing, visual style, duration, and transitions — no timeline needed. Use reference images, videos, or audio to guide the output, then refine your prompt and regenerate variations to explore different creative directions.
 [Customize your video](https://picsart.com/ai-playground/?mode=video)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2fe61339-4f18-44af-a28c-5a50a460c2d7.webm)
+![video creative 539x539: ](media/2fe61339-4f18-44af-a28c-5a50a460c2d7-a194c8dd.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2fe61339-4f18-44af-a28c-5a50a460c2d7.webm")
 
 ## S09 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1fb8788e-582d-40f8-841a-efd8091d1a3c.webm)
+![video creative 539x539: ](media/1fb8788e-582d-40f8-841a-efd8091d1a3c-d189fcf4.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1fb8788e-582d-40f8-841a-efd8091d1a3c.webm")
 ### Use the best AI video models in one place
 Generate videos using the best AI video models, each designed for a different creative need. Create photorealistic 4K videos with Veo 3.1, explore cinematic styles with Runway, or produce fast social content with Kling V3. Use Seedance for motion and dance generation, Pika for stylized frame control, and Luma for smooth, natural transitions — all in one platform.
 [Explore models](https://picsart.com/ai-playground/?mode=video)
@@ -104,7 +104,7 @@ Generate videos using the best AI video models, each designed for a different cr
 #### Social media
 Generate trending clips for TikTok, Reels, and Shorts in seconds with an AI Video Generator — no editing app needed.
 [Create social videos](https://picsart.com/ai-playground/?mode=video)
-![image creative 500x500: Social media](https://cdn-cms-uploads.picsart.com/cms-uploads/e531de78-41d6-481d-a043-d3d70044313e.avif)
+![image creative 500x500: Social media](media/e531de78-41d6-481d-a043-d3d70044313e-956e8285.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e531de78-41d6-481d-a043-d3d70044313e.avif")
 
 ## S11 feature-list
 
@@ -132,23 +132,23 @@ Guide video generation with reference inputs to achieve more precise and control
 
 ### Understand AI video generation
 Learn how prompts, clips, and model choices shape videos.
-![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif)
+![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](media/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0-b0ddfa5a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif")
 Video generation
 #### How to generate AI videos from text prompts with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif)
+![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](media/205ce18e-d085-4556-8358-9a07158ca516-38ed3e7d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif")
 Video generation
 #### How to turn photos into AI-animated videos with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif)
+![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](media/58f16ce3-24c0-45e7-9b50-45eb3041b956-420d5ca0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif")
 Video generation
 #### How to create vertical AI videos for TikTok and Reels
 4 min Beginner
-![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif)
+![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](media/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d-60ccae3d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif")
 Video generation
 #### How to add cinematic camera motion to images with AI
 4 min Intermediate
-![image thumbnail 294x196: How to extend video clips with AI continuation preview](https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif)
+![image thumbnail 294x196: How to extend video clips with AI continuation preview](media/70b9be0b-ef8b-409d-8955-5b6e6e97fee0-f6af9c63.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif")
 Video generation
 #### How to extend video clips with AI continuation
 4 min Advanced

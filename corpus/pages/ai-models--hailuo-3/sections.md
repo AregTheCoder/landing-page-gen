@@ -8,7 +8,7 @@ SOUND-ON AI VIDEO
 ## MiniMax H3: native 2K AI video with synchronized audio
 MiniMax H3 (also released as Hailuo 3) is MiniMax's latest video model, generating native 2K video with synchronized audio from a single prompt or image. It supports text- and image-to-video, omni-reference inputs, and multi-shot storytelling, so you can build production-ready scenes with sound in one pass. Available in Picsart's AI Playground and AI Video Generator.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/50d38386-1a62-4138-9474-1abc51d0fb51.webm)
+![video creative 480x480: ](media/50d38386-1a62-4138-9474-1abc51d0fb51-6461f1a2.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/50d38386-1a62-4138-9474-1abc51d0fb51.webm")
 
 ## S02 interactive-demo
 
@@ -24,27 +24,27 @@ Start generating
 ## S03 gallery
 
 ### Videos made with MiniMax H3
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e1468fd9-8ae7-4581-9575-5c3e710555d7.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c1358a62-ee60-4924-834f-82fa0fd97ef3.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cf44409e-918c-40cc-8c95-57733e93003d.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/31a28121-b5e5-4abb-8773-b80c1b8f55dd.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/5f3494c4-05e6-40c6-926d-35089850dc0c.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c3332bac-6922-4c7b-91c8-dd1ab3ae2ec5.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fbf487f9-58da-4a28-8aa6-14bce3088a55.avif)
+![image creative 196x348: ](media/e1468fd9-8ae7-4581-9575-5c3e710555d7-088e9ed8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e1468fd9-8ae7-4581-9575-5c3e710555d7.avif")
+![image creative 196x348: ](media/c1358a62-ee60-4924-834f-82fa0fd97ef3-41e1b283.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c1358a62-ee60-4924-834f-82fa0fd97ef3.avif")
+![image creative 196x348: ](media/cf44409e-918c-40cc-8c95-57733e93003d-2184ed5b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cf44409e-918c-40cc-8c95-57733e93003d.avif")
+![image creative 196x348: ](media/31a28121-b5e5-4abb-8773-b80c1b8f55dd-59f5e496.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/31a28121-b5e5-4abb-8773-b80c1b8f55dd.avif")
+![image creative 196x348: ](media/5f3494c4-05e6-40c6-926d-35089850dc0c-670837b0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5f3494c4-05e6-40c6-926d-35089850dc0c.avif")
+![image creative 196x348: ](media/c3332bac-6922-4c7b-91c8-dd1ab3ae2ec5-65bf5639.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c3332bac-6922-4c7b-91c8-dd1ab3ae2ec5.avif")
+![image creative 196x348: ](media/fbf487f9-58da-4a28-8aa6-14bce3088a55-e0c6fc47.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fbf487f9-58da-4a28-8aa6-14bce3088a55.avif")
 
 ## S04 feature-callout
 
 MEET MINIMAX H3
 ### What exactly is MiniMax H3?
 MiniMax H3, released as Hailuo 3, is the latest generation of MiniMax's video AI and its first with native audio. It's a natively multimodal model: generate from text or an image, guide it with reference images, video, and audio, and get 2K output with a synchronized soundtrack. Precise, instruction-based editing lets you refine a shot without starting over.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/81082e58-eac5-4e3b-86dd-09d5622e7c38.webm)
+![video creative 480x480: ](media/81082e58-eac5-4e3b-86dd-09d5622e7c38-6d72f1bb.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/81082e58-eac5-4e3b-86dd-09d5622e7c38.webm")
 
 ## S05 feature-callout
 
 NO POST-PRODUCTION NEEDED
 ### MiniMax H3 delivers 2K video with sound built in
 MiniMax H3 renders native 2K video at 24 fps - a first for the Hailuo line - and generates matching audio in the same pass. Dialogue, ambient sound, and effects line up with the action automatically, so a clip arrives finished rather than silent and waiting on post-production.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/555fd7e1-5d0e-4873-abca-eb76cdfc2f3b.webm)
+![video creative 480x480: ](media/555fd7e1-5d0e-4873-abca-eb76cdfc2f3b-9a04c225.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/555fd7e1-5d0e-4873-abca-eb76cdfc2f3b.webm")
 
 ## S06 use-case-grid
 
@@ -53,28 +53,28 @@ Bring any idea to life with MiniMax H3
 [button: Multi-shot storytelling]
 [button: Social and ad content with sound]
 Hailuo 3 turns a still image into video with natural motion — bring a portrait, product, or scene to life with image-to-video.
-![image creative 878x418: MiniMax H3 animate a photo image-to-video](https://cdn-cms-uploads.picsart.com/cms-uploads/768fcebb-55c2-42af-8651-f38269c57803.avif)
+![image creative 878x418: MiniMax H3 animate a photo image-to-video](media/768fcebb-55c2-42af-8651-f38269c57803-f5df69a2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/768fcebb-55c2-42af-8651-f38269c57803.avif")
 
 ## S07 feature-callout
 
 CONSISTENCY, LOCKED IN
 ### Keep every shot on-model with MiniMax H3 omni-reference
 MiniMax H3's omni-reference accepts up to 9 image, 3 video, and 3 audio inputs in a single generation - enough to lock a character, style, and voice across a multi-shot story. Instruction-based editing refines an existing shot, and clips run 5, 10, or 15 seconds, so scenes stay consistent from start to finish.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d91f3261-e765-47f2-98d8-fc4f3a7fdd5a.webm)
+![video creative 480x480: ](media/d91f3261-e765-47f2-98d8-fc4f3a7fdd5a-3d20201f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d91f3261-e765-47f2-98d8-fc4f3a7fdd5a.webm")
 
 ## S08 feature-callout
 
 ZERO SETUP
 ### Run MiniMax H3 right inside Picsart
 MiniMax H3 is available in Picsart's AI Playground and AI Video Generator , so you can generate with it directly and compare its output against 150+ other AI models from a single prompt - no setup or model configuration required. Just pick MiniMax H3 and start creating.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/25ceca51-d022-45b2-a32d-047bbf204ad8.webm)
+![video ui-screenshot 480x480: ](media/25ceca51-d022-45b2-a32d-047bbf204ad8-65c0b51c.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/25ceca51-d022-45b2-a32d-047bbf204ad8.webm")
 
 ## S09 feature-callout
 
 EVERYTHING IN ONE PASS
 ### MiniMax H3 packs every pro feature into one shot
 Creators reach for MiniMax H3 when a scene needs to arrive finished - 2K resolution, synchronized audio, and reference-guided consistency in one pass, instead of a silent clip that needs a soundtrack and cleanup. With text- and image-to-video, omni-reference control, and instruction editing, it covers everything from social clips to multi-shot stories, and inside Picsart it sits alongside 150+ models so you can pick the right one for every shot.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/44133646-3e99-4aa9-8cbc-eb51790a583a.webm)
+![video creative 480x480: ](media/44133646-3e99-4aa9-8cbc-eb51790a583a-1301f757.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/44133646-3e99-4aa9-8cbc-eb51790a583a.webm")
 
 ## S10 tutorial-grid
 
@@ -83,15 +83,15 @@ Learn how to compare video models and choose an output.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -142,23 +142,23 @@ MiniMax H3 (released as Hailuo 3) is MiniMax's latest AI video model. It generat
 ## S13 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video with advanced motion control and realism.
-![image thumbnail 342x282: Veo 3.1 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: Veo 3.1 AI Model](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Veo 3.1 Google's advanced text-to-video model with synced audio.
-![image thumbnail 342x282: Sora 2 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp)
+![image thumbnail 342x282: Sora 2 AI Model](media/a5c54cd3-69a2-465c-9c8d-5520a962148b-c03e2d90.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp")
 Sora 2 OpenAI's model for realistic, physically consistent AI video.
-![image thumbnail 342x282: Runway Gen 4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video with consistent characters and realistic motion.
-![image thumbnail 342x282: Luma Ray 2 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp)
+![image thumbnail 342x282: Luma Ray 2 AI Model](media/e2a6880f-4752-43b8-907b-e388725ab15d-eea50768.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp")
 Luma Ray 2 Fast, high-fidelity AI video with realistic lighting and motion.
-![image thumbnail 342x282: Seedance 2.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp)
+![image thumbnail 342x282: Seedance 2.0 AI Model](media/c3cbf8c8-56bb-4544-97d5-a33e0014e699-46417f29.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp")
 Seedance 2.0 Cinematic AI video with strong motion and character control.
-![image thumbnail 342x282: WAN 2.6 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: WAN 2.6 AI Model](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 WAN 2.6 Versatile AI video model for text- and image-to-video.
-![image thumbnail 342x282: Pika Frames AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp)
+![image thumbnail 342x282: Pika Frames AI Model](media/3321f296-7962-43c9-bcbe-5bd81e55f7ab-998cde1e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp")
 Pika Frames Create AI video between start and end frames with smooth motion.
-![image thumbnail 342x282: Kling 3.0 Omni AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp)
+![image thumbnail 342x282: Kling 3.0 Omni AI Model](media/bd014004-e8b5-4f23-bf04-ccf846be1019-e57bb153.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp")
 Kling 3.0 Omni Multimodal Kling model for advanced, realistic AI video.
 
 ## S14 pricing

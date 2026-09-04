@@ -7,7 +7,7 @@
 ## Introducing AI Asset Maker: Generate branded content from any image
 Transform the way you create branded visuals with smart AI. Upload your logo, product photo, or any image, and Asset Maker will generate matching stickers, text elements, backgrounds, and illustrations in seconds. Keep your brand fresh with seasonal content for holidays like Christmas and Valentine’s Day - without starting from scratch every time.
 Try AI Asset Maker
-![image creative 480x480: Online asset generator](https://pastatic.picsart.com/cms-pastatic/0d5406a5-f85b-439f-8772-397e71202a10.png)
+![image creative 480x480: Online asset generator](media/0d5406a5-f85b-439f-8772-397e71202a10-65bd3a71.png "https://pastatic.picsart.com/cms-pastatic/0d5406a5-f85b-439f-8772-397e71202a10.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Icon for brand asset generator](https://pastatic.picsart.com/cms-pastatic/914a555d-0518-4968-b0cb-e79a6b090c56.png)
+![image icon 96x96: Icon for brand asset generator](media/914a555d-0518-4968-b0cb-e79a6b090c56-30b23789.png "https://pastatic.picsart.com/cms-pastatic/914a555d-0518-4968-b0cb-e79a6b090c56.png")
 #### Instant brand asset generator
 Asset Maker analyzes your image to create stickers, illustrations, and backgrounds that align seamlessly with your visual style.
-![image icon 96x96: Icon for logo design](https://pastatic.picsart.com/cms-pastatic/aaf65fbd-8722-40d3-83e6-081ec2b61b31.png)
+![image icon 96x96: Icon for logo design](media/aaf65fbd-8722-40d3-83e6-081ec2b61b31-4711a153.png "https://pastatic.picsart.com/cms-pastatic/aaf65fbd-8722-40d3-83e6-081ec2b61b31.png")
 #### Seasonal brand refresh
 Transform your visuals for holidays like Christmas, Valentine’s Day, and Halloween while keeping your brand identity intact.
-![image icon 96x96: Create brand assets in an instant](https://pastatic.picsart.com/cms-pastatic/b8a0b42f-698e-4b2b-9fe2-79e58d5988c9.png)
+![image icon 96x96: Create brand assets in an instant](media/b8a0b42f-698e-4b2b-9fe2-79e58d5988c9-c2004f6e.png "https://pastatic.picsart.com/cms-pastatic/b8a0b42f-698e-4b2b-9fe2-79e58d5988c9.png")
 #### Complete design toolkit
 Access everything you need to create cohesive marketing materials for both digital and print collaterals.
 
@@ -62,25 +62,25 @@ Use the Upload image button below to get started.
 #### Create logo variations
 4
 #### Download assets
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/eb4215f7-1e4c-476d-b75b-9e94c83e85e7.webm)
+![video ui-screenshot 480x600: ](media/eb4215f7-1e4c-476d-b75b-9e94c83e85e7-5b8b36c9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/eb4215f7-1e4c-476d-b75b-9e94c83e85e7.webm")
 
 ## S05 feature-callout
 
 ### Make your social media pop with custom brand elements
 Running a small business on Instagram takes constant content creation. With AI Asset Maker - your go-to brand asset generator - it’s easy to keep your feed engaging without the design hassle. Upload your logo, product photo, or any image to instantly generate branded stickers, text elements, backgrounds, and illustrations that match your visual identity. Keep your audience engaged with fresh, professional content every day.
-![image creative 480x480: Create custom brand assets](https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.png)
+![image creative 480x480: Create custom brand assets](media/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157-973b070e.png "https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.png")
 
 ## S06 feature-callout
 
 ### Add seasonal flair to your brand
 Transform your brand for every holiday without losing its essence. Upload your logo and generate festive variations for Christmas, Valentine's Day, Halloween, and more. Create seasonal marketing materials that resonate with your audience while maintaining brand recognition. Perfect for social media campaigns, email marketing, app icons, and promotional materials.
-![image creative 480x480: Make seasonal assets for your brand](https://pastatic.picsart.com/cms-pastatic/ec048258-73c0-4163-938a-bd0b455fd2bf.png)
+![image creative 480x480: Make seasonal assets for your brand](media/ec048258-73c0-4163-938a-bd0b455fd2bf-56147e39.png "https://pastatic.picsart.com/cms-pastatic/ec048258-73c0-4163-938a-bd0b455fd2bf.png")
 
 ## S07 feature-callout
 
 ### Create professional brand assets instantly
 From side hustles to startups, AI Asset Maker is the brand asset creator for every platform. Generate professional backgrounds , stickers, and illustrations for your website, social media, and marketing materials. Maintain consistent branding everywhere your business appears, without the need for a design team or specialized skills.
-![image creative 480x480: Create brand assets in an instant](https://pastatic.picsart.com/cms-pastatic/fd0e9cdd-d174-4860-9fba-b8088f7c8217.png)
+![image creative 480x480: Create brand assets in an instant](media/fd0e9cdd-d174-4860-9fba-b8088f7c8217-8b27e59b.png "https://pastatic.picsart.com/cms-pastatic/fd0e9cdd-d174-4860-9fba-b8088f7c8217.png")
 
 ## S08 feature-callout
 
@@ -98,11 +98,11 @@ AI Assets Maker accepts the most common image formats, including PNG, JPG, and S
 ## S10 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: online brand kit generator](https://pastatic.picsart.com/cms-pastatic/dc9cebbf-88d1-4603-85dd-2dbf50a9e43c.png)
+![image thumbnail 342x282: online brand kit generator](media/dc9cebbf-88d1-4603-85dd-2dbf50a9e43c-74d280f6.png "https://pastatic.picsart.com/cms-pastatic/dc9cebbf-88d1-4603-85dd-2dbf50a9e43c.png")
 Brand kit generator Set up your brand guide in Picsart to effortlessly access everything you need to create consistent designs.
-![image thumbnail 342x282: brand identity generator](https://pastatic.picsart.com/cms-pastatic/0ba6a9fb-d030-43ea-a562-aaf647befec7.png)
+![image thumbnail 342x282: brand identity generator](media/0ba6a9fb-d030-43ea-a562-aaf647befec7-670071c6.png "https://pastatic.picsart.com/cms-pastatic/0ba6a9fb-d030-43ea-a562-aaf647befec7.png")
 Brand identity generator Tap into a state-of-the-art AI to generate memorable logos and brand identity from scratch..
-![image thumbnail 342x282: create a logo with AI](https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png)
+![image thumbnail 342x282: create a logo with AI](media/d35c51d7-7ade-4844-bc61-268b9d11485b-0e4de31e.png "https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png")
 AI logo generator Create a memorable brand identity with AI and minimal effort.
 
 ## S11 pricing

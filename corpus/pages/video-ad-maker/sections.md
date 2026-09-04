@@ -7,7 +7,7 @@
 ## Video ad maker
 Create video ads in seconds with Picsart’s online video ad maker. Tap into a library of animated templates, browse the built-in collection of stock videos, or insert your footage to create video ads in a fraction of the time.
 Make a video ad
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/83b2e3d3-06de-46b3-b1f6-7be311c1b930.webm)
+![video creative 480x480: ](media/83b2e3d3-06de-46b3-b1f6-7be311c1b930-1788160f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/83b2e3d3-06de-46b3-b1f6-7be311c1b930.webm")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 feature-row
 
-![image icon 96x96: video ad creation](https://pastatic.picsart.com/cms-pastatic/7c9e462e-7adf-4fa4-a9e9-05954894c9fb.png)
+![image icon 96x96: video ad creation](media/7c9e462e-7adf-4fa4-a9e9-05954894c9fb-a80451aa.png "https://pastatic.picsart.com/cms-pastatic/7c9e462e-7adf-4fa4-a9e9-05954894c9fb.png")
 #### Easy video ad creation
 Not a video editor? Not a problem. Just choose a template, add copy and brand elements, and you’re good to go.
-![image icon 96x96: animated templates](https://pastatic.picsart.com/cms-pastatic/ff26cbfe-3463-4ce7-bb85-1bc5f4aa385b.png)
+![image icon 96x96: animated templates](media/ff26cbfe-3463-4ce7-bb85-1bc5f4aa385b-baa88db4.png "https://pastatic.picsart.com/cms-pastatic/ff26cbfe-3463-4ce7-bb85-1bc5f4aa385b.png")
 #### Library of templates
 Looking to speed things up? Get a headstart with the video ad creator’s library of captivating templates for every industry and occasion.
-![image icon 96x96: stock videos](https://pastatic.picsart.com/cms-pastatic/a8fda885-07a7-415a-a4d5-d1f9acec854a.png)
+![image icon 96x96: stock videos](media/a8fda885-07a7-415a-a4d5-d1f9acec854a-2304c457.png "https://pastatic.picsart.com/cms-pastatic/a8fda885-07a7-415a-a4d5-d1f9acec854a.png")
 #### Selection of stock videos
 Don’t have the right footage? Find the perfect stock video right from the video ad maker’s interface without switching to a different tab.
 
@@ -62,42 +62,42 @@ Use the All Templates drop-down to filter templates based on ad types or start f
 #### Personalize your ad
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c07c338f-7bab-4a9b-ad89-7bd1e297b422.webm)
+![video ui-screenshot 480x600: ](media/c07c338f-7bab-4a9b-ad89-7bd1e297b422-a4b5026d.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c07c338f-7bab-4a9b-ad89-7bd1e297b422.webm")
 
 ## S05 feature-callout
 
 ### Create video ads with ease
 Whether you're announcing a new product launch, drumming up excitement for a sale, or simply spreading the word about your business, Picsart's video ad maker is the perfect tool to create engaging and effective video ads. With a selection of animated ad templates, stock videos, and easy-to-use editing tools, you can create video ads in minutes, even if you have no prior content creation experience.
 Create a video ad
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/595b38bf-29d8-477c-a13d-ffa4d395216c.webm)
+![video creative 480x480: ](media/595b38bf-29d8-477c-a13d-ffa4d395216c-b4572691.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/595b38bf-29d8-477c-a13d-ffa4d395216c.webm")
 
 ## S06 feature-callout
 
 ### Craft video ads for all occasions
 Whether you’re creating video ads for Facebook feeds, YouTube in-stream, or Instagram story campaigns, the video ad maker has it all. Select from various pre-defined ad formats and easily adjust your content to look good across all your campaigns. No need to use any video editing software or install anything. Rearranging texts and visual elements is just as easy as drag and drop, and it all happens in your browser tab.
 Open video ad maker
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/21fd293e-bd53-4fa3-a76f-67bb7f8bfab2.webm)
+![video creative 480x480: ](media/21fd293e-bd53-4fa3-a76f-67bb7f8bfab2-5afacb27.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/21fd293e-bd53-4fa3-a76f-67bb7f8bfab2.webm")
 
 ## S07 feature-callout
 
 ### Make video ads unique to your brand
 Effortlessly keep your branding consistent across all your campaigns with video ad maker’s easy-to-use customization tools. Pick from a variety of available fonts, or upload your own. Insert watermarks with your brand logo and use the color picker to align with your color story. Save your projects to the Picsart Drive and reuse your ad designs for other campaigns to save time.
 Create a video ad
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b24a2c08-10b1-43cd-b54e-99dda8407bd9.webm)
+![video creative 480x480: ](media/b24a2c08-10b1-43cd-b54e-99dda8407bd9-89f0dffb.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/b24a2c08-10b1-43cd-b54e-99dda8407bd9.webm")
 
 ## S08 feature-callout
 
 ### Get a headstart with video ad creator’s templates
 Speed through your video ad creation process with thoughtfully designed templates that beautifully combine your copy and video. Explore a variety of styles and arrangements, and if you want to tweak anything, simply select the element and adjust it to your liking. Insert your video files into the templates and use video crop to get the perfect fit for any ratio and placement right from Picsart.
 Explore video templates
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/87121e97-93c2-43ca-88ce-32ddc8fd3044.webm)
+![video creative 480x480: ](media/87121e97-93c2-43ca-88ce-32ddc8fd3044-f367d892.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/87121e97-93c2-43ca-88ce-32ddc8fd3044.webm")
 
 ## S09 feature-callout
 
 ### Implement AI magic into your workflow
 Looking to add truly unique videos to your ads? Tap into Picsart’s AI video generator to create custom videos from scratch with just a prompt. Just describe your vision and let AI do the work for you. Or, use AI video filters to turn your videos into cartoons, anime, moving paintings, and so much more. All this, and so much more, packaged inside one convenient interface.
 Start creating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/63283d1d-e123-4317-82ab-45d48c0e6235.webm)
+![video creative 480x480: ](media/63283d1d-e123-4317-82ab-45d48c0e6235-f8ea0b94.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/63283d1d-e123-4317-82ab-45d48c0e6235.webm")
 
 ## S10 faq
 
@@ -113,33 +113,33 @@ Video ad creation is the process of crafting short, engaging videos to promote y
 ## S11 link-grid
 
 ### More AI tools to love from Picsart
-![image thumbnail 342x282: use AI to create animations](https://cdn140.picsart.com/76440186535545692262.png)
+![image thumbnail 342x282: use AI to create animations](media/76440186535545692262-c0cbbe06.png "https://cdn140.picsart.com/76440186535545692262.png")
 Animation maker Create custom animations in seconds with just a prompt.
-![image thumbnail 342x282: AI video generator](https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png)
+![image thumbnail 342x282: AI video generator](media/0888c645-ef3a-4d3f-b290-2f5e42b8f966-e8cfde11.png "https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png")
 AI video generator Instantly transform text into videos with artificial intelligence.
-![image thumbnail 342x282: AI video filters](https://pastatic.picsart.com/cms-pastatic/5beaeb7a-582d-4f2a-81cc-54dbb60f8451.png)
+![image thumbnail 342x282: AI video filters](media/5beaeb7a-582d-4f2a-81cc-54dbb60f8451-d7cc35bd.png "https://pastatic.picsart.com/cms-pastatic/5beaeb7a-582d-4f2a-81cc-54dbb60f8451.png")
 AI video filters Elevate your videos with eye-catching AI filters and effects.
-![image thumbnail 342x282: erase objects from videos](https://pastatic.picsart.com/cms-pastatic/70aef1eb-6792-4a59-ab2d-14bf495ffa5a.png)
+![image thumbnail 342x282: erase objects from videos](media/70aef1eb-6792-4a59-ab2d-14bf495ffa5a-c1a1a13e.png "https://pastatic.picsart.com/cms-pastatic/70aef1eb-6792-4a59-ab2d-14bf495ffa5a.png")
 Video object eraser Get rid of unnecessary details from your videos with the help of AI.
-![image thumbnail 342x282: create art with AI](https://pastatic.picsart.com/cms-pastatic/03d123f5-ab52-4add-8dd1-fed7ade9d882.png)
+![image thumbnail 342x282: create art with AI](media/03d123f5-ab52-4add-8dd1-fed7ade9d882-ff924c29.png "https://pastatic.picsart.com/cms-pastatic/03d123f5-ab52-4add-8dd1-fed7ade9d882.png")
 AI art generator Generate eye-catching artwork of various styles and movements in seconds with AI.
-![image thumbnail 342x282: create images with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI image generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: ai photo editing tools](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editing tools](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI photo editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: AI avatar generator tool](https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png)
+![image thumbnail 342x282: AI avatar generator tool](media/9451d801-0759-4e1c-96b3-b6fc67d366a0-2cf1b915.png "https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png")
 AI avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: Expand images with AI](https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png)
+![image thumbnail 342x282: Expand images with AI](media/3835c687-38c4-4f53-8563-77616531ee3c-44b57eb4.png "https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png")
 AI image extender Capture what was left out of the lens with generative AI.
 Start editing
 
 ## S12 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S13 pricing
 

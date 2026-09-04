@@ -6,7 +6,7 @@
 
 ## Free Video Background Remover
 Effortlessly erase video backgrounds with Picsart’s AI-powered Video Background Remover. No video editing skills or software necessary, everything is perfectly automated, precise, and beginner-friendly.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/35f88210-ff71-4b9a-ae17-501b16579a9c.webm)
+![video creative 480x480: ](media/35f88210-ff71-4b9a-ae17-501b16579a9c-dd9efb88.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/35f88210-ff71-4b9a-ae17-501b16579a9c.webm")
 
 ## S02 link-grid
 
@@ -39,13 +39,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 feature-row
 
-![image icon 96x96: icon for video background removal](https://pastatic.picsart.com/cms-pastatic/edbce268-6964-407c-bd68-c95c1798ef2a.png)
+![image icon 96x96: icon for video background removal](media/edbce268-6964-407c-bd68-c95c1798ef2a-38cd00eb.png "https://pastatic.picsart.com/cms-pastatic/edbce268-6964-407c-bd68-c95c1798ef2a.png")
 #### Easy video background removal
 Remove background from a video easily without using complicated tools.
-![image icon 96x96: icon for free to use](https://pastatic.picsart.com/cms-pastatic/024fde8b-3439-44fd-bc03-40af032d748e.png)
+![image icon 96x96: icon for free to use](media/024fde8b-3439-44fd-bc03-40af032d748e-5b6b58a3.png "https://pastatic.picsart.com/cms-pastatic/024fde8b-3439-44fd-bc03-40af032d748e.png")
 #### Free to use
 Enjoy cost-effective video background removals with Picsart.
-![image icon 96x96: icon for AI](https://pastatic.picsart.com/cms-pastatic/8e6361a3-1495-4aaf-a80f-ddc01fb4d980.png)
+![image icon 96x96: icon for AI](media/8e6361a3-1495-4aaf-a80f-ddc01fb4d980-b677afe6.png "https://pastatic.picsart.com/cms-pastatic/8e6361a3-1495-4aaf-a80f-ddc01fb4d980.png")
 #### Simple and intuitive interface
 Streamline video background removal with an easy-to-use tool.
 
@@ -59,49 +59,49 @@ Use the Browse files button above to select a video.
 #### Preview the result
 3
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/41a00271-2e8d-4084-9ff4-793b09814d32.webm)
+![video ui-screenshot 480x600: ](media/41a00271-2e8d-4084-9ff4-793b09814d32-c79f1b88.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/41a00271-2e8d-4084-9ff4-793b09814d32.webm")
 
 ## S05 feature-callout
 
 ### Automate video background removals with AI
 Upload a video and remove the background with just one move with Picsart's Video Background Remover. The AI-powered technology detects backgrounds and makes them vanish in an instant, at zero cost. It's all done automatically and in an instant. Let the tool work its magic while you save time and cut back on manual labor.
 Remove video backgrounds
-![image creative 480x480: automatic video background removal](https://pastatic.picsart.com/cms-pastatic/36b90f33-f9f8-4286-8065-d5d935932c65.png)
+![image creative 480x480: automatic video background removal](media/36b90f33-f9f8-4286-8065-d5d935932c65-51bdd4f7.png "https://pastatic.picsart.com/cms-pastatic/36b90f33-f9f8-4286-8065-d5d935932c65.png")
 
 ## S06 feature-callout
 
 ### Replace video background with custom backdrops
 Not only can you use the video background changer to remove backgrounds easily, the tool also lets you replace the background with different colors. Push the envelope even more by adding your own backgrounds or colors that are completely customized.
 Remove video backgrounds
-![image creative 480x480: change video background online](https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.png)
+![image creative 480x480: change video background online](media/4371bbdc-814f-4ff2-b75f-c278083a7662-e1872963.png "https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.png")
 
 ## S07 feature-callout
 
 ### Effortlessly replace green screens
 Replace even green screen backgrounds with any image easily using Picsart's Video Background Remover. Imagine transporting a presenter to a volcanic mountain, showcasing your product in a bustling cityscape, or creating other mind-bending visual effects. Tap into an AI-powered green screen removal technology to craft engaging and captivating video content.
 Remove video backgrounds
-![image creative 480x480: remove and replace green screens](https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png)
+![image creative 480x480: remove and replace green screens](media/ff3d677f-559b-4089-90cc-d40887474d17-46274dcd.png "https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png")
 
 ## S08 feature-callout
 
 ### Create video tutorials with unique backgrounds
 Picsart's Video Background Remover helps tutors and instructors create professional training videos quickly. Change backgrounds to enhance your on-screen appearance, use slides from your presentation, or select appealing images. Put the fun back in tutorials by adding captions and generating context-based backgrounds using Picsart's smart background tool.
 Remove video backgrounds
-![image creative 480x480: educational video tutorials with custom backgrounds](https://pastatic.picsart.com/cms-pastatic/9ab4e076-0e0c-4270-a7b7-7295754af7e7.png)
+![image creative 480x480: educational video tutorials with custom backgrounds](media/9ab4e076-0e0c-4270-a7b7-7295754af7e7-f07fd2d6.png "https://pastatic.picsart.com/cms-pastatic/9ab4e076-0e0c-4270-a7b7-7295754af7e7.png")
 
 ## S09 feature-callout
 
 ### Elevate product marketing with video background removal
 Make sure your product leaves a convincing first impression by using Picsart's Video Background Remover. Add overlays, animations, text, and other assets to create stand-out interactive product demos. Pair the tool with Picsart’s video ad maker to put together engaging video ads that can't be beat, and let your products shine bright against any background.
 Remove video backgrounds
-![image creative 480x480: remove video background to create interesting marketing materials](https://pastatic.picsart.com/cms-pastatic/b6c7af30-d662-4c63-95d3-f0cc5f07277b.png)
+![image creative 480x480: remove video background to create interesting marketing materials](media/b6c7af30-d662-4c63-95d3-f0cc5f07277b-f29b142f.png "https://pastatic.picsart.com/cms-pastatic/b6c7af30-d662-4c63-95d3-f0cc5f07277b.png")
 
 ## S10 feature-callout
 
 ### Do more than video background removals
 Level up with Picsart's easy-to-use editing tools. Become a pro at removing backgrounds from videos and images with AI. Play around with tools like the image extender , AI filters, text editor, and more. Delete objects from videos and depixelate photos in a flash. Break the mold in enhancing content.
 Remove video backgrounds
-![image creative 480x480: more than video background remover](https://pastatic.picsart.com/cms-pastatic/5a031d60-9311-4ee8-95e4-e602fb0a9300.png)
+![image creative 480x480: more than video background remover](media/5a031d60-9311-4ee8-95e4-e602fb0a9300-604a069b.png "https://pastatic.picsart.com/cms-pastatic/5a031d60-9311-4ee8-95e4-e602fb0a9300.png")
 
 ## S11 feature-callout
 
@@ -113,23 +113,23 @@ Remove video backgrounds
 
 ### Understand background edits
 Learn how to remove, replace, and clean up backgrounds.
-![image thumbnail 294x196: How to remove backgrounds from photos with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9746d08a-6408-4720-9d3b-03c59c14bf15.avif)
+![image thumbnail 294x196: How to remove backgrounds from photos with AI preview](media/9746d08a-6408-4720-9d3b-03c59c14bf15-2f6a2ee7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9746d08a-6408-4720-9d3b-03c59c14bf15.avif")
 Backgrounds
 #### How to remove backgrounds from photos with AI
 3 min Beginner
-![image thumbnail 294x196: How to replace backgrounds with AI-generated scenes preview](https://cdn-cms-uploads.picsart.com/cms-uploads/12719172-192d-4032-b683-9fa15f9b5a59.avif)
+![image thumbnail 294x196: How to replace backgrounds with AI-generated scenes preview](media/12719172-192d-4032-b683-9fa15f9b5a59-02126f17.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/12719172-192d-4032-b683-9fa15f9b5a59.avif")
 Backgrounds
 #### How to replace backgrounds with AI-generated scenes
 4 min Intermediate
-![image thumbnail 294x196: How to generate custom backgrounds from text descriptions preview](https://cdn-cms-uploads.picsart.com/cms-uploads/b7aeae15-1f32-474d-af10-bfb3346c9ef9.avif)
+![image thumbnail 294x196: How to generate custom backgrounds from text descriptions preview](media/b7aeae15-1f32-474d-af10-bfb3346c9ef9-7891f3b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b7aeae15-1f32-474d-af10-bfb3346c9ef9.avif")
 Backgrounds
 #### How to generate custom backgrounds from text descriptions
 4 min Intermediate
-![image thumbnail 294x196: How to create product photography backgrounds with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/fbf16fe9-1124-42a2-b2f9-743a421d41ac.avif)
+![image thumbnail 294x196: How to create product photography backgrounds with AI preview](media/fbf16fe9-1124-42a2-b2f9-743a421d41ac-889fc8a0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fbf16fe9-1124-42a2-b2f9-743a421d41ac.avif")
 Backgrounds
 #### How to create product photography backgrounds with AI
 4 min Intermediate
-![image thumbnail 294x196: How to make virtual backgrounds for video calls preview](https://cdn-cms-uploads.picsart.com/cms-uploads/265bbb84-b7aa-4c9a-a700-df32c1ffcd68.avif)
+![image thumbnail 294x196: How to make virtual backgrounds for video calls preview](media/265bbb84-b7aa-4c9a-a700-df32c1ffcd68-57e4ba78.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/265bbb84-b7aa-4c9a-a700-df32c1ffcd68.avif")
 Backgrounds
 #### How to make virtual backgrounds for video calls
 3 min Beginner
@@ -152,23 +152,23 @@ A Video Background Remover lets you erase the original backdrop from your video 
 ## S14 link-grid
 
 ### More tools from Picsart you can try
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/b9fa617f-1059-4cee-b27a-55ffe7d33c0f-133dfd25.png "https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png")
 Background remover Masterfully erase the background with AI or make it transparent.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png)
+![image thumbnail 342x282: background changer](media/58dbd546-e722-4bd6-8979-2a542338ebc3-55e3e5c9.png "https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png")
 Background changer Swap up the backdrop with your own photo or select from Picsart’s library.
-![image thumbnail 342x282: Color picker by Picsart](https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png)
+![image thumbnail 342x282: Color picker by Picsart](media/dbebc97c-a7ff-459a-9113-90fdc590d3dc-1d667512.png "https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png")
 Color picker Instantly find the exact color tone code you are looking for.
-![image thumbnail 342x282: Sharpen images with Picsart](https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png)
+![image thumbnail 342x282: Sharpen images with Picsart](media/044be218-92d7-45f6-b518-d92495f0ee45-58a41303.png "https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png")
 Sharpen image Instantly find the exact color tone code you are looking for.
-![image thumbnail 342x282: video ad maker](https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png)
+![image thumbnail 342x282: video ad maker](media/68352d29-75d1-45e4-8405-672c59f8bdf7-d2f8d93d.png "https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png")
 Video ad maker Create engaging video ads in seconds using AI.
-![image thumbnail 342x282: black and white filters](https://pastatic.picsart.com/cms-pastatic/cb112a9e-dcbf-44cf-a3ff-0a5f551e4067.png)
+![image thumbnail 342x282: black and white filters](media/cb112a9e-dcbf-44cf-a3ff-0a5f551e4067-7854adc4.png "https://pastatic.picsart.com/cms-pastatic/cb112a9e-dcbf-44cf-a3ff-0a5f551e4067.png")
 Video object eraser Get rid of unnecessary details from your videos with the help of AI.
-![image thumbnail 342x282: unpixelate images online](https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.png)
+![image thumbnail 342x282: unpixelate images online](media/3fd01741-f7c3-4eaa-94c3-51fb72737114-d941670e.png "https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.png")
 Unpixelate images Clear up images using Picsart’s AI-powered image enhancer.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: improve image clarity with Picsart’s unblur tool](https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png)
+![image thumbnail 342x282: improve image clarity with Picsart’s unblur tool](media/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad-8ad97bb4.png "https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png")
 Unblur image Bid farewell to blurry photos with AI blur removal.
 
 ## S15 pricing

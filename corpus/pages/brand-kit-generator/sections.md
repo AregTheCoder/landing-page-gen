@@ -7,17 +7,17 @@
 ## Brand Kit Generator: Get a brand kit in minutes with Picsart
 Create on-brand content fast with the Picsart Brand Kit Generator. Upload your logo, fonts and colors to build a professional brand kit and get smart, AI-powered design suggestions that match your style. From exploring identity design to creating cohesive brand assets, you can streamline the process in just a few clicks. The AI Brand Kit Generator is perfect if you're figuring out how to create a brand kit or need a reliable brand kit maker for cohesive visuals.
 Create a brand kit
-![image creative 480x480: brand kit generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df432c6-ff44-4f51-8136-e04dcf2bfe98.webp)
+![image creative 480x480: brand kit generator](media/3df432c6-ff44-4f51-8136-e04dcf2bfe98-587489c8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df432c6-ff44-4f51-8136-e04dcf2bfe98.webp")
 
 ## S02 feature-row
 
-![image icon 96x96: icon for fas brand kit creation](https://pastatic.picsart.com/cms-pastatic/9a251316-bff6-4bc2-b53b-345ec8c81967.png)
+![image icon 96x96: icon for fas brand kit creation](media/9a251316-bff6-4bc2-b53b-345ec8c81967-4bc745f3.png "https://pastatic.picsart.com/cms-pastatic/9a251316-bff6-4bc2-b53b-345ec8c81967.png")
 #### Effortless brand kit creation
 Use the Picsart Brand Kit Generator to build a complete brand kit in minutes. Upload your logo, fonts and colors to keep your identity design consistent across every project.
-![image icon 96x96: icon for design customization](https://pastatic.picsart.com/cms-pastatic/ddd961b1-ce24-44a7-af96-021de9055a76.png)
+![image icon 96x96: icon for design customization](media/ddd961b1-ce24-44a7-af96-021de9055a76-91de7d3e.png "https://pastatic.picsart.com/cms-pastatic/ddd961b1-ce24-44a7-af96-021de9055a76.png")
 #### Easy customization
 Adjust your brand kit anytime to match your creative vision and evolving identity design - no need to start from scratch.
-![image icon 96x96: icon for quick and easy design process](https://pastatic.picsart.com/cms-pastatic/73aa62a7-05f3-4419-9015-18d8c8c1982a.png)
+![image icon 96x96: icon for quick and easy design process](media/73aa62a7-05f3-4419-9015-18d8c8c1982a-d9cfe55b.png "https://pastatic.picsart.com/cms-pastatic/73aa62a7-05f3-4419-9015-18d8c8c1982a.png")
 #### Streamlined creative process
 Save time and money by using a unified platform that has all the brand identity kit tools you need in one place.
 
@@ -33,31 +33,31 @@ Use the Start creating button to get started.
 #### Upload files and set brand colors
 4
 #### Create brand templates
-![image creative 480x600: how to make a brand kit](https://cdn-cms-uploads.picsart.com/cms-uploads/766bc2a0-03c7-4aaf-8337-39291798e959.webp)
+![image creative 480x600: how to make a brand kit](media/766bc2a0-03c7-4aaf-8337-39291798e959-e6cf0c23.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/766bc2a0-03c7-4aaf-8337-39291798e959.webp")
 
 ## S04 feature-callout
 
 ### Build an instantaneous brand identity with the Brand Kit Generator
 Creating and managing a cohesive brand kit is simple with Picsart’s Brand Kit Generator. Explore design ideas, test different logo styles and turn creative blocks into progress. Whether you're starting from scratch or uploading an existing brand kit, Picsart makes it easy to design on-brand visuals fast using customizable templates and smart, intuitive tools - all tailored to your identity design needs.
-![image creative 480x480: create a brand identity with brand kit generator](https://cdn-cms-uploads.picsart.com/cms-uploads/567b8866-e922-4731-8cee-02ac79270c2b.webp)
+![image creative 480x480: create a brand identity with brand kit generator](media/567b8866-e922-4731-8cee-02ac79270c2b-81e19e5e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/567b8866-e922-4731-8cee-02ac79270c2b.webp")
 
 ## S05 feature-callout
 
 ### Start from scratch or generate a brand kit based on existing logos
 No logo? No problem. The Picsart Brand Kit Generator lets you build a complete brand kit in minutes, from scratch or starting with your existing logo. Upload your assets or use the built-in AI Logo Generator to craft a unique visual identity that fits your brand name and style.
-![image creative 480x480: design brand kit from scratch](https://cdn-cms-uploads.picsart.com/cms-uploads/f69463de-b738-4fd4-96c0-82cc9989dbe3.webp)
+![image creative 480x480: design brand kit from scratch](media/f69463de-b738-4fd4-96c0-82cc9989dbe3-745bcdaa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f69463de-b738-4fd4-96c0-82cc9989dbe3.webp")
 
 ## S06 feature-callout
 
 ### Make brand kit adherence a breeze
 Thanks to Picsart’s tailored templates, you won’t have to worry about content that is inconsistent with your brand identity . Right inside the brand kit creator, you’ll find a selection of brand templates that have been specifically adjusted to match your selected color palette. These are ready-to-go designs that can turn from a draft into finished content in a matter of minutes. A perfect way to save time and ensure consistent brand kit adherence across platforms.
-![image decorative 480x480: brand kit with colors combinations, fonts and logo](https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp)
+![image decorative 480x480: brand kit with colors combinations, fonts and logo](media/e52e7df1-7a99-457c-82da-75c93cde7d92-8855ea4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp")
 
 ## S07 feature-callout
 
 ### Design brand kits for all types of industries
 Whether you’re looking to create a logo brand kit for a restaurant, a beauty brand, a personal coaching business, or anything in between, Picsart’s Brand Kit Generator can do it all. Effortlessly create a brand kit once for your own business or as many times as you need for your clients.
-![image creative 480x480: brand kit for any type of business industries](https://cdn-cms-uploads.picsart.com/cms-uploads/4cc460c2-559c-4b49-9dcb-a357e114adb7.webp)
+![image creative 480x480: brand kit for any type of business industries](media/4cc460c2-559c-4b49-9dcb-a357e114adb7-89ad1f04.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4cc460c2-559c-4b49-9dcb-a357e114adb7.webp")
 
 ## S08 feature-callout
 
@@ -75,21 +75,21 @@ Your brand kit should include your logo variations, primary and secondary color 
 ## S10 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: create a logo with AI](https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png)
+![image thumbnail 342x282: create a logo with AI](media/d35c51d7-7ade-4844-bc61-268b9d11485b-0e4de31e.png "https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png")
 AI Logo Generator Create a memorable brand identity with AI and minimal effort.
-![image thumbnail 342x282: create logo with picsart logo maker](https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png)
+![image thumbnail 342x282: create logo with picsart logo maker](media/9e5a95e9-73dc-421c-a935-5d0f449cb419-40372cb4.png "https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png")
 Logo Maker Effortlessly create logos without needing a design degree.
-![image thumbnail 342x282: Color wheel by Picsart](https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png)
+![image thumbnail 342x282: Color wheel by Picsart](media/7e3e579f-3bfa-445c-aa33-d2650ecfdf17-49a78696.png "https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png")
 Color Wheel Explore color schemes, find complementary colors, and master color theory with Picsart.
-![image thumbnail 342x282: Color picker by Picsart](https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png)
+![image thumbnail 342x282: Color picker by Picsart](media/dbebc97c-a7ff-459a-9113-90fdc590d3dc-1d667512.png "https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png")
 Color Picker Find the exact color tone you are looking for in HEX, RGB, HSL, and CMYK formats.
-![image thumbnail 342x282: png logo maker](https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png)
+![image thumbnail 342x282: png logo maker](media/77c3b11c-a1e6-4135-811b-cb64f8203b10-2b9ddb1e.png "https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png")
 PNG Logo Maker Create PNG logos easily with Picsart's online PNG logo maker.
-![image thumbnail 342x282: change the background to solid color](https://pastatic.picsart.com/cms-pastatic/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32.png)
+![image thumbnail 342x282: change the background to solid color](media/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32-e2c781cf.png "https://pastatic.picsart.com/cms-pastatic/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32.png")
 Change Background Color Switch to a solid-color background with ease.
-![image thumbnail 342x282: create images from scratch with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images from scratch with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: all-in-one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all-in-one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
 
 ## S11 pricing

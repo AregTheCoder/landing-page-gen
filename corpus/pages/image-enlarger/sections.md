@@ -6,8 +6,8 @@
 
 ## Free online Image Enlarger
 Make any photo bigger and sharper with AI. Picsart’s free online Image Enlarger lets you enlarge photos without blur or distortion - all in one click.
-![image creative 480x480: before change](https://cdn-cms-uploads.picsart.com/cms-uploads/45f78628-4731-436d-9672-c29e60f479d5.webp)
-![image creative 480x480: after change](https://cdn-cms-uploads.picsart.com/cms-uploads/df01df79-1dd9-49e7-b919-8a171384f514.webp)
+![image creative 480x480: before change](media/45f78628-4731-436d-9672-c29e60f479d5-1edc1257.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/45f78628-4731-436d-9672-c29e60f479d5.webp")
+![image creative 480x480: after change](media/df01df79-1dd9-49e7-b919-8a171384f514-3bd40850.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/df01df79-1dd9-49e7-b919-8a171384f514.webp")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Icon for AI](https://cdn-cms-uploads.picsart.com/cms-uploads/f0aa11ba-6f7f-4ffc-ab3d-3c5e05e9abe9.png)
+![image icon 96x96: Icon for AI](media/f0aa11ba-6f7f-4ffc-ab3d-3c5e05e9abe9-7e4d9800.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f0aa11ba-6f7f-4ffc-ab3d-3c5e05e9abe9.png")
 #### AI-powered photo enlarger
 The AI Image Enlarger enlarges photos without losing detail, preserving sharpness, color, and clarity throughout.
-![image icon 96x96: icon for free to use](https://cdn-cms-uploads.picsart.com/cms-uploads/8424201b-0a86-4836-a075-5190c63ed936.png)
+![image icon 96x96: icon for free to use](media/8424201b-0a86-4836-a075-5190c63ed936-47fc6d90.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8424201b-0a86-4836-a075-5190c63ed936.png")
 #### Free and online tool
 The free online Image Enlarger works right in your browser - no downloads, sign-ups, or installs required.
-![image icon 96x96: Icon for uploading an image](https://cdn-cms-uploads.picsart.com/cms-uploads/120f2013-4e9b-4976-8538-25faab331c13.png)
+![image icon 96x96: Icon for uploading an image](media/120f2013-4e9b-4976-8538-25faab331c13-1f472012.png "https://cdn-cms-uploads.picsart.com/cms-uploads/120f2013-4e9b-4976-8538-25faab331c13.png")
 #### One-click photo enlarger
 The AI Image Enlarger lets you make images bigger in one click while keeping every detail crisp and clear.
 
@@ -62,13 +62,13 @@ Drop your image into the Image Enlarger or upload it directly from your device.
 #### Download your result
 4
 #### Make more edits
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6b0eaea9-b35d-469e-9995-615670aaa4b6.webm)
+![video ui-screenshot 480x600: ](media/6b0eaea9-b35d-469e-9995-615670aaa4b6-53177530.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6b0eaea9-b35d-469e-9995-615670aaa4b6.webm")
 
 ## S05 feature-callout
 
 ### Next-gen Image Enlarger
 Picsart’s Image Enlarger uses advanced AI to enlarge photos without blur or distortion. It’s the most reliable way to make images bigger online while keeping every pixel sharp. If you want to enhance your images even further, try the AI Image Enhancer.
-![image creative 480x480: Ai image enlarger in seconds](https://cdn-cms-uploads.picsart.com/cms-uploads/63e561f8-74a9-4cd3-99c8-3e3114e65f74.webp)
+![image creative 480x480: Ai image enlarger in seconds](media/63e561f8-74a9-4cd3-99c8-3e3114e65f74-d5de604e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/63e561f8-74a9-4cd3-99c8-3e3114e65f74.webp")
 
 ## S06 use-case-grid
 
@@ -78,37 +78,37 @@ Smart Image Enlarger for every need
 [button: Printing large images]
 [button: Old/vintage photo restoration]
 Showcase your products in sharp detail with enlarged images that look professional and store-ready.
-![image creative 878x418: Enlarge product images](https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f81aa.webp)
+![image creative 878x418: Enlarge product images](media/344e094b-b447-4901-b931-955ee41f81aa-aa09bffc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f81aa.webp")
 
 ## S07 feature-callout
 
 ### Fast and automatic Image Enlarger
 Picsart’s AI Image Enlarger lets you enlarge images online with just one click. This smart, automatic tool uses AI to make images bigger instantly while preserving sharpness and quality. No editing skills or manual adjustments needed - simply upload, enlarge, and download your high-quality image in seconds.
-![image creative 480x480: Enlarge an image size](https://cdn-cms-uploads.picsart.com/cms-uploads/00ae199c-4df7-41be-b817-059e3f5e4a4d.webp)
+![image creative 480x480: Enlarge an image size](media/00ae199c-4df7-41be-b817-059e3f5e4a4d-9695f8fe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/00ae199c-4df7-41be-b817-059e3f5e4a4d.webp")
 
 ## S08 feature-callout
 
 ### High-quality photo enlarger without losing detail
 Easily enlarge images and make them bigger while keeping sharpness, texture, and color perfectly balanced. Picsart’s photo enlarger prevents pixelation and blur, so every enlarged photo looks crisp and clean. The AI maintains clarity throughout, delivering flawless results ideal for printing, sharing, or designing professional visuals.
-![image creative 480x480: Enlarge a photo size](https://cdn-cms-uploads.picsart.com/cms-uploads/69ed3f5c-1922-48de-9092-56b5bbfeda39.webp)
+![image creative 480x480: Enlarge a photo size](media/69ed3f5c-1922-48de-9092-56b5bbfeda39-f9894b3d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/69ed3f5c-1922-48de-9092-56b5bbfeda39.webp")
 
 ## S09 feature-callout
 
 ### Advanced AI photo enlarger for sharper results
 The AI photo enlarger doesn’t just increase image size - it reconstructs lost detail for professional-quality results. Perfect for e-commerce photos, social media visuals, or creative projects, it ensures every enlarged photo stays sharp and accurate. For even finer detail, use AI Sharpen Image to refine edges and textures.
-![image creative 480x480: Enlarge an image size with ai photo enlarger](https://cdn-cms-uploads.picsart.com/cms-uploads/572c9ad5-fccc-474a-8430-967137324da5.webp)
+![image creative 480x480: Enlarge an image size with ai photo enlarger](media/572c9ad5-fccc-474a-8430-967137324da5-ea5bc715.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/572c9ad5-fccc-474a-8430-967137324da5.webp")
 
 ## S10 feature-callout
 
 ### Enlarge the image to enhance every detail
 Use Picsart’s AI technology to enlarge images while sharpening fine details like edges, contrast, and texture. The tool doesn’t just enlarge pictures - it enhances image detail for a clearer, more refined look. For extra precision, fix any remaining blur with AI Unblur before continuing edits in the AI Photo Editor.
-![image creative 480x480: Enlarge an image for free](https://cdn-cms-uploads.picsart.com/cms-uploads/6bbc1a4c-49e4-47c6-a756-1af06066dcf6.webp)
+![image creative 480x480: Enlarge an image for free](media/6bbc1a4c-49e4-47c6-a756-1af06066dcf6-0e95cd0f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6bbc1a4c-49e4-47c6-a756-1af06066dcf6.webp")
 
 ## S11 feature-callout
 
 ### Further tweaks with the AI Photo Editor after enlarging
 After you enlarge photos, refine them in the AI Photo Editor - adjust brightness, fix colors, or add creative effects. For a complete workflow, explore tools like Resize Image , Background Remover , and AI Image Extender for seamless, professional-quality edits.
-![image creative 480x480: Enlarge an image size without losing quality](https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f1ee1.webp)
+![image creative 480x480: Enlarge an image size without losing quality](media/0a547321-9bb9-4e67-8387-0868fd3f1ee1-2014e83d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f1ee1.webp")
 
 ## S12 faq
 
@@ -124,23 +124,23 @@ Picsart’s Image Enlarger is an AI-powered tool that increases image size onlin
 ## S13 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: convert photos to hd online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png)
+![image thumbnail 342x282: convert photos to hd online for free](media/18256ca7-8db2-49e1-a7b9-b7ebe0e51354-3b846eaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png")
 HD Photo Converter Convert any image to HD quality instantly with Picsart’s AI tool.
-![image thumbnail 342x282: photo restoration](https://cdn-cms-uploads.picsart.com/cms-uploads/a80f238f-b6ac-4e1c-ba07-64c46a13ad5f.webp)
+![image thumbnail 342x282: photo restoration](media/a80f238f-b6ac-4e1c-ba07-64c46a13ad5f-7d406263.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a80f238f-b6ac-4e1c-ba07-64c46a13ad5f.webp")
 Photo Restoration Enhance your photo resolution quickly with AI to relive your favorite memories.
-![image thumbnail 342x282: Sharpen images with Picsart](https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png)
+![image thumbnail 342x282: Sharpen images with Picsart](media/044be218-92d7-45f6-b518-d92495f0ee45-58a41303.png "https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png")
 AI Sharpen Bump up the image quality in seconds with the help of AI.
-![image thumbnail 342x282: AI Image Extender](https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png)
+![image thumbnail 342x282: AI Image Extender](media/3835c687-38c4-4f53-8563-77616531ee3c-44b57eb4.png "https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png")
 AI Image Extender Capture what was left out of the lens with generative AI.
-![image thumbnail 342x282: https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 Unblur Images Bid farewell to blurry photos with AI blur removal.
-![image thumbnail 342x282: online ai image denoiser](https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png)
+![image thumbnail 342x282: online ai image denoiser](media/77c3b11c-a1e6-4135-811b-cb64f8203b10-2b9ddb1e.png "https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png")
 Denoise Images Instantly get rid of grain and blur with Picsart’s AI denoiser.
-![image thumbnail 342x282: unpixelate images online](https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.png)
+![image thumbnail 342x282: unpixelate images online](media/3fd01741-f7c3-4eaa-94c3-51fb72737114-d941670e.png "https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.png")
 Unpixelate Images Clear up images using Picsart’s AI-powered image enhancer.
-![image thumbnail 342x282: picsart magic workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png)
+![image thumbnail 342x282: picsart magic workflow](media/1734675f-293c-4bf2-88d3-54ff51828646-9b14bce9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png")
 Picsart Flows Design workflows and connect AI models in one canvas using a no-code AI workflow tool built for creative freedom.
 
 ## S14 pricing

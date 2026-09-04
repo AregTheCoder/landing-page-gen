@@ -7,7 +7,7 @@
 ## Kling 3.0: The most advanced AI video motion control
 Kling 3.0 is now integrated into Picsart's AI Video Generator and AI Playground , bringing advanced cinematic motion control directly into your creative workflow. With precise camera movement, fluid scene transitions, and Multi-Elements character consistency, Kling 3.0 gives AI-generated videos more natural movement, richer detail, and reliable subject identity across scenes. Use up to 4 reference images to lock characters, objects, and scenes — then let Kling 3.0 bring them to life with cinematic precision.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/44491331-56bc-4ade-a7a7-6f1930088374.webm)
+![video creative 480x480: ](media/44491331-56bc-4ade-a7a7-6f1930088374-aa729ae2.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/44491331-56bc-4ade-a7a7-6f1930088374.webm")
 
 ## S02 interactive-demo
 
@@ -20,25 +20,25 @@ Start generating
 ## S03 gallery
 
 ### Cinematic motion, zero Limit
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
 Nugget
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif)
+![image creative 196x348: ](media/029d49e5-fe69-40f2-a9b6-2594acd9c668-549165ee.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif")
 Paris
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 Prescott
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
 Truffle
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
 Dumpling
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
 Indigo Sphinx
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif)
+![image creative 196x348: ](media/785634d3-65ab-4464-b901-347896752194-e511932d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif")
 Silver Scarab
 [Try this vibe](https://picsart.com/ai-playground/?model=kling-3.0-pro)
 
@@ -46,7 +46,7 @@ Silver Scarab
 
 ### What is Kling Video 3.0 Motion Control?
 Kling Video 3.0 Motion Control is the latest evolution of the Kling AI video model, designed specifically to elevate AI video motion control and cinematic camera precision. Rather than simply generating animated clips, it focuses on how movement behaves within a scene — from controlled camera shifts to stable subject motion. This version introduces advanced motion control, stronger scene coherence, and higher visual fidelity. It also includes Multi-Elements, a character and object consistency system that lets you combine up to 4 reference images for characters, objects, or scenes into dynamic videos. Add, swap, or remove elements to maintain visual identity across shots — ideal for multi-scene storytelling and branded content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/68168876-2b84-45ae-a27a-1b74e3b9c1f2.webm)
+![video creative 480x480: ](media/68168876-2b84-45ae-a27a-1b74e3b9c1f2-7de7c26e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/68168876-2b84-45ae-a27a-1b74e3b9c1f2.webm")
 
 ## S05 use-case-grid
 
@@ -56,25 +56,25 @@ What you can create with Kling Video 3.0 Motion Control
 [button: Build marketing and brand videos]
 [button: Maintain character consistency across scenes]
 Create studio-quality videos from text prompts using Kling 3.0’s advanced motion control, guiding camera movement, scene flow, and character dynamics with cinematic precision.
-![image creative 879x418: Kling 3.0 for cinematic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp)
+![image creative 879x418: Kling 3.0 for cinematic video generation](media/1d3251a6-c9dc-422e-933f-09f3b1916899-23535dab.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp")
 
 ## S06 feature-callout
 
 ### How Kling Video 3.0 Motion Control works inside Picsart
 Kling Video 3.0 Motion Control brings advanced AI video motion control into Picsart, enabling cinematic movement, smooth transitions, and realistic character dynamics. In Flow , the no-code AI workflow builder, it powers structured motion-driven pipelines. In GenAI , one-click video generation, it turns prompts into fluid cinematic scenes. It also works with the AI Video Generator (text to video fast) and the AI Voice Generator (scripts to natural voiceovers), combining motion, visuals, and audio in one platform.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0b46c11f-8a3a-458e-b012-97fc34d2f829.webm)
+![video ui-screenshot 480x480: ](media/0b46c11f-8a3a-458e-b012-97fc34d2f829-52de21d3.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0b46c11f-8a3a-458e-b012-97fc34d2f829.webm")
 
 ## S07 feature-callout
 
 ### Why creators choose Kling 3.0 Motion Control
 Kling 3.0 Motion Control delivers a significant leap in video quality, combining improved realism, smoother motion flow, and finer visual detail than previous generations. Creators choose Kling 3.0 for its advanced motion control — the ability to guide camera movement, stabilize scene transitions, and refine character dynamics without complex editing setups. Multi-Elements adds another layer: upload reference images for characters and objects, and Kling 3.0 keeps them visually consistent across every scene. Integrated directly into Picsart's Flow and GenAI tools, it reduces production time while giving creators more precise control over how every frame moves, connects, and feels.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm)
+![video creative 480x480: ](media/3d48f750-f563-41d7-9a77-70a98b4e8816-8ce6826e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm")
 
 ## S08 feature-callout
 
 ### Kling 3.0 Motion Control as part of the Picsart platform
 Kling Video 3.0 Motion Control is one of the latest AI models powering Picsart’s creative ecosystem, built to deliver advanced video motion control at scale. Integrated into both Flows and GenAI, it works alongside other leading models to enable cinematic camera movement, controlled scene transitions, and realistic character dynamics across projects. This multi-model approach gives creators the flexibility to choose the right tool for each task while benefiting from continuous performance improvements and increasingly precise motion generation.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm)
+![video creative 480x480: ](media/f31cc9a7-83f4-4b02-ae5f-8de536ee6066-14508f2e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm")
 
 ## S09 tutorial-grid
 
@@ -83,15 +83,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -142,11 +142,11 @@ Kling Video 3.0 Motion Control is the latest generation of the Kling AI model, d
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Kling AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling The Kling AI model is a generative AI model designed for motion-based video creation from text and visual inputs.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: ](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model The Sora AI model is a generative AI model built for video creation and visual storytelling.
 
 ## S13 pricing

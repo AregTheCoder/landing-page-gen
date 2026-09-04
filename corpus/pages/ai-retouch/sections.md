@@ -7,23 +7,23 @@
 ## AI Retouch - upgrade your selfies instantly
 AI Retouch makes photo retouching quick and effortless. Upload your selfie, choose a preset, and beautify your photo in one tap.
 [button: Try AI Retouch]
-![image creative 196x348: beautify with make up](https://cdn-cms-uploads.picsart.com/cms-uploads/9697a12f-e6b4-46c7-80f9-37d378556671.avif)
+![image creative 196x348: beautify with make up](media/9697a12f-e6b4-46c7-80f9-37d378556671-7e3a0a6a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9697a12f-e6b4-46c7-80f9-37d378556671.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: girl with a make up on](https://cdn-cms-uploads.picsart.com/cms-uploads/000ae663-ad9f-4d1d-8c89-005341915a79.avif)
+![image creative 196x348: girl with a make up on](media/000ae663-ad9f-4d1d-8c89-005341915a79-ab7dac9f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/000ae663-ad9f-4d1d-8c89-005341915a79.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: ai retouch](https://cdn-cms-uploads.picsart.com/cms-uploads/18aa4780-fbdd-4673-9bdb-eb6ff9c9c81b.avif)
+![image creative 196x348: ai retouch](media/18aa4780-fbdd-4673-9bdb-eb6ff9c9c81b-c1a977be.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/18aa4780-fbdd-4673-9bdb-eb6ff9c9c81b.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: Woman with a short dark pixie haircut wearing dramatic smokey eye makeup](https://cdn-cms-uploads.picsart.com/cms-uploads/5cb08ddf-72b6-4412-92ff-d72d9a7c3f5e.avif)
+![image creative 196x348: Woman with a short dark pixie haircut wearing dramatic smokey eye makeup](media/5cb08ddf-72b6-4412-92ff-d72d9a7c3f5e-64dfc232.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5cb08ddf-72b6-4412-92ff-d72d9a7c3f5e.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: add make up with ai retouch](https://cdn-cms-uploads.picsart.com/cms-uploads/29b9d3ff-0fc4-4fe0-86d4-3ac5ec524014.avif)
+![image creative 196x348: add make up with ai retouch](media/29b9d3ff-0fc4-4fe0-86d4-3ac5ec524014-090ce68a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/29b9d3ff-0fc4-4fe0-86d4-3ac5ec524014.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: add facial make up with ai retouch](https://cdn-cms-uploads.picsart.com/cms-uploads/494a80e2-58b4-40b1-9d3e-a47cf67a8480.avif)
+![image creative 196x348: add facial make up with ai retouch](media/494a80e2-58b4-40b1-9d3e-a47cf67a8480-2f4709c6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/494a80e2-58b4-40b1-9d3e-a47cf67a8480.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: boy with a neon green shirt](https://cdn-cms-uploads.picsart.com/cms-uploads/9bc8a759-fe16-433d-a39d-9b6d50302d0d.avif)
+![image creative 196x348: boy with a neon green shirt](media/9bc8a759-fe16-433d-a39d-9b6d50302d0d-2a95a81f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9bc8a759-fe16-433d-a39d-9b6d50302d0d.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: smooth skin girl](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0f5dfc-46e5-4743-b952-83f14624ee83.avif)
+![image creative 196x348: smooth skin girl](media/9e0f5dfc-46e5-4743-b952-83f14624ee83-370642a0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0f5dfc-46e5-4743-b952-83f14624ee83.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 196x348: Young woman taking a mirror selfie while wearing an elegant ivory wedding dress](https://cdn-cms-uploads.picsart.com/cms-uploads/b697b3d4-c883-4e1e-ab4b-14c54a4035d8.avif)
+![image creative 196x348: Young woman taking a mirror selfie while wearing an elegant ivory wedding dress](media/b697b3d4-c883-4e1e-ab4b-14c54a4035d8-9f2aabbf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b697b3d4-c883-4e1e-ab4b-14c54a4035d8.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 
 ## S02 link-grid
@@ -59,28 +59,28 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ### See photo retouching in action
 Explore real AI retouch transformations, from subtle glow-ups to bold new looks, all applied instantly with one tap.
-![image creative 248x348: Woman with blonde highlighted waves and neutral makeup](https://cdn-cms-uploads.picsart.com/cms-uploads/c77fcb87-fa3e-43f9-b658-ef7c75f0ba97.avif)
+![image creative 248x348: Woman with blonde highlighted waves and neutral makeup](media/c77fcb87-fa3e-43f9-b658-ef7c75f0ba97-ab828b9d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c77fcb87-fa3e-43f9-b658-ef7c75f0ba97.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Blonde
-![image creative 248x348: Smiling woman with auburn curly hair in a blue top](https://cdn-cms-uploads.picsart.com/cms-uploads/4c68a8f8-0224-4963-aa04-349c77e50688.avif)
+![image creative 248x348: Smiling woman with auburn curly hair in a blue top](media/4c68a8f8-0224-4963-aa04-349c77e50688-5e449d51.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c68a8f8-0224-4963-aa04-349c77e50688.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Auburn curly hair
-![image creative 248x348: Woman with curly dark hair in a mustard yellow shirt](https://cdn-cms-uploads.picsart.com/cms-uploads/15595f08-fd37-4698-b86b-d941f750780a.avif)
+![image creative 248x348: Woman with curly dark hair in a mustard yellow shirt](media/15595f08-fd37-4698-b86b-d941f750780a-27f1e525.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/15595f08-fd37-4698-b86b-d941f750780a.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Curly dark hair
-![image creative 248x348: Woman with black bangs and bold creative makeup featuring a heart detail on her cheek](https://cdn-cms-uploads.picsart.com/cms-uploads/91f2bd4e-0e34-4265-8470-cfcaa69eeb3a.avif)
+![image creative 248x348: Woman with black bangs and bold creative makeup featuring a heart detail on her cheek](media/91f2bd4e-0e34-4265-8470-cfcaa69eeb3a-f04cd78b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/91f2bd4e-0e34-4265-8470-cfcaa69eeb3a.avif")
 [Generate](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Bold make up
-![image creative 248x348: Woman with long straight orange hair in a red floral top](https://cdn-cms-uploads.picsart.com/cms-uploads/112a54be-a76c-421a-842a-060f0d2b33fb.avif)
+![image creative 248x348: Woman with long straight orange hair in a red floral top](media/112a54be-a76c-421a-842a-060f0d2b33fb-2d741d67.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/112a54be-a76c-421a-842a-060f0d2b33fb.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Orange hair
-![image creative 248x348: Woman with long black hair and red lipstick.](https://cdn-cms-uploads.picsart.com/cms-uploads/bea383c3-bf8d-4663-9e8f-a188310e970e.avif)
+![image creative 248x348: Woman with long black hair and red lipstick.](media/bea383c3-bf8d-4663-9e8f-a188310e970e-1e2f3e0a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bea383c3-bf8d-4663-9e8f-a188310e970e.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Red lipstick
-![image creative 248x348: Woman with dark wavy hair, dark lipstick, and a silver necklace](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a50381-285e-4b7e-ac5c-6474d5edfe9e.avif)
+![image creative 248x348: Woman with dark wavy hair, dark lipstick, and a silver necklace](media/e2a50381-285e-4b7e-ac5c-6474d5edfe9e-9434d593.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a50381-285e-4b7e-ac5c-6474d5edfe9e.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Dark lipstick
-![image creative 248x348: Woman with curly black hair, gold hoop earrings, and soft glam makeup](https://cdn-cms-uploads.picsart.com/cms-uploads/a53eab5e-db39-417e-95f0-70bd7f885525.avif)
+![image creative 248x348: Woman with curly black hair, gold hoop earrings, and soft glam makeup](media/a53eab5e-db39-417e-95f0-70bd7f885525-2aef6401.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a53eab5e-db39-417e-95f0-70bd7f885525.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 Curly
 [button: Load More]
@@ -89,7 +89,7 @@ Curly
 
 ### Watch how AI Retouch works
 See how AI Retouch turns any selfie into a polished, share-ready photo in seconds. Skin fixes, trending looks, and fun selfie transformations - all in one tap, no experience needed.
-![video ui-screenshot 1120x630: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e512bc0d-ef1f-4799-b8df-60961ef1c30e.webm)
+![video ui-screenshot 1120x630: ](media/e512bc0d-ef1f-4799-b8df-60961ef1c30e-38041e5f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e512bc0d-ef1f-4799-b8df-60961ef1c30e.webm")
 [Get started](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 
 ## S05 feature-row
@@ -111,18 +111,18 @@ Upload your selfie
 #### Upload your selfie or portrait
 Select a clear photo from your gallery to get started. For the best results, choose a well-lit image where your face is fully visible. AI Retouch works with any selfie or portrait, no professional photography needed.
 Get started
-![image creative 579x579: Upload your selfie or portrait](https://cdn-cms-uploads.picsart.com/cms-uploads/4c930829-f759-4f6a-a005-fd0193561f12.avif)
+![image creative 579x579: Upload your selfie or portrait](media/4c930829-f759-4f6a-a005-fd0193561f12-09f7c8ac.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c930829-f759-4f6a-a005-fd0193561f12.avif")
 
 ## S07 feature-callout
 
 ### Try fun transformations: age swap, gender change & more
 Explore playful AI retouch features designed for creative expression. Try an AI age transformation to see yourself older or younger, experiment with an AI gender swap, apply an AI historical photo filter, generate an AI passport photo, or preview an AI bridal look. These fun photo effects are made for sharing, storytelling, and social-first moments.
 [Start now](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/5cf85bce-45ef-4d31-a222-b8ff7cc1dd5d.webm)
+![video creative 539x539: ](media/5cf85bce-45ef-4d31-a222-b8ff7cc1dd5d-2ac37709.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/5cf85bce-45ef-4d31-a222-b8ff7cc1dd5d.webm")
 
 ## S08 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e95bbdbc-89b4-4ad1-8e73-b45b0b2b6663.webm)
+![video creative 539x539: ](media/e95bbdbc-89b4-4ad1-8e73-b45b0b2b6663-9572ba65.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e95bbdbc-89b4-4ad1-8e73-b45b0b2b6663.webm")
 ### Explore trending looks: clean girl, soft glam & more
 Experiment with the aesthetics taking over your feed using an instant AI makeover online. Apply a Clean Girl aesthetic AI preset, test a Soft Glam AI filter, explore the Old Money look AI, or tap into a bold Douyin filter. From freckles to Baddie Glam, this AI photo makeover lets you try trending looks in one tap - no commitment required.
 [Start now](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
@@ -132,18 +132,18 @@ Experiment with the aesthetics taking over your feed using an instant AI makeove
 ### Enhance your skin with AI Retouch in one tap
 Get smooth, polished, photo-ready results instantly with AI skin retouch presets. Use an AI blemish remover, AI wrinkle remover, or AI eye bag remover to refine your look, reduce redness in photo AI edits, and apply skin smoothing with a natural finish. Add a matte skin filter or soft skin glow - each enhancement works in one tap, no manual adjustments needed.
 [Get started](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/847ac184-0281-4953-8248-2b257c4b0092.webm)
+![video creative 539x539: ](media/847ac184-0281-4953-8248-2b257c4b0092-398408bc.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/847ac184-0281-4953-8248-2b257c4b0092.webm")
 
 ## S10 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0dbc1ad5-0f34-41a9-b729-0c3da4c45e51.webm)
+![video creative 539x539: ](media/0dbc1ad5-0f34-41a9-b729-0c3da4c45e51-c279bd54.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0dbc1ad5-0f34-41a9-b729-0c3da4c45e51.webm")
 ### Experiment with AI face presets
 Try creative face presets that let you explore different styles in seconds. Apply an AI slim nose filter, AI fuller lips filter, or AI face lift photo effect to see how subtle shifts change the vibe. Add an AI long lashes filter, AI full brows filter, or use an AI teeth whitener photo preset for a polished finish. Each AI face reshape option works like a filter - a preset-based way to experiment, express, and see how different looks feel, all in one tap.
 [Start creating](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 
 ## S11 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/810a7895-82ba-4ea1-9cb9-8aede14031b5.webm)
+![video creative 539x539: ](media/810a7895-82ba-4ea1-9cb9-8aede14031b5-e52e241f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/810a7895-82ba-4ea1-9cb9-8aede14031b5.webm")
 ### Try AI makeup looks without a makeup bag
 Play with every vibe using an AI makeup filter designed for instant transformation. Go bold with Full Glam or a dramatic AI Smokey Eye filter, keep it fresh with an AI Natural Glow filter, or swipe on an AI Red Lip filter in seconds. Test Retro makeup AI styles or a trending Douyin makeup filter - all through AI virtual makeup try on, no products required.
 [Start creating](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
@@ -159,24 +159,24 @@ Play with every vibe using an AI makeup filter designed for instant transformati
 #### Fun personality creation
 See yourself at every age, try an AI gender swap, step into a historical portrait, or preview a bridal look. These playful transformations are made for sharing and sparking conversation.
 [Get started](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 500x500: Fun personality creation](https://cdn-cms-uploads.picsart.com/cms-uploads/c06664da-4def-47da-858c-c311252d2f12.avif)
+![image creative 500x500: Fun personality creation](media/c06664da-4def-47da-858c-c311252d2f12-b85ccdcf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c06664da-4def-47da-858c-c311252d2f12.avif")
 
 ## S13 gallery
 
 ### Create endless looks with AI retouch
-![image creative 651x366: Woman with blue eyes and a pink headband](https://cdn-cms-uploads.picsart.com/cms-uploads/264b26a8-41fe-43f9-94fb-771d0efca271.avif)
+![image creative 651x366: Woman with blue eyes and a pink headband](media/264b26a8-41fe-43f9-94fb-771d0efca271-ccdfdef6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/264b26a8-41fe-43f9-94fb-771d0efca271.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Man posing outdoors near pink flowers](https://cdn-cms-uploads.picsart.com/cms-uploads/9f55e3c8-902a-4446-886a-3438f66fe5c0.avif)
+![image creative 651x366: Man posing outdoors near pink flowers](media/9f55e3c8-902a-4446-886a-3438f66fe5c0-29e132eb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9f55e3c8-902a-4446-886a-3438f66fe5c0.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Young girl with red hair, a floral headband, and a white lace dress" "Girl in an Egyptian-inspired costume lying on grass" "Woman with dark hair covering her face with her hand, with a small heart on her cheek"](https://cdn-cms-uploads.picsart.com/cms-uploads/ddcc976c-3291-4693-a37e-858019dc7a58.avif)
+![image creative 651x366: Young girl with red hair, a floral headband, and a white lace dress" "Girl in an Egyptian-inspired costume lying on grass" "Woman with dark hair covering her face with her hand, with a small heart on her cheek"](media/ddcc976c-3291-4693-a37e-858019dc7a58-d5ceb7f5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ddcc976c-3291-4693-a37e-858019dc7a58.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Elderly man with white hair and beard on a beach](https://cdn-cms-uploads.picsart.com/cms-uploads/ddd9d033-f231-45e8-b4a4-a8f7cddddb3a.avif)
+![image creative 651x366: Elderly man with white hair and beard on a beach](media/ddd9d033-f231-45e8-b4a4-a8f7cddddb3a-bfafa0a8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ddd9d033-f231-45e8-b4a4-a8f7cddddb3a.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Woman with dark hair covering her face with her hand, with a small heart on her cheek](https://cdn-cms-uploads.picsart.com/cms-uploads/831f9d3d-de5f-4f86-884a-01bd587df27d.avif)
+![image creative 651x366: Woman with dark hair covering her face with her hand, with a small heart on her cheek](media/831f9d3d-de5f-4f86-884a-01bd587df27d-ae0e4e60.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/831f9d3d-de5f-4f86-884a-01bd587df27d.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Girl in an Egyptian-inspired costume lying on grass](https://cdn-cms-uploads.picsart.com/cms-uploads/ec97ead7-60f4-469a-b523-af20594ae02d.avif)
+![image creative 651x366: Girl in an Egyptian-inspired costume lying on grass](media/ec97ead7-60f4-469a-b523-af20594ae02d-b8a65906.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ec97ead7-60f4-469a-b523-af20594ae02d.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
-![image creative 651x366: Young man with dark hair and a neutral expression](https://cdn-cms-uploads.picsart.com/cms-uploads/292b3a8d-e9e5-4c49-9dda-afcd40f60949.avif)
+![image creative 651x366: Young man with dark hair and a neutral expression](media/292b3a8d-e9e5-4c49-9dda-afcd40f60949-0b42f095.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/292b3a8d-e9e5-4c49-9dda-afcd40f60949.avif")
 [Apply](https://picsart.com/create/editor?category=miniapps&app=com.picsart.edit.ai-retouch)
 
 ## S14 feature-list

@@ -7,7 +7,7 @@
 ## Free Online Instagram Video Maker
 Turn your images into scroll-stopping stories using Picsart’s free online Instagram Video Maker. Designed for businesses, creator, and anyone looking to share content that stands out, this tool makes it simple to add text, transitions and animations within minutes.
 Create an Instagram Video now
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a38c6975-e40a-4409-9297-64e8cc0ff6ab.webm)
+![video creative 480x480: ](media/a38c6975-e40a-4409-9297-64e8cc0ff6ab-7cd7e387.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a38c6975-e40a-4409-9297-64e8cc0ff6ab.webm")
 
 ## S02 link-grid
 
@@ -65,13 +65,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S04 feature-row
 
-![image icon 96x96: icon for ig story creation](https://cdn-cms-uploads.picsart.com/cms-uploads/88f671dd-31b0-4c93-9871-fa075456c2ee.png)
+![image icon 96x96: icon for ig story creation](media/88f671dd-31b0-4c93-9871-fa075456c2ee-b8a81347.png "https://cdn-cms-uploads.picsart.com/cms-uploads/88f671dd-31b0-4c93-9871-fa075456c2ee.png")
 #### Streamlined story creation
 Design animated stories in seconds with an intuitive and all-in-one free Instagram Video Maker.
-![image icon 96x96: Pro-quality visuals with no effort](https://cdn-cms-uploads.picsart.com/cms-uploads/e22e92d0-fe44-4037-b1a6-edf3d4b85698.png)
+![image icon 96x96: Pro-quality visuals with no effort](media/e22e92d0-fe44-4037-b1a6-edf3d4b85698-d6a13470.png "https://cdn-cms-uploads.picsart.com/cms-uploads/e22e92d0-fe44-4037-b1a6-edf3d4b85698.png")
 #### Pro-quality visuals with no effort
 Craft standout stories using motion-rich templates and modern design tools.
-![image icon 96x96: Create and edit on any device](https://cdn-cms-uploads.picsart.com/cms-uploads/15ecb13c-7bba-4d58-bfba-3e2264715e35.png)
+![image icon 96x96: Create and edit on any device](media/15ecb13c-7bba-4d58-bfba-3e2264715e35-6555f49d.png "https://cdn-cms-uploads.picsart.com/cms-uploads/15ecb13c-7bba-4d58-bfba-3e2264715e35.png")
 #### Create and edit on any device
 Access the Instagram video editor on web, iOS, or Android - no downloads or setup required.
 
@@ -93,47 +93,47 @@ Open the free Instagram Video Maker.
 #### Preview and refine
 7
 #### Export your story
-![video ui-screenshot 480x752: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f08e88c6-8791-48ea-9f4c-f5772fcfe438.webm)
+![video ui-screenshot 480x752: ](media/f08e88c6-8791-48ea-9f4c-f5772fcfe438-ba2e5020.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f08e88c6-8791-48ea-9f4c-f5772fcfe438.webm")
 
 ## S06 feature-callout
 
 ### Relive highlights with IG story recaps
 Transform your photos into animated story recaps for events, launches or key moments. Whether it’s a product drop or a personal milestone, the Instagram Video Maker helps you shape memories into engaging visual narratives.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2ac6a69d-eeab-4cb6-b25e-1a7accca7a2a.webm)
+![video creative 480x480: ](media/2ac6a69d-eeab-4cb6-b25e-1a7accca7a2a-f40464e2.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2ac6a69d-eeab-4cb6-b25e-1a7accca7a2a.webm")
 
 ## S07 feature-callout
 
 ### Create animated visuals for any platform
 Design stories that are platform-ready from the start. Each template is optimized in 9:16 format and built for smooth performance across Instagram, TikTok, Facebook and more. No resizing, no reformatting - just pick a template and you’re ready to share.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7d90cc6e-a7da-4b4a-ace7-81355c14c7e2.webm)
+![video creative 480x480: ](media/7d90cc6e-a7da-4b4a-ace7-81355c14c7e2-51af95e5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7d90cc6e-a7da-4b4a-ace7-81355c14c7e2.webm")
 
 ## S08 feature-callout
 
 ### Make an Instagram video in minutes
 Go from idea to animated visuals in just a few clicks. The Instagram video creator handles transitions, timing, and layout, so you can stay focused on your content. It’s the fastest way to create scroll-stopping visuals without needing editing experience.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/266573a7-b86a-4ca5-9524-75f63bbeca6d.webm)
+![video creative 480x480: ](media/266573a7-b86a-4ca5-9524-75f63bbeca6d-42360fc7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/266573a7-b86a-4ca5-9524-75f63bbeca6d.webm")
 
 ## S09 feature-callout
 
 ### Customize templates to match your brand
 Easily update placeholder text for product details, pricing, or service info. Adjust the template colors to reflect your brand identity with just a few clicks. Create consistent, on-brand content without starting from scratch every time.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/523a1c47-81c9-4826-b886-d14fbd140c63.webm)
+![video creative 480x480: ](media/523a1c47-81c9-4826-b886-d14fbd140c63-cc7aec18.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/523a1c47-81c9-4826-b886-d14fbd140c63.webm")
 
 ## S10 feature-callout
 
 Make Instagram videos for every need
 Create buzz around your products
 Highlight new arrivals, flash sales or exclusive offers using animated story templates built to catch attention. With bold visuals, motion effects, and customizable text, you can create product promos that stop the scroll and spark interest, perfect for e-commerce, retail or handmade goods looking to stand out on any social platform.
-![image creative 591x591: instagram video maker for products](https://cdn-cms-uploads.picsart.com/cms-uploads/0eee34d8-dc36-458c-81f7-86f288d7263e.webp)
+![image creative 591x591: instagram video maker for products](media/0eee34d8-dc36-458c-81f7-86f288d7263e-c96e1ec4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0eee34d8-dc36-458c-81f7-86f288d7263e.webp")
 Promote your services with ease
 From salon specials to freelance portfolios, this free Instagram video maker helps you present services in a visual format. Add photos, text overlays and subtle transitions to create a polished look that’s easy to update and share - whether you're a local business, a consultant or a creative looking to get noticed.
-![image creative 591x591: instagram video maker to promote services](https://cdn-cms-uploads.picsart.com/cms-uploads/c9d3bf7b-827b-477a-809a-e4d970ffaf69.webp)
+![image creative 591x591: instagram video maker to promote services](media/c9d3bf7b-827b-477a-809a-e4d970ffaf69-635996d3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c9d3bf7b-827b-477a-809a-e4d970ffaf69.webp")
 Give your events a visual edge
 Turn event highlights into animated stories in just a few steps. Add your favorite photos, drop in captions, and apply transitions to recap the energy of the day, from concerts and conferences to celebrations. Perfect for quick thank-you posts or social updates that capture the moment.
-![image creative 591x369: instagram video maker for events](https://cdn-cms-uploads.picsart.com/cms-uploads/0d8aafba-8e7a-4832-8745-e796810895c4.webp)
+![image creative 591x369: instagram video maker for events](media/0d8aafba-8e7a-4832-8745-e796810895c4-2ea9dff7.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0d8aafba-8e7a-4832-8745-e796810895c4.webp")
 Celebrate personal moments or send invites
 Make birthdays, announcements or invites more memorable with animated story templates. Add custom text, images and transitions to reflect your tone and style. Create anything from party invites to milestone announcements - the Instagram Video Maker makes it easy to design stories that feel personal and polished.
-![image creative 591x369: instagram video maker for personal uses](https://cdn-cms-uploads.picsart.com/cms-uploads/a2f80a36-3b02-42b4-bb38-a8c7483d8f51.webp)
+![image creative 591x369: instagram video maker for personal uses](media/a2f80a36-3b02-42b4-bb38-a8c7483d8f51-30f66fc1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a2f80a36-3b02-42b4-bb38-a8c7483d8f51.webp")
 
 ## S11 feature-list
 

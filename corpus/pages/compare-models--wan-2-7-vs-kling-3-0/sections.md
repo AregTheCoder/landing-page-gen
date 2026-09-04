@@ -8,7 +8,7 @@ AI VIDEO MODELS COMPARISON
 ## WAN 2.7 vs Kling 3.0: control or cinematic quality
 Alibaba's WAN 2.7 and Kuaishou's Kling 3.0 take different approaches to AI video generation. WAN 2.7 stands out with its 9-grid multi-reference system, voice locking, and flexible editing controls. Kling 3.0 delivers native 4K video at up to 60fps with multi-shot storytelling and cinematic motion. Compare both side by side in Picsart's AI Playground.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d987f9c0-5edb-4c01-af87-6e899b092608.webm)
+![video creative 480x480: ](media/d987f9c0-5edb-4c01-af87-6e899b092608-62d60407.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d987f9c0-5edb-4c01-af87-6e899b092608.webm")
 
 ## S02 interactive-demo
 
@@ -69,53 +69,53 @@ Cinematic video, 4K storytelling
 
 ### Discover WAN 2.7 and Kling 3.0 models
 WAN 2.7 focuses on control, using its 9-grid system and voice locking to maintain consistent characters and audio across scenes. Kling 3.0 focuses on quality, delivering native 4K video with multi-shot storytelling, built-in audio, and cinematic motion. In short, WAN prioritizes precision, while Kling delivers more polished, production-ready output.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/99f1e8c9-6b89-4354-a602-dde17247d5f1.webm)
+![video creative 480x480: ](media/99f1e8c9-6b89-4354-a602-dde17247d5f1-4f2badf9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/99f1e8c9-6b89-4354-a602-dde17247d5f1.webm")
 
 ## S05 feature-callout
 
 ### Compare video quality and resolution
 Resolution creates the main difference. Kling 3.0 delivers native 4K video at up to 60fps, making it better suited for cinematic and broadcast use. WAN 2.7 outputs in 1080p, which is still strong for web and social content but a step below in raw quality. Motion and consistency also differ. Kling produces more realistic movement and camera behavior, while WAN excels at maintaining character identity through its multi-reference system.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4dc329-def1-4b60-8f0e-de71194e22da.webm)
+![video creative 480x480: ](media/1d4dc329-def1-4b60-8f0e-de71194e22da-6f027bbf.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4dc329-def1-4b60-8f0e-de71194e22da.webm")
 
 ## S06 feature-callout
 
 ### Explore creative tools and control
 Control is where these models differ most. WAN 2.7 focuses on input-driven precision, using its 9-grid system, voice locking, and instruction-based editing to guide results and maintain consistency. Kling 3.0 focuses on structured creation, offering multi-shot storyboarding, motion tools, and cinematic camera control for building complete scenes. In short, WAN gives more flexibility and reference-based control, while Kling provides stronger narrative tools and polished output.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3bf2ffee-46c4-4bcd-8baf-69b5a4848eb8.webm)
+![video creative 480x480: ](media/3bf2ffee-46c4-4bcd-8baf-69b5a4848eb8-027df505.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3bf2ffee-46c4-4bcd-8baf-69b5a4848eb8.webm")
 
 ## S07 feature-callout
 
 ### Understand pricing, access, and platform integration
 Access is straightforward for both models. WAN 2.7 is available for free as the default option in Picsart, making it easy to start without setup, while Kling 3.0 offers a free tier alongside paid plans for more advanced usage. Ecosystem differences are minimal in practice. Both models are available within Picsart's workflow, so you can switch between them easily based on your project without managing separate tools or subscriptions.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/41c52162-d2a1-464f-bcc4-f59782719904.webm)
+![video creative 480x480: ](media/41c52162-d2a1-464f-bcc4-f59782719904-b321b198.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/41c52162-d2a1-464f-bcc4-f59782719904.webm")
 
 ## S08 feature-callout
 
 ### Pick the best model for your needs
 If you are aiming for precise control, consistent characters, and flexible workflows, WAN 2.7 is the better fit, especially for character-driven content, social media, and projects that rely on multiple references. If you need higher-quality output with 4K resolution, cinematic motion, and structured multi-shot storytelling, Kling 3.0 is a stronger choice for polished, production-ready video. If you want flexibility, use Picsart to access both models and choose the best one for each project.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/46cf7798-0bda-4bfc-9de5-d9ff67854dfd.webm)
+![video creative 480x480: ](media/46cf7798-0bda-4bfc-9de5-d9ff67854dfd-cafe8d21.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/46cf7798-0bda-4bfc-9de5-d9ff67854dfd.webm")
 
 ## S09 tutorial-grid
 
 ### Understand AI influencer workflows
 Learn how to keep characters consistent across prompts and scenes.
-![image thumbnail 294x196: How to create a consistent AI character with Picsart AI Influencer Studio preview](https://cdn-cms-uploads.picsart.com/cms-uploads/66aec0ba-e011-4807-88ff-5f0522b2b123.avif)
+![image thumbnail 294x196: How to create a consistent AI character with Picsart AI Influencer Studio preview](media/66aec0ba-e011-4807-88ff-5f0522b2b123-27cfc305.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/66aec0ba-e011-4807-88ff-5f0522b2b123.avif")
 AI influencers
 #### How to create a consistent AI character with Picsart AI Influencer Studio
 4 min Intermediate
-![image thumbnail 294x196: How to build a complete AI influencer Instagram profile with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/54dc6b46-d92c-456a-a7ed-89c8ad3a0646.avif)
+![image thumbnail 294x196: How to build a complete AI influencer Instagram profile with Picsart preview](media/54dc6b46-d92c-456a-a7ed-89c8ad3a0646-7b89005f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/54dc6b46-d92c-456a-a7ed-89c8ad3a0646.avif")
 AI influencers
 #### How to build a complete AI influencer Instagram profile with Picsart
 5 min Advanced
-![image thumbnail 294x196: How to generate lifestyle content for AI characters with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/f32c8085-e709-4953-adc2-72412969a36c.avif)
+![image thumbnail 294x196: How to generate lifestyle content for AI characters with Picsart preview](media/f32c8085-e709-4953-adc2-72412969a36c-9d636cfb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f32c8085-e709-4953-adc2-72412969a36c.avif")
 AI influencers
 #### How to generate lifestyle content for AI characters with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to create AI influencer video content with Picsart AI Video preview](https://cdn-cms-uploads.picsart.com/cms-uploads/269d200e-5a1f-45ac-adce-9b5d3fe526e2.avif)
+![image thumbnail 294x196: How to create AI influencer video content with Picsart AI Video preview](media/269d200e-5a1f-45ac-adce-9b5d3fe526e2-bd60a89b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/269d200e-5a1f-45ac-adce-9b5d3fe526e2.avif")
 AI influencers
 #### How to create AI influencer video content with Picsart AI Video
 5 min Advanced
-![image thumbnail 294x196: How to monetize an AI influencer account and earn revenue preview](https://cdn-cms-uploads.picsart.com/cms-uploads/bccd4a01-2983-4e60-a5a8-797a37748a19.avif)
+![image thumbnail 294x196: How to monetize an AI influencer account and earn revenue preview](media/bccd4a01-2983-4e60-a5a8-797a37748a19-8de9b271.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bccd4a01-2983-4e60-a5a8-797a37748a19.avif")
 AI influencers
 #### How to monetize an AI influencer account and earn revenue
 5 min Advanced
@@ -140,25 +140,25 @@ It depends on your priorities. WAN 2.7 is stronger for control, multi-reference 
 ## S11 link-grid
 
 ### More AI model comparisons to explore
-![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI video generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp)
+![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI video generation comparison](media/135dae81-f8b2-4487-b873-cebf4340b36a-8b6dfff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp")
 Veo 3.1 vs Kling 3.0 Compare Veo 3.1 and Kling 3.0 head-to-head - resolution, audio generation, motion realism, and pricing for cinematic AI video.
-![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp)
+![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI video model comparison](media/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7-f00fba9f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp")
 Seedance 2.0 vs Kling 3.0 Compare Seedance 2.0 and Kling 3.0 across resolution, speed, control, and audio for e-commerce and cinematic video workflows.
-![image thumbnail 342x282: Kling vs Runway AI video generator comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp)
+![image thumbnail 342x282: Kling vs Runway AI video generator comparison](media/cfcfb357-0b12-47f5-8e78-e4e65168c6db-7591564f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp")
 Kling 3.0 vs Runway Gen 4 Compare Kling 3.0 and Runway Gen 4 on video quality, control tools, and pricing for cinematic AI video generation.
-![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp)
+![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](media/a69952b7-3669-4038-854f-1d365bbeca90-d25c57de.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp")
 Runway Gen 4 vs Veo 3.1 Compare Runway Gen 4 and Veo 3.1 across output quality, audio, creative control, and platform integration.
-![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp)
+![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](media/87d69495-9565-4aec-b716-f7c849e66b1b-54c4e794.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp")
 Flux 2 Pro vs Midjourney Compare Flux 2 Pro and Midjourney across photorealism, artistic style, speed, and pricing for AI image generation.
-![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp)
+![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](media/22f2e909-5f7c-4533-892a-6119456ada3f-3b5d421b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp")
 Recraft V4 vs Midjourney Compare Recraft V4 and Midjourney for typography, vector output, design quality, and pricing.
-![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](media/ff20b102-6a77-4fd6-81f1-d75266821170-15c3ed8e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp")
 GPT Image 1.5 vs Flux 2 Pro Compare GPT Image 1.5 and Flux 2 Pro across prompt adherence, photorealism, speed, and editing controls.
-![image thumbnail 342x282: GPT Image 1.5 vs Midjourney AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Midjourney AI image model comparison](media/288da9d2-eca6-41cb-8c1e-734a0678b8ac-a5c37413.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp")
 GPT Image 1.5 vs Midjourney Compare GPT Image 1.5 and Midjourney across photorealism, artistic style, prompt handling, and pricing.
-![image thumbnail 342x282: Ideogram 3.0 Flash vs Flux 2 Pro AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/37d0c981-94b4-4466-9422-d45c631d39a4.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash vs Flux 2 Pro AI image generation comparison](media/37d0c981-94b4-4466-9422-d45c631d39a4-899bcf25.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/37d0c981-94b4-4466-9422-d45c631d39a4.webp")
 Ideogram 3.0 Flash vs Flux 2 Pro Compare Ideogram 3.0 Flash and Flux 2 Pro on text rendering, speed, resolution, and photorealism.
-![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp)
+![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](media/558fd9db-6923-4c0a-b294-4be80a20aeb1-1908748c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp")
 Nano Banana 2 vs Flux 2 Pro Compare Nano Banana 2 and Flux 2 Pro across realism, speed, creative control, and prompt adherence.
 
 ## S12 pricing

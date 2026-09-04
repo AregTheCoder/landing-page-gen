@@ -8,7 +8,7 @@ AI IMAGE MODELS COMPARISON
 ## Compare GPT Image 1.5 vs Flux 2 Pro for AI images
 OpenAI's GPT Image 1.5 and Flux 2 Pro by Black Forest Labs perform nearly identically on quality benchmarks (Elo 1,264 vs 1,265), but excel in different areas. GPT Image 1.5 leads in text rendering and instruction accuracy, while Flux 2 Pro stands out for speed, higher resolution, and photorealistic depth. Compare both side by side in Picsart AI Image Generator.
 Start generating
-![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb.avif)
+![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](media/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb-7408ec91.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb.avif")
 
 ## S02 link-grid
 
@@ -98,49 +98,49 @@ LoRA supported
 
 ### Explore GPT Image 1.5 and Flux 2 Pro capabilities
 GPT Image 1.5 focuses on precision. It excels at accurate text rendering and following complex prompts, making it a strong fit for structured designs and branded content. Flux 2 Pro focuses on speed and visual quality. It generates images quickly with higher resolution, delivering more realistic lighting, textures, and detail for creative workflows.
-![image creative 480x480: GPT Image 1.5 and Flux 2 Pro capabilities](https://cdn-cms-uploads.picsart.com/cms-uploads/8632c15f-e963-483d-b9e0-a4236c4e02ce.avif)
+![image creative 480x480: GPT Image 1.5 and Flux 2 Pro capabilities](media/8632c15f-e963-483d-b9e0-a4236c4e02ce-6a1a127c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8632c15f-e963-483d-b9e0-a4236c4e02ce.avif")
 
 ## S06 feature-callout
 
 ### Break down accuracy and cinematic quality
 These models perform nearly the same on benchmarks, but differ in output style. GPT Image 1.5 focuses on precision, delivering highly accurate text, clean layouts, and reliable prompt adherence - ideal for branded and text-heavy designs. Flux 2 Pro focuses on visual depth, producing more realistic lighting, textures, and higher-resolution images with a more artistic feel. The choice comes down to intent. GPT Image 1.5 is better for structured, text-driven content, while Flux 2 Pro is better for cinematic visuals and high-resolution creative work.
-![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro accuracy and quality](https://cdn-cms-uploads.picsart.com/cms-uploads/0897494e-1c2e-419b-a1f4-b0127f20d652.avif)
+![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro accuracy and quality](media/0897494e-1c2e-419b-a1f4-b0127f20d652-10b79bb7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0897494e-1c2e-419b-a1f4-b0127f20d652.avif")
 
 ## S07 feature-callout
 
 ### Understand speed, pricing, and access
 Speed creates a clear advantage for Flux 2 Pro. It generates images in seconds, making it ideal for rapid iteration and bulk production, while GPT Image 1.5 takes longer but delivers more controlled results. Pricing depends on usage. GPT Image offers lower-cost options at basic quality, while Flux becomes more cost-effective at higher resolutions. Flux also supports open-weight models and fine-tuning, while GPT Image is closed but tightly integrated with ChatGPT for conversational editing.
-![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro speed and pricing](https://cdn-cms-uploads.picsart.com/cms-uploads/7c74ea3a-9d07-4fcd-a321-4f48e7000439.avif)
+![image creative 480x480: GPT Image 1.5 vs Flux 2 Pro speed and pricing](media/7c74ea3a-9d07-4fcd-a321-4f48e7000439-2642c6bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7c74ea3a-9d07-4fcd-a321-4f48e7000439.avif")
 
 ## S08 feature-callout
 
 ### Choose the right model for your use case
 Choose GPT Image 1.5 when accuracy matters, especially for designs with text like labels, packaging, and brand assets. It's a strong fit for structured workflows and projects where following instructions precisely is critical, including conversational editing through ChatGPT. Choose Flux 2 Pro when visual quality and speed take priority. It works best for photorealistic images, high-resolution outputs, and creative work like concept art or editorial visuals, especially when generating images at scale or using custom styles.
-![image creative 480x480: Choose GPT Image 1.5 or Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/c476a874-7a61-482f-ba0b-0268a88df516.avif)
+![image creative 480x480: Choose GPT Image 1.5 or Flux 2 Pro](media/c476a874-7a61-482f-ba0b-0268a88df516-dddac437.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c476a874-7a61-482f-ba0b-0268a88df516.avif")
 
 ## S09 feature-callout
 
 ### Find your fit: GPT Image 1.5 or Flux 2 Pro
 If you are aiming for precise text rendering, strong prompt control, and reliable results, GPT Image 1.5 is the better fit, especially for brand assets, product images with labels, and text-heavy designs. If you need speed, higher resolution, and more photorealistic visuals, Flux 2 Pro is a stronger choice for creative work, editorial imagery, and large-scale production. If you want flexibility, use Picsart to access both models and choose the best one for each project.
-![image creative 480x480: GPT Image 1.5 or Flux 2 Pro for your workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/57793011-1bc9-4365-8e39-4d469817dc17.avif)
+![image creative 480x480: GPT Image 1.5 or Flux 2 Pro for your workflow](media/57793011-1bc9-4365-8e39-4d469817dc17-c6d68052.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/57793011-1bc9-4365-8e39-4d469817dc17.avif")
 
 ## S10 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -162,15 +162,15 @@ They perform very closely overall, but serve different needs. GPT Image 1.5 stan
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: ai model nano banana](https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp)
+![image thumbnail 342x282: ai model nano banana](media/71e9ad23-ad10-4de2-beda-5cc524b121b8-971f3a02.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp")
 Nano Banana Pro The Nano Banana Pro AI model is a generative AI model built for fast, high-quality visual creation.
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/ba1366fa-0792-4639-9f5e-9dd832ac458b-099ab47b.png "https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png")
 Seedream 4.5 Picsart's AI Image Editor and AI Image Generator have integrated ByteDance's Seedream model, giving creators access to high-aesthetic image generation directly inside their creative workflow.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 Ideogram 3.0 Flash Picsart's AI Image Generator has integrated Ideogram 3.0 Flash, bringing lightning-fast image generation with exceptional creative precision directly into your workflow.
-![image thumbnail 342x282: Recraft V4 AI Image Model](https://cdn-cms-uploads.picsart.com/cms-uploads/57b2ef08-c555-4cfe-84b8-eed5c1964a22.webp)
+![image thumbnail 342x282: Recraft V4 AI Image Model](media/57b2ef08-c555-4cfe-84b8-eed5c1964a22-9bd6eb10.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/57b2ef08-c555-4cfe-84b8-eed5c1964a22.webp")
 Recraft V4 Picsart is among the first platforms to integrate Recraft V4, the first image model built around design taste, not just prompt accuracy.
-![image thumbnail 342x282: gpt 1.5 image model](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: gpt 1.5 image model](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 GPT Image 1.5 GPT Image 1.5 is OpenAI’s advanced image generation model, designed to produce realistic visuals from natural prompts.
 
 ## S13 pricing

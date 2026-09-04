@@ -5,13 +5,13 @@
 ## S01 hero
 
 Cookie - V3
-![image creative 180x120: Sky Cloud](https://cdn-cms-uploads.picsart.com/cms-uploads/661eb519-4a8a-4c5e-a100-5e8f53ae4281.webp)
+![image creative 180x120: Sky Cloud](media/661eb519-4a8a-4c5e-a100-5e8f53ae4281-db7487cf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/661eb519-4a8a-4c5e-a100-5e8f53ae4281.webp")
 Cookie photoshoot - GPT 4
-![image creative 180x140: Fluffy Cloud Plush](https://cdn-cms-uploads.picsart.com/cms-uploads/82e51dda-2592-4251-aa83-69cb57802818.webp)
+![image creative 180x140: Fluffy Cloud Plush](media/82e51dda-2592-4251-aa83-69cb57802818-82d17b27.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/82e51dda-2592-4251-aa83-69cb57802818.webp")
 Hand - Seedream 4.0
-![image creative 200x120: Paper Fans](https://cdn-cms-uploads.picsart.com/cms-uploads/6ec7cbfc-6fcb-4598-9562-89fc85993fb2.webp)
+![image creative 200x120: Paper Fans](media/6ec7cbfc-6fcb-4598-9562-89fc85993fb2-75faf11f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6ec7cbfc-6fcb-4598-9562-89fc85993fb2.webp")
 Cookie ad - VEO 3.1
-![video creative 200x200: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8383eec5-3c6d-4fcb-b423-dcbfe024b1ed.mp4)
+![video creative 200x200: ](media/8383eec5-3c6d-4fcb-b423-dcbfe024b1ed-f936bd3b.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/8383eec5-3c6d-4fcb-b423-dcbfe024b1ed.mp4")
 ## Design workflows - Picsart Flow
 Picsart Flow lets you design workflows and connect AI models, including Nano Banana 2, Gemini, and GPT, in one canvas. A no-code AI workflow tool built for creative freedom.
 Try now Explore templates
@@ -24,14 +24,14 @@ Explore community-built templates for repeatable creative workflows, then remix 
 
 ## S03 feature-callout
 
-![video creative 1440x800: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b43b79bc-5be8-4b5c-9dc2-484fee161201.mp4)
+![video creative 1440x800: ](media/b43b79bc-5be8-4b5c-9dc2-484fee161201-8e9f0aca.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/b43b79bc-5be8-4b5c-9dc2-484fee161201.mp4")
 
 ## S04 gallery
 
 ### World’s leading AI models, united in one creative platform
 Access an extensive collection of AI models from Google, OpenAI, and beyond, fueling creativity across image, video, and text on an infinite canvas.
 [Try for free](https://picsart.com/create/workflows)
-![image decorative 124x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/30b20fa6-4869-4279-8e31-98a1ec1086b9.png)
+![image decorative 124x40: Company logo](media/30b20fa6-4869-4279-8e31-98a1ec1086b9-f568b530.png "https://cdn-cms-uploads.picsart.com/cms-uploads/30b20fa6-4869-4279-8e31-98a1ec1086b9.png")
 #### Imagen 4
 Best for highly creative visuals
 #### VEO 3.1
@@ -42,7 +42,7 @@ Best for social content, group shots, lifestyle visuals
 Best for combining, editing and generating with high speed
 #### Nano Banana 2
 Best for detailed visuals with strong prompt control
-![image decorative 149x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/37bfc964-5ee6-4775-a4d4-f38fa5a49894.png)
+![image decorative 149x40: Company logo](media/37bfc964-5ee6-4775-a4d4-f38fa5a49894-9a6a8343.png "https://cdn-cms-uploads.picsart.com/cms-uploads/37bfc964-5ee6-4775-a4d4-f38fa5a49894.png")
 #### GPT-5
 Best for premium visuals, creative work, and dynamic storytelling
 #### Sora 2
@@ -51,50 +51,50 @@ Best for vertical clips and lip syncing
 Best for generative image editing
 #### GPT-4
 Best for image-to-image
-![image decorative 203x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/322ee67d-6462-4eae-b97a-1fa4290c45ab.png)
+![image decorative 203x40: Company logo](media/322ee67d-6462-4eae-b97a-1fa4290c45ab-31d0b9fd.png "https://cdn-cms-uploads.picsart.com/cms-uploads/322ee67d-6462-4eae-b97a-1fa4290c45ab.png")
 #### Gen 4
 Best for consistent characters & video frame generations
-![image decorative 181x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/c1aadbca-0953-4b99-9d69-4b04f490138f.png)
+![image decorative 181x40: Company logo](media/c1aadbca-0953-4b99-9d69-4b04f490138f-a0324c5f.png "https://cdn-cms-uploads.picsart.com/cms-uploads/c1aadbca-0953-4b99-9d69-4b04f490138f.png")
 #### V3
 Best for creative text-to-image generation
 #### Character Reference
 Best for consistent character rendering
-![image decorative 137x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/2ef63f84-d3d8-4fb6-a62e-7c44bf7f9bc9.png)
+![image decorative 137x40: Company logo](media/2ef63f84-d3d8-4fb6-a62e-7c44bf7f9bc9-650d30c0.png "https://cdn-cms-uploads.picsart.com/cms-uploads/2ef63f84-d3d8-4fb6-a62e-7c44bf7f9bc9.png")
 #### Qwen 3 (Max and Pro)
 Best for text rendering & detailed prompts
-![image decorative 128x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/6e768a49-f79b-4b41-9421-970659041425.png)
+![image decorative 128x40: Company logo](media/6e768a49-f79b-4b41-9421-970659041425-10942224.png "https://cdn-cms-uploads.picsart.com/cms-uploads/6e768a49-f79b-4b41-9421-970659041425.png")
 #### Pika 2.2
 Best for quick generations of short videos or multi-scene control
 #### PikaScenes
 Best for scene-focused cinematic video creation
-![image decorative 204x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/d1fd68b7-bffe-4c1c-bd98-72418286c9af.png)
+![image decorative 204x40: Company logo](media/d1fd68b7-bffe-4c1c-bd98-72418286c9af-31166297.png "https://cdn-cms-uploads.picsart.com/cms-uploads/d1fd68b7-bffe-4c1c-bd98-72418286c9af.png")
 #### Hailou 2 Pro
 Best for fast, basic shot generations
-![image decorative 149x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/acc59521-510d-4b3f-95ed-bd6471da9cc1.png)
+![image decorative 149x40: Company logo](media/acc59521-510d-4b3f-95ed-bd6471da9cc1-718c5cb5.png "https://cdn-cms-uploads.picsart.com/cms-uploads/acc59521-510d-4b3f-95ed-bd6471da9cc1.png")
 #### Kling 2.1
 Best for high quality short videos from images or prompts
 #### Kling 2.5 (Turbo)
 Best for high-speed, high-quality video generation
-![image decorative 232x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/5db77007-e9b4-4d84-896f-47949727c190.png)
+![image decorative 232x40: Company logo](media/5db77007-e9b4-4d84-896f-47949727c190-62b83aa0.png "https://cdn-cms-uploads.picsart.com/cms-uploads/5db77007-e9b4-4d84-896f-47949727c190.png")
 #### Seedream 4.0
 Best for 4k and storyboarding
 #### Seedance 1.0 (Pro & Fast)
 Best for narrative control and prompt adherence
 #### Omni-human 1.0
 Best for realistic human modeling
-![image decorative 136x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/54719264-4e2b-428a-afab-3998e686cb6c.png)
+![image decorative 136x40: Company logo](media/54719264-4e2b-428a-afab-3998e686cb6c-492ec3d0.png "https://cdn-cms-uploads.picsart.com/cms-uploads/54719264-4e2b-428a-afab-3998e686cb6c.png")
 #### Wan 2.5
 Best for realistic audio matching
-![image icon 40x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/78072660-25c6-49a3-b020-46887659512c.png)
+![image icon 40x40: Company logo](media/78072660-25c6-49a3-b020-46887659512c-d7f9991e.png "https://cdn-cms-uploads.picsart.com/cms-uploads/78072660-25c6-49a3-b020-46887659512c.png")
 #### Hunyuan 3
 Best for realism and details
-![image decorative 162x40: Company logo](https://cdn-cms-uploads.picsart.com/cms-uploads/822ae587-0bf6-4c8e-8463-b332ea72f4e5.png)
+![image decorative 162x40: Company logo](media/822ae587-0bf6-4c8e-8463-b332ea72f4e5-3dc69152.png "https://cdn-cms-uploads.picsart.com/cms-uploads/822ae587-0bf6-4c8e-8463-b332ea72f4e5.png")
 #### Flux Kontext (Pro & Max)
 Best for image editing and resizing
 
 ## S05 feature-callout
 
-![video creative 1440x800: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b6f634bb-c1a6-455a-a877-3960d96ed9f8.mp4)
+![video creative 1440x800: ](media/b6f634bb-c1a6-455a-a877-3960d96ed9f8-312d86f1.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/b6f634bb-c1a6-455a-a877-3960d96ed9f8.mp4")
 Build faster with AI Copilot in Flow
 Copilot is a new built-in AI layer inside Picsart Flow that removes the technical lift from your workflow.
 
@@ -128,11 +128,11 @@ Keep lighting, character states, and audio consistent across every scene, so you
 Upload or generate to begin
 Upload or create new content with AI to kickstart your project.
 Try for free
-![image creative 600x600: Visual](https://cdn-cms-uploads.picsart.com/cms-uploads/8cee42a1-cf66-4efb-a1cc-91538d91948c.webp)
+![image creative 600x600: Visual](media/8cee42a1-cf66-4efb-a1cc-91538d91948c-478d39d7.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/8cee42a1-cf66-4efb-a1cc-91538d91948c.webp")
 
 ## S08 feature-callout
 
-![video creative 1440x800: ](https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4)
+![video creative 1440x800: ](media/600d53ae-8434-439b-ac47-0aa637fe1ee7-c4889515.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4")
 Create together in one canvas
 Collaborate in real time and create workflows with multiplayer editing, live chat, and commenting - all inside one shared canvas.
 
@@ -166,9 +166,9 @@ Try for free
 ## S11 resource-links
 
 ### How Picsart shapes the future of creativity
-![image thumbnail 373x210: Meet Picsart Assistant & Flow preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e29a3838-0ace-48ba-a352-8251f4e3ad97.webp)
-![image thumbnail 373x210: Workflow automation guide preview](https://cdn-cms-uploads.picsart.com/cms-uploads/b476daea-7716-4982-ad7a-edfd6c347d0c.webp)
-![image thumbnail 373x210: Seedream 4.0: Smarter AI design preview](https://cdn-cms-uploads.picsart.com/cms-uploads/0a2d1364-dd67-4d09-9e92-7feba3221390.webp)
+![image thumbnail 373x210: Meet Picsart Assistant & Flow preview](media/e29a3838-0ace-48ba-a352-8251f4e3ad97-b8bad887.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e29a3838-0ace-48ba-a352-8251f4e3ad97.webp")
+![image thumbnail 373x210: Workflow automation guide preview](media/b476daea-7716-4982-ad7a-edfd6c347d0c-043f225d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b476daea-7716-4982-ad7a-edfd6c347d0c.webp")
+![image thumbnail 373x210: Seedream 4.0: Smarter AI design preview](media/0a2d1364-dd67-4d09-9e92-7feba3221390-d10886c9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0a2d1364-dd67-4d09-9e92-7feba3221390.webp")
 Meet Picsart Assistant & Flow See how Picsart Assistant and Flow let you ideate, automate, and scale creative workflows with ease. Workflow automation guide Learn how to map, automate, and streamline processes to cut busy-work and boost consistency. Seedream 4.0: Smarter AI design Boost creativity and speed with powerful, intuitive AI design tools built into Picsart Flow.
 
 ## S12 hero

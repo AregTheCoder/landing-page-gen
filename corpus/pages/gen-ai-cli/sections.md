@@ -6,19 +6,19 @@
 
 ## Learn Picsart CLI basics
 Learn how to set up the Picsart CLI and run simple batches.
-![image creative 294x196: How to install the Picsart CLI on Mac, Linux, and Windows preview](https://cdn-cms-uploads.picsart.com/cms-uploads/26b99232-5b30-4e11-9ba8-b72d8f78aa41.avif)
+![image creative 294x196: How to install the Picsart CLI on Mac, Linux, and Windows preview](media/26b99232-5b30-4e11-9ba8-b72d8f78aa41-e4060ccc.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/26b99232-5b30-4e11-9ba8-b72d8f78aa41.avif")
 CLI
 #### How to install the Picsart CLI on Mac, Linux, and Windows
 3 min Beginner
-![image creative 294x196: How to authenticate the Picsart CLI with your account preview](https://cdn-cms-uploads.picsart.com/cms-uploads/960f3e6e-5eb8-4103-831b-2810fcdc33ca.avif)
+![image creative 294x196: How to authenticate the Picsart CLI with your account preview](media/960f3e6e-5eb8-4103-831b-2810fcdc33ca-f7340a40.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/960f3e6e-5eb8-4103-831b-2810fcdc33ca.avif")
 CLI
 #### How to authenticate the Picsart CLI with your account
 2 min Beginner
-![image creative 294x196: How to generate your first AI image with gen-ai generate preview](https://cdn-cms-uploads.picsart.com/cms-uploads/30548b79-2041-40a8-9363-0bf6173b21c3.avif)
+![image creative 294x196: How to generate your first AI image with gen-ai generate preview](media/30548b79-2041-40a8-9363-0bf6173b21c3-c63327e4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/30548b79-2041-40a8-9363-0bf6173b21c3.avif")
 CLI
 #### How to generate your first AI image with gen-ai generate
 4 min Beginner
-![image creative 294x196: How Picsart CLI credits work: pricing guide for beginners preview](https://cdn-cms-uploads.picsart.com/cms-uploads/31ede4f2-203f-4848-9b5b-9252104f0837.avif)
+![image creative 294x196: How Picsart CLI credits work: pricing guide for beginners preview](media/31ede4f2-203f-4848-9b5b-9252104f0837-03988651.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/31ede4f2-203f-4848-9b5b-9252104f0837.avif")
 CLI
 #### How Picsart CLI credits work: pricing guide for beginners
 5 min Beginner

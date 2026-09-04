@@ -8,7 +8,7 @@ AI IMAGE MODELS COMPARISON
 ## Compare Nano Banana 2 vs Flux 2 Pro for AI image generation
 Nano Banana 2 (Google DeepMind) and Flux 2 Pro (Black Forest Labs) take different approaches to AI image generation. Nano Banana 2 focuses on accuracy, instruction following, and reliable text rendering, while Flux 2 Pro stands out with cinematic visuals and painterly realism. Try both side by side in Picsart.
 Start generating
-![image creative 480x480: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/0445e9fd-ed1a-42be-abf4-95ac6618b1cc.avif)
+![image creative 480x480: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](media/0445e9fd-ed1a-42be-abf4-95ac6618b1cc-ec6d41ff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0445e9fd-ed1a-42be-abf4-95ac6618b1cc.avif")
 
 ## S02 interactive-demo
 
@@ -69,49 +69,49 @@ Concept art, creative visuals
 
 ### Nano Banana 2 vs Flux 2 Pro: model overview
 Nano Banana 2 and Flux 2 Pro take different approaches to image generation. Nano Banana 2, part of Google's Gemini Flash Image family, focuses on accuracy - handling complex prompts, rendering text clearly, and maintaining consistent characters across scenes. Flux 2 Pro , developed by Black Forest Labs, focuses on visual style. It produces cinematic, atmospheric images with strong artistic detail and supports multiple references for creative flexibility.
-![image creative 480x480: Nano Banana 2 vs Flux 2 Pro model overview](https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif)
+![image creative 480x480: Nano Banana 2 vs Flux 2 Pro model overview](media/4fed106c-8154-449c-b70d-4fa3285c3d50-e682b572.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif")
 
 ## S05 feature-callout
 
 ### Image quality comparison: logic vs aesthetics
 The difference comes down to accuracy versus visual style. Nano Banana 2 focuses on precision, producing clean images with reliable text, accurate layouts, and strong prompt adherence - ideal for product shots and structured designs. Flux 2 Pro leans into aesthetics, creating richer visuals with cinematic lighting, natural textures, and more artistic interpretation. Choose Nano Banana 2 for accuracy, and Flux 2 Pro for visual impact.
-![image creative 480x480: AI image quality comparison logic vs aesthetics](https://cdn-cms-uploads.picsart.com/cms-uploads/e290f1ef-de9a-46fa-b1fa-efd50628ebfa.avif)
+![image creative 480x480: AI image quality comparison logic vs aesthetics](media/e290f1ef-de9a-46fa-b1fa-efd50628ebfa-5aa1c21e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e290f1ef-de9a-46fa-b1fa-efd50628ebfa.avif")
 
 ## S06 feature-callout
 
 ### Nano Banana vs Flux: explore speed, pricing, and access
 Speed and cost shape how each model fits your workflow. Flux 2 Pro is faster, generating high-quality images in under 10 seconds, which makes it ideal for rapid iteration. Nano Banana 2 takes longer at higher resolutions but offers more predictable results. It's also more cost-efficient overall, with lower API pricing. Both models are available on Picsart, so you can use them without managing separate tools or subscriptions.
-![image creative 480x480: Nano Banana vs Flux speed pricing and access](https://cdn-cms-uploads.picsart.com/cms-uploads/3866877e-2d37-4bc6-b06b-000ce7195c1d.avif)
+![image creative 480x480: Nano Banana vs Flux speed pricing and access](media/3866877e-2d37-4bc6-b06b-000ce7195c1d-15e2cef7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3866877e-2d37-4bc6-b06b-000ce7195c1d.avif")
 
 ## S07 feature-callout
 
 ### Compare use cases: Nano Banana 2 vs Flux 2 Pro
 Choose Nano Banana 2 when accuracy matters - whether you're creating product images with clear labels, building brand assets, or working with layouts that require precise text and consistent characters. It's a strong fit for structured workflows where following instructions closely is critical. Choose Flux 2 Pro when visual impact takes priority. It works best for concept art, cinematic or editorial visuals, and social content that relies on atmosphere, lighting, and creative interpretation rather than strict accuracy.
-![image creative 480x480: Nano Banana 2 vs Flux 2 Pro use cases comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ad530266-8664-4a0e-bab6-8a6315c79dd9.avif)
+![image creative 480x480: Nano Banana 2 vs Flux 2 Pro use cases comparison](media/ad530266-8664-4a0e-bab6-8a6315c79dd9-98e756ea.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ad530266-8664-4a0e-bab6-8a6315c79dd9.avif")
 
 ## S08 feature-callout
 
 ### Find your fit: Nano Banana 2 or Flux 2 Pro
 If you are aiming for accuracy, clean outputs, and reliable text rendering, Nano Banana 2 is the better fit, especially for product images, branding, and structured commercial work. If your focus is visual impact, cinematic quality, and creative expression, Flux 2 Pro is a stronger choice for concept art, editorial visuals, and social content. If you want flexibility, use Picsart to access both (and many more) models in one place and switch based on your project needs.
-![image creative 480x480: Find your fit Nano Banana 2 or Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/da95bac1-aaae-405c-8639-31b89c5add3c.avif)
+![image creative 480x480: Find your fit Nano Banana 2 or Flux 2 Pro](media/da95bac1-aaae-405c-8639-31b89c5add3c-de8c74bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/da95bac1-aaae-405c-8639-31b89c5add3c.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate

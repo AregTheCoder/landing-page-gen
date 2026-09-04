@@ -6,7 +6,7 @@
 
 ## PixVerse: cinematic AI video generation coming soon to Picsart
 PixVerse brings cinematic, audio-synced AI video to Picsart in two versions - C1 and V6. Turn text, images, reference frames, or storyboards into polished, story-ready clips up to 15 seconds at 1080p, with pro camera control and synchronized native audio. C1 is built for film-grade action and storyboard-to-video; V6 adds multi-shot generation and even more accurate camera work. Both live in Picsart's AI Playground and AI Video Generator.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/44491331-56bc-4ade-a7a7-6f1930088374.webm)
+![video creative 480x480: ](media/44491331-56bc-4ade-a7a7-6f1930088374-aa729ae2.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/44491331-56bc-4ade-a7a7-6f1930088374.webm")
 
 ## S02 interactive-demo
 
@@ -17,31 +17,31 @@ PixVerse brings cinematic, audio-synced AI video to Picsart in two versions - C1
 ## S03 gallery
 
 ### Made with PixVerse
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
+![image creative 196x348: ](media/029d49e5-fe69-40f2-a9b6-2594acd9c668-549165ee.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif")
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
+![image creative 196x348: ](media/785634d3-65ab-4464-b901-347896752194-e511932d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif")
 
 ## S04 feature-callout
 
 ### Two engines. One cinematic model.
 PixVerse isn't one model with a version number - it's two purpose-built engines under one roof. C1 is tuned for high-octane action, cinematic VFX, and storyboard-to-video. V6 pushes multi-shot storytelling, pinpoint camera control, and synced native audio. Pick the engine that fits the shot; both turn text, images, and reference frames into finished, sound-ready clips up to 15 seconds at 1080p.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/68168876-2b84-45ae-a27a-1b74e3b9c1f2.webm)
+![video creative 480x480: ](media/68168876-2b84-45ae-a27a-1b74e3b9c1f2-7de7c26e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/68168876-2b84-45ae-a27a-1b74e3b9c1f2.webm")
 
 ## S05 feature-callout
 
 ### Cut between shots without losing the character
 V6 is the newest PixVerse engine, and it thinks in scenes, not single takes. Chain multiple shots in one generation while faces, wardrobe, and emotion carry across every cut. Call the camera move - push, pull, pan, tilt, track, follow - and get synced native audio baked in. Feed it text, an image, reference frames, or start-and-end frames; one prompt lands a finished 1080p clip.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm)
+![video creative 480x480: ](media/3d48f750-f563-41d7-9a77-70a98b4e8816-8ce6826e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm")
 
 ## S06 feature-callout
 
 ### Built for fight scenes, VFX, and storyboards
 C1 is the film engine. Its industrial-grade action system nails the motion most models fumble - martial arts, sword fights, acrobatics - while the cinematic VFX system adds the polish. Drop in storyboard panels and watch them become a continuous sequence, with reference images locking a character's costume and features shot to shot. Output runs 360p to 1080p, 1-15 seconds, audio optional.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm)
+![video creative 480x480: ](media/9119fccd-5d22-49e5-920e-c8aa1d1842f7-0ec67c13.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm")
 
 ## S07 use-case-grid
 
@@ -50,19 +50,19 @@ What you can create with PixVerse
 [button: Storyboards and images into video]
 [button: Cnsistent character-driven scenes]
 Turn a written prompt into a cinematic, 1080p clip with synchronized native audio - directing camera moves, pacing, and performance without cameras, crew, or a set.
-![image creative 879x418: PixVerse text-to-video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp)
+![image creative 879x418: PixVerse text-to-video generation](media/1d3251a6-c9dc-422e-933f-09f3b1916899-23535dab.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp")
 
 ## S08 feature-callout
 
 ### Generate on web, desktop, or your own stack
 PixVerse lives inside Picsart's AI Playground and AI Video Generator , so a prompt or a single image becomes an audio-synced clip you can carry straight into a finished project - no model wrangling required. Prefer to build it in? Reach PixVerse on the web, in the desktop app, or wire it into your own pipeline via CLI, MCP, REST API, and SDK.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0b46c11f-8a3a-458e-b012-97fc34d2f829.webm)
+![video creative 480x480: ](media/0b46c11f-8a3a-458e-b012-97fc34d2f829-52de21d3.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0b46c11f-8a3a-458e-b012-97fc34d2f829.webm")
 
 ## S09 feature-callout
 
 ### Cinematic output you actually control
 Most AI video is a slot machine - PixVerse hands you the director's chair. Camera moves land where you point them, action stays physically believable, and characters hold their identity across scenes. Between C1's action-and-VFX engine and V6's multi-shot, audio-synced generation, one family covers everything from a fight sequence to a polished multi-shot ad - all inside Picsart, no setup required.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm)
+![video creative 480x480: ](media/f31cc9a7-83f4-4b02-ae5f-8de536ee6066-14508f2e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm")
 
 ## S10 tutorial-grid
 
@@ -71,15 +71,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -129,23 +129,23 @@ PixVerse is a cinematic AI video model available in Picsart in two versions - C1
 ## S13 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Veo 3.1](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: Veo 3.1](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 Veo 3.1 Google's advanced text-to-video model with synced audio.
-![image thumbnail 342x282: Kling 3.0](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video with advanced motion control and realism.
-![image thumbnail 342x282: Sora 2](https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp)
+![image thumbnail 342x282: Sora 2](media/a5c54cd3-69a2-465c-9c8d-5520a962148b-c03e2d90.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp")
 Sora 2 OpenAI's model for realistic, physically consistent AI video.
-![image thumbnail 342x282: Runway Gen 4](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video with consistent characters and realistic motion.
-![image thumbnail 342x282: Luma Ray 2](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp)
+![image thumbnail 342x282: Luma Ray 2](media/e2a6880f-4752-43b8-907b-e388725ab15d-eea50768.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp")
 Luma Ray 2 Fast, high-fidelity AI video with realistic lighting and motion.
-![image thumbnail 342x282: WAN 2.7](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: WAN 2.7](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 WAN 2.7 Versatile AI video model for text- and image-to-video.
-![image thumbnail 342x282: Seedance 2.0](https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp)
+![image thumbnail 342x282: Seedance 2.0](media/c3cbf8c8-56bb-4544-97d5-a33e0014e699-46417f29.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp")
 Seedance 2.0 Cinematic AI video with strong motion and character control.
-![image thumbnail 342x282: Kling 3.0 Omni](https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp)
+![image thumbnail 342x282: Kling 3.0 Omni](media/bd014004-e8b5-4f23-bf04-ccf846be1019-e57bb153.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp")
 Kling 3.0 Omni Multimodal Kling model for advanced, realistic AI video.
-![image thumbnail 342x282: Nano Banana Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp)
+![image thumbnail 342x282: Nano Banana Pro](media/ed446ffc-fa3c-4b84-8583-7a55878f82dd-49c550ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp")
 Nano Banana Pro Top-tier 4K image generation with precise text rendering.
 
 ## S14 pricing

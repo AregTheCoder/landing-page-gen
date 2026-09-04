@@ -4,7 +4,7 @@
 
 ## S01 hero
 
-![image creative 1440x640: boy taking a photo in sunset](https://cdn130.picsart.com/22834634539458894540.jpg)
+![image creative 1440x640: boy taking a photo in sunset](media/22834634539458894540-88cd140e.jpg "https://cdn130.picsart.com/22834634539458894540.jpg")
 ## Create Videos for Your Business With Picsart’s Online Video Maker
 Easily create videos for your social media, promotions, presentations, and more.
 Make a Video
@@ -45,38 +45,38 @@ Videos are an essential part of the current media landscape. More and more busin
 ## S04 use-case-grid
 
 ### Popular Video Categories
-![image creative 490x368: boy jumping through the lake in sunset](https://cdn140.picsart.com/28346094886268607828.jpg)
+![image creative 490x368: boy jumping through the lake in sunset](media/28346094886268607828-e62ad65e.jpg "https://cdn140.picsart.com/28346094886268607828.jpg")
 Slideshows
 You can easily assemble eye-catching slideshows with our video maker. Upload your images, videos, add music and start editing! We provide all the tools you need to create professional slideshow videos.
 Make a Video
-![image creative 490x368: ](https://cdn130.picsart.com/77468920618713422116.jpg)
+![image creative 490x368: ](media/77468920618713422116-96e0447d.jpg "https://cdn130.picsart.com/77468920618713422116.jpg")
 Social Media Videos
 Create videos for all of your social media channels. You can resize your videos for platforms like Instagram, YouTube, and Facebook. Our video maker allows you to create content in both story and post format.
 Make a Video
-![image creative 490x368: ](https://cdn140.picsart.com/41779149433041104670.jpg)
+![image creative 490x368: ](media/41779149433041104670-741f7f3f.jpg "https://cdn140.picsart.com/41779149433041104670.jpg")
 Presentation Videos
 Picsart’s video maker is the perfect tool for creating presentation videos. Easily add text, videos, and images to your presentations to get your message across.
 Make a Video
-![image creative 490x327: ](https://cdn140.picsart.com/96074017686460269457.jpg)
+![image creative 490x327: ](media/96074017686460269457-86a62789.jpg "https://cdn140.picsart.com/96074017686460269457.jpg")
 Promo Videos
 Create exceptional promo videos for your business. You can make videos that will help your products/services stand out. Put your best features on display and build your brand with our video maker.
 Make a Video
 
 ## S05 use-case-grid
 
-![image creative 541x406: girl getting her nails done](https://cdn130.picsart.com/07887472487435331807.jpg)
+![image creative 541x406: girl getting her nails done](media/07887472487435331807-e3b6cfe6.jpg "https://cdn130.picsart.com/07887472487435331807.jpg")
 Make Videos for Your Business
 With Picsart, you can create videos that are engaging, memorable, informative, and cohesive. Videos are the perfect way to further promote your business and your marketing efforts. Our video creator is equipped with all the necessary tools to make your videos stand out. You can quickly trim your video, adjust its size and length, add images, text and music. You can choose pictures from our extensive image library to add to your videos. In addition to our image library, Picsart also offers a large library of stock music. This way, you can easily enrich your content by finding the perfect track that complements your videos and messages. As a final touch, add text throughout your video to make your message more prominent.
 Make a Video
-![image creative 541x406: houses near the greenery](https://cdn130.picsart.com/31776479278333160291.jpg)
+![image creative 541x406: houses near the greenery](media/31776479278333160291-c32991f9.jpg "https://cdn130.picsart.com/31776479278333160291.jpg")
 Create Videos Online for Real Estate
 Real estate agents can benefit greatly from using videos to showcase listings. Ask any marketing professional, and you will be convinced that creating videos on a regular basis has a great return on investment. Videos are powerful visual tools, and surprisingly, not as popular in this specific industry. Easily differentiate yourself from your competitors by creating videos for houses and apartments – showing details that could be interesting to your buyers. Picsart’s easy video maker will help you achieve stunning results.
 Make a Video
-![image creative 541x406: food photography](https://cdn140.picsart.com/82018984059287135224.jpg)
+![image creative 541x406: food photography](media/82018984059287135224-10d22648.jpg "https://cdn140.picsart.com/82018984059287135224.jpg")
 Upgrade Your E-Commerce Business
 Simple product shots don’t do the trick anymore. Consumers are much more educated and aware of their purchases, therefore, detailed explanations and showcases of products are essential to your online business. With video, you can dive deep into your product descriptions and put all of your differentiating factors on display. You can create explanatory videos, slideshows, and videos that show consumers how to use your products. Picsart’s video maker facilitates the process of video creation and editing. You can achieve professional-looking edits with its easy-to-use tools.
 Make a Video
-![image creative 541x406: woman throwing stock papers](https://cdn130.picsart.com/10235381891728413693.jpg)
+![image creative 541x406: woman throwing stock papers](media/10235381891728413693-cd05e263.jpg "https://cdn130.picsart.com/10235381891728413693.jpg")
 Create Videos for Educational Purposes
 Educational videos are perfect for teachers and instructors of various fields. Regardless of the age group you are teaching, videos can drive your message home, and can aid your students in fully comprehending the topic you are discussing. With Picsart’s online video maker, you can create educational videos that are entertaining and informative. Our tools allow you to add images and subtitles to your videos without any hassle . You can also create impressive slideshows and presentations that you can later send out to your students. You don’t have to be a professional to create exceptional videos. Picsart makes this process easy and enjoyable.
 Make a Video
@@ -102,12 +102,12 @@ Picsart’s video maker comes with an intuitive interface. Easily create videos 
 ## S08 gallery
 
 Picsart Featured In
-![image creative 202x112: Mashable](https://cdn130.picsart.com/09802469177636365765.png)
-![image creative 202x112: Esquire](https://cdn130.picsart.com/47285095719821756583.png)
-![image creative 202x112: People](https://cdn130.picsart.com/89463096757124705655.png)
-![image creative 202x112: Forbes](https://cdn130.picsart.com/63805377597830460503.png)
-![image creative 202x112: TechCrunch](https://cdn130.picsart.com/49796878310296543626.png)
-![image creative 202x111: BuzzFeed](https://yearly-cdn.picsart.com/cdn140/51714614398164496144.png)
+![image creative 202x112: Mashable](media/09802469177636365765-c08b0b5a.png "https://cdn130.picsart.com/09802469177636365765.png")
+![image creative 202x112: Esquire](media/47285095719821756583-eb5f470e.png "https://cdn130.picsart.com/47285095719821756583.png")
+![image creative 202x112: People](media/89463096757124705655-d19d23df.png "https://cdn130.picsart.com/89463096757124705655.png")
+![image creative 202x112: Forbes](media/63805377597830460503-2a9ef96b.png "https://cdn130.picsart.com/63805377597830460503.png")
+![image creative 202x112: TechCrunch](media/49796878310296543626-eb15a332.png "https://cdn130.picsart.com/49796878310296543626.png")
+![image creative 202x111: BuzzFeed](media/51714614398164496144-70110c77.png "https://yearly-cdn.picsart.com/cdn140/51714614398164496144.png")
 
 ## S09 pricing
 

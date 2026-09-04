@@ -7,7 +7,7 @@
 ## AI font generator
 Create unique, custom fonts effortlessly with an AI font generator. This tool crafts high-quality AI fonts in seconds—perfect for branding, social media, and any design project.
 Try AI font generator
-![image creative 480x480: ai font generator](https://cdn-cms-uploads.picsart.com/cms-uploads/87c30e6b-cbe7-4c7a-b4ee-b31cf69814ec.webp)
+![image creative 480x480: ai font generator](media/87c30e6b-cbe7-4c7a-b4ee-b31cf69814ec-8a9e26f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/87c30e6b-cbe7-4c7a-b4ee-b31cf69814ec.webp")
 
 ## S02 link-grid
 
@@ -40,17 +40,17 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: icon for ai font generator](https://cdn-cms-uploads.picsart.com/cms-uploads/2097c424-d757-4866-b4b9-3f123bca4e60.png)
+![image icon 96x96: icon for ai font generator](media/2097c424-d757-4866-b4b9-3f123bca4e60-510507de.png "https://cdn-cms-uploads.picsart.com/cms-uploads/2097c424-d757-4866-b4b9-3f123bca4e60.png")
 #### Seamless font generation with AI
 Create unique, high-quality typefaces instantly
 using font generation with AI—perfect for branding,
 social media, and design projects.
-![image icon 96x96: icon for font integration](https://cdn-cms-uploads.picsart.com/cms-uploads/ac4d0575-37c8-4130-b49f-3f39a38fbec5.png)
+![image icon 96x96: icon for font integration](media/ac4d0575-37c8-4130-b49f-3f39a38fbec5-aabdc7b6.png "https://cdn-cms-uploads.picsart.com/cms-uploads/ac4d0575-37c8-4130-b49f-3f39a38fbec5.png")
 #### Quick font integration
 Easily access and customize fonts from Picsart's extensive
 library with seamless font integration, while enhancing
 your designs with AI fonts.
-![image icon 96x96: icon for personalized fonts](https://cdn-cms-uploads.picsart.com/cms-uploads/6e362ae0-7c40-49b0-a089-224c4af437a1.png)
+![image icon 96x96: icon for personalized fonts](media/6e362ae0-7c40-49b0-a089-224c4af437a1-5884d9a5.png "https://cdn-cms-uploads.picsart.com/cms-uploads/6e362ae0-7c40-49b0-a089-224c4af437a1.png")
 #### Free and instant personalized fonts
 Create high-quality custom AI fonts for free, effortlessly
 bringing your creative ideas to life.
@@ -67,31 +67,31 @@ Open Picsart and use the Apps button on the left sidebar to find the AI font gen
 #### Customize
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c5a19696-2f13-418f-8095-ac48fc61053f.webm)
+![video ui-screenshot 480x600: ](media/c5a19696-2f13-418f-8095-ac48fc61053f-839b75ff.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c5a19696-2f13-418f-8095-ac48fc61053f.webm")
 
 ## S05 feature-callout
 
 ### AI-powered font generator
 Create unique typefaces effortlessly with an AI-powered font generator. Easily generate custom fonts with AI, tailoring them to your style and needs. Simply input your preferences—style, weight, and character shape—and let AI do the work. Perfect for branding, web design, and creative projects, this free AI font creator makes professional-quality fonts accessible to everyone. For additional design elements, explore a variety of Templates to complement your custom fonts.
-![image creative 480x480: ai-powered font generator for free](https://cdn-cms-uploads.picsart.com/cms-uploads/2d2e0666-a05f-4f18-86c5-0f268c8c05fc.webp)
+![image creative 480x480: ai-powered font generator for free](media/2d2e0666-a05f-4f18-86c5-0f268c8c05fc-1082b5ea.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2d2e0666-a05f-4f18-86c5-0f268c8c05fc.webp")
 
 ## S06 feature-callout
 
 ### Boost brand identity with AI-generated fonts
 Enhance your brand identity with eye-catching fonts designed with AI-generated typefaces. Picsart’s font generator creates unique branding typography, perfect for logos, packaging, websites, and more. Custom fonts help establish a distinct visual presence and boost brand recognition. Whether for a corporate brand or a creative project, this tool ensures every font is bold, memorable, and true to your vision. For even more customization, try the Text editor to refine your typography with advanced design tools.
-![image creative 480x480: boost brand identity with ai-generated fonts](https://cdn-cms-uploads.picsart.com/cms-uploads/7c711856-41a8-4ed9-9c87-ea81e303ca4e.webp)
+![image creative 480x480: boost brand identity with ai-generated fonts](media/7c711856-41a8-4ed9-9c87-ea81e303ca4e-64d8438c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7c711856-41a8-4ed9-9c87-ea81e303ca4e.webp")
 
 ## S07 feature-callout
 
 ### Enhance social media with custom fonts
 Stand out in crowded feeds with unique social media fonts and custom text styles for posts. The AI font generator helps create eye-catching typography that enhances engagement and reinforces brand identity. Whether for ads, stories, or product promotions, custom fonts capture your audience's attention, boosting click-through rates and making your content more memorable on platforms like Instagram, Facebook, and TikTok. Explore a wide collection of fonts to find the perfect typeface for your next post.
-![image creative 480x480: custom fonts for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/39a9c192-3c3e-473d-b801-71c3287a294f.webp)
+![image creative 480x480: custom fonts for social media](media/39a9c192-3c3e-473d-b801-71c3287a294f-22d81f02.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/39a9c192-3c3e-473d-b801-71c3287a294f.webp")
 
 ## S08 feature-callout
 
 ### Customize text with AI-powered effects for unique designs
 The AI Font Generator is just one of many tools available for creating stunning typography. Enhance your fonts with 3D text styles, shadows, gradients, and more using AI-powered text effects. These features allow for greater customization, perfect for adding fonts to images, creating unique lettering for marketing materials, and making your designs truly stand out. Try AI text styles to take your typography to the next level.
-![image creative 480x480: text customization with ai text effects](https://cdn-cms-uploads.picsart.com/cms-uploads/6df3d733-ea68-4fc2-b995-2991c1d5cbb4.webp)
+![image creative 480x480: text customization with ai text effects](media/6df3d733-ea68-4fc2-b995-2991c1d5cbb4-60a1cd30.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6df3d733-ea68-4fc2-b995-2991c1d5cbb4.webp")
 
 ## S09 feature-callout
 
@@ -112,32 +112,32 @@ An AI font generator is a tool that uses artificial intelligence to create uniqu
 ## S11 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: ai photo editing tools](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editing tools](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI photo editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: create images from scratch with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images from scratch with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI image generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI photo enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: Online collage maker from Picsart](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Online collage maker from Picsart](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI replace Use AI to swap any part of your image with an AI-generated object.
-![image thumbnail 342x282: resize images with ease](https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png)
+![image thumbnail 342x282: resize images with ease](media/0016b432-a78b-4ff5-83d4-a5edb9e9824f-591ff22c.png "https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png")
 Resize image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: remove object from photo](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: remove object from photo](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Object remover Erase unwanted objects, such as texts and backgrounds, from your images.
-![image thumbnail 342x282: resume maker](https://pastatic.picsart.com/cms-pastatic/28bb43d3-ddcf-4975-a6df-17968503b899.png)
+![image thumbnail 342x282: resume maker](media/28bb43d3-ddcf-4975-a6df-17968503b899-71b9c8dc.png "https://pastatic.picsart.com/cms-pastatic/28bb43d3-ddcf-4975-a6df-17968503b899.png")
 Resume maker Design ATS-friendly resumes with Picsart’s resume builder.
 
 ## S12 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S13 pricing
 

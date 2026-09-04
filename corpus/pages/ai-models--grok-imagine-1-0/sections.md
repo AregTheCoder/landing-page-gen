@@ -7,7 +7,7 @@
 ## Grok Imagine 1.0 — fast text-to-video AI model with sound
 Generate video the moment inspiration strikes. Grok Imagine 1.0 is xAI's fastest video model — turning a text prompt into a 720p clip with audio in seconds, up to 15 seconds long, with a wide choice of aspect ratios. Run it now in Picsart's AI Playground and AI Video Generator.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm)
+![video creative 480x480: ](media/a7561669-3dae-4ab6-a1d1-97c1eeb40d97-ee82e1f9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm")
 
 ## S02 interactive-demo
 
@@ -20,13 +20,13 @@ Start generating
 
 ### What is Grok Imagine 1.0?
 Grok Imagine 1.0 is xAI's fast text-to-video AI model, available in Picsart's AI Playground. It runs on the fastest generation pipeline in the Grok lineup, producing 720p video with synchronized audio in seconds, in clips up to 15 seconds. Built for speed and a wide range of aspect ratios, it turns a single written prompt into a finished, sound-on clip — ideal for fast social and concept work.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/12fd41b9-12f6-473d-b1f4-7084dd28b117.webm)
+![video creative 480x480: ](media/12fd41b9-12f6-473d-b1f4-7084dd28b117-8fe21919.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/12fd41b9-12f6-473d-b1f4-7084dd28b117.webm")
 
 ## S04 feature-callout
 
 ### Grok Imagine 1.0 capabilities
 Grok Imagine 1.0 is tuned for rapid generation: 720p clips with native audio in seconds, up to 15 seconds long, across a wide selection of aspect ratios for vertical, square, and widescreen output. As a text-to-video model, it builds motion, scene, and sound from a single prompt — no footage or editing required — so you can iterate on ideas at the speed of thought.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f6effeb3-cf20-4386-ab6d-c6d79acc9efc.webm)
+![video creative 480x480: ](media/f6effeb3-cf20-4386-ab6d-c6d79acc9efc-054b1998.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f6effeb3-cf20-4386-ab6d-c6d79acc9efc.webm")
 
 ## S05 use-case-grid
 
@@ -35,37 +35,37 @@ What you can create with Grok Imagine 1.0
 [button: Concept and pitch video]
 [button: Multi-format output]
 Spin up short, sound-on videos for Reels, Shorts, and TikTok in seconds — perfect for high-volume posting and quick trend reactions.
-![image creative 879x418: Grok Imagine 1.0 fast social clips](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: Grok Imagine 1.0 fast social clips](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S06 feature-callout
 
 ### How Grok Imagine 1.0 works inside Picsart
 Picsart integrates Grok Imagine 1.0 into both its AI Playground and AI Video Generator , so you can generate sound-on video from a text prompt without working with the model directly. Write a prompt, pick an aspect ratio, and Grok Imagine 1.0 returns a 720p clip with audio in seconds. When you need higher fidelity or image-to-video input, switch to Grok Imagine 1.5 Preview in the same AI Playground.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278.webm)
+![video ui-screenshot 480x480: ](media/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278-eeb89da7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278.webm")
 
 ## S07 feature-callout
 
 ### Why creators choose Grok Imagine 1.0
 Speed is the headline. Creators choose Grok Imagine 1.0 for near-instant 720p video with audio, clips up to 15 seconds, and a wide range of aspect ratios — all from a single text prompt. For fast-moving social and ideation work, it removes the wait between idea and watchable clip, making high-volume video creation practical without specialized equipment or editing skills.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b.webm)
+![video creative 480x480: ](media/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b-c0b49f52.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b.webm")
 
 ## S08 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -116,23 +116,23 @@ Grok Imagine 1.0 is xAI's fast text-to-video AI model, available in Picsart's AI
 ## S11 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai model nano banana](https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp)
+![image thumbnail 342x282: ai model nano banana](media/71e9ad23-ad10-4de2-beda-5cc524b121b8-971f3a02.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp")
 Nano Banana Pro The Nano Banana Pro AI model is a generative AI model built for fast, high-quality visual creation.
-![image thumbnail 342x282: Sora AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Sora AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model The Sora AI model is a generative AI model built for video creation and visual storytelling.
-![image thumbnail 342x282: Kling AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/91f970ee-a026-4a9b-968d-ede6c2865021.webp)
+![image thumbnail 342x282: Kling AI Model](media/91f970ee-a026-4a9b-968d-ede6c2865021-97e19ea4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/91f970ee-a026-4a9b-968d-ede6c2865021.webp")
 Kling AI Model The Kling AI model is a generative AI model designed for motion-based video creation from text and visual inputs.
-![image thumbnail 342x282: AI model Gemini 2 5 Flash](https://cdn-cms-uploads.picsart.com/cms-uploads/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41.avif)
+![image thumbnail 342x282: AI model Gemini 2 5 Flash](media/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41-a6bfc0ff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41.avif")
 Gemini 2.5 Flash Generate images with Google Gemini 2.5 Flash — fast multimodal AI with native image generation.
-![image thumbnail 342x282: AI model Pika Frames](https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp)
+![image thumbnail 342x282: AI model Pika Frames](media/3321f296-7962-43c9-bcbe-5bd81e55f7ab-998cde1e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp")
 Pika Frames Create precise AI videos with Pika Frames on Picsart.
-![image thumbnail 342x282: AI model Ideogram 3 0 Flash](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image thumbnail 342x282: AI model Ideogram 3 0 Flash](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 Ideogram 3.0 Flash Generate images at lightning speed with Ideogram 3.0 Flash on Picsart.
-![image thumbnail 342x282: AI model PixVerse C1 Image](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp)
+![image thumbnail 342x282: AI model PixVerse C1 Image](media/e2a6880f-4752-43b8-907b-e388725ab15d-eea50768.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp")
 PixVerse C1 Image Animate any photo into film-grade AI video with PixVerse C1 Image on Picsart.
-![image thumbnail 342x282: AI model Flux 2 Klein 4B](https://cdn-cms-uploads.picsart.com/cms-uploads/e7b5f7d2-bd5f-49a1-88d1-542fd30114f8.webp)
+![image thumbnail 342x282: AI model Flux 2 Klein 4B](media/e7b5f7d2-bd5f-49a1-88d1-542fd30114f8-ee83b331.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e7b5f7d2-bd5f-49a1-88d1-542fd30114f8.webp")
 Flux 2 Klein 4B Generate AI images free with Flux 2 Klein 4B on Picsart.
-![image thumbnail 342x282: AI model Veo 3 1 Fast](https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp)
+![image thumbnail 342x282: AI model Veo 3 1 Fast](media/870464b8-5d03-49e6-b10d-e4a5ee978e58-a398e0f6.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp")
 Veo 3.1 Fast Create 4K AI videos at accelerated speed with Veo 3.1 Fast on Picsart.
 
 ## S12 pricing

@@ -7,7 +7,7 @@
 ## Recraft Explore: design-led AI image discovery from Recraft
 Recraft Explore is Recraft's exploratory image model — built for visual discovery rather than literal prompt execution. Available in Picsart's AI Image Generator, Recraft Explore takes your brief in surprising directions, generating design-led visuals that creators use to break out of obvious compositions and find unexpected creative answers.
 Try Recraft Explore in AI Playground
-![image creative 480x480: Recraft Explore hero image](https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp)
+![image creative 480x480: Recraft Explore hero image](media/fac139f1-0aae-4888-99f2-8fdf603c8900-7568b314.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp")
 
 ## S02 interactive-demo
 
@@ -22,7 +22,7 @@ Try Recraft Explore in AI Playground
 
 ### What is Recraft Explore?
 Recraft Explore is the exploratory variant in Recraft's image family. Where standard text-to-image models execute prompts literally, Recraft Explore is tuned for visual discovery — taking the brief in less predictable directions. It carries Recraft's design-taste lineage (clean composition, brand-aware visuals, vector-friendly output) while producing results that feel like creative answers rather than direct illustrations.
-![image creative 480x480: Seedream 4.5 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp)
+![image creative 480x480: Seedream 4.5 AI model](media/bfb444a5-a805-49ea-add8-40358de0b12d-a12d110c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp")
 
 ## S05 use-case-grid
 
@@ -32,43 +32,43 @@ What you can create with Recraft Explore
 [button: Natural-language image editing]
 [button: Marketing and e-commerce visuals]
 Break out of literal-prompt creative ruts. Use Recraft Explore when you've already drafted the obvious answer and want a visual surprise that opens new directions.
-![image creative 879x418: Seedream 4.5 for text rendering in images](https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp)
+![image creative 879x418: Seedream 4.5 for text rendering in images](media/a90b63ab-64e4-4b4f-a541-cdec37abc167-0da70bbd.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Recraft Explore
 Picsart integrates Recraft Explore into both its AI Image Generator and AI Playground . Pick Recraft Explore from the AI Image Generator to generate directly inside Picsart's creative tools, or open it in the AI Playground to compare it head-to-head with other models. It sits alongside Recraft V4, Recraft V4.1, Recraft V4 Pro, Seedream 4.5, and Flux 2 Pro on one credit balance, with the AI Playground giving you side-by-side comparison between exploratory and direct-execution tiers.
-![image creative 480x480: How Picsart uses Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: How Picsart uses Seedream 4.5](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Recraft Explore
 Recraft Explore solves the obvious-prompt problem. Most text-to-image models execute briefs literally — you get exactly what you typed, even when the typed brief was uninspired. Explore breaks that pattern by reaching for less obvious visual answers while staying inside Recraft's design-taste guardrails. The result: a discovery tool for designers, art directors, and creators who already know the literal answer and want surprise.
-![image creative 480x480: Why creators choose Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Why creators choose Seedream 4.5](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S08 feature-callout
 
 ### Recraft Explore inside the Picsart ecosystem
 Recraft Explore is one of several Recraft tiers in Picsart's ecosystem. It works alongside Recraft V4.1 , Recraft V4 , Seedream 4.5 , and Flux 2 Pro — use Explore for creative discovery; switch to V4 or V4.1 for direct design execution.
-![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -118,19 +118,19 @@ Recraft Explore is Recraft's exploratory image model — tuned for visual discov
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Recraft V4.1 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Recraft V4.1 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Recraft V4.1 The latest Recraft model — refined design intuition and exploration.
-![image thumbnail 342x282: Recraft V4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: Recraft V4 AI Model](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Recraft V4 Design-taste AI with vector output and clean brand-ready visuals.
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance Seed's unified generation + editing model with multimodal references.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Flux 2 Pro Black Forest Labs' photorealism flagship — fast iteration with native edit.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Ideogram 3.0 Flash Best-in-class text-in-image rendering with ad-ready typography.
-![image thumbnail 342x282: AI Image Generator AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI Image Generator AI Model](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Picsart's main image surface — every model, one credit balance.
-![image thumbnail 342x282: AI Photo Editor AI Model](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI Photo Editor AI Model](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Edit and refine images with AI tools alongside generated content.
 
 ## S13 pricing

@@ -8,7 +8,7 @@ AI VIDEO MODELS COMPARISON
 ## Seedance 2.0 vs Kling 3.0: control or cinematic quality?
 ByteDance's Seedance 2.0 and Kuaishou's Kling 3.0 are two of the most advanced AI video models in 2026. Seedance 2.0 stands out with multimodal control, supporting up to 12 reference inputs in a single workflow. Kling 3.0 delivers native 4K video at up to 60fps with advanced physics simulation. Compare both side by side in Picsart AI Playground.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f3e723e4-074e-4313-9bdc-ee627b1d79ab.webm)
+![video creative 480x480: ](media/f3e723e4-074e-4313-9bdc-ee627b1d79ab-2f3d1790.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f3e723e4-074e-4313-9bdc-ee627b1d79ab.webm")
 
 ## S02 interactive-demo
 
@@ -69,31 +69,31 @@ Cinematic video, realism
 
 ### Breakdown of Seedance 2.0 and Kling 3.0 models
 Seedance 2.0 focuses on control, letting you combine text, images, video, and audio inputs - up to 12 references, while generating layered audio in a single pass. It's faster and well-suited for ads and high-volume content. Kling 3.0 focuses on quality, delivering 4K video at up to 60fps with realistic motion, multi-shot scenes, and built-in audio with lip sync. It's designed for more cinematic, polished output.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7202e14c-526f-4228-bd09-170f54bf4b0b.webm)
+![video creative 480x480: ](media/7202e14c-526f-4228-bd09-170f54bf4b0b-b706d4b8.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7202e14c-526f-4228-bd09-170f54bf4b0b.webm")
 
 ## S05 feature-callout
 
 ### Compare video quality, audio, and realism
 Resolution is the main difference. Kling 3.0 delivers 4K video at up to 60fps, making it better for cinematic output, while Seedance 2.0 runs at 2K but generates much faster for social and ad content. Audio also differs - Seedance creates fully layered sound in one pass, while Kling focuses on accurate lip sync and character-driven audio. For motion and physics, both are strong, but Kling has the edge in realism.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/5ec5bf49-41b7-423c-9b41-c029ced37a5a.webm)
+![video creative 480x480: ](media/5ec5bf49-41b7-423c-9b41-c029ced37a5a-8446ee3c.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/5ec5bf49-41b7-423c-9b41-c029ced37a5a.webm")
 
 ## S06 feature-callout
 
 ### Explore creative control, speed, and pricing
 Control and speed define the difference. Seedance 2.0 supports up to 12 inputs - text, images, video, and audio - giving you more precise control, and generates clips much faster for quick iteration. Kling 3.0 offers fewer input options and slower generation, but focuses on higher-quality output. Both models are available on Picsart without separate subscriptions.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b4f726ca-5e04-4f33-a920-016977d33fac.webm)
+![video creative 480x480: ](media/b4f726ca-5e04-4f33-a920-016977d33fac-7de7f2ae.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/b4f726ca-5e04-4f33-a920-016977d33fac.webm")
 
 ## S07 feature-callout
 
 ### Choose the right model for your use case
 Choose Seedance 2.0 when you need speed and control, especially for e-commerce videos, ads, and projects that combine multiple inputs like visuals, motion, and audio. It's a strong fit for high-volume content and fast production workflows. Choose Kling 3.0 when quality is the priority, with 4K output, multi-scene storytelling, and more realistic motion. It works best for cinematic content, product demos, and character-driven videos.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/66b8f5f7-d6cf-4b39-9819-c5169e4004d7.webm)
+![video creative 480x480: ](media/66b8f5f7-d6cf-4b39-9819-c5169e4004d7-b05201de.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/66b8f5f7-d6cf-4b39-9819-c5169e4004d7.webm")
 
 ## S08 feature-callout
 
 ### Match your workflow with the right model
 If you are aiming for speed, control, and precise direction, Seedance 2.0 is the better fit, especially for ads, social content, and projects that combine multiple inputs with integrated audio. If you need cinematic quality, 4K output, and more realistic motion, Kling 3.0 is a stronger choice for polished, high-impact videos. If you want both, use Picsart to switch between models and choose the best one for each project.
-![image creative 480x480: Match your workflow with the right AI video model](https://cdn-cms-uploads.picsart.com/cms-uploads/1d0d70f9-5328-4f19-a2c7-abc848f31251.avif)
+![image creative 480x480: Match your workflow with the right AI video model](media/1d0d70f9-5328-4f19-a2c7-abc848f31251-7f1f639e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d0d70f9-5328-4f19-a2c7-abc848f31251.avif")
 
 ## S09 tutorial-grid
 
@@ -102,15 +102,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -132,15 +132,15 @@ It depends on your priorities. Seedance 2.0 is better for speed, multimodal cont
 ## S11 link-grid
 
 ### More AI model comparisons
-![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI model comparison](media/ff20b102-6a77-4fd6-81f1-d75266821170-15c3ed8e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp")
 GPT Image 1.5 vs Flux 2 Pro Compare OpenAI GPT Image 1.5 and Flux 2 Pro for AI image generation side by side.
-![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/b288c697-66d7-4711-8477-fd73133420e2.avif)
+![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI model comparison](media/b288c697-66d7-4711-8477-fd73133420e2-eb749697.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b288c697-66d7-4711-8477-fd73133420e2.avif")
 Nano Banana 2 vs Flux 2 Pro Compare Nano Banana 2 and Flux 2 Pro for fast, high-quality AI image generation.
-![image thumbnail 342x282: Kling 3.0 vs Runway Gen 4 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp)
+![image thumbnail 342x282: Kling 3.0 vs Runway Gen 4 AI model comparison](media/cfcfb357-0b12-47f5-8e78-e4e65168c6db-7591564f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp")
 Kling 3.0 vs Runway Gen 4 Compare Kling 3.0 and Runway Gen 4 for AI video generation, quality, speed, and pricing.
-![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp)
+![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI model comparison](media/a69952b7-3669-4038-854f-1d365bbeca90-d25c57de.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp")
 Runway Gen 4 vs Veo 3.1 Compare Runway Gen 4 and Google Veo 3.1 for speed, audio, and cinematic video output.
-![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp)
+![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI model comparison](media/135dae81-f8b2-4487-b873-cebf4340b36a-8b6dfff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp")
 Veo 3.1 vs Kling 3.0 Compare Google Veo 3.1 and Kling 3.0 for 4K video, audio, and creative control.
 
 ## S12 pricing

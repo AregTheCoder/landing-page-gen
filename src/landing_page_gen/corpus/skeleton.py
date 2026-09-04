@@ -66,6 +66,8 @@ def render_skeleton(page, sections):
             if m["duration"]:
                 slot["duration_s"] = m["duration"]
             slot["src"] = m["src"]
+            if m["local_path"]:
+                slot["local"] = m["local_path"]
             if m["alt"]:
                 slot["alt"] = m["alt"]
             lines.append("")

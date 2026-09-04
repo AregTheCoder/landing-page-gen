@@ -365,7 +365,9 @@ def to_markdown(sid, stype, headline, items, texts, media):
         if kind == "media":
             label = "video" if rec["kind"] == "video" else "image"
             size = f" {rec['width']}x{rec['height']}" if rec.get("width") and rec.get("height") else ""
-            lines.append(f"![{label} {rec['role']}{size}: {rec['alt']}]({rec['src']})")
+            # link the local copy when there is one; the CDN URL stays as the title
+            target = f"{rec['local']} \"{rec['src']}\"" if rec.get("local") else rec["src"]
+            lines.append(f"![{label} {rec['role']}{size}: {rec['alt']}]({target})")
             continue
         n += 1
         if n > MAX_TEXTS_IN_MD:

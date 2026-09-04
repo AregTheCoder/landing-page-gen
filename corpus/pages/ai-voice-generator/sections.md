@@ -7,7 +7,7 @@
 ## AI Voice Generator: create AI voices instantly
 Turn your script into natural AI voiceovers in seconds. This AI Voiceover Generator helps you create smooth, expressive audio of any length - perfect for videos, promos, and storytelling. Whether you're crafting a quick reel or a full narrative, your voice is ready in moments.
 Generate voiceover
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0ca73156-42c0-466d-aaeb-dbd7f7dbdfe3.webm)
+![video creative 480x480: ](media/0ca73156-42c0-466d-aaeb-dbd7f7dbdfe3-416f4acc.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0ca73156-42c0-466d-aaeb-dbd7f7dbdfe3.webm")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Swap your voice to a different speaker while keeping timing and emotion. Music g
 
 ## S03 feature-row
 
-![image icon 96x96: Icon for mic](https://cdn-cms-uploads.picsart.com/cms-uploads/c725286b-4531-40ea-a975-f3e7960fc5bc.png)
+![image icon 96x96: Icon for mic](media/c725286b-4531-40ea-a975-f3e7960fc5bc-4c4b120d.png "https://cdn-cms-uploads.picsart.com/cms-uploads/c725286b-4531-40ea-a975-f3e7960fc5bc.png")
 #### Creative voice personalities
 Give your script a signature sound. This AI Audio Generator offers expressive, character-driven voices that feel tailored to your story.
-![image icon 96x96: Icon for any length narration](https://cdn-cms-uploads.picsart.com/cms-uploads/417aafc7-b1f4-40f5-95b4-60fd32536e6c.png)
+![image icon 96x96: Icon for any length narration](media/417aafc7-b1f4-40f5-95b4-60fd32536e6c-d0c83f03.png "https://cdn-cms-uploads.picsart.com/cms-uploads/417aafc7-b1f4-40f5-95b4-60fd32536e6c.png")
 #### Any-length narration
 Use text-to-speech AI to generate short hooks or hour-long narration; your AI Voice Generator adapts to whatever you’re creating.
-![image icon 96x96: Icon for visual upload](https://cdn-cms-uploads.picsart.com/cms-uploads/0fa9485b-f839-4a47-a6b1-954e4a532055.png)
+![image icon 96x96: Icon for visual upload](media/0fa9485b-f839-4a47-a6b1-954e4a532055-c0f79823.png "https://cdn-cms-uploads.picsart.com/cms-uploads/0fa9485b-f839-4a47-a6b1-954e4a532055.png")
 #### Smooth integration with your visuals
 Add audio to images, designs, and videos without leaving your flow. Your AI Voiceover Generator connects directly to Picsart’s editing tools.
 
@@ -73,31 +73,31 @@ Type or paste your text into the voiceover script box - any length, any language
 #### Generate your audio
 4
 #### Add it to your canvas
-![image creative 480x600: How to make ai voiceover](https://cdn-cms-uploads.picsart.com/cms-uploads/f55eafd1-2a0a-43c2-8a5f-107cd214784d.webp)
+![image creative 480x600: How to make ai voiceover](media/f55eafd1-2a0a-43c2-8a5f-107cd214784d-94d69962.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f55eafd1-2a0a-43c2-8a5f-107cd214784d.webp")
 
 ## S06 feature-callout
 
 ### Create polished content with an AI voice
 Turn your text into natural audio in seconds with an AI Voice Generator built for effortless creation. Make any-length voiceovers in any language and drop them straight into your videos or photos. With expressive text-to-speech, your ideas sound polished without recording, cleanup, or additional equipment.
-![image creative 480x480: AI voice for videos](https://cdn-cms-uploads.picsart.com/cms-uploads/2cc925c8-1e83-4c15-9871-c6473bdb8f98.webp)
+![image creative 480x480: AI voice for videos](media/2cc925c8-1e83-4c15-9871-c6473bdb8f98-f964a5a3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2cc925c8-1e83-4c15-9871-c6473bdb8f98.webp")
 
 ## S07 feature-callout
 
 ### Explore AI voice styles that match your tone
 Picsart offers AI voices with personality - from TV presenter confidence to cinematic narration and relaxed vlog-style delivery. Unlike tools with generic text-to-speech AI, these character-driven styles help you shape emotion, clarity, and intent, giving your content a voice that feels expressive rather than flat.
-![image creative 480x480: AI voice styles](https://cdn-cms-uploads.picsart.com/cms-uploads/32cda5a1-d85d-4fd0-9f40-88916a428924.webp)
+![image creative 480x480: AI voice styles](media/32cda5a1-d85d-4fd0-9f40-88916a428924-e5cbd708.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/32cda5a1-d85d-4fd0-9f40-88916a428924.webp")
 
 ## S08 feature-callout
 
 ### Add an AI voice that enhances your content
 Place your new voiceover directly onto videos, photos, designs, or slides inside Picsart’s Editor. Create your visuals with the AI Video Generator , then layer in audio, refine everything on the canvas, and export a polished final piece - all in a seamless creative flow.
-![image creative 480x480: AI voiceover for any type of content](https://cdn-cms-uploads.picsart.com/cms-uploads/e393bb2f-ee17-4d81-bc06-83343096438e.webp)
+![image creative 480x480: AI voiceover for any type of content](media/e393bb2f-ee17-4d81-bc06-83343096438e-2ddea0d9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e393bb2f-ee17-4d81-bc06-83343096438e.webp")
 
 ## S09 feature-callout
 
 ### How to make an AI voiceover for any narration style
 Create short promos or long-form narration without worrying about limits. With true any-length voiceover capability, your script can be a single line or a full episode. This flexibility gives you an advantage when crafting AI narration that fits every format.
-![image creative 480x480: AI voiceover generation](https://cdn-cms-uploads.picsart.com/cms-uploads/e28971b7-2049-4492-ac8c-5ff47a713075.webp)
+![image creative 480x480: AI voiceover generation](media/e28971b7-2049-4492-ac8c-5ff47a713075-81b8c597.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e28971b7-2049-4492-ac8c-5ff47a713075.webp")
 
 ## S10 use-case-grid
 
@@ -107,13 +107,13 @@ Smart ways to apply AI narration
 [button: Long-form storytelling]
 [button: Product demos]
 Give short-form videos a distinct voice with quick, expressive AI narration. Perfect for grabbing attention fast and keeping your edits consistent.
-![image creative 878x418: AI voiceover for TikTok videos](https://cdn-cms-uploads.picsart.com/cms-uploads/bbf3ba50-8036-4eaa-996f-012081e53891.webp)
+![image creative 878x418: AI voiceover for TikTok videos](media/bbf3ba50-8036-4eaa-996f-012081e53891-569f431a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bbf3ba50-8036-4eaa-996f-012081e53891.webp")
 
 ## S11 feature-callout
 
 ### Create dynamic narration in any language, voice, or accent
 Craft AI narration in any language by simply typing your script the way you want it spoken. Choose from a wide range of voices and accents to match tone, audience, and mood. Your AI voiceover adapts instantly - making global content creation effortless, expressive, and accessible for every project.
-![image creative 480x480: AI voice generation in any voice and language](https://cdn-cms-uploads.picsart.com/cms-uploads/cde6be49-a843-46ca-8ec0-397cbe762c37.webp)
+![image creative 480x480: AI voice generation in any voice and language](media/cde6be49-a843-46ca-8ec0-397cbe762c37-5e4e905c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cde6be49-a843-46ca-8ec0-397cbe762c37.webp")
 
 ## S12 feature-list
 
@@ -164,21 +164,21 @@ An AI Voice Generator turns written text into spoken audio using machine learnin
 ## S14 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: AI video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: AI video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: online AI image to video generator](https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png)
+![image thumbnail 342x282: online AI image to video generator](media/f07c4157-d746-46cb-8d6d-35051270884b-86874bbb.png "https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png")
 AI Image-to-Video Turn any image into a dynamic video with AI.
-![image thumbnail 342x282: AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI image generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: video ad maker](https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png)
+![image thumbnail 342x282: video ad maker](media/68352d29-75d1-45e4-8405-672c59f8bdf7-d2f8d93d.png "https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png")
 Video Ad Maker Create engaging video ads in seconds using AI.
-![image thumbnail 342x282: Picsart's AI video style changer](https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png)
+![image thumbnail 342x282: Picsart's AI video style changer](media/5cf12242-55b3-438a-9544-1cdcbaa04694-f6578cf5.png "https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png")
 AI Video Filters Reinvent the look of your videos with AI-powered video filters.
-![image thumbnail 342x282: AI photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: Picsart's background remover](https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp)
+![image thumbnail 342x282: Picsart's background remover](media/b54783a7-b787-46b5-b1bd-492de2715ea0-b0b46c88.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp")
 Background Remover Masterfully remove the background with AI or make it transparent.
 
 ## S15 pricing

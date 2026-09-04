@@ -7,7 +7,7 @@
 ## Seedream 4.0: 4K-native AI image generation from ByteDance
 Picsart's AI Image Generator integrates Seedream 4.0, the ByteDance Seed image model that brought native 4K generation, photorealistic detail, and strong prompt fidelity to the AI image space. Built for creators who need clean, high-resolution output from a single prompt, Seedream 4.0 powers product shots, social visuals, and design-ready imagery — all available alongside Seedream 4.5 on Picsart.
 Try Seedream 4.0
-![image creative 480x480: Seedream 4.0 hero image](https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp)
+![image creative 480x480: Seedream 4.0 hero image](media/fac139f1-0aae-4888-99f2-8fdf603c8900-7568b314.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp")
 
 ## S02 interactive-demo
 
@@ -23,7 +23,7 @@ Try Seedream 4.0
 
 ### What is Seedream 4.0?
 Seedream 4.0 is ByteDance Seed's text-to-image model and the first release in the Seedream family. It generates native 4K images directly from natural-language prompts, with strong prompt fidelity, photorealistic detail, and reliable composition. Seedream 4.0 set the foundation for the Seedream family — fast iteration, production-ready output, and a workflow built for creators who ship visuals on a deadline.
-![image creative 480x480: Seedream 4.5 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp)
+![image creative 480x480: Seedream 4.5 AI model](media/bfb444a5-a805-49ea-add8-40358de0b12d-a12d110c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp")
 
 ## S05 use-case-grid
 
@@ -33,43 +33,43 @@ What you can create with Seedream 4.0
 [button: Natural-language image editing]
 [button: Marketing and e-commerce visuals]
 Generate product shots, hero images, and e-commerce visuals at native 4K resolution. No upscaler needed — Seedream 4.0 outputs print-ready detail directly from the prompt, with clean lighting and accurate textures.
-![image creative 879x418: Seedream 4.5 for text rendering in images](https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp)
+![image creative 879x418: Seedream 4.5 for text rendering in images](media/a90b63ab-64e4-4b4f-a541-cdec37abc167-0da70bbd.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Seedream 4.0
 Picsart integrates Seedream 4.0 directly into its AI Image Generator . Creators can generate with Seedream 4.0 without picking the model manually — the AI Image Generator gives you Seedream 4.0 side-by-side with Seedream 4.5, Flux 2 Pro, Nano Banana Pro, and other image models on one credit balance.
-![image creative 480x480: How Picsart uses Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: How Picsart uses Seedream 4.5](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Seedream 4.0
 Seedream 4.0 is the workhorse tier of the Seedream family. Native 4K output means you skip the upscaler step — every generation comes out at production resolution directly from the prompt. Strong prompt fidelity keeps composition clean even on complex briefs, and Seedream 4.0 sits at a lower credit cost than the 4.5 tier, making it the right pick for high-volume creator workflows where 4.5's editing and multimodal references aren't required.
-![image creative 480x480: Why creators choose Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Why creators choose Seedream 4.5](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S08 feature-callout
 
 ### Seedream 4.0 inside the Picsart ecosystem
 Seedream 4.0 is one of several image models powering Picsart's creative tools. It works alongside Seedream 4.5 , Flux 2 Pro , GPT Image 1.5 , Nano Banana Pro , and Imagen 4.0 Ultra — giving creators a model picker that covers photorealism, design typography, editing, and creative exploration. Generate with Seedream 4.0 for native-4K speed, or move up to Seedream 4.5 when you need multimodal editing or character consistency.
-![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -119,19 +119,19 @@ Seedream 4.0 is ByteDance Seed's text-to-image model and the first release in th
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance Seed's newest Seedream model — unified generation and editing, multimodal references, and improved text rendering.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Flux 2 Pro Black Forest Labs' photorealism flagship — fast iteration, sharp detail, native edit.
-![image thumbnail 342x282: Nano Banana Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: Nano Banana Pro AI Model](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Nano Banana Pro Google's fast, expressive image model with cinematic detail and strong prompt fidelity.
-![image thumbnail 342x282: GPT Image 1.5 AI Model](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: GPT Image 1.5 AI Model](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 GPT Image 1.5 OpenAI's advanced image generation model — powerful and built for creators of all levels.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Ideogram 3.0 Flash Best-in-class text-in-image rendering — sharp typography and ad-ready accuracy at speed.
-![image thumbnail 342x282: AI Image Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI Image Generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Picsart's main AI image generation surface — every model, one credit balance.
-![image thumbnail 342x282: AI Photo Editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI Photo Editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Edit and refine images with AI-powered tools alongside Seedream 4.0.
 
 ## S13 pricing

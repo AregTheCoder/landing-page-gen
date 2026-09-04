@@ -7,19 +7,19 @@
 ## AI static Ad Generator for Meta and Google
 Static Ad Generator instantly turns a short prompt, website link, or image into scroll-stopping static ads - no design skills required. Ideal for solo founders and lean marketing teams running Meta and Google campaigns.
 Generate ads
-![image creative 480x480: Generate ads instantly](https://cdn-cms-uploads.picsart.com/cms-uploads/ca96f63a-6e6a-41fb-938c-86b483c953be.webp)
+![image creative 480x480: Generate ads instantly](media/ca96f63a-6e6a-41fb-938c-86b483c953be-955068b7.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ca96f63a-6e6a-41fb-938c-86b483c953be.webp")
 
 ## S02 feature-row
 
-![image icon 96x96: Multiple ad variants created instantly](https://cdn-cms-uploads.picsart.com/cms-uploads/d9c7ab51-6f0a-4bdb-9d8d-ba9feaea2243.png)
+![image icon 96x96: Multiple ad variants created instantly](media/d9c7ab51-6f0a-4bdb-9d8d-ba9feaea2243-0082252f.png "https://cdn-cms-uploads.picsart.com/cms-uploads/d9c7ab51-6f0a-4bdb-9d8d-ba9feaea2243.png")
 #### Built for rapid testing
 Generate multiple ad variants and publish
 directly to Meta or Google without slowing down your workflow.
-![image icon 96x96: Generate ads in seconds](https://cdn-cms-uploads.picsart.com/cms-uploads/621c997f-d334-424f-a156-c4b2e1618a73.png)
+![image icon 96x96: Generate ads in seconds](media/621c997f-d334-424f-a156-c4b2e1618a73-9752a07a.png "https://cdn-cms-uploads.picsart.com/cms-uploads/621c997f-d334-424f-a156-c4b2e1618a73.png")
 #### Create Google and Meta ads in seconds
 Use a prompt image or URL to get polished,
 ready-to-run search ads in seconds.
-![image icon 96x96: Perfect for agile teams](https://cdn-cms-uploads.picsart.com/cms-uploads/1168c16f-dc93-4461-8c2d-23bd0587e542.png)
+![image icon 96x96: Perfect for agile teams](media/1168c16f-dc93-4461-8c2d-23bd0587e542-b4fb44a9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/1168c16f-dc93-4461-8c2d-23bd0587e542.png")
 #### Made for lean teams
 Skip the design hassle. Get on-brand static ads fast,
 without extra hands or tools.
@@ -36,31 +36,31 @@ Use the “Generate ads” button to get started.
 #### Generate your ads
 4
 #### Publish or download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2d0e24aa-38f2-40a2-a6bc-d81b7b343c24.mp4)
+![video ui-screenshot 480x600: ](media/2d0e24aa-38f2-40a2-a6bc-d81b7b343c24-5a325894.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/2d0e24aa-38f2-40a2-a6bc-d81b7b343c24.mp4")
 
 ## S04 feature-callout
 
 ### Test more ads without more resources
 Creative delays slow down testing and limit performance. Ad Generator removes those roadblocks by letting you generate multiple high-quality static ad variants from a single input. It’s the fastest way to test more ideas, learn what works and scale smarter.
-![image creative 480x480: More ads without more resources](https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp)
+![image creative 480x480: More ads without more resources](media/ff776a63-b6ee-47c8-8989-916dc3229562-29f7980f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp")
 
 ## S05 feature-callout
 
 ### Designed for Meta and Google campaigns
 Ad Generator takes the guesswork out of creative production by automatically formatting your static ads for Meta and Google placements. No resizing, no reworking, just on-brand and ready-to-run creatives built for the platforms that drive your growth.
-![image creative 480x480: Ads formatted for Meta and Google placements](https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp)
+![image creative 480x480: Ads formatted for Meta and Google placements](media/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6-94af752e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp")
 
 ## S06 feature-callout
 
 ### Built for speed, not complexity
 Ad Generator is built to move as fast as you do — just drop in an input, pick a creative, and publish. It removes the extra steps and tools, so you can focus on launching, testing and growing without slowing down.
-![image ui-screenshot 480x480: Fast and simple static ad generation interface](https://cdn-cms-uploads.picsart.com/cms-uploads/c2db27e1-1533-4611-8694-52aefe3d6d69.webp)
+![image ui-screenshot 480x480: Fast and simple static ad generation interface](media/c2db27e1-1533-4611-8694-52aefe3d6d69-ff4c8317.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c2db27e1-1533-4611-8694-52aefe3d6d69.webp")
 
 ## S07 feature-callout
 
 ### From content to creative
 This tool turns your existing content like a website, image, or product blurb into high-quality static ads in seconds. It’s a faster and smarter way to maximize the value of what you’ve already created and keep campaigns moving.
-![image creative 480x480: Website content transformed into static ads](https://cdn-cms-uploads.picsart.com/cms-uploads/465fff4d-644b-4746-ba7a-91764160bb89.webp)
+![image creative 480x480: Website content transformed into static ads](media/465fff4d-644b-4746-ba7a-91764160bb89-8824f2c1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/465fff4d-644b-4746-ba7a-91764160bb89.webp")
 
 ## S08 feature-callout
 
@@ -81,17 +81,17 @@ Ad Generator is a tool that turns a short prompt, website, or image into ready-t
 ## S10 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: Picsart AI video Generator](https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png)
+![image thumbnail 342x282: Picsart AI video Generator](media/b137d8b9-7db8-4328-adab-e37ccd2a4bc3-1e44609f.png "https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI Writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: Assets Genie](https://pastatic.picsart.com/cms-pastatic/6171adfe-b849-4aca-9016-1f90fc3843d6.png)
+![image thumbnail 342x282: Assets Genie](media/6171adfe-b849-4aca-9016-1f90fc3843d6-5d07408e.png "https://pastatic.picsart.com/cms-pastatic/6171adfe-b849-4aca-9016-1f90fc3843d6.png")
 Assets Genie Generate custom brand assets instantly by uploading your logo.
-![image thumbnail 342x282: Make custom GIFs using AI](https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png)
+![image thumbnail 342x282: Make custom GIFs using AI](media/e30f27f2-fd82-4c75-a3eb-6134c8ba2408-ad57e76a.png "https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png")
 AI GIF Generator Effortlessly generate custom GIF visuals from scratch.
-![image thumbnail 342x282: AI filters and effects from Picsart](https://pastatic.picsart.com/cms-pastatic/7f06c64a-c2b5-449d-b09a-c732bf887f38.png)
+![image thumbnail 342x282: AI filters and effects from Picsart](media/7f06c64a-c2b5-449d-b09a-c732bf887f38-10395f83.png "https://pastatic.picsart.com/cms-pastatic/7f06c64a-c2b5-449d-b09a-c732bf887f38.png")
 AI Filters Transform the look of your photos with mind-blowing AI filters.
 
 ## S11 pricing

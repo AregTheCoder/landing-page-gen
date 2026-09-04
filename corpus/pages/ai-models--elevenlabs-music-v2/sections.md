@@ -7,7 +7,7 @@
 ## ElevenLabs Music v2: studio-grade AI music generation
 ElevenLabs Music v2 is ElevenLabs’ latest AI music model, now available in Picsart’s AI Playground. Generate fully produced, studio-grade songs from a single text prompt — complete with expressive vocals, layered instrumentation, and natural song structure. Describe a genre, a mood, or a scene and get a finished track in seconds, with control over sections, style, and language. Picsart is among the first creative platforms to bring it to creators.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d315d510-1697-42af-b723-10a39b840ec6.webm)
+![video creative 480x480: ](media/d315d510-1697-42af-b723-10a39b840ec6-d876e305.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d315d510-1697-42af-b723-10a39b840ec6.webm")
 
 ## S02 interactive-demo
 
@@ -17,22 +17,22 @@ Start generating
 ## S03 gallery
 
 ### Tracks made with ElevenLabs Music v2
-![image creative 196x348: track 1 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/55586263-220b-490e-bd0f-3844a84fc064.avif)
-![image creative 196x348: track 2 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/cc7648ea-9473-4f21-a49e-e71698f3a1a2.avif)
-![image creative 196x348: track 3 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/de015472-5912-4520-b610-a3c8dbe377e0.avif)
-![image creative 196x348: track 4 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/7ac6fe2c-a298-4762-8eba-93ccafd4e0d3.avif)
-![image creative 196x348: track 5 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/95b65e4f-75f9-4f63-a748-a5138ed73613.avif)
-![image creative 196x348: track 6 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/bcff0e1a-d871-44c5-b329-3b8713824cc7.avif)
-![image creative 196x348: track 7 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/86769613-bbeb-400a-a0e0-115bbbba9a7b.avif)
-![image creative 196x348: track 8 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/9dd0d4ee-fd01-4ab9-a007-3ae7051eb653.avif)
-![image creative 196x348: track 9 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/91f91c57-48cc-4924-b9ee-ea28c1074606.avif)
-![image creative 196x348: track 10 created with ElevenLabs Music v2](https://cdn-cms-uploads.picsart.com/cms-uploads/089f1b92-da82-49b5-b11f-329e01cb3b8f.avif)
+![image creative 196x348: track 1 created with ElevenLabs Music v2](media/55586263-220b-490e-bd0f-3844a84fc064-122fd8b8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/55586263-220b-490e-bd0f-3844a84fc064.avif")
+![image creative 196x348: track 2 created with ElevenLabs Music v2](media/cc7648ea-9473-4f21-a49e-e71698f3a1a2-59d40387.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cc7648ea-9473-4f21-a49e-e71698f3a1a2.avif")
+![image creative 196x348: track 3 created with ElevenLabs Music v2](media/de015472-5912-4520-b610-a3c8dbe377e0-e240678b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/de015472-5912-4520-b610-a3c8dbe377e0.avif")
+![image creative 196x348: track 4 created with ElevenLabs Music v2](media/7ac6fe2c-a298-4762-8eba-93ccafd4e0d3-ab6f54b3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7ac6fe2c-a298-4762-8eba-93ccafd4e0d3.avif")
+![image creative 196x348: track 5 created with ElevenLabs Music v2](media/95b65e4f-75f9-4f63-a748-a5138ed73613-32d25a45.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/95b65e4f-75f9-4f63-a748-a5138ed73613.avif")
+![image creative 196x348: track 6 created with ElevenLabs Music v2](media/bcff0e1a-d871-44c5-b329-3b8713824cc7-4ab4642c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bcff0e1a-d871-44c5-b329-3b8713824cc7.avif")
+![image creative 196x348: track 7 created with ElevenLabs Music v2](media/86769613-bbeb-400a-a0e0-115bbbba9a7b-64f9e715.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/86769613-bbeb-400a-a0e0-115bbbba9a7b.avif")
+![image creative 196x348: track 8 created with ElevenLabs Music v2](media/9dd0d4ee-fd01-4ab9-a007-3ae7051eb653-aefb390d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9dd0d4ee-fd01-4ab9-a007-3ae7051eb653.avif")
+![image creative 196x348: track 9 created with ElevenLabs Music v2](media/91f91c57-48cc-4924-b9ee-ea28c1074606-140672f2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/91f91c57-48cc-4924-b9ee-ea28c1074606.avif")
+![image creative 196x348: track 10 created with ElevenLabs Music v2](media/089f1b92-da82-49b5-b11f-329e01cb3b8f-f2da0735.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/089f1b92-da82-49b5-b11f-329e01cb3b8f.avif")
 
 ## S04 feature-callout
 
 ### What is ElevenLabs Music v2?
 ElevenLabs Music v2 is a text-to-music model built to understand songwriting, not just sound. Give it a prompt — a genre, a mood, or a few lines of lyrics — and it composes a complete track with lead and backing vocals, instrumentation, and a real arrangement that moves through intro, verse, chorus, and outro. It generates in dozens of languages and spans genres from pop and hip-hop to cinematic and lo-fi. Version 2 sharpens vocal realism and mix quality while giving you finer control over how each section of the song is built.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/23a79d15-5220-4903-b14e-d3ebc724a77e.webm)
+![video creative 480x480: ](media/23a79d15-5220-4903-b14e-d3ebc724a77e-68084a93.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/23a79d15-5220-4903-b14e-d3ebc724a77e.webm")
 
 ## S05 use-case-grid
 
@@ -41,43 +41,43 @@ What you can create with ElevenLabs Music v2
 [button: Shape song structure]
 [button: Create multi-language tracks]
 Describe the music you want — genre, mood, tempo, instruments, vocal style — and ElevenLabs Music v2 produces a fully arranged track with vocals and instrumentation, ready to drop into your project.
-![image creative 878x418: ElevenLabs Music v2 text to music](https://cdn-cms-uploads.picsart.com/cms-uploads/45d4f5ad-b8f7-4466-ba61-1b142c186222.avif)
+![image creative 878x418: ElevenLabs Music v2 text to music](media/45d4f5ad-b8f7-4466-ba61-1b142c186222-cc84edfe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/45d4f5ad-b8f7-4466-ba61-1b142c186222.avif")
 
 ## S06 feature-callout
 
 ### ElevenLabs Music v2 capabilities
 ElevenLabs Music v2 turns plain-language prompts into finished songs — set the genre, tempo, instrumentation, and vocal style, or paste your own lyrics and let the model perform them. Structure control lets you define and rearrange sections, so verses, choruses, and transitions land exactly where you want them. It generates across languages and genres and produces clean, mix-ready audio suitable for release. Tracks are cleared for commercial use, so what you make is ready to publish.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/87615014-6fca-497e-88cb-e3e5f0138de9.webm)
+![video creative 480x480: ](media/87615014-6fca-497e-88cb-e3e5f0138de9-d7bca49a.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/87615014-6fca-497e-88cb-e3e5f0138de9.webm")
 
 ## S07 feature-callout
 
 ### How ElevenLabs Music v2 works inside Picsart
 ElevenLabs Music v2 is available in Picsart’s AI Playground , where you can generate with it directly and compare its output against 130+ other AI models from a single prompt — no setup or configuration required. Just pick ElevenLabs Music v2 and start creating.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c162cd08-a233-4b97-bdf0-8c0668662a3a.webm)
+![video ui-screenshot 480x480: ](media/c162cd08-a233-4b97-bdf0-8c0668662a3a-06693a22.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c162cd08-a233-4b97-bdf0-8c0668662a3a.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose ElevenLabs Music v2
 ElevenLabs Music v2 stands out for turning a single prompt into a complete, release-ready song — not a short loop or clip. Expressive vocals, layered instrumentation, and true song structure give creators professional output without a studio. Multi-language support and genre range make it flexible for social content, video soundtracks, ads, and original music, and commercially cleared audio means you can publish with confidence. Inside Picsart, ElevenLabs Music v2 lives in the AI Playground alongside 130+ models, so you can move from idea to finished track in the same place you create everything else.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a2f18ebb-5ba7-495a-ad47-62a36f07cbb4.webm)
+![video creative 480x480: ](media/a2f18ebb-5ba7-495a-ad47-62a36f07cbb4-d539c0e2.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a2f18ebb-5ba7-495a-ad47-62a36f07cbb4.webm")
 
 ## S09 tutorial-grid
 
 ### Understand AI music models
 Learn how AI music generation works and how to shape a track.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -127,23 +127,23 @@ ElevenLabs Music v2 is ElevenLabs’ latest AI music generation model. From a si
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Luma Ray 2 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: Luma Ray 2 AI model for video generation](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 Luma Ray 2 Luma Ray 2 is a generative AI model optimized for fast, high-fidelity video generation with realistic lighting and motion.
-![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Runway Gen 4 is a generative AI model designed for professional-grade video creation with fine-grained creative control.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 Ideogram 3.0 Flash Ideogram 3.0 Flash is a generative AI model built for fast image creation with accurate text rendering and design precision.
-![image thumbnail 342x282: Seedream 4.5 AI model for image generation](https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png)
+![image thumbnail 342x282: Seedream 4.5 AI model for image generation](media/ba1366fa-0792-4639-9f5e-9dd832ac458b-099ab47b.png "https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png")
 Seedream 4.5 Seedream 4.5 is a generative AI model designed for high-quality image generation with advanced visual understanding.
-![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 GPT Image 1.5 GPT Image 1.5 is a multimodal AI model that generates images from text prompts with strong compositional understanding.
-![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png)
+![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](media/54efb397-a826-452d-84ed-9eb6ab36b6fb-ffac54fe.png "https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png")
 Flux 2 Pro Flux 2 Pro is a generative AI model optimized for high-resolution image generation with fine detail and creative flexibility.
-![image thumbnail 342x282: Kling 3.0 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI model for video generation](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Kling 3.0 is a generative AI model built for motion-based video creation with advanced control over movement and scene dynamics.
-![image thumbnail 342x282: Lyria 3 AI music model](https://cdn-cms-uploads.picsart.com/cms-uploads/e4710225-0f98-4713-9c85-f2b947a72515.avif)
+![image thumbnail 342x282: Lyria 3 AI music model](media/e4710225-0f98-4713-9c85-f2b947a72515-88e1fd8c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e4710225-0f98-4713-9c85-f2b947a72515.avif")
 Lyria 3 Lyria 3 is Google DeepMind’s AI music model that generates full songs with vocals, instrumentation, and structure.
-![image thumbnail 342x282: Veo AI model for cinematic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp)
+![image thumbnail 342x282: Veo AI model for cinematic video generation](media/fc94b953-656d-42c8-9ee8-0a6c17e4043a-78edb46d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp")
 Veo 3.1 Veo is a generative AI model designed for high-quality cinematic video creation and visual storytelling.
 
 ## S13 pricing

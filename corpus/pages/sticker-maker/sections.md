@@ -7,7 +7,7 @@
 ## Create free custom stickers with the sticker maker
 Why spend hours searching for the perfect sticker when you can create your very own? Effortlessly customize your photos and express yourself in conversations with personalized stickers that just scream at you. No design skills and software are necessary. All you need is Picsart’s sticker maker.
 Generate with AI
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7fe03694-fd22-4728-9e1f-16069d50ce9b.webm)
+![video creative 480x480: ](media/7fe03694-fd22-4728-9e1f-16069d50ce9b-5ac7ccf9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7fe03694-fd22-4728-9e1f-16069d50ce9b.webm")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: easy sticker generation](https://pastatic.picsart.com/cms-pastatic/b1174d97-a0a9-4711-9e21-33bfe00b0ac1.png)
+![image icon 96x96: easy sticker generation](media/b1174d97-a0a9-4711-9e21-33bfe00b0ac1-de1902a5.png "https://pastatic.picsart.com/cms-pastatic/b1174d97-a0a9-4711-9e21-33bfe00b0ac1.png")
 #### Snappy and easy-to-use
 Creating custom stickers has never been this easy.
-![image icon 96x96: AI powered sticker maker](https://pastatic.picsart.com/cms-pastatic/d692e4fa-dd5c-4913-94f0-3d6395ac8997.png)
+![image icon 96x96: AI powered sticker maker](media/d692e4fa-dd5c-4913-94f0-3d6395ac8997-43f62d63.png "https://pastatic.picsart.com/cms-pastatic/d692e4fa-dd5c-4913-94f0-3d6395ac8997.png")
 #### AI-powered tools
 Supercharge your sticker creation with AI-powered tools.
-![image icon 96x96: Customizable stickers](https://pastatic.picsart.com/cms-pastatic/b5ff250c-e7d6-4b24-a58e-b319c13f8216.png)
+![image icon 96x96: Customizable stickers](media/b5ff250c-e7d6-4b24-a58e-b319c13f8216-480c503b.png "https://pastatic.picsart.com/cms-pastatic/b5ff250c-e7d6-4b24-a58e-b319c13f8216.png")
 #### Full customization
 Create stickers that have you written all over them.
 
@@ -64,31 +64,31 @@ Use the Uploads button on the left sidebar to select the photo you want to turn 
 #### Customize
 5
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/154b3d69-046f-4f37-b4ae-99414974e355.webm)
+![video ui-screenshot 480x600: ](media/154b3d69-046f-4f37-b4ae-99414974e355-88e3b705.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/154b3d69-046f-4f37-b4ae-99414974e355.webm")
 
 ## S05 feature-callout
 
 ### Design eye-catching stickers with ease
 Stop scrolling for hours to find the perfect sticker and instead make your own stickers. Master the art of the perfect reply with stickers that speak louder than words and perfectly express how you feel. Or create an effortless collage by turning your photos into stickers.
-![image creative 480x480: Create stunning stickers with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/2f68b1c9-725f-4ad0-a1d5-d47ac61c84ab.webp)
+![image creative 480x480: Create stunning stickers with AI](media/2f68b1c9-725f-4ad0-a1d5-d47ac61c84ab-613ac930.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2f68b1c9-725f-4ad0-a1d5-d47ac61c84ab.webp")
 
 ## S06 feature-callout
 
 ### Make a statement with a custom sticker
 Visualize your unique POV with personalized stickers. Use your stickers as custom decor pieces for your photos or brighten up your conversations with snappy sticker replies. Tap into a large library of fonts to create text-based stickers that perfectly match your photos. And if you’re feeling stuck, you can always take advantage of the pre-made stickers and get inspired by other Picsart users’ sticker creations.
-![image creative 480x480: Cutomize stickers with ai](https://cdn-cms-uploads.picsart.com/cms-uploads/7a90b246-ef40-46af-b10d-f2e028cfe52c.webp)
+![image creative 480x480: Cutomize stickers with ai](media/7a90b246-ef40-46af-b10d-f2e028cfe52c-200ccb28.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7a90b246-ef40-46af-b10d-f2e028cfe52c.webp")
 
 ## S07 feature-callout
 
 ### Create custom stickers for your brand
 Make your own eye-catching stickers for your brand promotions with the Picsart sticker maker. Whether you’re creating print stickers for events or digital stickers for promotional visuals, the sticker maker has got you covered.
-![image creative 480x480: Improve your brand visuals with stickers](https://cdn-cms-uploads.picsart.com/cms-uploads/b5e0893f-43b8-46a8-b6b9-323e024a581e.webp)
+![image creative 480x480: Improve your brand visuals with stickers](media/b5e0893f-43b8-46a8-b6b9-323e024a581e-a276c271.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b5e0893f-43b8-46a8-b6b9-323e024a581e.webp")
 
 ## S08 feature-callout
 
 ### Generate stickers from scratch with AI
 Leave the drawing to AI with the AI sticker generator . Just enter your vision for the AI sticker visual in the form of a short text prompt, select the art style, and you’re good to go. The AI will take care of the rest and generate stickers to go perfectly with your content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6d6d8822-df0d-4636-b369-21ed5a45c4e3.webm)
+![video creative 480x480: ](media/6d6d8822-df0d-4636-b369-21ed5a45c4e3-e706ba78.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6d6d8822-df0d-4636-b369-21ed5a45c4e3.webm")
 
 ## S09 use-case-grid
 
@@ -101,20 +101,20 @@ What you can create with the Sticker Maker
 [button: Personal]
 [button: Event]
 Design stickers that strengthen your brand presence. Create custom stickers for product labels, packaging, thank-you notes, logo tags, and even QR codes.
-![image creative 512x243: branded stickers](https://cdn-cms-uploads.picsart.com/cms-uploads/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5.avif)
-![image creative 512x243: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2f5015e2-365b-496a-9fb5-f812bbbde4dc.webp)
+![image creative 512x243: branded stickers](media/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5-0609c665.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5.avif")
+![image creative 512x243: ](media/2f5015e2-365b-496a-9fb5-f812bbbde4dc-7f3a2b1a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2f5015e2-365b-496a-9fb5-f812bbbde4dc.webp")
 
 ## S10 feature-callout
 
 ### Personalize your stickers with ease
 The Sticker Maker gives you endless ways to customize your creations. Adjust colors, refine details, add text, and personalize every element to match your style. With full creative control, you can design expressive, standout stickers that feel unique, impactful, and perfectly suited for any project.
-![image creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/99a0fda9-4569-4ca3-a692-5e8b706e8753.webp)
+![image creative 480x480: ](media/99a0fda9-4569-4ca3-a692-5e8b706e8753-0c4369aa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/99a0fda9-4569-4ca3-a692-5e8b706e8753.webp")
 
 ## S11 feature-callout
 
 ### Take advantage of a library of pre-designed stickers
 Tap into a world of fully customizable and ready-to-go stickers to further speed up your sticker-making process. Get your dose of inspiration from stickers made by the large community of Picsart creators and freely use them in your edits.
-![image creative 480x480: Picsart's pre-designed stickers](https://cdn-cms-uploads.picsart.com/cms-uploads/786bc029-a35f-42f3-8b94-4f4fbfbbed12.webp)
+![image creative 480x480: Picsart's pre-designed stickers](media/786bc029-a35f-42f3-8b94-4f4fbfbbed12-b8e4c6b5.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/786bc029-a35f-42f3-8b94-4f4fbfbbed12.webp")
 
 ## S12 testimonial
 
@@ -130,31 +130,31 @@ John Miller
 
 ### Continue your creative journey with a suite of editing tools
 Get your editing done all in one, convenient photo editing interface.
-![image thumbnail 342x282: Picsart online photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: Picsart online photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Fine-tune your images with trendy fonts, filters and effects, stickers, and more.
-![image thumbnail 342x282: Collage maker](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Collage maker](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage Maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: upscale images online with Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/239c9729-d861-4138-ae9b-4a7247773add.webp)
+![image thumbnail 342x282: upscale images online with Picsart](media/239c9729-d861-4138-ae9b-4a7247773add-04ce2b09.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/239c9729-d861-4138-ae9b-4a7247773add.webp")
 Image Upscale Use Picsart’s AI Image Upscaler to quickly increase the resolution of any image
-![image thumbnail 342x282: Picsart image cropper](https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png)
+![image thumbnail 342x282: Picsart image cropper](media/54f94706-2d77-4570-89ad-94e9a83409b2-de9b77e1.png "https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png")
 Image Cropper Keep what matters with an easy-to-use image cropper tool.
-![image thumbnail 342x282: resize image](https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png)
+![image thumbnail 342x282: resize image](media/d009e3c0-dbcc-4a71-9854-f4c6ed474968-90089800.png "https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png")
 Resize Image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: Picsart's collection of photo effects and filters](https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png)
+![image thumbnail 342x282: Picsart's collection of photo effects and filters](media/ae1acc0b-b019-4103-ba7d-a09db912d4af-1629c915.png "https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png")
 Photo Effects Visualize the vibe with eye-catching photo effects & aesthetic filters.
-![image thumbnail 342x282: remove text from images](https://pastatic.picsart.com/cms-pastatic/09dbbb5c-31bb-4bcf-acab-90c67125a656.png)
+![image thumbnail 342x282: remove text from images](media/09dbbb5c-31bb-4bcf-acab-90c67125a656-e63573b9.png "https://pastatic.picsart.com/cms-pastatic/09dbbb5c-31bb-4bcf-acab-90c67125a656.png")
 Edit Text in Image Edit or remove text from any image in seconds with Picsart’s easy-to-use Photo Text Editor.
-![image thumbnail 342x282: AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI image generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: AI avatar generator online](https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp)
+![image thumbnail 342x282: AI avatar generator online](media/149c0940-1df7-409a-a7f6-d8e8485ebb2e-636be8f3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp")
 AI Avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: object swap with Picsart AI replace](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: object swap with Picsart AI replace](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI Replace Use AI to swap any part of your image with an AI-generated object.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: Speed up your editing process with an AI-powered photo editor.](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: Speed up your editing process with an AI-powered photo editor.](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
 
 ## S14 faq

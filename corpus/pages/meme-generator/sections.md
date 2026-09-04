@@ -7,7 +7,7 @@
 ## Create memes for free with AI-powered tools
 Make memes that hit just right - fast, fun and fully customized. Picsart’s meme generator is powered by OpenAI, making it easy to turn ideas into shareable content in seconds. Jump on a trend or start your own - this meme maker helps you create memes for free without any design experience.
 Create a meme
-![image creative 480x480: Create memes for free](https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png)
+![image creative 480x480: Create memes for free](media/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619-3d807dc9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: icon for free meme maker](https://pastatic.picsart.com/cms-pastatic/6203586c-1075-4079-9b54-45ebda0719d5.png)
+![image icon 96x96: icon for free meme maker](media/6203586c-1075-4079-9b54-45ebda0719d5-a2eb65fd.png "https://pastatic.picsart.com/cms-pastatic/6203586c-1075-4079-9b54-45ebda0719d5.png")
 #### Free and easy to use
 Everyone can use the meme generator to create their own memes free of charge.
-![image icon 96x96: icon for meme template library](https://pastatic.picsart.com/cms-pastatic/0cef9baf-17ab-48c6-a864-9a009a5abbeb.png)
+![image icon 96x96: icon for meme template library](media/0cef9baf-17ab-48c6-a864-9a009a5abbeb-7350f87a.png "https://pastatic.picsart.com/cms-pastatic/0cef9baf-17ab-48c6-a864-9a009a5abbeb.png")
 #### Meme templates ready to use
 Speed up your meme creation process with ready-to-go meme templates.
-![image icon 96x96: icon for full customization](https://pastatic.picsart.com/cms-pastatic/eb668db0-51eb-49a2-859f-85cf5378bf1b.png)
+![image icon 96x96: icon for full customization](media/eb668db0-51eb-49a2-859f-85cf5378bf1b-1dd9847e.png "https://pastatic.picsart.com/cms-pastatic/eb668db0-51eb-49a2-859f-85cf5378bf1b.png")
 #### Full customization
 Edit text, fonts, and layout freely. The meme creator is powered by OpenAI for smarter edits.
 
@@ -64,67 +64,67 @@ Use the button below to get started.
 #### Customize
 5
 #### Save
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fd8f3715-d182-4fd3-91cb-0497b7455629.webm)
+![video ui-screenshot 480x600: ](media/fd8f3715-d182-4fd3-91cb-0497b7455629-e5985e56.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/fd8f3715-d182-4fd3-91cb-0497b7455629.webm")
 
 ## S05 feature-callout
 
 ### Meme maker built for everyone
 Picsart’s intuitive interface makes it easy for anyone to create memes in seconds. Become a share-worthy meme creator and keep up with the speed of internet culture. Use the meme maker’s built-in image and font library to find the perfect visuals to match your punchline.
-![image creative 480x480: meme that an astonished man with text that reads "oh really?"](https://pastatic.picsart.com/cms-pastatic/73cfb468-ac20-4dc4-94a2-219da5954145.png)
+![image creative 480x480: meme that an astonished man with text that reads "oh really?"](media/73cfb468-ac20-4dc4-94a2-219da5954145-9d6ad9a7.png "https://pastatic.picsart.com/cms-pastatic/73cfb468-ac20-4dc4-94a2-219da5954145.png")
 
 ## S06 feature-callout
 
 ### Create fast with meme templates
 Use Picsart’s collection of meme templates to speed up your workflow. Looking for a classic format or something more original? The meme generator and meme maker give you everything you need to create memes for free - quickly and with style.
-![image creative 480x480: visual showcasing the ability to use meme templates](https://pastatic.picsart.com/cms-pastatic/3c5f212a-479c-4bd5-b8be-239e6d55ae39.png)
+![image creative 480x480: visual showcasing the ability to use meme templates](media/3c5f212a-479c-4bd5-b8be-239e6d55ae39-3b22e6cf.png "https://pastatic.picsart.com/cms-pastatic/3c5f212a-479c-4bd5-b8be-239e6d55ae39.png")
 
 ## S07 feature-callout
 
 ### Spice up your social media with memes
 The Picsart meme generator is your go-to tool for creating memes for social media. Use the meme maker to design funny, relatable content that boosts engagement across platforms. Add text with custom fonts and resize in seconds - perfect for Instagram, Facebook, LinkedIn, and more. Create memes for free that are tailored to your specific audience.
-![image creative 480x480: meme maker for creating social media content](https://pastatic.picsart.com/cms-pastatic/0436f336-ca26-4492-b0ef-db971418fa11.png)
+![image creative 480x480: meme maker for creating social media content](media/0436f336-ca26-4492-b0ef-db971418fa11-900015bc.png "https://pastatic.picsart.com/cms-pastatic/0436f336-ca26-4492-b0ef-db971418fa11.png")
 
 ## S08 feature-callout
 
 ### Make memes for your business page
 Boost engagement and reach new audiences with the meme generator. The meme maker, powered by OpenAI, helps you create memes for free that align with your brand voice. Use Picsart’s font library and editing tools to craft memes that support your marketing strategy while staying fun and on-brand.
-![image creative 480x480: meme generator business page use case](https://pastatic.picsart.com/cms-pastatic/e325c363-3d41-4793-a3e3-4cc791671237.png)
+![image creative 480x480: meme generator business page use case](media/e325c363-3d41-4793-a3e3-4cc791671237-7d12c6bd.png "https://pastatic.picsart.com/cms-pastatic/e325c363-3d41-4793-a3e3-4cc791671237.png")
 
 ## S09 feature-callout
 
 ### Customize your memes with Picsart’s photo editor
 Tweak the final look of your memes using the Picsart online photo editor . Don’t have the right visuals? Generate an image from scratch with AI or remove objects from an existing photo . Revive old visuals by enhancing their photo quality using AI. And use photo effects to communicate a specific mood.
-![image creative 480x480: a meme with a cat in a cowboy hat and text that reads "howdy, pawtner"](https://pastatic.picsart.com/cms-pastatic/cb0ee83e-adb4-4cba-8e3e-86469d408ce5.png)
+![image creative 480x480: a meme with a cat in a cowboy hat and text that reads "howdy, pawtner"](media/cb0ee83e-adb4-4cba-8e3e-86469d408ce5-f1e2fdf3.png "https://pastatic.picsart.com/cms-pastatic/cb0ee83e-adb4-4cba-8e3e-86469d408ce5.png")
 
 ## S10 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: create a logo with AI](https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png)
+![image thumbnail 342x282: create a logo with AI](media/d35c51d7-7ade-4844-bc61-268b9d11485b-0e4de31e.png "https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png")
 AI logo generator Create a memorable brand identity with AI and minimal effort.
-![image thumbnail 342x282: Picsart's AI sticker generator](https://pastatic.picsart.com/cms-pastatic/9ea4acbf-acc8-4832-aede-680c04efd103.png)
+![image thumbnail 342x282: Picsart's AI sticker generator](media/9ea4acbf-acc8-4832-aede-680c04efd103-5d5626f5.png "https://pastatic.picsart.com/cms-pastatic/9ea4acbf-acc8-4832-aede-680c04efd103.png")
 AI sticker generator Generate custom stickers with AI to use across digital and print materials.
-![image thumbnail 342x282: Make custom GIFs using AI.](https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png)
+![image thumbnail 342x282: Make custom GIFs using AI.](media/e30f27f2-fd82-4c75-a3eb-6134c8ba2408-ad57e76a.png "https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png")
 AI GIF generator Effortlessly generate custom GIF visuals from scratch.
-![image thumbnail 342x282: photo to cartoon effect](https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.png)
+![image thumbnail 342x282: photo to cartoon effect](media/45cc9c35-338a-4e3b-9b00-1682328506f1-37139ad9.png "https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.png")
 Photo to cartoon Get your own cartoon character adaptation in a second with this effect.
-![image thumbnail 342x282: card maker](https://pastatic.picsart.com/cms-pastatic/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9.png)
+![image thumbnail 342x282: card maker](media/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9-5a5290fe.png "https://pastatic.picsart.com/cms-pastatic/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9.png")
 Card maker Effortlessly DIY cards for any occasion with Picsart.
-![image thumbnail 342x282: Add text to photos with Picsart](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: Add text to photos with Picsart](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 Add text to image Complement your images with a vast library of free fonts.
-![image thumbnail 342x282: poster maker](https://pastatic.picsart.com/cms-pastatic/a6429959-034f-4aab-ba78-4c1d669d47cb.png)
+![image thumbnail 342x282: poster maker](media/a6429959-034f-4aab-ba78-4c1d669d47cb-6957fe04.png "https://pastatic.picsart.com/cms-pastatic/a6429959-034f-4aab-ba78-4c1d669d47cb.png")
 Poster maker Design eye-catching posters for any purpose without needing design skills.
-![image thumbnail 342x282: create logo with picsart logo maker](https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png)
+![image thumbnail 342x282: create logo with picsart logo maker](media/9e5a95e9-73dc-421c-a935-5d0f449cb419-40372cb4.png "https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png")
 Logo maker Effortlessly create logos without needing a design degree.
-![image thumbnail 342x282: sticker maker](https://pastatic.picsart.com/cms-pastatic/6d00f179-4a85-4ca4-909f-d71517a18112.png)
+![image thumbnail 342x282: sticker maker](media/6d00f179-4a85-4ca4-909f-d71517a18112-f1de91fc.png "https://pastatic.picsart.com/cms-pastatic/6d00f179-4a85-4ca4-909f-d71517a18112.png")
 Sticker maker Turn your photos into custom stickers with ease.
 
 ## S11 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S12 pricing
 

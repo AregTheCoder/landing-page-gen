@@ -7,16 +7,16 @@
 ## All-in-one Design Localization tool
 Break creative barriers and expand your reach with visuals that adapt to any language or region. Instantly transform a single asset into high-performing, localized creative assets without extra tools or delays.
 Localize designs
-![image creative 480x480: All-in-one Design Localization Tool](https://cdn-cms-uploads.picsart.com/cms-uploads/2a6c2e04-0903-4e1d-97fa-68877fe198e5.webp)
+![image creative 480x480: All-in-one Design Localization Tool](media/2a6c2e04-0903-4e1d-97fa-68877fe198e5-d53a18fe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2a6c2e04-0903-4e1d-97fa-68877fe198e5.webp")
 
 ## S02 gallery
 
 Our Partners
-![image creative 202x101: Google](https://cdn-cms-uploads.picsart.com/cms-uploads/041c7d23-c14e-4875-b038-cf196a2e5165.webp)
-![image creative 202x101: Meta](https://cdn-cms-uploads.picsart.com/cms-uploads/d4dd441b-2db7-432d-80b2-b56f7b8d65f4.webp)
-![image creative 202x101: Getty](https://cdn-cms-uploads.picsart.com/cms-uploads/7d4e9ae7-c8ab-4ec0-8ce1-94770e2cec08.webp)
-![image creative 202x101: Ideogram](https://cdn-cms-uploads.picsart.com/cms-uploads/dff3943a-43d6-4768-90a6-08a96545ecf7.webp)
-![image creative 202x101: popsockets](https://pastatic.picsart.com/cms-pastatic/5b16a1b0-d330-4054-a124-bbbcd593ccec.webp)
+![image creative 202x101: Google](media/041c7d23-c14e-4875-b038-cf196a2e5165-484345f0.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/041c7d23-c14e-4875-b038-cf196a2e5165.webp")
+![image creative 202x101: Meta](media/d4dd441b-2db7-432d-80b2-b56f7b8d65f4-2a3caf4c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d4dd441b-2db7-432d-80b2-b56f7b8d65f4.webp")
+![image creative 202x101: Getty](media/7d4e9ae7-c8ab-4ec0-8ce1-94770e2cec08-210d9d65.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7d4e9ae7-c8ab-4ec0-8ce1-94770e2cec08.webp")
+![image creative 202x101: Ideogram](media/dff3943a-43d6-4768-90a6-08a96545ecf7-f6400598.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/dff3943a-43d6-4768-90a6-08a96545ecf7.webp")
+![image creative 202x101: popsockets](media/5b16a1b0-d330-4054-a124-bbbcd593ccec-ea7215fe.webp "https://pastatic.picsart.com/cms-pastatic/5b16a1b0-d330-4054-a124-bbbcd593ccec.webp")
 
 ## S03 link-grid
 
@@ -49,13 +49,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S04 feature-row
 
-![image icon 96x96: Language selection](https://cdn-cms-uploads.picsart.com/cms-uploads/9d2c2ce6-0d01-4e18-9e79-e814706b0e5b.png)
+![image icon 96x96: Language selection](media/9d2c2ce6-0d01-4e18-9e79-e814706b0e5b-033aa92f.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9d2c2ce6-0d01-4e18-9e79-e814706b0e5b.png")
 #### Localize in any language
 Adapt your designs for 20+ languages with automatic visual translation, without font issues or manual fixes.
-![image icon 96x96: Visual adaption for local markets](https://cdn-cms-uploads.picsart.com/cms-uploads/6d37fe99-58ef-4909-a07a-b21753c4dc0f.png)
+![image icon 96x96: Visual adaption for local markets](media/6d37fe99-58ef-4909-a07a-b21753c4dc0f-2eb8b048.png "https://cdn-cms-uploads.picsart.com/cms-uploads/6d37fe99-58ef-4909-a07a-b21753c4dc0f.png")
 #### Make content feel truly local
 Shape your visuals and messaging to reflect local culture and connect with audiences in a way that feels natural and native.
-![image icon 96x96: Scalable campaign localization workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/46aa7089-0f67-4ef5-85dd-70027836a53d.png)
+![image icon 96x96: Scalable campaign localization workflow](media/46aa7089-0f67-4ef5-85dd-70027836a53d-98d81655.png "https://cdn-cms-uploads.picsart.com/cms-uploads/46aa7089-0f67-4ef5-85dd-70027836a53d.png")
 #### Reduce costs and grow across markets
 Design Localization lowers costs, streamlines tools and scales global campaigns faster.
 
@@ -71,31 +71,31 @@ Start with an existing project or use a template to begin your design localizati
 #### Preview and refine your content
 4
 #### Export and publish
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2090c0b8-447b-4301-b232-bccfc3e70822.webm)
+![video ui-screenshot 480x600: ](media/2090c0b8-447b-4301-b232-bccfc3e70822-d077b462.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2090c0b8-447b-4301-b232-bccfc3e70822.webm")
 
 ## S06 feature-callout
 
 ### Adapt global campaigns with speed and control
 Automated marketing localization tools make it easy to adapt content for global markets with speed and accuracy. Images, messaging and creative elements adjust to each region automatically without added tools or steps, making it easier to scale campaigns while keeping creative workflows simple and consistent.
-![image creative 480x480: Adapt global campaigns](https://cdn-cms-uploads.picsart.com/cms-uploads/e567c337-e6ab-4f60-9804-9cdaa92e8d83.webp)
+![image creative 480x480: Adapt global campaigns](media/e567c337-e6ab-4f60-9804-9cdaa92e8d83-c3ef3c5c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e567c337-e6ab-4f60-9804-9cdaa92e8d83.webp")
 
 ## S07 feature-callout
 
 ### Ensure brand consistency across every market
 Maintain a unified look and message, no matter where your content goes. Each localized creative asset follows your brandbook to ensure visual and messaging consistency. As you expand into new regions, your global campaigns stay cohesive, polished and true to your international branding.
-![image creative 480x480: Brand consistency](https://cdn-cms-uploads.picsart.com/cms-uploads/b2c56183-09ea-48d4-a3f8-26530b199200.webp)
+![image creative 480x480: Brand consistency](media/b2c56183-09ea-48d4-a3f8-26530b199200-bc06a6c9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b2c56183-09ea-48d4-a3f8-26530b199200.webp")
 
 ## S08 feature-callout
 
 ### Expand into new markets effortlessly
 Enter new regions with confidence. Automatic adjustments to visuals and messaging help you meet local expectations with ease. Skip the added design work - this is cultural design adaptation at scale. Launch quickly, stay consistent and connect more effectively in every geo-market you target.
-![image creative 480x480: Expand into new markets effortlessly](https://cdn-cms-uploads.picsart.com/cms-uploads/105ec557-f094-4364-bb0d-01bf0cca5dc5.webp)
+![image creative 480x480: Expand into new markets effortlessly](media/105ec557-f094-4364-bb0d-01bf0cca5dc5-a688b0c5.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/105ec557-f094-4364-bb0d-01bf0cca5dc5.webp")
 
 ## S09 feature-callout
 
 ### Simplify your global creative workflow
 Streamline every step of your digital marketing localization process in one seamless platform. From visual translation to final delivery, reduce back-and-forth and manual edits. With everything in one connected flow, your team can work faster while preserving brand precision and cultural relevance across markets.
-![image creative 480x480: Website content transformed into static ads](https://cdn-cms-uploads.picsart.com/cms-uploads/19374784-8bb5-42b8-ab4e-b9f20108f4b9.webp)
+![image creative 480x480: Website content transformed into static ads](media/19374784-8bb5-42b8-ab4e-b9f20108f4b9-ae37f4ec.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/19374784-8bb5-42b8-ab4e-b9f20108f4b9.webp")
 
 ## S10 feature-callout
 
@@ -116,15 +116,15 @@ Design Localization is the process of adapting all creative elements - images, c
 ## S12 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: Picsart AI video Generator](https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png)
+![image thumbnail 342x282: Picsart AI video Generator](media/b137d8b9-7db8-4328-adab-e37ccd2a4bc3-1e44609f.png "https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI Writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: Assets Genie](https://pastatic.picsart.com/cms-pastatic/6171adfe-b849-4aca-9016-1f90fc3843d6.png)
+![image thumbnail 342x282: Assets Genie](media/6171adfe-b849-4aca-9016-1f90fc3843d6-5d07408e.png "https://pastatic.picsart.com/cms-pastatic/6171adfe-b849-4aca-9016-1f90fc3843d6.png")
 Assets Genie Generate custom brand assets instantly by uploading your logo.
-![image thumbnail 342x282: Make custom GIFs using AI](https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png)
+![image thumbnail 342x282: Make custom GIFs using AI](media/e30f27f2-fd82-4c75-a3eb-6134c8ba2408-ad57e76a.png "https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png")
 AI GIF Generator Effortlessly generate custom GIF visuals from scratch.
 
 ## S13 pricing

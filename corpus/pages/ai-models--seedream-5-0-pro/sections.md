@@ -7,7 +7,7 @@
 ## Seedream 5.0 Pro: professional AI image generation and editing in one model
 Picsart’s AI Image Generator has integrated Seedream 5.0 Pro, ByteDance Seed’s newest AI image generation model that unifies image generation and editing into a single workflow. Built for professional creators who need control and consistency, Seedream 5.0 Pro delivers dreamlike visuals, precise text rendering, and character consistency - all at roughly 4x better cost efficiency than competing models.
 Start generating
-![image creative 480x480: Seedream 5.0 Pro AI image generation model](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: Seedream 5.0 Pro AI image generation model](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S02 interactive-demo
 
@@ -23,7 +23,7 @@ Start generating
 
 ### Pro-grade text rendering, in any language
 Seedream 5.0 Pro renders dense, legible text straight into your images — headlines, fine print, and multilingual labels (including English and Chinese) with accurate spelling and layout. Design posters, ads, packaging, and infographics where the typography has to land the first time, with no manual touch-ups.
-![image creative 480x480: Seedream 5.0 Pro text rendering](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90)
+![image creative 480x480: Seedream 5.0 Pro text rendering](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-873f1e42.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90")
 
 ## S05 use-case-grid
 
@@ -33,43 +33,43 @@ What you can create with Seedream 5.0 Pro
 [button: Natural-language image editing]
 [button: Marketing and e-commerce visuals]
 Create poster-style key visuals with readable small text, headline hierarchies, and typography-focused composition - ideal for ads, event posters, landing pages, and brand kits. Seedream 5.0 Pro handles multi-line text, small fonts, and multilingual labels with consistent formatting.
-![image creative 879x418: Seedream 5.0 Pro for text rendering in images](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Seedream 5.0 Pro for text rendering in images](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### How and where Picsart uses Seedream 5.0 Pro
 Picsart brings Seedream 5.0 Pro into the tools you already use — it powers Text-to-Image , Text-to-Sticker, the Logo Generator, and Edit Image with a Prompt, and it is available in the AI Playground , where you can compare it against 130+ models from a single prompt. You get its full power in-product, with no model setup or configuration.
-![image creative 480x480: How Picsart uses Seedream 5.0 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: How Picsart uses Seedream 5.0 Pro](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Consistent characters across a whole series
 Keep the same character, outfit, lighting, and style from one image to the next. Seedream 5.0 Pro locks visual identity across a set, so storyboards, ad campaigns, and product lines stay cohesive instead of drifting between generations — the difference between a one-off render and a usable series.
-![image creative 480x480: Seedream 5.0 Pro character consistency](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Seedream 5.0 Pro character consistency](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S08 feature-callout
 
 ### Generate and edit in one model — up to 4K
 Create and refine in a single workflow. Describe edits in plain language with up to 14 reference images — swap products, restyle scenes, adjust lighting — while the rest of the frame stays untouched. Output from 1K up to 4K, and 8K when you need extra detail, ready for screen or print.
-![image creative 480x480: Seedream 5.0 Pro generate and edit up to 4K](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Seedream 5.0 Pro generate and edit up to 4K](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -119,23 +119,23 @@ Seedream 5.0 Pro is ByteDance Seed’s newest AI image generation model. It unif
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: AI model Ideogram 4.0](https://cdn-cms-uploads.picsart.com/cms-uploads/54f8c383-40f4-4afd-9ae0-80f79554e9fd.webp)
+![image thumbnail 342x282: AI model Ideogram 4.0](media/54f8c383-40f4-4afd-9ae0-80f79554e9fd-9ea47016.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/54f8c383-40f4-4afd-9ae0-80f79554e9fd.webp")
 Ideogram 4.0 Ideogram 4.0 is the best open-weight AI image model.
-![image thumbnail 342x282: AI model Seedream 4 5](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: AI model Seedream 4 5](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 Generate stunning, high-quality images with Seedream 4.5 on Picsart.
-![image thumbnail 342x282: AI model Imagen 4.0 Ultra](https://cdn-cms-uploads.picsart.com/cms-uploads/8789713b-2c13-440d-bd7e-f2133503d6e4.webp)
+![image thumbnail 342x282: AI model Imagen 4.0 Ultra](media/8789713b-2c13-440d-bd7e-f2133503d6e4-baade4a2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/8789713b-2c13-440d-bd7e-f2133503d6e4.webp")
 Imagen 4.0 Ultra Create stunning images with Google Imagen 4.0 Ultra — the highest quality tier with superior photorealism and text rendering.
-![image thumbnail 342x282: AI model Qwen 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp)
+![image thumbnail 342x282: AI model Qwen 2 Pro](media/fac139f1-0aae-4888-99f2-8fdf603c8900-7568b314.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp")
 Qwen 2 Pro Generate editorial-grade images with Qwen 2 Pro on Picsart.
-![image thumbnail 342x282: recraft v4.1image ai model](https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp)
+![image thumbnail 342x282: recraft v4.1image ai model](media/4167925f-59ee-462f-a212-453f8fa8436a-4aba3e4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp")
 Recraft V4.1 Generate photoreal images, vectors, and logos with Recraft V4.1 in Picsart.
-![image thumbnail 342x282: AI model Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif)
+![image thumbnail 342x282: AI model Flux 2 Pro](media/1d4b44d0-8bde-457d-8095-4bb6a36bef88-d6303116.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif")
 Flux 2 Pro Generate stunning, photorealistic images with Flux 2 Pro on Picsart.
-![image thumbnail 342x282: AI model Flux 2 Max](https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png)
+![image thumbnail 342x282: AI model Flux 2 Max](media/9e4e068f-1d36-47a4-b398-422ebbd49100-584f92c9.png "https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png")
 Flux 2 Max Create the highest quality AI images with Flux 2 Max by Black Forest Labs — maximum resolution, detail, and photorealism.
-![image thumbnail 342x282: AI model Flux Pro Ultra](https://cdn-cms-uploads.picsart.com/cms-uploads/75eee6aa-bec3-409a-9867-074ae6c2b311.avif)
+![image thumbnail 342x282: AI model Flux Pro Ultra](media/75eee6aa-bec3-409a-9867-074ae6c2b311-356c6c83.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/75eee6aa-bec3-409a-9867-074ae6c2b311.avif")
 Flux Pro Ultra Flux Pro Ultra is the highest-resolution model in the Flux family from Black Forest Labs.
-![image thumbnail 342x282: AI model Happyhorse 1 0](https://cdn-cms-uploads.picsart.com/cms-uploads/cfed9542-a9d9-4bd2-8475-c3a6d03107f9.webp)
+![image thumbnail 342x282: AI model Happyhorse 1 0](media/cfed9542-a9d9-4bd2-8475-c3a6d03107f9-4e419791.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfed9542-a9d9-4bd2-8475-c3a6d03107f9.webp")
 HappyHorse 1.0 Generate AI video with native audio using HappyHorse 1.0 on Picsart - #1 on Artificial Analysis leaderboard.
 
 ## S13 pricing

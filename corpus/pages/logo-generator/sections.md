@@ -7,7 +7,7 @@
 ## Logo maker: Generate high-quality logos with AI
 Put together a polished and unique brand identity for your small business or side hustle with the Picsart AI logo generator. Just write your brand name, select a color set and style, or even upload a logo example, and let Picsart come up with high-quality logos in a matter of seconds. The logo maker will even effectively incorporate your brand name into the design for maximal brand recognition.
 Generate a logo
-![image decorative 480x480: Picsart AI logo generator](https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif)
+![image decorative 480x480: Picsart AI logo generator](media/023d0eee-bcba-42b1-bac1-c62f533bbe73-bdd55f41.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Instant logo generation](https://pastatic.picsart.com/cms-pastatic/627bf11e-e22d-4cf9-aab6-3ac1f0976f7e.png)
+![image icon 96x96: Instant logo generation](media/627bf11e-e22d-4cf9-aab6-3ac1f0976f7e-cbf69d94.png "https://pastatic.picsart.com/cms-pastatic/627bf11e-e22d-4cf9-aab6-3ac1f0976f7e.png")
 #### Instant logo generation
 Generate logos from scratch in a matter of seconds with AI.
-![image icon 96x96: Example-based generation](https://pastatic.picsart.com/cms-pastatic/90bb64a1-0296-442c-ab86-15d4032c87ef.png)
+![image icon 96x96: Example-based generation](media/90bb64a1-0296-442c-ab86-15d4032c87ef-960b11e0.png "https://pastatic.picsart.com/cms-pastatic/90bb64a1-0296-442c-ab86-15d4032c87ef.png")
 #### Example-based generation
 Upload your favorite logos to the logo maker to get similarly styled results.
-![image icon 96x96: Name-based logos](https://pastatic.picsart.com/cms-pastatic/03a2674c-3345-4fcf-a31f-60bb55e63ebf.png)
+![image icon 96x96: Name-based logos](media/03a2674c-3345-4fcf-a31f-60bb55e63ebf-61c65c46.png "https://pastatic.picsart.com/cms-pastatic/03a2674c-3345-4fcf-a31f-60bb55e63ebf.png")
 #### Name-based logos
 AI will masterfully implement your brand name into the newly created logo design.
 
@@ -64,19 +64,19 @@ Use the Start creating button to get started.
 #### Generate logo previews
 5
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/761b6770-21a1-4ef0-b016-ad80142ef9b2.webm)
+![video ui-screenshot 480x600: ](media/761b6770-21a1-4ef0-b016-ad80142ef9b2-3a4b713c.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/761b6770-21a1-4ef0-b016-ad80142ef9b2.webm")
 
 ## S05 feature-callout
 
 ### Craft unique logos at minimal cost and hassle with the logo generator
 Creating a logo for your side hustle or small business has never been easier! Generate recognizable and memorable logo designs by yourself without needing to hire a designer or become one yourself. Not sure how to describe your logo vision? Just upload an example logo to the AI logo generator to save even more time on prompting.
-![image decorative 480x480: Create logos with minimal cost](https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif)
+![image decorative 480x480: Create logos with minimal cost](media/ad88d71d-744b-45a2-890f-a1208db2daa8-bdde6e1d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif")
 
 ## S06 feature-callout
 
 ### Transform your brand identity in seconds
 Thanks to meticulously trained AI models, the Picsart AI logo maker is capable of generating logo designs for various types of businesses. Whether you are creating a logo for a small Etsy fashion shop, a homemade cookie brand, or a vet clinic, the AI draws upon a vast knowledge base to generate relevant results.
-![image decorative 480x480: Logo generator for all businesses](https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif)
+![image decorative 480x480: Logo generator for all businesses](media/4c424512-5d0f-476d-83e0-f0a0823d1d6a-de8b7a53.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif")
 
 ## S07 use-case-grid
 
@@ -85,21 +85,21 @@ Generate AI logos for various industries
 [button: Startup]
 [button: Personal Brand]
 [button: Enterprise]
-![image decorative 423x333: AI-generated logos for small businesses 1](https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif)
-![image decorative 423x333: AI-generated logos for small businesses 2](https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif)
-![image decorative 423x333: AI-generated logos for small businesses 3](https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif)
+![image decorative 423x333: AI-generated logos for small businesses 1](media/7723e7b2-59a9-42d1-9416-fc50060b9dd5-db5de3c4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif")
+![image decorative 423x333: AI-generated logos for small businesses 2](media/18f65df9-9484-4b10-ba74-2e0e6e07be7e-ab615a23.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif")
+![image decorative 423x333: AI-generated logos for small businesses 3](media/0e0b5f00-6ba6-4871-9487-69335076adf2-29ddf132.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif")
 
 ## S08 feature-callout
 
 ### Build a brand kit based on your AI logo
 Keep the creative momentum going by delegating your brand kit creation to the AI. Let Picsart build a cohesive brand identity by giving you a primary color palette, brand fonts, and logo variations. Not a fan of the colors or font selection? Use the initial version as an advanced starting point and easily tweak the kit so it matches your vision. Once this is done, you will be able to select templates that are automatically tailored to your brand kit.
-![image decorative 480x480: AI logo and brand kit](https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif)
+![image decorative 480x480: AI logo and brand kit](media/cd6ee760-0788-4923-8ed3-ea7399f47c6a-15d95320.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif")
 
 ## S09 feature-callout
 
 ### Customize your logo with AI
 Take advantage of the AI-powered photo editor to effortlessly edit your AI logos. Create quick mockups and product photos with the text-to-image AI generator and insert your newly created logo. Need copy for those visuals too? Easily generate copy with the AI Writer . Or use the AI-powered object remover to quickly erase unwanted elements from your AI-generated logo with surgical accuracy.
-![image decorative 480x480: customize logo with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif)
+![image decorative 480x480: customize logo with AI](media/1dd368df-07cf-472d-943b-0d44cce42f6f-037919b2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif")
 
 ## S10 feature-list
 
@@ -126,29 +126,29 @@ Download your logo in a crispy clear and print-friendly resolution.
 
 ### Continue your creative journey with Picsart
 Access a full suite of photo editing and design tools all built into one, easy-to-use interface.
-![image thumbnail 342x282: all-in-one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all-in-one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo editor Supercharge your editing process with AI-powered tools.
-![image thumbnail 342x282: Online collage maker from Picsart](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Online collage maker from Picsart](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage maker Easily combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI Replace Replace any object with something else, all from a simple text description. Turn a chair into an elephant? Poof. (We almost called it AI Genie.)
-![image thumbnail 342x282: remove object](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: remove object](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Object remover No more ruined photos! Get rid of unwanted texts and backgrounds with just a few clicks.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 Photo enhancer The all-in-one Picsart photo editor boasts a full suite of AI tools that make the photo editing and image creation experience fast and seamless.
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/b9fa617f-1059-4cee-b27a-55ffe7d33c0f-133dfd25.png "https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png")
 Background remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png)
+![image thumbnail 342x282: background changer](media/58dbd546-e722-4bd6-8979-2a542338ebc3-55e3e5c9.png "https://pastatic.picsart.com/cms-pastatic/58dbd546-e722-4bd6-8979-2a542338ebc3.png")
 Background changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: Picsart's collection of photo effects and filters](https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png)
+![image thumbnail 342x282: Picsart's collection of photo effects and filters](media/ae1acc0b-b019-4103-ba7d-a09db912d4af-1629c915.png "https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png")
 Photo effects Add flair with eye-catching photo effects & aesthetic filters.
-![image thumbnail 342x282: Add text to photos with Picsart](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: Add text to photos with Picsart](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 Add text to your image Compliment your images with a vast library of free fonts.
-![image thumbnail 342x282: create images from scratch with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images from scratch with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI text-to-image generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: create art with AI](https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png)
+![image thumbnail 342x282: create art with AI](media/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3-ce3fa1ce.png "https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png")
 AI art generator Generate eye-catching art in seconds with AI.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI writer Find the right words in seconds with the help of AI.
 
 ## S12 faq
@@ -165,10 +165,10 @@ The AI logo generator uses advanced algorithms to analyze various design element
 ## S13 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S14 pricing
 

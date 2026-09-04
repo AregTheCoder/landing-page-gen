@@ -7,35 +7,35 @@
 ## Comic book generator
 Choose your genre and tone, add your hero, and let this AI comic book generator turn a photo into a comic book story adventure in seconds. Create a fully illustrated comic book instantly.
 [button: Try ComicMe]
-![image creative 276x276: Animated fairy tale scene set in a cozy village, crayon art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/a70e6579-f21c-4e1e-9553-091b123d0ffd.avif)
+![image creative 276x276: Animated fairy tale scene set in a cozy village, crayon art style, made with Picsart Comic Me](media/a70e6579-f21c-4e1e-9553-091b123d0ffd-2a0877c6.avif "https://pcdn.picsart.com/cms-uploads/a70e6579-f21c-4e1e-9553-091b123d0ffd.avif")
 Crayon
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=3a19eb75-0983-4a85-ac01-a28d2d993561)
 Cozy Village
-![image creative 276x276: Animated fairy tale scene set in a cloud city, watercolor art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/5250cf46-a5b4-4726-80c9-546bc617add7.avif)
+![image creative 276x276: Animated fairy tale scene set in a cloud city, watercolor art style, made with Picsart Comic Me](media/5250cf46-a5b4-4726-80c9-546bc617add7-73748f58.avif "https://pcdn.picsart.com/cms-uploads/5250cf46-a5b4-4726-80c9-546bc617add7.avif")
 Watercolor
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=a616ab48-2d63-4ee4-a35c-602d94edc308)
 Cloud City
-![image creative 276x276: Animated fairy tale scene set in a desert oasis, cut-paper collage art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/5a1da341-fada-4b38-8246-2d89c9901ee8.avif)
+![image creative 276x276: Animated fairy tale scene set in a desert oasis, cut-paper collage art style, made with Picsart Comic Me](media/5a1da341-fada-4b38-8246-2d89c9901ee8-0439ae55.avif "https://pcdn.picsart.com/cms-uploads/5a1da341-fada-4b38-8246-2d89c9901ee8.avif")
 Cut-Paper Collage
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=17ab61e2-b3b3-4417-aa97-b89bb30fc3b2)
 Desert Oasis
-![image creative 276x276: Animated fairy tale scene set in a enchanted forest, watercolor art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/3c68581b-07b8-4ffa-be96-d94476ed3c8d.avif)
+![image creative 276x276: Animated fairy tale scene set in a enchanted forest, watercolor art style, made with Picsart Comic Me](media/3c68581b-07b8-4ffa-be96-d94476ed3c8d-786b28ed.avif "https://pcdn.picsart.com/cms-uploads/3c68581b-07b8-4ffa-be96-d94476ed3c8d.avif")
 Watercolor
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=4522911b-ec55-4023-ba60-312889391ed3)
 Enchanted Forest
-![image creative 276x276: Animated fairy tale scene set in a hidden library, storybook art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/b8ba2f58-7282-47a3-8618-4d796ac90de7.avif)
+![image creative 276x276: Animated fairy tale scene set in a hidden library, storybook art style, made with Picsart Comic Me](media/b8ba2f58-7282-47a3-8618-4d796ac90de7-1cf38da9.avif "https://pcdn.picsart.com/cms-uploads/b8ba2f58-7282-47a3-8618-4d796ac90de7.avif")
 Storybook
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=36ea351a-343d-450b-bab6-95f4d4bec792)
 Hidden Library
-![image creative 276x276: Animated fairy tale scene set in a magical castle, storybook art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/f889fdff-6aa5-4023-9354-2abc49320f3d.avif)
+![image creative 276x276: Animated fairy tale scene set in a magical castle, storybook art style, made with Picsart Comic Me](media/f889fdff-6aa5-4023-9354-2abc49320f3d-962cffff.avif "https://pcdn.picsart.com/cms-uploads/f889fdff-6aa5-4023-9354-2abc49320f3d.avif")
 Storybook
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=85a1900e-de6c-4fea-990f-83d1317ba53d)
 Magical Castle
-![image creative 276x276: Animated fairy tale scene set in a snowy mountains, pencil sketch art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/46f1dd18-6a1a-4185-bf72-0ea173efc88d.avif)
+![image creative 276x276: Animated fairy tale scene set in a snowy mountains, pencil sketch art style, made with Picsart Comic Me](media/46f1dd18-6a1a-4185-bf72-0ea173efc88d-dbd1c02a.avif "https://pcdn.picsart.com/cms-uploads/46f1dd18-6a1a-4185-bf72-0ea173efc88d.avif")
 Pencil Sketch
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=921c1d58-bc15-4099-891c-dc1862e047b3)
 Snowy Mountains
-![image creative 276x276: Animated fairy tale scene set in a underwater kingdom, pastel art style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/b9f3811d-41bb-45f7-be18-de2d3c8d883e.avif)
+![image creative 276x276: Animated fairy tale scene set in a underwater kingdom, pastel art style, made with Picsart Comic Me](media/b9f3811d-41bb-45f7-be18-de2d3c8d883e-407136d7.avif "https://pcdn.picsart.com/cms-uploads/b9f3811d-41bb-45f7-be18-de2d3c8d883e.avif")
 Pastel
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=afc180a2-e98b-4e89-8916-3de759d1a3b4)
 Underwater Kingdom
@@ -44,25 +44,25 @@ Underwater Kingdom
 
 ### Full-scale comics powered by AI
 Upload your hero, choose a genre and generate your own AI comic book
-![image creative 276x276: Animated Action comic panel in Halftone style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/cb9dfec2-03ea-4f40-b020-92ed739b721a.avif)
+![image creative 276x276: Animated Action comic panel in Halftone style, made with Picsart Comic Me](media/cb9dfec2-03ea-4f40-b020-92ed739b721a-742b46f9.avif "https://pcdn.picsart.com/cms-uploads/cb9dfec2-03ea-4f40-b020-92ed739b721a.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=4d277698-a51c-4459-ab04-783e01cea8fd)
 Action
-![image creative 276x276: Animated Horror comic panel in Noir/Ink style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/5339d988-75bc-4849-9cd8-e228e667d100.avif)
+![image creative 276x276: Animated Horror comic panel in Noir/Ink style, made with Picsart Comic Me](media/5339d988-75bc-4849-9cd8-e228e667d100-68fa588a.avif "https://pcdn.picsart.com/cms-uploads/5339d988-75bc-4849-9cd8-e228e667d100.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=45231bc9-ed67-42b9-a3dc-baa92ad1301d)
 Horror
-![image creative 276x276: Animated Sci-Fi comic panel in Manga style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/7efe623d-90a6-42b5-8b57-03eecb0c1dce.avif)
+![image creative 276x276: Animated Sci-Fi comic panel in Manga style, made with Picsart Comic Me](media/7efe623d-90a6-42b5-8b57-03eecb0c1dce-a492b2de.avif "https://pcdn.picsart.com/cms-uploads/7efe623d-90a6-42b5-8b57-03eecb0c1dce.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=c91ef9e7-4976-4367-95c0-459eca99fa1f)
 Sci-Fi
-![image creative 276x276: Animated Neon Noir comic panel in Noir/Ink style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/7ef38b20-acc0-4fe5-90ea-97385d9f48d0.avif)
+![image creative 276x276: Animated Neon Noir comic panel in Noir/Ink style, made with Picsart Comic Me](media/7ef38b20-acc0-4fe5-90ea-97385d9f48d0-87a43a4d.avif "https://pcdn.picsart.com/cms-uploads/7ef38b20-acc0-4fe5-90ea-97385d9f48d0.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=abff3f32-40c4-4328-b336-94f84a147294)
 Neon Noir
-![image creative 276x276: Animated Wasteland comic panel in Halftone style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/1242b128-c3a9-4584-aaab-927869a1cdb2.avif)
+![image creative 276x276: Animated Wasteland comic panel in Halftone style, made with Picsart Comic Me](media/1242b128-c3a9-4584-aaab-927869a1cdb2-3c735491.avif "https://pcdn.picsart.com/cms-uploads/1242b128-c3a9-4584-aaab-927869a1cdb2.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=ed5a306f-1eae-46ea-8dd0-915363964da9)
 Wasteland
-![image creative 276x276: Animated Comedy comic panel in Funny Pages style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/efc79454-5725-4f29-8717-4dbadc784358.avif)
+![image creative 276x276: Animated Comedy comic panel in Funny Pages style, made with Picsart Comic Me](media/efc79454-5725-4f29-8717-4dbadc784358-25cc597f.avif "https://pcdn.picsart.com/cms-uploads/efc79454-5725-4f29-8717-4dbadc784358.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=418e1d6d-5dbd-49c7-b494-ca3779d77064)
 Comedy
-![image creative 276x276: Animated Teen Drama comic panel in Ligne Claire style, made with Picsart Comic Me](https://pcdn.picsart.com/cms-uploads/5faa58f7-a64b-4170-b3f4-b256b210c804.avif)
+![image creative 276x276: Animated Teen Drama comic panel in Ligne Claire style, made with Picsart Comic Me](media/5faa58f7-a64b-4170-b3f4-b256b210c804-943441e3.avif "https://pcdn.picsart.com/cms-uploads/5faa58f7-a64b-4170-b3f4-b256b210c804.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes&presetId=b0f69bc2-967c-487d-b059-7c55701a6be8)
 Teen Drama
 
@@ -70,7 +70,7 @@ Teen Drama
 
 ### Watch your comic story unfold
 See how one photo transforms into a fully illustrated, multi-page comic book. From character creation to AI-written dialogue and cinematic panels, your story comes together in seconds - fast, seamless, and completely personalized.
-![video creative 1006x630: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8a38d4e1-307e-4761-a7a7-de5879211a4c.webm)
+![video creative 1006x630: ](media/8a38d4e1-307e-4761-a7a7-de5879211a4c-d4d599cf.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/8a38d4e1-307e-4761-a7a7-de5879211a4c.webm")
 [Get started](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
 
 ## S04 feature-row
@@ -92,18 +92,18 @@ Upload your characters
 #### Upload your characters
 Add your hero photo and, optionally, a villain. This AI comic story generator uses your images to generate a comic book story from a photo, making you the main character instantly.
 Get started
-![image creative 579x579: Upload your characters](https://cdn-cms-uploads.picsart.com/cms-uploads/72349a05-a086-4c75-946f-556e20c0d108.webp)
+![image creative 579x579: Upload your characters](media/72349a05-a086-4c75-946f-556e20c0d108-25bb19a6.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/72349a05-a086-4c75-946f-556e20c0d108.webp")
 
 ## S06 feature-callout
 
 ### Turn your photos into your own comic book
 An AI comic book generator transforms your real photos into fully illustrated, multi-page stories built around you. More than a simple comic book maker, it creates a personalized comic book where your face becomes the hero. Upload your image and turn a photo into comic book scenes with dynamic panels, AI-written dialogue, plus a shareable link you can copy and send to friends, post online, or save for later.
 [Start now](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/b61ebffd-b070-4d50-9106-928b5e07c5a7.webp)
+![image creative 539x539: image](media/b61ebffd-b070-4d50-9106-928b5e07c5a7-d697c027.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b61ebffd-b070-4d50-9106-928b5e07c5a7.webp")
 
 ## S07 feature-callout
 
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp)
+![image creative 539x539: image](media/e51eac79-2c44-41ba-80d3-8d219c980eaf-34229a0c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp")
 ### Go from selfie to comic book in seconds
 Creating your story feels effortless with this comic book generator. Upload your hero photo, add a villain if you’d like, and choose your genre and tone. The AI comic book generator will turn a photo to comic instantly and create a comic book with AI, complete with panels, dialogue, and dynamic scenes.
 [Create your comic book](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
@@ -113,11 +113,11 @@ Creating your story feels effortless with this comic book generator. Upload your
 ### Create unique comic stories in every genre
 Whether you imagine a superhero showdown, a fantasy quest, a romantic storyline, or even workplace drama, this comic book maker adapts instantly to your idea. With ComicMe, you can create comics with AI that feel bold, cinematic, and completely original. Every story arc is unique, ready to download or share with a simple link.
 [Get started](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/6aada687-e0bb-4209-99ff-e140a8e21706.webp)
+![image creative 539x539: image](media/6aada687-e0bb-4209-99ff-e140a8e21706-422f3a9e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6aada687-e0bb-4209-99ff-e140a8e21706.webp")
 
 ## S09 feature-callout
 
-![image creative 539x539: image](https://cdn-cms-uploads.picsart.com/cms-uploads/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b.webp)
+![image creative 539x539: image](media/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b-d6dae141.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b.webp")
 ### Not a comic strip. A full comic book story.
 Unlike basic strip tools, this comic book generator builds complete, multi-page narratives powered by an AI comic story generator. Create a comic book with real characters, turn pictures into comic book art, and create a personalized comic book online for free that feels cinematic and immersive. When it’s ready, copy your shareable link and send your full comic book story anywhere.
 [Start creating](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
@@ -133,18 +133,18 @@ Unlike basic strip tools, this comic book generator builds complete, multi-page 
 #### Superhero adventure creation
 Turn yourself into the hero of your own action-packed story. Use the AI superhero comic generator to battle villains, save the city, and star in a cinematic, multi-page showdown.
 [Superhero](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 500x500: Superhero adventure creation](https://cdn-cms-uploads.picsart.com/cms-uploads/4a7ffc24-846a-4092-87e6-705f7b2c2c85.avif)
+![image creative 500x500: Superhero adventure creation](media/4a7ffc24-846a-4092-87e6-705f7b2c2c85-aad40b48.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4a7ffc24-846a-4092-87e6-705f7b2c2c85.avif")
 
 ## S11 gallery
 
 ### Epic comics created with AI
-![image creative 651x366: ](https://cdn-cms-uploads.picsart.com/cms-uploads/25b2eec7-9c6f-4349-869a-fafc631f31f1.avif)
+![image creative 651x366: ](media/25b2eec7-9c6f-4349-869a-fafc631f31f1-af016a26.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/25b2eec7-9c6f-4349-869a-fafc631f31f1.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 651x366: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0bf544bf-24dc-45ce-9243-985496eeef4b.avif)
+![image creative 651x366: ](media/0bf544bf-24dc-45ce-9243-985496eeef4b-51daa8b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0bf544bf-24dc-45ce-9243-985496eeef4b.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 651x366: ](https://cdn-cms-uploads.picsart.com/cms-uploads/059a9151-91d1-473a-aa43-cc0075e39092.avif)
+![image creative 651x366: ](media/059a9151-91d1-473a-aa43-cc0075e39092-97d03cb4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/059a9151-91d1-473a-aa43-cc0075e39092.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
-![image creative 651x366: ](https://cdn-cms-uploads.picsart.com/cms-uploads/abdc6d0a-3336-4421-9f94-8ac08d3bd609.avif)
+![image creative 651x366: ](media/abdc6d0a-3336-4421-9f94-8ac08d3bd609-208b6329.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/abdc6d0a-3336-4421-9f94-8ac08d3bd609.avif")
 [Generate](https://picsart.com/create/?category=miniapps&app=com.picsart.infinite-heroes)
 
 ## S12 link-grid

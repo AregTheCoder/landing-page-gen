@@ -6,7 +6,7 @@
 
 ## Add text to video for free in seconds
 Add text to video online to turn simple clips into clear, engaging stories with captions, titles, and overlays that make your videos more informative and engaging.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46.webm)
+![video creative 480x480: ](media/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46-e29d767c.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46.webm")
 
 ## S02 link-grid
 
@@ -41,23 +41,23 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ### Add video with text styles for every story
 Make every moment clearer, bolder, and easier to follow.
-![image creative 196x348: lifestyle video with subtle text overlay](https://cdn-cms-uploads.picsart.com/cms-uploads/18503e48-8f69-4bce-8e30-908e333fcc55.mp4?type=webp&to=min&r=400)
-![image creative 196x348: product video with bold promo text](https://cdn-cms-uploads.picsart.com/cms-uploads/6f36ebdb-4241-4e5f-9356-1f72beeaaa74.mp4?type=webp&to=min&r=400)
-![image creative 196x348: summer video with caption text](https://cdn-cms-uploads.picsart.com/cms-uploads/4952f34a-8ac9-42d7-8e36-8b37835046db.mp4?type=webp&to=min&r=400)
-![image creative 196x348: lifestyle video with quote overlay](https://cdn-cms-uploads.picsart.com/cms-uploads/f1c304c2-de78-4c9d-89c2-61700648e343.mp4?type=webp&to=min&r=400)
-![image creative 196x348: travel video with title text](https://cdn-cms-uploads.picsart.com/cms-uploads/c75a09b5-2caf-4860-9dd9-b663017b0617.mp4?type=webp&to=min&r=400)
-![image creative 196x348: animated video with playful text](https://cdn-cms-uploads.picsart.com/cms-uploads/170a479c-b8f0-4476-8ba6-03d31f7c4300.mp4?type=webp&to=min&r=400)
-![image creative 196x348: fashion video with bold text overlay](https://cdn-cms-uploads.picsart.com/cms-uploads/0a5b78e7-82c1-4fc7-a1f7-e6fda3d9283c.mp4?type=webp&to=min&r=400)
+![image creative 196x348: lifestyle video with subtle text overlay](media/18503e48-8f69-4bce-8e30-908e333fcc55-f613dc0d.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/18503e48-8f69-4bce-8e30-908e333fcc55.mp4?type=webp&to=min&r=400")
+![image creative 196x348: product video with bold promo text](media/6f36ebdb-4241-4e5f-9356-1f72beeaaa74-236bbb63.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/6f36ebdb-4241-4e5f-9356-1f72beeaaa74.mp4?type=webp&to=min&r=400")
+![image creative 196x348: summer video with caption text](media/4952f34a-8ac9-42d7-8e36-8b37835046db-b95c89be.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/4952f34a-8ac9-42d7-8e36-8b37835046db.mp4?type=webp&to=min&r=400")
+![image creative 196x348: lifestyle video with quote overlay](media/f1c304c2-de78-4c9d-89c2-61700648e343-b8254d71.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/f1c304c2-de78-4c9d-89c2-61700648e343.mp4?type=webp&to=min&r=400")
+![image creative 196x348: travel video with title text](media/c75a09b5-2caf-4860-9dd9-b663017b0617-86aae72e.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/c75a09b5-2caf-4860-9dd9-b663017b0617.mp4?type=webp&to=min&r=400")
+![image creative 196x348: animated video with playful text](media/170a479c-b8f0-4476-8ba6-03d31f7c4300-f68fc7a6.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/170a479c-b8f0-4476-8ba6-03d31f7c4300.mp4?type=webp&to=min&r=400")
+![image creative 196x348: fashion video with bold text overlay](media/0a5b78e7-82c1-4fc7-a1f7-e6fda3d9283c-473cccfb.mp4 "https://cdn-cms-uploads.picsart.com/cms-uploads/0a5b78e7-82c1-4fc7-a1f7-e6fda3d9283c.mp4?type=webp&to=min&r=400")
 
 ## S04 feature-row
 
-![image icon 96x96: icon for supporting free text overlays](https://cdn-cms-uploads.picsart.com/cms-uploads/4c400f0d-979d-4705-b8f2-a5e653ec478b.png)
+![image icon 96x96: icon for supporting free text overlays](media/4c400f0d-979d-4705-b8f2-a5e653ec478b-6e0a4022.png "https://cdn-cms-uploads.picsart.com/cms-uploads/4c400f0d-979d-4705-b8f2-a5e653ec478b.png")
 #### Supports free text overlays
 Add text to videos for free with captions, headings, and highlights that keep content clear and engaging.
-![image icon 96x96: icon for text editor working for all devices](https://cdn-cms-uploads.picsart.com/cms-uploads/523f836a-62ad-4bcf-bc8e-f575328eb26a.png)
+![image icon 96x96: icon for text editor working for all devices](media/523f836a-62ad-4bcf-bc8e-f575328eb26a-3738f1a3.png "https://cdn-cms-uploads.picsart.com/cms-uploads/523f836a-62ad-4bcf-bc8e-f575328eb26a.png")
 #### Works across all devices
 Edit videos and add text in a browser-based Video Text Editor on desktop, tablet, or mobile.
-![image icon 96x96: icon for video text customization](https://cdn-cms-uploads.picsart.com/cms-uploads/f8767c2e-9197-4f92-8775-9edff4c692b1.png)
+![image icon 96x96: icon for video text customization](media/f8767c2e-9197-4f92-8775-9edff4c692b1-11ed7207.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f8767c2e-9197-4f92-8775-9edff4c692b1.png")
 #### Supports text customization
 Choose from 1,000+ fonts and adjust colors, size, placement, animations, strokes, and shadows with ease.
 
@@ -73,43 +73,43 @@ Open the editor and add your video directly from your device - no setup or downl
 #### Customize the look
 4
 #### Preview and export
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/26ce3ca9-2e61-4b1c-99dc-585c745aa36a.webm)
+![video ui-screenshot 480x600: ](media/26ce3ca9-2e61-4b1c-99dc-585c745aa36a-e0fbd571.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/26ce3ca9-2e61-4b1c-99dc-585c745aa36a.webm")
 
 ## S06 feature-callout
 
 ### Add text to video online with ease
 Add captions, titles, and overlays directly to your videos using a browser-based Video Text Editor. No installs or setup needed - just a smooth, intuitive experience that works across devices. Create clearer, more engaging, and visually polished videos while editing entirely online, whether you’re working on a desktop, tablet, or mobile.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7aa36208-76f8-4ec8-a2ee-92b9c4cf7c55.webm)
+![video creative 480x480: ](media/7aa36208-76f8-4ec8-a2ee-92b9c4cf7c55-6d92a354.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7aa36208-76f8-4ec8-a2ee-92b9c4cf7c55.webm")
 
 ## S07 feature-callout
 
 ### Customize video text with full control
 You have full control when adding text to video, with the freedom to select fonts, refine colors, adjust sizing, and apply animations that suit your style. Choose from clean basics or expressive, AI-generated fonts for video, then fine-tune the details so your text reflects your brand, mood, or creative direction without making editing feel complicated.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d724fc56-e279-47c7-861c-29ec2cd8c135.webm)
+![video creative 480x480: ](media/d724fc56-e279-47c7-861c-29ec2cd8c135-ea09f788.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d724fc56-e279-47c7-861c-29ec2cd8c135.webm")
 
 ## S08 feature-callout
 
 ### Create engaging social videos by adding text
 When you add video text, your content is easier to follow across platforms like Instagram, TikTok, YouTube, and more. Captions, titles, and annotations help videos stand out in fast-moving feeds, improve accessibility for all viewers, and encourage higher engagement by making key moments clear at a glance.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7fc5fafa-ac26-4bd7-80a8-2caae290306c.webm)
+![video creative 480x480: ](media/7fc5fafa-ac26-4bd7-80a8-2caae290306c-f2fffbb6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7fc5fafa-ac26-4bd7-80a8-2caae290306c.webm")
 
 ## S09 feature-callout
 
 ### Add text to promotional videos and ads
 Add text to promotional videos and video ads to highlight products, share offers, or guide viewers to take action. With simple tools to edit video text, creators, small businesses, and marketers can add calls-to-action, announcements, and key details quickly without dealing with complex editing workflows.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ed7a95bd-ce05-4250-8905-ed8350f66445.webm)
+![video creative 480x480: ](media/ed7a95bd-ce05-4250-8905-ed8350f66445-e9705ff6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/ed7a95bd-ce05-4250-8905-ed8350f66445.webm")
 
 ## S10 feature-callout
 
 ### Enhance videos with text for storytelling and tutorials
 Text helps guide viewers through ideas, steps, and narratives with clarity. When you enhance videos with text, tutorials with text become easier to follow, and storytelling feels more structured. Using a Video Text Editor, you can add helpful context that keeps viewers engaged and makes complex content simpler to understand.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/896831e1-d7d7-4261-9987-3a13aecad57d.webm)
+![video creative 480x480: ](media/896831e1-d7d7-4261-9987-3a13aecad57d-c5962f9b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/896831e1-d7d7-4261-9987-3a13aecad57d.webm")
 
 ## S11 feature-callout
 
 ### Auto-generate captions while adding text to a video
 With Picsart’s add text to video tools, you can choose how text appears based on your content. For speaking videos, captions automatically convert speech into on-screen text, while manual text tools work best for titles and highlights. Auto-generated captions improve accessibility, support tutorials, and keep videos easy to follow even when the sound is off.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f8e7d093-bdbc-40fe-9949-9021b553331b.webm)
+![video creative 480x480: ](media/f8e7d093-bdbc-40fe-9949-9021b553331b-09913518.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f8e7d093-bdbc-40fe-9949-9021b553331b.webm")
 
 ## S12 feature-list
 
@@ -145,17 +145,17 @@ Elena V., Online educator
 ## S14 link-grid
 
 ### More Tools to Love
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: online AI image to video generator](https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png)
+![image thumbnail 342x282: online AI image to video generator](media/f07c4157-d746-46cb-8d6d-35051270884b-86874bbb.png "https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png")
 AI Image-to-Video Turn any image into a dynamic video with AI.
-![image thumbnail 342x282: remove object from video](https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png)
+![image thumbnail 342x282: remove object from video](media/31ad13c3-278d-48aa-9688-9eb04300c6f7-02a740d0.png "https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png")
 Video Object Remover Get rid of unnecessary details from your videos with the help of AI.
-![image thumbnail 342x282: AI caption generator](https://pastatic.picsart.com/cms-pastatic/a77a140c-7e27-4a07-ad8a-ad5a133afab5.png)
+![image thumbnail 342x282: AI caption generator](media/a77a140c-7e27-4a07-ad8a-ad5a133afab5-8078d53a.png "https://pastatic.picsart.com/cms-pastatic/a77a140c-7e27-4a07-ad8a-ad5a133afab5.png")
 AI Caption Generator Brainstorm compelling captions for social media, photo collections, or marketing projects.
-![image thumbnail 342x282: add subtitles to videos online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp)
+![image thumbnail 342x282: add subtitles to videos online for free](media/abb45bdc-e5f5-4580-84b2-890d2582fe08-d2f8944a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp")
 Add Subtitles to Video Generate accurate subtitles for any video in seconds.
-![image thumbnail 342x282: add music to video online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/14b48618-d30d-4db7-9b46-15dd6aabfdb7.webp)
+![image thumbnail 342x282: add music to video online for free](media/14b48618-d30d-4db7-9b46-15dd6aabfdb7-052625d9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/14b48618-d30d-4db7-9b46-15dd6aabfdb7.webp")
 Add Music to Video Add music to video online in just a few steps.
 
 ## S15 pricing
@@ -236,27 +236,27 @@ Contact for pricing
 
 ### Learn video editing basics
 Learn how to make cleaner edits to clips.
-![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif)
+![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](media/9568f28a-001a-481d-8d02-8babcb115e7e-eae505fe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif")
 Video editing
 #### How to edit videos with AI in Picsart video editor
 5 min Intermediate
-![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif)
+![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](media/72ce5f51-9491-4ebf-85b1-c6dd8355d44e-8197708a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif")
 Video editing
 #### How to apply AI video filters and effects in Picsart
 4 min Beginner
-![image thumbnail 294x196: How to add text and captions to videos online preview](https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif)
+![image thumbnail 294x196: How to add text and captions to videos online preview](media/7b1f20ea-7e72-477c-81f2-f677d6e10fd4-4a367a4d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif")
 Video editing
 #### How to add text and captions to videos online
 4 min Beginner
-![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif)
+![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](media/dfa3bef9-5ca9-4b63-a795-79db0819217f-1ed29733.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif")
 Video editing
 #### How to create smooth video transitions with AI effects
 4 min Intermediate
-![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif)
+![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](media/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635-f2c26bd4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif")
 Video editing
 #### How to export videos for TikTok, Reels, YouTube, and Stories
 5 min Intermediate
-![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85)
+![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](media/c48797c6-b6f9-4cd7-9695-a1686d0998cc-2964cf18.png "https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85")
 Video editing
 #### How to fix eye contact in talking-head videos with AI
 4 min Intermediate

@@ -7,7 +7,7 @@
 ## Async Flash v1.0: fast AI audio and music generation
 Async Flash v1.0 is a fast AI audio generation model, now available in Picsart's AI Playground. Describe the sound you want and generate music and audio from a simple text prompt - across moods, styles, and tempos. Built for speed, Async Flash v1.0 helps creators add original audio to their projects in moments, then bring it into the rest of their creative work.
 Start generating
-![image creative 480x480: Async Flash v1.0 AI audio generation](https://cdn-cms-uploads.picsart.com/cms-uploads/e4710225-0f98-4713-9c85-f2b947a72515.avif)
+![image creative 480x480: Async Flash v1.0 AI audio generation](media/e4710225-0f98-4713-9c85-f2b947a72515-88e1fd8c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e4710225-0f98-4713-9c85-f2b947a72515.avif")
 
 ## S02 interactive-demo
 
@@ -17,22 +17,22 @@ Start generating
 ## S03 gallery
 
 ### AI-powered creativity, no limits
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2cbbc61a-4ce3-4b8b-9d23-c44eab754809.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/94154ee0-9df2-47b9-819d-2a0d242efbfe.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/83a3dd81-fe1a-45e0-8239-0912c8d23ed0.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d2c5701b-71de-4e7f-94ce-7fd4d6afb72f.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6778e5bf-cf0f-489f-8698-1e8360a5d85b.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6d0ab8a0-6288-4113-a4bb-7f26482aac73.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2ae35c11-34ad-4c52-9402-2df53eb36f8e.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/31f4fda3-986f-409d-b078-fd606267f207.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/bb5a613d-85bd-4371-af4c-a1bc6819822d.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f874132e-d276-4fbe-838e-20605bad8b5e.avif)
+![image creative 196x348: ](media/2cbbc61a-4ce3-4b8b-9d23-c44eab754809-478e34e9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2cbbc61a-4ce3-4b8b-9d23-c44eab754809.avif")
+![image creative 196x348: ](media/94154ee0-9df2-47b9-819d-2a0d242efbfe-63a80d52.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/94154ee0-9df2-47b9-819d-2a0d242efbfe.avif")
+![image creative 196x348: ](media/83a3dd81-fe1a-45e0-8239-0912c8d23ed0-0cd54cdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/83a3dd81-fe1a-45e0-8239-0912c8d23ed0.avif")
+![image creative 196x348: ](media/d2c5701b-71de-4e7f-94ce-7fd4d6afb72f-e0d96d59.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d2c5701b-71de-4e7f-94ce-7fd4d6afb72f.avif")
+![image creative 196x348: ](media/6778e5bf-cf0f-489f-8698-1e8360a5d85b-d5732bf3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6778e5bf-cf0f-489f-8698-1e8360a5d85b.avif")
+![image creative 196x348: ](media/6d0ab8a0-6288-4113-a4bb-7f26482aac73-b9a65cb3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6d0ab8a0-6288-4113-a4bb-7f26482aac73.avif")
+![image creative 196x348: ](media/2ae35c11-34ad-4c52-9402-2df53eb36f8e-97dd5441.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ae35c11-34ad-4c52-9402-2df53eb36f8e.avif")
+![image creative 196x348: ](media/31f4fda3-986f-409d-b078-fd606267f207-a0191261.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/31f4fda3-986f-409d-b078-fd606267f207.avif")
+![image creative 196x348: ](media/bb5a613d-85bd-4371-af4c-a1bc6819822d-72ae048b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bb5a613d-85bd-4371-af4c-a1bc6819822d.avif")
+![image creative 196x348: ](media/f874132e-d276-4fbe-838e-20605bad8b5e-1cc9fb34.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f874132e-d276-4fbe-838e-20605bad8b5e.avif")
 
 ## S04 feature-callout
 
 ### What is Async Flash v1.0?
 Async Flash v1.0 is an AI audio generation model built for speed. It creates music and audio from text prompts, turning a short description into a usable track. Designed for fast iteration, Async Flash v1.0 lets you generate, listen, and regenerate quickly so you can explore different directions for your sound. It supports a range of styles and moods, making it a flexible starting point for soundtracks, background music, and audio ideas. As an early-stage model, its capabilities are still evolving, but the focus stays consistent: quick, prompt-driven audio creation.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e480172a7.webm)
+![video creative 480x480: ](media/11847327-80d3-4c99-bb8a-6a1e480172a7-ac09d5be.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e480172a7.webm")
 
 ## S05 use-case-grid
 
@@ -41,43 +41,43 @@ What you can create with Async Flash v1.0
 [button: Create background music for content]
 [button: Explore styles and moods quickly]
 Describe the sound you want - genre, mood, tempo, instruments - and Async Flash v1.0 generates an audio track to match, fast.
-![image creative 879x418: Async Flash v1.0 text to audio](https://cdn-cms-uploads.picsart.com/cms-uploads/51ce3cd4-6298-4160-9528-30929d88f710.avif)
+![image creative 879x418: Async Flash v1.0 text to audio](media/51ce3cd4-6298-4160-9528-30929d88f710-908fd497.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51ce3cd4-6298-4160-9528-30929d88f710.avif")
 
 ## S06 feature-callout
 
 ### Async Flash v1.0 capabilities
 Async Flash v1.0 generates audio from text prompts - describe anything from 'an upbeat electronic loop' to a calmer ambient bed, and the model produces a track to match. It's optimized for speed, so you can iterate through ideas quickly and compare directions. Async Flash v1.0 supports a range of genres and moods, giving you a flexible starting point for music and audio. Because it's an early-stage model, its feature set will continue to grow.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/71d5e50f-93db-4744-8bb0-35ba88bbba36.webm)
+![video creative 480x480: ](media/71d5e50f-93db-4744-8bb0-35ba88bbba36-f118a3a7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/71d5e50f-93db-4744-8bb0-35ba88bbba36.webm")
 
 ## S07 feature-callout
 
 ### How Async Flash v1.0 works inside Picsart
 Async Flash v1.0 is available in Picsart's AI Playground . You enter a prompt describing the audio you want, choose Async Flash v1.0, and the model generates a track you can listen to right away. From the AI Playground you can refine your prompt and regenerate until the sound fits, then save your result. The experience is built around quick, prompt-driven audio creation - type, generate, and iterate, all in one place.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm)
+![video ui-screenshot 480x480: ](media/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b-70615921.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose Async Flash v1.0
 Async Flash v1.0 is built for speed. When you need audio fast - a quick background track, a mood, a loop - it turns a text prompt into a result in moments, so you spend less time waiting and more time creating. Its prompt-driven workflow keeps things simple: describe what you want and let the model handle the rest. With support for a range of styles, Async Flash v1.0 works as a flexible starting point you can iterate on. Inside Picsart's AI Playground, generating original audio becomes a fast, repeatable part of your creative process.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6a358662-aa7d-469f-b00d-8104119570ef.webm)
+![video creative 480x480: ](media/6a358662-aa7d-469f-b00d-8104119570ef-cf4b53d9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6a358662-aa7d-469f-b00d-8104119570ef.webm")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -127,23 +127,23 @@ Async Flash v1.0 is an AI audio generation model built for speed. It creates mus
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Luma Ray 2 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: Luma Ray 2 AI model for video generation](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 Luma Ray 2 Luma Ray 2 is a generative AI model optimized for fast, high-fidelity video generation with realistic lighting and motion.
-![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Runway Gen 4 is a generative AI model designed for professional-grade video creation with fine-grained creative control.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 Ideogram 3.0 Flash Ideogram 3.0 Flash is a generative AI model built for fast image creation with accurate text rendering and design precision.
-![image thumbnail 342x282: Seedream 4.5 AI model for image generation](https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png)
+![image thumbnail 342x282: Seedream 4.5 AI model for image generation](media/ba1366fa-0792-4639-9f5e-9dd832ac458b-099ab47b.png "https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png")
 Seedream 4.5 Seedream 4.5 is a generative AI model designed for high-quality image generation with advanced visual understanding.
-![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 GPT Image 1.5 GPT Image 1.5 is a multimodal AI model that generates images from text prompts with strong compositional understanding.
-![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png)
+![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](media/54efb397-a826-452d-84ed-9eb6ab36b6fb-ffac54fe.png "https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png")
 Flux 2 Pro Flux 2 Pro is a generative AI model optimized for high-resolution image generation with fine detail and creative flexibility.
-![image thumbnail 342x282: Kling 3.0 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI model for video generation](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Kling 3.0 is a generative AI model built for motion-based video creation with advanced control over movement and scene dynamics.
-![image thumbnail 342x282: Nano Banana 2 AI model for scalable image creation](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Nano Banana 2 AI model for scalable image creation](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Nano Banana 2 Nano Banana 2 is a generative AI model designed for scalable image creation with improved visual quality and speed.
-![image thumbnail 342x282: Veo AI model for cinematic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp)
+![image thumbnail 342x282: Veo AI model for cinematic video generation](media/fc94b953-656d-42c8-9ee8-0a6c17e4043a-78edb46d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp")
 Veo 3.1 Veo is a generative AI model designed for high-quality cinematic video creation and visual storytelling.
 
 ## S13 pricing

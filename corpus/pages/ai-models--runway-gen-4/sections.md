@@ -7,7 +7,7 @@
 ## Runway Gen 4: AI video that moves like cinema
 Picsart’s AI Video Generator has integrated Runway Gen 4, bringing cinematic, high-fidelity video generation directly into your creative workflow. Runway Gen 4 produces videos with consistent characters, realistic motion, and cinematic quality helping creators generate professional-grade video content faster and with more creative control than ever before.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1a38db3f-2172-4904-92e8-ae29df5e6300.webm)
+![video creative 480x480: ](media/1a38db3f-2172-4904-92e8-ae29df5e6300-bc10968b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1a38db3f-2172-4904-92e8-ae29df5e6300.webm")
 
 ## S02 interactive-demo
 
@@ -19,34 +19,34 @@ Start generating
 ## S03 gallery
 
 ### Cinematic motion, zero Limit
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif)
+![image creative 196x348: ](media/d7249ef4-30ce-4586-be3d-6e4996a5f3d1-29f16934.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif")
 Tofu
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 Prescott
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif)
+![image creative 196x348: ](media/ba8cc09d-a8d4-425f-8f69-03007d5f1d02-bfd0991c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif")
 Woolf
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
 Dumpling
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
 Nugget
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif)
+![image creative 196x348: ](media/1e87768c-bdb7-4bd1-b762-d7ff7cc31925-bb012af5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif")
 Sloane
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif)
+![image creative 196x348: ](media/029d49e5-fe69-40f2-a9b6-2594acd9c668-549165ee.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif")
 Paris
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
 Indigo Sphinx
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
 Truffle
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif)
+![image creative 196x348: ](media/785634d3-65ab-4464-b901-347896752194-e511932d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif")
 Silver Scarab
 [Try this vibe](https://picsart.com/ai-playground/?model=runway-gen45-t2v)
 
@@ -54,13 +54,13 @@ Silver Scarab
 
 ### What is Runway Gen 4?
 Runway Gen 4 is the latest video generation model from Runway, designed to produce cinematic AI videos with exceptional fidelity and realism. It introduces major improvements in character consistency, natural motion, and scene coherence generating videos where people, objects, and environments maintain visual continuity across frames. Runway Gen 4 transforms text and image prompts into polished, story-ready video content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm)
+![video creative 480x480: ](media/9119fccd-5d22-49e5-920e-c8aa1d1842f7-0ec67c13.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm")
 
 ## S05 feature-callout
 
 ### Runway Gen 4 capabilities
 Runway Gen 4 excels at generating videos with consistent characters that look the same across every frame, realistic motion that mimics natural movement and physics, and cinematic camera work including pans, zooms, and tracking shots. It handles complex multi-subject scenes with strong spatial awareness and delivers high-fidelity output that feels closer to filmed footage than generated content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm)
+![video creative 480x480: ](media/3908c0df-5426-4feb-a387-4bf35ae265b6-4a2607b5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm")
 
 ## S06 use-case-grid
 
@@ -69,19 +69,19 @@ What you can create with Runway Gen 4
 [button: Produce short-form video content]
 [button: Build marketing and brand videos]
 Create studio-quality video clips from text or image prompts with realistic motion, consistent characters, and cinematic framing.
-![image creative 879x418: Runway Gen 4 for cinematic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: Runway Gen 4 for cinematic video generation](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S07 feature-callout
 
 ### How Runway Gen 4 works inside Picsart
 Picsart integrates Runway Gen 4 directly into its AI Video Generator , so creators can produce cinematic video content without interacting with the model itself. It works alongside other Picsart tools as well, helping creators build complete video projects faster with greater creative control.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm)
+![video ui-screenshot 480x480: ](media/e41ea569-771c-40f7-abd5-9b957035cba4-550b853e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose Runway Gen 4
 Runway Gen 4 delivers a leap in AI video quality, with character consistency, realistic physics, and cinematic motion that previous models couldn’t achieve. Creators choose it for its ability to produce videos that feel filmed rather than generated — with natural lighting, coherent movement, and visual continuity. Integrated into Picsart’s AI Video Generator, it makes professional-grade video production accessible without complex editing setups.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm)
+![video creative 480x480: ](media/c3a2fd90-aade-4331-8f77-d264241f1855-589f95dd.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm")
 
 ## S09 tutorial-grid
 
@@ -90,15 +90,15 @@ Learn how to compare video models, motion, and outputs.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -148,11 +148,11 @@ Runway Gen 4 is the latest AI video generation model from Runway, designed for c
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
-![image thumbnail 342x282: Sora AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Sora AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model A generative AI model built for video creation and visual storytelling.
 
 ## S13 pricing

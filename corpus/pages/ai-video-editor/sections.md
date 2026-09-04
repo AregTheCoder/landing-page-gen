@@ -7,17 +7,17 @@
 ## AI Video Editor for impactful content creation
 Discover the easiest way to create videos with AI. Picsart’s AI Video Editor simplifies complex editing tasks so you can produce high-quality, share-worthy content in minutes. From TikToks and YouTube Shorts to professional marketing clips, AI video editing makes the process effortless.
 Start editing now
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ce046012-b91d-4ffb-accf-1d484df69de5.webm)
+![video ui-screenshot 480x480: ](media/ce046012-b91d-4ffb-accf-1d484df69de5-ccc9dc25.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/ce046012-b91d-4ffb-accf-1d484df69de5.webm")
 
 ## S02 feature-row
 
-![image icon 96x96: Icon for AI](https://cdn-cms-uploads.picsart.com/cms-uploads/58da298b-1caa-4aa2-9433-347f63adda44.png)
+![image icon 96x96: Icon for AI](media/58da298b-1caa-4aa2-9433-347f63adda44-8cfe9f87.png "https://cdn-cms-uploads.picsart.com/cms-uploads/58da298b-1caa-4aa2-9433-347f63adda44.png")
 #### Smarter AI-powered editing
 Create professional videos with AI video editing tools that understand your vision and deliver polished results in seconds.
-![image icon 96x96: Icon for prompt](https://cdn-cms-uploads.picsart.com/cms-uploads/ce50b64e-befd-4f5f-a9b1-a3edc6df00a1.png)
+![image icon 96x96: Icon for prompt](media/ce50b64e-befd-4f5f-a9b1-a3edc6df00a1-28fad260.png "https://cdn-cms-uploads.picsart.com/cms-uploads/ce50b64e-befd-4f5f-a9b1-a3edc6df00a1.png")
 #### One-click video editing with prompts
 Enhance your footage in seconds using one-click video editing - fast, simple, and designed to deliver polished results every time.
-![image icon 96x96: Icon for visual effects](https://cdn-cms-uploads.picsart.com/cms-uploads/eb5a23d7-fe8b-4cc2-9e0a-055a03a0e8a8.png)
+![image icon 96x96: Icon for visual effects](media/eb5a23d7-fe8b-4cc2-9e0a-055a03a0e8a8-04c3f5eb.png "https://cdn-cms-uploads.picsart.com/cms-uploads/eb5a23d7-fe8b-4cc2-9e0a-055a03a0e8a8.png")
 #### Visual effects (VFX) simplified
 Create quality AI videos packed with cinematic effects, sharp detail, and vibrant colors - all applied automatically to make every project stand out.
 
@@ -44,37 +44,37 @@ Select or upload a source video to start editing on canvas.
 #### Add references (optional)
 4
 #### Generate your video
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3e172467-ac62-404b-b3c3-7101be90908c.webm)
+![video ui-screenshot 480x600: ](media/3e172467-ac62-404b-b3c3-7101be90908c-1c1228ae.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3e172467-ac62-404b-b3c3-7101be90908c.webm")
 
 ## S05 feature-callout
 
 ### AI Video Editor for everyone
 The AI Video Editor makes video editing simple and intuitive, combining advanced technology with a user-friendly design. Anyone, from beginners to professionals, can create videos with AI in minutes. Produce polished, high-quality content for social media, personal projects, or business needs with AI video editing that saves time and enhances creativity.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/dac6efd4-e39e-4cc9-b30a-11326a439369.webm)
+![video ui-screenshot 480x480: ](media/dac6efd4-e39e-4cc9-b30a-11326a439369-7441fa53.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/dac6efd4-e39e-4cc9-b30a-11326a439369.webm")
 
 ## S06 feature-callout
 
 ### Create shareable AI videos
 With the AI Video Editor, making engaging content is fast and simple. By automating complex tasks, the tool lets anyone create videos with AI that look professional and polished. In just a few clicks, turn your footage into shareable videos that grab attention and look professional across social media, personal projects, or customer campaigns.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/388140ac-eef1-4d98-910c-eccf9fc48425.webm)
+![video creative 480x480: ](media/388140ac-eef1-4d98-910c-eccf9fc48425-bc35afdc.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/388140ac-eef1-4d98-910c-eccf9fc48425.webm")
 
 ## S07 feature-callout
 
 ### Next-level cinematic AI video editing
 Transform your content with cinematic video effects using Picsart’s online AI Video Editor. With just a simple prompt, the tool applies color grading, visual enhancements, and dynamic effects automatically - no complex software required. Save time while achieving high-quality results, from enhancing personal memories to producing professional content with a cinematic finish.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/19183fab-1dae-4975-b94a-a824676e0219.webm)
+![video creative 480x480: ](media/19183fab-1dae-4975-b94a-a824676e0219-93882f19.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/19183fab-1dae-4975-b94a-a824676e0219.webm")
 
 ## S08 feature-callout
 
 ### Transform your footage into AI videos
 The AI Video Editor makes it easy to enhance videos with AI - no need to start from scratch. Simply upload your footage and let advanced algorithms improve quality, add effects, and apply cinematic transformations in minutes. With AI video editing, you can upgrade personal recordings, marketing clips, or professional projects with minimal effort.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7909f66f-8000-430e-90e1-225a3f0dd618.webm)
+![video creative 480x480: ](media/7909f66f-8000-430e-90e1-225a3f0dd618-125e8d2b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7909f66f-8000-430e-90e1-225a3f0dd618.webm")
 
 ## S09 feature-callout
 
 ### Explore powerful AI Video creation tools
 Go beyond editing with a full suite of AI video tools designed to speed up and simplify your creative process. From removing video backgrounds to turning images into videos , and even generating clips from text prompts , these AI video creation tools give you the flexibility to produce content faster and smarter. Whether you’re creating marketing campaigns, tutorials, or short AI videos, the AI video generator makes production easier than ever.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/97398818-46c6-4749-bd5b-8e9a5955eba0.webm)
+![video creative 480x480: ](media/97398818-46c6-4749-bd5b-8e9a5955eba0-dc0e26a1.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/97398818-46c6-4749-bd5b-8e9a5955eba0.webm")
 
 ## S10 use-case-grid
 
@@ -85,7 +85,7 @@ AI Video Editor for every creator
 [button: YouTube Shorts creators]
 [button: Personal / Fun]
 Edit clips, add effects, and keep your content trending.
-![image ui-screenshot 878x418: Ai video editor for tiktokers](https://cdn-cms-uploads.picsart.com/cms-uploads/f71afc0d-3557-43be-9f2f-b1c84b1b33f1.webp)
+![image ui-screenshot 878x418: Ai video editor for tiktokers](media/f71afc0d-3557-43be-9f2f-b1c84b1b33f1-20a9c429.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f71afc0d-3557-43be-9f2f-b1c84b1b33f1.webp")
 
 ## S11 feature-list
 
@@ -112,27 +112,27 @@ Cleanly remove or replace video backgrounds with a single tap.
 
 ### Learn video editing basics
 Learn how to make cleaner edits to clips.
-![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif)
+![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](media/9568f28a-001a-481d-8d02-8babcb115e7e-eae505fe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif")
 Video editing
 #### How to edit videos with AI in Picsart video editor
 5 min Intermediate
-![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif)
+![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](media/72ce5f51-9491-4ebf-85b1-c6dd8355d44e-8197708a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif")
 Video editing
 #### How to apply AI video filters and effects in Picsart
 4 min Beginner
-![image thumbnail 294x196: How to add text and captions to videos online preview](https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif)
+![image thumbnail 294x196: How to add text and captions to videos online preview](media/7b1f20ea-7e72-477c-81f2-f677d6e10fd4-4a367a4d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif")
 Video editing
 #### How to add text and captions to videos online
 4 min Beginner
-![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif)
+![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](media/dfa3bef9-5ca9-4b63-a795-79db0819217f-1ed29733.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif")
 Video editing
 #### How to create smooth video transitions with AI effects
 4 min Intermediate
-![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif)
+![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](media/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635-f2c26bd4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif")
 Video editing
 #### How to export videos for TikTok, Reels, YouTube, and Stories
 5 min Intermediate
-![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85)
+![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](media/c48797c6-b6f9-4cd7-9695-a1686d0998cc-2964cf18.png "https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85")
 Video editing
 #### How to fix eye contact in talking-head videos with AI
 4 min Intermediate
@@ -156,17 +156,17 @@ An AI Video Editor is a tool that uses artificial intelligence to simplify video
 ## S14 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: ai text to video for free](https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp)
+![image thumbnail 342x282: ai text to video for free](media/d550a93d-11cc-4957-a15a-ef53e95596c9-190bc179.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp")
 AI Text-to-Video Turn written prompts into scroll-stopping content with Picsart’s Text-to-Video AI.
-![image thumbnail 342x282: Picsart's background remover](https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp)
+![image thumbnail 342x282: Picsart's background remover](media/b54783a7-b787-46b5-b1bd-492de2715ea0-b0b46c88.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp")
 Background Remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: cleanup pictures](https://pastatic.picsart.com/cms-pastatic/89a3c810-bf7b-4364-b870-9578ebaef67e.png)
+![image thumbnail 342x282: cleanup pictures](media/89a3c810-bf7b-4364-b870-9578ebaef67e-a65e7373.png "https://pastatic.picsart.com/cms-pastatic/89a3c810-bf7b-4364-b870-9578ebaef67e.png")
 Cleanup Pictures Erase unwanted objects and people from your photos with the help of AI.
-![image thumbnail 342x282: Generate templates with ai](https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp)
+![image thumbnail 342x282: Generate templates with ai](media/609c7793-6c4c-4046-ac42-5eb41c1bf823-1537c3a4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp")
 AI Template Generator Turn ideas into ready-to-use templates with Picsart’s AI Template Generator in seconds.
 
 ## S15 pricing

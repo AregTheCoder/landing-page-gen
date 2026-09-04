@@ -7,7 +7,7 @@
 ## Free flyer maker: Design custom flyers online
 Attract attention to events, promotions, and services with Picsart’s free online flyer maker. Whether you’re launching a product or spreading the word about a cause, it only takes a few minutes to create professional-quality flyers without any design skills. Start with an easy-to-use template, or create custom flyers from scratch.
 Start creating
-![image creative 480x480: Free flyer maker](https://cdn-cms-uploads.picsart.com/cms-uploads/5e33a7f9-7cd0-44be-a25d-66967f6237a9.png)
+![image creative 480x480: Free flyer maker](media/5e33a7f9-7cd0-44be-a25d-66967f6237a9-96bb2470.png "https://cdn-cms-uploads.picsart.com/cms-uploads/5e33a7f9-7cd0-44be-a25d-66967f6237a9.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Effortless flyer creation](https://pastatic.picsart.com/cms-pastatic/f56b37e2-edbf-42e5-85dc-684412f5c30d.png)
+![image icon 96x96: Effortless flyer creation](media/f56b37e2-edbf-42e5-85dc-684412f5c30d-fe93fe14.png "https://pastatic.picsart.com/cms-pastatic/f56b37e2-edbf-42e5-85dc-684412f5c30d.png")
 #### Effortless flyer creation
 Make flyers in an instant, thanks to simple drag-and-drop tools and an extensive asset library.
-![image icon 96x96: Versatile templates for any purpose](https://pastatic.picsart.com/cms-pastatic/96ab8eea-0aae-4e51-9ef6-cbf43b9d0f25.png)
+![image icon 96x96: Versatile templates for any purpose](media/96ab8eea-0aae-4e51-9ef6-cbf43b9d0f25-5ec3d478.png "https://pastatic.picsart.com/cms-pastatic/96ab8eea-0aae-4e51-9ef6-cbf43b9d0f25.png")
 #### Versatile templates for any purpose
 Find preformatted flyer templates perfect for business, sales, recruitment, social awareness, and more.
-![image icon 96x96: Fully customizable designs](https://pastatic.picsart.com/cms-pastatic/025a4fc9-7fd7-4eeb-8186-a15a453aa611.png)
+![image icon 96x96: Fully customizable designs](media/025a4fc9-7fd7-4eeb-8186-a15a453aa611-43bc7bb4.png "https://pastatic.picsart.com/cms-pastatic/025a4fc9-7fd7-4eeb-8186-a15a453aa611.png")
 #### Fully customizable designs
 From custom text and images to brand colors and logos, create 100% unique flyers.
 
@@ -54,42 +54,42 @@ From custom text and images to brand colors and logos, create 100% unique flyers
 
 ### Create a polished design with Picsart flyer templates
 Need design inspiration? Get the ball rolling with premade flyer templates. Create sales promos to attract new clients, make restaurant menus showcasing your offerings, or design recruitment flyers and event announcements to promote your organization.
-![image creative 244x316: Kids Place Back-to-School Ad with Vibrant Colors](https://cdn-basic-content-api.picsart.io/p/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b.png)
+![image creative 244x316: Kids Place Back-to-School Ad with Vibrant Colors](media/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b-fac872d2.png "https://cdn-basic-content-api.picsart.io/p/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=2971678896381704&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Blue and Yellow Educational Services Poster](https://cdn-basic-content-api.picsart.io/p/0a66a108-6b5e-403e-95b1-1cc64c9a5270.png)
+![image creative 244x316: Blue and Yellow Educational Services Poster](media/0a66a108-6b5e-403e-95b1-1cc64c9a5270-a8ae9b98.png "https://cdn-basic-content-api.picsart.io/p/0a66a108-6b5e-403e-95b1-1cc64c9a5270.png")
 [Try it out](https://picsart.com/create/editor/?template=394206460035700&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Teal Instagram-Square Grand Opening Post](https://cdn-basic-content-api.picsart.io/p/3c080de4-1a0f-4492-919f-2a9d3d07799a.png)
+![image creative 244x244: Teal Instagram-Square Grand Opening Post](media/3c080de4-1a0f-4492-919f-2a9d3d07799a-7cba7c56.png "https://cdn-basic-content-api.picsart.io/p/3c080de4-1a0f-4492-919f-2a9d3d07799a.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=1881719499912904&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Bright Blue and Pink Summer Sale Poster](https://cdn-template.picsart.com/templates-cdn/7a0f7563-d949-441e-ac84-cb0433b73d68.jpg)
+![image creative 244x316: Bright Blue and Pink Summer Sale Poster](media/7a0f7563-d949-441e-ac84-cb0433b73d68-4f458482.jpg "https://cdn-template.picsart.com/templates-cdn/7a0f7563-d949-441e-ac84-cb0433b73d68.jpg")
 [Try it out](https://picsart.com/create/editor/?template=392559152043700&category=templates&source=templates&origin=template_item)
-![image creative 244x122: Vibrant Purple Seminar Banner for Sexual Health Education](https://cdn-basic-content-api.picsart.io/p/471a3601-89c5-4347-8455-272fe44e4cde.png)
+![image creative 244x122: Vibrant Purple Seminar Banner for Sexual Health Education](media/471a3601-89c5-4347-8455-272fe44e4cde-d8bf929f.png "https://cdn-basic-content-api.picsart.io/p/471a3601-89c5-4347-8455-272fe44e4cde.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7881756863373505&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Vibrant Yellow and Black Photography Exhibit Poster](https://cdn-basic-content-api.picsart.io/p/29d2cf10-48e1-4106-a656-9bdaaeddc7b6.png)
+![image creative 244x316: Vibrant Yellow and Black Photography Exhibit Poster](media/29d2cf10-48e1-4106-a656-9bdaaeddc7b6-7846c92e.png "https://cdn-basic-content-api.picsart.io/p/29d2cf10-48e1-4106-a656-9bdaaeddc7b6.png")
 [Try it out](https://picsart.com/create/editor/?template=388219693026700&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Bold Black and Gold Friday Flyer](https://cdn-basic-content-api.picsart.io/p/0292d436-0202-4430-9403-594241842702.png)
+![image creative 244x377: Bold Black and Gold Friday Flyer](media/0292d436-0202-4430-9403-594241842702-bfa1f575.png "https://cdn-basic-content-api.picsart.io/p/0292d436-0202-4430-9403-594241842702.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=6961762363771882&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Teal and Chalkboard Educational Center Poster](https://cdn-basic-content-api.picsart.io/p/c766aa44-5bab-4c52-a095-f777873b5c17.png)
+![image creative 244x316: Teal and Chalkboard Educational Center Poster](media/c766aa44-5bab-4c52-a095-f777873b5c17-2fd94e9b.png "https://cdn-basic-content-api.picsart.io/p/c766aa44-5bab-4c52-a095-f777873b5c17.png")
 [Try it out](https://picsart.com/create/editor/?template=394206356021700&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Black Friday Sale Flyer With Black Elegance](https://cdn-basic-content-api.picsart.io/p/610afd69-b6f5-4c78-82fa-0baef760f311.png)
+![image creative 244x377: Black Friday Sale Flyer With Black Elegance](media/610afd69-b6f5-4c78-82fa-0baef760f311-3b779a7d.png "https://cdn-basic-content-api.picsart.io/p/610afd69-b6f5-4c78-82fa-0baef760f311.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8711762261672311&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Vibrant Purple School Event Poster Design](https://cdn-basic-content-api.picsart.io/p/2fda439c-655a-4b1d-aed4-f16484f0126f.png)
+![image creative 244x316: Vibrant Purple School Event Poster Design](media/2fda439c-655a-4b1d-aed4-f16484f0126f-39d69dc9.png "https://cdn-basic-content-api.picsart.io/p/2fda439c-655a-4b1d-aed4-f16484f0126f.png")
 [Try it out](https://picsart.com/create/editor/?template=391269708013700&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Red and Blue Independence Day Sale Poster](https://cdn-basic-content-api.picsart.io/p/da97fb46-b3e8-4926-85ad-34e2c338793e.png)
+![image creative 244x316: Red and Blue Independence Day Sale Poster](media/da97fb46-b3e8-4926-85ad-34e2c338793e-d9433249.png "https://cdn-basic-content-api.picsart.io/p/da97fb46-b3e8-4926-85ad-34e2c338793e.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8341678896543142&category=templates&source=templates&origin=template_item)
-![image creative 244x316: Boost Your Test Scores SAT Prep Ad in Earthy Tones](https://cdn-basic-content-api.picsart.io/p/4786e58b-5685-4697-af5f-e490660b8567.png)
+![image creative 244x316: Boost Your Test Scores SAT Prep Ad in Earthy Tones](media/4786e58b-5685-4697-af5f-e490660b8567-48be13a3.png "https://cdn-basic-content-api.picsart.io/p/4786e58b-5685-4697-af5f-e490660b8567.png")
 [Try it out](https://picsart.com/create/editor/?template=391346098006700&category=templates&source=templates&origin=template_item)
-![image creative 244x346: Elegant Beige Flyer for Luxury Real Estate](https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.png)
+![image creative 244x346: Elegant Beige Flyer for Luxury Real Estate](media/1743b96d-77fb-4c39-a555-1e1beeb467e7-7a874ae4.png "https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7341772533380431&category=templates&source=templates&origin=template_item)
-![image creative 2550x3300: Orange Melody Dynamo Music Poster](https://cdn-template.picsart.com/templates-cdn/94d8ad0a-14a3-4887-9be0-80b3da44af11.jpg)
+![image creative 2550x3300: Orange Melody Dynamo Music Poster](media/94d8ad0a-14a3-4887-9be0-80b3da44af11-f2ebd937.jpg "https://cdn-template.picsart.com/templates-cdn/94d8ad0a-14a3-4887-9be0-80b3da44af11.jpg")
 [Try it out](https://picsart.com/create/editor/?template=391348709023700&category=templates&source=templates&origin=template_item)
-![image creative 244x271: Elegant White Flyer with Inspirational Message](https://cdn-basic-content-api.picsart.io/p/81be117d-8812-40b2-af13-f67c0c2c196d.png)
+![image creative 244x271: Elegant White Flyer with Inspirational Message](media/81be117d-8812-40b2-af13-f67c0c2c196d-fad5fa11.png "https://cdn-basic-content-api.picsart.io/p/81be117d-8812-40b2-af13-f67c0c2c196d.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=2021765363351333&category=templates&source=templates&origin=template_item)
 
@@ -107,25 +107,25 @@ Use the Start creating button to launch the editor.
 #### Personalize the design
 5
 #### Download
-![image creative 480x600: How to create a flyer using Picsart's free flyer maker](https://pastatic.picsart.com/cms-pastatic/71c3b033-be3d-4f83-813e-d0c308293352.png)
+![image creative 480x600: How to create a flyer using Picsart's free flyer maker](media/71c3b033-be3d-4f83-813e-d0c308293352-439fae65.png "https://pastatic.picsart.com/cms-pastatic/71c3b033-be3d-4f83-813e-d0c308293352.png")
 
 ## S06 feature-callout
 
 ### Make attention-grabbing flyers in an instant with an online flyer maker
 Boost the visibility of your message with an eye-catching flyer. Picsart’s free flyer creator gives you the templates and tools to create a bold, professional-quality sign in no time. No special skills are necessary to use the intuitive photo editor . Simply choose your favorite design, and customize it as much as you like.
-![image creative 480x480: Design eye-catching flyers in no time with Picsart’s flyer maker](https://pastatic.picsart.com/cms-pastatic/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494.png)
+![image creative 480x480: Design eye-catching flyers in no time with Picsart’s flyer maker](media/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494-6b6418d9.png "https://pastatic.picsart.com/cms-pastatic/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494.png")
 
 ## S07 feature-callout
 
 ### Create a flyer quickly and effortlessly with flyer templates
 No need to start from scratch every time. Pick the right template for your project, and easily change the layout, fonts , images, and colors to fit your brand or personal style. Picsart’s expertly crafted templates cater to all types of events and announcements, allowing you to create an engaging design in minutes.
-![image creative 480x480: Customizable flyer templates by Picsart](https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png)
+![image creative 480x480: Customizable flyer templates by Picsart](media/def7593d-cc69-4480-8e96-0da00c4beb67-354be01c.png "https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png")
 
 ## S08 feature-callout
 
 ### Take advantage of AI tools to create flyers faster
 Simplify every stage of flyer creation with Picsart’s AI-powered editing tools. From enhancing images to generating visuals with text prompts , AI tools help you bring your vision to life in a few steps. Create your own images, backgrounds, stickers, text, and more, and reuse them for recurring promotions and events to save time and effort.
-![image creative 480x480: Picsart’s AI tools for flyer design](https://pastatic.picsart.com/cms-pastatic/06073f33-fae7-4432-8926-3f399923ffa5.png)
+![image creative 480x480: Picsart’s AI tools for flyer design](media/06073f33-fae7-4432-8926-3f399923ffa5-74369155.png "https://pastatic.picsart.com/cms-pastatic/06073f33-fae7-4432-8926-3f399923ffa5.png")
 
 ## S09 feature-list
 

@@ -8,7 +8,7 @@ AI IMAGE MODELS
 ## Reve: creative AI image generation
 Reve is a text-to-image AI model designed for creative and artistic image generation. It produces visually striking images with distinctive aesthetic quality, strong color palettes, and artistic compositions that stand out from standard photorealistic output.
 Try Reve
-![image creative 480x480: Why creators choose Qwen Image](https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif)
+![image creative 480x480: Why creators choose Qwen Image](media/802fe719-1eaa-4035-859a-4f77827b7aff-53f82f06.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif")
 
 ## S02 interactive-demo
 
@@ -19,34 +19,34 @@ Try Reve
 ## S03 gallery
 
 ### Design-quality images, zero compromise
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif)
+![image creative 196x348: ](media/16b113fa-7969-4c96-8c5e-aa1089062a1d-1f73c9b1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif")
 Dumpling
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222c8dd.avif)
+![image creative 196x348: ](media/08c521f1-3e56-4771-9971-0bf0d222c8dd-81ccabff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222c8dd.avif")
 Nugget
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4326501f-a5c9-45d1-b81b-199a1eb448a5.avif)
+![image creative 196x348: ](media/4326501f-a5c9-45d1-b81b-199a1eb448a5-b6d832b0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4326501f-a5c9-45d1-b81b-199a1eb448a5.avif")
 Prescott
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/43458a76-2193-4751-a349-662f658060b8.avif)
+![image creative 196x348: ](media/43458a76-2193-4751-a349-662f658060b8-12df1524.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/43458a76-2193-4751-a349-662f658060b8.avif")
 Silver Scarab
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fef1b03a-32ed-4ba7-869d-ff3cb64c89be.avif)
+![image creative 196x348: ](media/fef1b03a-32ed-4ba7-869d-ff3cb64c89be-ac0645af.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fef1b03a-32ed-4ba7-869d-ff3cb64c89be.avif")
 Tofu
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4bc20995-f934-47cc-bbc5-f2210ce74979.avif)
+![image creative 196x348: ](media/4bc20995-f934-47cc-bbc5-f2210ce74979-84ef496b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4bc20995-f934-47cc-bbc5-f2210ce74979.avif")
 Woolf
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4b72ce6c-294b-49c9-9de9-f0a323e6edc0.avif)
+![image creative 196x348: ](media/4b72ce6c-294b-49c9-9de9-f0a323e6edc0-83062105.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4b72ce6c-294b-49c9-9de9-f0a323e6edc0.avif")
 Paris
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/bb8074bd-460b-416c-9e3f-19e89f4ca616.avif)
+![image creative 196x348: ](media/bb8074bd-460b-416c-9e3f-19e89f4ca616-5bbdc46c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bb8074bd-460b-416c-9e3f-19e89f4ca616.avif")
 Sloane
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c.avif)
+![image creative 196x348: ](media/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c-59338fcb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c.avif")
 Indigo Sphinx
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4727bcf4-7f8a-4207-a33b-65d5812d0984.avif)
+![image creative 196x348: ](media/4727bcf4-7f8a-4207-a33b-65d5812d0984-ccd9312c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4727bcf4-7f8a-4207-a33b-65d5812d0984.avif")
 Truffle
 [Try this vibe](https://picsart.com/ai-playground/?model=reve)
 
@@ -54,13 +54,13 @@ Truffle
 
 ### What is Reve?
 Reve is a text-to-image AI model built for creative and artistic image generation. It prioritizes aesthetic quality and visual impact — producing images with distinctive style, strong color choices, and compositions that feel intentionally crafted rather than randomly generated.
-![image creative 480x480: Qwen Image AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif)
+![image creative 480x480: Qwen Image AI image generation](media/3417a8c9-6873-4392-bde4-c6b6d3db63d8-e8deefe1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif")
 
 ## S05 feature-callout
 
 ### Reve capabilities
 Artistic and creative image generation, distinctive visual aesthetics, strong color palettes, intentional composition, versatile style range, and reliable prompt interpretation for creative workflows.
-![image creative 480x480: What is Qwen Image](https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif)
+![image creative 480x480: What is Qwen Image](media/597c97d3-8048-4601-96cf-e5b0602b283d-650d6980.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif")
 
 ## S06 use-case-grid
 
@@ -69,37 +69,37 @@ What you can create with Reve
 [button: Generate production-ready graphics]
 [button: Design with clear typography]
 Generate multiple design directions from a single prompt with multimodal generation, compare options side by side, and refine your favorite into the final result.
-![image creative 878x418: Qwen Image multimodal generation](https://cdn-cms-uploads.picsart.com/cms-uploads/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f.png)
+![image creative 878x418: Qwen Image multimodal generation](media/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f-15ef8fd7.png "https://cdn-cms-uploads.picsart.com/cms-uploads/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f.png")
 
 ## S07 feature-callout
 
 ### How Reve works inside Picsart
 Reve is integrated into Picsart's AI Image Generator and AI Playground , giving creators direct access to Reve without external tools or complex API setups. Generate images, explore creative directions, and iterate on results — all from one platform.
-![image ui-screenshot 480x480: How Qwen Image works in Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif)
+![image ui-screenshot 480x480: How Qwen Image works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S08 feature-callout
 
 ### Why creators choose Reve
 Creators choose Reve for its distinctive artistic quality. When you want images that stand out with strong visual identity and creative flair rather than standard photorealism, Reve delivers striking results.
-![image creative 480x480: Qwen Image capabilities](https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif)
+![image creative 480x480: Qwen Image capabilities](media/a89c4513-fb96-4a23-97ef-f3230d64d89f-b401e969.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -149,11 +149,11 @@ Reve is a ground-up rebuild of Reve’s AI image model, designed with real desig
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: GPT Image 1.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: GPT Image 1.5 AI Model](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 GPT Image 1.5 OpenAI’s advanced AI image generation with precise instruction following.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Flux 2 Pro Photorealistic AI image generation with stunning detail and accuracy.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Ideogram 3.0 Flash Fast AI image generation with excellent text rendering and typography.
 
 ## S13 pricing

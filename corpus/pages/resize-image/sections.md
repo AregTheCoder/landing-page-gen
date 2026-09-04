@@ -7,7 +7,7 @@
 ## Change image size for free with Picsart’s image resizer
 Instantly change image size with a variety of layout presets using Picsart’s free image resizer.
 Resize image
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/dc8a029e-4872-4ef0-8fcf-426502fd77b7.webm)
+![video creative 480x480: ](media/dc8a029e-4872-4ef0-8fcf-426502fd77b7-56d09642.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/dc8a029e-4872-4ef0-8fcf-426502fd77b7.webm")
 
 ## S02 link-grid
 
@@ -41,20 +41,20 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 ## S03 cta-band
 
 4.9/5
-![image icon 42x48: G2 Spring 2026 Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png)
-![image icon 42x48: G2 Spring 2026 Momentum Leader badge](https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png)
-![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png)
-![image icon 42x48: G2 Users Love Us badge](https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png)
+![image icon 42x48: G2 Spring 2026 Leader badge](media/8463ca02-9a08-40e5-80ac-b231eb974a09-74bebdaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8463ca02-9a08-40e5-80ac-b231eb974a09.png")
+![image icon 42x48: G2 Spring 2026 Momentum Leader badge](media/7115d730-f23a-471b-9500-c104e43b264f-73ace4f9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/7115d730-f23a-471b-9500-c104e43b264f.png")
+![image icon 42x48: G2 Spring 2026 Fastest Implementation badge](media/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e-f239a1b2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/c4c8ab1e-150a-4cc0-b6f5-f528f1d3393e.png")
+![image icon 42x48: G2 Users Love Us badge](media/8fd68c39-abbb-4835-ab78-f563bf63eaea-8bfed398.png "https://cdn-cms-uploads.picsart.com/cms-uploads/8fd68c39-abbb-4835-ab78-f563bf63eaea.png")
 
 ## S04 feature-row
 
-![image icon 96x96: Free to use icon](https://pastatic.picsart.com/cms-pastatic/14659f9a-b989-4c93-a2ff-bece70620080.png)
+![image icon 96x96: Free to use icon](media/14659f9a-b989-4c93-a2ff-bece70620080-f0bdb986.png "https://pastatic.picsart.com/cms-pastatic/14659f9a-b989-4c93-a2ff-bece70620080.png")
 #### Free to use
 Resize images for free with the Picsart all-in-one photo editor.
-![image icon 96x96: high quality icon](https://pastatic.picsart.com/cms-pastatic/a8fdb715-4cb2-47ad-8eb8-f666963500aa.png)
+![image icon 96x96: high quality icon](media/a8fdb715-4cb2-47ad-8eb8-f666963500aa-6070add0.png "https://pastatic.picsart.com/cms-pastatic/a8fdb715-4cb2-47ad-8eb8-f666963500aa.png")
 #### No quality drop
 Resize images without compromising the look and the quality.
-![image icon 96x96: social media image resizer icon](https://pastatic.picsart.com/cms-pastatic/d7d47840-0e44-435b-8a75-f941ddfc8b18.png)
+![image icon 96x96: social media image resizer icon](media/d7d47840-0e44-435b-8a75-f941ddfc8b18-d1809a23.png "https://pastatic.picsart.com/cms-pastatic/d7d47840-0e44-435b-8a75-f941ddfc8b18.png")
 #### Complete file security
 Uploaded files are only stored temporarily and are secure during every use.
 
@@ -70,19 +70,19 @@ Use the button below to jump straight into the Picsart Photo Editor.
 #### Pick your size
 4
 #### Save your resized image
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8d392ed9-55e6-4d7f-b391-8dfd4db56735.webm)
+![video ui-screenshot 480x600: ](media/8d392ed9-55e6-4d7f-b391-8dfd4db56735-7ebd7aa6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/8d392ed9-55e6-4d7f-b391-8dfd4db56735.webm")
 
 ## S06 feature-callout
 
 ### Resize images in seconds
 Switching between different layouts isn’t a time-consuming hassle anymore. Get all your resizing done with the online image resizer. Uploading to popular platforms? No need to manually search for the right resolutions, just use the ready-to-go layout presets to change the dimensions of your image even faster.
-![image creative 480x480: Resize images in seconds with Picsart image resizer](https://cdn-cms-uploads.picsart.com/cms-uploads/df6f0107-d913-4e53-b1da-3770241d1220.webp)
+![image creative 480x480: Resize images in seconds with Picsart image resizer](media/df6f0107-d913-4e53-b1da-3770241d1220-d8369c8b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/df6f0107-d913-4e53-b1da-3770241d1220.webp")
 
 ## S07 feature-callout
 
 ### Reduce image size without losing any detail
 Resize your image while keeping every detail clear. Picsart protects your photo’s clarity as you change dimensions, so nothing looks stretched or dull. And if your photo starts out blurry, you can fix that too with Picsart. Just run it through the built-in Image Upscaler to enhance image quality - it’s as easy to use as the resizer.
-![image creative 480x480: reduce image size without losing any detail](https://cdn-cms-uploads.picsart.com/cms-uploads/5f91c6aa-29e9-4f00-b677-502a408de3cc.webp)
+![image creative 480x480: reduce image size without losing any detail](media/5f91c6aa-29e9-4f00-b677-502a408de3cc-922f7c38.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5f91c6aa-29e9-4f00-b677-502a408de3cc.webp")
 
 ## S08 use-case-grid
 
@@ -93,40 +93,40 @@ Explore popular ways to resize your images
 [button: Print projects]
 [button: Any design]
 Resize your images so they fit the sizes used on Instagram, Facebook, TikTok, Pinterest, and LinkedIn. Your posts, Stories, ads, thumbnails, and headers will look clean and consistent on every platform.
-![image creative 879x418: resize image for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp)
+![image creative 879x418: resize image for social media](media/e247e30d-4159-47d6-8011-60d43983ec00-071128ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp")
 
 ## S09 feature-callout
 
 ### Resize images in batch
 Multiple images got rejected for the wrong size? No need to adjust them one by one. Easily resize images in batches with Picsart and save yourself precious time. Do the adjustment for one, and it will be applied to the rest of your images. Perfect for when you need to resize several e-commerce photos, adjust the size of your carousel post visuals, and more.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0ce6b746-74be-40e5-b082-99ed069e5f38.webm)
+![video creative 480x480: ](media/0ce6b746-74be-40e5-b082-99ed069e5f38-96fe80b0.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0ce6b746-74be-40e5-b082-99ed069e5f38.webm")
 
 ## S10 feature-callout
 
 ### Do more with Picsart’s photo editor
 All your photo editing needs are covered by Picsart. Easily perform complex edits like changing and removing backgrounds or even remove objects from your photos. It’s all an automated breeze, thanks to AI. Complete the look by applying effects and adding text to your photos . All this in one convenient photo editor.
-![image ui-screenshot 480x480: Picsart photo editor](https://cdn-cms-uploads.picsart.com/cms-uploads/b6b53ab2-b780-4bf7-a514-279d7b750c45.webp)
+![image ui-screenshot 480x480: Picsart photo editor](media/b6b53ab2-b780-4bf7-a514-279d7b750c45-404454c1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b6b53ab2-b780-4bf7-a514-279d7b750c45.webp")
 
 ## S11 link-grid
 
 ### More Tools to Explore
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: AI avatar generator online](https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp)
+![image thumbnail 342x282: AI avatar generator online](media/149c0940-1df7-409a-a7f6-d8e8485ebb2e-636be8f3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp")
 AI Avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI image generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: AI art generator](https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png)
+![image thumbnail 342x282: AI art generator](media/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3-ce3fa1ce.png "https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png")
 AI Art Generator Generate eye-catching artwork of various styles and movements in seconds with AI.
-![image thumbnail 342x282: object swap with Picsart AI replace](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: object swap with Picsart AI replace](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI Replace Use AI to swap any part of your image with an AI-generated object.
-![image thumbnail 342x282: AI content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: AI content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI Writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: generate AI GIFs with Picsart AI GIF Generator](https://pastatic.picsart.com/cms-pastatic/08cfb4a0-2f00-4805-a235-3755dd817834.png)
+![image thumbnail 342x282: generate AI GIFs with Picsart AI GIF Generator](media/08cfb4a0-2f00-4805-a235-3755dd817834-1f653672.png "https://pastatic.picsart.com/cms-pastatic/08cfb4a0-2f00-4805-a235-3755dd817834.png")
 AI GIF Generator Effortlessly generate custom GIF visuals from scratch.
 
 ## S12 faq

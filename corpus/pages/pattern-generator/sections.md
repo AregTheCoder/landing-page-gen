@@ -4,7 +4,7 @@
 
 ## S01 hero
 
-![image creative 519x413: ](https://cdn140.picsart.com/26255880684190648073.png)
+![image creative 519x413: ](media/26255880684190648073-83c1ccbb.png "https://cdn140.picsart.com/26255880684190648073.png")
 Revitalize any background for free with the pattern generator tool
 Breath new life into old photos with the only background generator you’ll ever need.
 Create background
@@ -44,15 +44,15 @@ In life, you can see patterns in almost everything if you look hard enough. That
 
 ## S04 use-case-grid
 
-![image creative 541x406: cloth bag with flamingos](https://cdn140.picsart.com/99723626936142097507.png)
+![image creative 541x406: cloth bag with flamingos](media/99723626936142097507-dabeac9b.png "https://cdn140.picsart.com/99723626936142097507.png")
 The Pattern Maker That Turns Amateurs Into Pros
 You can be a total beginner and the Picsart Pattern Generator will be a cinch to use. But by the time you’re done with it, your images will look like they were edited by a pro. It’s all made possible by the ingenious wizardry of Picsart AI technology. Once you upload your image, it can pick out a brand new backdrop for you. If the background maker doesn’t nail it for you on the first try, that’s okay. You can keep going with it until you find something that hits the spot. And there’s no limit on how much you can let it do its thing. The Pattern Generator tool will help you liven up any old image in no time.
 Create background
-![image creative 541x406: creative tea coffee thermos](https://cdn140.picsart.com/19524248449069363964.png)
+![image creative 541x406: creative tea coffee thermos](media/19524248449069363964-8252eceb.png "https://cdn140.picsart.com/19524248449069363964.png")
 Be The Boss of Your Backgrounds With The Online Pattern Generator
 Now that you’ve finally settled on a background, it’s time to take things up a notch. You could leave things at that, but why would you when you can have so much more fun with the edit? Picsart offers a range of powerful tools that can help really personalize your work, and create something that will raise some eyebrows. You can customize with text in numerous fonts, add stickers, change the background color, or resize it if you need. You can even remove the background entirely thanks to the Background Remover tool. Or just have fun playing around with a host of special effects. Whatever vision you have in mind, the power to realize it is in your hands.
 Create background
-![image creative 541x406: colorful phone case on a green background](https://cdn130.picsart.com/17238261536603361130.png)
+![image creative 541x406: colorful phone case on a green background](media/17238261536603361130-206048db.png "https://cdn130.picsart.com/17238261536603361130.png")
 A Pattern Creator that Can Give You a Visual Headstart
 Everyone is creative at heart. Whether they realize it or not. Sometimes though, we all hit a wall. It happens to the best of us. That’s why the Picsart Pattern Generator can help pick up some of the creative slack when you need it. If you ever find yourself running low on ideas, or you’re just in need of a helping hand, drop your shots into the Background Maker tool and watch as smart technology conjures something special. But of course that doesn’t have to be the end of the process. If anything, it’s a mere starting point. Feel free to take your work into the Background Changer to explore even more possibilities. Then simply download your finished edit to show off to the world. Whether that’s on your personal website, social media hangouts, or blogs, the Picsart Pattern Generator can help bring your visual identity to life.
 Create background
@@ -71,10 +71,10 @@ Use the Picsart photo editing tools to personalize your photo
 ## S06 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S07 pricing
 

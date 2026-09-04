@@ -8,7 +8,7 @@ OPEN-WEIGHT AI IMAGE MODEL
 ## Ideogram 4.0: The Best Open-Weight AI Image Generation Model
 Ideogram 4.0 delivers Gemini-class image quality at native 2K resolution — fully open weight. It sits in the same performance band as Google DeepMind’s Gemini 3.0 Pro Image and Gemini 3.1 Flash Image, with the transparency and flexibility of an open-weight foundation. Built for creators who want frontier-grade visuals without the lock-in.
 Start generating
-![image creative 480x480: ideogram v4](https://cdn-cms-uploads.picsart.com/cms-uploads/8ab90d6f-fa9e-4976-a783-e86f27dae70a.avif)
+![image creative 480x480: ideogram v4](media/8ab90d6f-fa9e-4976-a783-e86f27dae70a-a8737825.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8ab90d6f-fa9e-4976-a783-e86f27dae70a.avif")
 
 ## S02 interactive-demo
 
@@ -18,26 +18,26 @@ Start generating
 ## S03 gallery
 
 ### Images created with Ideogram 4.0
-![image creative 196x348: ai model ideogram v4](https://cdn-cms-uploads.picsart.com/cms-uploads/0e48de67-54c5-4f4d-8e37-083b1c65d46e.avif)
+![image creative 196x348: ai model ideogram v4](media/0e48de67-54c5-4f4d-8e37-083b1c65d46e-3580edec.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0e48de67-54c5-4f4d-8e37-083b1c65d46e.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: ideogram v4 generated image 2](https://cdn-cms-uploads.picsart.com/cms-uploads/570fc100-cab6-4bb2-bfc9-dbe9135cfec9.avif)
+![image creative 196x348: ideogram v4 generated image 2](media/570fc100-cab6-4bb2-bfc9-dbe9135cfec9-cd30c1d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/570fc100-cab6-4bb2-bfc9-dbe9135cfec9.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: Ideogram generated image 4](https://cdn-cms-uploads.picsart.com/cms-uploads/9fe3fcb7-ce7e-43bc-8eae-2e6c7713d8bd.avif)
+![image creative 196x348: Ideogram generated image 4](media/9fe3fcb7-ce7e-43bc-8eae-2e6c7713d8bd-2d787899.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9fe3fcb7-ce7e-43bc-8eae-2e6c7713d8bd.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: Ideogram v4 generated image 4](https://cdn-cms-uploads.picsart.com/cms-uploads/403f157c-54fb-4333-99b0-2f4e85afecbb.avif)
+![image creative 196x348: Ideogram v4 generated image 4](media/403f157c-54fb-4333-99b0-2f4e85afecbb-5fa8ade9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/403f157c-54fb-4333-99b0-2f4e85afecbb.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: Ideogram v4 generated image 5](https://cdn-cms-uploads.picsart.com/cms-uploads/2386671f-7e15-40e8-9bdb-3333161fcc7f.avif)
+![image creative 196x348: Ideogram v4 generated image 5](media/2386671f-7e15-40e8-9bdb-3333161fcc7f-5207d35f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2386671f-7e15-40e8-9bdb-3333161fcc7f.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: Ideogram v4 generated image 6](https://cdn-cms-uploads.picsart.com/cms-uploads/84634617-005a-4afc-a2fa-3da5715b46af.avif)
+![image creative 196x348: Ideogram v4 generated image 6](media/84634617-005a-4afc-a2fa-3da5715b46af-39865eeb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/84634617-005a-4afc-a2fa-3da5715b46af.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
-![image creative 196x348: Ideogram v4 generated image 7](https://cdn-cms-uploads.picsart.com/cms-uploads/2b2550c3-dc02-4d87-8208-4602fa1a6b90.avif)
+![image creative 196x348: Ideogram v4 generated image 7](media/2b2550c3-dc02-4d87-8208-4602fa1a6b90-795e1bd1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2b2550c3-dc02-4d87-8208-4602fa1a6b90.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v4)
 
 ## S04 feature-callout
 
 ### What is Ideogram 4.0?
 Ideogram 4.0 is the newest release from Ideogram and the strongest open-weight AI image generation model available today. It sits in the same performance band as Google DeepMind’s Gemini 3.0 Pro Image and Gemini 3.1 Flash Image — delivering native 2K resolution, sharp typography, and clean prompt fidelity. The difference: Ideogram 4.0 is fully open weight, giving creators flexibility, transparency, and freedom from closed-model dependencies. Compare it against Nano Banana Pro and Ideogram 3.0 Flash to see how it stacks up.
-![image creative 480x480: ideogram 4.0 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/7f72e491-fc40-4ccd-b348-9d0913119310.avif)
+![image creative 480x480: ideogram 4.0 AI model](media/7f72e491-fc40-4ccd-b348-9d0913119310-35e5839f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7f72e491-fc40-4ccd-b348-9d0913119310.avif")
 
 ## S05 use-case-grid
 
@@ -47,43 +47,43 @@ What you can create with Ideogram 4.0
 [button: Brand & marketing content]
 [button: Open & flexible workflow]
 Generate sharp 2K images with the leading open-weight AI image model — no closed-API lock-in.
-![image creative 879x418: ideogram v4 for consistent character design](https://cdn-cms-uploads.picsart.com/cms-uploads/1c99c491-f12d-4c67-a671-30b84b0d4a45.avif)
+![image creative 879x418: ideogram v4 for consistent character design](media/1c99c491-f12d-4c67-a671-30b84b0d4a45-bad4de97.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1c99c491-f12d-4c67-a671-30b84b0d4a45.avif")
 
 ## S06 feature-callout
 
 ### How Picsart uses Ideogram 4.0
 Picsart integrates Ideogram 4.0 directly into the AI Playground and Flow , so creators can generate and refine images without leaving the platform. Describe your vision in natural language, choose your aspect ratio and resolution, and Ideogram 4.0 returns high-detail 2K output ready for ads, posters, brand assets, or social content.
-![image creative 480x480: ideogram](https://cdn-cms-uploads.picsart.com/cms-uploads/f8c12ac4-bc94-4ad8-9f81-749424ee6383.avif)
+![image creative 480x480: ideogram](media/f8c12ac4-bc94-4ad8-9f81-749424ee6383-9bf5a3bb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f8c12ac4-bc94-4ad8-9f81-749424ee6383.avif")
 
 ## S07 feature-callout
 
 ### Why creators choose Ideogram 4.0
 Ideogram 4.0 delivers Gemini-class image quality with the freedom of an open-weight model. With native 2K resolution, best-in-class text rendering, and strong prompt fidelity, it’s built for designers, marketers, and creators who need professional output at scale. Open weights mean you can run it on your own infrastructure, fine-tune it for niche aesthetics, and integrate it into custom pipelines — without the constraints of closed APIs.
-![image creative 480x480: ideogram v4 in Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/0636dbd7-7041-4189-95b2-db8f4b06997e.avif)
+![image creative 480x480: ideogram v4 in Picsart ecosystem](media/0636dbd7-7041-4189-95b2-db8f4b06997e-7da4239b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0636dbd7-7041-4189-95b2-db8f4b06997e.avif")
 
 ## S08 feature-callout
 
 ### Ideogram 4.0 in the Picsart ecosystem
 Ideogram 4.0 sits alongside the most advanced image models in Picsart’s ecosystem — Nano Banana Pro , Nano Banana 2 , GPT Image , Flux 2 Pro , and Recraft V4 . Each model brings different strengths: Ideogram 4.0 leads on open-weight quality and text rendering; the Gemini family excels at conversational editing; Flux and Recraft cover photoreal and design output. Switch between them in the AI Playground or Flow with one credit balance.
-![image creative 480x480: why creators choose Nano Banana Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/37c67046-a263-4cdc-b442-4901a2717a90.avif)
+![image creative 480x480: why creators choose Nano Banana Pro](media/37c67046-a263-4cdc-b442-4901a2717a90-02a1a7d5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/37c67046-a263-4cdc-b442-4901a2717a90.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -133,23 +133,23 @@ Ideogram 4.0 is the newest release from Ideogram and the best open-weight AI ima
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Nano Banana 2 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp)
+![image thumbnail 342x282: Nano Banana 2 AI image generator](media/548b38f1-6008-4354-9972-f18276ecf4a7-e7a29cc2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp")
 Nano Banana 2 Google's playful image model: fast, expressive, and great for creative iteration.
-![image thumbnail 342x282: Seedream 4.5 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI image generator](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance's flagship text-to-image model with photoreal detail and crisp text rendering.
-![image thumbnail 342x282: GPT Image 1.5 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp)
+![image thumbnail 342x282: GPT Image 1.5 AI image generator](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-f2718581.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp")
 GPT Image 1.5 OpenAI's upgraded image model with strong prompt following and clean typography.
-![image thumbnail 342x282: Flux 2 Pro AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif)
+![image thumbnail 342x282: Flux 2 Pro AI image generator](media/1d4b44d0-8bde-457d-8095-4bb6a36bef88-d6303116.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif")
 Flux 2 Pro Black Forest Labs' top open model: photoreal scenes, dense detail, broad style range.
-![image thumbnail 342x282: Imagen 4.0 Ultra AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif)
+![image thumbnail 342x282: Imagen 4.0 Ultra AI image generator](media/5a44d378-3268-438a-8563-30f14cb99573-e47b43b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif")
 Imagen 4.0 Ultra Google DeepMind's premium image model, tuned for cinematic light and high fidelity.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI image generator](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 Ideogram 3.0 Flash Best-in-class typography and poster-style layouts at fast generation speeds.
-![image thumbnail 342x282: Recraft V4 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif)
+![image thumbnail 342x282: Recraft V4 AI image generator](media/3417a8c9-6873-4392-bde4-c6b6d3db63d8-e8deefe1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif")
 Recraft V4 Vector-friendly model that nails brand assets, icons, and clean illustration styles.
-![image thumbnail 342x282: DALL-E 3 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image thumbnail 342x282: DALL-E 3 AI image generator](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 DALL-E 3 OpenAI's widely loved image model: strong prompt comprehension and stylistic range.
-![image thumbnail 342x282: Grok Imagine AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/553d11df-3f1d-4cc4-a800-4095512b258b.webp)
+![image thumbnail 342x282: Grok Imagine AI image generator](media/553d11df-3f1d-4cc4-a800-4095512b258b-33b25a93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/553d11df-3f1d-4cc4-a800-4095512b258b.webp")
 Grok Imagine xAI's image model with bold composition and an opinionated, cinematic aesthetic.
 
 ## S13 pricing

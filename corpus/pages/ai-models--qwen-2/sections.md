@@ -7,7 +7,7 @@
 ## Qwen 2: Alibaba's text-to-image model for everyday creator work
 Qwen 2 is Alibaba's general-purpose text-to-image model — built for fast, reliable image generation with strong prompt fidelity and natural composition. Available in Picsart's AI Image Generator at a low credit cost, Qwen 2 is the workhorse pick for high-volume creator workflows where you need clean output from a single prompt.
 Try Qwen 2 in AI Playground
-![image creative 480x480: Qwen 2 hero image](https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp)
+![image creative 480x480: Qwen 2 hero image](media/24093b6f-1605-42a5-9f16-e51595f73359-15f15645.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp")
 
 ## S02 interactive-demo
 
@@ -23,7 +23,7 @@ Try Qwen 2 in AI Playground
 
 ### What is Qwen 2?
 Qwen 2 is Alibaba's text-to-image model in the Qwen family. It reads natural-language prompts and produces photoreal images with reliable composition, accurate lighting, and clean detail. Qwen 2 sits at the entry tier of the Qwen image family — lower credit cost than Qwen 2 Pro, and distinct from the Qwen Image multimodal flagship. It is built for creators who need solid everyday output without the premium price point.
-![image creative 480x480: Seedream 4.5 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ae8c90-0dd4-4874-929e-febd78dd094f.webp)
+![image creative 480x480: Seedream 4.5 AI model](media/b3ae8c90-0dd4-4874-929e-febd78dd094f-4a374171.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ae8c90-0dd4-4874-929e-febd78dd094f.webp")
 
 ## S05 use-case-grid
 
@@ -33,43 +33,43 @@ What you can create with Qwen 2
 [button: Natural-language image editing]
 [button: Marketing and e-commerce visuals]
 Generate everyday social content — feed graphics, story art, post backgrounds — at low credit cost. Qwen 2 keeps composition clean so you can ship multiple variants on a tight schedule.
-![image creative 879x418: Seedream 4.5 for text rendering in images](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Seedream 4.5 for text rendering in images](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Qwen 2
 Picsart integrates Qwen 2 into both its AI Image Generator and AI Playground . Pick Qwen 2 from the AI Image Generator to generate directly inside Picsart's creative tools, or open it in the AI Playground to compare it head-to-head with other models. It sits alongside Qwen 2 Pro, Qwen Image, Seedream 4.5, Flux 2 Pro, and other image models on one credit balance, with the AI Playground giving you side-by-side comparison across tiers.
-![image creative 480x480: How Picsart uses Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: How Picsart uses Seedream 4.5](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Qwen 2
 Qwen 2 is the entry tier of the Qwen image family — and that's its strength. Low credit cost makes it the right pick for exploratory drafts, social content, and high-volume creator workflows where Pro-tier polish isn't required. Strong prompt fidelity keeps output close to what you asked for, and clean composition means you spend less time re-prompting. When the project graduates to editorial or print, upgrade to Qwen 2 Pro from the same model selector.
-![image creative 480x480: Why creators choose Seedream 4.5](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Why creators choose Seedream 4.5](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S08 feature-callout
 
 ### Qwen 2 inside the Picsart ecosystem
 Qwen 2 is one of several image models powering Picsart's creative tools. It works alongside Qwen Image , Seedream 4.5 , Flux 2 Pro , and Nano Banana Pro — giving creators a model picker for photorealism, design, editing, and exploration on one credit balance.
-![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Seedream 4.5 inside the Picsart ecosystem](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -119,19 +119,19 @@ Qwen 2 is Alibaba's text-to-image model in the Qwen family. It generates photore
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Qwen Image AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: Qwen Image AI Model](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Qwen Image Alibaba's multimodal flagship — design taste + multiple visual directions.
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance Seed's unified generation + editing model with multimodal references.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Flux 2 Pro Black Forest Labs' photorealism flagship — fast iteration with native edit.
-![image thumbnail 342x282: Nano Banana Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: Nano Banana Pro AI Model](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Nano Banana Pro Google's expressive image model with cinematic detail.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Ideogram 3.0 Flash Best-in-class text-in-image rendering with ad-ready typography.
-![image thumbnail 342x282: AI Image Generator AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI Image Generator AI Model](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Picsart's main image surface — every model, one credit balance.
-![image thumbnail 342x282: AI Photo Editor AI Model](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI Photo Editor AI Model](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Edit and refine images with AI tools alongside generated content.
 
 ## S13 pricing

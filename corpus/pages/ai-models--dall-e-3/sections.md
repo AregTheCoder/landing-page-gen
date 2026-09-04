@@ -7,7 +7,7 @@
 ## DALL-E 3 AI model for next-level visual creation
 Picsart has integrated DALL-E 3 into its platform including Flow and Aura. The DALL-E 3 AI model is a next-generation generative AI model built for fast, high-quality visual creation. In Picsart, it powers image generation tools that help creators generate, enhance, and transform visuals with greater speed, precision, and creative control.
 Start generating
-![image creative 480x480: DALL-E 3 AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/dfbeb6b2-f7f1-442b-af08-94d49b4c3ea8.webp)
+![image creative 480x480: DALL-E 3 AI model](media/dfbeb6b2-f7f1-442b-af08-94d49b4c3ea8-77a29ea2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/dfbeb6b2-f7f1-442b-af08-94d49b4c3ea8.webp")
 
 ## S02 interactive-demo
 
@@ -23,32 +23,32 @@ Start generating
 ## S03 gallery
 
 ### Images created with DALL-E 3
-![image creative 196x348: DALL-E 3 generated image 1](https://cdn-cms-uploads.picsart.com/cms-uploads/2af4af3e-7fb9-4c16-8aa8-6ad42fc275e4.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 1](media/2af4af3e-7fb9-4c16-8aa8-6ad42fc275e4-d8349961.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2af4af3e-7fb9-4c16-8aa8-6ad42fc275e4.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 2](https://cdn-cms-uploads.picsart.com/cms-uploads/6027c22c-3126-40f0-a8a9-adf208c1f0fc.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 2](media/6027c22c-3126-40f0-a8a9-adf208c1f0fc-1bfc2153.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6027c22c-3126-40f0-a8a9-adf208c1f0fc.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 3](https://cdn-cms-uploads.picsart.com/cms-uploads/6a9dc95b-f572-427c-a715-cd94589e38e8.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 3](media/6a9dc95b-f572-427c-a715-cd94589e38e8-22c22a20.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6a9dc95b-f572-427c-a715-cd94589e38e8.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 4](https://cdn-cms-uploads.picsart.com/cms-uploads/845196fe-b819-4936-8ff1-55cb690141d8.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 4](media/845196fe-b819-4936-8ff1-55cb690141d8-67e8578e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/845196fe-b819-4936-8ff1-55cb690141d8.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 5](https://cdn-cms-uploads.picsart.com/cms-uploads/30624583-205c-4d2c-83ae-4d4c7f9d6bd2.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 5](media/30624583-205c-4d2c-83ae-4d4c7f9d6bd2-a8b85ccf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/30624583-205c-4d2c-83ae-4d4c7f9d6bd2.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 6](https://cdn-cms-uploads.picsart.com/cms-uploads/58eb3266-e6c6-408a-8960-d5ca0ff26680.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 6](media/58eb3266-e6c6-408a-8960-d5ca0ff26680-0a45d250.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/58eb3266-e6c6-408a-8960-d5ca0ff26680.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 7](https://cdn-cms-uploads.picsart.com/cms-uploads/4b4a4a54-4a81-4630-b8a2-07e7f89249d5.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 7](media/4b4a4a54-4a81-4630-b8a2-07e7f89249d5-53443294.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4b4a4a54-4a81-4630-b8a2-07e7f89249d5.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 8](https://cdn-cms-uploads.picsart.com/cms-uploads/399cb365-cf72-4ab8-bc2b-bf81045ec3d0.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 8](media/399cb365-cf72-4ab8-bc2b-bf81045ec3d0-283708af.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/399cb365-cf72-4ab8-bc2b-bf81045ec3d0.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 9](https://cdn-cms-uploads.picsart.com/cms-uploads/2096f1d2-d7d4-4034-942f-4b016ec33331.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 9](media/2096f1d2-d7d4-4034-942f-4b016ec33331-d492851c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2096f1d2-d7d4-4034-942f-4b016ec33331.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
-![image creative 196x348: DALL-E 3 generated image 10](https://cdn-cms-uploads.picsart.com/cms-uploads/dab26cbd-59a3-4980-98be-6d0d1442f1c5.webp?type=webp&to=min&r=400)
+![image creative 196x348: DALL-E 3 generated image 10](media/dab26cbd-59a3-4980-98be-6d0d1442f1c5-736b4906.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/dab26cbd-59a3-4980-98be-6d0d1442f1c5.webp?type=webp&to=min&r=400")
 [Create](https://picsart.com/ai-playground/?model=dall-e-3)
 
 ## S04 feature-callout
 
 ### What is DALL-E 3?
 DALL-E 3 is the next evolution in AI-powered visual content generation and enhancement. Building on the foundation of its predecessor, it delivers faster processing, improved output quality, and more nuanced creative control. In Picsart, DALL-E 3 supports intuitive tools that make advanced visual creation simple and accessible for everyone.
-![image creative 480x480: DALL-E 3 Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a16bd5ba-8c8e-40cd-b22e-a796f8abc4e5.webp)
+![image creative 480x480: DALL-E 3 Model](media/a16bd5ba-8c8e-40cd-b22e-a796f8abc4e5-c12a9318.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a16bd5ba-8c8e-40cd-b22e-a796f8abc4e5.webp")
 
 ## S05 use-case-grid
 
@@ -58,43 +58,43 @@ How does DALL-E 3 support visual creation
 [button: Edit images]
 [button: Experiment with creative styles]
 Create high-quality visuals from ideas in seconds with improved detail and creative accuracy.
-![image creative 878x418: DALL-E 3 for image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/21e5ec27-38e6-4b4b-b9c9-72eb8ce269eb.webp)
+![image creative 878x418: DALL-E 3 for image generation](media/21e5ec27-38e6-4b4b-b9c9-72eb8ce269eb-de15b8f2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/21e5ec27-38e6-4b4b-b9c9-72eb8ce269eb.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses DALL-E 3
 Picsart integrates DALL-E 3 directly into its creative tools including Flow and Aura , removing the need for users to interact with the model itself. It powers features like the AI Image Enhancer , AI Image Generator , helping creators work faster, produce higher-quality visuals, and explore ideas with greater creative flexibility.
-![image creative 480x480: DALL-E 3 for image enhancement](https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp)
+![image creative 480x480: DALL-E 3 for image enhancement](media/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74-3b16334b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose DALL-E 3
 DALL-E 3 helps creators move from idea to output faster while delivering even more refined results. It supports high-quality visual output without complex workflows, making image creation more efficient than ever. By working behind the scenes, DALL-E 3 keeps advanced visual creation accessible to non-technical users who want professional-looking results.
-![image creative 480x480: DALL-E 3 for creative tools](https://cdn-cms-uploads.picsart.com/cms-uploads/7198b603-ac45-4322-99af-3b6c49b7c600.webp)
+![image creative 480x480: DALL-E 3 for creative tools](media/7198b603-ac45-4322-99af-3b6c49b7c600-ad49bb6f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7198b603-ac45-4322-99af-3b6c49b7c600.webp")
 
 ## S08 feature-callout
 
 ### DALL-E 3 inside the Picsart ecosystem
 DALL-E 3 is one of several AI models that power Picsart’s creative ecosystem. It works alongside other advanced models to support image creation across the platform. This multi-model approach helps ensure reliable performance, creative flexibility, and consistently high-quality results for a wide range of creative needs.
-![image creative 480x480: DALL-E 3 inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/e90902ed-bf87-4a14-bd06-965e5c0198e3.webp)
+![image creative 480x480: DALL-E 3 inside the Picsart ecosystem](media/e90902ed-bf87-4a14-bd06-965e5c0198e3-ef3e13a3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e90902ed-bf87-4a14-bd06-965e5c0198e3.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -143,23 +143,23 @@ The DALL-E 3 AI model is a next-generation generative AI model focused on visual
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: AI model Gpt Image 1](https://cdn-cms-uploads.picsart.com/cms-uploads/f85d92c0-4b9d-40a9-ac3a-3425c71994a5.webp)
+![image thumbnail 342x282: AI model Gpt Image 1](media/f85d92c0-4b9d-40a9-ac3a-3425c71994a5-c0d3e39b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f85d92c0-4b9d-40a9-ac3a-3425c71994a5.webp")
 GPT Image 1 OpenAI image model with strong prompt adherence and clean typography.
-![image thumbnail 342x282: AI model Gpt Image 1 5](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp)
+![image thumbnail 342x282: AI model Gpt Image 1 5](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-f2718581.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp")
 GPT Image 1.5 A faster GPT Image variant tuned for sharp text and editorial visuals.
-![image thumbnail 342x282: GPT Image 2 AI model thumbnail](https://cdn-cms-uploads.picsart.com/cms-uploads/bf618993-841d-4b57-ae30-0f491fe97eb2.webp)
+![image thumbnail 342x282: GPT Image 2 AI model thumbnail](media/bf618993-841d-4b57-ae30-0f491fe97eb2-d397af0f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bf618993-841d-4b57-ae30-0f491fe97eb2.webp")
 GPT Image 2 OpenAI GPT Image 2 with photoreal lighting and accurate in-image text.
-![image thumbnail 342x282: AI model Nano Banana Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image thumbnail 342x282: AI model Nano Banana Pro](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 Nano Banana Pro Google Nano Banana Pro for crisp portraits and consistent characters.
-![image thumbnail 342x282: AI model Nano Banana 2](https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp)
+![image thumbnail 342x282: AI model Nano Banana 2](media/548b38f1-6008-4354-9972-f18276ecf4a7-e7a29cc2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp")
 Nano Banana 2 Nano Banana 2 for fast, stylish ideation and bold compositions.
-![image thumbnail 342x282: AI model Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif)
+![image thumbnail 342x282: AI model Flux 2 Pro](media/1d4b44d0-8bde-457d-8095-4bb6a36bef88-d6303116.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif")
 Flux 2 Pro Black Forest Flux 2 Pro for photoreal scenes with rich material detail.
-![image thumbnail 342x282: AI model Flux Kontext Max](https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif)
+![image thumbnail 342x282: AI model Flux Kontext Max](media/16b113fa-7969-4c96-8c5e-aa1089062a1d-1f73c9b1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif")
 Flux Kontext Max Flux Kontext Max for high-fidelity edits driven by reference images.
-![image thumbnail 342x282: AI model Imagen 4 0 Ultra](https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif)
+![image thumbnail 342x282: AI model Imagen 4 0 Ultra](media/5a44d378-3268-438a-8563-30f14cb99573-e47b43b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif")
 Imagen 4.0 Ultra Google Imagen 4 Ultra for cinematic photoreal output and natural skin tones.
-![image thumbnail 342x282: AI model Ideogram 3 0 Flash](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image thumbnail 342x282: AI model Ideogram 3 0 Flash](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 Ideogram 3.0 Flash Ideogram 3.0 Flash for vivid graphic design with reliable in-image text.
 
 ## S13 pricing

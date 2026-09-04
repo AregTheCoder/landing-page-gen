@@ -7,7 +7,7 @@
 ## Seedance 2.0 AI model for visual content generation
 Seedance 2.0 is integrated into Picsart's AI Video Generator and AI Playground , bringing ByteDance's most advanced multimodal video model directly into your creative workflow. Generate cinematic AI videos with up to 12 reference inputs — combining text, image, video, and audio — with native lip-sync, character consistency, and multi-shot storyboarding. Use Seedance 2.0 to create professional video content from a single prompt.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fd9fd0f8-2318-4e28-8788-4380bf89c64e.webm)
+![video creative 480x480: ](media/fd9fd0f8-2318-4e28-8788-4380bf89c64e-238e53f8.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/fd9fd0f8-2318-4e28-8788-4380bf89c64e.webm")
 
 ## S02 interactive-demo
 
@@ -23,25 +23,25 @@ Start generating
 ## S03 gallery
 
 ### Cinematic motion, zero limits
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif)
+![image creative 196x348: ](media/1e87768c-bdb7-4bd1-b762-d7ff7cc31925-bb012af5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif")
 Sloane
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
 Nugget
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
 Indigo Sphinx
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif)
+![image creative 196x348: ](media/d7249ef4-30ce-4586-be3d-6e4996a5f3d1-29f16934.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif")
 Tofu
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 Prescott
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
 Truffle
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif)
+![image creative 196x348: ](media/ba8cc09d-a8d4-425f-8f69-03007d5f1d02-bfd0991c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif")
 Woolf
 [Try this vibe](https://picsart.com/ai-playground/?model=seedance-2.0)
 
@@ -49,7 +49,7 @@ Woolf
 
 ### What is the Seedance 2.0 AI model?
 The Seedance 2.0 AI model is a generative AI system built to enable image and video content creation through intelligent automation and visual understanding. It supports multimodal creative tasks, combining an AI image generation model and an AI video generation model within integrated workflows. Designed for scalable visual generation, Seedance 2.0 focuses on automation rather than manual complexity and operates seamlessly inside creative software environments.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6a358662-aa7d-469f-b00d-8104119570ef.webm)
+![video creative 480x480: ](media/6a358662-aa7d-469f-b00d-8104119570ef-cf4b53d9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6a358662-aa7d-469f-b00d-8104119570ef.webm")
 
 ## S05 use-case-grid
 
@@ -58,49 +58,49 @@ What can you create with Seedance 2.0 AI
 [button: Image generation from prompts]
 [button: AI-assisted visual enhancement]
 Create video assets as part of broader AI-powered workflows that connect generation, editing, and enhancement into one streamlined creative process. Seedance 2.0 supports AI video generation model capabilities designed for efficient, scalable visual content production.
-![image creative 879x418: Seedance 2.0 video integrated workflows](https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp)
+![image creative 879x418: Seedance 2.0 video integrated workflows](media/165c6f74-d6ed-43fe-9d78-91273b6eb16c-c17da9a4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp")
 
 ## S06 feature-callout
 
 ### How Seedance 2.0 works inside Picsart tools
 Picsart integrates the Seedance 2.0 model into the AI Video Generator and AI Playground , allowing users to generate and transform video content without interacting with the model itself. Select Seedance 2.0 from the model picker and generate video from text or image prompts with native audio. In Flow , chain Seedance 2.0 with other models to build automated multi-step video production pipelines.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e480172a7.webm)
+![video ui-screenshot 480x480: ](media/11847327-80d3-4c99-bb8a-6a1e480172a7-ac09d5be.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e480172a7.webm")
 
 ## S07 feature-callout
 
 ### Why Seedance 2.0 matters for creators and teams
 Seedance 2.0 supports faster creative iteration, reduces manual editing steps, and enables scalable content production for individuals and teams. By strengthening AI-powered video workflows and visual generation systems, it automates repetitive processes while maintaining consistent quality across outputs. This results in clear, practical advantages for modern creators:
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/71d5e50f-93db-4744-8bb0-35ba88bbba36.webm)
+![video creative 480x480: ](media/71d5e50f-93db-4744-8bb0-35ba88bbba36-f118a3a7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/71d5e50f-93db-4744-8bb0-35ba88bbba36.webm")
 
 ## S08 feature-callout
 
 ### Seedance 2.0 and multimodal AI workflows
 Seedance 2.0 contributes to multimodal AI workflows where video generation intersects with automated editing and enhancement processes. With up to 12 reference inputs combining text, image, video, and audio, it supports unified creative production environments. Inside Picsart's AI Video Generator and AI Playground, Seedance 2.0 enables visual content generation that adapts to modern digital formats and collaborative production needs.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm)
+![video creative 480x480: ](media/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b-70615921.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm")
 
 ## S09 feature-callout
 
 ### Seedance within the Picsart platform
 Seedance is one of several AI models used across Picsart's creative platform. It works alongside models like Kling 3.0, Runway Gen 4, Veo 3.1, and WAN 2.7 to power the AI Video Generator and AI Playground. Together, these models support video generation, image creation, and automated workflows — giving creators access to the best model for every project without switching platforms.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0c4f4fb1-07e8-4255-916e-60b652e7fc24.webm)
+![video creative 480x480: ](media/0c4f4fb1-07e8-4255-916e-60b652e7fc24-ffdb8e4c.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0c4f4fb1-07e8-4255-916e-60b652e7fc24.webm")
 
 ## S10 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -149,23 +149,23 @@ The Seedance 2.0 AI model is a multimodal generative AI model designed for image
 
 ### More AI models to use
 Explore more AI-powered tools and models available on Picsart.
-![image thumbnail 342x282: Luma Ray 2 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: Luma Ray 2 AI model for video generation](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 Luma Ray 2 Luma Ray 2 is a generative AI model optimized for fast, high-fidelity video generation with realistic lighting and motion.
-![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI model for professional video creation](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Runway Gen 4 is a generative AI model designed for professional-grade video creation with fine-grained creative control.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI model for fast image creation](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 Ideogram 3.0 Flash Ideogram 3.0 Flash is a generative AI model built for fast image creation with accurate text rendering and design precision.
-![image thumbnail 342x282: Seedream 4.5 AI model for image generation](https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png)
+![image thumbnail 342x282: Seedream 4.5 AI model for image generation](media/ba1366fa-0792-4639-9f5e-9dd832ac458b-099ab47b.png "https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png")
 Seedream 4.5 Seedream 4.5 is a generative AI model designed for high-quality image generation with advanced visual understanding.
-![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: GPT Image 1.5 AI model for text-to-image generation](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 GPT Image 1.5 GPT Image 1.5 is a multimodal AI model that generates images from text prompts with strong compositional understanding.
-![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png)
+![image thumbnail 342x282: Flux 2 Pro AI model for high-resolution image generation](media/54efb397-a826-452d-84ed-9eb6ab36b6fb-ffac54fe.png "https://pastatic.picsart.com/cms-pastatic/54efb397-a826-452d-84ed-9eb6ab36b6fb.png")
 Flux 2 Pro Flux 2 Pro is a generative AI model optimized for high-resolution image generation with fine detail and creative flexibility.
-![image thumbnail 342x282: Kling 3.0 AI model for video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI model for video generation](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Kling 3.0 is a generative AI model built for motion-based video creation with advanced control over movement and scene dynamics.
-![image thumbnail 342x282: Nano Banana 2 AI model for scalable image creation](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Nano Banana 2 AI model for scalable image creation](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Nano Banana 2 Nano Banana 2 is a generative AI model designed for scalable image creation with improved visual quality and speed.
-![image thumbnail 342x282: Veo AI model for cinematic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp)
+![image thumbnail 342x282: Veo AI model for cinematic video generation](media/fc94b953-656d-42c8-9ee8-0a6c17e4043a-78edb46d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp")
 Veo 3.1 Veo is a generative AI model designed for high-quality cinematic video creation and visual storytelling.
 
 ## S14 pricing

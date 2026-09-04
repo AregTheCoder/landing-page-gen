@@ -7,7 +7,7 @@
 ## Flux Kontext Pro AI model for next-gen visual content
 The Flux Kontext Pro AI model is a generative AI model built for fast, high-quality visual creation. In Picsart, it powers image generation tools that help creators generate, enhance, and transform visuals with less effort and more creative control.
 Start generating
-![image creative 480x480: Nano banana AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image creative 480x480: Nano banana AI model](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 
 ## S02 interactive-demo
 
@@ -23,7 +23,7 @@ Start generating
 
 ### What is Flux Kontext Pro?
 Flux Kontext Pro is a modern AI model built for visual content generation and enhancement. It helps create, refine, and transform images quickly, focusing on creative flexibility and output quality. In Picsart, Flux Kontext Pro supports intuitive tools that make advanced visual creation simple and accessible for everyone. For a deeper look at how it stacks up, see our compare all Flux models .
-![image creative 480x480: Flux Kontext Pro Model](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Flux Kontext Pro Model](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S05 use-case-grid
 
@@ -33,43 +33,43 @@ How does Flux Kontext Pro support visual creation
 [button: Edit images]
 [button: Experiment with creative styles]
 Create high-quality visuals from ideas in seconds, making image creation faster and more flexible.
-![image creative 879x418: Flux Kontext Pro for Image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Flux Kontext Pro for Image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### How Picsart uses Flux Kontext Pro
 Picsart integrates Flux Kontext Pro directly into its creative tools, removing the need for users to interact with the model itself. It powers features like the AI Image Enhancer , AI Image Generator , helping creators work faster, produce higher-quality visuals, and explore ideas with greater creative flexibility.
-![image creative 480x480: nano banana for image enhancement](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: nano banana for image enhancement](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Flux Kontext Pro
 Flux Kontext Pro helps creators move from idea to output faster while reducing manual effort. It supports high-quality visual results without complex workflows, making image creation more efficient. By working behind the scenes, Flux Kontext Pro keeps advanced visual creation accessible to non-technical users who want professional-looking results.
-![image creative 480x480: nano banana for creative tools](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: nano banana for creative tools](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S08 feature-callout
 
 ### Flux Kontext Pro inside the Picsart ecosystem
 Flux Kontext Pro is one of several AI models that power Picsart’s creative ecosystem. It works alongside other advanced models to support image creation across the platform. This multi-model approach helps ensure reliable performance, creative flexibility, and consistently high-quality results for a wide range of creative needs.
-![image creative 480x480: Nano banana inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Nano banana inside the Picsart ecosystem](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -117,11 +117,11 @@ The Flux Kontext Pro AI model is a generative AI model focused on visual content
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: ai video generation](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Kling A cutting-edge generative video model focused on producing detailed, physically consistent videos from text and image prompts.
-![image thumbnail 342x282: ai generation](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: ai generation](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora Sora helps creators produce video content more efficiently while lowering traditional production barriers.
 
 ## S13 pricing

@@ -6,7 +6,7 @@
 
 ## Free image cropper: Easily crop images online
 Cropping images can take time and effort, but it doesn’t have to. Effortlessly crop images online with Picart’s free image cropper for stunning, quality visuals.
-![image creative 480x480: Picsart image cropper](https://cdn-cms-uploads.picsart.com/cms-uploads/4c0b8b9b-c908-4477-8a1a-375fa06c1fe6.avif)
+![image creative 480x480: Picsart image cropper](media/4c0b8b9b-c908-4477-8a1a-375fa06c1fe6-8a868347.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c0b8b9b-c908-4477-8a1a-375fa06c1fe6.avif")
 
 ## S02 link-grid
 
@@ -39,13 +39,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: free icon](https://pastatic.picsart.com/cms-pastatic/f326a58b-742e-420d-9b49-5aa28a626500.png)
+![image icon 96x96: free icon](media/f326a58b-742e-420d-9b49-5aa28a626500-3962edf0.png "https://pastatic.picsart.com/cms-pastatic/f326a58b-742e-420d-9b49-5aa28a626500.png")
 #### Free photo cropping
 Save time, money, and peace of mind with Picsart’s free image cropper.
-![image icon 96x96: high quality icon](https://pastatic.picsart.com/cms-pastatic/1aac43aa-6e79-45f7-b3a1-71aba79f96ef.png)
+![image icon 96x96: high quality icon](media/1aac43aa-6e79-45f7-b3a1-71aba79f96ef-f78713b1.png "https://pastatic.picsart.com/cms-pastatic/1aac43aa-6e79-45f7-b3a1-71aba79f96ef.png")
 #### Zero quality loss
 Instantly crop images without sacrificing your photo quality.
-![image icon 96x96: easy cropping icon](https://pastatic.picsart.com/cms-pastatic/f49cc81a-77e6-4cbd-bdac-85739b9684e4.png)
+![image icon 96x96: easy cropping icon](media/f49cc81a-77e6-4cbd-bdac-85739b9684e4-9b429244.png "https://pastatic.picsart.com/cms-pastatic/f49cc81a-77e6-4cbd-bdac-85739b9684e4.png")
 #### Beginner-friendly cropping
 Easily crop photos online with an easy-to-use cropping tool.
 
@@ -61,49 +61,49 @@ Upload your photo to start cropping.
 #### Apply changes
 4
 #### Download image
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/27ecd654-878b-4aa7-b92f-0cbda87afd20.webm)
+![video ui-screenshot 480x600: ](media/27ecd654-878b-4aa7-b92f-0cbda87afd20-853028d6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/27ecd654-878b-4aa7-b92f-0cbda87afd20.webm")
 
 ## S05 feature-callout
 
 ### Upload, crop, and download images in an instant
 Searching for an efficient way to edit your photos? Look no further than Picsart’s online photo cropper. From Facebook covers and Pinterest posts to YouTube banners, it’s easier than ever to crop images online, even if you’re not an editing pro. Just choose from our extensive templates or adjust the box to meet your creative needs. It’s that simple!
-![image creative 480x480: The easiest way to crop images online](https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif)
+![image creative 480x480: The easiest way to crop images online](media/c78690a2-0fac-49a1-8192-f158f8e54c02-f5af9f4f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif")
 
 ## S06 feature-callout
 
 ### Easily crop the unwanted parts of your image
 We’ve all been there before: You snapped a nearly perfect shot, but you need to remove some parts from your image before you share it with the world. Picsart’s free image cropper offers an effortless solution to remove unwanted portions from your image, so you can master the art of composition and refresh your photos with a new perspective. Simply drag the corners of the crop box to create a brand-new composition for your photo in seconds.
-![image creative 480x480: Easily remove the unwanted parts of your image](https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif)
+![image creative 480x480: Easily remove the unwanted parts of your image](media/d93605b1-f35b-412e-bc17-fdbb44a4600a-10d4278d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif")
 
 ## S07 feature-callout
 
 ### Your go-to image cropper for social media
 Most of us don’t have the time to waste on complex editing tools. That’s why Picsart’s easy-to-use photo cropper is the perfect option for all of your cropping needs. With convenient pre-made templates for Instagram, Facebook, and other popular social platforms, it’s the easiest way to use one image for all your social channels without worrying about platform-specific dimensions. And when you’re done, why not add a sticker or two for some extra flair?
-![image creative 480x480: Your go-to image cropper for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif)
+![image creative 480x480: Your go-to image cropper for social media](media/25329b09-3d26-4dac-9718-1e364b5a2300-a89d6fce.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif")
 
 ## S08 feature-callout
 
 ### Place your perfectly cropped images in templates
 Tap into Picsart’s vast collection of predesigned templates to create captivating content with your cropped images. Looking to create an Instagram post to promote the new menu of your restaurant? There’s a template for that. What about an infographic for your online course? There’s a template for that and many others too! The best thing is that it’s all built into the same interface, so you don’t need to switch between tools.
-![image creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/bef623e5-df4c-452f-bf7c-00e049a757a0.avif)
+![image creative 480x480: ](media/bef623e5-df4c-452f-bf7c-00e049a757a0-ceabc507.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bef623e5-df4c-452f-bf7c-00e049a757a0.avif")
 
 ## S09 feature-callout
 
 ### Effortlessly crop images for the perfect composition
 From close-up product shots to fun selfies, you’ll probably have to crop your image at some point during the editing process. The good news? With Picsart’s image cropper, all you have to do is upload your photo, choose a pre-made template, or go freeform. Then, play with the placement until you’re happy with the result. Want to give your picture a fresh new look? Use the background changer or background remover for a stunning finish.
-![image creative 480x480: Effortlessly crop images for the perfect composition](https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif)
+![image creative 480x480: Effortlessly crop images for the perfect composition](media/24e4540f-7ddd-4949-82bc-b7b118095718-828f65a0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif")
 
 ## S10 feature-callout
 
 ### Crop images online without sacrificing quality
 From social media posts to beautiful landscape photos, image quality matters. Fortunately, when you crop images with Picsart, you won’t have to worry about losing any image quality. This way, you can crop with confidence, cutting images down to whatever size you need without affecting the shot’s original quality. And if you need to enhance image quality , tap into the image upscale tool for a quick fix.
-![image creative 480x480: Crop images online without sacrificing quality](https://cdn-cms-uploads.picsart.com/cms-uploads/6082f48b-e642-4739-8577-ab27b4e794ea.avif)
+![image creative 480x480: Crop images online without sacrificing quality](media/6082f48b-e642-4739-8577-ab27b4e794ea-314d405c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6082f48b-e642-4739-8577-ab27b4e794ea.avif")
 
 ## S11 feature-callout
 
 ### Fastest and easiest collection of basic editing tools
 After you crop photos to your preferred sizes, it’s time to add the finishing touches. Easily rotate photos for head-turning social media posts, or resize photos online to meet all of your creative needs. From there, tap into Picsart’s easy-to-use photo editor to enhance your images with dynamic filters, trendy stickers, and more — no editing skills needed.
-![image creative 480x480: Fastest and easiest collection of basic editing tools](https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif)
+![image creative 480x480: Fastest and easiest collection of basic editing tools](media/0188182b-5624-45e9-9361-3f6cd46c12a2-a94f7fc7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif")
 
 ## S12 feature-callout
 
@@ -122,26 +122,26 @@ Yes, it is! The Picsart Image Cropper is completely free. You can upload one of 
 ## S14 link-grid
 
 ### Elevate your photos with next-level editing tools
-![image thumbnail 342x282: ai image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: ai image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI enhance Automatically increase your photo’s resolution for high-quality images.
-![image thumbnail 342x282: all in one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all in one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo editor Upgrade your pictures with trendy filters, stickers, and more.
-![image thumbnail 342x282: remove object](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: remove object](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Remove object from photo Reclaim control of your pictures with the power of AI.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png)
+![image thumbnail 342x282: ](media/ae1acc0b-b019-4103-ba7d-a09db912d4af-1629c915.png "https://pastatic.picsart.com/cms-pastatic/ae1acc0b-b019-4103-ba7d-a09db912d4af.png")
 Photo effects Supercharge your creativity with eye-catching effects.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI photo editor Enhance your visuals with AI-powered editing tools.
-![image thumbnail 342x282: clean up pictures](https://pastatic.picsart.com/cms-pastatic/89a3c810-bf7b-4364-b870-9578ebaef67e.png)
+![image thumbnail 342x282: clean up pictures](media/89a3c810-bf7b-4364-b870-9578ebaef67e-a65e7373.png "https://pastatic.picsart.com/cms-pastatic/89a3c810-bf7b-4364-b870-9578ebaef67e.png")
 Cleanup pictures Effortlessly remove unwanted people, text, objects, and more.
 
 ## S15 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S16 pricing
 

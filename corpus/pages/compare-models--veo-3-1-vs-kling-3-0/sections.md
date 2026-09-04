@@ -8,7 +8,7 @@ AI VIDEO MODEL COMPARISON
 ## Veo 3.1 vs Kling 3.0: Pick the right AI video model
 Google's Veo 3.1 and Kuaishou's Kling 3.0 are shaping how AI video gets created today. This Veo 3 vs Kling 3 comparison helps you understand where each model stands - from video quality and audio to creative control and cost so you can choose with confidence. Try both side by side in Picsart AI Video Generator or AI Playground.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1310b66c-aa16-4b0f-a9b4-136b13cc3700.webm)
+![video creative 480x480: ](media/1310b66c-aa16-4b0f-a9b4-136b13cc3700-1752d706.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1310b66c-aa16-4b0f-a9b4-136b13cc3700.webm")
 
 ## S02 interactive-demo
 
@@ -69,53 +69,53 @@ Ads, social content, multi-scene videos
 
 ### Get familiar with Veo 3.1 and Kling 3.0
 At a glance, both models - Veo 3.1 and Kling 3.0 turn text into high-quality video, but they're built with different creative priorities. Veo leans into cinematic generation with built-in audio and consistent characters, while Kling focuses on structured storytelling with multi-shot scenes, motion control, and longer outputs. You can try them both on our AI Video Generator .
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7805ccce-23f2-447c-ac4d-c2a77fd74625.webm)
+![video creative 480x480: ](media/7805ccce-23f2-447c-ac4d-c2a77fd74625-6831b42d.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7805ccce-23f2-447c-ac4d-c2a77fd74625.webm")
 
 ## S05 feature-callout
 
 ### Compare video quality, audio, and realism
 Both Veo 3.1 and Kling 3.0 generate 4K video at up to 60fps, but they differ in feel. Veo delivers cinematic realism with smooth motion, natural lighting, and consistent characters, while Kling focuses on detailed physics, sharper textures, and HDR-ready output. The biggest gap is audio - Veo produces more natural, fully layered sound with precise lip sync, while Kling supports multi-language audio but feels less refined overall.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/263c939b-e57e-4c41-ba7c-04b9c197c1ad.webm)
+![video creative 480x480: ](media/263c939b-e57e-4c41-ba7c-04b9c197c1ad-a3ab3024.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/263c939b-e57e-4c41-ba7c-04b9c197c1ad.webm")
 
 ## S06 feature-callout
 
 ### Explore storyboarding, motion, and editing tools
 Kling 3.0 gives you more hands-on control, with multi-shot storyboarding that creates up to six connected scenes in one go, along with Motion Brush for precise movement and longer clips. Veo 3.1 takes a more automated approach, relying on prompt-based control and clip chaining while maintaining character consistency with reference images. In short, Kling offers more manual control, while Veo focuses on faster, cinematic results.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/24a2d2a9-7615-4e74-84cf-452a332651c6.webm)
+![video creative 480x480: ](media/24a2d2a9-7615-4e74-84cf-452a332651c6-8e46de41.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/24a2d2a9-7615-4e74-84cf-452a332651c6.webm")
 
 ## S07 feature-callout
 
 ### Break down Veo 3.1 vs Kling 3.0 costs
 Kling 3.0 is generally more affordable, with pricing around $0.10 per second and a free tier that offers daily credits, making it easier to scale content production. Veo 3.1 comes at a higher cost, typically between $0.15 and $0.40 per second, and is often included in Google AI plans. Both models are available in one place, so you can try them without managing separate tools or subscriptions.
-![image creative 480x480: Veo 3 vs Kling 3 pricing comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a86b9a-fad8-41d1-bc62-5ca6b3ba3813.avif)
+![image creative 480x480: Veo 3 vs Kling 3 pricing comparison](media/e2a86b9a-fad8-41d1-bc62-5ca6b3ba3813-37ceb0ef.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a86b9a-fad8-41d1-bc62-5ca6b3ba3813.avif")
 
 ## S08 feature-callout
 
 ### Choose Veo 3.1 or Kling 3.0 for your workflow
 Choose Veo 3.1 if you want cinematic results with natural audio, precise lip sync, and consistent characters across scenes, especially for brand videos or polished storytelling. Choose Kling 3.0 if you need more control, with multi-shot storyboarding, longer clips, advanced motion tools, and lower production costs. Choose Picsart if you want both - test Veo 3.1 and Kling 3.0 side by side and use the best model for each project.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b7cc0fb9-5688-4ccb-878d-2002020b9a89.webm)
+![video creative 480x480: ](media/b7cc0fb9-5688-4ccb-878d-2002020b9a89-38562a44.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/b7cc0fb9-5688-4ccb-878d-2002020b9a89.webm")
 
 ## S09 tutorial-grid
 
 ### Understand AI video generation
 Learn how prompts, clips, and model choices shape videos.
-![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif)
+![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](media/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0-b0ddfa5a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif")
 Video generation
 #### How to generate AI videos from text prompts with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif)
+![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](media/205ce18e-d085-4556-8358-9a07158ca516-38ed3e7d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif")
 Video generation
 #### How to turn photos into AI-animated videos with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif)
+![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](media/58f16ce3-24c0-45e7-9b50-45eb3041b956-420d5ca0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif")
 Video generation
 #### How to create vertical AI videos for TikTok and Reels
 4 min Beginner
-![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif)
+![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](media/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d-60ccae3d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif")
 Video generation
 #### How to add cinematic camera motion to images with AI
 4 min Intermediate
-![image thumbnail 294x196: How to extend video clips with AI continuation preview](https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif)
+![image thumbnail 294x196: How to extend video clips with AI continuation preview](media/70b9be0b-ef8b-409d-8955-5b6e6e97fee0-f6af9c63.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif")
 Video generation
 #### How to extend video clips with AI continuation
 4 min Advanced

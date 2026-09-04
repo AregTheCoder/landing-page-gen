@@ -6,15 +6,15 @@
 
 ## Improve video quality with AI Video Enhancer
 Enhance resolution, reduce noise, and sharpen details automatically with an AI Video Enhancer that cleans up every frame. Upload your video, click once, and get a clearer, more polished result in seconds.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2d5cd187-a71c-49ba-a862-8beaefaabafd.webm)
+![video creative 480x480: ](media/2d5cd187-a71c-49ba-a862-8beaefaabafd-a0949957.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2d5cd187-a71c-49ba-a862-8beaefaabafd.webm")
 
 ## S02 gallery
 
-![image creative 651x366: running by the lake video enhanced with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/95244d23-0eac-4408-816b-1bec3d0e8ddd.avif)
-![image creative 651x366: man holding balloon flowers video enhanced with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/89137d5b-5077-4648-ba11-6bd1ad068656.avif)
-![image creative 651x366: coffee cup close-up video enhanced with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/d676305a-9c87-4eb2-a5d8-4a258c2f7076.avif)
-![image creative 651x366: flower arrangement video enhanced with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/28f1a6e9-c630-4833-ae73-0c722c2f8e0e.avif)
-![image creative 651x366: outdoor dinner party video enhanced with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/47bd9e8c-2765-47a9-8253-f0a500d7a0a6.avif)
+![image creative 651x366: running by the lake video enhanced with AI](media/95244d23-0eac-4408-816b-1bec3d0e8ddd-ce83126f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/95244d23-0eac-4408-816b-1bec3d0e8ddd.avif")
+![image creative 651x366: man holding balloon flowers video enhanced with AI](media/89137d5b-5077-4648-ba11-6bd1ad068656-a6e00491.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/89137d5b-5077-4648-ba11-6bd1ad068656.avif")
+![image creative 651x366: coffee cup close-up video enhanced with AI](media/d676305a-9c87-4eb2-a5d8-4a258c2f7076-c7062baf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d676305a-9c87-4eb2-a5d8-4a258c2f7076.avif")
+![image creative 651x366: flower arrangement video enhanced with AI](media/28f1a6e9-c630-4833-ae73-0c722c2f8e0e-2ed33990.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/28f1a6e9-c630-4833-ae73-0c722c2f8e0e.avif")
+![image creative 651x366: outdoor dinner party video enhanced with AI](media/47bd9e8c-2765-47a9-8253-f0a500d7a0a6-96f9e664.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/47bd9e8c-2765-47a9-8253-f0a500d7a0a6.avif")
 
 ## S03 link-grid
 
@@ -47,13 +47,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S04 feature-row
 
-![image icon 96x96: Icon for video enhancement](https://cdn-cms-uploads.picsart.com/cms-uploads/4f2f62ba-f75b-435e-a996-068ce55a4cfa.webp)
+![image icon 96x96: Icon for video enhancement](media/4f2f62ba-f75b-435e-a996-068ce55a4cfa-9519a5e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4f2f62ba-f75b-435e-a996-068ce55a4cfa.webp")
 #### Enables free video enhancement
 Unlocks free access to AI-powered video enhancement, letting you raise video quality instantly without upfront cost.
-![image icon 96x96: Icon for 1 click](https://cdn-cms-uploads.picsart.com/cms-uploads/08772872-0ffa-4a8e-8d1f-b05b8dfeb879.webp)
+![image icon 96x96: Icon for 1 click](media/08772872-0ffa-4a8e-8d1f-b05b8dfeb879-8b455ea3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/08772872-0ffa-4a8e-8d1f-b05b8dfeb879.webp")
 #### Supports one-click quality improvement
 Delivers automatic video quality results in one click, without timelines, filters, or technical steps.
-![image icon 96x96: Icon for video upload](https://cdn-cms-uploads.picsart.com/cms-uploads/c4971daa-60e1-4baa-bbd5-f5b56f037c63.webp)
+![image icon 96x96: Icon for video upload](media/c4971daa-60e1-4baa-bbd5-f5b56f037c63-81d8675f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c4971daa-60e1-4baa-bbd5-f5b56f037c63.webp")
 #### Uses AI for clearer video
 Applies AI analysis to every frame to produce clearer visuals and higher resolution automatically.
 
@@ -69,7 +69,7 @@ Upload your video using Browse files to select a file from your device and start
 #### Preview the result
 4
 #### Edit or download your video
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e59d83a2-24ec-4634-9108-d5a447fd9baa.webm)
+![video ui-screenshot 480x600: ](media/e59d83a2-24ec-4634-9108-d5a447fd9baa-e5637921.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e59d83a2-24ec-4634-9108-d5a447fd9baa.webm")
 
 ## S06 feature-list
 
@@ -86,19 +86,19 @@ lower costs with AI video workflows
 
 ### What is an AI Video Enhancer
 Picsart's AI Video Enhancer uses artificial intelligence to analyze video frames and automatically improve video quality. This tool enhances video clarity, sharpness, color balance, and resolution by detecting blur, noise, and low-quality details, helping you enhance video content quickly and consistently.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e34d0498-d2c2-403b-87bc-6dd66ea48d3d.webm)
+![video creative 480x480: ](media/e34d0498-d2c2-403b-87bc-6dd66ea48d3d-678f7a61.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e34d0498-d2c2-403b-87bc-6dd66ea48d3d.webm")
 
 ## S08 feature-callout
 
 ### Why enhance video quality with AI
 Why does a video that looked fine on your phone start to look blurry or noisy on a bigger screen? It usually comes down to compression, low resolution, poor lighting, or AI artifacts, and that's exactly where Picsart's AI Video Enhancer steps in to restore sharpness, reduce noise, and bring back clear, natural detail in just a few clicks.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e5827868-cc8f-406f-a314-129445deb4f0.webm)
+![video creative 480x480: ](media/e5827868-cc8f-406f-a314-129445deb4f0-704179f0.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e5827868-cc8f-406f-a314-129445deb4f0.webm")
 
 ## S09 feature-callout
 
 ### A complete video workflow inside Picsart
 Picsart's Video Enhancer fits into a complete creative workflow designed for flexibility. After you enhance video quality, you can continue refining your content in the AI Video Editor . Need quick adjustments? Trim video clips to tighten your story. Add text to video for context or messaging, then finish with AI video filters to bring everything together. This all-in-one setup helps you finalize assets faster without jumping between tools.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c5f95d2f-247e-4e9a-bf2f-43d021948022.webm)
+![video ui-screenshot 480x480: ](media/c5f95d2f-247e-4e9a-bf2f-43d021948022-3c0edec0.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c5f95d2f-247e-4e9a-bf2f-43d021948022.webm")
 
 ## S10 use-case-grid
 
@@ -109,13 +109,13 @@ Picsart's Video Enhancer fits into a complete creative workflow designed for fle
 [button: Marketing videos]
 Social media videos
 Prepare social clips that look sharp, clear, and ready to post, even when shot quickly or in low light.
-![image creative 623x297: video enhancer for social videos](https://cdn-cms-uploads.picsart.com/cms-uploads/f223c881-0393-4d49-a26a-b171bb6ccd83.webp)
+![image creative 623x297: video enhancer for social videos](media/f223c881-0393-4d49-a26a-b171bb6ccd83-03bbd3fb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f223c881-0393-4d49-a26a-b171bb6ccd83.webp")
 
 ## S11 feature-callout
 
 ### From quick clips to full-length stories
 Picsart's AI Video Enhancer helps enhance video quality across short clips and long-form projects alike. Acting as a smart video resolution enhancer, it keeps visuals consistent no matter the length. After you enhance video content, pair it with tools like the AI Audio Generator to finish videos with sound that matches the polish.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/60c4d0c6-f03c-4ee6-af56-92e58e2d2fc9.webm)
+![video creative 480x480: ](media/60c4d0c6-f03c-4ee6-af56-92e58e2d2fc9-d291473f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/60c4d0c6-f03c-4ee6-af56-92e58e2d2fc9.webm")
 
 ## S12 feature-list
 
@@ -161,19 +161,19 @@ You can improve video quality by using an AI Video Enhancer that automatically a
 ## S14 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: AI voiceover generator](https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp)
+![image thumbnail 342x282: AI voiceover generator](media/d3e02e75-336a-4566-a2e4-edad326a421d-4a0b97af.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp")
 AI Voice Generator Turn your script into natural AI voiceovers in seconds.
-![image thumbnail 342x282: image of a boy with sense of creativity text on it](https://cdn140.picsart.com/05096155402720415751.png)
+![image thumbnail 342x282: image of a boy with sense of creativity text on it](media/05096155402720415751-16e73336.png "https://cdn140.picsart.com/05096155402720415751.png")
 Add Text to Video Easily add text to videos online to achieve stunning edits.
-![image thumbnail 342x282: a cool image of a snowboarder](https://cdn140.picsart.com/69919707977802077060.png)
+![image thumbnail 342x282: a cool image of a snowboarder](media/69919707977802077060-f4e8c34f.png "https://cdn140.picsart.com/69919707977802077060.png")
 Video Trimmer Cut and trim video easily in your browser with Video Trimmer.
-![image thumbnail 342x282: remove video background online and free](https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png)
+![image thumbnail 342x282: remove video background online and free](media/141eb68c-5548-4161-a378-015c5979503d-bb5d1309.png "https://pastatic.picsart.com/cms-pastatic/141eb68c-5548-4161-a378-015c5979503d.png")
 Video Background Remover Erase video backgrounds with Picsart's AI-powered Video Background Remover.
-![image thumbnail 342x282: Picsart's AI video style changer](https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png)
+![image thumbnail 342x282: Picsart's AI video style changer](media/5cf12242-55b3-438a-9544-1cdcbaa04694-f6578cf5.png "https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png")
 AI Video Filters Reinvent the look of your videos with AI-powered video filters.
-![image thumbnail 342x282: video ad maker](https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png)
+![image thumbnail 342x282: video ad maker](media/68352d29-75d1-45e4-8405-672c59f8bdf7-d2f8d93d.png "https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png")
 Video Ad Maker Create engaging video ads in seconds using AI.
-![image thumbnail 342x282: ai video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: ai video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
 
 ## S15 pricing

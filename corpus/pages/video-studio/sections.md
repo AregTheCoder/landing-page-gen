@@ -32,18 +32,18 @@ Upload your video
 #### Upload your video
 Drag in a file or select one from your device.
 Start editing
-![image creative 579x579: Upload your video](https://cdn-cms-uploads.picsart.com/cms-uploads/77b21ba1-e2ed-4632-ae8d-e5dac86e9d9f.avif)
+![image creative 579x579: Upload your video](media/77b21ba1-e2ed-4632-ae8d-e5dac86e9d9f-1b74b7b8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/77b21ba1-e2ed-4632-ae8d-e5dac86e9d9f.avif")
 
 ## S04 feature-callout
 
 ### Edit with every essential video tool
 Whatever the clip needs, the tool is already here. Shorten it, stitch a few takes together, or stretch a moment into slow motion. Crop and resize for a vertical feed, convert to the format a platform expects, and shrink the file for faster uploads. Add an effect, swap the background, or blur a face when it needs polish. One tab, the full kit - open it and start.
 [Start editing](https://picsart.com/video-toolkit)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f4a8e1cd-8957-475b-a3ea-99f2c52cbf73.webm)
+![video creative 539x539: ](media/f4a8e1cd-8957-475b-a3ea-99f2c52cbf73-4107531d.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f4a8e1cd-8957-475b-a3ea-99f2c52cbf73.webm")
 
 ## S05 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/7d21a6c8-849e-4c5c-95d9-e71af4479458.webm)
+![video creative 539x539: ](media/7d21a6c8-849e-4c5c-95d9-e71af4479458-9b626baa.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/7d21a6c8-849e-4c5c-95d9-e71af4479458.webm")
 ### Edit in your browser, nothing to install
 Open it, make the change, and get back to what you were doing. Video Studio runs entirely in your browser, with nothing to download and no account to create, so a quick fix stays quick. Trim the start of a clip, compress a file before sharing it, or reframe for another channel, then close the tab. It works the same on desktop and phone.
 [Try it free](https://picsart.com/video-toolkit)
@@ -53,7 +53,7 @@ Open it, make the change, and get back to what you were doing. Video Studio runs
 ### Use built-in AI video tools or Create with built-in AI
 Go beyond the basics. Lift your subject off its background and drop in a new one, hide a face behind a blur, a pixel grid, or a glitch, and restyle a whole clip with a single effect. These are the edits that used to need a green screen, a plugin, or a long render - now they run right here and land in a couple of clicks.
 [Customize your video](https://picsart.com/video-toolkit)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b55a2099-3a31-4052-8831-c6e45fa7c208.webm)
+![video creative 539x539: ](media/b55a2099-3a31-4052-8831-c6e45fa7c208-435e9b07.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/b55a2099-3a31-4052-8831-c6e45fa7c208.webm")
 
 ## S07 use-case-grid
 
@@ -66,7 +66,7 @@ Go beyond the basics. Lift your subject off its background and drop in a new one
 #### Social creators & influencers
 Quick trims, resizes, and effects for TikTok, Reels, and Shorts.
 [Edit social videos](https://picsart.com/video-toolkit)
-![image creative 500x500: Social creators & influencers](https://cdn-cms-uploads.picsart.com/cms-uploads/8891ed84-f7f0-4cf9-ae27-97151ef0a9b1.avif)
+![image creative 500x500: Social creators & influencers](media/8891ed84-f7f0-4cf9-ae27-97151ef0a9b1-e9c00a0d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8891ed84-f7f0-4cf9-ae27-97151ef0a9b1.avif")
 
 ## S08 faq
 

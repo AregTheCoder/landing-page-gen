@@ -7,7 +7,7 @@
 ## Luma Ray 2: AI video that feels real
 Picsart’s AI Video Generator has integrated Luma Ray 2, bringing photorealistic video generation with lifelike motion directly into your creative workflow. Luma Ray 2 produces videos with stunning realism, natural physics, and cinematic quality helping creators generate professional-grade video content that looks and feels like it was filmed, not generated.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm)
+![video creative 480x480: ](media/cbe50cb4-573a-4fa9-b741-9e0a682a4c03-6146fdf0.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm")
 
 ## S02 interactive-demo
 
@@ -20,34 +20,34 @@ Start generating
 ## S03 gallery
 
 ### Cinematic motion, zero Limit
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
 Indigo Sphinx
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif)
+![image creative 196x348: ](media/785634d3-65ab-4464-b901-347896752194-e511932d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif")
 Silver Scarab
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif)
+![image creative 196x348: ](media/ba8cc09d-a8d4-425f-8f69-03007d5f1d02-bfd0991c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif")
 Woolf
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif)
+![image creative 196x348: ](media/1e87768c-bdb7-4bd1-b762-d7ff7cc31925-bb012af5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif")
 Sloane
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif)
+![image creative 196x348: ](media/029d49e5-fe69-40f2-a9b6-2594acd9c668-549165ee.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif")
 Paris
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif)
+![image creative 196x348: ](media/d7249ef4-30ce-4586-be3d-6e4996a5f3d1-29f16934.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif")
 Tofu
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
 Dumpling
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
 Nugget
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
 Truffle
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 Prescott
 [Try this vibe](https://picsart.com/ai-playground/?model=luma-ray2-t2v)
 
@@ -55,13 +55,13 @@ Prescott
 
 ### What is Luma Ray 2?
 Luma Ray 2 is a next-generation AI video model from Luma Labs, built to generate photorealistic videos with lifelike motion and natural physics. It produces visuals with accurate lighting, realistic material rendering, and fluid movement making AI-generated video nearly indistinguishable from real footage. Luma Ray 2 handles complex scenes with strong spatial awareness, delivering coherent, cinematic results from text and image prompts.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0a44cf69-38ff-4ab8-8c41-840b66310f74.webm)
+![video creative 480x480: ](media/0a44cf69-38ff-4ab8-8c41-840b66310f74-741e6f2b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0a44cf69-38ff-4ab8-8c41-840b66310f74.webm")
 
 ## S05 feature-callout
 
 ### Luma Ray 2 capabilities
 Luma Ray 2 excels at generating videos with photorealistic quality and natural physics simulation. It renders accurate reflections, shadows, and material interactions, while producing fluid, lifelike motion across characters and environments. The model handles complex multi-element scenes with strong coherence and delivers cinematic camera movements creating output that feels closer to captured footage than AI-generated content.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm)
+![video creative 480x480: ](media/a1892296-53ab-4b3c-907e-d46e4509f6a9-b7c4b3b6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm")
 
 ## S06 use-case-grid
 
@@ -70,37 +70,37 @@ What you can create with Luma Ray 2
 [button: Produce cinematic short-form content]
 [button: Build marketing and product videos]
 Create videos with stunning realism, accurate lighting, natural textures, and lifelike motion that makes AI-generated content feel like real footage.
-![image creative 879x418: Luma Ray 2 for photorealistic video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: Luma Ray 2 for photorealistic video generation](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S07 feature-callout
 
 ### How Luma Ray 2 works inside Picsart
 Picsart integrates Luma Ray 2 directly into its AI Playground and AI Video Generator , so creators can produce photorealistic video content without interacting with the model itself. It works alongside tools like the AI Voice Generator and AI Video Editor , helping creators build complete video projects faster with cinematic quality and creative control.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0f8df66b-1791-43f0-aaa2-5e3c92b8e593.webm)
+![video ui-screenshot 480x480: ](media/0f8df66b-1791-43f0-aaa2-5e3c92b8e593-4b929787.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0f8df66b-1791-43f0-aaa2-5e3c92b8e593.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose Luma Ray 2
 Luma Ray 2 delivers photorealistic video quality that blurs the line between AI-generated and filmed content. Creators choose it for its lifelike motion, accurate physics simulation, and natural material rendering producing videos with a level of realism that sets it apart. Integrated into Picsart’s AI Video Generator, it makes professional-grade photorealistic video production accessible without complex setups or specialized equipment.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f7b93c0c-7add-4bad-b32c-186069b4fc40.webm)
+![video creative 480x480: ](media/f7b93c0c-7add-4bad-b32c-186069b4fc40-b13deb99.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f7b93c0c-7add-4bad-b32c-186069b4fc40.webm")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -150,17 +150,17 @@ Luma Ray 2 is a next-generation AI video model from Luma Labs, designed for phot
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Runway Gen 4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video generation with consistent characters and realistic motion.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: AI voiceover generator](https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp)
+![image thumbnail 342x282: AI voiceover generator](media/d3e02e75-336a-4566-a2e4-edad326a421d-4a0b97af.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp")
 AI Voice Generator Turn your script into natural AI voiceovers in seconds.
-![image thumbnail 342x282: AI video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: AI video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
 
 ## S13 pricing

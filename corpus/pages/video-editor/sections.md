@@ -7,11 +7,11 @@
 ## Free online Video Editor
 Edit videos easily with free online video editing tools designed for simplicity. Create, trim, and enhance videos without professional skills, complex software, or prior editing experience.
 [button: Edit a video]
-![image ui-screenshot 196x348: online video editor for free](https://cdn-cms-uploads.picsart.com/cms-uploads/dbcb9dc0-e024-4ae9-8813-776ecd5f59f2.avif)
-![image ui-screenshot 196x348: online video editor for free](https://cdn-cms-uploads.picsart.com/cms-uploads/0a725606-33c0-4e67-b143-767c39c9c1e1.avif)
-![image ui-screenshot 196x348: online video editor for free](https://cdn-cms-uploads.picsart.com/cms-uploads/d063ae6a-31f5-4753-bd01-7445b9a71c9c.avif)
-![image ui-screenshot 196x348: online video editor for free](https://cdn-cms-uploads.picsart.com/cms-uploads/bc1090b3-29d8-45b6-95af-4a0b46600397.avif)
-![image ui-screenshot 196x348: online video editor for free](https://cdn-cms-uploads.picsart.com/cms-uploads/9b2c08e3-e519-4a26-b3fe-8423ff282cb4.avif)
+![image ui-screenshot 196x348: online video editor for free](media/dbcb9dc0-e024-4ae9-8813-776ecd5f59f2-927afa43.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dbcb9dc0-e024-4ae9-8813-776ecd5f59f2.avif")
+![image ui-screenshot 196x348: online video editor for free](media/0a725606-33c0-4e67-b143-767c39c9c1e1-a17b7df4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0a725606-33c0-4e67-b143-767c39c9c1e1.avif")
+![image ui-screenshot 196x348: online video editor for free](media/d063ae6a-31f5-4753-bd01-7445b9a71c9c-0ebc09cc.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d063ae6a-31f5-4753-bd01-7445b9a71c9c.avif")
+![image ui-screenshot 196x348: online video editor for free](media/bc1090b3-29d8-45b6-95af-4a0b46600397-970a2bb6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bc1090b3-29d8-45b6-95af-4a0b46600397.avif")
+![image ui-screenshot 196x348: online video editor for free](media/9b2c08e3-e519-4a26-b3fe-8423ff282cb4-2bd15870.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9b2c08e3-e519-4a26-b3fe-8423ff282cb4.avif")
 
 ## S02 feature-row
 
@@ -32,18 +32,18 @@ Upload your video
 #### Upload your video
 Add videos from your device or library and start editing directly in your browser.
 Start editing
-![image creative 579x579: Upload your video](https://cdn-cms-uploads.picsart.com/cms-uploads/76a2d6b7-bbbf-45f1-b887-23ffb43bade5.avif)
+![image creative 579x579: Upload your video](media/76a2d6b7-bbbf-45f1-b887-23ffb43bade5-f7dc5bf1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/76a2d6b7-bbbf-45f1-b887-23ffb43bade5.avif")
 
 ## S04 feature-callout
 
 ### Your all-in-one Video Editor for easy creation
 Edit videos online for free with a Video Editor designed for easy creation and everyday use. With no setup or learning curve, you can move from quick tweaks to full projects directly in your browser. Video and audio come together on a single timeline, making it easy to organize clips, sound, and layers as you edit.
 [Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
-![video ui-screenshot 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2b92d8d2-38a9-420d-bf3d-2612241e1c82.webm)
+![video ui-screenshot 539x539: ](media/2b92d8d2-38a9-420d-bf3d-2612241e1c82-80dfe87d.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2b92d8d2-38a9-420d-bf3d-2612241e1c82.webm")
 
 ## S05 feature-callout
 
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/436bc13e-c439-4fed-a7e3-c82858d0fefe.webm)
+![video creative 539x539: ](media/436bc13e-c439-4fed-a7e3-c82858d0fefe-efd60b09.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/436bc13e-c439-4fed-a7e3-c82858d0fefe.webm")
 ### Enhance videos with text, music, or subtitles
 Enhance your videos with an easy Video Editor built for clear, engaging storytelling. Add text overlays to emphasize key moments, use background music or voiceovers, and generate auto-subtitles for clarity and accessibility. With a multi-track timeline, you can fine-tune fonts, timing, playback speed, and audio levels across layers in a few clicks without complex editing.
 [Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
@@ -53,11 +53,11 @@ Enhance your videos with an easy Video Editor built for clear, engaging storytel
 ### Use video editing for social media
 Use a social media Video Editor to edit videos online for Instagram, TikTok, YouTube Shorts, and more. Format, trim, and customize clips to match each platform’s specs while keeping your workflow fast and consistent. Beyond social content, the Video Editor also works for personal projects, announcements, product highlights, and simple promotional videos for small businesses.
 [Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b.webm)
+![video creative 539x539: ](media/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b-bf1ae077.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b.webm")
 
 ## S07 feature-callout
 
-![video ui-screenshot 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6e732a16-a8f3-45e6-bdca-1d5008a5ea0c.webm)
+![video ui-screenshot 539x539: ](media/6e732a16-a8f3-45e6-bdca-1d5008a5ea0c-e00b9965.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6e732a16-a8f3-45e6-bdca-1d5008a5ea0c.webm")
 ### Streamline editing with an AI Video Editor
 Prefer a more automated way to edit? Alongside the standard Video Editor, Picsart also offers a dedicated AI Video Editor designed to speed up everyday tasks. With smart video editing features, AI helps handle adjustments, enhancements, and repetitive edits, while you stay fully in control of the final result. It’s a faster editing option when you want extra help without replacing hands-on creativity.
 [Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
@@ -67,7 +67,7 @@ Prefer a more automated way to edit? Alongside the standard Video Editor, Picsar
 ### Create faster using customizable video templates
 Alongside powerful editing tools, Picsart also offers a rich library of video templates to help you get started faster. These customizable video templates give you a strong starting point without locking you in, so you can change text, visuals, music, and timing directly inside the Video Editor. Save time on setup while keeping full creative control over every edit.
 [Try now](https://picsart.com/create/editor/?category=videos&experienceMode=video)
-![video creative 539x539: ](https://cdn-cms-uploads.picsart.com/cms-uploads/80dfd65a-b289-404a-b8c6-0598c7c1b353.webm)
+![video creative 539x539: ](media/80dfd65a-b289-404a-b8c6-0598c7c1b353-45e8a1fe.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/80dfd65a-b289-404a-b8c6-0598c7c1b353.webm")
 
 ## S09 use-case-grid
 
@@ -80,7 +80,7 @@ Alongside powerful editing tools, Picsart also offers a rich library of video te
 #### Create for social media
 Keep up with trends without long edits. Turn clips into TikToks, Reels, and Shorts with presets, smart cuts, and perfect sizing. Post faster and stay consistent.
 [Create social media video](https://picsart.com/create/editor/?category=videos)
-![image creative 500x500: Create for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/b21a711b-186b-445c-b004-764cc3d733e9.avif)
+![image creative 500x500: Create for social media](media/b21a711b-186b-445c-b004-764cc3d733e9-baa4c3a6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b21a711b-186b-445c-b004-764cc3d733e9.avif")
 
 ## S10 feature-list
 
@@ -115,26 +115,26 @@ Edit videos seamlessly across desktop and mobile devices.
 ## S11 testimonial
 
 ### Testimonials
-![image decorative 194x193: First block decoration](https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png?type=webp&to=min&r=400)
-![image decorative 170x183: First block bottom decoration](https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png?type=webp&to=min&r=400)
+![image decorative 194x193: First block decoration](media/a815825f-4663-46ba-a66e-51194ace3cfc-986bb7ce.png "https://pastatic.picsart.com/cms-pastatic/a815825f-4663-46ba-a66e-51194ace3cfc.png?type=webp&to=min&r=400")
+![image decorative 170x183: First block bottom decoration](media/1d88e0dc-348a-4894-bd7c-55eebbffedef-bdf12fcc.png "https://pastatic.picsart.com/cms-pastatic/1d88e0dc-348a-4894-bd7c-55eebbffedef.png?type=webp&to=min&r=400")
 Intuitive from the start
 I edited my first video in one sitting. The editor feels intuitive from the start, and I didn’t need tutorials to get something polished.
 Lena M., Social media creator
 Perfect for fast social content
 It’s perfect for fast social content. I can trim, resize, and export videos for different platforms without juggling tools.
 Jason K., Small business owner
-![image icon 120x119: Second block decoration](https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png?type=webp&to=min&r=400)
+![image icon 120x119: Second block decoration](media/77516d06-3a4d-4469-ae46-488ec17d15f8-b6786f1e.png "https://pastatic.picsart.com/cms-pastatic/77516d06-3a4d-4469-ae46-488ec17d15f8.png?type=webp&to=min&r=400")
 Grows with your projects
 I started with basic edits and naturally moved into more advanced features as my projects grew.
 Amira S., Content marketer
-![image icon 120x120: Testimonial decoration](https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png?type=webp&to=min&r=400)
+![image icon 120x120: Testimonial decoration](media/2be32773-9229-4230-b4d4-065326861a1e-9d759bf5.png "https://pastatic.picsart.com/cms-pastatic/2be32773-9229-4230-b4d4-065326861a1e.png?type=webp&to=min&r=400")
 
 ## S12 resource-links
 
 ### Video editing tips & tutorials
-![image thumbnail 373x249: How to Add Music to a Video Online with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/1d0b15ba-d839-4e90-bf3d-5712960a357f.jpg)
-![image thumbnail 373x249: Picsart Integrates WAN 2.7 for AI Video Generation preview](https://cdn-cms-uploads.picsart.com/cms-uploads/ba2275f4-1e1a-471e-8b2c-205db34cb006.png)
-![image thumbnail 373x249: How to Add Subtitles to Videos for Free with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/d4b9cf35-fb5f-4966-bef7-d772dad9d502.avif)
+![image thumbnail 373x249: How to Add Music to a Video Online with Picsart preview](media/1d0b15ba-d839-4e90-bf3d-5712960a357f-0a00efd8.jpg "https://cdn-cms-uploads.picsart.com/cms-uploads/1d0b15ba-d839-4e90-bf3d-5712960a357f.jpg")
+![image thumbnail 373x249: Picsart Integrates WAN 2.7 for AI Video Generation preview](media/ba2275f4-1e1a-471e-8b2c-205db34cb006-1dc336d0.png "https://cdn-cms-uploads.picsart.com/cms-uploads/ba2275f4-1e1a-471e-8b2c-205db34cb006.png")
+![image thumbnail 373x249: How to Add Subtitles to Videos for Free with Picsart preview](media/d4b9cf35-fb5f-4966-bef7-d772dad9d502-d74bb7c5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d4b9cf35-fb5f-4966-bef7-d772dad9d502.avif")
 How to Add Music to a Video Online with Picsart Picsart Integrates WAN 2.7 for AI Video Generation How to Add Subtitles to Videos for Free with Picsart
 Read more
 
@@ -142,27 +142,27 @@ Read more
 
 ### Learn video editing basics
 Learn how to make cleaner edits to clips.
-![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif)
+![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](media/9568f28a-001a-481d-8d02-8babcb115e7e-eae505fe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif")
 Video editing
 #### How to edit videos with AI in Picsart video editor
 5 min Intermediate
-![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif)
+![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](media/72ce5f51-9491-4ebf-85b1-c6dd8355d44e-8197708a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif")
 Video editing
 #### How to apply AI video filters and effects in Picsart
 4 min Beginner
-![image thumbnail 294x196: How to add text and captions to videos online preview](https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif)
+![image thumbnail 294x196: How to add text and captions to videos online preview](media/7b1f20ea-7e72-477c-81f2-f677d6e10fd4-4a367a4d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif")
 Video editing
 #### How to add text and captions to videos online
 4 min Beginner
-![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif)
+![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](media/dfa3bef9-5ca9-4b63-a795-79db0819217f-1ed29733.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif")
 Video editing
 #### How to create smooth video transitions with AI effects
 4 min Intermediate
-![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif)
+![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](media/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635-f2c26bd4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif")
 Video editing
 #### How to export videos for TikTok, Reels, YouTube, and Stories
 5 min Intermediate
-![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85)
+![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](media/c48797c6-b6f9-4cd7-9695-a1686d0998cc-2964cf18.png "https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85")
 Video editing
 #### How to fix eye contact in talking-head videos with AI
 4 min Intermediate
@@ -195,11 +195,11 @@ You can trim and split clips, add text, music, subtitles, animations, adjust spe
 
 ### More tools to love
 Discover more tools to enhance your video editing experience and create content with ease.
-![image thumbnail 419x360: AI Video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/eabb45af-35b4-4c24-b17e-e1c8dda69c59.avif)
-![image thumbnail 419x360: AI Text-to-Video](https://cdn-cms-uploads.picsart.com/cms-uploads/dbd94937-5769-4aad-96a9-0773177949ac.avif)
-![image thumbnail 419x360: Video Object Remover](https://cdn-cms-uploads.picsart.com/cms-uploads/4b84a00e-0ac0-476b-bbc3-4d3d3a9e0cec.avif)
-![image thumbnail 419x360: Video Background Remover](https://cdn-cms-uploads.picsart.com/cms-uploads/7015be21-d1e0-4f78-bf03-ecfaa55562cc.avif)
-![image thumbnail 419x360: Add Subtitles to Video](https://cdn-cms-uploads.picsart.com/cms-uploads/97a68b5d-b647-45ce-b851-d1a6aa247ca7.avif)
+![image thumbnail 419x360: AI Video Generator](media/eabb45af-35b4-4c24-b17e-e1c8dda69c59-f0ab2580.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/eabb45af-35b4-4c24-b17e-e1c8dda69c59.avif")
+![image thumbnail 419x360: AI Text-to-Video](media/dbd94937-5769-4aad-96a9-0773177949ac-9ef17f2e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dbd94937-5769-4aad-96a9-0773177949ac.avif")
+![image thumbnail 419x360: Video Object Remover](media/4b84a00e-0ac0-476b-bbc3-4d3d3a9e0cec-d6a58266.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4b84a00e-0ac0-476b-bbc3-4d3d3a9e0cec.avif")
+![image thumbnail 419x360: Video Background Remover](media/7015be21-d1e0-4f78-bf03-ecfaa55562cc-87daa9e6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7015be21-d1e0-4f78-bf03-ecfaa55562cc.avif")
+![image thumbnail 419x360: Add Subtitles to Video](media/97a68b5d-b647-45ce-b851-d1a6aa247ca7-f32f13d6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/97a68b5d-b647-45ce-b851-d1a6aa247ca7.avif")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision. AI Text-to-Video Turn written prompts into scroll-stopping content with Picsart’s Text-to-Video AI. Video Object Remover Get rid of unnecessary details from your videos with the help of AI. Video Background Remover Erase video backgrounds with Picsart’s AI-powered Video Background Remover. Add Subtitles to Video Generate accurate subtitles for any video in seconds.
 
 ## S16 pricing

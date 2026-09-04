@@ -7,7 +7,7 @@
 ## Generate stunning designs with AI Design Generator
 Turn ideas into professional AI designs in seconds. Easily create videos, social media posts, marketing graphics and logos - all tailored to fit your unique vision.
 Generate designs with AI
-![image creative 480x480: ai design generator](https://cdn-cms-uploads.picsart.com/cms-uploads/f3ec9eab-6e44-4ffa-895f-bc4b1d976efb.avif)
+![image creative 480x480: ai design generator](media/f3ec9eab-6e44-4ffa-895f-bc4b1d976efb-a4630c1f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f3ec9eab-6e44-4ffa-895f-bc4b1d976efb.avif")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: icon for fast ai designs](https://cdn-cms-uploads.picsart.com/cms-uploads/ddc7c66a-b9b1-425d-8a6b-4f8400b3b755.png)
+![image icon 96x96: icon for fast ai designs](media/ddc7c66a-b9b1-425d-8a6b-4f8400b3b755-1f05dfae.png "https://cdn-cms-uploads.picsart.com/cms-uploads/ddc7c66a-b9b1-425d-8a6b-4f8400b3b755.png")
 #### Design faster with one click
 Create high-quality designs instantly with AI Design Generator - making creativity fast, easy and fun.
-![image icon 96x96: icon for free ai design generator](https://cdn-cms-uploads.picsart.com/cms-uploads/55833133-3dcf-4fb2-ac83-8ac35296654e.png)
+![image icon 96x96: icon for free ai design generator](media/55833133-3dcf-4fb2-ac83-8ac35296654e-2f9db633.png "https://cdn-cms-uploads.picsart.com/cms-uploads/55833133-3dcf-4fb2-ac83-8ac35296654e.png")
 #### Create for free with AI
 Get started with the free AI Design Generator and access powerful creative tools - upgrade anytime to unlock even more advanced features.
-![image icon 96x96: icon for ai designs](https://cdn-cms-uploads.picsart.com/cms-uploads/3cb000db-a1fe-4904-a91f-244d2a964e00.png)
+![image icon 96x96: icon for ai designs](media/3cb000db-a1fe-4904-a91f-244d2a964e00-ae98e0cb.png "https://cdn-cms-uploads.picsart.com/cms-uploads/3cb000db-a1fe-4904-a91f-244d2a964e00.png")
 #### Turn your vision into AI designs
 Transform your ideas into polished visuals with the AI Design Generator, built to deliver professional results from simple prompts.
 
@@ -60,47 +60,47 @@ Write a short prompt with key details — like objects, colors, styles, or actio
 #### Refine and edit your results
 3
 #### Download and use your design
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f896b1e7-3977-4c99-b2f2-c80d006ad375.webm)
+![video ui-screenshot 480x600: ](media/f896b1e7-3977-4c99-b2f2-c80d006ad375-870bd0be.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f896b1e7-3977-4c99-b2f2-c80d006ad375.webm")
 
 ## S05 feature-callout
 
 ### Create smarter and faster designs with AI Design Generator
 Picsart’s AI design generator turns ideas into high-quality visuals in seconds. Simply describe your concept, and AI blends it with the latest design trends to deliver polished, ready-to-use graphics. Start designing faster with fewer steps, thanks to automated, accurate results that need minimal editing. Create professional visuals for branding, content, and personal projects—without the endless back-and-forth.
-![image creative 480x480: ai design generator for free](https://cdn-cms-uploads.picsart.com/cms-uploads/94918209-d148-4270-a1cc-3cdc259859c9.avif)
+![image creative 480x480: ai design generator for free](media/94918209-d148-4270-a1cc-3cdc259859c9-1050a603.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/94918209-d148-4270-a1cc-3cdc259859c9.avif")
 
 ## S06 feature-callout
 
 ### Design for any need, on any platform
 Create social posts, business cards, banners, and more with the Picsart’s free AI Design Generator. Build ads for Facebook, design product mockups or create sleek portfolio pages easily with customizable templates and fast AI suggestions - making content creation quick, simple and free.
-![image creative 480x480: ai designs for any need and platform](https://cdn-cms-uploads.picsart.com/cms-uploads/ddeb9fd6-bba8-4cea-9fa4-56acabdee76c.avif)
+![image creative 480x480: ai designs for any need and platform](media/ddeb9fd6-bba8-4cea-9fa4-56acabdee76c-adccf679.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ddeb9fd6-bba8-4cea-9fa4-56acabdee76c.avif")
 
 ## S07 feature-callout
 
 ### Get better results with smarter prompts
 Clear prompts lead to better AI designs. Describe the mood, style, colors or audience you want and the AI Design Generator will match it. Use simple AI design tips to create minimalist branding, vibrant social posts or futuristic posters and generate designs with AI that fit your vision perfectly.
-![image creative 480x480: from prompt to ai design](https://cdn-cms-uploads.picsart.com/cms-uploads/3e840630-d86c-4265-9c04-9471bd3eb013.avif)
+![image creative 480x480: from prompt to ai design](media/3e840630-d86c-4265-9c04-9471bd3eb013-2eb12b9b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3e840630-d86c-4265-9c04-9471bd3eb013.avif")
 
 ## S08 feature-callout
 
 Create anything with AI: Videos, images, logos, and more
 Build a brand that stands out
 Creating a logo doesn’t have to be complicated. You might be building something new or giving your brand a fresh look - either way, Picsart’s Logo Generator helps you craft a visual identity that captures your style. Just share a few ideas, and AI turns them into sleek, professional logos in seconds - ready to customize.
-![image decorative 591x591: ai design generator for logos](https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif)
+![image decorative 591x591: ai design generator for logos](media/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1-f63e0d6e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif")
 Turn simple words into vivid visuals
 Some ideas are too good to stay in your head. Just type a description into the AI Image Generator , and watch it become a unique, high-quality image. It’s a quick way to create visuals for social posts, creative projects, campaigns, or anything in between.
-![image creative 591x591: ai design generator for images](https://cdn-cms-uploads.picsart.com/cms-uploads/7258b3fb-3b40-4908-ae85-acaa441d258c.avif)
+![image creative 591x591: ai design generator for images](media/7258b3fb-3b40-4908-ae85-acaa441d258c-c0e30bb3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7258b3fb-3b40-4908-ae85-acaa441d258c.avif")
 Set your stories in motion
 When still images aren’t enough, text-to-video comes in. Picsart’s AI Video Generator transforms prompts into short, dynamic clips for content, ads, or storytelling without any complex tools. It’s fast, intuitive, and built for the way creators work today.
-![image creative 591x369: ](https://cdn-cms-uploads.picsart.com/cms-uploads/67d86043-206b-4e00-b42b-801f8c68e9fb.avif)
+![image creative 591x369: ](media/67d86043-206b-4e00-b42b-801f8c68e9fb-515849b2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/67d86043-206b-4e00-b42b-801f8c68e9fb.avif")
 Show the world a new version of you
 Selfies meet creativity through the AI Avatar tool . Turn your photo into a stylized digital version of yourself - animated, artistic or anything in between. It’s a fun, expressive way to show personality across social profiles, game platforms or creative projects.
-![image decorative 591x369: ai design generator for avatars](https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif)
+![image decorative 591x369: ai design generator for avatars](media/b2d07389-f262-40f5-bb72-b3015d4b7b07-b4d2e459.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif")
 Jumpstart your design with AI
 Blank pages are overrated. Picsart’s AI templates give you smart, customizable layouts for posters, flyers, social posts, and more - ready in seconds. AI suggests designs that fit your needs, so you can tweak and finalize faster. It’s the quickest way to jump from idea to polished design without ever starting from scratch.
-![image creative 591x369: ai templates](https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif)
+![image creative 591x369: ai templates](media/d092bcc1-f820-4084-8de1-41e82c478724-74bf6ffd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif")
 Showcase your designs with real-world impact
 Bring ideas to life with Picsart’s GPT image generator. Create original and high-quality visuals from simple text prompts - ideal for branding, marketing and creative content. Quickly generate product concepts, campaign visuals, and fresh design assets with stunning accuracy. Move from imagination to reality in seconds, with professional results ready to use and share.
-![image creative 591x369: create high-quality visuals with gpt image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/dae3bcef-aab8-4561-a2ec-7e496541586b.avif)
+![image creative 591x369: create high-quality visuals with gpt image generator](media/dae3bcef-aab8-4561-a2ec-7e496541586b-c5d212c3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dae3bcef-aab8-4561-a2ec-7e496541586b.avif")
 
 ## S09 feature-list
 
@@ -134,23 +134,23 @@ An AI design is a visual created using artificial intelligence based on your ide
 ## S11 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: Generate t-shirt mockups for free](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: Generate t-shirt mockups for free](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 T-shirt Mockup Generator Create realistic T-shirt mockups in seconds with AI
-![image thumbnail 342x282: convert photos to hd online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png)
+![image thumbnail 342x282: convert photos to hd online for free](media/18256ca7-8db2-49e1-a7b9-b7ebe0e51354-3b846eaf.png "https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png")
 HD Photo Converter Convert any image to HD quality instantly with Picsart’s AI tool.
-![image thumbnail 342x282: stretch photos online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/9e538e24-092c-4830-9d9e-5f7883e467be.png)
+![image thumbnail 342x282: stretch photos online for free](media/9e538e24-092c-4830-9d9e-5f7883e467be-dbf7019a.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9e538e24-092c-4830-9d9e-5f7883e467be.png")
 Image Stretcher Stretch and resize any image easily with Picsart’s AI-powered tool.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI photo enhancer Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI replace Use AI to swap any part of your image with an AI-generated object.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: Online collage maker from Picsart](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Online collage maker from Picsart](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: Picsart image cropper](https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png)
+![image thumbnail 342x282: Picsart image cropper](media/54f94706-2d77-4570-89ad-94e9a83409b2-de9b77e1.png "https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png")
 Image cropper Keep what matters with an easy-to-use image cropper tool.
 
 ## S12 pricing

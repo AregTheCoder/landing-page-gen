@@ -7,7 +7,7 @@
 ## Make your words pop with AI text styles
 Catch your audience’s attention with text made out of pizza or sushi. No cooking skills required! Just use AI text styles to add a visual touch to your texts in seconds with truly unique font effects. All it takes is typing your text, selecting a style, and you’ve got yourself a truly unique and custom font.
 Apply text styles
-![image creative 480x480: Picsart ai text front style tool](https://pastatic.picsart.com/cms-pastatic/b9ff5e9e-922b-4429-8f96-3c9b88a524ca.png)
+![image creative 480x480: Picsart ai text front style tool](media/b9ff5e9e-922b-4429-8f96-3c9b88a524ca-4f9327a8.png "https://pastatic.picsart.com/cms-pastatic/b9ff5e9e-922b-4429-8f96-3c9b88a524ca.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Instant effects](https://pastatic.picsart.com/cms-pastatic/f5bc590a-0dde-4847-baed-80381f355fe4.png)
+![image icon 96x96: Instant effects](media/f5bc590a-0dde-4847-baed-80381f355fe4-adb525eb.png "https://pastatic.picsart.com/cms-pastatic/f5bc590a-0dde-4847-baed-80381f355fe4.png")
 #### Instant effects
 Easily apply effects to your text in a matter of seconds. Just write your text, select the style, and AI will generate the font.
-![image icon 96x96: 3D font selection](https://pastatic.picsart.com/cms-pastatic/fbbe3390-04cb-4381-844d-0d271036a122.png)
+![image icon 96x96: 3D font selection](media/fbbe3390-04cb-4381-844d-0d271036a122-2027c1e5.png "https://pastatic.picsart.com/cms-pastatic/fbbe3390-04cb-4381-844d-0d271036a122.png")
 #### 3D font selection
 Experiment with different AI-powered 3D fonts to elevate the mood and match the style of your visuals.
-![image icon 96x96: Custom-generated AI fonts](https://pastatic.picsart.com/cms-pastatic/5319accd-8e28-4747-8d45-4d9e582263cd.png)
+![image icon 96x96: Custom-generated AI fonts](media/5319accd-8e28-4747-8d45-4d9e582263cd-002c3829.png "https://pastatic.picsart.com/cms-pastatic/5319accd-8e28-4747-8d45-4d9e582263cd.png")
 #### Custom-generated AI fonts
 Each font uses text-to-image AI technology to create custom visuals for each of the letters of your text.
 
@@ -62,42 +62,42 @@ Open Picsart and use the More Apps button on the left sidebar to find the AI tex
 #### Customize
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/480c4d82-c965-477c-a4a6-c14b3cae7dcf.webm)
+![video ui-screenshot 480x600: ](media/480c4d82-c965-477c-a4a6-c14b3cae7dcf-c356b30b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/480c4d82-c965-477c-a4a6-c14b3cae7dcf.webm")
 
 ## S05 feature-callout
 
 ### Get your message noticed with AI text styles
 Take advantage of the latest AI technology to effortlessly create 3D fonts for your text. No rocket science involved! All you need to do is input your text and select the style. Then AI will apply a custom font effect to your words in seconds.
 Apply text styles
-![image creative 480x480: use picsart ai text style to create 3d art text](https://pastatic.picsart.com/cms-pastatic/43f52279-c4b3-40ee-9dd0-7ef386b3d314.png)
+![image creative 480x480: use picsart ai text style to create 3d art text](media/43f52279-c4b3-40ee-9dd0-7ef386b3d314-c84f6573.png "https://pastatic.picsart.com/cms-pastatic/43f52279-c4b3-40ee-9dd0-7ef386b3d314.png")
 
 ## S06 feature-callout
 
 ### Add eye-catching 3D font styles with ease
 Make your message look the part with a selection of font styles for various moods and occasions. Go with food-inspired text styles for a more fun, casual look, or select softer styles like Balloon Dreams and Fairy Floss for a softer glam vibe.
 Start now
-![image creative 480x480: create eye catching texts with picsart ai text style](https://pastatic.picsart.com/cms-pastatic/93c0e7d4-184e-460c-8ba6-979bb5e75221.png)
+![image creative 480x480: create eye catching texts with picsart ai text style](media/93c0e7d4-184e-460c-8ba6-979bb5e75221-ce7cbcdb.png "https://pastatic.picsart.com/cms-pastatic/93c0e7d4-184e-460c-8ba6-979bb5e75221.png")
 
 ## S07 feature-callout
 
 ### Elevate your brand visuals with 3D fonts
 Never get lost in the crowded feeds of the internet. Get your promotional materials noticed more with AI font styles. Create scroll-stopping social media posts, ads, and eye-catching print materials for your brand.
 Apply text styles now
-![image creative 480x480: 3d fonts for your marketing materials](https://pastatic.picsart.com/cms-pastatic/6c4b51a7-9a74-4f5b-b21a-d148e8a6b68e.png)
+![image creative 480x480: 3d fonts for your marketing materials](media/6c4b51a7-9a74-4f5b-b21a-d148e8a6b68e-3483fa8a.png "https://pastatic.picsart.com/cms-pastatic/6c4b51a7-9a74-4f5b-b21a-d148e8a6b68e.png")
 
 ## S08 feature-callout
 
 ### Spice up your socials
 Add pizzazz to your thoughts on social media with ease. Stand out with unique text effects for your posts and stories. The creative possibilities are limitless. You can make your message heard or just use it as a decor piece for your edits. Want to keep the artsy vibes going? Use the AI art generator to create art that goes well with your message.
 Try now
-![image creative 480x480: 3d texts for your social media](https://pastatic.picsart.com/cms-pastatic/55a2d9c4-a02b-411c-b8ab-5efa1471a603.png)
+![image creative 480x480: 3d texts for your social media](media/55a2d9c4-a02b-411c-b8ab-5efa1471a603-33a8a702.png "https://pastatic.picsart.com/cms-pastatic/55a2d9c4-a02b-411c-b8ab-5efa1471a603.png")
 
 ## S09 feature-callout
 
 ### Supercharge your photo editing with AI
 dd effortless finishing touches to your edits with an AI-powered photo editor. Make complex tweaks with ease like removing objects from photos to eliminate distracting elements or erasing the background to give your images extra flexibility. Use the text-to-image AI generator to create new visuals from scratch in seconds. Or bump up the quality of your photo with AI enhance . All this, and more, available to you in one, convenient interface.
 Start now
-![image creative 480x480: picsart photo editing tools with ai](https://pastatic.picsart.com/cms-pastatic/3a944cab-56bc-4224-986a-4fa6182a321f.png)
+![image creative 480x480: picsart photo editing tools with ai](media/3a944cab-56bc-4224-986a-4fa6182a321f-1efe695f.png "https://pastatic.picsart.com/cms-pastatic/3a944cab-56bc-4224-986a-4fa6182a321f.png")
 
 ## S10 faq
 
@@ -113,43 +113,43 @@ AI text styles are AI-generated fonts that are created with the help of text-to-
 
 ### Continue your creative journey with Picsart
 Access a full suite of photo editing and design tools all built into one, easy-to-use interface.
-![image thumbnail 342x282: all in one photo editor](https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.png)
+![image thumbnail 342x282: all in one photo editor](media/4c797ce5-cfc0-4a71-85ae-890c88056d3a-8777fb23.png "https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.png")
 Photo Editor Supercharge your editing process with AI-powered tools.
-![image thumbnail 342x282: collage maker tool on Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png)
+![image thumbnail 342x282: collage maker tool on Picsart photo editor](media/d9102cc5-979c-4821-9d23-f337339d4907-27f73998.png "https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png")
 Collage maker Easily combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: remove object](https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min)
+![image thumbnail 342x282: remove object](media/b4127bb0-9159-4cc7-96dd-64ee3cae4706-e1427cfa.png "https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min")
 Object remover No more ruined photos! Get rid of unwanted texts and backgrounds with just a few clicks.
-![image thumbnail 342x282: ai image enhancer](https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png)
+![image thumbnail 342x282: ai image enhancer](media/3d6dc29e-f572-4926-8c78-29199699ddb8-d31813ff.png "https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png")
 Photo enhancer Automatically enhance your image with just one click. This AI-assisted tool improves multiple aspects in one fell swoop for effortless editing.
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/acf65550-0b4a-4317-8490-8d1a908c1b6c-b96fe973.png "https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.png")
 Background remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min)
+![image thumbnail 342x282: background changer](media/017968b8-9687-447d-82de-9b4d86153666-88b4cae7.png "https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min")
 Background changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: photo effects and filters on Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.png)
+![image thumbnail 342x282: photo effects and filters on Picsart photo editor](media/bec9a01c-5c4f-49eb-a54d-7c58868579f9-2a75da33.png "https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.png")
 Photo effects Add flair with eye-catching photo effects & aesthetic filters.
-![image thumbnail 342x282: text editor](https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png)
+![image thumbnail 342x282: text editor](media/ec76dfa3-9fec-4d65-8f53-1805c419da43-867b22f1.png "https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png")
 Add text to image Compliment your images with a vast library of free fonts.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png)
+![image thumbnail 342x282: ai image generator](media/ee7ad2e6-c1c1-4867-8221-7920dd45da6c-d72a25cd.png "https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png")
 AI text-to-image generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: create art with AI](https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png)
+![image thumbnail 342x282: create art with AI](media/c55073c6-c4e6-42e2-adf9-e76466c8d55f-d4b1913d.png "https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png")
 AI art generator Generate eye-catching art in seconds with AI.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png)
+![image thumbnail 342x282: ai photo editor](media/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4-f224ac10.png "https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png")
 AI photo editing tools The all-in-one Picsart photo editor boasts a full suite of AI tools that make the photo editing and image creation experience fast and seamless.
-![image thumbnail 342x282: AI writer](https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png)
+![image thumbnail 342x282: AI writer](media/aa157e8a-f40c-4f90-99c6-bb541b857371-ddbd8cb4.png "https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png")
 AI content generator Find the right words in seconds with the help of AI.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/bf789f0d-1ba7-489e-94b0-029b56ba2e8a-5207dc4d.png "https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png")
 AI replace Replace any object with something else, all from a simple text description. Turn a chair into an elephant? Poof. (We almost called it AI Genie.)
-![image thumbnail 342x282: AI background tool](https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png)
+![image thumbnail 342x282: AI background tool](media/133128a4-a158-4d07-ad54-806b6da0f832-0a286a9f.png "https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png")
 AI background Swap out the background of any image with anything else you can conjure up. Expensive products shoots just became obsolete.
 Start editing
 
 ## S12 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S13 pricing
 

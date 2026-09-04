@@ -7,7 +7,7 @@
 ## Kling AI model for motion-based video creation
 The Kling AI model is a generative AI model designed for motion-based video creation from text and visual inputs. In Picsart, the Kling model supports flexible video workflows that help creators generate dynamic, engaging videos faster. By integrating Kling AI directly into creative tools, Picsart makes advanced video generation accessible without technical barriers.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/6abca0d5-9249-4917-b216-bb928d22ae10.webm)
+![video creative 480x480: ](media/6abca0d5-9249-4917-b216-bb928d22ae10-f0cd551e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/6abca0d5-9249-4917-b216-bb928d22ae10.webm")
 
 ## S02 interactive-demo
 
@@ -21,7 +21,7 @@ Start generating
 
 ### What is Kling?
 Kling is an AI model focused on video generation with an emphasis on motion and visual flow. It supports the creation of dynamic video content by transforming prompts into animated, story-driven visuals. Built for speed and accessibility, Kling helps creators produce motion-rich videos without complex editing or production knowledge.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b9692b65-5f8f-442a-8e8d-6c23f5008c27.webm)
+![video creative 480x480: ](media/b9692b65-5f8f-442a-8e8d-6c23f5008c27-13b2092a.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/b9692b65-5f8f-442a-8e8d-6c23f5008c27.webm")
 
 ## S04 use-case-grid
 
@@ -30,43 +30,43 @@ What you can create with Kling
 [button: Create short-form video content]
 [button: Produce marketing and social videos]
 Turn written ideas into video content using video generation AI built for fast creative execution.
-![image creative 879x418: Kling for generating videos from text](https://cdn-cms-uploads.picsart.com/cms-uploads/fca46557-b000-49a5-a12a-ae7e22d9925c.webp)
+![image creative 879x418: Kling for generating videos from text](media/fca46557-b000-49a5-a12a-ae7e22d9925c-f431cb29.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fca46557-b000-49a5-a12a-ae7e22d9925c.webp")
 
 ## S05 feature-callout
 
 ### How Kling works inside Picsart tools
 Picsart integrates Kling directly into its video creation workflows, removing the need to interact with the model itself. It powers features within the AI Video Generator and works alongside audio tools like the AI Voice Generator , helping creators work faster, reduce manual steps, and explore motion-based video creation with greater flexibility.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a6fbcd8d-3e51-43d4-8fcd-54184483cc88.webm)
+![video ui-screenshot 480x480: ](media/a6fbcd8d-3e51-43d4-8fcd-54184483cc88-0c1c45f5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a6fbcd8d-3e51-43d4-8fcd-54184483cc88.webm")
 
 ## S06 feature-callout
 
 ### Why creators choose Kling
 Kling helps creators produce video content more efficiently by reducing manual editing and setup. It speeds up video creation while maintaining visual quality and motion clarity. By working behind the scenes, Kling makes AI-powered video creation accessible to non-technical users who want expressive, movement-driven results without complex workflows.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d8fd8cad-354e-417d-ad5f-bdd9d7875f01.webm)
+![video creative 480x480: ](media/d8fd8cad-354e-417d-ad5f-bdd9d7875f01-8e80269f.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d8fd8cad-354e-417d-ad5f-bdd9d7875f01.webm")
 
 ## S07 feature-callout
 
 ### Kling as part of the Picsart platform
 Kling is one of several AI models powering Picsart’s creative ecosystem. It works alongside other advanced models to support video creation, experimentation, and visual content generation across the platform. This multi-model approach ensures flexibility, reliability, and tools that adapt to different creative goals without relying on a single solution.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3dfd3166-3597-41f1-bb66-917b51226d24.webm)
+![video creative 480x480: ](media/3dfd3166-3597-41f1-bb66-917b51226d24-1762d644.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3dfd3166-3597-41f1-bb66-917b51226d24.webm")
 
 ## S08 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -114,11 +114,11 @@ The Kling AI model is a generative AI model designed for motion-based video crea
 ## S11 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: ](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model The Sora AI model is a generative AI model built for video creation and visual storytelling.
-![image thumbnail 342x282: nano banana pro](https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp)
+![image thumbnail 342x282: nano banana pro](media/ed446ffc-fa3c-4b84-8583-7a55878f82dd-49c550ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp")
 Nano Banana Pro Generate custom images with AI by just writing a short description of your vision.
 
 ## S12 pricing

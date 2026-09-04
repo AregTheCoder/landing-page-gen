@@ -7,7 +7,7 @@
 ## Create free custom wallpapers with Picsart’s Wallpaper Maker
 Customize your digital workspaces with custom wallpapers personalized to your needs and taste. Use Picsart’s free Wallpaper Maker to effortlessly create wallpapers and backdrops for your phone, tablet, laptop, and desktop. Easily craft custom organizer wallpapers with stickers, trendy fonts, and AI tools.
 Create a wallpaper
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a43829d4-fb27-4458-b7d2-c7cdd9e78b7a.webm)
+![video creative 480x480: ](media/a43829d4-fb27-4458-b7d2-c7cdd9e78b7a-a820c12e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a43829d4-fb27-4458-b7d2-c7cdd9e78b7a.webm")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: free to use icon](https://yearly-cdn.picsart.com/pastatic/cms-pastatic/dc62cbe6-8446-44c4-b9ca-c981c04fed02.png)
+![image icon 96x96: free to use icon](media/dc62cbe6-8446-44c4-b9ca-c981c04fed02-43d4baaf.png "https://yearly-cdn.picsart.com/pastatic/cms-pastatic/dc62cbe6-8446-44c4-b9ca-c981c04fed02.png")
 #### Free to use
 Enjoy the free Wallpaper Maker without making any prior purchases or providing credit card information.
-![image icon 96x96: various images and fonts icon](https://yearly-cdn.picsart.com/pastatic/cms-pastatic/cb5e4a98-0897-4ebb-901e-722f6da99daf.png)
+![image icon 96x96: various images and fonts icon](media/cb5e4a98-0897-4ebb-901e-722f6da99daf-91d41e82.png "https://yearly-cdn.picsart.com/pastatic/cms-pastatic/cb5e4a98-0897-4ebb-901e-722f6da99daf.png")
 #### Library of images and fonts
 Access a vast selection of ready-to-go visuals and fonts to jumpstart your creative process.
-![image icon 96x96: easy to use icon](https://yearly-cdn.picsart.com/pastatic/cms-pastatic/5b826d76-16fe-4261-b87a-2495990b69e4.png)
+![image icon 96x96: easy to use icon](media/5b826d76-16fe-4261-b87a-2495990b69e4-3050e82b.png "https://yearly-cdn.picsart.com/pastatic/cms-pastatic/5b826d76-16fe-4261-b87a-2495990b69e4.png")
 #### Easy to use
 Every step, from opening the editor to downloading your finished creation, is easy and user-friendly.
 
@@ -62,82 +62,82 @@ Use the button below to open the Wallpaper Maker.
 #### Personalize the template
 4
 #### Save
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/29495480-b0af-42a4-8e61-93f42ab30afa.webm)
+![video ui-screenshot 480x600: ](media/29495480-b0af-42a4-8e61-93f42ab30afa-c9519815.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/29495480-b0af-42a4-8e61-93f42ab30afa.webm")
 
 ## S05 feature-callout
 
 ### Make wallpapers of any kind
 With the Picsart Wallpaper Maker, you can make your own wallpapers of any ambition with ease. Want a custom illustration for your gaming laptop? You can use the AI Image Generator to create anything you can imagine. Need a unique wallpaper for your smartphone or tablet to support the custom theme you have going on? Easy. Customize your image down to a pixel with Picsart’s built-in editing tools.
-![image creative 480x480: Make wallpapers of any kind](https://cdn-cms-uploads.picsart.com/cms-uploads/79190697-0386-4097-89a2-90e188cb3037.webp)
+![image creative 480x480: Make wallpapers of any kind](media/79190697-0386-4097-89a2-90e188cb3037-fc7f660c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/79190697-0386-4097-89a2-90e188cb3037.webp")
 
 ## S06 feature-callout
 
 ### Personalize your wallpapers with trendy fonts
 Tap into a library of fonts and text styles to customize your wallpapers with personal messages. Easily add text to your wallpapers with Picsart’s text tool and customize it with a wide selection of fonts. Mix and match fonts with designer-curated text styles that tastefully combine several fonts in visually pleasing layouts.
-![image creative 480x480: Personalize your wallpapers with fonts](https://cdn-cms-uploads.picsart.com/cms-uploads/318c3d2f-edfb-4352-864f-d5db5d20b576.webp)
+![image creative 480x480: Personalize your wallpapers with fonts](media/318c3d2f-edfb-4352-864f-d5db5d20b576-f455d58d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/318c3d2f-edfb-4352-864f-d5db5d20b576.webp")
 
 ## S07 feature-callout
 
 ### Photos for any wallpaper needs
 Access an ever-growing selection of images that will provide you with limitless options and ideas for wallpapers. The photo library is built right into the Picsart Wallpaper Creator, so you don’t even have to switch to a different browser tab. And the amazing thing is, most of the photos are available to you free of charge.
-![image creative 480x480: photos for wallpapers](https://cdn-cms-uploads.picsart.com/cms-uploads/5a431f9d-d53c-4845-8640-72b5063357ac.webp)
+![image creative 480x480: photos for wallpapers](media/5a431f9d-d53c-4845-8640-72b5063357ac-646bc208.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5a431f9d-d53c-4845-8640-72b5063357ac.webp")
 
 ## S08 feature-callout
 
 ### Generate backgrounds with AI
 Visualize even the most specific background ideas with ease using Picsart’s Background Maker . You don’t even need any drawing or design skills anymore to create custom illustrations and designs for your backgrounds. Just describe your idea in the form of a prompt to the built-in AI Image Generator to create backgrounds that perfectly fit your display and creative vision.
-![image creative 480x480: Generate backgrounds with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/ef38e52b-4cea-41c8-84f0-f4452f06e71b.webp)
+![image creative 480x480: Generate backgrounds with AI](media/ef38e52b-4cea-41c8-84f0-f4452f06e71b-46ce2954.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ef38e52b-4cea-41c8-84f0-f4452f06e71b.webp")
 
 ## S09 feature-callout
 
 ### Personalize your wallpapers with Picsart
 Fully customize your wallpapers with the Picsart online Photo Editor . Take advantage of a suite of easy-to-use tools to make complex edits even if you’re not a tech-savvy editing pro. Create collage wallpapers with the built-in Background Remover or erase distracting objects that ruin the wallpaper potential of your photos. Make sure your edits look great on a larger display with AI Enhance , and spice up their looks with effects . All this and so much more, packaged inside one convenient online interface.
-![image creative 480x480: Personalize your wallpapers with Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/7acb515e-717a-48c6-b85c-506b1e844901.webp)
+![image creative 480x480: Personalize your wallpapers with Picsart](media/7acb515e-717a-48c6-b85c-506b1e844901-cb8028ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7acb515e-717a-48c6-b85c-506b1e844901.webp")
 
 ## S10 feature-callout
 
 ### Create faster with Picsart Aura
 Turn any idea into a custom wallpaper with a simple text prompt. With Picsart Aura, the AI Wallpaper Generator creates designs for any device, from iPhone screens to desktop displays, in seconds. Once generated, refine, resize, and personalize your wallpaper using Picsart’s full AI editing toolkit to get the exact look you want.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/9e97d3d6-7e81-4796-94ae-bc09b4534f3e.webm)
+![video creative 480x480: ](media/9e97d3d6-7e81-4796-94ae-bc09b4534f3e-10caeafd.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/9e97d3d6-7e81-4796-94ae-bc09b4534f3e.webm")
 
 ## S11 link-grid
 
 ### Discover AI tools
 Explore Picsart’s full suite of AI photo editing tools and effortlessly visualize even your most ambitious ideas without having to be a pro.
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: ai avatar generator online](https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp)
+![image thumbnail 342x282: ai avatar generator online](media/149c0940-1df7-409a-a7f6-d8e8485ebb2e-636be8f3.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp")
 AI Avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: ai image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: ai image generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: ai art generator](https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png)
+![image thumbnail 342x282: ai art generator](media/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3-ce3fa1ce.png "https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png")
 AI Art Generator Generate eye-catching artwork of various styles and movements in seconds with AI.
-![image thumbnail 342x282: object swap with picsart ai replace](https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png)
+![image thumbnail 342x282: object swap with picsart ai replace](media/32e20f79-3cfb-4140-9b4e-132d41b4af72-100f910f.png "https://pastatic.picsart.com/cms-pastatic/32e20f79-3cfb-4140-9b4e-132d41b4af72.png")
 AI Replace Use AI to swap any part of your image with an AI-generated object.
-![image thumbnail 342x282: ai content generator tool](https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png)
+![image thumbnail 342x282: ai content generator tool](media/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee-017c539a.png "https://pastatic.picsart.com/cms-pastatic/ea7824d3-8f7e-4fee-a52b-f46dda9ab3ee.png")
 AI Writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: generate ai gifs with picsart ai gif generator](https://pastatic.picsart.com/cms-pastatic/08cfb4a0-2f00-4805-a235-3755dd817834.png)
+![image thumbnail 342x282: generate ai gifs with picsart ai gif generator](media/08cfb4a0-2f00-4805-a235-3755dd817834-1f653672.png "https://pastatic.picsart.com/cms-pastatic/08cfb4a0-2f00-4805-a235-3755dd817834.png")
 AI GIF Generator Effortlessly generate custom GIF visuals from scratch.
 
 ## S12 link-grid
 
 ### More editing tools to love from Picsart
 Explore Picsart’s suite of editing tools that will perfectly complement your wallpaper creation journey.
-![image thumbnail 342x282: change background of images with Picsart's background remover tool](https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp)
+![image thumbnail 342x282: change background of images with Picsart's background remover tool](media/7050565e-7d78-4ddb-9a78-edb7cbcc7a05-61a5849e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp")
 Background Changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: Collage maker](https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png)
+![image thumbnail 342x282: Collage maker](media/39054659-1221-45ae-921d-47d05a0278fa-b9072227.png "https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png")
 Collage Maker Effortlessly combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: resize image](https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png)
+![image thumbnail 342x282: resize image](media/d009e3c0-dbcc-4a71-9854-f4c6ed474968-90089800.png "https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png")
 Resize Image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: card maker](https://pastatic.picsart.com/cms-pastatic/6d822292-03a9-476a-8e61-e97a2aa717d1.png)
+![image thumbnail 342x282: card maker](media/6d822292-03a9-476a-8e61-e97a2aa717d1-08fbe163.png "https://pastatic.picsart.com/cms-pastatic/6d822292-03a9-476a-8e61-e97a2aa717d1.png")
 Card Maker Effortlessly DIY cards for any occasion with Picsart.
-![image thumbnail 342x282: Picsart YouTube banner maker](https://pastatic.picsart.com/cms-pastatic/db2f986e-6947-444b-9e58-5aa0be7c8783.png)
+![image thumbnail 342x282: Picsart YouTube banner maker](media/db2f986e-6947-444b-9e58-5aa0be7c8783-a8cc129e.png "https://pastatic.picsart.com/cms-pastatic/db2f986e-6947-444b-9e58-5aa0be7c8783.png")
 YouTube Banner Maker Design appealing banners for your YouTube channel with Picsart.
-![image thumbnail 342x282: poster maker](https://pastatic.picsart.com/cms-pastatic/a6429959-034f-4aab-ba78-4c1d669d47cb.png)
+![image thumbnail 342x282: poster maker](media/a6429959-034f-4aab-ba78-4c1d669d47cb-6957fe04.png "https://pastatic.picsart.com/cms-pastatic/a6429959-034f-4aab-ba78-4c1d669d47cb.png")
 Poster Maker Design eye-catching posters for any purpose without needing design skills.
 
 ## S13 faq
@@ -154,42 +154,42 @@ Poster Maker Design eye-catching posters for any purpose without needing design 
 
 ### Browse wallpaper templates
 The Picsart wallpaper creator comes with a vast selection of wallpaper templates for all occasions. Here’s a sneak peek at the wallpaper templates waiting for you in Picsart.
-![image creative 244x137: Summer Vision Board Desktop Wallpaper Background in Orange](https://cdn-basic-content-api.picsart.io/p/59c27396-1d48-4964-b154-ec22329a0db2.png)
+![image creative 244x137: Summer Vision Board Desktop Wallpaper Background in Orange](media/59c27396-1d48-4964-b154-ec22329a0db2-4033fddf.png "https://cdn-basic-content-api.picsart.io/p/59c27396-1d48-4964-b154-ec22329a0db2.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7851764685305948&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Golden Hour Desktop Wallpaper Background in Orange](https://cdn-basic-content-api.picsart.io/p/bb564284-dba5-4654-beac-d3b117e853f6.png)
+![image creative 244x137: Golden Hour Desktop Wallpaper Background in Orange](media/bb564284-dba5-4654-beac-d3b117e853f6-c18e9b3d.png "https://cdn-basic-content-api.picsart.io/p/bb564284-dba5-4654-beac-d3b117e853f6.png")
 [Try it out](https://picsart.com/create/editor/?template=5901755862112889&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Trendy Yellow Phone Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/be66e1b4-5973-453b-aa36-a7598bc68dbf.png)
+![image creative 244x434: Trendy Yellow Phone Wallpaper Background](media/be66e1b4-5973-453b-aa36-a7598bc68dbf-9c46693f.png "https://cdn-basic-content-api.picsart.io/p/be66e1b4-5973-453b-aa36-a7598bc68dbf.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=2141748862767540&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Serene Desktop Wallpaper Background in Golden Hues](https://cdn-basic-content-api.picsart.io/p/96767db2-3837-4e03-a472-3bbd3ad22708.png)
+![image creative 244x137: Serene Desktop Wallpaper Background in Golden Hues](media/96767db2-3837-4e03-a472-3bbd3ad22708-17ea81e3.png "https://cdn-basic-content-api.picsart.io/p/96767db2-3837-4e03-a472-3bbd3ad22708.png")
 [Try it out](https://picsart.com/create/editor/?template=6311755857737329&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Elegant Black and White Planner Voucher Template](https://cdn-basic-content-api.picsart.io/p/6ff5aba5-d135-4f9e-a294-147cd7854a53.png)
+![image creative 244x137: Elegant Black and White Planner Voucher Template](media/6ff5aba5-d135-4f9e-a294-147cd7854a53-069d7497.png "https://cdn-basic-content-api.picsart.io/p/6ff5aba5-d135-4f9e-a294-147cd7854a53.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=6131695658758105&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Inspiring Vision Board Desktop Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png)
+![image creative 244x137: Inspiring Vision Board Desktop Wallpaper Background](media/2095310c-8042-4149-9bc4-f66b59ee5b84-5ee56e65.png "https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png")
 [Try it out](https://picsart.com/create/editor/?template=4841764595505799&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Sage Green Elegant Organizational Post Template](https://cdn-basic-content-api.picsart.io/p/2aa2916e-b698-49b8-aedf-2f3ded19d341.png)
+![image creative 244x137: Sage Green Elegant Organizational Post Template](media/2aa2916e-b698-49b8-aedf-2f3ded19d341-ff3e1628.png "https://cdn-basic-content-api.picsart.io/p/2aa2916e-b698-49b8-aedf-2f3ded19d341.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=3961696504586189&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Charming Cat Trio Social Media Post](https://cdn-basic-content-api.picsart.io/p/2a0d3a6a-7f0d-481c-b297-6936f4b414b7.png)
+![image creative 244x137: Charming Cat Trio Social Media Post](media/2a0d3a6a-7f0d-481c-b297-6936f4b414b7-d5bbde67.png "https://cdn-basic-content-api.picsart.io/p/2a0d3a6a-7f0d-481c-b297-6936f4b414b7.png")
 [Try it out](https://picsart.com/create/editor/?template=3371695220527745&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Vision Board Desktop Wallpaper Background in Beige](https://cdn-basic-content-api.picsart.io/p/b4e3eb13-bfad-43c9-b30a-8b9c72ad1dae.png)
+![image creative 244x137: Vision Board Desktop Wallpaper Background in Beige](media/b4e3eb13-bfad-43c9-b30a-8b9c72ad1dae-5b919604.png "https://cdn-basic-content-api.picsart.io/p/b4e3eb13-bfad-43c9-b30a-8b9c72ad1dae.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8901764600544759&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Earthy Tones Organizer Post Template Design](https://cdn-basic-content-api.picsart.io/p/2b05c521-c2e1-44f0-a194-7e23dcf305fe.png)
+![image creative 244x137: Earthy Tones Organizer Post Template Design](media/2b05c521-c2e1-44f0-a194-7e23dcf305fe-1365a681.png "https://cdn-basic-content-api.picsart.io/p/2b05c521-c2e1-44f0-a194-7e23dcf305fe.png")
 [Try it out](https://picsart.com/create/editor/?template=2461695658997204&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Refreshing Phone Wallpaper Background for New Month Energy](https://cdn-basic-content-api.picsart.io/p/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec.png)
+![image creative 244x434: Refreshing Phone Wallpaper Background for New Month Energy](media/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec-d72d30e4.png "https://cdn-basic-content-api.picsart.io/p/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=4731764661598291&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Sail Away Designs Nautical Poster with Blue Hues](https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6654.jpg)
+![image creative 244x137: Sail Away Designs Nautical Poster with Blue Hues](media/39a19b57-de8b-4e7a-822b-76c2ff8a6654-f5405eb5.jpg "https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6654.jpg")
 [Try it out](https://picsart.com/create/editor/?template=390120491037700&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Serene Lifestyle Phone Wallpaper Background in Beige](https://cdn-basic-content-api.picsart.io/p/94ba0101-852b-4143-9f4d-8950a208f9ba.png)
+![image creative 244x434: Serene Lifestyle Phone Wallpaper Background in Beige](media/94ba0101-852b-4143-9f4d-8950a208f9ba-2e48a6d1.png "https://cdn-basic-content-api.picsart.io/p/94ba0101-852b-4143-9f4d-8950a208f9ba.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=3781764671164828&category=templates&source=templates&origin=template_item)
-![image creative 244x137: Blue Wave Surfing Poster Template Design](https://cdn-template.picsart.com/templates-cdn/c579b7d5-60c3-4b79-9798-99bdd27f4d29.png)
+![image creative 244x137: Blue Wave Surfing Poster Template Design](media/c579b7d5-60c3-4b79-9798-99bdd27f4d29-ec69b9de.png "https://cdn-template.picsart.com/templates-cdn/c579b7d5-60c3-4b79-9798-99bdd27f4d29.png")
 [Try it out](https://picsart.com/create/editor/?template=388219680071700&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Inspiring Vision Board Phone Wallpaper Background](https://cdn-basic-content-api.picsart.io/p/b8224b9a-8746-40af-b413-b664176196d7.png)
+![image creative 244x434: Inspiring Vision Board Phone Wallpaper Background](media/b8224b9a-8746-40af-b413-b664176196d7-bfec817c.png "https://cdn-basic-content-api.picsart.io/p/b8224b9a-8746-40af-b413-b664176196d7.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8701764693818562&category=templates&source=templates&origin=template_item)
 See all templates

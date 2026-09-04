@@ -7,7 +7,7 @@
 ## Free WhatsApp sticker maker online
 Add a personalized touch to every chat with Picsart’s easy-to-use WhatsApp sticker maker. Make WhatsApp stickers online to elevate your conversations in minutes!
 Create stickers now
-![image creative 480x480: Free WhatsApp sticker maker online](https://pastatic.picsart.com/cms-pastatic/e21aa197-cb6a-4f36-a59e-fcca70e6b34b.png)
+![image creative 480x480: Free WhatsApp sticker maker online](media/e21aa197-cb6a-4f36-a59e-fcca70e6b34b-b353d810.png "https://pastatic.picsart.com/cms-pastatic/e21aa197-cb6a-4f36-a59e-fcca70e6b34b.png")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: icon for stickers](https://pastatic.picsart.com/cms-pastatic/a4460c1d-68e6-4735-bee4-87203ee8bde0.png)
+![image icon 96x96: icon for stickers](media/a4460c1d-68e6-4735-bee4-87203ee8bde0-3513c7a7.png "https://pastatic.picsart.com/cms-pastatic/a4460c1d-68e6-4735-bee4-87203ee8bde0.png")
 #### Instantly create stickers
 Make stickers for WhatsApp in just a few minutes.
-![image icon 96x96: icon for making sticker](https://pastatic.picsart.com/cms-pastatic/b4c044ab-3879-4bdb-bbf3-502ee63aa9c9.png)
+![image icon 96x96: icon for making sticker](media/b4c044ab-3879-4bdb-bbf3-502ee63aa9c9-10b575a4.png "https://pastatic.picsart.com/cms-pastatic/b4c044ab-3879-4bdb-bbf3-502ee63aa9c9.png")
 #### Make stickers from photos
 Easily create stickers from photos to express yourself beyond text.
-![image icon 96x96: icon for templates](https://pastatic.picsart.com/cms-pastatic/1d975f0e-7f1e-4b8b-94e0-b94a26f03d92.png)
+![image icon 96x96: icon for templates](media/1d975f0e-7f1e-4b8b-94e0-b94a26f03d92-7f454318.png "https://pastatic.picsart.com/cms-pastatic/1d975f0e-7f1e-4b8b-94e0-b94a26f03d92.png")
 #### Endless sticker templates
 Tap into countless customizable sticker templates.
 
@@ -62,35 +62,35 @@ Open the WhatsApp sticker maker to get started.
 #### Remove background
 4
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1efc65e4-f8ed-484f-b751-b0d6287fb599.webm)
+![video ui-screenshot 480x600: ](media/1efc65e4-f8ed-484f-b751-b0d6287fb599-daef1c16.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1efc65e4-f8ed-484f-b751-b0d6287fb599.webm")
 
 ## S05 feature-callout
 
 ### Transform photos to WhatsApp stickers online
 Tired of using the same old stickers on WhatsApp? Add a personal touch to every chat with the Picsart WhatsApp sticker maker . From portraits and product pics to illustrations and screenshots, the WhatsApp sticker creator can instantly transform any picture into a custom sticker. The best part? Picsart’s AI technology automatically removes backgrounds, leaving crisp stickers for your conversations. You can even add a special touch with speech bubbles, text, icons, and more. When you’re finished, download your stickers to share in WhatsApp chats. It’s that simple!
 Try now
-![image creative 480x480: transform photos to WhatsApp stickers online](https://pastatic.picsart.com/cms-pastatic/645533c4-3759-4a39-af27-258f16410f3b.png)
+![image creative 480x480: transform photos to WhatsApp stickers online](media/645533c4-3759-4a39-af27-258f16410f3b-c260ee5d.png "https://pastatic.picsart.com/cms-pastatic/645533c4-3759-4a39-af27-258f16410f3b.png")
 
 ## S06 feature-callout
 
 ### Enhance your brand with custom stickers
 Effective communication is the cornerstone of brand success. For travel agencies, airlines, restaurants, delivery services, and other customer support-oriented businesses, WhatsApp has become the go-to platform for connecting with customers. Now, what if you could take your communication to the next level with customized stickers? When you create WhatsApp stickers, you can send personalized flight updates, delivery notifications, and hotel reservations, elevating your customer experience through every interaction.
 Create stickers now
-![image creative 480x480: brand enhancement with whatsapp stickers](https://pastatic.picsart.com/cms-pastatic/660c4514-6472-429b-a8d4-bed6df67739a.png)
+![image creative 480x480: brand enhancement with whatsapp stickers](media/660c4514-6472-429b-a8d4-bed6df67739a-5a155a87.png "https://pastatic.picsart.com/cms-pastatic/660c4514-6472-429b-a8d4-bed6df67739a.png")
 
 ## S07 feature-callout
 
 ### Craft personal stickers for WhatsApp
 Imagine having a smart AI-powered tool that understands your needs instantly, creating custom WhatsApp stickers that perfectly match your vision. That’s where Picsart's AI sticker generator can change the game. With Picsart’s AI-powered tool, you can effortlessly make stickers for WhatsApp by adding a text prompt describing the sticker you want. The more detailed your text prompt is, the more relevant your stickers will be. No complex editing or design skills required; just your creativity and a few words to spark the magic.
 Create stickers now
-![image creative 480x480: Create personal whatsapp stickers](https://pastatic.picsart.com/cms-pastatic/72f87ca9-43fe-4610-b0f2-15c8a5db5145.png)
+![image creative 480x480: Create personal whatsapp stickers](media/72f87ca9-43fe-4610-b0f2-15c8a5db5145-d39a082f.png "https://pastatic.picsart.com/cms-pastatic/72f87ca9-43fe-4610-b0f2-15c8a5db5145.png")
 
 ## S08 feature-callout
 
 ### Create WhatsApp stickers using templates
 Nothing beats the power of personalized communication. Enter personal stickers for WhatsApp, the key to adding a touch of emotion to your interactions. Whether you're a travel agency announcing new destinations or a retail store unveiling discounts, Picsart’s library of ready-made sticker templates caters to your needs. Simply enter terms like "Thank You," "Sale," or "Happy Birthday" to explore custom stickers. For easier access, try building your own set of WhatsApp sticker reactions for everyday use.
 Try now
-![image creative 480x480: Whatsapp stickers from templates](https://pastatic.picsart.com/cms-pastatic/5a1a17dc-4097-4479-b54e-8eefe501b141.png)
+![image creative 480x480: Whatsapp stickers from templates](media/5a1a17dc-4097-4479-b54e-8eefe501b141-7926dced.png "https://pastatic.picsart.com/cms-pastatic/5a1a17dc-4097-4479-b54e-8eefe501b141.png")
 
 ## S09 feature-callout
 
@@ -100,19 +100,19 @@ Picsart’s sticker maker for WhatsApp empowers you to create personalized stick
 ## S10 link-grid
 
 ### Discover more AI editing tools
-![image thumbnail 342x282: sticker-maker](https://pastatic.picsart.com/cms-pastatic/6d00f179-4a85-4ca4-909f-d71517a18112.png)
+![image thumbnail 342x282: sticker-maker](media/6d00f179-4a85-4ca4-909f-d71517a18112-f1de91fc.png "https://pastatic.picsart.com/cms-pastatic/6d00f179-4a85-4ca4-909f-d71517a18112.png")
 Sticker maker Effortlessly express yourself with custom stickers for every conversation.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png)
+![image thumbnail 342x282: ai photo editor](media/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4-f224ac10.png "https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png")
 AI photo editing tools The all-in-one Picsart photo editor boasts a full suite of AI tools that make the photo editing and image creation experience fast and seamless.
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/b9fa617f-1059-4cee-b27a-55ffe7d33c0f-133dfd25.png "https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png")
 Background remover Easily remove backgrounds without worrying about quality loss.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/b8b2c09b-1790-461b-aa46-2820d1c73765.png)
+![image thumbnail 342x282: ](media/b8b2c09b-1790-461b-aa46-2820d1c73765-39176c9c.png "https://pastatic.picsart.com/cms-pastatic/b8b2c09b-1790-461b-aa46-2820d1c73765.png")
 Batch photo editor Take the monotony out of editing with a batch photo editor.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/671d60f0-e4e6-4c47-b3db-6480074cb482.png)
+![image thumbnail 342x282: ](media/671d60f0-e4e6-4c47-b3db-6480074cb482-9e0357bf.png "https://pastatic.picsart.com/cms-pastatic/671d60f0-e4e6-4c47-b3db-6480074cb482.png")
 AI face generator Generate realistic faces for social media, marketing, and more.
-![image thumbnail 342x282: remove objects from images](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: remove objects from images](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Remove objects from photos Remove unwanted objects, people, and text from photos.
-![image thumbnail 342x282: generate gifs with AI](https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png)
+![image thumbnail 342x282: generate gifs with AI](media/e30f27f2-fd82-4c75-a3eb-6134c8ba2408-ad57e76a.png "https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png")
 AI GIF generator Save time and drive engagement with stunning AI-generated GIFs.
 
 ## S11 faq
@@ -131,10 +131,10 @@ To use Picsart’s sticker maker for WhatsApp, simply open the sticker maker, up
 ## S12 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S13 pricing
 

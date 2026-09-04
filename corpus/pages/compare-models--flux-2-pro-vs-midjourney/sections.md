@@ -8,7 +8,7 @@ AI IMAGE MODELS
 ## Compare Flux 2 Pro vs Midjourney for AI image generation
 Flux 2 Pro and Midjourney represent two different approaches to AI image generation. Flux focuses on speed, control, and high-resolution output, while Midjourney is known for artistic style and creative interpretation. This Flux 2 Pro vs Midjourney comparison helps you choose the right model for your workflow.
 Try Flux 2 Pro
-![image creative 480x480: Flux 2 Pro vs Midjourney AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6.avif)
+![image creative 480x480: Flux 2 Pro vs Midjourney AI image generation comparison](media/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6-1a69322b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6.avif")
 
 ## S02 interactive-demo
 
@@ -69,31 +69,31 @@ Concept art, creative visuals
 
 ### Get familiar with Flux 2 Pro and Midjourney
 Flux 2 Pro is built for precision and performance, delivering fast, high-resolution images with strong control over prompts and outputs. Midjourney focuses on creativity, producing stylized, artistic visuals with a distinct aesthetic. Both generate high-quality images, but they serve different creative goals.
-![image creative 480x480: Flux 2 Pro and Midjourney AI image model overview](https://cdn-cms-uploads.picsart.com/cms-uploads/bc1424ed-c046-4db0-9dd9-42b874136bfb.avif)
+![image creative 480x480: Flux 2 Pro and Midjourney AI image model overview](media/bc1424ed-c046-4db0-9dd9-42b874136bfb-382560a0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bc1424ed-c046-4db0-9dd9-42b874136bfb.avif")
 
 ## S05 feature-callout
 
 ### Understand image quality and visual style
 Output style is the key difference. Flux 2 Pro produces clean, realistic images with detailed lighting and textures, making it better for commercial and product-focused visuals. Midjourney generates more artistic, stylized images with a distinct look that may deviate from exact prompts.
-![image creative 480x480: Flux 2 Pro vs Midjourney image quality and visual style](https://cdn-cms-uploads.picsart.com/cms-uploads/c8e0d99a-9941-4685-a751-f5d9ddf2eac3.avif)
+![image creative 480x480: Flux 2 Pro vs Midjourney image quality and visual style](media/c8e0d99a-9941-4685-a751-f5d9ddf2eac3-ecb78cb9.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c8e0d99a-9941-4685-a751-f5d9ddf2eac3.avif")
 
 ## S06 feature-callout
 
 ### Explore creative control and workflow
 Control feels different across these models. Flux 2 Pro gives you more predictable results with stronger prompt adherence and editing flexibility. Midjourney encourages experimentation, offering variations and remixing that prioritize creativity over precision.
-![image creative 480x480: Flux 2 Pro vs Midjourney creative control and workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/c9c92c32-4650-41cb-9900-8913ee8190b1.avif)
+![image creative 480x480: Flux 2 Pro vs Midjourney creative control and workflow](media/c9c92c32-4650-41cb-9900-8913ee8190b1-9d313f7f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c9c92c32-4650-41cb-9900-8913ee8190b1.avif")
 
 ## S07 feature-callout
 
 ### Review speed, pricing, and access
 Speed is a clear advantage for Flux 2 Pro, generating images in seconds and supporting rapid iteration. Midjourney is slower and depends on queue times. Pricing also differs - Flux uses pay-per-use, while Midjourney requires a subscription. Both can be accessed through platforms like Picsart.
-![image creative 480x480: Flux 2 Pro vs Midjourney speed pricing and access](https://cdn-cms-uploads.picsart.com/cms-uploads/bd3c5739-9e9e-40e9-9207-d549b9b922f1.avif)
+![image creative 480x480: Flux 2 Pro vs Midjourney speed pricing and access](media/bd3c5739-9e9e-40e9-9207-d549b9b922f1-e2ffa9a1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bd3c5739-9e9e-40e9-9207-d549b9b922f1.avif")
 
 ## S08 feature-callout
 
 ### Try Flux 2 Pro and Midjourney in one place
 Switching between tools slows you down. With Picsart's AI Image Generator and AI Playground , you can access multiple image models in one place and test them using the same prompt. Compare results instantly, refine your ideas, and choose what works best for your project.
-![image creative 480x480: Try Flux 2 Pro and Midjourney in Picsart AI Playground](https://cdn-cms-uploads.picsart.com/cms-uploads/a03ad87c-6379-4378-b446-7672e5fb2b5f.avif)
+![image creative 480x480: Try Flux 2 Pro and Midjourney in Picsart AI Playground](media/a03ad87c-6379-4378-b446-7672e5fb2b5f-b24245ea.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a03ad87c-6379-4378-b446-7672e5fb2b5f.avif")
 
 ## S09 faq
 

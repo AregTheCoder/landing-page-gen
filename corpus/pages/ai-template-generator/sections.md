@@ -7,7 +7,7 @@
 ## AI Template Generator
 Generate templates for anything - from Instagram stories to business flyers and posters - with just a prompt. This AI template maker delivers high-quality, ready-to-edit layouts in seconds. No design experience needed.
 Generate templates now
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c5417411-8198-46ce-9f41-a63c4c61fd82.webm)
+![video creative 480x480: ](media/c5417411-8198-46ce-9f41-a63c4c61fd82-cca99751.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c5417411-8198-46ce-9f41-a63c4c61fd82.webm")
 
 ## S02 link-grid
 
@@ -40,13 +40,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S03 feature-row
 
-![image icon 96x96: Icon for turn prompt to template](https://cdn-cms-uploads.picsart.com/cms-uploads/64b2cb88-9c41-467f-90b8-76f63c7a1b7d.png)
+![image icon 96x96: Icon for turn prompt to template](media/64b2cb88-9c41-467f-90b8-76f63c7a1b7d-c1607c5c.png "https://cdn-cms-uploads.picsart.com/cms-uploads/64b2cb88-9c41-467f-90b8-76f63c7a1b7d.png")
 #### Create templates from a single prompt
 Use one prompt to generate templates in seconds with the AI Template Generator - fast, simple and ready to edit.
-![image icon 96x96: Icon for ai design](https://cdn-cms-uploads.picsart.com/cms-uploads/e95a5012-27ce-491c-8e80-32e5831c1a34.png)
+![image icon 96x96: Icon for ai design](media/e95a5012-27ce-491c-8e80-32e5831c1a34-353d5046.png "https://cdn-cms-uploads.picsart.com/cms-uploads/e95a5012-27ce-491c-8e80-32e5831c1a34.png")
 #### Designed by AI, personalized by you
 The AI layout generator builds structured templates so you can focus on creative edits and branding.
-![image icon 96x96: Icon for templates ai generation](https://cdn-cms-uploads.picsart.com/cms-uploads/480656dd-cbee-4fa1-986c-094fa682b2f9.png)
+![image icon 96x96: Icon for templates ai generation](media/480656dd-cbee-4fa1-986c-094fa682b2f9-81fb6af4.png "https://cdn-cms-uploads.picsart.com/cms-uploads/480656dd-cbee-4fa1-986c-094fa682b2f9.png")
 #### Smarter templates, less work
 This AI template maker tool helps generate templates quickly - polished, editable and ready for any use.
 
@@ -64,31 +64,31 @@ Click the button below to launch the AI Template Generator.
 #### Generate your design
 5
 #### Share or download your template
-![video ui-screenshot 480x602: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4b411c12-4778-4a06-805a-851745e28509.webm)
+![video ui-screenshot 480x602: ](media/4b411c12-4778-4a06-805a-851745e28509-132ccb08.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/4b411c12-4778-4a06-805a-851745e28509.webm")
 
 ## S05 feature-callout
 
 ### Generate templates in seconds with AI
 The AI Template Generator is your go-to tool for fast, professional-looking templates. Just enter a short prompt and the tool generates templates tailored to your needs in seconds. Powered by advanced AI, it transforms ideas into polished, ready-to-use designs, ideal for social content, marketing, events and more. No design experience or layout work required.
-![image creative 480x480: Generate templates from text](https://cdn-cms-uploads.picsart.com/cms-uploads/3ef1c177-5306-47e2-a873-6863add7b839.webp)
+![image creative 480x480: Generate templates from text](media/3ef1c177-5306-47e2-a873-6863add7b839-75a11065.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3ef1c177-5306-47e2-a873-6863add7b839.webp")
 
 ## S06 feature-callout
 
 ### Tap into the power of the AI Template Generator
 Type a simple prompt like “Instagram story for product launch” and the AI Template Generator offers layout-ready designs to choose from in seconds. Select a format like flyer, calendar or social post and guide the design further using smart tools like Inspire me, which helps spark creative direction or Enhance my idea, which builds on your input for more refined results. The AI template creator handles the structure, layout and styling. Want to design a calendar? Try the AI Calendar Generator to instantly create customizable, professional calendar templates built for your needs.
-![image creative 480x480: Generate various templates via ai](https://cdn-cms-uploads.picsart.com/cms-uploads/390ecdec-eef0-450d-88f4-61dc54731f11.webp)
+![image creative 480x480: Generate various templates via ai](media/390ecdec-eef0-450d-88f4-61dc54731f11-2d4565b1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/390ecdec-eef0-450d-88f4-61dc54731f11.webp")
 
 ## S07 feature-callout
 
 ### Generate templates, then make them your own
 After generation, every AI template is fully customizable. Change backgrounds with the Background Changer , enhance images using the AI Image Enhancer or update text with unique Fonts . These AI-generated templates give you full control to adjust style, layout and content to match your exact needs.
-![image creative 480x480: Generate and personalize the ai template](https://cdn-cms-uploads.picsart.com/cms-uploads/5d8ec016-cf4e-48d5-9d59-0ee7785dae05.webp)
+![image creative 480x480: Generate and personalize the ai template](media/5d8ec016-cf4e-48d5-9d59-0ee7785dae05-d79646eb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5d8ec016-cf4e-48d5-9d59-0ee7785dae05.webp")
 
 ## S08 feature-callout
 
 ### Design-ready templates for any use case
 Create templates for everything from Instagram stories and Facebook posts to flyers, brochures and calendars. This template maker tool supports personal, business and marketing needs - fast. It delivers flexible, professional results for creators, marketers, and small businesses looking to generate templates that match their goals, style and audience without starting from scratch.
-![image creative 480x480: Generate ai templates for any purpose](https://cdn-cms-uploads.picsart.com/cms-uploads/9877e28a-d148-42c9-b942-2905eb5501f8.webp)
+![image creative 480x480: Generate ai templates for any purpose](media/9877e28a-d148-42c9-b942-2905eb5501f8-6e235d53.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9877e28a-d148-42c9-b942-2905eb5501f8.webp")
 
 ## S09 feature-list
 
@@ -129,21 +129,21 @@ An AI Template Generator is a tool that creates ready-to-edit design templates b
 ## S12 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: create images from scratch with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images from scratch with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI Image Generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI Enhance Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b-de62a53d.png "https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png")
 AI Background Generate unique backgrounds from scratch with just a prompt.
-![image thumbnail 342x282: create art with AI](https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png)
+![image thumbnail 342x282: create art with AI](media/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3-ce3fa1ce.png "https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png")
 AI Art Generator Generate eye-catching artwork of various styles and movements in seconds with AI.
-![image thumbnail 342x282: black hair woman standing in a white sand with blue long piece of cloth](https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png)
+![image thumbnail 342x282: black hair woman standing in a white sand with blue long piece of cloth](media/a8e68988-097b-4a2e-a698-ada7e0da3ea4-34b57819.png "https://pastatic.picsart.com/cms-pastatic/a8e68988-097b-4a2e-a698-ada7e0da3ea4.png")
 Remove Objects No more ruined photos! Get rid of unwanted texts and backgrounds with just a few clicks.
-![image thumbnail 342x282: expand images beyond their original borders with AI](https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png)
+![image thumbnail 342x282: expand images beyond their original borders with AI](media/3835c687-38c4-4f53-8563-77616531ee3c-44b57eb4.png "https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png")
 AI Image Extender Capture what was left out of the lens with generative AI.
-![image thumbnail 342x282: resize images with ease](https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png)
+![image thumbnail 342x282: resize images with ease](media/0016b432-a78b-4ff5-83d4-a5edb9e9824f-591ff22c.png "https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png")
 Resize Image Get the right fit for your photos with ease and in a matter of seconds.
-![image thumbnail 342x282: Picsart image cropper](https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png)
+![image thumbnail 342x282: Picsart image cropper](media/54f94706-2d77-4570-89ad-94e9a83409b2-de9b77e1.png "https://pastatic.picsart.com/cms-pastatic/54f94706-2d77-4570-89ad-94e9a83409b2.png")
 Image Cropper Keep what matters with an easy-to-use image cropper tool.
 
 ## S13 pricing

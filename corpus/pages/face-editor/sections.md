@@ -6,17 +6,17 @@
 
 ## Face editor online: Adjust your appearance with face reshape
 Effortlessly tweak your appearance in photos with online face enhancement. No need to be a photo editing expert or download any software. Adjust your look instantly right from your browser tab with the Picsart face editor.
-![image ui-screenshot 480x480: enhance your face with face editor online](https://cdn-cms-uploads.picsart.com/cms-uploads/17eec2ee-1e92-4e31-b73e-cf486f37e12b.webp)
+![image ui-screenshot 480x480: enhance your face with face editor online](media/17eec2ee-1e92-4e31-b73e-cf486f37e12b-ab62758d.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/17eec2ee-1e92-4e31-b73e-cf486f37e12b.webp")
 
 ## S02 feature-row
 
-![image icon 96x96: instant face editing](https://pastatic.picsart.com/cms-pastatic/ab30cf47-b3b4-4521-a313-60544ead6f55.png)
+![image icon 96x96: instant face editing](media/ab30cf47-b3b4-4521-a313-60544ead6f55-51fda3f4.png "https://pastatic.picsart.com/cms-pastatic/ab30cf47-b3b4-4521-a313-60544ead6f55.png")
 #### Instant face editing
 Thanks to intuitive face reshaping sliders, you can adjust appearances in less than two minutes.
-![image icon 96x96: face asymmetry correction](https://pastatic.picsart.com/cms-pastatic/736d356b-719f-4697-81ed-7968cbf8af3c.png)
+![image icon 96x96: face asymmetry correction](media/736d356b-719f-4697-81ed-7968cbf8af3c-97dd5203.png "https://pastatic.picsart.com/cms-pastatic/736d356b-719f-4697-81ed-7968cbf8af3c.png")
 #### Easy asymmetry correction
 Photo taken from a bad angle? Effortlessly fix any unwanted asymmetry in your photos with face reshaping.
-![image icon 96x96: ai face recognition](https://pastatic.picsart.com/cms-pastatic/88428dd8-3138-4f04-8a49-9ea314b0944c.png)
+![image icon 96x96: ai face recognition](media/88428dd8-3138-4f04-8a49-9ea314b0944c-2435fe00.png "https://pastatic.picsart.com/cms-pastatic/88428dd8-3138-4f04-8a49-9ea314b0944c.png")
 #### Automatic face recognition
 No need to select or trace a face in photos for accurate results. The face editor automatically recognizes and applies face edits.
 
@@ -34,37 +34,37 @@ Pick a photo you’d like to adjust.
 #### Choose styles
 5
 #### Download
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/697e85d0-bd9c-4eff-ad18-d19c80157141.webm)
+![video ui-screenshot 480x600: ](media/697e85d0-bd9c-4eff-ad18-d19c80157141-32f18c65.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/697e85d0-bd9c-4eff-ad18-d19c80157141.webm")
 
 ## S04 feature-callout
 
 ### Tweak your appearance with ease
 Face editing doesn’t have to be a tedious process anymore. Tap into Picsart’s intelligent face detection that automatically recognizes your features, letting you reshape faces in photos with lightning speed. Say goodbye to uneven eyebrows or lopsided smiles. Precisely adjust each facial element with easy-to-use sliders to achieve the desired look.
-![image creative 480x480: reshape your face with ease](https://cdn-cms-uploads.picsart.com/cms-uploads/4e30ac1a-101a-4f04-8754-ddb020023d45.webp)
+![image creative 480x480: reshape your face with ease](media/4e30ac1a-101a-4f04-8754-ddb020023d45-409baaa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e30ac1a-101a-4f04-8754-ddb020023d45.webp")
 
 ## S05 feature-callout
 
 ### A photo face editor for all occasions
 Whether you’re tweaking your LinkedIn profile photo, Instagram posts, or professional headshots for clients, Picsart's intuitive interface makes face reshaping a breeze. Narrow your nose, soften your jawline, or even adjust your facial expression – the possibilities are endless. Achieve the exact look you desire, down to the smallest detail. Play with different adjustments without ever damaging your original photo.
-![image creative 480x480: edit your face in seconds](https://cdn-cms-uploads.picsart.com/cms-uploads/548e38c0-d268-41b1-bbd0-9f3a0874d7bd.webp)
+![image creative 480x480: edit your face in seconds](media/548e38c0-d268-41b1-bbd0-9f3a0874d7bd-22a39b22.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/548e38c0-d268-41b1-bbd0-9f3a0874d7bd.webp")
 
 ## S06 feature-callout
 
 ### Experiment with new looks
 Looking to tweak your look IRL? Get a preview of the changes in photos to help you get a better idea and make up your mind. Whether doing it for yourself or your clients, the Picsart face editor provides an easy way to get realistic previews.
-![image ui-screenshot 480x480: experiment with new looks using Picsart’s face editor](https://cdn-cms-uploads.picsart.com/cms-uploads/2f27239e-fd04-4198-9697-69df680e5359.webp)
+![image ui-screenshot 480x480: experiment with new looks using Picsart’s face editor](media/2f27239e-fd04-4198-9697-69df680e5359-782cc15e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2f27239e-fd04-4198-9697-69df680e5359.webp")
 
 ## S07 feature-callout
 
 ### Create fun edits with the face editor
 Face reshaping isn't just about achieving flawless features. It's also about unleashing your creativity and having fun! Create hilarious caricatures for outrageous laughs and unforgettable social media posts. Experiment with fantasy looks by morphing into your favorite fictional character or exploring entirely new aesthetics.
-![image decorative 480x480: ai avatar for streaming accounts](https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp)
+![image decorative 480x480: ai avatar for streaming accounts](media/5fc08095-c4ea-43ec-8ab5-1712bc50c538-d6f0eb82.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp")
 
 ## S08 feature-callout
 
 ### Reshape your social media presence
 Whether editing faces on casual photos or promotional shots of your brand, you can easily rely on the online face editor. Strike the exact look you’re after with ease. Make certain facial features pop more in photos to accentuate makeup or just achieve a certain look. And if your original photo has low resolution, use the built-in AI unblur tool to make everything look crispy and clear.
-![image ui-screenshot 480x480: online face editor for social media](https://cdn-cms-uploads.picsart.com/cms-uploads/55a72b15-9eef-4e20-a7db-71e4e03ace8c.webp)
+![image ui-screenshot 480x480: online face editor for social media](media/55a72b15-9eef-4e20-a7db-71e4e03ace8c-594cc401.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/55a72b15-9eef-4e20-a7db-71e4e03ace8c.webp")
 
 ## S09 feature-callout
 
@@ -74,22 +74,22 @@ Once you’ve achieved the look you were looking for, tweak other aspects of you
 ## S10 link-grid
 
 ### More AI photo editing tools from Picsart
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/b02016f2-1f3c-4a6f-919e-03639c06d984.png)
+![image thumbnail 342x282: ai photo editor](media/b02016f2-1f3c-4a6f-919e-03639c06d984-f51cefb8.png "https://pastatic.picsart.com/cms-pastatic/b02016f2-1f3c-4a6f-919e-03639c06d984.png")
 AI photo editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png)
+![image thumbnail 342x282: ](media/9451d801-0759-4e1c-96b3-b6fc67d366a0-2cf1b915.png "https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.png")
 AI face generator Effortlessly create custom stock photography for your reviews, landing pages, and more.
-![image thumbnail 342x282: ai art generator](https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png)
+![image thumbnail 342x282: ai art generator](media/c55073c6-c4e6-42e2-adf9-e76466c8d55f-d4b1913d.png "https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png")
 AI art generator Generate eye-catching art in seconds with AI.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png)
+![image thumbnail 342x282: ai image generator](media/ee7ad2e6-c1c1-4867-8221-7920dd45da6c-d72a25cd.png "https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png")
 AI image generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/b02ed7aa-7eee-458f-b5b1-86b4d8677ada.png)
+![image thumbnail 342x282: ](media/b02ed7aa-7eee-458f-b5b1-86b4d8677ada-3df25da1.png "https://pastatic.picsart.com/cms-pastatic/b02ed7aa-7eee-458f-b5b1-86b4d8677ada.png")
 AI anime generator Generate captivating anime fan art by just writing a prompt.
 AI avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png)
+![image thumbnail 342x282: ](media/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad-8ad97bb4.png "https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png")
 Unblur images Bid farewell to blurry photos with AI blur removal.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/5ca3870e-e919-44e7-a047-8ce298c92731.png)
+![image thumbnail 342x282: ](media/5ca3870e-e919-44e7-a047-8ce298c92731-215b7a53.png "https://pastatic.picsart.com/cms-pastatic/5ca3870e-e919-44e7-a047-8ce298c92731.png")
 Restore photos Give vintage photos a new life for crispy and clear throwbacks.
-![image thumbnail 342x282: ](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: ](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI photo enhancer Upscale the resolution of multiple images with AI in one go.
 
 ## S11 faq
@@ -105,10 +105,10 @@ Not at all. The Picsart face editor offers an easy-to-use interface that everyon
 ## S12 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S13 pricing
 

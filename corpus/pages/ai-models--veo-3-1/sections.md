@@ -7,7 +7,7 @@
 ## Veo 3.1: Google DeepMind's cinematic AI video model, now on Picsart
 Veo 3.1 by Google DeepMind generates native 4K video at up to 60fps with full synchronized audio — dialogue, SFX, ambient sound, and music — in a single render. Lip sync accuracy under 120ms. Available in Picsart's AI Video Generator and AI Playground. From text prompt to cinematic video with audio - no post-production required.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm)
+![video creative 480x480: ](media/a7561669-3dae-4ab6-a1d1-97c1eeb40d97-ee82e1f9.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm")
 
 ## S02 interactive-demo
 
@@ -22,7 +22,7 @@ Start generating
 
 ### What is Veo 3.1?
 Veo 3.1 is Google DeepMind's most advanced video generation model. It produces native 4K resolution (3840x2160) at selectable frame rates of 24, 30, or 60fps — the highest output quality of any major AI video model. What sets Veo 3.1 apart is full native audio generation: synchronized dialogue, sound effects, ambient audio, and music at 48kHz stereo, with lip sync accuracy under 120ms. It also supports Ingredients to Video — upload up to 3 reference images for characters, objects, or scenes to maintain consistency across clips.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/12fd41b9-12f6-473d-b1f4-7084dd28b117.webm)
+![video creative 480x480: ](media/12fd41b9-12f6-473d-b1f4-7084dd28b117-8fe21919.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/12fd41b9-12f6-473d-b1f4-7084dd28b117.webm")
 
 ## S04 feature-callout
 
@@ -31,7 +31,7 @@ Native 4K at up to 60fps Veo 3.1 generates video at 3840x2160 resolution with se
 Full synchronized audio Dialogue, sound effects, ambient audio, and music generated in a single render at 48kHz stereo. Lip sync accuracy under 120ms. Spatial 3D audio environments auto-generated. No post-production audio work needed.
 Ingredients to Video Upload up to 3 reference images — characters, objects, or scenes — to maintain visual consistency across generated clips. Ideal for multi-scene storytelling and branded content.
 Native vertical video 9:16 output optimized for TikTok, Shorts, and Reels — no cropping or reformatting required.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f6effeb3-cf20-4386-ab6d-c6d79acc9efc.webm)
+![video creative 480x480: ](media/f6effeb3-cf20-4386-ab6d-c6d79acc9efc-054b1998.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f6effeb3-cf20-4386-ab6d-c6d79acc9efc.webm")
 
 ## S05 use-case-grid
 
@@ -40,37 +40,37 @@ What you can create with Veo 3.1
 [button: Create dialogue-driven content]
 [button: Produce social and brand videos]
 Create studio-quality video with synchronized dialogue, SFX, and ambient sound in a single generation. Veo 3.1 delivers native 4K output with audio — no post-production required.
-![image creative 879x418: generate videos with veo ai model](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: generate videos with veo ai model](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S06 feature-callout
 
 ### How Veo 3.1 works inside Picsart
 Picsart integrates Veo 3.1 directly into the AI Video Generator and AI Playground , enabling creators to generate cinematic 4K video with synchronized audio without interacting with the model itself. Compare Veo 3.1 outputs against 90+ other models in AI Playground, or go straight to generation in AI Video Generator. Every output can go directly into Picsart's editor to refine, layer, and publish.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278.webm)
+![video ui-screenshot 480x480: ](media/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278-eeb89da7.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1328c3f0-c2d6-4d9f-91d6-57a5d85d0278.webm")
 
 ## S07 feature-callout
 
 ### Why creators choose Veo 3.1
 Veo 3.1 is the only major AI video model that generates full synchronized audio — dialogue, SFX, ambient, and music — alongside native 4K video in a single render. No separate audio tools, no lip sync fixes, no post-production layering. Creators choose Veo 3.1 for dialogue-heavy content, cinematic realism, and broadcast-quality output. Combined with Ingredients to Video for character consistency and native 9:16 vertical output, it covers the full spectrum from YouTube to TikTok to brand campaigns.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b.webm)
+![video creative 480x480: ](media/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b-c0b49f52.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3b84b6e3-3f97-4e08-99a8-f4bf7eeca63b.webm")
 
 ## S08 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -120,17 +120,17 @@ Veo 3.1 is Google DeepMind's most advanced AI video generation model. It produce
 ## S11 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: ai model nano banana](https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp)
+![image thumbnail 342x282: ai model nano banana](media/71e9ad23-ad10-4de2-beda-5cc524b121b8-971f3a02.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp")
 Nano Banana Pro The Nano Banana Pro AI model is a generative AI model built for fast, high-quality visual creation.
-![image thumbnail 342x282: Sora AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Sora AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Sora AI Model The Sora AI model is a generative AI model built for video creation and visual storytelling.
-![image thumbnail 342x282: Kling AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/91f970ee-a026-4a9b-968d-ede6c2865021.webp)
+![image thumbnail 342x282: Kling AI Model](media/91f970ee-a026-4a9b-968d-ede6c2865021-97e19ea4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/91f970ee-a026-4a9b-968d-ede6c2865021.webp")
 Kling AI Model The Kling AI model is a generative AI model designed for motion-based video creation from text and visual inputs.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: AI voiceover generator](https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp)
+![image thumbnail 342x282: AI voiceover generator](media/d3e02e75-336a-4566-a2e4-edad326a421d-4a0b97af.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp")
 AI Voice Generator Turn your script into natural AI voiceovers in seconds.
-![image thumbnail 342x282: ai video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: ai video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
 
 ## S12 pricing

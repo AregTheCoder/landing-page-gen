@@ -8,7 +8,7 @@ AI VIDEO MODELS COMPARISON
 ## Kling vs Runway: Which AI video generator is better?
 Kling 3.0 vs Runway Gen 4. These video models are two of the most advanced AI video generators today. This comparison breaks down quality, speed, pricing, audio, and creative control so you can choose the right model for your next project. Try both in Picsart AI Playground and AI Video Generator.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/248e9875-46f8-4e94-bdb4-74329ed31688.webm)
+![video creative 480x480: ](media/248e9875-46f8-4e94-bdb4-74329ed31688-06318beb.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/248e9875-46f8-4e94-bdb4-74329ed31688.webm")
 
 ## S02 interactive-demo
 
@@ -69,53 +69,53 @@ Fast content, experiments, iterations
 
 ### Kling 3.0 vs Runway Gen 4: Video quality and realism comparison
 Visual quality starts with resolution and motion. Kling 3.0 delivers native 4K video at up to 60fps, resulting in sharper detail and smoother movement, especially in complex scenes. Runway Gen 4 begins at a lower resolution but offers strong stylization, making it better suited for creative and VFX-driven outputs. Kling stands out in realism, with more accurate physics and finer human detail, while Runway gives you more flexibility in visual style.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/650fddc3-f2e3-4aa4-ad93-39a8374e61b2.webm)
+![video creative 480x480: ](media/650fddc3-f2e3-4aa4-ad93-39a8374e61b2-84e5bd32.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/650fddc3-f2e3-4aa4-ad93-39a8374e61b2.webm")
 
 ## S05 feature-callout
 
 ### Compare audio and creative control features
 Audio is the clearest difference between these two models. Kling 3.0 generates dialogue, sound effects, and ambient audio with built-in lip sync, while Runway requires separate tools for sound. Control also feels different - Kling offers multi-shot storyboarding, Motion Brush, and deeper camera control, while Runway focuses on faster, prompt-based editing with single-shot outputs and lighter manipulation tools.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/02e5c476-4054-425f-8dee-8c6f6981c6d9.webm)
+![video creative 480x480: ](media/02e5c476-4054-425f-8dee-8c6f6981c6d9-9835bfed.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/02e5c476-4054-425f-8dee-8c6f6981c6d9.webm")
 
 ## S06 feature-callout
 
 ### Kling AI vs Runway: speed and pricing differences
 Speed and cost create a clear tradeoff between these models. Runway generates videos much faster - often in under a minute - making it ideal for quick testing and iteration. Kling takes longer but offers better value over time, with lower cost per second and a more generous free tier that refreshes daily, making it easier to scale production efficiently.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f1025f68-88ff-4e9f-9b17-a93946360343.webm)
+![video creative 480x480: ](media/f1025f68-88ff-4e9f-9b17-a93946360343-4291fbc5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f1025f68-88ff-4e9f-9b17-a93946360343.webm")
 
 ## S07 feature-callout
 
 ### Pick the right model for your workflow
 If you are aiming for high-quality video with full control over scenes and motion, Kling is the better fit - 4K output, built-in audio, and multi-scene storytelling make it ideal for cinematic or product-focused content. If you need speed and flexibility for stylized visuals, quick iterations, or experimental ideas, Runway is a stronger choice. If you want both in one place, use Picsart to switch between models based on your project.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a79dfb9e-1998-43eb-981f-4baad4ded099.webm)
+![video creative 480x480: ](media/a79dfb9e-1998-43eb-981f-4baad4ded099-1f06feab.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a79dfb9e-1998-43eb-981f-4baad4ded099.webm")
 
 ## S08 feature-callout
 
 ### Create with Kling and Runway on Picsart
 Switching between tools slows you down. With Picsart AI Playground , you can access both Kling and Runway in one place and test them using the same prompt. Compare results instantly, refine your ideas, and choose the model that fits each project. You can also continue creating with the AI Video Generator for a more streamlined editing and production workflow.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/94c22370-d1bd-40cd-a13c-684658f0cc83.webm)
+![video creative 480x480: ](media/94c22370-d1bd-40cd-a13c-684658f0cc83-e17f4d7a.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/94c22370-d1bd-40cd-a13c-684658f0cc83.webm")
 
 ## S09 tutorial-grid
 
 ### Understand AI video generation
 Learn how prompts, clips, and model choices shape videos.
-![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif)
+![image thumbnail 294x196: How to generate AI videos from text prompts with Picsart preview](media/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0-b0ddfa5a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif")
 Video generation
 #### How to generate AI videos from text prompts with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif)
+![image thumbnail 294x196: How to turn photos into AI-animated videos with Picsart preview](media/205ce18e-d085-4556-8358-9a07158ca516-38ed3e7d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/205ce18e-d085-4556-8358-9a07158ca516.avif")
 Video generation
 #### How to turn photos into AI-animated videos with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif)
+![image thumbnail 294x196: How to create vertical AI videos for TikTok and Reels preview](media/58f16ce3-24c0-45e7-9b50-45eb3041b956-420d5ca0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58f16ce3-24c0-45e7-9b50-45eb3041b956.avif")
 Video generation
 #### How to create vertical AI videos for TikTok and Reels
 4 min Beginner
-![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif)
+![image thumbnail 294x196: How to add cinematic camera motion to images with AI preview](media/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d-60ccae3d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif")
 Video generation
 #### How to add cinematic camera motion to images with AI
 4 min Intermediate
-![image thumbnail 294x196: How to extend video clips with AI continuation preview](https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif)
+![image thumbnail 294x196: How to extend video clips with AI continuation preview](media/70b9be0b-ef8b-409d-8955-5b6e6e97fee0-f6af9c63.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97fee0.avif")
 Video generation
 #### How to extend video clips with AI continuation
 4 min Advanced
@@ -140,21 +140,21 @@ It depends on your use case. Kling 3.0 is better for 4K cinematic video, built-i
 ## S11 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: WAN 2.7 AI Video Model](https://cdn-cms-uploads.picsart.com/cms-uploads/9189c674-8988-4fe1-82e6-f82996dd314b.png)
+![image thumbnail 342x282: WAN 2.7 AI Video Model](media/9189c674-8988-4fe1-82e6-f82996dd314b-8a43b634.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9189c674-8988-4fe1-82e6-f82996dd314b.png")
 WAN 2.7 WAN 2.7 is now available to 130M+ creators on Picsart.
-![image thumbnail 342x282: Veo 3.1 Fast AI Video Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: Veo 3.1 Fast AI Video Model](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Veo 3.1 Fast Picsart's AI Video Generator has integrated Veo 3.1 Fast that delivers 4K cinematic quality up to 30% faster than standard Veo 3.1.
-![image thumbnail 342x282: Sora 2 AI Video Model](https://cdn-cms-uploads.picsart.com/cms-uploads/38d2100f-3c43-425d-98a0-7f6e85a3ece0.avif)
+![image thumbnail 342x282: Sora 2 AI Video Model](media/38d2100f-3c43-425d-98a0-7f6e85a3ece0-e36c8857.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/38d2100f-3c43-425d-98a0-7f6e85a3ece0.avif")
 Sora 2 Sora 2 generates videos with stunning realism, complex human movement, and native audio helping creators produce professional video content.
-![image thumbnail 342x282: Seedance 2.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/62f736f4-9350-4185-979e-95de1c8f9fb6.webp)
+![image thumbnail 342x282: Seedance 2.0 AI Model](media/62f736f4-9350-4185-979e-95de1c8f9fb6-2c42f912.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/62f736f4-9350-4185-979e-95de1c8f9fb6.webp")
 Seedance 2.0 Picsart's AI Generator will integrate Seedance 2.0, bringing its next-generation video and image capabilities directly into the creative workflow.
-![image thumbnail 342x282: Luma Ray 2 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: Luma Ray 2 AI Model](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 Luma Ray 2 Picsart's AI Video Generator has integrated Luma Ray 2, bringing photorealistic video generation with lifelike motion directly into your creative workflow.
-![image thumbnail 342x282: Seedance 1 Pro AI Video Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22e1a38a-2dba-45ca-a7bf-db133d864064.avif)
+![image thumbnail 342x282: Seedance 1 Pro AI Video Model](media/22e1a38a-2dba-45ca-a7bf-db133d864064-db496f1a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/22e1a38a-2dba-45ca-a7bf-db133d864064.avif")
 Seedance 1 Pro Fast Seedance 1 Pro Fast produces fluid, realistic video with strong prompt adherence and multi-shot narrative capability.
-![image thumbnail 342x282: Pika Frames AI Video Model](https://cdn-cms-uploads.picsart.com/cms-uploads/f8b7e8f3-b4b0-44a8-a38c-5fbd60530da1.avif)
+![image thumbnail 342x282: Pika Frames AI Video Model](media/f8b7e8f3-b4b0-44a8-a38c-5fbd60530da1-fa188e7e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f8b7e8f3-b4b0-44a8-a38c-5fbd60530da1.avif")
 Pika Frames Picsart's AI Video Generator has integrated Pika Frames, which give creators precise control over AI-generated motion.
-![image thumbnail 342x282: ](https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp)
+![image thumbnail 342x282: ](media/135dae81-f8b2-4487-b873-cebf4340b36a-8b6dfff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp")
 Veo 3.1 vs Kling 3.0 This Veo 3 vs Kling 3 comparison helps you understand where each model stands - from video quality and audio to creative control and cost so you can choose with confidence.
 
 ## S12 pricing

@@ -6,17 +6,17 @@
 
 ## Explore your style with Virtual Try On Clothes
 See how your next outfit really looks - without leaving your seat. Upload a photo, choose any style, and watch AI dress you in seconds. Try on clothes virtually to find your perfect fit.
-![image creative 480x480: Virtual try on clothes](https://cdn-cms-uploads.picsart.com/cms-uploads/cb73d459-7461-4b2e-a9cc-039708276924.webp)
+![image creative 480x480: Virtual try on clothes](media/cb73d459-7461-4b2e-a9cc-039708276924-12ac6681.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cb73d459-7461-4b2e-a9cc-039708276924.webp")
 
 ## S02 feature-row
 
-![image icon 96x96: Icon for add image](https://cdn-cms-uploads.picsart.com/cms-uploads/c30c1ae0-f889-4f7f-84ca-347751df0c28.webp)
+![image icon 96x96: Icon for add image](media/c30c1ae0-f889-4f7f-84ca-347751df0c28-0cc192e0.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c30c1ae0-f889-4f7f-84ca-347751df0c28.webp")
 #### Explore your look digitally
 Try on clothes virtually with just a photo in seconds. Discover how different outfits fit and flow using the Virtual Try On Clothes tool - no lines, no fitting rooms.
-![image icon 96x96: Icon for experimenting with styles](https://cdn-cms-uploads.picsart.com/cms-uploads/863527a2-aba2-4280-8ad9-d89dcb006865.webp)
+![image icon 96x96: Icon for experimenting with styles](media/863527a2-aba2-4280-8ad9-d89dcb006865-26b5fe36.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/863527a2-aba2-4280-8ad9-d89dcb006865.webp")
 #### Experiment with styles
 Use the virtual dress try-on tools to mix, match, and explore everything from casual wear to men’s virtual try-on outfits.
-![image icon 96x96: Icon for shopping](https://cdn-cms-uploads.picsart.com/cms-uploads/4a28d6e9-360c-47f3-808b-c64bf8c8d600.webp)
+![image icon 96x96: Icon for shopping](media/4a28d6e9-360c-47f3-808b-c64bf8c8d600-25f35992.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4a28d6e9-360c-47f3-808b-c64bf8c8d600.webp")
 #### Shop with confidence
 Use Picsart’s outfit visualizer to preview looks before you buy. Try-on clothes online, share with friends, and shop smarter.
 
@@ -32,13 +32,13 @@ Start by adding your image from your device to create a personalized try-on expe
 #### Let AI style you
 4
 #### Download or adjust your look
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/58006af0-9a80-4488-8276-1913c0036419.webm)
+![video ui-screenshot 480x600: ](media/58006af0-9a80-4488-8276-1913c0036419-597510ae.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/58006af0-9a80-4488-8276-1913c0036419.webm")
 
 ## S04 feature-callout
 
 ### Discover the power of virtual try on
 Upload your photo and explore styles in seconds with Virtual Try On Clothes. This virtual try-on clothing experience uses AI technology to show realistic outfit previews so you can see how clothes look before buying, skip store visits, and make confident fashion choices online.
-![image creative 480x480: Virtual try on](https://cdn-cms-uploads.picsart.com/cms-uploads/cf6ed76f-e26b-4ba1-988b-e3237162af5c.webp)
+![image creative 480x480: Virtual try on](media/cf6ed76f-e26b-4ba1-988b-e3237162af5c-6930f5d8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cf6ed76f-e26b-4ba1-988b-e3237162af5c.webp")
 
 ## S05 use-case-grid
 
@@ -50,19 +50,19 @@ Explore outfit categories with Virtual Outfit Try On
 [button: Pants]
 [button: Men’s attire]
 Get into the spooky spirit by previewing Halloween costumes - from classic witches to creative character looks - and see how each one transforms your look.
-![image creative 878x418: Try on halloween costumes](https://cdn-cms-uploads.picsart.com/cms-uploads/fa47db5d-2dd4-460f-852e-d18ca08ad2fe.webp)
+![image creative 878x418: Try on halloween costumes](media/fa47db5d-2dd4-460f-852e-d18ca08ad2fe-ada6e310.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fa47db5d-2dd4-460f-852e-d18ca08ad2fe.webp")
 
 ## S06 feature-callout
 
 ### Transform your look with virtual outfit try-on
 Skip the uncertainty with Virtual Try On Clothes. This outfit visualizer helps you see how every look fits before you buy - no fitting rooms, no wasted time. Try on clothes virtually, share outfits for feedback, and enjoy fewer returns. It’s a fun, practical way to shop confidently and express your true style.
-![image creative 480x480: Outfit try on ai](https://cdn-cms-uploads.picsart.com/cms-uploads/f3e8da73-09a7-4d13-98a4-28c08076dbd6.webp)
+![image creative 480x480: Outfit try on ai](media/f3e8da73-09a7-4d13-98a4-28c08076dbd6-9b3e9bda.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f3e8da73-09a7-4d13-98a4-28c08076dbd6.webp")
 
 ## S07 feature-callout
 
 ### Perfect your results with virtual try-on tools
 For the most realistic look, upload a clear photo with good lighting. After your virtual try-on session, enhance your image using the Text Editor , AI Image Extender , or Background Changer . You can also explore the mobile version in the Picsart app to style anytime, anywhere.
-![image creative 480x480: Virtual try on tools](https://cdn-cms-uploads.picsart.com/cms-uploads/4ab669c9-826c-4ef3-af27-7dfacdf2d113.webp)
+![image creative 480x480: Virtual try on tools](media/4ab669c9-826c-4ef3-af27-7dfacdf2d113-d698296b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4ab669c9-826c-4ef3-af27-7dfacdf2d113.webp")
 
 ## S08 testimonial
 
@@ -99,23 +99,23 @@ A virtual try-on tool uses AI technology to show how different clothes would loo
 ## S10 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: picsart magic workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png)
+![image thumbnail 342x282: picsart magic workflow](media/1734675f-293c-4bf2-88d3-54ff51828646-9b14bce9.png "https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png")
 Picsart Flows Design workflows and connect AI models in one canvas using a no-code AI workflow tool built for creative freedom.
-![image thumbnail 342x282: Add text to photos with Picsart](https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png)
+![image thumbnail 342x282: Add text to photos with Picsart](media/a7de39ee-2412-42fb-8e68-5e8250a596f6-7571de11.png "https://pastatic.picsart.com/cms-pastatic/a7de39ee-2412-42fb-8e68-5e8250a596f6.png")
 Text Editor Complement your images with a vast library of free fonts.
-![image thumbnail 342x282: AI Image Extender](https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png)
+![image thumbnail 342x282: AI Image Extender](media/3835c687-38c4-4f53-8563-77616531ee3c-44b57eb4.png "https://pastatic.picsart.com/cms-pastatic/3835c687-38c4-4f53-8563-77616531ee3c.png")
 AI Image Extender Capture what was left out of the lens with generative AI.
-![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp)
+![image thumbnail 342x282: Increase image resolution with Picsart photo enhancer](media/75fad5fd-5dd7-4018-b870-561b632defc7-e1e49b99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp")
 AI Image Enhancer Upscale the resolution of one or multiple images with AI in one go.
-![image thumbnail 342x282: change background of images with Picsart's background remover tool](https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp)
+![image thumbnail 342x282: change background of images with Picsart's background remover tool](media/7050565e-7d78-4ddb-9a78-edb7cbcc7a05-61a5849e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp")
 Background Changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: ai photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
-![image thumbnail 342x282: all-in-one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all-in-one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo Editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
-![image thumbnail 342x282: Ai variation generator](https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp)
+![image thumbnail 342x282: Ai variation generator](media/417917f0-159c-42ad-9f01-05c3ff66355a-5daffba1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp")
 Variation Generator Create designs in bulk with Picsart’s Variation Generator
-![image thumbnail 342x282: Generate templates with ai](https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp)
+![image thumbnail 342x282: Generate templates with ai](media/609c7793-6c4c-4046-ac42-5eb41c1bf823-1537c3a4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp")
 AI Template Generator Turn ideas into ready-to-use templates with Picsart’s AI Template Generator in seconds.
 
 ## S11 pricing

@@ -7,7 +7,7 @@
 ## Accelerate your editing process with image style transfer
 Speed up your photo editing process by transferring the color grading from an already-graded photo to another. Just upload your reference photo and let AI style transfer apply the color style to your photo.
 Change image style now
-![image creative 480x480: Picsart image style transfer tool](https://pastatic.picsart.com/cms-pastatic/c249a42e-e203-43ce-bdc2-78d2c3003f82.png)
+![image creative 480x480: Picsart image style transfer tool](media/c249a42e-e203-43ce-bdc2-78d2c3003f82-0994bfa6.png "https://pastatic.picsart.com/cms-pastatic/c249a42e-e203-43ce-bdc2-78d2c3003f82.png")
 
 ## S02 gallery
 
@@ -65,13 +65,13 @@ Reliable all-purpose generation with readable text overlay. Image generation See
 
 ## S04 feature-row
 
-![image icon 96x96: Accurate imitation](https://pastatic.picsart.com/cms-pastatic/e9a82dad-bdd7-4e9d-94b6-3297eb1e2938.png)
+![image icon 96x96: Accurate imitation](media/e9a82dad-bdd7-4e9d-94b6-3297eb1e2938-36e6c7b5.png "https://pastatic.picsart.com/cms-pastatic/e9a82dad-bdd7-4e9d-94b6-3297eb1e2938.png")
 #### Accurate imitation
 Our AI will analyze your image and accurately transfer image style and color grading.
-![image icon 96x96: Instant application](https://pastatic.picsart.com/cms-pastatic/64abde3c-6696-4b99-8fa4-b8d855128834.png)
+![image icon 96x96: Instant application](media/64abde3c-6696-4b99-8fa4-b8d855128834-d23da5a5.png "https://pastatic.picsart.com/cms-pastatic/64abde3c-6696-4b99-8fa4-b8d855128834.png")
 #### Instant application
 It only takes a second to apply an image style to your edit. Just upload, preview, and it’s done.
-![image icon 96x96: Full customization](https://pastatic.picsart.com/cms-pastatic/24c67e1b-b1d5-4eb2-affd-529077d3efb0.png)
+![image icon 96x96: Full customization](media/24c67e1b-b1d5-4eb2-affd-529077d3efb0-6513b071.png "https://pastatic.picsart.com/cms-pastatic/24c67e1b-b1d5-4eb2-affd-529077d3efb0.png")
 #### Full customization
 Adjust the colors of your newly transferred style to make it look perfect.
 
@@ -89,28 +89,28 @@ Use the Uploads button on the left sidebar to select a photo you want to edit.
 #### Adjust colors
 5
 #### Apply and save
-![video ui-screenshot 480x600: ](https://pastatic.picsart.com/cms-pastatic/57e5d210-5e77-4b3c-a527-118d06ece6fe.mp4)
+![video ui-screenshot 480x600: ](media/57e5d210-5e77-4b3c-a527-118d06ece6fe-075d73e1.mp4 "https://pastatic.picsart.com/cms-pastatic/57e5d210-5e77-4b3c-a527-118d06ece6fe.mp4")
 
 ## S06 feature-callout
 
 ### Transfer like an artist
 Looking for an effortless artistic edge for your photos? The AI style transfer is perfect for that. Just upload the reference photo or the artwork you’d like to duplicate the style of and apply it to your edit for a quick masterpiece.
 Change image style now
-![image creative 480x480: transfer image styles with ai like an artist](https://pastatic.picsart.com/cms-pastatic/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb.png)
+![image creative 480x480: transfer image styles with ai like an artist](media/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb-16a523a7.png "https://pastatic.picsart.com/cms-pastatic/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb.png")
 
 ## S07 feature-callout
 
 ### Keep a consistent color story on social media
 Make maintaining a consistent style on your socials a breeze. No need to hassle with various apps to edit your photos and apply the exact filters to get the desired look. Just pick one of your recent posts and transfer the style quickly and with ease.
 Change image style now
-![image creative 480x480: color style transfer with ai style](https://pastatic.picsart.com/cms-pastatic/34cc62c4-250c-4636-bc81-d106ad86ed5c.png)
+![image creative 480x480: color style transfer with ai style](media/34cc62c4-250c-4636-bc81-d106ad86ed5c-39bf45cd.png "https://pastatic.picsart.com/cms-pastatic/34cc62c4-250c-4636-bc81-d106ad86ed5c.png")
 
 ## S08 feature-callout
 
 ### Edit wedding photography fast
 Manually editing 500 photos takes days. But it doesn’t have to. Streamline your wedding photography editing with image style transfer. Just color-grade one photo and copy its style to others to maintain a consistent color story across your photoshoot.
 Change image style now
-![image creative 480x480: wedding photo style transfer](https://pastatic.picsart.com/cms-pastatic/3895b6d1-b636-4079-b09e-3b42adf3417e.png)
+![image creative 480x480: wedding photo style transfer](media/3895b6d1-b636-4079-b09e-3b42adf3417e-7eea0c0d.png "https://pastatic.picsart.com/cms-pastatic/3895b6d1-b636-4079-b09e-3b42adf3417e.png")
 
 ## S09 use-case-grid
 
@@ -119,38 +119,38 @@ Streamline various editing processes
 [button: Product]
 [button: Landscape]
 [button: Digital Art]
-![image creative 369x295: style transfer for a portrait 1](https://pastatic.picsart.com/cms-pastatic/4c226420-38e6-4501-8d89-7d1a7ddb1172.png)
-![image creative 369x295: style transfer for a portrait 2](https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png)
-![image creative 369x295: style transfer for a portrait 3](https://pastatic.picsart.com/cms-pastatic/e36a6ea3-01f2-4b94-9913-d497a5637ce6.png)
+![image creative 369x295: style transfer for a portrait 1](media/4c226420-38e6-4501-8d89-7d1a7ddb1172-ff200611.png "https://pastatic.picsart.com/cms-pastatic/4c226420-38e6-4501-8d89-7d1a7ddb1172.png")
+![image creative 369x295: style transfer for a portrait 2](media/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74-373e2061.png "https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png")
+![image creative 369x295: style transfer for a portrait 3](media/e36a6ea3-01f2-4b94-9913-d497a5637ce6-3ba89833.png "https://pastatic.picsart.com/cms-pastatic/e36a6ea3-01f2-4b94-9913-d497a5637ce6.png")
 
 ## S10 feature-callout
 
 ### Get to your creative destination faster with AI editing tools
 Make your photo editing process easier and snappier with the latest and greatest in AI. Do edits that were previously impossible, like removing the background or clean up your photos with the use of a single button. Or how about adding an object using AI-generated visuals ? All possible and available in one, convenient editing interface.
 Change image style now
-![image creative 480x480: Picsart's photo editing tools](https://pastatic.picsart.com/cms-pastatic/487789d7-c9ca-48f4-91eb-0acd97e9688e.png)
+![image creative 480x480: Picsart's photo editing tools](media/487789d7-c9ca-48f4-91eb-0acd97e9688e-981297d4.png "https://pastatic.picsart.com/cms-pastatic/487789d7-c9ca-48f4-91eb-0acd97e9688e.png")
 
 ## S11 tutorial-grid
 
 ### Learn image editing basics
 Learn how to make cleaner edits with practical steps.
-![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif)
+![image thumbnail 294x196: Remove unwanted objects from photos with AI preview](media/4590d202-ac58-41a9-98f5-ade8a0a935cc-4992e832.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif")
 Image editing
 #### Remove unwanted objects from photos with AI
 3 min Beginner
-![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif)
+![image thumbnail 294x196: Replace objects in photos with AI-generated content preview](media/2e34fa80-b802-4f1e-b499-8c7c7d155b6a-a724e4f7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif")
 Image editing
 #### Replace objects in photos with AI-generated content
 4 min Intermediate
-![image thumbnail 294x196: How to expand images beyond their borders with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif)
+![image thumbnail 294x196: How to expand images beyond their borders with AI preview](media/161cd981-bf05-4fcf-baf1-807d483f0914-d0e4bf77.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/161cd981-bf05-4fcf-baf1-807d483f0914.avif")
 Image editing
 #### How to expand images beyond their borders with AI
 4 min Beginner
-![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif)
+![image thumbnail 294x196: Upscale low-resolution images to HD with AI preview](media/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3-147f820d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif")
 Image editing
 #### Upscale low-resolution images to HD with AI
 3 min Beginner
-![image thumbnail 294x196: Edit any part of an image with text prompts preview](https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif)
+![image thumbnail 294x196: Edit any part of an image with text prompts preview](media/59502b73-e489-4109-b87e-f5375f27425f-bd34795a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/59502b73-e489-4109-b87e-f5375f27425f.avif")
 Image editing
 #### Edit any part of an image with text prompts
 4 min Intermediate
@@ -169,45 +169,45 @@ AI style transfer is a tool that is used to duplicate the color grading of one p
 
 ### Do more with Picsart’s full suite of editing tools
 See how Picsart tools can be your creative assistant and help you turn concepts into completed projects.
-![image thumbnail 342x282: all in one photo editor](https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.png)
+![image thumbnail 342x282: all in one photo editor](media/4c797ce5-cfc0-4a71-85ae-890c88056d3a-8777fb23.png "https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.png")
 Photo Editor Supercharge your editing process with AI-powered tools.
-![image thumbnail 342x282: ai photo editor](https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png)
+![image thumbnail 342x282: ai photo editor](media/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4-f224ac10.png "https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png")
 AI photo editing tools The all-in-one Picsart photo editor boasts a full suite of AI tools that make the photo editing and image creation experience fast and seamless.
-![image thumbnail 342x282: create art with AI](https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png)
+![image thumbnail 342x282: create art with AI](media/c55073c6-c4e6-42e2-adf9-e76466c8d55f-d4b1913d.png "https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png")
 AI art generator Generate eye-catching art in seconds with AI.
-![image thumbnail 342x282: photo effects and filters on Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.png)
+![image thumbnail 342x282: photo effects and filters on Picsart photo editor](media/bec9a01c-5c4f-49eb-a54d-7c58868579f9-2a75da33.png "https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.png")
 Photo effects Add flair with eye-catching photo effects & aesthetic filters.
-![image thumbnail 342x282: background remover tool in Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.png)
+![image thumbnail 342x282: background remover tool in Picsart photo editor](media/acf65550-0b4a-4317-8490-8d1a908c1b6c-b96fe973.png "https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.png")
 Background remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: background changer](https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min)
+![image thumbnail 342x282: background changer](media/017968b8-9687-447d-82de-9b4d86153666-88b4cae7.png "https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min")
 Background changer Swap up the backdrop or remove it altogether.
-![image thumbnail 342x282: collage maker tool on Picsart photo editor](https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png)
+![image thumbnail 342x282: collage maker tool on Picsart photo editor](media/d9102cc5-979c-4821-9d23-f337339d4907-27f73998.png "https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png")
 Collage maker Easily combine visuals for social media, vision boards, and more.
-![image thumbnail 342x282: text editor](https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png)
+![image thumbnail 342x282: text editor](media/ec76dfa3-9fec-4d65-8f53-1805c419da43-867b22f1.png "https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png")
 Add text to image Compliment your images with a vast library of free fonts.
-![image thumbnail 342x282: ai image enhancer](https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png)
+![image thumbnail 342x282: ai image enhancer](media/3d6dc29e-f572-4926-8c78-29199699ddb8-d31813ff.png "https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png")
 AI Enhance Automatically enhance your image with just one click. This AI-assisted tool improves multiple aspects in one fell swoop for effortless editing.
-![image thumbnail 342x282: AI avatar generator tool](https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png)
+![image thumbnail 342x282: AI avatar generator tool](media/e406abf2-c475-4919-be1e-c57be0648628-9d9d3ef5.png "https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png")
 AI Avatar Ever picture yourself as a mythical creature or a character from a graphic novel? Create your digital AI avatars and wonder no more.
-![image thumbnail 342x282: Picsart AI replace tool](https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png)
+![image thumbnail 342x282: Picsart AI replace tool](media/bf789f0d-1ba7-489e-94b0-029b56ba2e8a-5207dc4d.png "https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png")
 AI Replace Replace any object with something else, all from a simple text description. Turn a chair into an elephant? Poof. (We almost called it AI Genie.)
-![image thumbnail 342x282: AI background tool](https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png)
+![image thumbnail 342x282: AI background tool](media/133128a4-a158-4d07-ad54-806b6da0f832-0a286a9f.png "https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png")
 AI Background Swap out the background of any image with anything else you can conjure up. Expensive products shoots just became obsolete.
-![image thumbnail 342x282: remove object](https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min)
+![image thumbnail 342x282: remove object](media/b4127bb0-9159-4cc7-96dd-64ee3cae4706-e1427cfa.png "https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min")
 Remove an object from photos No more ruined photos! Get rid of unwanted texts and backgrounds with just a few clicks.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png)
+![image thumbnail 342x282: ai image generator](media/ee7ad2e6-c1c1-4867-8221-7920dd45da6c-d72a25cd.png "https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png")
 AI text-to-image generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: AI writer](https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png)
+![image thumbnail 342x282: AI writer](media/aa157e8a-f40c-4f90-99c6-bb541b857371-ddbd8cb4.png "https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png")
 AI content generator Find the right words in seconds with the help of AI.
 Start editing
 
 ## S14 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S15 pricing
 

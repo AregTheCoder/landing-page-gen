@@ -7,7 +7,7 @@
 ## Recraft V4: design taste meets AI image generation
 First on Picsart - Exploration Mode exclusive. Picsart is among the first platforms to integrate Recraft V4, the first image model built around design taste, not just prompt accuracy. It produces images with balanced composition, cohesive color palettes, and refined detail that feel intentionally art-directed. Picsart is the exclusive first partner for Exploration Mode, which generates multiple visual directions from a single prompt so creators can compare and refine without rewriting. Available in raster up to 4 megapixels and as production-ready editable SVG vectors.
 Start generating
-![image creative 480x480: Recraft V4 AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif)
+![image creative 480x480: Recraft V4 AI image generation](media/3417a8c9-6873-4392-bde4-c6b6d3db63d8-e8deefe1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif")
 
 ## S02 interactive-demo
 
@@ -18,28 +18,28 @@ Start generating
 ## S03 gallery
 
 ### Design-quality images, zero compromise
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222c8dd.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4326501f-a5c9-45d1-b81b-199a1eb448a5.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/43458a76-2193-4751-a349-662f658060b8.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fef1b03a-32ed-4ba7-869d-ff3cb64c89be.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4bc20995-f934-47cc-bbc5-f2210ce74979.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4b72ce6c-294b-49c9-9de9-f0a323e6edc0.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/bb8074bd-460b-416c-9e3f-19e89f4ca616.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4727bcf4-7f8a-4207-a33b-65d5812d0984.avif)
+![image creative 196x348: ](media/16b113fa-7969-4c96-8c5e-aa1089062a1d-1f73c9b1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/16b113fa-7969-4c96-8c5e-aa1089062a1d.avif")
+![image creative 196x348: ](media/08c521f1-3e56-4771-9971-0bf0d222c8dd-81ccabff.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222c8dd.avif")
+![image creative 196x348: ](media/4326501f-a5c9-45d1-b81b-199a1eb448a5-b6d832b0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4326501f-a5c9-45d1-b81b-199a1eb448a5.avif")
+![image creative 196x348: ](media/43458a76-2193-4751-a349-662f658060b8-12df1524.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/43458a76-2193-4751-a349-662f658060b8.avif")
+![image creative 196x348: ](media/fef1b03a-32ed-4ba7-869d-ff3cb64c89be-ac0645af.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fef1b03a-32ed-4ba7-869d-ff3cb64c89be.avif")
+![image creative 196x348: ](media/4bc20995-f934-47cc-bbc5-f2210ce74979-84ef496b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4bc20995-f934-47cc-bbc5-f2210ce74979.avif")
+![image creative 196x348: ](media/4b72ce6c-294b-49c9-9de9-f0a323e6edc0-83062105.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4b72ce6c-294b-49c9-9de9-f0a323e6edc0.avif")
+![image creative 196x348: ](media/bb8074bd-460b-416c-9e3f-19e89f4ca616-5bbdc46c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bb8074bd-460b-416c-9e3f-19e89f4ca616.avif")
+![image creative 196x348: ](media/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c-59338fcb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ff00ef5d-53c8-4a8c-8831-1e06e1ce9f6c.avif")
+![image creative 196x348: ](media/4727bcf4-7f8a-4207-a33b-65d5812d0984-ccd9312c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4727bcf4-7f8a-4207-a33b-65d5812d0984.avif")
 
 ## S04 feature-callout
 
 ### What is Recraft V4?
 Recraft V4 is a ground-up rebuild of Recraft's image generation, designed by the team behind CatBoost, one of the world's most popular ML frameworks. It comes in four variants:
-![image creative 480x480: What is Recraft V4](https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif)
+![image creative 480x480: What is Recraft V4](media/597c97d3-8048-4601-96cf-e5b0602b283d-650d6980.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif")
 
 ## S05 feature-callout
 
 ### Recraft V4 capabilities
 Recraft V4’s headline feature is Exploration Mode: generate multiple visual directions from a single prompt, compare them side by side, select a favorite, and generate further variations of that specific image. The model renders readable text for infographics, menus, signage, and packaging with high-fidelity typography. It’s the only AI model that generates real editable SVG files with clean geometry and structured layers ready for web or print. Output formats include PNG, JPG, SVG, PDF, TIFF, and Lottie. Pro versions deliver sharper detail, improved anatomy, and enhanced realism for complex compositions.
-![image creative 480x480: Recraft V4 capabilities](https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif)
+![image creative 480x480: Recraft V4 capabilities](media/a89c4513-fb96-4a23-97ef-f3230d64d89f-b401e969.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64d89f.avif")
 
 ## S06 use-case-grid
 
@@ -48,37 +48,37 @@ What you can create with Recraft V4
 [button: Generate production-ready graphics]
 [button: Design with clear typography]
 Generate multiple design directions from a single prompt with Exploration Mode, compare options side by side, and refine your favorite into the final result.
-![image creative 878x418: Recraft V4 Exploration Mode](https://cdn-cms-uploads.picsart.com/cms-uploads/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f.png)
+![image creative 878x418: Recraft V4 Exploration Mode](media/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f-15ef8fd7.png "https://cdn-cms-uploads.picsart.com/cms-uploads/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f.png")
 
 ## S07 feature-callout
 
 ### How Recraft V4 works inside Picsart
 Picsart is integrating Recraft V4 directly into its Flow , AI Playground and AI Image Generator with Exploration Mode launching exclusively on Picsart as the first partner. Creators can generate design-quality images, explore multiple directions from a single prompt, and export in raster or vector formats all within one workflow. It works alongside Picsart tools enabling a complete design pipeline from concept exploration to production-ready assets.
-![image ui-screenshot 480x480: How Recraft V4 works in Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif)
+![image ui-screenshot 480x480: How Recraft V4 works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S08 feature-callout
 
 ### Why creators choose Recraft V4
 Where other models optimize for prompt accuracy or artistic flair, Recraft V4 optimizes for design taste producing images with the kind of visual polish that normally requires a human art director. It’s the only model generating production-quality editable SVGs with structured layers, the only one with Exploration Mode for comparing visual directions, and one of the few that renders legible text in images. With Picsart as the exclusive first partner for Exploration Mode, creators get early access to a workflow that eliminates the prompt-rewrite cycle and puts design intent first.
-![image creative 480x480: Why creators choose Recraft V4](https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif)
+![image creative 480x480: Why creators choose Recraft V4](media/802fe719-1eaa-4035-859a-4f77827b7aff-53f82f06.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -128,11 +128,11 @@ Recraft V4 is a ground-up rebuild of Recraft’s AI image model, designed with r
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: GPT Image 1.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif)
+![image thumbnail 342x282: GPT Image 1.5 AI Model](media/cb4a25d1-eb19-4de8-acbf-d55757593c37-aad807d2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cb4a25d1-eb19-4de8-acbf-d55757593c37.avif")
 GPT Image 1.5 OpenAI’s advanced AI image generation with precise instruction following.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Flux 2 Pro Photorealistic AI image generation with stunning detail and accuracy.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Ideogram 3.0 Flash Fast AI image generation with excellent text rendering and typography.
 
 ## S13 pricing

@@ -8,7 +8,7 @@ AI IMAGE MODELS
 ## Flux Pro: professional AI image generation
 Flux Pro is a production-grade image generation model from Black Forest Labs, offering a strong balance of quality, speed, and prompt adherence. It delivers photorealistic output with natural lighting, accurate text rendering, and reliable consistency across generations.
 Start generating
-![image creative 480x480: Flux 2 Max inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Flux 2 Max inside the Picsart ecosystem](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S02 interactive-demo
 
@@ -19,19 +19,19 @@ Start generating
 ## S03 gallery
 
 ### Images created with Flux 2 Max
-![image creative 276x276: Flux 2 Max generated image - Macro nature photography](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif)
+![image creative 276x276: Flux 2 Max generated image - Macro nature photography](media/1d4b44d0-8bde-457d-8095-4bb6a36bef88-d6303116.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif")
 [Create](https://picsart.com/ai-playground/?model=flux-2-pro)
 Macro nature photography
-![image creative 276x276: Flux 2 Max generated image - Cyberpunk scene](https://cdn-cms-uploads.picsart.com/cms-uploads/75eee6aa-bec3-409a-9867-074ae6c2b311.avif)
+![image creative 276x276: Flux 2 Max generated image - Cyberpunk scene](media/75eee6aa-bec3-409a-9867-074ae6c2b311-356c6c83.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/75eee6aa-bec3-409a-9867-074ae6c2b311.avif")
 [Create](https://picsart.com/ai-playground/?model=flux-2-pro)
 Cyberpunk scene
-![image creative 276x276: Flux 2 Max generated image - Double exposure portrait](https://cdn-cms-uploads.picsart.com/cms-uploads/bec24738-6d95-460e-9e1d-c38cf9814eb7.avif)
+![image creative 276x276: Flux 2 Max generated image - Double exposure portrait](media/bec24738-6d95-460e-9e1d-c38cf9814eb7-80f66394.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bec24738-6d95-460e-9e1d-c38cf9814eb7.avif")
 [Create](https://picsart.com/ai-playground/?model=flux-2-pro)
 Double exposure portrait
-![image creative 276x276: Flux 2 Max generated image - Isometric illustration](https://cdn-cms-uploads.picsart.com/cms-uploads/5aceec28-1c78-4373-9ec7-84e7c8b10336.avif)
+![image creative 276x276: Flux 2 Max generated image - Isometric illustration](media/5aceec28-1c78-4373-9ec7-84e7c8b10336-c0364823.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5aceec28-1c78-4373-9ec7-84e7c8b10336.avif")
 [Create](https://picsart.com/ai-playground/?model=flux-2-pro)
 Isometric illustration
-![image creative 276x276: Flux 2 Max generated image - Dramatic landscape](https://cdn-cms-uploads.picsart.com/cms-uploads/7a582745-3b29-4381-b2dc-44059441f3fb.avif)
+![image creative 276x276: Flux 2 Max generated image - Dramatic landscape](media/7a582745-3b29-4381-b2dc-44059441f3fb-bfdde540.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7a582745-3b29-4381-b2dc-44059441f3fb.avif")
 [Create](https://picsart.com/ai-playground/?model=flux-2-pro)
 Dramatic landscape
 
@@ -39,7 +39,7 @@ Dramatic landscape
 
 ### What is Flux Pro?
 Flux Pro is the production-grade model in the original Flux family from Black Forest Labs. It balances quality and speed for professional workflows, generating detailed photorealistic images with strong prompt adherence and natural compositions.
-![image creative 480x480: how Picsart uses Flux 2 Max](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: how Picsart uses Flux 2 Max](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S05 use-case-grid
 
@@ -49,43 +49,43 @@ What you can create with Flux Pro
 [button: Create artistic illustrations]
 [button: Experiment with creative concepts]
 Create stunning, lifelike images from text prompts with exceptional detail, accurate lighting, and natural compositions.
-![image creative 879x418: Flux 2 Max for photorealistic image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Flux 2 Max for photorealistic image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### What is Flux Pro?
 Flux Pro is the production-grade model in the original Flux family from Black Forest Labs. It balances quality and speed for professional workflows, generating detailed photorealistic images with strong prompt adherence and natural compositions.
-![image creative 480x480: why creators choose Flux 2 Max](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: why creators choose Flux 2 Max](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Flux Pro
 Creators choose Flux Pro for its reliable balance of quality and speed. It delivers professional-grade results consistently, making it a go-to model for everyday creative production.
-![image creative 480x480: Flux 2 Max](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Flux 2 Max](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S08 feature-callout
 
 ### How Flux Pro works inside Picsart
 Flux Pro is integrated into Picsart's AI Image Generator and AI Playground , giving creators direct access to Flux Pro without external tools or complex API setups. Generate images, explore creative directions, and iterate on results — all from one platform.
-![image creative 480x480: Flux 2 Max AI model](https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png)
+![image creative 480x480: Flux 2 Max AI model](media/9e4e068f-1d36-47a4-b398-422ebbd49100-584f92c9.png "https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -135,11 +135,11 @@ Flux Pro is an advanced AI image generation model designed for photorealistic ou
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: nano banana pro](https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp)
+![image thumbnail 342x282: nano banana pro](media/ed446ffc-fa3c-4b84-8583-7a55878f82dd-49c550ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp")
 Nano Banana Pro A generative AI model built for fast, high-quality visual creation and image enhancement.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 Fast An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion and scene coherence.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp)
+![image thumbnail 342x282: ai video generation](media/95dfaff8-b42d-4c00-94b9-b5ccb508d251-2bf2e2fa.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp")
 Kling A cutting-edge generative video model focused on producing detailed, physically consistent videos from text and image prompts.
 
 ## S13 pricing

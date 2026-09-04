@@ -7,7 +7,7 @@
 ## Flux 2 Klein 4B: Picsart's free Flux 2 AI image model
 Flux 2 Klein 4B is Picsart's own 4B-parameter variant of the Flux 2 image family — built for speed, broad accessibility, and zero credit cost. Available in Picsart's AI Image Generator, Klein 4B brings Flux 2's photoreal composition to every creator without the per-generation cost ceiling.
 Try Flux 2 Klein 4B in AI Playground
-![image creative 480x480: Flux 2 Klein 4B hero image](https://cdn-cms-uploads.picsart.com/cms-uploads/77ab8453-45fa-42d1-a792-960a85696316.avif)
+![image creative 480x480: Flux 2 Klein 4B hero image](media/77ab8453-45fa-42d1-a792-960a85696316-e2c9ca25.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/77ab8453-45fa-42d1-a792-960a85696316.avif")
 
 ## S02 interactive-demo
 
@@ -18,26 +18,26 @@ Try Flux 2 Klein 4B in AI Playground
 ## S03 gallery
 
 ### Images created with Flux 2 Klein 4B
-![image creative 196x348: Flux 2 Klein 4B generated image 1](https://cdn-cms-uploads.picsart.com/cms-uploads/d20378d4-d482-4410-8d55-8bbd15e2079d.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 1](media/d20378d4-d482-4410-8d55-8bbd15e2079d-95fe6f08.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d20378d4-d482-4410-8d55-8bbd15e2079d.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 6](https://cdn-cms-uploads.picsart.com/cms-uploads/e486cc15-ea05-49f1-93f2-bb4a936aeaea.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 6](media/e486cc15-ea05-49f1-93f2-bb4a936aeaea-d566d184.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e486cc15-ea05-49f1-93f2-bb4a936aeaea.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 2](https://cdn-cms-uploads.picsart.com/cms-uploads/84a228d7-fda0-4489-9b67-e9dac69aee68.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 2](media/84a228d7-fda0-4489-9b67-e9dac69aee68-867e4bb7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/84a228d7-fda0-4489-9b67-e9dac69aee68.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 3](https://cdn-cms-uploads.picsart.com/cms-uploads/c729da33-18e5-43f4-8a77-e0a93fa46c17.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 3](media/c729da33-18e5-43f4-8a77-e0a93fa46c17-6534759a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/c729da33-18e5-43f4-8a77-e0a93fa46c17.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 4](https://cdn-cms-uploads.picsart.com/cms-uploads/bc92f29e-a646-43d6-93a6-534322f9b654.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 4](media/bc92f29e-a646-43d6-93a6-534322f9b654-b6cbac90.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bc92f29e-a646-43d6-93a6-534322f9b654.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 5](https://cdn-cms-uploads.picsart.com/cms-uploads/598f6935-d80c-4f4b-962d-dbc0bcd07770.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 5](media/598f6935-d80c-4f4b-962d-dbc0bcd07770-c147e8be.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/598f6935-d80c-4f4b-962d-dbc0bcd07770.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
-![image creative 196x348: Flux 2 Klein 4B generated image 6](https://cdn-cms-uploads.picsart.com/cms-uploads/62d6e094-1f91-41b9-aa00-79affe1778b9.avif)
+![image creative 196x348: Flux 2 Klein 4B generated image 6](media/62d6e094-1f91-41b9-aa00-79affe1778b9-12570584.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/62d6e094-1f91-41b9-aa00-79affe1778b9.avif")
 [Generate](https://picsart.com/ai-playground/?model=picsart-flux-klein&mode=image)
 
 ## S04 feature-callout
 
 ### What is Flux 2 Klein 4B?
 Flux 2 Klein 4B is a 4-billion-parameter variant of the Flux 2 image model, optimized and integrated by Picsart. The smaller parameter count makes inference fast and credit-free on Picsart, while Flux 2's photoreal composition and prompt fidelity heritage carry through. It's the entry point to the Flux 2 family — designed so any creator can generate images without thinking about per-generation cost.
-![image creative 480x480: Flux 2 Klein 4B ai model](https://cdn-cms-uploads.picsart.com/cms-uploads/8f4fa672-c2bb-49c3-816c-a1e1151cdf3b.avif)
+![image creative 480x480: Flux 2 Klein 4B ai model](media/8f4fa672-c2bb-49c3-816c-a1e1151cdf3b-eb136f2f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/8f4fa672-c2bb-49c3-816c-a1e1151cdf3b.avif")
 
 ## S05 use-case-grid
 
@@ -47,43 +47,43 @@ What you can create with Flux 2 Klein 4B
 [button: Natural-language image editing]
 [button: Marketing and e-commerce visuals]
 Generate AI images without spending credits. Klein 4B is the free tier — ideal for first-time creators, classroom projects, and trying out AI image generation.
-![image creative 879x418: Flux 2 Klein 4B for Professional design with text](https://cdn-cms-uploads.picsart.com/cms-uploads/bb63a74c-c746-424c-9bdd-c50d1ce613ff.avif)
+![image creative 879x418: Flux 2 Klein 4B for Professional design with text](media/bb63a74c-c746-424c-9bdd-c50d1ce613ff-0e346386.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bb63a74c-c746-424c-9bdd-c50d1ce613ff.avif")
 
 ## S06 feature-callout
 
 ### How Picsart uses Flux 2 Klein 4B
 Picsart integrates Flux 2 Klein 4B into both its AI Image Generator and AI Playground . Pick Flux 2 Klein 4B from the AI Image Generator to generate directly inside Picsart's creative tools, or open it in the AI Playground to compare it head-to-head with other models. It sits alongside Flux 2 Pro, Flux 2 Max, Flux 2 Flex, Seedream 4.5, and Nano Banana Pro on one credit balance, with the AI Playground giving you head-to-head comparison across the Flux 2 family.
-![image creative 480x480: How Picsart uses Flux 2 Klein 4B](https://cdn-cms-uploads.picsart.com/cms-uploads/dfd5aa17-4a80-4b57-a4dd-16c63ee9fff5.avif)
+![image creative 480x480: How Picsart uses Flux 2 Klein 4B](media/dfd5aa17-4a80-4b57-a4dd-16c63ee9fff5-063a798a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfd5aa17-4a80-4b57-a4dd-16c63ee9fff5.avif")
 
 ## S07 feature-callout
 
 ### Why creators choose Flux 2 Klein 4B
 Klein 4B is the credit-free tier of the Flux 2 family on Picsart. The combination of zero cost per generation and Flux 2's photoreal lineage makes it the right starting point for creators new to the platform, high-volume exploratory work, classroom and educational projects, and any workflow where budget transparency matters. The 4B parameter count keeps inference fast — generations come back quickly even under load.
-![image creative 480x480: Why creators choose Flux 2 Klein 4B](https://cdn-cms-uploads.picsart.com/cms-uploads/e3300652-fd1d-4c18-898e-0f7f079faa68.avif)
+![image creative 480x480: Why creators choose Flux 2 Klein 4B](media/e3300652-fd1d-4c18-898e-0f7f079faa68-acee57e1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/e3300652-fd1d-4c18-898e-0f7f079faa68.avif")
 
 ## S08 feature-callout
 
 ### Flux 2 Klein 4B inside the Picsart ecosystem
 Flux 2 Klein 4B is one of several Flux 2 tiers on Picsart. It works alongside Flux 2 Pro , Flux 2 Max , Flux 2 Flex , and other image models — start with Klein 4B for free, move up the Flux 2 tier ladder when the deliverable demands it.
-![image creative 480x480: Flux 2 Klein 4B inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/cff03553-646c-4ec9-9321-939d3444f176.avif)
+![image creative 480x480: Flux 2 Klein 4B inside the Picsart ecosystem](media/cff03553-646c-4ec9-9321-939d3444f176-a17b4be5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cff03553-646c-4ec9-9321-939d3444f176.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -133,19 +133,19 @@ Flux 2 Klein 4B is Picsart's 4-billion-parameter variant of the Flux 2 image fam
 ## S12 link-grid
 
 ### More AI models to explore
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/4e6bb6d9-c629-45d8-ad17-26973ac563c4-15d0b5d2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/4e6bb6d9-c629-45d8-ad17-26973ac563c4.webp")
 Flux 2 Pro Black Forest Labs' photorealism flagship — fast iteration with native edit.
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance Seed's unified generation + editing model with multimodal references.
-![image thumbnail 342x282: Nano Banana Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: Nano Banana Pro AI Model](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Nano Banana Pro Google's expressive image model with cinematic detail.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI Model](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Ideogram 3.0 Flash Best-in-class text-in-image rendering with ad-ready typography.
-![image thumbnail 342x282: Recraft V4.1 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Recraft V4.1 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Recraft V4.1 The latest Recraft model — refined design intuition and exploration.
-![image thumbnail 342x282: AI Image Generator AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: AI Image Generator AI Model](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Picsart's main image surface — every model, one credit balance.
-![image thumbnail 342x282: AI Photo Editor AI Model](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI Photo Editor AI Model](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Edit and refine images with AI tools alongside generated content.
 
 ## S13 pricing

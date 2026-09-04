@@ -7,7 +7,7 @@
 ## Flux 2 Flex: AI images with creative edge
 Picsart's AI Image Generator has integrated Flux 2 Flex, Black Forest Labs's advanced image generation model, bringing photorealistic and creatively versatile image generation directly into your workflow. Flux 2 Flex produces stunning visuals with rich detail, accurate lighting, and creative flexibility helping creators generate professional-quality images that push the boundaries of AI-powered visual content.
 Start generating
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S02 interactive-demo
 
@@ -19,13 +19,13 @@ Start generating
 
 ### What is Flux 2 Flex?
 Flux 2 Flex is an advanced AI image generation model from Black Forest Labs, built to produce photorealistic and creatively diverse images from text prompts. It generates visuals with accurate lighting, detailed textures, and natural compositions making AI-generated images rival professional photography and digital art. Flux 2 Flex handles complex prompts with strong contextual understanding, delivering coherent, high-fidelity results across a wide range of styles and subjects.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S04 feature-callout
 
 ### Flux 2 Flex capabilities
 Flux 2 Flex excels at generating images with photorealistic quality and creative versatility. It renders accurate lighting, natural shadows, and detailed textures while handling complex multi-element compositions with strong coherence. The model supports a wide range of visual styles from photorealism to artistic interpretation and delivers high-fidelity output that maintains consistency across detailed prompts and creative concepts.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90)
+![image creative 480x480: Flux 2 Flex AI image generation](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-873f1e42.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90")
 
 ## S05 use-case-grid
 
@@ -34,37 +34,37 @@ What you can create with Flux 2 Flex
 [button: Create artistic and stylized visuals]
 [button: Build marketing and product visuals]
 Create images with stunning realism, accurate lighting, natural textures, and rich detail that makes AI-generated visuals feel like professional photography.
-![image creative 879x418: Flux 2 Flex for photorealistic image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Flux 2 Flex for photorealistic image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### How Flux 2 Flex works inside Picsart
 Picsart integrates Flux 2 Flex directly into its AI Image Generator , so creators can produce high-quality AI images without interacting with the model itself. It works alongside tools like the AI Enhance and Photo Editor , helping creators build complete visual projects faster with photorealistic quality and creative control.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Flux 2 Flex
 Flux 2 Flex delivers photorealistic image quality with creative versatility that sets it apart. Creators choose it for its rich detail, accurate lighting, and ability to handle complex prompts producing images with a level of fidelity and artistic range that rivals professional photography and digital art. Integrated into Picsart's AI Image Generator, it makes professional-grade AI image creation accessible without complex setups or specialized tools.
-![image creative 480x480: Flux 2 Flex AI image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: Flux 2 Flex AI image generation](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S08 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -114,11 +114,11 @@ Flux 2 Flex is an advanced AI image generation model from Black Forest Labs, des
 ## S11 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Runway Gen 4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video generation with consistent characters and realistic motion.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp)
+![image thumbnail 342x282: ai video generation](media/3cf35baa-2e25-4715-9a50-eb380c2c6294-11da2d99.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp")
 VEO 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
 
 ## S12 pricing

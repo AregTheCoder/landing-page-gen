@@ -71,13 +71,16 @@ aspect: '1:1'
 natural: 1600x1600
 duration_s: 8.4
 src: https://cdn-cms-uploads.picsart.com/cms-uploads/....webm
+local: corpus/pages/ai-image-generator/media/....webm   # open this one
 ```
 > annotation: TODO what this video should show
 ```
 
 Roles are guessed by `sectionize` and edited by hand; `ui-screenshot`, `icon`
-and `decorative` slots are kept from the source. `slots.json` next to the
-skeleton maps every `Sxx-mN` and `Sxx-tN` id to its stamp in the snapshot.
+and `decorative` slots are kept from the source. `local` is the snapshot's
+copy of the asset (`sections.md` links it the same way, with the CDN URL as
+the link title). `slots.json` next to the skeleton maps every `Sxx-mN` and
+`Sxx-tN` id to its stamp in the snapshot.
 
 ## Layout
 

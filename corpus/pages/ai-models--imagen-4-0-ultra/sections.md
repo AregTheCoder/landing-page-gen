@@ -7,7 +7,7 @@
 ## Imagen 4.0 Ultra: AI image generation built for creators
 Picsart’s AI Image Editor has integrated Google DeepMind’s Imagen 4.0 Ultra, bringing powerful, realistic image generation directly into your creative workflow. Imagen 4.0 Ultra combines strong prompt understanding with high visual fidelity producing detailed, expressive images that work for everything from social content to professional design projects, all within Picsart’s intuitive editing experience.
 Start generating
-![image creative 480x480: Imagen 4.0 Ultra AI image model hero](https://cdn-cms-uploads.picsart.com/cms-uploads/07a043cc-506a-4788-985c-8fcd45acd4e8.png)
+![image creative 480x480: Imagen 4.0 Ultra AI image model hero](media/07a043cc-506a-4788-985c-8fcd45acd4e8-15f29c6f.png "https://cdn-cms-uploads.picsart.com/cms-uploads/07a043cc-506a-4788-985c-8fcd45acd4e8.png")
 
 ## S02 interactive-demo
 
@@ -23,19 +23,19 @@ Start generating
 ## S03 gallery
 
 ### Images created with Imagen 4.0 Ultra
-![image creative 276x276: Imagen 4.0 Ultra generated image - Educational infographic](https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif)
+![image creative 276x276: Imagen 4.0 Ultra generated image - Educational infographic](media/5a44d378-3268-438a-8563-30f14cb99573-e47b43b6.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif")
 [Create](https://picsart.com/ai-playground/?model=imagen-4.0-ultra)
 Educational infographic
-![image creative 276x276: Imagen 4.0 Ultra generated image - Product photography](https://cdn-cms-uploads.picsart.com/cms-uploads/4644c21c-a81d-4520-822d-9a2aaf19cb0c.avif)
+![image creative 276x276: Imagen 4.0 Ultra generated image - Product photography](media/4644c21c-a81d-4520-822d-9a2aaf19cb0c-f231add0.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4644c21c-a81d-4520-822d-9a2aaf19cb0c.avif")
 [Create](https://picsart.com/ai-playground/?model=imagen-4.0-ultra)
 Product photography
-![image creative 276x276: Imagen 4.0 Ultra generated image - Cozy bookshop scene](https://cdn-cms-uploads.picsart.com/cms-uploads/3ce169dd-d3f0-44fe-8572-4404773979ce.avif)
+![image creative 276x276: Imagen 4.0 Ultra generated image - Cozy bookshop scene](media/3ce169dd-d3f0-44fe-8572-4404773979ce-051602bc.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3ce169dd-d3f0-44fe-8572-4404773979ce.avif")
 [Create](https://picsart.com/ai-playground/?model=imagen-4.0-ultra)
 Cozy bookshop scene
-![image creative 276x276: Imagen 4.0 Ultra generated image - Technical blueprint](https://cdn-cms-uploads.picsart.com/cms-uploads/1d9251b4-c41e-4615-b802-9cba01cd5aac.avif)
+![image creative 276x276: Imagen 4.0 Ultra generated image - Technical blueprint](media/1d9251b4-c41e-4615-b802-9cba01cd5aac-955c1f42.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d9251b4-c41e-4615-b802-9cba01cd5aac.avif")
 [Create](https://picsart.com/ai-playground/?model=imagen-4.0-ultra)
 Technical blueprint
-![image creative 276x276: Imagen 4.0 Ultra generated image - Group lifestyle scene](https://cdn-cms-uploads.picsart.com/cms-uploads/b8b480c4-bcfd-442b-a6ae-73f9fe152160.avif)
+![image creative 276x276: Imagen 4.0 Ultra generated image - Group lifestyle scene](media/b8b480c4-bcfd-442b-a6ae-73f9fe152160-248f4b01.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b8b480c4-bcfd-442b-a6ae-73f9fe152160.avif")
 [Create](https://picsart.com/ai-playground/?model=imagen-4.0-ultra)
 Group lifestyle scene
 
@@ -43,7 +43,7 @@ Group lifestyle scene
 
 ### What is Imagen 4.0 Ultra?
 Imagen 4.0 Ultra is Google DeepMind’s advanced image generation model, designed to produce realistic, highly detailed visuals from natural language prompts. It builds on earlier GPT image models with improved prompt comprehension, better handling of complex scenes, and more consistent output quality. Imagen 4.0 Ultra is particularly strong at rendering text within images, understanding spatial relationships, and generating visuals that align closely with creative intent.
-![image creative 480x480: What Imagen 4.0 Ultra is built for](https://cdn-cms-uploads.picsart.com/cms-uploads/c7311ec5-acb7-4e57-94e0-704ef42e7f34.webp)
+![image creative 480x480: What Imagen 4.0 Ultra is built for](media/c7311ec5-acb7-4e57-94e0-704ef42e7f34-b5bd1970.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c7311ec5-acb7-4e57-94e0-704ef42e7f34.webp")
 
 ## S05 use-case-grid
 
@@ -53,43 +53,43 @@ What you can create with Imagen 4.0 Ultra
 [button: Design social media content]
 [button: Explore creative concepts rapidly]
 Turn detailed text descriptions into high-quality, realistic visuals with accurate lighting, textures, and compositions directly inside Picsart’s AI Image Editor.
-![image creative 878x418: Imagen 4.0 Ultra realistic image generation example](https://cdn-cms-uploads.picsart.com/cms-uploads/6ade1f1d-7dd2-4323-949b-c17b1c616a07.avif)
+![image creative 878x418: Imagen 4.0 Ultra realistic image generation example](media/6ade1f1d-7dd2-4323-949b-c17b1c616a07-fe024223.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6ade1f1d-7dd2-4323-949b-c17b1c616a07.avif")
 
 ## S06 feature-callout
 
 ### How Imagen 4.0 Ultra works inside Picsart
 Picsart integrates Imagen 4.0 Ultra directly into its AI Playground so creators can generate and refine images without interacting with the model itself. It also works alongside tools like the AI Image Generator , helping creators produce polished, realistic visuals faster and with more creative freedom.
-![image ui-screenshot 480x480: How Imagen 4.0 Ultra works inside Picsart](https://cdn-cms-uploads.picsart.com/cms-uploads/3f8643e9-0e1d-44cc-9656-e42ef0155533.avif)
+![image ui-screenshot 480x480: How Imagen 4.0 Ultra works inside Picsart](media/3f8643e9-0e1d-44cc-9656-e42ef0155533-ac851b23.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3f8643e9-0e1d-44cc-9656-e42ef0155533.avif")
 
 ## S07 feature-callout
 
 ### Why creators choose Imagen 4.0 Ultra
 Imagen 4.0 Ultra stands out for its ability to understand nuanced prompts and deliver visuals that match creative intent with high accuracy. It handles complex scenes, renders readable text in images, and produces consistent, realistic output across a wide range of styles. Integrated into Picsart’s AI Image Editor, it makes professional-quality image generation accessible to creators of all levels without technical expertise or complex workflows.
-![image creative 480x480: Why creators choose Imagen 4.0 Ultra](https://cdn-cms-uploads.picsart.com/cms-uploads/d2a30180-9ecc-4a1b-80cf-54e7d1aae463.avif)
+![image creative 480x480: Why creators choose Imagen 4.0 Ultra](media/d2a30180-9ecc-4a1b-80cf-54e7d1aae463-4c94d05d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d2a30180-9ecc-4a1b-80cf-54e7d1aae463.avif")
 
 ## S08 feature-callout
 
 ### Imagen 4.0 Ultra inside the Picsart ecosystem
 Imagen 4.0 Ultra is one of several advanced AI models powering Picsart’s creative ecosystem. Alongside models from leading AI providers, it supports image generation, visual enhancement, and content creation across the platform. This multi-model approach gives creators flexibility to achieve the best results for every project, with Picsart handling model selection and optimization behind the scenes.
-![image creative 480x480: Imagen 4.0 Ultra inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/fa62c50f-ded1-4468-82b5-7758509e7e63.avif)
+![image creative 480x480: Imagen 4.0 Ultra inside the Picsart ecosystem](media/fa62c50f-ded1-4468-82b5-7758509e7e63-2736b83a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/fa62c50f-ded1-4468-82b5-7758509e7e63.avif")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -139,22 +139,22 @@ Imagen 4.0 Ultra is Google DeepMind’s advanced AI image generation model. It p
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Nano Banana Pro AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp)
+![image thumbnail 342x282: Nano Banana Pro AI image generator](media/6c40c418-b0fa-4b99-9e00-66b469d4ccb5-50782fa9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp")
 Nano Banana Pro Google's image model focused on creative iteration with bold styling.
-![image thumbnail 342x282: Seedream 4.5 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image thumbnail 342x282: Seedream 4.5 AI image generator](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 Seedream 4.5 ByteDance's flagship text-to-image model with photoreal detail.
-![image thumbnail 342x282: GPT Image 1.5 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp)
+![image thumbnail 342x282: GPT Image 1.5 AI image generator](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-f2718581.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp")
 GPT Image 1.5 OpenAI's upgraded image model with strong prompt following and clean typography.
-![image thumbnail 342x282: Flux 2 Pro AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif)
+![image thumbnail 342x282: Flux 2 Pro AI image generator](media/1d4b44d0-8bde-457d-8095-4bb6a36bef88-d6303116.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4b44d0-8bde-457d-8095-4bb6a36bef88.avif")
 Flux 2 Pro Black Forest Labs' top open model: photoreal scenes with broad style range.
-![image thumbnail 342x282: Nano Banana 2 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp)
+![image thumbnail 342x282: Nano Banana 2 AI image generator](media/548b38f1-6008-4354-9972-f18276ecf4a7-e7a29cc2.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp")
 Nano Banana 2 Playful Google image model: fast and expressive for creative iteration.
-![image thumbnail 342x282: Ideogram 3.0 Flash AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash AI image generator](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 Ideogram 3.0 Flash Best-in-class typography and poster-style layouts at fast speeds.
-![image thumbnail 342x282: Recraft V4 AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif)
+![image thumbnail 342x282: Recraft V4 AI image generator](media/3417a8c9-6873-4392-bde4-c6b6d3db63d8-e8deefe1.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif")
 Recraft V4 Vector-friendly model for brand assets, icons, and illustration styles.
 DALL-E 3 OpenAI's widely loved image model with strong prompt comprehension.
-![image thumbnail 342x282: Grok Imagine AI image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/553d11df-3f1d-4cc4-a800-4095512b258b.webp)
+![image thumbnail 342x282: Grok Imagine AI image generator](media/553d11df-3f1d-4cc4-a800-4095512b258b-33b25a93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/553d11df-3f1d-4cc4-a800-4095512b258b.webp")
 Grok Imagine xAI's image model with bold, opinionated cinematic aesthetics.
 
 ## S13 pricing

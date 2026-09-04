@@ -7,17 +7,17 @@
 ## Animate your ideas in seconds
 Create eye-catching animations in seconds using just a photo or a quick prompt. Picsart’s AI Animation Maker transforms static visuals into smooth, dynamic content - no design experience needed.
 [button: Upload image]
-![image creative 480x480: Animate your ideas in seconds](https://cdn-cms-uploads.picsart.com/cms-uploads/3e6f1364-0317-4878-bcfb-349ad6a86527.webp)
+![image creative 480x480: Animate your ideas in seconds](media/3e6f1364-0317-4878-bcfb-349ad6a86527-8c23172c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3e6f1364-0317-4878-bcfb-349ad6a86527.webp")
 
 ## S02 feature-row
 
-![image icon 96x96: Animate images or texts with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/453121a5-d7fb-4b22-a6f3-167286453e3c.png)
+![image icon 96x96: Animate images or texts with AI](media/453121a5-d7fb-4b22-a6f3-167286453e3c-4db19ffd.png "https://cdn-cms-uploads.picsart.com/cms-uploads/453121a5-d7fb-4b22-a6f3-167286453e3c.png")
 #### Animate images or texts with AI
 Turn static visuals or written ideas into smooth, eye-catching animations in seconds.
-![image icon 96x96: Customize every detail](https://cdn-cms-uploads.picsart.com/cms-uploads/9dbbc0fd-28f6-439e-818f-cb4871b6a70b.png)
+![image icon 96x96: Customize every detail](media/9dbbc0fd-28f6-439e-818f-cb4871b6a70b-b9812fb2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/9dbbc0fd-28f6-439e-818f-cb4871b6a70b.png")
 #### Customize every detail
 Adjust speed, direction and style to match your exact vision.
-![image icon 96x96: Get fast, pro-level results](https://cdn-cms-uploads.picsart.com/cms-uploads/f97c0f03-9272-4016-a5db-67650d0db425.png)
+![image icon 96x96: Get fast, pro-level results](media/f97c0f03-9272-4016-a5db-67650d0db425-42102cd2.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f97c0f03-9272-4016-a5db-67650d0db425.png")
 #### Get fast, pro-level results
 Create high-quality animations in seconds - no learning curve needed.
 
@@ -47,25 +47,25 @@ Click the button below to get started.
 #### Generate animation in minutes
 5
 #### Preview, download, or share
-![image creative 480x600: How to make animations with AI](https://cdn-cms-uploads.picsart.com/cms-uploads/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c.webp)
+![image creative 480x600: How to make animations with AI](media/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c-9fc10bea.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c.webp")
 
 ## S05 feature-callout
 
 ### Make animations in minutes with AI Animation Maker
 Picsart’s AI Animation Maker lets you animate images or generate videos from a simple text prompt in just a few clicks. It’s designed for creators of all kinds, delivering smooth, high-quality results without complicated tools. Just bring your idea - AI handles the motion with speed and style.
-![image creative 480x480: Make animations in minutes with AI Animation Maker](https://cdn-cms-uploads.picsart.com/cms-uploads/3de0eaec-56b4-439c-a6c1-9b50681c7fba.webp)
+![image creative 480x480: Make animations in minutes with AI Animation Maker](media/3de0eaec-56b4-439c-a6c1-9b50681c7fba-b4d90ee5.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3de0eaec-56b4-439c-a6c1-9b50681c7fba.webp")
 
 ## S06 feature-callout
 
 ### Animation generator for social media and marketing
 Turn everyday content into standout visuals with the help of an AI-powered animation generator. It’s ideal for transforming static posts into scroll-stopping videos for Instagram, TikTok, ads, and more. Just upload or write a prompt, and get brand-ready motion in moments - built to catch eyes and drive engagement.
-![image creative 480x480: Animation generator for social media and marketing](https://cdn-cms-uploads.picsart.com/cms-uploads/c72ffedb-ad88-469e-86c6-5c53f55a8881.webp)
+![image creative 480x480: Animation generator for social media and marketing](media/c72ffedb-ad88-469e-86c6-5c53f55a8881-0fd33375.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c72ffedb-ad88-469e-86c6-5c53f55a8881.webp")
 
 ## S07 feature-callout
 
 ### Customize every frame of your AI animation
 Fine-tune every part of your animation to match your creative vision. With Picsart’s AI animation tools, you can control mood, pacing, transitions, and more. Whether the look is subtle or bold, the editor gives you the flexibility to shape each frame exactly how you want it.
-![image creative 480x480: Customize every frame of your AI animation](https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp)
+![image creative 480x480: Customize every frame of your AI animation](media/fc7b7887-ed27-41d8-981e-e62c1440411b-480806c1.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp")
 
 ## S08 feature-list
 
@@ -81,7 +81,7 @@ Fully customizable
 
 ### Powered by advanced AI animation models
 Create high-quality animations with cutting-edge AI. Runway Gen-4 Turbo and Luma Ray deliver pro-level results, while upcoming models like Google Veo 2 and Pika open the door to even more creative options. Start from an image or a text prompt, then fine-tune it your way.
-![image creative 480x480: Powered by advanced AI animation models](https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp)
+![image creative 480x480: Powered by advanced AI animation models](media/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014-079a1822.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp")
 
 ## S10 faq
 
@@ -97,19 +97,19 @@ Picsart’s AI Animation Maker lets you create animations from either a prompt o
 ## S11 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: Picsart AI video Generator](https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png)
+![image thumbnail 342x282: Picsart AI video Generator](media/b137d8b9-7db8-4328-adab-e37ccd2a4bc3-1e44609f.png "https://pastatic.picsart.com/cms-pastatic/b137d8b9-7db8-4328-adab-e37ccd2a4bc3.png")
 AI video generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: online ai image to video generator](https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png)
+![image thumbnail 342x282: online ai image to video generator](media/f07c4157-d746-46cb-8d6d-35051270884b-86874bbb.png "https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png")
 AI Image-to-Video Turn any image into a dynamic video with AI.
-![image thumbnail 342x282: Background remover](https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png)
+![image thumbnail 342x282: Background remover](media/b9fa617f-1059-4cee-b27a-55ffe7d33c0f-133dfd25.png "https://pastatic.picsart.com/cms-pastatic/b9fa617f-1059-4cee-b27a-55ffe7d33c0f.png")
 Background remover Masterfully remove the background with AI or make it transparent.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: ai image generator](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI image generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: Picsart's AI video style changer](https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png)
+![image thumbnail 342x282: Picsart's AI video style changer](media/5cf12242-55b3-438a-9544-1cdcbaa04694-f6578cf5.png "https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png")
 AI video filters Reinvent the look of your videos with AI-powered video filters.
-![image thumbnail 342x282: video ad maker](https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png)
+![image thumbnail 342x282: video ad maker](media/68352d29-75d1-45e4-8405-672c59f8bdf7-d2f8d93d.png "https://pastatic.picsart.com/cms-pastatic/68352d29-75d1-45e4-8405-672c59f8bdf7.png")
 Video ad maker Create engaging video ads in seconds using AI.
-![image thumbnail 342x282: AI image enhancer](https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png)
+![image thumbnail 342x282: AI image enhancer](media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png "https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png")
 AI photo enhancer Upscale the resolution of multiple images with AI in one go.
 
 ## S12 pricing

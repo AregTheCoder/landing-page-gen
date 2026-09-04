@@ -7,7 +7,7 @@
 ## Happy Horse 1.1 Ref-to-Video — turn reference images into cinematic AI video
 Feed up to nine reference images and a prompt, and Happy Horse 1.1 Ref-to-Video weaves them into one coherent 1080p clip — keeping characters, products, and style consistent across every frame. Run it in Picsart's AI Playground.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm)
+![video creative 480x480: ](media/cbe50cb4-573a-4fa9-b741-9e0a682a4c03-6146fdf0.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm")
 
 ## S02 interactive-demo
 
@@ -18,23 +18,23 @@ Start generating
 ## S03 gallery
 
 ### See what Happy Horse 1.1 can create
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d7249ef4-30ce-4586-be3d-6e4996a5f3d1-29f16934.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif")
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 
 ## S04 feature-callout
 
 ### What is Happy Horse 1.1 Ref-to-Video?
 Happy Horse 1.1 Ref-to-Video is a reference-driven AI video model. You supply up to nine reference images and refer to them in your prompt as [Image 1], [Image 2], and so on, in the order you upload them. The model composes a single coherent 1080p clip from those references — keeping characters, products, and style consistent across the whole video, with natively synchronized audio.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0a44cf69-38ff-4ab8-8c41-840b66310f74.webm)
+![video creative 480x480: ](media/0a44cf69-38ff-4ab8-8c41-840b66310f74-741e6f2b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0a44cf69-38ff-4ab8-8c41-840b66310f74.webm")
 
 ## S05 feature-callout
 
 ### Happy Horse 1.1 Ref-to-Video capabilities
 Reference up to nine images in a single generation and Happy Horse 1.1 keeps every subject on-model: consistent faces, accurate products, and a unified visual style from the first frame to the last. It blends multiple references into one scene, transfers style from your images, handles multi-subject shots, and renders cinematic motion with synchronized audio up to 1080p and 15 seconds.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm)
+![video creative 480x480: ](media/a1892296-53ab-4b3c-907e-d46e4509f6a9-b7c4b3b6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm")
 
 ## S06 use-case-grid
 
@@ -43,19 +43,19 @@ What you can create with Happy Horse 1.1 Ref-to-Video
 [button: Product videos from photos]
 [button: Branded style clips]
 Keep the same character looking identical across multiple clips by referencing the same images each time — ideal for episodic and serialized content.
-![image creative 879x418: Happy Horse 1.1 Ref-to-Video consistent character series](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: Happy Horse 1.1 Ref-to-Video consistent character series](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S07 feature-callout
 
 ### How Happy Horse 1.1 Ref-to-Video works inside Picsart
 Picsart runs Happy Horse 1.1 Ref-to-Video inside its AI Playground . You upload up to nine reference images, write a prompt that calls out each one as [Image 1], [Image 2], and so on, and the model composes them into a single 1080p clip with synchronized audio. Because it reads all references together, it preserves the identity, product detail, and style of each source image while generating new motion — turning a set of stills into a coherent shot.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/0f8df66b-1791-43f0-aaa2-5e3c92b8e593.webm)
+![video ui-screenshot 480x480: ](media/0f8df66b-1791-43f0-aaa2-5e3c92b8e593-4b929787.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/0f8df66b-1791-43f0-aaa2-5e3c92b8e593.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose Happy Horse 1.1 Ref-to-Video
 Consistency is the hardest part of AI video, and Happy Horse 1.1 Ref-to-Video is built for it. Creators choose it for reliable character and product continuity across clips, support for up to nine references in one generation, native synchronized audio, and cinematic output up to 1080p and 15 seconds — all without complex setups or specialized equipment. Looking for a different approach? Try the Happy Horse 1.1 model for text-prompt video generation.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/f7b93c0c-7add-4bad-b32c-186069b4fc40.webm)
+![video creative 480x480: ](media/f7b93c0c-7add-4bad-b32c-186069b4fc40-b13deb99.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/f7b93c0c-7add-4bad-b32c-186069b4fc40.webm")
 
 ## S09 tutorial-grid
 
@@ -64,15 +64,15 @@ Learn how to compare video models and choose an output.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -122,23 +122,23 @@ Happy Horse 1.1 Ref-to-Video is a reference-driven AI video model in Picsart's A
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Runway Gen 4 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Gen 4 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Gen 4 Cinematic AI video generation with consistent characters and realistic motion.
-![image thumbnail 342x282: ai video generation](https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp)
+![image thumbnail 342x282: ai video generation](media/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8-0b8f78f4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c02d25a9-fcad-452e-ac4f-a8ad22cfbbc8.webp")
 Veo 3.1 An advanced text-to-video AI model designed to generate high-quality, cinematic videos with realistic motion.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
-![image thumbnail 342x282: google omni](https://cdn-cms-uploads.picsart.com/cms-uploads/727a3ff5-821d-4016-9ff9-c419fb2d87c6.webp)
+![image thumbnail 342x282: google omni](media/727a3ff5-821d-4016-9ff9-c419fb2d87c6-11d723ef.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/727a3ff5-821d-4016-9ff9-c419fb2d87c6.webp")
 Google Omni Google Omni is Google's unified multimodal AI - a single model that generates video and synchronized audio in one pass.
-![image thumbnail 342x282: AI model Reve](https://cdn-cms-uploads.picsart.com/cms-uploads/1abb9e86-4060-4a0d-ac43-b801aeaa04f9.webp)
+![image thumbnail 342x282: AI model Reve](media/1abb9e86-4060-4a0d-ac43-b801aeaa04f9-19553c49.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1abb9e86-4060-4a0d-ac43-b801aeaa04f9.webp")
 Reve Reve is a text-to-image AI model designed for creative and artistic image generation.
-![image thumbnail 342x282: AI model Imagen 4 5 Fast](https://cdn-cms-uploads.picsart.com/cms-uploads/4ec3ed2f-4913-47a9-b67c-c60cd63df598.avif)
+![image thumbnail 342x282: AI model Imagen 4 5 Fast](media/4ec3ed2f-4913-47a9-b67c-c60cd63df598-24a1b49e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4ec3ed2f-4913-47a9-b67c-c60cd63df598.avif")
 Imagen 4.5 Fast Generate images fast with Google Imagen 4.5 Fast — speed-optimized for rapid iteration without sacrificing quality.
-![image thumbnail 342x282: AI model Recraft V4 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp)
+![image thumbnail 342x282: AI model Recraft V4 Pro](media/fdf44d95-a1c2-42ef-ab13-45b5195f5aec-62f4bdb4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp")
 Recraft V4 Pro Generate design-grade AI images with Recraft V4 Pro on Picsart.
-![image thumbnail 342x282: AI model Happy Horse 1.1](https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp)
+![image thumbnail 342x282: AI model Happy Horse 1.1](media/c3cbf8c8-56bb-4544-97d5-a33e0014e699-46417f29.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp")
 Happy Horse 1.1 Generate cinematic 1080p video from text with the Happy Horse 1.1 AI model in Picsart's AI Playground.
-![image thumbnail 342x282: AI model Wan 2 7](https://cdn-cms-uploads.picsart.com/cms-uploads/40b37491-90c0-4b90-b1b8-0da38836b4c2.webp)
+![image thumbnail 342x282: AI model Wan 2 7](media/40b37491-90c0-4b90-b1b8-0da38836b4c2-ad43561f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/40b37491-90c0-4b90-b1b8-0da38836b4c2.webp")
 WAN 2.7 WAN 2.7 in on Picsart. Generate videos with up to 5 reference images.
 
 ## S13 pricing

@@ -8,7 +8,7 @@ AI VIDEO MODELS COMPARISON
 ## Compare Seedance 2.0 vs Runway Gen 4 for AI video
 Seedance 2.0 and Runway Gen 4 represent two different approaches to AI video generation. Seedance focuses on natural motion, physics-driven realism, and consistent multi-shot output, while Runway is built for cinematic control, performance transfer, and professional production workflows. This Seedance vs Runway comparison helps you choose the right model for your workflow.
 Start generating with Seedance 2.0
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d5292893-1141-4ffd-be18-5ab95c908fb8.webm)
+![video creative 480x480: ](media/d5292893-1141-4ffd-be18-5ab95c908fb8-1e249a99.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/d5292893-1141-4ffd-be18-5ab95c908fb8.webm")
 
 ## S02 interactive-demo
 
@@ -69,54 +69,54 @@ Film, ads, production
 
 ### Get familiar with Seedance 2.0 and Runway Gen 4
 Seedance 2.0 is built for natural motion and consistency. It generates videos where movement feels organic, with realistic physics and smooth transitions between scenes, making it ideal for storytelling and everyday content. Runway Gen 4 is built for cinematic control. It gives creators tools like Act-Two performance transfer and advanced camera direction, allowing scenes to be crafted with precision similar to traditional filmmaking workflows.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1d3c1628-e2a2-40f1-9e87-b177de827945.webm)
+![video creative 480x480: ](media/1d3c1628-e2a2-40f1-9e87-b177de827945-255bf36b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3c1628-e2a2-40f1-9e87-b177de827945.webm")
 
 ## S05 feature-callout
 
 ### Understand video quality: natural motion vs cinematic precision
 Both models generate at 1080p, so resolution is not the main differentiator. In this Seedance vs Runway comparison, the key difference lies in motion behavior and visual intent. Seedance produces movement that feels natural and physically accurate, making scenes appear more organic and lifelike. Runway, on the other hand, emphasizes cinematic precision, where motion is carefully directed for dramatic effect and storytelling.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/eb648887-b0d3-488c-b0c7-ec078987fbca.webm)
+![video creative 480x480: ](media/eb648887-b0d3-488c-b0c7-ec078987fbca-52d2e2a3.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/eb648887-b0d3-488c-b0c7-ec078987fbca.webm")
 
 ## S06 feature-callout
 
 ### Break down creative tools and control systems
 Creative control is where Runway Gen 4 stands out. Tools like Act-Two allow real-world performance to be transferred into AI-generated characters, while advanced camera controls enable complex cinematic shots with precision. Seedance 2.0 takes a different approach, focusing on simplicity and consistency. It handles multi-shot sequences and motion automatically, reducing the need for manual setup and making it easier to produce cohesive scenes quickly.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/93d10132-c45f-4970-bb72-8bc9248d037e.webm)
+![video creative 480x480: ](media/93d10132-c45f-4970-bb72-8bc9248d037e-cada5302.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/93d10132-c45f-4970-bb72-8bc9248d037e.webm")
 
 ## S07 feature-callout
 
 ### Review speed, pricing, and platform access
 Speed plays an important role in workflow efficiency. Seedance 2.0 is optimized for fast generation, allowing creators to iterate quickly and produce content at scale. Runway Gen 4 is slower, especially for complex scenes, but delivers more controlled and polished output. Both models are available on Picsart, so you can use them within the same environment without managing multiple tools or subscriptions.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/8c14fb31-81ac-4b2e-9d2a-403a0769594a.webm)
+![video creative 480x480: ](media/8c14fb31-81ac-4b2e-9d2a-403a0769594a-3b3a7d0e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/8c14fb31-81ac-4b2e-9d2a-403a0769594a.webm")
 
 ## S08 feature-callout
 
 ### Try Seedance 2.0 and Runway Gen 4 in one place
 Switching between tools slows you down. With Picsart AI Playground , you can access both models in one place and test them using the same prompt. Compare results instantly, refine your ideas, and choose what works best for your project. You can also continue creating with the AI Video Generator for a more streamlined workflow.
 Try AI Playground
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/5cd399cf-cc15-46a0-a0e7-ceae2c824eb1.webm)
+![video creative 480x480: ](media/5cd399cf-cc15-46a0-a0e7-ceae2c824eb1-fa68800a.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/5cd399cf-cc15-46a0-a0e7-ceae2c824eb1.webm")
 
 ## S09 tutorial-grid
 
 ### Understand AI influencer workflows
 Learn how to keep characters consistent across prompts and scenes.
-![image thumbnail 294x196: How to create a consistent AI character with Picsart AI Influencer Studio preview](https://cdn-cms-uploads.picsart.com/cms-uploads/66aec0ba-e011-4807-88ff-5f0522b2b123.avif)
+![image thumbnail 294x196: How to create a consistent AI character with Picsart AI Influencer Studio preview](media/66aec0ba-e011-4807-88ff-5f0522b2b123-27cfc305.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/66aec0ba-e011-4807-88ff-5f0522b2b123.avif")
 AI influencers
 #### How to create a consistent AI character with Picsart AI Influencer Studio
 4 min Intermediate
-![image thumbnail 294x196: How to build a complete AI influencer Instagram profile with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/54dc6b46-d92c-456a-a7ed-89c8ad3a0646.avif)
+![image thumbnail 294x196: How to build a complete AI influencer Instagram profile with Picsart preview](media/54dc6b46-d92c-456a-a7ed-89c8ad3a0646-7b89005f.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/54dc6b46-d92c-456a-a7ed-89c8ad3a0646.avif")
 AI influencers
 #### How to build a complete AI influencer Instagram profile with Picsart
 5 min Advanced
-![image thumbnail 294x196: How to generate lifestyle content for AI characters with Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/f32c8085-e709-4953-adc2-72412969a36c.avif)
+![image thumbnail 294x196: How to generate lifestyle content for AI characters with Picsart preview](media/f32c8085-e709-4953-adc2-72412969a36c-9d636cfb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f32c8085-e709-4953-adc2-72412969a36c.avif")
 AI influencers
 #### How to generate lifestyle content for AI characters with Picsart
 4 min Intermediate
-![image thumbnail 294x196: How to create AI influencer video content with Picsart AI Video preview](https://cdn-cms-uploads.picsart.com/cms-uploads/269d200e-5a1f-45ac-adce-9b5d3fe526e2.avif)
+![image thumbnail 294x196: How to create AI influencer video content with Picsart AI Video preview](media/269d200e-5a1f-45ac-adce-9b5d3fe526e2-bd60a89b.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/269d200e-5a1f-45ac-adce-9b5d3fe526e2.avif")
 AI influencers
 #### How to create AI influencer video content with Picsart AI Video
 5 min Advanced
-![image thumbnail 294x196: How to monetize an AI influencer account and earn revenue preview](https://cdn-cms-uploads.picsart.com/cms-uploads/bccd4a01-2983-4e60-a5a8-797a37748a19.avif)
+![image thumbnail 294x196: How to monetize an AI influencer account and earn revenue preview](media/bccd4a01-2983-4e60-a5a8-797a37748a19-8de9b271.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/bccd4a01-2983-4e60-a5a8-797a37748a19.avif")
 AI influencers
 #### How to monetize an AI influencer account and earn revenue
 5 min Advanced
@@ -141,23 +141,23 @@ It depends on your goal. Seedance is better for natural motion and consistency, 
 ## S11 link-grid
 
 ### More AI model comparisons
-![image thumbnail 342x282: Kling vs Runway AI video generator comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp)
+![image thumbnail 342x282: Kling vs Runway AI video generator comparison](media/cfcfb357-0b12-47f5-8e78-e4e65168c6db-7591564f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp")
 Kling 3.0 vs Runway Gen 4 Kling 3.0 and Runway Gen 4 are two of the most advanced AI video generators today.
-![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp)
+![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](media/a69952b7-3669-4038-854f-1d365bbeca90-d25c57de.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp")
 Runway Gen 4 vs Veo 3.1 Runway Gen 4 is built for fast, stylized video with hands-on tools. Veo 3.1 focuses on output quality with native 4K and synchronized audio.
-![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp)
+![image thumbnail 342x282: Seedance 2.0 vs Kling 3.0 AI video model comparison](media/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7-f00fba9f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp")
 Seedance 2.0 vs Kling 3.0 Seedance 2.0 supports up to 12 reference inputs in one workflow. Kling 3.0 delivers native 4K video at up to 60fps.
-![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI video generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp)
+![image thumbnail 342x282: Veo 3.1 vs Kling 3.0 AI video generation comparison](media/135dae81-f8b2-4487-b873-cebf4340b36a-8b6dfff8.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp")
 Veo 3.1 vs Kling 3.0 Google Veo 3.1 and Kuaishou Kling 3.0 are shaping how AI video gets created today.
-![image thumbnail 342x282: WAN 2.7 vs Kling 3.0 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/a54d9358-029f-4f24-84bd-9f20455fd335.webp)
+![image thumbnail 342x282: WAN 2.7 vs Kling 3.0 AI video model comparison](media/a54d9358-029f-4f24-84bd-9f20455fd335-d1709ce4.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a54d9358-029f-4f24-84bd-9f20455fd335.webp")
 WAN 2.7 vs Kling 3.0 WAN 2.7 and Kling 3.0 take different routes to high-quality AI video generation.
-![image thumbnail 342x282: Imagen 4.0 Ultra vs GPT Image 1.5 AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/6adeac96-9e9e-48b2-a5b6-6b8473e68183.webp)
+![image thumbnail 342x282: Imagen 4.0 Ultra vs GPT Image 1.5 AI image model comparison](media/6adeac96-9e9e-48b2-a5b6-6b8473e68183-8fbd190e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/6adeac96-9e9e-48b2-a5b6-6b8473e68183.webp")
 Imagen 4.0 Ultra vs GPT Image 1.5 Imagen 4.0 Ultra focuses on photorealistic fidelity while GPT Image 1.5 leads in prompt adherence and creative versatility.
-![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp)
+![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](media/87d69495-9565-4aec-b716-f7c849e66b1b-54c4e794.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp")
 Flux 2 Pro vs Midjourney Flux 2 Pro and Midjourney represent two different approaches to AI image generation.
-![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](media/ff20b102-6a77-4fd6-81f1-d75266821170-15c3ed8e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp")
 GPT Image 1.5 vs Flux 2 Pro GPT Image 1.5 and Flux 2 Pro perform nearly identically on benchmarks but excel in different areas.
-![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp)
+![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](media/22f2e909-5f7c-4533-892a-6119456ada3f-3b5d421b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp")
 Recraft V4 vs Midjourney Recraft focuses on design precision, typography, and vector output, while Midjourney is known for artistic quality and creative expression.
 
 ## S12 pricing

@@ -36,13 +36,13 @@ Transform videos with AI
 
 ## S03 feature-row
 
-![image icon 96x96: unique video styles with ai video filters](https://pastatic.picsart.com/cms-pastatic/7bfeffa8-8601-4a4f-a2a7-813e0fec6d8f.png)
+![image icon 96x96: unique video styles with ai video filters](media/7bfeffa8-8601-4a4f-a2a7-813e0fec6d8f-299848d6.png "https://pastatic.picsart.com/cms-pastatic/7bfeffa8-8601-4a4f-a2a7-813e0fec6d8f.png")
 #### Unique styles
 Make your video stand out by revamping its styles.
-![image icon 96x96: fast video filters with Picsart ai video effects](https://pastatic.picsart.com/cms-pastatic/6b4ec62f-784a-4808-8c3f-049e8f5f366d.png)
+![image icon 96x96: fast video filters with Picsart ai video effects](media/6b4ec62f-784a-4808-8c3f-049e8f5f366d-fd84b496.png "https://pastatic.picsart.com/cms-pastatic/6b4ec62f-784a-4808-8c3f-049e8f5f366d.png")
 #### Momentary effects
 Speed up your editing process with snappy AI video filters.
-![image icon 96x96: quick and easy Picsart's AI video filters](https://pastatic.picsart.com/cms-pastatic/b03a6032-fd90-40c8-a2d7-7f54998d887f.png)
+![image icon 96x96: quick and easy Picsart's AI video filters](media/b03a6032-fd90-40c8-a2d7-7f54998d887f-58bbfebf.png "https://pastatic.picsart.com/cms-pastatic/b03a6032-fd90-40c8-a2d7-7f54998d887f.png")
 #### Effortless transformation
 Describe the style and let AI change the look of your video.
 
@@ -60,63 +60,63 @@ Start by selecting a video you’d like to edit with AI.
 #### Preview
 5
 #### Download
-![image creative 480x600: How to apply AI video filters](https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.png)
+![image creative 480x600: How to apply AI video filters](media/4b5ae618-24bf-4c8f-9485-513cf7eec37c-d9ef89f4.png "https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.png")
 
 ## S05 feature-callout
 
 ### Spice up your videos with the style changer
 Turn your videos into a cartoon, anime, or animated art piece in a matter of minutes without having to spend hours using and knowing how to use professional video editing software. Just be specific about the style you’re aiming for in the prompt box to get the desirable result. The more specific you are, the closer the end result will be to your prompt.
-![image creative 480x480: Change your video style with Picsart AI video effects in seconds](https://pastatic.picsart.com/cms-pastatic/a0c8e733-7529-4f9c-8aa0-f9127c54bde1.png)
+![image creative 480x480: Change your video style with Picsart AI video effects in seconds](media/a0c8e733-7529-4f9c-8aa0-f9127c54bde1-77c7c135.png "https://pastatic.picsart.com/cms-pastatic/a0c8e733-7529-4f9c-8aa0-f9127c54bde1.png")
 
 ## S06 feature-callout
 
 ### Create artistic videos with AI
 Turn a casual video into a piece of art with unique AI-powered styles. Select from a library of pre-made artistic presets to speed up your AI video editing process even further and discover new style directions for your video content.
-![image creative 480x480: Add artistic look to video by AI video effects](https://pastatic.picsart.com/cms-pastatic/dedd4d22-5e90-4f02-841f-15e436ef9603.png)
+![image creative 480x480: Add artistic look to video by AI video effects](media/dedd4d22-5e90-4f02-841f-15e436ef9603-d3bfb2a1.png "https://pastatic.picsart.com/cms-pastatic/dedd4d22-5e90-4f02-841f-15e436ef9603.png")
 
 ## S07 feature-callout
 
 ### The best way of writing a prompt
 To get the best results when revamping your videos with the video-to-video AI tool, make sure you describe your ideas about how the video should look in the prompt box. Avoid vague words and instead, go for a string of descriptive phrases that paint a clear picture of the end result. Always make sure to specify the style and artistic format and throw in a few adjectives. Example: “anime, bold outlines, muted colors.”
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/88acfa64-e3f5-425a-86ad-968126383bc4.webm)
+![video creative 480x480: ](media/88acfa64-e3f5-425a-86ad-968126383bc4-d57b89c4.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/88acfa64-e3f5-425a-86ad-968126383bc4.webm")
 
 ## S08 feature-callout
 
 ### Apply video filters to transform the look
 You can completely reinvent the look of your content with custom video filters and effects. Easily turn it into an animation of any style you can think of. Experiment with various art styles to find the one that fits your vision the best. Recycle older videos and present them in an entirely new way with AI video filters.
-![image creative 480x480: Apply video filters to transform the look](https://pastatic.picsart.com/cms-pastatic/c684d451-7461-41cd-a63f-9d0886e3db61.png)
+![image creative 480x480: Apply video filters to transform the look](media/c684d451-7461-41cd-a63f-9d0886e3db61-6bfa5ab8.png "https://pastatic.picsart.com/cms-pastatic/c684d451-7461-41cd-a63f-9d0886e3db61.png")
 
 ## S09 feature-callout
 
 ### Develop your own style with custom video filters
 Create consistent yet unique styles for your content with AI video filters. Found a prompt that works the best for your videos? Just save it and apply the same video filter to other videos as well. It’s that simple. Effortlessly create unique appearances for your videos without needing expensive editing software.
-![image creative 480x480: Develop your own style with custom video filters](https://pastatic.picsart.com/cms-pastatic/094ede42-7aea-4524-949d-53685a0a0edd.png)
+![image creative 480x480: Develop your own style with custom video filters](media/094ede42-7aea-4524-949d-53685a0a0edd-d3f9ae95.png "https://pastatic.picsart.com/cms-pastatic/094ede42-7aea-4524-949d-53685a0a0edd.png")
 
 ## S10 tutorial-grid
 
 ### Learn video editing basics
 Learn how to make cleaner edits to clips.
-![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif)
+![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](media/9568f28a-001a-481d-8d02-8babcb115e7e-eae505fe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif")
 Video editing
 #### How to edit videos with AI in Picsart video editor
 5 min Intermediate
-![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif)
+![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](media/72ce5f51-9491-4ebf-85b1-c6dd8355d44e-8197708a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif")
 Video editing
 #### How to apply AI video filters and effects in Picsart
 4 min Beginner
-![image thumbnail 294x196: How to add text and captions to videos online preview](https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif)
+![image thumbnail 294x196: How to add text and captions to videos online preview](media/7b1f20ea-7e72-477c-81f2-f677d6e10fd4-4a367a4d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif")
 Video editing
 #### How to add text and captions to videos online
 4 min Beginner
-![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif)
+![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](media/dfa3bef9-5ca9-4b63-a795-79db0819217f-1ed29733.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif")
 Video editing
 #### How to create smooth video transitions with AI effects
 4 min Intermediate
-![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif)
+![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](media/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635-f2c26bd4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif")
 Video editing
 #### How to export videos for TikTok, Reels, YouTube, and Stories
 5 min Intermediate
-![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85)
+![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](media/c48797c6-b6f9-4cd7-9695-a1686d0998cc-2964cf18.png "https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85")
 Video editing
 #### How to fix eye contact in talking-head videos with AI
 4 min Intermediate
@@ -138,30 +138,30 @@ AI video style changer is an innovative approach that harnesses the power of art
 
 ### More AI-powered editing tools
 See how AI tools can be your creative assistant and help you turn concepts into completed projects.
-![image thumbnail 342x282: Picsart ai video generator](https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png)
+![image thumbnail 342x282: Picsart ai video generator](media/0888c645-ef3a-4d3f-b290-2f5e42b8f966-e8cfde11.png "https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png")
 AI video generator Transform your video into an animated feature with AI.
-![image thumbnail 342x282: ai image generator](https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png)
+![image thumbnail 342x282: ai image generator](media/ee7ad2e6-c1c1-4867-8221-7920dd45da6c-d72a25cd.png "https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png")
 AI image generator Type your vision and let AI transform your words into fascinating visuals.
-![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png)
+![image thumbnail 342x282: Generate backgrounds with Picsart's AI background generator](media/e406abf2-c475-4919-be1e-c57be0648628-9d9d3ef5.png "https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png")
 AI avatar Generate portraits in various styles with AI.
-![image thumbnail 342x282: white background](https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png)
+![image thumbnail 342x282: white background](media/3d6dc29e-f572-4926-8c78-29199699ddb8-d31813ff.png "https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png")
 AI enhance Upscale the resolution of multiple images with AI in one go.
-![image thumbnail 342x282: ai replace](https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png)
+![image thumbnail 342x282: ai replace](media/bf789f0d-1ba7-489e-94b0-029b56ba2e8a-5207dc4d.png "https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png")
 AI replace Replace unwanted objects with AI-generated elements.
-![image thumbnail 342x282: ai content generator](https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png)
+![image thumbnail 342x282: ai content generator](media/aa157e8a-f40c-4f90-99c6-bb541b857371-ddbd8cb4.png "https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png")
 AI writer Let AI come up with creative captions and copy for your visuals.
-![image thumbnail 342x282: ai photo editing tools](https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png?type=webp&r=1280&to=min)
+![image thumbnail 342x282: ai photo editing tools](media/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4-030ccc24.png "https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png?type=webp&r=1280&to=min")
 AI photo editing Supercharge your editing process with AI-powered tools.
-![image thumbnail 342x282: ai background](https://pastatic.picsart.com/cms-pastatic/a6b02f5d-acc8-4c8d-a876-c185ddde11b6.png)
+![image thumbnail 342x282: ai background](media/a6b02f5d-acc8-4c8d-a876-c185ddde11b6-004ebecd.png "https://pastatic.picsart.com/cms-pastatic/a6b02f5d-acc8-4c8d-a876-c185ddde11b6.png")
 AI background Spice up your visuals in seconds with unique AI backgrounds.
 
 ## S13 gallery
 
 As Seen in
-![image creative 202x67: boredpanda](https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png)
-![image creative 202x67: COSMOPOLITAN](https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png)
-![image creative 202x67: UPROXX](https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png)
-![image creative 202x67: yahoo! news](https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png)
+![image creative 202x67: boredpanda](media/62326208175447912547-400cf328.png "https://yearly-cdn.picsart.com/cdn140/62326208175447912547.png")
+![image creative 202x67: COSMOPOLITAN](media/09078530482880184775-edbdb27c.png "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png")
+![image creative 202x67: UPROXX](media/60501354869620964238-287e26c0.png "https://yearly-cdn.picsart.com/cdn140/60501354869620964238.png")
+![image creative 202x67: yahoo! news](media/81290313840813238412-c211d68f.png "https://yearly-cdn.picsart.com/cdn140/81290313840813238412.png")
 
 ## S14 pricing
 

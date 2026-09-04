@@ -37,7 +37,7 @@ AI IMAGE MODELS COMPARISON
 ### Compare Imagen 4.0 Ultra vs GPT Image 1.5 for AI image generation
 Imagen 4.0 Ultra and GPT Image 1.5 represent two advanced approaches to AI image generation. Imagen focuses on photorealistic fidelity, lighting accuracy, and physical realism, while GPT Image 1.5 delivers strong prompt adherence, versatile style output, and reliable text rendering. This Imagen vs GPT Image comparison helps you choose the right model for your workflow.
 Try AI Playground
-![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/4418775b-f398-43f5-ac05-ecb5156c80f4.png)
+![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 AI image model comparison](media/4418775b-f398-43f5-ac05-ecb5156c80f4-868c1593.png "https://cdn-cms-uploads.picsart.com/cms-uploads/4418775b-f398-43f5-ac05-ecb5156c80f4.png")
 
 ## S03 interactive-demo
 
@@ -98,50 +98,50 @@ Multi-style content
 
 ### Get familiar with Imagen 4.0 Ultra and GPT Image 1.5
 Imagen 4.0 Ultra focuses on realism and physical accuracy. It produces highly detailed images with natural lighting, accurate shadows, and realistic textures that closely resemble real-world photography. GPT Image 1.5 focuses on flexibility, generating images across a wide range of styles while maintaining strong prompt understanding and consistent composition across different creative tasks.
-![image creative 480x480: Imagen 4.0 Ultra and GPT Image 1.5 overview](https://cdn-cms-uploads.picsart.com/cms-uploads/5a35f6b0-de7e-43ac-bae7-4effd9205758.png)
+![image creative 480x480: Imagen 4.0 Ultra and GPT Image 1.5 overview](media/5a35f6b0-de7e-43ac-bae7-4effd9205758-5008ebb0.png "https://cdn-cms-uploads.picsart.com/cms-uploads/5a35f6b0-de7e-43ac-bae7-4effd9205758.png")
 
 ## S06 feature-callout
 
 ### Explore image quality: photorealism vs creative versatility
 The difference becomes clear in how each model handles visual output. Imagen 4.0 Ultra excels at photorealistic rendering, producing images with convincing lighting behavior, material detail, and depth that feel grounded in reality. GPT Image 1.5 also produces strong visuals, but spreads its capabilities across multiple styles, making it more adaptable for illustration, design, and mixed creative formats.
-![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 image quality and aesthetics](https://cdn-cms-uploads.picsart.com/cms-uploads/0794e437-6b7c-44e8-ab44-359409c2fab3.png)
+![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 image quality and aesthetics](media/0794e437-6b7c-44e8-ab44-359409c2fab3-f2691afb.png "https://cdn-cms-uploads.picsart.com/cms-uploads/0794e437-6b7c-44e8-ab44-359409c2fab3.png")
 
 ## S07 feature-callout
 
 ### Understand prompt control and composition
 Prompt handling is where GPT Image 1.5 stands out. It follows complex instructions closely, ensuring that elements, colors, and layouts appear exactly as described. Imagen 4.0 Ultra also performs well with prompts, particularly in realistic scenes, but focuses more on interpreting visual accuracy than handling highly structured instructions. Both models produce strong compositions, but GPT Image offers slightly more control in multi-element scenarios.
-![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 prompt control and composition](https://cdn-cms-uploads.picsart.com/cms-uploads/89547d1a-6d48-425c-88ae-2ef3e02b1601.png)
+![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 prompt control and composition](media/89547d1a-6d48-425c-88ae-2ef3e02b1601-6f224c0c.png "https://cdn-cms-uploads.picsart.com/cms-uploads/89547d1a-6d48-425c-88ae-2ef3e02b1601.png")
 
 ## S08 feature-callout
 
 ### See how the style range and workflow differ
 Creative workflows differ based on how each model is used. GPT Image 1.5 supports a wide range of visual styles, making it suitable for projects that require switching between design, illustration, and photography. Imagen 4.0 Ultra is more specialized, delivering consistent high-fidelity output for realistic scenes where lighting and material behavior matter most.
-![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 style range and workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/72634ff9-8d67-415c-86b4-e70aca962fab.png)
+![image creative 480x480: Imagen 4.0 Ultra vs GPT Image 1.5 style range and workflow](media/72634ff9-8d67-415c-86b4-e70aca962fab-3afd443a.png "https://cdn-cms-uploads.picsart.com/cms-uploads/72634ff9-8d67-415c-86b4-e70aca962fab.png")
 
 ## S09 feature-callout
 
 ### Try Imagen 4.0 Ultra and GPT Image 1.5 in one place
 Switching between tools slows you down. With Picsart AI Playground , you can access both models in one place and test them using the same prompt. Compare results instantly, refine your ideas, and choose what works best for your project. You can also continue creating with the AI Video Generator for a more streamlined workflow.
 Try AI Playground
-![image creative 480x480: Try Imagen 4.0 Ultra and GPT Image 1.5 in Picsart AI Playground](https://cdn-cms-uploads.picsart.com/cms-uploads/84d97db7-276b-4905-be9c-360ad029f9c6.png)
+![image creative 480x480: Try Imagen 4.0 Ultra and GPT Image 1.5 in Picsart AI Playground](media/84d97db7-276b-4905-be9c-360ad029f9c6-1ed1d082.png "https://cdn-cms-uploads.picsart.com/cms-uploads/84d97db7-276b-4905-be9c-360ad029f9c6.png")
 
 ## S10 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -163,23 +163,23 @@ It depends on your goal. Imagen 4.0 Ultra is better for photorealism and physica
 ## S12 link-grid
 
 ### More AI model comparisons
-![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Flux 2 Pro AI image model comparison](media/ff20b102-6a77-4fd6-81f1-d75266821170-15c3ed8e.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp")
 GPT Image 1.5 vs Flux 2 Pro OpenAI GPT Image 1.5 and Black Forest Labs Flux 2 Pro perform nearly identically on quality benchmarks but excel in different areas.
-![image thumbnail 342x282: GPT Image 1.5 vs Midjourney AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp)
+![image thumbnail 342x282: GPT Image 1.5 vs Midjourney AI image model comparison](media/288da9d2-eca6-41cb-8c1e-734a0678b8ac-a5c37413.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp")
 GPT Image 1.5 vs Midjourney GPT Image 1.5 focuses on precision and text accuracy, while Midjourney is known for artistic quality and visual storytelling.
-![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp)
+![image thumbnail 342x282: Flux 2 Pro vs Midjourney AI image generation comparison](media/87d69495-9565-4aec-b716-f7c849e66b1b-54c4e794.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp")
 Flux 2 Pro vs Midjourney Flux 2 Pro and Midjourney represent two different approaches to AI image generation. Flux focuses on speed, control, and high-resolution output, while Midjourney is known for artistic style and creative interpretation.
-![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp)
+![image thumbnail 342x282: Nano Banana 2 vs Flux 2 Pro AI image generation comparison](media/558fd9db-6923-4c0a-b294-4be80a20aeb1-1908748c.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp")
 Nano Banana 2 vs Flux 2 Pro Nano Banana 2 by Google DeepMind and Flux 2 Pro by Black Forest Labs take different approaches to AI image generation.
-![image thumbnail 342x282: DALL-E 3 vs Midjourney AI image model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/2adc1808-ac7d-4243-8b87-ebb39c93ffc2.webp)
+![image thumbnail 342x282: DALL-E 3 vs Midjourney AI image model comparison](media/2adc1808-ac7d-4243-8b87-ebb39c93ffc2-04debdac.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/2adc1808-ac7d-4243-8b87-ebb39c93ffc2.webp")
 DALL-E 3 vs Midjourney DALL-E 3 focuses on prompt accuracy and text rendering, while Midjourney is known for cinematic visuals and artistic depth.
-![image thumbnail 342x282: Ideogram 3.0 Flash vs Flux 2 Pro AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/37d0c981-94b4-4466-9422-d45c631d39a4.webp)
+![image thumbnail 342x282: Ideogram 3.0 Flash vs Flux 2 Pro AI image generation comparison](media/37d0c981-94b4-4466-9422-d45c631d39a4-899bcf25.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/37d0c981-94b4-4466-9422-d45c631d39a4.webp")
 Ideogram 3.0 Flash vs Flux 2 Pro Ideogram leads in text rendering and typography, while Flux 2 Pro stands out for speed, resolution, and photorealistic depth.
-![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp)
+![image thumbnail 342x282: Recraft V4 vs Midjourney V7 AI image generation comparison](media/22f2e909-5f7c-4533-892a-6119456ada3f-3b5d421b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp")
 Recraft V4 vs Midjourney Recraft focuses on design precision, typography, and vector output, while Midjourney is known for artistic quality and creative expression.
-![image thumbnail 342x282: Kling vs Runway AI video generator comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp)
+![image thumbnail 342x282: Kling vs Runway AI video generator comparison](media/cfcfb357-0b12-47f5-8e78-e4e65168c6db-7591564f.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp")
 Kling 3.0 vs Runway Gen 4 Kling 3.0 and Runway Gen 4 are two of the most advanced AI video generators today.
-![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp)
+![image thumbnail 342x282: Runway Gen 4 vs Veo 3.1 AI video model comparison](media/a69952b7-3669-4038-854f-1d365bbeca90-d25c57de.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp")
 Runway Gen 4 vs Veo 3.1 Runway Gen 4 is built for fast, stylized video with hands-on tools. Veo 3.1 focuses on output quality with native 4K and synchronized audio.
 
 ## S13 pricing

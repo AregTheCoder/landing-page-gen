@@ -7,17 +7,17 @@
 ## Brand identity creation made simple
 Create your memorable brand identity with easy-to-use tools in Picsart, regardless of your design skill level. Tap into the brand identity generator’s state-of-the-art AI to generate memorable logo designs from scratch, select brand colors and typography, and create reusable brand templates for a streamlined workflow.
 Create a brand identity
-![image creative 480x480: online brand identity generator](https://pastatic.picsart.com/cms-pastatic/0e470b88-8e0d-4e5e-af7f-1c344ab25bca.png)
+![image creative 480x480: online brand identity generator](media/0e470b88-8e0d-4e5e-af7f-1c344ab25bca-662d2d73.png "https://pastatic.picsart.com/cms-pastatic/0e470b88-8e0d-4e5e-af7f-1c344ab25bca.png")
 
 ## S02 feature-row
 
-![image icon 96x96: icon for fast logo creation](https://pastatic.picsart.com/cms-pastatic/a2b86bc2-e338-4873-bcdb-4e8c1afbc664.png)
+![image icon 96x96: icon for fast logo creation](media/a2b86bc2-e338-4873-bcdb-4e8c1afbc664-032412ff.png "https://pastatic.picsart.com/cms-pastatic/a2b86bc2-e338-4873-bcdb-4e8c1afbc664.png")
 #### Effortless logo creation
 No logo? No problem! Create one in seconds with the AI logo generator. Upload your favorite logo examples to get designs that are similar.
-![image icon 96x96: icon for brand identity asset generation](https://pastatic.picsart.com/cms-pastatic/199474db-67fa-47d6-b767-1476748ea089.png)
+![image icon 96x96: icon for brand identity asset generation](media/199474db-67fa-47d6-b767-1476748ea089-3c610d8a.png "https://pastatic.picsart.com/cms-pastatic/199474db-67fa-47d6-b767-1476748ea089.png")
 #### Brand identity asset library
 Explore Picsart’s vast library of fonts and text styles to find the perfect assets for your brand, whether it's something subtle or bold.
-![image icon 96x96: icon for templates library](https://pastatic.picsart.com/cms-pastatic/edb5a960-5b39-4010-9a71-0a7c74722617.png)
+![image icon 96x96: icon for templates library](media/edb5a960-5b39-4010-9a71-0a7c74722617-73bb5bd8.png "https://pastatic.picsart.com/cms-pastatic/edb5a960-5b39-4010-9a71-0a7c74722617.png")
 #### Reusable brand templates
 Browse or create your own template, tailored to your brand identity to make content faster.
 
@@ -38,38 +38,38 @@ Use the Start creating button to get started.
 #### Create a brand identity
 4
 #### Adjust your kit
-![image creative 480x600: how to create a brand identity](https://pastatic.picsart.com/cms-pastatic/b55e12d1-00d3-4880-bbff-68ee8ca0ab6a.png)
+![image creative 480x600: how to create a brand identity](media/b55e12d1-00d3-4880-bbff-68ee8ca0ab6a-65fbdcea.png "https://pastatic.picsart.com/cms-pastatic/b55e12d1-00d3-4880-bbff-68ee8ca0ab6a.png")
 
 ## S05 feature-callout
 
 ### Craft a unique look and feel with the brand identity generator
 Create a brand identity with Picsart that’s totally you. Create custom logos and pick the perfect fonts and colors without needing branding or design expertise. It’s all about building a vibe that stands out and makes people remember your brand. Technical tasks like designing and drawing can be safely delegated to Picsart’s state-of-the-art AI and easy-to-use tools.
-![image creative 480x480: create a brand identity](https://pastatic.picsart.com/cms-pastatic/0f03db11-a672-4ffb-b5ea-909d0e55e5fb.png)
+![image creative 480x480: create a brand identity](media/0f03db11-a672-4ffb-b5ea-909d0e55e5fb-69898aff.png "https://pastatic.picsart.com/cms-pastatic/0f03db11-a672-4ffb-b5ea-909d0e55e5fb.png")
 
 ## S06 feature-callout
 
 ### Present a consistent look across platforms
 Picsart's brand identity creator makes it easy to stay on-brand so your audience instantly recognizes you. After creating your brand colors and style, save your assets within Picsart's Brand Kit to keep your brand looking sharp everywhere online – your website, socials, or ads.
-![image creative 480x480: generate brand identity and present a consistent look](https://pastatic.picsart.com/cms-pastatic/cf140e97-6c14-4ba8-af30-ed880509aafc.png)
+![image creative 480x480: generate brand identity and present a consistent look](media/cf140e97-6c14-4ba8-af30-ed880509aafc-fc93fd79.png "https://pastatic.picsart.com/cms-pastatic/cf140e97-6c14-4ba8-af30-ed880509aafc.png")
 
 ## S07 feature-callout
 
 ### Streamline your creative process with Picsart
 Why juggle a bunch of tools when you can do it all in one place? Easily access your brand kit when creating both digital and physical collaterals with Picsart. Design reusable templates tailored to your brand and easily adjust your designs for various content formats with the image resizer . Everything you need is built into one, easy-to-use interface that just lives inside a browser tab so you can do brand identity creation with minimal effort but maximal impact.
-![image creative 480x480: quick and easy brand identity creator](https://pastatic.picsart.com/cms-pastatic/f711bf50-d38d-4c87-917c-554ca6bb0b73.png)
+![image creative 480x480: quick and easy brand identity creator](media/f711bf50-d38d-4c87-917c-554ca6bb0b73-0ec1d833.png "https://pastatic.picsart.com/cms-pastatic/f711bf50-d38d-4c87-917c-554ca6bb0b73.png")
 
 ## S08 feature-callout
 
 Find all you need to create a brand identity in one place
 Logo templates
 Choose from a massive library of professionally designed logo templates that you can edit in just a few clicks. ready for quick customization. You can easily edit them to fit your brand’s style in just a few steps.
-![image decorative 591x591: logo templates](https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png)
+![image decorative 591x591: logo templates](media/3e1bccb3-5085-46eb-9a9f-b75314180d8e-68685ae7.png "https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png")
 Logo generator
 Need a logo, fast? Let the AI logo generator do the heavy lifting and deliver a high-quality logo with minimal effort. The state-of-the-art AI will even masterfully incorporate your brand name into the design, and you can even upload logo examples to get similar designs.
-![image decorative 591x591: logo generator](https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png)
+![image decorative 591x591: logo generator](media/6e05cdb5-7265-40b2-b982-f887be69bc28-6b01ed26.png "https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png")
 Custom fonts and text styles
 Easily import your brand’s font or explore Picsart’s vast library of fonts and text styles. Whether you want something bold or subtle, you’ll find the perfect match that works perfectly with your branding. Want full control over how your text appears in your content? Adjust color, size, alignment, and bend with ease.
-![image creative 591x369: custom fonts and text styles](https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.png)
+![image creative 591x369: custom fonts and text styles](media/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9-5794192a.png "https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.png")
 
 ## S09 faq
 
@@ -82,21 +82,21 @@ A brand identity, also known as visual identity, is the visual representation of
 ## S10 link-grid
 
 ### More tools to love from Picsart
-![image thumbnail 342x282: create a logo with AI](https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png)
+![image thumbnail 342x282: create a logo with AI](media/d35c51d7-7ade-4844-bc61-268b9d11485b-0e4de31e.png "https://pastatic.picsart.com/cms-pastatic/d35c51d7-7ade-4844-bc61-268b9d11485b.png")
 AI logo generator Create a memorable brand identity with AI and minimal effort.
-![image thumbnail 342x282: create logo with picsart logo maker](https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png)
+![image thumbnail 342x282: create logo with picsart logo maker](media/9e5a95e9-73dc-421c-a935-5d0f449cb419-40372cb4.png "https://pastatic.picsart.com/cms-pastatic/9e5a95e9-73dc-421c-a935-5d0f449cb419.png")
 Logo maker Effortlessly create logos without needing a design degree.
-![image thumbnail 342x282: Color wheel by Picsart](https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png)
+![image thumbnail 342x282: Color wheel by Picsart](media/7e3e579f-3bfa-445c-aa33-d2650ecfdf17-49a78696.png "https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png")
 Color wheel Explore color schemes, find complementary colors, and master color theory with Picsart.
-![image thumbnail 342x282: Color picker by Picsart](https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png)
+![image thumbnail 342x282: Color picker by Picsart](media/dbebc97c-a7ff-459a-9113-90fdc590d3dc-1d667512.png "https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png")
 Color picker Find the exact color tone you are looking for in HEX, RGB, HSL, and CMYK formats.
-![image thumbnail 342x282: png logo maker](https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png)
+![image thumbnail 342x282: png logo maker](media/77c3b11c-a1e6-4135-811b-cb64f8203b10-2b9ddb1e.png "https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png")
 PNG logo maker Create PNG logos easily with Picsart's online PNG logo maker.
-![image thumbnail 342x282: change the background to solid color](https://pastatic.picsart.com/cms-pastatic/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32.png)
+![image thumbnail 342x282: change the background to solid color](media/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32-e2c781cf.png "https://pastatic.picsart.com/cms-pastatic/d35c9ec2-c5fc-41c0-b697-fed9aeb40a32.png")
 Change background color Switch to a solid-color background with ease.
-![image thumbnail 342x282: create images from scratch with AI](https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png)
+![image thumbnail 342x282: create images from scratch with AI](media/b5d230fc-49ed-43ee-b8a1-20e940ea027b-87706f44.png "https://pastatic.picsart.com/cms-pastatic/b5d230fc-49ed-43ee-b8a1-20e940ea027b.png")
 AI image generator Type your vision and let AI transform your words into fascinating images.
-![image thumbnail 342x282: all-in-one photo editor](https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png)
+![image thumbnail 342x282: all-in-one photo editor](media/86c853b4-870c-4ec9-b986-2481f08ac76c-5a245575.png "https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png")
 Photo editor Finetune your images with trendy fonts, filters and effects, stickers, and more.
 
 ## S11 pricing

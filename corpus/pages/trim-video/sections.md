@@ -6,7 +6,7 @@
 
 ## Free Video Trimmer
 Shorten video online in seconds with Picsart's easy-to-use Video Trimmer. Trim video clips to the perfect length, highlight the best moments, and create engaging content with just a few clicks using the Video Editor .
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/551dc1d9-0625-4093-988f-0be1efeddda1.webm)
+![video creative 480x480: ](media/551dc1d9-0625-4093-988f-0be1efeddda1-b04b30ed.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/551dc1d9-0625-4093-988f-0be1efeddda1.webm")
 
 ## S02 link-grid
 
@@ -39,13 +39,13 @@ O1-architecture video generation with 5 or 10 second output. Cinematic Video gen
 
 ## S03 feature-row
 
-![image icon 96x96: icon for fast trimming workflow](https://cdn-cms-uploads.picsart.com/cms-uploads/b1edd799-9014-45c7-87fc-4172ba394e7f.png)
+![image icon 96x96: icon for fast trimming workflow](media/b1edd799-9014-45c7-87fc-4172ba394e7f-9b6c7291.png "https://cdn-cms-uploads.picsart.com/cms-uploads/b1edd799-9014-45c7-87fc-4172ba394e7f.png")
 #### Fast trimming workflow
 Shorten videos from the start or end in just a few clicks. Quick edits and a smooth flow help you finish trims without extra steps.
-![image icon 96x96: icon for editing video timeline](https://cdn-cms-uploads.picsart.com/cms-uploads/f3a740d3-6400-43d3-9178-cd97487c3ff2.png)
+![image icon 96x96: icon for editing video timeline](media/f3a740d3-6400-43d3-9178-cd97487c3ff2-f33b7898.png "https://cdn-cms-uploads.picsart.com/cms-uploads/f3a740d3-6400-43d3-9178-cd97487c3ff2.png")
 #### Edit directly on the timeline
 Work within the video timeline to trim one or multiple clips, split footage, and manage layers with precision.
-![image icon 96x96: icon for quality video trimming](https://cdn-cms-uploads.picsart.com/cms-uploads/a8f4c621-4641-4315-ada1-cc0e705c4e13.png)
+![image icon 96x96: icon for quality video trimming](media/a8f4c621-4641-4315-ada1-cc0e705c4e13-74366972.png "https://cdn-cms-uploads.picsart.com/cms-uploads/a8f4c621-4641-4315-ada1-cc0e705c4e13.png")
 #### High-quality results
 Trim your clips without losing clarity. Edits stay sharp and clean, so your videos are ready to share after every cut.
 
@@ -61,31 +61,31 @@ Start by uploading your video from your device or selecting one from your saved 
 #### Adjust the video length
 4
 #### Apply and export
-![video ui-screenshot 480x600: ](https://cdn-cms-uploads.picsart.com/cms-uploads/43b55eba-9111-4636-af3e-7f4dbc24167d.webm)
+![video ui-screenshot 480x600: ](media/43b55eba-9111-4636-af3e-7f4dbc24167d-5768b6c5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/43b55eba-9111-4636-af3e-7f4dbc24167d.webm")
 
 ## S05 feature-callout
 
 ### Set the perfect video length with a free Video Trimmer
 Picsart's free Video Trimmer lets you shorten video clips and trim video online quickly and easily. It's beginner-friendly and designed to keep your videos high quality while helping you highlight the best moments, create a clear story timeline, and prepare engaging content for social sharing.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e14ef221-5202-4a1e-9f96-e4c6eeef0f5e.webm)
+![video creative 480x480: ](media/e14ef221-5202-4a1e-9f96-e4c6eeef0f5e-a0b691c6.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e14ef221-5202-4a1e-9f96-e4c6eeef0f5e.webm")
 
 ## S06 feature-callout
 
 ### Shorten long videos for social sharing
 Picsart makes it easy to turn long videos into shorter, shareable content using trimming and splitting together. Cut down full YouTube videos into Shorts, create podcast trailers, or build multiple short clips from one long recording. By removing sections and splitting clips directly in the timeline, you can reuse your content efficiently and adapt it for different platforms without starting from scratch.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/2a135da7-fb70-4ebb-850f-2f3014d232f4.webm)
+![video creative 480x480: ](media/2a135da7-fb70-4ebb-850f-2f3014d232f4-703d5107.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/2a135da7-fb70-4ebb-850f-2f3014d232f4.webm")
 
 ## S07 feature-callout
 
 ### Trim and cut videos with full control
 With Picsart's online Video Trimmer, you can shorten videos with more flexibility than simple start or end cuts. By editing directly in the timeline, you can split clips, remove unwanted sections from the middle, and delete unnecessary moments. This gives you precise control over what stays in your video, helping you clean up content efficiently without extra tools or complicated steps.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/47342f1f-c14f-4621-ab3f-1311ff428255.webm)
+![video creative 480x480: ](media/47342f1f-c14f-4621-ab3f-1311ff428255-f7fd8728.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/47342f1f-c14f-4621-ab3f-1311ff428255.webm")
 
 ## S08 feature-callout
 
 ### Enhance your videos with video editing tools
 Trimming is just the first step. After you shorten your clip, explore Picsart's Video Editing tools to add text overlays , background music , visual effects, or adjust video speed. These tools help you refine your content, improve storytelling, and create polished videos ready for social media, marketing, or personal projects.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/fcd918b2-f059-4534-91df-082ce3ae3587.webm)
+![video creative 480x480: ](media/fcd918b2-f059-4534-91df-082ce3ae3587-92786eda.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/fcd918b2-f059-4534-91df-082ce3ae3587.webm")
 
 ## S09 testimonial
 
@@ -101,27 +101,27 @@ Perfect for quick edits. This Video Trimmer makes it easy to cut clips from the 
 
 ### Learn video editing basics
 Learn how to make cleaner edits to clips.
-![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif)
+![image thumbnail 294x196: How to edit videos with AI in Picsart video editor preview](media/9568f28a-001a-481d-8d02-8babcb115e7e-eae505fe.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/9568f28a-001a-481d-8d02-8babcb115e7e.avif")
 Video editing
 #### How to edit videos with AI in Picsart video editor
 5 min Intermediate
-![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif)
+![image thumbnail 294x196: How to apply AI video filters and effects in Picsart preview](media/72ce5f51-9491-4ebf-85b1-c6dd8355d44e-8197708a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/72ce5f51-9491-4ebf-85b1-c6dd8355d44e.avif")
 Video editing
 #### How to apply AI video filters and effects in Picsart
 4 min Beginner
-![image thumbnail 294x196: How to add text and captions to videos online preview](https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif)
+![image thumbnail 294x196: How to add text and captions to videos online preview](media/7b1f20ea-7e72-477c-81f2-f677d6e10fd4-4a367a4d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7b1f20ea-7e72-477c-81f2-f677d6e10fd4.avif")
 Video editing
 #### How to add text and captions to videos online
 4 min Beginner
-![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif)
+![image thumbnail 294x196: How to create smooth video transitions with AI effects preview](media/dfa3bef9-5ca9-4b63-a795-79db0819217f-1ed29733.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif")
 Video editing
 #### How to create smooth video transitions with AI effects
 4 min Intermediate
-![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif)
+![image thumbnail 294x196: How to export videos for TikTok, Reels, YouTube, and Stories preview](media/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635-f2c26bd4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28a635.avif")
 Video editing
 #### How to export videos for TikTok, Reels, YouTube, and Stories
 5 min Intermediate
-![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85)
+![image thumbnail 294x196: How to fix eye contact in talking-head videos with AI preview](media/c48797c6-b6f9-4cd7-9695-a1686d0998cc-2964cf18.png "https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85")
 Video editing
 #### How to fix eye contact in talking-head videos with AI
 4 min Intermediate
@@ -141,15 +141,15 @@ Yes. Picsart offers a free Video Trimmer that lets you shorten videos and trim c
 ## S12 link-grid
 
 ### More tools to love
-![image thumbnail 342x282: ai text to video for free](https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp)
+![image thumbnail 342x282: ai text to video for free](media/d550a93d-11cc-4957-a15a-ef53e95596c9-190bc179.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d550a93d-11cc-4957-a15a-ef53e95596c9.webp")
 AI Text-to-Video Turn written prompts into scroll-stopping content with Picsart's Text-to-Video AI.
-![image thumbnail 342x282: ai video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: ai video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: remove object from video](https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png)
+![image thumbnail 342x282: remove object from video](media/31ad13c3-278d-48aa-9688-9eb04300c6f7-02a740d0.png "https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png")
 Video Object Remover Get rid of unnecessary details from your videos with the help of AI.
-![image thumbnail 342x282: add subtitles to videos online for free](https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp)
+![image thumbnail 342x282: add subtitles to videos online for free](media/abb45bdc-e5f5-4580-84b2-890d2582fe08-d2f8944a.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp")
 Add Subtitles to Video Generate accurate subtitles for any video in seconds.
 
 ## S13 pricing

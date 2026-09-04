@@ -7,7 +7,7 @@
 ## Luma Ray 3.2 Edit: direct every frame of your AI video
 Picsart’s AI Playground now runs Luma Ray 3.2 Edit, the latest video model from Luma Labs built for directed editing rather than prompt-and-regenerate. Reshape footage you already have, place precise keyframes, and carry real performances across takes — all inside your Picsart workflow with cinematic, production-ready output.
 Start generating
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1a38db3f-2172-4904-92e8-ae29df5e6300.webm)
+![video creative 480x480: ](media/1a38db3f-2172-4904-92e8-ae29df5e6300-bc10968b.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/1a38db3f-2172-4904-92e8-ae29df5e6300.webm")
 
 ## S02 interactive-demo
 
@@ -19,38 +19,38 @@ Start generating
 ## S03 gallery
 
 ### Frame-level control, finished cuts
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif)
+![image creative 196x348: ](media/ba8cc09d-a8d4-425f-8f69-03007d5f1d02-bfd0991c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ba8cc09d-a8d4-425f-8f69-03007d5f1d02.avif")
 Woolf
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif)
+![image creative 196x348: ](media/d7249ef4-30ce-4586-be3d-6e4996a5f3d1-29f16934.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5f3d1.avif")
 Tofu
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif)
+![image creative 196x348: ](media/4180469f-eeb4-47b6-82ae-50d374fb9f22-bd4a39bf.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif")
 Truffle
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif)
+![image creative 196x348: ](media/785634d3-65ab-4464-b901-347896752194-e511932d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/785634d3-65ab-4464-b901-347896752194.avif")
 Silver Scarab
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif)
+![image creative 196x348: ](media/029d49e5-fe69-40f2-a9b6-2594acd9c668-549165ee.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/029d49e5-fe69-40f2-a9b6-2594acd9c668.avif")
 Paris
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif)
+![image creative 196x348: ](media/40ea1209-ee82-415b-994b-4208c3f5ae6e-395db12a.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/40ea1209-ee82-415b-994b-4208c3f5ae6e.avif")
 Nugget
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif)
+![image creative 196x348: ](media/b3ebae3c-b768-4afd-9b0c-38abd26edb50-f60feb6d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif")
 Indigo Sphinx
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif)
+![image creative 196x348: ](media/1e87768c-bdb7-4bd1-b762-d7ff7cc31925-bb012af5.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif")
 Sloane
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif)
+![image creative 196x348: ](media/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a-29e85c49.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3fe8a.avif")
 Dumpling
-![image creative 196x348: ](https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif)
+![image creative 196x348: ](media/d11bba6c-2ccb-4ca3-8374-42c163b475cc-b2c43709.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d11bba6c-2ccb-4ca3-8374-42c163b475cc.avif")
 Prescott
 
 ## S04 feature-callout
 
 ### What is Luma Ray 3.2 Edit?
 Luma Ray 3.2 Edit is the editing-focused release of Luma Labs’ Ray 3.2 video model, announced in June 2026. Instead of regenerating a clip from scratch for every change, it takes a source video and returns a re-imagined version of that same shot — letting you make surgical, directed adjustments. It generates up to 20 seconds at 1080p and is engineered for precision, giving production teams real authority over how a scene moves from start to finish.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm)
+![video creative 480x480: ](media/9119fccd-5d22-49e5-920e-c8aa1d1842f7-0ec67c13.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm")
 
 ## S05 feature-callout
 
 ### Luma Ray 3.2 Edit capabilities
 Place up to 16 keyframes inside a single clip to choreograph exact pacing, camera paths, and motion. Enhanced performance tracking carries complex actor performances across takes while tracking the full expressive state of up to eight faces simultaneously, frame by frame. The enhanced reframe tool reshapes a shot after the take — adapt aspect ratios, extend the frame, or replace a background while preserving the original lighting. Native HDR generation and 16-bit EXR export drop cleanly into existing post-production pipelines.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm)
+![video creative 480x480: ](media/3908c0df-5426-4feb-a387-4bf35ae265b6-4a2607b5.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm")
 
 ## S06 use-case-grid
 
@@ -59,19 +59,19 @@ What you can create with Luma Ray 3.2 Edit
 [button: Direct motion with keyframes]
 [button: Reframe and replace backgrounds]
 Start from a clip you already have and return a re-imagined version of the same shot — make precise, directed changes instead of prompting a brand-new video every time.
-![image creative 879x418: Luma Ray 3.2 Edit for directed video editing](https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp)
+![image creative 879x418: Luma Ray 3.2 Edit for directed video editing](media/449a8ac5-22b1-40e0-af90-87e99815b0f5-200d02bc.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp")
 
 ## S07 feature-callout
 
 ### How Luma Ray 3.2 Edit works inside Picsart
 Picsart integrates Luma Ray 3.2 Edit directly into its AI Playground , so you can direct and refine video without touching the underlying model. It pairs naturally with the AI Video Editor and AI Voice Generator , helping you assemble complete, polished video projects faster.
-![video ui-screenshot 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm)
+![video ui-screenshot 480x480: ](media/e41ea569-771c-40f7-abd5-9b957035cba4-550b853e.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm")
 
 ## S08 feature-callout
 
 ### Why creators choose Luma Ray 3.2 Edit
 Creators choose Luma Ray 3.2 Edit when they need control, not luck. Its directed-editing approach means revisions are surgical instead of starting over, performances stay consistent across takes, and pro-grade HDR and 16-bit EXR output slots straight into existing pipelines. Inside Picsart’s AI Video Generator, that production-level command over every frame is available without specialized software or technical setup.
-![video creative 480x480: ](https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm)
+![video creative 480x480: ](media/c3a2fd90-aade-4331-8f77-d264241f1855-589f95dd.webm "https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm")
 
 ## S09 tutorial-grid
 
@@ -80,15 +80,15 @@ Learn how to compare video models and direct your output.
 Video models
 #### How to choose the right AI video model for your content
 4 min Intermediate
-![image thumbnail 294x196: How to balance speed and quality in AI video models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif)
+![image thumbnail 294x196: How to balance speed and quality in AI video models preview](media/4227c225-adc9-4fa5-aa3b-a8139fe2df54-b9843614.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4227c225-adc9-4fa5-aa3b-a8139fe2df54.avif")
 Video models
 #### How to balance speed and quality in AI video models
 4 min Intermediate
-![image thumbnail 294x196: How to get the best quality from each video model preview](https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif)
+![image thumbnail 294x196: How to get the best quality from each video model preview](media/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b-f954e920.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif")
 Video models
 #### How to get the best quality from each video model
 5 min Advanced
-![image thumbnail 294x196: How to stay updated with new AI video model features preview](https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif)
+![image thumbnail 294x196: How to stay updated with new AI video model features preview](media/60a90556-6871-4f1e-a7a5-098756466b54-34877c46.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif")
 Video models
 #### How to stay updated with new AI video model features
 3 min Beginner
@@ -138,17 +138,17 @@ Luma Ray 3.2 Edit is the editing-focused release of Luma Labs’ Ray 3.2 video m
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Luma Ray 2 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp)
+![image thumbnail 342x282: Luma Ray 2 AI Model](media/e2a6880f-4752-43b8-907b-e388725ab15d-eea50768.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp")
 Luma Ray 2 Photorealistic AI video generation with lifelike motion and natural physics.
-![image thumbnail 342x282: Runway Aleph 2.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif)
+![image thumbnail 342x282: Runway Aleph 2.0 AI Model](media/33859b48-55f7-481c-9ac5-a7a1bc09c0db-60e43fdd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif")
 Runway Aleph 2.0 Advanced AI video editing and transformation with strong creative control.
-![image thumbnail 342x282: Kling 3.0 AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp)
+![image thumbnail 342x282: Kling 3.0 AI Model](media/1794ea79-a0f3-40ef-9c08-e6370ee5d618-54015baf.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp")
 Kling 3.0 Cinematic AI video generation with advanced motion control and next-level realism.
-![image thumbnail 342x282: Picsart AI video Generator](https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp)
+![image thumbnail 342x282: Picsart AI video Generator](media/75daaba0-36f0-480c-944a-3127d7c129e3-e39e63e9.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp")
 AI Video Generator Generate custom videos with AI by just writing a short description of your vision.
-![image thumbnail 342x282: AI video editor](https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp)
+![image thumbnail 342x282: AI video editor](media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp")
 AI Video Editor Discover the easiest way to create videos with AI.
-![image thumbnail 342x282: AI voiceover generator](https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp)
+![image thumbnail 342x282: AI voiceover generator](media/d3e02e75-336a-4566-a2e4-edad326a421d-4a0b97af.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/d3e02e75-336a-4566-a2e4-edad326a421d.webp")
 AI Voice Generator Turn your script into natural AI voiceovers in seconds.
 
 ## S13 pricing

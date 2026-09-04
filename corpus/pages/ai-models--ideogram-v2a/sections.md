@@ -8,7 +8,7 @@ AI IMAGE MODELS
 ## Ideogram V2a: AI image generation with best-in-class typography
 Ideogram V2a is a powerful AI image generation model known for its exceptional text rendering and typography accuracy. It generates high-quality images with readable, correctly spelled text integrated naturally into the visual — a challenge most other models struggle with.
 Try Ideogram V2a
-![image creative 480x480: Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp)
+![image creative 480x480: Flux 2 Pro](media/f746795b-097c-44a8-9ed3-eb8791caee02-093cdc93.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp")
 
 ## S02 interactive-demo
 
@@ -24,19 +24,19 @@ Try Ideogram V2a
 ## S03 gallery
 
 ### Images created with Ideogram 3.0 Flash
-![image creative 276x276: Ideogram 3.0 Flash generated image - Neon sign typography](https://cdn-cms-uploads.picsart.com/cms-uploads/4ec3ed2f-4913-47a9-b67c-c60cd63df598.avif)
+![image creative 276x276: Ideogram 3.0 Flash generated image - Neon sign typography](media/4ec3ed2f-4913-47a9-b67c-c60cd63df598-24a1b49e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4ec3ed2f-4913-47a9-b67c-c60cd63df598.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v3)
 Neon sign typography
-![image creative 276x276: Ideogram 3.0 Flash generated image - Vintage travel poster](https://cdn-cms-uploads.picsart.com/cms-uploads/964f55c7-04e3-455b-97fd-9bae3bf207d2.avif)
+![image creative 276x276: Ideogram 3.0 Flash generated image - Vintage travel poster](media/964f55c7-04e3-455b-97fd-9bae3bf207d2-86c690da.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/964f55c7-04e3-455b-97fd-9bae3bf207d2.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v3)
 Vintage travel poster
-![image creative 276x276: Ideogram 3.0 Flash generated image - Chalkboard menu design](https://cdn-cms-uploads.picsart.com/cms-uploads/f88d9762-8701-4180-b003-7c8f6088aeaa.avif)
+![image creative 276x276: Ideogram 3.0 Flash generated image - Chalkboard menu design](media/f88d9762-8701-4180-b003-7c8f6088aeaa-bcc92597.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/f88d9762-8701-4180-b003-7c8f6088aeaa.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v3)
 Chalkboard menu design
-![image decorative 276x276: Ideogram 3.0 Flash generated image - Logo design](https://cdn-cms-uploads.picsart.com/cms-uploads/5062d8e7-3c3e-4df3-8c07-46486c704611.avif)
+![image decorative 276x276: Ideogram 3.0 Flash generated image - Logo design](media/5062d8e7-3c3e-4df3-8c07-46486c704611-c4fd2dc8.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/5062d8e7-3c3e-4df3-8c07-46486c704611.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v3)
 Logo design
-![image creative 276x276: Ideogram 3.0 Flash generated image - Magazine cover layout](https://cdn-cms-uploads.picsart.com/cms-uploads/7316dec6-16ee-45b7-bba1-4fe4c47df5c1.avif)
+![image creative 276x276: Ideogram 3.0 Flash generated image - Magazine cover layout](media/7316dec6-16ee-45b7-bba1-4fe4c47df5c1-78556472.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7316dec6-16ee-45b7-bba1-4fe4c47df5c1.avif")
 [Create](https://picsart.com/ai-playground/?model=ideogram-v3)
 Magazine cover layout
 
@@ -44,7 +44,7 @@ Magazine cover layout
 
 ### What is Ideogram V2a?
 Ideogram V2a is a second-generation model from Ideogram, built with a focus on typography accuracy and visual quality. It excels at generating images where text is a key element — posters, signage, packaging, logos, and branded content.
-![image creative 480x480: Flux 2 Pro AI model](https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90)
+![image creative 480x480: Flux 2 Pro AI model](media/9e0a38de-ab11-4fdb-8871-1b223d100ab4-873f1e42.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90")
 
 ## S05 use-case-grid
 
@@ -54,43 +54,43 @@ What you can create with Ideogram V2a
 [button: Design graphics with text]
 [button: Iterate on creative concepts]
 Create high-quality visuals from text prompts in seconds - ideal for rapid prototyping, brainstorming, and high-volume content creation.
-![image creative 879x418: Ideogram 3.0 Flash for fast image generation](https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp)
+![image creative 879x418: Ideogram 3.0 Flash for fast image generation](media/0b7a5efc-0346-47fc-b017-1ce46c610f35-b963ef56.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp")
 
 ## S06 feature-callout
 
 ### What is Ideogram V2a?
 Ideogram V2a is a second-generation model from Ideogram, built with a focus on typography accuracy and visual quality. It excels at generating images where text is a key element — posters, signage, packaging, logos, and branded content.
-![image creative 480x480: why creators choose Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp)
+![image creative 480x480: why creators choose Flux 2 Pro](media/71631159-cc61-44b4-aa8c-d0dacecefad1-07f81f4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp")
 
 ## S07 feature-callout
 
 ### Why creators choose Ideogram V2a
 Creators choose Ideogram V2a when their images need accurate, readable text. From poster designs to product mockups, it consistently renders typography that other models get wrong.
-![image creative 480x480: how Picsart uses Flux 2 Pro](https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp)
+![image creative 480x480: how Picsart uses Flux 2 Pro](media/fd6a7346-7ec8-4b05-b060-987c3039cd28-36aac765.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp")
 
 ## S08 feature-callout
 
 ### How Ideogram V2a works inside Picsart
 Ideogram V2a is integrated into Picsart's AI Image Generator , giving creators direct access to Ideogram V2a without external tools or complex API setups. Generate images, explore creative directions, and iterate on results — all from one platform.
-![image creative 480x480: Flux 2 Pro inside the Picsart ecosystem](https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp)
+![image creative 480x480: Flux 2 Pro inside the Picsart ecosystem](media/22f9b181-cc90-4c98-a686-924284ddf7e5-620c1358.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp")
 
 ## S09 tutorial-grid
 
 ### Understand image model choices
 Learn how to compare image models and choose an output.
-![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif)
+![image thumbnail 294x196: Compare AI image models side by side on Picsart preview](media/58eda88e-681b-4e7b-9f17-041c172bfe40-582d4120.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/58eda88e-681b-4e7b-9f17-041c172bfe40.avif")
 Image models
 #### Compare AI image models side by side on Picsart
 4 min Intermediate
-![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif)
+![image thumbnail 294x196: Understand AI credit costs and model pricing on Picsart preview](media/049cc946-625c-4317-ad58-46d1de553cb2-6c4c0df7.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif")
 Image models
 #### Understand AI credit costs and model pricing on Picsart
 5 min Intermediate
-![image thumbnail 294x196: Create stunning illustrations with AI image models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif)
+![image thumbnail 294x196: Create stunning illustrations with AI image models preview](media/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2-36d6cb0c.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/260cc00a-ac18-4d6f-b611-2a2f39b4aeb2.avif")
 Image models
 #### Create stunning illustrations with AI image models
 5 min Intermediate
-![image thumbnail 294x196: Generate photorealistic images with AI models preview](https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif)
+![image thumbnail 294x196: Generate photorealistic images with AI models preview](media/51e6d54e-1408-420d-9e6d-da6c19646c5c-af24ce9e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/51e6d54e-1408-420d-9e6d-da6c19646c5c.avif")
 Image models
 #### Generate photorealistic images with AI models
 5 min Intermediate
@@ -140,16 +140,16 @@ Ideogram V2a is a fast AI image generation model from Ideogram, optimized for sp
 ## S12 link-grid
 
 ### More AI models to use
-![image thumbnail 342x282: Seedream 4.5 AI Model](https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png)
+![image thumbnail 342x282: Seedream 4.5 AI Model](media/ba1366fa-0792-4639-9f5e-9dd832ac458b-099ab47b.png "https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png")
 Seedream 4.5 ByteDance’s high-aesthetic AI image generation model built for visually rich, detailed output.
-![image thumbnail 342x282: Flux 2 Pro AI Model](https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp)
+![image thumbnail 342x282: Flux 2 Pro AI Model](media/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24-6fc1622b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp")
 Flux 2 Pro Advanced AI image generation with exceptional detail and photorealistic output.
-![image thumbnail 342x282: nano banana pro](https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp)
+![image thumbnail 342x282: nano banana pro](media/ed446ffc-fa3c-4b84-8583-7a55878f82dd-49c550ed.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp")
 Nano Banana Pro A generative AI model built for fast, high-quality visual creation and image enhancement.
 GPT Image 1.5 OpenAI’s advanced image generation model — powerful and built for creators of all levels.
-![image thumbnail 342x282: ai image generator](https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp)
+![image thumbnail 342x282: ai image generator](media/3df4299d-0927-4e95-96b4-3c130a74ac01-36789efb.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp")
 AI Image Generator Generate custom images with AI by just writing a short description of your vision.
-![image thumbnail 342x282: AI photo editor](https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png)
+![image thumbnail 342x282: AI photo editor](media/9c04c8a3-14d9-4953-b941-a3fb2da29430-926e2c94.png "https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png")
 AI Photo Editor Speed up your editing process with an AI-powered photo editor.
 
 ## S13 pricing
