@@ -33,6 +33,10 @@ and the local media paths under examples/>
 
 <contents of <run>/shared-context.md, or "none yet: you are the hero">
 
+Anchored means: take light and palette from the hero. Subject, composition
+and finish come from this section's annotation and its examples, never from
+the hero's composition.
+
 ## Budget
 
 Advisory cap for this section: <n> credits. Run cap is enforced by hook.
