@@ -87,6 +87,7 @@ the link title). `slots.json` next to the skeleton maps every `Sxx-mN` and
 ```
 src/landing_page_gen/corpus/   lp-corpus: discover, snapshot (fetch), sectionize, skeleton, similar, db
 src/landing_page_gen/inject/   lp-inject: media + text re-injection into the snapshot (Milestone 2)
+.claude/                       skills, agents, settings.json (hook wiring, permissions)
 hooks/                         Claude Code hooks: credit guard, ledger, worker contract
 tests/                         pytest; tests/fixtures/streamed.html is a saved streamed-SSR page
 corpus/pages.yaml              page inventory from `discover`
@@ -99,9 +100,10 @@ Only `sections.md` and `meta.json` under `corpus/pages/` are committed; the
 rest is rebuilt by `lp-corpus fetch --all --sectionize` (about 15 s and 9 MB
 per page).
 
-The agent side (skills `build-landing-page`, `picsart-workflows`; agents
-`section-worker`, `section-reviewer`; hook wiring) lives in the workspace
-`.claude/` folder one level up.
+The agent side lives in `.claude/`: skills `build-landing-page` and
+`picsart-workflows`, agents `section-worker` and `section-reviewer`, and
+`settings.json` with the hook wiring for `hooks/`. Start Claude Code in this
+folder so they load.
 
 Output is a self-contained snapshot of the page with new media, not the
 production Next.js page.

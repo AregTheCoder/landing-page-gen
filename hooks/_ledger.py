@@ -26,7 +26,7 @@ def current_run():
     if override:
         return Path(override)
     root = Path(os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd()))
-    return root / "landing-page-gen" / "runs" / "current"
+    return root / "runs" / "current"
 
 
 def read_hook_input():

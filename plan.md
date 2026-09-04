@@ -34,6 +34,7 @@ their absolute URL.
 | 2026-09-04 | Roles `ui-screenshot`, `icon`, `decorative` are kept from source. | AI cannot faithfully render product UI; icons are brand assets. |
 | 2026-09-04 | Page discovery is a plain-HTTP link crawl from hub pages (`discover.py`); no sitemap exists (`/sitemap.xml` returns the SPA shell). Pages are server-rendered (1.4 MB HTML with links), so Playwright is a fallback for `fetch`, not the default. | Faster, no browser; verify per page that sections are in the static HTML. |
 | 2026-09-04 | Hooks run on system `python3`, stdlib only. | Fast start, no dependency on the project venv. |
+| 2026-09-04 | Skills, agents and hook wiring moved from the workspace `.claude/` into this repo's `.claude/`; hook commands use `$CLAUDE_PROJECT_DIR/hooks/...` and `_ledger.current_run()` resolves `<repo>/runs/current`. | Claude Code loads `.claude/` from the start folder, which is this repo; the workspace copies were never loaded here and had no version control. |
 | 2026-09-04 | `fetch` gets the HTML by plain HTTP and reassembles the React streaming segments in Python (`<template id="P:x">` and Suspense `B:x` boundaries swapped for the hidden `<div id="S:x">` chunks, as the inline `$RC` scripts would). Playwright still runs once per page, for the full-page screenshot and the rendered box of every image and video. | The reassembled `<main>` was checked identical to the rendered DOM (31 images, 5 videos on `/ai-image-generator/`); slot sizes only exist after layout, so geometry comes from the browser. |
 | 2026-09-04 | Before the full-page screenshot, inject `*{content-visibility:visible!important}`. | Section wrappers use `content-visibility:auto`; without the override everything below the fold is captured blank. `networkidle` never fires on these pages (analytics), so `load` + a scroll pass is used. |
 | 2026-09-04 | A section is one non-empty direct child of `<main>`, plus the body-level `<aside>` (link chips) and `<footer>`. Type comes from the CMS component labels (`data-testid`, `data-pulse-section-group`: banner-block, promotional-component, how-it-works-section, use-cases, tutorials-section, faq-section, pricing-cards, ...) and falls back to structural heuristics (headings, media count, tabs, card links). | Labels are stable across pages and free; heuristics alone confused captioned galleries with link grids. |
@@ -46,12 +47,16 @@ their absolute URL.
 | 2026-09-04 | Package uses a `src/` layout with one package and two console scripts. | Zero build-backend configuration with `uv_build`. |
 | 2026-09-04 | Repo declares an empty `[tool.uv.workspace]`. | `~/pyproject.toml` is a uv workspace; without this, uv adopts the project as a member and puts `.venv` and `uv.lock` in the home directory. |
 
+## Branch
+
+Work since Milestone 0 is on `milestone-1-corpus` (not merged into `main`,
+not pushed). Merge when Areg is happy with it; a fresh session should start
+on that branch.
+
 ## Open questions
 
-- Next commit: move `.claude/agents/`, the two skills, and the hook wiring from
-  the workspace `.claude/` into this repo's `.claude/`, and change hook paths to
-  `$CLAUDE_PROJECT_DIR/hooks/...`. The session now runs from this folder, so
-  the parent's agents and hooks are not loaded.
+- Live check of the hooks and agents from `.claude/` needs a fresh session
+  started in this folder (they load at start).
 - The deny rule `Read(./**/.env.*)` also blocks writing `.env.example`; narrow it (e.g. `.env.local`) or create the file by hand.
 - Worker model: `sonnet` (default now) or `opus`; decide on Milestone 3 reject rates.
 - `page.png` (1440 px wide, full page) is stored but nothing reads it yet; the reviewer could compare against it.

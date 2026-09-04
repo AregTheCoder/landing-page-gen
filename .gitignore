@@ -25,3 +25,6 @@ corpus/pages/*/*
 
 .DS_Store
 .pytest_cache/
+
+# Per-machine Claude Code overrides
+.claude/settings.local.json

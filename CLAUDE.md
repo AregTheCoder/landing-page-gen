@@ -6,7 +6,8 @@ them against a corpus of existing Picsart pages; the chosen media is injected
 back into the page's HTML snapshot. Workspace rules live in `../CLAUDE.md`.
 
 Read `plan.md` first: milestones, status, decisions log. `prd.md` holds the
-quality rules, one line per lesson learned.
+quality rules, one line per lesson learned. Skills, agents and hook wiring
+are in `.claude/` here; start Claude Code in this folder.
 
 ## Three parts
 
