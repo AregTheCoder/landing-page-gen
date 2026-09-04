@@ -39,6 +39,19 @@ taught it.
 - Anything the call must carry (`async: true`, `generateAudio: false`) lives
   in the step's `params`, never only in its `note`; `params` is what is sent.
   (runs/dry-1 S01, review 2)
+- Anchored takes light and palette from the hero; subject and composition
+  come from the section's annotation and its examples. A detail callout is an
+  edge-to-edge macro; the floating print is the hero's composition, not the
+  page's. (runs/dry-1 S07, review 1)
+- One finish instruction per prompt. When the annotation names a finish (flat
+  3D render), the shared context contributes light and palette only; two
+  finishes in one prompt is a rework. (runs/dry-1 S08, review 1)
+- A set of card thumbnails shares one prompt envelope (container, backdrop,
+  shadow, light) with the slot subject as the only variable, and a cross-slot
+  gate that rejects any member that breaks the set. (runs/dry-1 S11, review 1)
+- A gate with `count` > 1 says how the pick is made, has a failure branch, and
+  when lp-inject will crop the output it checks that the subject sits inside
+  the slot's safe band. (runs/dry-1 S06 and S08, review 1)
 
 ## Non-goals
 
