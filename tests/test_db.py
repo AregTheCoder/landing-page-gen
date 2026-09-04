@@ -16,6 +16,6 @@ def test_schema_and_fts_roundtrip(tmp_path):
         "SELECT s.sid, s.type FROM sections_fts f JOIN sections s ON s.id = f.rowid "
         "WHERE sections_fts MATCH 'visuals'"
     ).fetchall()
-    assert hits == [("S01", "hero")]
+    assert [tuple(h) for h in hits] == [("S01", "hero")]
     assert "hero" in db.SECTION_TYPES
     assert set(db.GENERATED_ROLES) < set(db.MEDIA_ROLES)

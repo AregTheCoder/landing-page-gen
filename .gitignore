@@ -14,12 +14,14 @@ wheels/
 .env.*
 !.env.example
 
-# Run output (generated media, ledgers) and scraped corpus binaries.
-# corpus.db and page.html are rebuildable from `lp-corpus fetch`.
+# Run output (generated media, ledgers) and scraped snapshots. Everything
+# under corpus/pages/ is rebuilt by `lp-corpus fetch --all --sectionize`;
+# only the small per-page sections.md and meta.json are kept in git.
 runs/
 corpus/corpus.db
-corpus/pages/*/media/
-corpus/pages/*/page.png
+corpus/pages/*/*
+!corpus/pages/*/sections.md
+!corpus/pages/*/meta.json
 
 .DS_Store
 .pytest_cache/

@@ -5,14 +5,18 @@
 | # | Milestone | Exit criterion | Status |
 |---|---|---|---|
 | 0 | Environment: repo, CLIs, hooks, skills, agents, docs | `uv run pytest` passes; `lp-corpus --help`, `lp-inject --help` print; skill and agents load; hook smoke test passes | done 2026-09-04; deferred: live hook check needs a fresh session (hooks load at start), `.env.example` blocked by the workspace deny rule |
-| 1 | Corpus: discover pages, fetch, sectionize, DB, `similar`, `skeleton` | pytest on a saved HTML fixture; `similar --type hero` returns hero sections from other pages with media; unquoted step costs measured | in progress: `discover` done 2026-09-04, 218 pages in `corpus/pages.yaml` |
+| 1 | Corpus: discover pages, fetch, sectionize, DB, `similar`, `skeleton` | pytest on a saved HTML fixture; `similar --type hero` returns hero sections from other pages with media; unquoted step costs measured | done 2026-09-04: 19 tests on `tests/fixtures/streamed.html`; `similar` returns one hero per page with PNG media; extend/edit/reframe quoted in `tool-map.md`; corpus = the 205 non-hub pages in `pages.yaml`, built by `lp-corpus fetch --family ... --sectionize` (snapshot texts land in the follow-up commit) |
 | 2 | Dry run of the loop | `--dry-run` produces priced `workflow.yaml` per slot, reviewer critiques, `lp-inject` fills placeholders, ledger has zero paid rows | todo |
 | 3 | Live run, images only, ≤ 200 credits | every creative/thumbnail slot accepted or blocked with a reason; `dist/index.html` renders; spend matches ledger and `picsart_credits` delta | todo |
 | 4 | Video and tuning | hero video via still-to-motion; rework loop tuned; rules in `prd.md` | todo |
 
 Page inventory: `corpus/pages.yaml` (families: ai-models 82, tool 64, other 28,
 compare-models 18, ai-tool 13, hub 13). Regenerate with
-`uv run lp-corpus discover --seed <url>`. Which families to fetch is Areg's call.
+`uv run lp-corpus discover --seed <url>`. The corpus holds every family but
+`hub` (catalog pages, no campaign media); add them with `fetch --family hub`.
+Snapshots live in `corpus/pages/<slug>/` (raw.html, page.html with `data-lp*`
+stamps, page.png, render.json, meta.json, sections.md); only sections.md and
+meta.json are committed.
 
 ## Decisions log
 
@@ -27,6 +31,14 @@ compare-models 18, ai-tool 13, hub 13). Regenerate with
 | 2026-09-04 | Roles `ui-screenshot`, `icon`, `decorative` are kept from source. | AI cannot faithfully render product UI; icons are brand assets. |
 | 2026-09-04 | Page discovery is a plain-HTTP link crawl from hub pages (`discover.py`); no sitemap exists (`/sitemap.xml` returns the SPA shell). Pages are server-rendered (1.4 MB HTML with links), so Playwright is a fallback for `fetch`, not the default. | Faster, no browser; verify per page that sections are in the static HTML. |
 | 2026-09-04 | Hooks run on system `python3`, stdlib only. | Fast start, no dependency on the project venv. |
+| 2026-09-04 | `fetch` gets the HTML by plain HTTP and reassembles the React streaming segments in Python (`<template id="P:x">` and Suspense `B:x` boundaries swapped for the hidden `<div id="S:x">` chunks, as the inline `$RC` scripts would). Playwright still runs once per page, for the full-page screenshot and the rendered box of every image and video. | The reassembled `<main>` was checked identical to the rendered DOM (31 images, 5 videos on `/ai-image-generator/`); slot sizes only exist after layout, so geometry comes from the browser. |
+| 2026-09-04 | Before the full-page screenshot, inject `*{content-visibility:visible!important}`. | Section wrappers use `content-visibility:auto`; without the override everything below the fold is captured blank. `networkidle` never fires on these pages (analytics), so `load` + a scroll pass is used. |
+| 2026-09-04 | A section is one non-empty direct child of `<main>`, plus the body-level `<aside>` (link chips) and `<footer>`. Type comes from the CMS component labels (`data-testid`, `data-pulse-section-group`: banner-block, promotional-component, how-it-works-section, use-cases, tutorials-section, faq-section, pricing-cards, ...) and falls back to structural heuristics (headings, media count, tabs, card links). | Labels are stable across pages and free; heuristics alone confused captioned galleries with link grids. |
+| 2026-09-04 | Media roles are guessed: footer/header or ≤120 px → `icon`; card sections → `thumbnail`; alt words decoration/badge/logo → `decorative`; videos in how-it-works or "inside Picsart"/"built-in tools" callouts → `ui-screenshot`; else `creative`. Media with a 0×0 rendered box is dropped. | A wrong `creative` would spend credits on a UI shot; a wrong `ui-screenshot` only loses a slot. The skeleton is hand-edited before a run. |
+| 2026-09-04 | `sectionize` stamps the snapshot: `data-lp-section="S03"`, `data-lp="S03-m1"`, `data-lp-t="S03-t2"`; the DB stores those selectors and `skeleton` emits `slots.json` with them. | `lp-inject` then needs no DOM-path selectors; the stamps survive any re-serialisation of `page.html`. |
+| 2026-09-04 | Media `src` is stored as the CDN asset URL (Next.js `/_next/image?url=` proxy unwrapped). `similar` writes examples as PNG: AVIF/WebP converted with Pillow, videos as a still grabbed with Chromium at t=1 s. | Agents view files with `Read`, which cannot open AVIF or WebM; Playwright's bundled ffmpeg has no VP9 decoder. |
+| 2026-09-04 | `skeleton.md` format: YAML frontmatter (`page, source, snapshot, brand, audience, defaults, budget, notes`), `## Sxx type`, `- tN tag: text -> href`, one fenced ```slot YAML block per media node (`id, kind, role, size, aspect, natural, duration_s, src, alt`), `> annotation:` per generated-role slot. `aspect` is quoted because bare `9:16` is a sexagesimal integer to YAML 1.1 parsers. | One file the manager parses and a human edits; ids map back to the stamps. |
+| 2026-09-04 | `similar`: BM25 over section Markdown filtered by type, one section per page, source page excluded with `--exclude`, only sections with a `creative`/`thumbnail` slot, type-only fallback when the query matches nothing; at most 4 media files per example. | Briefs need media to look at, not the page's own section; 10 hero carousel images per example bloated a brief to 15 MB. |
 | 2026-09-04 | Package uses a `src/` layout with one package and two console scripts. | Zero build-backend configuration with `uv_build`. |
 | 2026-09-04 | Repo declares an empty `[tool.uv.workspace]`. | `~/pyproject.toml` is a uv workspace; without this, uv adopts the project as a member and puts `.venv` and `uv.lock` in the home directory. |
 
@@ -37,6 +49,6 @@ compare-models 18, ai-tool 13, hub 13). Regenerate with
   `$CLAUDE_PROJECT_DIR/hooks/...`. The session now runs from this folder, so
   the parent's agents and hooks are not loaded.
 - The deny rule `Read(./**/.env.*)` also blocks writing `.env.example`; narrow it (e.g. `.env.local`) or create the file by hand.
-- Which families from `corpus/pages.yaml` go into the corpus (all 218, or ai-models + compare-models + tool)?
 - Worker model: `sonnet` (default now) or `opus`; decide on Milestone 3 reject rates.
-- Video extend, edit and reframe costs are unquoted until Milestone 1.
+- `page.png` (1440 px wide, full page) is stored but nothing reads it yet; the reviewer could compare against it.
+- Role guesses to watch in Milestone 2: every `feature-callout` video is `creative` unless the headline says "inside Picsart" or "built-in tools"; product-demo videos will slip through as creative.
