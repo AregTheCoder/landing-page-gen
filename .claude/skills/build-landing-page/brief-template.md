@@ -14,7 +14,7 @@ Run: <run>. Work only inside this folder. Dry run: <yes|no>.
 
 ## Section (verbatim from skeleton.md)
 
-<the whole `## Sxx type` block: text with t: ids, slot blocks, annotations>
+<the whole `## Sxx type` block: text with t: ids, slot blocks, `> annotation:`, `> style:`, `> text:` lines>
 
 ## Style family: <style>
 
@@ -23,6 +23,21 @@ Run: <run>. Work only inside this folder. Dry run: <yes|no>.
 You generate only the panels listed under **Panels**, one prompt per panel,
 each at the panel's generate ratio (`uv run lp-compose --describe <style>`).
 Chrome is composited afterwards by `lp-compose`; never ask a model for it.
+
+## Text in image
+
+| slot | string | role | panel | position |
+|---|---|---|---|---|
+| <Sxx-m1> | "50% OFF" | headline | photo | top third, bold condensed capitals |
+| <Sxx-m1> | "Buy now" | call-to-action | photo | below the subject, small |
+
+Or: `none` (this slot carries no text; the prompt ends with ", no text,
+no logos or watermarks").
+
+Quote each string verbatim in the prompt for its panel, in the page's
+language, one typeface per slot. The gate checks spelling and case exactly
+and rejects any other word in the image. A chrome item that used to carry
+this string is omitted in the compose spec (`omit: [headline]`).
 
 ## Slots to produce
 

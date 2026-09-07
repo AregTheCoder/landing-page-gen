@@ -30,3 +30,6 @@ draft with `imageUrls` references from the examples, then `seedance-2.5`.
 - Download the mp4 to `steps/`, extract a check frame with
   `picsart_media_probe_media` or view the poster; do not judge from the URL.
 - Never run two paid video steps without a gate in between.
+- Text: only the brief's `## Text in image` strings, quoted verbatim and
+  kept static (no animated typography); every prompt ends with ", no other
+  text, no logos or watermarks". Check the words on the check frame.

@@ -116,6 +116,7 @@ def test_skeleton_and_slots_json(tmp_path):
     # aspect is quoted on purpose: bare 9:16 is a sexagesimal integer to YAML 1.1 parsers
     assert "```slot\nid: S01-m1\nkind: image\nrole: creative\nsize: 300x450\naspect: '2:3'\nnatural: 600x900\n" in text
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
+    assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
     slots = json.loads((out.parent / "slots.json").read_text())
     assert slots["slots"]["S01-m1"]["selector"] == '[data-lp="S01-m1"]'
     assert slots["texts"]["S01-t1"] == {"tag": "h1", "selector": '[data-lp-t="S01-t1"]'}

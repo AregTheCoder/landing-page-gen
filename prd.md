@@ -32,8 +32,13 @@ taught it.
   full-bleed scene; a full-bleed still gives the video model nothing to move.
   (runs/dry-1 S01, review 1)
 - Every video step states `generateAudio: false`, `async: true` and ends its
-  prompt with ", no text or logos"; the reviewer checks the yaml, not the
-  intent. (runs/dry-1 S01, review 1)
+  prompt with ", no other text, no logos or watermarks"; the reviewer checks
+  the yaml, not the intent. (runs/dry-1 S01, review 1)
+- Text in an image is generated only from the slot's `> text:` strings,
+  which the manager derives from the section copy and the family's **Text**
+  line; the worker quotes them verbatim and the gate reads every word. A
+  string that fails twice is dropped and reported, not paraphrased.
+  (2026-09-07, Areg's decision after runs/trial-3)
 - A worker's "examples share finish X" claim must hold for every example it
   names; say which examples differ. (runs/dry-1 S01, review 1)
 - Anything the call must carry (`async: true`, `generateAudio: false`) lives
@@ -89,8 +94,10 @@ taught it.
 
 - Writing or rewriting page copy.
 - Generating product UI screenshots, icons or decorative brand assets.
-- Drawing panel chrome (tiles, pills, brackets, checkerboards) with a
-  generative model; `lp-compose` draws it.
+- Drawing panel chrome (tiles, pills, brackets, checkerboards) and the
+  labels bound to it with a generative model; `lp-compose` draws them.
+- Inventing copy for an image: picture text comes from the section's own
+  copy via `> text:`, or the slot carries none.
 - Producing the production Next.js page; the output is a snapshot.
 
 ## Budget

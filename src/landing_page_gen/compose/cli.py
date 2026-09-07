@@ -141,7 +141,10 @@ def describe(fam):
         extra = f", under {p['under']}" if p.get("under") else ""
         lines.append(f"  panel {name}: {w}x{h} at ({x0},{y0}), aspect {aspect_label(w, h)}, "
                      f"generate at {nearest_ratio(w, h)}, fit {p.get('fit', 'cover')}{extra}")
-    lines.append("  chrome: " + ", ".join(f"{c['id']} ({c['kind']})" for c in f["chrome"]))
+    text_kinds = {"pill", "label", "headline"}
+    lines.append("  chrome: " + ", ".join(
+        f"{c['id']} ({c['kind']}{', text' if c['kind'] in text_kinds or c.get('label') else ''})" for c in f["chrome"]))
+    lines.append("  chrome marked text carries a label; omit an item (`omit: [id]`) when the model renders its string")
     return "\n".join(lines)
 
 

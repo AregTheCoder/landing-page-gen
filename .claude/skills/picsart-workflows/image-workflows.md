@@ -43,10 +43,13 @@ set (different finish, text, wrong framing); regenerate members singly.
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
 3. write `compose-<slot>.yaml` (family, `size` = the slot's natural size,
-   one image per panel with an anchor), run `uv run lp-compose
-   compose-<slot>.yaml --out steps/<slot>-<step>-1.png`, `Read` it → gate:
-   panels unstretched, each subject inside its panel, chrome legible at
-   480 px, chrome text only the family's labels. Costs nothing, no preflight.
+   one image per panel with an anchor; `omit:` any chrome item whose text
+   the model rendered instead, e.g. `omit: [headline]` for
+   `template-mockup`), run `uv run lp-compose compose-<slot>.yaml --out
+   steps/<slot>-<step>-1.png`, `Read` it → gate: panels unstretched, each
+   subject inside its panel, chrome legible at 480 px, chrome text only
+   the family's labels, no string appearing twice (once in the panel, once
+   as chrome). Costs nothing, no preflight.
 
 ## Prompt rules
 
@@ -56,8 +59,20 @@ set (different finish, text, wrong framing); regenerate members singly.
 - Describe one panel from the family's **Panels** line; put its **Never**
   list in the prompt as negatives. No composites, tiles, pills or grounds
   in a prompt.
-- End with ", no text or logos". Never ask a model for UI, buttons, screens,
-  pills or frames; when the family has chrome, `lp-compose` draws it.
+- Text: only the strings in the brief's `## Text in image` table, and only
+  in the panel the table names. Quote each string verbatim in double
+  quotes, then give its typographic role, position and one typeface, e.g.
+  `the headline "50% OFF" in bold condensed white capitals across the top
+  third; below the subject the smaller label "Buy now"`. Never paraphrase,
+  translate or add words; the model's spelling is checked at the gate.
+  Slots whose table is `none` get no text at all.
+- End with ", no other text, no logos or watermarks". Never ask a model for
+  UI, buttons, screens, pills or frames; when the family has chrome,
+  `lp-compose` draws it.
+- Text and the default model: `gemini-3-pro-image` renders short strings
+  reliably; `gemini-3.1-flash-image` is acceptable for one string of one
+  or two words. Do not switch to a text-specialist model unless the brief
+  says so.
 - Resolution: 2K by default; 4K only when the slot is over 2500 px wide.
 - Faces and hands are the artefact hotspots. Prefer compositions that do not
   depend on them unless the examples do.
@@ -65,6 +80,11 @@ set (different finish, text, wrong framing); regenerate members singly.
 ## Gate checklist per step
 
 fit to brief and annotation; matches the family's **Panels** line and the
-example finish; nothing from the family's **Never** list; no text/logo; no
-artefacts; subject placed for the slot's crop; palette consistent with
-shared context. Record pass/fail and the chosen URL in the step.
+example finish; nothing from the family's **Never** list; every string
+from `## Text in image` present, spelt and cased exactly, readable at the
+slot size, and no other text; no logo or watermark; no artefacts; subject
+placed for the slot's crop; palette consistent with shared context. A
+wrong or extra word fails the gate: re-run the same step once with the
+string repeated in the prompt; on a second failure drop that string, say
+so in the note, and let the reviewer decide. Record pass/fail and the
+chosen URL in the step.

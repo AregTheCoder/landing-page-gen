@@ -56,8 +56,12 @@ the served URL is kept on each element as `data-lp-src`.
   this, deny dry-run and over-cap calls, and log every URL to
   `ledger.jsonl`; outside a run the guard allows everything.
 - Roles `ui-screenshot`, `icon`, `decorative` are never generated.
-- Images carry no text; page copy is HTML. Chrome (tiles, pills, brackets)
-  comes from `lp-compose`, never from a model. Every generated slot has a
-  style family (`picsart-workflows/style-families.md`).
+- Text inside an image is generated, but only the exact strings the
+  skeleton's `> text:` line names for that slot (the manager derives them
+  from the section copy and the family's **Text** line); page copy stays
+  HTML. Non-text chrome (tiles, brackets, checkerboard) and geometry-bound
+  labels (Before/After pills, size labels, chips) come from `lp-compose`,
+  never from a model. Every generated slot has a style family
+  (`picsart-workflows/style-families.md`).
 - Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.
 - A rule learned goes into `prd.md`; the decision behind it into `plan.md`.

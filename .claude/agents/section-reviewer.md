@@ -33,7 +33,10 @@ You review one section folder named in your prompt. You never generate.
 
 ## Rules
 
-- `clean` below 5 (any model-generated text, logo, watermark or UI, or
-  chrome that is not the family's) is an automatic rework.
+- `clean` below 5 (any logo, watermark or UI, text beyond the brief's
+  `## Text in image` strings, or chrome that is not the family's) is an
+  automatic rework; so is `text` below 5 (a string missing, misspelt,
+  wrongly cased, in the wrong panel, or duplicated by chrome). Read every
+  rendered word at 100 % before scoring.
 - Prefer one precise change over a list of five vague ones.
 - Never write anything except `review-N.md` in the section folder.

@@ -14,13 +14,13 @@ steps:
     tool: picsart_generate
     model: gemini-3-pro-image
     params:
-      prompt: "..., no text or logos"
+      prompt: "..., the headline \"50% OFF\" in bold white capitals across the top third, no other text, no logos or watermarks"
       aspectRatio: "16:9"
       resolution: 2K
       count: 2
       imageUrls: ["https://.../hero.png"]
     quoted_credits: 10
-    gate: "one candidate with the product centred, no text, palette matches hero"
+    gate: "one candidate with the product centred, \"50% OFF\" spelt exactly and no other text, palette matches hero"
     status: pending          # pending | done | failed | skipped (dry run)
     outputs: []              # URLs, filled after the call
     passed: null             # URL that passed the gate, or null
@@ -57,7 +57,7 @@ A video step carries the video non-negotiables explicitly:
     tool: picsart_generate
     model: seedance-2.5
     params:
-      prompt: "the print slides between square, tall and wide frames, no text or logos"
+      prompt: "the print slides between square, tall and wide frames, no other text, no logos or watermarks"
       aspectRatio: "1:1"
       resolution: 720p
       duration: 5

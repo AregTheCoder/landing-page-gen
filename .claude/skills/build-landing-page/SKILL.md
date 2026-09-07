@@ -27,6 +27,22 @@ worker must return).
    **Use** line matches the section (`picsart-workflows/style-families.md`),
    write it back into `skeleton.md`, and list the choice in the report under
    "Manager decisions".
+5. A `> text:` still reading TODO is yours to decide, after the family. Read
+   the family's **Text** line: if it says chrome text only, write
+   `> text: none`. Otherwise derive the picture text from this section's
+   copy and nothing else:
+   - a headline of 1 to 3 words: a marketing fragment the section implies
+     (a promotion, an event, a season, a product name the copy names), not
+     the H2 itself and never the HTML copy that will sit next to the image;
+   - at most one call-to-action of 1 to 2 words, taken from the section's
+     link text when it has one;
+   - the page's language; ordinary words only; no brand names, model names,
+     trademarks, prices with a currency, or people's names;
+   - at most 2 strings per slot, written exactly as they must render:
+     `> text: "50% OFF" | "Buy now"`.
+   Write the line back into `skeleton.md` and list every string under
+   "Manager decisions". A slot whose family allows text but whose section
+   gives nothing to say gets `none`, not an invented phrase.
 
 ## 2. Write one brief per section
 
@@ -38,6 +54,9 @@ For each section with slots, fill `brief-template.md` into
   sections;
 - the slot's `## <style>` block from `picsart-workflows/style-families.md`,
   verbatim, under `## Style family`;
+- the `## Text in image` table: one row per string from the slot's
+  `> text:` line with its role (headline or call-to-action), the panel that
+  carries it and where; or the single word `none`;
 - 2 to 3 example sections of the same type, same family first:
   `uv run lp-corpus similar --type <type> --style <style>
   --query "<headline and body>" --exclude <frontmatter page> -k 3

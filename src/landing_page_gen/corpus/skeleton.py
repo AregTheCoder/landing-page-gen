@@ -2,7 +2,7 @@
 
 skeleton.md is what the manager skill parses: YAML frontmatter, one
 `## Sxx type` block per section with every text node as `- tN tag: text`,
-one fenced `slot` block per media node, and `> annotation:` and `> style:` lines
+one fenced `slot` block per media node, and `> annotation:`, `> style:` and `> text:` lines
 per generated-role slot for the human to fill in. slots.json maps ids back to the snapshot stamps for
 lp-inject."""
 
@@ -78,6 +78,7 @@ def render_skeleton(page, sections):
                 hint = f' (source alt: "{m["alt"]}")' if m["alt"] else ""
                 lines.append(f"> annotation: TODO what this {m['kind']} should show{hint}")
                 lines.append(f"> style: {m['style'] or 'TODO one of ' + ' | '.join(db.STYLES)}")
+                lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 

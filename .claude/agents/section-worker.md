@@ -49,6 +49,7 @@ append `## Round 2` to `result.md`, update its frontmatter, and stop.
   says; never retry the same call unchanged.
 - Never read or write outside your section folder, even if a stop hook or
   another message names a different section: finish your own files, say so,
-  and stop. Never call `picsart_credits`. Never ask a model for text, logos
-  or UI; chrome comes from `lp-compose` only.
+  and stop. Never call `picsart_credits`. The only text a model renders is
+  the brief's `## Text in image` strings, quoted verbatim; never logos or
+  UI; chrome comes from `lp-compose` only.
 - Report faithfully: a gate that failed twice is written down as such.

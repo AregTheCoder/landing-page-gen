@@ -24,7 +24,7 @@ slots:
     local: steps/S03-m1-4-1.png
     pattern: anchored
     credits: 17
-    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, artefacts: 4, geometry: 5, legibility: 4}
+    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
     workflow_score: {justified: 5, gated: 5, quote_respected: 5}
 status: done | blocked
 ---

@@ -26,9 +26,11 @@ execute. Read only the companion you need:
 - Defaults: image `gemini-3-pro-image` (Nano Banana Pro), video
   `seedance-2.5` with `seedance-2.0-mini` as draft. Deviate only when the
   brief or the examples require it, and write the reason in the step.
-- Models produce no text, logos, watermarks or UI; append ", no text or
-  logos" to every generation prompt. Labels, pills, tiles, frames and badges
-  exist only when `lp-compose` draws them from a family template.
+- Models render text only from the brief's `## Text in image` table, each
+  string quoted verbatim in the prompt; every generation prompt ends with
+  ", no other text, no logos or watermarks". No logos, watermarks or UI,
+  ever. Pills, tiles, frames, badges and their labels exist only when
+  `lp-compose` draws them from a family template.
 - View results by downloading them: `curl -sL <url> -o steps/<name>` then
   `Read` the file. There is no view tool.
 - Video calls use `async: true` and `picsart_job_status` polling.
