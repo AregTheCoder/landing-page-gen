@@ -58,11 +58,23 @@ taught it.
 - `gemini-3-pro-image` with `count: 2` returned one image and charged for two
   (10 credits, twice). Use `count: 1` and re-run for a second candidate; the
   ledger, not the response, says what was paid. (runs/trial-1 S07)
+- The look of a tool-page image is its style family
+  (`picsart-workflows/style-families.md`), not its copy or alt. The skeleton
+  names the family per slot (`> style:`), the brief carries the family
+  block, `similar --style` picks same-family examples. A physical still
+  life where the family is a flat composite is a `resemblance` 1.
+  (runs/trial-1 S07)
+- Composite slots: the worker generates the photographic panels only;
+  ground, panels and chrome come from `lp-compose` with the family template,
+  so `clean` is scored on the panels and chrome text is limited to the
+  family's labels (Before, After, x2, 4K, a size). (runs/trial-1 S07)
 
 ## Non-goals
 
 - Writing or rewriting page copy.
 - Generating product UI screenshots, icons or decorative brand assets.
+- Drawing panel chrome (tiles, pills, brackets, checkerboards) with a
+  generative model; `lp-compose` draws it.
 - Producing the production Next.js page; the output is a snapshot.
 
 ## Budget

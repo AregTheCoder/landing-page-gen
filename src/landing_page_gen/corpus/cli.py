@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db, discover, media, sectionize, similar, skeleton, snapshot
+from . import db, discover, media, sectionize, similar, skeleton, snapshot, styles
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -59,8 +59,16 @@ def main(argv=None) -> int:
     sm.add_argument("--query", required=True, help="headline plus body text of the target section")
     sm.add_argument("-k", type=int, default=3)
     sm.add_argument("--exclude", help="page slug to leave out (the page the skeleton came from)")
+    sm.add_argument("--style", choices=db.STYLES, help="prefer sections whose media carry this style family")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
+
+    st = sub.add_parser("styles", help="Tag creative media with a style family (Claude vision) -> corpus/styles.yaml + media.style")
+    st.add_argument("--styles", type=Path, default=styles.STYLES_YAML, help="yaml of tags (default corpus/styles.yaml)")
+    st.add_argument("--apply-only", action="store_true", help="only mirror the yaml into the DB, no classification")
+    st.add_argument("--force", action="store_true", help="re-classify media that already have a tag")
+    st.add_argument("--model", default=styles.MODEL)
+    st.add_argument("--limit", type=int, help="classify at most this many (for a trial pass)")
 
     a = p.parse_args(argv)
     if a.cmd == "init":
@@ -75,6 +83,8 @@ def main(argv=None) -> int:
         return cmd_sectionize(a)
     if a.cmd == "media":
         return cmd_media(a)
+    if a.cmd == "styles":
+        return cmd_styles(a)
     if a.cmd == "skeleton":
         con = db.connect(a.db)
         out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
@@ -82,13 +92,15 @@ def main(argv=None) -> int:
         return 0
     if a.cmd == "similar":
         con = db.connect(a.db)
-        rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media)
+        rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media, style=a.style)
         if not rows:
             log(f"no {a.type} sections in the corpus" + (" with generated-role media" if not a.any_media else ""))
             return 1
         with similar.FrameGrabber() as grabber:
             similar.write_examples(con, rows, a.out, log=log, grabber=grabber)
-        print(f"{len(rows)} {a.type} example(s) -> {a.out}")
+        tagged = sum(1 for r in rows if con.execute(
+            "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], a.style)).fetchone()) if a.style else 0
+        print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")
         return 0
     return 2
 
@@ -209,10 +221,27 @@ def cmd_sectionize(a):
         return 2
     n_pages, n_sections, n_media = con.execute(
         "SELECT (SELECT count(*) FROM pages), (SELECT count(*) FROM sections), (SELECT count(*) FROM media)").fetchone()
-    print(f"corpus: {n_pages} pages, {n_sections} sections, {n_media} media in {a.db}")
+    n_styled = styles.apply(con, styles.load())  # re-indexing recreates media rows without their tags
+    print(f"corpus: {n_pages} pages, {n_sections} sections, {n_media} media ({n_styled} style-tagged) in {a.db}")
     for slug, err in failures:
         print(f"  failed: {slug}: {err}")
     return 1 if failures else 0
+
+
+def cmd_styles(a):
+    con = db.connect(a.db)
+    if a.apply_only:
+        n = styles.apply(con, styles.load(a.styles))
+        print(f"styles: {n} media rows tagged from {a.styles}")
+        return 0
+    mapping, n_alt, n_model, n_rows = styles.run(con, model=a.model, limit=a.limit, force=a.force, log=log, path=a.styles)
+    hist = {}
+    for v in mapping.values():
+        hist[v["style"]] = hist.get(v["style"], 0) + 1
+    print(f"styles: {n_alt} tagged by alt, {n_model} sent to {a.model}, {n_rows} media rows tagged -> {a.styles}")
+    for style, n in sorted(hist.items(), key=lambda kv: -kv[1]):
+        print(f"  {style}: {n}")
+    return 0
 
 
 if __name__ == "__main__":

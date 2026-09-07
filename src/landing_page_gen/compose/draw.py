@@ -1,0 +1,227 @@
+"""Pillow primitives for lp-compose. Every function takes pixel coordinates
+on the (supersampled) canvas; scaling from reference pixels is cli's job.
+Shapes return the rect they covered so callers can report and test them."""
+
+from pathlib import Path
+
+from PIL import Image, ImageChops, ImageDraw, ImageFont
+
+from .families import CHECKER, MAGENTA
+
+ASSETS = Path(__file__).parent / "assets"
+WHITE = (255, 255, 255, 255)
+STYLES = {  # pill fill, text colour
+    "translucent": ((30, 30, 30, 150), WHITE),
+    "solid-dark": ((28, 28, 28, 255), WHITE),
+    "solid-light": ((255, 255, 255, 235), (20, 20, 20, 255)),
+}
+ANCHORS = {"center": (0.5, 0.5), "top": (0.5, 0), "bottom": (0.5, 1), "left": (0, 0.5), "right": (1, 0.5)}
+# 24-unit grid; "lines" are polylines, "rounded" an outlined rounded square, "polygon" filled
+ICONS = {
+    "enlarge": {"rounded": (5, 5, 19, 19),
+                "lines": [[(13.5, 10.5), (17.5, 6.5)], [(17.5, 10), (17.5, 6.5), (14, 6.5)],
+                          [(10.5, 13.5), (6.5, 17.5)], [(6.5, 14), (6.5, 17.5), (10, 17.5)]]},
+    "crop": {"lines": [[(7, 3), (7, 17), (21, 17)], [(3, 7), (17, 7), (17, 21)]]},
+    "check": {"lines": [[(6, 12), (10.5, 16.5), (18.5, 8)]]},
+    "sparkle": {"polygon": [(12, 2), (14.2, 9.8), (22, 12), (14.2, 14.2), (12, 22), (9.8, 14.2), (2, 12), (9.8, 9.8)]},
+}
+
+
+def font(px, weight=600):
+    f = ImageFont.truetype(str(ASSETS / "Manrope.ttf"), max(1, round(px)))
+    f.set_variation_by_axes([weight])
+    return f
+
+
+def ground(size, spec):
+    """Solid, transparent (fill None) or two-colour gradient RGBA canvas."""
+    w, h = size
+    if "gradient" in spec:
+        a, b = (tuple(c) + (255,) for c in spec["gradient"])
+        ramp = Image.linear_gradient("L")  # black at the top, white at the bottom
+        direction = spec.get("direction", "vertical")
+        if direction == "horizontal":
+            ramp = ramp.rotate(90)
+        elif direction == "diagonal":
+            ramp = ramp.resize((512, 512)).rotate(45).crop((128, 128, 384, 384))
+        ramp = ramp.resize((w, h))
+        return Image.composite(Image.new("RGBA", size, b), Image.new("RGBA", size, a), ramp)
+    fill = spec.get("fill")
+    return Image.new("RGBA", size, tuple(fill) + (255,) if fill else (0, 0, 0, 0))
+
+
+def rounded_mask(size, radius):
+    m = Image.new("L", size, 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, size[0] - 1, size[1] - 1), radius=radius, fill=255)
+    return m
+
+
+def parse_anchor(anchor):
+    if anchor in ANCHORS:
+        return ANCHORS[anchor]
+    ax, ay = str(anchor).split(",")
+    return float(ax), float(ay)
+
+
+def fit(im, size, mode="cover", anchor="center"):
+    """cover: scale to fill and crop, the anchor picks the part that survives
+    (0,0 top-left .. 1,1 bottom-right); contain: scale to fit inside, centred
+    on transparency (for cutouts, so nothing of the subject is lost)."""
+    w, h = size
+    im = im.convert("RGBA")
+    iw, ih = im.size
+    if mode == "contain":
+        s = min(w / iw, h / ih)
+        r = im.resize((max(1, round(iw * s)), max(1, round(ih * s))), Image.LANCZOS)
+        out = Image.new("RGBA", size, (0, 0, 0, 0))
+        out.paste(r, ((w - r.width) // 2, (h - r.height) // 2))
+        return out
+    s = max(w / iw, h / ih)
+    r = im.resize((max(w, round(iw * s)), max(h, round(ih * s))), Image.LANCZOS)
+    ax, ay = parse_anchor(anchor)
+    x, y = round((r.width - w) * ax), round((r.height - h) * ay)
+    return r.crop((x, y, x + w, y + h))
+
+
+def checkerboard(size, cell):
+    im = Image.new("RGBA", size, CHECKER[0] + (255,))
+    d = ImageDraw.Draw(im)
+    for y in range(0, size[1], cell):
+        for x in range(0, size[0], cell):
+            if ((x // cell) + (y // cell)) % 2:
+                d.rectangle((x, y, x + cell - 1, y + cell - 1), fill=CHECKER[1] + (255,))
+    return im
+
+
+def panel(canvas, im, rect, radius, mode="cover", anchor="center", under=None, cell=100):
+    x0, y0, x1, y1 = rect
+    size = (x1 - x0, y1 - y0)
+    layer = Image.new("RGBA", size, (0, 0, 0, 0))
+    if under == "checkerboard":
+        layer.alpha_composite(checkerboard(size, cell))
+    layer.alpha_composite(fit(im, size, mode, anchor))
+    layer.putalpha(ImageChops.multiply(layer.getchannel("A"), rounded_mask(size, radius)))
+    canvas.alpha_composite(layer, (x0, y0))
+    return rect
+
+
+def card(canvas, rect, fill, radius):
+    ImageDraw.Draw(canvas).rounded_rectangle(rect, radius=radius, fill=tuple(fill) + (255,))
+    return rect
+
+
+def icon(canvas, rect, name, colour=WHITE):
+    """A line icon from the 24-unit grid, centred in rect, sized to its
+    shorter side; strokes are 2 units with round caps and joints."""
+    spec = ICONS[name]
+    x0, y0, x1, y1 = rect
+    s = min(x1 - x0, y1 - y0)
+    u = s / 24
+    ox, oy = x0 + (x1 - x0 - s) / 2, y0 + (y1 - y0 - s) / 2
+    pt = lambda p: (ox + p[0] * u, oy + p[1] * u)  # noqa: E731
+    d = ImageDraw.Draw(canvas)
+    stroke = max(1, round(2 * u))
+    if "rounded" in spec:
+        a, b, c, e = spec["rounded"]
+        d.rounded_rectangle((*pt((a, b)), *pt((c, e))), radius=3 * u, outline=colour, width=stroke)
+    for line in spec.get("lines", []):
+        pts = [pt(p) for p in line]
+        d.line(pts, fill=colour, width=stroke, joint="curve")
+        for x, y in (pts[0], pts[-1]):
+            d.ellipse((x - stroke / 2, y - stroke / 2, x + stroke / 2, y + stroke / 2), fill=colour)
+    if "polygon" in spec:
+        d.polygon([pt(p) for p in spec["polygon"]], fill=colour)
+    return rect
+
+
+def tile(canvas, rect, name, radius, fill=(0, 0, 0, 255)):
+    x0, y0, x1, y1 = rect
+    ImageDraw.Draw(canvas).rounded_rectangle(rect, radius=radius, fill=fill)
+    s = round(min(x1 - x0, y1 - y0) * 0.4)
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    icon(canvas, (cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2), name)
+    return rect
+
+
+def box_text(canvas, rect, text, fill, colour, radius, fnt):
+    """Rounded box filling rect with the text centred; the base of pills,
+    labels and buttons. Alpha-composited so translucent fills work."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=fill)
+    if text:
+        d.text(((x0 + x1) / 2, (y0 + y1) / 2), text, font=fnt, fill=colour, anchor="mm")
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
+def pill_in(canvas, rect, text, style, fnt):
+    fill, colour = STYLES[style]
+    return box_text(canvas, rect, text, fill, colour, (rect[3] - rect[1]) / 2, fnt)
+
+
+def pill_at(canvas, panel_rect, corner, text, style, fnt, pad, inset):
+    """A pill sized to its text, `inset` from the named corner of a panel
+    (tl, tr, bl, br)."""
+    l, t, r, b = fnt.getbbox(text)
+    w, h = r - l + 2 * pad[0], (b - t) + 2 * pad[1]
+    px0, py0, px1, py1 = panel_rect
+    x0 = px0 + inset if corner[1] == "l" else px1 - inset - w
+    y0 = py0 + inset if corner[0] == "t" else py1 - inset - h
+    fill, colour = STYLES[style]
+    return box_text(canvas, (x0, y0, x0 + w, y0 + h), text, fill, colour, h / 2, fnt)
+
+
+def label(canvas, rect, text, radius, fnt, fill=(28, 28, 28, 255)):
+    return box_text(canvas, rect, text, fill, WHITE, radius, fnt)
+
+
+def brackets(canvas, rect, text, fnt, stroke, colour=WHITE):
+    """Four L corners plus a tick at each edge midpoint, the label centred
+    below; the crop-selection mark of the crop-frame family."""
+    x0, y0, x1, y1 = rect
+    arm = min(x1 - x0, y1 - y0) * 0.14
+    d = ImageDraw.Draw(canvas)
+    for cx, sx in ((x0, 1), (x1, -1)):
+        for cy, sy in ((y0, 1), (y1, -1)):
+            d.line([(cx, cy + sy * arm), (cx, cy), (cx + sx * arm, cy)], fill=colour, width=stroke, joint="curve")
+    mx, my, half = (x0 + x1) / 2, (y0 + y1) / 2, arm * 0.4
+    for a, b in (((mx - half, y0), (mx + half, y0)), ((mx - half, y1), (mx + half, y1)),
+                 ((x0, my - half), (x0, my + half)), ((x1, my - half), (x1, my + half))):
+        d.line([a, b], fill=colour, width=stroke)
+    if text:
+        d.text((mx, y1 + arm * 1.2), text, font=fnt, fill=colour, anchor="ma")
+    return rect
+
+
+def badge(canvas, rect, radius):
+    d = ImageDraw.Draw(canvas)
+    d.rounded_rectangle(rect, radius=radius, fill=MAGENTA + (255,))
+    x0, y0, x1, y1 = rect
+    inset = (x1 - x0) * 0.22
+    icon(canvas, (x0 + inset, y0 + inset, x1 - inset, y1 - inset), "check")
+    return rect
+
+
+def headline(canvas, rect, text, px, stroke, radius, colour=WHITE):
+    """The template card's headline area: a thin rounded outline with the
+    text in caps sized to fit, or two blank bars when there is no text."""
+    x0, y0, x1, y1 = rect
+    w, h = (x1 - x0), (y1 - y0)
+    d = ImageDraw.Draw(canvas)
+    d.rounded_rectangle(rect, radius=radius, outline=colour, width=stroke)
+    if text:
+        words = text.upper().split()
+        lines = [" ".join(words)] if len(words) < 3 else [" ".join(words[: len(words) // 2]), " ".join(words[len(words) // 2:])]
+        body = "\n".join(lines)
+        fnt = font(px, 800)
+        while px > 8 and (d.multiline_textbbox((0, 0), body, font=fnt)[2] > w * 0.86
+                          or d.multiline_textbbox((0, 0), body, font=fnt)[3] > h * 0.8):
+            px *= 0.92
+            fnt = font(px, 800)
+        d.multiline_text(((x0 + x1) / 2, (y0 + y1) / 2), body, font=fnt, fill=colour, anchor="mm", align="center")
+    else:
+        for k in (0.34, 0.56):
+            d.rounded_rectangle((x0 + w * 0.2, y0 + h * k, x1 - w * 0.2, y0 + h * (k + 0.12)), radius=stroke, fill=colour)
+    return rect

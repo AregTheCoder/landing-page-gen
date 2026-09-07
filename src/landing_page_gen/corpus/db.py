@@ -13,6 +13,9 @@ SECTION_TYPES = (
 )
 MEDIA_ROLES = ("creative", "thumbnail", "ui-screenshot", "icon", "decorative")
 GENERATED_ROLES = ("creative", "thumbnail")
+# style families of .claude/skills/picsart-workflows/style-families.md (media.style)
+STYLES = ("dark-composite", "before-after", "crop-frame", "cutout-checkerboard",
+          "template-mockup", "prompt-card", "full-bleed")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS pages (
@@ -62,6 +65,7 @@ CREATE TABLE IF NOT EXISTS media (
   nat_height INTEGER,
   duration REAL,
   local_path TEXT,
+  style TEXT,
   selector TEXT NOT NULL
 );
 CREATE VIRTUAL TABLE IF NOT EXISTS sections_fts
@@ -80,6 +84,8 @@ def connect(path: Path) -> sqlite3.Connection:
     con = sqlite3.connect(path)
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
+    if "style" not in {r["name"] for r in con.execute("PRAGMA table_info(media)")}:
+        con.execute("ALTER TABLE media ADD COLUMN style TEXT")  # corpora indexed before styles existed
     return con
 
 

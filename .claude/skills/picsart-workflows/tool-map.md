@@ -24,6 +24,7 @@ day, audio off); re-quote before relying on them.
 | Reframe video (paid model) | `picsart_generate` | `luma-ray-flash-2-reframe-video` (`luma-ray-2-reframe-video` for quality) | `videoUrl`, `aspectRatio` (16:9 9:16 1:1 4:3 3:4 21:9 9:21), `prompt` | 36 (flash), 99 (ray 2) |
 | Reframe / describe video | Media Tools `picsart_media_reframe_video`, `picsart_media_describe_video` | | | not on the paid connector; cost not quoted, check the result |
 | Contact sheet, stills, export | `picsart_media_contact_sheet`, `picsart_media_export`, `picsart_media_probe_media`, `picsart_media_upload` | | | 0 |
+| Composite card: ground, panels, chrome | `lp-compose` (local Pillow) | | `spec` (compose-<slot>.yaml), `--out`; `--describe <family>` lists the panels and their generate ratios | 0 |
 | Crop to exact slot size | `lp-inject` (local Pillow) | | | 0 |
 
 Preflight for the editing models takes `params.imageUrls: [<url>]`, not

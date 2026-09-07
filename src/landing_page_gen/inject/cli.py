@@ -121,8 +121,11 @@ def inject(run, out=None, log=print):
             continue
         chosen = slot["chosen"]
         if chosen:
-            ext = Path(urllib.parse.urlsplit(str(chosen)).path).suffix or ".bin"
-            dest = fetch_to(str(chosen), gen_dir / f"{slot_id}{ext}")
+            src = str(chosen)
+            if not src.startswith(("http://", "https://")) and not Path(src).is_absolute():
+                src = str(run / src)  # a composite's result.md names its file relative to the run
+            ext = Path(urllib.parse.urlsplit(src).path).suffix or ".bin"
+            dest = fetch_to(src, gen_dir / f"{slot_id}{ext}")
             if slot.get("kind") == "image" and slot_size(slot):
                 dest = fit_image(dest, slot_size(slot))
             report["filled"].append(slot_id)

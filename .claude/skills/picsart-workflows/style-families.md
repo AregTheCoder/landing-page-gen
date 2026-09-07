@@ -1,0 +1,112 @@
+# Style families
+
+How a Picsart tool-page image is built, one `##` block per family. The
+manager names a family per slot (`> style:` in `skeleton.md`) and copies that
+block into the brief under `## Style family`. The worker generates only the
+panels the block lists; `lp-compose` draws everything else. Derived from the
+corpus (2026-09-07: 520 feature-callout and 196 hero creatives sampled).
+
+## Vocabulary and constants
+
+- **ground**: the slot's background: black `#000`/`#111`, white, a solid brand
+  colour, a pink-to-purple gradient, or transparent (rounded corners show
+  the page).
+- **panel**: a rounded-corner picture area, radius 40 px at 1600 px (24 at
+  1000), gutters 20-40 px, never a drop shadow.
+- **tile**: a black rounded square with one white line icon (a tool glyph).
+- **pill**: a fully rounded label: translucent dark over a photo ("Before",
+  "After"), solid dark or white for chips and buttons ("4K", "Add to bag").
+- **brackets**: four white L corners with mid-edge ticks marking a crop.
+- **checkerboard**: dark greys `#3a3a3c` / `#2a2a2c`, the transparency mark.
+- **badge**: a magenta `#b517aa` rounded square with a white check.
+- **photography**: real-looking editorial photography or clean illustration,
+  saturated but clean, one subject, one light; people and products are the
+  usual subjects. Panels carry no text, logos, watermarks or UI.
+
+The contract: the worker generates only the content panels listed under
+**Panels**, one prompt per panel, each at the panel's generate ratio
+(`uv run lp-compose --describe <family>` prints them). Everything under
+**Chrome** is drawn by `lp-compose` from the family template. A prompt
+describes one panel, never the composite, and ends with ", no text or
+logos". Families without a template (`prompt-card`, `full-bleed`) say so.
+Video slots use `full-bleed` for now; compose is skipped for video.
+
+Reference geometry is at 1600 px square; the composite is rendered at the
+slot's natural size and `lp-inject` scales it to the slot.
+
+## dark-composite
+**Use:** feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
+**Ground:** black.
+**Grid 1:1 (480):** one `photo` panel 1180x1600 on the left; a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom; gutter 40.
+**Grid 16:9 (hero):** photo two thirds wide, the tile column on the right; not templated in v1, so brief heroes of this look as `full-bleed`.
+**Chrome (lp-compose):** black tiles with white line icons (sparkle, crop), one dark chip with a short white label (4K, 2K, 1080p).
+**Panels (worker):** A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border.
+**Palette:** photo colours natural and saturated; chrome is black and white only.
+**Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos.
+**Examples:** ai-models--seedream-4 S06-m1, ai-models--recraft-v4- S07-m1, compare-models--imagen S06-m1.
+
+## before-after
+**Use:** feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change background; the headline says before/after, fix, improve, transform.
+**Ground:** black.
+**Grid 1:1 (480):** left column 600 wide: `before` 600x630 on top, `after` 600x630 below, an icon tile 600x280 at the bottom; `result` 970x1600 on the right shows the after image large.
+**Grid 16:9 (hero):** before left, after right, a pill bottom-left of each; not templated in v1.
+**Chrome (lp-compose):** translucent dark pills "Before" and "After" bottom-left of the two small panels; a tile with the enlarge, crop or sparkle icon below them.
+**Panels (worker):** A `before` (generate 1:1): the source photograph, ordinary and slightly flawed as the tool's input would be (soft, dull, a cluttered background). B `after`: the same photograph after the tool's effect, made from A with `picsart_enhance`, `picsart_change_bg` or `picsart_remove_bg`, never a second generate. `result` reuses B with an anchor on the subject. Keep the subject clear of the bottom-left 30 % where the pill sits.
+**Palette:** natural; the after may be brighter and more saturated than the before, nothing else changes between them.
+**Never:** two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
+**Examples:** image-enlarger S08-m1, ai-image-enhancer S01-m1, background-changer S07-m1.
+
+## crop-frame
+**Use:** feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size, a platform format (Story, Reel, post) or says resize, crop, fit.
+**Ground:** transparent (the rounded corners show the page) or white.
+**Grid 1:1 (480):** left column 780 wide: a wide icon tile 780x360 on top, the `source` photo 780x1200 below with the bracket frame over its centre; `result` 780x1600 on the right shows the framed region enlarged.
+**Grid 16:9 (hero):** source left, result right, brackets on the source; not templated in v1.
+**Chrome (lp-compose):** white bracket corners with mid-edge ticks on the source panel, a label under them (x2, 1080 x 1920 px, Story), a black tile with the enlarge or crop icon.
+**Panels (worker):** A `source` (generate 2:3): one photograph with a clear subject in the centre third so the brackets frame something. B `result` (generate 9:16): the same photograph, anchored on the subject; usually A's own URL with a different anchor. People or products in an environment read best; the crop must still read at 480 px.
+**Palette:** natural; a darker photo keeps the white brackets legible.
+**Never:** brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
+**Examples:** resize-image S07-m1, resize-image S06-m1, image-upscale S05-m1.
+
+## cutout-checkerboard
+**Use:** feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the headline says remove, cut out, transparent, sticker, batch, isolate.
+**Ground:** black.
+**Grid 1:1 (480):** left column 510 wide: two checkerboard panels 510x780 stacked, each with a magenta badge top-right; `result` 1040x1290 on the right; a dark button 1010x190 under it.
+**Grid 16:9 (hero):** checkerboard panels in a row, the result on the right; not templated in v1.
+**Chrome (lp-compose):** dark-grey checkerboard under the cutouts, magenta check badges, a solid dark button with a short generic label (Add to bag, Download, Apply to all).
+**Panels (worker):** A `cutout-a` and B `cutout-b` (generate 2:3): two products or subjects each generated alone on a plain mid-grey backdrop, then `picsart_remove_bg` (free) so they arrive as transparent PNGs; they are placed with `fit: contain`. C `result` (generate 3:4): one of them in a finished scene, either `picsart_change_bg` on the cutout or a clean studio shot of the same subject.
+**Palette:** subjects saturated against the grey checker; the result panel light and clean.
+**Never:** a checkerboard or halo painted by the model, shadows under transparent cutouts, text on the products, more than one subject per cutout panel.
+**Examples:** batch-photo-editor S06-m1, batch-photo-editor S11-m1, sticker-maker S05-m1.
+
+## template-mockup
+**Use:** feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font and logo generators; the headline says template, design, customize, layout, brand.
+**Ground:** white when tool tiles are shown; otherwise a solid brand colour or a pink-to-purple gradient.
+**Grid 1:1 (480):** a column of four black icon tiles 260x260 on the left; one template card 860x1140 on the right with a headline box in its top third and the `photo` panel 740x660 below it.
+**Grid 16:9 (hero):** two or three template cards side by side, flat, no perspective; not templated in v1.
+**Chrome (lp-compose):** the template card (solid `card.fill` colour), the headline outline box with a two-word placeholder headline or blank bars, four black icon tiles (sparkle, crop, enlarge, check).
+**Panels (worker):** A `photo` (generate 1:1): the photograph the template is built around: a single product or lifestyle subject on a plain or softly coloured backdrop, front-on, centred, at least 25 % margin around the subject. It is a flat picture, not a printed object.
+**Palette:** card colour deep and saturated (indigo, magenta, coral, forest); photo colours complementary; white chrome.
+**Never:** printed cards standing on tables, stacks or fans of cards, perspective, drop shadows, paper texture, text or logos inside the photo, mock toolbars.
+**Examples:** ai-template-generator S07-m1, poster-maker S06-m1, flyer-maker S06-m1.
+
+## prompt-card
+**Use:** hero and feature-callout on ai-models and AI generator pages when the point is "type a prompt, get this": the prompt text sits beside the result.
+**Ground:** black.
+**Grid 1:1 (480):** a dark text card with the prompt and a "Generate" button on the left or top, the result photo on the right, model tiles under the card.
+**Grid 16:9 (hero):** prompt card in the left third, result in the other two thirds.
+**Chrome (lp-compose):** not templated in v1 (the text card, button and tiles are all chrome); until a template exists, brief these slots as `dark-composite` with the result as panel A.
+**Panels (worker):** A `result` (generate 3:4 or 1:1): the image the prompt describes, editorial finish, one subject.
+**Palette:** black and white chrome; result colours natural.
+**Never:** prompt text, buttons or cursors rendered by the model; screenshots of the product.
+**Examples:** ai-models--kling-v2-1 S01-m1, ai-models--qwen-image S08-m1, ai-models--seedream-4 S07-m1.
+
+## full-bleed
+**Use:** heroes, gallery tiles, compare-models samples, 9:16 model carousels, every video slot, and any slot whose corpus examples are one uninterrupted picture.
+**Ground:** none; the picture fills the slot.
+**Grid 1:1 (480):** one panel at the slot's aspect.
+**Grid 16:9 (hero):** one panel at the slot's aspect.
+**Chrome (lp-compose):** none in v1 (the small model pill some examples carry is a later addition); there is no compose step, the worker's final PNG is the asset.
+**Panels (worker):** A the whole slot at the slot's generate ratio: one editorial photograph or one clean illustration, one subject, one light, safe margin around the subject when `lp-inject` will crop.
+**Palette:** from the hero or the shared context; saturated, clean.
+**Never:** collages, split panels, borders, vignettes, text, logos, UI.
+**Examples:** compare-models--gpt-image S09-m1, comic-book-generator S01-m1, persona S01-m2.

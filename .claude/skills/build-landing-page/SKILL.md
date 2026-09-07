@@ -20,9 +20,13 @@ worker must return).
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:` lines. Slots with role `ui-screenshot`, `icon`
-   or `decorative` are kept from source; list them in the report and skip.
-   Sections with no remaining slots get no worker.
+   blocks and `> annotation:` and `> style:` lines. Slots with role
+   `ui-screenshot`, `icon` or `decorative` are kept from source; list them in
+   the report and skip. Sections with no remaining slots get no worker.
+4. A `> style:` still reading TODO is yours to decide: pick the family whose
+   **Use** line matches the section (`picsart-workflows/style-families.md`),
+   write it back into `skeleton.md`, and list the choice in the report under
+   "Manager decisions".
 
 ## 2. Write one brief per section
 
@@ -32,8 +36,10 @@ For each section with slots, fill `brief-template.md` into
 - the page frontmatter verbatim;
 - that H2 block verbatim (text, slots, annotations) and nothing from other
   sections;
-- 2 to 3 example sections of the same type:
-  `uv run lp-corpus similar --type <type>
+- the slot's `## <style>` block from `picsart-workflows/style-families.md`,
+  verbatim, under `## Style family`;
+- 2 to 3 example sections of the same type, same family first:
+  `uv run lp-corpus similar --type <type> --style <style>
   --query "<headline and body>" --exclude <frontmatter page> -k 3
   --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus PNGs;
   video examples arrive as a still frame, the `src` in the excerpt is the clip);
@@ -46,8 +52,9 @@ For each section with slots, fill `brief-template.md` into
 Spawn one `section-worker` (Agent tool, `subagent_type: section-worker`)
 with the prompt: "Section <Sxx>. Work only inside `<run>/sections/<Sxx>/`.
 Read `brief.md` first." Wait for it. Review (step 5). When accepted, write
-`<run>/shared-context.md`: the accepted hero URL, its palette and subject in
-two lines, and "use as `imageUrls` reference for the anchored pattern".
+`<run>/shared-context.md`: the hero's style family, the URL of its photo
+panel (never the composite), its palette and subject in two lines, and "use
+as `imageUrls` reference for the anchored pattern".
 
 ## 4. Wave 2: everything else
 
@@ -73,8 +80,9 @@ has already looked. Keep your own context for coordination.
 ## 6. Assemble
 
 1. Write `<run>/page.md`: the skeleton with each filled `slot` block
-   replaced by a `chosen` line (`chosen: <url>` and `workflow: sections/<Sxx>/workflow.yaml`),
-   kept-from-source slots left untouched.
+   replaced by a `chosen` line (`chosen: <url or run-relative path>` and
+   `workflow: sections/<Sxx>/workflow.yaml`), kept-from-source slots left
+   untouched.
 2. `uv run lp-inject <run>`.
 3. `picsart_credits` again. Finish `report.md`: per section pattern, steps,
    credits quoted vs spent (from `ledger.jsonl`), rounds, verdict; totals;

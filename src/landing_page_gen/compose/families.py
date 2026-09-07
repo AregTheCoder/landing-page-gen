@@ -1,0 +1,109 @@
+"""Composite-card templates, one dict per style family of
+`.claude/skills/picsart-workflows/style-families.md` that has chrome.
+Geometry is in reference pixels at REF (the corpus originals are 1600 px
+square) and is scaled to the spec's size at render time. The worker supplies
+the panel images; the family supplies the layout and the chrome."""
+
+import math
+
+REF = 1600
+RATIOS = ("1:1", "16:9", "9:16", "3:4", "4:3", "2:3", "21:9")  # gemini-3-pro-image
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+MAGENTA = (181, 23, 170)
+CHECKER = ((58, 58, 60), (42, 42, 44))
+
+# panels: name -> rect (x0, y0, x1, y1), optional fit ("cover" | "contain") and
+# under ("checkerboard"). chrome: drawn after the panels except kind "card";
+# a spec overrides an item by id and drops one with `omit`.
+FAMILIES = {
+    "before-after": {
+        "aspect": (1, 1),
+        "ground": {"fill": BLACK},
+        "radius": 40,
+        "panels": {
+            "before": {"rect": (0, 0, 600, 630)},
+            "after": {"rect": (0, 660, 600, 1290)},
+            "result": {"rect": (630, 0, 1600, 1600)},
+        },
+        "chrome": [
+            {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "translucent"},
+            {"id": "after-pill", "kind": "pill", "at": "after", "corner": "bl", "text": "After", "style": "translucent"},
+            {"id": "tile", "kind": "tile", "rect": (0, 1320, 600, 1600), "icon": "enlarge"},
+        ],
+    },
+    "crop-frame": {
+        "aspect": (1, 1),
+        "ground": {"fill": None},
+        "radius": 40,
+        "panels": {
+            "source": {"rect": (0, 400, 780, 1600)},
+            "result": {"rect": (820, 0, 1600, 1600)},
+        },
+        "chrome": [
+            {"id": "tile", "kind": "tile", "rect": (0, 0, 780, 360), "icon": "enlarge"},
+            {"id": "brackets", "kind": "brackets", "at": "source", "frac": (0.3, 0.22, 0.7, 0.66), "label": "x2"},
+        ],
+    },
+    "cutout-checkerboard": {
+        "aspect": (1, 1),
+        "ground": {"fill": BLACK},
+        "radius": 40,
+        "panels": {
+            "cutout-a": {"rect": (0, 0, 510, 780), "under": "checkerboard", "fit": "contain"},
+            "cutout-b": {"rect": (0, 820, 510, 1600), "under": "checkerboard", "fit": "contain"},
+            "result": {"rect": (560, 40, 1600, 1330)},
+        },
+        "chrome": [
+            {"id": "badge-a", "kind": "badge", "at": "cutout-a", "corner": "tr"},
+            {"id": "badge-b", "kind": "badge", "at": "cutout-b", "corner": "tr"},
+            {"id": "button", "kind": "pill", "rect": (590, 1370, 1600, 1560), "text": "Add to bag", "style": "solid-dark"},
+        ],
+    },
+    "template-mockup": {
+        "aspect": (1, 1),
+        "ground": {"fill": WHITE},
+        "radius": 40,
+        "panels": {
+            "photo": {"rect": (580, 660, 1320, 1320)},
+        },
+        "chrome": [
+            {"id": "card", "kind": "card", "rect": (520, 240, 1380, 1380), "fill": (43, 20, 90)},
+            {"id": "headline", "kind": "headline", "rect": (580, 300, 1320, 600), "text": ""},
+            {"id": "tile-1", "kind": "tile", "rect": (240, 240, 500, 500), "icon": "sparkle"},
+            {"id": "tile-2", "kind": "tile", "rect": (240, 520, 500, 780), "icon": "crop"},
+            {"id": "tile-3", "kind": "tile", "rect": (240, 800, 500, 1060), "icon": "enlarge"},
+            {"id": "tile-4", "kind": "tile", "rect": (240, 1080, 500, 1340), "icon": "check"},
+        ],
+    },
+    "dark-composite": {
+        "aspect": (1, 1),
+        "ground": {"fill": BLACK},
+        "radius": 40,
+        "panels": {
+            "photo": {"rect": (0, 0, 1180, 1600)},
+        },
+        "chrome": [
+            {"id": "tile-1", "kind": "tile", "rect": (1220, 0, 1600, 380), "icon": "sparkle"},
+            {"id": "tile-2", "kind": "tile", "rect": (1220, 420, 1600, 800), "icon": "crop"},
+            {"id": "chip", "kind": "label", "rect": (1220, 1220, 1600, 1600), "text": "4K"},
+        ],
+    },
+}
+
+
+def ratio_value(r):
+    a, b = r.split(":")
+    return int(a) / int(b)
+
+
+def nearest_ratio(w, h):
+    """The generate `aspectRatio` closest to a panel's shape."""
+    t = math.log(w / h)
+    return min(RATIOS, key=lambda r: abs(math.log(ratio_value(r)) - t))
+
+
+def aspect_label(w, h):
+    g = math.gcd(w, h)
+    return f"{w // g}:{h // g}"

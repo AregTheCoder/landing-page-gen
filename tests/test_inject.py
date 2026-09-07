@@ -61,3 +61,22 @@ def test_cli_returns_nonzero_on_missing_stamp(tmp_path):
     (run / "page.md").write_text(md)
     assert inject.main([str(run)]) == 1
     assert json.loads((run / "slots.json").read_text())["page"] == "comic-book-generator"
+
+
+def test_inject_resolves_run_relative_chosen(tmp_path, monkeypatch):
+    run = build_run(tmp_path)
+    steps = run / "sections" / "S01" / "steps"
+    steps.mkdir(parents=True)
+    Image.new("RGB", (600, 900), "green").save(steps / "S01-m1-3-1.png")
+    md = (run / "skeleton.md").read_text()
+    md = md.replace("id: S01-m1\nkind: image\n", "id: S01-m1\nkind: image\nchosen: sections/S01/steps/S01-m1-3-1.png\n", 1)
+    (run / "page.md").write_text(md)
+    elsewhere = tmp_path / "elsewhere"
+    elsewhere.mkdir()
+    monkeypatch.chdir(elsewhere)  # the path is run-relative, not cwd-relative
+    report = inject.inject(run, log=lambda m: None)
+    assert report["filled"] == ["S01-m1"]
+    assert Image.open(run / "dist" / "media" / "gen" / "S01-m1.png").size == (300, 450)
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup((run / "dist" / "index.html").read_text(), "html.parser")
+    assert soup.select_one('[data-lp="S01-m1"]')["data-lp-chosen"] == "sections/S01/steps/S01-m1-3-1.png"

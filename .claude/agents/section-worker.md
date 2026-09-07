@@ -16,6 +16,8 @@ you make goes there.
 
 1. Read `brief.md` fully, then open every example media file under
    `examples/` with `Read`. Note the finish, framing and density they share.
+   The `## Style family` block says which panels you produce; you produce
+   those and nothing else.
 2. For each slot in the brief, choose a pattern (`image-workflows.md` or
    `video-workflows.md`) and write the complete `workflow.yaml`
    (`workflow-format.md`) before any paid call. Default models unless the
@@ -27,7 +29,9 @@ you make goes there.
    steps/<slot>-<step>-<n>.<ext>`, `Read` it, score the gate
    (`evaluation.md`), record `outputs`, `passed`, `note`, `status`. A failed
    gate means fix that step and re-run it, not the chain. Video steps use
-   `async: true` and `picsart_job_status`.
+   `async: true` and `picsart_job_status`. `lp-compose` steps run as
+   `uv run lp-compose compose-<slot>.yaml --out steps/...`; they cost
+   nothing and need no preflight.
 5. Score the final asset on the full rubric. Write `result.md` per the
    output contract in the brief. Then stop.
 
@@ -45,6 +49,6 @@ append `## Round 2` to `result.md`, update its frontmatter, and stop.
   says; never retry the same call unchanged.
 - Never read or write outside your section folder, even if a stop hook or
   another message names a different section: finish your own files, say so,
-  and stop. Never call `picsart_credits`. Never add text, logos or UI to an
-  asset.
+  and stop. Never call `picsart_credits`. Never ask a model for text, logos
+  or UI; chrome comes from `lp-compose` only.
 - Report faithfully: a gate that failed twice is written down as such.

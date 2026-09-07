@@ -20,26 +20,39 @@ def fts_query(query, limit=40):
     return " OR ".join(f'"{t}"' for t in tokens[:limit])
 
 
-def find_similar(con, type_, query, k=3, exclude=None, need_media=True):
+def _media_clause(need_media, style=None):
+    if not need_media and not style:
+        return "", ()
+    cond = "m.role IN ('creative','thumbnail')" + (" AND m.style = ?" if style else "")
+    return f"AND EXISTS (SELECT 1 FROM media m WHERE m.section_id = s.id AND {cond})", ((style,) if style else ())
+
+
+def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=None):
     """Top-k sections of `type_` by BM25, at most one per page, from pages
     other than `exclude`; with need_media only sections that have a
-    creative/thumbnail slot."""
+    creative/thumbnail slot. With `style`, sections whose media carry that
+    style family come first; the untagged passes only fill what is left."""
     match = fts_query(query)
-    media_clause = ("AND EXISTS (SELECT 1 FROM media m WHERE m.section_id = s.id AND m.role IN ('creative','thumbnail'))"
-                    if need_media else "")
-    if match:
-        rows = con.execute(
-            f"""SELECT s.*, p.slug, p.url, bm25(sections_fts) AS rank
-                FROM sections_fts f JOIN sections s ON s.id = f.rowid JOIN pages p ON p.id = s.page_id
-                WHERE sections_fts MATCH ? AND s.type = ? {media_clause}
-                ORDER BY rank LIMIT ?""", (match, type_, k * 8)).fetchall()
-    else:
-        rows = []
-    if len({r["slug"] for r in rows if r["slug"] != exclude}) < k:
-        rows += con.execute(
-            f"""SELECT s.*, p.slug, p.url, 0 AS rank FROM sections s JOIN pages p ON p.id = s.page_id
-                WHERE s.type = ? {media_clause} ORDER BY s.media_count DESC, s.text_len DESC LIMIT ?""",
-            (type_, k * 8)).fetchall()
+    rows = []
+
+    def enough():
+        return len({r["slug"] for r in rows if r["slug"] != exclude}) >= k
+    passes = ([style] if style else []) + [None]
+    for st in passes:
+        clause, params = _media_clause(need_media or st, st)
+        if match and not enough():
+            rows += con.execute(
+                f"""SELECT s.*, p.slug, p.url, bm25(sections_fts) AS rank
+                    FROM sections_fts f JOIN sections s ON s.id = f.rowid JOIN pages p ON p.id = s.page_id
+                    WHERE sections_fts MATCH ? AND s.type = ? {clause}
+                    ORDER BY rank LIMIT ?""", (match, type_, *params, k * 8)).fetchall()
+    for st in passes:
+        clause, params = _media_clause(need_media or st, st)
+        if not enough():
+            rows += con.execute(
+                f"""SELECT s.*, p.slug, p.url, 0 AS rank FROM sections s JOIN pages p ON p.id = s.page_id
+                    WHERE s.type = ? {clause} ORDER BY s.media_count DESC, s.text_len DESC LIMIT ?""",
+                (type_, *params, k * 8)).fetchall()
     out, seen = [], set()
     for r in rows:
         if r["slug"] == exclude or r["slug"] in seen:
@@ -110,7 +123,7 @@ def write_examples(con, rows, out_dir, log=print, grabber=None):
     written = []
     for n, r in enumerate(rows, 1):
         media = con.execute("SELECT * FROM media WHERE section_id = ? ORDER BY id", (r["id"],)).fetchall()
-        gen = [m for m in media if m["role"] in db.GENERATED_ROLES]
+        gen = sorted((m for m in media if m["role"] in db.GENERATED_ROLES), key=lambda m: m["style"] is None)  # tagged first
         stem = f"{n}-{r['slug']}-{r['sid']}"
         files = []
         for m in gen[:MAX_EXAMPLE_MEDIA]:
@@ -138,7 +151,7 @@ def write_examples(con, rows, out_dir, log=print, grabber=None):
         for m, f in files:
             size = f"{m['width']}x{m['height']}" if m["width"] and m["height"] else "?"
             lines.append(f"  - {{slot: {m['slot_id']}, kind: {m['kind']}, role: {m['role']}, size: {size}, "
-                         f"aspect: '{m['aspect']}', local: {f.name}, src: {m['src']}}}")
+                         f"aspect: '{m['aspect']}', style: {m['style'] or 'untagged'}, local: {f.name}, src: {m['src']}}}")
         lines += ["---", "", r["md"]]
         path = out_dir / f"{stem}.md"
         path.write_text("\n".join(lines))

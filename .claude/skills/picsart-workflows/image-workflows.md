@@ -30,18 +30,41 @@ set. One generate with `count` 4–6, one prompt template with a slot-specific
 subject phrase, hero as reference. Gate: reject any member that breaks the
 set (different finish, text, wrong framing); regenerate members singly.
 
+**composite**: when the brief's `## Style family` block lists chrome
+(`style-families.md`). The worker generates the photographic panels only;
+`lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
+<family>` prints the panels and the `aspectRatio` to generate each at.
+1. one `picsart_generate` per distinct panel named under **Panels**,
+   `count: 1`, at its ratio, hero in `imageUrls` when anchored; the prompt
+   describes the photograph only → gate: photo content only, subject inside
+   the panel's crop, nothing from the family's **Never** list.
+2. before/after pairs are one photo: the after is `picsart_enhance`,
+   `picsart_change_bg` or `picsart_remove_bg` (free; placed `fit: contain`)
+   on step 1's URL, never a second generate; the result panel reuses the
+   after URL with its own anchor.
+3. write `compose-<slot>.yaml` (family, `size` = the slot's natural size,
+   one image per panel with an anchor), run `uv run lp-compose
+   compose-<slot>.yaml --out steps/<slot>-<step>-1.png`, `Read` it → gate:
+   panels unstretched, each subject inside its panel, chrome legible at
+   480 px, chrome text only the family's labels. Costs nothing, no preflight.
+
 ## Prompt rules
 
 - Subject, setting, light, finish, camera, in that order. One sentence each.
 - Name the finish the examples show (editorial photo, soft 3D render, flat
   illustration). Look at the example media before writing the prompt.
-- End with ", no text or logos". Never ask for UI, buttons or screens.
+- Describe one panel from the family's **Panels** line; put its **Never**
+  list in the prompt as negatives. No composites, tiles, pills or grounds
+  in a prompt.
+- End with ", no text or logos". Never ask a model for UI, buttons, screens,
+  pills or frames; when the family has chrome, `lp-compose` draws it.
 - Resolution: 2K by default; 4K only when the slot is over 2500 px wide.
 - Faces and hands are the artefact hotspots. Prefer compositions that do not
   depend on them unless the examples do.
 
 ## Gate checklist per step
 
-fit to brief and annotation; matches example finish; no text/logo; no
+fit to brief and annotation; matches the family's **Panels** line and the
+example finish; nothing from the family's **Never** list; no text/logo; no
 artefacts; subject placed for the slot's crop; palette consistent with
 shared context. Record pass/fail and the chosen URL in the step.

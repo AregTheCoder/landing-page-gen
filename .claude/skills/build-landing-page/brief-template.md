@@ -16,11 +16,19 @@ Run: <run>. Work only inside this folder. Dry run: <yes|no>.
 
 <the whole `## Sxx type` block: text with t: ids, slot blocks, annotations>
 
+## Style family: <style>
+
+<the `## <style>` block from picsart-workflows/style-families.md, verbatim>
+
+You generate only the panels listed under **Panels**, one prompt per panel,
+each at the panel's generate ratio (`uv run lp-compose --describe <style>`).
+Chrome is composited afterwards by `lp-compose`; never ask a model for it.
+
 ## Slots to produce
 
-| slot | kind | role | size | aspect |
-|---|---|---|---|---|
-| <Sxx-m1> | image | creative | 1440x810 | 16:9 |
+| slot | kind | role | size | natural | family | panels |
+|---|---|---|---|---|---|---|
+| <Sxx-m1> | image | creative | 480x480 | 720x720 | <style> | <A photo 3:4> |
 
 Kept from source (do not produce): <list or "none">
 

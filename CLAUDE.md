@@ -27,10 +27,13 @@ are in `.claude/` here; start Claude Code in this folder.
 uv run lp-corpus discover --seed <url>                   # -> corpus/pages.yaml
 uv run lp-corpus fetch --family tool --sectionize        # or: fetch /ai-image-generator/ ...
 uv run lp-corpus media --all                             # download media for snapshots fetched --no-media
-uv run lp-corpus sectionize --all                        # re-index after sectionize.py changes
+uv run lp-corpus sectionize --all                        # re-index after sectionize.py changes; re-applies corpus/styles.yaml
+uv run lp-corpus styles [--limit N]                      # tag untagged creatives with a style family (Claude vision) -> corpus/styles.yaml
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
-uv run lp-corpus similar --type hero --query "<headline and body>" \
+uv run lp-corpus similar --type hero --style full-bleed --query "<headline and body>" \
     --exclude ai-image-generator -k 3 --out runs/<run>/sections/S01/examples
+uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
+uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
 uv run lp-inject runs/<run>
 ```
 
@@ -53,6 +56,8 @@ the served URL is kept on each element as `data-lp-src`.
   this, deny dry-run and over-cap calls, and log every URL to
   `ledger.jsonl`; outside a run the guard allows everything.
 - Roles `ui-screenshot`, `icon`, `decorative` are never generated.
-- Images carry no text; page copy is HTML.
+- Images carry no text; page copy is HTML. Chrome (tiles, pills, brackets)
+  comes from `lp-compose`, never from a model. Every generated slot has a
+  style family (`picsart-workflows/style-families.md`).
 - Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.
 - A rule learned goes into `prd.md`; the decision behind it into `plan.md`.

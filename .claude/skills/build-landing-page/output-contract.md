@@ -7,6 +7,7 @@ finishing until `workflow.yaml` and `result.md` exist with the required keys.
 brief.md            written by the manager, read-only
 examples/           corpus excerpts and media, read-only
 workflow.yaml       one document per slot (--- separated), see picsart-workflows/workflow-format.md
+compose-<slot>.yaml the lp-compose spec of a composite slot: family, size, one image per panel
 steps/              every downloaded intermediate and final asset, named <slot>-<step>-<n>.<ext>
 result.md           frontmatter + prose, format below
 review-N.md         written by the reviewer, one per round
@@ -19,7 +20,7 @@ review-N.md         written by the reviewer, one per round
 section: S03
 slots:
   S03-m1:
-    chosen: https://...            # final asset URL (also in workflow.yaml final.url)
+    chosen: https://...            # final asset URL, or a composite's run-relative path (sections/S03/steps/S03-m1-3-1.png)
     local: steps/S03-m1-4-1.png
     pattern: anchored
     credits: 17

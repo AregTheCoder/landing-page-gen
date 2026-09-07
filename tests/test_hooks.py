@@ -110,3 +110,23 @@ def test_check_result_blocks_until_contract_is_met(tmp_path):
     (section / "result.md").write_text("---\nchosen: x\nscores: {}\n---\n")
     assert run_hook("check_result.py", payload, run) is None
     assert run_hook("check_result.py", {**payload, "stop_hook_active": True}, run) is None
+
+
+def test_check_result_accepts_composite_contract(tmp_path):
+    """A composite slot has no URL: final.url is null, chosen is a run-relative path."""
+    import yaml
+    run = make_run(tmp_path)
+    section = run / "sections" / "S07"
+    section.mkdir(parents=True)
+    transcript = tmp_path / "t.jsonl"
+    transcript.write_text(json.dumps({"input": {"file_path": f"{run}/sections/S07/brief.md"}}) + "\n")
+    payload = {"transcript_path": str(transcript), "stop_hook_active": False}
+    (section / "workflow.yaml").write_text(
+        "slot: S07-m1\nsteps:\n  - id: 3\n    tool: lp-compose\n"
+        "    params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}\n    quoted_credits: 0\n"
+        "final: {url: null, local: steps/S07-m1-3-1.png, width: 720, height: 720}\n")
+    (section / "result.md").write_text(
+        "---\nsection: S07\nslots:\n  S07-m1:\n    chosen: sections/S07/steps/S07-m1-3-1.png\n"
+        "    scores: {clean: 5}\n---\n")
+    assert run_hook("check_result.py", payload, run) is None
+    assert yaml.safe_load((section / "workflow.yaml").read_text())["steps"][0]["tool"] == "lp-compose"
