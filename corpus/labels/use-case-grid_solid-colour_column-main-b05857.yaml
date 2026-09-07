@@ -1,0 +1,46 @@
+sheet: use-case-grid_solid-colour_column-main-b05857
+group:
+  type: use-case-grid
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_solid-colour_column-main-b05857.answers.yaml
+cells:
+  1:
+    src: https://cdn130.picsart.com/17238261536603361130.png
+    asset: '17238261'
+    page: pattern-generator
+    slot: S04-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/99723626936142097507.png
+    asset: '99723626'
+    page: pattern-generator
+    slot: S04-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false

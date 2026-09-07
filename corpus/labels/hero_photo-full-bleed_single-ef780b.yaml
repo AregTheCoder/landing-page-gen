@@ -1,0 +1,61 @@
+sheet: hero_photo-full-bleed_single-ef780b
+group:
+  type: hero
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_photo-full-bleed_single-ef780b.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/b9f3811d-41bb-45f7-be18-de2d3c8d883e.avif
+    asset: b9f3811d
+    page: comic-book-generator
+    slot: S01-m8
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/d652a93c-1535-4b4b-9236-7ebb5fc57792.avif
+    asset: d652a93c
+    page: ai-models--recraft-v4-styles-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/f889fdff-6aa5-4023-9354-2abc49320f3d.avif
+    asset: f889fdff
+    page: comic-book-generator
+    slot: S01-m6
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

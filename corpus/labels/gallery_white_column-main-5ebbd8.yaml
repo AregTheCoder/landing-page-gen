@@ -1,0 +1,46 @@
+sheet: gallery_white_column-main-5ebbd8
+group:
+  type: gallery
+  ground: white
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_column-main-5ebbd8.answers.yaml
+cells:
+  1:
+    src: https://cdn-template.picsart.com/templates-cdn/d7b55eac-58e1-4307-9667-434f43d3641d.png
+    asset: d7b55eac
+    page: card-maker
+    slot: S05-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/fa55d808-36c9-4365-9e1a-acb055928ab4.avif
+    asset: fa55d808
+    page: ai-models--recraft-v4-styles
+    slot: S03-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 3
+    before_after: false

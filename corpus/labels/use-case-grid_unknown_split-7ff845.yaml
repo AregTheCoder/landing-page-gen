@@ -1,0 +1,186 @@
+sheet: use-case-grid_unknown_split-7ff845
+group:
+  type: use-case-grid
+  ground: unknown
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_unknown_split-7ff845.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp
+    asset: 1d3251a6
+    page: ai-models--kling-3-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 7
+    n_pages: 7
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21e5ec27-38e6-4b4b-b9c9-72eb8ce269eb.webp
+    asset: 21e5ec27
+    page: ai-models--dall-e-3
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2c990e97-c51f-4d19-be93-6cb7c2f21620.webp
+    asset: 2c990e97
+    page: remove-object-from-video
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2d8d9c5a-f920-4828-949b-b445e4a9c522.webp
+    asset: 2d8d9c5a
+    page: motivation-poster-maker
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/45d4f5ad-b8f7-4466-ba61-1b142c186222.avif
+    asset: 45d4f5ad
+    page: ai-models--elevenlabs-music-v2
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4dd48450-728e-4b15-a832-e64e989f056e.webp
+    asset: 4dd48450
+    page: ai-models--seedance-1-pro
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/50393c49-c6ef-4ddc-adb3-773c0d2c423c.avif
+    asset: 50393c49
+    page: background-changer
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/51ce3cd4-6298-4160-9528-30929d88f710.avif
+    asset: 51ce3cd4
+    page: ai-models--async-flash-v1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5bb50e97-f7c8-455e-8395-aaac71ba66da.webp
+    asset: 5bb50e97
+    page: ai-replace
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/659cd3f5-1b8c-4d05-a83c-86d869dc0d0f.png
+    asset: 659cd3f5
+    page: ai-models--flux-kontext-max
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: split
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6ade1f1d-7dd2-4323-949b-c17b1c616a07.avif
+    asset: 6ade1f1d
+    page: ai-models--imagen-4-0-ultra
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9871a1ec-8cdc-445d-a76b-eec5e0445758.webp
+    asset: 9871a1ec
+    page: ai-models--sora-2
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false

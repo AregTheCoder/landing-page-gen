@@ -1,0 +1,47 @@
+sheet: resource-links_black_column-main-71728c
+group:
+  type: resource-links
+  ground: black
+  layout: column-main
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: resource-links_black_column-main-71728c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b476daea-7716-4982-ad7a-edfd6c347d0c.webp
+    asset: b476daea
+    page: flow
+    slot: S11-m2
+    type: resource-links
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d4b9cf35-fb5f-4966-bef7-d772dad9d502.avif
+    asset: d4b9cf35
+    page: video-editor
+    slot: S12-m3
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false

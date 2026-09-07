@@ -1,0 +1,196 @@
+sheet: feature-callout_photo-full-bleed_single-9b443b
+group:
+  type: feature-callout
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_photo-full-bleed_single-9b443b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7d21a6c8-849e-4c5c-95d9-e71af4479458.webm
+    asset: 7d21a6c8
+    page: video-studio
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f33081e-e605-4c85-8b8f-dc36cab10a32.webm
+    asset: 7f33081e
+    page: ai-image-enhancer
+    slot: S13-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif
+    asset: 802fe719
+    page: ai-models--flux-kontext-max
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/81082e58-eac5-4e3b-86dd-09d5622e7c38.webm
+    asset: 81082e58
+    page: ai-models--hailuo-3
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/810a7895-82ba-4ea1-9cb9-8aede14031b5.webm
+    asset: 810a7895
+    page: ai-retouch
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8182f5a9-7082-4579-8817-f66b6ee3fe22.webm
+    asset: 8182f5a9
+    page: ai-models--wan-2-7
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/847ac184-0281-4953-8248-2b257c4b0092.webm
+    asset: 847ac184
+    page: ai-retouch
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/84d97db7-276b-4905-be9c-360ad029f9c6.png
+    asset: 84d97db7
+    page: compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8500247f-49da-48c3-9327-3ded7fe9fb67.webp
+    asset: 8500247f
+    page: compare-models--gpt-image-1-5-vs-midjourney
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/859caf7c-1ad2-44f7-9cfe-e24924552d79.avif
+    asset: 859caf7c
+    page: ai-models--recraft-v4-1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8665b544-e34d-47a0-9765-a471c783ec4b.avif
+    asset: 8665b544
+    page: hd-photo-converter
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8671b298-7ee3-44a8-87ed-c4eebfd417a6.webm
+    asset: 8671b298
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

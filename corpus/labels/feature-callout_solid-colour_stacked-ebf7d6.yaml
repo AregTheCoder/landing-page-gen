@@ -1,0 +1,31 @@
+sheet: feature-callout_solid-colour_stacked-ebf7d6
+group:
+  type: feature-callout
+  ground: solid-colour
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_solid-colour_stacked-ebf7d6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2e9d292c-9633-4935-8e04-393497e4f3e4.avif
+    asset: 2e9d292c
+    page: ai-image-enhancer
+    slot: S12-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: true

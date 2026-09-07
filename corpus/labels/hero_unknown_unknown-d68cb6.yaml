@@ -1,0 +1,55 @@
+sheet: hero_unknown_unknown-d68cb6
+group:
+  type: hero
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_unknown_unknown-d68cb6.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png
+    asset: 49d88aeb
+    page: ad-maker
+    slot: S01-m3
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png
+    asset: '57622864'
+    page: quote-poster-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png
+    asset: b262ccd9
+    page: ad-maker
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

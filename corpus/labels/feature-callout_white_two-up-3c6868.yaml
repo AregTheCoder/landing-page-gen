@@ -1,0 +1,106 @@
+sheet: feature-callout_white_two-up-3c6868
+group:
+  type: feature-callout
+  ground: white
+  layout: two-up
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_two-up-3c6868.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp
+    asset: 19bdc9aa
+    page: ai-product-image-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39120e67-c950-4588-84c4-7562280b8e10.webp
+    asset: 39120e67
+    page: ai-product-image-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp
+    asset: d9fe72a6
+    page: text-to-ad-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ebe8e85d-1307-4ba8-8746-5fedfa68e717.webp
+    asset: ebe8e85d
+    page: ai-product-image-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp
+    asset: fc728ce2
+    page: ai-product-image-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp
+    asset: ff776a63
+    page: text-to-ad-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false

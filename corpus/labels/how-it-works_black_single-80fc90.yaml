@@ -1,0 +1,61 @@
+sheet: how-it-works_black_single-80fc90
+group:
+  type: how-it-works
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_black_single-80fc90.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/72349a05-a086-4c75-946f-556e20c0d108.webp
+    asset: 72349a05
+    page: comic-book-generator
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/77b21ba1-e2ed-4632-ae8d-e5dac86e9d9f.avif
+    asset: 77b21ba1
+    page: video-studio
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a11de2b2-464f-4abe-946f-431517b331a3.avif
+    asset: a11de2b2
+    page: ai-image-generator
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

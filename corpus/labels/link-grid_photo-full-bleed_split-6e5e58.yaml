@@ -1,0 +1,46 @@
+sheet: link-grid_photo-full-bleed_split-6e5e58
+group:
+  type: link-grid
+  ground: photo-full-bleed
+  layout: split
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_photo-full-bleed_split-6e5e58.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/18910633441796797381.jpg
+    asset: '18910633'
+    page: photo-effects
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.png
+    asset: acf65550
+    page: ai-sticker-maker
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true

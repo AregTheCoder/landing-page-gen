@@ -1,0 +1,61 @@
+sheet: link-grid_white_single-f6f3bf
+group:
+  type: link-grid
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_single-f6f3bf.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/ebccdb56-baf7-4903-89ec-e59c8bf16aa0.png?type=webp&to=min&r=640
+    asset: ebccdb56
+    page: design
+    slot: S02-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/f07c4157-d746-46cb-8d6d-35051270884b.png
+    asset: f07c4157
+    page: add-music-to-video
+    slot: S15-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/f23e87b1-8508-4490-b03c-0f5a31695bfe.png
+    asset: f23e87b1
+    page: quote-maker
+    slot: S11-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

@@ -1,0 +1,46 @@
+sheet: gallery_black_grid-7c94ec
+group:
+  type: gallery
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_black_grid-7c94ec.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21c52953-9a7c-44c7-afdf-fcc2bf0c9e74.png
+    asset: 21c52953
+    page: background-changer
+    slot: S13-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7a5f383f-e8e4-4db7-8962-ccd5089dbd34.png
+    asset: 7a5f383f
+    page: background-changer
+    slot: S13-m6
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false

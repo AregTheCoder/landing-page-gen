@@ -21,6 +21,10 @@ runs/
 corpus/corpus.db
 corpus/frames/
 corpus/taxonomy/*.png
+# Labelling sheets are redrawn from attributes.yaml; the manifests and the
+# answers beside them are the labour and stay in git.
+corpus/labels/*.png
+corpus/labels/README.md
 corpus/pages/*/*
 !corpus/pages/*/sections.md
 !corpus/pages/*/meta.json

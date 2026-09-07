@@ -1,0 +1,76 @@
+sheet: gallery_light-grey_stacked-6a4b50
+group:
+  type: gallery
+  ground: light-grey
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_stacked-6a4b50.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png
+    asset: 2ffd9c10
+    page: quote-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/6bec73f5-dee9-48fb-92cd-860626f73486.png
+    asset: 6bec73f5
+    page: quote-maker
+    slot: S06-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png
+    asset: db5531db
+    page: quote-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  4:
+    src: https://cdn-template.picsart.com/templates-cdn/a552d0ef-06f2-4549-90ec-39f057b5e8e8.png
+    asset: a552d0ef
+    page: collage-maker
+    slot: S15-m14
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false

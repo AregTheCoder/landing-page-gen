@@ -1,0 +1,46 @@
+sheet: hero_solid-colour_column-main-71597f
+group:
+  type: hero
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_solid-colour_column-main-71597f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/661eb519-4a8a-4c5e-a100-5e8f53ae4281.webp
+    asset: 661eb519
+    page: flow
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/26255880684190648073.png
+    asset: '26255880'
+    page: pattern-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 5
+    before_after: false

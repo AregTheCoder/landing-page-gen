@@ -1,0 +1,91 @@
+sheet: hero_black_column-main-38250e
+group:
+  type: hero
+  ground: black
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_black_column-main-38250e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b7542cb-32be-42e4-98c3-cbc257716c29.webm
+    asset: 0b7542cb
+    page: ai-agents
+    slot: S01-m3
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png
+    asset: 35b5e9f3
+    page: meme-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46.webm
+    asset: 392f28ee
+    page: add-text-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/77de9c99-22d1-4aff-af3e-1143c35fd7ad.webm
+    asset: 77de9c99
+    page: ai-agents
+    slot: S01-m21
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/86ac1dbd-b51a-4375-b78e-a9ddc09d8cf8.webm
+    asset: 86ac1dbd
+    page: ai-agents
+    slot: S01-m22
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 3
+    before_after: false

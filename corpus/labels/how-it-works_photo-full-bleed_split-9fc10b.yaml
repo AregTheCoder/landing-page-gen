@@ -1,0 +1,32 @@
+sheet: how-it-works_photo-full-bleed_split-9fc10b
+group:
+  type: how-it-works
+  ground: photo-full-bleed
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_photo-full-bleed_split-9fc10b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c.webp
+    asset: d7bb7272
+    page: animation-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false

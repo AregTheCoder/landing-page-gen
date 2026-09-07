@@ -1,0 +1,196 @@
+sheet: link-grid_photo-full-bleed_single-0d4a08
+group:
+  type: link-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_photo-full-bleed_single-0d4a08.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/4336ce66-4f4c-4673-b181-86486dd441a0.png
+    asset: 4336ce66
+    page: ai-content-generator
+    slot: S05-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.png
+    asset: 4c797ce5
+    page: ai-sticker-maker
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/4e50ee88-d129-4a60-99aa-8077ad249c80.png
+    asset: 4e50ee88
+    page: ai-image-enhancer
+    slot: S16-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/5770afcd-8847-44e2-abfe-be27bf531511.png
+    asset: 5770afcd
+    page: background-remover
+    slot: S17-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/5beaeb7a-582d-4f2a-81cc-54dbb60f8451.png
+    asset: 5beaeb7a
+    page: ai-filters
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png?type=webp&r=548&to=min?type=webp&r=548&to=min
+    asset: 639e11c1
+    page: photo-editor
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/671d60f0-e4e6-4c47-b3db-6480074cb482.png
+    asset: 671d60f0
+    page: ai-photo-editing
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/68b8f004-50e1-4147-9aa5-304934e264d2.png
+    asset: 68b8f004
+    page: background-remover
+    slot: S17-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/70aef1eb-6792-4a59-ab2d-14bf495ffa5a.png
+    asset: 70aef1eb
+    page: video-ad-maker
+    slot: S11-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/a5ba2579-bf6e-46e5-8bd1-a54d7e10e121.png
+    asset: a5ba2579
+    page: background-remover
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/a6b02f5d-acc8-4c8d-a876-c185ddde11b6.png
+    asset: a6b02f5d
+    page: ai-filters
+    slot: S13-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/a7d76f90-5d5c-4f88-a1b2-1e1bc968730e.png
+    asset: a7d76f90
+    page: ai-content-generator
+    slot: S05-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

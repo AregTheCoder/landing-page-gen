@@ -1,0 +1,31 @@
+sheet: feature-callout_solid-colour_column-main-0db2d1
+group:
+  type: feature-callout
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_solid-colour_column-main-0db2d1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afda9819-c7ef-4bb6-90d2-361d714d1d3f.webp
+    asset: afda9819
+    page: ai-replace
+    slot: S06-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false

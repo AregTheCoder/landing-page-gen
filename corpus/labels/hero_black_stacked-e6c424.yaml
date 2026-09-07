@@ -1,0 +1,31 @@
+sheet: hero_black_stacked-e6c424
+group:
+  type: hero
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_black_stacked-e6c424.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/285af5fd-f72b-4541-9773-078f208ef5c7.webm
+    asset: 285af5fd
+    page: ai-agents
+    slot: S01-m2
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false

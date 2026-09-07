@@ -1,0 +1,46 @@
+sheet: gallery_black_two-up-5d3b94
+group:
+  type: gallery
+  ground: black
+  layout: two-up
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_black_two-up-5d3b94.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/60bbbd6d-8c3f-46b0-9013-41704fccee17.webp
+    asset: 60bbbd6d
+    page: text-to-video-ai
+    slot: S09-m1
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bcfdd1ac-555d-4ebd-94a8-0321bb586d99.webp
+    asset: bcfdd1ac
+    page: text-to-video-ai
+    slot: S09-m5
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false

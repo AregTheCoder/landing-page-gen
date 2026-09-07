@@ -1,0 +1,197 @@
+sheet: feature-callout_photo-full-bleed_split-6828d5
+group:
+  type: feature-callout
+  ground: photo-full-bleed
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_photo-full-bleed_split-6828d5.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/79190697-0386-4097-89a2-90e188cb3037.webp
+    asset: '79190697'
+    page: wallpaper-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7a90b246-ef40-46af-b10d-f2e028cfe52c.webp
+    asset: 7a90b246
+    page: sticker-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7a980105-ce5a-4735-a476-a1c1c0f18d26.avif
+    asset: 7a980105
+    page: background-remover
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7acb515e-717a-48c6-b85c-506b1e844901.webp
+    asset: 7acb515e
+    page: wallpaper-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7b765afc-142e-4f67-aed7-2f6cdf34c422.webm
+    asset: 7b765afc
+    page: compare-models--sora-vs-veo
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7c74ea3a-9d07-4fcd-a321-4f48e7000439.avif
+    asset: 7c74ea3a
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f1e5c38-4260-4c6a-9e15-2e9bddad244b.webm
+    asset: 7f1e5c38
+    page: compare-models--sora-vs-veo
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f72e491-fc40-4ccd-b348-9d0913119310.avif
+    asset: 7f72e491
+    page: ai-models--ideogram-4-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/80dfd65a-b289-404a-b8c6-0598c7c1b353.webm
+    asset: 80dfd65a
+    page: video-editor
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8736f17e-3816-407d-95ed-4ec1fdea6c18.webp
+    asset: 8736f17e
+    page: compare-models--gpt-image-1-5-vs-midjourney
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87615014-6fca-497e-88cb-e3e5f0138de9.webm
+    asset: '87615014'
+    page: ai-models--elevenlabs-music-v2
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/916785e7-99e9-4b6a-a039-a282b2498054.webp
+    asset: 916785e7
+    page: compare-models--gpt-image-1-5-vs-midjourney
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false

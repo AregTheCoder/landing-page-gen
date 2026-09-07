@@ -1,0 +1,46 @@
+sheet: link-grid_white_stacked-ffc530
+group:
+  type: link-grid
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_stacked-ffc530.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/dc9cebbf-88d1-4603-85dd-2dbf50a9e43c.png
+    asset: dc9cebbf
+    page: ai-assets-generator
+    slot: S10-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png
+    asset: e30f27f2
+    page: design-localization
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false

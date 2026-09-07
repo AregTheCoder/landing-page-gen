@@ -1,0 +1,196 @@
+sheet: feature-callout_white_single-29e767
+group:
+  type: feature-callout
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_single-29e767.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/81c40024-91f3-4ddb-8260-9476aec6f5ff.webm
+    asset: 81c40024
+    page: text-to-video-ai
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/86d12a52-1b5e-4c4e-bfca-12ae0afc893c.webp
+    asset: 86d12a52
+    page: ai-models--seedance-1-pro
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8c4ba4d3-8de0-4a59-a850-6149e8baa908.webm
+    asset: 8c4ba4d3
+    page: ai-models--seedance-1-pro-fast
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8cbc8737-193f-4631-9d7c-2ec7df607b8c.webm
+    asset: 8cbc8737
+    page: ai-models--sora-2
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8da12ba6-6ac9-464d-8168-206cf87dc5dd.webm
+    asset: 8da12ba6
+    page: ai-gif-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/97398818-46c6-4749-bd5b-8e9a5955eba0.webm
+    asset: '97398818'
+    page: ai-video-editor
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/97c0eeeb-8b0a-4aae-9f9d-be2831ed62be.webm
+    asset: 97c0eeeb
+    page: ai-models--sora-2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9877e28a-d148-42c9-b942-2905eb5501f8.webp
+    asset: 9877e28a
+    page: ai-template-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm
+    asset: a1892296
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a2f80a36-3b02-42b4-bb38-a8c7483d8f51.webp
+    asset: a2f80a36
+    page: instagram-video-maker
+    slot: S10-m4
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a55d625c-0e89-4212-97c8-1a68dab5484f.webm
+    asset: a55d625c
+    page: ai-gif-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5bb6bea-55e4-4279-8cf9-b0d0665cc319.webp
+    asset: a5bb6bea
+    page: ai-models--seedance-1-pro
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

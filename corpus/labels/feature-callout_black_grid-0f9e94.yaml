@@ -1,0 +1,46 @@
+sheet: feature-callout_black_grid-0f9e94
+group:
+  type: feature-callout
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_grid-0f9e94.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5cd399cf-cc15-46a0-a0e7-ceae2c824eb1.webm
+    asset: 5cd399cf
+    page: compare-models--seedance-2-vs-runway-gen-4
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b6f634bb-c1a6-455a-a877-3960d96ed9f8.mp4
+    asset: b6f634bb
+    page: flow
+    slot: S05-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 2
+    before_after: false

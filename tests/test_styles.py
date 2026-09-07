@@ -152,36 +152,32 @@ def test_similar_prefers_style_then_falls_back(tmp_path, monkeypatch):
     assert "style: full-bleed, local: 1-storyboard-generator-S01-m1.png" in body and "style: untagged" in body
 
 
-def test_styles_cli_classifies_by_alt_then_model_and_applies(tmp_path, monkeypatch, capsys):
+def test_styles_cli_derives_from_attrs_and_applies(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(media, "download", fake_download_factory([]))
     pages = tmp_path / "pages"
     media.localise_page(make_page(pages, "comic-book-generator", hero_render()), log=lambda m: None)
     dbp = str(tmp_path / "c.db")
     assert cli.main(["--db", dbp, "--pages-dir", str(pages), "sectionize", "--all"]) == 0
     con = db.connect(tmp_path / "c.db")
-    con.execute("UPDATE media SET alt = 'before change' WHERE src = ?", (HERO1.replace("hero1", "hero2"),))
-    con.commit()
-    calls = []
+    hero2 = HERO1.replace("hero1", "hero2")
+    attrs_yaml, styles_yaml = tmp_path / "attributes.yaml", tmp_path / "styles.yaml"
+    base = {"ground": "light-grey", "layout": "column-main", "panel_count": 1, "chrome": ["tile", "chip"],
+            "text_in_image": "labels-only", "ui_mockup": "none", "subject": "product", "finish": "photo",
+            "before_after": False, "family_hint": "dark-composite", "confidence": 0.8, "source": "sheet",
+            "page": "comic-book-generator", "slot": "S01-m1"}
+    styles.save({HERO1: base, hero2: dict(base, before_after=True, slot="S01-m2")}, attrs_yaml)
 
-    def fake_classify(client, path, system, model):
-        calls.append((path, model))
-        return "dark-composite", 0.8
-    monkeypatch.setattr(styles, "classify", fake_classify)
-    monkeypatch.setattr(styles, "guide", lambda: "guide")
-    monkeypatch.setattr("anthropic.Anthropic", lambda: object())
-    yml = tmp_path / "styles.yaml"
-    assert cli.main(["--db", dbp, "styles", "--styles", str(yml)]) == 0
-    out = capsys.readouterr().out
-    assert "1 tagged by alt, 1 sent to claude-opus-5, 2 media rows tagged" in out and "dark-composite: 1" in out
-    assert len(calls) == 1 and calls[0][0].endswith(".avif"), "only the hero without a 'before' alt goes to the model"
-    tags = styles.load(yml)
-    assert tags[HERO1]["style"] == "dark-composite" and tags[HERO1]["page"] == "comic-book-generator"
-    assert tags[HERO1.replace("hero1", "hero2")] == {"style": "before-after", "confidence": 1.0, "page": "comic-book-generator", "slot": "S01-m2"}
+    assert cli.main(["--db", dbp, "styles", "--styles", str(styles_yaml)]) == 2, "one of the two modes is required"
+    assert cli.main(["--db", dbp, "styles", "--styles", str(styles_yaml), "--attrs", str(attrs_yaml),
+                     "--from-attrs"]) == 0
+    assert "2 entries derived" in capsys.readouterr().out
+    tags = styles.load(styles_yaml)
+    assert tags[HERO1] == {"style": "dark-composite", "variant": "light", "confidence": 0.8,
+                           "page": "comic-book-generator", "slot": "S01-m1", "source": "rules"}
+    assert tags[hero2]["style"] == "before-after"
     assert {r[0] for r in con.execute("SELECT style FROM media WHERE style IS NOT NULL")} == {"dark-composite", "before-after"}
-    # a second run has nothing left to classify; --apply-only re-mirrors after a re-index
-    calls.clear()
-    assert cli.main(["--db", dbp, "styles", "--styles", str(yml)]) == 0 and calls == []
+    # a re-index drops the tags; --apply-only re-mirrors the yaml
     assert cli.main(["--db", dbp, "--pages-dir", str(pages), "sectionize", "--all"]) == 0
     assert "0 style-tagged" in capsys.readouterr().out, "sectionize re-applies the default yaml, which is absent here"
-    assert cli.main(["--db", dbp, "styles", "--styles", str(yml), "--apply-only"]) == 0
+    assert cli.main(["--db", dbp, "styles", "--styles", str(styles_yaml), "--apply-only"]) == 0
     assert "2 media rows tagged" in capsys.readouterr().out

@@ -1,0 +1,61 @@
+sheet: gallery_black_stacked-ae08f2
+group:
+  type: gallery
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_black_stacked-ae08f2.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/610afd69-b6f5-4c78-82fa-0baef760f311.png
+    asset: 610afd69
+    page: flyer-maker
+    slot: S04-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a82f6eef-4d04-445c-9f50-21dfa9feac34.png
+    asset: a82f6eef
+    page: background-changer
+    slot: S13-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e6a73635-43cf-4dd8-a2bb-2b782b5b086c.webp
+    asset: e6a73635
+    page: text-to-video-ai
+    slot: S09-m6
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false

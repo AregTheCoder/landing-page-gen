@@ -1,0 +1,31 @@
+sheet: tutorial-grid_black_grid-36b112
+group:
+  type: tutorial-grid
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_black_grid-36b112.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif
+    asset: 39dc567c
+    page: ai-filters
+    slot: S14-m4
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false

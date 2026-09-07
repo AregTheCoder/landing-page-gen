@@ -1,0 +1,31 @@
+sheet: resource-links_black_single-0a00ef
+group:
+  type: resource-links
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: resource-links_black_single-0a00ef.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d0b15ba-d839-4e90-bf3d-5712960a357f.jpg
+    asset: 1d0b15ba
+    page: video-editor
+    slot: S12-m1
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

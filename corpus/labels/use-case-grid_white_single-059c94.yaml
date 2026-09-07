@@ -1,0 +1,31 @@
+sheet: use-case-grid_white_single-059c94
+group:
+  type: use-case-grid
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_white_single-059c94.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/67517861305127782937.jpg
+    asset: '67517861'
+    page: add-stickers-to-photos
+    slot: S03-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

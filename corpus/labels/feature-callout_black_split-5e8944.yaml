@@ -1,0 +1,32 @@
+sheet: feature-callout_black_split-5e8944
+group:
+  type: feature-callout
+  ground: black
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_split-5e8944.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d22f0c9-fc67-44d8-82a2-d1925cfcbdff.webm
+    asset: 1d22f0c9
+    page: persona
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false

@@ -1,0 +1,109 @@
+sheet: link-grid_mixed_unknown-eecab7
+group:
+  type: link-grid
+  ground: mixed
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_mixed_unknown-eecab7.answers.yaml
+cells:
+  1:
+    src: https://cdnblog.picsart.com/2021/01/Business-Card_header.jpg?to=max&r=700&type=webp
+    asset: Business
+    page: card-maker
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png
+    asset: 0888c645
+    page: ai-video-filters
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68.png
+    asset: 245b27b0
+    page: background-remover
+    slot: S17-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min
+    asset: b4127bb0
+    page: ai-sticker-maker
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: mixed
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png?type=webp&r=548&to=min?type=webp&r=548&to=min
+    asset: b4127bb0
+    page: photo-editor
+    slot: S17-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/c55073c6-c4e6-42e2-adf9-e76466c8d55f.png
+    asset: c55073c6
+    page: ai-filters
+    slot: S13-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: mixed
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/f71cbbc1-ecc5-42ca-aa80-79156bc16d13.png
+    asset: f71cbbc1
+    page: background-remover
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false

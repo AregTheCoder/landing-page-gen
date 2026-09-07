@@ -1,0 +1,31 @@
+sheet: interactive-demo_unknown_unknown-340113
+group:
+  type: interactive-demo
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: interactive-demo_unknown_unknown-340113.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39884e5e-010c-4afe-bd8e-3154d79c54f5.png
+    asset: 39884e5e
+    page: ad-maker
+    slot: S04-m1
+    type: interactive-demo
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

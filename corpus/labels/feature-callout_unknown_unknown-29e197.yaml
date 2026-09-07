@@ -1,0 +1,163 @@
+sheet: feature-callout_unknown_unknown-29e197
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-29e197.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3461329-6ddb-464d-8a29-a7e1ec62e772.webp
+    asset: c3461329
+    page: motivation-poster-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif
+    asset: c78690a2
+    page: crop-image
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d09760f3-10b8-4189-a5af-130ae2181e79.webp
+    asset: d09760f3
+    page: ai-background
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b.webp
+    asset: d6a30a53
+    page: comic-book-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif
+    asset: d93605b1
+    page: crop-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp
+    asset: e51eac79
+    page: comic-book-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ee6516f7-67a3-4efb-82f9-9bf752dcbe95.webp
+    asset: ee6516f7
+    page: ai-background
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0117422-45c3-4399-885b-8a40095699e9.webp
+    asset: f0117422
+    page: ai-video-avatar
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp
+    asset: f746795b
+    page: ai-models--flux-2-flex
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 28
+    n_pages: 28
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif
+    asset: fa2a98b6
+    page: batch-photo-editor
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp
+    asset: fc7b7887
+    page: animation-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp
+    asset: fd6a7346
+    page: ai-models--flux-2-flex
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 27
+    n_pages: 26
+    before_after: false

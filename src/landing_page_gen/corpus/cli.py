@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import attrs, db, discover, media, sectionize, similar, skeleton, snapshot, styles, taxonomy
+from . import attrs, db, discover, label, media, sectionize, sheets, similar, skeleton, snapshot, styles, taxonomy
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -66,29 +66,38 @@ def main(argv=None) -> int:
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
 
-    st = sub.add_parser("styles", help="Tag creative media with a style family (Claude vision) -> corpus/styles.yaml + media.style")
+    st = sub.add_parser("styles", help="Derive corpus/styles.yaml from the attributes through the rule table, or mirror it into media.style")
     st.add_argument("--styles", type=Path, default=styles.STYLES_YAML, help="yaml of tags (default corpus/styles.yaml)")
-    st.add_argument("--apply-only", action="store_true", help="only mirror the yaml into the DB, no classification")
-    st.add_argument("--force", action="store_true", help="re-classify media that already have a tag")
-    st.add_argument("--model", default=styles.MODEL)
-    st.add_argument("--limit", type=int, help="classify at most this many (for a trial pass)")
-    st.add_argument("--from-attrs", action="store_true", help="derive the yaml from corpus/attributes.yaml through the rule table (no model)")
+    st.add_argument("--apply-only", action="store_true", help="only mirror the yaml into the DB")
+    st.add_argument("--from-attrs", action="store_true", help="derive the yaml from corpus/attributes.yaml through the rule table")
     st.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML, help="attributes yaml for --from-attrs")
 
-    at = sub.add_parser("attrs", help="Describe every distinct generated-role asset with Claude vision -> corpus/attributes.yaml, media.attrs, media.style")
+    at = sub.add_parser("attrs", help="Measure every distinct generated-role asset (ground, layout, panels, before/after) -> corpus/attributes.yaml, media.attrs, media.style")
     at.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
     at.add_argument("--frames", type=Path, default=attrs.FRAMES_DIR, help="cache of video poster frames")
-    at.add_argument("--model", default=attrs.MODEL, help="model for card/panel/wide assets")
-    at.add_argument("--model-tiles", default=attrs.MODEL_TILES, help="model for tile-class assets")
     at.add_argument("--limit", type=int)
-    at.add_argument("--force", action="store_true", help="re-describe assets already in the yaml")
+    at.add_argument("--force", action="store_true", help="re-measure assets already in the yaml")
     at.add_argument("--roles", default=",".join(db.GENERATED_ROLES), help="comma list of media roles (default creative,thumbnail)")
     at.add_argument("--kinds", default="image,video")
     at.add_argument("--types", help="comma list of section types to restrict to")
     at.add_argument("--no-video", action="store_true")
-    at.add_argument("--workers", type=int, default=8)
-    at.add_argument("--dry-run", action="store_true", help="count candidates and estimate cost; no model call")
-    at.add_argument("--apply-only", action="store_true", help="mirror the yaml into the DB through the rule table; no model call")
+    at.add_argument("--dry-run", action="store_true", help="count candidates only; measure nothing")
+    at.add_argument("--apply-only", action="store_true", help="mirror the yaml into the DB through the rule table")
+
+    sh = sub.add_parser("sheets", help="Lay the assets that still need semantic fields on numbered contact sheets -> corpus/labels/")
+    sh.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    sh.add_argument("--out", type=Path, default=sheets.LABELS_DIR)
+    sh.add_argument("--per-sheet", type=int, default=sheets.PER_SHEET)
+    sh.add_argument("--thumb", type=int, default=sheets.THUMB)
+    sh.add_argument("--columns", type=int, default=sheets.COLUMNS)
+    sh.add_argument("--limit", type=int, help="write at most this many sheets (a trial pass)")
+    sh.add_argument("--skip-resolved", action="store_true",
+                    help="leave out assets the measured fields alone already place in a family")
+
+    lb = sub.add_parser("labels", help="Merge every <sheet>.answers.yaml into corpus/attributes.yaml, media.attrs, media.style")
+    lb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    lb.add_argument("--labels", type=Path, default=sheets.LABELS_DIR)
+    lb.add_argument("--prompt", action="store_true", help="print the labelling prompt and stop")
 
     tx = sub.add_parser("taxonomy", help="Cross-tab the tagged assets and lay out contact sheets -> report.md, groups.json, PNGs")
     tx.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
@@ -114,6 +123,10 @@ def main(argv=None) -> int:
         return cmd_styles(a)
     if a.cmd == "attrs":
         return cmd_attrs(a)
+    if a.cmd == "sheets":
+        return cmd_sheets(a)
+    if a.cmd == "labels":
+        return cmd_labels(a)
     if a.cmd == "taxonomy":
         return cmd_taxonomy(a)
     if a.cmd == "skeleton":
@@ -280,23 +293,56 @@ def cmd_attrs(a):
         return 0
     roles = tuple(a.roles.split(",")) if a.roles else None
     types = tuple(a.types.split(",")) if a.types else None
-    mapping, stats = attrs.run(con, model=a.model, model_tiles=a.model_tiles, limit=a.limit, force=a.force, roles=roles,
-                               kinds=tuple(a.kinds.split(",")), types=types, workers=a.workers, no_video=a.no_video,
-                               dry_run=a.dry_run, log=log, path=a.attrs, frames_dir=a.frames)
+    mapping, stats = attrs.run(con, limit=a.limit, force=a.force, roles=roles, kinds=tuple(a.kinds.split(",")),
+                               types=types, no_video=a.no_video, dry_run=a.dry_run, log=log, path=a.attrs,
+                               frames_dir=a.frames)
     e = stats["estimate"]
     print(f"attrs: {e['candidates']} candidates ({e['by_kind']['image']} images, {e['by_kind']['video']} videos; "
-          + ", ".join(f"{s} {n}" for s, n in e["by_size"].items() if n) + "); "
-          + ", ".join(f"{m} x{n}" for m, n in e["by_model"].items()) + f"; about ${e['usd']}")
+          + ", ".join(f"{s} {n}" for s, n in e["by_size"].items() if n) + ")")
     if a.dry_run:
         return 0
     n = attrs.apply(con, mapping)
-    u = stats["usage"]
-    print(f"attrs: {stats['tagged']} described, {len(stats['skipped'])} skipped, {n} media rows touched -> {a.attrs}; "
-          f"tokens in {u['input_tokens']} (cached {u['cache_read_input_tokens']}) out {u['output_tokens']}; "
-          f"{len(mapping)} assets in yaml, {100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family")
+    grounds = ", ".join(f"{g} {c}" for g, c in sorted(stats["grounds"].items(), key=lambda kv: -kv[1]))
+    print(f"attrs: {stats['measured']} measured, {len(stats['skipped'])} skipped, {n} media rows touched -> {a.attrs}; "
+          f"{grounds}; {len(mapping)} assets in yaml, "
+          f"{100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family from what is answered so far")
     for page, slot, reason in stats["skipped"][:20]:
         print(f"  skipped {page} {slot}: {reason}")
+    print(f"next: lp-corpus sheets  ({len(sheets.pending(mapping))} assets need the semantic fields)")
     return 0
+
+
+def cmd_sheets(a):
+    mapping = attrs.load(a.attrs)
+    if not mapping:
+        log(f"sheets: {a.attrs} is empty; run `lp-corpus attrs` first")
+        return 1
+    built, stats = sheets.build(mapping, a.out, per_sheet=a.per_sheet, thumb=a.thumb, columns=a.columns,
+                                limit=a.limit, skip_resolved=a.skip_resolved)
+    index = sheets.write_index(built, a.out, stats)
+    print(f"sheets: {stats['pending']} assets pending in {stats['groups']} groups -> {stats['sheets']} sheets "
+          f"({stats['answered']} already answered) in {a.out}; prompt in {index}")
+    return 0
+
+
+def cmd_labels(a):
+    if a.prompt:
+        print(sheets.prompt())
+        return 0
+    con = db.connect(a.db)
+    mapping = attrs.load(a.attrs)
+    mapping, stats = label.ingest(mapping, a.labels, log=log)
+    attrs.save(mapping, a.attrs)
+    n = attrs.apply(con, mapping)
+    cov = label.coverage(mapping)
+    print(f"labels: {stats['answered']}/{stats['sheets']} sheets answered, {stats['cells']} cells merged, "
+          f"{n} media rows touched -> {a.attrs}")
+    done = round(cov["complete"] * len(mapping))
+    print(f"  {done}/{len(mapping)} records complete, "
+          f"{100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family")
+    for err in stats["errors"][:20]:
+        print(f"  {err}")
+    return 1 if stats["errors"] else 0
 
 
 def cmd_taxonomy(a):
@@ -322,14 +368,8 @@ def cmd_styles(a):
         n = styles.apply(con, styles.load(a.styles))
         print(f"styles: {n} media rows tagged from {a.styles}")
         return 0
-    mapping, n_alt, n_model, n_rows = styles.run(con, model=a.model, limit=a.limit, force=a.force, log=log, path=a.styles)
-    hist = {}
-    for v in mapping.values():
-        hist[v["style"]] = hist.get(v["style"], 0) + 1
-    print(f"styles: {n_alt} tagged by alt, {n_model} sent to {a.model}, {n_rows} media rows tagged -> {a.styles}")
-    for style, n in sorted(hist.items(), key=lambda kv: -kv[1]):
-        print(f"  {style}: {n}")
-    return 0
+    log("styles: give --from-attrs (derive from the attributes) or --apply-only (mirror the yaml)")
+    return 2
 
 
 if __name__ == "__main__":

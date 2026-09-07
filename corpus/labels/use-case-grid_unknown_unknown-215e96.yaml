@@ -1,0 +1,163 @@
+sheet: use-case-grid_unknown_unknown-215e96
+group:
+  type: use-case-grid
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_unknown_unknown-215e96.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp
+    asset: 0b7a5efc
+    page: ai-models--flux-2-flex
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 21
+    n_pages: 21
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp
+    asset: 165c6f74
+    page: ai-models--happyhorse-1-1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2f5015e2-365b-496a-9fb5-f812bbbde4dc.webp
+    asset: 2f5015e2
+    page: sticker-maker
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/327f0a90-14dd-45c9-be23-5cf1152fcf12.avif
+    asset: 327f0a90
+    page: persona
+    slot: S11-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp
+    asset: 449a8ac5
+    page: ai-models--grok-imagine-1-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 10
+    n_pages: 10
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4857a276-0417-4aa9-9324-7b783bf87822.webp
+    asset: 4857a276
+    page: ai-models--pika-frames
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4c0fad35-bfc0-47d6-803b-8bd4b317329f.avif
+    asset: 4c0fad35
+    page: ai-models--gpt-image-1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/979c5f9c-ae5e-4757-81a3-2fbaa55420e2.avif
+    asset: 979c5f9c
+    page: ai-models--seedance-2-5
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5.avif
+    asset: b7497932
+    page: sticker-maker
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp
+    asset: e247e30d
+    page: resize-image
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif
+    asset: f2fb27ec
+    page: ai-models--recraft-v4-1
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f57c774f-f1c6-4ddf-854f-682fb1a48587.webp
+    asset: f57c774f
+    page: collage-maker
+    slot: S10-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

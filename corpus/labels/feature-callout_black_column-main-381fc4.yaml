@@ -1,0 +1,196 @@
+sheet: feature-callout_black_column-main-381fc4
+group:
+  type: feature-callout
+  ground: black
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_column-main-381fc4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/11da1e05-301c-4662-b389-42464e9956b7.webm
+    asset: 11da1e05
+    page: photo-effects
+    slot: S12-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif
+    asset: 4fed106c
+    page: compare-models--nano-banana-2-vs-flux-2-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4
+    asset: 600d53ae
+    page: flow
+    slot: S08-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/63ce8e4f-ed34-4fa6-bccc-24088399f766.webm
+    asset: 63ce8e4f
+    page: image-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6766a842-d366-4165-afe4-fd3e78d603d4.webm
+    asset: 6766a842
+    page: persona
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7aa36208-76f8-4ec8-a2ee-92b9c4cf7c55.webm
+    asset: 7aa36208
+    page: add-text-to-video
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7fc5fafa-ac26-4bd7-80a8-2caae290306c.webm
+    asset: 7fc5fafa
+    page: add-text-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b.webm
+    asset: 83cb7e61
+    page: video-editor
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/896831e1-d7d7-4261-9987-3a13aecad57d.webm
+    asset: 896831e1
+    page: add-text-to-video
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/af8d42de-e318-402f-9851-e9d325e5e806.avif
+    asset: af8d42de
+    page: collage-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bd3c5739-9e9e-40e9-9207-d549b9b922f1.avif
+    asset: bd3c5739
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp
+    asset: d45d9e51
+    page: ai-models--dall-e-3
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false

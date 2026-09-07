@@ -1,0 +1,196 @@
+sheet: feature-callout_photo-full-bleed_single-52dc82
+group:
+  type: feature-callout
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_photo-full-bleed_single-52dc82.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif
+    asset: 597c97d3
+    page: ai-models--flux-kontext-max
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a431f9d-d53c-4845-8640-72b5063357ac.webp
+    asset: 5a431f9d
+    page: wallpaper-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5b5b63a0-2c1a-4602-9975-b704b02be26a.avif
+    asset: 5b5b63a0
+    page: background-remover
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5bff5093-4137-4c57-bb5e-c3d4093ec8b1.webp
+    asset: 5bff5093
+    page: ai-background
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5cf85bce-45ef-4d31-a222-b8ff7cc1dd5d.webm
+    asset: 5cf85bce
+    page: ai-retouch
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5ec5bf49-41b7-423c-9b41-c029ced37a5a.webm
+    asset: 5ec5bf49
+    page: compare-models--seedance-2-vs-kling-3-0
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5f89a61f-5b17-4c57-a880-3bf3798ca8a7.webm
+    asset: 5f89a61f
+    page: compare-models--sora-vs-veo
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/60c4d0c6-f03c-4ee6-af56-92e58e2d2fc9.webm
+    asset: 60c4d0c6
+    page: video-enhancer
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6110a9e6-815a-45e2-a347-22bf633eb846.avif
+    asset: 6110a9e6
+    page: ai-models--imagen-4-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/64290735-7c14-448b-a076-c43c707ff070.avif
+    asset: '64290735'
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/650fddc3-f2e3-4aa4-ad93-39a8374e61b2.webm
+    asset: 650fddc3
+    page: compare-models--kling-vs-runway
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/666b9bad-6571-40a2-9ff2-c4b3ab1cc8fa.avif
+    asset: 666b9bad
+    page: compare-models--recraft-v4-vs-ideogram-3-0-flash
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

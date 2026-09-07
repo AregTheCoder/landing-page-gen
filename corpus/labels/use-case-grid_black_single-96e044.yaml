@@ -1,0 +1,31 @@
+sheet: use-case-grid_black_single-96e044
+group:
+  type: use-case-grid
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_black_single-96e044.answers.yaml
+cells:
+  1:
+    src: https://cdn130.picsart.com/77468920618713422116.jpg
+    asset: '77468920'
+    page: video-maker
+    slot: S04-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

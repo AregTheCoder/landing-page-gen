@@ -1,0 +1,76 @@
+sheet: gallery_white_stacked-b33bec
+group:
+  type: gallery
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_stacked-b33bec.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png
+    asset: 7fe69878
+    page: quote-maker
+    slot: S06-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png
+    asset: 992377b5
+    page: collage-maker
+    slot: S15-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/a3b7e70e-1711-41b0-9f96-49b275666b35.png
+    asset: a3b7e70e
+    page: motivation-poster-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png
+    asset: e7d0092e
+    page: quote-poster-maker
+    slot: S04-m13
+    type: gallery
+    size: wide
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false

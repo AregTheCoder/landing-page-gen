@@ -1,0 +1,76 @@
+sheet: feature-callout_white_stacked-92d864
+group:
+  type: feature-callout
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_stacked-92d864.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/19374784-8bb5-42b8-ab4e-b9f20108f4b9.webp
+    asset: '19374784'
+    page: design-localization
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/32cda5a1-d85d-4fd0-9f40-88916a428924.webp
+    asset: 32cda5a1
+    page: ai-voice-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e28971b7-2049-4492-ac8c-5ff47a713075.webp
+    asset: e28971b7
+    page: ai-voice-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/84b85b5e-8402-4eb3-8a21-cc4a8773f1f6.png
+    asset: 84b85b5e
+    page: card-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false

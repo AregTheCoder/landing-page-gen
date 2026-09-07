@@ -1,0 +1,92 @@
+sheet: hero_white_column-main-9c876d
+group:
+  type: hero
+  ground: white
+  layout: column-main
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_white_column-main-9c876d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ca73156-42c0-466d-aaeb-dbd7f7dbdfe3.webm
+    asset: 0ca73156
+    page: ai-voice-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1a38db3f-2172-4904-92e8-ae29df5e6300.webm
+    asset: 1a38db3f
+    page: add-subtitles-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87c30e6b-cbe7-4c7a-b4ee-b31cf69814ec.webp
+    asset: 87c30e6b
+    page: ai-font-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/4face0e2-85b2-4878-a153-a253f88d1ecc.png
+    asset: 4face0e2
+    page: quote-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/95f67986-2a0b-4e3f-998e-fc2d972da313.png
+    asset: 95f67986
+    page: card-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 3
+    before_after: false

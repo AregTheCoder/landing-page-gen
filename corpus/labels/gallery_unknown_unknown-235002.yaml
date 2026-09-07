@@ -1,0 +1,163 @@
+sheet: gallery_unknown_unknown-235002
+group:
+  type: gallery
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_unknown_unknown-235002.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/041c7d23-c14e-4875-b038-cf196a2e5165.webp
+    asset: 041c7d23
+    page: ai-image-extender
+    slot: S02-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/07081122-ff58-4489-99f3-3320639cfaf2.png?type=webp&to=min&r=800
+    asset: 07081122
+    page: aura
+    slot: S10-m3
+    type: gallery
+    size: panel
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1383c91a-6894-4a0c-9a46-3089011f69eb.webp
+    asset: 1383c91a
+    page: ad-maker
+    slot: S09-m6
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/16491b64-9be6-4048-a7db-8b7654a55def.png
+    asset: 16491b64
+    page: ai-video-avatar
+    slot: S02-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1b7381fb-4569-449d-ab96-39e88b8b9f33.webp
+    asset: 1b7381fb
+    page: ad-maker
+    slot: S09-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d2b0270-51a6-4329-ab51-0841724ed9b1.webp
+    asset: 1d2b0270
+    page: ad-maker
+    slot: S09-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2a0afc16-37c6-4bc4-bce2-16870f021228.webp
+    asset: 2a0afc16
+    page: ad-maker
+    slot: S09-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/54e9db90-82d1-4398-b62c-9d8dce5d23b3.png?type=webp&to=min&r=400&type=webp&to=min&r=400
+    asset: 54e9db90
+    page: aura
+    slot: S10-m4
+    type: gallery
+    size: card
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6957048b-158c-4ef1-ae5c-7b2bffd4c297.webp
+    asset: 6957048b
+    page: ad-maker
+    slot: S09-m5
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/709fbb3c-d2fb-4897-bc5c-e12b958548ef.webp
+    asset: 709fbb3c
+    page: ad-maker
+    slot: S09-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7d4e9ae7-c8ab-4ec0-8ce1-94770e2cec08.webp
+    asset: 7d4e9ae7
+    page: ai-image-extender
+    slot: S02-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7d6fa6ff-292a-4061-8924-72af14d5b5a4.webp
+    asset: 7d6fa6ff
+    page: ad-maker
+    slot: S09-m10
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

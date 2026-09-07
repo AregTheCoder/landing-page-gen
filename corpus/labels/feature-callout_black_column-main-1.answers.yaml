@@ -1,0 +1,45 @@
+1:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  finish: photo
+  description: two model-labelled result cards with thumbnail strips on black
+  family_hint: vs-two-up
+  confidence: 0.6
+2:
+  chrome: [mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  finish: mixed
+  description: a yellow social post mockup with a four-up grid over dark layout tiles
+  family_hint: mockup-card
+  confidence: 0.8
+3:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: two model-labelled portrait cards eating ice cream on black
+  family_hint: vs-two-up
+  confidence: 0.6
+4:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  finish: photo
+  description: a fashion still above a dark prompt panel with model and size chips
+  family_hint: prompt-card
+  confidence: 0.85
+5:
+  chrome: [button, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: mixed
+  description: two artwork panels on a dotted dark ground above a Generate button
+  family_hint: dark-composite
+  confidence: 0.6

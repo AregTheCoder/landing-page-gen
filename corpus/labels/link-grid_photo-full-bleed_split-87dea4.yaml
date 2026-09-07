@@ -1,0 +1,197 @@
+sheet: link-grid_photo-full-bleed_split-87dea4
+group:
+  type: link-grid
+  ground: photo-full-bleed
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_photo-full-bleed_split-87dea4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp
+    asset: 135dae81
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 11
+    n_pages: 11
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png
+    asset: 1734675f
+    page: image-enlarger
+    slot: S13-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25f071ed-e665-412b-aeda-1a5e0c58f83c.webp
+    asset: 25f071ed
+    page: compare-models--sora-vs-veo
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/29010bdd-1767-43a9-ba76-d4f08b7ea95a.webp
+    asset: 29010bdd
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S10-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a54d9358-029f-4f24-84bd-9f20455fd335.webp
+    asset: a54d9358
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m11
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp
+    asset: a69952b7
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 10
+    n_pages: 10
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp
+    asset: cfcfb357
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a94ed2.png
+    asset: efee1128
+    page: photo-editor
+    slot: S14-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp
+    asset: ff20b102
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn140.picsart.com/82424493846351274658.png
+    asset: '82424493'
+    page: photo-effects
+    slot: S13-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/89382c9a-5342-4bdf-aff6-d32fee001f55.jpg
+    asset: 89382c9a
+    page: ai-image-enhancer
+    slot: S16-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/90966f39-d25c-4cc9-aa3e-f9c4ac34efcc.png
+    asset: 90966f39
+    page: collage-maker
+    slot: S16-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false

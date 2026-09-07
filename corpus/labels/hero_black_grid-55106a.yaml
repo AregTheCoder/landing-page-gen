@@ -1,0 +1,76 @@
+sheet: hero_black_grid-55106a
+group:
+  type: hero
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_black_grid-55106a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/83b2e3d3-06de-46b3-b1f6-7be311c1b930.webm
+    asset: 83b2e3d3
+    page: video-ad-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/997f7fca-e05d-4c7b-82a1-764617256742.avif
+    asset: 997f7fca
+    page: ai-agents
+    slot: S01-m23
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cb73d459-7461-4b2e-a9cc-039708276924.webp
+    asset: cb73d459
+    page: virtual-try-on-clothes
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fbe10860-9a4a-45ee-9179-d4fcad0fa5f2.webm
+    asset: fbe10860
+    page: ai-agents
+    slot: S01-m4
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 5
+    before_after: false

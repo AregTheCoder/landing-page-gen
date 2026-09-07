@@ -1,0 +1,196 @@
+sheet: feature-callout_white_single-3f2337
+group:
+  type: feature-callout
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_single-3f2337.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/26e549e8-bdcf-4fc4-9e83-27af1320f901.png
+    asset: 26e549e8
+    page: card-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/30cc0835-e700-4f9d-bc75-99fd2ed8cd4b.png
+    asset: 30cc0835
+    page: brighten-images
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/3445db4c-b9d2-4aca-a17f-e30ddfe6c8cd.png
+    asset: 3445db4c
+    page: ai-mockup-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/499af3d1-d840-4dc8-9992-b7504ecddeaa.png
+    asset: 499af3d1
+    page: ai-mockup-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/843fc5da-4aa0-4576-bb9e-d8dd35105c18.png
+    asset: 843fc5da
+    page: watermark-photos
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/895ac1f6-f688-4db5-bcda-2e1533a59b4c.png
+    asset: 895ac1f6
+    page: quote-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/8d4e7241-9f68-4a0b-8010-55c59dacfa46.png
+    asset: 8d4e7241
+    page: watermark-photos
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/9a29fc3f-947e-4ef9-b6ac-8824bd27de58.png
+    asset: 9a29fc3f
+    page: brighten-images
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/a17cb6cd-61cf-4469-b066-07140633fe96.png
+    asset: a17cb6cd
+    page: brighten-images
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.png
+    asset: b48aee0d
+    page: ai-assets-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/cf140e97-6c14-4ba8-af30-ed880509aafc.png
+    asset: cf140e97
+    page: brand-identity-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/cf1d8a46-ceb6-46b5-9a1d-603c4eab2d48.png
+    asset: cf1d8a46
+    page: quote-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

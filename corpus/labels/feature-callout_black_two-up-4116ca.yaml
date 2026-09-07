@@ -1,0 +1,31 @@
+sheet: feature-callout_black_two-up-4116ca
+group:
+  type: feature-callout
+  ground: black
+  layout: two-up
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_two-up-4116ca.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f7808afd-52e0-4c49-8c50-2ff4ecd7901b.webm
+    asset: f7808afd
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false

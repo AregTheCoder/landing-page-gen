@@ -1,0 +1,46 @@
+sheet: link-grid_solid-colour_single-4f0e8b
+group:
+  type: link-grid
+  ground: solid-colour
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_solid-colour_single-4f0e8b.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9.png
+    asset: 7c214cac
+    page: meme-generator
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/fcae38ba-06e9-4bbf-8304-111e1bb05b13.png?type=webp&to=min&r=640
+    asset: fcae38ba
+    page: design
+    slot: S04-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false

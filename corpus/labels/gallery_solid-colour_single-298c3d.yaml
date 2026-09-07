@@ -1,0 +1,61 @@
+sheet: gallery_solid-colour_single-298c3d
+group:
+  type: gallery
+  ground: solid-colour
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_single-298c3d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f63e9d2d-6cbb-4e2b-9970-beaa580e4f1c.avif
+    asset: f63e9d2d
+    page: ai-models--recraft-v4-1
+    slot: S03-m8
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/06daf4fe-953c-459c-942f-1ac5cfcfb146.avif
+    asset: 06daf4fe
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S03-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/0c2ef133-f6d6-476b-8c14-c7e3e8c19bbe.avif
+    asset: 0c2ef133
+    page: ai-models--recraft-v4-styles
+    slot: S03-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false

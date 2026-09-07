@@ -1,0 +1,46 @@
+sheet: feature-callout_unknown_split-e8f288
+group:
+  type: feature-callout
+  ground: unknown
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_split-e8f288.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp
+    asset: 0ec598b6
+    page: animation-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif
+    asset: b95353fc
+    page: batch-photo-editor
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: split
+    panel_count: 2
+    before_after: false

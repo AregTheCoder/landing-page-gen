@@ -1,0 +1,31 @@
+sheet: use-case-grid_white_grid-ada6e3
+group:
+  type: use-case-grid
+  ground: white
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_white_grid-ada6e3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fa47db5d-2dd4-460f-852e-d18ca08ad2fe.webp
+    asset: fa47db5d
+    page: virtual-try-on-clothes
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false

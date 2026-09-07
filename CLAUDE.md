@@ -13,7 +13,9 @@ are in `.claude/` here; start Claude Code in this folder.
 
 1. `lp-corpus` (deterministic, outside the agent loop): Playwright snapshot →
    typed sections as Markdown → `corpus/corpus.db` (SQLite + FTS5) →
-   `skeleton.md` for a page, `similar` excerpts for briefs.
+   `skeleton.md` for a page, `similar` excerpts for briefs. Asset attributes
+   are measured from the pixels and completed from labelling contact sheets
+   (`/label-corpus`); no vision API is involved.
 2. `/build-landing-page runs/<run>/skeleton.md [--dry-run]`: the manager
    skill. Spawns `section-worker` agents (hero first, then the rest in
    parallel), reviews each with `section-reviewer`, sends rework via
@@ -28,7 +30,9 @@ uv run lp-corpus discover --seed <url>                   # -> corpus/pages.yaml
 uv run lp-corpus fetch --family tool --sectionize        # or: fetch /ai-image-generator/ ...
 uv run lp-corpus media --all                             # download media for snapshots fetched --no-media
 uv run lp-corpus sectionize --all                        # re-index after sectionize.py changes; re-applies corpus/styles.yaml
-uv run lp-corpus attrs [--dry-run|--limit N]             # describe every distinct asset with Claude vision -> corpus/attributes.yaml, media.attrs/style
+uv run lp-corpus attrs [--dry-run|--limit N]             # measure every distinct asset (pixels only) -> corpus/attributes.yaml, media.attrs/style
+uv run lp-corpus sheets [--skip-resolved]                 # assets still missing a semantic field -> corpus/labels/*.png + manifests + README
+uv run lp-corpus labels                                   # merge every corpus/labels/*.answers.yaml (validated) into the attributes
 uv run lp-corpus taxonomy --out corpus/taxonomy           # cross-tab + contact sheets from attributes.yaml -> report.md
 uv run lp-corpus styles --from-attrs                      # derive corpus/styles.yaml from the attributes through the rule table
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
@@ -66,4 +70,10 @@ the served URL is kept on each element as `data-lp-src`.
   never from a model. Every generated slot has a style family
   (`picsart-workflows/style-families.md`).
 - Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.
+- Attributes are measured, then labelled from the sheets: `attrs` writes only
+  what the pixels settle, `sheets` asks for the rest, `labels` validates
+  against the enums and drops anything outside them. Never hand-edit
+  `corpus/attributes.yaml`. The enums in `attrs.FIELDS`,
+  `picsart-workflows/style-families.md` and `tests/test_styles.py` are pinned
+  to each other and change together.
 - A rule learned goes into `prd.md`; the decision behind it into `plan.md`.

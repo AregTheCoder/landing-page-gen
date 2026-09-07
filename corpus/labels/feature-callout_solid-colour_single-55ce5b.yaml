@@ -1,0 +1,31 @@
+sheet: feature-callout_solid-colour_single-55ce5b
+group:
+  type: feature-callout
+  ground: solid-colour
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_solid-colour_single-55ce5b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/70eb8b70-f9f6-4ba0-bec2-0748c23e8faa.avif
+    asset: 70eb8b70
+    page: ai-image-enhancer
+    slot: S12-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false

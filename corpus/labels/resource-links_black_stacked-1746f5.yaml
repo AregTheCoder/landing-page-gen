@@ -1,0 +1,31 @@
+sheet: resource-links_black_stacked-1746f5
+group:
+  type: resource-links
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: resource-links_black_stacked-1746f5.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2ada28c9-aa5e-4156-a157-7a732ff37a4d.webp
+    asset: 2ada28c9
+    page: ai-models--seedance-2-5
+    slot: S10-m2
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false

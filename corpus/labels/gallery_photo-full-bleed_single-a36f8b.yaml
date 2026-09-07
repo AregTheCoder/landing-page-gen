@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-a36f8b
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-a36f8b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5d87058-8332-467a-b5fb-3dddf86c6c5a.avif
+    asset: a5d87058
+    page: ai-models--nano-banana-pro
+    slot: S03-m6
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5f2eead-a664-4c49-83a9-68e515637294.png?type=webp&to=min&r=400
+    asset: a5f2eead
+    page: aura
+    slot: S08-m6
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a6a93ab7-5a3d-4841-a29f-ec0332b56b3e.avif
+    asset: a6a93ab7
+    page: persona
+    slot: S02-m6
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a7c397b2-771b-4bee-9f75-71e0ae48e0a2.avif
+    asset: a7c397b2
+    page: photo-editor
+    slot: S02-m5
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/abdc6d0a-3336-4421-9f94-8ac08d3bd609.avif
+    asset: abdc6d0a
+    page: comic-book-generator
+    slot: S11-m4
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ad02dfe3-d4e6-4966-bdf8-ff433e2c304b.avif
+    asset: ad02dfe3
+    page: ai-models--nano-banana-pro
+    slot: S03-m10
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ada3af0c-0a17-42af-b706-80d30251efb9.avif
+    asset: ada3af0c
+    page: ai-story-generator
+    slot: S03-m10
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ae035941-faf8-4063-8924-4eb4d8c71be2.avif
+    asset: ae035941
+    page: ai-image-generator
+    slot: S10-m5
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afb6bb04-e5ad-4900-9a91-26c70f127b3b.png?type=webp&to=min&r=400
+    asset: afb6bb04
+    page: aura
+    slot: S06-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b0029ea1-f505-40c1-b05b-03f877c0a310.avif
+    asset: b0029ea1
+    page: ai-models--google-omni
+    slot: S03-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b013b0b4-0b69-49b4-8066-e3d3955cb498.webp?type=webp&to=min&r=400
+    asset: b013b0b4
+    page: ai-models--wan-2-7
+    slot: S03-m5
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b3ebae3c-b768-4afd-9b0c-38abd26edb50.avif
+    asset: b3ebae3c
+    page: ai-models--happyhorse-1-1
+    slot: S03-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 21
+    n_pages: 21
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

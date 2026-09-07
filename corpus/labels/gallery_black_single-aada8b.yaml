@@ -1,0 +1,181 @@
+sheet: gallery_black_single-aada8b
+group:
+  type: gallery
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_black_single-aada8b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8542fb1b-9ade-4550-aa7b-dd94440c604e.avif
+    asset: 8542fb1b
+    page: background-remover
+    slot: S07-m1
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9851745a-b0ed-44ed-a430-4468a2dab598.webp
+    asset: 9851745a
+    page: text-to-video-ai
+    slot: S09-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b144ee02-5d94-43c3-8005-48b7094e3017.webp
+    asset: b144ee02
+    page: text-to-video-ai
+    slot: S09-m3
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c2f8b6ab-4261-4119-8246-3f1e8fd2ea30.png
+    asset: c2f8b6ab
+    page: background-changer
+    slot: S13-m5
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cbd078ac-752e-48ec-a9ea-2e035ff97144.avif
+    asset: cbd078ac
+    page: background-remover
+    slot: S07-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9d80be1-b940-46ef-8e27-69d933bcd347.avif
+    asset: d9d80be1
+    page: background-remover
+    slot: S07-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/db63aad8-c703-417d-9774-83001d9fccee.avif
+    asset: db63aad8
+    page: background-remover
+    slot: S07-m3
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fcbce90a-0105-4eb3-9284-dc9b004f86a6.avif
+    asset: fcbce90a
+    page: ai-models--seedance-2-5
+    slot: S03-m7
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pcdn.picsart.com/cms-uploads/7bd75c05-3b52-4f81-9853-7fb34001fade.avif
+    asset: 7bd75c05
+    page: ai-models--recraft-v4-styles-pro
+    slot: S03-m2
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/608dc92c-bfff-4a83-b2c4-04127b352b23.avif
+    asset: 608dc92c
+    page: ai-image-enhancer
+    slot: S14-m3
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: true
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f7d71de-e494-47d5-9a4b-aa1eeced0ee9.avif
+    asset: 7f7d71de
+    page: ai-image-enhancer
+    slot: S14-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: true

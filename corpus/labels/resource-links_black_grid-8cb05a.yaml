@@ -1,0 +1,31 @@
+sheet: resource-links_black_grid-8cb05a
+group:
+  type: resource-links
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: resource-links_black_grid-8cb05a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8672999d-b486-4a4f-a0c3-18b23d3da4a9.avif
+    asset: 8672999d
+    page: ai-models--seedance-2-5
+    slot: S10-m3
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false

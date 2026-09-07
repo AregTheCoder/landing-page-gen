@@ -1,0 +1,31 @@
+sheet: feature-callout_light-grey_stacked-44c36a
+group:
+  type: feature-callout
+  ground: light-grey
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_light-grey_stacked-44c36a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/98265479-86e7-4983-a010-7e405174b083.avif
+    asset: '98265479'
+    page: background-changer
+    slot: S07-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false

@@ -1,0 +1,127 @@
+sheet: link-grid_unknown_unknown-3bf88a
+group:
+  type: link-grid
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_unknown_unknown-3bf88a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp
+    asset: 3321f296
+    page: ai-models--flux-3
+    slot: S13-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp
+    asset: 3cf35baa
+    page: ai-models--flux-2-flex
+    slot: S11-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 28
+    n_pages: 28
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87e68668-df4d-45c9-bae5-2daa0c253c8d.webp?type=webp&to=min&r=640
+    asset: 87e68668
+    page: design
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8b06c0c1-9edd-49d1-b8db-78dbaeeda680.webp?type=webp&to=min&r=640
+    asset: 8b06c0c1
+    page: design
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp
+    asset: 9e0a38de
+    page: ai-models--dall-e-3
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp
+    asset: a5c54cd3
+    page: ai-models--flux-3
+    slot: S13-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp
+    asset: c3cbf8c8
+    page: ai-models--flux-3
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 13
+    n_pages: 13
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp
+    asset: e2a6880f
+    page: ai-models--flux-3
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 13
+    n_pages: 13
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png
+    asset: e406abf2
+    page: ai-content-generator
+    slot: S09-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 7
+    n_pages: 7
+    before_after: false

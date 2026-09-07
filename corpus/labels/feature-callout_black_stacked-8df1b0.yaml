@@ -1,0 +1,91 @@
+sheet: feature-callout_black_stacked-8df1b0
+group:
+  type: feature-callout
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_stacked-8df1b0.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/015dcbcd-d75e-4ca5-bcf7-d4e830f97af4.webm
+    asset: 015dcbcd
+    page: ai-story-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e480172a7.webm
+    asset: '11847327'
+    page: ai-models--async-flash-v1
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/264070b2-b993-4417-abc4-79c53d223d04.webm
+    asset: 264070b2
+    page: ai-story-generator
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe5e78cb-2e5a-4b94-afe7-b364e3256600.webm
+    asset: fe5e78cb
+    page: add-music-to-video
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/3c143ee1-0aae-4012-aea8-b8afbc439e86.png
+    asset: 3c143ee1
+    page: ai-sticker-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false

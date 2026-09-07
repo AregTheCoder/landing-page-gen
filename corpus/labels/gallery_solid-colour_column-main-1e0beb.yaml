@@ -1,0 +1,76 @@
+sheet: gallery_solid-colour_column-main-1e0beb
+group:
+  type: gallery
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_column-main-1e0beb.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png
+    asset: 32cc7938
+    page: quote-maker
+    slot: S06-m10
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/3c080de4-1a0f-4492-919f-2a9d3d07799a.png
+    asset: 3c080de4
+    page: flyer-maker
+    slot: S04-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/94ba0101-852b-4143-9f4d-8950a208f9ba.png
+    asset: 94ba0101
+    page: wallpaper-maker
+    slot: S14-m13
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/c636c95b-ff90-4c01-9387-15c5c5cdae0b.png
+    asset: c636c95b
+    page: motivation-poster-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: solid-colour
+    layout: column-main
+    panel_count: 4
+    before_after: false

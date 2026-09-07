@@ -1,0 +1,122 @@
+sheet: use-case-grid_photo-full-bleed_split-8a645c
+group:
+  type: use-case-grid
+  ground: photo-full-bleed
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_photo-full-bleed_split-8a645c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3cb59a99-e35e-4568-8f1a-651866802cc7.webp
+    asset: 3cb59a99
+    page: ai-models--wan-2-7
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8787dc19-1d3e-47a0-80b0-7af054cca1ad.avif
+    asset: 8787dc19
+    page: add-music-to-video
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8891ed84-f7f0-4cf9-ae27-97151ef0a9b1.avif
+    asset: 8891ed84
+    page: video-studio
+    slot: S07-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac50198a-ef75-401c-980b-7dc29703f385.avif
+    asset: ac50198a
+    page: ai-story-generator
+    slot: S12-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b21a711b-186b-445c-b004-764cc3d733e9.avif
+    asset: b21a711b
+    page: video-editor
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f01022a0-6703-4df8-a068-ec25d0dce4a0.webp
+    asset: f01022a0
+    page: ai-models--sora
+    slot: S04-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn140.picsart.com/99076257599240097173.png
+    asset: '99076257'
+    page: hair-color-changer
+    slot: S02-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true

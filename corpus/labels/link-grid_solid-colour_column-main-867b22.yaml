@@ -1,0 +1,31 @@
+sheet: link-grid_solid-colour_column-main-867b22
+group:
+  type: link-grid
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_solid-colour_column-main-867b22.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png
+    asset: ec76dfa3
+    page: ai-sticker-maker
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false

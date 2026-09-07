@@ -1,0 +1,196 @@
+sheet: feature-callout_black_single-2f57b3
+group:
+  type: feature-callout
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_single-2f57b3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf6ed76f-e26b-4ba1-988b-e3237162af5c.webp
+    asset: cf6ed76f
+    page: virtual-try-on-clothes
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d8fd8cad-354e-417d-ad5f-bdd9d7875f01.webm
+    asset: d8fd8cad
+    page: ai-models--kling
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/db8ca5f4-11bd-46a5-a7e8-04d03d29edfa.webm
+    asset: db8ca5f4
+    page: ai-photo-editing
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e5399c00-a109-439b-8997-4ec7e171f02d.webm
+    asset: e5399c00
+    page: ai-image-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e911ce9b-e14a-440e-b9d3-fb24ecbdc758.webm
+    asset: e911ce9b
+    page: ai-story-generator
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/eabc393c-0859-4a2c-932b-6d3eeac909f1.webm
+    asset: eabc393c
+    page: ai-image-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ede0c7ee-dfde-4a60-8240-8bd8a403d6b7.webm
+    asset: ede0c7ee
+    page: ai-image-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm
+    asset: f31cc9a7
+    page: ai-models--kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 7
+    n_pages: 7
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f3e8da73-09a7-4d13-98a4-28c08076dbd6.webp
+    asset: f3e8da73
+    page: virtual-try-on-clothes
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f6effeb3-cf20-4386-ab6d-c6d79acc9efc.webm
+    asset: f6effeb3
+    page: ai-models--grok-imagine-1-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe7622cc-dba0-468f-b249-d772b96e2523.webm
+    asset: fe7622cc
+    page: ai-image-enhancer
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn140.picsart.com/28433458737789537458.jpg
+    asset: '28433458'
+    page: resize-video
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

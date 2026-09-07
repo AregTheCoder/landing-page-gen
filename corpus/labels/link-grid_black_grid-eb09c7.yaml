@@ -1,0 +1,76 @@
+sheet: link-grid_black_grid-eb09c7
+group:
+  type: link-grid
+  ground: black
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_black_grid-eb09c7.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7cebda74-4698-46e6-9fef-a87c136e458a.png
+    asset: 7cebda74
+    page: photo-editor
+    slot: S14-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdnblog.picsart.com/2026/04/Head.webp
+    asset: Head
+    page: ai-models--seedream-4-5
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/b02ed7aa-7eee-458f-b5b1-86b4d8677ada.png
+    asset: b02ed7aa
+    page: face-editor
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png
+    asset: d9102cc5
+    page: ai-sticker-maker
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false

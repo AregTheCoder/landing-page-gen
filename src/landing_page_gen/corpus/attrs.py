@@ -1,30 +1,32 @@
 """Visual attributes of corpus media, one record per distinct asset.
 
-`lp-corpus attrs` shows every generated-role image, every creative video (as
-a poster frame) and every thumbnail to Claude vision once per CDN src and
-stores what it sees (ground, layout, chrome, text, mockup, subject, finish)
-in corpus/attributes.yaml. `taxonomy.family_of` turns those attributes into
-a style family without another model call; `apply` mirrors attributes,
-family and role fixes into the media table after every re-index."""
+`lp-corpus attrs` measures every generated-role image and every creative
+video (as a poster frame) once per CDN src: `measure` reads ground, layout,
+panel count and before/after off the pixels and writes them to
+corpus/attributes.yaml. The semantic fields (chrome, text, mockup, subject,
+finish) are answered afterwards from the labelling sheets (`sheets`,
+`labels`), so no vision API is in the loop. `taxonomy.family_of` turns a
+finished record into a style family; `apply` mirrors attributes, family and
+role fixes into the media table after every re-index."""
 
 import datetime
 import json
-from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
 from pathlib import Path
 
 import yaml
 
-from . import db, media, sectionize, styles, taxonomy
+from . import db, measure, media, sectionize, styles, taxonomy
 from .similar import FrameGrabber
 
 ATTRIBUTES_YAML = Path("corpus/attributes.yaml")
 FRAMES_DIR = Path("corpus/frames")
-MODEL = "claude-opus-5"          # composites: chrome and text need the detail
-MODEL_TILES = "claude-sonnet-5"  # gallery tiles and thumbnails: 512 px is all there is
-PX = {"tile": 512, "card": 768, "panel": 768, "wide": 768}
-CHECKPOINT = 25
-# rough all-in cost per asset in USD (system prompt cached, ~150 output tokens, low effort)
-COST = {"claude-opus-5": 0.014, "claude-sonnet-5": 0.006, "claude-haiku-4-5": 0.004}
+CHECKPOINT = 100
+# a local video above this is streamed from the CDN: page.route fulfils a file
+# in one piece, and a 188 MB clip takes the browser down with it
+MAX_LOCAL_VIDEO = 32 * 1024 * 1024
+FRAME_DEADLINE = 25  # seconds per video before Chromium is assumed hung
+FRAME_CHUNK = 8      # videos per child process
 
 # field -> (enum values, or a JSON type name; one-line definition the model reads)
 FIELDS = {
@@ -64,21 +66,9 @@ FIELDS = {
 ENUMS = {k: v[0] for k, v in FIELDS.items() if isinstance(v[0], tuple)}
 
 
-def _prop(spec):
-    values, _ = spec
-    if isinstance(values, tuple):
-        return {"type": "string", "enum": list(values)}
-    return {"type": values}
-
-
-SCHEMA = {
-    "type": "object",
-    "properties": {k: ({"type": "array", "items": _prop(v)} if k == "chrome" else _prop(v)) for k, v in FIELDS.items()},
-    "required": list(FIELDS),
-    "additionalProperties": False,
-}
-PROVENANCE = ("model", "px", "at", "page", "slot", "type", "page_family", "kind", "size", "aspect_class",
-              "n_rows", "n_pages", "role", "local")
+MEASURED = measure.FIELDS
+PROVENANCE = ("source", "labelled", "sheet", "at", "page", "slot", "type", "page_family", "kind", "size",
+              "aspect_class", "n_rows", "n_pages", "role", "local", "seam")
 
 
 def load(path=ATTRIBUTES_YAML):
@@ -89,18 +79,27 @@ def save(mapping, path=ATTRIBUTES_YAML):
     styles.save(mapping, path)
 
 
-def system_prompt():
-    lines = ["You describe Picsart landing-page images for a design taxonomy. Look only at what is in the picture.",
-             "Fields:"]
-    for name, (values, definition) in FIELDS.items():
-        if name == "chrome":
-            lines.append(f"- {name} (list, any of {', '.join(values)}): {definition}")
-        elif isinstance(values, tuple):
-            lines.append(f"- {name} (one of {', '.join(values)}): {definition}")
-        else:
-            lines.append(f"- {name} ({values}): {definition}")
-    lines += ["", "Style families, for family_hint only:", styles.guide()]
-    return "\n".join(lines)
+def merge_save(fresh, path=ATTRIBUTES_YAML):
+    """Write what this pass produced on top of whatever is on the disk now.
+    A measuring pass takes minutes; a labelling merge that lands while it runs
+    must not be overwritten by its final save."""
+    disk = load(path)
+    disk.update(fresh)
+    save(disk, path)
+    return disk
+
+
+def keep_answers(new, old):
+    """A re-measure replaces the pixel fields and keeps every answered one:
+    labelling is the expensive half."""
+    if not old:
+        return new
+    for field in list(FIELDS) + ["labelled", "sheet"]:
+        if field in old and field not in new:
+            new[field] = old[field]
+    if new.get("labelled"):
+        new["source"] = "sheet"
+    return new
 
 
 def candidates(con, mapping, roles=db.GENERATED_ROLES, kinds=("image", "video"), types=None, force=False):
@@ -129,7 +128,7 @@ def candidates(con, mapping, roles=db.GENERATED_ROLES, kinds=("image", "video"),
             continue
         best = max(rec["rows"], key=lambda r: (r["width"] or 0) * (r["height"] or 0))
         out.append({
-            "src": src, "local_path": best["local_path"], "kind": best["kind"], "role": best["role"],
+            "src": src, "local_path": best["local_path"], "kind": best["kind"], "role": best["role"], "alt": best["alt"],
             "slot": best["slot_id"], "page": best["slug"], "page_family": best["page_family"], "type": best["type"],
             "width": best["width"], "height": best["height"], "aspect": best["aspect"], "duration": best["duration"],
             "aspect_class": sectionize.aspect_class(best["width"], best["height"]),
@@ -151,25 +150,27 @@ def frame_for(rec, frames_dir, grabber):
     frames_dir = Path(frames_dir)
     frames_dir.mkdir(parents=True, exist_ok=True)
     local = rec.get("local_path")
-    src = Path(local) if local and Path(local).exists() else rec["src"]
+    path = Path(local) if local else None
+    usable = path is not None and path.exists() and path.stat().st_size <= MAX_LOCAL_VIDEO
+    src = path if usable else rec["src"]
     png = frames_dir / f"{Path(local).stem if local else asset_id(rec['src'])}.png"
     if not png.exists():
         if grabber is None:
-            raise RuntimeError("no frame grabber")
+            raise RuntimeError("frame not cached; run the pass again")
         grabber.grab(src, png, at=1.0)
     return png
 
 
 def picture(rec, frames_dir=FRAMES_DIR, grabber=None):
-    """(base64 PNG, path shown) for a candidate, or (None, reason) when it
-    cannot be looked at: SVG, an undownloadable asset, a video with no grabber."""
-    px = PX[rec["size"]]
+    """(path to a still of this asset, that path as a string), or
+    (None, reason) when there is nothing to look at: SVG, an undownloadable
+    asset, a video with no frame grabber."""
     if rec["kind"] == "video":
         try:
             png = frame_for(rec, frames_dir, grabber)
         except Exception as exc:
             return None, f"frame: {exc}"
-        return styles.encode(png, px), str(png)
+        return png, str(png)
     local = rec.get("local_path")
     path = Path(local) if local else None
     if path is None or not path.exists():
@@ -182,123 +183,101 @@ def picture(rec, frames_dir=FRAMES_DIR, grabber=None):
                 return None, f"download: {exc}"
     if path.suffix.lower() == ".svg":
         return None, "svg"
-    try:
-        return styles.encode(path, px), str(path)
-    except Exception as exc:
-        return None, f"decode: {exc}"
+    return path, str(path)
 
 
-def context_line(rec):
-    kind = "video, shown as its frame at 1 s" if rec["kind"] == "video" else "image"
-    return (f"Context: a {rec['type']} section on a {rec['page_family'] or 'tool'} page; rendered "
-            f"{rec['width']}x{rec['height']} px, aspect {rec['aspect_class']}, size class {rec['size']}; {kind}.")
+def grab_chunk(videos, frames_dir):
+    """Cache a few videos' frames in one browser. Runs in a child process;
+    every argument has to stay picklable."""
+    with FrameGrabber() as g:
+        for rec in videos:
+            try:
+                frame_for(rec, frames_dir, g)
+            except Exception as exc:
+                print(f"  frame {rec['page']} {rec['slot']}: {exc!r}", flush=True)
 
 
-def model_for(rec, model=MODEL, model_tiles=MODEL_TILES):
-    return model_tiles if rec["size"] == "tile" else model
+def grab_frames(videos, frames_dir, grabber=None, log=print, deadline=FRAME_DEADLINE, chunk=FRAME_CHUNK):
+    """Cache one poster frame per video. Serially, in child processes of a few
+    videos each: Playwright is not thread safe, and one clip in a few hundred
+    hangs Chromium in a way no in-process timeout can interrupt, so the child
+    is given a deadline and killed. Frames are cached, so the videos a killed
+    chunk did not reach are simply picked up by the next run. A caller that
+    passes its own grabber (a test, a handful of videos) stays in process."""
+    if grabber is not None:
+        for rec in videos:
+            try:
+                frame_for(rec, frames_dir, grabber)
+            except Exception as exc:
+                log(f"  frame {rec['page']} {rec['slot']}: {exc!r}")
+        return
+    ctx = multiprocessing.get_context("spawn")
+    for i in range(0, len(videos), chunk):
+        part = videos[i:i + chunk]
+        proc = ctx.Process(target=grab_chunk, args=(part, str(frames_dir)))
+        proc.start()
+        proc.join(deadline * len(part))
+        if proc.is_alive():
+            proc.terminate()
+            proc.join(5)
+            log(f"  frames {i + 1}-{i + len(part)}: chromium hung, chunk killed")
+        log(f"  frames {min(i + chunk, len(videos))}/{len(videos)}")
 
 
-def describe(client, png_b64, context, system, model):
-    """One asset -> (attributes dict, usage) or (None, usage) on refusal."""
-    response = client.messages.create(
-        model=model, max_tokens=400,
-        system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-        output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
-        messages=[{"role": "user", "content": [
-            {"type": "image", "source": {"type": "base64", "media_type": "image/png", "data": png_b64}},
-            {"type": "text", "text": context + " Fill every field."},
-        ]}],
-    )
-    usage = getattr(response, "usage", None)
-    totals = {k: getattr(usage, k, 0) or 0 for k in ("input_tokens", "cache_read_input_tokens", "output_tokens")}
-    if response.stop_reason == "refusal":
-        return None, totals
-    data = json.loads(next(b.text for b in response.content if b.type == "text"))
-    data["panel_count"] = max(0, min(8, int(data.get("panel_count") or 0)))
-    return data, totals
-
-
-def record(rec, data, model, shown):
-    """The yaml value: the model's fields plus provenance."""
+def record(rec, data, shown, source="measured"):
+    """The yaml value: the measured (or answered) fields plus provenance."""
     out = dict(data)
-    out.update({"model": model, "px": PX[rec["size"]], "at": datetime.date.today().isoformat(),
+    out.update({"source": source, "at": datetime.date.today().isoformat(),
                 "page": rec["page"], "slot": rec["slot"], "type": rec["type"], "page_family": rec["page_family"],
                 "kind": rec["kind"], "size": rec["size"], "aspect_class": rec["aspect_class"],
                 "n_rows": rec["n_rows"], "n_pages": rec["n_pages"], "role": rec["role"], "local": shown})
     return out
 
 
-def estimate(todo, model=MODEL, model_tiles=MODEL_TILES):
-    by = {}
-    for rec in todo:
-        m = model_for(rec, model, model_tiles)
-        by[m] = by.get(m, 0) + 1
-    return {"candidates": len(todo), "by_model": by,
+def estimate(todo):
+    return {"candidates": len(todo),
             "by_kind": {k: sum(1 for r in todo if r["kind"] == k) for k in ("image", "video")},
-            "by_size": {s: sum(1 for r in todo if r["size"] == s) for s in sectionize.SIZE_CLASSES},
-            "usd": round(sum(COST.get(m, 0.01) * n for m, n in by.items()), 2)}
+            "by_size": {s: sum(1 for r in todo if r["size"] == s) for s in sectionize.SIZE_CLASSES}}
 
 
-def run(con, model=MODEL, model_tiles=MODEL_TILES, limit=None, force=False, roles=None, kinds=("image", "video"),
-        types=None, workers=8, no_video=False, dry_run=False, log=print, path=ATTRIBUTES_YAML,
-        frames_dir=FRAMES_DIR, client=None, grabber=None):
-    """Describe every untagged candidate. Frames are grabbed first (Playwright
-    is not thread-safe), then the model calls run in a pool with a checkpoint
-    every CHECKPOINT results. Returns (mapping, stats)."""
+def run(con, limit=None, force=False, roles=None, kinds=("image", "video"), types=None, no_video=False,
+        dry_run=False, log=print, path=ATTRIBUTES_YAML, frames_dir=FRAMES_DIR, grabber=None):
+    """Measure every candidate that has no record yet: video poster frames
+    first (Playwright is not thread-safe and the frames are cached), then one
+    `measure.measure` per asset, checkpointing the yaml every CHECKPOINT
+    results. Returns (mapping, stats)."""
     mapping = load(path)
+    written = set()  # what to flush: --force re-measures assets already in the yaml
     roles = tuple(roles) if roles else db.GENERATED_ROLES
     if no_video:
         kinds = tuple(k for k in kinds if k != "video")
     todo = candidates(con, mapping, roles, tuple(kinds), types, force)[:limit]
-    stats = {"estimate": estimate(todo, model, model_tiles), "tagged": 0, "skipped": [],
-             "usage": {"input_tokens": 0, "cache_read_input_tokens": 0, "output_tokens": 0}}
+    stats = {"estimate": estimate(todo), "measured": 0, "skipped": [], "grounds": {}}
     if dry_run or not todo:
         return mapping, stats
     videos = [r for r in todo if r["kind"] == "video"]
     if videos:
-        own = grabber is None
-        g = grabber or FrameGrabber().__enter__()
-        try:
-            for i, r in enumerate(videos, 1):
-                try:
-                    frame_for(r, frames_dir, g)
-                except Exception as exc:
-                    log(f"  frame {r['page']} {r['slot']}: {exc!r}")
-                if i % 25 == 0:
-                    log(f"  frames {i}/{len(videos)}")
-        finally:
-            if own:
-                g.__exit__(None, None, None)
-    if client is None:
-        import anthropic
-        client = anthropic.Anthropic()
-    system = system_prompt()
-
-    def one(rec):
-        b64, shown = picture(rec, frames_dir, None)
-        if b64 is None:
-            return rec, None, shown, None
-        try:
-            data, usage = describe(client, b64, context_line(rec), system, model_for(rec, model, model_tiles))
-            return rec, data, shown, usage
-        except Exception as exc:  # one bad request must not stop the pass
-            log(f"  {rec['page']} {rec['slot']}: {exc!r}")
-            return rec, None, f"error: {exc!r}", None
-
-    with ThreadPoolExecutor(workers) as ex:
-        for i, (rec, data, shown, usage) in enumerate(ex.map(one, todo), 1):
-            if usage:
-                for k in stats["usage"]:
-                    stats["usage"][k] += usage.get(k, 0)
-            if data is None:
-                stats["skipped"].append((rec["page"], rec["slot"], shown))
-            else:
-                mapping[rec["src"]] = record(rec, data, model_for(rec, model, model_tiles), shown)
-                stats["tagged"] += 1
-            if i % CHECKPOINT == 0:
-                log(f"  {i}/{len(todo)}")
-                save(mapping, path)
-    save(mapping, path)
+        grab_frames(videos, frames_dir, grabber, log)
+    for i, rec in enumerate(todo, 1):
+        path_or_none, shown = picture(rec, frames_dir, None)
+        data = None
+        if path_or_none is not None:
+            try:
+                data = measure.measure(path_or_none, rec.get("alt"))
+            except Exception as exc:  # one unreadable file must not stop the pass
+                shown = f"measure: {exc!r}"
+        if data is None:
+            stats["skipped"].append((rec["page"], rec["slot"], shown))
+        else:
+            mapping[rec["src"]] = keep_answers(record(rec, data, shown), mapping.get(rec["src"]))
+            written.add(rec["src"])
+            stats["measured"] += 1
+            g = data.get("ground")
+            stats["grounds"][g] = stats["grounds"].get(g, 0) + 1
+        if i % CHECKPOINT == 0:
+            log(f"  {i}/{len(todo)}")
+            mapping = merge_save({k: mapping[k] for k in written}, path)
+    mapping = merge_save({k: mapping[k] for k in written}, path)
     return mapping, stats
 
 

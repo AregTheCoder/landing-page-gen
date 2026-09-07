@@ -1,0 +1,31 @@
+sheet: feature-callout_black_unknown-34bd0f
+group:
+  type: feature-callout
+  ground: black
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_unknown-34bd0f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9c10b10d-077a-4ed1-aa47-7ba4f51e6022.webm
+    asset: 9c10b10d
+    page: add-music-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    panel_count: 0
+    before_after: false

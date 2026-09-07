@@ -99,8 +99,10 @@ def groups(mapping, keys):
     return out
 
 
-def contact_sheet(items, out_png, per_cell=12, thumb=200, columns=6):
-    """A grid of thumbnails with a caption strip, from each record's `local`."""
+def contact_sheet(items, out_png, per_cell=12, thumb=200, columns=6, caption=None):
+    """A grid of thumbnails with a caption strip, from each record's `local`.
+    caption(i, src, rec) overrides the page/slot line (the labelling sheets
+    number their cells)."""
     from PIL import Image, ImageDraw
     from ..compose import draw as cdraw
     items = items[:per_cell]
@@ -114,12 +116,16 @@ def contact_sheet(items, out_png, per_cell=12, thumb=200, columns=6):
         local = rec.get("local")
         try:
             with Image.open(local) as im:
-                im = im.convert("RGB")
+                im = im.convert("RGBA")
                 im.thumbnail((thumb - 8, thumb - 8))
-                sheet.paste(im, (x + (thumb - im.width) // 2, y + (thumb - im.height) // 2))
+                # cutouts are transparent: mid-grey keeps both dark and light art readable
+                cell = Image.new("RGBA", im.size, "#808080")
+                cell.alpha_composite(im)
+                sheet.paste(cell.convert("RGB"), (x + (thumb - im.width) // 2, y + (thumb - im.height) // 2))
         except Exception:
             d.rectangle((x + 4, y + 4, x + thumb - 4, y + thumb - 4), outline="#999")
-        d.text((x + 4, y + thumb + 6), f"{rec.get('page', '')[:22]} {rec.get('slot', '')}", fill="#111", font=font)
+        text = caption(i, src, rec) if caption else f"{rec.get('page', '') or ''}"[:22] + f" {rec.get('slot', '') or ''}"
+        d.text((x + 4, y + thumb + 6), text, fill="#111", font=font)
     sheet.save(out_png)
     return out_png
 

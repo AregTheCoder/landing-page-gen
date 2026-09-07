@@ -43,6 +43,11 @@ taught it.
   line; the worker quotes them verbatim and the gate reads every word. A
   string that fails twice is dropped and reported, not paraphrased.
   (2026-09-07, Areg's decision after runs/trial-3)
+- Attribute labels are never guessed. `measure` writes only the fields the
+  pixels settle; a sheet answer outside an enum is reported and dropped, and
+  a cell a labeller cannot read is left out. A missing field costs a family
+  tag; a wrong one corrupts every `similar --style` after it.
+  (2026-09-07, no-API labelling round)
 - A worker's "examples share finish X" claim must hold for every example it
   names; say which examples differ. (runs/dry-1 S01, review 1)
 - Anything the call must carry (`async: true`, `generateAudio: false`) lives

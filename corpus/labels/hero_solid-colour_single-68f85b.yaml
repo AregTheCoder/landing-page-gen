@@ -1,0 +1,31 @@
+sheet: hero_solid-colour_single-68f85b
+group:
+  type: hero
+  ground: solid-colour
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_solid-colour_single-68f85b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3908cda1-72ad-44ca-b070-c323a1c98f3f.png
+    asset: 3908cda1
+    page: ai-image-extender
+    slot: S01-m3
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false

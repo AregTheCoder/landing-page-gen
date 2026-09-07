@@ -1,0 +1,31 @@
+sheet: feature-callout_white_unknown-10caea
+group:
+  type: feature-callout
+  ground: white
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_unknown-10caea.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e97d3d6-7e81-4796-94ae-bc09b4534f3e.webm
+    asset: 9e97d3d6
+    page: wallpaper-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    panel_count: 0
+    before_after: false

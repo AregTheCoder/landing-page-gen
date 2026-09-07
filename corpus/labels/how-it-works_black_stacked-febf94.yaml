@@ -1,0 +1,31 @@
+sheet: how-it-works_black_stacked-febf94
+group:
+  type: how-it-works
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_black_stacked-febf94.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229d8186-db3f-4f2e-a5a2-3afb82cc6288.webp
+    asset: 229d8186
+    page: ai-story-generator
+    slot: S07-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
