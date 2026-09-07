@@ -1,16 +1,48 @@
 # Style families
 
 How a Picsart tool-page image is built, one `##` block per family. The
-manager names a family per slot (`> style:` in `skeleton.md`) and copies that
-block into the brief under `## Style family`. The worker generates only the
-panels the block lists; `lp-compose` draws everything else. Derived from the
-corpus (2026-09-07: 520 feature-callout and 196 hero creatives sampled).
+manager resolves a slot to a **slot class** (the table below), picks a
+family from that row, writes `> style: <family>[/<ground>]` into
+`skeleton.md` and copies the family's block into the brief under
+`## Style family`. The worker generates only the panels the block lists;
+`lp-compose` draws everything else.
+
+Where the families come from: every distinct generated-role asset in the
+corpus is described once by `lp-corpus attrs` (ground, layout, chrome,
+text, mockup, subject, finish; the values are the vocabulary below), the
+rule table in `corpus/taxonomy.py` turns those attributes into a family
+and a ground variant, and `lp-corpus taxonomy` writes the cross-tab and
+contact sheets that the counts here cite. Counts are distinct assets
+(`n=`), not media rows: one asset can sit on 25 pages. `(n=…)` means the
+tagging pass has not filled that number yet.
+
+The contract: the worker generates only the content panels listed under a
+block's **Panels (worker)** line, one prompt per panel, each at the panel's
+generate ratio (`uv run lp-compose --describe <family>` prints them). The
+block's **Chrome (lp-compose)** items are drawn by `lp-compose` from the
+family template. A prompt describes one panel, never the composite; it quotes the
+brief's picture text verbatim (see **Text**) and ends with ", no other
+text, no logos or watermarks". When the model renders a string that a
+chrome item used to carry (the `template-mockup` headline), the compose
+spec omits that item (`omit: [headline]`). **Template** says what exists
+for the family today: an `lp-compose` template, a fallback family to brief
+instead, no chrome at all, or kept-from-source.
+
+Grammar of `> style:`: `<family>` or `<family>/<ground>`, where `<ground>`
+is a variant named on that family's **Ground** line; omitted means the
+default. Ground is the only variant axis; grids follow the slot's aspect.
+Video slots take the family of their poster frame and are briefed as that
+family's main panel with no compose step (a local composite cannot become
+a URL); motion rules live in `video-workflows.md`.
+
+Reference geometry is at 1600 px square; a composite is rendered at the
+slot's natural size and `lp-inject` scales it to the slot.
 
 ## Vocabulary and constants
 
-- **ground**: the slot's background: black `#000`/`#111`, white, a solid brand
-  colour, a pink-to-purple gradient, or transparent (rounded corners show
-  the page).
+- **ground**: the slot's background: black `#000`/`#111`, white, light grey
+  `#f2f2f4` (ai-models and compare pages), a solid brand colour, a
+  pink-to-purple gradient, or transparent (rounded corners show the page).
 - **panel**: a rounded-corner picture area, radius 40 px at 1600 px (24 at
   1000), gutters 20-40 px, never a drop shadow.
 - **tile**: a black rounded square with one white line icon (a tool glyph).
@@ -31,102 +63,255 @@ corpus (2026-09-07: 520 feature-callout and 196 hero creatives sampled).
   a resolution chip, a button) and is drawn by `lp-compose`, because the
   model never sees that chrome. Each family's **Text** line says which
   strings are which.
+- **slot class**: `<type>-<aspect class>[-video]` with the type shortened
+  (callout, hero, gallery, usecase, hiw, thumb, tutorial, resource); the
+  aspect class is the nearest of 9:1 3:1 21:9 2:1 16:9 16:10 3:2 4:3 5:4
+  1:1 4:5 3:4 2:3 9:16 (so 879:418 is 2:1, 202:67 is 3:1). Size class by
+  rendered width: tile <= 300, card <= 600, panel <= 1000, wide.
 
-The contract: the worker generates only the content panels listed under
-**Panels**, one prompt per panel, each at the panel's generate ratio
-(`uv run lp-compose --describe <family>` prints them). Everything under
-**Chrome** is drawn by `lp-compose` from the family template. A prompt
-describes one panel, never the composite; it quotes the brief's picture
-text verbatim (see **Text**) and ends with ", no other text, no logos or
-watermarks". When the model renders a string that a chrome item used to
-carry (the `template-mockup` headline), the compose spec omits that item
-(`omit: [headline]`). Families without a template (`prompt-card`,
-`full-bleed`) say so. Video slots use `full-bleed` for now; compose is
-skipped for video.
+Tagging attributes (`lp-corpus attrs`, values exactly as `attrs.FIELDS`):
 
-Reference geometry is at 1600 px square; the composite is rendered at the
-slot's natural size and `lp-inject` scales it to the slot.
+- **ground**: black | white | light-grey | solid-colour | gradient | photo-full-bleed | checkerboard | mixed
+- **layout**: single | two-up | split | column-main | grid | stacked | overlay
+- **chrome**: tile | pill | chip | brackets | badge | button | prompt-panel | mockup-card | model-logo | vs-badge | play-button | cursor | selection-handles | slider | arrow | size-label | swatch
+- **text_in_image**: none | labels-only | headline | body
+- **ui_mockup**: none | editor-canvas | app-card | prompt-ui | product-card | browser-window | phone-frame
+- **subject**: person | product | scene | food | animal | abstract | typography | illustration | object | multiple
+- **finish**: photo | 3d | flat-illustration | collage | screenshot | mixed
+
+## Slot classes
+
+Distinct assets per class in the corpus (2026-09-07, 199 pages). The
+manager resolves a `> style: TODO` from this table: take the row for the
+slot's class, apply the page-family rule in the families column
+(ai-models callouts are `/light`, compare-models callouts are
+`vs-two-up`), then read the **Use** lines of the remaining candidates for
+the headline cue, and default to the row's first family. `TBD` rows are
+briefed as `full-bleed` until the tagging report names them.
+
+| class | type | role | aspect | size | assets | page families | families (default first) | note |
+|---|---|---|---|---|---|---|---|---|
+| callout-1:1 | feature-callout | creative | 1:1 | card 480 | 377 | tool 198, ai-models 182, compare-models 57 | dark-composite (ai-models: dark-composite/light; compare-models: vs-two-up), before-after, crop-frame, cutout-checkerboard, template-mockup, prompt-card, mockup-card | every 1:1 compose template |
+| callout-1:1-video | feature-callout | creative | 1:1 | card 480 | 207 | ai-models 118, tool 55 | family of the poster frame: dark-composite, full-bleed | video-workflows.md |
+| hero-1:1 | hero | creative | 1:1 | tile to card | 93 | ai-models 50, tool 39 | full-bleed, dark-composite (ai-models), before-after (pair grid), prompt-card, vs-two-up (compare-models), cinematic-still (ai-tool carousels) | one asset on ai-models, carousels on ai-tool |
+| hero-1:1-video | hero | creative | 1:1 | tile to card | 61 | ai-models 31, tool 19 | family of the poster frame: full-bleed | video-workflows.md |
+| hero-9:16 | hero | creative | 9:16 | tile 196 | 41 | tool 19, other 13, ai-tool 9 | cinematic-still | carousel, series |
+| hero-21:9 | hero | creative | 21:9 | tile to wide | 10 | ai-tool, tool, other | full-bleed | |
+| hero-16:9 | hero | creative | 16:9 | panel 651 | 9 | tool | full-bleed | |
+| gallery-9:16 | gallery | creative | 9:16 | tile 196 | 278 | ai-models 191, other, tool | cinematic-still | series of 5 to 15 |
+| gallery-16:9 | gallery | creative | 16:9 | tile to panel | 76 | tool 60 | full-bleed, graphic-collage | series |
+| gallery-1:1 | gallery | creative | 1:1 | tile 276 | 66 | ai-models, tool | graphic-collage (tool), full-bleed (ai-models), template-mockup (template pages) | series |
+| gallery-3:4 | gallery | creative | 3:4 | tile | 31 | tool, ai-tool, other | full-bleed | series |
+| gallery-16:10 | gallery | creative | 16:10 | card 360 | 24 | tool 18 | outcome-tile | result states on white |
+| gallery-2:3 | gallery | creative | 2:3 | tile 244 | 22 | tool | graphic-collage, full-bleed | series |
+| gallery-2:1 | gallery | creative | 2:1 | tile | 20 | tool, ai-tool | full-bleed | |
+| usecase-2:1 | use-case-grid | creative | 2:1 | panel 879 | 48 | ai-models 80 rows | prompt-card (ai-models), full-bleed | prompt panel + result strip |
+| usecase-4:3 | use-case-grid | creative | 4:3 | card 423 | 28 | tool, other | full-bleed | lifestyle photo, no chrome |
+| usecase-1:1 | use-case-grid | creative | 1:1 | card | 11 | tool | TBD from tagging: full-bleed | |
+| hiw-4:5 | how-it-works | creative | 4:5 | card 480 | 11 | tool | TBD from tagging: full-bleed | |
+| hiw-1:1 | how-it-works | creative | 1:1 | card 600 | 9 | tool | TBD from tagging: full-bleed | |
+| thumb-5:4 | link-grid | thumbnail | 5:4 | card 342 | 272 | ai-models, tool, other, compare-models | editor-canvas, model-card (ai-models) | kept-from-source: Picsart editor UI |
+| thumb-16:10 | link-grid | thumbnail | 16:10 | card 318 | 32 | other | TBD from tagging: editor-canvas | kept-from-source |
+| tutorial-3:2 | tutorial-grid | thumbnail | 3:2 | tile 294 | 38 | all | full-bleed | editorial blog photo, series |
+| resource-3:2 | resource-links | thumbnail | 3:2 | card 373 | 7 | tool, ai-models | full-bleed | |
+
+Classes under 5 distinct assets (gallery-3:1 strips, callout-16:9-video,
+hero-3:2, hero-5:4, usecase-5:4, callout-16:10, thumb-9:1 and smaller)
+are briefed as `full-bleed` and listed in the taxonomy report's pooled
+sheets; none has a family of its own.
 
 ## dark-composite
 **Use:** feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
-**Ground:** black.
-**Grid 1:1 (480):** one `photo` panel 1180x1600 on the left; a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom; gutter 40.
-**Grid 16:9 (hero):** photo two thirds wide, the tile column on the right; not templated in v1, so brief heroes of this look as `full-bleed`.
+**Slots:** callout-1:1 (n=…), callout-1:1-video (n=…), hero-1:1 (n=…).
+**Signature:** ground=black or light-grey; layout=column-main or split; chrome=tile, chip; finish=photo; text=labels-only; ui_mockup=none (n=…).
+**Ground:** black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…).
+**Grid:** 1:1 (480): one `photo` panel 1180x1600 on the left, a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom, gutter 40; 16:9 (hero): photo two thirds wide, the tile column on the right, not templated, brief heroes of this look as `full-bleed`.
+**Template:** lp-compose: dark-composite (1:1). The `/light` ground needs a `ground:` override in the compose spec that does not exist yet; until then brief `/light` slots as the black default and say so in the report.
 **Chrome (lp-compose):** black tiles with white line icons (sparkle, crop), one dark chip with a short white label (4K, 2K, 1080p).
 **Panels (worker):** A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border.
 **Palette:** photo colours natural and saturated; chrome is black and white only.
 **Text:** chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless `> text:` names a string (rare: a product's own printed name).
 **Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos.
-**Examples:** ai-models--seedream-4 S06-m1, ai-models--recraft-v4- S07-m1, compare-models--imagen S06-m1.
+**Examples:** f746795b (ai-models--seedream-4 S06-m1; on 24 ai-models pages), 4eeca13c (ai-models--recraft-v4-styles S07-m1), 0794e437 (compare-models--imagen-4-5-fast-vs-flux-2-pro S06-m1).
 
 ## before-after
 **Use:** feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change background; the headline says before/after, fix, improve, transform.
-**Ground:** black.
-**Grid 1:1 (480):** left column 600 wide: `before` 600x630 on top, `after` 600x630 below, an icon tile 600x280 at the bottom; `result` 970x1600 on the right shows the after image large.
-**Grid 16:9 (hero):** before left, after right, a pill bottom-left of each; not templated in v1.
+**Slots:** callout-1:1 (n=…), hero-1:1 (n=…).
+**Signature:** before_after=true; layout=stacked, two-up or column-main; chrome=pill; finish=photo (n=…).
+**Ground:** black (default) | none: two 1:1 panels side by side with no ground, the hero pair on tool pages (n=…).
+**Grid:** 1:1 (480): left column 600 wide with `before` 600x630 on top, `after` 600x630 below and an icon tile 600x280 at the bottom, `result` 970x1600 on the right showing the after image large; 16:9 (hero): before left, after right, a pill bottom-left of each, not templated; hero pair: two 1:1 panels, pills bottom-left, not templated.
+**Template:** lp-compose: before-after (1:1). The hero pair is briefed as `full-bleed` of the after panel until templated.
 **Chrome (lp-compose):** translucent dark pills "Before" and "After" bottom-left of the two small panels; a tile with the enlarge, crop or sparkle icon below them.
 **Panels (worker):** A `before` (generate 1:1): the source photograph, ordinary and slightly flawed as the tool's input would be (soft, dull, a cluttered background). B `after`: the same photograph after the tool's effect, made from A with `picsart_enhance`, `picsart_change_bg` or `picsart_remove_bg`, never a second generate. `result` reuses B with an anchor on the subject. Keep the subject clear of the bottom-left 30 % where the pill sits.
 **Palette:** natural; the after may be brighter and more saturated than the before, nothing else changes between them.
 **Text:** chrome text only: the Before and After pills are drawn by `lp-compose` (the after panel is derived from the before by an editing tool, so no model could carry a label). `> text:` is `none` for this family.
 **Never:** two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
-**Examples:** image-enlarger S08-m1, ai-image-enhancer S01-m1, background-changer S07-m1.
+**Examples:** 69ed3f5c (image-enlarger S08-m1), 15c37bff (ai-image-enhancer S01-m1), f1fec5c1 (background-changer S07-m1).
 
 ## crop-frame
 **Use:** feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size, a platform format (Story, Reel, post) or says resize, crop, fit.
-**Ground:** transparent (the rounded corners show the page) or white.
-**Grid 1:1 (480):** left column 780 wide: a wide icon tile 780x360 on top, the `source` photo 780x1200 below with the bracket frame over its centre; `result` 780x1600 on the right shows the framed region enlarged.
-**Grid 16:9 (hero):** source left, result right, brackets on the source; not templated in v1.
+**Slots:** callout-1:1 (n=…).
+**Signature:** chrome=brackets, size-label, tile; layout=column-main or two-up; ground=white or photo-full-bleed; finish=photo (n=…).
+**Ground:** white (default) | transparent: the rounded corners show the page (n=…).
+**Grid:** 1:1 (480): left column 780 wide with a wide icon tile 780x360 on top and the `source` photo 780x1200 below, brackets over its centre; `result` 780x1600 on the right shows the framed region enlarged; 16:9 (hero): source left, result right, brackets on the source, not templated.
+**Template:** lp-compose: crop-frame (1:1).
 **Chrome (lp-compose):** white bracket corners with mid-edge ticks on the source panel, a label under them (x2, 1080 x 1920 px, Story), a black tile with the enlarge or crop icon.
 **Panels (worker):** A `source` (generate 2:3): one photograph with a clear subject in the centre third so the brackets frame something. B `result` (generate 9:16): the same photograph, anchored on the subject; usually A's own URL with a different anchor. People or products in an environment read best; the crop must still read at 480 px.
 **Palette:** natural; a darker photo keeps the white brackets legible.
 **Text:** chrome text only: the size or format label under the brackets (x2, 1080 x 1920 px, Story) is drawn by `lp-compose` and comes from the section copy. The photo carries no text.
 **Never:** brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
-**Examples:** resize-image S07-m1, resize-image S06-m1, image-upscale S05-m1.
+**Examples:** 5f91c6aa (resize-image S07-m1), df6f0107 (resize-image S06-m1), cf837643 (image-upscale S05-m1).
 
 ## cutout-checkerboard
 **Use:** feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the headline says remove, cut out, transparent, sticker, batch, isolate.
-**Ground:** black.
-**Grid 1:1 (480):** left column 510 wide: two checkerboard panels 510x780 stacked, each with a magenta badge top-right; `result` 1040x1290 on the right; a dark button 1010x190 under it.
-**Grid 16:9 (hero):** checkerboard panels in a row, the result on the right; not templated in v1.
+**Slots:** callout-1:1 (n=…).
+**Signature:** ground=checkerboard or black; chrome=badge, button, tile; layout=column-main or split; finish=photo (n=…).
+**Ground:** black (default) | checker: the checkerboard fills the ground instead of two panels (n=…).
+**Grid:** 1:1 (480): left column 510 wide with two checkerboard panels 510x780 stacked, each with a magenta badge top-right; `result` 1040x1290 on the right; a dark button 1010x190 under it; 16:9 (hero): checkerboard panels in a row, the result on the right, not templated.
+**Template:** lp-compose: cutout-checkerboard (1:1).
 **Chrome (lp-compose):** dark-grey checkerboard under the cutouts, magenta check badges, a solid dark button with a short generic label (Add to bag, Download, Apply to all).
 **Panels (worker):** A `cutout-a` and B `cutout-b` (generate 2:3): two products or subjects each generated alone on a plain mid-grey backdrop, then `picsart_remove_bg` (free) so they arrive as transparent PNGs; they are placed with `fit: contain`. C `result` (generate 3:4): one of them in a finished scene, either `picsart_change_bg` on the cutout or a clean studio shot of the same subject.
 **Palette:** subjects saturated against the grey checker; the result panel light and clean.
 **Text:** chrome text only: the button label (Add to bag, Download, Apply to all) is drawn by `lp-compose`. Cutout subjects carry no text; a product's own printed label counts as text and is avoided.
 **Never:** a checkerboard or halo painted by the model, shadows under transparent cutouts, text on the products, more than one subject per cutout panel.
-**Examples:** batch-photo-editor S06-m1, batch-photo-editor S11-m1, sticker-maker S05-m1.
+**Examples:** 4604e99a (batch-photo-editor S06-m1), b95353fc (batch-photo-editor S11-m1), 2f68b1c9 (sticker-maker S05-m1).
 
 ## template-mockup
 **Use:** feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font and logo generators; the headline says template, design, customize, layout, brand.
-**Ground:** white when tool tiles are shown; otherwise a solid brand colour or a pink-to-purple gradient.
-**Grid 1:1 (480):** a column of four black icon tiles 260x260 on the left; one template card 860x1140 on the right with a headline box in its top third and the `photo` panel 740x660 below it.
-**Grid 16:9 (hero):** two or three template cards side by side, flat, no perspective; not templated in v1.
-**Chrome (lp-compose):** the template card (solid `card.fill` colour), four black icon tiles (sparkle, crop, enlarge, check); the headline outline box exists in the template but is omitted (`omit: [headline]`) because the model renders the headline inside the photo panel; keep it, with blank bars, only when `> text:` is `none`.
-**Panels (worker):** A `photo` (generate 1:1): the photograph the template is built around: a single product or lifestyle subject on a plain or softly coloured backdrop, front-on, centred, at least 25 % margin around the subject. It is a flat picture, not a printed object.
+**Slots:** callout-1:1 (n=…), gallery-1:1 (n=…).
+**Signature:** chrome=mockup-card, tile, swatch; text_in_image=headline; layout=column-main or overlay; finish=photo or mixed (n=…).
+**Ground:** white (default, with tool tiles) | black: black ground with a magenta tile, a gradient swatch and a checkerboard cutout beside the card, the poster-maker look (n=…) | gradient: pink-to-purple, no tiles (n=…).
+**Grid:** 1:1 (480): a column of four black icon tiles 260x260 on the left; one template card 860x1140 on the right with a headline box in its top third and the `photo` panel 740x660 below it; 16:9 (hero): two or three template cards side by side, flat, no perspective, not templated.
+**Template:** lp-compose: template-mockup (1:1, white). `/black` and `/gradient` are briefed as the white default until the ground override, the swatch and the checkerboard cutout exist as chrome; say so in the report.
+**Chrome (lp-compose):** the template card (solid `card.fill` colour), four black icon tiles (sparkle, crop, enlarge, check); the headline outline box exists in the template but is omitted (`omit: [headline]`) because the model renders the headline inside the photo panel; keep it, with blank bars, only when `> text:` is `none`. Corpus chrome not yet drawn: a magenta icon tile, a gradient swatch tile, a checkerboard cutout panel.
+**Panels (worker):** A `photo` (generate 1:1): the photograph the template is built around: a single product or lifestyle subject on a plain or softly coloured backdrop, front-on, centred, at least 25 % margin around the subject. It is a flat picture, not a printed object. A person holding the product reads as well as the product alone.
 **Palette:** card colour deep and saturated (indigo, magenta, coral, forest); photo colours complementary; white chrome.
 **Text:** picture text, generated: the template's headline (1 to 3 words: 50% OFF, Grand Opening, Summer Sale) and optionally one call-to-action (1 to 2 words: Buy now, Join us), rendered by the model inside the `photo` panel as poster typography, one typeface, high contrast. The compose spec then sets `omit: [headline]`. The manager writes both strings in `> text:`; the four icon tiles carry no text.
 **Never:** printed cards standing on tables, stacks or fans of cards, perspective, drop shadows, paper texture, logos or text other than the brief's strings inside the photo, mock toolbars.
-**Examples:** ai-template-generator S07-m1, poster-maker S06-m1, flyer-maker S06-m1.
+**Examples:** 5d8ec016 (ai-template-generator S07-m1), 21cdafd9 (poster-maker S09-m1, /black; on 4 poster pages), 7c5d6f7d (flyer-maker S06-m1).
 
 ## prompt-card
-**Use:** hero and feature-callout on ai-models and AI generator pages when the point is "type a prompt, get this": the prompt text sits beside the result.
-**Ground:** black.
-**Grid 1:1 (480):** a dark text card with the prompt and a "Generate" button on the left or top, the result photo on the right, model tiles under the card.
-**Grid 16:9 (hero):** prompt card in the left third, result in the other two thirds.
-**Chrome (lp-compose):** not templated in v1 (the text card, button and tiles are all chrome); until a template exists, brief these slots as `dark-composite` with the result as panel A.
+**Use:** hero, feature-callout and use-case-grid on ai-models and AI generator pages when the point is "type a prompt, get this": the prompt text sits beside the result.
+**Slots:** callout-1:1 (n=…), hero-1:1 (n=…), usecase-2:1 (n=…).
+**Signature:** chrome=prompt-panel, button, tile, play-button; ui_mockup=prompt-ui; layout=two-up or column-main; ground=black (n=…).
+**Ground:** black (default) | light: light grey on ai-models use-case strips (n=…).
+**Grid:** 1:1 (480): a dark text card with the prompt and a "Generate" button on the left or top, the result photo on the right, model tiles under the card; 16:9 (hero): prompt card in the left third, result in the other two thirds; 2:1 (use-case strip 879x418): prompt panel left half, result thumbnail right half with a play triangle when the result is a clip.
+**Template:** none; brief as dark-composite (1:1, the result as `photo`) or as full-bleed (2:1, the result alone). The text card, button and tiles are all chrome for a later template.
+**Chrome (lp-compose):** not templated: the prompt card with its sentence, the "Generate" button, model tiles, the play triangle.
 **Panels (worker):** A `result` (generate 3:4 or 1:1): the image the prompt describes, editorial finish, one subject.
 **Palette:** black and white chrome; result colours natural.
-**Text:** the prompt sentence is chrome text (the card is chrome) and is not generated; with no template, the slot is briefed as `dark-composite` and `> text:` is `none`. The result photo carries no text.
+**Text:** the prompt sentence is chrome text (the card is chrome) and is not generated; until a template exists the slot is briefed as `dark-composite` and `> text:` is `none`. The result photo carries no text.
 **Never:** prompt text, buttons or cursors rendered by the model; screenshots of the product.
-**Examples:** ai-models--kling-v2-1 S01-m1, ai-models--qwen-image S08-m1, ai-models--seedream-4 S07-m1.
+**Examples:** 22f9b181 (ai-models--kling-v2-1 S01-m1; on 22 ai-models pages), 802fe719 (ai-models--qwen-image S08-m1), 6e1c292f (ai-models--flux-3 S09-m1, 2:1 strip).
 
 ## full-bleed
-**Use:** heroes, gallery tiles, compare-models samples, 9:16 model carousels, every video slot, and any slot whose corpus examples are one uninterrupted picture.
-**Ground:** none; the picture fills the slot.
-**Grid 1:1 (480):** one panel at the slot's aspect.
-**Grid 16:9 (hero):** one panel at the slot's aspect.
-**Chrome (lp-compose):** none in v1 (the small model pill some examples carry is a later addition); there is no compose step, the worker's final PNG is the asset.
-**Panels (worker):** A the whole slot at the slot's generate ratio: one editorial photograph or one clean illustration, one subject, one light, safe margin around the subject when `lp-inject` will crop.
+**Use:** heroes, gallery tiles, compare-models samples, tutorial and use-case photos, every video slot's stand-in, and any slot whose corpus examples are one uninterrupted picture.
+**Slots:** hero-1:1 (n=…), hero-21:9 (n=…), hero-16:9 (n=…), gallery-16:9 (n=…), gallery-1:1 (n=…), gallery-3:4 (n=…), gallery-2:1 (n=…), usecase-4:3 (n=…), tutorial-3:2 (n=…), resource-3:2 (n=…).
+**Signature:** ground=photo-full-bleed; panel_count<=1; layout=single; chrome=none or model-logo; finish=photo (n=…).
+**Ground:** none (the picture fills the slot).
+**Grid:** any aspect: one panel at the slot's aspect.
+**Template:** none (no chrome; the worker's final PNG is the asset).
+**Chrome (lp-compose):** none in v1 (the small model pill some examples carry is a later addition).
+**Panels (worker):** A the whole slot at the slot's generate ratio: one editorial photograph or one clean illustration, one subject, one light, safe margin around the subject when `lp-inject` will crop. Tutorial and blog thumbnails are editorial photographs of people at work or objects in raking light; use-case 4:3 photos are lifestyle shots on a seamless backdrop.
 **Palette:** from the hero or the shared context; saturated, clean.
 **Text:** picture text when the slot's `> text:` names it (a hero tagline of at most 4 words, a poster or magazine headline that is part of the artwork, a model's sample text when the section is about text rendering); `none` otherwise. Rendered by the model at the position the brief gives; HTML copy overlays are never duplicated in the image.
 **Never:** collages, split panels, borders, vignettes, logos, UI, text other than the brief's strings.
-**Examples:** compare-models--gpt-image S09-m1, comic-book-generator S01-m1, persona S01-m2.
+**Examples:** 57793011 (compare-models--gpt-image-1-5-vs-midjourney S09-m1), a70e6579 (comic-book-generator S01-m1), e1bda861 (background-remover S09-m1, 4:3 use-case photo).
+
+## vs-two-up
+**Use:** hero and feature-callout on compare-models pages: two models' results side by side, each labelled; the headline names both models or says compare, versus, which is better.
+**Slots:** callout-1:1 (n=…), hero-1:1 (n=…).
+**Signature:** layout=two-up; chrome=model-logo, pill, chip, vs-badge; ground=light-grey; finish=photo; text=labels-only (n=…).
+**Ground:** light-grey (default) | white (n=…) | black (n=…).
+**Grid:** 1:1 (480): two panels side by side, each 760x1400 with a model pill bottom-left and one or two size chips under it, gutter 40; the hero adds a white round VS badge over the seam and one panel black, one white; not templated.
+**Template:** none; brief as dark-composite/light with model A's result as `photo`; the second panel, pills, chips and the VS badge arrive with the template.
+**Chrome (lp-compose):** not templated: model pills (logo + name), size and ratio chips (1024x1024, 1x1, 2k), the VS badge.
+**Panels (worker):** A `left` and B `right` (generate 3:4 or 1:1): the same prompt rendered twice with two different finishes, one subject each, the subject in the centre two thirds so the pill corner stays clear. Typography stress tests (a product with printed text) are common here; the printed word is picture text and must be in `> text:`.
+**Palette:** results natural; chrome black, white and the models' own marks.
+**Text:** chrome text only for pills and chips (model names, sizes), drawn by `lp-compose` when templated. Picture text only when the section is about text rendering and `> text:` names the word.
+**Never:** a VS badge or model names painted by the model; two unrelated subjects; logos inside the panels.
+**Examples:** 1ccc69c2 (compare-models--gpt-image-1-5-vs-flux-2-pro S01-m1, hero), 8632c15f (compare-models--gpt-image-1-5-vs-flux-2-pro S05-m1), 0897494e (compare-models--gpt-image-1-5-vs-flux-2-pro S06-m1).
+
+## mockup-card
+**Use:** feature-callout on tool pages when the result is shown in use: a profile card, a shop listing, a social post built from the photo next to it; the headline says profile, avatar, listing, product photo, e-commerce, social.
+**Slots:** callout-1:1 (n=…).
+**Signature:** ui_mockup=app-card or product-card; layout=split or two-up; chrome=mockup-card, chip, button, badge; ground=black; finish=photo (n=…).
+**Ground:** black (default) | white (n=…).
+**Grid:** 1:1 (480): the source photo panel 760x1600 on the left; a rounded card 760x1400 on the right (dark profile card with a round avatar crop of the same subject and text bars, or a white product card with the cutout, a price chip and an order button); glyph chips bottom-left; not templated.
+**Template:** none; brief as dark-composite with the photo as `photo`; the card is chrome for a later template (avatar circle, text bars, price chip, button).
+**Chrome (lp-compose):** not templated: the card, its avatar circle or product cutout well, blank text bars, one chip (a price, a follower count), one button (ORDER, Follow), glyph chips.
+**Panels (worker):** A `photo` (generate 3:4): one person or product in an environment, front-on, head or product in the centre third so the avatar crop works. B `cutout`: A through `picsart_remove_bg` (free) for the product card variant.
+**Palette:** photo natural; card dark grey or white; one accent (blue check, magenta badge).
+**Text:** chrome text only: names, counts, prices and button labels are placeholders drawn by `lp-compose`; never real names or brands. The photo carries no text.
+**Never:** a real social network's logo or layout copied exactly, readable personal names, real prices with currency, UI painted by the model.
+**Examples:** 7a980105 (background-remover S08-m1, profile card), ec67a479 (background-remover S10-m1, product card); third from the tagging report.
+
+## cinematic-still
+**Use:** 9:16 gallery tiles and hero carousels on ai-models and ai-tool pages: one filmic frame per tile, no chrome, part of a set that reads as one reel.
+**Slots:** gallery-9:16 (n=…), hero-9:16 (n=…), hero-1:1 (n=…).
+**Signature:** ground=photo-full-bleed; aspect=9:16; layout=single; chrome=none or play-button; finish=photo; subject=person or scene (n=…).
+**Ground:** none (the frame fills the tile).
+**Grid:** 9:16 (196x348): one frame; 1:1 (ai-tool carousels): one frame; sets of 5 to 15 tiles share one grade.
+**Template:** none (no chrome; the worker's PNG is the tile). Generated with the `series` pattern: one prompt envelope, one grade, the subject as the variable.
+**Chrome (lp-compose):** none; the play triangle some tiles carry marks a clip and is not drawn.
+**Panels (worker):** A the tile (generate 9:16): a cinematic frame, one subject, shallow depth, filmic grade (teal-orange, monochrome, golden hour), a 2.39 letterbox never; safe margin at top and bottom for the page's rounded corners.
+**Palette:** one grade across the set; saturated but filmic, never flat.
+**Text:** none; `> text:` is `none`.
+**Never:** collages, borders, subtitles, watermarks, model logos, mixed grades within one set.
+**Examples:** c3aaa9b3 (ai-models--flux-3 S03-m1), ee82a094 (ai-models--flux-3 S03-m2), 029d49e5 (persona S01-m2, hero carousel).
+
+## graphic-collage
+**Use:** 1:1, 2:3 and 16:9 gallery tiles on tool pages (background remover, sticker maker, photo editor): a cutout person or product over a saturated flat ground with shapes, circles and brush strokes, poster-like.
+**Slots:** gallery-1:1 (n=…), gallery-2:3 (n=…), gallery-16:9 (n=…).
+**Signature:** finish=collage; ground=solid-colour; layout=overlay; subject=person or product; chrome=none (n=…).
+**Ground:** solid-colour (default: purple, coral, tomato red, lime) | gradient (n=…).
+**Grid:** 1:1 (276): one collage; 2:3 (244): one collage; 16:9: one collage; sets of 4 to 8 share one palette family.
+**Template:** none (no chrome; the collage is painted by the model, shapes included). Generated with the `series` pattern.
+**Chrome (lp-compose):** none.
+**Panels (worker):** A the tile at the slot's ratio: one cutout subject (a person mid-gesture, a product, a food item) with a hard edge over a flat saturated ground, two or three flat geometric shapes and one or two loose black brush strokes behind it; no photographic background.
+**Palette:** one saturated ground per tile, black and one accent for the shapes; skin and product colours natural.
+**Text:** none by default; a single word in bold display type only when `> text:` names it.
+**Never:** photographic backgrounds, drop shadows, gradients as the main ground, more than one subject, text other than the brief's string.
+**Examples:** 9f8db27a (background-remover S02-m1), 5d9d8a25 (background-remover S02-m2), 865c8f66 (background-remover S02-m3).
+
+## outcome-tile
+**Use:** small result-state tiles in tool galleries (transparent, blurred, white, colour, new background): one subject shown in each outcome, tiles in a row on white.
+**Slots:** gallery-16:10 (n=…).
+**Signature:** ground=white or checkerboard; layout=single; panel_count<=1; chrome=none; finish=photo; subject=product or food (n=…).
+**Ground:** white (default) | checker: the transparent outcome shows the light checkerboard (n=…).
+**Grid:** 16:10 (360x226): one rounded panel per tile, the subject centred with margin; 4 to 6 tiles form the set.
+**Template:** none; brief as full-bleed on a white backdrop, `series` pattern; the transparent state is kept-from-source until a light-checkerboard template exists.
+**Chrome (lp-compose):** not templated: the light checkerboard behind the transparent outcome.
+**Panels (worker):** A the tile (generate 16:9, cropped by `lp-inject`): one product or food cutout, centred, on the outcome's backdrop (white, a blurred scene, a solid colour, a new scene made with `picsart_change_bg` from the same cutout).
+**Palette:** subject natural; backdrops as the outcome names them.
+**Text:** none.
+**Never:** different subjects across the set, shadows on the transparent state, text, UI.
+**Examples:** 8542fb1b (background-remover S07-m1), cbd078ac (background-remover S07-m2), db63aad8 (background-remover S07-m3).
+
+## editor-canvas
+**Use:** link-grid thumbnails on tool pages: a rounded image card on the Picsart editor canvas with selection handles, a grid overlay, a cursor and glyph chips.
+**Slots:** thumb-5:4 (n=…), thumb-16:10 (n=…).
+**Signature:** ui_mockup=editor-canvas; chrome=selection-handles, cursor, chip; ground=white; finish=mixed or screenshot (n=…).
+**Ground:** white (default) | light-grey (n=…).
+**Grid:** 5:4 (342x282): one image card with handles, a chip row below; not templated.
+**Template:** kept-from-source (a mockup of the Picsart editor; the role stays `thumbnail` so the tiles count in the taxonomy and in `similar`).
+**Chrome (lp-compose):** not drawn: selection handles, rule-of-thirds grid, cursor, glyph chips.
+**Panels (worker):** none produced; the source tile is kept.
+**Palette:** white ground, dark-blue or black card, pink accents.
+**Text:** chrome text only (tool labels), kept from source.
+**Never:** generated.
+**Examples:** 86c853b4 (background-remover S12-m1), 57614e21 (background-remover S12-m2), 71e9ad23 (compare-models--gpt-image-1-5-vs-flux-2-pro S12-m1).
+
+## model-card
+**Use:** link-grid thumbnails on ai-models pages: one large rounded render of the model's output with a row of three small chips under it (model mark, two detail crops).
+**Slots:** thumb-5:4 (n=…).
+**Signature:** layout=stacked; chrome=chip, model-logo; ground=light-grey; finish=photo or 3d; text=labels-only (n=…).
+**Ground:** light-grey (default) | white (n=…).
+**Grid:** 5:4 (342x282): the render 1600x1000 on top, three chips 480x300 in a row below, gutter 40; not templated.
+**Template:** kept-from-source (the chips carry the model's mark and detail crops of the source render; until a template exists the tile is not generated).
+**Chrome (lp-compose):** not drawn: the black model-mark chip, two crop chips.
+**Panels (worker):** none produced today; when templated, A `render` (generate 16:9 or 3:2) and two anchors of the same URL for the crop chips.
+**Palette:** light-grey ground, render colours natural, black chip.
+**Text:** chrome text only (the model mark), kept from source.
+**Never:** generated today; later: model logos painted by the model.
+**Examples:** c3cbf8c8 (ai-models--flux-3 S13-m1), c02d25a9 (ai-models--flux-3 S13-m2), 1794ea79 (ai-models--flux-3 S13-m3).

@@ -16,9 +16,14 @@ Run: <run>. Work only inside this folder. Dry run: <yes|no>.
 
 <the whole `## Sxx type` block: text with t: ids, slot blocks, `> annotation:`, `> style:`, `> text:` lines>
 
-## Style family: <style>
+## Style family: <family[/ground]>
 
-<the `## <style>` block from picsart-workflows/style-families.md, verbatim>
+<the `## <family>` block from picsart-workflows/style-families.md, verbatim;
+when its **Template** says `none; brief as X`, this is X's block>
+
+Ground variant: <default | light | black | ...> (see the block's **Ground** line).
+Stands in for: <true family, when a fallback block is used; else omit this line>
+Series: <none | Sxx-m1..m6: one set, series pattern, consistency scored across the set>
 
 You generate only the panels listed under **Panels**, one prompt per panel,
 each at the panel's generate ratio (`uv run lp-compose --describe <style>`).
@@ -41,9 +46,9 @@ this string is omitted in the compose spec (`omit: [headline]`).
 
 ## Slots to produce
 
-| slot | kind | role | size | natural | family | panels |
-|---|---|---|---|---|---|---|
-| <Sxx-m1> | image | creative | 480x480 | 720x720 | <style> | <A photo 3:4> |
+| slot | kind | role | size | natural | class | family | panels |
+|---|---|---|---|---|---|---|---|
+| <Sxx-m1> | image | creative | 480x480 | 720x720 | callout-1:1 | <family[/ground]> | <A photo 3:4> |
 
 Kept from source (do not produce): <list or "none">
 

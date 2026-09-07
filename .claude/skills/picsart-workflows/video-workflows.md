@@ -23,6 +23,9 @@ draft with `imageUrls` references from the examples, then `seedance-2.5`.
 
 ## Rules
 
+- A video slot's family is its poster frame's family (`style-families.md`,
+  slot classes `callout-1:1-video`, `hero-1:1-video`); the still comes from
+  that family's main panel, never from a composite.
 - `generateAudio: false` always; landing pages autoplay muted.
 - Aspect: use the slot's aspect if Seedance supports it (16:9 9:16 1:1 4:3
   3:4 21:9), else `adaptive` with a startFrame already in the right ratio.

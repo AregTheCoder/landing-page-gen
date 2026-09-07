@@ -20,13 +20,28 @@ worker must return).
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:` and `> style:` lines. Slots with role
-   `ui-screenshot`, `icon` or `decorative` are kept from source; list them in
-   the report and skip. Sections with no remaining slots get no worker.
-4. A `> style:` still reading TODO is yours to decide: pick the family whose
-   **Use** line matches the section (`picsart-workflows/style-families.md`),
-   write it back into `skeleton.md`, and list the choice in the report under
-   "Manager decisions".
+   blocks and `> annotation:`, `> style:` and `> text:` lines. Slots with
+   role `ui-screenshot`, `icon` or `decorative` are kept from source, and so
+   is any slot whose family's **Template** line says `kept-from-source`
+   (link-grid thumbnails resolve there); list them in the report with the
+   family name and skip. Sections with no remaining slots get no worker.
+   Video slots take the family of their poster frame and are briefed as
+   that family's main panel; compose is skipped for video.
+4. A `> style:` still reading TODO is yours to decide, from the
+   `## Slot classes` table in `picsart-workflows/style-families.md`:
+   1. the slot's class is `<type>-<aspect class>[-video]` (`callout-1:1`,
+      `gallery-9:16`, `thumb-5:4`; `aspect_class` in the slot block when it
+      differs from `aspect`);
+   2. take that row's families; apply the page-family rule the row names
+      (ai-models callouts are `dark-composite/light`, compare-models callouts
+      are `vs-two-up`);
+   3. only if more than one candidate remains, read their **Use** lines for
+      the headline cue; otherwise the row's first family;
+   4. write `> style: <family>[/<ground>]` back into `skeleton.md`. When the
+      family's **Template** says `none; brief as X`, the skeleton keeps the
+      true family and the brief carries X's block with a `Stands in for:`
+      line; a `TBD` row is briefed as `full-bleed`.
+   List every choice in the report under "Manager decisions".
 5. A `> text:` still reading TODO is yours to decide, after the family. Read
    the family's **Text** line: if it says chrome text only, write
    `> text: none`. Otherwise derive the picture text from this section's
@@ -58,10 +73,13 @@ For each section with slots, fill `brief-template.md` into
   `> text:` line with its role (headline or call-to-action), the panel that
   carries it and where; or the single word `none`;
 - 2 to 3 example sections of the same type, same family first:
-  `uv run lp-corpus similar --type <type> --style <style>
-  --query "<headline and body>" --exclude <frontmatter page> -k 3
+  `uv run lp-corpus similar --type <type> --style <true family[/ground]>
+  --query "<headline and body>" --exclude <frontmatter page>
+  --exclude-asset <8-hex id of the slot's source src> -k 3
   --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus PNGs;
-  video examples arrive as a still frame, the `src` in the excerpt is the clip);
+  video examples arrive as a still frame, the `src` in the excerpt is the
+  clip). `--exclude-asset` keeps sibling pages that reuse the very same
+  image out of the examples; `--attr ground=black` narrows further;
 - `<run>/shared-context.md` if it exists (see step 3);
 - the budget line (advisory per-slot cap from the frontmatter) and the
   output contract.

@@ -71,7 +71,7 @@ def guide():
         if line.startswith("## "):
             in_block = True
             out.append(line)
-        elif not in_block or line.startswith(("**Use:**", "**Ground:**", "**Chrome")):
+        elif not in_block or line.startswith(("**Use:**", "**Signature:**", "**Ground:**", "**Chrome")):
             out.append(line)
     return "\n".join(out) + "\n\nClassify the image into exactly one family id."
 
@@ -101,6 +101,23 @@ def classify(client, path, system, model=MODEL):
         return None
     data = json.loads(next(b.text for b in response.content if b.type == "text"))
     return data["style"], float(data["confidence"])
+
+
+def derive(attrs_mapping, existing):
+    """styles.yaml from attributes.yaml through the rule table: every tagged
+    asset that resolves to a family gets `source: rules`; entries that a human
+    wrote (`source: manual`, or no source at all, the legacy shape) are kept."""
+    from . import taxonomy
+    out = {src: v for src, v in existing.items() if v.get("source", "manual") == "manual"}
+    for src, rec in attrs_mapping.items():
+        if src in out:
+            continue
+        style, variant = taxonomy.family_of(rec)
+        if style is None:
+            continue
+        out[src] = {"style": style, "variant": variant, "confidence": round(float(rec.get("confidence") or 0), 2),
+                    "page": rec.get("page"), "slot": rec.get("slot"), "source": "rules"}
+    return out
 
 
 def run(con, model=MODEL, limit=None, force=False, workers=8, log=print, path=STYLES_YAML, client=None):

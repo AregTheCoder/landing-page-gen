@@ -17,7 +17,7 @@ execute. Read only the companion you need:
 | `video-workflows.md` | the slot is a video: draft tier, startFrame, audio, extend |
 | `workflow-format.md` | writing or editing `workflow.yaml`; the re-run-from-step rule |
 | `evaluation.md` | scoring a gate, the final asset, or a whole workflow |
-| `style-families.md` | the brief names a style family: which panels the worker generates, what `lp-compose` draws |
+| `style-families.md` | the brief names a style family: its block, the slot-class table, what the worker generates and what `lp-compose` draws |
 
 ## Non-negotiables
 

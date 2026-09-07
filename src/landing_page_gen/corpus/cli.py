@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db, discover, media, sectionize, similar, skeleton, snapshot, styles
+from . import attrs, db, discover, media, sectionize, similar, skeleton, snapshot, styles, taxonomy
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -59,7 +59,10 @@ def main(argv=None) -> int:
     sm.add_argument("--query", required=True, help="headline plus body text of the target section")
     sm.add_argument("-k", type=int, default=3)
     sm.add_argument("--exclude", help="page slug to leave out (the page the skeleton came from)")
-    sm.add_argument("--style", choices=db.STYLES, help="prefer sections whose media carry this style family")
+    sm.add_argument("--style", help="prefer sections whose media carry this style family, as family[/variant] (e.g. dark-composite/light)")
+    sm.add_argument("--attr", action="append", default=[], metavar="KEY=VALUE",
+                    help="prefer sections whose media attribute matches, e.g. ground=black (repeatable)")
+    sm.add_argument("--exclude-asset", help="skip sections showing this source asset (8-hex id or any part of its src)")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
 
@@ -69,6 +72,30 @@ def main(argv=None) -> int:
     st.add_argument("--force", action="store_true", help="re-classify media that already have a tag")
     st.add_argument("--model", default=styles.MODEL)
     st.add_argument("--limit", type=int, help="classify at most this many (for a trial pass)")
+    st.add_argument("--from-attrs", action="store_true", help="derive the yaml from corpus/attributes.yaml through the rule table (no model)")
+    st.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML, help="attributes yaml for --from-attrs")
+
+    at = sub.add_parser("attrs", help="Describe every distinct generated-role asset with Claude vision -> corpus/attributes.yaml, media.attrs, media.style")
+    at.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    at.add_argument("--frames", type=Path, default=attrs.FRAMES_DIR, help="cache of video poster frames")
+    at.add_argument("--model", default=attrs.MODEL, help="model for card/panel/wide assets")
+    at.add_argument("--model-tiles", default=attrs.MODEL_TILES, help="model for tile-class assets")
+    at.add_argument("--limit", type=int)
+    at.add_argument("--force", action="store_true", help="re-describe assets already in the yaml")
+    at.add_argument("--roles", default=",".join(db.GENERATED_ROLES), help="comma list of media roles (default creative,thumbnail)")
+    at.add_argument("--kinds", default="image,video")
+    at.add_argument("--types", help="comma list of section types to restrict to")
+    at.add_argument("--no-video", action="store_true")
+    at.add_argument("--workers", type=int, default=8)
+    at.add_argument("--dry-run", action="store_true", help="count candidates and estimate cost; no model call")
+    at.add_argument("--apply-only", action="store_true", help="mirror the yaml into the DB through the rule table; no model call")
+
+    tx = sub.add_parser("taxonomy", help="Cross-tab the tagged assets and lay out contact sheets -> report.md, groups.json, PNGs")
+    tx.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    tx.add_argument("--out", type=Path, default=Path("corpus/taxonomy"))
+    tx.add_argument("--by", default="type,aspect_class,ground,layout", help="comma list of grouping keys (type is always first)")
+    tx.add_argument("--min", type=int, default=5, help="groups with fewer assets share one sheet per type")
+    tx.add_argument("--per-cell", type=int, default=12, help="thumbnails per sheet")
 
     a = p.parse_args(argv)
     if a.cmd == "init":
@@ -85,6 +112,10 @@ def main(argv=None) -> int:
         return cmd_media(a)
     if a.cmd == "styles":
         return cmd_styles(a)
+    if a.cmd == "attrs":
+        return cmd_attrs(a)
+    if a.cmd == "taxonomy":
+        return cmd_taxonomy(a)
     if a.cmd == "skeleton":
         con = db.connect(a.db)
         out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
@@ -92,14 +123,24 @@ def main(argv=None) -> int:
         return 0
     if a.cmd == "similar":
         con = db.connect(a.db)
-        rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media, style=a.style)
+        try:
+            similar.split_style(a.style)
+        except ValueError as exc:
+            p.error(str(exc))
+        attr_filter = dict(kv.split("=", 1) for kv in a.attr)
+        bad = set(attr_filter) - set(attrs.FIELDS)
+        if bad:
+            p.error(f"unknown attribute(s) {', '.join(sorted(bad))}; one of {', '.join(attrs.FIELDS)}")
+        rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media,
+                                    style=a.style, attrs=attr_filter or None, exclude_asset=a.exclude_asset)
         if not rows:
             log(f"no {a.type} sections in the corpus" + (" with generated-role media" if not a.any_media else ""))
             return 1
         with similar.FrameGrabber() as grabber:
             similar.write_examples(con, rows, a.out, log=log, grabber=grabber)
+        fam = similar.split_style(a.style)[0]
         tagged = sum(1 for r in rows if con.execute(
-            "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], a.style)).fetchone()) if a.style else 0
+            "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0
         print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")
         return 0
     return 2
@@ -221,15 +262,62 @@ def cmd_sectionize(a):
         return 2
     n_pages, n_sections, n_media = con.execute(
         "SELECT (SELECT count(*) FROM pages), (SELECT count(*) FROM sections), (SELECT count(*) FROM media)").fetchone()
-    n_styled = styles.apply(con, styles.load())  # re-indexing recreates media rows without their tags
+    attrs.apply(con, attrs.load())  # re-indexing recreates media rows without their attributes, families, role fixes
+    n_styled = styles.apply(con, styles.load())
     print(f"corpus: {n_pages} pages, {n_sections} sections, {n_media} media ({n_styled} style-tagged) in {a.db}")
     for slug, err in failures:
         print(f"  failed: {slug}: {err}")
     return 1 if failures else 0
 
 
+def cmd_attrs(a):
+    con = db.connect(a.db)
+    if a.apply_only:
+        mapping = attrs.load(a.attrs)
+        n = attrs.apply(con, mapping)
+        print(f"attrs: {len(mapping)} assets applied, {n} media rows touched, "
+              f"{100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family")
+        return 0
+    roles = tuple(a.roles.split(",")) if a.roles else None
+    types = tuple(a.types.split(",")) if a.types else None
+    mapping, stats = attrs.run(con, model=a.model, model_tiles=a.model_tiles, limit=a.limit, force=a.force, roles=roles,
+                               kinds=tuple(a.kinds.split(",")), types=types, workers=a.workers, no_video=a.no_video,
+                               dry_run=a.dry_run, log=log, path=a.attrs, frames_dir=a.frames)
+    e = stats["estimate"]
+    print(f"attrs: {e['candidates']} candidates ({e['by_kind']['image']} images, {e['by_kind']['video']} videos; "
+          + ", ".join(f"{s} {n}" for s, n in e["by_size"].items() if n) + "); "
+          + ", ".join(f"{m} x{n}" for m, n in e["by_model"].items()) + f"; about ${e['usd']}")
+    if a.dry_run:
+        return 0
+    n = attrs.apply(con, mapping)
+    u = stats["usage"]
+    print(f"attrs: {stats['tagged']} described, {len(stats['skipped'])} skipped, {n} media rows touched -> {a.attrs}; "
+          f"tokens in {u['input_tokens']} (cached {u['cache_read_input_tokens']}) out {u['output_tokens']}; "
+          f"{len(mapping)} assets in yaml, {100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family")
+    for page, slot, reason in stats["skipped"][:20]:
+        print(f"  skipped {page} {slot}: {reason}")
+    return 0
+
+
+def cmd_taxonomy(a):
+    mapping = attrs.load(a.attrs)
+    if not mapping:
+        log(f"taxonomy: {a.attrs} is empty; run `lp-corpus attrs` first")
+        return 1
+    report, n_groups, n_unresolved = taxonomy.write_report(mapping, a.out, keys=tuple(a.by.split(",")), min_n=a.min,
+                                                            per_cell=a.per_cell)
+    print(f"taxonomy: {len(mapping)} assets in {n_groups} groups, {n_unresolved} unresolved -> {report}")
+    return 0
+
+
 def cmd_styles(a):
     con = db.connect(a.db)
+    if a.from_attrs:
+        mapping = styles.derive(attrs.load(a.attrs), styles.load(a.styles))
+        styles.save(mapping, a.styles)
+        n = styles.apply(con, mapping)
+        print(f"styles: {len(mapping)} entries derived from {a.attrs} -> {a.styles}; {n} media rows tagged")
+        return 0
     if a.apply_only:
         n = styles.apply(con, styles.load(a.styles))
         print(f"styles: {n} media rows tagged from {a.styles}")

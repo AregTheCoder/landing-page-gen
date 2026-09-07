@@ -74,6 +74,28 @@ def aspect_of(w, h):
     return f"{int(w) // g}:{int(h) // g}"
 
 
+# Coarser than aspect_of: every box lands in one named class (879:418 -> 2:1,
+# 202:67 -> 3:1, 13:14 -> 1:1), the key the taxonomy and the skeleton group by.
+ASPECT_CLASSES = ("9:1", "3:1", "21:9", "2:1", "16:9", "16:10", "3:2", "4:3", "5:4", "1:1",
+                  "4:5", "3:4", "2:3", "9:16")
+SIZE_CLASSES = ("tile", "card", "panel", "wide")
+
+
+def aspect_class(w, h):
+    if not w or not h:
+        return None
+    t = math.log(w / h)
+    return min(ASPECT_CLASSES, key=lambda r: abs(math.log(int(r.split(":")[0]) / int(r.split(":")[1])) - t))
+
+
+def size_class(w, h):
+    """By rendered width: tile <= 300 (gallery strips, tutorial thumbs), card
+    <= 600 (the 480 callout, link-grid thumbs), panel <= 1000, else wide."""
+    if not w or not h:
+        return None
+    return "tile" if w <= 300 else "card" if w <= 600 else "panel" if w <= 1000 else "wide"
+
+
 def hidden_by_class(el):
     classes = el.get("class") or []
     if "sr-only" in classes:

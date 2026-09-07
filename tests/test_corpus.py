@@ -54,6 +54,10 @@ def test_cdn_url_unwraps_next_image_proxy():
     assert sectionize.aspect_of(1440, 810) == "16:9"
     assert sectionize.aspect_of(300, 450) == "2:3"
     assert sectionize.aspect_of(651, 366) == "16:9"
+    assert [sectionize.aspect_class(*wh) for wh in ((879, 418), (202, 67), (180, 113), (318, 199), (13, 14), (62, 87), (196, 348))] \
+        == ["2:1", "3:1", "16:10", "16:10", "1:1", "3:4", "9:16"]
+    assert [sectionize.size_class(*wh) for wh in ((196, 348), (342, 282), (480, 480), (879, 418), (1440, 810), (0, 0))] \
+        == ["tile", "card", "card", "panel", "wide", None]
 
 
 def test_sectionize_types_roles_and_stamps(tmp_path):
@@ -114,7 +118,7 @@ def test_skeleton_and_slots_json(tmp_path):
     assert "\n## S01 hero\n" in text and "\n## S03 tutorial-grid\n" in text
     assert "- t1 h1: Comic Book Generator" in text
     # aspect is quoted on purpose: bare 9:16 is a sexagesimal integer to YAML 1.1 parsers
-    assert "```slot\nid: S01-m1\nkind: image\nrole: creative\nsize: 300x450\naspect: '2:3'\nnatural: 600x900\n" in text
+    assert "```slot\nid: S01-m1\nkind: image\nrole: creative\nsize: 300x450\nsize_class: tile\naspect: '2:3'\nnatural: 600x900\n" in text
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
     slots = json.loads((out.parent / "slots.json").read_text())

@@ -17,7 +17,9 @@ you make goes there.
 1. Read `brief.md` fully, then open every example media file under
    `examples/` with `Read`. Note the finish, framing and density they share.
    The `## Style family` block says which panels you produce; you produce
-   those and nothing else.
+   those and nothing else. Its **Template** and **Ground** lines change what
+   `lp-compose` draws, never what you generate; a `Series:` line means one
+   prompt envelope and one gate across the set.
 2. For each slot in the brief, choose a pattern (`image-workflows.md` or
    `video-workflows.md`) and write the complete `workflow.yaml`
    (`workflow-format.md`) before any paid call. Default models unless the

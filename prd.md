@@ -34,6 +34,10 @@ taught it.
 - Every video step states `generateAudio: false`, `async: true` and ends its
   prompt with ", no other text, no logos or watermarks"; the reviewer checks
   the yaml, not the intent. (runs/dry-1 S01, review 1)
+- `resemblance` is scored against the family and its ground variant for the
+  slot's class; a black composite where the corpus shows light grey is a 1.
+  Examples for a blind trial are drawn with `--exclude-asset <source id>`,
+  never by page slug alone. (2026-09-07, taxonomy round)
 - Text in an image is generated only from the slot's `> text:` strings,
   which the manager derives from the section copy and the family's **Text**
   line; the worker quotes them verbatim and the gate reads every word. A

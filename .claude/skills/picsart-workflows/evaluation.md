@@ -8,8 +8,8 @@ self-eval, then reviewer), and on the workflow itself (reviewer).
 | Key | Question |
 |---|---|
 | fit | Does it illustrate this section's text and annotation, not a generic version of it? |
-| resemblance | Do the panels match the brief's Style family (panel count, subject, framing, safe area, nothing from its Never list), and does the composite sit beside the family's examples? A still life or perspective render for a flat composite family is a 1. |
-| consistency | Same palette, light and finish as the hero / shared context? |
+| resemblance | Do the panels match the brief's Style family and its ground variant (panel count, ground, chrome, subject, framing, safe area, nothing from its Never list), and does the composite sit beside the family's examples for this slot class? A still life or perspective render for a flat composite family, or a black composite briefed as `/light`, is a 1. |
+| consistency | Same palette, light and finish as the hero / shared context, and across every member when the brief names a Series? |
 | clean | No logos, watermarks or UI, and no text beyond the brief's `## Text in image` strings? Chrome drawn by `lp-compose` is clean only when its labels are the family's (Before, After, x2, 4K, a size string) and none duplicates a model-rendered string. (a failure here is a hard reject) |
 | text | Every string in `## Text in image` present, spelt and cased exactly, in the panel and position the brief names, readable at the slot size, in a typeface that suits the family? `5` when the table is `none` and the image carries no text. (a wrong or extra word is a hard reject) |
 | artefacts | Faces, hands, products, edges: nothing wrong at 100 % zoom? |
@@ -32,6 +32,7 @@ the lowest key named first.
 ```markdown
 ---
 section: S03
+class: callout-1:1
 style: before-after
 verdict: accept | rework | block
 round: 1

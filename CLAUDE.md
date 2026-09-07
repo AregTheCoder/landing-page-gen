@@ -28,10 +28,12 @@ uv run lp-corpus discover --seed <url>                   # -> corpus/pages.yaml
 uv run lp-corpus fetch --family tool --sectionize        # or: fetch /ai-image-generator/ ...
 uv run lp-corpus media --all                             # download media for snapshots fetched --no-media
 uv run lp-corpus sectionize --all                        # re-index after sectionize.py changes; re-applies corpus/styles.yaml
-uv run lp-corpus styles [--limit N]                      # tag untagged creatives with a style family (Claude vision) -> corpus/styles.yaml
+uv run lp-corpus attrs [--dry-run|--limit N]             # describe every distinct asset with Claude vision -> corpus/attributes.yaml, media.attrs/style
+uv run lp-corpus taxonomy --out corpus/taxonomy           # cross-tab + contact sheets from attributes.yaml -> report.md
+uv run lp-corpus styles --from-attrs                      # derive corpus/styles.yaml from the attributes through the rule table
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
 uv run lp-corpus similar --type hero --style full-bleed --query "<headline and body>" \
-    --exclude ai-image-generator -k 3 --out runs/<run>/sections/S01/examples
+    --exclude ai-image-generator --exclude-asset <8hex> -k 3 --out runs/<run>/sections/S01/examples
 uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
 uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
 uv run lp-inject runs/<run>

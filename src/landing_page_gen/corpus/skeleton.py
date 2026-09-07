@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db
+from . import db, sectionize
 
 DEFAULTS = {"image_model": "gemini-3-pro-image", "video_model": "seedance-2.5", "video_draft": "seedance-2.0-mini"}
 BUDGET = {"run_credits": 300, "image_slot": 20, "video_slot": 60}
@@ -59,8 +59,12 @@ def render_skeleton(page, sections):
             slot = {"id": m["slot_id"], "kind": m["kind"], "role": m["role"]}
             if m["width"] and m["height"]:
                 slot["size"] = f"{m['width']}x{m['height']}"
+                slot["size_class"] = sectionize.size_class(m["width"], m["height"])
             if m["aspect"]:
                 slot["aspect"] = m["aspect"]
+                cls = sectionize.aspect_class(m["width"], m["height"])
+                if cls and cls != m["aspect"]:
+                    slot["aspect_class"] = cls
             if m["nat_width"] and m["nat_height"]:
                 slot["natural"] = f"{m['nat_width']}x{m['nat_height']}"
             if m["duration"]:
@@ -77,7 +81,9 @@ def render_skeleton(page, sections):
             if m["role"] in db.GENERATED_ROLES:
                 hint = f' (source alt: "{m["alt"]}")' if m["alt"] else ""
                 lines.append(f"> annotation: TODO what this {m['kind']} should show{hint}")
-                lines.append(f"> style: {m['style'] or 'TODO one of ' + ' | '.join(db.STYLES)}")
+                variant = json.loads(m["attrs"]).get("variant") if m["attrs"] else None
+                style = f"{m['style']}/{variant}" if m["style"] and variant else m["style"]
+                lines.append(f"> style: {style or 'TODO one of ' + ' | '.join(db.STYLES)}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"

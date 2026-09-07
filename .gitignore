@@ -19,6 +19,8 @@ wheels/
 # only the small per-page sections.md and meta.json are kept in git.
 runs/
 corpus/corpus.db
+corpus/frames/
+corpus/taxonomy/*.png
 corpus/pages/*/*
 !corpus/pages/*/sections.md
 !corpus/pages/*/meta.json

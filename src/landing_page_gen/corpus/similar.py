@@ -20,34 +20,63 @@ def fts_query(query, limit=40):
     return " OR ".join(f'"{t}"' for t in tokens[:limit])
 
 
-def _media_clause(need_media, style=None):
-    if not need_media and not style:
-        return "", ()
-    cond = "m.role IN ('creative','thumbnail')" + (" AND m.style = ?" if style else "")
-    return f"AND EXISTS (SELECT 1 FROM media m WHERE m.section_id = s.id AND {cond})", ((style,) if style else ())
+def split_style(style):
+    """'dark-composite/light' -> ('dark-composite', 'light'); validates the family."""
+    if not style:
+        return None, None
+    fam, _, variant = style.partition("/")
+    if fam not in db.STYLES:
+        raise ValueError(f"unknown style family {fam!r}; one of {', '.join(db.STYLES)}")
+    return fam, variant or None
 
 
-def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=None):
+def _media_clause(need_media, style=None, attrs=None, exclude_asset=None):
+    """The EXISTS filter on a section's media: a generated-role slot, optionally
+    of one family[/variant] and with given attribute values; plus a NOT EXISTS
+    for sections that show the excluded source asset (sibling pages reuse it)."""
+    fam, variant = split_style(style)
+    conds, params = ["m.role IN ('creative','thumbnail')"], []
+    if fam:
+        conds.append("m.style = ?")
+        params.append(fam)
+    if variant:
+        conds.append("json_extract(m.attrs, '$.variant') = ?")
+        params.append(variant)
+    for key, value in (attrs or {}).items():
+        conds.append(f"json_extract(m.attrs, '$.{key}') = ?")
+        params.append(value)
+    sql = ""
+    if need_media or fam or attrs:
+        sql = f"AND EXISTS (SELECT 1 FROM media m WHERE m.section_id = s.id AND {' AND '.join(conds)})"
+    if exclude_asset:
+        sql += " AND NOT EXISTS (SELECT 1 FROM media x WHERE x.section_id = s.id AND x.src LIKE ?)"
+        params.append(f"%{exclude_asset}%")
+    return sql, tuple(params)
+
+
+def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=None, attrs=None, exclude_asset=None):
     """Top-k sections of `type_` by BM25, at most one per page, from pages
-    other than `exclude`; with need_media only sections that have a
-    creative/thumbnail slot. With `style`, sections whose media carry that
-    style family come first; the untagged passes only fill what is left."""
+    other than `exclude` and never showing `exclude_asset` (an 8-hex asset id
+    or any substring of the src); with need_media only sections that have a
+    creative/thumbnail slot. With `style` (family[/variant]) or `attrs`
+    ({attribute: value}), matching sections come first; the untagged passes
+    only fill what is left."""
     match = fts_query(query)
     rows = []
 
     def enough():
         return len({r["slug"] for r in rows if r["slug"] != exclude}) >= k
-    passes = ([style] if style else []) + [None]
-    for st in passes:
-        clause, params = _media_clause(need_media or st, st)
+    passes = ([(style, attrs)] if style or attrs else []) + [(None, None)]
+    for st, at in passes:
+        clause, params = _media_clause(need_media or st or at, st, at, exclude_asset)
         if match and not enough():
             rows += con.execute(
                 f"""SELECT s.*, p.slug, p.url, bm25(sections_fts) AS rank
                     FROM sections_fts f JOIN sections s ON s.id = f.rowid JOIN pages p ON p.id = s.page_id
                     WHERE sections_fts MATCH ? AND s.type = ? {clause}
                     ORDER BY rank LIMIT ?""", (match, type_, *params, k * 8)).fetchall()
-    for st in passes:
-        clause, params = _media_clause(need_media or st, st)
+    for st, at in passes:
+        clause, params = _media_clause(need_media or st or at, st, at, exclude_asset)
         if not enough():
             rows += con.execute(
                 f"""SELECT s.*, p.slug, p.url, 0 AS rank FROM sections s JOIN pages p ON p.id = s.page_id

@@ -17,9 +17,10 @@ You review one section folder named in your prompt. You never generate.
    `steps/` files with `Read`. If a `steps/` file is missing, download the
    URL from `workflow.yaml` with `curl -sL` into `steps/`.
 2. Score the final asset with the asset rubric in `evaluation.md`. Check
-   the brief's `## Style family` block first (panels, Never list), then
-   compare side by side with the examples: framing, density, finish. Check
-   the shared context (hero) for consistency.
+   the brief's slot class and ground variant first, then the `## Style
+   family` block (panels, Never list), then compare side by side with the
+   examples: framing, density, finish. For a Series open every member
+   before scoring. Check the shared context (hero) for consistency.
 3. Score the workflow: pattern fit for the slot and its source media, every
    step justified, gates with real observations, preflight before each paid
    step, `credits.spent` equal to this slot's rows in `<run>/ledger.jsonl`

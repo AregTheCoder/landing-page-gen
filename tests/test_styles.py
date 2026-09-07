@@ -1,15 +1,19 @@
-"""Style families: the doc and the code agree, tags survive a re-index,
-the skeleton and `similar` see them, and `lp-corpus styles` fills them."""
+"""Style families: the doc and the code agree (headings, block keys, slot
+classes, templates, vocabulary), tags survive a re-index, the skeleton and
+`similar` see them, and `lp-corpus styles` fills them."""
 
+import re
 import sqlite3
 
 from PIL import Image
 
 from landing_page_gen.compose.families import FAMILIES
-from landing_page_gen.corpus import cli, db, media, sectionize, similar, skeleton, styles
+from landing_page_gen.corpus import attrs, cli, db, media, sectionize, similar, skeleton, styles
 from test_corpus import HERO1, fake_download_factory, hero_render, make_page
 
-KEYS = ("**Use:**", "**Ground:**", "**Grid 1:1", "**Grid 16:9", "**Chrome", "**Panels", "**Palette:**", "**Never:**", "**Examples:**")
+KEYS = ("**Use:**", "**Slots:**", "**Signature:**", "**Ground:**", "**Grid:**", "**Template:**", "**Chrome (lp-compose):**",
+        "**Panels (worker):**", "**Palette:**", "**Text:**", "**Never:**", "**Examples:**")
+ASSET_ID = re.compile(r"\b[0-9a-f]{8}\b")
 
 
 def build(tmp_path, slugs):
@@ -19,24 +23,96 @@ def build(tmp_path, slugs):
     return con
 
 
-def test_doc_blocks_match_code():
+def blocks(doc):
+    """{family: block text} for the `## <family>` sections."""
+    parts = doc.split("\n## ")[1:]
+    return {p.split("\n", 1)[0].strip(): p for p in parts}
+
+
+def line_of(block, key):
+    return next(line for line in block.splitlines() if line.startswith(key))
+
+
+def test_doc_headings_keys_and_key_order():
     doc = styles.DOC.read_text()
     heads = tuple(line[3:].strip() for line in doc.splitlines() if line.startswith("## "))
-    assert heads[0] == "Vocabulary and constants" and heads[1:] == db.STYLES
-    for block in doc.split("\n## ")[2:]:
-        for key in KEYS:
-            assert key in block, (block.splitlines()[0], key)
-    assert set(FAMILIES) <= set(db.STYLES), "every compose template is a documented family"
-    assert "## full-bleed" in styles.guide() and "**Panels" not in styles.guide()
+    assert heads[:2] == ("Vocabulary and constants", "Slot classes") and heads[2:] == db.STYLES
+    for fam in db.STYLES:
+        block = blocks(doc)[fam]
+        positions = [block.index(key) for key in KEYS]
+        assert positions == sorted(positions), (fam, "keys out of order")
+    guide_lines = styles.guide().splitlines()
+    assert "## full-bleed" in guide_lines and any(line.startswith("**Signature:**") for line in guide_lines)
+    assert not any(line.startswith(("**Panels", "**Grid", "**Never")) for line in guide_lines), "the classifier sees Use/Signature/Ground/Chrome only"
 
 
-def test_old_db_gains_style_column(tmp_path):
+def test_template_lines_match_compose_templates():
+    doc = styles.DOC.read_text()
+    templated = set()
+    for fam in db.STYLES:
+        value = line_of(blocks(doc)[fam], "**Template:**")[len("**Template:**"):].strip()
+        m = re.match(r"lp-compose: ([a-z-]+)", value)
+        if m:
+            templated.add(m.group(1))
+        else:
+            assert value.startswith(("none; brief as ", "none (", "kept-from-source (")), (fam, value)
+            for fallback in re.findall(r"brief as ([a-z-]+)", value):
+                assert fallback in db.STYLES, (fam, fallback)
+    assert templated == set(FAMILIES), "every compose template is documented as such, and only those"
+
+
+def test_slot_class_table_pins_db_constants_and_block_slots():
+    doc = styles.DOC.read_text()
+    table = doc.split("\n## Slot classes\n")[1].split("\n## ")[0]
+    rows = [line for line in table.splitlines() if line.startswith("| ") and not line.startswith("| class") ]
+    classes, used = {}, set()
+    for row in rows:
+        cells = [c.strip() for c in row.strip("|").split("|")]
+        cls, typ, role, aspect, _size, assets, _fams, families, _note = cells
+        assert typ in db.SECTION_TYPES and role in db.GENERATED_ROLES and aspect in sectionize.ASPECT_CLASSES, row
+        assert int(assets) > 0
+        for token in re.findall(r"\b([a-z]+(?:-[a-z]+)+)(?:/[a-z]+)?", families):
+            if token in db.STYLES:
+                used.add(token)
+        classes[cls] = families
+    assert set(db.STYLES) <= used, f"families never allowed by any slot class: {set(db.STYLES) - used}"
+    for fam in db.STYLES:
+        slots_line = line_of(blocks(doc)[fam], "**Slots:**")
+        for cls in re.findall(r"\b([a-z]+-\d+:\d+(?:-video)?)", slots_line):
+            assert cls in classes, (fam, cls, "not a slot-class row")
+            assert fam in classes[cls], (fam, cls, "row does not list this family")
+
+
+def test_examples_name_distinct_assets_and_grounds_are_named():
+    doc = styles.DOC.read_text()
+    for fam in db.STYLES:
+        ids = ASSET_ID.findall(line_of(blocks(doc)[fam], "**Examples:**"))
+        assert len(ids) >= 2 and len(ids) == len(set(ids)), (fam, ids)
+        ground = line_of(blocks(doc)[fam], "**Ground:**")
+        for variant in re.findall(r"\| ([a-z]+):", ground):
+            assert variant in attrs.ENUMS["ground"] or variant in ("none", "transparent") or variant in {
+                "light", "checker", "colour"}, (fam, variant)
+
+
+def test_vocabulary_bullets_equal_attribute_enums():
+    doc = styles.DOC.read_text()
+    vocab = doc.split("\n## Vocabulary and constants\n")[1].split("\n## ")[0]
+    found = {}
+    for line in vocab.splitlines():
+        m = re.match(r"- \*\*([a-z_]+)\*\*: (.+)$", line)
+        if m and " | " in m.group(2):
+            found[m.group(1)] = tuple(v.strip() for v in m.group(2).split("|"))
+    expected = {k: v for k, v in attrs.ENUMS.items() if k != "family_hint"}
+    assert found == expected
+
+
+def test_old_db_gains_style_and_attrs_columns(tmp_path):
     path = tmp_path / "old.db"
     con = sqlite3.connect(path)
-    con.executescript(db.SCHEMA.replace("  style TEXT,\n", ""))
+    con.executescript(db.SCHEMA.replace("  style TEXT,\n", "").replace("  attrs TEXT,\n", ""))
     con.close()
     con = db.connect(path)
-    assert "style" in {r["name"] for r in con.execute("PRAGMA table_info(media)")}
+    assert {"style", "attrs"} <= {r["name"] for r in con.execute("PRAGMA table_info(media)")}
 
 
 def test_apply_survives_reindex_and_skeleton_shows_style(tmp_path):

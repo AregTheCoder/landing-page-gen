@@ -28,10 +28,19 @@ transparent background.
 **series**: galleries and tutorial-card thumbnails that must look like a
 set. One generate with `count` 4–6, one prompt template with a slot-specific
 subject phrase, hero as reference. Gate: reject any member that breaks the
-set (different finish, text, wrong framing); regenerate members singly.
+set (different finish, text, wrong framing, a different family or ground
+variant from the brief); regenerate members singly.
 
-**composite**: when the brief's `## Style family` block lists chrome
-(`style-families.md`). The worker generates the photographic panels only;
+**composite**: when the brief's `## Style family` block's **Template** line
+names an `lp-compose` template (`style-families.md`). A block whose
+**Template** says `none; brief as X` never reaches you unchanged (the
+manager briefs X's block, with a `Stands in for:` line); `kept-from-source`
+slots never reach a worker. Pattern per family: composite for
+dark-composite, before-after, crop-frame, cutout-checkerboard and
+template-mockup; direct or anchored for full-bleed; series for
+cinematic-still, graphic-collage, outcome-tile and any slot the brief marks
+as a Series; fallback families take the pattern of the family they are
+briefed as. The worker generates the photographic panels only;
 `lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
 <family>` prints the panels and the `aspectRatio` to generate each at.
 1. one `picsart_generate` per distinct panel named under **Panels**,
