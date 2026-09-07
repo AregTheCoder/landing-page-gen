@@ -68,6 +68,22 @@ taught it.
   ground, panels and chrome come from `lp-compose` with the family template,
   so `clean` is scored on the panels and chrome text is limited to the
   family's labels (Before, After, x2, 4K, a size). (runs/trial-1 S07)
+- `similar --exclude <page>` is not enough for a blind trial: sibling pages of one
+  CMS block share the source image. Grep the brief for the source asset id and
+  swap those examples out by hand. (runs/trial-3 S09)
+- "Omni" in the Picsart catalog is video-only (Gemini Omni, Kling V3 Omni). An
+  image from it is one frame of a 3 s static-camera clip (9 credits at 720p)
+  grabbed with `FrameGrabber`; a 9:16 frame in a near-square panel needs an
+  explicit compose `anchor`. (runs/trial-3 S09)
+- A video frame is a finish tier below a native image generate for a panel:
+  720p into a 740 px panel leaves no headroom, and the 9:16 to near-square
+  cover crop discards half the height, so a 25 % margin in the frame is ~7 %
+  in the panel. A frame-grab gate measures margin after the crop and detail
+  at 100 %, not just "no motion blur". (runs/trial-3 S09, review 1)
+- A re-run to fix one flaw changes one variable. Fighting margin with
+  "photographed small, from a distance" shrank and de-centred the subject;
+  "one single fern, nothing else in the pot" would have fixed the species
+  mix and left the framing alone. (runs/trial-3 S09, review 1)
 
 ## Non-goals
 

@@ -9,7 +9,8 @@ workflow to similar sections in the corpus; the chosen media is injected back
 into the page's HTML snapshot.
 
 Status: Milestone 1 (corpus) done; Milestone 2 (dry run of the loop) next.
-See `plan.md`.
+See `plan.md`. An architecture overview for non-developers is in
+`docs/index.html`, served by GitHub Pages from the `docs/` folder.
 
 ## Setup
 
