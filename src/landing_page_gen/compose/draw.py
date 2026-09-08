@@ -24,7 +24,12 @@ ICONS = {
     "crop": {"lines": [[(7, 3), (7, 17), (21, 17)], [(3, 7), (17, 7), (17, 21)]]},
     "check": {"lines": [[(6, 12), (10.5, 16.5), (18.5, 8)]]},
     "sparkle": {"polygon": [(12, 2), (14.2, 9.8), (22, 12), (14.2, 14.2), (12, 22), (9.8, 14.2), (2, 12), (9.8, 9.8)]},
+    "wheel": {"circles": [(9, 9.5, 5), (15, 9.5, 5), (12, 14.5, 5)]},  # three overlapping rings, the HSL mark
+    "chevron": {"lines": [[(7, 14), (12, 9), (17, 14)]]},
 }
+# the eight hue chips of the adjustment panel: red, orange, yellow, green, turquoise, blue, purple, pink
+HUES = ((235, 64, 52), (245, 140, 30), (250, 215, 40), (70, 190, 90), (60, 205, 210), (70, 90, 235), (150, 70, 220), (235, 70, 170))
+PANEL_FILL = (28, 28, 30, 238)
 
 
 def font(px, weight=600):
@@ -131,6 +136,8 @@ def icon(canvas, rect, name, colour=WHITE):
             d.ellipse((x - stroke / 2, y - stroke / 2, x + stroke / 2, y + stroke / 2), fill=colour)
     if "polygon" in spec:
         d.polygon([pt(p) for p in spec["polygon"]], fill=colour)
+    for cx, cy, r in spec.get("circles", []):
+        d.ellipse((*pt((cx - r, cy - r)), *pt((cx + r, cy + r))), outline=colour, width=stroke)
     return rect
 
 
@@ -225,3 +232,92 @@ def headline(canvas, rect, text, px, stroke, radius, colour=WHITE):
         for k in (0.34, 0.56):
             d.rounded_rectangle((x0 + w * 0.2, y0 + h * k, x1 - w * 0.2, y0 + h * (k + 0.12)), radius=stroke, fill=colour)
     return rect
+
+
+def adjust_panel(canvas, rect, title, chips, active, sliders, fnt_title, fnt_label, radius):
+    """The tool's dark adjustment panel laid over a photo: a header row (tool
+    mark, title, a small teal badge, a chevron), a row of hue chips with the
+    active one ringed, then one row per slider (label, track, knob, value chip).
+    `sliders` is a list of [label, value] with value in -100..100."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    w, h = x1 - x0, y1 - y0
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=PANEL_FILL)
+    pad = w * 0.05
+    # header
+    hh = h * 0.14
+    mark = hh * 0.7
+    icon(layer, (x0 + pad, y0 + pad, x0 + pad + mark, y0 + pad + mark), "wheel")
+    tx = x0 + pad + mark * 1.4
+    d.text((tx, y0 + pad + mark / 2), title, font=fnt_title, fill=WHITE, anchor="lm")
+    tw = d.textlength(title, font=fnt_title) if title else 0
+    bw, bh = mark * 0.55, mark * 0.4
+    d.rounded_rectangle((tx + tw + mark * 0.4, y0 + pad + (mark - bh) / 2, tx + tw + mark * 0.4 + bw, y0 + pad + (mark + bh) / 2),
+                        radius=bh * 0.25, fill=(60, 200, 180, 255))
+    icon(layer, (x1 - pad - mark, y0 + pad, x1 - pad, y0 + pad + mark), "chevron", (200, 200, 200, 255))
+    # chips
+    top = y0 + pad + hh
+    if chips:
+        dia = min((w - 2 * pad) / (chips * 1.25), h * 0.17)
+        step = (w - 2 * pad - dia) / max(1, chips - 1)
+        for i in range(chips):
+            cx = x0 + pad + i * step
+            d.ellipse((cx, top, cx + dia, top + dia), fill=HUES[i % len(HUES)] + (255,))
+            if i == active:
+                ring = dia * 0.12
+                d.ellipse((cx - ring, top - ring, cx + dia + ring, top + dia + ring), outline=(250, 215, 40, 255), width=max(1, round(ring * 0.6)))
+        top += dia + pad
+    # sliders
+    if sliders:
+        rh = (y1 - pad - top) / len(sliders)
+        for i, (label, value) in enumerate(sliders):
+            cy = top + rh * (i + 0.5)
+            d.text((x0 + pad, cy), str(label), font=fnt_label, fill=(170, 170, 175, 255), anchor="lm")
+            tx0, tx1 = x0 + w * 0.36, x0 + w * 0.76
+            d.line([(tx0, cy), (tx1, cy)], fill=(95, 95, 100, 255), width=max(1, round(h * 0.012)))
+            knob = rh * 0.22
+            kx = tx0 + (tx1 - tx0) * (0.5 + max(-100, min(100, float(value))) / 200)
+            d.ellipse((kx - knob, cy - knob, kx + knob, cy + knob), fill=WHITE)
+            vw, vh = w * 0.13, rh * 0.62
+            d.rounded_rectangle((x1 - pad - vw, cy - vh / 2, x1 - pad, cy + vh / 2), radius=vh * 0.25, fill=(48, 48, 52, 255))
+            d.text((x1 - pad - vw / 2, cy), str(value), font=fnt_label, fill=WHITE, anchor="mm")
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
+def tool_pill(canvas, rect, text, icon_name, fnt):
+    """A white round badge carrying the tool mark, with a white label pill and
+    a small pointer under it: the hero's tool call-out (hsl-color S01)."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    w, h = x1 - x0, y1 - y0
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    dia = min(w * 0.42, h * 0.45)
+    bx = x0 + (w - dia) / 2
+    d.ellipse((bx, y0, bx + dia, y0 + dia), fill=WHITE)
+    inset = dia * 0.28
+    icon(layer, (bx + inset, y0 + inset, bx + dia - inset, y0 + dia - inset), icon_name, (20, 20, 20, 255))
+    ph = h * 0.28
+    py0 = y1 - ph
+    d.rounded_rectangle((x0, py0, x1, y1), radius=ph * 0.3, fill=WHITE)
+    tip = ph * 0.3
+    mx = (x0 + x1) / 2
+    d.polygon([(mx - tip, py0 + 1), (mx + tip, py0 + 1), (mx, py0 - tip)], fill=WHITE)
+    d.text((mx, py0 + ph / 2), text, font=fnt, fill=(20, 20, 20, 255), anchor="mm")
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
+def tilted_stack(im, angle, scale=0.8, back=(236, 236, 238, 255)):
+    """The composed card scaled down and rotated over a plain card rotated the
+    other way, on a transparent ground the page shows through."""
+    w, h = im.size
+    card = im.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
+    plain = Image.new("RGBA", card.size, (0, 0, 0, 0))
+    ImageDraw.Draw(plain).rounded_rectangle((0, 0, card.width - 1, card.height - 1), radius=round(min(card.size) * 0.07), fill=back)
+    out = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    for layer, a in ((plain, -angle * 0.6), (card, angle)):
+        rot = layer.rotate(a, resample=Image.BICUBIC, expand=True)
+        out.paste(rot, ((w - rot.width) // 2, (h - rot.height) // 2), rot)
+    return out

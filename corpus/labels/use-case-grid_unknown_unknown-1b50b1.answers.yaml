@@ -1,0 +1,86 @@
+# Answered 2026-09-08 by viewing use-case-grid_unknown_unknown-1b50b1.png (7 cells).
+# Tilted stacked cards on the page's white ground: ground white, layout overlay.
+1:
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted stacked photo card of a woman with pink hair in an orange top, no chrome
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  ground: white
+  layout: overlay
+  panel_count: 2
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a bearded man with a round before inset of the same man top-left
+  family_hint: before-after
+  confidence: 0.5
+3:
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: [adjust-panel, chip, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a striped skirt with a dark HSL panel, eight hue chips and a Hue slider over it
+  family_hint: panel-overlay
+  confidence: 0.9
+4:
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted stacked photo card of a smiling man in a hoodie by the sea, no chrome
+  family_hint: full-bleed
+  confidence: 0.5
+5:
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: collage
+  description: tilted photo card of a man on a boat with jellyfish and wave sticker cutouts pasted over it
+  family_hint: graphic-collage
+  confidence: 0.4
+6:
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: [adjust-panel, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a woman in an iridescent fringe jacket with a dark HSL panel and a Lightness slider
+  family_hint: panel-overlay
+  confidence: 0.9
+7:
+  ground: white
+  layout: single
+  panel_count: 1
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  finish: photo
+  description: rounded photo card of a white house with pink flowers and a round white plus button on its left edge
+  family_hint: full-bleed
+  confidence: 0.5

@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-528716
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-528716.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/b9ebad7b-7ba2-41b5-b3cc-dfff7c034034.png
+    asset: b9ebad7b
+    page: youtube-banner-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/bab98c45-96e0-4814-8900-4ddb84da7e85.png
+    asset: bab98c45
+    page: card-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/bb564284-dba5-4654-beac-d3b117e853f6.png
+    asset: bb564284
+    page: wallpaper-maker
+    slot: S14-m2
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/bdd2a494-1184-4c9f-b70b-5cd3a1c7058a.png
+    asset: bdd2a494
+    page: label-maker
+    slot: S06-m13
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/bde6f079-e518-494f-9f07-cdfa49ea1ed0.png
+    asset: bde6f079
+    page: invitation-maker
+    slot: S14-m11
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/bef67284-452a-47e6-8f46-3932b71141e2.png
+    asset: bef67284
+    page: label-maker
+    slot: S06-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/bf499b0f-5b92-4cf6-a478-27c6e137fc69.png
+    asset: bf499b0f
+    page: thank-you-card-maker
+    slot: S04-m12
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/c06ed7a5-8dc8-428f-a11a-4e3188cccbd1.png
+    asset: c06ed7a5
+    page: youtube-thumbnail-maker
+    slot: S16-m14
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/c2a1110f-c874-462a-b2ec-a54cd94ad8b3.png
+    asset: c2a1110f
+    page: christmas-card-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/c2b704b5-c487-440d-8a42-a818fbdcf028.png
+    asset: c2b704b5
+    page: instagram-post-creator
+    slot: S04-m4
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/c3948208-0f8d-4f25-bfab-f7a8bbe68cf0.png
+    asset: c3948208
+    page: christmas-card-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/c6dca297-ddd7-4491-9c4d-4a3248181d3e.png
+    asset: c6dca297
+    page: gift-certificate-maker
+    slot: S04-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

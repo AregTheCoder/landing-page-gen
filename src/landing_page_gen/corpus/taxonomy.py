@@ -15,6 +15,7 @@ DEFAULT_GROUND = {
     "template-mockup": "white", "prompt-card": "black", "full-bleed": "photo-full-bleed",
     "vs-two-up": "light-grey", "mockup-card": "black", "cinematic-still": "photo-full-bleed",
     "graphic-collage": "solid-colour", "outcome-tile": "white", "editor-canvas": "white", "model-card": "light-grey",
+    "panel-overlay": "photo-full-bleed",
 }
 VARIANT_NAME = {"light-grey": "light", "white": "white", "black": "black", "gradient": "gradient",
                 "solid-colour": "colour", "checkerboard": "checker", "mixed": "mixed"}
@@ -34,6 +35,9 @@ def family_of(rec):
     fam = None
     if rec.get("before_after"):
         fam = "before-after"
+    elif "adjust-panel" in ch or ("slider" in ch and lay == "overlay") or (
+            typ == "hero" and {"pill", "badge"} <= ch and g == "photo-full-bleed" and panels <= 1):
+        fam = "panel-overlay"  # the tool panel over a photo; on heroes the tool badge + label pill stand in for it
     elif ch & {"brackets", "size-label"}:
         fam = "crop-frame"
     elif g == "checkerboard" or ("badge" in ch and fin == "photo"):

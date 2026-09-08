@@ -59,9 +59,11 @@ def test_compose_before_after_geometry_ground_and_pill(tmp_path):
 @pytest.mark.parametrize("family", sorted(FAMILIES))
 def test_every_family_composes_at_slot_size(tmp_path, family):
     extra = {"chrome": {"headline": {"text": "Pottery classes"}}} if family == "template-mockup" else {}
-    layout = cli.resolve(cli.load_spec(write_spec(tmp_path, family, **extra)))
+    fw, fh = FAMILIES[family]["aspect"]
+    size = (720, round(720 * fh / fw))
+    layout = cli.resolve(cli.load_spec(write_spec(tmp_path, family, size=f"{size[0]}x{size[1]}", **extra)))
     im, drawn = cli.compose(layout)
-    assert im.size == (720, 720)
+    assert im.size == size
     assert set(drawn) == {c["id"] for c in FAMILIES[family]["chrome"]}
     if FAMILIES[family]["ground"].get("fill") is None:
         assert im.mode == "RGBA" and im.getpixel((0, 0))[3] == 0, "transparent ground keeps its rounded corners"
@@ -86,6 +88,9 @@ def test_describe_lists_panels_and_generate_ratios(capsys):
     assert cli.main(["--describe", "crop-frame"]) == 0
     out = capsys.readouterr().out
     assert "panel source" in out and "panel result" in out
+    assert cli.main(["--describe", "panel-overlay"]) == 0
+    out2 = capsys.readouterr().out
+    assert "fills the slot" in out2 and "panel (adjust-panel, text)" in out2 and "tool-pill (tool-pill, text)" in out2
     assert any(f"generate at {r}" in out for r in RATIOS)
     assert nearest_ratio(970, 1600) == "9:16" and nearest_ratio(1180, 1600) == "3:4" and nearest_ratio(600, 630) == "1:1"
 
@@ -105,3 +110,28 @@ def test_spec_errors_name_the_problem(tmp_path):
         cli.load_spec(rewrite(spec, panels=panels))
     with pytest.raises(SystemExit, match="unknown family 'nope'"):
         cli.main(["--describe", "nope"])
+
+
+def test_panel_overlay_fills_the_slot_at_two_aspects_and_tilts(tmp_path):
+    spec = write_spec(tmp_path, "panel-overlay", size="541x406", omit=["tool-pill"])
+    im, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))
+    assert im.size == (541, 406) and set(drawn) == {"panel"}
+    assert im.getpixel((270, 100))[:3] == (255, 0, 0), "the photo fills the slot"
+    x0, y0, x1, y1 = (int(v) for v in drawn["panel"])
+    assert 0.4 < x0 / 541 < 0.45 and 0.23 < y0 / 406 < 0.27 and x1 < 541 and y1 < 406, "panel over the lower right"
+    px = [im.getpixel((x, y))[:3] for x in range(x0 + 4, x1 - 4, 6) for y in range(y0 + 4, y1 - 4, 6)]
+    assert sum(max(p) < 60 for p in px) > len(px) * 0.5, "dark panel"
+    assert any(p[0] > 200 and p[1] < 120 for p in px), "a hue chip or the knob shows"
+    assert im.getpixel((1, 1))[3] == 0, "transparent ground keeps the rounded corners"
+    hero = write_spec(tmp_path, "panel-overlay", size="550x440", omit=["panel"])
+    im, drawn = cli.compose(cli.resolve(cli.load_spec(hero)))
+    assert im.size == (550, 440) and set(drawn) == {"tool-pill"}
+    x0, y0, x1, y1 = (int(v) for v in drawn["tool-pill"])
+    assert im.getpixel(((x0 + x1) // 2, y1 - 4))[:3] == (255, 255, 255), "white label pill"
+    tilted = write_spec(tmp_path, "panel-overlay", size="541x406", omit=["tool-pill"], ground="tilted")
+    im, _ = cli.compose(cli.resolve(cli.load_spec(tilted)))
+    assert im.mode == "RGBA" and im.getpixel((0, 0))[3] == 0 and im.getpixel((5, 203))[3] == 0, "tilted cards leave the edges clear"
+    assert im.getpixel((200, 203))[3] == 255
+    with pytest.raises(SystemExit, match="720x720 is not 4:3 or 5:4"):
+        cli.load_spec(write_spec(tmp_path, "panel-overlay", size="720x720"))
+    assert cli.main(["--describe", "panel-overlay"]) == 0

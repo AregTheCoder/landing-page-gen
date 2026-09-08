@@ -1,0 +1,46 @@
+sheet: link-grid_black_two-up-799d23
+group:
+  type: link-grid
+  ground: black
+  layout: two-up
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_black_two-up-799d23.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5c49db20-5b2c-4809-91ee-254b324f0ea6.webp?type=webp&to=min&r=640
+    asset: 5c49db20
+    page: ai-design-tools
+    slot: S03-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: true
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/7fd68d60-df94-4b1e-9813-3f4ad25c897b.png
+    asset: 7fd68d60
+    page: add-shadow-to-image
+    slot: S11-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: true

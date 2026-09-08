@@ -44,7 +44,10 @@ slot's natural size and `lp-inject` scales it to the slot.
   `#f2f2f4` (ai-models and compare pages), a solid brand colour, a
   pink-to-purple gradient, or transparent (rounded corners show the page).
 - **panel**: a rounded-corner picture area, radius 40 px at 1600 px (24 at
-  1000), gutters 20-40 px, never a drop shadow.
+  1000), gutters 20-40 px, never a drop shadow. The **adjust panel** is the
+  one dark card laid over a picture: `#1c1c1e` at 93 % alpha, a header (tool
+  mark, name, teal badge, chevron), a row of eight hue chips, one row per
+  slider with a label, track, white knob and a dark value chip.
 - **tile**: a black rounded square with one white line icon (a tool glyph).
 - **pill**: a fully rounded label: translucent dark over a photo ("Before",
   "After"), solid dark or white for chips and buttons ("4K", "Add to bag").
@@ -73,7 +76,7 @@ Tagging attributes (`lp-corpus attrs`, values exactly as `attrs.FIELDS`):
 
 - **ground**: black | white | light-grey | solid-colour | gradient | photo-full-bleed | checkerboard | mixed
 - **layout**: single | two-up | split | column-main | grid | stacked | overlay
-- **chrome**: tile | pill | chip | brackets | badge | button | prompt-panel | mockup-card | model-logo | vs-badge | play-button | cursor | selection-handles | slider | arrow | size-label | swatch
+- **chrome**: tile | pill | chip | brackets | badge | button | prompt-panel | mockup-card | model-logo | vs-badge | play-button | cursor | selection-handles | slider | arrow | size-label | swatch | adjust-panel
 - **text_in_image**: none | labels-only | headline | body
 - **ui_mockup**: none | editor-canvas | app-card | prompt-ui | product-card | browser-window | phone-frame
 - **subject**: person | product | scene | food | animal | abstract | typography | illustration | object | multiple
@@ -106,7 +109,7 @@ briefed as `full-bleed` until the tagging report names them.
 | gallery-2:3 | gallery | creative | 2:3 | tile 244 | 22 | tool | graphic-collage, full-bleed | series |
 | gallery-2:1 | gallery | creative | 2:1 | tile | 20 | tool, ai-tool | full-bleed | |
 | usecase-2:1 | use-case-grid | creative | 2:1 | panel 879 | 48 | ai-models 80 rows | prompt-card (ai-models), full-bleed | prompt panel + result strip |
-| usecase-4:3 | use-case-grid | creative | 4:3 | card 423 | 28 | tool, other | full-bleed | lifestyle photo, no chrome |
+| usecase-4:3 | use-case-grid | creative | 4:3 | card 423 | 37 | tool, other | full-bleed (adjustment-tool pages: panel-overlay) | lifestyle photo; adjustment tools lay the tool panel over it |
 | usecase-1:1 | use-case-grid | creative | 1:1 | card | 11 | tool | TBD from tagging: full-bleed | |
 | hiw-4:5 | how-it-works | creative | 4:5 | card 480 | 11 | tool | TBD from tagging: full-bleed | |
 | hiw-1:1 | how-it-works | creative | 1:1 | card 600 | 9 | tool | TBD from tagging: full-bleed | |
@@ -118,7 +121,11 @@ briefed as `full-bleed` until the tagging report names them.
 Classes under 5 distinct assets (gallery-3:1 strips, callout-16:9-video,
 hero-3:2, hero-5:4, usecase-5:4, callout-16:10, thumb-9:1 and smaller)
 are briefed as `full-bleed` and listed in the taxonomy report's pooled
-sheets; none has a family of its own.
+sheets; none has a family of its own. One exception: on an adjustment-tool
+page (the H1 or the tool name says hue, saturation, HSL, colour, colorize,
+curves, filter, adjust) the 4:3 hero and the 4:3 and 5:4 use-case cards are
+`panel-overlay` (hsl-color's five creatives; the 2026-09-08 live run briefed
+them `full-bleed` and lost the tool panel in every slot).
 
 ## dark-composite
 **Use:** feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
@@ -315,3 +322,17 @@ sheets; none has a family of its own.
 **Text:** chrome text only (the model mark), kept from source.
 **Never:** generated today; later: model logos painted by the model.
 **Examples:** c3cbf8c8 (ai-models--flux-3 S13-m1), c02d25a9 (ai-models--flux-3 S13-m2), 1794ea79 (ai-models--flux-3 S13-m3).
+
+## panel-overlay
+**Use:** hero and use-case cards on adjustment-tool pages (HSL, colorize, change colour, curves, hair colour, filters, adjust): a stock lifestyle photo with the tool's dark control panel laid over it, so the picture shows the edit and the panel shows the control. The headline names a colour property (hue, saturation, lightness, tone, colour) or says adjust, tweak, fine-tune.
+**Slots:** usecase-4:3 (n=…); the pooled 4:3 hero and 5:4 cards of the same pages (hsl-color S01-m1, hair-color-changer S02).
+**Signature:** ground=photo-full-bleed or white; layout=overlay; chrome=adjust-panel, chip, slider (cards) or pill, badge (hero); finish=photo; text=labels-only; subject=person (n=…).
+**Ground:** none (default: the photo fills the slot, the panel sits over its lower right, corners rounded) | white: the photo card and a plain card behind it tilted about 10 degrees on the page's white ground (hsl-color S03-m2 and S03-m4, hair-color-changer S02-m2 and S02-m4); `ground: tilted` in the compose spec.
+**Grid:** 4:3 (1600x1200) and 5:4 (1600x1280): one `photo` panel filling the slot; the panel 810x600 at (680,300), header row, eight hue chips, one row per slider (three on the lead card, one on the others: Hue, Saturation or Lightness); the hero instead carries the tool pill 440x500 at (1080,120): a white round badge with the tool mark over a white label pill with a pointer. The spec omits `tool-pill` on cards and `panel` on the hero.
+**Template:** lp-compose: panel-overlay (4:3, 5:4).
+**Chrome (lp-compose):** the adjust panel (`#1c1c1e` card, tool mark, title, teal badge, chevron, hue chips with the active one ringed, slider tracks, white knobs, dark value chips), the tool pill and badge; `ground: tilted` for the stacked-card variant.
+**Panels (worker):** A `photo` (generate at the slot ratio, 4:3 or 5:4): a stock fashion or lifestyle photograph, one person, one or two bold garment colours or a flat coloured backdrop (a striped studio wall, a seamless yellow, gel light in magenta and cyan), hard even studio or street light, high saturation, face visible; the subject in the left two thirds so the panel's lower-right 50 % x 50 % (or the hero's upper-right quarter) covers only backdrop. Describe the stock look, not the section copy's example objects: the originals ignore "orange and green elements" and show a red top on a striped wall.
+**Palette:** photo saturated and clean, one or two dominant hues against a flat or neutral ground; chrome dark grey, white, one teal badge, the eight fixed hue chips.
+**Text:** chrome text only: the panel title (the tool's short name from the H1: HSL), the slider labels (Hue, Saturation, Lightness, or the property the section copy names) and their values are drawn by `lp-compose`; the hero pill carries the same short name. The photo carries no text; `> text:` is `none`.
+**Never:** a panel, sliders, chips or a colour wheel painted by the model; a recoloured or "hue-shifted" subject prompted into the photo (the panel implies the edit); a still life or landscape where the corpus shows people; two people; a busy background under the panel.
+**Examples:** 85708ef3 (hsl-color S01-m1, hero with tool pill), da31e929 (hsl-color S03-m1, three sliders), 0c9be8c4 (hsl-color S03-m3, one slider); tilted: 9caa06ad (hsl-color S03-m2), e9c17dd8 (hsl-color S03-m4).

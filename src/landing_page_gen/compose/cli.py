@@ -20,7 +20,8 @@ from .families import FAMILIES, REF, aspect_label, nearest_ratio
 
 SS = 2  # supersample: Pillow draws shapes without antialiasing
 CHECKER_CELL = 100
-FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96}  # at REF
+FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96,
+           "panel-title": 44, "panel-label": 34, "tool-pill": 64}  # at REF
 
 
 def parse_size(s):
@@ -40,9 +41,9 @@ def load_spec(path):
     if fam not in FAMILIES:
         sys.exit(f"lp-compose: unknown family {fam!r}; one of {', '.join(FAMILIES)}")
     w, h = parse_size(spec.get("size"))
-    fw, fh = FAMILIES[fam]["aspect"]
-    if abs((w / h) / (fw / fh) - 1) > 0.02:
-        sys.exit(f"lp-compose: size {w}x{h} is not {fw}:{fh} like {fam}")
+    aspects = FAMILIES[fam].get("aspects") or (FAMILIES[fam]["aspect"],)
+    if not any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in aspects):
+        sys.exit(f"lp-compose: size {w}x{h} is not {' or '.join(f'{a}:{b}' for a, b in aspects)} like {fam}")
     panels = spec.get("panels") or {}
     for name in FAMILIES[fam]["panels"]:
         img = (panels.get(name) or {}).get("image")
@@ -64,7 +65,7 @@ def resolve(spec):
     panels = {}
     for name, p in family["panels"].items():
         o = (spec.get("panels") or {}).get(name) or {}
-        panels[name] = {"rect": rect(p["rect"]), "fit": o.get("fit", p.get("fit", "cover")),
+        panels[name] = {"rect": rect(p["rect"]) if p["rect"] else (0, 0, w * SS, h * SS), "fit": o.get("fit", p.get("fit", "cover")),
                         "anchor": o.get("anchor", "center"), "under": p.get("under"), "image": spec["_dir"] / o["image"]}
     overrides, omit = spec.get("chrome") or {}, set(spec.get("omit") or [])
     chrome = []
@@ -75,8 +76,9 @@ def resolve(spec):
         if "rect" in it:
             it["rect"] = rect(it["rect"])
         chrome.append(it)
+    tilt = spec.get("tilt") or (10 if spec.get("ground") == "tilted" else 0)
     return {"size": (w * SS, h * SS), "out": (w, h), "scale": s, "ground": family["ground"],
-            "radius": round(family["radius"] * s), "panels": panels, "chrome": chrome}
+            "radius": round(family["radius"] * s), "panels": panels, "chrome": chrome, "tilt": tilt}
 
 
 def compose(layout):
@@ -119,10 +121,19 @@ def compose(layout):
         elif k == "headline":
             box = draw.headline(canvas, it["rect"], it.get("text", ""), FONT_PX["headline"] * s,
                                 max(1, round(6 * s)), round(12 * s))
+        elif k == "adjust-panel":
+            box = draw.adjust_panel(canvas, it["rect"], it.get("title", ""), it.get("chips", 0), it.get("active", 0),
+                                    it.get("sliders") or [], draw.font(FONT_PX["panel-title"] * s, 700),
+                                    draw.font(FONT_PX["panel-label"] * s), round(36 * s))
+        elif k == "tool-pill":
+            box = draw.tool_pill(canvas, it["rect"], it.get("text", ""), it.get("icon", "wheel"),
+                                 draw.font(FONT_PX["tool-pill"] * s, 700))
         else:
             sys.exit(f"lp-compose: unknown chrome kind {k!r}")
         drawn[it["id"]] = tuple(v / SS for v in box)
     out = canvas.resize(layout["out"], Image.LANCZOS)
+    if layout.get("tilt"):
+        out = draw.tilted_stack(out, layout["tilt"])
     if layout["ground"].get("fill") is not None or "gradient" in layout["ground"]:
         out = out.convert("RGB")
     return out, drawn
@@ -134,17 +145,23 @@ def describe(fam):
     f = FAMILIES[fam]
     g = f["ground"]
     ground = "transparent" if g.get("fill") is None and "gradient" not in g else ("gradient" if "gradient" in g else f"rgb{g['fill']}")
-    lines = [f"{fam}: aspect {f['aspect'][0]}:{f['aspect'][1]}, ground {ground}, geometry at {REF} px"]
+    aspects = " or ".join(f"{a}:{b}" for a, b in (f.get("aspects") or (f["aspect"],)))
+    lines = [f"{fam}: aspect {aspects}, ground {ground}, geometry at {REF} px"]
     for name, p in f["panels"].items():
+        if p["rect"] is None:
+            lines.append(f"  panel {name}: fills the slot, generate at the slot's ratio ({aspects}), fit {p.get('fit', 'cover')}")
+            continue
         x0, y0, x1, y1 = p["rect"]
         w, h = x1 - x0, y1 - y0
         extra = f", under {p['under']}" if p.get("under") else ""
         lines.append(f"  panel {name}: {w}x{h} at ({x0},{y0}), aspect {aspect_label(w, h)}, "
                      f"generate at {nearest_ratio(w, h)}, fit {p.get('fit', 'cover')}{extra}")
-    text_kinds = {"pill", "label", "headline"}
+    text_kinds = {"pill", "label", "headline", "adjust-panel", "tool-pill"}
     lines.append("  chrome: " + ", ".join(
         f"{c['id']} ({c['kind']}{', text' if c['kind'] in text_kinds or c.get('label') else ''})" for c in f["chrome"]))
     lines.append("  chrome marked text carries a label; omit an item (`omit: [id]`) when the model renders its string")
+    if f.get("aspects"):
+        lines.append("  `ground: tilted` in the spec stacks the card over a plain one at 10 degrees; `tilt: <deg>` sets the angle")
     return "\n".join(lines)
 
 

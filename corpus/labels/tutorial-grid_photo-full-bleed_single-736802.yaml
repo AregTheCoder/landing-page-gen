@@ -1,0 +1,196 @@
+sheet: tutorial-grid_photo-full-bleed_single-736802
+group:
+  type: tutorial-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_photo-full-bleed_single-736802.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b7aeae15-1f32-474d-af10-bfb3346c9ef9.avif
+    asset: b7aeae15
+    page: background-changer
+    slot: S17-m3
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bccd4a01-2983-4e60-a5a8-797a37748a19.avif
+    asset: bccd4a01
+    page: compare-models--seedance-2-vs-runway-gen-4
+    slot: S09-m5
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cb5f6336-52f8-4c54-afc6-6ca0c6290c6d.avif
+    asset: cb5f6336
+    page: ai-gif-generator
+    slot: S12-m4
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e107fc3d-526a-4097-a693-61b4f0a54ad2.avif
+    asset: e107fc3d
+    page: ai-filters
+    slot: S14-m1
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e34bb678-8f66-4751-a127-f3532a3cabf6.avif
+    asset: e34bb678
+    page: document-maker
+    slot: S10-m1
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e3b40b80-066b-4840-9430-45b939ebe324.avif
+    asset: e3b40b80
+    page: document-maker
+    slot: S10-m21
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ea1f70b8-6a7e-4382-9756-e6f73e2bee4e.avif
+    asset: ea1f70b8
+    page: document-maker
+    slot: S10-m13
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ef8b7269-43f2-4083-b9ba-caa42c795478.avif
+    asset: ef8b7269
+    page: document-maker
+    slot: S10-m9
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f32c8085-e709-4953-adc2-72412969a36c.avif
+    asset: f32c8085
+    page: compare-models--seedance-2-vs-runway-gen-4
+    slot: S09-m3
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f73ec6f1-344f-4c4e-9a78-2cc2c0fe45b0.avif
+    asset: f73ec6f1
+    page: ai-gif-generator
+    slot: S12-m1
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fae4fb23-3d49-43a7-8e19-9980c24d9824.avif
+    asset: fae4fb23
+    page: document-maker
+    slot: S10-m14
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fbf16fe9-1124-42a2-b2f9-743a421d41ac.avif
+    asset: fbf16fe9
+    page: background-changer
+    slot: S17-m4
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

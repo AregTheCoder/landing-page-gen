@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-23bbc7
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-23bbc7.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0a740f7c-ce21-4c44-bf6f-158f7153c948.png
+    asset: 0a740f7c
+    page: card-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/0d8a3137-f4b8-468b-bfd7-78f9b153268a.png
+    asset: 0d8a3137
+    page: book-cover-maker
+    slot: S06-m13
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/0e903c2b-f46c-461f-b949-b41aae6bf832.png
+    asset: 0e903c2b
+    page: card-maker
+    slot: S05-m14
+    type: gallery
+    size: wide
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/0f778305-67b2-4ae0-9c0c-036a652646a9.png
+    asset: 0f778305
+    page: youtube-thumbnail-maker
+    slot: S16-m10
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/10148139-d4a8-44d1-b256-c15518a0bacd.png
+    asset: '10148139'
+    page: invitation-maker
+    slot: S14-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/16af9585-d0f8-4861-895f-e566e4ac54db.png
+    asset: 16af9585
+    page: greeting-card-maker
+    slot: S04-m12
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.png
+    asset: 1743b96d
+    page: flyer-maker
+    slot: S04-m13
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/174bc8f9-8e95-450b-838c-f08833325ad7.png
+    asset: 174bc8f9
+    page: album-cover-maker
+    slot: S05-m12
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/186d772b-8c1f-47e3-9ba4-98b11f8300bc.png
+    asset: 186d772b
+    page: book-cover-maker
+    slot: S06-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/1babe98c-a9ab-4582-bfbc-493b3a73476a.png
+    asset: 1babe98c
+    page: bookmark-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/1c30eaed-489e-45b9-837b-ee526643b93e.png
+    asset: 1c30eaed
+    page: album-cover-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/1e2610eb-cb26-43f1-8b26-291a20fc6a2b.png
+    asset: 1e2610eb
+    page: timeline-maker
+    slot: S06-m11
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

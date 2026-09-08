@@ -1,0 +1,196 @@
+sheet: link-grid_photo-full-bleed_single-81599b
+group:
+  type: link-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_photo-full-bleed_single-81599b.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/50892820920814118920.png?type=webp&to=min&r=640
+    asset: '50892820'
+    page: content-creation-tools
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/56277461050794907876.png?type=webp&to=min&r=640
+    asset: '56277461'
+    page: content-creation-tools
+    slot: S05-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn140.picsart.com/63862716128577081290.png?type=webp&to=min&r=640
+    asset: '63862716'
+    page: design
+    slot: S06-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn140.picsart.com/69919707977802077060.png
+    asset: '69919707'
+    page: video-enhancer
+    slot: S14-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn140.picsart.com/76440186535545692262.png
+    asset: '76440186'
+    page: video-ad-maker
+    slot: S11-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn140.picsart.com/88579681064552249841.png?type=webp&to=min&r=640
+    asset: '88579681'
+    page: image-tools
+    slot: S05-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdnblog.picsart.com/2020/07/clutter-2.jpg?to=max&r=780&q=90
+    asset: clutter-
+    page: remove-object-from-photo
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdnblog.picsart.com/2023/05/Header-3.png
+    asset: Header-3
+    page: ai-photo-editing
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdnblog.picsart.com/2023/07/Header-1.png?to=max&r=700&type=webp
+    asset: Header-1
+    page: card-maker
+    slot: S10-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdnblog.picsart.com/2023/07/Hero-banner-1600x1000-1.png
+    asset: Hero-ban
+    page: ai-photo-editing
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdnblog.picsart.com/2023/08/CR2622_GlobalComms_BlogHeader_1200x800.png
+    asset: CR2622_G
+    page: ai-photo-editing
+    slot: S17-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdnblog.picsart.com/2024/01/pacreative_an_image_of_a_magnifying_glass_being_held_over_a_com_9c85fb34-02b9-4d11-bb22-a300fab0ac62-4.png
+    asset: pacreati
+    page: ai-image-enhancer
+    slot: S16-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

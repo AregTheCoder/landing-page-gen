@@ -1,0 +1,196 @@
+sheet: link-grid_photo-full-bleed_single-ceaae5
+group:
+  type: link-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_photo-full-bleed_single-ceaae5.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e4ea2a7c-bfc3-4bb6-bbc3-8e7d977a9605.webp
+    asset: e4ea2a7c
+    page: ai-image-extender
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ed446ffc-fa3c-4b84-8583-7a55878f82dd.webp
+    asset: ed446ffc
+    page: ai-models--flux-2-max
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 25
+    n_pages: 25
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ef1ceb7a-a4f8-4141-b36d-684eb4f6edc5.webp
+    asset: ef1ceb7a
+    page: ai-image-extender
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ef5b2298-ec84-4404-a613-f4cd95840ced.webp
+    asset: ef5b2298
+    page: flip-video
+    slot: S11-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd0a6faa-8e95-407f-8419-69784d73c63d.avif
+    asset: fd0a6faa
+    page: ai-design-tools
+    slot: S02-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn130.picsart.com/01442783061577513814.png?type=webp&to=min&r=640
+    asset: 01442783
+    page: content-creation-tools
+    slot: S06-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn130.picsart.com/57949230988708590385.png
+    asset: '57949230'
+    page: quote-maker
+    slot: S11-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn140.picsart.com/01359979707299665270.png?type=webp&to=min&r=640
+    asset: 01359979
+    page: image-tools
+    slot: S04-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn140.picsart.com/05096155402720415751.png
+    asset: 05096155
+    page: add-music-to-video
+    slot: S15-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn140.picsart.com/15842904208848290037.png
+    asset: '15842904'
+    page: book-cover-maker
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn140.picsart.com/38367935332238361223.png
+    asset: '38367935'
+    page: photo-effects
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn140.picsart.com/38367935332238361223.png?type=webp&to=min&r=640
+    asset: '38367935'
+    page: image-tools
+    slot: S05-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

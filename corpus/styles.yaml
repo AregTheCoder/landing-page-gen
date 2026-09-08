@@ -7467,6 +7467,13 @@ https://cdn140.picsart.com/05096155402720415751.png:
   page: add-music-to-video
   slot: S15-m1
   source: rules
+https://cdn140.picsart.com/12481028616582094390.png:
+  style: panel-overlay
+  variant: white
+  confidence: 0.9
+  page: hsl-color
+  slot: S03-m2
+  source: rules
 https://cdn140.picsart.com/15842904208848290037.png:
   style: full-bleed
   variant: null
@@ -7503,9 +7510,9 @@ https://cdn140.picsart.com/19524248449069363964.png:
   slot: S04-m2
   source: rules
 https://cdn140.picsart.com/27148736718296704773.png:
-  style: full-bleed
+  style: panel-overlay
   variant: null
-  confidence: 0.0
+  confidence: 0.9
   page: hsl-color
   slot: S03-m3
   source: rules
@@ -7552,16 +7559,16 @@ https://cdn140.picsart.com/41779149433041104670.jpg:
   slot: S04-m3
   source: rules
 https://cdn140.picsart.com/48531286883404972211.png:
-  style: full-bleed
+  style: panel-overlay
   variant: null
-  confidence: 0.0
+  confidence: 0.85
   page: hsl-color
   slot: S01-m1
   source: rules
 https://cdn140.picsart.com/48790089278770695789.png:
-  style: full-bleed
+  style: panel-overlay
   variant: null
-  confidence: 0.0
+  confidence: 0.9
   page: hsl-color
   slot: S03-m1
   source: rules
@@ -7571,6 +7578,13 @@ https://cdn140.picsart.com/50892820920814118920.png?type=webp&to=min&r=640:
   confidence: 0.0
   page: content-creation-tools
   slot: S03-m5
+  source: rules
+https://cdn140.picsart.com/54386132267696966254.png:
+  style: graphic-collage
+  variant: white
+  confidence: 0.4
+  page: add-stickers-to-photos
+  slot: S03-m2
   source: rules
 https://cdn140.picsart.com/56277461050794907876.png?type=webp&to=min&r=640:
   style: full-bleed
@@ -7585,6 +7599,13 @@ https://cdn140.picsart.com/61429107066560758315.jpg:
   confidence: 0.0
   page: resize-video
   slot: S01-m1
+  source: rules
+https://cdn140.picsart.com/61572740028595691367.png:
+  style: panel-overlay
+  variant: white
+  confidence: 0.9
+  page: hsl-color
+  slot: S03-m4
   source: rules
 https://cdn140.picsart.com/63862716128577081290.png?type=webp&to=min&r=640:
   style: full-bleed

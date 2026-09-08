@@ -1,0 +1,151 @@
+sheet: use-case-grid_photo-full-bleed_single-5532f1
+group:
+  type: use-case-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_photo-full-bleed_single-5532f1.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/3fa3a8e0-ab54-4bf5-86d2-bafeeead6cba.png
+    asset: 3fa3a8e0
+    page: background-tools
+    slot: S08-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/4c226420-38e6-4501-8d89-7d1a7ddb1172.png
+    asset: 4c226420
+    page: image-style-transfer
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/6732ca6c-7382-45d6-9f0d-b445e183b7b2.png
+    asset: 6732ca6c
+    page: background-tools
+    slot: S11-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/8bcd2a6e-5498-470f-bdc4-e3ed707acc81.jpg
+    asset: 8bcd2a6e
+    page: ai-sticker-maker
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/9afff109-854f-41e0-9ca4-28c3ba51fde8.jpg
+    asset: 9afff109
+    page: ai-sticker-maker
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/b19703ad-418a-4ac3-ba36-d57e0bf77a05.png
+    asset: b19703ad
+    page: background-tools
+    slot: S11-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/d4a0767f-fad3-4b33-bc1c-8b56ebe78049.png
+    asset: d4a0767f
+    page: packaging-design
+    slot: S06-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/e36a6ea3-01f2-4b94-9913-d497a5637ce6.png
+    asset: e36a6ea3
+    page: image-style-transfer
+    slot: S09-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/fd372e2f-1212-4608-b9c2-06382034afc2.png
+    asset: fd372e2f
+    page: background-tools
+    slot: S11-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

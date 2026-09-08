@@ -17,7 +17,7 @@ GENERATED_ROLES = ("creative", "thumbnail")
 STYLES = ("dark-composite", "before-after", "crop-frame", "cutout-checkerboard",
           "template-mockup", "prompt-card", "full-bleed",
           "vs-two-up", "mockup-card", "cinematic-still", "graphic-collage", "outcome-tile",
-          "editor-canvas", "model-card")
+          "editor-canvas", "model-card", "panel-overlay")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS pages (

@@ -110,6 +110,25 @@ taught it.
 - A Series writes its cross-slot gate in `workflow.yaml` before the first
   call and scores it after the last; per-slot gates let a dark member ship
   beside three daylight siblings. (runs/live-1 S03-m4, review 1)
+- A `full-bleed` tag on a class whose sheets are unanswered is a missing
+  label, not a finding: the measurer reads a photo with a dark panel over it
+  as `photo-full-bleed / single`. Before briefing a class from the corpus tag,
+  check that its assets have `chrome` answered. (research/live-1-style-gap)
+- Adjustment-tool pages (hue, saturation, colour, curves, filter) show a stock
+  fashion photo with the tool's panel laid over it, never a plain photo whose
+  subject "looks edited": brief `panel-overlay`, describe the stock look (one
+  person, one bold garment colour or a flat coloured backdrop, hard even
+  light), and leave the edit to the chrome. (research/live-1-style-gap)
+- Picsart's creatives are stock photographs (the hsl-color hero is Pexels
+  2180474 by R. Fera) plus compose chrome; a photo prompt should name the
+  stock genre ("Pexels colourful fashion") rather than the section copy's
+  example objects, which the originals ignore. (runs/trial-4)
+- A generate whose result cannot be saved to Picsart Drive fails after the
+  render with `failure_space_limit_reached` and is not charged; pass
+  `saveToDrive: false` when Drive is full. (runs/trial-4)
+- Hooks are cwd-relative: a `cd` in a Bash call moves the shell for every
+  later call, and the next preflight is not logged, so the credit guard has
+  no quote. Use absolute paths, never `cd`. (runs/trial-4)
 
 ## Non-goals
 

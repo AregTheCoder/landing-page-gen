@@ -1,0 +1,31 @@
+sheet: tutorial-grid_light-grey_single-b81e42
+group:
+  type: tutorial-grid
+  ground: light-grey
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_light-grey_single-b81e42.answers.yaml
+cells:
+  1:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/e7ec76aa-fbfa-4003-9d47-7144fc92725a.png?type=webp&to=min&r=1200&q=85
+    asset: e7ec76aa
+    page: document-maker
+    slot: S10-m7
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: true

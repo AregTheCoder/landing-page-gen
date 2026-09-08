@@ -36092,8 +36092,8 @@ https://cdn130.picsart.com/22834634539458894540.jpg:
   local: corpus/pages/video-maker/media/22834634539458894540-88cd140e.jpg
 https://cdn130.picsart.com/29494432891824860802.png:
   before_after: false
-  source: measured
-  at: '2026-09-07'
+  source: sheet
+  at: '2026-09-08'
   page: hair-color-changer
   slot: S02-m2
   type: use-case-grid
@@ -36105,6 +36105,30 @@ https://cdn130.picsart.com/29494432891824860802.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hair-color-changer/media/29494432891824860802-76299f53.png
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted stacked photo card of a woman with pink hair in an orange top, no chrome
+  family_hint: full-bleed
+  confidence: 0.5
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn130.picsart.com/306899983389211.png?type=webp&to=min&r=400:
   before_after: false
   source: measured
@@ -36227,8 +36251,8 @@ https://cdn130.picsart.com/57949230988708590385.png:
   local: corpus/pages/quote-maker/media/57949230988708590385-fd9e87dc.png
 https://cdn130.picsart.com/62196660432044235255.png:
   before_after: false
-  source: measured
-  at: '2026-09-07'
+  source: sheet
+  at: '2026-09-08'
   page: hair-color-changer
   slot: S02-m4
   type: use-case-grid
@@ -36240,6 +36264,30 @@ https://cdn130.picsart.com/62196660432044235255.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hair-color-changer/media/62196660432044235255-090e489a.png
+  ground: white
+  layout: overlay
+  panel_count: 2
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a bearded man with a round before inset of the same man top-left
+  family_hint: before-after
+  confidence: 0.5
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn130.picsart.com/63805377597830460503.png:
   before_after: false
   source: measured
@@ -36461,7 +36509,7 @@ https://cdn140.picsart.com/09387211516741511611.jpg:
   local: corpus/pages/rotate-image/media/09387211516741511611-e88c8e46.jpg
 https://cdn140.picsart.com/12481028616582094390.png:
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: hsl-color
   slot: S03-m2
@@ -36474,6 +36522,33 @@ https://cdn140.picsart.com/12481028616582094390.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hsl-color/media/12481028616582094390-9caa06ad.png
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome:
+  - adjust-panel
+  - chip
+  - slider
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a striped skirt with a dark HSL panel, eight hue chips and a Hue slider over it
+  family_hint: panel-overlay
+  confidence: 0.9
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn140.picsart.com/15842904208848290037.png:
   ground: photo-full-bleed
   layout: single
@@ -36494,7 +36569,7 @@ https://cdn140.picsart.com/15842904208848290037.png:
   local: corpus/pages/book-cover-maker/media/15842904208848290037-aa58b2c1.png
 https://cdn140.picsart.com/16814288451195410172.png:
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: red-eye-remover
   slot: S02-m2
@@ -36507,6 +36582,30 @@ https://cdn140.picsart.com/16814288451195410172.png:
   n_pages: 1
   role: creative
   local: corpus/pages/red-eye-remover/media/16814288451195410172-e2e3d6d7.png
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted stacked photo card of a smiling man in a hoodie by the sea, no chrome
+  family_hint: full-bleed
+  confidence: 0.5
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn140.picsart.com/17169716074950588894.png:
   ground: photo-full-bleed
   layout: single
@@ -36608,7 +36707,7 @@ https://cdn140.picsart.com/27148736718296704773.png:
   layout: single
   panel_count: 1
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: hsl-color
   slot: S03-m3
@@ -36621,6 +36720,26 @@ https://cdn140.picsart.com/27148736718296704773.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hsl-color/media/27148736718296704773-0c9be8c4.png
+  chrome:
+  - adjust-panel
+  - slider
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: woman in a purple blouse on a yellow backdrop with a dark HSL panel and one Saturation slider lower right
+  family_hint: panel-overlay
+  confidence: 0.9
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_photo-full-bleed_single-88a5b4
 https://cdn140.picsart.com/28346094886268607828.jpg:
   ground: photo-full-bleed
   layout: single
@@ -36752,7 +36871,7 @@ https://cdn140.picsart.com/48531286883404972211.png:
   layout: single
   panel_count: 1
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: hsl-color
   slot: S01-m1
@@ -36765,12 +36884,32 @@ https://cdn140.picsart.com/48531286883404972211.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hsl-color/media/48531286883404972211-85708ef3.png
+  chrome:
+  - badge
+  - pill
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: smiling man in glasses under magenta and cyan gel light on lilac, white round HSL badge and label pill top right
+  family_hint: panel-overlay
+  confidence: 0.85
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: hero_photo-full-bleed_single-85f10c
 https://cdn140.picsart.com/48790089278770695789.png:
   ground: photo-full-bleed
   layout: single
   panel_count: 1
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: hsl-color
   slot: S03-m1
@@ -36783,6 +36922,27 @@ https://cdn140.picsart.com/48790089278770695789.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hsl-color/media/48790089278770695789-da31e929.png
+  chrome:
+  - adjust-panel
+  - chip
+  - slider
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: woman in red dancing by a striped studio wall with a dark HSL panel, eight hue chips and three sliders right
+  family_hint: panel-overlay
+  confidence: 0.9
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_photo-full-bleed_single-88a5b4
 https://cdn140.picsart.com/50892820920814118920.png?type=webp&to=min&r=640:
   ground: photo-full-bleed
   layout: single
@@ -36803,8 +36963,8 @@ https://cdn140.picsart.com/50892820920814118920.png?type=webp&to=min&r=640:
   local: corpus/pages/content-creation-tools/media/50892820920814118920-185954cd.png
 https://cdn140.picsart.com/54386132267696966254.png:
   before_after: false
-  source: measured
-  at: '2026-09-07'
+  source: sheet
+  at: '2026-09-08'
   page: add-stickers-to-photos
   slot: S03-m2
   type: use-case-grid
@@ -36816,6 +36976,30 @@ https://cdn140.picsart.com/54386132267696966254.png:
   n_pages: 1
   role: creative
   local: corpus/pages/add-stickers-to-photos/media/54386132267696966254-a6542f22.png
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  finish: collage
+  description: tilted photo card of a man on a boat with jellyfish and wave sticker cutouts pasted over it
+  family_hint: graphic-collage
+  confidence: 0.4
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn140.picsart.com/56277461050794907876.png?type=webp&to=min&r=640:
   ground: photo-full-bleed
   layout: single
@@ -36854,7 +37038,7 @@ https://cdn140.picsart.com/61429107066560758315.jpg:
   local: corpus/pages/resize-video/media/61429107066560758315-a525f404.jpg
 https://cdn140.picsart.com/61572740028595691367.png:
   before_after: false
-  source: measured
+  source: sheet
   at: '2026-09-08'
   page: hsl-color
   slot: S03-m4
@@ -36867,6 +37051,32 @@ https://cdn140.picsart.com/61572740028595691367.png:
   n_pages: 1
   role: creative
   local: corpus/pages/hsl-color/media/61572740028595691367-e9c17dd8.png
+  ground: white
+  layout: overlay
+  panel_count: 1
+  chrome:
+  - adjust-panel
+  - slider
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: tilted photo card of a woman in an iridescent fringe jacket with a dark HSL panel and a Lightness slider
+  family_hint: panel-overlay
+  confidence: 0.9
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://cdn140.picsart.com/63862716128577081290.png?type=webp&to=min&r=640:
   ground: photo-full-bleed
   layout: single
@@ -45337,8 +45547,8 @@ https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.p
   local: corpus/pages/ai-sticker-maker/media/bec9a01c-5c4f-49eb-a54d-7c58868579f9-2a75da33.png
 https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png:
   before_after: false
-  source: measured
-  at: '2026-09-07'
+  source: sheet
+  at: '2026-09-08'
   page: image-style-transfer
   slot: S09-m2
   type: use-case-grid
@@ -45350,6 +45560,31 @@ https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.p
   n_pages: 1
   role: creative
   local: corpus/pages/image-style-transfer/media/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74-373e2061.png
+  ground: white
+  layout: single
+  panel_count: 1
+  chrome:
+  - button
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  finish: photo
+  description: rounded photo card of a white house with pink flowers and a round white plus button on its left edge
+  family_hint: full-bleed
+  confidence: 0.5
+  labelled:
+  - chrome
+  - confidence
+  - description
+  - family_hint
+  - finish
+  - ground
+  - layout
+  - panel_count
+  - subject
+  - text_in_image
+  - ui_mockup
+  sheet: use-case-grid_unknown_unknown-1b50b1
 https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png:
   ground: black
   layout: column-main

@@ -34,7 +34,9 @@ worker must return).
       differs from `aspect`);
    2. take that row's families; apply the page-family rule the row names
       (ai-models callouts are `dark-composite/light`, compare-models callouts
-      are `vs-two-up`);
+      are `vs-two-up`; on an adjustment-tool page, where the H1 or the tool
+      name says hue, saturation, HSL, colour, colorize, curves, filter or
+      adjust, 4:3 and 5:4 heroes and use-case cards are `panel-overlay`);
    3. only if more than one candidate remains, read their **Use** lines for
       the headline cue; otherwise the row's first family;
    4. write `> style: <family>[/<ground>]` back into `skeleton.md`. When the

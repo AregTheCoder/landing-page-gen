@@ -1,0 +1,196 @@
+sheet: gallery_white_single-479d07
+group:
+  type: gallery
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_single-479d07.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0856d76f-2506-4ad0-9bf3-c0ec5fa10bc0.png
+    asset: 0856d76f
+    page: background-tools
+    slot: S14-m13
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/1420103e-2888-40c1-961a-09e88fc214b4.png
+    asset: 1420103e
+    page: birthday-card-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png
+    asset: 2095310c
+    page: wallpaper-maker
+    slot: S14-m6
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/6288ee49-942a-41de-b87a-8785d77a5396.png
+    asset: 6288ee49
+    page: background-tools
+    slot: S14-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/715e6d64-1780-4441-8872-099ce4412ed8.png
+    asset: 715e6d64
+    page: menu-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png
+    asset: 8febd34e
+    page: collage-maker
+    slot: S15-m1
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/9f142618-b471-4f6a-a3eb-e3777c768cde.png
+    asset: 9f142618
+    page: facebook-post-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/b607f718-a802-4581-913b-14fbdd106446.png
+    asset: b607f718
+    page: twitter-post-maker
+    slot: S04-m5
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png
+    asset: ee6a56be
+    page: quote-maker
+    slot: S06-m9
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/f5d786ff-1aee-43b3-bc5c-392c3b67c013.png
+    asset: f5d786ff
+    page: label-maker
+    slot: S06-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d1eea79-08df-4b5c-93af-b75c1d8f2fab.avif
+    asset: 1d1eea79
+    page: ai-models--imagen-4-0
+    slot: S03-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/292b3a8d-e9e5-4c49-9dda-afcd40f60949.avif
+    asset: 292b3a8d
+    page: ai-retouch
+    slot: S13-m7
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

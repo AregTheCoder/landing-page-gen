@@ -1,0 +1,31 @@
+sheet: tutorial-grid_photo-full-bleed_single-2964cf
+group:
+  type: tutorial-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_photo-full-bleed_single-2964cf.answers.yaml
+cells:
+  1:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85
+    asset: c48797c6
+    page: add-subtitles-to-video
+    slot: S10-m6
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

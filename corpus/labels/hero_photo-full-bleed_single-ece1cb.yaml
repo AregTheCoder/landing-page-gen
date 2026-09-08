@@ -1,0 +1,196 @@
+sheet: hero_photo-full-bleed_single-ece1cb
+group:
+  type: hero
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_photo-full-bleed_single-ece1cb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8fb87bef-ef04-4884-be64-4d49c788b1fd.avif
+    asset: 8fb87bef
+    page: home
+    slot: S02-m3
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/911aed5c-e8b3-4367-bb09-1d78b2375312.avif
+    asset: 911aed5c
+    page: ai-story-generator
+    slot: S01-m3
+    type: hero
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/923eb4bf-2fdd-451c-8be4-f42ae3d479fc.webm
+    asset: 923eb4bf
+    page: ai-models--seedance-2-5
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/950a407b-055e-489d-920c-26bd1fedf861.avif
+    asset: 950a407b
+    page: ai-image-generator
+    slot: S01-m10
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/960f3e6e-5eb8-4103-831b-2810fcdc33ca.avif
+    asset: 960f3e6e
+    page: cli
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9697a12f-e6b4-46c7-80f9-37d378556671.avif
+    asset: 9697a12f
+    page: ai-retouch
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/99d81409-5b41-4d21-aab3-a600ee20726c.avif
+    asset: 99d81409
+    page: home
+    slot: S02-m8
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9a396ec1-ea03-4ffa-a142-6e06bf8d4eeb.avif
+    asset: 9a396ec1
+    page: ai-art-generator
+    slot: S01-m9
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9bc8a759-fe16-433d-a39d-9b6d50302d0d.avif
+    asset: 9bc8a759
+    page: ai-retouch
+    slot: S01-m7
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0f5dfc-46e5-4743-b952-83f14624ee83.avif
+    asset: 9e0f5dfc
+    page: ai-retouch
+    slot: S01-m8
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a059a5ff-370d-4ffe-9deb-7046dcc79235.webp
+    asset: a059a5ff
+    page: ai-assistant
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a0688108-f396-479b-9152-d760a35be286.avif
+    asset: a0688108
+    page: aura
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

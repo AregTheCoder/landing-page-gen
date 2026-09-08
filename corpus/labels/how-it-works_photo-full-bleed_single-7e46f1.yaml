@@ -1,0 +1,46 @@
+sheet: how-it-works_photo-full-bleed_single-7e46f1
+group:
+  type: how-it-works
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_photo-full-bleed_single-7e46f1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4c930829-f759-4f6a-a005-fd0193561f12.avif
+    asset: 4c930829
+    page: ai-retouch
+    slot: S06-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7760a5bf-6448-46c3-a2ef-23ef357be1ef.avif
+    asset: 7760a5bf
+    page: album-cover-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

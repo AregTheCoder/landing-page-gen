@@ -1,0 +1,136 @@
+sheet: hero_photo-full-bleed_single-aa4122
+group:
+  type: hero
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_photo-full-bleed_single-aa4122.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/5a1da341-fada-4b38-8246-2d89c9901ee8.avif
+    asset: 5a1da341
+    page: comic-book-generator
+    slot: S01-m3
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/5ee2a107-204d-4ca8-9601-d8aae4d13b7b.avif
+    asset: 5ee2a107
+    page: ai-models--recraft-v4-styles
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/86f73fc9-6ff2-49a9-adf7-e74b44a246c1.avif
+    asset: 86f73fc9
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/a70e6579-f21c-4e1e-9553-091b123d0ffd.avif
+    asset: a70e6579
+    page: comic-book-generator
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/b8ba2f58-7282-47a3-8618-4d796ac90de7.avif
+    asset: b8ba2f58
+    page: comic-book-generator
+    slot: S01-m5
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/b9f3811d-41bb-45f7-be18-de2d3c8d883e.avif
+    asset: b9f3811d
+    page: comic-book-generator
+    slot: S01-m8
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/d652a93c-1535-4b4b-9236-7ebb5fc57792.avif
+    asset: d652a93c
+    page: ai-models--recraft-v4-styles-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/f889fdff-6aa5-4023-9354-2abc49320f3d.avif
+    asset: f889fdff
+    page: comic-book-generator
+    slot: S01-m6
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

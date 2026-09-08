@@ -90,6 +90,26 @@ FAMILIES = {
             {"id": "chip", "kind": "label", "rect": (1220, 1220, 1600, 1600), "text": "4K"},
         ],
     },
+    # A photo filling the slot with the tool's dark adjustment panel laid over
+    # its lower right (hsl-color S03) and, on heroes, a round tool badge with a
+    # label pill top right (hsl-color S01). Panel rect `None` means the whole
+    # canvas at whichever of `aspects` the spec's size has; the spec omits
+    # `tool-pill` on cards and `panel` on the hero, and `ground: tilted` stacks
+    # the card over a plain one on the page's white (S03-m2, S03-m4).
+    "panel-overlay": {
+        "aspect": (4, 3),
+        "aspects": ((4, 3), (5, 4)),
+        "ground": {"fill": None},
+        "radius": 40,
+        "panels": {
+            "photo": {"rect": None},
+        },
+        "chrome": [
+            {"id": "panel", "kind": "adjust-panel", "rect": (680, 300, 1490, 900), "title": "HSL", "chips": 8, "active": 1,
+             "sliders": [["Hue", 28], ["Saturation", -26], ["Lightness", 30]]},
+            {"id": "tool-pill", "kind": "tool-pill", "rect": (1080, 120, 1520, 620), "text": "HSL", "icon": "wheel"},
+        ],
+    },
 }
 
 

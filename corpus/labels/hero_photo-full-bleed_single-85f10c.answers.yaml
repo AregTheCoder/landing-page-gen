@@ -1,0 +1,10 @@
+# Answered 2026-09-08 for the hsl-color cells only (cell 3); the other cells stay open.
+3:
+  chrome: [pill, badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: smiling man in glasses under magenta and cyan gel light on lilac, white round HSL badge and label pill top right
+  family_hint: panel-overlay
+  confidence: 0.85

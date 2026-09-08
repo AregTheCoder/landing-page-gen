@@ -1,0 +1,196 @@
+sheet: use-case-grid_photo-full-bleed_single-88a5b4
+group:
+  type: use-case-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_photo-full-bleed_single-88a5b4.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/27148736718296704773.png
+    asset: '27148736'
+    page: hsl-color
+    slot: S03-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/28346094886268607828.jpg
+    asset: '28346094'
+    page: video-maker
+    slot: S04-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn140.picsart.com/41779149433041104670.jpg
+    asset: '41779149'
+    page: video-maker
+    slot: S04-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn140.picsart.com/48790089278770695789.png
+    asset: '48790089'
+    page: hsl-color
+    slot: S03-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn140.picsart.com/66227630984970875019.jpg
+    asset: '66227630'
+    page: add-stickers-to-photos
+    slot: S03-m5
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn140.picsart.com/82018984059287135224.jpg
+    asset: '82018984'
+    page: video-maker
+    slot: S05-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn140.picsart.com/87809959422995621785.png
+    asset: '87809959'
+    page: add-stickers-to-photos
+    slot: S03-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn140.picsart.com/91247890161620283422.png
+    asset: '91247890'
+    page: add-stickers-to-photos
+    slot: S03-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn140.picsart.com/93933577265296523979.png
+    asset: '93933577'
+    page: hair-color-changer
+    slot: S02-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn140.picsart.com/96074017686460269457.jpg
+    asset: '96074017'
+    page: video-maker
+    slot: S04-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/2288c661-4722-43a9-9ed2-d6d7097dae0c.jpg
+    asset: 2288c661
+    page: ai-sticker-maker
+    slot: S09-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/31f9477f-2d92-4094-baef-43d722ba8d8f.png
+    asset: 31f9477f
+    page: background-tools
+    slot: S08-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

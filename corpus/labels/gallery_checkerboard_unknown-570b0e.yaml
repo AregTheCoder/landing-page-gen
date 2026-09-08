@@ -1,0 +1,31 @@
+sheet: gallery_checkerboard_unknown-570b0e
+group:
+  type: gallery
+  ground: checkerboard
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_checkerboard_unknown-570b0e.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/e12dcda2-16e0-49fa-86d7-04be932ee9c5.png
+    asset: e12dcda2
+    page: thank-you-card-maker
+    slot: S04-m4
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: checkerboard
+    before_after: false

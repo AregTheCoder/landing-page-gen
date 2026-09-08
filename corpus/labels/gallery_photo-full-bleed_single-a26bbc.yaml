@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-a26bbc
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-a26bbc.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/4ca1c6a8-3269-40ec-a079-96068db10e3b.avif
+    asset: 4ca1c6a8
+    page: home
+    slot: S10-m7
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/5339d988-75bc-4849-9cd8-e228e667d100.avif
+    asset: 5339d988
+    page: comic-book-generator
+    slot: S02-m2
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/539a9d7f-2faf-4df0-ba98-aef2d94730de.avif
+    asset: 539a9d7f
+    page: home
+    slot: S10-m1
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/55c73f74-43dd-4b18-9b1d-581a2ca108cf.avif
+    asset: 55c73f74
+    page: home
+    slot: S10-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/57ac45a7-8b7f-4ddd-87a0-feb3ecf23712.avif
+    asset: 57ac45a7
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S03-m6
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/57f50505-93e4-49df-8c02-33c58568c3b2.avif
+    asset: 57f50505
+    page: ai-models--recraft-v4-styles
+    slot: S03-m6
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/5faa58f7-a64b-4170-b3f4-b256b210c804.avif
+    asset: 5faa58f7
+    page: comic-book-generator
+    slot: S02-m7
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/691c6644-81e3-4b3e-8d13-9ae3a6aab3fe.avif
+    asset: 691c6644
+    page: ai-models--recraft-v4-styles-pro
+    slot: S03-m5
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pcdn.picsart.com/cms-uploads/7ef38b20-acc0-4fe5-90ea-97385d9f48d0.avif
+    asset: 7ef38b20
+    page: comic-book-generator
+    slot: S02-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://pcdn.picsart.com/cms-uploads/7efe623d-90a6-42b5-8b57-03eecb0c1dce.avif
+    asset: 7efe623d
+    page: comic-book-generator
+    slot: S02-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pcdn.picsart.com/cms-uploads/7fb5bc9d-6599-4346-bfaf-fa7eca1e4d30.avif
+    asset: 7fb5bc9d
+    page: ai-models--recraft-v4-styles
+    slot: S03-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pcdn.picsart.com/cms-uploads/866bda44-a3ce-4731-86fb-45839ff6b311.avif
+    asset: 866bda44
+    page: ai-models--recraft-v4-styles-pro
+    slot: S03-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

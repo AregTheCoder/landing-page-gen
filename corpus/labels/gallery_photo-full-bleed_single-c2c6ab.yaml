@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-c2c6ab
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-c2c6ab.answers.yaml
+cells:
+  1:
+    src: https://cdn270.picsart.com/acb7ab61-530d-45c2-aacb-20ab8dcb0e2c/526223736006221.jpg?type=webp&to=min&r=400
+    asset: '52622373'
+    page: home
+    slot: S09-m43
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn270.picsart.com/ae9077d5-05da-44e5-a1c6-34204dd51c23/420300088034201.jpg?type=webp&to=min&r=400
+    asset: '42030008'
+    page: home
+    slot: S09-m54
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn270.picsart.com/af6a47bc-0a1c-410f-a98a-e927bdc25498/526238556012221.jpg?type=webp&to=min&r=400
+    asset: '52623855'
+    page: home
+    slot: S09-m34
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn270.picsart.com/b7b4b5b6-4361-45ce-8e21-c4f96aa41b2e/526222200010221.jpg?type=webp&to=min&r=400
+    asset: '52622220'
+    page: home
+    slot: S09-m49
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn270.picsart.com/c873004e-d226-4985-8734-c6d5f6ae7a6c/526417650004221.jpg?type=webp&to=min&r=400
+    asset: '52641765'
+    page: home
+    slot: S09-m7
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn270.picsart.com/ce0f7585-7fe1-4424-8270-8b831fbbcef0/526457010002221.jpg?type=webp&to=min&r=400
+    asset: '52645701'
+    page: home
+    slot: S09-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn270.picsart.com/cf545cb5-8f21-4f28-9e5b-e442c113fff7/526219590004221.jpg?type=webp&to=min&r=400
+    asset: '52621959'
+    page: home
+    slot: S09-m55
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn270.picsart.com/eb183fbc-e6c3-4b68-81c5-305bacc5b86a/526253104007221.jpg?type=webp&to=min&r=400
+    asset: '52625310'
+    page: home
+    slot: S09-m31
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn270.picsart.com/ecbd6fe9-7b09-49e0-a646-0a883e5d578e/412354104009201.jpg?type=webp&to=min&r=400
+    asset: '41235410'
+    page: home
+    slot: S09-m29
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn270.picsart.com/ef8ff52b-a286-43b4-b975-c089c1503197/526219283012221.jpg?type=webp&to=min&r=400
+    asset: '52621928'
+    page: home
+    slot: S09-m58
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn270.picsart.com/f6b78131-10b0-42dc-b63d-693a339bf858/526188848002201.jpeg?type=webp&to=min&r=400
+    asset: '52618884'
+    page: home
+    slot: S09-m32
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn270.picsart.com/fb155f4d-09cc-40f0-88af-2bd966ecd3ca/525957987001201.jpeg?type=webp&to=min&r=400
+    asset: '52595798'
+    page: home
+    slot: S09-m27
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

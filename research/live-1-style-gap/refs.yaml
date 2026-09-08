@@ -1,0 +1,77 @@
+note: Web references pulled 2026-09-08 for the live-1 style-gap study. Internal comparison only. Pexels photos carry the Pexels
+  licence (free to use, no attribution required); competitor marketing images are stored under refs/competitors/ for comparison
+  and credited by URL.
+stock_sources:
+- file: refs/pexels-2180474-rfera-smiling-man.jpg
+  url: https://www.pexels.com/photo/smiling-man-2180474/
+  creator: R. Fera
+  platform: Pexels
+  licence: Pexels (free to use)
+  match: 'exact source of the hsl-color hero photo (S01-m1, asset 85708ef3): same man, glasses, magenta/cyan gel light'
+  why: shows the hero is a stock portrait; Picsart added the lilac card ground, the HSL badge and the label pill
+- file: refs/pexels-850391-godisable-jacob-striped-wall.jpg
+  url: https://www.pexels.com/photo/850391/
+  creator: Godisable Jacob
+  platform: Pexels
+  licence: Pexels (free to use)
+  match: 'same shoot as S03-m1 (asset da31e929): same striped studio wall, red top, model; exact frame not found'
+  why: the striped-wall card is a stock fashion series, not a bespoke shoot
+- file: refs/pexels-850393-godisable-jacob-striped-wall.jpg
+  url: https://www.pexels.com/photo/850393/
+  creator: Godisable Jacob
+  platform: Pexels
+  licence: Pexels (free to use)
+  match: same shoot as S03-m1, second frame
+  why: 'a creator whose whole series fits the family: bold single-colour outfit, striped or flat coloured wall, hard even
+    light'
+- file: refs/pexels-12928824-weezy-mie-lilac-on-yellow.jpg
+  url: https://www.pexels.com/photo/12928824/
+  creator: weezy-mie
+  platform: Pexels
+  licence: Pexels (free to use)
+  match: 'same look as S03-m3 (asset 0c9be8c4): lilac blouse on a seamless yellow backdrop; not the same frame'
+  why: the purple-on-yellow beauty portrait is a common Pexels studio genre
+- file: null
+  url: https://www.pexels.com/search/woman%20colorful%20striped%20wall/
+  creator: Godisable Jacob, Isi Parente, Westley Ferguson, RDNE
+  platform: Pexels
+  licence: Pexels (free to use)
+  match: search page whose first 20 results are the family's photography (striped and rainbow walls, bold outfits)
+  why: where a worker's photo prompt should be pointed; the look is 'Pexels colourful fashion', not 'editorial lifestyle'
+not_found:
+- slot: S03-m2 (asset 9caa06ad)
+  tried: Pexels 'woman white shirt striped skirt', Unsplash 'striped skirt'; nearest Unsplash D3z2GA4A-Lg (Isabela Kronemberger)
+    is a different frame
+- slot: S03-m4 (asset e9c17dd8)
+  tried: Pexels 'woman glitter fringe jacket', 'woman sequin jacket short hair'; no match in the first 20 of either
+competitor_pages:
+- url: https://www.fotor.com/features/hue-changer/
+  files:
+  - refs/competitors/fotor-hue-changer-feature.jpg
+  - refs/competitors/fotor-hue-changer-side.jpg
+  seen: hero and feature image = two offset rounded photo cards labelled Before / After (red sequin jacket -> magenta) with
+    an arrow on a flat blue ground; the alt text says 'UI overlaid', the picture has none
+  takeaway: offset stacked cards and translucent Before/After pills, the same devices as Picsart's before-after and tilted
+    variants; no panel
+- url: https://www.vsco.co/features/hsl
+  files:
+  - refs/competitors/vsco-hsl-hero-after.png
+  - refs/competitors/vsco-hsl-sliders.png
+  seen: hero = before/after pair (red umbrella on blue); feature images = photos with HSL controls overlaid (alts 'HSL edits
+    on photo of woman in brown wool coat', 'Blue hue, saturation, and lightness sliders', 'Color selection in HSL editor')
+  takeaway: the control overlay over a stock photo is the category convention Picsart shares
+- url: https://www.canva.com/features/change-color-of-image/
+  seen: fetch refused (403); not verified
+- url: https://pixlr.com/tools/hue-saturation/
+  seen: 404; not verified
+- url: https://www.adobe.com/express/feature/image/adjust
+  seen: 404; not verified
+- url: https://picsart.com/photo-effects/colorize-images/
+  seen: alt texts describe effect results ('a beautiful couple with red color splash effect'); page not in the corpus, images
+    not inspected
+- url: https://picsart.com/photo-effects/change-color-of-image/
+  seen: alt texts are tool captions ('Intuitive color changes', 'Precise color customization'); page not in the corpus, images
+    not inspected
+design_community:
+- url: https://dribbble.com/tags/photo-editing-app-ui
+  seen: tag page only; no specific shot verified this session

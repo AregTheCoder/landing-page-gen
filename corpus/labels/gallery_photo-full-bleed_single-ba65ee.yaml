@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-ba65ee
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-ba65ee.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/efe3f33e-6a86-4c68-b7d8-638750d55361.png
+    asset: efe3f33e
+    page: instagram-post-creator
+    slot: S04-m9
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/f0295bce-1690-4791-9b44-526000b6482d.png
+    asset: f0295bce
+    page: coupon-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/f17c10c5-30b2-4606-b291-d60dda6bfb8c.png
+    asset: f17c10c5
+    page: bookmark-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/f1928495-6fb7-4ec3-a9fc-e41819f5b79a.png
+    asset: f1928495
+    page: instagram-post-creator
+    slot: S04-m10
+    type: gallery
+    size: wide
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/f23d829a-bb75-4208-b7d2-55b5f39f6fd1.png
+    asset: f23d829a
+    page: bookmark-maker
+    slot: S05-m11
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/f338a3d8-20e8-4da0-9c86-d86eecea34c1.png
+    asset: f338a3d8
+    page: motivation-poster-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/f4b34e78-a548-4def-b5f7-6db0fec71bd3.png
+    asset: f4b34e78
+    page: motivation-poster-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/f5b36319-eb46-4013-9473-2b003c650602.png
+    asset: f5b36319
+    page: brochure-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/f5f31559-f06b-4f25-a31c-c6dd4ae56597.png
+    asset: f5f31559
+    page: resume-maker
+    slot: S06-m11
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/f9392caa-0741-4cdf-8825-626876228834.png
+    asset: f9392caa
+    page: greeting-card-maker
+    slot: S04-m13
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/fcdf9cd8-a2b5-421b-8a27-24091d8ef9d6.png
+    asset: fcdf9cd8
+    page: thank-you-card-maker
+    slot: S04-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0047c6f6-fcf4-4e7a-b2ae-7627ec56cca5.avif
+    asset: 0047c6f6
+    page: home
+    slot: S03-m7
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

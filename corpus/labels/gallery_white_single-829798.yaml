@@ -1,0 +1,91 @@
+sheet: gallery_white_single-829798
+group:
+  type: gallery
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_single-829798.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5aceec28-1c78-4373-9ec7-84e7c8b10336.avif
+    asset: 5aceec28
+    page: ai-models--flux-2-pro
+    slot: S03-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f3c49517-048b-4acb-b808-54526c4cdeb6.png?type=webp&to=min&r=400
+    asset: f3c49517
+    page: aura
+    slot: S05-m11
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn270.picsart.com/c3f7910f-d1a5-438a-8f50-715c15172441/526219018008201.jpeg?type=webp&to=min&r=400
+    asset: '52621901'
+    page: home
+    slot: S09-m24
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/318a6f41-e32a-4250-8545-ff60adfe2318.avif
+    asset: 318a6f41
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S03-m2
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/9144b930-5146-42d6-a10a-15a82e1c8307.avif
+    asset: 9144b930
+    page: ai-models--recraft-v4-styles
+    slot: S03-m5
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

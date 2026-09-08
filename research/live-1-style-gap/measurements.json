@@ -1,0 +1,388 @@
+{
+ "originals/S01-m1-85708ef3.png": {
+  "size": [
+   524,
+   393
+  ],
+  "panel_bbox": [
+   156,
+   210,
+   275,
+   305
+  ],
+  "panel_frac": [
+   0.298,
+   0.534,
+   0.229,
+   0.244
+  ],
+  "panel_fill": 0.23,
+  "panel_rgb": [
+   28,
+   33,
+   62
+  ],
+  "corners": [
+   "transparent",
+   "transparent",
+   "transparent",
+   "transparent"
+  ],
+  "top_edge_angle_deg": 0.0,
+  "sat_blobs_in_panel": 7,
+  "chip_bboxes": [
+   [
+    0,
+    0,
+    44,
+    54
+   ],
+   [
+    27,
+    63,
+    92,
+    95
+   ],
+   [
+    113,
+    0,
+    119,
+    20
+   ],
+   [
+    76,
+    0,
+    88,
+    17
+   ],
+   [
+    108,
+    0,
+    114,
+    9
+   ],
+   [
+    0,
+    0,
+    10,
+    6
+   ],
+   [
+    68,
+    0,
+    74,
+    3
+   ]
+  ]
+ },
+ "originals/S03-m1-da31e929.png": {
+  "size": [
+   524,
+   393
+  ],
+  "panel_bbox": [
+   221,
+   98,
+   485,
+   295
+  ],
+  "panel_frac": [
+   0.422,
+   0.249,
+   0.506,
+   0.504
+  ],
+  "panel_fill": 0.84,
+  "panel_rgb": [
+   34,
+   31,
+   33
+  ],
+  "corners": [
+   "transparent",
+   "transparent",
+   "transparent",
+   "transparent"
+  ],
+  "top_edge_angle_deg": 0.0,
+  "sat_blobs_in_panel": 10,
+  "chip_bboxes": [
+   [
+    11,
+    46,
+    38,
+    73
+   ],
+   [
+    135,
+    46,
+    162,
+    73
+   ],
+   [
+    166,
+    46,
+    193,
+    73
+   ],
+   [
+    197,
+    46,
+    224,
+    73
+   ],
+   [
+    73,
+    46,
+    100,
+    73
+   ],
+   [
+    228,
+    46,
+    255,
+    73
+   ],
+   [
+    104,
+    46,
+    130,
+    73
+   ],
+   [
+    45,
+    49,
+    66,
+    70
+   ],
+   [
+    254,
+    186,
+    264,
+    197
+   ],
+   [
+    0,
+    186,
+    10,
+    197
+   ]
+  ]
+ },
+ "originals/S03-m2-9caa06ad.png": {
+  "size": [
+   524,
+   393
+  ],
+  "panel_bbox": [
+   69,
+   126,
+   413,
+   392
+  ],
+  "panel_frac": [
+   0.132,
+   0.321,
+   0.658,
+   0.679
+  ],
+  "panel_fill": 0.29,
+  "panel_rgb": [
+   34,
+   33,
+   35
+  ],
+  "corners": [
+   "transparent",
+   "transparent",
+   "transparent",
+   "transparent"
+  ],
+  "top_edge_angle_deg": 9.8,
+  "sat_blobs_in_panel": 31,
+  "chip_bboxes": [
+   [
+    325,
+    50,
+    344,
+    266
+   ],
+   [
+    135,
+    46,
+    162,
+    73
+   ],
+   [
+    11,
+    46,
+    38,
+    73
+   ],
+   [
+    73,
+    46,
+    100,
+    73
+   ],
+   [
+    166,
+    46,
+    193,
+    73
+   ],
+   [
+    197,
+    46,
+    224,
+    73
+   ],
+   [
+    228,
+    46,
+    255,
+    73
+   ],
+   [
+    104,
+    46,
+    130,
+    73
+   ],
+   [
+    335,
+    178,
+    344,
+    263
+   ],
+   [
+    86,
+    159,
+    135,
+    187
+   ],
+   [
+    70,
+    125,
+    213,
+    154
+   ],
+   [
+    169,
+    179,
+    214,
+    227
+   ]
+  ]
+ },
+ "originals/S03-m3-0c9be8c4.png": {
+  "size": [
+   524,
+   393
+  ],
+  "panel_bbox": [
+   206,
+   250,
+   495,
+   325
+  ],
+  "panel_frac": [
+   0.393,
+   0.636,
+   0.553,
+   0.193
+  ],
+  "panel_fill": 0.81,
+  "panel_rgb": [
+   33,
+   29,
+   26
+  ],
+  "corners": [
+   "transparent",
+   "transparent",
+   "transparent",
+   "transparent"
+  ],
+  "top_edge_angle_deg": 0.0,
+  "sat_blobs_in_panel": 6,
+  "chip_bboxes": [
+   [
+    0,
+    0,
+    89,
+    35
+   ],
+   [
+    0,
+    33,
+    35,
+    75
+   ],
+   [
+    102,
+    0,
+    289,
+    13
+   ],
+   [
+    87,
+    10,
+    100,
+    23
+   ],
+   [
+    280,
+    66,
+    289,
+    75
+   ],
+   [
+    91,
+    0,
+    99,
+    2
+   ]
+  ]
+ },
+ "originals/S03-m4-e9c17dd8.png": {
+  "size": [
+   524,
+   393
+  ],
+  "panel_bbox": [
+   100,
+   233,
+   363,
+   305
+  ],
+  "panel_frac": [
+   0.191,
+   0.593,
+   0.504,
+   0.186
+  ],
+  "panel_fill": 0.93,
+  "panel_rgb": [
+   33,
+   33,
+   35
+  ],
+  "corners": [
+   "transparent",
+   "transparent",
+   "transparent",
+   "transparent"
+  ],
+  "top_edge_angle_deg": 9.7,
+  "sat_blobs_in_panel": 1,
+  "chip_bboxes": [
+   [
+    62,
+    6,
+    74,
+    19
+   ]
+  ]
+ }
+}

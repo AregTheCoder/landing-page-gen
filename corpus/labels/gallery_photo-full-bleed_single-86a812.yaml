@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-86a812
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-86a812.answers.yaml
+cells:
+  1:
+    src: https://cdn-template.picsart.com/templates-cdn/18c105a8-7e2f-4239-b923-25e4d3da9f00.jpg
+    asset: 18c105a8
+    page: album-cover-maker
+    slot: S05-m11
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-template.picsart.com/templates-cdn/1cbfacd4-27f6-4de5-afd6-d757c7c745a6.jpg
+    asset: 1cbfacd4
+    page: bookmark-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-template.picsart.com/templates-cdn/1d257865-71fc-4a86-b8d9-941a21e4e5af.jpg
+    asset: 1d257865
+    page: gift-certificate-maker
+    slot: S04-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-template.picsart.com/templates-cdn/23000cc3-f96f-4903-adcd-6319c52453a3.png
+    asset: 23000cc3
+    page: t-shirt-maker
+    slot: S04-m1
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-template.picsart.com/templates-cdn/2f230f4f-042c-4eae-ab07-95e37ddbd08d.jpg
+    asset: 2f230f4f
+    page: book-cover-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-template.picsart.com/templates-cdn/312c82bd-1462-40b0-9eb2-d3dc943932b7.jpg
+    asset: 312c82bd
+    page: album-cover-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-template.picsart.com/templates-cdn/38dd0eea-d695-4ebe-bbe5-c83fa3a65e61.jpg
+    asset: 38dd0eea
+    page: label-maker
+    slot: S06-m12
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6654.jpg
+    asset: 39a19b57
+    page: wallpaper-maker
+    slot: S14-m12
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-template.picsart.com/templates-cdn/3dde3e8f-94be-4ab5-8c0c-58339ae4fd1c.jpg
+    asset: 3dde3e8f
+    page: menu-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-template.picsart.com/templates-cdn/425b4923-3a69-4257-932f-c958df8af1ea.jpg
+    asset: 425b4923
+    page: gift-certificate-maker
+    slot: S04-m12
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-template.picsart.com/templates-cdn/4a360b22-030b-4c68-affb-7dfc07701426.png
+    asset: 4a360b22
+    page: t-shirt-maker
+    slot: S04-m4
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-template.picsart.com/templates-cdn/4bc55a31-7558-48a7-80bf-4fb11ffae049.png
+    asset: 4bc55a31
+    page: t-shirt-maker
+    slot: S04-m5
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

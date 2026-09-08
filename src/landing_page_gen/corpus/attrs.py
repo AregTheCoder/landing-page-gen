@@ -38,14 +38,16 @@ FIELDS = {
                "stacked = panels one above the other; overlay = a card or cutout laid over a picture or ground"),
     "panel_count": ("integer", "number of rounded picture areas (photos, renders, cutouts), 0 to 8; chrome does not count"),
     "chrome": (("tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
-                "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch"),
+                "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch",
+                "adjust-panel"),
                "every non-photo element present: tile = black square with a white line icon; pill = rounded label over a "
                "photo; chip = small dark or white label; brackets = white L corners marking a crop; badge = small "
                "coloured square with a check; button = solid rounded call-to-action; prompt-panel = dark card with "
                "prompt text and a Generate button; mockup-card = a fake app, profile, product or template card; "
                "model-logo = a third-party model mark; vs-badge = a round VS mark; play-button = a triangle over a "
-               "still; cursor and selection-handles = editor furniture; slider = a before/after handle; arrow; "
-               "size-label = a pixel size or format string; swatch = a colour or gradient sample tile"),
+               "still; cursor and selection-handles = editor furniture; slider = a labelled track with a knob (an adjustment "
+               "control) or a before/after handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
+               "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values)"),
     "text_in_image": (("none", "labels-only", "headline", "body"),
                       "none; labels-only = only short labels on chrome; headline = a designed headline or slogan "
                       "inside a picture or card; body = sentences of readable text"),

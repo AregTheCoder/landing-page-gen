@@ -1,0 +1,19 @@
+# Answered 2026-09-08 for the hsl-color cells only (cells 1 and 4); the other cells stay open.
+1:
+  chrome: [adjust-panel, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: woman in a purple blouse on a yellow backdrop with a dark HSL panel and one Saturation slider lower right
+  family_hint: panel-overlay
+  confidence: 0.9
+4:
+  chrome: [adjust-panel, chip, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  finish: photo
+  description: woman in red dancing by a striped studio wall with a dark HSL panel, eight hue chips and three sliders right
+  family_hint: panel-overlay
+  confidence: 0.9

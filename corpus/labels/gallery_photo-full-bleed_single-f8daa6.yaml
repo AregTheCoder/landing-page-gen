@@ -1,0 +1,196 @@
+sheet: gallery_photo-full-bleed_single-f8daa6
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_single-f8daa6.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/1e48dd4f-3b0c-4926-8b8f-290e97141d24.png
+    asset: 1e48dd4f
+    page: collage-maker
+    slot: S15-m9
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/1f002ec5-eae4-4226-b996-ae95e093c662.png
+    asset: 1f002ec5
+    page: resume-maker
+    slot: S06-m2
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/1f49208b-db6d-43f1-b5c3-35195baffab9.png
+    asset: 1f49208b
+    page: motivation-poster-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/1fddb018-c15a-493c-8a01-9a257483091c.png
+    asset: 1fddb018
+    page: instagram-post-creator
+    slot: S04-m8
+    type: gallery
+    size: wide
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/280aa58a-b3da-4342-9d83-cde0475b0315.png
+    asset: 280aa58a
+    page: thank-you-card-maker
+    slot: S04-m11
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/29d2cf10-48e1-4106-a656-9bdaaeddc7b6.png
+    asset: 29d2cf10
+    page: flyer-maker
+    slot: S04-m6
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/2aa2916e-b698-49b8-aedf-2f3ded19d341.png
+    asset: 2aa2916e
+    page: wallpaper-maker
+    slot: S14-m7
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/2bd8b851-7dc1-4338-8847-59a4e0999e53.png
+    asset: 2bd8b851
+    page: collage-maker
+    slot: S15-m11
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/2fda439c-655a-4b1d-aed4-f16484f0126f.png
+    asset: 2fda439c
+    page: flyer-maker
+    slot: S04-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/31a1d8d7-0919-4b78-88c7-b07a21c583d4.png
+    asset: 31a1d8d7
+    page: background-tools
+    slot: S14-m9
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/39c40f4a-4d1d-465b-958b-3c328468d638.png
+    asset: 39c40f4a
+    page: motivation-poster-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/3b94083e-ac55-4b8a-934a-5ba92b0dcab9.png
+    asset: 3b94083e
+    page: instagram-post-creator
+    slot: S04-m14
+    type: gallery
+    size: wide
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
