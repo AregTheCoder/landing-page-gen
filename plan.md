@@ -82,7 +82,14 @@ configured; the repo lives on this Mac only.
 - The deny rule `Read(./**/.env.*)` also blocks writing `.env.example`; narrow it (e.g. `.env.local`) or create the file by hand.
 - Worker model: `sonnet` (default now) or `opus`; decide on Milestone 3 reject rates.
 - `page.png` (1440 px wide, full page) is stored but nothing reads it yet; the reviewer could compare against it.
-- Offline, a snapshot shows its images and videos but not its styling: CSS chunks, fonts and the few `background-image:url(...)` assets are still remote. Localise those too if a fully offline `dist/` is ever needed.
+- Snapshots must localise their CSS, not only their media: the 45 Next.js CSS
+  chunks are content-hashed and picsart.com redeploys within days, after which
+  the stale URLs return the HTML app shell (`nosniff`) and `dist/index.html`
+  renders unstyled (runs/live-2, four days after the fetch; fixed by hand with
+  the live page's chunks in `dist/css/`). `fetch` should download the chunks
+  into `<slug>/css/` (absolutising root-relative `url()` references) and
+  `lp-inject` ship them with `dist/`; fonts and the few
+  `background-image:url(...)` assets can follow the same path.
 - Ten inventory paths serve the client-side app shell (no server-rendered text). `fetch` now records them as `shell: true` in meta.json without a snapshot, so they never enter the DB; `discover` could drop them from `pages.yaml` by fetching each candidate once.
 - Role guesses to watch in Milestone 2: every `feature-callout` video is `creative` unless the headline says "inside Picsart" or "built-in tools"; product-demo videos will slip through as creative.
 - Style families cover hero and callout creatives; `gallery` (983 images) and thumbnails are untagged. `prompt-card` and the 16:9 grids have no compose template yet; heroes of composite families are briefed as `full-bleed`.
