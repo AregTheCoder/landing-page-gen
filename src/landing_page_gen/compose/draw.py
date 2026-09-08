@@ -240,13 +240,17 @@ def adjust_panel(canvas, rect, title, chips, active, sliders, fnt_title, fnt_lab
     active one ringed, then one row per slider (label, track, knob, value chip).
     `sliders` is a list of [label, value] with value in -100..100."""
     x0, y0, x1, y1 = (round(v) for v in rect)
-    w, h = x1 - x0, y1 - y0
+    w = x1 - x0
+    pad = w * 0.05
+    hh = w * 0.1  # header row; rows are sized from the width so the panel can grow to its content
+    dia = min((w - 2 * pad) / (chips * 1.25), w * 0.07) if chips else 0
+    need = 2 * pad + hh + (dia + pad if chips else 0) + len(sliders) * w * 0.085
+    y1 = max(y1, round(y0 + need))
+    h = y1 - y0
     layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=PANEL_FILL)
-    pad = w * 0.05
     # header
-    hh = h * 0.14
     mark = hh * 0.7
     icon(layer, (x0 + pad, y0 + pad, x0 + pad + mark, y0 + pad + mark), "wheel")
     tx = x0 + pad + mark * 1.4
@@ -259,7 +263,6 @@ def adjust_panel(canvas, rect, title, chips, active, sliders, fnt_title, fnt_lab
     # chips
     top = y0 + pad + hh
     if chips:
-        dia = min((w - 2 * pad) / (chips * 1.25), h * 0.17)
         step = (w - 2 * pad - dia) / max(1, chips - 1)
         for i in range(chips):
             cx = x0 + pad + i * step

@@ -129,6 +129,11 @@ taught it.
 - Hooks are cwd-relative: a `cd` in a Bash call moves the shell for every
   later call, and the next preflight is not logged, so the credit guard has
   no quote. Use absolute paths, never `cd`. (runs/trial-4)
+- A family's chrome does not travel with its photography. hair-color-changer
+  shares panel-overlay's stock portraits and tilted-card ground but carries no
+  panel, and its hero is a sticker collage; brief the ground and the photo
+  from the family, and the chrome only when the page's own cards show it.
+  (runs/trial-5)
 
 ## Non-goals
 
