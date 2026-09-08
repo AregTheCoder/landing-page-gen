@@ -23,6 +23,11 @@ are in `.claude/` here; start Claude Code in this folder.
 3. `lp-inject runs/<run>`: writes chosen media and changed text into the
    snapshot → `runs/<run>/dist/index.html`.
 
+`/collect-references`: one `reference-collector` agent per style family
+finds Pexels/Unsplash photos and creators that match the family's
+photography → `corpus/references/<family>.yaml` and a **References** line in
+`style-families.md`; `--pages` does the same per page. No paid calls.
+
 ## Run
 
 ```

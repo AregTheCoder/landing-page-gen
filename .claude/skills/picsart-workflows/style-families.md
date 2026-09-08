@@ -140,6 +140,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless `> text:` names a string (rare: a product's own printed name).
 **Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos.
 **Examples:** f746795b (ai-models--seedream-4 S06-m1; on 24 ai-models pages), 4eeca13c (ai-models--recraft-v4-styles S07-m1), 0794e437 (compare-models--imagen-4-5-fast-vs-flux-2-pro S06-m1).
+**References:** corpus/references/dark-composite.yaml (9 examples; Marlon Schmeiski, Jonatan Galvis, Element Apothec, Shiny Diamond).
 
 ## before-after
 **Use:** feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change background; the headline says before/after, fix, improve, transform.
@@ -154,6 +155,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: the Before and After pills are drawn by `lp-compose` (the after panel is derived from the before by an editing tool, so no model could carry a label). `> text:` is `none` for this family.
 **Never:** two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
 **Examples:** 69ed3f5c (image-enlarger S08-m1), 15c37bff (ai-image-enhancer S01-m1), f1fec5c1 (background-changer S07-m1).
+**References:** corpus/references/before-after.yaml (10 examples; John Diez, cottonbro studio, Hanna Auramenka, Karola G (Kaboompics)).
 
 ## crop-frame
 **Use:** feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size, a platform format (Story, Reel, post) or says resize, crop, fit.
@@ -168,6 +170,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: the size or format label under the brackets (x2, 1080 x 1920 px, Story) is drawn by `lp-compose` and comes from the section copy. The photo carries no text.
 **Never:** brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
 **Examples:** 5f91c6aa (resize-image S07-m1), df6f0107 (resize-image S06-m1), cf837643 (image-upscale S05-m1).
+**References:** corpus/references/crop-frame.yaml (10 examples; Juan Sebastián González R., Breno Cardoso, Solomon Onyeagoro, Amar Preciado).
 
 ## cutout-checkerboard
 **Use:** feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the headline says remove, cut out, transparent, sticker, batch, isolate.
@@ -182,6 +185,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: the button label (Add to bag, Download, Apply to all) is drawn by `lp-compose`. Cutout subjects carry no text; a product's own printed label counts as text and is avoided.
 **Never:** a checkerboard or halo painted by the model, shadows under transparent cutouts, text on the products, more than one subject per cutout panel.
 **Examples:** 4604e99a (batch-photo-editor S06-m1), b95353fc (batch-photo-editor S11-m1), 2f68b1c9 (sticker-maker S05-m1).
+**References:** corpus/references/cutout-checkerboard.yaml (10 examples; Mohamed Abdelghaffar, Luis Felipe Lins, Tara Winstead, MART PRODUCTION).
 
 ## template-mockup
 **Use:** feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font and logo generators; the headline says template, design, customize, layout, brand.
@@ -196,6 +200,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** picture text, generated: the template's headline (1 to 3 words: 50% OFF, Grand Opening, Summer Sale) and optionally one call-to-action (1 to 2 words: Buy now, Join us), rendered by the model inside the `photo` panel as poster typography, one typeface, high contrast. The compose spec then sets `omit: [headline]`. The manager writes both strings in `> text:`; the four icon tiles carry no text.
 **Never:** printed cards standing on tables, stacks or fans of cards, perspective, drop shadows, paper texture, logos or text other than the brief's strings inside the photo, mock toolbars.
 **Examples:** 5d8ec016 (ai-template-generator S07-m1), 21cdafd9 (poster-maker S09-m1, /black; on 4 poster pages), 7c5d6f7d (flyer-maker S06-m1).
+**References:** corpus/references/template-mockup.yaml (10 examples; Deepa Nishad, Supplements On Demand, Hanna Pad, SHVETS production).
 
 ## prompt-card
 **Use:** hero, feature-callout and use-case-grid on ai-models and AI generator pages when the point is "type a prompt, get this": the prompt text sits beside the result.
@@ -210,6 +215,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** the prompt sentence is chrome text (the card is chrome) and is not generated; until a template exists the slot is briefed as `dark-composite` and `> text:` is `none`. The result photo carries no text.
 **Never:** prompt text, buttons or cursors rendered by the model; screenshots of the product.
 **Examples:** 22f9b181 (ai-models--kling-v2-1 S01-m1; on 22 ai-models pages), 802fe719 (ai-models--qwen-image S08-m1), 6e1c292f (ai-models--flux-3 S09-m1, 2:1 strip).
+**References:** corpus/references/prompt-card.yaml (10 examples; DS stories, Ksenia Chernaya, Daria Liudnaya, Amy Lewis).
 
 ## full-bleed
 **Use:** heroes, gallery tiles, compare-models samples, tutorial and use-case photos, every video slot's stand-in, and any slot whose corpus examples are one uninterrupted picture.
@@ -224,6 +230,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** picture text when the slot's `> text:` names it (a hero tagline of at most 4 words, a poster or magazine headline that is part of the artwork, a model's sample text when the section is about text rendering); `none` otherwise. Rendered by the model at the position the brief gives; HTML copy overlays are never duplicated in the image.
 **Never:** collages, split panels, borders, vignettes, logos, UI, text other than the brief's strings.
 **Examples:** 57793011 (compare-models--gpt-image-1-5-vs-midjourney S09-m1), a70e6579 (comic-book-generator S01-m1), e1bda861 (background-remover S09-m1, 4:3 use-case photo).
+**References:** corpus/references/full-bleed.yaml (10 examples; Karola G, Rada Aslanova, Nora Topicals, Weezy Mie).
 
 ## vs-two-up
 **Use:** hero and feature-callout on compare-models pages: two models' results side by side, each labelled; the headline names both models or says compare, versus, which is better.
@@ -238,6 +245,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only for pills and chips (model names, sizes), drawn by `lp-compose` when templated. Picture text only when the section is about text rendering and `> text:` names the word.
 **Never:** a VS badge or model names painted by the model; two unrelated subjects; logos inside the panels.
 **Examples:** 1ccc69c2 (compare-models--gpt-image-1-5-vs-flux-2-pro S01-m1, hero), 8632c15f (compare-models--gpt-image-1-5-vs-flux-2-pro S05-m1), 0897494e (compare-models--gpt-image-1-5-vs-flux-2-pro S06-m1).
+**References:** corpus/references/vs-two-up.yaml (10 examples; Tugrul Kurnaz, Ander Masó (Lord Ander M), Muneeb Malhotra, Christopher Welsch Leveroni).
 
 ## mockup-card
 **Use:** feature-callout on tool pages when the result is shown in use: a profile card, a shop listing, a social post built from the photo next to it; the headline says profile, avatar, listing, product photo, e-commerce, social.
@@ -294,6 +302,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** none.
 **Never:** different subjects across the set, shadows on the transparent state, text, UI.
 **Examples:** 8542fb1b (background-remover S07-m1), cbd078ac (background-remover S07-m2), db63aad8 (background-remover S07-m3).
+**References:** corpus/references/outcome-tile.yaml (10 examples; Areef Aminudin, Vojtech Okenka, Max Griss, Glen Carrie).
 
 ## editor-canvas
 **Use:** link-grid thumbnails on tool pages: a rounded image card on the Picsart editor canvas with selection handles, a grid overlay, a cursor and glyph chips.

@@ -1,0 +1,153 @@
+family: full-bleed
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One uninterrupted picture that fills the slot. Two genres: editorial people shots (a single
+    model, beauty or fitness, on a solid seamless in vivid or pastel colour, even studio light,
+    head-and-shoulders or half body) and clean object or scene shots (one product or hand-held
+    object centred on a saturated seamless, or a workspace in window light, raking shadow, safe
+    margin all round).
+  search_terms:
+    - woman studio portrait blue background
+    - beauty portrait pastel background
+    - fitness woman dumbbell studio
+    - product photography colored background minimal
+    - person working desk natural light
+    - still life objects hard shadow
+    - woman braid portrait old town
+examples:
+  - url: https://www.pexels.com/photo/beautiful-young-woman-on-blue-background-12928816/
+    image: https://images.pexels.com/photos/12928816/pexels-photo-12928816.jpeg
+    creator: Weezy Mie
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      57793011: one young woman, solid blue seamless, cool studio light, close framing, styled fashion look.
+    differs: >
+      Picsart's panel is a fitness pose in red kit on a harder, more saturated blue; crops to 1:1 with a model chip.
+  - url: https://www.pexels.com/photo/strong-young-female-athlete-exercising-with-dumbbell-4498295/
+    image: https://images.pexels.com/photos/4498295/pexels-photo-4498295.jpeg
+    creator: Karola G
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      57793011: one athlete in active wear lifting a dumbbell, bright even studio light, half-body framing.
+    differs: >
+      Picsart swaps the white backdrop for vivid blue, saturates the kit red, and adds glossy skin and a model chip.
+  - url: https://www.pexels.com/photo/portrait-of-a-young-beautiful-redhead-woman-wearing-pearls-13143528/
+    image: https://images.pexels.com/photos/13143528/pexels-photo-13143528.jpeg
+    creator: Rada Aslanova
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      e1bda861: one redhead with freckles, solid seamless, soft studio light, tight headshot, jewellery accent.
+    differs: >
+      Picsart lightens the ground to pale mint, brings a hand and a beauty tool into frame, opens the crop to 4:3.
+  - url: https://www.pexels.com/photo/emotionless-ethnic-female-covering-face-with-hand-6774355/
+    image: https://images.pexels.com/photos/6774355/pexels-photo-6774355.jpeg
+    creator: Michelle Leman
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      e1bda861: one woman, hand raised to the face, pastel nails and bright makeup, solid purple seamless, soft light.
+    differs: >
+      Picsart uses a paler ground, a beauty tool in the hand, and looser head-and-shoulders framing.
+  - url: https://unsplash.com/photos/a-woman-with-freckles-and-freckles-on-her-face-kgTUsAfID1c
+    image: https://images.unsplash.com/photo-1633883650321-64ed4d02fb98
+    creator: Francesca Zama
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      e1bda861: one freckled face, tight close-up, natural soft light, warm skin tones, no props.
+    differs: >
+      Picsart cools the palette to mint and blue, adds the hand and tool, and leaves safe margin for the 4:3 crop.
+  - url: https://unsplash.com/photos/i8dln7TnLRQ
+    image: https://images.unsplash.com/photo-1771627278482-dec14f5eda58
+    creator: Zahraa Hassan
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      tutorial-3:2 and resource-3:2 genre (people at work): one woman at a laptop, plants, window light, cool palette.
+    differs: >
+      Picsart frames wider for 3:2, keeps the subject off-centre with clear margin, no visible screen UI.
+  - url: https://www.pexels.com/photo/polish-varnish-on-pink-background-16695682/
+    image: https://images.pexels.com/photos/16695682/pexels-photo-16695682.jpeg
+    creator: Noemí Jiménez
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      usecase-4:3 genre (object on seamless): one nail-polish bottle, hard shadow, saturated pink ground, minimalist.
+    differs: >
+      Picsart crops to 4:3 or 1:1, centres the object with margin, and may use a tool-relevant object instead.
+  - url: https://www.pexels.com/photo/holding-a-compact-mirrorless-camera-against-orange-background-30758141/
+    image: https://images.pexels.com/photos/30758141/pexels-photo-30758141.jpeg
+    creator: Cemrecan Yurtman
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      usecase-4:3 genre: one hand holding one object, centred, vivid orange seamless, clean saturated light.
+    differs: >
+      Picsart picks a ground colour from the page palette and leaves generous margin for lp-inject cropping.
+  - url: https://unsplash.com/photos/blue-glass-bottle-on-blue-glass-table-TEEoqwlgiDU
+    image: https://images.unsplash.com/photo-1627735571506-16e68059f8f9
+    creator: Immo Wegmann
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      tutorial-3:2 genre (objects in raking light): one bottle, monochrome blue, dramatic shadow and reflection.
+    differs: >
+      Picsart uses a brighter, less moody palette and a plainer surface so the thumbnail reads at 300 px.
+  - url: https://www.pexels.com/photo/woman-in-traditional-dress-with-long-braid-outdoors-33418305/
+    image: https://images.pexels.com/photos/33418305/pexels-photo-33418305.jpeg
+    creator: Vika Glitter
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      a70e6579: one braided young woman, historic buildings behind, warm daylight, earthy tones, half-body framing.
+    differs: >
+      Picsart's version is a crayon illustration in a circular mask on black; the photo is a subject reference only.
+creators:
+  - name: Karola G
+    platform: Pexels
+    profile_url: https://www.pexels.com/@karola-g/
+    why: >
+      31K clean studio and flat-lay photos on white and neutral grounds, soft even light, mockup-ready negative space.
+  - name: Rada Aslanova
+    platform: Pexels
+    profile_url: https://www.pexels.com/@rada-aslanova-150604297/
+    why: >
+      Fashion-forward portraits and lifestyle pairs in soft natural light; polished headshots on plain grounds.
+  - name: Nora Topicals
+    platform: Pexels
+    profile_url: https://www.pexels.com/@noratopicals/
+    why: >
+      Product shots on yellow, green and beige seamless with controlled light and long shadows; the use-case object genre.
+  - name: Weezy Mie
+    platform: Pexels
+    profile_url: https://www.pexels.com/@weezy-mie-276311990/
+    why: >
+      Fashion and lifestyle portraits of women, studio and street, polished light and vibrant colour.
+  - name: Immo Wegmann
+    platform: Unsplash
+    profile_url: https://unsplash.com/@tinkerman
+    why: >
+      557 studio close-ups of single objects with dramatic light and strong form; the raking-light thumbnail genre.
+picsart_specific:
+  - no ground: the picture fills the slot edge to edge, cropped by lp-inject to the slot ratio
+  - compare-models tiles pair two full-bleed panels with a model-name chip (chrome, not photography)
+  - comic and story heroes are illustrations, sometimes in a circular mask on black
+  - subject centred with safe margin so hero, gallery and 3:2 crops all survive
+  - saturated seamless in the page's accent colour rather than white
+category_convention: >
+  Competitor tool pages use the same two genres: a single-model editorial on a coloured seamless for
+  heroes, and one-object or workspace shots for tutorial and use-case thumbnails.
+prompt_guidance: >
+  One editorial photograph filling the whole frame at the slot's ratio: one subject, one light source,
+  a solid seamless or one clean setting, subject centred with safe margin on every side. People: even
+  studio light, vivid or pastel seamless, head-and-shoulders or half body. Objects: one product or hand-held
+  object, raking light, hard shadow. No collage, split, border, vignette, logo, UI or text beyond the brief's strings.
+open:
+  - No Pexels or Unsplash match for the crayon-style village illustration (a70e6579); only a photographic subject analogue was found.
+  - No free freckled beauty portrait on a pale mint seamless with a tool in hand; nearest matches are purple or blue grounds.
+  - Fitness portraits on a saturated blue seamless in red kit were not found; matches split across backdrop and subject.

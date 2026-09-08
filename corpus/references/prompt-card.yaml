@@ -1,0 +1,149 @@
+family: prompt-card
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One bold saturated subject, polished commercial finish: a glossy object on a plinth among pastel
+    blocks, a flower close-up on hard blue sky, or two pink birds. Soft studio light or direct sun,
+    clean backdrop, centred, tightly framed.
+  search_terms:
+    - pastel product podium studio
+    - colorful mug product photography
+    - pink peony blue sky close up
+    - vibrant pink blossoms against blue sky
+    - two flamingos heart shape necks
+    - colorful kitchenware pastel background
+examples:
+  - url: https://www.pexels.com/photo/two-flamingos-making-a-heart-shape-with-their-necks-15831224/
+    image: https://images.pexels.com/photos/15831224/pexels-photo-15831224.jpeg
+    creator: Banx Photography
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      6e1c292f: two pink birds, necks intertwined into a heart, tight centred framing, vivid plumage
+    differs: >
+      natural green park backdrop and daylight; Picsart grades the sky teal and pushes the pink to
+      near-magenta, then crops to the right half of a 2:1 strip
+  - url: https://www.pexels.com/photo/romantic-flamingos-displaying-heart-shaped-pose-31464235/
+    image: https://images.pexels.com/photos/31464235/pexels-photo-31464235.jpeg
+    creator: Stefan Schulze
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      6e1c292f: the same heart-neck pose, soft diffused light, pink dominating a muted ground
+    differs: >
+      a flock surrounds the pair; Picsart isolates two birds against a moody cloudy sky
+  - url: https://www.pexels.com/photo/close-up-of-a-pink-peony-flower-5922561/
+    image: https://images.pexels.com/photos/5922561/pexels-photo-5922561.jpeg
+    creator: Mohan Nannapaneni
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      802fe719: pink peony filling the frame, ruffled petals, green leaves and blue sky behind
+    differs: >
+      softer light and one bloom; Picsart has several blooms in hard sun, deeper sky blue, and lays
+      chrome type over it
+  - url: https://unsplash.com/photos/pink-flowers-bloom-against-a-bright-blue-sky-ASJcKRKPUpc
+    image: https://images.unsplash.com/photo-1753109765314-8c13ca1963e3
+    creator: Valentin LE RETIF CHAUVIN
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      802fe719: pink blossoms shot from below against a vivid blue sky, high pink-blue contrast
+    differs: >
+      small blossoms with negative space; Picsart's peonies are large and crowd the frame edge to edge
+  - url: https://www.pexels.com/photo/vibrant-pink-blossoms-against-a-blue-sky-31572109/
+    image: https://images.pexels.com/photos/31572109/pexels-photo-31572109.jpeg
+    creator: Suhas Hanjar
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      802fe719: saturated pink petals in direct sunlight against a cloudless saturated blue sky
+    differs: >
+      tree branches frame the flowers; Picsart wants a single flower species filling a 1:1 panel
+  - url: https://www.pexels.com/photo/medals-on-pedestal-on-pink-studio-background-7267588/
+    image: https://images.pexels.com/photos/7267588/pexels-photo-7267588.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      22f9b181: objects on white pedestals, soft pastel pink seamless, diffused studio light, gentle shadows
+    differs: >
+      three medals in a tiered row; Picsart puts one glossy object on one plinth among pastel blocks
+  - url: https://www.pexels.com/photo/white-blank-paper-on-blue-background-8166404/
+    image: https://images.pexels.com/photos/8166404/pexels-photo-8166404.jpeg
+    creator: Daria Liudnaya
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      22f9b181: pastel geometric podiums as props, soft even light, cool clean backdrop
+    differs: >
+      the hero is a blank card in a flat-lay; Picsart's hero is a coloured ceramic shot at eye level
+  - url: https://www.pexels.com/photo/blue-ceramic-mug-on-a-marbled-tile-7828279/
+    image: https://images.pexels.com/photos/7828279/pexels-photo-7828279.jpeg
+    creator: Mikhail Nilov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      22f9b181: one coloured ceramic mug on a stone block, minimal studio set, soft controlled light
+    differs: >
+      neutral grey ground and teal glaze; Picsart uses peach and yellow pastel blocks and a lime glaze
+  - url: https://www.pexels.com/photo/bright-colorful-kitchenware-with-mug-and-mold-7149726/
+    image: https://images.pexels.com/photos/7149726/pexels-photo-7149726.jpeg
+    creator: Ksenia Chernaya
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      22f9b181: bright saturated ceramics on a pastel backdrop, centred tabletop framing, even light
+    differs: >
+      three objects and a plant; Picsart keeps one subject and adds geometric plinths
+  - url: https://unsplash.com/photos/two-different-types-of-hair-products-on-a-pink-background-mGEVuLZNAxY
+    image: https://images.unsplash.com/photo-1610705267928-1b9f2fa7f1c5
+    creator: Amy Lewis
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      22f9b181: commercial product shot on a vivid seamless with crisp cast shadows, minimal props
+    differs: >
+      two bottles on flat pink; Picsart wants one object raised on a plinth among pastel blocks
+creators:
+  - name: DS stories
+    platform: Pexels
+    profile_url: https://www.pexels.com/@ds-stories/
+    why: >
+      1.5K playful minimalist still lifes on pastel seamless backdrops with props and soft light;
+      the 22f9b181 product-on-plinth look almost exactly.
+  - name: Ksenia Chernaya
+    platform: Pexels
+    profile_url: https://www.pexels.com/@kseniachernaya/
+    why: >
+      Bright saturated still lifes of ceramics, textiles and plants in natural sunlight; clean centred
+      compositions with bold colour.
+  - name: Daria Liudnaya
+    platform: Pexels
+    profile_url: https://www.pexels.com/@daria-liudnaya/
+    why: >
+      Controlled studio work with clean lines, bold coloured props and pastel podium mock-up scenes.
+  - name: Amy Lewis
+    platform: Unsplash
+    profile_url: https://unsplash.com/@amylewisphotography
+    why: >
+      Small set but her cosmetics shots on vivid seamless with hard shadows match the commercial
+      product finish; also flowers and animals in warm light.
+picsart_specific:
+  - the dark prompt card with the truncated prompt sentence and a white "Generate" button
+  - model icon tiles stacked in a column beside the result
+  - a play triangle over the result when it stands in for a clip
+  - black ground (light grey on ai-models use-case strips)
+  - a "before" snapshot (messy desk) paired above the polished result on 22f9b181
+  - colour pushed past natural: magenta birds, teal sky, chrome liquid type over the flowers
+prompt_guidance: >
+  One subject filling a 3:4 or 1:1 frame, commercial finish: a glossy object on a plinth among pastel
+  blocks in soft studio light, or a saturated peony or pink bird on clean sky. Sharp focus; no text,
+  buttons, cursors, UI or screenshots.
+open:
+  - No Pexels or Unsplash match for a coloured ceramic mug raised on a plinth among pastel blocks at
+    eye level; closest are a teal mug on a marble block and pastel podium flat-lays.
+  - No stock match for the surreal grade of 6e1c292f (magenta birds on a teal storm sky); all
+    flamingo pairs are natural daylight.
+  - Liquid chrome 3D type over the peonies (802fe719) is a rendered effect, not photography; not searched.

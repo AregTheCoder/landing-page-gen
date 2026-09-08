@@ -1,0 +1,150 @@
+family: before-after
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One subject: a close portrait on a pastel seamless, legs in socks and sandals on a pastel backdrop,
+    or a cap on grass in warm light. Soft even light, simple colour, centred. Slightly flawed: soft, low-res, busy.
+  search_terms:
+    - woman portrait pink background
+    - woman hands on cheeks studio portrait
+    - baseball cap on grass
+    - feet sandals socks pastel background
+    - shoes pastel background
+    - portrait pink background
+    - baseball cap product
+examples:
+  - url: https://www.pexels.com/photo/serious-woman-touching-face-while-sitting-in-studio-7389103/
+    image: https://images.pexels.com/photos/7389103/pexels-photo-7389103.jpeg
+    creator: John Diez
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      15c37bff: one young woman, hand to face, pink seamless backdrop, soft even studio light, close crop
+    differs: >
+      Picsart's before is blurred and low-res; it crops to 1:1 and keeps the face clear of the bottom-left pill
+  - url: https://www.pexels.com/photo/portrait-of-woman-eating-strawberry-with-jewelry-37278423/
+    image: https://images.pexels.com/photos/37278423/pexels-photo-37278423.jpeg
+    creator: Travel with Lenses
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      15c37bff: woman with chunky rings, hands near the face, vivid pink backdrop, flat studio light
+    differs: >
+      Picsart drops the prop, softens the frame and crops square with the head in the upper two-thirds
+  - url: https://www.pexels.com/photo/a-woman-wearing-pink-top-on-a-pink-background-8801186/
+    image: https://images.pexels.com/photos/8801186/pexels-photo-8801186.jpeg
+    creator: MART PRODUCTION
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      15c37bff: tight close-up of a brunette woman facing camera on a soft pink seamless, natural even light
+    differs: >
+      Picsart degrades this as the before panel (blur or downscale) and draws the pill over the bottom-left
+  - url: https://unsplash.com/photos/15VVP1lUJSE
+    image: https://images.unsplash.com/photo-1551808290-73c0fba381ce
+    creator: Elena Koycheva
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      15c37bff: one woman, playful styling (glasses, flower), soft pink backdrop, gentle natural light, centred
+    differs: >
+      Picsart uses a squarer crop and a softer, lower-resolution frame; no props are needed
+  - url: https://www.pexels.com/photo/burgundy-baseball-cap-on-green-grass-36539785/
+    image: https://images.pexels.com/photos/36539785/pexels-photo-36539785.jpeg
+    creator: Eyüp Kurt
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      f1fec5c1: one baseball cap with a small emblem lying on green grass, natural daylight, cap fills the frame
+    differs: >
+      Picsart's cap is shot lower, three-quarter view, in warm backlit golden-hour light with a blurred park behind
+  - url: https://www.pexels.com/photo/baseball-cap-with-logo-among-wildflowers-33611287/
+    image: https://images.pexels.com/photos/33611287/pexels-photo-33611287.jpeg
+    creator: Nidhin S
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      f1fec5c1: one blue cap with a logo resting in greenery, bright daylight, product-style framing outdoors
+    differs: >
+      Picsart wants plain grass rather than flowers, a slightly soft frame, and a background the tool can replace
+  - url: https://www.pexels.com/photo/a-model-in-jeans-wearing-heels-with-socks-7760805/
+    image: https://images.pexels.com/photos/7760805/pexels-photo-7760805.jpeg
+    creator: cottonbro studio
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      69ed3f5c: legs from the knee down, heeled sandals over patterned socks, plain studio backdrop, even light
+    differs: >
+      Picsart's backdrop is pastel blue with a visible floor line and the shot is smaller and softer as the before
+  - url: https://www.pexels.com/photo/a-person-wearing-a-pink-high-heels-8455342/
+    image: https://images.pexels.com/photos/8455342/pexels-photo-8455342.jpeg
+    creator: Hanna Auramenka
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      69ed3f5c: feet in heels with lace socks on a one-colour pastel seamless, soft flat studio light, close crop
+    differs: >
+      Picsart's palette is pastel blue with coral and lilac accents and the frame is cropped 1:1 above the ankle
+  - url: https://www.pexels.com/photo/shot-of-female-legs-wearing-black-high-heel-shoes-against-pastel-blue-background-7320686/
+    image: https://images.pexels.com/photos/7320686/pexels-photo-7320686.jpeg
+    creator: Karola G
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      69ed3f5c: lower legs and heels against a pastel blue seamless, soft even light, minimalist framing
+    differs: >
+      Picsart adds colour (striped socks, orange straps) and shows the shot small and soft, then enlarged
+  - url: https://unsplash.com/photos/dDLiE0fxEXk
+    image: https://images.unsplash.com/photo-1596667980164-cf0e5f515383
+    creator: Kelly Brito
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      69ed3f5c, f1fec5c1: one colourful product (teal pumps) on a plain ground, flat light, an ordinary snapshot
+    differs: >
+      Picsart puts the shoes on feet against pastel blue; this is closer in finish (casual, unpolished) than in subject
+creators:
+  - name: John Diez
+    platform: Pexels
+    profile_url: https://www.pexels.com/@john-diez/
+    why: >
+      Bright, clean portraits of young women on plain or simple backgrounds with even light; ideal before-panel faces.
+  - name: cottonbro studio
+    platform: Pexels
+    profile_url: https://pexels.com/@cottonbro/
+    why: >
+      Large fashion and lifestyle catalogue including studio leg-and-shoe details on plain backdrops with soft light.
+  - name: Hanna Auramenka
+    platform: Pexels
+    profile_url: https://www.pexels.com/@hannaauramenka/
+    why: >
+      Styled fashion and floral shots indoors under soft controlled light, often monochrome pastel backdrops.
+  - name: Karola G (Kaboompics)
+    platform: Pexels
+    profile_url: https://pexels.com/@karola-g/
+    why: >
+      Minimalist lifestyle and flat-lay work on neutral or pastel grounds; simple subjects a tool can enhance or recut.
+  - name: MART PRODUCTION
+    platform: Pexels
+    profile_url: https://pexels.com/@mart-production/
+    why: >
+      Tight, monochrome studio portraits on coloured seamless; the portfolio is broad, so filter by "pink background".
+  - name: Elena Koycheva
+    platform: Unsplash
+    profile_url: https://unsplash.com/@lenneek
+    why: >
+      Bright minimalist still life and portraits in pink, orange and yellow on clean backgrounds; colourful, simple subjects.
+picsart_specific:
+  - black ground (or none on hero pairs) holding two 1:1 panels side by side, rounded corners
+  - Before and After pills drawn by lp-compose in the bottom-left of each panel
+  - the before is the same photo degraded (blurred, downscaled) or with its original background; never a second photo
+  - the after keeps the exact framing of the before; only sharpness, size or background changes
+  - subject kept out of the bottom-left 30 % where the pill sits
+prompt_guidance: >
+  One subject only, ordinary snapshot finish: a portrait on a pastel seamless, socks and sandals on a pastel
+  backdrop, or a cap on grass. Soft, slightly dull, centred, clear of the bottom-left. No text, arrows or splits.
+open:
+  - No Pexels or Unsplash match for the exact 69ed3f5c scene (flowers tucked into socks on pastel blue); nearest are plain heels-and-socks studio shots.
+  - Nothing verified for a cap shot low in golden-hour backlight on grass; both cap matches are flat daylight.
+  - Unsplash searches for "cap grass" and "woman portrait pastel studio" returned only grass textures or Unsplash+ premium items.

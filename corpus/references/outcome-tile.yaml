@@ -1,0 +1,151 @@
+family: outcome-tile
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One dessert or small product, whole and centred, photographed straight on
+    or slightly above at eye level. Bright, even, soft studio light with no
+    hard shadow; crisp edges that cut out cleanly. The backdrop is plain:
+    seamless white, a solid colour, or a softly blurred scene behind the
+    same subject.
+  search_terms:
+    - cupcake white background
+    - dessert isolated white
+    - product photography white background
+    - cupcake white background (Unsplash)
+    - pastry isolated (Unsplash)
+    - product white background (Unsplash)
+examples:
+  - url: https://www.pexels.com/photo/cupcake-topped-with-creamy-icing-1055271/
+    image: https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg
+    creator: Vojtech Okenka
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b: one cream-swirled cupcake, centred, seamless white, soft even studio light
+    differs: >
+      Picsart cuts the subject out and shows it on the checkerboard, 16:9 tile, no shadow
+  - url: https://unsplash.com/photos/Faf15oObeuE
+    image: https://images.unsplash.com/photo-1575930779742-f9dd62ff9cf4
+    creator: marqquin
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      8542fb1b: frosted cupcake with a strawberry on top, the corpus subject almost exactly, light neutral backdrop
+    differs: >
+      Picsart removes the backdrop entirely and keeps the same cutout across the three outcome tiles
+  - url: https://www.pexels.com/photo/gourmet-vanilla-eclair-on-white-background-36673063/
+    image: https://images.pexels.com/photos/36673063/pexels-photo-36673063.jpeg
+    creator: Max Griss
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b: single glazed pastry, centred, clean white, bright even light, crisp edge for a cutout
+    differs: >
+      Picsart drops the green holder and any surface, so the pastry floats on white or checker
+  - url: https://www.pexels.com/photo/delicious-homemade-chocolate-chip-cookie-31116124/
+    image: https://images.pexels.com/photos/31116124/pexels-photo-31116124.jpeg
+    creator: Kate L
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b: one cookie, centred, minimalist white, even light showing texture
+    differs: >
+      Picsart crops to a 16:9 tile and puts the same cookie on a new scene in the next tile
+  - url: https://www.pexels.com/photo/classic-donut-on-white-background-36976592/
+    image: https://images.pexels.com/photos/36976592/pexels-photo-36976592.jpeg
+    creator: Areef Aminudin
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b: single sprinkled donut isolated on bright white, centred, shadowless
+    differs: >
+      Picsart's white tile shows the cutout without the photo's faint contact shadow
+  - url: https://www.pexels.com/photo/a-doughnut-with-white-background-11188694/
+    image: https://images.pexels.com/photos/11188694/pexels-photo-11188694.jpeg
+    creator: Olena Bohovyk
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b: one purple-glazed doughnut, centred, white, bright even light
+    differs: >
+      Vertical frame; Picsart needs the subject centred in a 16:9 tile with room on both sides
+  - url: https://unsplash.com/photos/kDE1RKGA81U
+    image: https://images.unsplash.com/photo-1783276507005-8d63ebb23c22
+    creator: Glen Carrie
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      the solid-colour outcome: one sprinkled donut, centred, flat bright blue backdrop, even light
+    differs: >
+      Picsart makes the colour ground from the same cutout, so the subject matches the other tiles exactly
+  - url: https://www.pexels.com/photo/high-quality-black-camera-lens-on-white-background-34956920/
+    image: https://images.pexels.com/photos/34956920/pexels-photo-34956920.jpeg
+    creator: Sirius Df
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8542fb1b (product variant): one camera lens, centred, clean white, controlled studio light
+    differs: >
+      Picsart uses the cutout on checker, white, blurred and new-scene grounds; no reflection or surface
+  - url: https://unsplash.com/photos/jVerIoX3y7c
+    image: https://images.unsplash.com/photo-1625860191460-10a66c7384fb
+    creator: Mukesh Naik
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      8542fb1b (product variant): white sneakers, centred, clean white, even product light
+    differs: >
+      A pair reads as two subjects; Picsart shows one object per tile and repeats it across the row
+  - url: https://unsplash.com/photos/EkEWSQKF130
+    image: https://images.unsplash.com/photo-1711223499758-8aef018b720e
+    creator: Tory Hoffman
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      8542fb1b (product variant): one pair of sunglasses, centred, pure white, clean product light
+    differs: >
+      Picsart tile is 16:9 and the white is chrome; the transparent state shows checker instead
+creators:
+  - name: Areef Aminudin
+    platform: Pexels
+    profile_url: https://www.pexels.com/@areef-aminudin-433294364/
+    why: >
+      A whole series of single donuts isolated on white, shadowless and centred: the family's food tile as a body of work.
+  - name: Vojtech Okenka
+    platform: Pexels
+    profile_url: https://www.pexels.com/@vojtech-okenka-127162/
+    why: >
+      Mixed portfolio, but his cupcake and dessert shots on seamless white are clean, centred and softly lit.
+  - name: Max Griss
+    platform: Pexels
+    profile_url: https://www.pexels.com/@max-griss-16866522/
+    why: >
+      Close-up food photography with bright, even light and clean backdrops; single pastries that cut out well.
+  - name: Glen Carrie
+    platform: Unsplash
+    profile_url: https://unsplash.com/@glencarrie
+    why: >
+      Alongside wildlife, food subjects on flat vivid colour backdrops: the solid-colour outcome tile.
+  - name: marqquin
+    platform: Unsplash
+    profile_url: https://unsplash.com/@marqquin
+    why: >
+      Food and treat photography on light neutral backdrops; the strawberry cupcake is nearly the corpus subject.
+picsart_specific:
+  - rounded 16:10 tile on white, or the light checkerboard for the transparent outcome
+  - the same cutout repeated across the row; only the ground changes
+  - the blurred and new-scene grounds are made with picsart_change_bg from the same cutout
+  - no shadow under the subject on the transparent state
+category_convention: >
+  Not researched in this pass.
+prompt_guidance: >
+  One product or food item, whole and centred, photographed straight on with
+  soft, even studio light and no hard shadow, on a seamless plain backdrop
+  with crisp edges. No text, no UI, no props, no second subject. Keep the
+  same item for every tile; vary only the backdrop (white, solid colour,
+  blurred scene, new scene).
+open:
+  - No Pexels or Unsplash photo matches the blurred-scene ground (cbd078ac) or garden ground (db63aad8) with the same cutout; those grounds are made by the tool, not shot.
+  - No shadowless transparent-state reference exists on stock sites; the isolated-on-white shots all keep a faint contact shadow.
+  - Competitor category convention not researched.

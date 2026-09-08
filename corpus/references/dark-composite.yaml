@@ -1,0 +1,157 @@
+family: dark-composite
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One editorial photograph of a single subject (beauty product, fashion model or hand-held
+    product) centred in a 3:4 frame on a clean bright backdrop: pastel seamless, white studio
+    paper or blue sky. Soft studio light or hard flash; saturated colour; sharp glossy finish.
+  search_terms:
+    - lipstick pastel background
+    - cosmetic product studio
+    - fashion editorial studio colorful
+    - fashion portrait white background gloves
+    - hand holding bottle blue sky
+    - sunscreen bottle hand
+examples:
+  - url: https://www.pexels.com/photo/portrait-of-redhead-woman-in-red-dress-and-gloves-26612256/
+    image: https://images.pexels.com/photos/26612256/pexels-photo-26612256.jpeg
+    creator: Marlon Schmeiski
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4eeca13c: one woman, glossy red styling with coloured gloves, white seamless backdrop,
+      even studio light, tight upper-body frame, bold red against white.
+    differs: >
+      Picsart pushes the saturation and flash harder, crops to 3:4, and sets the tool tiles
+      on a black ground to the left of the photo.
+  - url: https://www.pexels.com/photo/studio-shot-of-a-young-man-with-a-colorful-artistic-makeup-20141733/
+    image: https://images.pexels.com/photos/20141733/pexels-photo-20141733.jpeg
+    creator: Cristian Torres Torres
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4eeca13c: one model, bold multicoloured makeup, clean white studio backdrop, bright even
+      light, close-up frontal framing.
+    differs: >
+      Picsart would want glossier material (vinyl, metallic) and one dominant colour pair; the
+      photo sits on a black ground beside the model tiles.
+  - url: https://www.pexels.com/photo/young-woman-in-a-colorful-outfit-posing-in-studio-on-red-background-14680199/
+    image: https://images.pexels.com/photos/14680199/pexels-photo-14680199.jpeg
+    creator: Ramon Hernandez
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4eeca13c: one woman in a vivid outfit, frontal studio portrait, saturated backdrop and
+      clothing, even light, fashion-forward pose.
+    differs: >
+      Picsart's backdrop is white or pale so the black ground reads as chrome; crop to 3:4.
+  - url: https://www.pexels.com/photo/vibrant-portrait-with-bold-colors-and-afro-hairstyle-33367852/
+    image: https://images.pexels.com/photos/33367852/pexels-photo-33367852.jpeg
+    creator: Jonatan Galvis
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4eeca13c: one frontal portrait, bold colourful makeup, direct even light, high contrast
+      editorial finish.
+    differs: >
+      Gradient backdrop; Picsart uses a flat white or pale seamless and a 3:4 crop.
+  - url: https://www.pexels.com/photo/close-up-photo-of-pink-lip-gloss-3373740/
+    image: https://images.pexels.com/photos/3373740/pexels-photo-3373740.jpeg
+    creator: Shiny Diamond
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      f746795b: one cosmetic product with its box, pastel pink monochrome palette, soft even
+      light, minimalist close-up.
+    differs: >
+      Picsart shows the product open and at an angle on cream seamless, crops 3:4, adds the
+      model tile and a resolution chip below.
+  - url: https://www.pexels.com/photo/lipsticks-on-pink-surface-7256139/
+    image: https://images.pexels.com/photos/7256139/pexels-photo-7256139.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      f746795b: lipsticks on a pastel pink surface, soft light with clean shadows, coordinated
+      product and backdrop colour.
+    differs: >
+      Flat lay with several tubes; Picsart shows one or two tubes at eye level, closer, on cream.
+  - url: https://unsplash.com/photos/yDtWsWGAN6U
+    image: https://images.unsplash.com/photo-1773372238324-e9cffa5f45b7
+    creator: Jen Vazquez
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      f746795b: one open lipstick tube, rose bullet, clean studio backdrop, controlled light,
+      product-centred framing.
+    differs: >
+      Silver casing where Picsart uses pastel gradient tubes; crop to 3:4 and place on black ground.
+  - url: https://www.pexels.com/photo/a-person-holding-a-white-dropper-bottle-13272754/
+    image: https://images.pexels.com/photos/13272754/pexels-photo-13272754.jpeg
+    creator: Element Apothec
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0794e437: one hand raising a white bottle against a cloudless saturated blue sky, hard
+      sunlight, product in sharp focus.
+    differs: >
+      Picsart's bottle has a bright coloured cap and fills more of the frame; 3:4 crop, model pill
+      added by lp-compose.
+  - url: https://www.pexels.com/photo/woman-hand-holding-deodorant-20594351/
+    image: https://images.pexels.com/photos/20594351/pexels-photo-20594351.jpeg
+    creator: Moni Rathnak
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0794e437: close-up of a hand holding a personal-care bottle against clear blue sky, daylight,
+      minimal product framing.
+    differs: >
+      Spray action and a real brand; Picsart uses a fictional label and a still hold, 3:4.
+creators:
+  - name: Marlon Schmeiski
+    platform: Pexels
+    profile_url: https://www.pexels.com/@marlonretratos/
+    why: >
+      Stylised portraits with bold makeup and fashion against vivid or white walls: the
+      4eeca13c fashion-editorial look.
+  - name: Jonatan Galvis
+    platform: Pexels
+    profile_url: https://www.pexels.com/@jonatan-galvis-667762583/
+    why: >
+      Studio portraits obsessed with light and colour, dramatic direct lighting and saturated
+      grading; close to the hard-flash editorial finish.
+  - name: Element Apothec
+    platform: Pexels
+    profile_url: https://www.pexels.com/@element-apothec-275580249/
+    why: >
+      Wellness and skincare product shots in natural light on clean backdrops, including
+      hand-held bottles against the sky (0794e437).
+  - name: Shiny Diamond
+    platform: Pexels
+    profile_url: https://www.pexels.com/@shiny-diamond/
+    why: >
+      Beauty and cosmetics close-ups on neutral backdrops with consistent clean lighting; the
+      pastel product still-life side of the family.
+  - name: DS stories
+    platform: Pexels
+    profile_url: https://www.pexels.com/@ds-stories/
+    why: >
+      Pastel-monochrome product styling with playful colour contrasts and clean shadows, the
+      palette of f746795b.
+picsart_specific:
+  - black ground (light grey on ai-models and compare pages) with tool or model tiles beside the photo
+  - resolution chip (4K, 2K, 1080p) and model-name pill drawn by lp-compose, never in the photo
+  - 3:4 photo crop with rounded corners; 2x2 variant grid of the same subject on some callouts
+  - two-panel comparison of the same prompt on compare-models pages, one pill per panel
+category_convention: >
+  Competitor model pages usually show a single generated hero image inside a dark card with
+  the model name; not verified in this pass.
+prompt_guidance: >
+  One editorial photograph of a single subject (product, person or hand-held object) filling
+  the centre two thirds of a 3:4 frame, on a clean bright pastel, white or sky backdrop, sharp
+  and saturated. No text, logos, borders, collages, split screens or UI.
+open:
+  - No Pexels or Unsplash match found for pastel gradient two-tone lipstick tubes on cream seamless; nearest are pink monochrome flat lays.
+  - No verified match for a coloured-cap bottle held against sky with a large fictional label; sky-bottle results carry real brands.
+  - Unsplash search pages returned few usable studio fashion results; the fashion side is Pexels only.

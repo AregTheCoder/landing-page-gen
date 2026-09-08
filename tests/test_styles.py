@@ -181,3 +181,24 @@ def test_styles_cli_derives_from_attrs_and_applies(tmp_path, monkeypatch, capsys
     assert "0 style-tagged" in capsys.readouterr().out, "sectionize re-applies the default yaml, which is absent here"
     assert cli.main(["--db", dbp, "styles", "--styles", str(styles_yaml), "--apply-only"]) == 0
     assert "2 media rows tagged" in capsys.readouterr().out
+
+
+def test_reference_files_name_families_and_carry_the_required_keys():
+    """corpus/references/<family>.yaml (written by /collect-references) stays
+    pinned to db.STYLES and to the schema in reference-format.md; a
+    **References:** line in the doc names an existing file."""
+    import yaml
+    refs = styles.DOC.parents[3] / "corpus" / "references"
+    required = ("family", "collected", "by", "photography", "examples", "creators", "picsart_specific", "prompt_guidance", "open")
+    for path in refs.glob("*.yaml"):
+        if path.name.startswith("_"):
+            continue
+        assert path.stem in db.STYLES, path
+        d = yaml.safe_load(path.read_text())
+        assert d["family"] == path.stem and all(k in d for k in required), (path, [k for k in required if k not in d])
+        assert len(d["examples"]) >= 5, path
+        for e in d["examples"]:
+            assert "pexels.com" in e["url"] or "unsplash.com" in e["url"], (path, e["url"])
+    doc = styles.DOC.read_text()
+    for m in re.finditer(r"\*\*References:\*\* (corpus/references/([a-z-]+)\.yaml)", doc):
+        assert (styles.DOC.parents[3] / m.group(1)).exists() and m.group(2) in db.STYLES, m.group(0)

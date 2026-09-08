@@ -1,0 +1,145 @@
+family: template-mockup
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Small-business product photography: one everyday product (cup, jar, tube, bottle), alone or held in one hand,
+    front-on and centred on a flat saturated or pastel seamless or soft aura gradient. Even light, clean edges,
+    generous margin, no props.
+  search_terms:
+    - product on colored background
+    - hand holding product colorful background
+    - hand holding cosmetic jar
+    - ceramic mug colored background
+    - product photo pastel background
+    - hand holding bottle pink background
+examples:
+  - url: https://www.pexels.com/photo/a-cup-on-light-blue-background-8185504/
+    image: https://images.pexels.com/photos/8185504/pexels-photo-8185504.jpeg
+    creator: Jievani
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d8ec016: one ceramic cup alone on a flat light-blue seamless, hard light, wide margin.
+    differs: >
+      Picsart shoots the cup straight on and cuts it onto a flat lavender field inside the card; here
+      the view is from above with a long shadow.
+  - url: https://www.pexels.com/photo/bioderma-gel-on-an-orange-background-23940099/
+    image: https://images.pexels.com/photos/23940099/pexels-photo-23940099.jpeg
+    creator: Kareena Joseph
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d8ec016: single packaged product centred on one saturated colour, bright even light, clean edges.
+    differs: >
+      Picsart would drop the brand label, add the template headline above and put the tool tiles beside the card.
+  - url: https://www.pexels.com/photo/colorful-soap-dispenser-on-blue-background-31968709/
+    image: https://images.pexels.com/photos/31968709/pexels-photo-31968709.jpeg
+    creator: Ann H
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d8ec016: one patterned household object on a bold blue field, product-catalogue framing.
+    differs: >
+      Picsart keeps more margin around the object and frames it inside a rounded card with headline typography.
+  - url: https://www.pexels.com/photo/gummy-bears-in-plastic-bottle-14433548/
+    image: https://images.pexels.com/photos/14433548/pexels-photo-14433548.jpeg
+    creator: Supplements On Demand
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d8ec016: one bottle on a flat pink seamless, even studio light, minimal styling.
+    differs: >
+      Tighter crop than Picsart; the card needs at least 25 % margin and a headline zone above the product.
+  - url: https://www.pexels.com/photo/a-white-tube-of-cream-and-a-green-plant-on-a-pink-background-27544691/
+    image: https://images.pexels.com/photos/27544691/pexels-photo-27544691.jpeg
+    creator: Deepa Nishad
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d8ec016: one white tube on a pink field, soft light with a natural shadow, pastel palette.
+    differs: >
+      Picsart would remove the plant prop and centre the tube; no props inside the template photo.
+  - url: https://www.pexels.com/photo/woman-hand-holding-bottle-17891267/
+    image: https://images.pexels.com/photos/17891267/pexels-photo-17891267.jpeg
+    creator: Jonathan Borba
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      21cdafd9: one hand holding one white bottle against a vibrant orange seamless, bright even light.
+    differs: >
+      Picsart swaps the flat orange for a soft aura gradient and adds the sale headline and call to action.
+  - url: https://www.pexels.com/photo/person-holding-white-plastic-container-6476115/
+    image: https://images.pexels.com/photos/6476115/pexels-photo-6476115.jpeg
+    creator: Hanna Pad
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      21cdafd9: a single hand presenting one cosmetic bottle on a pink backdrop, soft focused light.
+    differs: >
+      Picsart's product is coral and sun-lit; the hand enters from below with the product centred in the card.
+  - url: https://www.pexels.com/photo/person-holding-a-lipstick-7290610/
+    image: https://images.pexels.com/photos/7290610/pexels-photo-7290610.jpeg
+    creator: MART PRODUCTION
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      21cdafd9: one hand, one small cosmetic, one saturated purple field, close clean framing.
+    differs: >
+      Picsart leaves more empty backdrop above the hand for the poster headline.
+  - url: https://unsplash.com/photos/oQoABmEKlQc
+    image: https://images.unsplash.com/photo-1674669576687-2b4fde13ef16
+    creator: Karolina Bobek
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      21cdafd9: manicured hand holding one bottle in front of a flat pink backdrop, soft even light.
+    differs: >
+      The brand logo would go; Picsart wants a plain product so only the brief's headline text appears.
+  - url: https://unsplash.com/photos/closeup-photo-of-persons-holding-jar-OiqQwDHYOEU
+    image: https://images.unsplash.com/photo-1493612216891-65cbf3b5c420
+    creator: Diego PH
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      21cdafd9: hands holding one jar against a soft pink-red pastel gradient, the aura backdrop of the poster.
+    differs: >
+      Picsart keeps the jar sharp and hard-edged for the cutout; here the depth of field is shallow.
+creators:
+  - name: Deepa Nishad
+    platform: Pexels
+    profile_url: https://www.pexels.com/@deepa-nishad-1620501673/
+    why: >
+      Minimal still lifes of cosmetics and objects on pink, white and blue pastels with soft light and natural shadows.
+  - name: Supplements On Demand
+    platform: Pexels
+    profile_url: https://www.pexels.com/@supliful/
+    why: >
+      Single supplement bottles and capsules on clean seamless backdrops, evenly lit, framed for label and text overlay.
+  - name: Hanna Pad
+    platform: Pexels
+    profile_url: https://www.pexels.com/@anna-nekrashevich/
+    why: >
+      Beauty and small-business content: hands presenting cosmetics on coloured backdrops in polished, commercial light.
+  - name: SHVETS production
+    platform: Pexels
+    profile_url: https://www.pexels.com/@shvets-production/
+    why: >
+      Studio beauty work on neutral and colour-blocked backgrounds; hands with skincare jars, editorial and uncluttered.
+picsart_specific:
+  - rounded template card with the headline set in one display face above the photo and an optional call to action
+  - four black icon tiles (layout, checkerboard, move, Aa) stacked beside the card on the white ground
+  - black-ground variant: magenta tile, aura gradient swatch and checkerboard cutout of the same product beside the card
+  - product cut out and re-composited onto a flat colour or aura gradient inside the card; sparkle glyphs
+  - flyer-maker example (7c5d6f7d) uses a line illustration and a type specimen instead of a photograph
+prompt_guidance: >
+  One product or one hand holding one product, front-on and centred, on a flat saturated or pastel seamless
+  or a soft aura gradient, even studio light, hard clean edges, at least 25 % empty backdrop around it.
+  Render only the brief's headline and call to action as poster typography, one typeface, high contrast.
+  A flat picture: no printed card, no table, no perspective, no drop shadow, no paper texture, no logos or other text.
+open:
+  - 7c5d6f7d is a line illustration with a type specimen, not a photograph; no stock genre collected for that variant.
+  - Unsplash search pages return gradient wallpapers for product+pastel terms; the strong hand-held jar results there
+    (Virginia Marinova) are Unsplash+ paid and were dropped.
+  - Jievani's, Jonathan Borba's and MART PRODUCTION's portfolios are not product-on-colour as a body of work; only
+    the single photos are cited.

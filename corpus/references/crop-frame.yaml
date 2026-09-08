@@ -1,0 +1,162 @@
+family: crop-frame
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One person, full or three-quarter body, centred in an urban setting. The backdrop is graphic:
+    road markings seen from above, rows of stadium seats, a corrugated shutter. Natural daylight.
+    Streetwear in one flat colour against a contrasting backdrop.
+  search_terms:
+    - person standing in front of colorful wall
+    - man standing road markings aerial
+    - woman stadium seats portrait
+    - portrait pink corrugated wall
+    - young man basketball urban portrait
+    - full body street fashion portrait colorful background
+examples:
+  - url: https://www.pexels.com/photo/model-in-sunglasses-and-denim-blouse-25052941/
+    image: https://images.pexels.com/photos/25052941/pexels-photo-25052941.jpeg
+    creator: Breno Cardoso
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643: one person posing against a flat teal metal wall, natural urban daylight, denim
+      outfit against the backdrop colour
+    differs: >
+      Picsart uses a more saturated wall, a full-body stance and crops the same frame to 9:16
+      with brackets on the source
+  - url: https://www.pexels.com/photo/man-with-gray-hair-16694138/
+    image: https://images.pexels.com/photos/16694138/pexels-photo-16694138.jpeg
+    creator: Juan Sebastián González R.
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643: a single figure centred on a vivid blue wall, natural light, one flat colour behind
+    differs: >
+      Picsart's subject is a young person in streetwear, shown full body with room above and below
+      for the crop
+  - url: https://www.pexels.com/photo/man-standing-in-front-of-mosaic-10283866/
+    image: https://images.pexels.com/photos/10283866/pexels-photo-10283866.jpeg
+    creator: Nurlan Tortbayev
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643 and df6f0107: young man in hoodie and bucket hat, bright outdoor light, patterned
+      colourful wall behind, streetwear feel
+    differs: >
+      Picsart keeps the backdrop to one or two colours so the bracketed crop stays readable at 480 px
+  - url: https://www.pexels.com/photo/woman-in-pink-clothes-posing-by-blue-wall-17196111/
+    image: https://images.pexels.com/photos/17196111/pexels-photo-17196111.jpeg
+    creator: helloiamtugce
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643: one woman in a pink outfit against a vivid blue wall, natural daylight, outfit
+      colour clashing with the backdrop colour
+    differs: >
+      Picsart's colour clash is the other way round (dark outfit on a pink wall) and the pose is
+      a relaxed straight-on stance
+  - url: https://unsplash.com/photos/a-woman-sitting-on-a-blue-stadium-bleachers-iQyt7Jl2cWo
+    image: https://images.unsplash.com/photo-1693825948507-acd866203fae
+    creator: ANNIE HATUANH
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      df6f0107: single woman with rows of bright blue stadium seats behind her, soft light,
+      repeating seat pattern as backdrop
+    differs: >
+      Picsart's subject stands and smiles in a warm hoodie against green seats; the seats are
+      slightly out of focus
+  - url: https://www.pexels.com/photo/elegant-woman-in-colorful-stadium-seats-33440893/
+    image: https://images.pexels.com/photos/33440893/pexels-photo-33440893.jpeg
+    creator: Solomon Onyeagoro
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      df6f0107: one woman among multicoloured stadium seats, natural outdoor light, seats filling
+      the frame behind her
+    differs: >
+      Picsart uses a single seat colour and casual streetwear, not a dress, and frames three-quarter
+      body for the 9:16 crop
+  - url: https://unsplash.com/photos/65MRuPYt1qU
+    image: https://images.unsplash.com/photo-1543570978-40510bc11063
+    creator: Collins Lesulie
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      5f91c6aa: one person centred on an asphalt road, casual clothing, natural daylight, neutral
+      grey surroundings
+    differs: >
+      Picsart shoots from above so the road markings become the backdrop, and the figure spreads
+      its arms for a dynamic pose
+  - url: https://unsplash.com/photos/6nT5IeaNB7Y
+    image: https://images.unsplash.com/photo-1525049672599-38b54022c4cf
+    creator: Beer Drinker
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      5f91c6aa: downward angle onto a single figure in dark clothing on a striped crossing, road
+      markings as the graphic ground
+    differs: >
+      Picsart shows the whole body from a higher vantage point, with hard sun and yellow markings
+      instead of white stripes
+  - url: https://www.pexels.com/photo/man-in-a-red-jacket-standing-on-a-basketball-court-13085460/
+    image: https://images.pexels.com/photos/13085460/pexels-photo-13085460.jpeg
+    creator: Amar Preciado
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643: young man in one bold-colour jacket posed on an outdoor court, urban surroundings,
+      daylight, streetwear
+    differs: >
+      Picsart puts a flat coloured wall directly behind the subject rather than an open court
+  - url: https://www.pexels.com/photo/young-man-holding-a-ball-on-his-hand-and-standing-outdoors-17086202/
+    image: https://images.pexels.com/photos/17086202/pexels-photo-17086202.jpeg
+    creator: SAAD EMRIS
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      cf837643: solitary young man holding a basketball, standing outdoors in daylight, looking at
+      the camera
+    differs: >
+      Picsart's version is lit by warm side light against a pink corrugated shutter, full body,
+      dark monochrome outfit
+creators:
+  - name: Juan Sebastián González R.
+    platform: Pexels
+    profile_url: https://www.pexels.com/@juan-sebastian-gonzalez-r-327514956/
+    why: >
+      Single smiling subjects against flat, colourful walls in natural light; the closest body of
+      work to the coloured-wall panels.
+  - name: Breno Cardoso
+    platform: Pexels
+    profile_url: https://www.pexels.com/@breno-cardoso-149064345/
+    why: >
+      Outdoor single-person portraits in natural light with an editorial finish; the teal metal
+      wall shot shows the urban-backdrop side of his work.
+  - name: Solomon Onyeagoro
+    platform: Pexels
+    profile_url: https://www.pexels.com/@solomon-onyeagoro-1030566678/
+    why: >
+      Natural-light location portraits, one person placed in a found setting such as stadium
+      seats; documentary rather than studio.
+  - name: Amar Preciado
+    platform: Pexels
+    profile_url: https://www.pexels.com/@amar/
+    why: >
+      Vibrant single-subject portraiture with saturated clothing colour; the basketball-court
+      series matches the streetwear side of the family.
+picsart_specific:
+  - two panels side by side: a darkened source photo with white corner brackets, and the cropped result at 9:16
+  - the size or format label under the brackets (x2, Story, 1080 x 1920 px) drawn by lp-compose
+  - a tool icon (expand arrows, Instagram glyph) on the black or white ground beside the source
+  - the result panel is the same photograph re-anchored on the subject, not a second photo
+prompt_guidance: >
+  One person, full body, centred in an urban setting with a graphic backdrop: flat coloured wall,
+  stadium seats or road markings from above. Natural daylight, streetwear contrasting with the
+  backdrop. Plain photograph, no text, brackets, rulers, handles or grids.
+open:
+  - Frank Flores's "woman standing in front of a row of bleachers" fits df6f0107 but is Unsplash+ premium, not the free licence; dropped
+  - no free match found for the exact top-down view of a figure on yellow diamond road markings (5f91c6aa); the two road examples are frontal or half-body
+  - Collins Lesulie and Beer Drinker are mostly landscape shooters; their single matching photos are kept but they are not listed as creators
+  - ANNIE HATUANH, Nurlan Tortbayev, helloiamtugce and SAAD EMRIS profiles were not fetched

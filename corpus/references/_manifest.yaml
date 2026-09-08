@@ -1,0 +1,562 @@
+dark-composite:
+  use: feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a
+    resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
+  slots: callout-1:1 (n=…), callout-1:1-video (n=…), hero-1:1 (n=…).
+  ground: 'black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…).'
+  panels_worker: 'A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person
+    or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light;
+    no border.'
+  text: 'chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless
+    `> text:` names a string (rare: a product''s own printed name).'
+  never: collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model
+    logos.
+  tagged_assets: 3
+  pages:
+  - compare-models--nano-banana-2-vs-flux-2-pro
+  - compare-models--flux-2-pro-vs-midjourney
+  - ai-models--recraft-v4-styles
+  examples:
+  - id: f746795b
+    page: ai-models--flux-2-flex
+    slot: S06-m1
+    size: 480x480
+    alt: Flux 2 Flex AI image generation
+    png: corpus/references/examples/dark-composite/f746795b.png
+  - id: 4eeca13c
+    page: ai-models--recraft-v4-1
+    slot: S07-m1
+    size: 480x480
+    alt: recraft 4.1 realistic image generation
+    png: corpus/references/examples/dark-composite/4eeca13c.png
+  - id: 0794e437
+    page: compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
+    slot: S06-m1
+    size: 480x480
+    alt: Imagen 4.0 Ultra vs GPT Image 1.5 image quality and aesthetics
+    png: corpus/references/examples/dark-composite/0794e437.png
+before-after:
+  use: 'feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change
+    background; the headline says before/after, fix, improve, transform.'
+  slots: callout-1:1 (n=…), hero-1:1 (n=…).
+  ground: 'black (default) | none: two 1:1 panels side by side with no ground, the hero pair on tool pages (n=…).'
+  panels_worker: 'A `before` (generate 1:1): the source photograph, ordinary and slightly flawed as the tool''s
+    input would be (soft, dull, a cluttered background). B `after`: the same photograph after the tool''s effect,
+    made from A with `picsart_enhance`, `picsart_change_bg` or `picsart_remove_bg`, never a second generate. `result`
+    reuses B with an anchor on the subject. Keep the subject clear of the bottom-left 30 % where the pill sits.'
+  text: 'chrome text only: the Before and After pills are drawn by `lp-compose` (the after panel is derived from
+    the before by an editing tool, so no model could carry a label). `> text:` is `none` for this family.'
+  never: two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
+  tagged_assets: 69
+  pages:
+  - ai-image-enhancer
+  - ai-replace
+  - compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
+  - compare-models--dall-e-3-vs-midjourney
+  - compare-models--flux-2-pro-vs-midjourney
+  - photo-effects
+  - compare-models--nano-banana-2-vs-flux-2-pro
+  - image-upscale
+  - compare-models--recraft-v4-vs-ideogram-3-0-flash
+  - compare-models--runway-gen-4-vs-veo-3
+  - background-changer
+  - red-eye-remover
+  examples:
+  - id: 69ed3f5c
+    page: image-enlarger
+    slot: S08-m1
+    size: 480x480
+    alt: Enlarge a photo size
+    png: corpus/references/examples/before-after/69ed3f5c.png
+  - id: 15c37bff
+    page: ai-image-enhancer
+    slot: S01-m1
+    size: 480x480
+    alt: before change
+    png: corpus/references/examples/before-after/15c37bff.png
+  - id: f1fec5c1
+    page: background-changer
+    slot: S07-m1
+    size: 480x480
+    alt: before change
+    png: corpus/references/examples/before-after/f1fec5c1.png
+crop-frame:
+  use: feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size,
+    a platform format (Story, Reel, post) or says resize, crop, fit.
+  slots: callout-1:1 (n=…).
+  ground: 'white (default) | transparent: the rounded corners show the page (n=…).'
+  panels_worker: 'A `source` (generate 2:3): one photograph with a clear subject in the centre third so the brackets
+    frame something. B `result` (generate 9:16): the same photograph, anchored on the subject; usually A''s own
+    URL with a different anchor. People or products in an environment read best; the crop must still read at 480
+    px.'
+  text: 'chrome text only: the size or format label under the brackets (x2, 1080 x 1920 px, Story) is drawn by `lp-compose`
+    and comes from the section copy. The photo carries no text.'
+  never: brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
+  tagged_assets: 0
+  pages: []
+  examples:
+  - id: 5f91c6aa
+    page: resize-image
+    slot: S07-m1
+    size: 480x480
+    alt: reduce image size without losing any detail
+    png: corpus/references/examples/crop-frame/5f91c6aa.png
+  - id: df6f0107
+    page: resize-image
+    slot: S06-m1
+    size: 480x480
+    alt: Resize images in seconds with Picsart image resizer
+    png: corpus/references/examples/crop-frame/df6f0107.png
+  - id: cf837643
+    page: image-upscale
+    slot: S05-m1
+    size: 480x480
+    alt: before change
+    png: corpus/references/examples/crop-frame/cf837643.png
+cutout-checkerboard:
+  use: feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the
+    headline says remove, cut out, transparent, sticker, batch, isolate.
+  slots: callout-1:1 (n=…).
+  ground: 'black (default) | checker: the checkerboard fills the ground instead of two panels (n=…).'
+  panels_worker: 'A `cutout-a` and B `cutout-b` (generate 2:3): two products or subjects each generated alone on
+    a plain mid-grey backdrop, then `picsart_remove_bg` (free) so they arrive as transparent PNGs; they are placed
+    with `fit: contain`. C `result` (generate 3:4): one of them in a finished scene, either `picsart_change_bg`
+    on the cutout or a clean studio shot of the same subject.'
+  text: 'chrome text only: the button label (Add to bag, Download, Apply to all) is drawn by `lp-compose`. Cutout
+    subjects carry no text; a product''s own printed label counts as text and is avoided.'
+  never: a checkerboard or halo painted by the model, shadows under transparent cutouts, text on the products, more
+    than one subject per cutout panel.
+  tagged_assets: 1
+  pages:
+  - thank-you-card-maker
+  examples:
+  - id: 4604e99a
+    page: batch-photo-editor
+    slot: S06-m1
+    size: 480x480
+    alt: batch background removal
+    png: corpus/references/examples/cutout-checkerboard/4604e99a.png
+  - id: b95353fc
+    page: batch-photo-editor
+    slot: S11-m1
+    size: 480x480
+    alt: resize photos in batch
+    png: corpus/references/examples/cutout-checkerboard/b95353fc.png
+  - id: 2f68b1c9
+    page: sticker-maker
+    slot: S05-m1
+    size: 480x480
+    alt: Create stunning stickers with AI
+    png: corpus/references/examples/cutout-checkerboard/2f68b1c9.png
+template-mockup:
+  use: feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font
+    and logo generators; the headline says template, design, customize, layout, brand.
+  slots: callout-1:1 (n=…), gallery-1:1 (n=…).
+  ground: 'white (default, with tool tiles) | black: black ground with a magenta tile, a gradient swatch and a checkerboard
+    cutout beside the card, the poster-maker look (n=…) | gradient: pink-to-purple, no tiles (n=…).'
+  panels_worker: 'A `photo` (generate 1:1): the photograph the template is built around: a single product or lifestyle
+    subject on a plain or softly coloured backdrop, front-on, centred, at least 25 % margin around the subject.
+    It is a flat picture, not a printed object. A person holding the product reads as well as the product alone.'
+  text: 'picture text, generated: the template''s headline (1 to 3 words: 50% OFF, Grand Opening, Summer Sale) and
+    optionally one call-to-action (1 to 2 words: Buy now, Join us), rendered by the model inside the `photo` panel
+    as poster typography, one typeface, high contrast. The compose spec then sets `omit: [headline]`. The manager
+    writes both strings in `> text:`; the four icon tiles carry no text.'
+  never: printed cards standing on tables, stacks or fans of cards, perspective, drop shadows, paper texture, logos
+    or text other than the brief's strings inside the photo, mock toolbars.
+  tagged_assets: 0
+  pages: []
+  examples:
+  - id: 5d8ec016
+    page: ai-template-generator
+    slot: S07-m1
+    size: 480x480
+    alt: Generate and personalize the ai template
+    png: corpus/references/examples/template-mockup/5d8ec016.png
+  - id: 21cdafd9
+    page: motivation-poster-maker
+    slot: S09-m1
+    size: 480x480
+    alt: Create poster designs from scratch
+    png: corpus/references/examples/template-mockup/21cdafd9.png
+  - id: 7c5d6f7d
+    page: flyer-maker
+    slot: S06-m1
+    size: 480x480
+    alt: Design eye-catching flyers in no time with Picsart’s flyer maker
+    png: corpus/references/examples/template-mockup/7c5d6f7d.png
+prompt-card:
+  use: 'hero, feature-callout and use-case-grid on ai-models and AI generator pages when the point is "type a prompt,
+    get this": the prompt text sits beside the result.'
+  slots: callout-1:1 (n=…), hero-1:1 (n=…), usecase-2:1 (n=…).
+  ground: 'black (default) | light: light grey on ai-models use-case strips (n=…).'
+  panels_worker: 'A `result` (generate 3:4 or 1:1): the image the prompt describes, editorial finish, one subject.'
+  text: the prompt sentence is chrome text (the card is chrome) and is not generated; until a template exists the
+    slot is briefed as `dark-composite` and `> text:` is `none`. The result photo carries no text.
+  never: prompt text, buttons or cursors rendered by the model; screenshots of the product.
+  tagged_assets: 1
+  pages:
+  - ai-models--dall-e-3
+  examples:
+  - id: 22f9b181
+    page: ai-models
+    slot: S02-m5
+    size: 318x199
+    alt: Seedream 5.0 Pro preview
+    png: corpus/references/examples/prompt-card/22f9b181.png
+  - id: 802fe719
+    page: ai-models--flux-kontext-max
+    slot: S08-m1
+    size: 480x480
+    alt: Why creators choose Flux Kontext Max
+    png: corpus/references/examples/prompt-card/802fe719.png
+  - id: 6e1c292f
+    page: ai-models--flux-3
+    slot: S09-m1
+    size: 879x418
+    alt: Flux 3 cinematic camera control
+    png: corpus/references/examples/prompt-card/6e1c292f.png
+full-bleed:
+  use: heroes, gallery tiles, compare-models samples, tutorial and use-case photos, every video slot's stand-in,
+    and any slot whose corpus examples are one uninterrupted picture.
+  slots: hero-1:1 (n=…), hero-21:9 (n=…), hero-16:9 (n=…), gallery-16:9 (n=…), gallery-1:1 (n=…), gallery-3:4 (n=…),
+    gallery-2:1 (n=…), usecase-4:3 (n=…), tutorial-3:2 (n=…), resource-3:2 (n=…).
+  ground: none (the picture fills the slot).
+  panels_worker: 'A the whole slot at the slot''s generate ratio: one editorial photograph or one clean illustration,
+    one subject, one light, safe margin around the subject when `lp-inject` will crop. Tutorial and blog thumbnails
+    are editorial photographs of people at work or objects in raking light; use-case 4:3 photos are lifestyle shots
+    on a seamless backdrop.'
+  text: picture text when the slot's `> text:` names it (a hero tagline of at most 4 words, a poster or magazine
+    headline that is part of the artwork, a model's sample text when the section is about text rendering); `none`
+    otherwise. Rendered by the model at the position the brief gives; HTML copy overlays are never duplicated in
+    the image.
+  never: collages, split panels, borders, vignettes, logos, UI, text other than the brief's strings.
+  tagged_assets: 865
+  pages:
+  - home
+  - ai-story-generator
+  - document-maker
+  - comic-book-generator
+  - ai-retouch
+  - album-cover-maker
+  - background-remover
+  - ai-models--seedance-2-5
+  - ai-image-extender
+  - ai-filters
+  - flyer-maker
+  - background-tools
+  examples:
+  - id: '57793011'
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S09-m1
+    size: 480x480
+    alt: GPT Image 1.5 or Flux 2 Pro for your workflow
+    png: corpus/references/examples/full-bleed/57793011.png
+  - id: a70e6579
+    page: comic-book-generator
+    slot: S01-m1
+    size: 276x276
+    alt: Animated fairy tale scene set in a cozy village, crayon art style, made with Picsart Comic Me
+    png: corpus/references/examples/full-bleed/a70e6579.png
+  - id: e1bda861
+    page: background-remover
+    slot: S09-m1
+    size: 423x325
+    alt: Portrait
+    png: corpus/references/examples/full-bleed/e1bda861.png
+vs-two-up:
+  use: 'hero and feature-callout on compare-models pages: two models'' results side by side, each labelled; the
+    headline names both models or says compare, versus, which is better.'
+  slots: callout-1:1 (n=…), hero-1:1 (n=…).
+  ground: light-grey (default) | white (n=…) | black (n=…).
+  panels_worker: 'A `left` and B `right` (generate 3:4 or 1:1): the same prompt rendered twice with two different
+    finishes, one subject each, the subject in the centre two thirds so the pill corner stays clear. Typography
+    stress tests (a product with printed text) are common here; the printed word is picture text and must be in
+    `> text:`.'
+  text: chrome text only for pills and chips (model names, sizes), drawn by `lp-compose` when templated. Picture
+    text only when the section is about text rendering and `> text:` names the word.
+  never: a VS badge or model names painted by the model; two unrelated subjects; logos inside the panels.
+  tagged_assets: 0
+  pages: []
+  examples:
+  - id: 1ccc69c2
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S01-m1
+    size: 480x480
+    alt: GPT Image 1.5 vs Flux 2 Pro AI image model comparison
+    png: corpus/references/examples/vs-two-up/1ccc69c2.png
+  - id: 8632c15f
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S05-m1
+    size: 480x480
+    alt: GPT Image 1.5 and Flux 2 Pro capabilities
+    png: corpus/references/examples/vs-two-up/8632c15f.png
+  - id: 0897494e
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S06-m1
+    size: 480x480
+    alt: GPT Image 1.5 vs Flux 2 Pro accuracy and quality
+    png: corpus/references/examples/vs-two-up/0897494e.png
+mockup-card:
+  use: 'feature-callout on tool pages when the result is shown in use: a profile card, a shop listing, a social
+    post built from the photo next to it; the headline says profile, avatar, listing, product photo, e-commerce,
+    social.'
+  slots: callout-1:1 (n=…).
+  ground: black (default) | white (n=…).
+  panels_worker: 'A `photo` (generate 3:4): one person or product in an environment, front-on, head or product in
+    the centre third so the avatar crop works. B `cutout`: A through `picsart_remove_bg` (free) for the product
+    card variant.'
+  text: 'chrome text only: names, counts, prices and button labels are placeholders drawn by `lp-compose`; never
+    real names or brands. The photo carries no text.'
+  never: a real social network's logo or layout copied exactly, readable personal names, real prices with currency,
+    UI painted by the model.
+  tagged_assets: 1
+  pages:
+  - collage-maker
+  examples:
+  - id: 7a980105
+    page: background-remover
+    slot: S08-m1
+    size: 480x480
+    alt: remove image background with ai
+    png: corpus/references/examples/mockup-card/7a980105.png
+  - id: ec67a479
+    page: background-remover
+    slot: S10-m1
+    size: 480x480
+    alt: how to remove images in batches
+    png: corpus/references/examples/mockup-card/ec67a479.png
+cinematic-still:
+  use: '9:16 gallery tiles and hero carousels on ai-models and ai-tool pages: one filmic frame per tile, no chrome,
+    part of a set that reads as one reel.'
+  slots: gallery-9:16 (n=…), hero-9:16 (n=…), hero-1:1 (n=…).
+  ground: none (the frame fills the tile).
+  panels_worker: 'A the tile (generate 9:16): a cinematic frame, one subject, shallow depth, filmic grade (teal-orange,
+    monochrome, golden hour), a 2.39 letterbox never; safe margin at top and bottom for the page''s rounded corners.'
+  text: none; `> text:` is `none`.
+  never: collages, borders, subtitles, watermarks, model logos, mixed grades within one set.
+  tagged_assets: 360
+  pages:
+  - aura
+  - home
+  - bookmark-maker
+  - ai-image-generator
+  - ai-models--elevenlabs-music-v2
+  - ai-models--nano-banana-pro
+  - ai-models--wan-2-7
+  - ai-models--nano-banana-2
+  - ai-models--google-omni
+  - ai-models--grok-imagine
+  - ai-models--happyhorse-1-0
+  - ai-models--runway-aleph-2-0
+  examples:
+  - id: c3aaa9b3
+    page: ai-models--flux-3
+    slot: S03-m1
+    size: 196x348
+    alt: promo banner 9
+    png: corpus/references/examples/cinematic-still/c3aaa9b3.png
+  - id: ee82a094
+    page: ai-models--flux-3
+    slot: S03-m2
+    size: 196x348
+    alt: promo banner 8
+    png: corpus/references/examples/cinematic-still/ee82a094.png
+  - id: 029d49e5
+    page: ai-models--kling-3-0
+    slot: S03-m2
+    size: 196x348
+    alt: ''
+    png: corpus/references/examples/cinematic-still/029d49e5.png
+graphic-collage:
+  use: '1:1, 2:3 and 16:9 gallery tiles on tool pages (background remover, sticker maker, photo editor): a cutout
+    person or product over a saturated flat ground with shapes, circles and brush strokes, poster-like.'
+  slots: gallery-1:1 (n=…), gallery-2:3 (n=…), gallery-16:9 (n=…).
+  ground: 'solid-colour (default: purple, coral, tomato red, lime) | gradient (n=…).'
+  panels_worker: 'A the tile at the slot''s ratio: one cutout subject (a person mid-gesture, a product, a food item)
+    with a hard edge over a flat saturated ground, two or three flat geometric shapes and one or two loose black
+    brush strokes behind it; no photographic background.'
+  text: none by default; a single word in bold display type only when `> text:` names it.
+  never: photographic backgrounds, drop shadows, gradients as the main ground, more than one subject, text other
+    than the brief's string.
+  tagged_assets: 1
+  pages:
+  - add-stickers-to-photos
+  examples:
+  - id: 9f8db27a
+    page: background-remover
+    slot: S02-m1
+    size: 276x276
+    alt: Calm editorial product scene showing a cobalt candle isolated over warm ivory paper and a muted peach shape.
+    png: corpus/references/examples/graphic-collage/9f8db27a.png
+  - id: 5d9d8a25
+    page: background-remover
+    slot: S02-m2
+    size: 276x276
+    alt: Flash-lit silver charm necklace isolated over a vivid coral background with black and yellow graphic shapes.
+    png: corpus/references/examples/graphic-collage/5d9d8a25.png
+  - id: 865c8f66
+    page: background-remover
+    slot: S02-m3
+    size: 276x276
+    alt: Fictional Black creative director isolated in a red jacket against a violet graphic poster with orange
+      and lime shapes.
+    png: corpus/references/examples/graphic-collage/865c8f66.png
+outcome-tile:
+  use: 'small result-state tiles in tool galleries (transparent, blurred, white, colour, new background): one subject
+    shown in each outcome, tiles in a row on white.'
+  slots: gallery-16:10 (n=…).
+  ground: 'white (default) | checker: the transparent outcome shows the light checkerboard (n=…).'
+  panels_worker: 'A the tile (generate 16:9, cropped by `lp-inject`): one product or food cutout, centred, on the
+    outcome''s backdrop (white, a blurred scene, a solid colour, a new scene made with `picsart_change_bg` from
+    the same cutout).'
+  text: none.
+  never: different subjects across the set, shadows on the transparent state, text, UI.
+  tagged_assets: 17
+  pages:
+  - background-tools
+  - birthday-card-maker
+  - wallpaper-maker
+  - menu-maker
+  - collage-maker
+  - facebook-post-maker
+  - twitter-post-maker
+  - quote-maker
+  - label-maker
+  - ai-models--imagen-4-0
+  - ai-retouch
+  - ai-models--flux-2-pro
+  examples:
+  - id: 8542fb1b
+    page: background-remover
+    slot: S07-m1
+    size: 360x226
+    alt: transparent background
+    png: corpus/references/examples/outcome-tile/8542fb1b.png
+  - id: cbd078ac
+    page: background-remover
+    slot: S07-m2
+    size: 360x226
+    alt: different background
+    png: corpus/references/examples/outcome-tile/cbd078ac.png
+  - id: db63aad8
+    page: background-remover
+    slot: S07-m3
+    size: 360x226
+    alt: new background
+    png: corpus/references/examples/outcome-tile/db63aad8.png
+editor-canvas:
+  use: 'link-grid thumbnails on tool pages: a rounded image card on the Picsart editor canvas with selection handles,
+    a grid overlay, a cursor and glyph chips.'
+  slots: thumb-5:4 (n=…), thumb-16:10 (n=…).
+  ground: white (default) | light-grey (n=…).
+  panels_worker: none produced; the source tile is kept.
+  text: chrome text only (tool labels), kept from source.
+  never: generated.
+  tagged_assets: 0
+  pages: []
+  examples:
+  - id: 86c853b4
+    page: ai-logo-generator
+    slot: S11-m1
+    size: 342x282
+    alt: all-in-one photo editor
+    png: corpus/references/examples/editor-canvas/86c853b4.png
+  - id: 57614e21
+    page: ai-design-generator
+    slot: S11-m4
+    size: 342x282
+    alt: AI image enhancer
+    png: corpus/references/examples/editor-canvas/57614e21.png
+  - id: 71e9ad23
+    page: ai-models--grok-imagine-1-0
+    slot: S11-m1
+    size: 342x282
+    alt: ai model nano banana
+    png: corpus/references/examples/editor-canvas/71e9ad23.png
+model-card:
+  use: 'link-grid thumbnails on ai-models pages: one large rounded render of the model''s output with a row of three
+    small chips under it (model mark, two detail crops).'
+  slots: thumb-5:4 (n=…).
+  ground: light-grey (default) | white (n=…).
+  panels_worker: none produced today; when templated, A `render` (generate 16:9 or 3:2) and two anchors of the same
+    URL for the crop chips.
+  text: chrome text only (the model mark), kept from source.
+  never: 'generated today; later: model logos painted by the model.'
+  tagged_assets: 0
+  pages: []
+  examples:
+  - id: c3cbf8c8
+    page: ai-models
+    slot: S03-m6
+    size: 318x199
+    alt: Flux 3 preview
+    png: corpus/references/examples/model-card/c3cbf8c8.png
+  - id: c02d25a9
+    page: ai-models--flux-2-klein-4b
+    slot: S12-m3
+    size: 342x282
+    alt: Nano Banana Pro AI Model
+    png: corpus/references/examples/model-card/c02d25a9.png
+  - id: 1794ea79
+    page: ai-models--async-flash-v1
+    slot: S12-m7
+    size: 342x282
+    alt: Kling 3.0 AI model for video generation
+    png: corpus/references/examples/model-card/1794ea79.png
+panel-overlay:
+  use: 'hero and use-case cards on adjustment-tool pages (HSL, colorize, change colour, curves, filters, adjust):
+    a stock lifestyle photo with the tool''s dark control panel laid over it, so the picture shows the edit and
+    the panel shows the control. The headline names a colour property (hue, saturation, lightness, tone, colour)
+    or says adjust, tweak, fine-tune. Not every colour tool carries the panel: hair-color-changer''s cards are stock
+    portraits on the tilted ground with no panel (`omit: [panel]`) and its hero is a sticker collage; check the
+    page''s own cards before assuming the panel (runs/trial-5).'
+  slots: usecase-4:3 (n=…); the pooled 4:3 hero and 5:4 cards of the same pages (hsl-color S01-m1, hair-color-changer
+    S02).
+  ground: 'none (default: the photo fills the slot, the panel sits over its lower right, corners rounded) | white:
+    the photo card and a plain card behind it tilted about 10 degrees on the page''s white ground (hsl-color S03-m2
+    and S03-m4, hair-color-changer S02-m2 and S02-m4); `ground: tilted` in the compose spec.'
+  panels_worker: 'A `photo` (generate at the slot ratio, 4:3 or 5:4): a stock fashion or lifestyle photograph, one
+    person, one or two bold garment colours or a flat coloured backdrop (a striped studio wall, a seamless yellow,
+    gel light in magenta and cyan), hard even studio or street light, high saturation, face visible; the subject
+    in the left two thirds so the panel''s lower-right 50 % x 50 % (or the hero''s upper-right quarter) covers only
+    backdrop. Describe the stock look, not the section copy''s example objects: the originals ignore "orange and
+    green elements" and show a red top on a striped wall.'
+  text: 'chrome text only: the panel title (the tool''s short name from the H1: HSL), the slider labels (Hue, Saturation,
+    Lightness, or the property the section copy names) and their values are drawn by `lp-compose`; the hero pill
+    carries the same short name. The photo carries no text; `> text:` is `none`.'
+  never: a panel, sliders, chips or a colour wheel painted by the model; a recoloured or "hue-shifted" subject prompted
+    into the photo (the panel implies the edit); a still life or landscape where the corpus shows people; two people;
+    a busy background under the panel.
+  tagged_assets: 5
+  pages:
+  - hsl-color
+  examples:
+  - id: 85708ef3
+    page: hsl-color
+    slot: S01-m1
+    size: 519x389
+    alt: Picsart HSL color
+    png: corpus/references/examples/panel-overlay/85708ef3.png
+  - id: da31e929
+    page: hsl-color
+    slot: S03-m1
+    size: 541x406
+    alt: HSL color
+    png: corpus/references/examples/panel-overlay/da31e929.png
+  - id: 0c9be8c4
+    page: hsl-color
+    slot: S03-m3
+    size: 541x406
+    alt: create mood with the saturation
+    png: corpus/references/examples/panel-overlay/0c9be8c4.png
+  - id: 9caa06ad
+    page: hsl-color
+    slot: S03-m2
+    size: 541x406
+    alt: Give your photos a new hue
+    png: corpus/references/examples/panel-overlay/9caa06ad.png
+  - id: e9c17dd8
+    page: hsl-color
+    slot: S03-m4
+    size: 541x406
+    alt: play with lightness for your photo edits
+    png: corpus/references/examples/panel-overlay/e9c17dd8.png

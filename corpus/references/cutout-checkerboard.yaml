@@ -1,0 +1,155 @@
+family: cutout-checkerboard
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Catalogue-style studio shots of one subject: a cap, sneaker, bottle, flowers or a
+    head-and-shoulders portrait, centred on a seamless plain backdrop (white, light grey,
+    pastel blue, one bold colour). Soft even light, no clutter, crisp edges.
+  search_terms:
+    - baseball cap studio white background
+    - product photography plain background single object
+    - sneaker white background
+    - portrait white background studio expressive
+    - flowers vase pastel blue background
+    - bag product
+examples:
+  - url: https://www.pexels.com/photo/mesh-baseball-cap-26956136/
+    image: https://images.pexels.com/photos/26956136/pexels-photo-26956136.jpeg
+    creator: Mohamed Abdelghaffar
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4604e99a: one baseball cap with a stitched patch, studio light, neutral white backdrop
+    differs: >
+      Picsart removes the backdrop, places two caps as cutouts A and B, keeps one on grey seamless as C
+  - url: https://www.pexels.com/photo/purple-hair-comb-on-a-white-surface-7123547/
+    image: https://images.pexels.com/photos/7123547/pexels-photo-7123547.jpeg
+    creator: Tara Winstead
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4604e99a: one small saturated product isolated on white, flat even light, front-on
+    differs: >
+      Picsart wants a mid-grey backdrop for the cutout panels and crops to 2:3
+  - url: https://www.pexels.com/photo/photo-of-a-yellow-notebook-7718809/
+    image: https://images.pexels.com/photos/7718809/pexels-photo-7718809.jpeg
+    creator: MART PRODUCTION
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4604e99a: single object floating on a neutral seamless, soft studio light, centred
+    differs: >
+      Picsart adds no floating look; the cutout sits with fit contain, checkerboard drawn by lp-compose
+  - url: https://www.pexels.com/photo/black-bottle-on-red-background-5994299/
+    image: https://images.pexels.com/photos/5994299/pexels-photo-5994299.jpeg
+    creator: Maksim Goncharenok
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      b95353fc: one object on a single bold colour field, soft light, plain surface
+    differs: >
+      Picsart keeps the bold colour only for the result panel C; cutouts are shot on grey
+  - url: https://www.pexels.com/photo/white-shoe-on-red-background-18212364/
+    image: https://images.pexels.com/photos/18212364/pexels-photo-18212364.jpeg
+    creator: Santiago Sauceda González
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      4604e99a: one sneaker, even light, seamless coloured backdrop, product catalogue framing
+    differs: >
+      Picsart would shoot it on mid-grey, cut it out and pair it with a second shoe
+  - url: https://unsplash.com/photos/LG88A2XgIXY
+    image: https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb
+    creator: Luis Felipe Lins
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      4604e99a: single sneaker on a plain light backdrop, clean edges, studio light
+    differs: >
+      Picsart drops the shadow under the cutout and crops 2:3; brand marks avoided
+  - url: https://unsplash.com/photos/JM-qKEd1GMI
+    image: https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8
+    creator: Daniel Storek
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      4604e99a: one white shoe on a neutral seamless, soft even light, side-on
+    differs: >
+      Picsart avoids visible brand logos on the product and pairs it with a second cutout
+  - url: https://unsplash.com/photos/78qF6kV-eOI
+    image: https://images.unsplash.com/photo-1773236759398-a9d5d239e054
+    creator: Zhang qc
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      b95353fc: flowers as the single subject on a soft pastel blue field, diffused light
+    differs: >
+      Picsart puts the flowers in one pink object (cabinet, locker) and frames it front-on at 3:4
+  - url: https://unsplash.com/photos/a-woman-with-a-surprised-look-on-her-face-RBDvZAkpbWc
+    image: https://images.unsplash.com/photo-1713370367845-bcdaef54cc99
+    creator: Look Studio
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      2f68b1c9: one woman, astonished expression, head and shoulders, even studio light, plain grey backdrop
+    differs: >
+      Picsart shoots on white, cuts her out, then drops the cutout onto a paper-texture collage
+  - url: https://www.pexels.com/photo/woman-in-black-sleeveless-top-with-blue-manicured-nails-5051719/
+    image: https://images.pexels.com/photos/5051719/pexels-photo-5051719.jpeg
+    creator: Engin Akyurt
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      2f68b1c9: single smiling woman on a white studio backdrop, even light, minimal shadows
+    differs: >
+      Picsart frames tighter (face and hands), no jewellery detail, then removes the white
+creators:
+  - name: Mohamed Abdelghaffar
+    platform: Pexels
+    profile_url: https://www.pexels.com/@moh-adbelghaffar/
+    why: >
+      Studio-lit fashion and product shots of single subjects in controlled settings; the cap example is his.
+  - name: Luis Felipe Lins
+    platform: Unsplash
+    profile_url: https://unsplash.com/@felipefxo
+    why: >
+      Product shots of sneakers and phones on minimalist backgrounds with clean texture and matte finish.
+  - name: Tara Winstead
+    platform: Pexels
+    profile_url: https://www.pexels.com/@tara-winstead/
+    why: >
+      Flat, evenly lit objects isolated on white or a single bright colour; clean edges for cutouts.
+  - name: MART PRODUCTION
+    platform: Pexels
+    profile_url: https://www.pexels.com/@mart-production/
+    why: >
+      Large studio catalogue; the neutral-backdrop object and cap-portrait series fit, though the profile mixes in lifestyle work.
+  - name: Look Studio
+    platform: Unsplash
+    profile_url: https://unsplash.com/@lookphoto
+    why: >
+      Posed studio portraits with strong facial expressions on plain backdrops, the sticker-maker portrait genre.
+  - name: Engin Akyurt
+    platform: Pexels
+    profile_url: https://www.pexels.com/@enginakyurt/
+    why: >
+      Many even-lit portraits of women on white studio backgrounds; the rest of the profile is underwater and nature work.
+picsart_specific:
+  - black ground (or a checkerboard filling the whole ground) with two 2:3 cutout panels stacked left and a 3:4 result right
+  - the grey-and-dark checkerboard behind the cutouts, drawn by lp-compose, never photographed
+  - magenta check badges on the cutout panels and a black pill button (Add to bag, Download, Apply to all)
+  - cutouts placed with fit contain, no shadow or halo under them
+  - the result panel may be a collage (paper texture, flat-lay garments, template headline) rather than a clean studio shot
+category_convention: >
+  Background-remover pages (remove.bg, Canva, Adobe Express) show one subject on a grey-and-white
+  checkerboard beside the original photo; Picsart's variant adds a second cutout and a finished scene.
+prompt_guidance: >
+  Panels A, B: one product or person alone, centred on plain mid-grey seamless, soft even
+  light, no labels, no props; background removed afterwards, never a painted checkerboard,
+  halo or shadow. Panel C: same subject, clean 3:4 studio scene, no text.
+open:
+  - No Pexels or Unsplash match for the pink flower-filled cabinet on blue (b95353fc); the closest is a plain flowers-on-pastel-blue shot.
+  - No verified free portrait with hands framing the face on white; the two portraits found are grey or white backdrops without that gesture.
+  - Curated Lifestyle's Lisianthus-in-jar on pale blue (6HljH9l5zSE) fits but is Unsplash+ premium, so dropped.
+  - Pexels and Unsplash profile summaries come from the first page of each gallery, not the whole body of work.

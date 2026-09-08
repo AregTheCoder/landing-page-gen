@@ -1,0 +1,146 @@
+family: vs-two-up
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Campaign-grade single-subject photography: one product or one face per panel, centred, filling the
+    frame. Seamless or gradient studio backdrops (grey, white, sunset) or one bold prop under hard sun.
+    Saturated colour, crisp texture: condensation, freckles, leather grain.
+  search_terms:
+    - beauty portrait freckles studio
+    - portrait gradient background studio
+    - soda can product photography
+    - handbag blue sky
+    - product on rock studio
+    - studio portrait colorful background
+    - product photography can studio
+examples:
+  - url: https://www.pexels.com/photo/elegant-portrait-of-freckled-woman-with-red-lips-31249232/
+    image: https://images.pexels.com/photos/31249232/pexels-photo-31249232.jpeg
+    creator: Tugrul Kurnaz
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8632c15f right panel: one freckled woman, front-on close-up, red lips, white seamless, even studio light.
+    differs: >
+      Picsart uses wet slicked hair and pastel clothing; crops to 3:4 with the model pill beneath.
+  - url: https://www.pexels.com/photo/close-up-portrait-of-a-woman-with-freckles-and-makeup-39242362/
+    image: https://images.pexels.com/photos/39242362/pexels-photo-39242362.jpeg
+    creator: Tatan Zuleta
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8632c15f right panel: extreme close-up on freckled skin texture, bold makeup, neutral backdrop, even light.
+    differs: >
+      Picsart pulls back to head-and-shoulders so the panel reads as a portrait, not a texture study.
+  - url: https://www.pexels.com/photo/portrait-of-a-woman-against-a-vibrant-orange-background-30153394/
+    image: https://images.pexels.com/photos/30153394/pexels-photo-30153394.jpeg
+    creator: Ander Masó (Lord Ander M)
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0897494e right panel: one face, tight crop, solid vibrant orange seamless, warm even light.
+    differs: >
+      Picsart adds a denim cap as the shared prop and a gradient rather than a flat colour.
+  - url: https://www.pexels.com/photo/the-side-view-of-a-man-in-a-black-shirt-9092309/
+    image: https://images.pexels.com/photos/9092309/pexels-photo-9092309.jpeg
+    creator: Gustavo Rangel
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0897494e left panel: strict profile portrait, one man, saturated violet seamless, clean studio light.
+    differs: >
+      Picsart's profile is warm orange-to-pink gradient with a cap; pill sits bottom-left over the sweater.
+  - url: https://unsplash.com/photos/8n-utUEVSEA
+    image: https://images.unsplash.com/photo-1631016380968-a41fc77435e7
+    creator: Takashi Miyazaki
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      0897494e: studio headshot, one subject in a plain crew-neck, colour-washed blue-purple backdrop.
+    differs: >
+      Picsart's backdrop is a warm gradient and the subject is centred in the middle two thirds for the pill.
+  - url: https://www.pexels.com/photo/chilled-soda-can-with-vapor-on-black-background-31763557/
+    image: https://images.pexels.com/photos/31763557/pexels-photo-31763557.jpeg
+    creator: Bastian Riccardi
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8632c15f left panel: one red can, condensation and mist, studio light on metal, product centred.
+    differs: >
+      Picsart's can stands on a rock against grey seamless, portrait 2:3, with a large invented label.
+  - url: https://www.pexels.com/photo/pink-grapefruit-soda-can-with-ice-cubes-36880405/
+    image: https://images.pexels.com/photos/36880405/pexels-photo-36880405.jpeg
+    creator: Christopher Welsch Leveroni
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8632c15f left panel: single pink can, cool colour backdrop, condensation, product-shot styling.
+    differs: >
+      Picsart drops the ice, uses a rock pedestal and a flat grey backdrop; the label text is the point.
+  - url: https://unsplash.com/photos/r-CWO2HFhJo
+    image: https://images.unsplash.com/photo-1781560144322-760def599494
+    creator: Sana Sana
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      8632c15f left panel: one orange can centred on a rough wooden stump, natural light, soft background.
+    differs: >
+      Picsart swaps stump for granite rock and the outdoor blur for grey seamless; adds condensation.
+  - url: https://www.pexels.com/photo/person-holding-leather-handbag-7104458/
+    image: https://images.pexels.com/photos/7104458/pexels-photo-7104458.jpeg
+    creator: Oswald Yaw El-Saboath
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      1ccc69c2: one leather handbag close-up against a clear blue sky, frontal hard daylight.
+    differs: >
+      Picsart hangs the bag on a prickly-pear cactus, saturated yellow leather, no hand; square crop.
+  - url: https://www.pexels.com/photo/elegant-wild-black-perfume-with-dramatic-lighting-36834269/
+    image: https://images.pexels.com/photos/36834269/pexels-photo-36834269.jpeg
+    creator: High Rollick studio
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      8632c15f left panel: single product on rock stones, theatrical hard light, neutral grey-brown tones.
+    differs: >
+      Picsart's product is a bright pastel can, lit flatter, on a flat grey seamless rather than a stone set.
+creators:
+  - name: Tugrul Kurnaz
+    platform: Pexels
+    profile_url: https://www.pexels.com/@tugrulkurnaz/
+    why: >
+      Fashion and beauty portraits on white studio seamless, 262 photos; clean front-on faces like the Flux panel.
+  - name: Ander Masó (Lord Ander M)
+    platform: Pexels
+    profile_url: https://www.pexels.com/@ander-maso-lord-ander-m-2147531762/
+    why: >
+      1.6K dramatic studio portraits on saturated solid backdrops with controlled light; the colour-seamless half.
+  - name: Muneeb Malhotra
+    platform: Pexels
+    profile_url: https://www.pexels.com/@dhanno/
+    why: >
+      2.9K fashion, brand-campaign and product shots on minimalist coloured backdrops; handbag campaigns included.
+  - name: Christopher Welsch Leveroni
+    platform: Pexels
+    profile_url: https://www.pexels.com/@christopher-welsch-leveroni-2150186467/
+    why: >
+      487 bold single-subject studio shots (cans, a dog) on vivid yellow and colour backdrops; playful product styling.
+picsart_specific:
+  - two equal panels side by side, each a rounded tile, on a light-grey, white or black ground
+  - model pill under or over each panel with the provider logo and model name
+  - a circular VS badge on the seam between the panels
+  - size and ratio chips (1024x1024, 2k, 1x1, 3x4) under each panel
+  - the same prompt rendered twice, so subject, prop and palette repeat across both panels
+  - a large invented brand word on the product when the section tests text rendering
+category_convention: >
+  Model-comparison pages elsewhere also show identical-prompt pairs, usually portrait and product-with-text,
+  so the reader judges skin, typography and prompt adherence at a glance.
+prompt_guidance: >
+  One subject, centred in the middle two thirds: a studio portrait on seamless or gradient, or one product on
+  seamless or a single bold prop under hard light. Saturated colour, crisp texture. Same prompt both panels.
+  No text unless `> text:` names it; never model names, VS badge or logos.
+open:
+  - No Pexels or Unsplash match for a handbag hung on a cactus; closest is a bag held against blue sky.
+  - Denim-cap studio portraits on a gradient backdrop not found; cap portraits on the platforms are street or monochrome.
+  - Unsplash+ premium results (plus.unsplash.com) appeared in searches and were dropped as not freely licensed.
