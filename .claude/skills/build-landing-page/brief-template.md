@@ -54,8 +54,17 @@ Kept from source (do not produce): <list or "none">
 
 ## Examples from the corpus (same section type)
 
-<for each of 2-3 examples: page slug, section type, the excerpt markdown,
-and the local media paths under examples/>
+<for each of 2 examples: page slug, section type, the excerpt markdown, and
+the one local media path under examples/ (`similar -k 2`, one image each)>
+
+## References
+
+<from corpus/references/<family>.yaml: the `prompt_guidance` paragraph
+verbatim, the `photography.search_terms` list, and two `examples` entries
+(url, creator) whose `matches` names this slot's class>
+
+Build the photo prompt from this genre; the section copy gives the subject
+matter, never the look.
 
 ## Shared context
 

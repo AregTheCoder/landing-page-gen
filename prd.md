@@ -134,6 +134,21 @@ taught it.
   panel, and its hero is a sticker collage; brief the ground and the photo
   from the family, and the chrome only when the page's own cards show it.
   (runs/trial-5)
+- The paid calls are a tenth of a run's clock; the rest is briefing, review
+  rounds and rework. A worker or reviewer that loads the whole skill reads
+  40 KB of families it does not need; a brief with twelve example images
+  costs more than the render it asks for. Load the companions the role
+  needs, one image per example at 480 px, one render read per gate.
+  (runs/live-1, timing from ledger.jsonl)
+- Paperwork is not a review. A missing preflight row, `count: 2` or an empty
+  gate is caught by `precheck.py` and fixed by one message to the worker;
+  the reviewer looks at pixels, once per wave, for every section at once.
+  (runs/live-1 S01, round 2 was record-only)
+- Anchoring is words first. The hero's light, palette and finish written into
+  `shared-context.md` from the skeleton let every section start together;
+  the hero URL is an optional `imageUrls` for a Series that has not yet
+  rendered. (runs/live-1: 7 idle minutes between waves; runs/trial-4 and
+  trial-5 landed the look without an image anchor)
 
 ## Non-goals
 

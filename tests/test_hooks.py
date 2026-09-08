@@ -130,3 +130,21 @@ def test_check_result_accepts_composite_contract(tmp_path):
         "    scores: {clean: 5}\n---\n")
     assert run_hook("check_result.py", payload, run) is None
     assert yaml.safe_load((section / "workflow.yaml").read_text())["steps"][0]["tool"] == "lp-compose"
+
+
+def test_check_result_takes_the_assigned_section_not_a_stray_path(tmp_path):
+    run = make_run(tmp_path)
+    for sid in ("S03", "S09"):
+        (run / "sections" / sid).mkdir(parents=True)
+    transcript = tmp_path / "t.jsonl"
+    lines = [json.dumps({"input": {"file_path": f"{run}/sections/S09/brief.md"}}),  # a stray earlier path
+             json.dumps({"prompt": f"Section S03. Work only inside `{run}/sections/S03/`. Read `brief.md` first."}),
+             json.dumps({"input": {"file_path": f"{run}/sections/S03/workflow.yaml"}})]
+    transcript.write_text("\n".join(lines) + "\n")
+    payload = {"transcript_path": str(transcript), "stop_hook_active": False}
+    out = run_hook("check_result.py", payload, run)
+    assert out["decision"] == "block" and "S03" in out["reason"] and "S09" not in out["reason"]
+    # without the assignment sentence, the most-named existing section wins
+    transcript.write_text("\n".join(lines[0:1] + lines[2:] * 2) + "\n")
+    out = run_hook("check_result.py", payload, run)
+    assert "S03" in out["reason"]

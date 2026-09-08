@@ -6,16 +6,21 @@ Pick the pattern that matches the slot, write every step into
 ## Patterns
 
 **direct**: for the hero or any slot with no shared context yet.
-1. generate `gemini-3-pro-image`, `count: 2`, 2K, nearest ratio → gate: pick
-   one or fix the prompt and regenerate (once).
+1. generate `gemini-3-pro-image`, `count: 1`, 1K, nearest ratio → gate: pass,
+   or fix the prompt and regenerate (once). The prompt names the stock genre
+   from the brief's `## References` (subject, light, backdrop, colour,
+   framing) and keeps clear the area a chrome item will cover.
 2. targeted edit (`picsart-qwen-image-edit`) only if the gate named a
    concrete flaw (extra hand, stray object, wrong colour).
 3. enhance ×2 if the slot is wider than 2000 px or the pick is soft.
 
-**anchored** (default after the hero): same as direct, but step 1 passes the
-accepted hero URL in `imageUrls` and the prompt says "same lighting, palette
-and finish as the reference; new subject: ...". Keeps the page reading as one
-campaign.
+**anchored** (default after the hero): same as direct, but the prompt carries
+the hero's light, palette and finish in words from `shared-context.md`
+("hard even studio flash, seamless yellow and purple, glossy editorial
+finish"). Pass the hero URL in `imageUrls` only when `shared-context.md`
+already has one when you start and the slot is a Series member; then the
+prompt also says what of the hero must not appear ("no rose, no vase").
+Words keep the page reading as one campaign without waiting for the hero.
 
 **product cutout**: for slots whose source media is a subject on a flat or
 transparent background.
@@ -82,7 +87,9 @@ briefed as. The worker generates the photographic panels only;
   reliably; `gemini-3.1-flash-image` is acceptable for one string of one
   or two words. Do not switch to a text-specialist model unless the brief
   says so.
-- Resolution: 2K by default; 4K only when the slot is over 2500 px wide.
+- Resolution: 1K by default (1200 px covers every card and tile); 2K when the
+  slot's natural width is over 1000 px; 4K only over 2500 px. `count: 1`
+  always on `gemini-3-pro-image` (a second candidate is a second call).
 - Faces and hands are the artefact hotspots. Prefer compositions that do not
   depend on them unless the examples do.
 

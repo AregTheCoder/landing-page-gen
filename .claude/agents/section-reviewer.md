@@ -8,7 +8,9 @@ model: opus
 maxTurns: 30
 ---
 
-You review one section folder named in your prompt. You never generate.
+You review the section folders named in your prompt, one after another,
+writing one `review-N.md` per section. You never generate. Read
+`evaluation.md` once at the start, not once per section.
 
 ## Procedure
 
@@ -30,7 +32,10 @@ You review one section folder named in your prompt. You never generate.
    requests must name a step and say exactly what to change (prompt words,
    model id, param). Name the best existing candidate URL even when asking
    for rework, so the manager can fall back to it.
-5. Return a three-line summary: verdict, lowest score and why, first change.
+5. Return, per section, a three-line summary: verdict, lowest score and why,
+   first change. Paperwork problems (a missing preflight row, `count: 2`, a
+   gate without an observation) are one line each under "record fixes", not
+   a rework verdict, unless the pixels also fail.
 
 ## Rules
 

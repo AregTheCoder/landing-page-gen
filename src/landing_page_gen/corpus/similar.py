@@ -93,13 +93,19 @@ def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=No
     return out
 
 
-def to_png(path):
+EXAMPLE_MAX_PX = 480  # long side of an example image: the look reads at this size, tokens do not
+
+
+def to_png(path, max_px=EXAMPLE_MAX_PX):
     """Images arrive as AVIF/WebP (sometimes behind a .png name), which agents
-    cannot view; re-encode as PNG by content, not by suffix."""
+    cannot view; re-encode as PNG by content, not by suffix, no larger than
+    max_px on the long side."""
     from PIL import Image
     png = path.with_suffix(".png")
     with Image.open(path) as im:
         rgb = im.convert("RGB")
+    if max_px and max(rgb.size) > max_px:
+        rgb.thumbnail((max_px, max_px), Image.LANCZOS)
     rgb.save(png)
     if path != png:
         path.unlink()
@@ -140,13 +146,13 @@ class FrameGrabber:
             page.close()
 
 
-MAX_EXAMPLE_MEDIA = 4
+MAX_EXAMPLE_MEDIA = 1  # per example section; a brief shows the look, not the whole grid
 
 
-def write_examples(con, rows, out_dir, log=print, grabber=None):
-    """One <n>-<slug>-<sid>.md per hit plus up to MAX_EXAMPLE_MEDIA of its
-    generated-role media as PNG (images converted, videos as a still), taken
-    from the snapshot's local copy when there is one."""
+def write_examples(con, rows, out_dir, log=print, grabber=None, max_media=MAX_EXAMPLE_MEDIA):
+    """One <n>-<slug>-<sid>.md per hit plus up to max_media of its
+    generated-role media as PNG (images converted and downscaled, videos as a
+    still), taken from the snapshot's local copy when there is one."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
@@ -155,7 +161,7 @@ def write_examples(con, rows, out_dir, log=print, grabber=None):
         gen = sorted((m for m in media if m["role"] in db.GENERATED_ROLES), key=lambda m: m["style"] is None)  # tagged first
         stem = f"{n}-{r['slug']}-{r['sid']}"
         files = []
-        for m in gen[:MAX_EXAMPLE_MEDIA]:
+        for m in gen[:max_media]:
             dest = out_dir / f"{stem}-{m['slot_id'].split('-')[-1]}.png"
             local = Path(m["local_path"]) if m["local_path"] and Path(m["local_path"]).exists() else None
             try:

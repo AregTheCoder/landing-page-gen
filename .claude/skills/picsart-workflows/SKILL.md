@@ -17,7 +17,7 @@ execute. Read only the companion you need:
 | `video-workflows.md` | the slot is a video: draft tier, startFrame, audio, extend |
 | `workflow-format.md` | writing or editing `workflow.yaml`; the re-run-from-step rule |
 | `evaluation.md` | scoring a gate, the final asset, or a whole workflow |
-| `style-families.md` | the brief names a style family: its block, the slot-class table, what the worker generates and what `lp-compose` draws |
+| `style-families.md` | never as a worker or reviewer: the brief's `## Style family` block is the copy you need (40 KB otherwise); only the manager reads the whole file |
 
 ## Non-negotiables
 
@@ -35,3 +35,6 @@ execute. Read only the companion you need:
   `Read` the file. There is no view tool.
 - Video calls use `async: true` and `picsart_job_status` polling.
 - Never touch files outside your section folder.
+- Read each input once: the brief, one image per example, each render once
+  at its gate. Do not re-open the brief or a companion file to re-check a
+  rule you already read; quote it from memory or from your workflow.yaml.

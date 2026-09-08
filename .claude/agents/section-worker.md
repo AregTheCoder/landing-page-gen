@@ -14,8 +14,11 @@ you make goes there.
 
 ## Procedure
 
-1. Read `brief.md` fully, then open every example media file under
-   `examples/` with `Read`. Note the finish, framing and density they share.
+1. Read `brief.md` once, then open the example media files under
+   `examples/` with `Read` (the manager leaves one per example). Note the
+   finish, framing and density they share. The `## References` section
+   names the stock genre and a prompt guidance line: build your photo prompt
+   from it, not from the section copy's example objects.
    The `## Style family` block says which panels you produce; you produce
    those and nothing else. Its **Template** and **Ground** lines change what
    `lp-compose` draws, never what you generate; a `Series:` line means one
@@ -28,14 +31,15 @@ you make goes there.
    exceeds the section's advisory cap, stop, write `result.md` with
    `status: blocked` and the quote, and finish.
 4. Execute step by step. After each step: `curl -sL <url> -o
-   steps/<slot>-<step>-<n>.<ext>`, `Read` it, score the gate
+   steps/<slot>-<step>-<n>.<ext>`, `Read` it once, score the gate
    (`evaluation.md`), record `outputs`, `passed`, `note`, `status`. A failed
    gate means fix that step and re-run it, not the chain. Video steps use
    `async: true` and `picsart_job_status`. `lp-compose` steps run as
    `uv run lp-compose compose-<slot>.yaml --out steps/...`; they cost
    nothing and need no preflight.
 5. Score the final asset on the full rubric. Write `result.md` per the
-   output contract in the brief. Then stop.
+   output contract in the brief: the frontmatter, the rationale in at most
+   six lines, one line per alternative. Then stop.
 
 ## When the manager sends "Rework: re-run from step N"
 

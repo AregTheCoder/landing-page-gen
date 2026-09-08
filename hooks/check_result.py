@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """SubagentStop hook for section-worker. Finds the section the worker was
-writing to (first runs/.../sections/Sxx path in its transcript, i.e. the
-section named in its assignment; workers list other sections later) and blocks the
-stop until workflow.yaml and result.md exist there with their required keys."""
+assigned ("Section Sxx. Work only inside ..." in its prompt, else the run's
+section folder its transcript names most often) and blocks the stop until
+workflow.yaml and result.md exist there with their required keys."""
 
 import json
 import re
@@ -33,22 +33,41 @@ def missing_in(folder):
     return problems
 
 
+ASSIGNMENT_RE = re.compile(r"Section (S\d+)\. Work only inside")
+
+
+def section_of(text, run):
+    """The worker's own section: the one named in its assignment sentence, else
+    the section folder of this run that its transcript names most often (a
+    worker writes many files there; a stray example path appears once)."""
+    m = ASSIGNMENT_RE.search(text)
+    if m:
+        return m.group(1)
+    counts = {}
+    for sid in SECTION_RE.findall(text):
+        if (run / "sections" / sid).exists():
+            counts[sid] = counts.get(sid, 0) + 1
+    return max(counts, key=counts.get) if counts else None
+
+
 def main():
     data = L.read_hook_input()
     if data.get("stop_hook_active"):
         return
     transcript = Path(data.get("transcript_path", ""))
     text = transcript.read_text(errors="ignore") if transcript.exists() else ""
-    sids = SECTION_RE.findall(text)
     run = L.current_run()
-    if not sids or not run.exists():
+    if not run.exists():
         return
-    folder = run / "sections" / sids[0]
+    sid = section_of(text, run)
+    if not sid:
+        return
+    folder = run / "sections" / sid
     problems = missing_in(folder)
     if problems:
         print(json.dumps({
             "decision": "block",
-            "reason": f"Not finished for {sids[0]}: " + "; ".join(problems)
+            "reason": f"Not finished for {sid}: " + "; ".join(problems)
                       + ". Write both files per the output contract, then stop.",
         }))
 

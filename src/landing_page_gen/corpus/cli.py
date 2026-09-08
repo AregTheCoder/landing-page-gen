@@ -58,6 +58,8 @@ def main(argv=None) -> int:
     sm.add_argument("--type", required=True, choices=db.SECTION_TYPES)
     sm.add_argument("--query", required=True, help="headline plus body text of the target section")
     sm.add_argument("-k", type=int, default=3)
+    sm.add_argument("--media-per-example", type=int, default=similar.MAX_EXAMPLE_MEDIA,
+                    help="images per example section written to --out (default 1)")
     sm.add_argument("--exclude", help="page slug to leave out (the page the skeleton came from)")
     sm.add_argument("--style", help="prefer sections whose media carry this style family, as family[/variant] (e.g. dark-composite/light)")
     sm.add_argument("--attr", action="append", default=[], metavar="KEY=VALUE",
@@ -150,7 +152,7 @@ def main(argv=None) -> int:
             log(f"no {a.type} sections in the corpus" + (" with generated-role media" if not a.any_media else ""))
             return 1
         with similar.FrameGrabber() as grabber:
-            similar.write_examples(con, rows, a.out, log=log, grabber=grabber)
+            similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example)
         fam = similar.split_style(a.style)[0]
         tagged = sum(1 for r in rows if con.execute(
             "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0

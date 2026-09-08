@@ -74,44 +74,67 @@ For each section with slots, fill `brief-template.md` into
 - the `## Text in image` table: one row per string from the slot's
   `> text:` line with its role (headline or call-to-action), the panel that
   carries it and where; or the single word `none`;
-- 2 to 3 example sections of the same type, same family first:
+- 2 example sections of the same type, same family first, one image each:
   `uv run lp-corpus similar --type <type> --style <true family[/ground]>
   --query "<headline and body>" --exclude <frontmatter page>
-  --exclude-asset <8-hex id of the slot's source src> -k 3
-  --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus PNGs;
-  video examples arrive as a still frame, the `src` in the excerpt is the
-  clip). `--exclude-asset` keeps sibling pages that reuse the very same
-  image out of the examples; `--attr ground=black` narrows further;
+  --exclude-asset <8-hex id of the slot's source src> -k 2
+  --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus one
+  480 px PNG each; video examples arrive as a still frame). A worker reads
+  every image it is given, so two pictures that show the look beat twelve.
+  `--exclude-asset` keeps sibling pages that reuse the very same image out
+  of the examples; `--attr ground=black` narrows further;
+- the `## References` section from `corpus/references/<family>.yaml`: its
+  `prompt_guidance` verbatim, the `search_terms`, and two `examples`
+  entries whose `matches` fit this slot's class. This is where the photo's
+  look comes from; the section copy only gives the subject matter;
 - `<run>/shared-context.md` if it exists (see step 3);
 - the budget line (advisory per-slot cap from the frontmatter) and the
   output contract.
 
-## 3. Wave 1: the hero
+## 3. Shared context, before any worker
 
-Spawn one `section-worker` (Agent tool, `subagent_type: section-worker`)
-with the prompt: "Section <Sxx>. Work only inside `<run>/sections/<Sxx>/`.
-Read `brief.md` first." Wait for it. Review (step 5). When accepted, write
-`<run>/shared-context.md`: the hero's style family, the URL of its photo
-panel (never the composite), its palette and subject in two lines, and "use
-as `imageUrls` reference for the anchored pattern".
+Write `<run>/shared-context.md` from the skeleton alone: the hero's style
+family, and its light, palette, finish and subject genre in words taken from
+the hero annotation and the family's `prompt_guidance` ("hard even studio
+flash, seamless yellow and purple, glossy editorial finish, one person").
+Anchored workers quote these words; no worker waits for the hero image.
 
-## 4. Wave 2: everything else
+## 4. One wave: every section at once
 
-Spawn one `section-worker` per remaining section, in the background, in
-parallel, same prompt shape. Their briefs now include `shared-context.md`.
+Spawn one `section-worker` per section (Agent tool, `subagent_type:
+section-worker`), all in one message, in the background, with the prompt:
+"Section <Sxx>. Work only inside `<run>/sections/<Sxx>/`. Read `brief.md`
+first." The hero is just one of them. When the hero worker finishes and its
+record passes step 5's precheck, append its photo URL to
+`shared-context.md` under `hero_url:`; a Series worker that has not yet
+generated may pass it in `imageUrls`, everyone else ignores it.
 
-## 5. Review each finished worker
+Record each agent's tokens and wall time from its completion notification in
+`report.md` under "Agents" (one line per spawn), so the next run can be
+compared.
 
-Spawn a `section-reviewer` with: the brief path, the section folder (it reads
-`workflow.yaml`, `result.md`, `steps/`), and `<run>/ledger.jsonl`. It writes
-`review-N.md` with `verdict: accept | rework | block` and numbered change
-requests tied to workflow steps. Decide:
+## 5. Precheck, then one review for the wave
 
-- accept: mark it in the report.
-- rework: SendMessage the same worker: "Rework: re-run from step N. Changes:
-  ..." (its context is intact). At most 2 rework rounds per section.
-- after 2 rounds: accept the best candidate the reviewer names, or mark the
-  slot blocked with the reason.
+1. As each worker finishes, run the paperwork check, no agent involved:
+   `uv run python .claude/skills/build-landing-page/precheck.py <run> <Sxx>`.
+   It names a paid step without a preflight row, `count` above 1, a gate
+   without an observation, `credits.spent` off the ledger, a final file not
+   on disk, or a `result.md` missing its keys. A problem here is a
+   SendMessage to the worker ("Record fix: ...") and a re-run of the check,
+   never a review round.
+2. When every section has passed the precheck (or after the last worker,
+   whichever comes first), spawn one `section-reviewer` for the whole wave
+   with: the run folder, the list of section folders, and
+   `<run>/ledger.jsonl`. It writes one `review-N.md` per section with
+   `verdict: accept | rework | block` and numbered change requests tied to
+   workflow steps. One reviewer spawn loads the rubric once for all sections.
+3. Decide per section:
+   - accept: mark it in the report.
+   - rework: SendMessage the same worker: "Rework: re-run from step N.
+     Changes: ..." (its context is intact). At most 2 rework rounds per
+     section; reworked sections are reviewed together in one more spawn.
+   - after 2 rounds: accept the best candidate the reviewer names, or mark
+     the slot blocked with the reason.
 
 Do not open candidate images yourself unless verdicts conflict; the reviewer
 has already looked. Keep your own context for coordination.
@@ -125,7 +148,9 @@ has already looked. Keep your own context for coordination.
 2. `uv run lp-inject <run>`.
 3. `picsart_credits` again. Finish `report.md`: per section pattern, steps,
    credits quoted vs spent (from `ledger.jsonl`), rounds, verdict; totals;
-   kept-from-source and blocked slots; balance delta versus ledger sum.
+   kept-from-source and blocked slots; balance delta versus ledger sum; the
+   "Agents" table (spawn, model, tokens, minutes) and the wall time from the
+   first spawn to the last verdict.
 
 ## Dry run
 

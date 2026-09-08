@@ -148,7 +148,7 @@ def test_similar_prefers_style_then_falls_back(tmp_path, monkeypatch):
         Image.new("RGB", (4, 4), "red").save(dest, format="PNG")
         return dest
     monkeypatch.setattr(similar, "download", fake_download)
-    body = similar.write_examples(con, rows, tmp_path / "ex", log=lambda m: None)[0].read_text()
+    body = similar.write_examples(con, rows, tmp_path / "ex", log=lambda m: None, max_media=2)[0].read_text()  # two, to see tagged-first
     assert "style: full-bleed, local: 1-storyboard-generator-S01-m1.png" in body and "style: untagged" in body
 
 
