@@ -1,0 +1,55 @@
+sheet: feature-callout_unknown_unknown-263f79
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-263f79.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/eed87235-38d8-4082-8823-f0589c4cf1f6.png
+    asset: eed87235
+    page: facebook-post-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/f57cb379-95bd-4fcd-b149-c08a7a1180e7.png
+    asset: f57cb379
+    page: greeting-card-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/fc4bbe40-5b69-4c57-9984-eeb4168e63a1.png
+    asset: fc4bbe40
+    page: menu-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

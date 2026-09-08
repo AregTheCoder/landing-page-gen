@@ -1,0 +1,196 @@
+sheet: gallery_solid-colour_stacked-b8b8e9
+group:
+  type: gallery
+  ground: solid-colour
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_stacked-b8b8e9.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/75006c89-7cdc-4b00-9958-7de77a9dcb2a.png
+    asset: 75006c89
+    page: facebook-post-maker
+    slot: S05-m6
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/77d0292d-cb7e-4f67-b2bc-e0a32130f02d.png
+    asset: 77d0292d
+    page: christmas-card-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/78fb4756-312b-4d0b-bb4f-e5392aae9171.png
+    asset: 78fb4756
+    page: document-maker
+    slot: S13-m15
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/7be8089d-921d-4ecb-a3bd-ee628c2f0ba8.png
+    asset: 7be8089d
+    page: thank-you-card-maker
+    slot: S04-m7
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/7e15b961-1200-43d3-9884-a43e8d6bd9a7.png
+    asset: 7e15b961
+    page: birthday-card-maker
+    slot: S05-m5
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/81a85722-54dc-4ae2-a7e5-5be8acd26a9b.png
+    asset: 81a85722
+    page: quiz-maker
+    slot: S06-m11
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/84758a21-f09d-41ba-a831-951e6e7087d5.png
+    asset: 84758a21
+    page: motivation-poster-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/865c47ea-4e80-4ffd-8fd8-a15816450985.png
+    asset: 865c47ea
+    page: quiz-maker
+    slot: S06-m15
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/99c97c44-a988-45ad-a217-19e6adfb0521.png
+    asset: 99c97c44
+    page: quiz-maker
+    slot: S06-m7
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/9c341fee-4010-4132-aac1-82343dd0bd84.png
+    asset: 9c341fee
+    page: quiz-maker
+    slot: S06-m13
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/9f67eb03-03f4-4155-b9e5-ac9dd46db438.png
+    asset: 9f67eb03
+    page: label-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/a351842c-2268-4b7c-98f7-6586e9abc307.png
+    asset: a351842c
+    page: birthday-card-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false

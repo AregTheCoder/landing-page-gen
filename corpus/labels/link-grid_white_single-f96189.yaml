@@ -1,0 +1,196 @@
+sheet: link-grid_white_single-f96189
+group:
+  type: link-grid
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_single-f96189.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/ba1366fa-0792-4639-9f5e-9dd832ac458b.png
+    asset: ba1366fa
+    page: ai-models--async-flash-v1
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png
+    asset: bb7148f9
+    page: ai-design-generator
+    slot: S11-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 17
+    n_pages: 17
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png?type=webp&to=min&r=400
+    asset: bb7148f9
+    page: ai-art-generator
+    slot: S17-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/bb7148f9-8f7d-4e67-a7af-fdcab51d7b9b.png?type=webp&to=min&r=640
+    asset: bb7148f9
+    page: ai-design-tools
+    slot: S06-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/bbde53af-8025-4b56-9acb-6516494723af.png?type=webp&to=min&r=640
+    asset: bbde53af
+    page: image-tools
+    slot: S06-m8
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/bd744bc6-0f58-44c8-abbb-e99bce168f8d.png?type=webp&to=min&r=640
+    asset: bd744bc6
+    page: content-creation-tools
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/bd7d13f4-859b-4a35-ab19-e97c47b56722.png
+    asset: bd7d13f4
+    page: youtube-thumbnail-maker
+    slot: S13-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/bd7d13f4-859b-4a35-ab19-e97c47b56722.png?type=webp&to=min&r=640
+    asset: bd7d13f4
+    page: design
+    slot: S03-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/bf7f9b65-05a4-44dd-b8f9-667ce57f7b51.png
+    asset: bf7f9b65
+    page: hd-photo-converter
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/c535af51-772d-4c70-bac8-eb7b314cedec.png
+    asset: c535af51
+    page: png-logo-maker
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/ca814ade-76eb-411f-9a88-50eafdfa15bb.png
+    asset: ca814ade
+    page: photo-effects
+    slot: S13-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/ca814ade-76eb-411f-9a88-50eafdfa15bb.png?type=webp&to=min&r=640
+    asset: ca814ade
+    page: image-tools
+    slot: S05-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

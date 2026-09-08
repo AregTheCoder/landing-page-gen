@@ -1,0 +1,103 @@
+sheet: use-case-grid_unknown_unknown-1b50b1
+group:
+  type: use-case-grid
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_unknown_unknown-1b50b1.answers.yaml
+cells:
+  1:
+    src: https://cdn130.picsart.com/29494432891824860802.png
+    asset: '29494432'
+    page: hair-color-changer
+    slot: S02-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://cdn130.picsart.com/62196660432044235255.png
+    asset: '62196660'
+    page: hair-color-changer
+    slot: S02-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn140.picsart.com/12481028616582094390.png
+    asset: '12481028'
+    page: hsl-color
+    slot: S03-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn140.picsart.com/16814288451195410172.png
+    asset: '16814288'
+    page: red-eye-remover
+    slot: S02-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn140.picsart.com/54386132267696966254.png
+    asset: '54386132'
+    page: add-stickers-to-photos
+    slot: S03-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn140.picsart.com/61572740028595691367.png
+    asset: '61572740'
+    page: hsl-color
+    slot: S03-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png
+    asset: bf5fbebe
+    page: image-style-transfer
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

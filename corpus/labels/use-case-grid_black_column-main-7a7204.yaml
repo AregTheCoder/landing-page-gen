@@ -1,0 +1,46 @@
+sheet: use-case-grid_black_column-main-7a7204
+group:
+  type: use-case-grid
+  ground: black
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_black_column-main-7a7204.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1fa421aa-7b45-47bd-9410-1d1d97aed76a.webp
+    asset: 1fa421aa
+    page: ai-assistant
+    slot: S15-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4484fd93-9d48-4dc5-b022-79cef255c467.webp
+    asset: 4484fd93
+    page: ai-assistant
+    slot: S15-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false

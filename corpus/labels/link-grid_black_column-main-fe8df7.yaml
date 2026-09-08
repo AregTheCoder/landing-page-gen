@@ -1,0 +1,91 @@
+sheet: link-grid_black_column-main-fe8df7
+group:
+  type: link-grid
+  ground: black
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_black_column-main-fe8df7.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/727a3ff5-821d-4016-9ff9-c419fb2d87c6.webp
+    asset: 727a3ff5
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf4224b1-a78d-4419-8b3a-4a8bf35d5d5e.png
+    asset: cf4224b1
+    page: home
+    slot: S16-m5
+    type: link-grid
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png
+    asset: 0016b432
+    page: ai-font-generator
+    slot: S11-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png
+    asset: bf789f0d
+    page: ai-content-generator
+    slot: S09-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/d6c2f547-5702-4ea4-8753-6cc197bda911.png
+    asset: d6c2f547
+    page: background-tools
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false

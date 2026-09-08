@@ -1,0 +1,61 @@
+sheet: link-grid_solid-colour_column-main-9e7176
+group:
+  type: link-grid
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_solid-colour_column-main-9e7176.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1e4d122b-7dd9-43f9-b2ba-9c2ee6258925.webp?type=webp&to=min&r=640
+    asset: 1e4d122b
+    page: ai-design-tools
+    slot: S06-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 8
+    n_pages: 4
+    ground: solid-colour
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png
+    asset: ec76dfa3
+    page: ai-sticker-maker
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/f0986785-46ae-4dbb-8366-6f19bb1b0aec.png
+    asset: f0986785
+    page: background-tools
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false

@@ -1,0 +1,106 @@
+sheet: gallery_white_grid-4938b2
+group:
+  type: gallery
+  ground: white
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_grid-4938b2.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/2a0d3a6a-7f0d-481c-b297-6936f4b414b7.png
+    asset: 2a0d3a6a
+    page: wallpaper-maker
+    slot: S14-m8
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/8689e655-2bb0-47de-8a81-d85a12ad7611.png
+    asset: 8689e655
+    page: timeline-maker
+    slot: S06-m13
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 8
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/94121e4a-5a3f-4b71-81e4-7ee2bcb4ce6c.png
+    asset: 94121e4a
+    page: timeline-maker
+    slot: S06-m12
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 8
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/ca8ddf63-25a4-45bc-9e32-3577bfe139a6.png
+    asset: ca8ddf63
+    page: resume-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/cabb11a6-19e3-468e-a4b6-1d8e7a4331ff.png
+    asset: cabb11a6
+    page: calendar-maker
+    slot: S05-m5
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+  6:
+    src: https://cdn-template.picsart.com/templates-cdn/2aa09f3d-129d-45b0-b182-cb774bd279d8.jpg
+    asset: 2aa09f3d
+    page: menu-maker
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false

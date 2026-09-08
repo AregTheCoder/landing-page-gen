@@ -1,0 +1,196 @@
+sheet: gallery_solid-colour_single-15d84a
+group:
+  type: gallery
+  ground: solid-colour
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_single-15d84a.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/11fe0709-cd91-4732-a3a3-4aef5556b83e.png
+    asset: 11fe0709
+    page: invitation-maker
+    slot: S14-m3
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/45de37d6-12f2-46ca-844e-db1e437b788f.png
+    asset: 45de37d6
+    page: quote-maker
+    slot: S06-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/5288b448-64f6-4191-a867-a9a5bf2727ad.png
+    asset: 5288b448
+    page: card-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/58620402-c810-4453-a722-c4b61f1bccb7.png
+    asset: '58620402'
+    page: facebook-post-maker
+    slot: S05-m1
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/5b9e924c-c7dd-4a0e-b868-dff364f47460.png
+    asset: 5b9e924c
+    page: thank-you-card-maker
+    slot: S04-m8
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/701d8cb5-c3a9-4732-93b7-a0227077a2b4.png
+    asset: 701d8cb5
+    page: invitation-maker
+    slot: S14-m1
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/79a5241f-9322-4cf0-9457-7e919a1537b6.png
+    asset: 79a5241f
+    page: invitation-maker
+    slot: S14-m13
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/7cd18be1-d526-4bc5-bfea-a403d8d3bdcd.png
+    asset: 7cd18be1
+    page: menu-maker
+    slot: S05-m11
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/86b946c1-c3ef-43b6-9dc3-2f75cf4bae90.png
+    asset: 86b946c1
+    page: twitter-post-maker
+    slot: S04-m15
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/a2b65de3-87cd-4b9c-92e2-d459ed3588da.png
+    asset: a2b65de3
+    page: menu-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png
+    asset: a5937a03
+    page: quote-maker
+    slot: S06-m11
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/a710062f-d43c-4852-9ce4-30b9f420386c.png
+    asset: a710062f
+    page: background-tools
+    slot: S14-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false

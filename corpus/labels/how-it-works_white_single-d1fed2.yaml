@@ -1,0 +1,76 @@
+sheet: how-it-works_white_single-d1fed2
+group:
+  type: how-it-works
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_white_single-d1fed2.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/08501e32-9ecc-49c2-b4b6-4d18eb6af204.png
+    asset: 08501e32
+    page: packaging-design
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/439ccff6-304b-46f3-9765-704aaba568e2.png
+    asset: 439ccff6
+    page: ai-content-generator
+    slot: S02-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.png
+    asset: 4b5ae618
+    page: ai-video-filters
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/95a24b16-f78d-4646-8d37-6586ff32c554.png
+    asset: 95a24b16
+    page: ai-filters
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

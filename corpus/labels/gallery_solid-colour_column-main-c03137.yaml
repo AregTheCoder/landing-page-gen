@@ -1,0 +1,196 @@
+sheet: gallery_solid-colour_column-main-c03137
+group:
+  type: gallery
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_column-main-c03137.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/019c2eea-ac74-4465-9f51-98793e48de84.png
+    asset: 019c2eea
+    page: album-cover-maker
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/0c1e6ba3-adf7-4fbc-b3bb-46fa135f2792.png
+    asset: 0c1e6ba3
+    page: christmas-card-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 7
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/18977c6d-d279-4698-ae93-9682c210f5cb.png
+    asset: 18977c6d
+    page: calendar-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/1cfe4a4c-2fb6-4dd8-b017-5e26234361e5.png
+    asset: 1cfe4a4c
+    page: invitation-maker
+    slot: S14-m14
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/263c636b-0888-43a9-87fb-d8223afcfc38.png
+    asset: 263c636b
+    page: twitter-post-maker
+    slot: S04-m9
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png
+    asset: 32cc7938
+    page: quote-maker
+    slot: S06-m10
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/3b98e16f-0c77-400c-ab80-d98b2d253e3f.png
+    asset: 3b98e16f
+    page: facebook-post-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/3c079914-18d9-476d-9a9a-61716e700ea7.png
+    asset: 3c079914
+    page: birthday-card-maker
+    slot: S05-m11
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/3c080de4-1a0f-4492-919f-2a9d3d07799a.png
+    asset: 3c080de4
+    page: flyer-maker
+    slot: S04-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/42015d2f-708d-4609-b997-a180166d7e88.png
+    asset: 42015d2f
+    page: calendar-maker
+    slot: S05-m6
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/50eab6fe-c0ba-4133-abcb-39130428c269.png
+    asset: 50eab6fe
+    page: christmas-card-maker
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/5cff918f-5b82-4eeb-9514-8dfe3562ace6.png
+    asset: 5cff918f
+    page: christmas-card-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false

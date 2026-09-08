@@ -1,0 +1,31 @@
+sheet: hero_mixed_unknown-d16862
+group:
+  type: hero
+  ground: mixed
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_mixed_unknown-d16862.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/74803928-588c-436f-a745-8c5842b0926a.png
+    asset: '74803928'
+    page: background-tools
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false

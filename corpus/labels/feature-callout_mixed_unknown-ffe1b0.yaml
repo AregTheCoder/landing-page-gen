@@ -1,0 +1,57 @@
+sheet: feature-callout_mixed_unknown-ffe1b0
+group:
+  type: feature-callout
+  ground: mixed
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_mixed_unknown-ffe1b0.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/b6c7af30-d662-4c63-95d3-f0cc5f07277b.png
+    asset: b6c7af30
+    page: video-background-remover
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/c37725fd-1f8e-426a-b944-39f9a7305b2a.png
+    asset: c37725fd
+    page: watermark-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png
+    asset: ff3d677f
+    page: video-background-remover
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false

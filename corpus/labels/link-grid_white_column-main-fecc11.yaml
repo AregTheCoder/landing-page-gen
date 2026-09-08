@@ -1,0 +1,197 @@
+sheet: link-grid_white_column-main-fecc11
+group:
+  type: link-grid
+  ground: white
+  layout: column-main
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_column-main-fecc11.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp
+    asset: 02dd5012
+    page: ai-models--google-omni
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 17
+    n_pages: 17
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp?type=webp&to=min&r=640
+    asset: 02dd5012
+    page: ai-design-tools
+    slot: S04-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ec241f2-d79f-4d48-ac0a-28905131959c.webp?type=webp&to=min&r=640
+    asset: 0ec241f2
+    page: ai-design-tools
+    slot: S02-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp
+    asset: 229febb9
+    page: video-to-gif
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp?type=webp&to=min&r=640
+    asset: 229febb9
+    page: video-tools
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3062ad35-61ae-46bc-951e-3da0741776d4.webp?type=webp&to=min&r=640
+    asset: 3062ad35
+    page: video-tools
+    slot: S02-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/38d2100f-3c43-425d-98a0-7f6e85a3ece0.avif
+    asset: 38d2100f
+    page: compare-models--kling-vs-runway
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp
+    asset: 4167925f
+    page: ai-models--recraft-v4-styles-pro
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp
+    asset: 417917f0
+    page: ai-product-image-generator
+    slot: S11-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/464e0bea-b934-4378-8966-7e784235b8c6.webp?type=webp&to=min&r=640
+    asset: 464e0bea
+    page: design
+    slot: S03-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp
+    asset: 609c7793
+    page: ai-product-image-generator
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp?type=webp&to=min&r=640
+    asset: 609c7793
+    page: ai-design-tools
+    slot: S02-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false

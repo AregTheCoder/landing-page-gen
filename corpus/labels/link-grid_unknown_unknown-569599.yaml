@@ -1,0 +1,43 @@
+sheet: link-grid_unknown_unknown-569599
+group:
+  type: link-grid
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_unknown_unknown-569599.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/bb1f0bb5-6857-4f53-8d07-d9bed836ef34.png
+    asset: bb1f0bb5
+    page: packaging-design
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png
+    asset: e406abf2
+    page: ai-content-generator
+    slot: S09-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 7
+    n_pages: 7
+    before_after: false

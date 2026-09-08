@@ -1,0 +1,121 @@
+sheet: gallery_light-grey_single-6ea2a4
+group:
+  type: gallery
+  ground: light-grey
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_single-6ea2a4.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/2bc91091-2bef-494a-a5b3-c365d08fc13d.png
+    asset: 2bc91091
+    page: book-cover-maker
+    slot: S06-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e.png
+    asset: 4ac0748d
+    page: collage-maker
+    slot: S15-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/6e099f67-1334-4690-a0aa-df4968ee23c6.png
+    asset: 6e099f67
+    page: menu-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/76a51704-a822-430a-8cec-335650a418cb.png
+    asset: 76a51704
+    page: greeting-card-maker
+    slot: S04-m5
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/e7997f4a-f294-45a9-a31b-9763e4fe62c0.png
+    asset: e7997f4a
+    page: collage-maker
+    slot: S15-m10
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/7a6cfb85-455d-437f-a890-e691f82132b8.png?type=webp&to=min&r=1200
+    asset: 7a6cfb85
+    page: home
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn271.picsart.com/14523594-9c1a-4a2e-baf9-aecbc6efd7b8/514636367015201.jpg?type=webp&to=min&r=400
+    asset: '51463636'
+    page: home
+    slot: S09-m44
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: single
+    panel_count: 1
+    before_after: false

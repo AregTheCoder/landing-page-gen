@@ -1,0 +1,163 @@
+sheet: feature-callout_unknown_unknown-57bc9f
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-57bc9f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp
+    asset: '71631159'
+    page: ai-models--flux-2-flex
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 27
+    n_pages: 27
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/82a6a79f-a869-4510-960a-639217e5b675.webp
+    asset: 82a6a79f
+    page: brochure-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp
+    asset: 870464b8
+    page: ai-models--qwen-2-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87a28071-ebf2-4291-ab14-a5cad9972e06.webp
+    asset: 87a28071
+    page: youtube-thumbnail-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8e3c73fe-def2-45a9-be1a-340a06257927.avif
+    asset: 8e3c73fe
+    page: flip-image
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8f0040a2-c570-41b1-b581-d23d3d6f658f.webp
+    asset: 8f0040a2
+    page: invitation-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8f1f1e39-fd6c-4a7b-815b-c93095a65968.avif
+    asset: 8f1f1e39
+    page: flip-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8f57b835-0b47-4c41-ae32-c4903191c481.webp
+    asset: 8f57b835
+    page: variation-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/97a69d8d-b068-4ae3-bf6d-e83a3160b3b3.webp
+    asset: 97a69d8d
+    page: bookmark-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif
+    asset: '98672563'
+    page: batch-photo-editor
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90
+    asset: 9e0a38de
+    page: ai-models--flux-2-flex
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac7e8ae2-cab8-451a-8445-e16f33760503.webp
+    asset: ac7e8ae2
+    page: invitation-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

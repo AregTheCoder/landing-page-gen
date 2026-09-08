@@ -1,0 +1,46 @@
+sheet: gallery_light-grey_stacked-645424
+group:
+  type: gallery
+  ground: light-grey
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_stacked-645424.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/f5f21248-46e1-420a-b915-720d87ee0f5b.png
+    asset: f5f21248
+    page: timeline-maker
+    slot: S06-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 7
+    before_after: false
+  2:
+    src: https://cdn-template.picsart.com/templates-cdn/a552d0ef-06f2-4549-90ec-39f057b5e8e8.png
+    asset: a552d0ef
+    page: collage-maker
+    slot: S15-m14
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false

@@ -1,0 +1,163 @@
+sheet: feature-callout_unknown_unknown-0c964f
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-0c964f.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/80694dc4-4c3e-4fea-a011-e1a1dfc620ac.png
+    asset: 80694dc4
+    page: t-shirt-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/861c2971-6932-469f-b71f-eff6b13ab767.png
+    asset: 861c2971
+    page: instagram-post-creator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/997e272b-8303-44cb-a542-73248807c9d3.png
+    asset: 997e272b
+    page: twitter-post-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/a591037a-5c12-4d55-846b-13ab3c3b0b6e.png
+    asset: a591037a
+    page: coupon-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/b16b0d9a-32d6-4924-9eb5-0ba1c89218cd.png
+    asset: b16b0d9a
+    page: youtube-banner-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/b5ec82e7-be2a-43ec-a152-cfb7f887d3e3.png
+    asset: b5ec82e7
+    page: coupon-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/bbc37648-4f1e-4f72-8a0a-a8f7d5430328.png
+    asset: bbc37648
+    page: gift-certificate-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/bc3d7ce1-dd9d-4036-b43e-2d54b9eae83d.png
+    asset: bc3d7ce1
+    page: youtube-banner-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/c491d842-ddd5-496f-b91a-93064489b928.png
+    asset: c491d842
+    page: christmas-card-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/c94c1d42-4c47-4dd4-8477-e178813b6b4d.png
+    asset: c94c1d42
+    page: scene-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/cbd69e03-2353-486a-a0b0-051391c6f4c2.png
+    asset: cbd69e03
+    page: twitter-post-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/cf38e144-65ac-46b7-ac20-8b9ba1c23096.png
+    asset: cf38e144
+    page: quote-poster-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

@@ -1,0 +1,46 @@
+sheet: gallery_light-grey_grid-d611e5
+group:
+  type: gallery
+  ground: light-grey
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_grid-d611e5.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/2b05c521-c2e1-44f0-a194-7e23dcf305fe.png
+    asset: 2b05c521
+    page: wallpaper-maker
+    slot: S14-m10
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/ef1d0550-1b22-4a15-b242-69ee4d70002c.png
+    asset: ef1d0550
+    page: document-maker
+    slot: S13-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: light-grey
+    layout: grid
+    panel_count: 6
+    before_after: false

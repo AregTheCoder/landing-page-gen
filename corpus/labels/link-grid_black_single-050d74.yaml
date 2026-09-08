@@ -1,0 +1,76 @@
+sheet: link-grid_black_single-050d74
+group:
+  type: link-grid
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_black_single-050d74.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/e47b7b3d-314f-47a7-a968-1c09ffaffb24.png
+    asset: e47b7b3d
+    page: ai-replace
+    slot: S10-m10
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/e47b7b3d-314f-47a7-a968-1c09ffaffb24.png?type=webp&to=min&r=640
+    asset: e47b7b3d
+    page: design
+    slot: S04-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png
+    asset: ee7ad2e6
+    page: ai-filters
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png?type=webp&r=548&to=min
+    asset: ee7ad2e6
+    page: draw
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

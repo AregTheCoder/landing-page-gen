@@ -1,0 +1,31 @@
+sheet: link-grid_white_two-up-b90722
+group:
+  type: link-grid
+  ground: white
+  layout: two-up
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_two-up-b90722.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png
+    asset: '39054659'
+    page: ai-design-generator
+    slot: S11-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false

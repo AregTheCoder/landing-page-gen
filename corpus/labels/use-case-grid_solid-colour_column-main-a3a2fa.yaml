@@ -1,0 +1,76 @@
+sheet: use-case-grid_solid-colour_column-main-a3a2fa
+group:
+  type: use-case-grid
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_solid-colour_column-main-a3a2fa.answers.yaml
+cells:
+  1:
+    src: https://cdn130.picsart.com/17238261536603361130.png
+    asset: '17238261'
+    page: pattern-generator
+    slot: S04-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/99723626936142097507.png
+    asset: '99723626'
+    page: pattern-generator
+    slot: S04-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/3d05cded-106b-49c6-b92f-cedf79ebba52.png
+    asset: 3d05cded
+    page: packaging-design
+    slot: S06-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 7
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/8dc0bb33-0350-4d10-a0a3-df5c2dc01c88.png
+    asset: 8dc0bb33
+    page: packaging-design
+    slot: S06-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 7
+    before_after: false

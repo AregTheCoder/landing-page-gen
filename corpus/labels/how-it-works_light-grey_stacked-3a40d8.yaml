@@ -1,0 +1,46 @@
+sheet: how-it-works_light-grey_stacked-3a40d8
+group:
+  type: how-it-works
+  ground: light-grey
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_light-grey_stacked-3a40d8.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/09226849243971081316.jpg
+    asset: 09226849
+    page: add-stickers-to-photos
+    slot: S04-m1
+    type: how-it-works
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/09387211516741511611.jpg
+    asset: 09387211
+    page: rotate-image
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 4
+    before_after: false

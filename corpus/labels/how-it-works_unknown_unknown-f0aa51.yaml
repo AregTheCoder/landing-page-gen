@@ -1,0 +1,139 @@
+sheet: how-it-works_unknown_unknown-f0aa51
+group:
+  type: how-it-works
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_unknown_unknown-f0aa51.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/2da8c26a-a389-49f5-95c8-17b06e2c891e.png
+    asset: 2da8c26a
+    page: greeting-card-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/64ecaed5-593f-4e78-ae7f-06090fe1f0af.png
+    asset: 64ecaed5
+    page: calendar-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/71c3b033-be3d-4f83-813e-d0c308293352.png
+    asset: 71c3b033
+    page: flyer-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/73d98971-e1e0-416c-be81-f27a35188701.png
+    asset: 73d98971
+    page: t-shirt-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/76025aec-20f9-47b9-add7-d09f42263f3f.png
+    asset: 76025aec
+    page: youtube-banner-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/7aa7b343-04dd-4788-91d8-0da7414da3c6.png
+    asset: 7aa7b343
+    page: instagram-post-creator
+    slot: S06-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/ca8a7e13-da5d-49e4-8c3d-2c7b235e4eb9.png
+    asset: ca8a7e13
+    page: quote-poster-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/cf0d49e8-8e15-420a-bc8f-fec4d95ef6a8.png
+    asset: cf0d49e8
+    page: christmas-card-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/e1d10798-8af6-4282-ab07-c8a35fd40eb0.png
+    asset: e1d10798
+    page: gift-certificate-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/fce475a3-7994-4cc3-8ab0-f4c6a9228b90.png
+    asset: fce475a3
+    page: coupon-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

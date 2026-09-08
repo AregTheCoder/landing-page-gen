@@ -1,0 +1,163 @@
+sheet: feature-callout_unknown_unknown-7fb406
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-7fb406.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b2749949-9df4-4886-8241-985fbeb36cce.webp
+    asset: b2749949
+    page: invitation-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b3ae8c90-0dd4-4874-929e-febd78dd094f.webp
+    asset: b3ae8c90
+    page: ai-models--qwen-2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b61ebffd-b070-4d50-9106-928b5e07c5a7.webp
+    asset: b61ebffd
+    page: comic-book-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ba57eaf9-6f82-4bde-b95a-27a25bb87ec2.webp
+    asset: ba57eaf9
+    page: birthday-card-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif
+    asset: bafb40e8
+    page: batch-photo-editor
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/be8708d4-bafe-454f-847e-fd81b4949bff.webp
+    asset: be8708d4
+    page: ai-video-avatar
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp
+    asset: bfb444a5
+    page: ai-models--recraft-explore
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c1113515-c5ea-4287-86c1-94ae0b25821b.webp
+    asset: c1113515
+    page: motivation-poster-maker
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3461329-6ddb-464d-8a29-a7e1ec62e772.webp
+    asset: c3461329
+    page: motivation-poster-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif
+    asset: c78690a2
+    page: crop-image
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d09760f3-10b8-4189-a5af-130ae2181e79.webp
+    asset: d09760f3
+    page: ai-background
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d4507d92-9a72-492e-993d-85b93dd1e390.webp
+    asset: d4507d92
+    page: birthday-card-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

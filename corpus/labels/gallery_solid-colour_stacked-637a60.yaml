@@ -1,0 +1,196 @@
+sheet: gallery_solid-colour_stacked-637a60
+group:
+  type: gallery
+  ground: solid-colour
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_stacked-637a60.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/a869df00-9e20-4478-a8f3-4607aa3cb4ec.png
+    asset: a869df00
+    page: card-maker
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/be66e1b4-5973-453b-aa36-a7598bc68dbf.png
+    asset: be66e1b4
+    page: wallpaper-maker
+    slot: S14-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/d734718d-1ead-4f9e-ae73-ccf5760c2ccf.png
+    asset: d734718d
+    page: label-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/eac4177b-0542-45d7-a6cc-56398bee4995.png
+    asset: eac4177b
+    page: quiz-maker
+    slot: S06-m3
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/f1515ddd-1166-4106-8837-6a85b7d274ff.png
+    asset: f1515ddd
+    page: quiz-maker
+    slot: S06-m9
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/f9624e59-e017-4e2c-8390-503b59ea4867.png
+    asset: f9624e59
+    page: quote-maker
+    slot: S06-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-template.picsart.com/templates-cdn/40b21b53-f608-4c74-acda-59bace9dd867.jpg
+    asset: 40b21b53
+    page: quiz-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-template.picsart.com/templates-cdn/48e98020-43e7-4744-b82f-2c37e8068d49.jpg
+    asset: 48e98020
+    page: background-tools
+    slot: S14-m12
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  9:
+    src: https://cdn-template.picsart.com/templates-cdn/76504614-24d8-40e8-8e1f-d79ad8bf9867.png
+    asset: '76504614'
+    page: document-maker
+    slot: S13-m12
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: stacked
+    panel_count: 7
+    before_after: false
+  10:
+    src: https://cdn-template.picsart.com/templates-cdn/82305bfc-b782-4baa-9eb3-a59ad196999b.jpg
+    asset: 82305bfc
+    page: album-cover-maker
+    slot: S05-m5
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-template.picsart.com/templates-cdn/a5079539-2bb4-4485-a23f-39df7c2d0409.png
+    asset: a5079539
+    page: document-maker
+    slot: S13-m10
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://cdn-template.picsart.com/templates-cdn/bd82f651-1920-4fd5-b14e-5725ece71375.jpg
+    asset: bd82f651
+    page: bookmark-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 7
+    before_after: false

@@ -1,0 +1,196 @@
+sheet: gallery_light-grey_column-main-b56649
+group:
+  type: gallery
+  ground: light-grey
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_column-main-b56649.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0ac0480b-9e55-446e-a772-ffc5089ee660.png
+    asset: 0ac0480b
+    page: quote-maker
+    slot: S06-m15
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/171f2907-b71b-4b2c-8185-7d918bb054fd.png
+    asset: 171f2907
+    page: calendar-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/22132c34-6c54-4a4a-aa41-5874d5dc32e2.png
+    asset: 22132c34
+    page: greeting-card-maker
+    slot: S04-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/6faf73c8-07da-41a2-93a7-639089d77935.png
+    asset: 6faf73c8
+    page: collage-maker
+    slot: S15-m2
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/8e3b2250-2cce-419b-81d7-95547162cb83.png
+    asset: 8e3b2250
+    page: coupon-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/99233221-0640-4dcd-b0ee-ffae9d0bd512.png
+    asset: '99233221'
+    page: birthday-card-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png
+    asset: acb915fe
+    page: quote-maker
+    slot: S06-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/b1ba8ec5-b30d-4185-9791-19aca7f85141.png
+    asset: b1ba8ec5
+    page: calendar-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/ba6ea146-3b1d-4d57-bde3-fc0d32375f2a.png
+    asset: ba6ea146
+    page: instagram-post-creator
+    slot: S04-m6
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/f00603c7-c13d-4d91-9ba1-56993fab6174.png
+    asset: f00603c7
+    page: timeline-maker
+    slot: S06-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/ff362f9f-d9c2-46a2-b6f2-05e4ddd22eca.png
+    asset: ff362f9f
+    page: calendar-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://cdn-template.picsart.com/templates-cdn/f80c742a-10b9-4413-84c7-44e458cb31b3.jpg
+    asset: f80c742a
+    page: birthday-card-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 2
+    before_after: false

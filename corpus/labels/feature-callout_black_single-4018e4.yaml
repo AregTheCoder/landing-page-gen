@@ -1,0 +1,196 @@
+sheet: feature-callout_black_single-4018e4
+group:
+  type: feature-callout
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_single-4018e4.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/28433458737789537458.jpg
+    asset: '28433458'
+    page: resize-video
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/2108b5eb-e751-4347-89ba-021d52090073.png
+    asset: 2108b5eb
+    page: draw
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/328f7e5d-5f9e-4b23-b6a2-0f48e6e6fc86.png
+    asset: 328f7e5d
+    page: add-shadow-to-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/3f1d367d-063d-4620-8ea2-3c32b4a5a868.png
+    asset: 3f1d367d
+    page: add-shadow-to-image
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/58f3fded-f1da-44e8-ab0e-44c2be35ec47.png
+    asset: 58f3fded
+    page: document-maker
+    slot: S08-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/72f87ca9-43fe-4610-b0f2-15c8a5db5145.png
+    asset: 72f87ca9
+    page: whatsapp-sticker-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/824cb824-c4d2-48c7-81d5-5cbbf6b9d572.png
+    asset: 824cb824
+    page: ai-filters
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/85936259-8e69-412a-acd2-8cbffbcef86f.png
+    asset: '85936259'
+    page: ai-sticker-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/913b412f-3933-4900-b1cf-57e8cfe8dd35.png
+    asset: 913b412f
+    page: timeline-maker
+    slot: S09-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/96f4a4c6-56d6-427c-9364-20ac491ca00e.png
+    asset: 96f4a4c6
+    page: ai-filters
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/a0c8e733-7529-4f9c-8aa0-f9127c54bde1.png
+    asset: a0c8e733
+    page: ai-video-filters
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/c8ca6e2e-ef11-4944-88dd-37e495953219.png
+    asset: c8ca6e2e
+    page: book-cover-maker
+    slot: S10-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

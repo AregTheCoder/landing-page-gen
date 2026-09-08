@@ -1,0 +1,196 @@
+sheet: feature-callout_white_column-main-989ccf
+group:
+  type: feature-callout
+  ground: white
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_column-main-989ccf.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2d2e0666-a05f-4f18-86c5-0f268c8c05fc.webp
+    asset: 2d2e0666
+    page: ai-font-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm
+    asset: 3908c0df
+    page: add-subtitles-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39a9c192-3c3e-473d-b801-71c3287a294f.webp
+    asset: 39a9c192
+    page: ai-font-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4ab669c9-826c-4ef3-af27-7dfacdf2d113.webp
+    asset: 4ab669c9
+    page: virtual-try-on-clothes
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6df3d733-ea68-4fc2-b995-2991c1d5cbb4.webp
+    asset: 6df3d733
+    page: ai-font-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7c711856-41a8-4ed9-9c87-ea81e303ca4e.webp
+    asset: 7c711856
+    page: ai-font-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm
+    asset: 9119fccd
+    page: add-subtitles-to-video
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm
+    asset: c3a2fd90
+    page: add-subtitles-to-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm
+    asset: e41ea569
+    page: add-subtitles-to-video
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc6f4401-fcf9-4d90-a4b1-ca69665c58b9.avif
+    asset: fc6f4401
+    page: collage-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 6
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/152daa9b-f42d-4176-9961-3f718daae1ab.png
+    asset: 152daa9b
+    page: timeline-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/4978cba1-070a-451f-9fd5-d10e7241752c.png
+    asset: 4978cba1
+    page: book-cover-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 8
+    before_after: false

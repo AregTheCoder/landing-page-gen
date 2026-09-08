@@ -1,0 +1,121 @@
+sheet: tutorial-grid_black_single-d6a3dc
+group:
+  type: tutorial-grid
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_black_single-d6a3dc.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif
+    asset: 358649ff
+    page: ai-filters
+    slot: S14-m5
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6bdb03bc-5a51-4bf4-a122-99eb0f4bdf7b.avif
+    asset: 6bdb03bc
+    page: ai-models--flux-3
+    slot: S10-m2
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 27
+    n_pages: 27
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9746d08a-6408-4720-9d3b-03c59c14bf15.avif
+    asset: 9746d08a
+    page: background-changer
+    slot: S17-m1
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/997737d1-f734-41bf-9546-4e13fb04a518.avif
+    asset: 997737d1
+    page: document-maker
+    slot: S10-m22
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dfa3bef9-5ca9-4b63-a795-79db0819217f.avif
+    asset: dfa3bef9
+    page: add-subtitles-to-video
+    slot: S10-m4
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e83771a0-9647-4d20-949d-7a59fd8f475b.avif
+    asset: e83771a0
+    page: ai-filters
+    slot: S14-m3
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/78e08b29-6410-42e5-86a7-ca9ce68cf13f.png?type=webp&to=min&r=1200&q=85
+    asset: 78e08b29
+    page: document-maker
+    slot: S10-m6
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

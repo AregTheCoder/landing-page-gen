@@ -1,0 +1,196 @@
+sheet: gallery_solid-colour_stacked-a6374f
+group:
+  type: gallery
+  ground: solid-colour
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_stacked-a6374f.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/04b5e6e0-c99d-4879-bdbc-e9863b0d229b.png
+    asset: 04b5e6e0
+    page: png-logo-maker
+    slot: S10-m11
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/241c701d-79ee-4747-b7bc-dcef01ee1272.png
+    asset: 241c701d
+    page: card-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/2e2c80c5-463c-4885-b55c-6328e7906877.png
+    asset: 2e2c80c5
+    page: quiz-maker
+    slot: S06-m5
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/33e64b2a-b4fc-417b-87d8-34c81f65abc4.png
+    asset: 33e64b2a
+    page: thank-you-card-maker
+    slot: S04-m6
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/417e6c7c-9b26-46e1-80e6-0cdd1ef150d7.png
+    asset: 417e6c7c
+    page: twitter-post-maker
+    slot: S04-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/45da56d3-3818-4ee2-a2ac-6b0bdc100b26.png
+    asset: 45da56d3
+    page: gift-certificate-maker
+    slot: S04-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/48d785be-7a49-4500-9633-7f3fa33962e5.png
+    asset: 48d785be
+    page: greeting-card-maker
+    slot: S04-m15
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/4fcd4198-092b-47a6-9519-4cafd9cd870c.png
+    asset: 4fcd4198
+    page: greeting-card-maker
+    slot: S04-m11
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/5bb8a98a-af88-426a-b6db-aad1fb703f0c.png
+    asset: 5bb8a98a
+    page: motivation-poster-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/6324ae1d-7195-4d42-99ff-75a03e6ecf8d.png
+    asset: 6324ae1d
+    page: motivation-poster-maker
+    slot: S05-m10
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/680ea93e-100b-47e1-93a1-e14cc1e19698.png
+    asset: 680ea93e
+    page: movie-poster-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/6fc1e646-7d7c-4904-b7d1-81844f00611a.png
+    asset: 6fc1e646
+    page: thank-you-card-maker
+    slot: S04-m9
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false

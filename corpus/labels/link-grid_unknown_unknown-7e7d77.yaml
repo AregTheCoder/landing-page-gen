@@ -1,0 +1,163 @@
+sheet: link-grid_unknown_unknown-7e7d77
+group:
+  type: link-grid
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_unknown_unknown-7e7d77.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp?type=webp&to=min&r=640
+    asset: 870464b8
+    page: video-models
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87e68668-df4d-45c9-bae5-2daa0c253c8d.webp?type=webp&to=min&r=640
+    asset: 87e68668
+    page: design
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8b06c0c1-9edd-49d1-b8db-78dbaeeda680.webp?type=webp&to=min&r=640
+    asset: 8b06c0c1
+    page: design
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp
+    asset: 9e0a38de
+    page: ai-models--dall-e-3
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90&type=webp&to=min&r=640
+    asset: 9e0a38de
+    page: ai-models
+    slot: S02-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp
+    asset: a5c54cd3
+    page: ai-models--flux-3
+    slot: S13-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp
+    asset: c3cbf8c8
+    page: ai-models--flux-3
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 13
+    n_pages: 13
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp?type=webp&to=min&r=640
+    asset: c3cbf8c8
+    page: ai-models
+    slot: S03-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp
+    asset: e2a6880f
+    page: ai-models--flux-3
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 13
+    n_pages: 13
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp?type=webp&to=min&r=640
+    asset: e2a6880f
+    page: ai-models
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 2
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp?type=webp&to=min&r=640
+    asset: fd6a7346
+    page: image-models
+    slot: S02-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/4f964bac-d166-45e7-ada7-0c90436294a9.png
+    asset: 4f964bac
+    page: background-tools
+    slot: S17-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

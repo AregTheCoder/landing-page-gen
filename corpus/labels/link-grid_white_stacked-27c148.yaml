@@ -1,0 +1,196 @@
+sheet: link-grid_white_stacked-27c148
+group:
+  type: link-grid
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_stacked-27c148.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png
+    asset: 18256ca7
+    page: add-subtitles-to-video
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png?type=webp&to=min&r=640
+    asset: 18256ca7
+    page: ai-design-tools
+    slot: S07-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 6
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4fab97c5-bafc-46d5-97c2-e741a128e253.webp
+    asset: 4fab97c5
+    page: invitation-maker
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif
+    asset: 5a44d378
+    page: ai-models--dall-e-3
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp
+    asset: 71e9ad23
+    page: ai-models--grok-imagine-1-0
+    slot: S11-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8cbfbb5d-4da8-4d16-bb0a-4b391379bfe3.avif
+    asset: 8cbfbb5d
+    page: ai-design-tools
+    slot: S05-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cfed9542-a9d9-4bd2-8475-c3a6d03107f9.webp
+    asset: cfed9542
+    page: ai-models--seedream-5-0-pro
+    slot: S12-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5818d5f-4228-4606-9520-d6a869fbc8df.webp
+    asset: f5818d5f
+    page: motivation-poster-maker
+    slot: S14-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5818d5f-4228-4606-9520-d6a869fbc8df.webp?type=webp&to=min&r=640
+    asset: f5818d5f
+    page: content-creation-tools
+    slot: S07-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/28bb43d3-ddcf-4975-a6df-17968503b899.png?type=webp&to=min&r=640
+    asset: 28bb43d3
+    page: design
+    slot: S06-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/39e0c953-ddde-4218-99e9-87c77842fa2c.png?type=webp&to=min&r=640
+    asset: 39e0c953
+    page: content-creation-tools
+    slot: S04-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/68ac744f-6716-4407-b0cc-6eb538e11aa5.png
+    asset: 68ac744f
+    page: ai-image-extender
+    slot: S15-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false

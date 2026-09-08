@@ -1,0 +1,32 @@
+sheet: link-grid_white_split-cd272d
+group:
+  type: link-grid
+  ground: white
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_split-cd272d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9fd25abc-5f1e-4aa6-8006-6f56d678c1bc.webp?type=webp&to=min&r=640
+    asset: 9fd25abc
+    page: video-tools
+    slot: S06-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: split
+    panel_count: 2
+    before_after: false

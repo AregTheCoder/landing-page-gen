@@ -1,0 +1,163 @@
+sheet: feature-callout_unknown_unknown-df2628
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-df2628.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif
+    asset: 0188182b
+    page: crop-image
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/024b8aa7-f648-439c-b59b-869996f6c81d.webp
+    asset: 024b8aa7
+    page: variation-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/098f70be-3ebd-4c16-ad45-4a18798d4db4.webp
+    asset: 098f70be
+    page: youtube-thumbnail-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1556b530-f63a-4d12-8d3e-ed8ad38bfb4f.webp
+    asset: 1556b530
+    page: ai-models--kling-v2-new
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/15abe5ad-8e67-4d05-a3cf-aa840373cbfe.webp
+    asset: 15abe5ad
+    page: ai-background
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1fe89325-ce38-44e3-a1f5-eaabca648c08.webp
+    asset: 1fe89325
+    page: brochure-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21cdafd9-b685-4558-94a5-8d5495a624f9.webp
+    asset: 21cdafd9
+    page: motivation-poster-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21d96d4e-f8be-4daf-bf14-599125d43dd2.webp
+    asset: 21d96d4e
+    page: youtube-thumbnail-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif
+    asset: 24e4540f
+    page: crop-image
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif
+    asset: 25329b09
+    page: crop-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/273b2152-0aa6-4800-a105-840c9be66ee5.webp
+    asset: 273b2152
+    page: ai-background
+    slot: S13-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/301fffa8-dd55-455a-b8fd-b91e90d5095c.webp
+    asset: 301fffa8
+    page: invitation-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

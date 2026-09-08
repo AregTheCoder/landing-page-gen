@@ -1,0 +1,76 @@
+sheet: gallery_black_single-fe68b0
+group:
+  type: gallery
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_black_single-fe68b0.answers.yaml
+cells:
+  1:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/78e08b29-6410-42e5-86a7-ca9ce68cf13f.png?type=webp&to=min&r=1200
+    asset: 78e08b29
+    page: home
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-template.picsart.com/templates-cdn/f076e3f7-bcea-4525-b497-debdb6120772.png
+    asset: f076e3f7
+    page: youtube-banner-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn271.picsart.com/e6b8d0d2-131b-4f34-ae24-bfb9a083f102/418223447046201.jpg?type=webp&to=min&r=400
+    asset: '41822344'
+    page: home
+    slot: S09-m9
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/7bd75c05-3b52-4f81-9853-7fb34001fade.avif
+    asset: 7bd75c05
+    page: ai-models--recraft-v4-styles-pro
+    slot: S03-m2
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

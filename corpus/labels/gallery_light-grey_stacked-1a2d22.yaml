@@ -1,0 +1,196 @@
+sheet: gallery_light-grey_stacked-1a2d22
+group:
+  type: gallery
+  ground: light-grey
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_light-grey_stacked-1a2d22.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0ca58307-fa5c-4de4-8645-01244322ea9a.png
+    asset: 0ca58307
+    page: document-maker
+    slot: S13-m11
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: light-grey
+    layout: stacked
+    panel_count: 8
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/11f55488-2e8c-4947-b279-d0363d29d498.png
+    asset: 11f55488
+    page: coupon-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png
+    asset: 2ffd9c10
+    page: quote-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/3ee78b43-8340-40ec-906c-d376d8f06410.png
+    asset: 3ee78b43
+    page: coupon-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/41d26f81-8900-4a66-8cab-07f8a5bd3eff.png
+    asset: 41d26f81
+    page: coupon-maker
+    slot: S05-m5
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/6ae03ea8-a0f0-4b52-974c-1e345a6085cd.png
+    asset: 6ae03ea8
+    page: christmas-card-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/6bec73f5-dee9-48fb-92cd-860626f73486.png
+    asset: 6bec73f5
+    page: quote-maker
+    slot: S06-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/83e414da-aa71-4145-9e45-78bcab524c21.png
+    asset: 83e414da
+    page: coupon-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/a0926068-6cc5-480d-9923-8c22c5d7dd7c.png
+    asset: a0926068
+    page: document-maker
+    slot: S13-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: light-grey
+    layout: stacked
+    panel_count: 7
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/bfea1c03-4539-4b5c-8eae-22590281cfa4.png
+    asset: bfea1c03
+    page: coupon-maker
+    slot: S05-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png
+    asset: db5531db
+    page: quote-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/e81fc363-17fd-4353-9620-2bdff30aae72.png
+    asset: e81fc363
+    page: coupon-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: light-grey
+    layout: stacked
+    panel_count: 3
+    before_after: false

@@ -1,0 +1,76 @@
+sheet: gallery_solid-colour_grid-90cac9
+group:
+  type: gallery
+  ground: solid-colour
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_grid-90cac9.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0268ce5e-0d36-44b9-aa04-0b14cc530bb6.png
+    asset: 0268ce5e
+    page: calendar-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/7312456d-381f-45ed-bc8d-8bf6ca89e72d.png
+    asset: 7312456d
+    page: christmas-card-maker
+    slot: S05-m12
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/bc3648b3-8f1c-4556-87b7-1a1d79e2762c.png
+    asset: bc3648b3
+    page: coupon-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-template.picsart.com/templates-cdn/2c871ba1-5e6e-4f2c-bad6-b41d30ff1dc9.jpg
+    asset: 2c871ba1
+    page: youtube-banner-maker
+    slot: S05-m8
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 3
+    before_after: false

@@ -1,0 +1,91 @@
+sheet: link-grid_black_stacked-661029
+group:
+  type: link-grid
+  ground: black
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_black_stacked-661029.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bf618993-841d-4b57-ae30-0f491fe97eb2.webp
+    asset: bf618993
+    page: ai-models--dall-e-3
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp
+    asset: fdf44d95
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff7c7867-926c-4843-ba2f-b34a2cba0d6e.webp?type=webp&to=min&r=640
+    asset: ff7c7867
+    page: image-models
+    slot: S03-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/034a35d6-8cba-4b65-9fc2-79455f40aa8a.png
+    asset: 034a35d6
+    page: ai-content-generator
+    slot: S09-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/c88d7a70-d98d-4775-98fd-ab9f56ed80b3.webp
+    asset: c88d7a70
+    page: ai-models--recraft-v4-styles
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false

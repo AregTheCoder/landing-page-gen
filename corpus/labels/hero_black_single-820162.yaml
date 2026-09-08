@@ -1,0 +1,121 @@
+sheet: hero_black_single-820162
+group:
+  type: hero
+  ground: black
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_black_single-820162.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/96d42443-9234-4743-bb17-3c2a319d8ec3.png
+    asset: 96d42443
+    page: ai-sticker-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png
+    asset: 9e4e068f
+    page: ai-models--flux-2-max
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/bb870462-f414-4085-aecc-a554f32179f6.png
+    asset: bb870462
+    page: add-shadow-to-image
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/bc0fb544-254a-4217-a3ce-25170dc74948.png
+    asset: bc0fb544
+    page: packaging-design
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/c249a42e-e203-43ce-bdc2-78d2c3003f82.png
+    asset: c249a42e
+    page: image-style-transfer
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/e1442af0-5746-4924-9fe0-880e32e83569.png
+    asset: e1442af0
+    page: storyboard-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/e21aa197-cb6a-4f36-a59e-fcca70e6b34b.png
+    asset: e21aa197
+    page: whatsapp-sticker-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

@@ -1,0 +1,196 @@
+sheet: gallery_white_stacked-0074a5
+group:
+  type: gallery
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_stacked-0074a5.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/88790ab6-8c1b-4782-a947-078f9c7c09aa.png
+    asset: 88790ab6
+    page: timeline-maker
+    slot: S06-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png
+    asset: 992377b5
+    page: collage-maker
+    slot: S15-m4
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/a3b7e70e-1711-41b0-9f96-49b275666b35.png
+    asset: a3b7e70e
+    page: motivation-poster-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/add2b714-cd39-4084-b568-08bee5925c77.png
+    asset: add2b714
+    page: birthday-card-maker
+    slot: S05-m9
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/aecc8d97-63bd-4f36-b4f2-63c284f22f4a.png
+    asset: aecc8d97
+    page: birthday-card-maker
+    slot: S05-m3
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/c391960a-aa69-4b9f-94d0-44e4cb53dae6.png
+    asset: c391960a
+    page: brochure-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/d6e635d0-b1b5-4ff5-be73-b7dda88c0f7f.png
+    asset: d6e635d0
+    page: document-maker
+    slot: S13-m3
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png
+    asset: e7d0092e
+    page: quote-poster-maker
+    slot: S04-m13
+    type: gallery
+    size: wide
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/ee4763d6-0d9d-4587-9320-67a1cdc47e87.png
+    asset: ee4763d6
+    page: gift-certificate-maker
+    slot: S04-m3
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/f1b89eba-36fd-4e0a-8dbf-e84ec1f4c43f.png
+    asset: f1b89eba
+    page: thank-you-card-maker
+    slot: S04-m14
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/f776bc58-903a-49b6-9d12-569e1af7023a.png
+    asset: f776bc58
+    page: resume-maker
+    slot: S06-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 6
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/fcdcf979-2ab4-4be8-a364-5a8b70310038.png
+    asset: fcdcf979
+    page: menu-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 8
+    before_after: false

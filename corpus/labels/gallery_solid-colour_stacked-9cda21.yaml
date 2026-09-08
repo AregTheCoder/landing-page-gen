@@ -1,0 +1,46 @@
+sheet: gallery_solid-colour_stacked-9cda21
+group:
+  type: gallery
+  ground: solid-colour
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_solid-colour_stacked-9cda21.answers.yaml
+cells:
+  1:
+    src: https://cdn-template.picsart.com/templates-cdn/d7ee44c4-7937-4097-a279-60d85293f807.jpg
+    asset: d7ee44c4
+    page: label-maker
+    slot: S06-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://cdn130.picsart.com/364687821030201.jpg?type=webp&to=min&r=400
+    asset: '36468782'
+    page: home
+    slot: S09-m14
+    type: gallery
+    size: card
+    aspect_class: null
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false

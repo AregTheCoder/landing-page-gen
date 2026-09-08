@@ -1,0 +1,31 @@
+sheet: hero_white_single-fb9471
+group:
+  type: hero
+  ground: white
+  layout: single
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_white_single-fb9471.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/e201dd48-5318-40ba-a0ad-ad16228b4ebc.png
+    asset: e201dd48
+    page: resume-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

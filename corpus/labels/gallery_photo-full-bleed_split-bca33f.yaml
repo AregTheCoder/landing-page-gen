@@ -1,0 +1,107 @@
+sheet: gallery_photo-full-bleed_split-bca33f
+group:
+  type: gallery
+  ground: photo-full-bleed
+  layout: split
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_photo-full-bleed_split-bca33f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/06bfdecd-129a-4b8c-8c36-25aefba32efe.png?type=webp&to=min&r=400
+    asset: 06bfdecd
+    page: aura
+    slot: S08-m1
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a94ed2.png?type=webp&to=min&r=400
+    asset: efee1128
+    page: aura
+    slot: S08-m2
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-pipeline-output.picsart.com/magic-flow/d13ed65a-b45a-4716-8ea1-9fbc029873c5.png?type=webp&to=min&r=1200
+    asset: d13ed65a
+    page: home
+    slot: S05-m12
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-template.picsart.com/templates-cdn/0bea1c64-ab21-4c19-b5bf-3b95e108e1f9.jpg
+    asset: 0bea1c64
+    page: menu-maker
+    slot: S05-m6
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://cdn-template.picsart.com/templates-cdn/43f9d14a-6b8d-4aab-8184-01647fb41491.jpg
+    asset: 43f9d14a
+    page: youtube-banner-maker
+    slot: S05-m14
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-template.picsart.com/templates-cdn/8cb0dd46-de12-4ccc-9f07-5354612d5c7a.png
+    asset: 8cb0dd46
+    page: twitter-post-maker
+    slot: S04-m8
+    type: gallery
+    size: tile
+    aspect_class: '3:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false

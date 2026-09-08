@@ -1,0 +1,31 @@
+sheet: use-case-grid_mixed_unknown-f0f462
+group:
+  type: use-case-grid
+  ground: mixed
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_mixed_unknown-f0f462.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/506be643-ce46-42a3-9071-265194c50d95.png
+    asset: 506be643
+    page: background-tools
+    slot: S08-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    before_after: false

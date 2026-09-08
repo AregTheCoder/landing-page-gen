@@ -1,0 +1,163 @@
+sheet: how-it-works_unknown_unknown-401294
+group:
+  type: how-it-works
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: how-it-works_unknown_unknown-401294.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/67c30159-b8b0-48d3-9274-9c5237b5fd5a.webp
+    asset: 67c30159
+    page: bookmark-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6cfcb1a3-61af-47ff-9178-a7639c0065f9.webp
+    asset: 6cfcb1a3
+    page: text-editor
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6da16efb-e131-419b-bd3c-511797ac55dc.webp
+    asset: 6da16efb
+    page: birthday-card-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6ecf9805-026f-4e35-84bb-51967ca195d4.webp
+    asset: 6ecf9805
+    page: brochure-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/76a2d6b7-bbbf-45f1-b887-23ffb43bade5.avif
+    asset: 76a2d6b7
+    page: video-editor
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a49dfb87-3b48-4b44-9133-8673e2699455.webp
+    asset: a49dfb87
+    page: batch-photo-editor
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif
+    asset: afeaa6bf
+    page: ai-video-generator
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdd6dde8-dfa5-4f6e-8719-e9236e81bb0b.webp
+    asset: fdd6dde8
+    page: variation-generator
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/0e9054a8-8761-428c-b304-a64f11d5541e.png
+    asset: 0e9054a8
+    page: facebook-post-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/10928a1c-a708-4e0d-9637-73f29787f317.png
+    asset: 10928a1c
+    page: menu-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/1641935e-e1ed-4ed6-b9fd-9ac79ac1b8ac.png
+    asset: 1641935e
+    page: thank-you-card-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/19928f29-2660-4097-8ee1-c2a9a20b0a98.png
+    asset: 19928f29
+    page: twitter-post-maker
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

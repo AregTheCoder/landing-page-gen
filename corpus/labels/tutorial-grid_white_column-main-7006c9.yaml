@@ -1,0 +1,32 @@
+sheet: tutorial-grid_white_column-main-7006c9
+group:
+  type: tutorial-grid
+  ground: white
+  layout: column-main
+fields:
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_white_column-main-7006c9.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/20ff55ab-e490-4f46-a741-120bdf9e0add.avif
+    asset: 20ff55ab
+    page: document-maker
+    slot: S10-m3
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false

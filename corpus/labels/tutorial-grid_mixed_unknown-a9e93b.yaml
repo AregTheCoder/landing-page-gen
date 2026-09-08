@@ -1,0 +1,31 @@
+sheet: tutorial-grid_mixed_unknown-a9e93b
+group:
+  type: tutorial-grid
+  ground: mixed
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_mixed_unknown-a9e93b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d5ef06b7-9bb3-4a44-8118-f218c53a2b50.avif
+    asset: d5ef06b7
+    page: document-maker
+    slot: S10-m5
+    type: tutorial-grid
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    before_after: false

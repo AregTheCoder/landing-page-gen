@@ -12,6 +12,76 @@ https://cdn-basic-content-api.picsart.io/p/0292d436-0202-4430-9403-594241842702.
   page: flyer-maker
   slot: S04-m7
   source: rules
+https://cdn-basic-content-api.picsart.io/p/0452779d-91a7-4e0e-8746-77469c222a4b.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: facebook-post-maker
+  slot: S05-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/048b9fdd-e327-4554-a034-b120beefe2c8.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/069e220d-6dab-4e26-86ad-4541fe97dbb7.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-thumbnail-maker
+  slot: S16-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/06c4c19d-66c9-4edb-87f9-52a65400486c.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: quote-maker
+  slot: S06-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/06e3309a-9159-4be8-b7b3-db61acb51eaf.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/0856d76f-2506-4ad0-9bf3-c0ec5fa10bc0.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S14-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/08836631-8cdb-4243-a654-5a0da5fc0477.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: quiz-maker
+  slot: S06-m8
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/093841d1-8fb0-4eae-89c9-2bcb373075f0.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-thumbnail-maker
+  slot: S16-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/098d3af0-8e49-4f67-9b8b-4548a563970f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/09946879-a755-4196-8272-2a15c05d5f53.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m8
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/0a66a108-6b5e-403e-95b1-1cc64c9a5270.png:
   style: full-bleed
   variant: null
@@ -26,12 +96,47 @@ https://cdn-basic-content-api.picsart.io/p/0a740f7c-ce21-4c44-bf6f-158f7153c948.
   page: card-maker
   slot: S05-m3
   source: rules
+https://cdn-basic-content-api.picsart.io/p/0d8a3137-f4b8-468b-bfd7-78f9b153268a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m13
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/0e903c2b-f46c-461f-b949-b41aae6bf832.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: card-maker
   slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/0f778305-67b2-4ae0-9c0c-036a652646a9.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-thumbnail-maker
+  slot: S16-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/10148139-d4a8-44d1-b256-c15518a0bacd.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1420103e-2888-40c1-961a-09e88fc214b4.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/16af9585-d0f8-4861-895f-e566e4ac54db.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: greeting-card-maker
+  slot: S04-m12
   source: rules
 https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.png:
   style: full-bleed
@@ -40,12 +145,82 @@ https://cdn-basic-content-api.picsart.io/p/1743b96d-77fb-4c39-a555-1e1beeb467e7.
   page: flyer-maker
   slot: S04-m13
   source: rules
+https://cdn-basic-content-api.picsart.io/p/174bc8f9-8e95-450b-838c-f08833325ad7.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/186d772b-8c1f-47e3-9ba4-98b11f8300bc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m2
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1babe98c-a9ab-4582-bfbc-493b3a73476a.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1c30eaed-489e-45b9-837b-ee526643b93e.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1e2610eb-cb26-43f1-8b26-291a20fc6a2b.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: timeline-maker
+  slot: S06-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1e48dd4f-3b0c-4926-8b8f-290e97141d24.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: collage-maker
+  slot: S15-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1f002ec5-eae4-4226-b996-ae95e093c662.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m2
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1f49208b-db6d-43f1-b5c3-35195baffab9.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: motivation-poster-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/1fddb018-c15a-493c-8a01-9a257483091c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m8
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png:
   style: outcome-tile
   variant: null
   confidence: 0.0
   page: wallpaper-maker
   slot: S14-m6
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/280aa58a-b3da-4342-9d83-cde0475b0315.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: thank-you-card-maker
+  slot: S04-m11
   source: rules
 https://cdn-basic-content-api.picsart.io/p/29d2cf10-48e1-4106-a656-9bdaaeddc7b6.png:
   style: full-bleed
@@ -75,12 +250,82 @@ https://cdn-basic-content-api.picsart.io/p/2fda439c-655a-4b1d-aed4-f16484f0126f.
   page: flyer-maker
   slot: S04-m10
   source: rules
+https://cdn-basic-content-api.picsart.io/p/31a1d8d7-0919-4b78-88c7-b07a21c583d4.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S14-m9
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/39c40f4a-4d1d-465b-958b-3c328468d638.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: motivation-poster-maker
   slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3b94083e-ac55-4b8a-934a-5ba92b0dcab9.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3d35d534-ce83-419d-9cfb-a6a117c2e04a.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3d9c2ffd-530d-440a-a4c4-66570c97c0aa.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3df318af-94d7-4c13-99f6-ac0545f96343.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m6
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3e010c4e-8968-41fd-ae38-fb7faf1e2a47.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/3fc719cf-a9bb-4fde-8eb4-a920a0244280.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/402c4406-4c9c-4c9d-a064-d6238c45e184.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/4198a82e-a5b9-4277-b363-99389ef6afcc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: flyer-maker
+  slot: S04-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/44956096-272a-4dd9-9321-fd87dc81964d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m15
   source: rules
 https://cdn-basic-content-api.picsart.io/p/471a3601-89c5-4347-8455-272fe44e4cde.png:
   style: full-bleed
@@ -96,6 +341,13 @@ https://cdn-basic-content-api.picsart.io/p/4786e58b-5685-4697-af5f-e490660b8567.
   page: flyer-maker
   slot: S04-m12
   source: rules
+https://cdn-basic-content-api.picsart.io/p/48732acc-3ccb-46ec-a046-daa6a1ee15bd.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m12
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/5163d720-a12d-4c5c-9442-ed6ab2c7517d.png:
   style: cinematic-still
   variant: null
@@ -110,12 +362,47 @@ https://cdn-basic-content-api.picsart.io/p/518e1590-a995-4433-b5d6-5c49cf6aed92.
   page: collage-maker
   slot: S15-m5
   source: rules
+https://cdn-basic-content-api.picsart.io/p/52acc48b-05ed-4e2c-9f5f-563dd57cefc2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m5
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/54299195-f611-41c8-9cc1-99b3586f77c3.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/55885499-13ad-4b80-9af1-1adba3e6a64c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/566c3ce0-1c07-4372-b1a7-11b5964c813c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m8
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/5695bb5c-9fd3-48ba-ac04-3e4c469edd9b.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: collage-maker
   slot: S15-m8
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/5851fbbf-9adf-47fb-af74-e1cb3662099c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m7
   source: rules
 https://cdn-basic-content-api.picsart.io/p/59c27396-1d48-4964-b154-ec22329a0db2.png:
   style: full-bleed
@@ -124,12 +411,180 @@ https://cdn-basic-content-api.picsart.io/p/59c27396-1d48-4964-b154-ec22329a0db2.
   page: wallpaper-maker
   slot: S14-m1
   source: rules
+https://cdn-basic-content-api.picsart.io/p/5a1b0892-183d-4a1c-a392-85e14de4e1dc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m5
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/5b323474-c38a-451e-ad55-d5f78a4648b5.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m6
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/5edcc3cf-69f6-4d88-9968-d0f279c628ac.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/5ee34a2f-6a21-4f6e-9fac-e63c1d365bc4.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/60d00c52-62a2-430a-a58d-06b61a28a999.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/61732f30-e783-469b-9b40-c6e5d560b1b7.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m6
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6288ee49-942a-41de-b87a-8785d77a5396.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S14-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/63302695-9442-4273-9094-015921e4fb9f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/63615e3e-0f31-4b67-aa4b-85793b6141f9.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: quiz-maker
+  slot: S06-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/63f172af-2b75-4c92-abef-971347f98934.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: wanted-poster-maker
+  slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/65c8dc50-a415-40ef-ba2c-16c8b30e8ec4.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6712d578-1abc-43ce-8c74-b6f243155876.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6a4d2ece-b806-4a26-83cf-f2aed65beb93.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6ac10991-9de8-471e-97d3-06645329a538.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6c5563ac-a5a2-440e-bb9c-6fd8ddc59469.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6cfed333-98d9-496f-9b3a-e015059f2eae.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6e8c2c29-0754-4b73-ab62-99d9c9ddd489.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: coupon-maker
+  slot: S05-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6ee75adb-bc16-46d8-82b0-df34e3752855.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m5
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6f3a4b55-4b83-495a-8063-ba89802d52df.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/6fb4f0ca-5347-411f-9518-026c88ae70f6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: facebook-post-maker
+  slot: S05-m2
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/6ff5aba5-d135-4f9e-a294-147cd7854a53.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: wallpaper-maker
   slot: S14-m5
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/70d772a4-c000-490a-957f-e87016034950.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/715e6d64-1780-4441-8872-099ce4412ed8.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/787ac1e5-858f-44d8-a2b5-36975bc58a5e.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/7e5488b0-697c-4c2e-87b8-3b071660ab2a.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S13-m5
   source: rules
 https://cdn-basic-content-api.picsart.io/p/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b.png:
   style: full-bleed
@@ -138,6 +593,55 @@ https://cdn-basic-content-api.picsart.io/p/8167e7b6-e68b-4ce0-874e-5dbed1f6c32b.
   page: flyer-maker
   slot: S04-m1
   source: rules
+https://cdn-basic-content-api.picsart.io/p/81825871-b8db-433d-93b5-e5f21221600c.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: collage-maker
+  slot: S15-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/829f28ab-fc15-415e-8fef-e2b846e8286f.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/82a58c56-3c93-443d-9c8f-d5176d582653.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: greeting-card-maker
+  slot: S04-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/84f3c859-06bd-47f0-9a64-2e9f59c19d9d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/875131ee-c250-45c8-8626-c9e0fd25732a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/89f6ba71-19d2-45fe-96e1-0e8062acdcb6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/8ccd6fd9-3fca-42f8-b215-9c34c698bb15.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-thumbnail-maker
+  slot: S16-m6
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec.png:
   style: cinematic-still
   variant: null
@@ -145,12 +649,40 @@ https://cdn-basic-content-api.picsart.io/p/8cebb5fd-a626-4d9e-99d8-436d4c6a8aec.
   page: wallpaper-maker
   slot: S14-m11
   source: rules
+https://cdn-basic-content-api.picsart.io/p/8e629e81-8b08-4c26-8cc0-bc3aff7edee0.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m5
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png:
   style: outcome-tile
   variant: null
   confidence: 0.0
   page: collage-maker
   slot: S15-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/902a202c-71d8-45fe-b5bb-0d63a9e25406.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/90ddbee4-2dae-4d70-853f-ff429c7a94f5.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/95fc4d45-d1c6-4066-a5b0-bf6f1c4e9ba6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: facebook-post-maker
+  slot: S05-m7
   source: rules
 https://cdn-basic-content-api.picsart.io/p/96767db2-3837-4e03-a472-3bbd3ad22708.png:
   style: full-bleed
@@ -166,12 +698,47 @@ https://cdn-basic-content-api.picsart.io/p/998f8957-b6c2-444b-87ae-a6ada8ac150c.
   page: collage-maker
   slot: S15-m13
   source: rules
+https://cdn-basic-content-api.picsart.io/p/9ae626ae-cd26-42af-9fcf-fe148b50a9a9.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/9e491ad7-d57f-49ef-bf56-d4c6e56f9e13.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S14-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/9f142618-b471-4f6a-a3eb-e3777c768cde.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: facebook-post-maker
+  slot: S05-m8
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/9f9c699d-146f-4763-a34b-32ebef798954.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m14
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: collage-maker
   slot: S15-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/a5425f11-e83f-41a4-8b5a-54c39ac9c77f.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m9
   source: rules
 https://cdn-basic-content-api.picsart.io/p/a5aa7364-27ec-44fa-8346-2b0e1e241ccb.png:
   style: full-bleed
@@ -180,6 +747,55 @@ https://cdn-basic-content-api.picsart.io/p/a5aa7364-27ec-44fa-8346-2b0e1e241ccb.
   page: card-maker
   slot: S05-m12
   source: rules
+https://cdn-basic-content-api.picsart.io/p/a8bf6de7-5d2d-4a7d-928f-09413765b24d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/a9ab291e-158a-483a-89bf-1d4517478c6a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m7
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/aafff8c0-34b1-441a-8faa-65cdf2d04e56.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/ab7d7c9e-cc32-4c66-b678-2b850abe8ab2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m5
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/af67a0bd-012d-4aea-906d-0b0380a27cf3.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m8
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/af7add0d-b507-4a1f-8ce5-b781c3265cad.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/b1ec3969-ad45-4d02-9cfa-e14355ba59f8.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m6
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.png:
   style: cinematic-still
   variant: null
@@ -187,12 +803,26 @@ https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.
   page: quote-maker
   slot: S06-m13
   source: rules
+https://cdn-basic-content-api.picsart.io/p/b607f718-a802-4581-913b-14fbdd106446.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m5
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/b8224b9a-8746-40af-b413-b664176196d7.png:
   style: cinematic-still
   variant: null
   confidence: 0.0
   page: wallpaper-maker
   slot: S14-m15
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/b9ebad7b-7ba2-41b5-b3cc-dfff7c034034.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m2
   source: rules
 https://cdn-basic-content-api.picsart.io/p/bab98c45-96e0-4814-8900-4ddb84da7e85.png:
   style: full-bleed
@@ -208,12 +838,89 @@ https://cdn-basic-content-api.picsart.io/p/bb564284-dba5-4654-beac-d3b117e853f6.
   page: wallpaper-maker
   slot: S14-m2
   source: rules
+https://cdn-basic-content-api.picsart.io/p/bdd2a494-1184-4c9f-b70b-5cd3a1c7058a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/bde6f079-e518-494f-9f07-cdfa49ea1ed0.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/bef67284-452a-47e6-8f46-3932b71141e2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/bf499b0f-5b92-4cf6-a478-27c6e137fc69.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: thank-you-card-maker
+  slot: S04-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c06ed7a5-8dc8-428f-a11a-4e3188cccbd1.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-thumbnail-maker
+  slot: S16-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c2a1110f-c874-462a-b2ec-a54cd94ad8b3.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c2b704b5-c487-440d-8a42-a818fbdcf028.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c340a496-ae5f-443a-a280-f9cdb648e1ec.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S13-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c3948208-0f8d-4f25-bfab-f7a8bbe68cf0.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m2
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c6dca297-ddd7-4491-9c4d-4a3248181d3e.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m2
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/c766aa44-5bab-4c52-a095-f777873b5c17.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: flyer-maker
   slot: S04-m8
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/c7f1d816-0389-4a58-afcb-767cd25485d8.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m3
   source: rules
 https://cdn-basic-content-api.picsart.io/p/c86611d4-671e-48a6-b5f4-ac8be827408c.png:
   style: full-bleed
@@ -222,12 +929,145 @@ https://cdn-basic-content-api.picsart.io/p/c86611d4-671e-48a6-b5f4-ac8be827408c.
   page: collage-maker
   slot: S15-m15
   source: rules
+https://cdn-basic-content-api.picsart.io/p/c87b5d47-76f9-4082-b4bc-30c2cacb1182.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/cb15eefe-811d-4285-b2c3-0dab233a8775.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: greeting-card-maker
+  slot: S04-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d1287607-aef2-400f-977f-553fe6328df9.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d2361afa-a8fa-43f5-a0e4-2ced7429551f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d3389179-67d2-47c1-b393-3a9587019735.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m12
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d7074fea-f122-4700-b93e-4b57d3cf4a80.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: calendar-maker
+  slot: S05-m2
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d727e561-0814-49b8-b400-ac8b0dcdcc97.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d77e2e7e-3586-499b-bb5e-66c4039f13c8.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d7c195e6-554f-4859-b8f9-2f8a8b34cc3f.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d7e9ecf4-b166-49b5-b093-964ba62f625c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/d93c981c-abf7-49fa-9d2b-5b1bd078cfc6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/da369d2f-7923-40b0-b989-a321c825b8fc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m13
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/da97fb46-b3e8-4926-85ad-34e2c338793e.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: flyer-maker
   slot: S04-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/dc2cbfba-2c83-4f2a-8aec-717660704d64.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/dcd5cb5b-ba08-41ad-a347-647c43fb9e0d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/de407607-3992-46d5-97b0-1737a3039b8e.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: invitation-maker
+  slot: S14-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/e12dcda2-16e0-49fa-86d7-04be932ee9c5.png:
+  style: cutout-checkerboard
+  variant: checker
+  confidence: 0.0
+  page: thank-you-card-maker
+  slot: S04-m4
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/e38f6ae9-a5b8-4ab9-90ea-fe3fb28933cc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m1
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/e82a1a52-8ea9-4f3d-b5c5-768991126ee1.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m6
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/e8726f79-d3d9-48c2-b88b-deee6e9ecf1f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m1
   source: rules
 https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png:
   style: outcome-tile
@@ -236,6 +1076,62 @@ https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.
   page: quote-maker
   slot: S06-m9
   source: rules
+https://cdn-basic-content-api.picsart.io/p/eeb82689-f718-474c-ba17-630e437de11d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: christmas-card-maker
+  slot: S05-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/eec795ee-bcb3-40c8-8352-70a99e63b65b.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/efe3f33e-6a86-4c68-b7d8-638750d55361.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m9
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f0295bce-1690-4791-9b44-526000b6482d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: coupon-maker
+  slot: S05-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f17c10c5-30b2-4606-b291-d60dda6bfb8c.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f1928495-6fb7-4ec3-a9fc-e41819f5b79a.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: instagram-post-creator
+  slot: S04-m10
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f23d829a-bb75-4208-b7d2-55b5f39f6fd1.png:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f338a3d8-20e8-4da0-9c86-d86eecea34c1.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: motivation-poster-maker
+  slot: S05-m7
+  source: rules
 https://cdn-basic-content-api.picsart.io/p/f4b34e78-a548-4def-b5f7-6db0fec71bd3.png:
   style: full-bleed
   variant: null
@@ -243,12 +1139,54 @@ https://cdn-basic-content-api.picsart.io/p/f4b34e78-a548-4def-b5f7-6db0fec71bd3.
   page: motivation-poster-maker
   slot: S05-m3
   source: rules
+https://cdn-basic-content-api.picsart.io/p/f5b36319-eb46-4013-9473-2b003c650602.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m3
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f5d786ff-1aee-43b3-bc5c-392c3b67c013.png:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m14
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f5f31559-f06b-4f25-a31c-c6dd4ae56597.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: resume-maker
+  slot: S06-m11
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/f9392caa-0741-4cdf-8825-626876228834.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: greeting-card-maker
+  slot: S04-m13
+  source: rules
+https://cdn-basic-content-api.picsart.io/p/fcdf9cd8-a2b5-421b-8a27-24091d8ef9d6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: thank-you-card-maker
+  slot: S04-m10
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/000ae663-ad9f-4d1d-8c89-005341915a79.avif:
   style: cinematic-still
   variant: null
   confidence: 0.0
   page: ai-retouch
   slot: S01-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0047c6f6-fcf4-4e7a-b2ae-7627ec56cca5.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m7
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/00ae199c-4df7-41be-b817-059e3f5e4a4d.webp:
   style: full-bleed
@@ -306,6 +1244,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/022d6715-ad88-4abe-91e8-e23329dd
   page: aura
   slot: S03-m8
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/028d0e37-8928-44ea-aee6-9d418c3a6c09.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S06-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/029c5ad4-2fd5-4785-ad8b-ee573a6e5f1a.png?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -354,6 +1299,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/04a66c65-2795-43dd-bef6-976f7f80
   confidence: 0.0
   page: ai-models--imagen-4-0
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/04a66e9b-fb59-4bf0-9fe7-716d874aebfe.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m3
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/04aabc52-42a2-4b6b-8508-5f4517a52302.avif:
   style: full-bleed
@@ -453,6 +1405,20 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222
   page: ai-models--gpt-image-1
   slot: S12-m9
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0937bae7-2f59-486a-a0d4-856a953b72d4.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m13
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0a0cf462-c099-4da7-9263-0a8ee11307d9.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m19
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/0a2d1364-dd67-4d09-9e92-7feba3221390.webp:
   style: full-bleed
   variant: null
@@ -467,12 +1433,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f
   page: image-enlarger
   slot: S11-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0a8a0653-d6d9-4367-aa5e-dcdb86145233.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/0accb81d-bd9c-4ad1-ace9-e102c7b2942e.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: aura
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0af91011-2134-453e-89b0-46b84dc82c37.webp:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: flip-video
+  slot: S08-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/0b0a14f9-9d21-4197-9d28-5ea8386d77d2.avif:
   style: before-after
@@ -508,6 +1488,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0d03d349-d032-4cc9-ad37-ddb2cc07
   confidence: 0.0
   page: ai-models--flux-3
   slot: S03-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0d3549f9-e088-4229-860c-3debc8a8f371.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m12
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/0d8dd3dd-0043-4fb3-9401-5abafcbaca84.webp?type=webp&to=min&r=400:
   style: cinematic-still
@@ -558,12 +1545,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0f0e9817-3f8b-4c54-bde7-ad99a9df
   page: ai-models--nano-banana-pro
   slot: S03-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/0fd65ee5-43de-4129-b006-37bbc125574f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S16-m3
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/1010832c-dca4-400c-a13b-e6228487450f.avif:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: persona
   slot: S02-m8
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/105e49d0-4b3e-49cf-aaf7-f5105ff147c7.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m8
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/10c70f7f-40cc-42df-a7c7-6574a19735e3.avif:
   style: cinematic-still
@@ -607,6 +1608,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/11337690-b473-4d81-972b-7f76d5a3
   page: aura
   slot: S04-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/116028fd-d44e-4aac-9c3a-a2d05f508f29.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m12
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/120ec35a-d36c-4ced-afab-2303b6a86750.avif:
   style: before-after
   variant: null
@@ -635,6 +1643,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/127e1660-e59d-45a5-820d-bd977421
   page: ai-models--recraft-v4-1
   slot: S03-m11
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/128ac421-e3ed-4ef5-a1a2-445651216aac.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m9
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/1310b66c-aa16-4b0f-a9b4-136b13cc3700.webm:
   style: full-bleed
   variant: null
@@ -655,6 +1670,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/1344901e-04c9-4025-828a-00ccc8bc
   confidence: 0.0
   page: ai-models--wan-2-7
   slot: S03-m3
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/139bfd24-28dd-46fd-a6cc-f37a124849f9.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S08-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/147b4ea4-5c03-40a0-aa05-02dd175196b2.avif:
   style: full-bleed
@@ -746,6 +1768,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/1abb9e86-4060-4a0d-ac43-b801aeaa
   confidence: 0.0
   page: ai-models--happyhorse-1-1-ref-to-video
   slot: S12-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/1b8910f2-8bc3-4950-9a14-6e3a59ab8367.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S14-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/1b997fa2-2b70-4943-9cf7-30238910a57f.webp:
   style: full-bleed
@@ -859,6 +1888,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/1d9251b4-c41e-4615-b802-9cba01cd
   page: ai-models--gpt-image-1-5
   slot: S03-m4
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/1e29c092-a15a-4a8d-8ee9-58171ef621e4.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S16-m6
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/1e87768c-bdb7-4bd1-b762-d7ff7cc31925.avif:
   style: cinematic-still
   variant: null
@@ -921,6 +1957,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/20d3cfb3-5f81-4fbe-a806-bfcba506
   confidence: 0.0
   page: aura
   slot: S04-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/20ec15f8-e4aa-4b07-8e04-39d2d065b362.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m10
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/211b36b3-6166-4887-a9d6-763d0411f9bf.webp?type=webp&to=min&r=400:
   style: cinematic-still
@@ -992,12 +2035,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/251cd592-5328-4be8-a45d-3804d8e2
   page: ai-models--happyhorse-1-0
   slot: S03-m6
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/25214cd1-3043-4105-95c3-22f981278f20.png?type=webp&to=min&r=600:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S13-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/25290ef6-d49d-441e-a715-8fd355edf125.avif:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: hd-photo-converter
   slot: S01-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/256194b7-5a4a-433e-b511-3ebbca456a2a.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m4
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2585a025-5031-4ec0-9b1c-d201f967e088.webm:
   style: full-bleed
@@ -1055,6 +2112,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/265bbb84-b7aa-4c9a-a700-df32c1ff
   page: background-changer
   slot: S17-m5
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/266d0f90-3ba6-4bb4-8c7d-89d9126d44f4.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/269d200e-5a1f-45ac-adce-9b5d3fe526e2.avif:
   style: full-bleed
   variant: null
@@ -1111,12 +2175,33 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/292b3a8d-e9e5-4c49-9dda-afcd40f6
   page: ai-retouch
   slot: S13-m7
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/29481b4c-3cd3-42ef-87d3-b317f54e546d.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S07-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/29b9d3ff-0fc4-4fe0-86d4-3ac5ec524014.avif:
   style: cinematic-still
   variant: null
   confidence: 0.0
   page: ai-retouch
   slot: S01-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2a1d3d3b-1ee3-4a3f-99dc-25668698feff.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S09-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2a230ba1-62d2-4295-99ac-cb605c5268c1.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m7
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2a618a8a-befb-43c7-922f-a919ef8aafb5.avif:
   style: full-bleed
@@ -1188,12 +2273,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/2cbbc61a-4ce3-4b8b-9d23-c44eab75
   page: ai-models--async-flash-v1
   slot: S03-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2ce1c21c-cbe1-45e5-a7d1-a04d45006e85.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m2
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2d5cd187-a71c-49ba-a862-8beaefaabafd.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: video-enhancer
   slot: S01-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2d8c89d9-cde9-40ce-a6e0-6dc4554e483e.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m11
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2e34fa80-b802-4f1e-b499-8c7c7d155b6a.avif:
   style: full-bleed
@@ -1209,6 +2308,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/2e9d292c-9633-4935-8e04-393497e4
   page: ai-image-enhancer
   slot: S12-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2eb1a696-8341-4175-b400-42f5810147fc.png?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S06-m3
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2eb3fc0e-026b-41dc-909c-baaea15e1c1d.png?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -1222,6 +2328,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/2ee75fb2-fcf8-4a60-b8f4-17ee9d28
   confidence: 0.0
   page: add-subtitles-to-video
   slot: S10-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2eed9f1a-6c4d-4829-9178-b6d6991f73d2.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m4
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/2fe61339-4f18-44af-a28c-5a50a460c2d7.webm:
   style: full-bleed
@@ -1265,6 +2378,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/30624583-205c-4d2c-83ae-4d4c7f9d
   page: ai-models--dall-e-3
   slot: S03-m5
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/3066e7aa-7825-42ba-8397-906b47c7f13d.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: flip-image
+  slot: S01-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/307c1492-75a4-47cc-93aa-0d814c291ec6.avif:
   style: cinematic-still
   variant: null
@@ -1278,6 +2398,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/30e1350a-c926-444f-ae49-8d6be22d
   confidence: 0.0
   page: ai-art-generator
   slot: S01-m10
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/31137ab8-f783-4275-beb8-34dc31670dac.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m15
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/318c3d2f-edfb-4352-864f-d5db5d20b576.webp:
   style: full-bleed
@@ -1321,12 +2448,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/32af4b15-c9ad-4e51-8353-757fcff3
   page: aura
   slot: S03-m10
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/33aa1cd5-aedb-482b-96f7-2671ecd27467.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S06-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/33e4ef3f-71cb-470c-becb-9b7e4d9ecba2.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: ai-models--seedance-2-5
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/33f09857-2e0d-4c46-b2c4-63df6d41a4a8.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m4
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif:
   style: full-bleed
@@ -1348,6 +2489,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3496c786-cc36-4f1e-8854-e2ddc5cd
   confidence: 0.0
   page: ai-models--recraft-v4-1
   slot: S03-m9
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/35f029d3-e1a5-403d-ace0-ad01e664f9d2.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m11
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/36577fd1-755f-4fbf-a704-3f0311d0b517.avif:
   style: full-bleed
@@ -1447,6 +2595,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3a78a237-3355-4d87-adfa-1e53dde4
   page: remove-object-from-photo
   slot: S01-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/3b0b8ed5-0aaa-41b1-bb59-7495e4f3b321.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m20
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/3bc4d480-8ea3-4a94-b850-8f24181de280.avif:
   style: cinematic-still
   variant: null
@@ -1545,6 +2700,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4102d953-574a-4dbd-8562-ade78b2e
   page: ai-models--gpt-2
   slot: S03-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/4152c4fc-e528-422e-b30a-cb466ca80c23.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S07-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4180469f-eeb4-47b6-82ae-50d374fb9f22.avif:
   style: cinematic-still
   variant: null
@@ -1579,6 +2741,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/42c2618b-d6b7-496c-973a-5da761fa
   confidence: 0.0
   page: compare-models--recraft-v4-vs-midjourney
   slot: S01-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/42dbbee8-9436-47f4-91f7-c300fac40535.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S06-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4326501f-a5c9-45d1-b81b-199a1eb448a5.avif:
   style: cinematic-still
@@ -1628,6 +2797,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/452ff7b9-5590-4f46-a852-5c0f48fe
   confidence: 0.0
   page: ai-models--nano-banana-2
   slot: S03-m6
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/453b1a4b-188c-4ad3-a83a-3d71bb40e409.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S05-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4590d202-ac58-41a9-98f5-ade8a0a935cc.avif:
   style: full-bleed
@@ -1748,6 +2924,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/49af55a9-0632-4929-b067-1e96f5d3
   page: ai-story-generator
   slot: S03-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/4a72f6b7-31c2-4d34-8724-1fe84ea3c074.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m2
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4a7ffc24-846a-4092-87e6-705f7b2c2c85.avif:
   style: full-bleed
   variant: null
@@ -1818,6 +3001,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4c0b8b9b-c908-4477-8a1a-375fa06c
   page: crop-image
   slot: S01-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/4c4bdae9-f035-4576-9038-5b8e3e4d463b.webp?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S06-m5
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4c68a8f8-0224-4963-aa04-349c77e50688.avif:
   style: full-bleed
   variant: null
@@ -1867,6 +3057,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4fdc6d82-b4be-4a86-a5f7-6d63b7f3
   page: ai-models--happyhorse-1-1-ref-to-video
   slot: S03-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif:
+  style: dark-composite
+  variant: null
+  confidence: 0.6
+  page: compare-models--nano-banana-2-vs-flux-2-pro
+  slot: S04-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5009397a-d634-4f63-828f-ae1d362f8ce8.webp:
   style: before-after
   variant: null
@@ -1894,6 +3091,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5069b0d5-1374-4193-aa85-6b999607
   confidence: 0.0
   page: compare-models--gpt-image-1-5-vs-midjourney
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/508eb219-c3a4-41e1-91eb-80f50a96e10d.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m9
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5092d079-7057-4fc5-a849-e5f928dcf7af.avif:
   style: cinematic-still
@@ -1937,6 +3141,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5243cba4-f11e-4275-8e25-0b60798c
   page: ai-models--wan-2-7
   slot: S03-m10
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/531d8853-cd67-43ca-bbac-8df8f4d66e9d.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S18-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/53770894-a171-4917-8a13-0a4cf3c4f349.avif:
   style: full-bleed
   variant: null
@@ -1972,6 +3183,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/54dc6b46-d92c-456a-a7ed-89c8ad3a
   page: compare-models--seedance-2-vs-runway-gen-4
   slot: S09-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/551e3104-efb8-40ee-b02a-8f49a0c9b95b.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m23
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/55586263-220b-490e-bd0f-3844a84fc064.avif:
   style: cinematic-still
   variant: null
@@ -1999,6 +3217,20 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20
   confidence: 0.0
   page: compare-models--dall-e-3-vs-midjourney
   slot: S10-m10
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-models
+  slot: S05-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/55a4e949-818f-4e72-9677-1bc193a5216d.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m7
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5697681d-0855-4e6a-ba9f-134f90903280.jpeg?type=webp&to=min&r=400:
   style: cinematic-still
@@ -2034,6 +3266,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/578b4a85-8496-490a-a07b-8ee5e72e
   confidence: 0.0
   page: ai-models--happyhorse-1-0
   slot: S03-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/580adc7d-a375-4628-8d3e-544fb2883e27.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S08-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/58850388-51ab-4973-a327-fed0a975cf81.webp:
   style: full-bleed
@@ -2084,6 +3323,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b
   page: ai-models--flux-kontext-max
   slot: S04-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/597e7e0f-8b3d-432a-9077-a5323c0ac7bd.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m10
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/598f6935-d80c-4f4b-962d-dbc0bcd07770.avif:
   style: cinematic-still
   variant: null
@@ -2133,6 +3379,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5acfd40b-5caf-4e9c-a407-d94eaa68
   page: ai-models--imagen-4-0
   slot: S05-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/5af7b465-8058-4a22-8099-9675c1462430.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m18
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5b5b63a0-2c1a-4602-9975-b704b02be26a.avif:
   style: full-bleed
   variant: null
@@ -2146,6 +3399,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5bff5093-4137-4c57-bb5e-c3d4093e
   confidence: 0.0
   page: ai-background
   slot: S09-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/5c49db20-5b2c-4809-91ee-254b324f0ea6.webp?type=webp&to=min&r=640:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: ai-design-tools
+  slot: S03-m7
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5c872d10-5d75-4919-8069-f873eb2850b5.avif:
   style: full-bleed
@@ -2210,6 +3470,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6027c22c-3126-40f0-a8a9-adf208c1
   page: ai-models--dall-e-3
   slot: S03-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/60336e82-562b-47a1-ac82-d1e11fd0d960.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m2
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/60883c3e-9cb0-4c8d-8f78-9992d51797e3.png?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -2223,6 +3490,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/608dc92c-bfff-4a83-b2c4-04127b35
   confidence: 0.0
   page: ai-image-enhancer
   slot: S14-m3
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/60a7ee95-3619-4efd-be43-0d15050f3edf.mp4:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-assistant
+  slot: S02-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/60a90556-6871-4f1e-a7a5-098756466b54.avif:
   style: full-bleed
@@ -2272,6 +3546,20 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/62d6e094-1f91-41b9-aa00-79affe17
   confidence: 0.0
   page: ai-models--flux-2-klein-4b
   slot: S03-m7
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/63525a28-01d5-4509-bd72-933f35195c41.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/63fb102b-fd68-4405-a42a-5466c0943ed8.webm:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S05-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/64290735-7c14-448b-a076-c43c707ff070.avif:
   style: full-bleed
@@ -2364,6 +3652,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6731d7b6-3317-49d4-be51-88214b52
   page: compare-models--luma-ray-2-vs-kling-3-0
   slot: S01-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/676a1da4-4695-4748-bc0c-1e0078f7dad1.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6778e5bf-cf0f-489f-8698-1e8360a5d85b.avif:
   style: cinematic-still
   variant: null
@@ -2420,6 +3715,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/69d930ac-f093-4f6c-b27c-98743048
   page: ai-models--nano-banana-2
   slot: S03-m7
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/69fec035-fd2b-418f-874e-42b29ea3f21b.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m17
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6a2d7c88-efb3-4ed5-a44c-895d79002c5d.webm:
   style: full-bleed
   variant: null
@@ -2461,6 +3763,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6b9bdf16-5198-44bd-b9e1-b6f6493d
   confidence: 0.0
   page: photo-effects
   slot: S09-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/6c64016a-f908-4ef6-a841-955c1de4f5de.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m9
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6c97b212-9e1d-4f09-b117-260886cb32e9.avif:
   style: cinematic-still
@@ -2524,6 +3833,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/70b9be0b-ef8b-409d-8955-5b6e6e97
   confidence: 0.0
   page: ai-gif-generator
   slot: S12-m5
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/716f276b-0fd6-4b53-905d-cea4a76c81e5.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m16
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/7189ab4f-a293-46c0-875b-10f9210ec9d7.avif:
   style: cinematic-still
@@ -2616,6 +3932,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/76b0a464-9283-4acc-bce1-d35adf1c
   page: ai-models--nano-banana-2
   slot: S03-m9
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/7760a5bf-6448-46c3-a2ef-23ef357be1ef.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S04-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/77ab8453-45fa-42d1-a792-960a85696316.avif:
   style: full-bleed
   variant: null
@@ -2665,6 +3988,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/7a041b0d-7641-423d-bb76-40e1f997
   page: ai-image-extender
   slot: S12-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/7a2e7f54-624b-484b-9a30-dfc6955cc8ba.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S22-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/7a582745-3b29-4381-b2dc-44059441f3fb.avif:
   style: full-bleed
   variant: null
@@ -2713,6 +4043,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/7baba4cc-7e69-4106-b465-4b7c9d59
   confidence: 0.0
   page: add-music-to-video
   slot: S03-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/7bf28210-0760-4882-9075-a79975887138.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m7
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/7d21a6c8-849e-4c5c-95d9-e71af4479458.webm:
   style: full-bleed
@@ -2854,6 +4191,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/82a0fb79-7a94-4471-bfd8-2db6faa9
   page: ai-story-generator
   slot: S02-m4
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/82d43c26-62c4-48b0-8f1c-13356a1fd25c.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m6
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/82e51dda-2592-4251-aa83-69cb57802818.webp:
   style: full-bleed
   variant: null
@@ -2930,6 +4274,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8500247f-49da-48c3-9327-3ded7fe9
   confidence: 0.0
   page: compare-models--gpt-image-1-5-vs-midjourney
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/851487cb-8ed8-4307-83fc-93a0f8119554.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m3
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/85677966-3331-46ed-be1c-1daead8be21c.avif:
   style: before-after
@@ -3071,12 +4422,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8ae91cb4-0c9a-4800-8091-76909ce3
   page: aura
   slot: S05-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/8b7b3b51-ac85-43bd-8ba2-03d18a86c792.webp?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-design-tools
+  slot: S07-m7
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/8c14fb31-81ac-4b2e-9d2a-403a0769594a.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: compare-models--seedance-2-vs-runway-gen-4
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/8d5b5311-4013-49bc-a3e0-9543023f38a5.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m2
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/8d9c9785-98a2-41b5-9d2e-932133f184e2.webp:
   style: full-bleed
@@ -3113,6 +4478,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8f4fa672-c2bb-49c3-816c-a1e1151c
   page: ai-models--flux-2-klein-4b
   slot: S04-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/8fb87bef-ef04-4884-be64-4d49c788b1fd.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m3
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/8fe07abd-acf3-4ccb-ba5e-fdc63ce38e41.avif:
   style: full-bleed
   variant: null
@@ -3141,6 +4513,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/911aed5c-e8b3-4367-bb09-1d78b237
   page: ai-story-generator
   slot: S01-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/917b6d41-e61b-4c25-ad85-f27f5bdc2e96.webp?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S06-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/91f2bd4e-0e34-4265-8470-cfcaa69eeb3a.avif:
   style: full-bleed
   variant: null
@@ -3154,6 +4533,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/91f91c57-48cc-4924-b9ee-ea28c107
   confidence: 0.0
   page: ai-models--elevenlabs-music-v2
   slot: S03-m9
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/9231a5f0-50cc-4486-aca7-91d57b6ac5f0.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/923eb4bf-2fdd-451c-8be4-f42ae3d479fc.webm:
   style: full-bleed
@@ -3337,6 +4723,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/99aa8fe7-c97b-41ae-8f7f-d1aa1dea
   page: ai-image-generator
   slot: S10-m4
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/99d81409-5b41-4d21-aab3-a600ee20726c.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m8
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/9a396ec1-ea03-4ffa-a142-6e06bf8d4eeb.avif:
   style: cinematic-still
   variant: null
@@ -3428,6 +4821,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a03ad87c-6379-4378-b446-7672e5fb
   page: compare-models--flux-2-pro-vs-midjourney
   slot: S08-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/a059a5ff-370d-4ffe-9deb-7046dcc79235.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-assistant
+  slot: S01-m2
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/a0688108-f396-479b-9152-d760a35be286.avif:
   style: cinematic-still
   variant: null
@@ -3441,6 +4841,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a16bd5ba-8c8e-40cd-b22e-a796f8ab
   confidence: 0.0
   page: ai-models--dall-e-3
   slot: S04-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/a267a0cb-aca2-40e6-9131-dabc6ab3a5ae.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m8
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/a434e2d2-fb85-4e54-b0e1-416f4b5ce127.avif:
   style: full-bleed
@@ -3554,6 +4961,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/aa408e59-a8eb-44f5-91bc-182c1076
   page: compare-models--runway-gen-4-vs-veo-3
   slot: S06-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/aaae441f-71ce-46eb-842c-94d16eb56213.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m10
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ab14a4bf-d118-4268-9a2c-f54a7766f8ca.webm:
   style: full-bleed
   variant: null
@@ -3575,12 +4989,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/abdc6d0a-3336-4421-9f94-8ac08d3b
   page: comic-book-generator
   slot: S11-m4
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/abe33831-3e5e-454b-9390-e085bebc1133.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m6
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ac5aa2a5-f623-44a5-b4f4-32471a194c41.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: compare-models--seedance-2-5-vs-kling-3-0
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/acf083e2-ca6b-4fa2-a7ff-854ff3c77dfd.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S08-m3
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ad02dfe3-d4e6-4966-bdf8-ff433e2c304b.avif:
   style: cinematic-still
@@ -3624,12 +5052,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ae15a6af-87d8-4c82-9a30-62ed7d8f
   page: remove-object-from-photo
   slot: S12-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/aed110ba-3bc2-4286-8264-2497be460ff3.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/af02f9ab-66a0-481f-a8e5-a2732fd7a806.avif:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: compare-models--ideogram-3-0-flash-vs-flux-2-pro
   slot: S05-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/af8d42de-e318-402f-9851-e9d325e5e806.avif:
+  style: mockup-card
+  variant: null
+  confidence: 0.8
+  page: collage-maker
+  slot: S07-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/afb6bb04-e5ad-4900-9a91-26c70f127b3b.png?type=webp&to=min&r=400:
   style: cinematic-still
@@ -3658,6 +5100,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b0a87ed7-df4b-4f8f-b401-50331c11
   confidence: 0.0
   page: ai-models--gpt-image-1
   slot: S01-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/b0bf192f-9bee-431d-ab20-2a3c1e90c8fb.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S16-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/b1482f9a-3cfa-45e2-a23b-eff12e9210c8.avif:
   style: full-bleed
@@ -3834,6 +5283,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b8b480c4-bcfd-442b-a6ae-73f9fe15
   page: ai-models--gpt-image-1-5
   slot: S03-m5
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/b8f956e2-23fb-4eee-ae01-6289f0a422e3.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S08-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/b8fbc964-993a-46da-aa33-c9d9032c3147.png?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -3904,6 +5360,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/bc1424ed-c046-4db0-9dd9-42b87413
   page: compare-models--flux-2-pro-vs-midjourney
   slot: S04-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/bc8df8ac-af61-4a25-9531-5deb053a18ea.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S03-m5
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/bc92f29e-a646-43d6-93a6-534322f9b654.avif:
   style: cinematic-still
   variant: null
@@ -3939,6 +5402,20 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/bd2c72db-796e-412a-b51a-927cc22f
   page: ai-background
   slot: S05-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/bd3c5739-9e9e-40e9-9207-d549b9b922f1.avif:
+  style: dark-composite
+  variant: null
+  confidence: 0.6
+  page: compare-models--flux-2-pro-vs-midjourney
+  slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/bd94f88c-5d5a-4b43-9f24-5b3d13d51045.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S06-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/bea383c3-bf8d-4663-9e8f-a188310e970e.avif:
   style: full-bleed
   variant: null
@@ -3959,6 +5436,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/bef623e5-df4c-452f-bf7c-00e049a7
   confidence: 0.0
   page: crop-image
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/bf44ec1d-99e4-4dbc-ad5e-f418cf644fc4.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m8
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/c06664da-4def-47da-858c-c311252d2f12.avif:
   style: full-bleed
@@ -4009,6 +5493,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/c242e2fd-c98b-41c7-b70b-78e4fd96
   page: ai-models--google-omni
   slot: S03-m6
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/c25a38ef-6c42-4fdc-a374-140caf35add9.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S08-m2
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6.avif:
   style: before-after
   variant: null
@@ -4058,6 +5549,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/c3b65908-5a6e-42b0-a2b3-d2f07f39
   page: aura
   slot: S05-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/c4678f69-b9c6-45f2-8146-2dfa29a6daba.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/c476a874-7a61-482f-ba0b-0268a88df516.avif:
   style: full-bleed
   variant: null
@@ -4092,6 +5590,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/c5a8cdbd-d3d7-45fe-b842-92ab2329
   confidence: 0.0
   page: aura
   slot: S02-m8
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/c6447fc2-9c0f-4e22-b33d-3fede58d76b2.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m2
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/c6630ceb-2161-4411-bb23-32d6a366f0f0.avif:
   style: cinematic-still
@@ -4261,6 +5766,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/cc0a8058-5cd6-4291-a4e2-a49d8104
   page: ai-models--recraft-v4-1
   slot: S03-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/cc63b042-843c-430b-9dc5-4d29ce46eb41.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m10
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/cc6e4d18-b7c5-4470-8b5f-414a7b806771.webp?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -4345,6 +5857,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/cff03553-646c-4ec9-9321-939d3444
   page: ai-models--flux-2-klein-4b
   slot: S08-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/d00d2db8-284b-418b-820c-089cc971ff91.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: flip-image
+  slot: S05-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/d0953f61-8e9d-4f1f-bc65-f1b3290a7fc0.avif:
   style: before-after
   variant: null
@@ -4422,6 +5941,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/d451863e-82a0-4850-ad31-98571d77
   page: ai-story-generator
   slot: S03-m7
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp:
+  style: prompt-card
+  variant: null
+  confidence: 0.85
+  page: ai-models--dall-e-3
+  slot: S06-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/d5292893-1141-4ffd-be18-5ab95c908fb8.webm:
   style: full-bleed
   variant: null
@@ -4456,6 +5982,20 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/d7249ef4-30ce-4586-be3d-6e4996a5
   confidence: 0.0
   page: ai-models--happyhorse-1-1
   slot: S03-m4
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/d754cd28-37c2-40db-b02a-bfd90a72decc.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: video-to-gif
+  slot: S02-m6
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/d7a09b99-9361-43b7-8a10-6c652e1106c8.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S07-m6
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/d7d30fac-1969-414a-8e94-657bf84c8ee6.webm:
   style: full-bleed
@@ -4505,6 +6045,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/d999923c-1d4f-4fae-93e7-c9ed6aee
   confidence: 0.0
   page: ai-models--flux-3
   slot: S01-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/d9aa257c-109b-4f66-b627-5dc1f662f26a.webp?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: content-creation-tools
+  slot: S07-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/da0bceaf-ad6d-4388-8dfb-9a3537dbf19d.png?type=webp&to=min&r=400:
   style: cinematic-still
@@ -4709,12 +6256,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/e1af1637-8c6d-4bc6-829a-e6b03c92
   page: ai-models--nano-banana-2
   slot: S03-m10
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/e1b979b7-d8be-49e4-86df-1a15e6393ded.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S16-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/e1bda861-2555-42d8-9a36-8eab9df10b0c.webp:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: background-remover
   slot: S09-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/e267806f-fef6-418a-b9aa-a6ce22916c90.avif:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S02-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/e290f1ef-de9a-46fa-b1fa-efd50628ebfa.avif:
   style: full-bleed
@@ -4765,12 +6326,33 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/e3300652-fd1d-4c18-898e-0f7f079f
   page: ai-models--flux-2-klein-4b
   slot: S07-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/e34bb678-8f66-4751-a127-f3532a3cabf6.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/e34d0498-d2c2-403b-87bc-6dd66ea48d3d.webm:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: video-enhancer
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/e34f5d41-fb29-4ceb-8402-21f4b49c4b97.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/e3b40b80-066b-4840-9430-45b939ebe324.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m21
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/e4710225-0f98-4713-9c85-f2b947a72515.avif:
   style: full-bleed
@@ -4870,6 +6452,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/e95bbdbc-89b4-4ad1-8e73-b45b0b2b
   page: ai-retouch
   slot: S08-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ea1f70b8-6a7e-4382-9756-e6f73e2bee4e.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m13
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ea4a0d75-8ee1-4f00-9976-70ab5ff3cd11.avif:
   style: full-bleed
   variant: null
@@ -4967,6 +6556,27 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ef38e52b-4cea-41c8-84f0-f4452f06
   confidence: 0.0
   page: wallpaper-maker
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ef5b2298-ec84-4404-a613-f4cd95840ced.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: flip-video
+  slot: S11-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ef8b7269-43f2-4083-b9ba-caa42c795478.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m9
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/efeedce5-ecd8-456d-a908-033bea8d052a.png?type=webp&to=min&r=800:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S15-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/f05f9c6c-eb68-48cb-8453-3203bf276497.avif:
   style: full-bleed
@@ -5157,6 +6767,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/f8f90ee7-1c11-4677-9a0f-3c3bdebb
   page: persona
   slot: S02-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/f92ec76b-21d7-49a1-b409-bb813ca8b5be.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S08-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/f9669ed9-efc3-486b-bdb2-d99c4d2109ce.png?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -5184,6 +6801,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/facc6f91-bd9e-4490-babc-b5661dc6
   confidence: 0.0
   page: aura
   slot: S05-m2
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/fae4fb23-3d49-43a7-8e19-9980c24d9824.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m14
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/fb7e665c-f6cb-40a7-93f8-4c2d6cf7cc80.avif:
   style: cinematic-still
@@ -5219,6 +6843,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/fc87e5c3-2422-4a9e-a2b3-26bfb7f8
   confidence: 0.0
   page: aura
   slot: S04-m8
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/fd0a6faa-8e95-407f-8419-69784d73c63d.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-design-tools
+  slot: S02-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/fdac2539-ae58-4f8a-8949-7c2d79989424.webm:
   style: full-bleed
@@ -5262,12 +6893,61 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ff61788c-fadc-408c-b611-81964ad1
   page: ai-models--grok-imagine
   slot: S08-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ffbb68c7-8b33-453b-9aeb-288c24b5cf17.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: flow
+  slot: S10-m1
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/06806f58-40e1-454b-9909-ef61aa7a8241.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m23
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/0d3bfa10-54b1-412f-9072-6f916e2374cd.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m7
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/3043909c-a2a1-4e9a-a74c-7ff246554cfa.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m11
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/3ee37f10-bc4b-4c7e-8550-2a0e7d870f62.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m13
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/51996073-906f-4114-a16c-1a9fd26b8be5.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m9
+  source: rules
 https://cdn-pipeline-output.picsart.com/magic-flow/c48797c6-b6f9-4cd7-9695-a1686d0998cc.png?type=webp&to=min&r=1200&q=85:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: add-subtitles-to-video
   slot: S10-m6
+  source: rules
+https://cdn-pipeline-output.picsart.com/magic-flow/e7ec76aa-fbfa-4003-9d47-7144fc92725a.png?type=webp&to=min&r=1200&q=85:
+  style: before-after
+  variant: light
+  confidence: 0.0
+  page: document-maker
+  slot: S10-m7
   source: rules
 https://cdn-pipeline-output.picsart.com/pipeline-output/3d9cb60e-dc08-4361-b218-c1223e43d73a.png?type=webp&to=min&r=400:
   style: full-bleed
@@ -5304,12 +6984,96 @@ https://cdn-pipeline-output.picsart.com/pipeline-output/ac437204-29ff-40e2-b316-
   page: background-remover
   slot: S02-m4
   source: rules
+https://cdn-template.picsart.com/templates-cdn/0764b412-fdc4-48b8-97c4-69971ce6e0a7.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S14-m14
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/0b1ce106-7e78-4aff-866b-0b95b38f7115.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m9
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/0d1dd027-4e63-4e80-a020-e9ac7eef9c2a.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m15
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/136a2b68-c538-45f1-b6a9-845d4ae362f1.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m8
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/14e25abe-d62b-400c-8abf-f193774d2aee.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m10
+  source: rules
 https://cdn-template.picsart.com/templates-cdn/188b63c8-bf5d-40d3-af05-4996b8d82805.png:
   style: cinematic-still
   variant: null
   confidence: 0.0
   page: card-maker
   slot: S05-m6
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/18c105a8-7e2f-4239-b923-25e4d3da9f00.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m11
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/1cbfacd4-27f6-4de5-afd6-d757c7c745a6.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m7
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/1d257865-71fc-4a86-b8d9-941a21e4e5af.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m14
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/23000cc3-f96f-4903-adcd-6319c52453a3.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m1
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/2f230f4f-042c-4eae-ab07-95e37ddbd08d.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S06-m6
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/312c82bd-1462-40b0-9eb2-d3dc943932b7.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m4
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/38dd0eea-d695-4ebe-bbe5-c83fa3a65e61.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: label-maker
+  slot: S06-m12
   source: rules
 https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6654.jpg:
   style: full-bleed
@@ -5318,12 +7082,61 @@ https://cdn-template.picsart.com/templates-cdn/39a19b57-de8b-4e7a-822b-76c2ff8a6
   page: wallpaper-maker
   slot: S14-m12
   source: rules
+https://cdn-template.picsart.com/templates-cdn/3dde3e8f-94be-4ab5-8c0c-58339ae4fd1c.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: menu-maker
+  slot: S05-m8
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/425b4923-3a69-4257-932f-c958df8af1ea.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m12
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/4a360b22-030b-4c68-affb-7dfc07701426.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m4
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/4bc55a31-7558-48a7-80bf-4fb11ffae049.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m5
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/52e09d7a-e122-4da9-b5ed-3f5f889fd182.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: birthday-card-maker
+  slot: S05-m2
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/54cb4d67-f9f8-49b5-94dc-c75b8f2ea40d.jpeg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m8
+  source: rules
 https://cdn-template.picsart.com/templates-cdn/64325027-8601-45c8-8a51-d49f8ae23f12.png:
   style: cinematic-still
   variant: null
   confidence: 0.0
   page: card-maker
   slot: S05-m4
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/6f49e6da-357b-409c-8267-42a1f1980592.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S13-m2
   source: rules
 https://cdn-template.picsart.com/templates-cdn/7b55ae43-1fa7-4f0f-a418-742fef17127c.jpg:
   style: full-bleed
@@ -5332,6 +7145,34 @@ https://cdn-template.picsart.com/templates-cdn/7b55ae43-1fa7-4f0f-a418-742fef171
   page: motivation-poster-maker
   slot: S05-m2
   source: rules
+https://cdn-template.picsart.com/templates-cdn/7c7f92b9-d4d6-416f-990e-b88b610ddd98.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m12
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/7e0a496c-1c71-414e-958b-f65531307a48.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S13-m6
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/87101546-9993-4930-856a-1aaeafbd0ba0.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m2
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/8f893a06-9c99-462a-bbee-4f5d9e01ed63.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m6
+  source: rules
 https://cdn-template.picsart.com/templates-cdn/94d8ad0a-14a3-4887-9be0-80b3da44af11.jpg:
   style: full-bleed
   variant: null
@@ -5339,11 +7180,81 @@ https://cdn-template.picsart.com/templates-cdn/94d8ad0a-14a3-4887-9be0-80b3da44a
   page: flyer-maker
   slot: S04-m14
   source: rules
+https://cdn-template.picsart.com/templates-cdn/996d3100-57ae-406a-a970-e7b390c3952a.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: quiz-maker
+  slot: S06-m4
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/9bd75708-3d2d-422e-b9be-60d22c038071.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m12
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/9d61b988-3697-4e55-86d3-7a72a8c9b399.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m12
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/a5a602fb-c72f-4f7d-ac32-9698ed3a21ca.jpeg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m15
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/ab05bc5e-d47e-4fd4-9452-b5d0e51c2c0d.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: twitter-post-maker
+  slot: S04-m6
+  source: rules
 https://cdn-template.picsart.com/templates-cdn/b18e90f1-a028-437c-9e0d-3d0b5d0f8c55.jpg:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: motivation-poster-maker
+  slot: S05-m6
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/b37ebf34-e4fb-46f7-b2e5-3d272a36543a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m6
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/b9273ce4-3e65-41e7-837f-65791891fd65.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m8
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/c1cf9c96-3c84-4a17-9e01-38436687ebd2.jpeg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m11
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/c337f9d8-f500-434d-8dc3-24c7067e25d9.jpeg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m10
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/c4a81a6e-c91e-44e4-ade8-cefd15b3ac30.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
   slot: S05-m6
   source: rules
 https://cdn-template.picsart.com/templates-cdn/c579b7d5-60c3-4b79-9798-99bdd27f4d29.png:
@@ -5353,12 +7264,117 @@ https://cdn-template.picsart.com/templates-cdn/c579b7d5-60c3-4b79-9798-99bdd27f4
   page: wallpaper-maker
   slot: S14-m14
   source: rules
+https://cdn-template.picsart.com/templates-cdn/c8a69663-e9dd-42de-8a82-99755c412e5d.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m7
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/c9d84f40-03ff-4a35-b8b4-a447156ba19a.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m10
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/ca84d0f1-4f31-4644-8561-d30fef00d5eb.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: youtube-banner-maker
+  slot: S05-m10
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/ceac246c-895e-4ff2-9012-c40b2d1fc141.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m13
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/d19fb9b6-94ad-45fb-8854-b94a073e64b2.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m1
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/d5314730-ab4a-44f3-8c7e-1efa6f4a2281.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: timeline-maker
+  slot: S06-m4
+  source: rules
 https://cdn-template.picsart.com/templates-cdn/d95a4386-9352-4dd5-8c2f-87cb4680ccd5.jpg:
   style: before-after
   variant: null
   confidence: 0.0
   page: motivation-poster-maker
   slot: S05-m12
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/dbf95a51-00a9-4440-8b43-ab700495be68.jpeg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m2
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/dfcab1f0-88c1-40c2-bf8e-52789a488f2b.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: album-cover-maker
+  slot: S05-m13
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/e1744e4d-dee9-459c-b7c4-02f7a8f6e721.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: brochure-maker
+  slot: S05-m8
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/e4eb25c8-0471-469a-86b4-eff405fd0945.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: timeline-maker
+  slot: S06-m14
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/eb3899f0-f9b7-4423-921d-cb2ee2cffb25.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m2
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/f64a57dd-267d-4516-8d6e-e7b61c22cc82.jpg:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: gift-certificate-maker
+  slot: S04-m4
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/f6b166d1-926f-4713-a7a5-89fe5595b963.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: t-shirt-maker
+  slot: S04-m3
+  source: rules
+https://cdn-template.picsart.com/templates-cdn/f94ebe93-756f-4311-9e41-a7746fb93ded.jpg:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: bookmark-maker
+  slot: S05-m5
+  source: rules
+https://cdn130.picsart.com/01442783061577513814.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: content-creation-tools
+  slot: S06-m2
   source: rules
 https://cdn130.picsart.com/06008710753166939814.png:
   style: full-bleed
@@ -5402,6 +7418,13 @@ https://cdn130.picsart.com/31776479278333160291.jpg:
   page: video-maker
   slot: S05-m2
   source: rules
+https://cdn130.picsart.com/54964550287710715013.png:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: red-eye-remover
+  slot: S02-m1
+  source: rules
 https://cdn130.picsart.com/57949230988708590385.png:
   style: full-bleed
   variant: null
@@ -5416,12 +7439,47 @@ https://cdn130.picsart.com/97496516415030213401.jpg:
   page: resize-video
   slot: S04-m2
   source: rules
+https://cdn131.picsart.com/336340346042211.png?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m35
+  source: rules
+https://cdn140.picsart.com/01359979707299665270.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: rotate-image
+  slot: S02-m1
+  source: rules
+https://cdn140.picsart.com/01359979707299665270.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: image-tools
+  slot: S04-m4
+  source: rules
 https://cdn140.picsart.com/05096155402720415751.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: add-music-to-video
   slot: S15-m1
+  source: rules
+https://cdn140.picsart.com/15842904208848290037.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: book-cover-maker
+  slot: S12-m7
+  source: rules
+https://cdn140.picsart.com/17169716074950588894.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: red-eye-remover
+  slot: S02-m4
   source: rules
 https://cdn140.picsart.com/18910633441796797381.jpg:
   style: before-after
@@ -5430,6 +7488,13 @@ https://cdn140.picsart.com/18910633441796797381.jpg:
   page: photo-effects
   slot: S13-m3
   source: rules
+https://cdn140.picsart.com/18910633441796797381.jpg?type=webp&to=min&r=640:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: image-tools
+  slot: S05-m5
+  source: rules
 https://cdn140.picsart.com/19524248449069363964.png:
   style: full-bleed
   variant: null
@@ -5437,12 +7502,26 @@ https://cdn140.picsart.com/19524248449069363964.png:
   page: pattern-generator
   slot: S04-m2
   source: rules
+https://cdn140.picsart.com/27148736718296704773.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: hsl-color
+  slot: S03-m3
+  source: rules
 https://cdn140.picsart.com/28346094886268607828.jpg:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: video-maker
   slot: S04-m1
+  source: rules
+https://cdn140.picsart.com/365171590029201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m51
   source: rules
 https://cdn140.picsart.com/36859796455276761041.jpg:
   style: full-bleed
@@ -5458,12 +7537,47 @@ https://cdn140.picsart.com/38367935332238361223.png:
   page: photo-effects
   slot: S13-m5
   source: rules
+https://cdn140.picsart.com/38367935332238361223.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: image-tools
+  slot: S05-m6
+  source: rules
 https://cdn140.picsart.com/41779149433041104670.jpg:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: video-maker
   slot: S04-m3
+  source: rules
+https://cdn140.picsart.com/48531286883404972211.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: hsl-color
+  slot: S01-m1
+  source: rules
+https://cdn140.picsart.com/48790089278770695789.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: hsl-color
+  slot: S03-m1
+  source: rules
+https://cdn140.picsart.com/50892820920814118920.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: content-creation-tools
+  slot: S03-m5
+  source: rules
+https://cdn140.picsart.com/56277461050794907876.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: content-creation-tools
+  slot: S05-m4
   source: rules
 https://cdn140.picsart.com/61429107066560758315.jpg:
   style: full-bleed
@@ -5478,6 +7592,13 @@ https://cdn140.picsart.com/63862716128577081290.png?type=webp&to=min&r=640:
   confidence: 0.0
   page: design
   slot: S06-m5
+  source: rules
+https://cdn140.picsart.com/65114972051132710729.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: red-eye-remover
+  slot: S01-m1
   source: rules
 https://cdn140.picsart.com/66227630984970875019.jpg:
   style: full-bleed
@@ -5514,12 +7635,26 @@ https://cdn140.picsart.com/87809959422995621785.png:
   page: add-stickers-to-photos
   slot: S03-m3
   source: rules
+https://cdn140.picsart.com/88579681064552249841.png?type=webp&to=min&r=640:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: image-tools
+  slot: S05-m7
+  source: rules
 https://cdn140.picsart.com/91247890161620283422.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: add-stickers-to-photos
   slot: S03-m1
+  source: rules
+https://cdn140.picsart.com/91443790414859242662.png:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: red-eye-remover
+  slot: S02-m3
   source: rules
 https://cdn140.picsart.com/93933577265296523979.png:
   style: full-bleed
@@ -5548,6 +7683,314 @@ https://cdn140.picsart.com/99076257599240097173.png:
   confidence: 0.0
   page: hair-color-changer
   slot: S02-m3
+  source: rules
+https://cdn270.picsart.com/0f2e60eb-e32d-4977-9aa5-9fd8fbd4f62a/525957732008201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m15
+  source: rules
+https://cdn270.picsart.com/12bd0b4e-c729-4d36-b583-5a95e993c318/526218583004201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m33
+  source: rules
+https://cdn270.picsart.com/21d160d7-7c67-4f8b-8904-e09a12c9bfa2/526286925006221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m19
+  source: rules
+https://cdn270.picsart.com/34b8e6ff-6727-4eaf-8b8d-501c27e6350a/522221850005201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m45
+  source: rules
+https://cdn270.picsart.com/3cca3568-f17a-412c-b484-6798c5e346e1/526278747001221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m25
+  source: rules
+https://cdn270.picsart.com/48e49c4f-6e57-4d28-8c3a-8452946f05f5/525389814006201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m12
+  source: rules
+https://cdn270.picsart.com/499adcc6-ce14-4db9-8851-779865eef8df/526361438000221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m13
+  source: rules
+https://cdn270.picsart.com/4bcd53ec-1902-4397-a462-3eeb14895076/526226825011221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m40
+  source: rules
+https://cdn270.picsart.com/50dac3ea-e3a0-446a-b073-2971e0e3309b/526366947010221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m10
+  source: rules
+https://cdn270.picsart.com/669d445b-15c2-4364-8a75-3c07cbfd332b/526267874007221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m28
+  source: rules
+https://cdn270.picsart.com/714ddc22-f259-413c-8a8c-1190bb43e10a/518992065006201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m6
+  source: rules
+https://cdn270.picsart.com/7153d169-f018-40d3-bee4-580e634bdf93/526220484007221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m52
+  source: rules
+https://cdn270.picsart.com/768d4f84-3f14-4ce2-9aca-771d3e197b10/522387741002201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m21
+  source: rules
+https://cdn270.picsart.com/76a5c4f9-c307-43a6-aaa8-ec4b5551f25d/417702900012201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m50
+  source: rules
+https://cdn270.picsart.com/7aa6033c-c200-419f-993b-8a2691f097db/526223080001221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m46
+  source: rules
+https://cdn270.picsart.com/812c7f7a-69db-49c1-98eb-02b3773119c7/524920011004201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m41
+  source: rules
+https://cdn270.picsart.com/8211ed1c-df1e-40c3-bba8-5e95b2e5544b/525756504002201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m11
+  source: rules
+https://cdn270.picsart.com/8e630c98-b4b8-4ea1-8668-b8b3a3da0885/526506010001221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m1
+  source: rules
+https://cdn270.picsart.com/91d61216-bd97-453e-aaec-787fd681a6cd/526284077003221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m22
+  source: rules
+https://cdn270.picsart.com/946e54f4-32b9-41c1-94a5-08db83ec3702/526313036015221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m16
+  source: rules
+https://cdn270.picsart.com/9901e94d-0eb4-4010-8305-c59e7dd521d0/525851890014201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m18
+  source: rules
+https://cdn270.picsart.com/9aa7fb9a-255c-4731-b5fd-62db2017a57a/526236379010221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m37
+  source: rules
+https://cdn270.picsart.com/acb7ab61-530d-45c2-aacb-20ab8dcb0e2c/526223736006221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m43
+  source: rules
+https://cdn270.picsart.com/ae9077d5-05da-44e5-a1c6-34204dd51c23/420300088034201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m54
+  source: rules
+https://cdn270.picsart.com/af6a47bc-0a1c-410f-a98a-e927bdc25498/526238556012221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m34
+  source: rules
+https://cdn270.picsart.com/b7b4b5b6-4361-45ce-8e21-c4f96aa41b2e/526222200010221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m49
+  source: rules
+https://cdn270.picsart.com/c3f7910f-d1a5-438a-8f50-715c15172441/526219018008201.jpeg?type=webp&to=min&r=400:
+  style: outcome-tile
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m24
+  source: rules
+https://cdn270.picsart.com/c873004e-d226-4985-8734-c6d5f6ae7a6c/526417650004221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m7
+  source: rules
+https://cdn270.picsart.com/ce0f7585-7fe1-4424-8270-8b831fbbcef0/526457010002221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m4
+  source: rules
+https://cdn270.picsart.com/cf545cb5-8f21-4f28-9e5b-e442c113fff7/526219590004221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m55
+  source: rules
+https://cdn270.picsart.com/eb183fbc-e6c3-4b68-81c5-305bacc5b86a/526253104007221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m31
+  source: rules
+https://cdn270.picsart.com/ecbd6fe9-7b09-49e0-a646-0a883e5d578e/412354104009201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m29
+  source: rules
+https://cdn270.picsart.com/ef8ff52b-a286-43b4-b975-c089c1503197/526219283012221.jpg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m58
+  source: rules
+https://cdn270.picsart.com/f6b78131-10b0-42dc-b63d-693a339bf858/526188848002201.jpeg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m32
+  source: rules
+https://cdn270.picsart.com/fb155f4d-09cc-40f0-88af-2bd966ecd3ca/525957987001201.jpeg?type=webp&to=min&r=400:
+  style: cinematic-still
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m27
+  source: rules
+https://cdn271.picsart.com/135933ef-891e-4a80-b964-b311526a4260/441657980006201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m38
+  source: rules
+https://cdn271.picsart.com/1ad6af2e-944e-4284-9d83-7dee30be62d2/434998546035201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m26
+  source: rules
+https://cdn271.picsart.com/26dc0961-966f-401f-a2cd-be058b42bab0/417990530030201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m56
+  source: rules
+https://cdn271.picsart.com/27fd46d7-6c95-4bb8-9e8b-2c268c84c781/521300574006201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m30
+  source: rules
+https://cdn271.picsart.com/2815f4c3-aa04-423a-9849-0b00c4323f7c/421770766018201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m17
+  source: rules
+https://cdn271.picsart.com/44335d9d-18f0-4646-9e7e-b7934a0f6a92/522301616015201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m59
+  source: rules
+https://cdn271.picsart.com/ad3f7769-4744-445e-8338-9796f53cff86/504350213001201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m8
+  source: rules
+https://cdn271.picsart.com/c61802ad-7bda-4a5e-baba-9c863e887c88/518786446001201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m2
+  source: rules
+https://cdn271.picsart.com/ef9a0234-31d3-4d39-8a8e-9da3e604ba67/447471574010201.jpg?type=webp&to=min&r=400:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S09-m42
   source: rules
 https://cdnblog.picsart.com/2020/07/clutter-2.jpg?to=max&r=780&q=90:
   style: full-bleed
@@ -5612,6 +8055,62 @@ https://cdnblog.picsart.com/2026/04/wan-2-7-model-integration-hero.png:
   page: ai-models--wan-2-7
   slot: S12-m1
   source: rules
+https://gcdn.picsart.com/magic-flow/09c0ebf1-9361-4098-92dc-ae479b85fb04.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m17
+  source: rules
+https://gcdn.picsart.com/magic-flow/0ca0f726-3455-4207-ab53-1de37e9c47a4.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m5
+  source: rules
+https://gcdn.picsart.com/magic-flow/14423192-329d-4584-b135-f04898151ebc.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m18
+  source: rules
+https://gcdn.picsart.com/magic-flow/252068a5-5827-487b-a292-b2f5756f41f5.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m6
+  source: rules
+https://gcdn.picsart.com/magic-flow/4bce554b-94cb-498d-9f26-9039b6c20e4b.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m21
+  source: rules
+https://gcdn.picsart.com/magic-flow/aa57944a-ac84-4ca7-a04a-f5d3c2602140.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m2
+  source: rules
+https://gcdn.picsart.com/magic-flow/e548494f-7cf2-478a-97b6-d71ca42a8e07.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m19
+  source: rules
+https://gcdn.picsart.com/magic-flow/f715f763-bd62-43bf-8a51-7508616b28bf.png?type=webp&to=min&r=1200:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S05-m20
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png:
   style: full-bleed
   variant: null
@@ -5661,6 +8160,13 @@ https://pastatic.picsart.com/cms-pastatic/094ede42-7aea-4524-949d-53685a0a0edd.p
   page: ai-video-filters
   slot: S09-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/0aee3bdc-d7ca-47f6-982f-09f69dc07d1e.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S09-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/0cda6c41-8faf-4d4a-b12d-cda79108ce61.png:
   style: full-bleed
   variant: null
@@ -5682,6 +8188,20 @@ https://pastatic.picsart.com/cms-pastatic/0e6fd8bb-8651-49f9-bbdc-6b8cca7a7283.p
   page: ai-filters
   slot: S12-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/0fb67f6b-bdc6-4c1c-8d24-a619f5ca5917.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S10-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/10abe8ee-6361-41d6-9ef1-703350dedc57.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S08-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png:
   style: full-bleed
   variant: null
@@ -5695,6 +8215,20 @@ https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.p
   confidence: 0.0
   page: remove-object-from-photo
   slot: S17-m2
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/15aed5d8-3be3-4622-a770-c14176dfca99.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S11-m4
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/1676dd8b-b017-4519-a818-85e855e6edb2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S07-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/19ef9fad-f3a7-4fc0-ba0b-c0a94846ff18.png?type=webp&r=548&to=min:
   style: full-bleed
@@ -5717,12 +8251,26 @@ https://pastatic.picsart.com/cms-pastatic/2288c661-4722-43a9-9ed2-d6d7097dae0c.j
   page: ai-sticker-maker
   slot: S09-m3
   source: rules
+https://pastatic.picsart.com/cms-pastatic/234929a2-4d37-4f5a-bd22-d81bfa8cc52f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: pdf-maker
+  slot: S09-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/251b1a73-32a3-4c7a-93df-bacb40c22533.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: ai-photo-editing
   slot: S12-m8
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/2631a718-ad61-4f27-afed-9bc52863f26a.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S11-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/27820b92-fda1-4d6b-8339-e6a532949904.png:
   style: full-bleed
@@ -5731,12 +8279,33 @@ https://pastatic.picsart.com/cms-pastatic/27820b92-fda1-4d6b-8339-e6a532949904.p
   page: collage-maker
   slot: S16-m3
   source: rules
+https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S07-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/2fd282a1-7ae9-4c3b-be64-2a62b37447c2.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: ai-filters
   slot: S09-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/31f9477f-2d92-4094-baef-43d722ba8d8f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S08-m3
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/3359b079-6db7-4540-add0-dff59bc02363.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: pdf-maker
+  slot: S10-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/34b6625c-3840-4172-9afb-56091aefa7bc.png:
   style: full-bleed
@@ -5779,6 +8348,20 @@ https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.p
   confidence: 0.0
   page: ai-content-generator
   slot: S09-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png?type=webp&r=548&to=min:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S10-m3
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/3fa3a8e0-ab54-4bf5-86d2-bafeeead6cba.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S08-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/4336ce66-4f4c-4673-b181-86486dd441a0.png:
   style: full-bleed
@@ -5829,6 +8412,13 @@ https://pastatic.picsart.com/cms-pastatic/4e50ee88-d129-4a60-99aa-8077ad249c80.p
   page: ai-image-enhancer
   slot: S16-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/518504d9-2d70-43d3-9ef3-de62810bce3c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: pdf-maker
+  slot: S05-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/548dbd95-9988-44ab-83ee-aaed49a5a712.png:
   style: full-bleed
   variant: null
@@ -5878,12 +8468,26 @@ https://pastatic.picsart.com/cms-pastatic/5beaeb7a-582d-4f2a-81cc-54dbb60f8451.p
   page: ai-filters
   slot: S13-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/5c40aaf0-2cff-42b7-9b40-83853640badb.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S05-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/60cf4283-ebab-4a67-b121-2bc6df15d348.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: ai-sticker-maker
   slot: S10-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S12-m4
   source: rules
 ? https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png?type=webp&r=548&to=min?type=webp&r=548&to=min
 : style: full-bleed
@@ -5913,12 +8517,33 @@ https://pastatic.picsart.com/cms-pastatic/671d60f0-e4e6-4c47-b3db-6480074cb482.p
   page: ai-photo-editing
   slot: S12-m6
   source: rules
+https://pastatic.picsart.com/cms-pastatic/6732ca6c-7382-45d6-9f0d-b445e183b7b2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S11-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/68b8f004-50e1-4147-9aa5-304934e264d2.png:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: background-remover
   slot: S17-m6
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/69858241-1225-421f-b408-d27b102951bf.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S12-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/69d972fb-8104-4004-bddc-745009271edc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S11-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/6c4b51a7-9a74-4f5b-b21a-d148e8a6b68e.png:
   style: full-bleed
@@ -5934,6 +8559,13 @@ https://pastatic.picsart.com/cms-pastatic/70aef1eb-6792-4a59-ab2d-14bf495ffa5a.p
   page: video-ad-maker
   slot: S11-m4
   source: rules
+https://pastatic.picsart.com/cms-pastatic/73b6bcc6-72d4-4d57-aff2-cf23830446a8.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: pdf-maker
+  slot: S07-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/73cfb468-ac20-4dc4-94a2-219da5954145.png:
   style: full-bleed
   variant: null
@@ -5941,12 +8573,47 @@ https://pastatic.picsart.com/cms-pastatic/73cfb468-ac20-4dc4-94a2-219da5954145.p
   page: meme-generator
   slot: S05-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/761f61b9-6328-4972-bb2b-5b726c9f8f07.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S11-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/7fd68d60-df94-4b1e-9813-3f4ad25c897b.png:
+  style: before-after
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S11-m6
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/8bcd2a6e-5498-470f-bdc4-e3ed707acc81.jpg:
   style: full-bleed
   variant: null
   confidence: 0.0
   page: ai-sticker-maker
   slot: S09-m2
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/8f1651b8-25d1-452e-84e5-0e3aa4a20f22.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S05-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/9157aa7e-8a82-414a-b51e-d2402dc2018b.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S07-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/927193e3-4dda-4366-a0d7-3c3538ef3b78.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S11-m3
   source: rules
 https://pastatic.picsart.com/cms-pastatic/93c0e7d4-184e-460c-8ba6-979bb5e75221.png:
   style: full-bleed
@@ -6025,6 +8692,27 @@ https://pastatic.picsart.com/cms-pastatic/b02016f2-1f3c-4a6f-919e-03639c06d984.p
   page: ai-filters
   slot: S13-m9
   source: rules
+https://pastatic.picsart.com/cms-pastatic/b05fbe66-e1e5-4f25-8112-58ebfd7a74dc.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: add-shadow-to-image
+  slot: S06-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/b19703ad-418a-4ac3-ba36-d57e0bf77a05.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S11-m3
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/b235c87a-05c3-416d-8f50-cf4bc6ec789f.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S06-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/b7f9f272-f217-411f-bf0d-fa0167387b2b.png:
   style: full-bleed
   variant: null
@@ -6045,6 +8733,27 @@ https://pastatic.picsart.com/cms-pastatic/b9ff5e9e-922b-4429-8f96-3c9b88a524ca.p
   confidence: 0.0
   page: ai-text-font-style
   slot: S01-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/ba26c799-dc5c-4a0e-82c0-28fdda25d078.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S18-m2
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/ba8c6b1a-e154-4cb2-93cb-fbb2af9d73c6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: pdf-maker
+  slot: S08-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/baa9586b-f3ac-4a54-8000-bd5c9bbcf608.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: document-maker
+  slot: S06-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.png:
   style: full-bleed
@@ -6081,6 +8790,13 @@ https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.p
   page: ai-image-extender
   slot: S15-m7
   source: rules
+https://pastatic.picsart.com/cms-pastatic/d4a0767f-fad3-4b33-bc1c-8b56ebe78049.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S06-m2
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/dbda8f92-45a5-46b0-9524-f7742ada09c0.png:
   style: full-bleed
   variant: null
@@ -6116,6 +8832,20 @@ https://pastatic.picsart.com/cms-pastatic/e44104c9-636e-4d8b-921d-a53783180e2e.p
   page: ai-image-enhancer
   slot: S16-m3
   source: rules
+https://pastatic.picsart.com/cms-pastatic/e9a9f441-148b-47fe-aded-0b030c24b1f6.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: draw
+  slot: S10-m6
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/ef5d9d0a-1e3f-4c0e-b852-df6d899024bb.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: social-media-ad-maker
+  slot: S10-m8
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/f34eca94-e5a7-4636-a41b-6ab0a94bcaf6.png:
   style: full-bleed
   variant: null
@@ -6129,6 +8859,13 @@ https://pastatic.picsart.com/cms-pastatic/f7efbd54-e297-400a-8b82-a7171c71ca4f.p
   confidence: 0.0
   page: ai-sticker-maker
   slot: S11-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/fd372e2f-1212-4608-b9c2-06382034afc2.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S11-m2
   source: rules
 https://pastatic.picsart.com/cms-pastatic/ff17c666-540b-4deb-b144-521fc165bcfa.jpg:
   style: full-bleed
@@ -6235,6 +8972,13 @@ https://pcdn.picsart.com/cms-uploads/48914862-3a44-46ad-96d2-47a885fdd4a7.avif:
   page: ai-models--recraft-v4-styles-pro-vector
   slot: S03-m3
   source: rules
+https://pcdn.picsart.com/cms-uploads/4ca1c6a8-3269-40ec-a079-96068db10e3b.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m7
+  source: rules
 https://pcdn.picsart.com/cms-uploads/5250cf46-a5b4-4726-80c9-546bc617add7.avif:
   style: full-bleed
   variant: null
@@ -6248,6 +8992,20 @@ https://pcdn.picsart.com/cms-uploads/5339d988-75bc-4849-9cd8-e228e667d100.avif:
   confidence: 0.0
   page: comic-book-generator
   slot: S02-m2
+  source: rules
+https://pcdn.picsart.com/cms-uploads/539a9d7f-2faf-4df0-ba98-aef2d94730de.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m1
+  source: rules
+https://pcdn.picsart.com/cms-uploads/55c73f74-43dd-4b18-9b1d-581a2ca108cf.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m3
   source: rules
 https://pcdn.picsart.com/cms-uploads/57ac45a7-8b7f-4ddd-87a0-feb3ecf23712.avif:
   style: cinematic-still
@@ -6354,6 +9112,20 @@ https://pcdn.picsart.com/cms-uploads/a70e6579-f21c-4e1e-9553-091b123d0ffd.avif:
   page: comic-book-generator
   slot: S01-m1
   source: rules
+https://pcdn.picsart.com/cms-uploads/a9f9f81c-1814-46b7-854c-2f3148f3cfbd.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m5
+  source: rules
+https://pcdn.picsart.com/cms-uploads/aa7a14bd-0796-4daa-8b1e-64b6e95511b2.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m6
+  source: rules
 https://pcdn.picsart.com/cms-uploads/b8ba2f58-7282-47a3-8618-4d796ac90de7.avif:
   style: full-bleed
   variant: null
@@ -6375,6 +9147,13 @@ https://pcdn.picsart.com/cms-uploads/c001bbf0-0210-4301-bf90-a1fa61d5e6e7.avif:
   page: ai-models--recraft-v4-styles-pro
   slot: S03-m4
   source: rules
+https://pcdn.picsart.com/cms-uploads/c1b34851-10c1-4eb4-9b8d-b2dedeb55184.avif:
+  style: dark-composite
+  variant: null
+  confidence: 0.6
+  page: ai-models--recraft-v4-styles
+  slot: S06-m1
+  source: rules
 https://pcdn.picsart.com/cms-uploads/c73ec25a-c0a6-4a4e-8ba7-c6d0a55b8eaf.avif:
   style: cinematic-still
   variant: null
@@ -6389,6 +9168,13 @@ https://pcdn.picsart.com/cms-uploads/cb9dfec2-03ea-4f40-b020-92ed739b721a.avif:
   page: comic-book-generator
   slot: S02-m1
   source: rules
+https://pcdn.picsart.com/cms-uploads/cf434358-885c-4182-9591-3e17280bc14d.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m4
+  source: rules
 https://pcdn.picsart.com/cms-uploads/d652a93c-1535-4b4b-9236-7ebb5fc57792.avif:
   style: full-bleed
   variant: null
@@ -6402,6 +9188,13 @@ https://pcdn.picsart.com/cms-uploads/d755aa5b-599d-46fb-a238-2eff924b5a65.avif:
   confidence: 0.0
   page: ai-models--recraft-v4-styles
   slot: S03-m8
+  source: rules
+https://pcdn.picsart.com/cms-uploads/e13ae786-a70c-4389-abe6-0febd9853196.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: home
+  slot: S10-m2
   source: rules
 https://pcdn.picsart.com/cms-uploads/e986c3c9-98fb-46e0-b856-2ab19fad6ced.avif:
   style: cinematic-still

@@ -1,0 +1,103 @@
+sheet: hero_unknown_unknown-a819e3
+group:
+  type: hero
+  ground: unknown
+  layout: unknown
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_unknown_unknown-a819e3.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/70405a14-b5c8-4f28-bcd3-978360ee39b7.png
+    asset: 70405a14
+    page: menu-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/72e4d513-6a2b-4b54-987e-37dccef91c8e.png
+    asset: 72e4d513
+    page: youtube-banner-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/9f33d9bf-17a4-4332-9dd5-c1c26281e8eb.png
+    asset: 9f33d9bf
+    page: calendar-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/a0620c56-909b-462a-96ce-e7603e2771db.png
+    asset: a0620c56
+    page: facebook-post-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/af11b8c3-692d-495d-a183-028b917e1d2b.png
+    asset: af11b8c3
+    page: coupon-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png
+    asset: b262ccd9
+    page: ad-maker
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/dbb7217a-31ed-421f-902e-791e1c5fde3f.png
+    asset: dbb7217a
+    page: thank-you-card-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

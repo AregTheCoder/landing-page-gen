@@ -1,0 +1,31 @@
+sheet: feature-callout_black_column-main-019ed5
+group:
+  type: feature-callout
+  ground: black
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_column-main-019ed5.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/c47d8b25-9af5-4d0e-a3ef-f93d87d58fb8.png
+    asset: c47d8b25
+    page: book-cover-maker
+    slot: S10-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false

@@ -1,0 +1,46 @@
+sheet: link-grid_white_grid-8875ea
+group:
+  type: link-grid
+  ground: white
+  layout: grid
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_grid-8875ea.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/6d822292-03a9-476a-8e61-e97a2aa717d1.png
+    asset: 6d822292
+    page: motivation-poster-maker
+    slot: S14-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/8724fbc2-8b72-48ad-b835-f2c2e215e485.png
+    asset: 8724fbc2
+    page: png-logo-maker
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false

@@ -1,0 +1,61 @@
+sheet: feature-callout_solid-colour_column-main-7c78f4
+group:
+  type: feature-callout
+  ground: solid-colour
+  layout: column-main
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_solid-colour_column-main-7c78f4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afda9819-c7ef-4bb6-90d2-361d714d1d3f.webp
+    asset: afda9819
+    page: ai-replace
+    slot: S06-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn140.picsart.com/82576960349479261092.jpg
+    asset: '82576960'
+    page: rotate-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  3:
+    src: https://cdn140.picsart.com/95704440111494284974.jpg
+    asset: '95704440'
+    page: rotate-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false

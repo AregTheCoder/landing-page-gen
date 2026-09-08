@@ -1,0 +1,196 @@
+sheet: gallery_white_stacked-5a1590
+group:
+  type: gallery
+  ground: white
+  layout: stacked
+fields:
+- chrome
+- confidence
+- description
+- family_hint
+- finish
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_white_stacked-5a1590.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0d6a21f4-62d7-4770-be18-3a8d818f0c74.png
+    asset: 0d6a21f4
+    page: book-cover-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/14937198-5f3a-410e-b433-bb2f182a1419.png
+    asset: '14937198'
+    page: book-cover-maker
+    slot: S06-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/19a4ac0d-58f6-46a5-b2de-a96dcba035b4.png
+    asset: 19a4ac0d
+    page: coupon-maker
+    slot: S05-m13
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/1b86260e-e4d9-49ca-9c2c-ad0bb58aa53c.png
+    asset: 1b86260e
+    page: document-maker
+    slot: S13-m13
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 5
+    before_after: false
+  5:
+    src: https://cdn-basic-content-api.picsart.io/p/284e90cf-ce17-43f9-8971-c9c86f1e0436.png
+    asset: 284e90cf
+    page: timeline-maker
+    slot: S06-m10
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  6:
+    src: https://cdn-basic-content-api.picsart.io/p/4388dc55-6d1f-4a5b-a25e-6fa67741469f.png
+    asset: 4388dc55
+    page: gift-certificate-maker
+    slot: S04-m13
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  7:
+    src: https://cdn-basic-content-api.picsart.io/p/4602e59a-9588-4eb2-81ab-4e0a97999e61.png
+    asset: 4602e59a
+    page: book-cover-maker
+    slot: S06-m14
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+  8:
+    src: https://cdn-basic-content-api.picsart.io/p/4b366532-82ee-4c77-9c69-e5162f568c58.png
+    asset: 4b366532
+    page: timeline-maker
+    slot: S06-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 6
+    before_after: false
+  9:
+    src: https://cdn-basic-content-api.picsart.io/p/5281b721-f674-4cae-abb5-83fd4cf73ad6.png
+    asset: 5281b721
+    page: resume-maker
+    slot: S06-m6
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 8
+    before_after: false
+  10:
+    src: https://cdn-basic-content-api.picsart.io/p/64cd94cb-b825-4552-9c63-f2282bca5d17.png
+    asset: 64cd94cb
+    page: timeline-maker
+    slot: S06-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 7
+    before_after: false
+  11:
+    src: https://cdn-basic-content-api.picsart.io/p/700db77a-2adc-457c-80bb-6a2a01f2349b.png
+    asset: 700db77a
+    page: resume-maker
+    slot: S06-m5
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 8
+    before_after: false
+  12:
+    src: https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png
+    asset: 7fe69878
+    page: quote-maker
+    slot: S06-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
