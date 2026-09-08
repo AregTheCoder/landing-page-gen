@@ -302,3 +302,15 @@ def test_cli_media_all(tmp_path, monkeypatch, capsys):
     assert json.loads((slots.parent / "slots.json").read_text())["slots"]["S01-m1"]["local"].endswith(".avif")
     skel = slots.read_text()
     assert "\nlocal: " in skel and "/media/hero1-" in skel, "slot blocks name the local file"
+
+
+def test_sectionize_prefers_displayed_copy_over_zero_size_duplicate(tmp_path):
+    """Some pages render the same img twice, the first copy at 0x0 (product-ad-maker).
+    The first DOM occurrence is kept and takes the displayed copy's geometry."""
+    con = db.connect(tmp_path / "c.db")
+    render = hero_render()
+    ghost = dict(render[0], w=0, h=0, y=6854)
+    d = make_page(tmp_path / "pages", "comic-book-generator", [ghost] + render)
+    hero = sectionize.sectionize_page(d, con, log=lambda m: None)[0]
+    assert [m["src"] for m in hero["media"]] == [HERO1, HERO1.replace("hero1", "hero2")]
+    assert (hero["media"][0]["width"], hero["media"][0]["height"]) == (300, 450)

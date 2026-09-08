@@ -81,31 +81,31 @@ Plus
 ![image creative 244x434: Inspirational Teacher Instagram-Story in White and Black](media/017f6029-3a7f-43dd-9d35-0654373a94c7-f0682517.png "https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Vibrant Blue Instagram Story For Back To School](media/84758a21-f09d-41ba-a831-951e6e7087d5-97e38762.png "https://cdn-basic-content-api.picsart.io/p/84758a21-f09d-41ba-a831-951e6e7087d5.png")
+[Try it out](https://picsart.com/create/editor/?template=1571752661965452&category=templates&source=templates&origin=template_item)
+![image creative 244x377: Chic Olive Fall Fashion Sale Poster](media/f338a3d8-20e8-4da0-9c86-d86eecea34c1-0691e526.png "https://cdn-basic-content-api.picsart.io/p/f338a3d8-20e8-4da0-9c86-d86eecea34c1.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=5461719065741381&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Summer Sale Teal and Pink Poster Design](media/b18e90f1-a028-437c-9e0d-3d0b5d0f8c55-4ca09ccf.jpg "https://cdn-template.picsart.com/templates-cdn/b18e90f1-a028-437c-9e0d-3d0b5d0f8c55.jpg")
 [Try it out](https://picsart.com/create/editor/?template=388219686012700&category=templates&source=templates&origin=template_item)
+![image creative 244x377: Little Looks & Best Deals Fashion Poster](media/680ea93e-100b-47e1-93a1-e14cc1e19698-9cd4b447.png "https://cdn-basic-content-api.picsart.io/p/680ea93e-100b-47e1-93a1-e14cc1e19698.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=8931715861814424&category=templates&source=templates&origin=template_item)
+![image creative 244x377: Educational Inspirational Poster Design Teal Orange](media/d95a4386-9352-4dd5-8c2f-87cb4680ccd5-4642d601.jpg "https://cdn-template.picsart.com/templates-cdn/d95a4386-9352-4dd5-8c2f-87cb4680ccd5.jpg")
+[Try it out](https://picsart.com/create/editor/?template=388219683250700&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Explore Italy's Wonders with This Poster](media/e910d03a-4e85-41a2-b61f-9b96558b8cba-67dff279.png "https://cdn-basic-content-api.picsart.io/p/e910d03a-4e85-41a2-b61f-9b96558b8cba.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=5281743020555097&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Vibrant Blue Instagram Story For Back To School](media/84758a21-f09d-41ba-a831-951e6e7087d5-97e38762.png "https://cdn-basic-content-api.picsart.io/p/84758a21-f09d-41ba-a831-951e6e7087d5.png")
-[Try it out](https://picsart.com/create/editor/?template=1571752661965452&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Explore Iconic Dubai Landmarks Poster in Blue](media/a3b7e70e-1711-41b0-9f96-49b275666b35-a67ab7e4.png "https://cdn-basic-content-api.picsart.io/p/a3b7e70e-1711-41b0-9f96-49b275666b35.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=1511743017168546&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Educational Inspirational Poster Design Teal Orange](media/d95a4386-9352-4dd5-8c2f-87cb4680ccd5-4642d601.jpg "https://cdn-template.picsart.com/templates-cdn/d95a4386-9352-4dd5-8c2f-87cb4680ccd5.jpg")
-[Try it out](https://picsart.com/create/editor/?template=388219683250700&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Explore Arizona This Summer Travel Poster](media/a0126387-00ff-4e51-bd9c-e3c60352304f-97cf1136.png "https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Chic Red Shoe Styles Fall Poster Design](media/c636c95b-ff90-4c01-9387-15c5c5cdae0b-b10d6cd0.png "https://cdn-basic-content-api.picsart.io/p/c636c95b-ff90-4c01-9387-15c5c5cdae0b.png")
-[Try it out](https://picsart.com/create/editor/?template=8211718365952595&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Vibrant Anniversary Sale Poster in Black](media/39c40f4a-4d1d-465b-958b-3c328468d638-8144095f.png "https://cdn-basic-content-api.picsart.io/p/39c40f4a-4d1d-465b-958b-3c328468d638.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=2231722523512912&category=templates&source=templates&origin=template_item)
 ![image creative 244x377: Stylish Seasonal Fashion Sale Poster Design](media/6324ae1d-7195-4d42-99ff-75a03e6ecf8d-c8a11d8d.png "https://cdn-basic-content-api.picsart.io/p/6324ae1d-7195-4d42-99ff-75a03e6ecf8d.png")
 [Try it out](https://picsart.com/create/editor/?template=6651719235230524&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Summer Sale Poster in Brown Tones](media/f2e23df1-18a1-4e5f-ad92-f58f6f712620-ac231139.png "https://cdn-basic-content-api.picsart.io/p/f2e23df1-18a1-4e5f-ad92-f58f6f712620.png")
+![image creative 3300x5100: Explore Iconic Dubai Landmarks Poster in Blue](media/a3b7e70e-1711-41b0-9f96-49b275666b35-a67ab7e4.png "https://cdn-basic-content-api.picsart.io/p/a3b7e70e-1711-41b0-9f96-49b275666b35.png")
 Plus
-[Try it out](https://picsart.com/create/editor/?template=8671719320217353&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=1511743017168546&category=templates&source=templates&origin=template_item)
+![image creative 244x377: Vibrant Welcome Back School Poster Design](media/1f49208b-db6d-43f1-b5c3-35195baffab9-2e3d0be7.png "https://cdn-basic-content-api.picsart.io/p/1f49208b-db6d-43f1-b5c3-35195baffab9.png")
+[Try it out](https://picsart.com/create/editor/?template=405530463037700&category=templates&source=templates&origin=template_item)
+![image creative 3300x5100: Explore Arizona This Summer Travel Poster](media/a0126387-00ff-4e51-bd9c-e3c60352304f-97cf1136.png "https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
 See all
 
 ## S06 feature-callout

@@ -138,44 +138,44 @@ Absolutely - customize any of our pre-made photo collage layouts, any way you se
 
 ### Get a peek of Picsart's collage templates
 Tap into Picsart's vast collage template library to create custom collage designs in no time. Whether you're creating personal memories or promotional collages, there's an option waiting for you. Simply pick one, insert your photos, and tweak the design to match your vision.
-![image creative 244x244: Warm Autumn Instagram-Square Post with Orange](media/8febd34e-7da8-4814-8863-4530a17b843b-07427856.png "https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=6291755719928315&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Warm Autumn Instagram Square Post Design](media/6faf73c8-07da-41a2-93a7-639089d77935-371e9420.png "https://cdn-basic-content-api.picsart.io/p/6faf73c8-07da-41a2-93a7-639089d77935.png")
-[Try it out](https://picsart.com/create/editor/?template=2191755775388219&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Charming Autumn Days Instagram Square Post](media/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e-1f77d9db.png "https://cdn-basic-content-api.picsart.io/p/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=2701755788011267&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Autumn Mood Instagram Square Post with Orange](media/992377b5-8f6f-4127-9282-26b7c1f51aa2-1a14a1fc.png "https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png")
-[Try it out](https://picsart.com/create/editor/?template=4731755769542035&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Warm Autumn Instagram-Square Post Featuring Brown](media/518e1590-a995-4433-b5d6-5c49cf6aed92-d404a8fe.png "https://cdn-basic-content-api.picsart.io/p/518e1590-a995-4433-b5d6-5c49cf6aed92.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=5671755765645785&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Cozy Autumn Instagram Square Post in Orange](media/07aee7e3-0b24-4c3d-a31f-44b4ca72f794-dc9c4291.png "https://cdn-basic-content-api.picsart.io/p/07aee7e3-0b24-4c3d-a31f-44b4ca72f794.png")
-[Try it out](https://picsart.com/create/editor/?template=3741755715412352&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Blue and White Greek Travel Post Template](media/d7b55eac-58e1-4307-9667-434f43d3641d-6516508c.png "https://cdn-template.picsart.com/templates-cdn/d7b55eac-58e1-4307-9667-434f43d3641d.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=388219676278700&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Cozy Autumn Instagram-Square Post with Brown](media/5695bb5c-9fd3-48ba-ac04-3e4c469edd9b-75dd0f0c.png "https://cdn-basic-content-api.picsart.io/p/5695bb5c-9fd3-48ba-ac04-3e4c469edd9b.png")
-[Try it out](https://picsart.com/create/editor/?template=8911755783722852&category=templates&source=templates&origin=template_item)
-![image creative 244x377: Explore Arizona This Summer Travel Poster](media/a0126387-00ff-4e51-bd9c-e3c60352304f-97cf1136.png "https://cdn-basic-content-api.picsart.io/p/a0126387-00ff-4e51-bd9c-e3c60352304f.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=4821742942429440&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Warm Autumn Vibes Instagram-Square Post Template](media/e7997f4a-f294-45a9-a31b-9763e4fe62c0-fe6e9dfb.png "https://cdn-basic-content-api.picsart.io/p/e7997f4a-f294-45a9-a31b-9763e4fe62c0.png")
-[Try it out](https://picsart.com/create/editor/?template=3811755713328049&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Summer Road Trip Instagram Story Template White](media/2bd8b851-7dc1-4338-8847-59a4e0999e53-7eedc573.png "https://cdn-basic-content-api.picsart.io/p/2bd8b851-7dc1-4338-8847-59a4e0999e53.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8561787925599143&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Santorini Life Experience Travel Poster Pink](media/64325027-8601-45c8-8a51-d49f8ae23f12-690d7d09.png "https://cdn-template.picsart.com/templates-cdn/64325027-8601-45c8-8a51-d49f8ae23f12.png")
-[Try it out](https://picsart.com/create/editor/?template=388219677104700&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Warm Autumn Instagram Square Post Design](media/6faf73c8-07da-41a2-93a7-639089d77935-371e9420.png "https://cdn-basic-content-api.picsart.io/p/6faf73c8-07da-41a2-93a7-639089d77935.png")
+[Try it out](https://picsart.com/create/editor/?template=2191755775388219&category=templates&source=templates&origin=template_item)
 ![image creative 244x305: Vintage Beige Instagram Portrait Post Summer Fun](media/998f8957-b6c2-444b-87ae-a6ada8ac150c-54fefc7e.png "https://cdn-basic-content-api.picsart.io/p/998f8957-b6c2-444b-87ae-a6ada8ac150c.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8421787925729111&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Chic Travel Postcard Template in Pastel Tones](media/a552d0ef-06f2-4549-90ec-39f057b5e8e8-e1b4053d.png "https://cdn-template.picsart.com/templates-cdn/a552d0ef-06f2-4549-90ec-39f057b5e8e8.png")
-[Try it out](https://picsart.com/create/editor/?template=388219677006700&category=templates&source=templates&origin=template_item)
+![image creative 244x305: Instagram Portrait Radiant Summer Days Adventure](media/1fddb018-c15a-493c-8a01-9a257483091c-9a90054c.png "https://cdn-basic-content-api.picsart.io/p/1fddb018-c15a-493c-8a01-9a257483091c.png")
+[Try it out](https://picsart.com/create/editor/?template=6301787925449177&category=templates&source=templates&origin=template_item)
 ![image creative 244x305: Retro Summer Poster with Blue and Pink Hues](media/c86611d4-671e-48a6-b5f4-ac8be827408c-bb29a501.png "https://cdn-basic-content-api.picsart.io/p/c86611d4-671e-48a6-b5f4-ac8be827408c.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=6641787925762285&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Blue Skies Instagram Story Journey Adventure Ad](media/f1928495-6fb7-4ec3-a9fc-e41819f5b79a-9a98675a.png "https://cdn-basic-content-api.picsart.io/p/f1928495-6fb7-4ec3-a9fc-e41819f5b79a.png")
+[Try it out](https://picsart.com/create/editor/?template=4191787925546616&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Adventure Filled Instagram Story with Blue Skies](media/81825871-b8db-433d-93b5-e5f21221600c-0d18d94a.png "https://cdn-basic-content-api.picsart.io/p/81825871-b8db-433d-93b5-e5f21221600c.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=4451787925788602&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Charming Blue Instagram-Story for Travel Memories](media/d3389179-67d2-47c1-b393-3a9587019735-084086bb.png "https://cdn-basic-content-api.picsart.io/p/d3389179-67d2-47c1-b393-3a9587019735.png")
+[Try it out](https://picsart.com/create/editor/?template=2631787925642737&category=templates&source=templates&origin=template_item)
+![image creative 244x305: Charming Beige Instagram Portrait Post Inspiration](media/1e48dd4f-3b0c-4926-8b8f-290e97141d24-7d1f2088.png "https://cdn-basic-content-api.picsart.io/p/1e48dd4f-3b0c-4926-8b8f-290e97141d24.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=3571787925986065&category=templates&source=templates&origin=template_item)
+![image creative 244x305: Relaxed Summer Vibes Instagram Portrait Post Blue](media/3b94083e-ac55-4b8a-934a-5ba92b0dcab9-7676876d.png "https://cdn-basic-content-api.picsart.io/p/3b94083e-ac55-4b8a-934a-5ba92b0dcab9.png")
+[Try it out](https://picsart.com/create/editor/?template=1121787925493834&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Warm Autumn Instagram-Square Post Featuring Brown](media/518e1590-a995-4433-b5d6-5c49cf6aed92-d404a8fe.png "https://cdn-basic-content-api.picsart.io/p/518e1590-a995-4433-b5d6-5c49cf6aed92.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=5671755765645785&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Autumn Mood Instagram Square Post with Orange](media/992377b5-8f6f-4127-9282-26b7c1f51aa2-1a14a1fc.png "https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png")
+[Try it out](https://picsart.com/create/editor/?template=4731755769542035&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Warm Autumn Instagram-Square Post with Orange](media/8febd34e-7da8-4814-8863-4530a17b843b-07427856.png "https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=6291755719928315&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Cozy Autumn Instagram Square Post in Orange](media/07aee7e3-0b24-4c3d-a31f-44b4ca72f794-dc9c4291.png "https://cdn-basic-content-api.picsart.io/p/07aee7e3-0b24-4c3d-a31f-44b4ca72f794.png")
+[Try it out](https://picsart.com/create/editor/?template=3741755715412352&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Charming Autumn Days Instagram Square Post](media/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e-1f77d9db.png "https://cdn-basic-content-api.picsart.io/p/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=2701755788011267&category=templates&source=templates&origin=template_item)
 Browse collage templates
 
 ## S16 link-grid

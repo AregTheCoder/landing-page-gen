@@ -89,29 +89,29 @@ Plus
 [Try it out](https://picsart.com/create/editor/?template=1701747883032190&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Motivational Instagram-Square Post with Pink Text](media/db5531db-0f45-4ce3-94e2-9f67619a2255-abcbcc32.png "https://cdn-basic-content-api.picsart.io/p/db5531db-0f45-4ce3-94e2-9f67619a2255.png")
 [Try it out](https://picsart.com/create/editor/?template=7401747881291845&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Motivational Exams Preparation Pinterest Pin Pink](media/ee92bd60-b347-48a6-8867-8151dfa441ee-aa3852f9.png "https://cdn-basic-content-api.picsart.io/p/ee92bd60-b347-48a6-8867-8151dfa441ee.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=3971747877742039&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Heartfelt Blue Pinterest Pin with Quote](media/7fe69878-9045-4548-859b-d309e53df4d8-b09228a8.png "https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png")
-[Try it out](https://picsart.com/create/editor/?template=5141747889680487&category=templates&source=templates&origin=template_item)
 ![image creative 244x434: Motivational Blue Instagram Story With Quote](media/ee6a56be-ee66-4dab-9b5c-671fdde67f95-c38eb546.png "https://cdn-basic-content-api.picsart.io/p/ee6a56be-ee66-4dab-9b5c-671fdde67f95.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=7391747872863066&category=templates&source=templates&origin=template_item)
-![image creative 244x367: Inspiring Pink Pinterest-Pin for Teacher Appreciation](media/32cc7938-60b9-4396-8b3e-eeaed4b07125-feaca708.png "https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png")
-[Try it out](https://picsart.com/create/editor/?template=7961747885508739&category=templates&source=templates&origin=template_item)
+![image creative 244x367: Heartfelt Blue Pinterest Pin with Quote](media/7fe69878-9045-4548-859b-d309e53df4d8-b09228a8.png "https://cdn-basic-content-api.picsart.io/p/7fe69878-9045-4548-859b-d309e53df4d8.png")
+[Try it out](https://picsart.com/create/editor/?template=5141747889680487&category=templates&source=templates&origin=template_item)
 ![image creative 244x244: Motivational Instagram-Square Post in Blue Theme](media/a5937a03-f0ef-455f-8fa1-ee7defbe20d8-04a2c1a0.png "https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=8621747880428638&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Inspirational Teacher Quote Instagram Square Template](media/d20b6d41-2ff1-406b-8567-399c3621ee91-9e820fc6.png "https://cdn-basic-content-api.picsart.io/p/d20b6d41-2ff1-406b-8567-399c3621ee91.png")
-[Try it out](https://picsart.com/create/editor/?template=7681747893762781&category=templates&source=templates&origin=template_item)
-![image creative 244x434: Inspiring Teacher Instagram Story with Pink](media/b4210775-80eb-4ab1-a765-fd056482c671-bf76ccaa.png "https://cdn-basic-content-api.picsart.io/p/b4210775-80eb-4ab1-a765-fd056482c671.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=4861747882512440&category=templates&source=templates&origin=template_item)
 ![image creative 244x367: Inspirational Green Pinterest Pin for Teachers](media/acb915fe-f981-4908-8995-e52ac19de881-4556c593.png "https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png")
 [Try it out](https://picsart.com/create/editor/?template=1851747889932235&category=templates&source=templates&origin=template_item)
-![image creative 244x244: Inspirational Pink Instagram Square Post for Teachers](media/0ac0480b-9e55-446e-a772-ffc5089ee660-e2485180.png "https://cdn-basic-content-api.picsart.io/p/0ac0480b-9e55-446e-a772-ffc5089ee660.png")
+![image creative 244x367: Motivational Exams Preparation Pinterest Pin Pink](media/ee92bd60-b347-48a6-8867-8151dfa441ee-aa3852f9.png "https://cdn-basic-content-api.picsart.io/p/ee92bd60-b347-48a6-8867-8151dfa441ee.png")
 Plus
-[Try it out](https://picsart.com/create/editor/?template=4651747891242529&category=templates&source=templates&origin=template_item)
+[Try it out](https://picsart.com/create/editor/?template=3971747877742039&category=templates&source=templates&origin=template_item)
+![image creative 244x367: Inspiring Pink Pinterest-Pin for Teacher Appreciation](media/32cc7938-60b9-4396-8b3e-eeaed4b07125-feaca708.png "https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png")
+[Try it out](https://picsart.com/create/editor/?template=7961747885508739&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Inspirational Pink and Orange Instagram-Square Post](media/e7d0092e-313f-4b75-84e1-61e14a51f548-a900af48.png "https://cdn-basic-content-api.picsart.io/p/e7d0092e-313f-4b75-84e1-61e14a51f548.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=8741747892596132&category=templates&source=templates&origin=template_item)
+![image creative 244x244: Inspirational Teacher Quote Instagram Square Template](media/d20b6d41-2ff1-406b-8567-399c3621ee91-9e820fc6.png "https://cdn-basic-content-api.picsart.io/p/d20b6d41-2ff1-406b-8567-399c3621ee91.png")
+[Try it out](https://picsart.com/create/editor/?template=7681747893762781&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Inspirational Instagram Story with Green Elegance](media/06c4c19d-66c9-4edb-87f9-52a65400486c-ee13ccc3.png "https://cdn-basic-content-api.picsart.io/p/06c4c19d-66c9-4edb-87f9-52a65400486c.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=1271747884597184&category=templates&source=templates&origin=template_item)
 
 ## S07 feature-callout
 

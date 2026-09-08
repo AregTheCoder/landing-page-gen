@@ -106,6 +106,15 @@
   family: ai-models
   title: Ideogram V4 | Open-Weight AI Image Generator AI Model
   from: /ai-models/seedream-5-0-pro/
+- path: /ai-models/ideogram-character/
+  family: ai-models
+  title: Ideogram Character - Character Consistency AI Image Model
+  from: /ai-models/ideogram-4-0/
+- path: /ai-models/ideogram-v2a-turbo/
+  family: ai-models
+  title: Ideogram V2a Turbo - Fast Ai Image Generation With Accurate Typography |
+    Picsart
+  from: /compare-models/dall-e-3-vs-midjourney/
 - path: /ai-models/ideogram-v2a/
   family: ai-models
   title: Ideogram V2a - Ai Image Generation With Best-In-Class Typography | Picsart
@@ -122,6 +131,10 @@
   family: ai-models
   title: Imagen 4.5 Fast AI Model | Speed-Optimized Google Image Generation | Picsart
   from: /ai-models/happyhorse-1-1-ref-to-video/
+- path: /ai-models/kling-3-0-image/
+  family: ai-models
+  title: Kling 3.0 Image - Kling Flagship AI Image Generator
+  from: /ai-models/kling-v2-1/
 - path: /ai-models/kling-3-0-omni/
   family: ai-models
   title: Kling 3.0 Omni - Multimodal AI Video Generation with Reference Control
@@ -130,6 +143,14 @@
   family: ai-models
   title: Kling 3.0 - AI Video Generation with Precision Motion Control
   from: /ai-models/flux-3/
+- path: /ai-models/kling-o1-image/
+  family: ai-models
+  title: Kling O1 Image - Fast Kling AI Image Generator
+  from: /ai-models/kling-v2-1/
+- path: /ai-models/kling-v1-5/
+  family: ai-models
+  title: Kling V1.5 - Kling Image AI Model for Everyday Generation
+  from: /ai-models/kling-v2-1/
 - path: /ai-models/kling-v2-1/
   family: ai-models
   title: Kling V2.1 - High-Fidelity Ai Image Generation | Picsart
@@ -334,6 +355,10 @@
   family: ai-tool
   title: Picsart Agents - Book a demo | Picsart
   from: /ai-models/flux-3/
+- path: /ai-assistant/
+  family: ai-tool
+  title: Picsart Assistant - your new vibe design partner
+  from: /flow/
 - path: /ai-avatar/
   family: ai-tool
   title: Avatar Maker - Create Photo and Video AI Avatars | Picsart
@@ -507,6 +532,10 @@
   family: other
   title: Add music to video online | Picsart
   from: /ai-video-generator/
+- path: /add-shadow-to-image/
+  family: other
+  title: Add Shadow to Image - Free Shadow Photo Editing Online | Picsart
+  from: /brighten-images/
 - path: /add-stickers-to-photos/
   family: other
   title: Add Stickers to Your Photos Online & Free | Picsart
@@ -535,6 +564,10 @@
   family: other
   title: Picsart CLI | Image, Video & Audio for Developers
   from: /
+- path: /content-creation-tools/
+  family: other
+  title: Create content online with easy content creation tools
+  from: /instagram-video-maker/
 - path: /crop-image/
   family: other
   title: Free Image Cropper – Crop Images Online in Seconds | Picsart
@@ -551,10 +584,26 @@
   family: other
   title: Online Graphic Design Tools - Create Graphics for Free | Picsart
   from: /movie-poster-maker/
+- path: /draw/
+  family: other
+  title: Draw - Online & Free Drawing Tool | Picsart
+  from: /whatsapp-sticker-maker/
+- path: /flip-image/
+  family: other
+  title: Flip Image Online - Image Flipper | Picsart
+  from: /hd-photo-converter/
+- path: /flip-video/
+  family: other
+  title: Flip Video Online | Mirror Video Horizontally or Vertically
+  from: /video-tools/
 - path: /flow/
   family: other
   title: AI Workflow Automation Tool & Generator - Design Workflows
   from: /ai-models/flux-3/
+- path: /flows/
+  family: other
+  title: AI Workflow Automation Tool & Generator - Design Workflows
+  from: /image-enlarger/
 - path: /gen-ai-cli/
   family: other
   title: Picsart CLI | Image, Video & Audio for Developers
@@ -563,6 +612,18 @@
   family: other
   title: Picsart MCP server | Image, video, and audio for AI agents
   from: /ai-models/flux-3/
+- path: /genaitermsofuse/
+  family: other
+  title: Picsart
+  from: /ai-assistant/
+- path: /graphic-design/
+  family: other
+  title: Online Graphic Design Tools - Create Graphics for Free | Picsart
+  from: /png-logo-maker/
+- path: /hsl-color/
+  family: other
+  title: HSL Color – Give Your Images a Fresh New Look | Picsart
+  from: /brighten-images/
 - path: /image-enlarger/
   family: other
   title: Image Enlarger - Enlarge Photos Without Losing Quality
@@ -579,10 +640,18 @@
   family: other
   title: Free Image Upscaler - AI Photo Upscale | Picsart
   from: /movie-poster-maker/
+- path: /packaging-design/
+  family: other
+  title: Packaging Design Online | Design Packaging with Ease | Picsart
+  from: /design/
 - path: /persona/
   family: other
   title: AI Influencer Generator - Picsart Persona
   from: seed
+- path: /photo-editing-tools/
+  family: other
+  title: Photo Editing Tools | Quick & Easy Graphic Design Tools | Picsart
+  from: /pattern-generator/
 - path: /remove-object-from-photo/
   family: other
   title: Remove Object from Photo with AI | Picsart
@@ -599,6 +668,10 @@
   family: other
   title: Resize Video – Online Video Resizer for Free | Picsart
   from: /video-background-remover/
+- path: /rotate-image/
+  family: other
+  title: Free Image Rotator - Rotate Photos Online | Picsart
+  from: /crop-image/
 - path: /text-to-video-ai/
   family: other
   title: Text to Video AI – Turn Text into Video Online for Free
@@ -607,6 +680,10 @@
   family: other
   title: Free Video Trimmer Online | Shorten & Trim Videos Easily
   from: /video-background-remover/
+- path: /video-to-gif/
+  family: other
+  title: Video to GIF Converter - Convert MP4 to GIF Free, Online
+  from: /video-tools/
 - path: /virtual-try-on-clothes/
   family: other
   title: Virtual Try On Clothes - Outfit Visualizer
@@ -627,6 +704,10 @@
   family: tool
   title: AI Asset Maker – Generate branded content with AI | Picsart
   from: /ai-gif-generator/
+- path: /ai-audio-generator/
+  family: tool
+  title: Picsart
+  from: /video-enhancer/
 - path: /ai-content-generator/
   family: tool
   title: Free AI Content Generator - Generate AI Content | Picsart
@@ -647,6 +728,10 @@
   family: tool
   title: AI GIF Generator - Text to GIF Online
   from: /ai-video-generator/
+- path: /ai-image-editor/
+  family: tool
+  title: Picsart
+  from: /ai-models/luma-uni-1/
 - path: /ai-image-enhancer/
   family: tool
   title: AI Photo Enhancer - Improve Image Quality and Resolution
@@ -655,6 +740,10 @@
   family: tool
   title: AI Image Generator - Create Images from Text with 30 AI Models | Picsart
   from: seed
+- path: /ai-influencer-studio/
+  family: tool
+  title: Picsart
+  from: /persona/
 - path: /ai-logo-generator/
   family: tool
   title: Logo Maker – Create Memorable Logos with AI | Picsart
@@ -667,6 +756,10 @@
   family: tool
   title: AI Photo Editor - Free Image Editing Powered by AI | Picsart
   from: /ai-models/flux-3/
+- path: /ai-poster-generator/
+  family: tool
+  title: AI Poster Generator - AI Posters Online for Free | Picsart
+  from: /ai-assets-generator/
 - path: /ai-product-image-generator/
   family: tool
   title: AI Product Image Generator - Turn Phone Shots to Campaigns
@@ -699,6 +792,10 @@
   family: tool
   title: AI Voice Generator | Create AI Voices & Audio Instantly
   from: /ai-models/
+- path: /album-cover-maker/
+  family: tool
+  title: Free Album Cover Maker | Design Album Cover | Picsart
+  from: /photo-effects/
 - path: /animation-maker/
   family: tool
   title: Online Animation Maker – Create Animated Graphics | Picsart
@@ -715,6 +812,18 @@
   family: tool
   title: Batch Photo Editor - Edit Multiple Photos at Once | Picsart
   from: /
+- path: /birthday-card-maker/
+  family: tool
+  title: 'Online Birthday Card Maker: Create Personalized Cards for Free | Picsart'
+  from: /card-maker/
+- path: /book-cover-maker/
+  family: tool
+  title: Free Online Book Cover Maker -  Design Book Covers with Ease
+  from: /png-logo-maker/
+- path: /bookmark-maker/
+  family: tool
+  title: 'Online Bookmark Maker: Create Personalized Bookmarks for Free | Picsart'
+  from: /text-editor/
 - path: /brand-identity-generator/
   family: tool
   title: Brand Identity Generator – Build a Professional Brand Identity
@@ -723,10 +832,22 @@
   family: tool
   title: Brand Kit Generator - Create & Update Brand Kits in Minutes
   from: /ai-models/ideogram-3-0-flash/
+- path: /brochure-maker/
+  family: tool
+  title: 'Online Brochure Maker: Create Custom Brochures for Free | Picsart'
+  from: /quote-maker/
+- path: /calendar-maker/
+  family: tool
+  title: 'Online Calendar Maker: Create Custom Calendars for Free | Picsart'
+  from: /collage-maker/
 - path: /card-maker/
   family: tool
   title: Free Online Card Maker – Create Custom Cards in Seconds | Picsart
   from: /movie-poster-maker/
+- path: /christmas-card-maker/
+  family: tool
+  title: Christmas Card Maker – Design Custom Holiday Cards for Free Online | Picsart
+  from: /card-maker/
 - path: /collage-maker/
   family: tool
   title: Free Collage Maker - Create Photo Collages Online | Picsart
@@ -735,18 +856,42 @@
   family: tool
   title: Comic Book Generator - Create AI Comics from Your Photos
   from: seed
+- path: /coupon-maker/
+  family: tool
+  title: Coupon Maker – Design Custom Coupons Online for Free | Picsart
+  from: /design/
+- path: /document-maker/
+  family: tool
+  title: Free Document Maker - Create Documents Online
+  from: /png-logo-maker/
+- path: /drip-effect/
+  family: tool
+  title: Photo Filters & Effects - Free & Online
+  from: /add-stickers-to-photos/
 - path: /face-editor/
   family: tool
   title: Face Editor - Enhance Your Appearance with Face Reshape
   from: /ai-replace/
+- path: /facebook-post-maker/
+  family: tool
+  title: Facebook Post Maker – Create Custom Posts for Free Online | Picsart
+  from: /design/
 - path: /flyer-maker/
   family: tool
   title: Free Flyer Maker | Design Custom Flyers Online | Picsart
   from: /movie-poster-maker/
+- path: /gift-certificate-maker/
+  family: tool
+  title: Free Gift Certificate Maker | Create Gift Certificates Online | Picsart
+  from: /card-maker/
 - path: /gpt-image-generator/
   family: tool
   title: Picsart GPT Image Generator Powered by OpenAI
   from: /slideshow-maker/
+- path: /greeting-card-maker/
+  family: tool
+  title: Free Greeting Card Maker – Design Custom Cards Online | Picsart
+  from: /card-maker/
 - path: /hair-color-changer/
   family: tool
   title: Hair Color Changer – Change Your Hair Color Online | Picsart
@@ -755,10 +900,22 @@
   family: tool
   title: 'HD Photo Converter: Convert an Image to HD for Free | Picsart'
   from: /ai-tools/
+- path: /instagram-post-creator/
+  family: tool
+  title: Free Instagram Post Creator | Design Instagram Posts Online | Picsart
+  from: /collage-maker/
 - path: /instagram-video-maker/
   family: tool
   title: Free Instagram Video Maker – Create Animated Stories Online | Picsart
   from: /slideshow-maker/
+- path: /invitation-maker/
+  family: tool
+  title: Free Invitation Maker - Create Invitation Cards Online | Picsart
+  from: /card-maker/
+- path: /label-maker/
+  family: tool
+  title: Free Online Label Maker - Create Labels in Seconds
+  from: /quote-maker/
 - path: /logo-generator/
   family: tool
   title: Logo Maker – Create Memorable Logos with AI | Picsart
@@ -771,6 +928,10 @@
   family: tool
   title: Free Meme Generator – Create a Meme Online | Picsart
   from: /
+- path: /menu-maker/
+  family: tool
+  title: 'Free Online Menu Maker: Create Custom Designs | Picsart'
+  from: /text-editor/
 - path: /motivation-poster-maker/
   family: tool
   title: Free Online Poster Maker – Create Custom Posters | Picsart
@@ -783,6 +944,10 @@
   family: tool
   title: Pattern Generator – Create Seamless Patterns for Free | Picsart
   from: /ai-background/
+- path: /pdf-maker/
+  family: tool
+  title: Free PDF Maker - Make a PDF Online
+  from: /png-logo-maker/
 - path: /photo-editor/
   family: tool
   title: Free Photo Editor - Online Image Editing For Creators | Picsart
@@ -803,6 +968,10 @@
   family: tool
   title: Product Ad Maker - Create Appealing Product Ads in Minutes
   from: /ai-image-generator/
+- path: /quiz-maker/
+  family: tool
+  title: Free Quiz Maker - Create Quizzes Online in Minutes
+  from: /quote-maker/
 - path: /quote-maker/
   family: tool
   title: Free Quote Poster Maker - Design Stunning Quote Posters
@@ -811,6 +980,14 @@
   family: tool
   title: Free Quote Poster Maker – Create Inspirational Posters | Picsart
   from: /movie-poster-maker/
+- path: /red-eye-remover/
+  family: tool
+  title: Red Eye Remover – Remove Red Eyes in Photos Online | Picsart
+  from: /hair-color-changer/
+- path: /resume-maker/
+  family: tool
+  title: Free Resume Builder - Resume Maker Online
+  from: /ai-font-generator/
 - path: /scene-maker/
   family: tool
   title: Scene Maker – AI-Powered Background Replacement | Picsart
@@ -827,6 +1004,18 @@
   family: tool
   title: Free Sticker Maker | Design Custom Stickers Online | Picsart
   from: /movie-poster-maker/
+- path: /storyboard-maker/
+  family: tool
+  title: Storyboard creator - Make storyboards online for free
+  from: /png-logo-maker/
+- path: /svg-editor/
+  family: tool
+  title: SVG Editor - Edit SVG Files Online for Free
+  from: /brighten-images/
+- path: /t-shirt-maker/
+  family: tool
+  title: Free T-Shirt Maker – Design Custom T-Shirts Online | Picsart
+  from: /ai-mockup-generator/
 - path: /text-editor/
   family: tool
   title: Add Text to Photos For Free - Photo Text Editor | Picsart
@@ -835,6 +1024,22 @@
   family: tool
   title: Instant Static Ad Generator for Meta and Google | Picsart
   from: /ai-models/ideogram-3-0-flash/
+- path: /thank-you-card-maker/
+  family: tool
+  title: Free Thank You Card Maker – Design Thank You Cards Online | Picsart
+  from: /card-maker/
+- path: /timeline-maker/
+  family: tool
+  title: Free Online Timeline Maker - Create Timelines in Minutes
+  from: /png-logo-maker/
+- path: /twitter-post-maker/
+  family: tool
+  title: Free Twitter/X Post Maker | Design Visuals for Twitter/X Posts | Picsart
+  from: /design/
+- path: /variation-generator/
+  family: tool
+  title: Bulk Create Designs & Image Variations | Picsart
+  from: /flow/
 - path: /video-ad-maker/
   family: tool
   title: Video Ad Maker - Create Video Ads in Seconds
@@ -867,7 +1072,19 @@
   family: tool
   title: Free Online Poster Maker – Create Custom Posters | Picsart
   from: /ai-image-generator/
+- path: /watermark-maker/
+  family: tool
+  title: Watermark Maker - Add Logo to Photo Online | Picsart
+  from: /watermark-photos/
 - path: /whatsapp-sticker-maker/
   family: tool
   title: WhatsApp Sticker Maker Online - Make Stickers for WhatsApp | Picsart
   from: /product-ad-maker/
+- path: /youtube-banner-maker/
+  family: tool
+  title: 'Online YouTube Banner Maker: Create Custom Banners For Free | Picsart'
+  from: /wallpaper-maker/
+- path: /youtube-thumbnail-maker/
+  family: tool
+  title: Free Online Thumbnail Maker | Custom YouTube Thumbnails | Picsart
+  from: /quote-maker/

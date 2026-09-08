@@ -86,26 +86,26 @@ Plus
 ![image creative 244x342: Warm Apricot Thanksgiving Greeting Card Design](media/241c701d-79ee-4747-b7bc-dcef01ee1272-0ccb3236.png "https://cdn-basic-content-api.picsart.io/p/241c701d-79ee-4747-b7bc-dcef01ee1272.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=5141714483305311&category=templates&source=templates&origin=template_item)
-![image creative 244x341: Autumn Shades Thanksgiving Family Post](media/e1dba075-72ac-4d50-a1f2-5ee4e47aabee-e9f20e09.png "https://cdn-basic-content-api.picsart.io/p/e1dba075-72ac-4d50-a1f2-5ee4e47aabee.png")
-[Try it out](https://picsart.com/create/editor/?template=388219688287700&category=templates&source=templates&origin=template_item)
+![image creative 244x341: Warm Autumn Gratitude Family Thanksgiving Poster](media/a869df00-9e20-4478-a8f3-4607aa3cb4ec-b39c7a57.png "https://cdn-basic-content-api.picsart.io/p/a869df00-9e20-4478-a8f3-4607aa3cb4ec.png")
+[Try it out](https://picsart.com/create/editor/?template=388219688289700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Elegant Grand Opening Gift Card Design](media/3ec81d23-ab41-4ab6-a5ed-55d1ddd836c8-da2de079.png "https://cdn-basic-content-api.picsart.io/p/3ec81d23-ab41-4ab6-a5ed-55d1ddd836c8.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=4571719486970794&category=templates&source=templates&origin=template_item)
-![image creative 244x341: Warm Autumn Gratitude Family Thanksgiving Poster](media/a869df00-9e20-4478-a8f3-4607aa3cb4ec-b39c7a57.png "https://cdn-basic-content-api.picsart.io/p/a869df00-9e20-4478-a8f3-4607aa3cb4ec.png")
-[Try it out](https://picsart.com/create/editor/?template=388219688289700&category=templates&source=templates&origin=template_item)
+![image creative 244x341: Autumn Shades Thanksgiving Family Post](media/e1dba075-72ac-4d50-a1f2-5ee4e47aabee-e9f20e09.png "https://cdn-basic-content-api.picsart.io/p/e1dba075-72ac-4d50-a1f2-5ee4e47aabee.png")
+[Try it out](https://picsart.com/create/editor/?template=388219688287700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Chic Pink Fall Boots Gift Card Voucher](media/5c00a559-9f3b-4096-bba1-7ecd3bd9a180-d70c828b.png "https://cdn-basic-content-api.picsart.io/p/5c00a559-9f3b-4096-bba1-7ecd3bd9a180.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=3671718782273029&category=templates&source=templates&origin=template_item)
 ![image creative 244x341: Autumn Harvest Family Gathering Invitation Post](media/a5aa7364-27ec-44fa-8346-2b0e1e241ccb-ad8cef25.png "https://cdn-basic-content-api.picsart.io/p/a5aa7364-27ec-44fa-8346-2b0e1e241ccb.png")
 [Try it out](https://picsart.com/create/editor/?template=388219688288700&category=templates&source=templates&origin=template_item)
+![image creative 244x434: Thanksgiving Instagram Story with Pie and Leaves](media/5288b448-64f6-4191-a867-a9a5bf2727ad-6e8d47b8.png "https://cdn-basic-content-api.picsart.io/p/5288b448-64f6-4191-a867-a9a5bf2727ad.png")
+Plus
+[Try it out](https://picsart.com/create/editor/?template=8211760089220037&category=templates&source=templates&origin=template_item)
+![image creative 244x341: Autumnal Thanksgiving Greetings Poster Design](media/0e903c2b-f46c-461f-b949-b41aae6bf832-13283c11.png "https://cdn-basic-content-api.picsart.io/p/0e903c2b-f46c-461f-b949-b41aae6bf832.png")
+[Try it out](https://picsart.com/create/editor/?template=388219678072700&category=templates&source=templates&origin=template_item)
 ![image creative 244x140: Red Shoe Giveaway Gift Card with Purple Flair](media/3f5c7dfe-1281-4a7b-9675-08b6080b2707-77e37663.png "https://cdn-basic-content-api.picsart.io/p/3f5c7dfe-1281-4a7b-9675-08b6080b2707.png")
 Plus
 [Try it out](https://picsart.com/create/editor/?template=4041718883061593&category=templates&source=templates&origin=template_item)
-![image creative 1500x2100: Autumnal Thanksgiving Greetings Poster Design](media/0e903c2b-f46c-461f-b949-b41aae6bf832-13283c11.png "https://cdn-basic-content-api.picsart.io/p/0e903c2b-f46c-461f-b949-b41aae6bf832.png")
-[Try it out](https://picsart.com/create/editor/?template=388219678072700&category=templates&source=templates&origin=template_item)
-![image creative 244x140: Orange Autumn Sale and Giveaway Gift-Card Ad](media/bab98c45-96e0-4814-8900-4ddb84da7e85-99f1b3de.png "https://cdn-basic-content-api.picsart.io/p/bab98c45-96e0-4814-8900-4ddb84da7e85.png")
-Plus
-[Try it out](https://picsart.com/create/editor/?template=3951718874271966&category=templates&source=templates&origin=template_item)
 
 ## S06 feature-callout
 

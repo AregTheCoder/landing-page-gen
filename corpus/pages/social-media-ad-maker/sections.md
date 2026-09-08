@@ -75,86 +75,12 @@ AI art generator Generate eye-catching art in seconds.
 Face editor Adjust your appearance in photos by reshaping your face with Picsart.
 Bulk resizer Resize multiple images in one go for various platform ratios.
 
-## S11 pricing
-
-Create social media ads for campaigns and brands
-[button: Monthly]
-[button: SAVE UP TO 50% Yearly]
-### Pro
-Most popular
-AI tools for everyday creative work.
-$15
-$10.5 /mo
-Billed yearly
-[button: Subscribe now]
-You save $54 with yearly
-- Access to all photo & video editing features
-- Advanced background & object removal
-- Parallel video generations with the world's most powerful AI video models
-- Unlimited image generations with Flex.2 Klein
-- 1-tap image enhancer
-- Millions of stock photos & Getty video clips
-- Selection of trendy fonts, text styles & stickers
-- Thousands of premium templates
-- Support for 3+ brand kits
-- Bulk edit up to 50 images at once
-- 100 GB of cloud storage
-New features:
-- Auto-generate content from your terminal or agent with the Picsart CLI
-- Use Picsart inside Claude Code, Cursor, and ChatGPT via MCP — coming soon
-- AI agents for multi-step workflows and batch generation — coming soon
-[button: Hide]
-### Ultra
-Most powerful
-Heavy AI usage for creators & teams.
-$45
-$24.5 /mo
-Billed yearly, per seat
-[button: Subscribe now]
-You save $246 with yearly
-- Everything in Pro
-- Early access to advanced AI features
-- Leading AI models to design & automate workflows (Nano Banana, Veo 3, Seedance 2.0 & more)
-- Parallel video generations with the world's most powerful AI video models
-- Unlimited image generations with Flex.2 Klein
-- Support for 10+ brand kits
-- Add team seats
-- Create ad variations and localize
-- Track ads performance
-- 2000 credits for API services
-- Bulk edit up to 100 images at once
-- 300 GB of cloud storage per seat
-New features:
-- Auto-generate content from your terminal or agent with the Picsart CLI
-- Use Picsart inside Claude Code, Cursor, and ChatGPT via MCP — coming soon
-- AI agents for multi-step workflows and batch generation — coming soon
-[button: Hide]
-### Enterprise
-Custom AI solutions for large organizations.
-Custom credit volume
-- Volume discounts on credit rate
-- On-demand top-ups
-Custom
-Contact for pricing
-[button: Book a demo]
-- Access to photo & video editor SDKs
-- Mobile web SDK support
-- Prepaid or pay-as-you-go creative APIs
-- Embed professional-grade editing into your product or workflow
-- Fully configurable editing experience
-- White-label to match your brand
-- Support for built-in marketing, e-commerce & printing use cases
-- Bring your own assets: images, templates & fonts
-- Enterprise-grade security, SLAs & support
-- Dedicated account manager
-[button: Hide]
-
-## S12 link-grid
+## S11 link-grid
 
 Content that connects.
 Design social media Generate photo collages Create stickers Make transparent PNGs Generate transparent background maker Generate stickers Create animation Make slideshows Make stickers Create videos
 
-## S13 footer
+## S12 footer
 
 Use Picsart anywhere
 Install the app, or bring Picsart into the AI workspaces your team already uses.

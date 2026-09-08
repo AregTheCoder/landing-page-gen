@@ -328,7 +328,10 @@ def build_section(root, idx, sid, geo):
             src = cdn_url(src_attr)
             if not src or src in seen_src:
                 continue
-            g = geo[(el.name, src_attr)].popleft() if geo.get((el.name, src_attr)) else None
+            rows = geo.get((el.name, src_attr))
+            g = rows.popleft() if rows else None
+            while g is not None and (g["w"] == 0 or g["h"] == 0) and rows:
+                g = rows.popleft()  # the page also renders a displayed copy of this src
             if g is not None and (g["w"] == 0 or g["h"] == 0):
                 continue  # not displayed at desktop width
             w = g["w"] if g else _int(el.get("width"))
