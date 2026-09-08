@@ -164,3 +164,19 @@ taught it.
 
 Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
 (image 20, video 60) and reviewed against the ledger.
+- A corpus `full-bleed` tag on an ai-models callout or hero is trusted only
+  when that asset's `chrome` attribute is answered; unanswered, the slot-class
+  row default (`dark-composite`) stands. Sibling pages of one CMS block share
+  the same unanswered measurement, so their agreement proves nothing. The
+  four Recraft callouts and hero are black composites with a mark tile and an
+  SVG chip, briefed as full-bleed. (runs/live-2 S01/S04/S05/S07, manager)
+- Gallery 9:16 tiles fill the frame: the subject at 80 to 100 % of the tile
+  height on a saturated solid ground that changes per tile, one illustration
+  style across the set. "Centred with generous margin" is a callout-panel rule
+  and yields an under-filled, pale gallery. (runs/live-2 S03, against the original)
+- A gate names the visual test, not a ratio the model cannot target: "row gap
+  smaller than the outer margins" decided S05 where "row gap under 1.5x the
+  column gap" failed a better render. (runs/live-2 S05, review 2)
+- A Series worker that gates every member serially is the run's long pole;
+  render two members, gate the envelope, then the rest in parallel calls.
+  (runs/live-2 S03: 18 min of a 34 min run)
