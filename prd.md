@@ -98,6 +98,18 @@ taught it.
   "photographed small, from a distance" shrank and de-centred the subject;
   "one single fern, nothing else in the pot" would have fixed the species
   mix and left the framing alone. (runs/trial-3 S09, review 1)
+- A gallery whose copy is "Featured In" and whose alts are publication names
+  is a press-logo strip: its tiles are `decorative` and kept from source, never
+  generated. (runs/live-1 S05, manager relabel)
+- The `count: 1` rule for `gemini-3-pro-image` must reach the worker through
+  the skill or the agent definition, not prd.md; the S01 worker read the skill
+  only and paid 20 for two candidates. (runs/live-1 S01, review 1)
+- An `imageUrls` anchor carries the hero's subject as well as its light. An
+  anchored prompt says what of the hero must not appear ("no flowers, no rose,
+  no vase"). (runs/live-1 S03-m3, worker gate)
+- A Series writes its cross-slot gate in `workflow.yaml` before the first
+  call and scores it after the last; per-slot gates let a dark member ship
+  beside three daylight siblings. (runs/live-1 S03-m4, review 1)
 
 ## Non-goals
 
