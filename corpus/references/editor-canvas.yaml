@@ -1,0 +1,144 @@
+family: editor-canvas
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One still-life subject centred on a plain coloured seamless: a hand-held pink peony, a designer
+    chair, a glass of iced coffee. Soft even studio light, one hue per picture (teal, sage, blush),
+    clean editorial finish.
+  search_terms:
+    - hand holding pink peony dark background
+    - pink peony dramatic light dark background
+    - wooden chair against green wall
+    - single chair minimalist studio plain wall
+    - iced coffee glass coloured background
+    - iced matcha latte minimalist background
+    - iced latte glass plain backdrop product photo
+examples:
+  - url: https://unsplash.com/photos/p-ppCccUZiU
+    image: https://images.unsplash.com/photo-1477408326134-9b64b5934e46?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    creator: Matthew Henry
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      86c853b4: hands presenting one pink peony against a dark backdrop, soft light, flower centred
+    differs: >
+      Picsart's backdrop is a saturated teal-blue gel and the hand enters from the left edge
+  - url: https://www.pexels.com/photo/close-up-photo-of-a-pink-peony-on-a-person-s-hand-9007544/
+    image: https://images.pexels.com/photos/9007544/pexels-photo-9007544.jpeg
+    creator: Danila Popov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      86c853b4: one pink peony cradled in hands, dark ground, soft directional light
+    differs: >
+      Picsart tints the whole frame teal and crops to 16:10 with the bloom on the right
+  - url: https://www.pexels.com/photo/vibrant-pink-peony-bloom-in-dramatic-light-32290846/
+    image: https://images.pexels.com/photos/32290846/pexels-photo-32290846.jpeg?cs=srgb&dl=pexels-chris-f-38966-32290846.jpg&fm=jpg
+    creator: Chris F
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      86c853b4: solitary pink peony, moody hard light, dark background, petals as the only colour
+    differs: >
+      no hand; Picsart adds a hand on the stem and a blue-teal cast
+  - url: https://www.pexels.com/photo/delicate-pink-peony-against-dark-background-38222115/
+    image: https://images.pexels.com/photos/38222115/pexels-photo-38222115.jpeg?cs=srgb&dl=pexels-valentin-ilas-2154050328-38222115.jpg&fm=jpg
+    creator: Valentin Ilas
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      86c853b4: lit pink peony on black seamless, strong contrast, close framing
+    differs: >
+      backdrop is black not teal; Picsart lays a logo wordmark and a grid over it
+  - url: https://www.pexels.com/photo/wooden-chair-on-a-white-wall-studio-963486/
+    image: https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?cs=srgb&dl=pexels-paula-schmidt-353488-963486.jpg&fm=jpg
+    creator: Paula Schmidt
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      57614e21: single black chair, plain wall, even studio light, centred with negative space
+    differs: >
+      wall is white not sage; Picsart shows a cane-back armchair cropped tight and half blurred
+  - url: https://www.pexels.com/photo/simple-wooden-chair-against-green-wall-28946852/
+    image: https://images.pexels.com/photos/28946852/pexels-photo-28946852.jpeg?cs=srgb&dl=pexels-jason-reis-1986749370-28946852.jpg&fm=jpg
+    creator: Jason Reis
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      57614e21: one wooden chair centred on a plain green wall, even light, subtle shadow
+    differs: >
+      green is brighter than Picsart's sage; chair is rustic, not a black cane-back armchair
+  - url: https://www.pexels.com/photo/brown-and-black-chair-on-brown-surface-1420902/
+    image: https://images.pexels.com/photos/1420902/pexels-photo-1420902.png
+    creator: Mick Victor
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      57614e21: simple wooden chair against a pale green wall, bright even light, empty room
+    differs: >
+      vertical framing; Picsart crops 16:10 to the chair's arm and cane back
+  - url: https://www.pexels.com/photo/refreshing-iced-matcha-latte-on-minimalist-background-32972501/
+    image: https://images.pexels.com/photos/32972501/pexels-photo-32972501.jpeg?cs=srgb&dl=pexels-dickydikiw-32972501.jpg&fm=jpg
+    creator: Dicky Agustian
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      71e9ad23: tall glass of iced matcha, foam top, centred on a plain neutral backdrop, soft light
+    differs: >
+      Picsart cuts the drinks out as stickers and sets them on a blush poster with a striped straw
+  - url: https://www.pexels.com/photo/a-glass-of-ice-coffee-with-cream-4978741/
+    image: https://images.pexels.com/photos/4978741/pexels-photo-4978741.jpeg
+    creator: Rina Ringo
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      71e9ad23: one tall iced coffee with cream swirls on a solid coloured backdrop, product lighting
+    differs: >
+      backdrop is bright blue, Picsart's is blush pink with the glass in plastic
+  - url: https://www.pexels.com/photo/sweet-cocktail-on-glass-18142624/
+    image: https://images.pexels.com/photos/18142624/pexels-photo-18142624.jpeg?cs=srgb&dl=pexels-jdgromov-18142624.jpg&fm=jpg
+    creator: Denys Gromov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      71e9ad23: iced latte in a tall glass, ice visible, centred on a neutral grey ground, even light
+    differs: >
+      no straw or side drinks; Picsart adds matcha and latte cutouts and a headline
+creators:
+  - name: Paula Schmidt
+    platform: Pexels
+    profile_url: https://www.pexels.com/@paula-schmidt-353488/
+    why: >
+      minimalist studio still life, a single object on a neutral wall; the chair genre exactly
+  - name: Dicky Agustian
+    platform: Pexels
+    profile_url: https://www.pexels.com/@dickydikiw/
+    why: >
+      cafe and beverage photography, iced drinks centred on soft plain backdrops in warm tones
+  - name: Rina Ringo
+    platform: Pexels
+    profile_url: https://www.pexels.com/@illumine-photo/
+    why: >
+      colourful drinks and desserts on saturated single-hue backdrops, bright product lighting
+  - name: Denys Gromov
+    platform: Pexels
+    profile_url: https://www.pexels.com/@jdgromov/
+    why: >
+      food and drink product shots on plain coloured grounds with bold, clean colour grading
+picsart_specific:
+  - rounded 5:4 or 16:10 card on a white or light-grey ground, kept from the source page
+  - white selection handles at the corners and mid-edges with a 3x3 grid overlay
+  - large black arrow cursor and a row of black glyph chips under the card
+  - text overlays are design chrome (logo wordmark, poster headline, text box), never part of the photo
+  - before-after split with a soft-blurred left half on the enhancer tile
+prompt_guidance: >
+  Kept from source; nothing is generated. If templated later: one still-life subject (flower in
+  hand, chair, iced drink) centred on a plain single-hue seamless, soft even studio light,
+  editorial finish, no text, room for chrome.
+open:
+  - no match for a hand-held peony on a saturated teal-blue seamless; dark or black backdrops only
+  - no black cane-back armchair on a sage wall; plain wooden chairs on green walls stand in
+  - no iced coffee with a striped paper straw alone on blush pink without props
+  - Planet Volumes' green-on-green armchair (Unsplash) is an Unsplash+ premium file, excluded
+  - Unsplash image URLs are kept as served, with their tracking parameters

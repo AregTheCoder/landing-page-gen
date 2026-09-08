@@ -1,0 +1,159 @@
+family: model-card
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One styled model as hero, full or three-quarter body, in a saturated colour-blocked outfit
+    (magenta faux fur, lime turtleneck, pastel pink bob). Bright daylight, blue sky or clouds
+    behind, one surreal twist: giant scale, floating props, a dog. Photo-real editorial.
+  search_terms:
+    - surreal fashion editorial
+    - colorful fashion model outdoor sky
+    - fashion editorial colorful outfit blue sky
+    - pink hair woman pastel
+    - woman faux fur coat bright pink fashion
+    - low angle fashion model dramatic sky
+    - lime green outfit fashion model outdoor
+examples:
+  - url: https://www.pexels.com/photo/woman-in-a-pink-coat-holding-up-a-foil-ball-on-her-head-8221263/
+    image: https://images.pexels.com/photos/8221263/pexels-photo-8221263.jpeg
+    creator: Mikhail Nilov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3cbf8c8: one model in a vivid pink coat, natural daylight, surreal prop (mirror orb),
+      editorial pose in an open landscape.
+    differs: >
+      Desert ground instead of a city; no giant scale. Picsart crops to 5:4 tile, rounded corners,
+      chips below.
+  - url: https://www.pexels.com/photo/woman-in-red-long-sleeve-dress-under-white-clouds-and-blue-sky-6053189/
+    image: https://images.pexels.com/photos/6053189/pexels-photo-6053189.jpeg
+    creator: Reignnel (rynl-studios)
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3cbf8c8: low-angle single figure against blue sky with white clouds, one saturated
+      garment colour, confident stance.
+    differs: >
+      Red not magenta, no surreal city or smoke. Picsart adds detail-crop chips and a model mark.
+  - url: https://www.pexels.com/photo/fashionable-woman-posing-on-rooftop-in-bold-outfit-34490157/
+    image: https://images.pexels.com/photos/34490157/pexels-photo-34490157.jpeg
+    creator: Daniil Kondrashin
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      1794ea79: seated model in a bold patterned outfit, clear blue sky, bright daylight,
+      relaxed editorial pose.
+    differs: >
+      Rooftop not meadow, no animal or oversized flowers. Picsart keeps a 5:4 crop and a play
+      button when the render is video.
+  - url: https://www.pexels.com/photo/photo-of-woman-wearing-yellow-tube-top-15130810/
+    image: https://images.pexels.com/photos/15130810/pexels-photo-15130810.jpeg
+    creator: Connor Scott McManus
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c02d25a9: dyed statement hair (blue) with a colour-blocked outfit, outdoor daylight,
+      playful styling.
+    differs: >
+      Yellow polka dots rather than pastel pink bob in clouds; no typography overlay in the
+      photo, Picsart's headline is chrome.
+  - url: https://www.pexels.com/photo/woman-in-pink-long-sleeves-touching-the-sunglasses-she-is-wearing-8764620/
+    image: https://images.pexels.com/photos/8764620/pexels-photo-8764620.jpeg
+    creator: Tima Miroshnichenko
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3cbf8c8: pink garment against a clear blue sky, single model, bright midday light,
+      fashion-forward pose.
+    differs: >
+      Plain sky, no surreal environment. Picsart's render fills the tile edge to edge, chips
+      show detail crops of the same image.
+  - url: https://www.pexels.com/photo/woman-with-dyed-hair-16077154/
+    image: https://images.pexels.com/photos/16077154/pexels-photo-16077154.jpeg
+    creator: Daniil Kondrashin
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c02d25a9: pink-haired woman, soft even light, surreal floating props (flowers) around
+      the head, pastel palette.
+    differs: >
+      White studio ground instead of clouds; Picsart uses a portrait 3:4 render with copy
+      set on top of it.
+  - url: https://www.pexels.com/photo/a-woman-in-a-pink-fur-coat-with-falling-money-6523160/
+    image: https://images.pexels.com/photos/6523160/pexels-photo-6523160.jpeg
+    creator: Eugene Lisyuk
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3cbf8c8: vivid pink fur coat, outdoors, natural light, surreal falling props as a
+      playful editorial twist.
+    differs: >
+      Green park setting, eye-level framing; Picsart shoots from below with a city and smoke.
+  - url: https://www.pexels.com/photo/a-woman-in-a-bright-orange-dress-on-a-sandy-beach-27391170/
+    image: https://images.pexels.com/photos/27391170/pexels-photo-27391170.jpeg
+    creator: Vika Glitter
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      1794ea79: neon green garment as the colour block, hard midday sun, saturated blue sky,
+      one graceful full-body figure.
+    differs: >
+      Sand not grass, no dog or props. Picsart's render is a still or video frame at 5:4.
+  - url: https://unsplash.com/photos/YEZrkSeefSg
+    image: https://images.unsplash.com/photo-1652454107911-51610a4d12bd
+    creator: Jose Mizrahi
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      c3cbf8c8: pink tailored suit and sunglasses against blue sky and concrete, high
+      saturation, urban editorial.
+    differs: >
+      HDR look and street scale; Picsart's version is surreal (giant figure, ruined city).
+  - url: https://unsplash.com/photos/ZlgTYds2_5M
+    image: https://images.unsplash.com/photo-1615125945743-d00475149dca
+    creator: Michał Bińkiewicz
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      c3cbf8c8: single woman in a vibrant pink top under clear blue sky, natural daylight,
+      wind-touched candid pose.
+    differs: >
+      Plain portrait with no set or props; Picsart's renders add a surreal environment.
+creators:
+  - name: Daniil Kondrashin
+    platform: Pexels
+    profile_url: https://www.pexels.com/@konrads-photo/
+    why: >
+      Fashion and editorial portraiture of styled female subjects in urban and outdoor
+      settings; his colour work matches the tile renders, though much of the feed is black-and-white.
+  - name: Vika Glitter
+    platform: Pexels
+    profile_url: https://www.pexels.com/@vika-glitter-392079/
+    why: >
+      High-fashion, styled portraiture with fantasy and costume elements; the outdoor
+      colour-block shots fit the surreal editorial genre of the renders.
+  - name: Jose Mizrahi
+    platform: Unsplash
+    profile_url: https://unsplash.com/@josemizrahi
+    why: >
+      Consistently colourful outdoor fashion portraits, bold suits and sunglasses against
+      Miami sky and concrete; the saturated daylight look of the family.
+picsart_specific:
+  - light-grey (or white) ground around a rounded 5:4 tile, kept from source
+  - one large render plus a row of three small chips: black model-mark tile, two detail crops of the same render
+  - model mark (logo) in a black chip; never painted by a model
+  - video renders carry a centred white play button
+  - some cards wrap the render in a mock ad or app layout with headline and CTA text as chrome
+category_convention: >
+  Model hub pages of competing AI tools show a similar card: one showcase render per model with
+  the model's logo, usually a fashion or portrait subject in saturated colour.
+prompt_guidance: >
+  Kept from source; nothing is generated. If templated later, the render is a surreal
+  fashion editorial: one styled model, saturated colour-blocked outfit, bright daylight, blue
+  sky or clouds, one surreal twist, photo-real. No text, logos or chips in the render.
+open:
+  - No Pexels or Unsplash match for the exact giant-model-in-a-ruined-city composition of c3cbf8c8.
+  - No free match for a model with a dog on an alpine meadow with oversized flowers (1794ea79); results were lifestyle, not editorial.
+  - Pastel pink bob in clouds (c02d25a9) matched only partly; closest were studio shots with props.
+  - Unsplash+ premium photos (plus.unsplash.com) were excluded as not covered by the free licence.

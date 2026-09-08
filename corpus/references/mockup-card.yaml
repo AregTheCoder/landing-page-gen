@@ -1,0 +1,150 @@
+family: mockup-card
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Casual environmental portraits and lifestyle product shots. One person, waist-up, front-on, looking at
+    the lens, head in the centre third, in a sunlit park or street with greenery or a wall softly blurred
+    behind; or one takeaway-sized product (a cup, a bottle) standing on a cafe table with the room or street
+    dissolving into warm bokeh. Natural daylight, natural colour, shallow depth of field, no props, no text.
+  search_terms:
+    - woman portrait park arms crossed
+    - woman park portrait looking at camera
+    - man arms crossed outdoors portrait
+    - woman standing outdoors portrait front
+    - iced coffee cup cafe table
+    - iced latte cafe bokeh
+    - perfume bottle on table bokeh
+    - single sneaker on table blurred background
+examples:
+  - url: https://www.pexels.com/photo/a-woman-in-gray-sweater-standing-near-green-trees-11126231/
+    image: https://images.pexels.com/photos/11126231/pexels-photo-11126231.jpeg
+    creator: Alexey Demidov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      7a980105: one tattooed woman in a plain top, front-on, autumn park trees blurred behind, soft daylight.
+    differs: >
+      Picsart crops to 3:4 with the head centred for the avatar circle and puts the dark profile card beside it.
+  - url: https://www.pexels.com/photo/young-woman-in-leather-jacket-outdoors-33934062/
+    image: https://images.pexels.com/photos/33934062/pexels-photo-33934062.jpeg
+    creator: César O'neill
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      7a980105: one young woman, arms crossed, waist-up, front-on, outdoor daylight, calm confident pose.
+    differs: >
+      Urban backdrop instead of a lawn; Picsart wants greenery and a plainer top, then the card on the right.
+  - url: https://www.pexels.com/photo/confident-young-woman-in-black-hoodie-outdoors-29528665/
+    image: https://images.pexels.com/photos/29528665/pexels-photo-29528665.jpeg
+    creator: Daniil Kondrashin
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      7a980105: one smiling woman in black, centred, facing the camera, blurred outdoor path, natural daylight.
+    differs: >
+      Paved path rather than park lawn; Picsart tightens to waist-up 3:4 and adds the profile card and chips.
+  - url: https://unsplash.com/photos/zHCFTUMJVg4
+    image: https://images.unsplash.com/photo-1760552069572-6a6caeeb82d9
+    creator: amin naderloei
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      7a980105: one young woman facing the lens, long hair, trees out of focus behind, soft even daylight.
+    differs: >
+      Picsart keeps the subject in the centre third for the avatar crop and pairs it with a dark card on black.
+  - url: https://unsplash.com/photos/3__dSmfVPSU
+    image: https://images.unsplash.com/photo-1773955291557-75c42f094df5
+    creator: Margo Evardson
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      7a980105: one woman in black clothing, summer park, lush green foliage around, natural light.
+    differs: >
+      Foliage frames the subject; Picsart wants an open lawn behind and no branches crossing the head.
+  - url: https://unsplash.com/photos/E3UjREzbcgE
+    image: https://images.unsplash.com/photo-1758599543126-59e3154d7195
+    creator: Vitaly Gariev
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      7a980105: one man, arms crossed, mid-torso up, looking straight at the camera, building blurred behind, daylight.
+    differs: >
+      Business styling and city backdrop; Picsart prefers casual dress and greenery, then adds the card chrome.
+  - url: https://www.pexels.com/photo/refreshing-iced-coffee-in-cozy-cafe-setting-33209697/
+    image: https://images.pexels.com/photos/33209697/pexels-photo-33209697.jpeg
+    creator: William Chen
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      ec67a479: one iced coffee in a plastic cup on a wooden table indoors, cafe blurred behind, natural light.
+    differs: >
+      Picsart crops 3:4 with the cup centred, cuts it out for the white product card and adds a price chip.
+  - url: https://www.pexels.com/photo/iced-coffee-on-outdoor-cafe-table-35595042/
+    image: https://images.pexels.com/photos/35595042/pexels-photo-35595042.jpeg
+    creator: FOX ^.ᆽ.^= ∫
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      ec67a479: one cold drink on a glossy cafe table, soft blurred outdoor setting, bright daylight.
+    differs: >
+      Picsart wants a warm street-light bokeh behind and the product front-on; the ORDER button is chrome.
+  - url: https://www.pexels.com/photo/refreshing-iced-coffee-on-outdoor-table-31636390/
+    image: https://images.pexels.com/photos/31636390/pexels-photo-31636390.jpeg
+    creator: Nguyễn Tiến Thịnh
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      ec67a479: one plastic cup of iced coffee on a textured table, greenery blurred behind, bright natural light.
+    differs: >
+      Greenery instead of a shopfront; Picsart cuts the cup out onto a checkerboard and the white card.
+  - url: https://unsplash.com/photos/xQwRvghauaU
+    image: https://images.unsplash.com/photo-1593487568720-92097fb460fb
+    creator: deanna alys
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      ec67a479: one small product (perfume bottle) centred on a wooden table, background softly blurred, indoor daylight.
+    differs: >
+      A bottle, not a drink; shows the product-card variant works for any single object Picsart can cut out.
+creators:
+  - name: Daniil Kondrashin
+    platform: Pexels
+    profile_url: https://www.pexels.com/@konrads-photo/
+    why: >
+      Portrait-heavy profile: women facing the camera in urban and outdoor daylight, clean styling, the profile-card
+      subject type.
+  - name: César O'Neill
+    platform: Pexels
+    profile_url: https://www.pexels.com/@cesar-o-neill-26650613/
+    why: >
+      Young adults in casual outdoor settings, golden-hour and daylight, editorial polish; natural social-profile
+      material.
+  - name: Vitaly Gariev
+    platform: Unsplash
+    profile_url: https://unsplash.com/@silverkblack
+    why: >
+      Commercial lifestyle and portrait stock, bright and well lit, people looking at the lens in real
+      environments.
+  - name: Amin Naderloei
+    platform: Unsplash
+    profile_url: https://unsplash.com/@aminnaderloei
+    why: >
+      Outdoor portrait and fashion work with neutral palettes, subjects centred against city and park backdrops.
+picsart_specific:
+  - black ground with the 3:4 source photo on the left and a rounded card on the right
+  - dark profile card with a round avatar crop of the same subject, blue check badge, placeholder name and counts
+  - white product card holding the remove_bg cutout, a price chip and an ORDER button
+  - checkerboard transparency half and magenta check chip on the cutout panel
+  - glyph chips bottom-left; all text drawn by lp-compose, none in the photo
+category_convention: >
+  Background-remover and e-commerce tool pages usually show a cutout dropped into a shop listing or avatar
+  mockup; the source photo is an ordinary phone-style snapshot with a busy background, not a studio shot.
+prompt_guidance: >
+  One person or one product in a real environment, front-on, head or product in the centre third, waist-up
+  for people, 3:4. Natural daylight, natural colour, background softly blurred (park lawn and trees, or a cafe
+  with warm bokeh). No text, no logos, no UI, no second subject, no props competing with the subject.
+open:
+  - No Unsplash portrait with a sunlit open lawn behind the subject was free; the close matches on Unsplash+ were dropped.
+  - No verified example of a takeaway cup in front of a shopfront with warm street bokeh, the exact ec67a479 backdrop.
+  - Nguyễn Tiến Thịnh's and William Chen's profiles were not a fit for creators (William Chen's is mostly landscapes).

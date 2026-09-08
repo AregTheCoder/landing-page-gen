@@ -137,9 +137,9 @@ category_convention: >
   Model-comparison pages elsewhere also show identical-prompt pairs, usually portrait and product-with-text,
   so the reader judges skin, typography and prompt adherence at a glance.
 prompt_guidance: >
-  One subject, centred in the middle two thirds: a studio portrait on seamless or gradient, or one product on
-  seamless or a single bold prop under hard light. Saturated colour, crisp texture. Same prompt both panels.
-  No text unless `> text:` names it; never model names, VS badge or logos.
+  One subject in centre two thirds: portrait on seamless or gradient, or product on seamless or a bold prop.
+  Hard light, saturated colour, same prompt both panels. Text only when `> text:` names it; never model
+  names, badges, logos.
 open:
   - No Pexels or Unsplash match for a handbag hung on a cactus; closest is a bag held against blue sky.
   - Denim-cap studio portraits on a gradient backdrop not found; cap portraits on the platforms are street or monochrome.

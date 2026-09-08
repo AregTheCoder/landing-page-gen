@@ -1,0 +1,162 @@
+family: graphic-collage
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    One cutout subject: a person mid-gesture in a bold single-colour outfit, or one product or
+    piece of jewellery. Even bright studio light, soft or hard flash, on a plain saturated
+    seamless. Waist-up or centred, clean hard edges.
+  search_terms:
+    - woman studio portrait colorful background
+    - woman red jacket purple background
+    - studio portrait solid color background
+    - product photography colorful background
+    - single object colored background hard light
+    - necklace red background
+    - jewelry flat lay colorful background
+    - candle hard shadow product
+examples:
+  - url: https://www.pexels.com/photo/photo-of-woman-in-red-sweater-3760823/
+    image: https://images.pexels.com/photos/3760823/pexels-photo-3760823.jpeg
+    creator: Sound On
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      865c8f66: one woman in a red top, mid-gesture (peace sign), even studio light, bold
+      red and yellow colour-blocked ground.
+    differs: >
+      Picsart cuts her out, puts her on a flat violet ground and adds circles and black brush
+      strokes; no colour-blocked backdrop.
+  - url: https://www.pexels.com/photo/a-woman-holding-a-lollipop-8422518/
+    image: https://images.pexels.com/photos/8422518/pexels-photo-8422518.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-8422518.jpg&fm=jpg
+    creator: Pavel Danilyuk
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      865c8f66: one woman in a saturated purple jacket holding a prop, playful gesture, even
+      bright light, flat orange seamless.
+    differs: >
+      Picsart drops the seamless for its own flat ground and shapes; the prop would go, one
+      subject only, square or 2:3 crop.
+  - url: https://www.pexels.com/photo/young-woman-with-long-black-hair-sitting-on-big-sheet-of-pink-paper-11034404/
+    image: https://images.pexels.com/photos/11034404/pexels-photo-11034404.jpeg?auto=compress&w=1260&h=750&dpr=1
+    creator: Victoria Strelka_ph
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      865c8f66: one young woman seated, styled outfit, polished studio light, bold purple
+      backdrop.
+    differs: >
+      Picsart wants a mid-gesture pose and a cutout edge; the pink paper and seated full-body
+      framing would be cropped to waist-up.
+  - url: https://unsplash.com/photos/c_4jPOUdIio
+    image: https://images.unsplash.com/photo-1779398342814-ff03ba17899c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0
+    creator: ola szkolda
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      865c8f66: one woman posing with products, styled fashion look, even studio light, vivid
+      orange seamless.
+    differs: >
+      Picsart keeps either the person or one product, never both; ground becomes flat purple or
+      coral with shapes behind.
+  - url: https://unsplash.com/photos/SrFqhrGUs-M
+    image: https://images.unsplash.com/photo-1548778362-1809f230a07c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0
+    creator: Katelyn Montagna
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      865c8f66: one woman in a red top, clean even studio light, solid blue seamless, waist-up.
+    differs: >
+      Picsart adds a gesture and glance off-camera, swaps the seamless for a flat ground with
+      circles and brush strokes.
+  - url: https://unsplash.com/photos/X4VvPXoO12c
+    image: https://images.unsplash.com/photo-1645898641064-d63f01910e8a
+    creator: Ben Lolli
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      9f8db27a: one packaged product, centred, bright even light with minimal shadow, flat
+      saturated green ground.
+    differs: >
+      Picsart uses its own ground colour (purple, coral, red, lime) and adds two or three flat
+      shapes; the can becomes a hard-edged cutout.
+  - url: https://www.pexels.com/photo/minimalist-black-water-bottle-on-yellow-background-38718303/
+    image: https://images.pexels.com/photos/38718303/pexels-photo-38718303.jpeg?cs=srgb&dl=pexels-valentin-ivantsov-2154772556-38718303.jpg&fm=jpg
+    creator: Valentin Ivantsov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      9f8db27a: one product centred on a flat vivid yellow ground, even light, subtle shadow,
+      high contrast minimalist framing.
+    differs: >
+      Picsart removes the cast shadow (cutout, no drop shadow) and layers a circle and a paper
+      shape behind the product.
+  - url: https://www.pexels.com/photo/silver-rings-on-pink-surface-9430429/
+    image: https://images.pexels.com/photos/9430429/pexels-photo-9430429.jpeg?cs=srgb&dl=pexels-cottonbro-9430429.jpg&fm=jpg
+    creator: cottonbro studio
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      5d9d8a25: silver jewellery (rings and a necklace) laid on a plain coloured surface,
+      metallic highlights, minimalist framing.
+    differs: >
+      Picsart uses hard flash and a saturated tomato-red ground with a black circle and yellow
+      stripe; one necklace only, not a set.
+  - url: https://www.pexels.com/photo/white-glass-candle-holder-on-white-surface-8533648/
+    image: https://images.pexels.com/photos/8533648/pexels-photo-8533648.jpeg?auto=compress&w=1260&h=750&dpr=1
+    creator: Hanna Pad
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      9f8db27a: one candle in a glass holder, soft diffused light, gentle single shadow, calm
+      minimalist still life.
+    differs: >
+      Picsart's candle is cobalt on warm ivory paper with a peach circle behind; colour contrast
+      replaces the white-on-white.
+creators:
+  - name: Pavel Danilyuk
+    platform: Pexels
+    profile_url: https://www.pexels.com/@pavel-danilyuk/
+    why: >
+      Large studio series of single people in saturated outfits on flat orange and amber
+      seamless, playful props and gestures, even light.
+  - name: Victoria Strelka_ph
+    platform: Pexels
+    profile_url: https://www.pexels.com/@victoria-strelka_ph-128225472/
+    why: >
+      Fashion portraits of one woman in bold colours; her studio set on purple and pink paper
+      gives the poster-like single-subject look.
+  - name: ola szkolda
+    platform: Unsplash
+    profile_url: https://unsplash.com/@olaszkolda
+    why: >
+      Self-shot beauty and fashion frames on vivid orange and pink seamless, one model with a
+      product, clean even studio light.
+  - name: Ben Lolli
+    platform: Unsplash
+    profile_url: https://unsplash.com/@funproductpics
+    why: >
+      Bold single-product shots (cans, bottles) on flat saturated grounds, bright even light and
+      minimal shadow; ready for cutout.
+  - name: Valentin Ivantsov
+    platform: Pexels
+    profile_url: https://www.pexels.com/@valentin-ivantsov-2154772556/
+    why: >
+      Minimalist still life of one object centred on a contrasting flat ground (yellow, orange,
+      brown), controlled light, strong colour contrast.
+picsart_specific:
+  - flat saturated ground (violet, coral, tomato red, lime, warm ivory) replacing the photo backdrop
+  - two or three flat circles or torn-paper shapes behind the cutout, in clashing colours
+  - one or two loose black brush strokes behind the subject
+  - hard cutout edge with no drop shadow; subject cropped at the tile edge
+  - a diagonal yellow stripe or black disc as a poster accent
+prompt_guidance: >
+  One subject only: a person mid-gesture in a single bold colour, or one product, waist-up or
+  centred, even studio light, clean hard edge. Plain saturated seamless, no scene, no drop
+  shadow, no text; ground and shapes come later.
+open:
+  - No free Pexels or Unsplash photo of a charm necklace under hard flash on a red seamless; jewellery results are soft-lit flat lays.
+  - No candle on coloured paper in warm daylight; the closest match is white-on-white.
+  - Strong yellow-seamless male portraits found were Unsplash+ (Getty), so excluded.
+  - Sound On's profile is mostly video; the photo is kept, the creator is not listed.

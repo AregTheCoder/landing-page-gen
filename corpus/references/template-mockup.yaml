@@ -129,14 +129,13 @@ creators:
 picsart_specific:
   - rounded template card with the headline set in one display face above the photo and an optional call to action
   - four black icon tiles (layout, checkerboard, move, Aa) stacked beside the card on the white ground
-  - black-ground variant: magenta tile, aura gradient swatch and checkerboard cutout of the same product beside the card
+  - 'black-ground variant: magenta tile, aura gradient swatch and checkerboard cutout of the same product beside the card'
   - product cut out and re-composited onto a flat colour or aura gradient inside the card; sparkle glyphs
   - flyer-maker example (7c5d6f7d) uses a line illustration and a type specimen instead of a photograph
 prompt_guidance: >
-  One product or one hand holding one product, front-on and centred, on a flat saturated or pastel seamless
-  or a soft aura gradient, even studio light, hard clean edges, at least 25 % empty backdrop around it.
-  Render only the brief's headline and call to action as poster typography, one typeface, high contrast.
-  A flat picture: no printed card, no table, no perspective, no drop shadow, no paper texture, no logos or other text.
+  One product, alone or held in one hand, front-on, centred on flat colour or soft aura gradient, even light,
+  25% margin. Only the brief's headline and call-to-action as poster type, one typeface. No card, table,
+  perspective, shadow, paper texture, logos.
 open:
   - 7c5d6f7d is a line illustration with a type specimen, not a photograph; no stock genre collected for that variant.
   - Unsplash search pages return gradient wallpapers for product+pastel terms; the strong hand-held jar results there

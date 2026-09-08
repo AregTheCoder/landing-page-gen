@@ -1,0 +1,166 @@
+family: panel-overlay
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Stock fashion portraits of one person, face visible, in one or two bold garment colours
+    on a flat coloured backdrop: striped wall, seamless yellow or purple, plain sky, or
+    magenta-cyan gel light. Hard even light, high saturation, editorial finish.
+  search_terms:
+    - neon portrait man magenta blue light
+    - woman yellow background purple fashion portrait
+    - woman red outfit colorful wall fashion
+    - woman striped skirt white shirt
+    - holographic iridescent fashion portrait
+    - colorful striped wall fashion
+examples:
+  - url: https://www.pexels.com/photo/smiling-man-2180474/
+    image: https://images.pexels.com/photos/2180474/pexels-photo-2180474.jpeg
+    creator: R. Fera
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      85708ef3: the hero's source. Smiling man in glasses, eyes closed, magenta and cyan
+      gel light on a plain backdrop, white sweatshirt.
+    differs: >
+      Picsart crops to 4:3 with the man in the left two thirds and drops the HSL badge and
+      pill onto the pale backdrop upper right.
+  - url: https://www.pexels.com/photo/woman-wearing-long-sleeve-crop-top-and-blue-pants-850391/
+    image: https://images.pexels.com/photos/850391/pexels-photo-850391.jpeg
+    creator: Godisable Jacob
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      da31e929: same striped-wall series. One woman in bright attire against a horizontally
+      striped rainbow wall, hard daylight, full-length.
+    differs: >
+      Picsart uses the red-top frame, crops to 4:3 and lays the dark HSL panel over the
+      wall's right half.
+  - url: https://www.pexels.com/photo/woman-red-and-white-sweater-850393/
+    image: https://images.pexels.com/photos/850393/pexels-photo-850393.jpeg
+    creator: Godisable Jacob
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      da31e929: red and white striped top, white trousers, red shoes, the same multicolour
+      striped wall in flat daylight; the closest frame to the card.
+    differs: >
+      Picsart keeps the subject left, covers the right half of the wall with the panel and
+      rounds the corners.
+  - url: https://www.pexels.com/photo/woman-in-a-lilac-blouse-covering-her-mouth-with-flower-head-on-yellow-background-12928824/
+    image: https://images.pexels.com/photos/12928824/pexels-photo-12928824.jpeg
+    creator: Weezy Mie
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0c9be8c4: same shoot. Asian woman in a lilac-purple blouse on a seamless vivid yellow
+      backdrop, even studio light, tight head-and-shoulders framing.
+    differs: >
+      Picsart's frame has no flower, a look over the shoulder, orange eyeshadow; the
+      Saturation panel sits over the purple shoulder lower right.
+  - url: https://unsplash.com/photos/woman-wearing-white-shirt-and-yellow-blue-and-green-striped-long-skirt-D3z2GA4A-Lg
+    image: https://images.unsplash.com/photo-1534445538923-ab38438550d2
+    creator: Isabela Kronemberger
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      9caa06ad: likely the card's source. Woman in a knotted white shirt and a rainbow
+      striped long skirt swinging, blue sky and a grey wall behind, hard sun.
+    differs: >
+      Picsart crops to the torso and skirt on a 5:4 tilted card and puts the Hue panel over
+      the grey wall at left.
+  - url: https://www.pexels.com/photo/vibrant-portrait-with-neon-lighting-effects-30273932/
+    image: https://images.pexels.com/photos/30273932/pexels-photo-30273932.jpeg
+    creator: Antonio García
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      85708ef3: one man with glasses lit blue and magenta from two sides, plain backdrop,
+      saturated split-tone skin, head-and-shoulders.
+    differs: >
+      Darker and moodier than the hero's pale pink backdrop; Picsart wants an open light
+      corner for badge and pill.
+  - url: https://www.pexels.com/photo/woman-wearing-yellow-blazer-while-in-purple-background-11059419/
+    image: https://images.pexels.com/photos/11059419/pexels-photo-11059419.jpeg
+    creator: Nuta Sorokina
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0c9be8c4: complementary garment and backdrop pair, yellow blazer on seamless purple,
+      even studio light, one woman, face to camera.
+    differs: >
+      Colours inverted versus the card; Picsart would frame tighter and cover the lower
+      right with the slider panel.
+  - url: https://www.pexels.com/photo/brunette-woman-wearing-purple-sweater-and-yellow-shorts-11091320/
+    image: https://images.pexels.com/photos/11091320/pexels-photo-11091320.jpeg
+    creator: Max Mishin
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      0c9be8c4: Asian woman in a purple sweater with yellow, vivid seamless backdrop, flat
+      studio light, one subject, saturated two-colour palette.
+    differs: >
+      Fuller body framing; Picsart crops to head and shoulders, 4:3, panel over backdrop.
+  - url: https://www.pexels.com/photo/woman-with-black-headphones-wearing-a-purple-sweatshirt-8663198/
+    image: https://images.pexels.com/photos/8663198/pexels-photo-8663198.jpeg
+    creator: Orione Conceição
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      85708ef3 and 0c9be8c4: cheerful woman with headphones, purple sweatshirt on a seamless
+      yellow backdrop, even light, joyful lifestyle pose like the hero.
+    differs: >
+      Picsart would keep her left, leave the yellow right half clean for the panel or pill.
+  - url: https://www.pexels.com/photo/glamorous-woman-in-iridescent-dress-against-concrete-wall-33798239/
+    image: https://images.pexels.com/photos/33798239/pexels-photo-33798239.jpeg
+    creator: Vika Glitter
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      e9c17dd8: one woman in an iridescent, light-catching garment against a plain neutral
+      wall; the shimmering-fabric-on-neutral idea of the Lightness card.
+    differs: >
+      The card is high-key and pastel with arms raised in a fringe top; this is cooler and
+      more posed. Picsart adds the Lightness panel lower left.
+creators:
+  - name: Godisable Jacob
+    platform: Pexels
+    profile_url: https://www.pexels.com/@godisable-jacob-226636/
+    why: >
+      855 photos of single women in bold red, pink and striped outfits against Glasgow
+      walls in bright daylight; the source of the da31e929 card.
+  - name: Weezy Mie
+    platform: Pexels
+    profile_url: https://www.pexels.com/@weezy-mie-276311990/
+    why: >
+      Editorial fashion portraits of young women in studio and street, sparkly and designer
+      clothing on seamless colour; the source shoot of 0c9be8c4.
+  - name: Vika Glitter
+    platform: Pexels
+    profile_url: https://www.pexels.com/@vika-glitter-392079/
+    why: >
+      22.5K studio portraits of women in glitter, sequin and iridescent wear; mostly dark
+      backdrops, so pick her lighter frames for the e9c17dd8 look.
+  - name: MART PRODUCTION
+    platform: Pexels
+    profile_url: https://www.pexels.com/@mart-production/
+    why: >
+      Long series on seamless coloured paper, e.g. woman in yellow blazer on purple
+      (7290088, 7290098); consistent even studio light, one subject.
+picsart_specific:
+  - dark rounded HSL panel lower right with title, eight colour chips and Hue/Saturation/Lightness sliders with values
+  - hero variant: white round badge with the HSL logo and a white pill reading HSL, upper right
+  - tilted-card ground: photo card over a plain card rotated about 10 degrees on the white page
+  - rounded corners on the 4:3 or 5:4 slot, subject kept in the left two thirds
+category_convention: >
+  Adjustment-tool pages on competitor sites also lay a floating slider panel over a stock
+  portrait; the portrait is unedited stock and the panel implies the edit.
+prompt_guidance: >
+  Stock fashion photograph, one person, face visible, bold garment colour on flat backdrop
+  (striped wall, seamless yellow, magenta-cyan light). Hard light, high saturation. Subject
+  left two thirds, plain backdrop lower right. No panel, sliders, recolouring, text, second
+  person.
+open:
+  - e9c17dd8 (woman in iridescent fringe top, arms raised, high-key) not found on Pexels or Unsplash; Vika Glitter 33798239 is the nearest genre match.
+  - 9caa06ad source is inferred from the Unsplash description "Girl in rainbow skirt"; not pixel-verified.
+  - R. Fera, Nuta Sorokina, Max Mishin and Isabela Kronemberger profiles are mostly landscapes, monochrome, wildlife or product, so they are examples only, not genre creators.

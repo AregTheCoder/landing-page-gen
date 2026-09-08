@@ -139,8 +139,8 @@ picsart_specific:
   - colour pushed past natural: magenta birds, teal sky, chrome liquid type over the flowers
 prompt_guidance: >
   One subject filling a 3:4 or 1:1 frame, commercial finish: a glossy object on a plinth among pastel
-  blocks in soft studio light, or a saturated peony or pink bird on clean sky. Sharp focus; no text,
-  buttons, cursors, UI or screenshots.
+  blocks in soft studio light, or saturated peony or pink bird on clean sky. Sharp focus; no text,
+  buttons, cursors or UI.
 open:
   - No Pexels or Unsplash match for a coloured ceramic mug raised on a plinth among pastel blocks at
     eye level; closest are a teal mug on a marble block and pastel podium flat-lays.

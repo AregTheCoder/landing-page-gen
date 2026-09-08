@@ -1,0 +1,157 @@
+family: cinematic-still
+collected: 2026-09-08
+by: reference-collector
+photography:
+  genre: >
+    Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a
+    third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour,
+    fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is
+    unified and saturated, the finish glossy, no chrome or text.
+  search_terms:
+    - cinematic portrait vertical
+    - teal orange portrait moody
+    - colorful food photography blue background
+    - golden hour portrait film
+    - neon pink bedroom portrait
+    - surreal miniature photography
+examples:
+  - url: https://www.pexels.com/photo/portrait-of-a-man-s-face-11556037/
+    image: https://images.pexels.com/photos/11556037/pexels-photo-11556037.jpeg
+    creator: Sergio Medina
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      029d49e5: one face, split red and blue gel light on a dark backdrop, tight framing, moody filmic grade.
+    differs: >
+      Picsart tiles are brighter and more commercial; keep the split light, lift the exposure, crop 9:16.
+  - url: https://www.pexels.com/photo/portrait-of-young-woman-standing-by-the-fence-at-dusk-14708209/
+    image: https://images.pexels.com/photos/14708209/pexels-photo-14708209.jpeg
+    creator: Atahan Demir
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      029d49e5: one woman, environmental portrait, dusk light, shallow depth, teal-orange grade.
+    differs: >
+      Picsart would drop the fence clutter and centre the subject with safe margin top and bottom.
+  - url: https://www.pexels.com/photo/studio-shot-of-a-smiling-girl-18554597/
+    image: https://images.pexels.com/photos/18554597/pexels-photo-18554597.jpeg
+    creator: Mohamed Abdelghaffar
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      029d49e5: one young woman, warm-cool (orange and blue) studio light, neutral backdrop, waist-up.
+    differs: >
+      Picsart adds a set-dressed backdrop (room, props) instead of bare studio; same two-tone light.
+  - url: https://www.pexels.com/photo/close-up-of-man-face-14880049/
+    image: https://images.pexels.com/photos/14880049/pexels-photo-14880049.jpeg
+    creator: sajad karimirad
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3aaa9b3, 029d49e5: one subject, hard blue and orange light, deep shadows, tight cinematic crop.
+    differs: >
+      Picsart keeps a lighter mood and more headroom for rounded tile corners.
+  - url: https://www.pexels.com/photo/maki-on-blue-rubber-gloves-in-yellow-background-7767739/
+    image: https://images.pexels.com/photos/7767739/pexels-photo-7767739.jpeg
+    creator: MART PRODUCTION
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3aaa9b3: one food subject, hard studio light, complementary blue and yellow, flat seamless backdrop.
+    differs: >
+      Picsart shows the dish in motion (lifted noodles) on a surface, 9:16, glossy finish.
+  - url: https://www.pexels.com/photo/pieces-of-orange-and-lime-up-in-the-air-7545835/
+    image: https://images.pexels.com/photos/7545835/pexels-photo-7545835.jpeg
+    creator: JJ Jordan
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3aaa9b3: food frozen mid-air, saturated orange on blue seamless, hard studio flash, centred.
+    differs: >
+      Picsart uses one dish and one vessel rather than scattered pieces; crop to 9:16.
+  - url: https://www.pexels.com/photo/colorful-macaroons-in-a-studio-20264758/
+    image: https://images.pexels.com/photos/20264758/pexels-photo-20264758.jpeg
+    creator: Simeon Mihaylov
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      c3aaa9b3: one stacked food subject, bright blue seamless, clean studio light, editorial pop colour.
+    differs: >
+      Picsart adds a marble surface and a metallic vessel; taller crop, more headroom.
+  - url: https://www.pexels.com/photo/photo-of-a-white-hand-behind-a-pink-car-toy-10216080/
+    image: https://images.pexels.com/photos/10216080/pexels-photo-10216080.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      ee82a094: surreal scale play with a prop, pastel palette, soft even light, minimal backdrop.
+    differs: >
+      Picsart's surreal frame is a photographic composite (tiny person in a cup), faded retro grade, 9:16.
+  - url: https://www.pexels.com/photo/a-beautiful-woman-with-her-hand-on-her-chin-9589960/
+    image: https://images.pexels.com/photos/9589960/pexels-photo-9589960.jpeg
+    creator: Trarete
+    platform: Pexels
+    licence: Pexels
+    matches: >
+      029d49e5: one woman, close-up, warm golden-hour light, shallow depth, soft intimate grade.
+    differs: >
+      Picsart would add a coloured set and cooler fill so the tile reads as a scene, not a headshot.
+  - url: https://unsplash.com/photos/mOMYGQb6JQ0
+    image: https://images.unsplash.com/photo-1778079395011-c1936dd7275a
+    creator: Andrés Gómez
+    platform: Unsplash
+    licence: Unsplash
+    matches: >
+      029d49e5: one young woman seated in a bedroom lit by coloured (green and purple) practicals, moody.
+    differs: >
+      Picsart's bedroom is pink and blue with fairy lights, brighter, smiling subject, props on a table.
+creators:
+  - name: Sergio Medina
+    platform: Pexels
+    profile_url: https://www.pexels.com/@medinaonfire/
+    why: >
+      Small portfolio of vertical portraits with theatrical red and blue gel light and processed grades;
+      the closest single body of work to the family's portrait tiles.
+  - name: Atahan Demir
+    platform: Pexels
+    profile_url: https://www.pexels.com/@atahandemir/
+    why: >
+      Moody, soft-bokeh frames with contemplative figures in landscapes; teaches the dusk grade and shallow
+      depth, less the studio colour.
+  - name: Simeon Mihaylov
+    platform: Pexels
+    profile_url: https://www.pexels.com/@simeon-mihaylov-927910676/
+    why: >
+      Saturated editorial food on bright seamless backdrops plus stylish urban portraits; matches the pop-colour
+      food register of the noodle tile.
+  - name: MART PRODUCTION
+    platform: Pexels
+    profile_url: https://www.pexels.com/@mart-production/
+    why: >
+      Large catalogue of dim, atmospherically lit indoor scenes and the occasional bold complementary-colour
+      still life; a source for lit-scene reference, not for grade.
+  - name: Andrés Gómez
+    platform: Unsplash
+    profile_url: https://unsplash.com/@andresloquesea
+    why: >
+      Rich warm-cool saturation and environmental portraits in dramatic light; mostly horizontal, so crop
+      mentally to 9:16.
+picsart_specific:
+  - no ground and no chrome; the frame fills a rounded-corner 9:16 tile
+  - tiles come in sets that share one grade and read as a reel
+  - surreal photographic composites (a tiny person asleep in a coffee cup) alongside straight stills
+  - commercial brightness: even the moody frames are lifted, glossy and saturated, never murky
+  - safe margin top and bottom for the page's rounded corners
+category_convention: >
+  Competitor AI-model pages (Midjourney, Runway, Kling showcases) use the same 9:16 or 1:1 gallery of
+  single-subject filmic stills; not verified in this pass.
+prompt_guidance: >
+  One cinematic frame, 9:16, a single subject (person, dish or prop) with shallow depth of field. Choose one
+  grade for the whole set: teal-orange split light, golden hour, or monochrome; or bold complementary studio
+  colour on a seamless. Glossy commercial finish, safe margin top and bottom. No letterbox bars, borders,
+  subtitles, watermarks, logos, collages or mixed grades.
+open:
+  - No Pexels or Unsplash match for the surreal composite register (tiny figure inside a coffee cup); only pastel prop surrealism found.
+  - Unsplash cinematic-portrait results are mostly Unsplash+ (plus.unsplash.com); three such hits were dropped, leaving one Unsplash example.
+  - Pexels photo pages do not state dimensions, so portrait orientation was taken from the search filter and description, not confirmed.
+  - The Y2K pink-bedroom unboxing register (029d49e5) is matched only loosely by coloured-practical bedroom portraits.

@@ -145,8 +145,8 @@ category_convention: >
   Background-remover pages (remove.bg, Canva, Adobe Express) show one subject on a grey-and-white
   checkerboard beside the original photo; Picsart's variant adds a second cutout and a finished scene.
 prompt_guidance: >
-  Panels A, B: one product or person alone, centred on plain mid-grey seamless, soft even
-  light, no labels, no props; background removed afterwards, never a painted checkerboard,
+  Panels A, B: one product or person alone, centred on plain mid-grey seamless, soft
+  light, no labels or props; background removed later, never a painted checkerboard,
   halo or shadow. Panel C: same subject, clean 3:4 studio scene, no text.
 open:
   - No Pexels or Unsplash match for the pink flower-filled cabinet on blue (b95353fc); the closest is a plain flowers-on-pastel-blue shot.

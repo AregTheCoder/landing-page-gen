@@ -260,6 +260,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: names, counts, prices and button labels are placeholders drawn by `lp-compose`; never real names or brands. The photo carries no text.
 **Never:** a real social network's logo or layout copied exactly, readable personal names, real prices with currency, UI painted by the model.
 **Examples:** 7a980105 (background-remover S08-m1, profile card), ec67a479 (background-remover S10-m1, product card); third from the tagging report.
+**References:** corpus/references/mockup-card.yaml (10 examples; Daniil Kondrashin, César O'Neill, Vitaly Gariev, Amin Naderloei).
 
 ## cinematic-still
 **Use:** 9:16 gallery tiles and hero carousels on ai-models and ai-tool pages: one filmic frame per tile, no chrome, part of a set that reads as one reel.
@@ -274,6 +275,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** none; `> text:` is `none`.
 **Never:** collages, borders, subtitles, watermarks, model logos, mixed grades within one set.
 **Examples:** c3aaa9b3 (ai-models--flux-3 S03-m1), ee82a094 (ai-models--flux-3 S03-m2), 029d49e5 (persona S01-m2, hero carousel).
+**References:** corpus/references/cinematic-still.yaml (10 examples; Sergio Medina, Atahan Demir, Simeon Mihaylov, MART PRODUCTION).
 
 ## graphic-collage
 **Use:** 1:1, 2:3 and 16:9 gallery tiles on tool pages (background remover, sticker maker, photo editor): a cutout person or product over a saturated flat ground with shapes, circles and brush strokes, poster-like.
@@ -288,6 +290,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** none by default; a single word in bold display type only when `> text:` names it.
 **Never:** photographic backgrounds, drop shadows, gradients as the main ground, more than one subject, text other than the brief's string.
 **Examples:** 9f8db27a (background-remover S02-m1), 5d9d8a25 (background-remover S02-m2), 865c8f66 (background-remover S02-m3).
+**References:** corpus/references/graphic-collage.yaml (9 examples; Pavel Danilyuk, Victoria Strelka_ph, ola szkolda, Ben Lolli).
 
 ## outcome-tile
 **Use:** small result-state tiles in tool galleries (transparent, blurred, white, colour, new background): one subject shown in each outcome, tiles in a row on white.
@@ -317,6 +320,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only (tool labels), kept from source.
 **Never:** generated.
 **Examples:** 86c853b4 (background-remover S12-m1), 57614e21 (background-remover S12-m2), 71e9ad23 (compare-models--gpt-image-1-5-vs-flux-2-pro S12-m1).
+**References:** corpus/references/editor-canvas.yaml (10 examples; Paula Schmidt, Dicky Agustian, Rina Ringo, Denys Gromov).
 
 ## model-card
 **Use:** link-grid thumbnails on ai-models pages: one large rounded render of the model's output with a row of three small chips under it (model mark, two detail crops).
@@ -331,6 +335,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only (the model mark), kept from source.
 **Never:** generated today; later: model logos painted by the model.
 **Examples:** c3cbf8c8 (ai-models--flux-3 S13-m1), c02d25a9 (ai-models--flux-3 S13-m2), 1794ea79 (ai-models--flux-3 S13-m3).
+**References:** corpus/references/model-card.yaml (10 examples; Daniil Kondrashin, Vika Glitter, Jose Mizrahi).
 
 ## panel-overlay
 **Use:** hero and use-case cards on adjustment-tool pages (HSL, colorize, change colour, curves, filters, adjust): a stock lifestyle photo with the tool's dark control panel laid over it, so the picture shows the edit and the panel shows the control. The headline names a colour property (hue, saturation, lightness, tone, colour) or says adjust, tweak, fine-tune. Not every colour tool carries the panel: hair-color-changer's cards are stock portraits on the tilted ground with no panel (`omit: [panel]`) and its hero is a sticker collage; check the page's own cards before assuming the panel (runs/trial-5).
@@ -345,3 +350,4 @@ them `full-bleed` and lost the tool panel in every slot).
 **Text:** chrome text only: the panel title (the tool's short name from the H1: HSL), the slider labels (Hue, Saturation, Lightness, or the property the section copy names) and their values are drawn by `lp-compose`; the hero pill carries the same short name. The photo carries no text; `> text:` is `none`.
 **Never:** a panel, sliders, chips or a colour wheel painted by the model; a recoloured or "hue-shifted" subject prompted into the photo (the panel implies the edit); a still life or landscape where the corpus shows people; two people; a busy background under the panel.
 **Examples:** 85708ef3 (hsl-color S01-m1, hero with tool pill), da31e929 (hsl-color S03-m1, three sliders), 0c9be8c4 (hsl-color S03-m3, one slider); tilted: 9caa06ad (hsl-color S03-m2), e9c17dd8 (hsl-color S03-m4).
+**References:** corpus/references/panel-overlay.yaml (10 examples; Godisable Jacob, Weezy Mie, Vika Glitter, MART PRODUCTION).
