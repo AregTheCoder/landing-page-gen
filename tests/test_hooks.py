@@ -148,3 +148,7 @@ def test_check_result_takes_the_assigned_section_not_a_stray_path(tmp_path):
     transcript.write_text("\n".join(lines[0:1] + lines[2:] * 2) + "\n")
     out = run_hook("check_result.py", payload, run)
     assert "S03" in out["reason"]
+    # a transcript holding several assignments is the manager's, not one worker's: whose stop this is cannot be told, so no block
+    lines.append(json.dumps({"prompt": f"Section S09. Work only inside `{run}/sections/S09/`. Read `brief.md` first."}))
+    transcript.write_text("\n".join(lines) + "\n")
+    assert run_hook("check_result.py", payload, run) is None

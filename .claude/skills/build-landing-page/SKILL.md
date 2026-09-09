@@ -20,7 +20,7 @@ worker must return).
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:`, `> style:`, `> attrs:` and `> text:` lines. Slots with
+   blocks and `> annotation:`, `> style:`, `> attrs:`, `> text:` and `> device:` lines. Slots with
    role `ui-screenshot`, `icon` or `decorative` are kept from source, and so
    is any slot whose family's **Template** line says `kept-from-source`
    (link-grid thumbnails resolve there); list them in the report with the
@@ -71,11 +71,33 @@ worker must return).
    "Manager decisions". A slot whose family allows text but whose section
    gives nothing to say gets `none`, not an invented phrase.
 6. A `> annotation:` still reading TODO: one sentence of subject and
-   composition from this section's copy, one finish. For `gallery-*`
+   composition from this section's copy, one finish; when step 7 gives the
+   slot a device that is a compose variant, one clause per panel of that
+   variant (thumbnails included, each with its own ground). For `gallery-*`
    classes the subject fills the frame (80 to 100 % of the tile height,
    edge to edge) on the ground the family's **Grid** line names; margin and
    centring language belongs to callout panels only (live-2's gallery came
    out pale and under-filled from "centred, generous margin, off-white").
+7. A `> device:` still reading TODO is decided after step 2's `similar` has
+   written the examples and before the brief. It names what the picture
+   demonstrates, the family names how it looks. Read the H2 and body for the
+   cue: reference, style reference, lock, feed it -> `reference-thumbs`;
+   icon, set, system, kit, matching -> `icon-set`; how it works, examples,
+   every format -> `two-up`; preferred, compared, vs, leading models, "% of
+   the time" -> `model-picker`; logo, brand mark, sign, packaging, app icon
+   -> `applied-mockup`; nothing -> `none`. Then open each example image once
+   and name the device it carries; when the copy allows it, the examples'
+   device wins (live-3's hero examples showed two reference thumbnails and
+   nobody was asked to look). Write `> device: <id>: <claim>` back into
+   `skeleton.md` (the claim in one clause, e.g. "references in, style-locked
+   output out") and list it under "Manager decisions". `reference-thumbs`,
+   `model-picker` and `two-up` are `lp-compose` variants of `dark-composite`
+   (`uv run lp-compose --describe dark-composite` lists their panels);
+   `icon-set` and `applied-mockup` are written into the `photo` annotation
+   itself (a 3x3 grid of matching icons; the mark on a sign) and use the
+   plain template. The model-picker list card carries blank rows and the
+   page's own model short name on the active row (`chrome: {list:
+   {active_text: "Recraft V4"}}`), never a competitor's name or mark.
 
 ## 2. Write one brief per section
 
@@ -85,8 +107,11 @@ For each section with slots, fill `brief-template.md` into
 - the page frontmatter's `page`, `brand`, `audience`, `defaults`, `budget`
   and `notes`; never `source:` or `snapshot:` (nothing in a brief needs the
   original's URL or path; `lp-inject` reads the snapshot from `slots.json`);
-- that H2 block verbatim (text, slots, annotations) and nothing from other
-  sections; strip `src:`, `local:` and `alt:` from its slot blocks;
+- that H2 block verbatim (text, slots, annotations, the `> device:` line)
+  and nothing from other sections; strip `src:`, `local:` and `alt:` from
+  its slot blocks; the `Device:` line under `## Style family` repeats the
+  id and claim and says whether it is a compose variant or an annotation;
+  the `## Slots to produce` table lists every panel of the variant;
 - the slot's `## <style>` block from `picsart-workflows/style-families.md`,
   verbatim, under `## Style family`, followed by its **Signature** line as a
   checklist (one item per attribute) that `resemblance` walks;
@@ -110,7 +135,8 @@ For each section with slots, fill `brief-template.md` into
 - the `## References` section from `corpus/references/<family>.yaml`: its
   `prompt_guidance` verbatim, the `search_terms`, and two `examples`
   entries whose `matches` fit this slot's class. This is where the photo's
-  look comes from; the section copy only gives the subject matter;
+  look comes from; the section copy gives the subject matter and, through
+  `> device:`, what the panels demonstrate together;
 - `<run>/shared-context.md` if it exists (see step 3);
 - the budget line (advisory per-slot cap from the frontmatter) and the
   output contract.
@@ -179,7 +205,8 @@ has already looked. Keep your own context for coordination.
 2. `uv run lp-inject <run>`.
 3. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
    measured against the original it replaced (family, ground, coverage,
-   saturation) with flags keyed to the rubric. Paste its per-slot table and
+   saturation, and for composites the `pictures` count, a device proxy that
+   raises `[fit]` flags) with flags keyed to the rubric. Paste its per-slot table and
    flags into `report.md` under "Against the original" **before** opening
    any original yourself; then look, and write what the numbers missed.
 4. `picsart_credits` again. Finish `report.md`: per section pattern, steps,

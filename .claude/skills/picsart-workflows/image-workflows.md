@@ -48,22 +48,28 @@ as a Series; fallback families take the pattern of the family they are
 briefed as. The worker generates the photographic panels only;
 `lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
 <family>` prints the panels and the `aspectRatio` to generate each at.
-1. one `picsart_generate` per distinct panel named under **Panels**,
-   `count: 1`, at its ratio, hero in `imageUrls` when anchored; the prompt
-   describes the photograph only → gate: photo content only, subject inside
-   the panel's crop, nothing from the family's **Never** list.
+1. one `picsart_generate` per distinct panel that `uv run lp-compose
+   --describe <family>` lists for the brief's `Device:` variant (the plain
+   template when the device is `none` or annotation-carried), `count: 1`, at
+   its ratio, hero in `imageUrls` when anchored; thumbnails (`thumb-a`,
+   `thumb-b`) on `gemini-3.1-flash-image`; the prompt describes the
+   photograph only → gate: photo content only, subject inside the panel's
+   crop, nothing from the family's **Never** list, thumbnails in the same
+   finish and palette as the main panel.
 2. before/after pairs are one photo: the after is `picsart_enhance`,
    `picsart_change_bg` or `picsart_remove_bg` (free; placed `fit: contain`)
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
-3. write `compose-<slot>.yaml` (family, `size` = the slot's natural size,
-   one image per panel with an anchor; `omit:` any chrome item whose text
-   the model rendered instead, e.g. `omit: [headline]` for
-   `template-mockup`), run `uv run lp-compose compose-<slot>.yaml --out
-   steps/<slot>-<step>-1.png`, `Read` it → gate: panels unstretched, each
-   subject inside its panel, chrome legible at 480 px, chrome text only
-   the family's labels, no string appearing twice (once in the panel, once
-   as chrome). Costs nothing, no preflight.
+3. write `compose-<slot>.yaml` (family, `variant:` exactly as the brief's
+   `Device:` names it when the family draws that device, `size` = the
+   slot's natural size, one image per panel with an anchor; `omit:` any
+   chrome item whose text the model rendered instead, e.g. `omit:
+   [headline]` for `template-mockup`), run `uv run lp-compose
+   compose-<slot>.yaml --out steps/<slot>-<step>-1.png`, `Read` it → gate:
+   panels unstretched, each subject inside its panel, the device's panels
+   and chrome present (thumbnails, list card, second panel), chrome legible
+   at 480 px, chrome text only the family's labels, no string appearing
+   twice (once in the panel, once as chrome). Costs nothing, no preflight.
 
 ## Prompt rules
 
@@ -95,7 +101,9 @@ briefed as. The worker generates the photographic panels only;
 
 ## Gate checklist per step
 
-fit to brief and annotation; matches the family's **Panels** line and the
+fit to brief and annotation, and the composite carries the brief's
+`Device:` (its panels and chrome, not a single panel where the device names
+more); matches the family's **Panels** line and the
 example finish; nothing from the family's **Never** list; every string
 from `## Text in image` present, spelt and cased exactly, readable at the
 slot size, and no other text; no logo or watermark; no artefacts; subject

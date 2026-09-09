@@ -31,6 +31,7 @@ the final asset's `resemblance` score walks it):
 Ground variant: <default | light | black | ...> (see the block's **Ground** line).
 Stands in for: <true family, when a fallback block is used; else omit this line>
 Series: <none | Sxx-m1..m6: one set, series pattern, consistency scored across the set>
+Device: <id>: <claim> (<compose spec: variant: <id> | carried by the photo annotation>)
 
 You generate only the panels listed under **Panels**, one prompt per panel,
 each at the panel's generate ratio (`uv run lp-compose --describe <style>`).
@@ -55,7 +56,7 @@ this string is omitted in the compose spec (`omit: [headline]`).
 
 | slot | kind | role | size | natural | class | family | panels |
 |---|---|---|---|---|---|---|---|
-| <Sxx-m1> | image | creative | 480x480 | 720x720 | callout-1:1 | <family[/ground]> | <A photo 3:4> |
+| <Sxx-m1> | image | creative | 480x480 | 720x720 | callout-1:1 | <family[/ground]> | <A photo 3:4; every panel of the device's variant, e.g. photo 3:4, thumb-a 1:1, thumb-b 1:1> |
 
 Kept from source (do not produce): <list or "none">
 
@@ -71,7 +72,8 @@ verbatim, the `photography.search_terms` list, and two `examples` entries
 (url, creator) whose `matches` names this slot's class>
 
 Build the photo prompt from this genre; the section copy gives the subject
-matter, never the look.
+matter and, through `Device:`, what the panels demonstrate together, never
+the look.
 
 ## Shared context
 

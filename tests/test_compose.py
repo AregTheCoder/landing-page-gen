@@ -69,6 +69,53 @@ def test_every_family_composes_at_slot_size(tmp_path, family):
         assert im.mode == "RGBA" and im.getpixel((0, 0))[3] == 0, "transparent ground keeps its rounded corners"
 
 
+def variant_spec(tmp_path, variant, **extra):
+    path = write_spec(tmp_path, "dark-composite", variant=variant, **extra)
+    spec = yaml.safe_load(path.read_text())
+    names = cli.template("dark-composite", variant)["panels"]
+    Image.new("RGB", (400, 400), "green").save(tmp_path / "steps" / "c.png")
+    spec["panels"] = {name: {"image": f"steps/{'abc'[i % 3]}.png"} for i, name in enumerate(names)}
+    path.write_text(yaml.safe_dump(spec))
+    return path
+
+
+def test_dark_composite_device_variants(tmp_path):
+    layout = cli.resolve(cli.load_spec(variant_spec(tmp_path, "reference-thumbs")))
+    im, drawn = cli.compose(layout)
+    assert set(layout["panels"]) == {"photo", "thumb-a", "thumb-b"} and set(drawn) == {"tile-1", "chip"}
+    for name, colour in (("photo", (255, 0, 0)), ("thumb-a", (0, 0, 255)), ("thumb-b", (0, 128, 0))):
+        x0, y0, x1, y1 = out_rect(layout, name)
+        assert im.getpixel((int((x0 + x1) / 2), int((y0 + y1) / 2))) == colour, name
+    assert out_rect(layout, "thumb-a")[2] < out_rect(layout, "photo")[0], "thumbnails sit in the left column"
+    layout = cli.resolve(cli.load_spec(variant_spec(tmp_path, "model-picker", chrome={"list": {"active_text": "Recraft V4"}})))
+    im, drawn = cli.compose(layout)
+    assert set(drawn) == {"list"} and set(layout["panels"]) == {"photo", "thumb-a", "thumb-b"}
+    x0, y0, x1, y1 = (int(v) for v in drawn["list"])
+    px = [im.getpixel((x, y)) for x in range(x0 + 3, x1 - 3, 5) for y in range(y0 + 3, y1 - 3, 5)]
+    assert sum(max(p) < 70 for p in px) > len(px) * 0.6, "dark list card"
+    assert any(min(p) > 230 for p in px), "a white check, disc or name on the active row"
+    layout = cli.resolve(cli.load_spec(variant_spec(tmp_path, "two-up")))
+    im, drawn = cli.compose(layout)
+    assert set(layout["panels"]) == {"photo", "photo-b"} and set(drawn) == {"tile-1"}
+    assert out_rect(layout, "photo")[2] < out_rect(layout, "photo-b")[0]
+    assert {nearest_ratio(*(lambda r: (r[2] - r[0], r[3] - r[1]))(p["rect"]))
+            for p in cli.template("dark-composite", "reference-thumbs")["panels"].values()} == {"3:4", "1:1"}
+    with pytest.raises(SystemExit, match="dark-composite has no variant 'nope'; one of reference-thumbs, model-picker, two-up"):
+        cli.load_spec(rewrite(write_spec(tmp_path, "dark-composite"), variant="nope"))
+    with pytest.raises(SystemExit, match="panel 'thumb-a' has no image"):
+        cli.load_spec(rewrite(write_spec(tmp_path, "dark-composite"), variant="reference-thumbs"))
+    with pytest.raises(SystemExit, match="has no variant 'two-up'"):
+        cli.load_spec(rewrite(write_spec(tmp_path, "before-after"), variant="two-up"))
+    assert cli.main(["--describe", "dark-composite"]) == 0
+
+
+def test_describe_names_the_variants(capsys):
+    cli.main(["--describe", "dark-composite"])
+    out = capsys.readouterr().out
+    assert "variant reference-thumbs" in out and "panel thumb-a" in out and "list (list-panel, text)" in out
+    assert "variant two-up" in out and "panel photo-b" in out and "generate at 9:16" in out
+
+
 def test_omit_and_override(tmp_path):
     spec = write_spec(tmp_path, omit=["tile"], chrome={"before-pill": {"text": "Original", "style": "solid-light"}})
     _, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))

@@ -45,6 +45,29 @@ def test_every_paperwork_problem_is_named(tmp_path):
     assert "not on disk" in text and "without a gate observation" in text
 
 
+def test_a_failed_step_rerun_with_the_same_prompt_counts_its_ledger_rows_once(tmp_path):
+    run = make_run(tmp_path)
+    wf = run / "sections" / "S03" / "workflow.yaml"
+    wf.write_text(wf.read_text().replace("steps:\n", "steps:\n  - id: 0\n    tool: picsart_generate\n    model: gemini-3-pro-image\n"
+                                         f"    params: {{prompt: '{PROMPT}', aspectRatio: '4:3', count: 1}}\n    quoted_credits: 5\n"
+                                         "    gate: 'one cup, centred'\n    status: failed\n    note: 'failure_space_limit_reached, not charged'\n"))
+    assert precheck.check(run, "S03") == [], "the ledger holds one paid row for this prompt and the record says 5"
+
+
+def test_compose_variant_must_match_the_brief_device(tmp_path):
+    run = make_run(tmp_path)
+    sec = run / "sections" / "S03"
+    (sec / "brief.md").write_text("# Brief\n\n> device: reference-thumbs: references in, style-locked output out\n")
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\npanels: {photo: {image: steps/S03-m1-1-1.png}}\n")
+    assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant none but brief device reference-thumbs"]
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nvariant: reference-thumbs\nsize: 720x720\n")
+    assert precheck.check(run, "S03") == []
+    (sec / "brief.md").write_text("# Brief\n\n> device: icon-set: one style, many items\n")
+    assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant reference-thumbs but brief device icon-set"]
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
+    assert precheck.check(run, "S03") == [], "icon-set is carried by the annotation, so the plain template is right"
+
+
 def test_cli_exit_codes(tmp_path, capsys):
     run = make_run(tmp_path)
     assert precheck.main([str(run), "S03"]) == 0 and "clean record" in capsys.readouterr().out

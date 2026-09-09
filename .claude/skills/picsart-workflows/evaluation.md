@@ -7,7 +7,7 @@ self-eval, then reviewer), and on the workflow itself (reviewer).
 
 | Key | Question |
 |---|---|
-| fit | Does it illustrate this section's text and annotation, not a generic version of it? |
+| fit | Does the picture demonstrate the section's `> device:` claim (references in, one style across a set, two outputs, chosen among models, the output applied), so a reader of the H2 sees it proved, and not a generic version of the copy? A `none` composite where the line names another device is a 2. |
 | resemblance | Do the panels match the brief's Style family and its ground variant (panel count, ground, chrome, subject, framing, safe area, nothing from its Never list), and does the composite sit beside the family's examples for this slot class? A still life or perspective render for a flat composite family, or a black composite briefed as `/light`, is a 1. |
 | consistency | Same palette, light and finish as the hero / shared context, and across every member when the brief names a Series? |
 | clean | No logos, watermarks or UI, and no text beyond the brief's `## Text in image` strings? Chrome drawn by `lp-compose` is clean only when its labels are the family's (Before, After, x2, 4K, a size string) and none duplicates a model-rendered string. (a failure here is a hard reject) |
@@ -16,8 +16,8 @@ self-eval, then reviewer), and on the workflow itself (reviewer).
 | geometry | Right aspect for the slot; enough resolution; subject survives the slot's crop? Composites at the slot's natural size with unstretched panels? |
 | legibility | If HTML text overlays this slot, is the area behind it quiet enough? |
 
-Accept: no score below 3, `clean` = 5 and `text` = 5. Otherwise rework with
-the lowest key named first.
+Accept: no score below 3, `fit` >= 4, `clean` = 5 and `text` = 5. Otherwise
+rework with the lowest key named first.
 
 ## Workflow rubric, score 1–5 each
 

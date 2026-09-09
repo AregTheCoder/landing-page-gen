@@ -121,6 +121,7 @@ def test_skeleton_and_slots_json(tmp_path):
     assert "```slot\nid: S01-m1\nkind: image\nrole: creative\nsize: 300x450\nsize_class: tile\naspect: '2:3'\nnatural: 600x900\n" in text
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
+    assert text.count("> device: TODO none | reference-thumbs") == 5, "one device line per generated-role slot, after text"
     assert text.count("> attrs: none (asset not measured") == 5, "an unmeasured slot says so instead of hiding it"
     slots = json.loads((out.parent / "slots.json").read_text())
     assert slots["slots"]["S01-m1"]["selector"] == '[data-lp="S01-m1"]'

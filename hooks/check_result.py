@@ -40,9 +40,11 @@ def section_of(text, run):
     """The worker's own section: the one named in its assignment sentence, else
     the section folder of this run that its transcript names most often (a
     worker writes many files there; a stray example path appears once)."""
-    m = ASSIGNMENT_RE.search(text)
-    if m:
-        return m.group(1)
+    assigned = set(ASSIGNMENT_RE.findall(text))
+    if len(assigned) == 1:
+        return assigned.pop()
+    if len(assigned) > 1:
+        return None  # the transcript holds every worker's assignment (trial-6: five spawns, every stop judged as S01); whose stop this is cannot be told, so do not block
     counts = {}
     for sid in SECTION_RE.findall(text):
         if (run / "sections" / sid).exists():

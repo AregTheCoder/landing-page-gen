@@ -312,6 +312,41 @@ def tool_pill(canvas, rect, text, icon_name, fnt):
     return (x0, y0, x1, y1)
 
 
+def list_panel(canvas, rect, rows, active, text, fnt, radius):
+    """The model-picker list card: a dark card with one row per entry, each a
+    neutral disc and a blank grey bar; the active row is lighter and carries
+    a white check and, when `text` is given, the page's own model name. No
+    other row ever carries a word: competitor names and marks stay out."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    w, h = x1 - x0, y1 - y0
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=(30, 30, 32, 255))
+    rh = h / max(1, rows)
+    pad = w * 0.07
+    for i in range(rows):
+        ry0, ry1 = y0 + rh * i, y0 + rh * (i + 1)
+        cy = (ry0 + ry1) / 2
+        is_active = i == active
+        if is_active:
+            d.rounded_rectangle((x0 + pad * 0.4, ry0 + rh * 0.08, x1 - pad * 0.4, ry1 - rh * 0.08), radius=radius * 0.5, fill=(54, 54, 58, 255))
+        dia = rh * 0.38
+        d.ellipse((x0 + pad, cy - dia / 2, x0 + pad + dia, cy + dia / 2), fill=WHITE if is_active else (120, 120, 126, 255))
+        bx0 = x0 + pad + dia * 1.6
+        if is_active and text:
+            d.text((bx0, cy), text, font=fnt, fill=WHITE, anchor="lm")
+        else:
+            bh = rh * 0.18
+            bw = (w - pad * 2 - dia * 1.6) * (0.55 if not is_active else 0.5)
+            d.rounded_rectangle((bx0, cy - bh / 2, bx0 + bw, cy + bh / 2), radius=bh / 2,
+                                fill=WHITE if is_active else (96, 96, 102, 255))
+        if is_active:
+            ck = rh * 0.42
+            icon(layer, (x1 - pad - ck, cy - ck / 2, x1 - pad, cy + ck / 2), "check")
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
 def tilted_stack(im, angle, scale=0.8, back=(236, 236, 238, 255)):
     """The composed card scaled down and rotated over a plain card rotated the
     other way, on a transparent ground the page shows through."""

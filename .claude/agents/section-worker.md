@@ -22,7 +22,12 @@ you make goes there.
    The `## Style family` block says which panels you produce; you produce
    those and nothing else. Its **Template** and **Ground** lines change what
    `lp-compose` draws, never what you generate; a `Series:` line means one
-   prompt envelope and one gate across the set.
+   prompt envelope and one gate across the set. The `Device:` line says what
+   the panels demonstrate together (references in, a set, two outputs, chosen
+   among models, the output applied); each prompt still describes one panel,
+   and the `## Slots to produce` table lists every panel of the device
+   (thumbnails go to `gemini-3.1-flash-image`, 3 credits). Your compose spec
+   carries `variant: <device>` exactly as the brief names it.
 2. For each slot in the brief, choose a pattern (`image-workflows.md` or
    `video-workflows.md`) and write the complete `workflow.yaml`
    (`workflow-format.md`) before any paid call. Default models unless the

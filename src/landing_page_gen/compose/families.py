@@ -90,6 +90,46 @@ FAMILIES = {
             {"id": "tile-2", "kind": "tile", "rect": (1220, 420, 1600, 800), "icon": "crop", "fill": (28, 28, 30)},
             {"id": "chip", "kind": "label", "rect": (1220, 1220, 1600, 1600), "text": "4K"},
         ],
+        # Devices (`variant:` in the spec; `> device:` in the skeleton): the panel
+        # arrangement that tells the section's story. A key a variant omits is
+        # inherited from the family. Geometry measured on the Recraft originals
+        # (ai-models--recraft-v4-styles-pro-vector S01 86f73fc9, S06 3d65a628,
+        # S07 a3502ec3), column on the left as on every Recraft card.
+        "variants": {
+            # references in, style-locked output out: mark tile, chip, two same-style thumbnails left, the output right
+            "reference-thumbs": {
+                "panels": {
+                    "photo": {"rect": (410, 0, 1600, 1600)},
+                    "thumb-a": {"rect": (0, 816, 375, 1192)},
+                    "thumb-b": {"rect": (0, 1224, 375, 1600)},
+                },
+                "chrome": [
+                    {"id": "tile-1", "kind": "tile", "rect": (0, 0, 375, 375), "icon": "sparkle", "fill": (28, 28, 30)},
+                    {"id": "chip", "kind": "label", "rect": (0, 420, 375, 560), "text": "4K"},
+                ],
+            },
+            # chosen over other models: a dark list card (blank rows, one highlighted) above two thumbnails, the output right
+            "model-picker": {
+                "panels": {
+                    "photo": {"rect": (700, 0, 1600, 1600)},
+                    "thumb-a": {"rect": (0, 667, 667, 1120)},
+                    "thumb-b": {"rect": (0, 1147, 667, 1600)},
+                },
+                "chrome": [
+                    {"id": "list", "kind": "list-panel", "rect": (0, 72, 667, 576), "rows": 4, "active": 1, "active_text": ""},
+                ],
+            },
+            # two outputs of one style side by side: panel-a top left with the mark tile under it, panel-b right
+            "two-up": {
+                "panels": {
+                    "photo": {"rect": (0, 0, 667, 933)},
+                    "photo-b": {"rect": (720, 0, 1600, 1600)},
+                },
+                "chrome": [
+                    {"id": "tile-1", "kind": "tile", "rect": (0, 966, 667, 1600), "icon": "sparkle", "fill": (28, 28, 30)},
+                ],
+            },
+        },
     },
     # A photo filling the slot with the tool's dark adjustment panel laid over
     # its lower right (hsl-color S03) and, on heroes, a round tool badge with a

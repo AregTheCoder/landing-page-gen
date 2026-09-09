@@ -44,3 +44,35 @@ def test_flags_fire_on_a_pale_small_tile_and_stay_quiet_on_a_faithful_photo(tmp_
     assert "\n| S03-m1 |" in text and "\n| S09-m1 |" in text and "S09-m2" not in text, "one table row per scored slot"
     assert "## Means" in text and "\n| S03 |" in text and "\n| page |" in text
     assert "## Flags" in text and text.index("## Flags") < text.index("S03-m1 (gallery): subject coverage")
+
+
+def card(path, panels):
+    """A black 720 px card with coloured panels at the given (x0, y0, x1, y1) fractions and one dark-grey tile."""
+    im = Image.new("RGB", (720, 720), (0, 0, 0))
+    for i, (x0, y0, x1, y1) in enumerate(panels):
+        im.paste(Image.new("RGB", (int((x1 - x0) * 720), int((y1 - y0) * 720)), [(200, 40, 60), (40, 80, 220), (240, 170, 30)][i % 3]),
+                 (int(x0 * 720), int(y0 * 720)))
+    im.paste(Image.new("RGB", (160, 160), (28, 28, 30)), (0, 0))
+    im.save(path)
+
+
+def test_pictures_counts_panels_and_flags_a_composite_that_lost_its_device(tmp_path):
+    run, orig = tmp_path / "run", tmp_path / "orig"
+    gen = run / "dist" / "media" / "gen"
+    gen.mkdir(parents=True)
+    orig.mkdir()
+    card(orig / "s01.png", [(0.26, 0, 1, 1), (0, 0.51, 0.23, 0.74), (0, 0.77, 0.23, 1)])  # main + two thumbnails
+    card(gen / "S01-m1.png", [(0, 0, 0.74, 1)])                                            # main only
+    card(gen / "S04-m1.png", [(0, 0, 0.74, 1)])
+    assert bench.pictures(orig / "s01.png") == 3 and bench.pictures(gen / "S01-m1.png") == 1, "tiles and gutters do not count"
+    (run / "sections" / "S01").mkdir(parents=True)
+    (run / "sections" / "S01" / "compose-S01-m1.yaml").write_text("family: dark-composite\n")
+    slots = {"page": "p", "sections": {"S01": {"type": "hero"}, "S04": {"type": "feature-callout"}}, "slots": {
+        "S01-m1": {"src": "https://cdn/a.avif", "local": str(orig / "s01.png"), "size": [480, 480]},
+        "S04-m1": {"src": "https://cdn/b.avif", "local": str(orig / "s01.png"), "size": [480, 480]}}}
+    (run / "slots.json").write_text(json.dumps(slots))
+    result = bench.bench(run, tmp_path / "none.yaml")
+    assert any(f.startswith("S01-m1 (hero): pictures 3 -> 1") and f.endswith("[fit]") for f in result["flags"])
+    assert not [f for f in result["flags"] if "pictures" in f and f.startswith("S04")], "no compose spec, so the proxy stays quiet"
+    bench.write_md(result, run / "benchmark.md")
+    assert "| pictures |" in (run / "benchmark.md").read_text() and "| 3 / 1 |" in (run / "benchmark.md").read_text()

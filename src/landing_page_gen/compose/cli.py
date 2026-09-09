@@ -4,7 +4,8 @@ and the worker's panel PNGs.
     uv run lp-compose compose-S07-m1.yaml --out steps/S07-m1-3-1.png
     uv run lp-compose --describe before-after
 
-The spec names the family, the output size (the slot's natural size) and one
+The spec names the family, the output size (the slot's natural size), an
+optional `variant:` (a device of the family, e.g. `reference-thumbs`) and one
 image per panel; geometry and chrome come from `families.py`. Costs nothing,
 runs offline."""
 
@@ -21,7 +22,7 @@ from .families import FAMILIES, REF, aspect_label, nearest_ratio
 SS = 2  # supersample: Pillow draws shapes without antialiasing
 CHECKER_CELL = 100
 FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96,
-           "panel-title": 44, "panel-label": 34, "tool-pill": 64}  # at REF
+           "panel-title": 44, "panel-label": 34, "tool-pill": 64, "list-row": 48}  # at REF
 
 
 def parse_size(s):
@@ -32,6 +33,18 @@ def parse_size(s):
         sys.exit(f"lp-compose: size must be WxH, got {s!r}")
 
 
+def template(fam, variant=None):
+    """The family dict, or the family with one of its device variants laid
+    over it (a key the variant omits is inherited)."""
+    f = FAMILIES[fam]
+    if not variant:
+        return f
+    variants = f.get("variants") or {}
+    if variant not in variants:
+        sys.exit(f"lp-compose: {fam} has no variant {variant!r}; one of {', '.join(variants) or 'none'}")
+    return {**{k: v for k, v in f.items() if k != "variants"}, **variants[variant]}
+
+
 def load_spec(path):
     path = Path(path)
     if not path.exists():
@@ -40,12 +53,13 @@ def load_spec(path):
     fam = spec.get("family")
     if fam not in FAMILIES:
         sys.exit(f"lp-compose: unknown family {fam!r}; one of {', '.join(FAMILIES)}")
+    family = template(fam, spec.get("variant"))
     w, h = parse_size(spec.get("size"))
-    aspects = FAMILIES[fam].get("aspects") or (FAMILIES[fam]["aspect"],)
+    aspects = family.get("aspects") or (family["aspect"],)
     if not any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in aspects):
         sys.exit(f"lp-compose: size {w}x{h} is not {' or '.join(f'{a}:{b}' for a, b in aspects)} like {fam}")
     panels = spec.get("panels") or {}
-    for name in FAMILIES[fam]["panels"]:
+    for name in family["panels"]:
         img = (panels.get(name) or {}).get("image")
         if not img:
             sys.exit(f"lp-compose: panel {name!r} has no image")
@@ -58,7 +72,7 @@ def load_spec(path):
 def resolve(spec):
     """Scale the family to the spec size (supersampled), merge chrome
     overrides by id, drop omitted items."""
-    family = FAMILIES[spec["family"]]
+    family = template(spec["family"], spec.get("variant"))
     w, h = spec["_size"]
     s = w / REF * SS
     rect = lambda r: tuple(round(v * s) for v in r)  # noqa: E731
@@ -129,6 +143,9 @@ def compose(layout):
         elif k == "tool-pill":
             box = draw.tool_pill(canvas, it["rect"], it.get("text", ""), it.get("icon", "wheel"),
                                  draw.font(FONT_PX["tool-pill"] * s, 700))
+        elif k == "list-panel":
+            box = draw.list_panel(canvas, it["rect"], it.get("rows", 4), it.get("active", 0), it.get("active_text", ""),
+                                  draw.font(FONT_PX["list-row"] * s, 700), r)
         else:
             sys.exit(f"lp-compose: unknown chrome kind {k!r}")
         drawn[it["id"]] = tuple(v / SS for v in box)
@@ -147,22 +164,31 @@ def describe(fam):
     g = f["ground"]
     ground = "transparent" if g.get("fill") is None and "gradient" not in g else ("gradient" if "gradient" in g else f"rgb{g['fill']}")
     aspects = " or ".join(f"{a}:{b}" for a, b in (f.get("aspects") or (f["aspect"],)))
-    lines = [f"{fam}: aspect {aspects}, ground {ground}, geometry at {REF} px"]
-    for name, p in f["panels"].items():
-        if p["rect"] is None:
-            lines.append(f"  panel {name}: fills the slot, generate at the slot's ratio ({aspects}), fit {p.get('fit', 'cover')}")
-            continue
-        x0, y0, x1, y1 = p["rect"]
-        w, h = x1 - x0, y1 - y0
-        extra = f", under {p['under']}" if p.get("under") else ""
-        lines.append(f"  panel {name}: {w}x{h} at ({x0},{y0}), aspect {aspect_label(w, h)}, "
-                     f"generate at {nearest_ratio(w, h)}, fit {p.get('fit', 'cover')}{extra}")
-    text_kinds = {"pill", "label", "headline", "adjust-panel", "tool-pill"}
-    lines.append("  chrome: " + ", ".join(
-        f"{c['id']} ({c['kind']}{', text' if c['kind'] in text_kinds or c.get('label') else ''})" for c in f["chrome"]))
+    text_kinds = {"pill", "label", "headline", "adjust-panel", "tool-pill", "list-panel"}
+
+    def geometry(t, indent="  "):
+        out = []
+        for name, p in t["panels"].items():
+            if p["rect"] is None:
+                out.append(f"{indent}panel {name}: fills the slot, generate at the slot's ratio ({aspects}), fit {p.get('fit', 'cover')}")
+                continue
+            x0, y0, x1, y1 = p["rect"]
+            w, h = x1 - x0, y1 - y0
+            extra = f", under {p['under']}" if p.get("under") else ""
+            out.append(f"{indent}panel {name}: {w}x{h} at ({x0},{y0}), aspect {aspect_label(w, h)}, "
+                       f"generate at {nearest_ratio(w, h)}, fit {p.get('fit', 'cover')}{extra}")
+        out.append(f"{indent}chrome: " + ", ".join(
+            f"{c['id']} ({c['kind']}{', text' if c['kind'] in text_kinds or c.get('label') or c.get('active_text') else ''})"
+            for c in t["chrome"]))
+        return out
+
+    lines = [f"{fam}: aspect {aspects}, ground {ground}, geometry at {REF} px"] + geometry(f)
     lines.append("  chrome marked text carries a label; omit an item (`omit: [id]`) when the model renders its string")
     if f.get("aspects"):
         lines.append("  `ground: tilted` in the spec stacks the card over a plain one at 10 degrees; `tilt: <deg>` sets the angle")
+    for name in f.get("variants") or {}:
+        lines.append(f"  variant {name} (`variant: {name}` in the spec; the brief's `> device:`):")
+        lines += geometry(template(fam, name), indent="    ")
     return "\n".join(lines)
 
 

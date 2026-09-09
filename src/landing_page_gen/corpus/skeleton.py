@@ -88,6 +88,8 @@ def render_skeleton(page, sections):
                 lines.append(f"> style: {style or 'TODO one of ' + ' | '.join(db.STYLES)}")
                 lines.append(f"> attrs: {attrs_line(at)}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
+                lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup, "
+                             "then a colon and the claim this picture demonstrates")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 

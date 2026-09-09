@@ -23,6 +23,13 @@ writing one `review-N.md` per section. You never generate. Read
    family` block (panels, Never list), then compare side by side with the
    examples: framing, density, finish. For a Series open every member
    before scoring. Check the shared context (hero) for consistency.
+   Before writing scores, write two clauses under Notes: the device the
+   example images carry (thumbnails beside the output, a set, two panels, a
+   list card, the output applied) and whether the asset carries the brief's
+   `Device:`; when the family draws that device as a variant,
+   `compose-<slot>.yaml` must say `variant: <id>`. A template the brief named
+   wrongly is a `fit` defect addressed to the manager ("change device to
+   reference-thumbs"), not a note.
 3. Score the workflow: pattern fit for the slot and its source media, every
    step justified, gates with real observations, preflight before each paid
    step, `credits.spent` equal to this slot's rows in `<run>/ledger.jsonl`
@@ -44,5 +51,8 @@ writing one `review-N.md` per section. You never generate. Read
   automatic rework; so is `text` below 5 (a string missing, misspelt,
   wrongly cased, in the wrong panel, or duplicated by chrome). Read every
   rendered word at 100 % before scoring.
+- `fit` below 4 is a rework: the asset does not demonstrate the `Device:`
+  claim (live-3 shipped single panels where the originals showed reference
+  thumbnails, a model picker and two outputs, with `fit` 5 everywhere).
 - Prefer one precise change over a list of five vague ones.
 - Never write anything except `review-N.md` in the section folder.

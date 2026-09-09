@@ -38,6 +38,17 @@ a URL); motion rules live in `video-workflows.md`.
 Reference geometry is at 1600 px square; a composite is rendered at the
 slot's natural size and `lp-inject` scales it to the slot.
 
+A slot's `> device:` line (`<id>: <claim>`) names what the picture
+demonstrates, orthogonal to the family, which names how it looks: `none`,
+`reference-thumbs` (references in, style-locked output out), `icon-set` (one
+style, many items), `two-up` (two outputs of one style), `model-picker`
+(chosen over other models), `applied-mockup` (the output on a real object).
+A family's **Grid** line lists the devices it draws as `lp-compose`
+variants (`variant:` in the compose spec); the others are carried by the
+panel's annotation. The manager decides the device from the copy's cue words
+and the example images (`build-landing-page` step 1.7); `fit` is scored
+against its claim.
+
 ## Vocabulary and constants
 
 - **ground**: the slot's background: black `#000`/`#111`, white, light grey
@@ -132,13 +143,13 @@ them `full-bleed` and lost the tool panel in every slot).
 **Slots:** callout-1:1 (n=…), callout-1:1-video (n=…), hero-1:1 (n=…).
 **Signature:** ground=black or light-grey; layout=column-main or split; chrome=tile, chip; finish=photo; text=labels-only; ui_mockup=none (n=…).
 **Ground:** black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…). The measured ground in the slot's `> attrs:` line wins over the row's `/light` when it says black (the Recraft model pages are black cards on ai-models).
-**Grid:** 1:1 (480): one `photo` panel 1180x1600 on the left, a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom, gutter 40; 16:9 (hero): photo two thirds wide, the tile column on the right, not templated, brief heroes of this look as `full-bleed`.
-**Template:** lp-compose: dark-composite (1:1). The `/light` ground needs a `ground:` override in the compose spec that does not exist yet; until then brief `/light` slots as the black default and say so in the report.
-**Chrome (lp-compose):** near-black tiles (`#1c1c1e`, a step lighter than the card so their edges read) with white line icons (sparkle, crop), one dark chip with a short white label. The chip text is per page: the resolution on tool pages (4K, 2K, 1080p), the output format on vector pages (SVG); set it in the compose spec with `chrome: {chip: {text: "SVG"}}`.
-**Panels (worker):** A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border.
+**Grid:** 1:1 (480): one `photo` panel 1180x1600 on the left, a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom, gutter 40; 16:9 (hero): photo two thirds wide, the tile column on the right, not templated, brief heroes of this look as `full-bleed`. Device variants (`variant:` in the compose spec, geometry from the Recraft originals, column on the left): `reference-thumbs`: mark tile 375x375, chip 375x140 and two thumbnails 375x376 in the left column, `photo` 1190x1600 on the right (recraft heroes and "capabilities" callouts); `model-picker`: a dark list card 667x504 (four blank rows, one highlighted) above two thumbnails 667x453, `photo` 900x1600 on the right; `two-up`: `photo` 667x933 top left with the mark tile under it, `photo-b` 880x1600 on the right. `icon-set` (a 3x3 grid of matching icons) and `applied-mockup` are written into the `photo` annotation on the plain template.
+**Template:** lp-compose: dark-composite (1:1; variants reference-thumbs, model-picker, two-up). The `/light` ground needs a `ground:` override in the compose spec that does not exist yet; until then brief `/light` slots as the black default and say so in the report.
+**Chrome (lp-compose):** near-black tiles (`#1c1c1e`, a step lighter than the card so their edges read) with white line icons (sparkle, crop), one dark chip with a short white label. The chip text is per page: the resolution on tool pages (4K, 2K, 1080p), the output format on vector pages (SVG); set it in the compose spec with `chrome: {chip: {text: "SVG"}}`. The `model-picker` list card: blank grey rows with neutral discs, the active row lighter with a white check and, optionally, the page's own model short name (`chrome: {list: {active_text: "Recraft V4"}}`).
+**Panels (worker):** A `photo` (generate 3:4; 9:16 under `model-picker`): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border. Under `reference-thumbs` and `model-picker` also `thumb-a` and `thumb-b` (generate 1:1 and 4:3 respectively, `gemini-3.1-flash-image`): two smaller pictures in the same finish and palette as `photo` with different subjects, the references the copy says the model locks onto or the other outputs it was chosen among. Under `two-up` also `photo-b` (generate 9:16): a second output of the same style on its own ground.
 **Palette:** photo colours natural and saturated; chrome is black and white only.
 **Text:** chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless `> text:` names a string (rare: a product's own printed name).
-**Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos.
+**Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos; competitor model names or marks in the list card.
 **Examples:** f746795b (ai-models--seedream-4 S06-m1; on 24 ai-models pages), 4eeca13c (ai-models--recraft-v4-styles S07-m1), 0794e437 (compare-models--imagen-4-5-fast-vs-flux-2-pro S06-m1).
 **References:** corpus/references/dark-composite.yaml (9 examples; Marlon Schmeiski, Jonatan Galvis, Element Apothec, Shiny Diamond).
 
