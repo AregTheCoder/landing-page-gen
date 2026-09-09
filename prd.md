@@ -197,3 +197,25 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
 - Every run ends with `lp-bench`: generated vs original per slot (family,
   ground, coverage, saturation) with rubric-keyed flags, written before anyone
   opens an original. (runs/live-2, 38 flags on 16 slots)
+- A composite's chrome must be visible on its ground: `dark-composite` tiles
+  are `#1c1c1e` on the black card, never the card's own black, or only the
+  glyphs show. Check a composite at 100 % for chrome edges, not just the
+  panel. (runs/live-3 S01/S04/S05, review 1)
+- Grounds are assigned per slot, for composites as for gallery tiles: a shared
+  context that lists eight colours and assigns none yields four cards on one
+  cobalt. (runs/live-3 S01/S05/S06/S07, review 1)
+- After two crop-wording retries the lever is the pose or the subject, not
+  more wording: the third S03-m4 call gained 0.6 points of fill and added
+  three artefacts. (runs/live-3 S03, review 2)
+- A brand mark on a prop is fixed with the targeted-edit pattern
+  (`picsart-qwen-image-edit`, 4 credits, "remove every printed letter ...
+  change nothing else"), not with another generate that gambles on a new
+  spot; name every prop class in the edit prompt (pencils, brushes, loose
+  pencils). (runs/live-3 S09-m3, rounds 2-3)
+- A reviewer spawn gets about four sections in 30 turns only when told to
+  budget one Read per asset and skip examples already scored; without that it
+  can spend all 30 turns reading and write nothing. (runs/live-3 review 1 B)
+- The bench's coverage metric counts width as well as height: originals that
+  cut the figure at the frame edge score higher than whole figures at full
+  height; brief galleries "cropped by the frame" when the originals are.
+  (runs/live-3 S03, benchmark)

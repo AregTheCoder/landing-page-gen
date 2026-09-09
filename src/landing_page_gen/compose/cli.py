@@ -98,7 +98,8 @@ def compose(layout):
         if k == "card":
             continue
         if k == "tile":
-            box = draw.tile(canvas, it["rect"], it["icon"], r)
+            fill = tuple(it["fill"]) + (255,) if it.get("fill") else (0, 0, 0, 255)
+            box = draw.tile(canvas, it["rect"], it["icon"], r, fill=fill)
         elif k == "pill" and "rect" in it:
             box = draw.pill_in(canvas, it["rect"], it["text"], it["style"], draw.font(FONT_PX["button"] * s))
         elif k == "pill":

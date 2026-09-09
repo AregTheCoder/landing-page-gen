@@ -33,7 +33,13 @@ you make goes there.
 4. Execute step by step. After each step: `curl -sL <url> -o
    steps/<slot>-<step>-<n>.<ext>`, `Read` it once, score the gate
    (`evaluation.md`), record `outputs`, `passed`, `note`, `status`. A failed
-   gate means fix that step and re-run it, not the chain. Video steps use
+   gate means fix that step and re-run it, not the chain; the re-run is a
+   **new step** with the next id, its own prompt, quote, outputs and note,
+   and the failed step stays with `passed: false`. One step carries one paid
+   call: the manager's `precheck.py` matches ledger rows to steps by prompt
+   text, so three attempts folded into one step read as 15 credits against a
+   5-credit record and cost a fix round (live-2 S05, live-3 S05 and S08).
+   Video steps use
    `async: true` and `picsart_job_status`. `lp-compose` steps run as
    `uv run lp-compose compose-<slot>.yaml --out steps/...`; they cost
    nothing and need no preflight.

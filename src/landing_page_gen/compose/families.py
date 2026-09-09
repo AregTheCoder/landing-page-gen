@@ -85,8 +85,9 @@ FAMILIES = {
             "photo": {"rect": (0, 0, 1180, 1600)},
         },
         "chrome": [
-            {"id": "tile-1", "kind": "tile", "rect": (1220, 0, 1600, 380), "icon": "sparkle"},
-            {"id": "tile-2", "kind": "tile", "rect": (1220, 420, 1600, 800), "icon": "crop"},
+            # tiles a step lighter than the black card, else only the glyphs show (live-3 review of S01/S04/S05)
+            {"id": "tile-1", "kind": "tile", "rect": (1220, 0, 1600, 380), "icon": "sparkle", "fill": (28, 28, 30)},
+            {"id": "tile-2", "kind": "tile", "rect": (1220, 420, 1600, 800), "icon": "crop", "fill": (28, 28, 30)},
             {"id": "chip", "kind": "label", "rect": (1220, 1220, 1600, 1600), "text": "4K"},
         ],
     },
