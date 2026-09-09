@@ -24,7 +24,10 @@ IGNORE = {"script", "style", "svg", "template", "noscript", "iframe", "source"}
 RESPONSIVE_SHOW = re.compile(r"^(sm|md|lg|xl|2xl):(block|flex|grid|inline|inline-block|inline-flex|contents|table)$")
 RESPONSIVE_HIDE = re.compile(r"^(sm|md|lg|xl|2xl):hidden$")
 DECORATIVE = re.compile(r"\b(decorations?|badges?|logos?|icons?|avatars?|flags?)\b", re.I)
-UI_WORDS = re.compile(r"inside picsart|built-in tools?|how .* works|interface|editor|screenshot|dashboard|\bui\b", re.I)
+UI_WORDS = re.compile(r"inside picsart|built-in tools?|interface|editor|screenshot|dashboard|\bui\b", re.I)
+HOW_WORKS = re.compile(r"how .* works", re.I)  # a video's title; on an image it names the callout's topic
+CREATIVE_SECTIONS = ("hero", "feature-callout", "use-case-grid")
+CARD_PX = 300  # size_class's tile/card boundary: a box this wide is a card or panel whatever the alt says
 COMMON_ASPECTS = [(16, 9), (4, 3), (3, 2), (1, 1), (9, 16), (3, 4), (2, 3), (21, 9), (4, 5), (5, 4)]
 MAX_TEXTS_IN_MD = 80
 # The CMS components label their roots (data-testid, data-pulse-section-group);
@@ -209,18 +212,22 @@ def local_src(el):
 
 def media_role(el, kind, alt, w, h, section_type, root):
     """Roles are a first guess for the hand-edited skeleton. Order matters:
-    size before words (a 40px "logo" is an icon), thumbnail sections before
-    words (a tutorial card about logos is still a thumbnail)."""
+    size before words (a 40px "logo" is an icon, a 480px "logo" is the
+    creative), thumbnail sections before words (a tutorial card about logos
+    is still a thumbnail)."""
     if root.name in ("footer", "header"):
         return "icon"
     if w and h and max(w, h) <= 120:
         return "icon"
     if section_type in ("resource-links", "tutorial-grid", "link-grid"):
         return "thumbnail"
-    if DECORATIVE.search(alt or ""):
+    is_card = bool(w and w >= CARD_PX and section_type in CREATIVE_SECTIONS)
+    if DECORATIVE.search(alt or "") and not is_card:
         return "decorative"
     headline = (root.find(HEADINGS).get_text(" ", strip=True) if root.find(HEADINGS) else "")
-    if UI_WORDS.search(alt or "") or (kind == "video" and (UI_WORDS.search(headline) or section_type == "how-it-works")):
+    if UI_WORDS.search(alt or "") or (kind == "video" and (
+            HOW_WORKS.search(alt or "") or HOW_WORKS.search(headline) or UI_WORDS.search(headline)
+            or section_type == "how-it-works")):
         return "ui-screenshot"
     return "creative"
 

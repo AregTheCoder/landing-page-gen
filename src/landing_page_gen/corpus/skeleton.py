@@ -2,9 +2,10 @@
 
 skeleton.md is what the manager skill parses: YAML frontmatter, one
 `## Sxx type` block per section with every text node as `- tN tag: text`,
-one fenced `slot` block per media node, and `> annotation:`, `> style:` and `> text:` lines
-per generated-role slot for the human to fill in. slots.json maps ids back to the snapshot stamps for
-lp-inject."""
+one fenced `slot` block per media node, and `> annotation:`, `> style:`, `> attrs:` and `> text:`
+lines per generated-role slot for the human to fill in (`> attrs:` says what the style rests on:
+the measured fields, whether chrome was ever answered, confidence and source). slots.json maps ids
+back to the snapshot stamps for lp-inject and carries style and attrs per slot."""
 
 import json
 from pathlib import Path
@@ -81,12 +82,25 @@ def render_skeleton(page, sections):
             if m["role"] in db.GENERATED_ROLES:
                 hint = f' (source alt: "{m["alt"]}")' if m["alt"] else ""
                 lines.append(f"> annotation: TODO what this {m['kind']} should show{hint}")
-                variant = json.loads(m["attrs"]).get("variant") if m["attrs"] else None
+                at = json.loads(m["attrs"]) if m["attrs"] else None
+                variant = at.get("variant") if at else None
                 style = f"{m['style']}/{variant}" if m["style"] and variant else m["style"]
                 lines.append(f"> style: {style or 'TODO one of ' + ' | '.join(db.STYLES)}")
+                lines.append(f"> attrs: {attrs_line(at)}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
+
+
+def attrs_line(at):
+    """What the slot's style rests on. `chrome=unanswered` means the family
+    came from the pixels alone and a chrome family is still possible."""
+    if not at:
+        return "none (asset not measured; run lp-corpus attrs)"
+    chrome = "+".join(sorted(at["chrome"] or [])) or "none" if "chrome" in at else "unanswered"
+    conf = at.get("confidence")
+    return (f"ground={at.get('ground')} layout={at.get('layout')} panels={at.get('panel_count')} chrome={chrome} "
+            f"confidence={'none' if conf is None else conf} source={at.get('source') or 'unknown'}")
 
 
 def slots_json(page, sections):
@@ -96,7 +110,8 @@ def slots_json(page, sections):
         "sections": {s["sid"]: {"type": s["type"], "selector": s["selector"]} for s, _, _ in sections},
         "slots": {
             m["slot_id"]: {"kind": m["kind"], "role": m["role"], "selector": m["selector"], "src": m["src"],
-                           "local": m["local_path"], "size": [m["width"], m["height"]], "aspect": m["aspect"]}
+                           "local": m["local_path"], "size": [m["width"], m["height"]], "aspect": m["aspect"],
+                           "style": m["style"], "attrs": json.loads(m["attrs"]) if m["attrs"] else None}
             for _, _, media in sections for m in media
         },
         "texts": {t["tid"]: {"tag": t["tag"], "selector": t["selector"]} for _, texts, _ in sections for t in texts},

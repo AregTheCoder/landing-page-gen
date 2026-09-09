@@ -98,9 +98,9 @@ Watermark in any style
 [button: Logos]
 [button: Signature]
 [button: Text]
-![image decorative 423x338: watermark with logo 1](media/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7-155c42ed.png "https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png")
-![image decorative 423x338: watermark with logo 2](media/f949eb25-200e-4645-8432-d2160727c6e0-23014d13.png "https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png")
-![image decorative 423x338: watermark with logo 3](media/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf-06ece0d5.png "https://pastatic.picsart.com/cms-pastatic/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf.png")
+![image creative 423x338: watermark with logo 1](media/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7-155c42ed.png "https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png")
+![image creative 423x338: watermark with logo 2](media/f949eb25-200e-4645-8432-d2160727c6e0-23014d13.png "https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png")
+![image creative 423x338: watermark with logo 3](media/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf-06ece0d5.png "https://pastatic.picsart.com/cms-pastatic/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf.png")
 
 ## S10 feature-callout
 

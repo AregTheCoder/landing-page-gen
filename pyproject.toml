@@ -18,6 +18,7 @@ dependencies = [
 [project.scripts]
 lp-corpus = "landing_page_gen.corpus.cli:main"
 lp-inject = "landing_page_gen.inject.cli:main"
+lp-bench = "landing_page_gen.inject.bench:main"
 lp-compose = "landing_page_gen.compose.cli:main"
 
 [build-system]

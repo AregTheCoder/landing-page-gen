@@ -21,6 +21,13 @@ Run: <run>. Work only inside this folder. Dry run: <yes|no>.
 <the `## <family>` block from picsart-workflows/style-families.md, verbatim;
 when its **Template** says `none; brief as X`, this is X's block>
 
+Signature checklist (the block's **Signature** line, one item per attribute;
+the final asset's `resemblance` score walks it):
+- [ ] ground=<...>
+- [ ] layout=<...>
+- [ ] chrome=<...>
+- [ ] finish=<...>
+
 Ground variant: <default | light | black | ...> (see the block's **Ground** line).
 Stands in for: <true family, when a fallback block is used; else omit this line>
 Series: <none | Sxx-m1..m6: one set, series pattern, consistency scored across the set>

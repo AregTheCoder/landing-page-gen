@@ -121,10 +121,25 @@ def test_skeleton_and_slots_json(tmp_path):
     assert "```slot\nid: S01-m1\nkind: image\nrole: creative\nsize: 300x450\nsize_class: tile\naspect: '2:3'\nnatural: 600x900\n" in text
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
+    assert text.count("> attrs: none (asset not measured") == 5, "an unmeasured slot says so instead of hiding it"
     slots = json.loads((out.parent / "slots.json").read_text())
     assert slots["slots"]["S01-m1"]["selector"] == '[data-lp="S01-m1"]'
+    assert slots["slots"]["S01-m1"]["style"] is None and slots["slots"]["S01-m1"]["attrs"] is None, "untagged slots say so"
     assert slots["texts"]["S01-t1"] == {"tag": "h1", "selector": '[data-lp-t="S01-t1"]'}
     assert slots["sections"]["S02"] == {"type": "feature-callout", "selector": '[data-lp-section="S02"]'}
+
+
+def test_media_role_size_beats_alt_words():
+    from bs4 import BeautifulSoup
+    root = BeautifulSoup("<section><h2>How Recraft works</h2></section>", "html.parser").section
+
+    def role(alt, w=480, kind="image", typ="feature-callout"):
+        return sectionize.media_role(None, kind, alt, w, w, typ, root)
+    assert role("How Recraft V4 works in Picsart") == "creative", "a 480 px image titled how-it-works is the callout's creative, not a screenshot"
+    assert role("", kind="video") == "ui-screenshot", "a video under a how-it-works headline is a product demo"
+    assert role("AI logo and brand kit") == "creative", "a card-sized image about logos is a creative"
+    assert role("First block decoration", w=194, typ="testimonial") == "decorative", "a small decoration outside a creative section stays decorative"
+    assert role("Picsart editor interface") == "ui-screenshot", "interface words on an image still mean a screenshot"
 
 
 def test_similar_returns_other_pages_heroes_with_media(tmp_path, monkeypatch):

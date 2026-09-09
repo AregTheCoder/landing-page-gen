@@ -180,3 +180,20 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
 - A Series worker that gates every member serially is the run's long pole;
   render two members, gate the envelope, then the rest in parallel calls.
   (runs/live-2 S03: 18 min of a 34 min run)
+- A corpus tag is only as good as its inputs: the skeleton's `> attrs:` line
+  says `chrome=unanswered` when the family came from the pixels alone, and a
+  pre-filled `> style:` on a slot class that lists chrome families is then the
+  manager's to decide from the slot-class row. (runs/live-2 S01/S04/S05/S07,
+  post-run audit)
+- Blindness is checked, not assumed: `--exclude-asset` takes one id per slot
+  of the whole page (the uuid prefix of `src`), briefs carry no `source:` or
+  `snapshot:`, and `blindcheck.py` must pass before a worker is spawned. In
+  live-1 and live-2 the exclusions were no-ops (single-scalar flag, wrong id)
+  and S09's examples were the page's own thumbnails. (runs/live-2, audit)
+- Card-sized images in hero, feature-callout and use-case-grid sections are
+  creatives whatever their alt says; "logo" and "how ... works" in an alt
+  demote only small images and videos. Two live-2 creatives were kept from
+  source as `decorative` and `ui-screenshot`. (runs/live-2 S06/S08)
+- Every run ends with `lp-bench`: generated vs original per slot (family,
+  ground, coverage, saturation) with rubric-keyed flags, written before anyone
+  opens an original. (runs/live-2, 38 flags on 16 slots)

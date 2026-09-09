@@ -131,10 +131,10 @@ them `full-bleed` and lost the tool panel in every slot).
 **Use:** feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
 **Slots:** callout-1:1 (n=…), callout-1:1-video (n=…), hero-1:1 (n=…).
 **Signature:** ground=black or light-grey; layout=column-main or split; chrome=tile, chip; finish=photo; text=labels-only; ui_mockup=none (n=…).
-**Ground:** black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…).
+**Ground:** black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…). The measured ground in the slot's `> attrs:` line wins over the row's `/light` when it says black (the Recraft model pages are black cards on ai-models).
 **Grid:** 1:1 (480): one `photo` panel 1180x1600 on the left, a 380-wide column on the right with two icon tiles stacked at the top and a dark "4K" chip at the bottom, gutter 40; 16:9 (hero): photo two thirds wide, the tile column on the right, not templated, brief heroes of this look as `full-bleed`.
 **Template:** lp-compose: dark-composite (1:1). The `/light` ground needs a `ground:` override in the compose spec that does not exist yet; until then brief `/light` slots as the black default and say so in the report.
-**Chrome (lp-compose):** black tiles with white line icons (sparkle, crop), one dark chip with a short white label (4K, 2K, 1080p).
+**Chrome (lp-compose):** black tiles with white line icons (sparkle, crop), one dark chip with a short white label. The chip text is per page: the resolution on tool pages (4K, 2K, 1080p), the output format on vector pages (SVG); set it in the compose spec with `chrome: {chip: {text: "SVG"}}`.
 **Panels (worker):** A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border.
 **Palette:** photo colours natural and saturated; chrome is black and white only.
 **Text:** chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless `> text:` names a string (rare: a product's own printed name).
@@ -267,7 +267,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Slots:** gallery-9:16 (n=…), hero-9:16 (n=…), hero-1:1 (n=…).
 **Signature:** ground=photo-full-bleed; aspect=9:16; layout=single; chrome=none or play-button; finish=photo; subject=person or scene (n=…).
 **Ground:** none (the frame fills the tile).
-**Grid:** 9:16 (196x348): one frame; 1:1 (ai-tool carousels): one frame; sets of 5 to 15 tiles share one grade.
+**Grid:** 9:16 (196x348): one frame; 1:1 (ai-tool carousels): one frame; sets of 5 to 15 tiles share one grade. Illustration-model galleries (Recraft, vector and "styles" pages) fill the tile the same way a frame does: the subject at 80 to 100 % of the tile height, edge to edge, on a saturated solid ground that changes per tile (red, cobalt, violet, pink), one illustration style across the set; "centred with margin" is callout-panel language and yields a pale, under-filled strip (runs/live-2 S03).
 **Template:** none (no chrome; the worker's PNG is the tile). Generated with the `series` pattern: one prompt envelope, one grade, the subject as the variable.
 **Chrome (lp-compose):** none; the play triangle some tiles carry marks a clip and is not drawn.
 **Panels (worker):** A the tile (generate 9:16): a cinematic frame, one subject, shallow depth, filmic grade (teal-orange, monochrome, golden hour), a 2.39 letterbox never; safe margin at top and bottom for the page's rounded corners.

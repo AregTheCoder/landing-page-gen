@@ -6484,6 +6484,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/022d6715-ad88-4abe-91e8-e23329dd
   n_pages: 1
   role: creative
   local: corpus/pages/aura/media/022d6715-ad88-4abe-91e8-e23329ddfa28-d80b4612.png
+https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S01-m1
+  type: hero
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/023d0eee-bcba-42b1-bac1-c62f533bbe73-bdd55f41.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/024b8aa7-f648-439c-b59b-869996f6c81d.webp:
   before_after: false
   source: measured
@@ -7670,6 +7688,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0dbc1ad5-0f34-41a9-b729-0c3da4c4
   n_pages: 1
   role: creative
   local: corpus/frames/0dbc1ad5-0f34-41a9-b729-0c3da4c45e51-c279bd54.png
+https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif:
+  ground: white
+  layout: column-main
+  panel_count: 6
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S07-m3
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/0e0b5f00-6ba6-4871-9487-69335076adf2-29ddf132.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/0e3305b9-c105-4297-8fd1-5ddf962200ea.webm:
   ground: photo-full-bleed
   layout: single
@@ -8836,6 +8872,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/18aa4780-fbdd-4673-9bdb-eb6ff9c9
   n_pages: 1
   role: creative
   local: corpus/pages/ai-retouch/media/18aa4780-fbdd-4673-9bdb-eb6ff9c9c81b-c1a977be.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S07-m2
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/18f65df9-9484-4b10-ba74-2e0e6e07be7e-ab615a23.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/19020849-d887-4a84-b316-7418e69871e6.png?type=webp&to=min&r=640:
   before_after: false
   source: measured
@@ -9470,6 +9524,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/1dc978f6-adb7-4837-b789-19c2d65e
   n_pages: 2
   role: thumbnail
   local: corpus/pages/image-tools/media/1dc978f6-adb7-4837-b789-19c2d65e9b71-3a15954a.webp
+https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S09-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/1dd368df-07cf-472d-943b-0d44cce42f6f-037919b2.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/1dfc156e-a78e-4980-be25-51ab9ff6e07e.webm:
   ground: white
   layout: single
@@ -15015,6 +15087,21 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4c0fad35-bfc0-47d6-803b-8bd4b317
   n_pages: 1
   role: creative
   local: corpus/pages/ai-models--gpt-image-1/media/4c0fad35-bfc0-47d6-803b-8bd4b317329f-4a003bb1.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif:
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S06-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/4c424512-5d0f-476d-83e0-f0a0823d1d6a-de8b7a53.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/4c4bdae9-f035-4576-9038-5b8e3e4d463b.webp?type=webp&to=min&r=400:
   ground: photo-full-bleed
   layout: single
@@ -16965,6 +17052,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5fb01b1e-3859-49ae-9616-ef1fb205
   n_pages: 1
   role: creative
   local: corpus/pages/compare-models--recraft-v4-vs-ideogram-3-0-flash/media/5fb01b1e-3859-49ae-9616-ef1fb20547a2-d6e2c495.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: face-editor
+  slot: S07-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/face-editor/media/5fc08095-c4ea-43ec-8ab5-1712bc50c538-d6f0eb82.webp
 https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4:
   ground: black
   layout: column-main
@@ -19616,6 +19721,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/76b0a464-9283-4acc-bce1-d35adf1c
   n_pages: 1
   role: creative
   local: corpus/pages/ai-models--nano-banana-2/media/76b0a464-9283-4acc-bce1-d35adf1c8664-7dcd1ba6.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif:
+  ground: white
+  layout: stacked
+  panel_count: 3
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S07-m1
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/7723e7b2-59a9-42d1-9416-fc50060b9dd5-db5de3c4.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/7760a5bf-6448-46c3-a2ef-23ef357be1ef.avif:
   ground: photo-full-bleed
   layout: single
@@ -25062,6 +25185,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ad530266-8664-4a0e-bab6-8a6315c7
   n_pages: 1
   role: creative
   local: corpus/pages/compare-models--nano-banana-2-vs-flux-2-pro/media/ad530266-8664-4a0e-bab6-8a6315c79dd9-98e756ea.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S05-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/ad88d71d-744b-45a2-890f-a1208db2daa8-bdde6e1d.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/ad9d863b-c78a-446a-b5a7-1916905cd740.webp:
   ground: photo-full-bleed
   layout: single
@@ -25567,6 +25708,27 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b2c56183-09ea-48d4-a3f8-26530b19
   n_pages: 1
   role: creative
   local: corpus/pages/design-localization/media/b2c56183-09ea-48d4-a3f8-26530b199200-bc06a6c9.webp
+https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif:
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  before_after: false
+  seam:
+  - 0.383
+  - 0.065
+  source: measured
+  at: '2026-09-09'
+  page: ai-design-generator
+  slot: S08-m4
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '16:10'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/ai-design-generator/media/b2d07389-f262-40f5-bb72-b3015d4b7b07-b4d2e459.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/b324b63e-c261-4275-9bd2-e577e27727dd.avif:
   ground: white
   layout: column-main
@@ -25783,6 +25945,27 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de271
   n_pages: 4
   role: thumbnail
   local: corpus/pages/ai-design-tools/media/b54783a7-b787-46b5-b1bd-492de2715ea0-ecd8f4e1.webp
+https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif:
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  before_after: false
+  seam:
+  - 0.371
+  - -0.593
+  source: measured
+  at: '2026-09-09'
+  page: ai-models--flux-kontext-max
+  slot: S07-m1
+  type: feature-callout
+  page_family: ai-models
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 6
+  n_pages: 6
+  role: creative
+  local: corpus/pages/ai-models--flux-kontext-max/media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/b55a2099-3a31-4052-8831-c6e45fa7c208.webm:
   ground: photo-full-bleed
   layout: single
@@ -28471,6 +28654,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/cd6962d3-9b7d-4bdc-81b1-4d4e2d35
   n_pages: 1
   role: creative
   local: corpus/pages/ai-models--nano-banana-2/media/cd6962d3-9b7d-4bdc-81b1-4d4e2d35e9b4-6ecb1411.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif:
+  ground: black
+  layout: column-main
+  panel_count: 6
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-logo-generator
+  slot: S08-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 3
+  n_pages: 3
+  role: creative
+  local: corpus/pages/ai-logo-generator/media/cd6ee760-0788-4923-8ed3-ea7399f47c6a-15d95320.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/cddfb909-b6d5-4aea-95c2-c01ae03c88a3.avif:
   ground: photo-full-bleed
   layout: single
@@ -31084,6 +31285,24 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c98
   n_pages: 1
   role: creative
   local: corpus/pages/comic-book-generator/media/e51eac79-2c44-41ba-80d3-8d219c980eaf-34229a0c.webp
+https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: brand-kit-generator
+  slot: S06-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/brand-kit-generator/media/e52e7df1-7a99-457c-82da-75c93cde7d92-8855ea4b.webp
 https://cdn-cms-uploads.picsart.com/cms-uploads/e531de78-41d6-481d-a043-d3d70044313e.avif:
   ground: photo-full-bleed
   layout: single
@@ -31851,6 +32070,27 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/edff67df-3cb2-4fde-a4ea-d694a2d0
   n_pages: 1
   role: creative
   local: corpus/pages/image-upscale/media/edff67df-3cb2-4fde-a4ea-d694a2d04cdf-66535119.avif
+https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif:
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  before_after: false
+  seam:
+  - 0.426
+  - -0.362
+  source: measured
+  at: '2026-09-09'
+  page: ai-design-generator
+  slot: S08-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/ai-design-generator/media/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1-f63e0d6e.avif
 https://cdn-cms-uploads.picsart.com/cms-uploads/ee36e3a1-27d8-4d97-80ce-05e1cab37db2.avif:
   ground: photo-full-bleed
   layout: split
@@ -39668,6 +39908,24 @@ https://pastatic.picsart.com/cms-pastatic/15aed5d8-3be3-4622-a770-c14176dfca99.p
   n_pages: 1
   role: thumbnail
   local: corpus/pages/add-shadow-to-image/media/15aed5d8-3be3-4622-a770-c14176dfca99-27bb1fe4.png
+https://pastatic.picsart.com/cms-pastatic/1602a6dd-d39b-4961-82f2-e6940c22a852.png:
+  ground: black
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S01-m1
+  type: hero
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/1602a6dd-d39b-4961-82f2-e6940c22a852-b48cc0dc.png
 https://pastatic.picsart.com/cms-pastatic/16252cf2-5300-4c10-9945-6f8ce9d1d99b.png:
   ground: white
   layout: single
@@ -40314,6 +40572,24 @@ https://pastatic.picsart.com/cms-pastatic/2a200c22-a3fc-4623-a321-a1c88dc9c29d.p
   n_pages: 2
   role: thumbnail
   local: corpus/pages/ai-background/media/2a200c22-a3fc-4623-a321-a1c88dc9c29d-0f663d76.png
+https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: background-tools
+  slot: S09-m1
+  type: feature-callout
+  page_family: hub
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/background-tools/media/2bb06d59-c4f3-4963-8ab5-26326e4bb8be-b8ab551c.png
 https://pastatic.picsart.com/cms-pastatic/2c7d11d9-8ab7-45c1-a997-8560e81da129.png:
   ground: white
   layout: single
@@ -40401,6 +40677,24 @@ https://pastatic.picsart.com/cms-pastatic/2df735f3-86dd-4001-8e1e-0c8af361aabd.p
   n_pages: 1
   role: creative
   local: corpus/pages/social-media-ad-maker/media/2df735f3-86dd-4001-8e1e-0c8af361aabd-410e8239.png
+https://pastatic.picsart.com/cms-pastatic/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf.png:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: watermark-maker
+  slot: S09-m3
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/watermark-maker/media/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf-06ece0d5.png
 https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.png:
   ground: photo-full-bleed
   layout: single
@@ -40987,6 +41281,24 @@ https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.p
   n_pages: 1
   role: thumbnail
   local: corpus/pages/draw/media/3d6dc29e-f572-4926-8c78-29199699ddb8-195040ef.png
+https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: brand-identity-generator
+  slot: S08-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/brand-identity-generator/media/3e1bccb3-5085-46eb-9a9f-b75314180d8e-68685ae7.png
 https://pastatic.picsart.com/cms-pastatic/3f1d367d-063d-4620-8ea2-3c32b4a5a868.png:
   ground: black
   layout: single
@@ -42143,6 +42455,24 @@ https://pastatic.picsart.com/cms-pastatic/5d64241c-8999-4485-96ed-5b9693c9e717.p
   n_pages: 1
   role: creative
   local: corpus/pages/scene-maker/media/5d64241c-8999-4485-96ed-5b9693c9e717-f39b5e98.png
+https://pastatic.picsart.com/cms-pastatic/5f3c7799-67ea-436a-8680-be451591f670.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S09-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/5f3c7799-67ea-436a-8680-be451591f670-ab484b6f.png
 https://pastatic.picsart.com/cms-pastatic/60cf4283-ebab-4a67-b121-2bc6df15d348.png:
   ground: photo-full-bleed
   layout: single
@@ -42719,6 +43049,24 @@ https://pastatic.picsart.com/cms-pastatic/6d822292-03a9-476a-8e61-e97a2aa717d1.p
   n_pages: 5
   role: thumbnail
   local: corpus/pages/motivation-poster-maker/media/6d822292-03a9-476a-8e61-e97a2aa717d1-08fbe163.png
+https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png:
+  ground: white
+  layout: two-up
+  panel_count: 2
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: brand-identity-generator
+  slot: S08-m2
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/brand-identity-generator/media/6e05cdb5-7265-40b2-b982-f887be69bc28-6b01ed26.png
 https://pastatic.picsart.com/cms-pastatic/6f0a64c9-15fb-4039-b245-ce50611180b1.png?type=webp&to=min&r=-1:
   ground: white
   layout: column-main
@@ -43008,6 +43356,24 @@ https://pastatic.picsart.com/cms-pastatic/79fc64ff-8a3b-43a4-9537-c3bb5d4a37a5.p
   n_pages: 1
   role: creative
   local: corpus/pages/book-cover-maker/media/79fc64ff-8a3b-43a4-9537-c3bb5d4a37a5-d20a1a3d.png
+https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: packaging-design
+  slot: S05-m1
+  type: feature-callout
+  page_family: other
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/packaging-design/media/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3-5e8703f4.png
 https://pastatic.picsart.com/cms-pastatic/7aa7b343-04dd-4788-91d8-0da7414da3c6.png:
   before_after: false
   source: measured
@@ -43107,6 +43473,24 @@ https://pastatic.picsart.com/cms-pastatic/7d7f1d9d-d7c1-4a7f-b36b-4e079ef2333a.p
   n_pages: 1
   role: creative
   local: corpus/pages/timeline-maker/media/7d7f1d9d-d7c1-4a7f-b36b-4e079ef2333a-360bf194.png
+https://pastatic.picsart.com/cms-pastatic/7e048761-e836-4799-8cc7-64defe051952.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S08-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/7e048761-e836-4799-8cc7-64defe051952-ccaf658e.png
 https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png:
   ground: white
   layout: stacked
@@ -43405,6 +43789,24 @@ https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.p
   n_pages: 1
   role: creative
   local: corpus/pages/background-tools/media/84c3fe25-9684-43e9-9fd2-19b067ad2823-1bbd7f72.png
+https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S06-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/8561e8a4-0ada-43ce-ab06-8cad4d99fa16-ff6c69c2.png
 https://pastatic.picsart.com/cms-pastatic/85936259-8e69-412a-acd2-8cbffbcef86f.png:
   ground: black
   layout: single
@@ -43894,6 +44296,24 @@ https://pastatic.picsart.com/cms-pastatic/9451d801-0759-4e1c-96b3-b6fc67d366a0.p
   n_pages: 4
   role: thumbnail
   local: corpus/pages/ai-image-enhancer/media/9451d801-0759-4e1c-96b3-b6fc67d366a0-2cf1b915.png
+https://pastatic.picsart.com/cms-pastatic/946febf9-c714-4f6b-ba0d-56497504060b.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S05-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/946febf9-c714-4f6b-ba0d-56497504060b-b4ad492c.png
 https://pastatic.picsart.com/cms-pastatic/94c728ed-7372-4733-b266-afd6fc7d15c4.png?type=webp&to=min&r=640:
   ground: white
   layout: single
@@ -45055,6 +45475,24 @@ https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.p
   n_pages: 1
   role: creative
   local: corpus/pages/ai-assets-generator/media/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157-973b070e.png
+https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: watermark-maker
+  slot: S09-m1
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/watermark-maker/media/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7-155c42ed.png
 https://pastatic.picsart.com/cms-pastatic/b55e12d1-00d3-4880-bbff-68ee8ca0ab6a.png:
   ground: white
   layout: column-main
@@ -45621,6 +46059,24 @@ https://pastatic.picsart.com/cms-pastatic/bf7f9b65-05a4-44dd-b8f9-667ce57f7b51.p
   n_pages: 1
   role: thumbnail
   local: corpus/pages/hd-photo-converter/media/bf7f9b65-05a4-44dd-b8f9-667ce57f7b51-e5160fbd.png
+https://pastatic.picsart.com/cms-pastatic/bff59f10-2680-4b5c-a2cb-6867645d9a7a.png:
+  ground: white
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: png-logo-maker
+  slot: S07-m1
+  type: feature-callout
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/png-logo-maker/media/bff59f10-2680-4b5c-a2cb-6867645d9a7a-281a8843.png
 https://pastatic.picsart.com/cms-pastatic/c0b2446c-f278-4acd-8f29-149a05986cf8.png:
   ground: white
   layout: single
@@ -47436,6 +47892,24 @@ https://pastatic.picsart.com/cms-pastatic/f7efbd54-e297-400a-8b82-a7171c71ca4f.p
   n_pages: 1
   role: creative
   local: corpus/pages/ai-sticker-maker/media/f7efbd54-e297-400a-8b82-a7171c71ca4f-d8310c41.png
+https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png:
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: watermark-maker
+  slot: S09-m2
+  type: use-case-grid
+  page_family: tool
+  kind: image
+  size: card
+  aspect_class: '5:4'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/watermark-maker/media/f949eb25-200e-4645-8432-d2160727c6e0-23014d13.png
 https://pastatic.picsart.com/cms-pastatic/fc4bbe40-5b69-4c57-9984-eeb4168e63a1.png:
   before_after: false
   source: measured
@@ -47665,6 +48139,24 @@ https://pcdn.picsart.com/cms-uploads/0c2ef133-f6d6-476b-8c14-c7e3e8c19bbe.avif:
   n_pages: 1
   role: creative
   local: corpus/pages/ai-models--recraft-v4-styles/media/0c2ef133-f6d6-476b-8c14-c7e3e8c19bbe-41f0d637.avif
+https://pcdn.picsart.com/cms-uploads/0cc719d2-f26f-48c4-9e14-c86b932867aa.avif:
+  ground: black
+  layout: single
+  panel_count: 1
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-models--recraft-v4-styles-pro
+  slot: S06-m1
+  type: feature-callout
+  page_family: ai-models
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/ai-models--recraft-v4-styles-pro/media/0cc719d2-f26f-48c4-9e14-c86b932867aa-22afbb70.avif
 https://pcdn.picsart.com/cms-uploads/1242b128-c3a9-4584-aaab-927869a1cdb2.avif:
   ground: photo-full-bleed
   layout: single
@@ -47881,6 +48373,27 @@ https://pcdn.picsart.com/cms-uploads/3c68581b-07b8-4ffa-be96-d94476ed3c8d.avif:
   n_pages: 1
   role: creative
   local: corpus/pages/comic-book-generator/media/3c68581b-07b8-4ffa-be96-d94476ed3c8d-786b28ed.avif
+https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif:
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  before_after: false
+  seam:
+  - 0.434
+  - -0.008
+  source: measured
+  at: '2026-09-09'
+  page: ai-models--recraft-v4-styles-pro-vector
+  slot: S06-m1
+  type: feature-callout
+  page_family: ai-models
+  kind: image
+  size: card
+  aspect_class: '1:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/ai-models--recraft-v4-styles-pro-vector/media/3d65a628-c41d-4d5d-813c-0c7b2c8820dc-7d7a935a.avif
 https://pcdn.picsart.com/cms-uploads/408e7006-9b72-4c2c-960f-6d2df875555e.webp:
   ground: white
   layout: column-main
@@ -47919,6 +48432,21 @@ https://pcdn.picsart.com/cms-uploads/41c41e72-7fd3-4d70-b0a7-2d518f93f7fd.avif:
   n_pages: 1
   role: creative
   local: corpus/pages/ai-models--recraft-v4-styles-pro/media/41c41e72-7fd3-4d70-b0a7-2d518f93f7fd-0c204373.avif
+https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif:
+  before_after: false
+  source: measured
+  at: '2026-09-09'
+  page: ai-models--recraft-v4-styles-pro-vector
+  slot: S08-m1
+  type: use-case-grid
+  page_family: ai-models
+  kind: image
+  size: panel
+  aspect_class: '2:1'
+  n_rows: 1
+  n_pages: 1
+  role: creative
+  local: corpus/pages/ai-models--recraft-v4-styles-pro-vector/media/4494bd31-94da-4f87-8f02-c8dd0c468d59-d70d1690.avif
 https://pcdn.picsart.com/cms-uploads/46f1dd18-6a1a-4185-bf72-0ea173efc88d.avif:
   ground: photo-full-bleed
   layout: single

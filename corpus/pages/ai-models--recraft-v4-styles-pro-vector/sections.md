@@ -47,7 +47,7 @@ Give Recraft V4 Styles Pro Vector up to five style references and choose how clo
 ONE STYLE, EVERY FORMAT
 ### On-style vectors, wherever you design
 Inside Picsart, Recraft V4 Styles Pro Vector runs in the AI Playground , where you drop in your style references, add a prompt, and generate on-style SVG vectors in one place. And you can reach it whichever way you work: on the web, in the desktop app, or built straight into your own projects via CLI, MCP, REST API, and SDK - with no third-party API keys or separate subscriptions to manage. Explore the rest of the family, from Recraft V4 Styles to Recraft V4 .
-![image ui-screenshot 480x480: How Recraft V4 Styles Pro Vector works in Picsart](media/3d65a628-c41d-4d5d-813c-0c7b2c8820dc-7d7a935a.avif "https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif")
+![image creative 480x480: How Recraft V4 Styles Pro Vector works in Picsart](media/3d65a628-c41d-4d5d-813c-0c7b2c8820dc-7d7a935a.avif "https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif")
 
 ## S07 feature-callout
 
@@ -63,7 +63,7 @@ What you can create with Recraft V4 Styles Pro Vector
 [button: Build matching icon sets]
 [button: Create print-ready vector art]
 Lock a single visual style and generate crisp SVG logos and brand marks that scale cleanly from app icon to storefront signage.
-![image decorative 879x418: Recraft V4 Styles Pro Vector logo and brand mark design](media/4494bd31-94da-4f87-8f02-c8dd0c468d59-d70d1690.avif "https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif")
+![image creative 879x418: Recraft V4 Styles Pro Vector logo and brand mark design](media/4494bd31-94da-4f87-8f02-c8dd0c468d59-d70d1690.avif "https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif")
 
 ## S09 tutorial-grid
 

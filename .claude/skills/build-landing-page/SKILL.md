@@ -20,15 +20,24 @@ worker must return).
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:`, `> style:` and `> text:` lines. Slots with
+   blocks and `> annotation:`, `> style:`, `> attrs:` and `> text:` lines. Slots with
    role `ui-screenshot`, `icon` or `decorative` are kept from source, and so
    is any slot whose family's **Template** line says `kept-from-source`
    (link-grid thumbnails resolve there); list them in the report with the
    family name and skip. Sections with no remaining slots get no worker.
    Video slots take the family of their poster frame and are briefed as
    that family's main panel; compose is skipped for video.
-4. A `> style:` still reading TODO is yours to decide, from the
-   `## Slot classes` table in `picsart-workflows/style-families.md`:
+4. A `> style:` is yours to decide when it reads TODO, and also when its
+   `> attrs:` line says `chrome=unanswered` and the slot's row in the
+   `## Slot classes` table lists any chrome family (dark-composite,
+   before-after, crop-frame, cutout-checkerboard, template-mockup,
+   prompt-card, vs-two-up, mockup-card, model-card, panel-overlay): a
+   pre-filled tag whose chrome was never labelled is a measurement, not a
+   label (the measurer reads a black card with a picture panel as
+   `photo-full-bleed`, and sibling pages of one CMS block share the same
+   unanswered measurement, so their agreement proves nothing). Rows whose
+   families are all chrome-free (gallery-9:16, tutorial-3:2) keep the tag.
+   Resolve from the table in `picsart-workflows/style-families.md`:
    1. the slot's class is `<type>-<aspect class>[-video]` (`callout-1:1`,
       `gallery-9:16`, `thumb-5:4`; `aspect_class` in the slot block when it
       differs from `aspect`);
@@ -43,7 +52,8 @@ worker must return).
       family's **Template** says `none; brief as X`, the skeleton keeps the
       true family and the brief carries X's block with a `Stands in for:`
       line; a `TBD` row is briefed as `full-bleed`.
-   List every choice in the report under "Manager decisions".
+   List every choice in the report under "Manager decisions"; an overridden
+   tag as `tag overridden: <old> -> <new> (chrome unanswered)`.
 5. A `> text:` still reading TODO is yours to decide, after the family. Read
    the family's **Text** line: if it says chrome text only, write
    `> text: none`. Otherwise derive the picture text from this section's
@@ -60,29 +70,43 @@ worker must return).
    Write the line back into `skeleton.md` and list every string under
    "Manager decisions". A slot whose family allows text but whose section
    gives nothing to say gets `none`, not an invented phrase.
+6. A `> annotation:` still reading TODO: one sentence of subject and
+   composition from this section's copy, one finish. For `gallery-*`
+   classes the subject fills the frame (80 to 100 % of the tile height,
+   edge to edge) on the ground the family's **Grid** line names; margin and
+   centring language belongs to callout panels only (live-2's gallery came
+   out pale and under-filled from "centred, generous margin, off-white").
 
 ## 2. Write one brief per section
 
 For each section with slots, fill `brief-template.md` into
 `<run>/sections/<Sxx>/brief.md`:
 
-- the page frontmatter verbatim;
+- the page frontmatter's `page`, `brand`, `audience`, `defaults`, `budget`
+  and `notes`; never `source:` or `snapshot:` (nothing in a brief needs the
+  original's URL or path; `lp-inject` reads the snapshot from `slots.json`);
 - that H2 block verbatim (text, slots, annotations) and nothing from other
-  sections;
+  sections; strip `src:`, `local:` and `alt:` from its slot blocks;
 - the slot's `## <style>` block from `picsart-workflows/style-families.md`,
-  verbatim, under `## Style family`;
+  verbatim, under `## Style family`, followed by its **Signature** line as a
+  checklist (one item per attribute) that `resemblance` walks;
 - the `## Text in image` table: one row per string from the slot's
   `> text:` line with its role (headline or call-to-action), the panel that
   carries it and where; or the single word `none`;
 - 2 example sections of the same type, same family first, one image each:
   `uv run lp-corpus similar --type <type> --style <true family[/ground]>
   --query "<headline and body>" --exclude <frontmatter page>
-  --exclude-asset <8-hex id of the slot's source src> -k 2
+  --exclude-asset <id> [--exclude-asset <id> ...] -k 2
   --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus one
   480 px PNG each; video examples arrive as a still frame). A worker reads
   every image it is given, so two pictures that show the look beat twelve.
-  `--exclude-asset` keeps sibling pages that reuse the very same image out
-  of the examples; `--attr ground=black` narrows further;
+  `--exclude-asset` is repeatable: pass one per generated slot of the whole
+  page, the id being the first 8 hex of the uuid in the slot's `src` (what
+  `attrs.asset_id` and the Examples lines use), not the hash at the end of
+  `local:` (that is `sha1(url)`, and differs per CDN host). Blocks shared
+  site-wide (the tutorial grid) show this page's own images on other pages
+  and other section types, which is why every slot's id goes on every call;
+  `--attr ground=black` narrows further;
 - the `## References` section from `corpus/references/<family>.yaml`: its
   `prompt_guidance` verbatim, the `search_terms`, and two `examples`
   entries whose `matches` fit this slot's class. This is where the photo's
@@ -90,6 +114,13 @@ For each section with slots, fill `brief-template.md` into
 - `<run>/shared-context.md` if it exists (see step 3);
 - the budget line (advisory per-slot cap from the frontmatter) and the
   output contract.
+
+When every brief is written, run
+`uv run python .claude/skills/build-landing-page/blindcheck.py <run>`. It
+greps the briefs and example excerpts for the page's own asset ids and for
+`snapshot:`/`source:` pointers. A hit names the section: re-run `similar`
+with the id excluded or delete that example, and strip the line it names.
+No worker is spawned while it fails. Record the clean result in the report.
 
 ## 3. Shared context, before any worker
 
@@ -146,7 +177,12 @@ has already looked. Keep your own context for coordination.
    `workflow: sections/<Sxx>/workflow.yaml`), kept-from-source slots left
    untouched.
 2. `uv run lp-inject <run>`.
-3. `picsart_credits` again. Finish `report.md`: per section pattern, steps,
+3. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
+   measured against the original it replaced (family, ground, coverage,
+   saturation) with flags keyed to the rubric. Paste its per-slot table and
+   flags into `report.md` under "Against the original" **before** opening
+   any original yourself; then look, and write what the numbers missed.
+4. `picsart_credits` again. Finish `report.md`: per section pattern, steps,
    credits quoted vs spent (from `ledger.jsonl`), rounds, verdict; totals;
    kept-from-source and blocked slots; balance delta versus ledger sum; the
    "Agents" table (spawn, model, tokens, minutes) and the wall time from the

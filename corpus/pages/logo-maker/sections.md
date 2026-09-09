@@ -7,7 +7,7 @@
 ## Logo maker: Generate high-quality logos with AI
 Put together a polished and unique brand identity for your small business or side hustle with the Picsart AI logo generator. Just write your brand name, select a color set and style, or even upload a logo example, and let Picsart come up with high-quality logos in a matter of seconds. The logo maker will even effectively incorporate your brand name into the design for maximal brand recognition.
 Generate a logo
-![image decorative 480x480: Picsart AI logo generator](media/023d0eee-bcba-42b1-bac1-c62f533bbe73-bdd55f41.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif")
+![image creative 480x480: Picsart AI logo generator](media/023d0eee-bcba-42b1-bac1-c62f533bbe73-bdd55f41.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif")
 
 ## S02 link-grid
 
@@ -70,13 +70,13 @@ Use the Start creating button to get started.
 
 ### Craft unique logos at minimal cost and hassle with the logo generator
 Creating a logo for your side hustle or small business has never been easier! Generate recognizable and memorable logo designs by yourself without needing to hire a designer or become one yourself. Not sure how to describe your logo vision? Just upload an example logo to the AI logo generator to save even more time on prompting.
-![image decorative 480x480: Create logos with minimal cost](media/ad88d71d-744b-45a2-890f-a1208db2daa8-bdde6e1d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif")
+![image creative 480x480: Create logos with minimal cost](media/ad88d71d-744b-45a2-890f-a1208db2daa8-bdde6e1d.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif")
 
 ## S06 feature-callout
 
 ### Transform your brand identity in seconds
 Thanks to meticulously trained AI models, the Picsart AI logo maker is capable of generating logo designs for various types of businesses. Whether you are creating a logo for a small Etsy fashion shop, a homemade cookie brand, or a vet clinic, the AI draws upon a vast knowledge base to generate relevant results.
-![image decorative 480x480: Logo generator for all businesses](media/4c424512-5d0f-476d-83e0-f0a0823d1d6a-de8b7a53.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif")
+![image creative 480x480: Logo generator for all businesses](media/4c424512-5d0f-476d-83e0-f0a0823d1d6a-de8b7a53.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif")
 
 ## S07 use-case-grid
 
@@ -85,21 +85,21 @@ Generate AI logos for various industries
 [button: Startup]
 [button: Personal Brand]
 [button: Enterprise]
-![image decorative 423x333: AI-generated logos for small businesses 1](media/7723e7b2-59a9-42d1-9416-fc50060b9dd5-db5de3c4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif")
-![image decorative 423x333: AI-generated logos for small businesses 2](media/18f65df9-9484-4b10-ba74-2e0e6e07be7e-ab615a23.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif")
-![image decorative 423x333: AI-generated logos for small businesses 3](media/0e0b5f00-6ba6-4871-9487-69335076adf2-29ddf132.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif")
+![image creative 423x333: AI-generated logos for small businesses 1](media/7723e7b2-59a9-42d1-9416-fc50060b9dd5-db5de3c4.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif")
+![image creative 423x333: AI-generated logos for small businesses 2](media/18f65df9-9484-4b10-ba74-2e0e6e07be7e-ab615a23.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif")
+![image creative 423x333: AI-generated logos for small businesses 3](media/0e0b5f00-6ba6-4871-9487-69335076adf2-29ddf132.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif")
 
 ## S08 feature-callout
 
 ### Build a brand kit based on your AI logo
 Keep the creative momentum going by delegating your brand kit creation to the AI. Let Picsart build a cohesive brand identity by giving you a primary color palette, brand fonts, and logo variations. Not a fan of the colors or font selection? Use the initial version as an advanced starting point and easily tweak the kit so it matches your vision. Once this is done, you will be able to select templates that are automatically tailored to your brand kit.
-![image decorative 480x480: AI logo and brand kit](media/cd6ee760-0788-4923-8ed3-ea7399f47c6a-15d95320.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif")
+![image creative 480x480: AI logo and brand kit](media/cd6ee760-0788-4923-8ed3-ea7399f47c6a-15d95320.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif")
 
 ## S09 feature-callout
 
 ### Customize your logo with AI
 Take advantage of the AI-powered photo editor to effortlessly edit your AI logos. Create quick mockups and product photos with the text-to-image AI generator and insert your newly created logo. Need copy for those visuals too? Easily generate copy with the AI Writer . Or use the AI-powered object remover to quickly erase unwanted elements from your AI-generated logo with surgical accuracy.
-![image decorative 480x480: customize logo with AI](media/1dd368df-07cf-472d-943b-0d44cce42f6f-037919b2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif")
+![image creative 480x480: customize logo with AI](media/1dd368df-07cf-472d-943b-0d44cce42f6f-037919b2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif")
 
 ## S10 feature-list
 

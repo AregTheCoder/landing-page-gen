@@ -69,7 +69,7 @@ Open the editor and customize the canvas size as needed
 ### Craft the perfect logo with AI
 Give your brand a recognizable brand identity with minimal hassle. Use the Picsart AI logo maker to create custom logos from scratch and in seconds. All you have to do is just insert the brand’s name, select the appropriate industry and a color story, and the AI will create several variants for you to choose from. Use Picsart’s editing tools to customize its final appearance further and make it perfectly fit your packaging design.
 Design packaging now
-![image decorative 480x480: Craft the perfect logo with AI](media/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3-5e8703f4.png "https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png")
+![image creative 480x480: Craft the perfect logo with AI](media/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3-5e8703f4.png "https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png")
 
 ## S06 use-case-grid
 

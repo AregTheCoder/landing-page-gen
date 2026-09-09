@@ -127,7 +127,8 @@ def test_apply_survives_reindex_and_skeleton_shows_style(tmp_path):
     skeleton.write_skeleton(con, "comic-book-generator", out)
     text = out.read_text()
     assert text.count("> style:") == 5, "one style line per generated-role slot"
-    assert '> annotation: TODO what this image should show (source alt: "comic panel of a hero")\n> style: full-bleed\n> text: TODO' in text
+    assert ('> annotation: TODO what this image should show (source alt: "comic panel of a hero")\n> style: full-bleed\n'
+            '> attrs: none (asset not measured; run lp-corpus attrs)\n> text: TODO') in text
     assert "> style: TODO one of dark-composite | before-after | crop-frame" in text
 
 

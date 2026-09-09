@@ -75,7 +75,7 @@ Generate multiple design directions from a single prompt with multimodal generat
 
 ### How Reve works inside Picsart
 Reve is integrated into Picsart's AI Image Generator and AI Playground , giving creators direct access to Reve without external tools or complex API setups. Generate images, explore creative directions, and iterate on results — all from one platform.
-![image ui-screenshot 480x480: How Qwen Image works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
+![image creative 480x480: How Qwen Image works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S08 feature-callout
 

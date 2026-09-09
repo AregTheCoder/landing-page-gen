@@ -85,7 +85,7 @@ Clear prompts lead to better AI designs. Describe the mood, style, colors or aud
 Create anything with AI: Videos, images, logos, and more
 Build a brand that stands out
 Creating a logo doesn’t have to be complicated. You might be building something new or giving your brand a fresh look - either way, Picsart’s Logo Generator helps you craft a visual identity that captures your style. Just share a few ideas, and AI turns them into sleek, professional logos in seconds - ready to customize.
-![image decorative 591x591: ai design generator for logos](media/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1-f63e0d6e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif")
+![image creative 591x591: ai design generator for logos](media/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1-f63e0d6e.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif")
 Turn simple words into vivid visuals
 Some ideas are too good to stay in your head. Just type a description into the AI Image Generator , and watch it become a unique, high-quality image. It’s a quick way to create visuals for social posts, creative projects, campaigns, or anything in between.
 ![image creative 591x591: ai design generator for images](media/7258b3fb-3b40-4908-ae85-acaa441d258c-c0e30bb3.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/7258b3fb-3b40-4908-ae85-acaa441d258c.avif")
@@ -94,7 +94,7 @@ When still images aren’t enough, text-to-video comes in. Picsart’s AI Video 
 ![image creative 591x369: ](media/67d86043-206b-4e00-b42b-801f8c68e9fb-515849b2.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/67d86043-206b-4e00-b42b-801f8c68e9fb.avif")
 Show the world a new version of you
 Selfies meet creativity through the AI Avatar tool . Turn your photo into a stylized digital version of yourself - animated, artistic or anything in between. It’s a fun, expressive way to show personality across social profiles, game platforms or creative projects.
-![image decorative 591x369: ai design generator for avatars](media/b2d07389-f262-40f5-bb72-b3015d4b7b07-b4d2e459.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif")
+![image creative 591x369: ai design generator for avatars](media/b2d07389-f262-40f5-bb72-b3015d4b7b07-b4d2e459.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif")
 Jumpstart your design with AI
 Blank pages are overrated. Picsart’s AI templates give you smart, customizable layouts for posters, flyers, social posts, and more - ready in seconds. AI suggests designs that fit your needs, so you can tweak and finalize faster. It’s the quickest way to jump from idea to polished design without ever starting from scratch.
 ![image creative 591x369: ai templates](media/d092bcc1-f820-4084-8de1-41e82c478724-74bf6ffd.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif")

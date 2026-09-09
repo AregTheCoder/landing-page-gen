@@ -51,7 +51,7 @@ No logo? No problem. The Picsart Brand Kit Generator lets you build a complete b
 
 ### Make brand kit adherence a breeze
 Thanks to Picsart’s tailored templates, you won’t have to worry about content that is inconsistent with your brand identity . Right inside the brand kit creator, you’ll find a selection of brand templates that have been specifically adjusted to match your selected color palette. These are ready-to-go designs that can turn from a draft into finished content in a matter of minutes. A perfect way to save time and ensure consistent brand kit adherence across platforms.
-![image decorative 480x480: brand kit with colors combinations, fonts and logo](media/e52e7df1-7a99-457c-82da-75c93cde7d92-8855ea4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp")
+![image creative 480x480: brand kit with colors combinations, fonts and logo](media/e52e7df1-7a99-457c-82da-75c93cde7d92-8855ea4b.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp")
 
 ## S07 feature-callout
 

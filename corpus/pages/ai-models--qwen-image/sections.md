@@ -74,7 +74,7 @@ Generate multiple design directions from a single prompt with multimodal generat
 
 ### How Qwen Image works inside Picsart
 Picsart is integrating Qwen Image directly into its Flow and AI Playground with multimodal generation launching exclusively on Picsart as the first partner. Creators can generate design-quality images, explore multiple directions from a single prompt, and export in raster or vector formats all within one workflow. It works alongside Picsart tools enabling a complete design pipeline from concept exploration to production-ready assets.
-![image ui-screenshot 480x480: How Qwen Image works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
+![image creative 480x480: How Qwen Image works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S08 feature-callout
 

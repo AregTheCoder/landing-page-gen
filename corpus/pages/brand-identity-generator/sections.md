@@ -63,10 +63,10 @@ Why juggle a bunch of tools when you can do it all in one place? Easily access y
 Find all you need to create a brand identity in one place
 Logo templates
 Choose from a massive library of professionally designed logo templates that you can edit in just a few clicks. ready for quick customization. You can easily edit them to fit your brand’s style in just a few steps.
-![image decorative 591x591: logo templates](media/3e1bccb3-5085-46eb-9a9f-b75314180d8e-68685ae7.png "https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png")
+![image creative 591x591: logo templates](media/3e1bccb3-5085-46eb-9a9f-b75314180d8e-68685ae7.png "https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png")
 Logo generator
 Need a logo, fast? Let the AI logo generator do the heavy lifting and deliver a high-quality logo with minimal effort. The state-of-the-art AI will even masterfully incorporate your brand name into the design, and you can even upload logo examples to get similar designs.
-![image decorative 591x591: logo generator](media/6e05cdb5-7265-40b2-b982-f887be69bc28-6b01ed26.png "https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png")
+![image creative 591x591: logo generator](media/6e05cdb5-7265-40b2-b982-f887be69bc28-6b01ed26.png "https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png")
 Custom fonts and text styles
 Easily import your brand’s font or explore Picsart’s vast library of fonts and text styles. Whether you want something bold or subtle, you’ll find the perfect match that works perfectly with your branding. Want full control over how your text appears in your content? Adjust color, size, alignment, and bend with ease.
 ![image creative 591x369: custom fonts and text styles](media/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9-5794192a.png "https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.png")

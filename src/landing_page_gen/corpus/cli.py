@@ -64,7 +64,9 @@ def main(argv=None) -> int:
     sm.add_argument("--style", help="prefer sections whose media carry this style family, as family[/variant] (e.g. dark-composite/light)")
     sm.add_argument("--attr", action="append", default=[], metavar="KEY=VALUE",
                     help="prefer sections whose media attribute matches, e.g. ground=black (repeatable)")
-    sm.add_argument("--exclude-asset", help="skip sections showing this source asset (8-hex id or any part of its src)")
+    sm.add_argument("--exclude-asset", action="append", default=[], metavar="ID",
+                    help="skip sections showing this source asset: the 8-hex uuid prefix of its src (attrs.asset_id) "
+                         "or the 8-hex hash of its local file name; repeatable, one per slot of the page")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
 

@@ -99,7 +99,7 @@ Upgrade your e-commerce photography with a polished and professional look. Use t
 ### Remove the background from logos with ease
 Found the logo file you were looking for, but the background is getting in the way? Don’t fret. Just use Picsart to remove the background from logo files effortlessly. Thanks to the AI-powered automatic selection, it will only take a second, and your logo's intricate details will be preserved perfectly.
 [button: Remove logo background]
-![image decorative 480x480: make logos transparent with background remover](media/2bb06d59-c4f3-4963-8ab5-26326e4bb8be-b8ab551c.png "https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png")
+![image creative 480x480: make logos transparent with background remover](media/2bb06d59-c4f3-4963-8ab5-26326e4bb8be-b8ab551c.png "https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png")
 
 ## S10 feature-callout
 

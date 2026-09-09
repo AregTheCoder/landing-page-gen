@@ -48,16 +48,21 @@ def _media_clause(need_media, style=None, attrs=None, exclude_asset=None):
     sql = ""
     if need_media or fam or attrs:
         sql = f"AND EXISTS (SELECT 1 FROM media m WHERE m.section_id = s.id AND {' AND '.join(conds)})"
-    if exclude_asset:
-        sql += " AND NOT EXISTS (SELECT 1 FROM media x WHERE x.section_id = s.id AND x.src LIKE ?)"
-        params.append(f"%{exclude_asset}%")
+    ids = [exclude_asset] if isinstance(exclude_asset, str) else list(exclude_asset or [])
+    if ids:
+        # one id is enough to drop the section; the uuid prefix lives in src, the sha1 suffix in the local name
+        hit = " OR ".join("x.src LIKE ? OR x.local_path LIKE ?" for _ in ids)
+        sql += f" AND NOT EXISTS (SELECT 1 FROM media x WHERE x.section_id = s.id AND ({hit}))"
+        for i in ids:
+            params += [f"%{i}%", f"%{i}%"]
     return sql, tuple(params)
 
 
 def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=None, attrs=None, exclude_asset=None):
     """Top-k sections of `type_` by BM25, at most one per page, from pages
-    other than `exclude` and never showing `exclude_asset` (an 8-hex asset id
-    or any substring of the src); with need_media only sections that have a
+    other than `exclude` and never showing any of `exclude_asset` (an 8-hex
+    asset id, the uuid prefix of the src or the hash suffix of the local file
+    name, or a list of them); with need_media only sections that have a
     creative/thumbnail slot. With `style` (family[/variant]) or `attrs`
     ({attribute: value}), matching sections come first; the untagged passes
     only fill what is left."""

@@ -60,7 +60,7 @@ Recraft V3 is the third generation of Recraft's design-aware image model. Built 
 
 ### Recraft V3 capabilities
 Design-conscious image generation, cohesive color palettes, balanced composition and lighting, vector SVG output support, accurate text rendering, and a range of styles from photorealism to illustration.
-![image ui-screenshot 480x480: How Recraft V4 works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
+![image creative 480x480: How Recraft V4 works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S06 use-case-grid
 

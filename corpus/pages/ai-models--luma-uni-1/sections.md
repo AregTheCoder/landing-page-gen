@@ -60,7 +60,7 @@ Turn detailed text descriptions into high-quality, realistic visuals with accura
 
 ### Why creators choose Luma Uni-1
 Uni-1 ranks first in human preference Elo for overall quality, style and editing, and reference-based generation. Its reasoning architecture means fewer failed generations — the model understands spatial relationships, resolves conflicting instructions, and maintains identity across reference images. For creators who need precision without sacrificing aesthetics, Uni-1 delivers both.
-![image ui-screenshot 480x480: How Recraft V4 works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
+![image creative 480x480: How Recraft V4 works in Picsart](media/b5566a41-5bc5-494b-abf2-893833c930b0-79e01afb.avif "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif")
 
 ## S07 feature-callout
 

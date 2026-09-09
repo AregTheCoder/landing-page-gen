@@ -7,7 +7,7 @@
 ## Free PNG logo maker
 Create PNG logos easily with Picsart's online PNG logo maker. Elevate your branding fast with a unique logo that you’ll design yourself from scratch.
 Create a PNG logo
-![image decorative 480x480: png logo creator](media/1602a6dd-d39b-4961-82f2-e6940c22a852-b48cc0dc.png "https://pastatic.picsart.com/cms-pastatic/1602a6dd-d39b-4961-82f2-e6940c22a852.png")
+![image creative 480x480: png logo creator](media/1602a6dd-d39b-4961-82f2-e6940c22a852-b48cc0dc.png "https://pastatic.picsart.com/cms-pastatic/1602a6dd-d39b-4961-82f2-e6940c22a852.png")
 
 ## S02 link-grid
 
@@ -69,35 +69,35 @@ Use the button below to go to Picsart and start creating a logo.
 ### Craft eye-catching PNG logos in a flash
 A great logo strikes a chord and makes your brand instantly recognizable among the competition. Use Picsart’s online PNG logo maker to come up with different ideas, from minimalist to stylish PNG logo designs. Put the spotlight on your brand and boost visibility with a logo that leaves a lasting impression!
 Create a PNG logo
-![image decorative 480x480: png logo maker online](media/946febf9-c714-4f6b-ba0d-56497504060b-b4ad492c.png "https://pastatic.picsart.com/cms-pastatic/946febf9-c714-4f6b-ba0d-56497504060b.png")
+![image creative 480x480: png logo maker online](media/946febf9-c714-4f6b-ba0d-56497504060b-b4ad492c.png "https://pastatic.picsart.com/cms-pastatic/946febf9-c714-4f6b-ba0d-56497504060b.png")
 
 ## S06 feature-callout
 
 ### Get inventive with the PNG logo maker
 Picsart's PNG logo creator has a full suite of features for crafting professional logos. Pick a logo template from Picsart's editor, remove the background easily, change PNG colors , edit the text, and customize fonts in an instant! After you make a logo, export it into a high-quality file that you can use anywhere, from web to print.
 Create a PNG logo
-![image decorative 480x480: make a png logo for free](media/8561e8a4-0ada-43ce-ab06-8cad4d99fa16-ff6c69c2.png "https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png")
+![image creative 480x480: make a png logo for free](media/8561e8a4-0ada-43ce-ab06-8cad4d99fa16-ff6c69c2.png "https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png")
 
 ## S07 feature-callout
 
 ### Create and customize PNG logos easily
 Craft custom stylish logos using the photo editor and PNG logo templates . Better yet, start from a blank canvas where you can come up with your own concept and make a PNG logo. Experiment with Picsart's extensive design library of images, stickers, backgrounds, shapes, fonts, and other intuitive tools to craft and customize your unique logo in just a few minutes.
 Create a PNG logo
-![image decorative 480x480: create png logo and customize](media/bff59f10-2680-4b5c-a2cb-6867645d9a7a-281a8843.png "https://pastatic.picsart.com/cms-pastatic/bff59f10-2680-4b5c-a2cb-6867645d9a7a.png")
+![image creative 480x480: create png logo and customize](media/bff59f10-2680-4b5c-a2cb-6867645d9a7a-281a8843.png "https://pastatic.picsart.com/cms-pastatic/bff59f10-2680-4b5c-a2cb-6867645d9a7a.png")
 
 ## S08 feature-callout
 
 ### Empower your brand with Picsart's PNG logo creator
 Picsart's PNG logo editor empowers businesses to create professional logos easily, with no design experience required. If you're starting as an entrepreneur and want a unique logo to showcase your brand, Picsart's PNG logo maker has all the perks you need! Create custom logos in an instant, without going over budget!
 Create a PNG logo
-![image decorative 480x480: create png logo for your brand](media/7e048761-e836-4799-8cc7-64defe051952-ccaf658e.png "https://pastatic.picsart.com/cms-pastatic/7e048761-e836-4799-8cc7-64defe051952.png")
+![image creative 480x480: create png logo for your brand](media/7e048761-e836-4799-8cc7-64defe051952-ccaf658e.png "https://pastatic.picsart.com/cms-pastatic/7e048761-e836-4799-8cc7-64defe051952.png")
 
 ## S09 feature-callout
 
 ### Amp up marketing campaigns with PNG logos
 Need multiple logo options for A/B testing and your digital marketing campaigns? Create them easily with Picsart's PNG logo maker. Use the AI logo generator to come up with quick options simply by adding a prompt and choosing a style. Work your way up from there and use the built-in tools to customize and finalize your logo!
 Create a PNG logo
-![image decorative 480x480: create a png logo for any industry](media/5f3c7799-67ea-436a-8680-be451591f670-ab484b6f.png "https://pastatic.picsart.com/cms-pastatic/5f3c7799-67ea-436a-8680-be451591f670.png")
+![image creative 480x480: create a png logo for any industry](media/5f3c7799-67ea-436a-8680-be451591f670-ab484b6f.png "https://pastatic.picsart.com/cms-pastatic/5f3c7799-67ea-436a-8680-be451591f670.png")
 
 ## S10 gallery
 

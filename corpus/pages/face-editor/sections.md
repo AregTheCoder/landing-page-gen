@@ -58,7 +58,7 @@ Looking to tweak your look IRL? Get a preview of the changes in photos to help y
 
 ### Create fun edits with the face editor
 Face reshaping isn't just about achieving flawless features. It's also about unleashing your creativity and having fun! Create hilarious caricatures for outrageous laughs and unforgettable social media posts. Experiment with fantasy looks by morphing into your favorite fictional character or exploring entirely new aesthetics.
-![image decorative 480x480: ai avatar for streaming accounts](media/5fc08095-c4ea-43ec-8ab5-1712bc50c538-d6f0eb82.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp")
+![image creative 480x480: ai avatar for streaming accounts](media/5fc08095-c4ea-43ec-8ab5-1712bc50c538-d6f0eb82.webp "https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp")
 
 ## S08 feature-callout
 

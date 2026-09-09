@@ -292,6 +292,7 @@ def apply(con, mapping):
         style, variant = taxonomy.family_of(rec)
         fields = {k: rec.get(k) for k in FIELDS if k in rec}
         fields["variant"] = variant
+        fields["source"] = rec.get("source")  # measured | sheet: the skeleton's `> attrs:` line shows it
         con.execute("UPDATE media SET attrs = ?, style = ? WHERE src = ?", (json.dumps(fields), style, src))
         role = taxonomy.role_fix(rec)
         if role:

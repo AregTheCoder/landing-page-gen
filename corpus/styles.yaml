@@ -1244,6 +1244,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/022d6715-ad88-4abe-91e8-e23329dd
   page: aura
   slot: S03-m8
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-logo-generator
+  slot: S01-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/028d0e37-8928-44ea-aee6-9d418c3a6c09.jpg?type=webp&to=min&r=400:
   style: full-bleed
   variant: null
@@ -1887,6 +1894,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/1d9251b4-c41e-4615-b802-9cba01cd
   confidence: 0.0
   page: ai-models--gpt-image-1-5
   slot: S03-m4
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-logo-generator
+  slot: S09-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/1e29c092-a15a-4a8d-8ee9-58171ef621e4.png:
   style: full-bleed
@@ -3463,6 +3477,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5fb01b1e-3859-49ae-9616-ef1fb205
   page: compare-models--recraft-v4-vs-ideogram-3-0-flash
   slot: S07-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: face-editor
+  slot: S07-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6027c22c-3126-40f0-a8a9-adf208c1f0fc.webp?type=webp&to=min&r=400:
   style: cinematic-still
   variant: null
@@ -5016,6 +5037,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ad02dfe3-d4e6-4966-bdf8-ff433e2c
   confidence: 0.0
   page: ai-models--nano-banana-pro
   slot: S03-m10
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: ai-logo-generator
+  slot: S05-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ad9d863b-c78a-446a-b5a7-1916905cd740.webp:
   style: full-bleed
@@ -8300,6 +8328,20 @@ https://pastatic.picsart.com/cms-pastatic/27820b92-fda1-4d6b-8339-e6a532949904.p
   page: collage-maker
   slot: S16-m3
   source: rules
+https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: background-tools
+  slot: S09-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S09-m3
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.png:
   style: full-bleed
   variant: null
@@ -8601,6 +8643,13 @@ https://pastatic.picsart.com/cms-pastatic/761f61b9-6328-4972-bb2b-5b726c9f8f07.p
   page: packaging-design
   slot: S11-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: packaging-design
+  slot: S05-m1
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/7fd68d60-df94-4b1e-9813-3f4ad25c897b.png:
   style: before-after
   variant: null
@@ -8733,6 +8782,13 @@ https://pastatic.picsart.com/cms-pastatic/b235c87a-05c3-416d-8f50-cf4bc6ec789f.p
   confidence: 0.0
   page: background-tools
   slot: S06-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S09-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/b7f9f272-f217-411f-bf0d-fa0167387b2b.png:
   style: full-bleed
@@ -8880,6 +8936,13 @@ https://pastatic.picsart.com/cms-pastatic/f7efbd54-e297-400a-8b82-a7171c71ca4f.p
   confidence: 0.0
   page: ai-sticker-maker
   slot: S11-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png:
+  style: full-bleed
+  variant: null
+  confidence: 0.0
+  page: watermark-maker
+  slot: S09-m2
   source: rules
 https://pastatic.picsart.com/cms-pastatic/fd372e2f-1212-4608-b9c2-06382034afc2.png:
   style: full-bleed

@@ -47,7 +47,7 @@ Give Recraft V4 Styles Pro up to five style references and choose how closely to
 ONE STYLE, EVERY WORKFLOW
 ### Generate on-style, wherever you work
 Inside Picsart, Recraft V4 Styles Pro runs in the AI Playground , where you drop in your style references, add a prompt, and generate on-style images in one place. And you can reach Recraft V4 Styles Pro whichever way you work: on the web, in the desktop app, or built straight into your own projects via CLI, MCP, REST API, and SDK - with no third-party API keys or separate subscriptions to manage. Explore the rest of the family, from Recraft V4 to Recraft V4 Styles .
-![image ui-screenshot 480x480: How Recraft V4 Styles Pro works in Picsart](media/0cc719d2-f26f-48c4-9e14-c86b932867aa-22afbb70.avif "https://pcdn.picsart.com/cms-uploads/0cc719d2-f26f-48c4-9e14-c86b932867aa.avif")
+![image creative 480x480: How Recraft V4 Styles Pro works in Picsart](media/0cc719d2-f26f-48c4-9e14-c86b932867aa-22afbb70.avif "https://pcdn.picsart.com/cms-uploads/0cc719d2-f26f-48c4-9e14-c86b932867aa.avif")
 
 ## S07 feature-callout
 

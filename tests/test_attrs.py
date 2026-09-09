@@ -127,6 +127,8 @@ def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypa
     skeleton.write_skeleton(con, "comic-book-generator", out)
     text = out.read_text()
     assert "> style: dark-composite/light\n" in text and "size_class: tile\n" in text
+    assert ("> style: dark-composite/light\n> attrs: ground=light-grey layout=column-main panels=1 chrome=chip+tile "
+            "confidence=0.8 source=measured\n") in text, "the skeleton says what the tag rests on"
     sectionize.sectionize_page(pages / "comic-book-generator", con, log=lambda m: None)
     assert con.execute("SELECT attrs FROM media WHERE src = ?", (HERO1,)).fetchone()[0] is None
     monkeypatch.setattr(attrs, "ATTRIBUTES_YAML", yml)
@@ -324,6 +326,14 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
     assert rows[0]["slug"] == "storyboard-generator"
     rows = similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset="hero1")
     assert rows == [], "every hero shows the excluded asset"
+    rows = similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=["nomatch", "hero1"])
+    assert rows == [], "one id in the list is enough to exclude a section"
+    local = con.execute("SELECT local_path FROM media WHERE src = ?", (HERO1,)).fetchone()[0]
+    suffix = local.rsplit(".", 1)[0].rsplit("-", 1)[-1]
+    assert len(suffix) == 8 and similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=[suffix]) == [], \
+        "the sha1 in the local file name excludes through media.local_path"
+    assert len(similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=["nomatch"])) == 2, \
+        "an id that matches nothing excludes nothing"
     assert similar.split_style("dark-composite/light") == ("dark-composite", "light")
     try:
         similar.split_style("nope")
