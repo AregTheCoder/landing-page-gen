@@ -219,3 +219,23 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
   cut the figure at the frame edge score higher than whole figures at full
   height; brief galleries "cropped by the frame" when the originals are.
   (runs/live-3 S03, benchmark)
+- A composite demonstrates the section's claim, not only its family: the
+  family gives the look, the `> device:` line gives the narrative (references
+  beside the output, a set, two outputs, a chosen row, the output applied),
+  and `fit` is scored against that claim and gated at 4. live-3's composites
+  scored `fit` 5 while every original showed a device ours lacked.
+  (runs/trial-6 against runs/live-3, 2026-09-09)
+- The manager reads the example images for the device before writing the
+  brief: live-3's hero examples showed two reference thumbnails and the
+  reviewer wrote them off as "the template as briefed". (runs/live-3 S01,
+  trial-6 step 1.7)
+- Two steps that share one prompt (a Drive-full failure and its re-run) hold
+  one set of ledger rows; a paperwork check sums the ledger over distinct
+  prompts, not over steps. (runs/trial-6 S04, precheck)
+- The SubagentStop hook may be handed a transcript holding every worker's
+  assignment; with more than one assignment it cannot tell whose stop it is
+  and must not block, or every worker is judged as the first one spawned.
+  (runs/trial-6, all five workers blocked once as S01)
+- A `saveToDrive: false` re-run is a new preflight as well as a new step: the
+  params differ by that flag, and a re-run that reuses its parent's quote has
+  no row of its own. (runs/trial-6 S01, review 1 record note)
