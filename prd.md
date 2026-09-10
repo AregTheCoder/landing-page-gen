@@ -239,3 +239,11 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
 - A `saveToDrive: false` re-run is a new preflight as well as a new step: the
   params differ by that flag, and a re-run that reuses its parent's quote has
   no row of its own. (runs/trial-6 S01, review 1 record note)
+- On a template/card-maker page (birthday-card, greeting-card, invitation), the
+  gallery originals are designed card thumbnails and the callouts show finished
+  cards, not photographs: brief the gallery as `full-bleed` with a per-tile
+  headline and the callouts as `template-mockup`. Pin "flat 2D illustration,
+  fills the frame edge to edge, no surface, no table, no drop shadow, no
+  card-object" in the annotation — without it the model photographs the card as
+  an object on a surface (8 of 15 tiles, runs/live-4 S05 first round; all three
+  callout first attempts read as printed-card/book-cover mockups).
