@@ -247,3 +247,20 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
   card-object" in the annotation — without it the model photographs the card as
   an object on a surface (8 of 15 tiles, runs/live-4 S05 first round; all three
   callout first attempts read as printed-card/book-cover mockups).
+- Every finished panel and tile is `gemini-3-pro-image`, including gallery
+  series; flash (`gemini-3.1-flash-image`) is a draft/thumbnail tool only,
+  banned for a finished slot unless the context strictly requires it and the
+  reason is in the step. A short one-or-two-word string is not such a context
+  — live-4 ran 15 finished gallery tiles on flash under a clause meant for
+  composite thumbnails, and a model-less `series` pattern.
+- Corpus examples are the spine, not a stencil: hold the invariants (finish,
+  palette, light, the family's Panels/Never, crop, the exact text strings) and
+  vary everything else per slot (angle, prop, distance, accent, composition) so
+  no two slots are interchangeable. A set that differs only by its headline
+  string has under-used its freedom; varying an invariant is a gate failure,
+  not variation.
+- With the per-slot cap at 40 the default is depth, not one-shot: after a
+  panel passes its gate, critique it and, if a concrete flaw is named, i2i
+  refine (pass in `imageUrls`) and add one variation candidate — each step
+  preflighted and gated, the whole chain preflighted before step 1 so depth
+  never overruns the section cap.

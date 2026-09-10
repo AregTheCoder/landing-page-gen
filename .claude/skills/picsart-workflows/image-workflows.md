@@ -31,10 +31,14 @@ transparent background.
 4. enhance if needed.
 
 **series**: galleries and tutorial-card thumbnails that must look like a
-set. One generate with `count` 4–6, one prompt template with a slot-specific
-subject phrase, hero as reference. Gate: reject any member that breaks the
-set (different finish, text, wrong framing, a different family or ground
-variant from the brief); regenerate members singly.
+set. `gemini-3-pro-image` like every other finished slot — a gallery of
+finished cards is finished work, not drafts. One generate with `count` 4–6,
+one prompt template with a slot-specific subject phrase, hero as reference.
+Gate: reject any member that breaks the set (different finish, text, wrong
+framing, a different family or ground variant from the brief); regenerate
+members singly. Members are the place to spend the per-slot headroom: after
+the set passes as a set, revisit the weakest one or two with an i2i refine
+and a controlled variation rather than shipping the first pass.
 
 **composite**: when the brief's `## Style family` block's **Template** line
 names an `lp-compose` template (`style-families.md`). A block whose
@@ -89,15 +93,65 @@ briefed as. The worker generates the photographic panels only;
 - End with ", no other text, no logos or watermarks". Never ask a model for
   UI, buttons, screens, pills or frames; when the family has chrome,
   `lp-compose` draws it.
-- Text and the default model: `gemini-3-pro-image` renders short strings
-  reliably; `gemini-3.1-flash-image` is acceptable for one string of one
-  or two words. Do not switch to a text-specialist model unless the brief
-  says so.
+- The generation model is `gemini-3-pro-image` for **every finished panel
+  and tile**, with or without text. It is the default and it is not
+  negotiable to save credits. `gemini-3.1-flash-image` is banned in a
+  landing-page run unless the context strictly requires it, and the only
+  contexts that qualify are (a) a composite's throwaway thumbnails
+  (`thumb-a`, `thumb-b`), which are never a slot on their own, or (b) a
+  brief that names flash explicitly for a stated reason. A short string, a
+  gallery tile, or a cheaper-per-call price is **not** such a context — a
+  gallery of finished cards is finished work and runs on the pro model.
+  Whenever you use flash, record the qualifying context in the step's
+  `reason`; a step on flash without one fails its own gate. Do not switch to
+  a text-specialist model unless the brief says so.
 - Resolution: 1K by default (1200 px covers every card and tile); 2K when the
   slot's natural width is over 1000 px; 4K only over 2500 px. `count: 1`
   always on `gemini-3-pro-image` (a second candidate is a second call).
 - Faces and hands are the artefact hotspots. Prefer compositions that do not
   depend on them unless the examples do.
+
+## Anchor to the corpus, then vary
+
+The corpus examples in `examples/` and the `## References` genre are the
+**spine, not a stencil**. Read them first and pull out the invariants — the
+things that must hold for the asset to belong on this page: the finish
+(editorial photo / soft 3D / flat illustration), the palette and light from
+`shared-context.md`, the family's **Panels** and **Never** lines, the crop
+class, and any string from `## Text in image`. Those are fixed; copying them
+is the floor.
+
+Everything the invariants do not pin is yours to move, and you should move
+it. Give each slot its own subject treatment — a different angle, prop,
+camera distance, secondary accent inside the palette, time-of-day within the
+same light key, or compositional balance — so the set reads as one campaign
+by a designer, not one prompt run N times. A gallery whose tiles differ only
+by their headline string has under-used its freedom; vary the scene beneath
+the string too. The test is: same family and finish across the set, no two
+slots interchangeable. Never vary an invariant to be "creative" (a stray
+extra word, a finish the family forbids, a palette off shared context) —
+that is a gate failure, not variation. State the one thing you varied for a
+slot in its step `reason`.
+
+## Longer workflows: spend the per-slot headroom
+
+The per-slot cap affords more than generate-and-stop. Once a panel passes
+its gate, the default next move is to make it better, not to ship it:
+
+1. **generate** `gemini-3-pro-image`, `count: 1` → gate.
+2. **critique** the pass against the brief and examples in the step note —
+   name the weakest concrete thing (soft subject, flat light, crop, a prop
+   that fights the palette). If nothing is weak, stop; do not spend to spend.
+3. **i2i refine**: `picsart_generate` with the pass in `imageUrls` and a
+   prompt describing only that change → gate. Keeps the composition, fixes
+   the flaw.
+4. **variation pass** (series slots, or a hero the reviewer may choose
+   among): one alternate take that holds every invariant and moves one
+   varied axis, so there is a real choice, not a re-roll.
+
+Every step is still preflighted, gated and recorded. Preflight the whole
+planned chain before step 1 and stop if the quoted total exceeds the
+section cap — depth is for quality, never a licence to overrun the budget.
 
 ## Gate checklist per step
 

@@ -114,7 +114,7 @@ def test_skeleton_and_slots_json(tmp_path):
     text = out.read_text()
     assert n_sections == 7 and n_gen == 5 and n_all == 7
     assert text.startswith("---\npage: comic-book-generator\n")
-    assert "budget:\n  run_credits: 300" in text
+    assert "budget:\n  run_credits: 600" in text
     assert "\n## S01 hero\n" in text and "\n## S03 tutorial-grid\n" in text
     assert "- t1 h1: Comic Book Generator" in text
     # aspect is quoted on purpose: bare 9:16 is a sexagesimal integer to YAML 1.1 parsers

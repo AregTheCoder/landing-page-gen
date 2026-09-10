@@ -15,7 +15,7 @@ import yaml
 from . import db, sectionize
 
 DEFAULTS = {"image_model": "gemini-3-pro-image", "video_model": "seedance-2.5", "video_draft": "seedance-2.0-mini"}
-BUDGET = {"run_credits": 300, "image_slot": 20, "video_slot": 60}
+BUDGET = {"run_credits": 600, "image_slot": 40, "video_slot": 60}
 MAX_TEXTS = 40
 
 
