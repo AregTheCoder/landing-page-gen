@@ -11,7 +11,7 @@ day, audio off); re-quote before relying on them.
 | Step | Tool | Model | Key params | Credits |
 |---|---|---|---|---|
 | Generate image (default) | `picsart_generate` | `gemini-3-pro-image` | `prompt`, `aspectRatio` (1:1 16:9 9:16 3:4 4:3 2:3 21:9), `resolution` 1K/2K/4K, `count` 1/2/4/6/8/10, `imageUrls` ≤14 | 5 (1K/2K), 8 (4K), per image |
-| Composite thumbnails only (never a finished slot) | `picsart_generate` | `gemini-3.1-flash-image` | same; adds 4:5 5:4 3:2 ratios | 3 |
+| Only when the image's own page copy names this model as its source | `picsart_generate` | `gemini-3.1-flash-image` | same; adds 4:5 5:4 3:2 ratios | 3 |
 | Refine with references (i2i) | `picsart_generate` | `gemini-3-pro-image` | `imageUrls: [<hero or previous step>]` + prompt describing the change | 5 |
 | Targeted edit | `picsart_generate` | `picsart-qwen-image-edit` | `imageUrls: [<input>]`, `prompt` ("remove X", "swap Y", "restyle Z") | 4 |
 | Replace background | `picsart_change_bg` | `recraftv3-replace-bg` | `image`, `prompt` for the new backdrop | 2 |
