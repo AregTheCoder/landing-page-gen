@@ -25,6 +25,8 @@ corpus/taxonomy/*.png
 # answers beside them are the labour and stay in git.
 corpus/labels/*.png
 corpus/labels/README.md
+# Widened look-corpus: the yaml (URLs, provenance) stays; thumbnails are re-fetched.
+corpus/widened/**/*.png
 corpus/pages/*/*
 !corpus/pages/*/sections.md
 !corpus/pages/*/meta.json

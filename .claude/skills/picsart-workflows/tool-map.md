@@ -30,6 +30,15 @@ day, audio off); re-quote before relying on them.
 Preflight for the editing models takes `params.imageUrls: [<url>]`, not
 `image`. The tool call itself takes `image`.
 
+## Flow nodes
+
+The `node:` a step carries in `workflow.yaml` and the engine it runs on
+(`flow-boards.md` has the full table): `image`, `edit`, `video` →
+`picsart_generate`; `cutout` → `picsart_remove_bg`; `background` →
+`picsart_change_bg`; `enhance` → `picsart_enhance`; `motion` →
+`picsart_media_*`; `compose` → `lp-compose`; `text` and `ref` → no call.
+`lp-flow check` refuses a kind on another engine.
+
 ## Support tools (free)
 
 `picsart_preflight` (validate + quote), `picsart_model_params` (schema),

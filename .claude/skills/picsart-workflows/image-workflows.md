@@ -1,20 +1,26 @@
 # Image workflows
 
-Pick the pattern that matches the slot, write every step into
-`workflow.yaml`, preflight, then run with a gate after each step.
+Pick the board recipe that matches the slot, lay its nodes into
+`workflow.yaml` from START to END (`workflow-format.md`), preflight, `lp-flow
+check`, then run with a gate after each node. A recipe is a node shape on a
+blank board; when `lp-flow templates` returns a gallery template that passes
+the three tests in `flow-boards.md`, its shape replaces the recipe's and the
+rules below still bind every node.
 
-## Patterns
+## Board recipes
 
 **direct**: for the hero or any slot with no shared context yet.
+Board: START → `image` → (`edit`) → (`enhance`) → END.
 1. generate `gemini-3-pro-image`, `count: 1`, 1K, nearest ratio → gate: pass,
-   or fix the prompt and regenerate (once). The prompt names the stock genre
-   from the brief's `## References` (subject, light, backdrop, colour,
-   framing) and keeps clear the area a chrome item will cover.
-2. targeted edit (`picsart-qwen-image-edit`) only if the gate named a
+   or fix the prompt and regenerate (once, as a new node). The prompt names
+   the stock genre from the brief's `## References` (subject, light,
+   backdrop, colour, framing) and keeps clear the area a chrome item will
+   cover.
+2. `edit` node (`picsart-qwen-image-edit`) only if the gate named a
    concrete flaw (extra hand, stray object, wrong colour).
-3. enhance ×2 if the slot is wider than 2000 px or the pick is soft.
+3. `enhance` ×2 if the slot is wider than 2000 px or the pick is soft.
 
-**anchored** (default after the hero): same as direct, but the prompt carries
+**anchored** (default after the hero): same board as direct, but the prompt carries
 the hero's light, palette and finish in words from `shared-context.md`
 ("hard even studio flash, seamless yellow and purple, glossy editorial
 finish"). Pass the hero URL in `imageUrls` only when `shared-context.md`
@@ -24,21 +30,54 @@ Words keep the page reading as one campaign without waiting for the hero.
 
 **product cutout**: for slots whose source media is a subject on a flat or
 transparent background.
+Board: START → `image` → `cutout` → (`background`) → (`enhance`) → END.
 1. generate the product alone on a plain mid-grey backdrop.
-2. `picsart_remove_bg` (free) → gate: clean edges, no halo.
-3. either stop (transparent PNG) or `picsart_change_bg` with the scene the
-   brief describes → gate: subject scale and shadow are plausible.
+2. `cutout` (`picsart_remove_bg`, free) → gate: clean edges, no halo.
+3. either stop (transparent PNG) or `background` (`picsart_change_bg`) with
+   the scene the brief describes → gate: subject scale and shadow are
+   plausible.
 4. enhance if needed.
 
 **series**: galleries and tutorial-card thumbnails that must look like a
-set. `gemini-3-pro-image` like every other finished slot — a gallery of
-finished cards is finished work, not drafts. One generate with `count` 4–6,
-one prompt template with a slot-specific subject phrase, hero as reference.
-Gate: reject any member that breaks the set (different finish, text, wrong
-framing, a different family or ground variant from the brief); regenerate
-members singly. Members are the place to spend the per-slot headroom: after
-the set passes as a set, revisit the weakest one or two with an i2i refine
-and a controlled variation rather than shipping the first pass.
+set. Board: START → `text` (the envelope) → one `image` node per member,
+each `in: [envelope]` → END; the cross-slot gate is written on the envelope
+node before the first call and scored after the last. `gemini-3-pro-image`
+like every other finished slot — a gallery of finished cards is finished
+work, not drafts. One prompt template on the text node with a slot-specific
+subject phrase per member, hero as reference, `count: 1` per member (render
+two, gate the envelope, then the rest). Gate: reject any member that breaks
+the set (different finish, text, wrong framing, a different family or
+ground variant from the brief); regenerate members singly as new nodes.
+Members are the place to spend the per-slot headroom: after the set passes
+as a set, revisit the weakest one or two with an i2i refine node and a
+controlled variation rather than shipping the first pass.
+
+**layered**: for a panel that must read as one photograph built from more
+than one photographic element — a subject seated in a generated scene with
+matched light, a contact shadow, right scale, no matte line (the pilot in
+`runs/pilot-layered`, design in `research/layered-photos/design.md`). Two
+boards; Route 1 is the default, Route 2 when a specific subject must land in
+a specific plate.
+- Route 1, model-native: START → `image` (one pass composing the whole
+  scene; a subject that must stay identical enters as a REF in `imageUrls`)
+  → (`image` i2i refine) → END. Best light coherence, least placement control.
+- Route 2, cut and place: START → `image` plate (negative space where the
+  subject sits, the key-light direction named) → `image` subject (plain
+  backdrop, lit from the same named direction) → `cutout` → `image`
+  harmonise (`in:` the plate and the cutout, both in `imageUrls`, a prompt
+  that only seats the subject: contact shadow to the named side, match the
+  warm light and the plate's grain, keep the subject identical) → (`enhance`)
+  → END. `picsart_remove_bg` does not preflight-quote (the guard denies it
+  in a run), so a Route 2 board without a quotable cutout harmonises the
+  subject's own render instead of a cut.
+- Harmonisation gate, every item: one key-light side across the elements;
+  one colour temperature; a contact shadow whose direction and softness
+  match the plate's own; no matte line or halo; scale, horizon and
+  vanishing plausible; occlusion right; focus, grain and depth of field
+  shared. A failure re-runs its own node (plate, subject or harmonise) as a
+  new node, never the board. The `photo` panel of `template-mockup` and
+  `dark-composite` may be built this way when the brief's annotation asks
+  for a subject in a scene.
 
 **composite**: when the brief's `## Style family` block's **Template** line
 names an `lp-compose` template (`style-families.md`). A block whose
@@ -52,6 +91,9 @@ as a Series; fallback families take the pattern of the family they are
 briefed as. The worker generates the photographic panels only;
 `lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
 <family>` prints the panels and the `aspectRatio` to generate each at.
+Board: START → one `image` node per panel (an `enhance`/`background`/
+`cutout` node for a derived panel) → `compose` with `in:` every panel node
+→ END.
 1. one `picsart_generate` per distinct panel that `uv run lp-compose
    --describe <family>` lists for the brief's `Device:` variant (the plain
    template when the device is `none` or annotation-carried), `count: 1`, at
@@ -114,8 +156,11 @@ briefed as. The worker generates the photographic panels only;
 
 ## Anchor to the corpus, then vary
 
-The corpus examples in `examples/` and the `## References` genre are the
-**spine, not a stencil**. Read them first and pull out the invariants — the
+The corpus examples in `examples/`, the widened neighbours beside them
+(`w<n>-widened.md`, `origin: widened`: the same look found elsewhere on the
+web by reverse image search, read for finish, light and framing, never
+wired into a node) and the `## References` genre are the **spine, not a
+stencil**. Read them first and pull out the invariants — the
 things that must hold for the asset to belong on this page: the finish
 (editorial photo / soft 3D / flat illustration), the palette and light from
 `shared-context.md`, the family's **Panels** and **Never** lines, the crop
@@ -137,24 +182,25 @@ slot in its step `reason`.
 ## Longer workflows: spend the per-slot headroom
 
 The per-slot cap affords more than generate-and-stop. Once a panel passes
-its gate, the default next move is to make it better, not to ship it:
+its gate, the default next move is to add nodes that make it better, not to
+ship it:
 
-1. **generate** `gemini-3-pro-image`, `count: 1` → gate.
-2. **critique** the pass against the brief and examples in the step note —
+1. **generate** `image` node, `gemini-3-pro-image`, `count: 1` → gate.
+2. **critique** the pass against the brief and examples in the node note —
    name the weakest concrete thing (soft subject, flat light, crop, a prop
    that fights the palette). If nothing is weak, stop; do not spend to spend.
-3. **i2i refine**: `picsart_generate` with the pass in `imageUrls` and a
-   prompt describing only that change → gate. Keeps the composition, fixes
-   the flaw.
+3. **i2i refine**: an `image` node `in:` the pass, the pass in `imageUrls`
+   and a prompt describing only that change → gate. Keeps the composition,
+   fixes the flaw.
 4. **variation pass** (series slots, or a hero the reviewer may choose
-   among): one alternate take that holds every invariant and moves one
-   varied axis, so there is a real choice, not a re-roll.
+   among): one alternate `image` node that holds every invariant and moves
+   one varied axis, so there is a real choice, not a re-roll.
 
-Every step is still preflighted, gated and recorded. Preflight the whole
-planned chain before step 1 and stop if the quoted total exceeds the
+Every node is still preflighted, gated and recorded. Preflight the whole
+planned board before node 1 and stop if the quoted total exceeds the
 section cap — depth is for quality, never a licence to overrun the budget.
 
-## Gate checklist per step
+## Gate checklist per node
 
 fit to brief and annotation, and the composite carries the brief's
 `Device:` (its panels and chrome, not a single panel where the device names

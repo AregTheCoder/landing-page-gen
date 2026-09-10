@@ -1,8 +1,13 @@
 # Video workflows
 
-Video is 7 to 18 times the cost of an image. Always draft first.
+Video is 7 to 18 times the cost of an image. Always draft first. On the
+board every step below is a `video` node (`tool: picsart_generate`) fed by
+the still's node through `in:` and `extra.startFrame`; the still comes from
+an image recipe (`image-workflows.md`). The Flow gallery's video templates
+(a photo-to-motion pass fanned out into relit variants) fit only when the
+slot is a video; see `flow-boards.md` for the template test.
 
-## Patterns
+## Recipes
 
 **still to motion** (default): the slot has an accepted still, or a still
 can be produced with an image pattern first.

@@ -11,12 +11,28 @@ optional `--dry-run`. Paths below are relative to the repo root. Companion files
 `brief-template.md` (what a worker receives), `output-contract.md` (what a
 worker must return).
 
+## 0. Refresh the Flow template catalogue
+
+Workers build every slot as a Picsart Flow board (`picsart-workflows/
+flow-boards.md`): blank canvas by default, a gallery template when one
+fits. The catalogue they consult is `corpus/flow-templates.yaml`. Before a
+run, open `https://picsart.com/workflows/` in the browser pane (the gallery
+is public; never log in), walk the category tabs that match the page's
+families (E-commerce & product content, Marketing & advertising, Photo
+editing & enhancement, Design assets & elements), open each card whose
+preview resembles a slot class we produce, and record title, url, category,
+output size, description, tags, the node `shape` in words and `fits`
+(families, devices). Set `refreshed:` to today. A card you did not open is
+not recorded. Skip this step when the file is under two weeks old and the
+page's families are covered.
+
 ## 1. Set up the run
 
 1. `<run>` = the skeleton's folder. Create `<run>/sections/`, write
    `<run>/budget.json` from the skeleton frontmatter `budget.run_credits`
    plus `"dry_run": true|false`. Point `runs/current` at
-   `<run>` with `ln -sfn`. The hooks read that symlink.
+   `<run>` with `ln -sfn`. The hooks read that symlink (a stale link from an
+   earlier run would cap and log this run against that folder).
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
@@ -132,6 +148,17 @@ For each section with slots, fill `brief-template.md` into
   site-wide (the tutorial grid) show this page's own images on other pages
   and other section types, which is why every slot's id goes on every call;
   `--attr ground=black` narrows further;
+  When `similar` prints fewer than 2 tagged same-family examples, widen the
+  family first: `uv run lp-corpus widen <family>` (once per family per
+  fortnight; `SERPAPI_KEY` or `GOOGLE_VISION_API_KEY` in the environment,
+  no key means skip and say so in the report) and re-run `similar` with
+  `--widen 2`, which adds two visual neighbours of the family's corpus
+  assets as `w<n>-widened.md` + PNG. Neighbours are look references with an
+  unknown licence: the brief says so, and no worker wires one into a node;
+- the `## Flow board` section: the output of `uv run lp-flow templates
+  --family <family> --device <device> --query "<H2>"`, verbatim — either
+  "start from a blank board" or the fitting template(s). The worker decides;
+  you only put the catalogue's answer in front of it;
 - the `## References` section from `corpus/references/<family>.yaml`: its
   `prompt_guidance` verbatim, the `search_terms`, and two `examples`
   entries whose `matches` fit this slot's class. This is where the photo's
@@ -174,11 +201,13 @@ compared.
 
 1. As each worker finishes, run the paperwork check, no agent involved:
    `uv run python .claude/skills/build-landing-page/precheck.py <run> <Sxx>`.
-   It names a paid step without a preflight row, `count` above 1, a gate
+   It names a paid node without a preflight row, `count` above 1, a gate
    without an observation, `credits.spent` off the ledger, a final file not
-   on disk, or a `result.md` missing its keys. A problem here is a
-   SendMessage to the worker ("Record fix: ...") and a re-run of the check,
-   never a review round.
+   on disk, a `result.md` missing its keys, or a board that does not wire
+   (`lp-flow check`: a node fed by a later node, a kind on the wrong engine,
+   an image node off the pro model with no quoted copy, a template board
+   without its source). A problem here is a SendMessage to the worker
+   ("Record fix: ...") and a re-run of the check, never a review round.
 2. When every section has passed the precheck (or after the last worker,
    whichever comes first), spawn one `section-reviewer` for the whole wave
    with: the run folder, the list of section folders, and
@@ -187,7 +216,7 @@ compared.
    workflow steps. One reviewer spawn loads the rubric once for all sections.
 3. Decide per section:
    - accept: mark it in the report.
-   - rework: SendMessage the same worker: "Rework: re-run from step N.
+   - rework: SendMessage the same worker: "Rework: re-run from node N.
      Changes: ..." (its context is intact). At most 2 rework rounds per
      section; reworked sections are reviewed together in one more spawn.
    - after 2 rounds: accept the best candidate the reviewer names, or mark
@@ -209,8 +238,11 @@ has already looked. Keep your own context for coordination.
    raises `[fit]` flags) with flags keyed to the rubric. Paste its per-slot table and
    flags into `report.md` under "Against the original" **before** opening
    any original yourself; then look, and write what the numbers missed.
-4. `picsart_credits` again. Finish `report.md`: per section pattern, steps,
-   credits quoted vs spent (from `ledger.jsonl`), rounds, verdict; totals;
+4. `picsart_credits` again. Finish `report.md`: per section board (blank,
+   or the template title), recipe, nodes, credits quoted vs spent (from
+   `ledger.jsonl`), rounds, verdict; totals, with how many boards were
+   blank and how many copied a template; which families were widened and
+   with how many neighbours;
    kept-from-source and blocked slots; balance delta versus ledger sum; the
    "Agents" table (spawn, model, tokens, minutes) and the wall time from the
    first spawn to the last verdict.

@@ -1,0 +1,53 @@
+# Picsart Flow gallery templates a worker may copy instead of building a
+# blank board. Read from picsart.com/workflows (the gallery is public; the
+# editor behind "Use this workflow" needs a login). The manager refreshes it
+# before a run (build-landing-page step 0); a template is recorded only after
+# its card was opened and its description, tags and output size read.
+#
+#   title        as the gallery shows it
+#   url          the gallery page or the template's own page
+#   category     one of the gallery tabs
+#   output       the Workflow's output size as typed on the card
+#   description  the card's own words, verbatim or near
+#   tags         the card's tags
+#   shape        the node graph in words: input -> nodes -> outputs
+#   fits         our style families and `> device:` ids this shape serves;
+#                empty lists mean "browse only, no slot of ours matches"
+refreshed: 2026-09-10
+source: https://picsart.com/workflows/
+categories:
+  - Art, illustration & concept
+  - Design assets & elements
+  - E-commerce & product content
+  - Marketing & advertising
+  - Photo editing & enhancement
+  - Social media & creator content
+  - Stories
+  - Video & motion
+templates:
+  - title: Ethereal Studio Motion
+    url: https://picsart.com/workflows/
+    category: E-commerce & product content
+    output: 720x1280
+    description: >
+      Upload your product packshot, place it in a clean studio scene with pastel poppy flowers,
+      get a 2K 9:16 image and a matching 4-second 720p MP4.
+    tags: [ai photoshoot, product photography, motion effect, cinematic product video, packshot]
+    shape: "REF packshot -> Image (scene composite: subject placed in a generated studio plate) -> END still 2K 9:16 + Video 4 s 720p"
+    fits:
+      families: [template-mockup, dark-composite, mockup-card, cutout-checkerboard]
+      devices: [applied-mockup, none]
+    note: the layered-photo Route 2 (plate + subject + harmonise) as a shipped Flow; the video leg is out of scope for image slots
+  - title: Create Animated Videos from Photos with Relight
+    url: https://picsart.com/workflows/
+    category: Video & motion
+    output: 612x1088
+    description: >
+      Upload a single photo, generate a short 9:16 animation, then create three relit versions:
+      Twilight, Sunny, Wind.
+    tags: [photo_to_video, relight, ai_video, runway]
+    shape: "REF photo -> Video (photo to motion) -> fan-out Edit x3 (relight variants) -> END three clips"
+    fits:
+      families: [cinematic-still]
+      devices: [none]
+    note: the fan-out of one pass into named variants is our variation pass; video slots only

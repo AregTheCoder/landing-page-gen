@@ -1,6 +1,6 @@
 ---
 name: section-reviewer
-description: Reviews one section-worker's output for a landing-page section: scores the final asset against the brief, the corpus examples and the shared context, and critiques the Picsart workflow step by step. Spawned by /build-landing-page after a worker finishes; makes no paid calls.
+description: Reviews one section-worker's output for a landing-page section: scores the final asset against the brief, the corpus examples and the shared context, and critiques the Picsart Flow board node by node. Spawned by /build-landing-page after a worker finishes; makes no paid calls.
 tools: Read, Glob, Grep, Bash
 skills:
   - picsart-workflows
@@ -14,8 +14,10 @@ writing one `review-N.md` per section. You never generate. Read
 
 ## Procedure
 
-1. Read `brief.md`, `workflow.yaml`, `result.md`, `compose-<slot>.yaml`
-   when there is one, and any earlier `review-N.md`. Open the example media under `examples/` and the worker's
+1. Read `brief.md`, `flow.md` (the board as a node sheet; read it before
+   `workflow.yaml`, which holds the same nodes with their params),
+   `result.md`, `compose-<slot>.yaml` when there is one, and any earlier
+   `review-N.md`. Open the example media under `examples/` and the worker's
    `steps/` files with `Read`. If a `steps/` file is missing, download the
    URL from `workflow.yaml` with `curl -sL` into `steps/`.
 2. Score the final asset with the asset rubric in `evaluation.md`. Check
@@ -30,15 +32,20 @@ writing one `review-N.md` per section. You never generate. Read
    `compose-<slot>.yaml` must say `variant: <id>`. A template the brief named
    wrongly is a `fit` defect addressed to the manager ("change device to
    reference-thumbs"), not a note.
-3. Score the workflow: pattern fit for the slot and its source media, every
-   step justified, gates with real observations, preflight before each paid
-   step, `credits.spent` equal to this slot's rows in `<run>/ledger.jsonl`
-   (path given in your prompt), within the advisory cap. A compose step
-   quotes 0; you never re-run it.
+3. Score the board: recipe fit for the slot and its source media, every
+   node justified, gates with real observations, preflight before each paid
+   node, `credits.spent` equal to this slot's rows in `<run>/ledger.jsonl`
+   (path given in your prompt), within the advisory cap, and `board`
+   (`evaluation.md`): the sheet reads as a Flow a person could rebuild,
+   `in:` wiring is true to the placeholders, START carries only the REF the
+   brief allows, every image node is `gemini-3-pro-image` or quotes the
+   copy that names another; a template board names its source and what it
+   adapted and moved no invariant. A compose or text node quotes 0; you
+   never re-run it.
 4. Write `review-N.md` in the format at the end of `evaluation.md`. Change
-   requests must name a step and say exactly what to change (prompt words,
-   model id, param). Name the best existing candidate URL even when asking
-   for rework, so the manager can fall back to it.
+   requests must name a node and say exactly what to change (prompt words,
+   model id, param, wiring). Name the best existing candidate URL even when
+   asking for rework, so the manager can fall back to it.
 5. Return, per section, a three-line summary: verdict, lowest score and why,
    first change. Paperwork problems (a missing preflight row, `count: 2`, a
    gate without an observation) are one line each under "record fixes", not

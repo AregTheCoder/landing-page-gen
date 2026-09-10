@@ -7,7 +7,8 @@ problem; exit 0 when the record is clean (pixels still need the reviewer),
 exit 1 otherwise. Catches what a review round used to catch for free: a paid
 step without a preflight, `count` above 1, a gate without an observation,
 credits.spent off the ledger, a final file that is not on disk, a compose
-spec whose `variant:` contradicts the brief's `> device:` line."""
+spec whose `variant:` contradicts the brief's `> device:` line, a Flow board
+that does not wire (`lp-flow check`)."""
 import json
 import re
 import sys
@@ -16,6 +17,7 @@ from pathlib import Path
 import yaml
 
 from landing_page_gen.compose.families import FAMILIES
+from landing_page_gen.flow import board
 
 PAID = {"picsart_generate", "picsart_enhance", "picsart_remove_bg", "picsart_change_bg", "picsart_vectorize"}
 
@@ -43,6 +45,7 @@ def check(run, sid):
             spent_by_prompt[prompt_of(r)] = spent_by_prompt.get(prompt_of(r), 0) + (r.get("quoted_credits") or 0)
     for d in docs:
         slot = d.get("slot", "?")
+        problems += board.check(d)
         prompts = set()  # a failed step re-run with the same prompt is two steps but one set of ledger rows
         for st in d.get("steps") or []:
             sid_ = f"{slot} step {st.get('id')}"
@@ -72,6 +75,8 @@ def check(run, sid):
         for key in ("chosen:", "scores:"):
             if key not in text:
                 problems.append(f"result.md lacks {key}")
+    if not (folder / "flow.md").exists():
+        problems.append("flow.md missing (uv run lp-flow sheet workflow.yaml)")
     problems += device_problems(folder)
     return problems
 

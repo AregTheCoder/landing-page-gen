@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import attrs, db, discover, label, media, sectionize, sheets, similar, skeleton, snapshot, styles, taxonomy
+from . import attrs, db, discover, label, media, sectionize, sheets, similar, skeleton, snapshot, styles, taxonomy, widen
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -68,7 +68,17 @@ def main(argv=None) -> int:
                     help="skip sections showing this source asset: the 8-hex uuid prefix of its src (attrs.asset_id) "
                          "or the 8-hex hash of its local file name; repeatable, one per slot of the page")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
+    sm.add_argument("--widen", type=int, default=0, metavar="N",
+                    help="add N reverse-image neighbours of the --style family from corpus/widened/ as look references")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
+
+    w = sub.add_parser("widen", help="Reverse-image search every tagged asset of a family -> corpus/widened/<family>.yaml")
+    w.add_argument("family", choices=db.STYLES)
+    w.add_argument("--backend", choices=widen.BACKENDS, default="serpapi-lens",
+                   help="serpapi-lens (Google Lens via SerpApi, SERPAPI_KEY) or vision-web (Cloud Vision, GOOGLE_VISION_API_KEY)")
+    w.add_argument("--limit", type=int, help="search at most this many assets")
+    w.add_argument("--exact", action="store_true", help="exact matches (the photo's own stock page) instead of visual neighbours")
+    w.add_argument("--out", type=Path, default=widen.WIDENED_DIR)
 
     st = sub.add_parser("styles", help="Derive corpus/styles.yaml from the attributes through the rule table, or mirror it into media.style")
     st.add_argument("--styles", type=Path, default=styles.STYLES_YAML, help="yaml of tags (default corpus/styles.yaml)")
@@ -133,6 +143,14 @@ def main(argv=None) -> int:
         return cmd_labels(a)
     if a.cmd == "taxonomy":
         return cmd_taxonomy(a)
+    if a.cmd == "widen":
+        try:
+            path, searched, added = widen.widen(a.family, styles.load(), backend=a.backend, limit=a.limit,
+                                                exact=a.exact, out_dir=a.out, log=log)
+        except ValueError as exc:
+            p.error(str(exc))
+        print(f"{path}: {searched} asset(s) searched, {added} match(es) added")
+        return 0
     if a.cmd == "skeleton":
         con = db.connect(a.db)
         out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
@@ -156,6 +174,13 @@ def main(argv=None) -> int:
         with similar.FrameGrabber() as grabber:
             similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example)
         fam = similar.split_style(a.style)[0]
+        if a.widen:
+            if not fam:
+                p.error("--widen needs --style: neighbours are stored per family")
+            picks = widen.pick(fam, a.widen, exclude_asset=a.exclude_asset)
+            if not picks:
+                log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
+            widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
         tagged = sum(1 for r in rows if con.execute(
             "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0
         print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")

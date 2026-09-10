@@ -78,6 +78,26 @@ carries panel-overlay's photography and tilted ground with no panel), and the
 stock source of each photo when it can be found. The manager merges the
 absent-chrome findings into the family blocks' **Use** lines.
 
+The stock source is found by reverse image search, not by browsing:
+`uv run lp-corpus widen <family> --exact` writes each corpus asset's exact
+matches (the photo's own page elsewhere) into `corpus/widened/<family>.yaml`;
+a match on pexels.com or unsplash.com is a candidate `examples` entry for the
+family's reference file, still verified on its page before it is written.
+Matches on any other host are provenance notes only.
+
+## Widening the look-corpus (`lp-corpus widen`)
+
+`corpus/references/` is licensed stock that a collector found by searching
+words. `corpus/widened/<family>.yaml` is what a Google Lens search on the
+corpus images themselves finds: their visual neighbours across the web
+(`--backend serpapi-lens`, `SERPAPI_KEY`; or `vision-web`,
+`GOOGLE_VISION_API_KEY`). The manager runs it per family before a run when
+`similar` returns fewer than two tagged same-family examples, then passes
+`--widen 2` to `similar` so the brief carries the neighbours as
+`w<n>-widened.md` beside the corpus excerpts. Neighbours are look references
+only: unknown licence, so never uploaded, wired or injected; neighbours on
+our own hosts are dropped, and a page's excluded asset ids are honoured.
+
 ## Rules
 
 - Pexels and Unsplash only: their licences allow the comparison, and their

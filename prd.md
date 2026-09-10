@@ -162,8 +162,8 @@ taught it.
 
 ## Budget
 
-Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
-(image 20, video 60) and reviewed against the ledger.
+Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
+(image 40, video 60) and reviewed against the ledger.
 - A corpus `full-bleed` tag on an ai-models callout or hero is trusted only
   when that asset's `chrome` attribute is answered; unanswered, the slot-class
   row default (`dark-composite`) stands. Sibling pages of one CMS block share
@@ -266,3 +266,23 @@ Default run cap 300 credits, enforced by hook. Per-slot caps are advisory
   refine (pass in `imageUrls`) and add one variation candidate — each step
   preflighted and gated, the whole chain preflighted before step 1 so depth
   never overruns the section cap.
+- A slot's workflow is a Picsart Flow board: START, nodes each of one Flow
+  kind on one engine and one model, END, wired by `in:`. Blank board by
+  default; a gallery template only when its `fits` names the family and
+  device, its shape covers every panel, and it moves no invariant — then the
+  record names the template and what was adapted. The board is checked
+  (`lp-flow check`) before the first call and rendered (`lp-flow sheet`) as
+  the node sheet a person could rebuild on the Flow canvas. (2026-09-10,
+  Areg's decision after the Flow analysis)
+- Example, stock and widened images are read, never wired: no URL from
+  `examples/`, `corpus/references/` or `corpus/widened/` enters
+  `imageUrls`, `startFrame` or `image`. The only REF a board takes is what
+  the brief allows. Their licence is not ours and the corpus is the look's
+  spine, not its material. (2026-09-10)
+- The look-corpus has three tiers with three uses: Picsart's own pages
+  (layout and chrome; `similar`), licensed stock references (the photo
+  genre; `## References`), and widened neighbours found by reverse image
+  search on the corpus images (`lp-corpus widen`; more views of the same
+  look, unknown licence, look only). A brief may carry all three; only the
+  first two are searched by words, the third by the pictures themselves.
+  (2026-09-10)

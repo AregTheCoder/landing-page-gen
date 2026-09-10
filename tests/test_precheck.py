@@ -24,6 +24,7 @@ def make_run(tmp_path, count=1, spent=5, with_preflight=True, final_exists=True,
         f"    gate: 'one cup, centred'\n    status: done\n    note: '{note}'\n"
         f"final: {{url: x, local: steps/S03-m1-1-1.png}}\ncredits: {{quoted: 5, spent: {spent}}}\n")
     (sec / "result.md").write_text("---\nchosen: x\nscores: {clean: 5}\n---\n")
+    (sec / "flow.md").write_text("# Flow board\n")
     rows = []
     if with_preflight:
         rows.append({"tool": "picsart_preflight", "model": "gemini-3-pro-image",

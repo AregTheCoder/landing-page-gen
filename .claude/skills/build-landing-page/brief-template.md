@@ -37,6 +37,14 @@ You generate only the panels listed under **Panels**, one prompt per panel,
 each at the panel's generate ratio (`uv run lp-compose --describe <style>`).
 Chrome is composited afterwards by `lp-compose`; never ask a model for it.
 
+## Flow board
+
+<the output of `uv run lp-flow templates --family <family> --device <device> --query "<H2>"`:
+either "start from a blank board" or the fitting template(s) with title, url, shape, fits>
+
+Blank board by default. Copy a template above only when it passes the three
+tests in `flow-boards.md`; record `board:` and `template:` in `workflow.yaml`.
+
 ## Text in image
 
 | slot | string | role | panel | position |
@@ -64,6 +72,10 @@ Kept from source (do not produce): <list or "none">
 
 <for each of 2 examples: page slug, section type, the excerpt markdown, and
 the one local media path under examples/ (`similar -k 2`, one image each)>
+
+<when `similar --widen N` added neighbours: one line per `w<n>-widened.md`
+with its source and page. They show the family's look as the web holds it;
+read them for finish, light and framing; never wire them into a node>
 
 ## References
 

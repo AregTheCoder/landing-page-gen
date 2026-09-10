@@ -1,7 +1,7 @@
 # Evaluation
 
-Used three times: at every step gate (worker), on the final asset (worker
-self-eval, then reviewer), and on the workflow itself (reviewer).
+Used three times: at every node's gate (worker), on the final asset (worker
+self-eval, then reviewer), and on the board itself (reviewer).
 
 ## Asset rubric, score 1–5 each
 
@@ -23,9 +23,10 @@ rework with the lowest key named first.
 
 | Key | Question |
 |---|---|
-| justified | Is every step needed and the pattern right for the slot and its source media? For composites: family matches the brief, one generate per distinct panel, before/after pairs from one photo? |
-| gated | Was each step gated with a note that says what was seen, not just "ok"? |
-| quote_respected | Preflight before every paid step; `credits.spent` equals the ledger; within the slot cap? |
+| justified | Is every node needed and the recipe right for the slot and its source media? For composites: family matches the brief, one generate per distinct panel, before/after pairs from one photo? |
+| gated | Was each node gated with a note that says what was seen, not just "ok"? |
+| quote_respected | Preflight before every paid node; `credits.spent` equals the ledger; within the slot cap? |
+| board | Does `flow.md` read as a Flow a person could rebuild: every node one creative step on one model, `in:` wiring true to the placeholders, START carrying only allowed REFs? A template board: does `fits` cover the family and device, does `adapted` say what changed, and did the template move nothing an invariant pins? A blank board where a fitting template existed is a 4 with a note, never a rework. |
 
 ## Reviewer output: review-N.md
 
@@ -37,13 +38,13 @@ style: before-after
 verdict: accept | rework | block
 round: 1
 scores: {fit: 4, resemblance: 3, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
-workflow_score: {justified: 4, gated: 5, quote_respected: 5}
+workflow_score: {justified: 4, gated: 5, quote_respected: 5, board: 5}
 best_candidate: https://...
 ---
 
-## Changes requested (tied to steps)
-1. step 1: prompt lacks the product; add "..." and drop "...".
-2. step 3: enhance blurred the face; use topaz-upscale-image.
+## Changes requested (tied to nodes)
+1. node 1: prompt lacks the product; add "..." and drop "...".
+2. node 3: enhance blurred the face; use topaz-upscale-image.
 
 ## Notes
 What the examples do that this asset does not.

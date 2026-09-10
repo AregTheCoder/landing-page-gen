@@ -43,8 +43,13 @@ uv run lp-corpus styles --from-attrs                      # derive corpus/styles
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
 uv run lp-corpus similar --type hero --style full-bleed --query "<headline and body>" \
     --exclude ai-image-generator --exclude-asset <8hex> -k 3 --out runs/<run>/sections/S01/examples
+uv run lp-corpus widen template-mockup [--exact] [--limit 5]  # reverse-image neighbours of the family's assets -> corpus/widened/<family>.yaml (SERPAPI_KEY or GOOGLE_VISION_API_KEY)
+uv run lp-corpus similar ... --style template-mockup --widen 2  # + two neighbours in examples/ as w<n>-widened.md, look only
 uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
 uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
+uv run lp-flow templates --family template-mockup --device applied-mockup   # gallery templates that fit, from corpus/flow-templates.yaml
+uv run lp-flow check runs/<run>/sections/S07/workflow.yaml                  # does the board wire START -> nodes -> END
+uv run lp-flow sheet runs/<run>/sections/S07/workflow.yaml                  # -> flow.md, the node sheet for the Flow canvas
 uv run lp-inject runs/<run>
 ```
 
@@ -59,9 +64,15 @@ the served URL is kept on each element as `data-lp-src`.
 
 ## Rules
 
-- A worker writes `workflow.yaml` (every step, model, params, gate) before
-  running anything, and preflights every paid step. `result.md` follows the
+- A worker's `workflow.yaml` is a Picsart Flow board: START, nodes (one
+  Flow kind, one engine, one model, `in:` wiring, a gate each), END. Blank
+  board by default; a gallery template from `corpus/flow-templates.yaml`
+  only when it fits the family and device, covers every panel and moves no
+  invariant. Written whole and `lp-flow check`ed before anything runs, every
+  paid node preflighted, `flow.md` rendered after. `result.md` follows the
   output contract in the `build-landing-page` skill.
+- Corpus, stock references and widened neighbours are read for the look and
+  never wired into a node (`imageUrls`, `startFrame`, `image`).
 - Paid calls only on the `b05f6314` connector and only after a preflight.
   Inside an active run (`runs/current` exists) the `hooks/` scripts enforce
   this, deny dry-run and over-cap calls, and log every URL to
