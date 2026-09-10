@@ -286,3 +286,6 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   look, unknown licence, look only). A brief may carry all three; only the
   first two are searched by words, the third by the pictures themselves.
   (2026-09-10)
+- A reviewer spawn fits ~6 sections in its turn budget: split larger waves and write each review-1.md before touching the next section (showcase-1: the 12-section spawn read everything and wrote nothing).
+- Check Picsart Drive headroom before a run with derivative families (before-after, cutout-checkerboard, crop-frame's change_bg route): enhance/remove_bg/change_bg have no saveToDrive:false, so a full Drive blocks every after/cutout panel (showcase-1 S05, S08).
+- An aspect the generate enum cannot quote (3:2) is generated at the nearest enum and delivered with a recorded centre-crop, never silently stretched (showcase-1 S12).
