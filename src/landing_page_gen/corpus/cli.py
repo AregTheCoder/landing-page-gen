@@ -314,6 +314,7 @@ def main(argv=None) -> int:
                           + (f"  STOPPED ({st['stopped']})" if st["stopped"] else ""))
                 if led is not None:
                     led.append_run(stats)
+                    led.prune()  # else _api.sqlite grows unbounded (10 MB and counting)
                 for path in paths:
                     print(f"{path}: {stats['raw']} found, {stats['new']} new, {stats['dropped']} dropped "
                           f"({stats['dropped_by']['corpus']} corpus, {stats['dropped_by']['pool']} pool, "
