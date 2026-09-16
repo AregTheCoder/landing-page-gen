@@ -301,7 +301,6 @@ def main(argv=None) -> int:
                 paths, stats = pool.search(a.family, limit_per_term=a.limit_per_term, explore=a.explore,
                                            use_threshold=not a.no_threshold, ranker_name=a.rank,
                                            max_per_creator=a.max_per_creator,
-                                           composition=a.composition,
                                            run_id=run_id, log=log, **common)
                 for pf, st in stats["platforms"].items():
                     pre = st["prefiltered"]

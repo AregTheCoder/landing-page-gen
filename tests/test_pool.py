@@ -899,3 +899,28 @@ def test_limit_per_term_caps_admissions_not_pages(tmp_path):
                            max_per_creator=99, log=lambda m: None)
     assert stats["raw"] == 3, f"admitted {stats['raw']} against a cap of 3"
     assert stats["platforms"]["pexels"]["results"] == stock.PER_PAGE["pexels"], "the page still arrived whole"
+
+
+def test_cli_search_reaches_pool_search_with_every_flag_once(tmp_path, monkeypatch):
+    """The unit tests call pool.search directly, so nothing covered the CLI's
+    own argument wiring — and `composition` went out both inside the shared
+    kwargs and again explicitly, which is a TypeError on every invocation.
+    This asserts the call is made, once, with the flags the user typed."""
+    from landing_page_gen.corpus import cli
+    seen = {}
+
+    def fake_search(family, **kw):
+        seen["family"], seen["kw"] = family, kw
+        return [], {"platforms": {}, "skipped_platforms": [], "raw": 0, "new": 0,
+                    "dropped": 0, "moved": 0, "auto_dropped": 0, "elapsed_s": 0.0,
+                    "ranker": "histogram", "dropped_by": {}, "rate_limited": False}
+    monkeypatch.setattr(pool, "search", fake_search)
+    monkeypatch.setattr(stock, "keys_available", lambda platforms, keys=None, environ=None: ({}, []))
+    rc = cli.main(["pool", "search", FAMILY, "--out", str(tmp_path), "--composition", "layout",
+                   "--limit-per-term", "7", "--max-per-creator", "8", "--rank", "histogram",
+                   "--platform", "pexels"])
+    assert rc == 0, "the CLI search path runs"
+    assert seen["family"] == FAMILY
+    assert seen["kw"]["composition"] == pool.LAYOUT
+    assert seen["kw"]["limit_per_term"] == 7 and seen["kw"]["max_per_creator"] == 8
+    assert seen["kw"]["platforms"] == ("pexels",)
