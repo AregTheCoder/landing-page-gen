@@ -214,9 +214,10 @@ step 5's precheck, append its photo URL to `shared-context.md` under
 `imageUrls`, everyone else ignores it. Nothing waits on the hero image — §3's
 shared context is written from the skeleton.
 
-Record each agent's tokens and wall time from its completion notification in
-`report.md` under "Agents" (one line per spawn), so the next run can be
-compared.
+Do not hand-log tokens per spawn: after the run, `uv run lp-tokens <run>`
+reads the session transcript and emits the per-agent token/cost `## Agents`
+table (turns, average context, output, cache-read, cost, and the polls,
+sleeps and ledger reads that drive them). Paste it into `report.md` at §6.
 
 ## 5. Precheck and review, per section as workers finish
 
@@ -230,8 +231,11 @@ compared.
    without its source). A problem here is a SendMessage to the worker
    ("Record fix: ...") and a re-run of the check, never a review round.
 2. The moment a section passes its precheck, spawn a `section-reviewer` for
-   that section — the run folder, that one section folder (batch up to 3 that
-   clear precheck close together), and `<run>/ledger.jsonl`. Review overlaps
+   that section — the run folder and that one section folder (batch up to 3
+   that clear precheck close together). The precheck (§5.1) has already
+   reconciled `credits.spent` against the ledger, so the prompt says
+   `precheck: clean record` instead of passing `<run>/ledger.jsonl`; the
+   reviewer never greps the ledger. Review overlaps
    the still-running wave instead of following it, and each spawn stays well
    inside its turn budget. It writes one `review-N.md` per section named, with
    `verdict: accept | rework | block` and numbered change requests tied to
@@ -267,8 +271,8 @@ has already looked. Keep your own context for coordination.
    with how many neighbours; which families drew pool references, how many
    each, and the `--seed` used;
    kept-from-source and blocked slots; balance delta versus ledger sum; the
-   "Agents" table (spawn, model, tokens, minutes) and the wall time from the
-   first spawn to the last verdict.
+   `## Agents` table from `uv run lp-tokens <run>` (§4) and the wall time from
+   the first spawn to the last verdict.
 
 ## Dry run
 

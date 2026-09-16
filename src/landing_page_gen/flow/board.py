@@ -178,6 +178,11 @@ def check(doc):
         )
         if kind not in NODE_ENGINES:
             problems.append(f"{sid}: node kind {kind!r} (one of {', '.join(NODE_ENGINES)})")
+        elif kind == "enhance" and s.get("tool") == "picsart_generate" and not enhance_workaround:
+            problems.append(
+                f"{sid}: enhance node on picsart_generate needs model in "
+                f"{{{', '.join(sorted(ENHANCE_MODELS))}}} (the Drive-403 workaround: "
+                f"picsart_generate + topaz-upscale-image, saveToDrive:false); else use picsart_enhance")
         elif s.get("tool") and s["tool"] not in NODE_ENGINES[kind] and NODE_ENGINES[kind] \
                 and not enhance_workaround:
             problems.append(f"{sid}: {kind} node on {s['tool']} (expects {' or '.join(sorted(NODE_ENGINES[kind]))})")
