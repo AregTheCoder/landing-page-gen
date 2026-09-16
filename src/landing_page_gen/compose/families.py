@@ -19,62 +19,102 @@ CHECKER = ((58, 58, 60), (42, 42, 44))
 # a spec overrides an item by id and drops one with `omit`.
 FAMILIES = {
     "before-after": {
-        "aspect": (1, 1),
-        "ground": {"fill": BLACK},
-        "radius": 40,
-        "panels": {
-            "before": {"rect": (0, 0, 600, 630)},
-            "after": {"rect": (0, 660, 600, 1290)},
-            "result": {"rect": (630, 0, 1600, 1600)},
-        },
-        "chrome": [
-            {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "translucent"},
-            {"id": "after-pill", "kind": "pill", "at": "after", "corner": "bl", "text": "After", "style": "translucent"},
-            {"id": "tile", "kind": "tile", "rect": (0, 1320, 600, 1600), "icon": "enlarge"},
-        ],
-    },
-    "crop-frame": {
+        # Ground is transparent on every corpus composite (alpha-0 gutters); the
+        # page section supplies the surround. The 1:1 stacked pair is the rare
+        # form (1/20) but is what a callout-1:1 slot needs, so it stays the
+        # default; the modal WIDE card (14/20, e.g. 08385997 ai-image-enhancer
+        # S09, c5715e9b image-upscale S07) is the `wide` variant for 2:1 slots.
         "aspect": (1, 1),
         "ground": {"fill": None},
         "radius": 40,
         "panels": {
-            "source": {"rect": (0, 400, 780, 1600)},
-            "result": {"rect": (820, 0, 1600, 1600)},
+            "before": {"rect": (0, 0, 604, 632)},
+            "after": {"rect": (0, 664, 604, 1296)},
+            "result": {"rect": (636, 0, 1600, 1600)},
         },
         "chrome": [
-            {"id": "tile", "kind": "tile", "rect": (0, 0, 780, 360), "icon": "enlarge"},
-            {"id": "brackets", "kind": "brackets", "at": "source", "frac": (0.3, 0.22, 0.7, 0.66), "label": "x2"},
+            {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "translucent"},
+            {"id": "after-pill", "kind": "pill", "at": "after", "corner": "bl", "text": "After", "style": "translucent"},
+            {"id": "tile", "kind": "tile", "rect": (0, 1328, 604, 1600), "icon": "enlarge"},
         ],
+        "variants": {
+            # modal wide card, 1060x504 native scaled to 1600 wide (08385997,
+            # c5715e9b): before + icon tile left, result right, solid-dark pills,
+            # "After" on the RESULT. For 21:10 (callout-2:1) slots.
+            "wide": {
+                "aspect": (21, 10),
+                "panels": {
+                    "before": {"rect": (24, 24, 610, 519)},
+                    "result": {"rect": (622, 24, 1576, 737)},
+                },
+                "chrome": [
+                    {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "solid-dark"},
+                    {"id": "after-pill", "kind": "pill", "at": "result", "corner": "bl", "text": "After", "style": "solid-dark"},
+                    {"id": "tile", "kind": "tile", "rect": (24, 531, 610, 737), "icon": "enlarge"},
+                ],
+            },
+        },
     },
-    "cutout-checkerboard": {
+    "crop-frame": {
+        # Ground is BLACK (10/13 in-family assets, all crop-image pages;
+        # 5f91c6aa resize-image S07 is the geometry model). The source panel is
+        # dimmed under white brackets, and the top-left mark is a bare white
+        # outline icon on the ground, not a filled tile.
         "aspect": (1, 1),
         "ground": {"fill": BLACK},
         "radius": 40,
         "panels": {
-            "cutout-a": {"rect": (0, 0, 510, 780), "under": "checkerboard", "fit": "contain"},
-            "cutout-b": {"rect": (0, 820, 510, 1600), "under": "checkerboard", "fit": "contain"},
-            "result": {"rect": (560, 40, 1600, 1330)},
+            "source": {"rect": (0, 392, 784, 1600), "dim": 0.35},
+            "result": {"rect": (816, 0, 1600, 1600)},
+        },
+        "chrome": [
+            {"id": "icon", "kind": "icon", "rect": (232, 100, 552, 264), "icon": "enlarge"},
+            {"id": "brackets", "kind": "brackets", "at": "source", "frac": (0.30, 0.22, 0.70, 0.66), "label": "x2"},
+        ],
+    },
+    "cutout-checkerboard": {
+        # Ground is transparent (alpha-0 gutters on every 1:1 asset; the page
+        # supplies black/white). Skeleton is real (4604e99a batch-photo-editor
+        # S06): two checker panels left, magenta badges, big light result, dark
+        # button. `checker_tone` is dark by default (batch/sticker pages); set
+        # it light on background-remover/-changer pages. (The corpus's
+        # partial-fill checker — photo backdrop kept on part of the panel — needs
+        # the pre-remove_bg frame as a second input; deferred, see STANDARD.md.)
+        "aspect": (1, 1),
+        "ground": {"fill": None},
+        "radius": 40,
+        "panels": {
+            "cutout-a": {"rect": (0, 0, 513, 784), "under": "checkerboard", "fit": "contain"},
+            "cutout-b": {"rect": (0, 816, 513, 1600), "under": "checkerboard", "fit": "contain"},
+            "result": {"rect": (545, 0, 1600, 1360)},
         },
         "chrome": [
             {"id": "badge-a", "kind": "badge", "at": "cutout-a", "corner": "tr"},
             {"id": "badge-b", "kind": "badge", "at": "cutout-b", "corner": "tr"},
-            {"id": "button", "kind": "pill", "rect": (590, 1370, 1600, 1560), "text": "Add to bag", "style": "solid-dark"},
+            {"id": "button", "kind": "pill", "rect": (545, 1390, 1600, 1600), "text": "Add to bag", "style": "solid-dark"},
         ],
     },
     "template-mockup": {
+        # Ground is transparent (12/14 corpus assets; the page supplies
+        # white/black). The `photo` panel IS the finished card design filling the
+        # card interior — the model renders the poster/headline typography inside
+        # it (never blank bars, which appear in 0/14). Left column is 3 MIXED
+        # tiles (one magenta accent, not 4 uniform black): geometry from
+        # c3461329, b2749949. /black is the same artwork exported on a dark page
+        # (a fill override, not a separate drawing). The selection-frame chrome,
+        # swatch-stripe tile and /editor exploded view are deferred (new
+        # primitives; see STANDARD.md).
         "aspect": (1, 1),
-        "ground": {"fill": WHITE},
+        "ground": {"fill": None},
         "radius": 40,
         "panels": {
-            "photo": {"rect": (580, 660, 1320, 1320)},
+            "photo": {"rect": (600, 200, 1400, 1400)},
         },
         "chrome": [
-            {"id": "card", "kind": "card", "rect": (520, 240, 1380, 1380), "fill": (43, 20, 90)},
-            {"id": "headline", "kind": "headline", "rect": (580, 300, 1320, 600), "text": ""},
-            {"id": "tile-1", "kind": "tile", "rect": (240, 240, 500, 500), "icon": "sparkle"},
-            {"id": "tile-2", "kind": "tile", "rect": (240, 520, 500, 780), "icon": "crop"},
-            {"id": "tile-3", "kind": "tile", "rect": (240, 800, 500, 1060), "icon": "enlarge"},
-            {"id": "tile-4", "kind": "tile", "rect": (240, 1080, 500, 1340), "icon": "check"},
+            {"id": "card", "kind": "card", "rect": (556, 152, 1444, 1448), "fill": (43, 20, 90)},
+            {"id": "tile-1", "kind": "tile", "rect": (152, 152, 532, 532), "icon": "sparkle", "fill": MAGENTA},
+            {"id": "tile-2", "kind": "tile", "rect": (152, 560, 532, 940), "icon": "crop", "fill": (0, 0, 0)},
+            {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
         ],
     },
     "dark-composite": {
@@ -82,13 +122,18 @@ FAMILIES = {
         "ground": {"fill": BLACK},
         "radius": 40,
         "panels": {
-            "photo": {"rect": (0, 0, 1180, 1600)},
+            "photo": {"rect": (570, 150, 1450, 1450)},
         },
         "chrome": [
-            # tiles a step lighter than the black card, else only the glyphs show (live-3 review of S01/S04/S05)
-            {"id": "tile-1", "kind": "tile", "rect": (1220, 0, 1600, 380), "icon": "sparkle", "fill": (28, 28, 30)},
-            {"id": "tile-2", "kind": "tile", "rect": (1220, 420, 1600, 800), "icon": "crop", "fill": (28, 28, 30)},
-            {"id": "chip", "kind": "label", "rect": (1220, 1220, 1600, 1600), "text": "4K"},
+            # Column on the LEFT (x150-530, 380 wide), three boxes; the main
+            # card sits right, inset 150. Evidence: 21cdafd9, 8031c225, d5d56eb0,
+            # f57c774f, bd014004. tile-1 = a tool glyph (#1c1c1e); tile-2 = the
+            # page's ACTIVE tool, a MAGENTA accent (8/13 assets carry one); tile-3
+            # = a flat colour-swatch tile. No "4K" chip — a resolution/format chip
+            # is in 0/13 of the current population (opt-in via `chrome: {chip}`).
+            {"id": "tile-1", "kind": "tile", "rect": (150, 150, 530, 530), "icon": "sparkle", "fill": (28, 28, 30)},
+            {"id": "tile-2", "kind": "tile", "rect": (150, 570, 530, 950), "icon": "crop", "fill": MAGENTA},
+            {"id": "tile-3", "kind": "tile", "rect": (150, 990, 530, 1450), "fill": (90, 90, 96)},
         ],
         # Devices (`variant:` in the spec; `> device:` in the skeleton): the panel
         # arrangement that tells the section's story. A key a variant omits is
