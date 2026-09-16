@@ -15,8 +15,11 @@ can be produced with an image pattern first.
 2. draft: `seedance-2.0-mini`, `duration: 5`, `resolution: 720p`,
    `generateAudio: false`, `extra: {startFrame: <still url>}`, prompt =
    camera move + subject motion in one sentence each, "slow", "subtle" by
-   default; `async: true`, poll `picsart_job_status`. Gate: motion matches
-   the prompt, no morphing, first frame equals the still.
+   default; `async: true`. The instant it returns, record the job handle,
+   then poll at most three times: `picsart_job_status`, one Bash `sleep` of
+   the job's `progress.estimatedSecondsLeft` (clamped 45–540 s), then
+   `picsart_job_status`. Gate: motion matches the prompt, no morphing, first
+   frame equals the still.
 3. final: `seedance-2.5`, same params at 720p (1080p only if the slot is
    wider than 1300 px and the brief allows 90 credits). Gate as above.
 

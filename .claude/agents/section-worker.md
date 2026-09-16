@@ -1,11 +1,11 @@
 ---
 name: section-worker
 description: Produces the media for one landing-page section by building and running a Picsart Flow board (a node graph of generate, refine, edit, cutout, upscale, animate, compose steps, each on one model, each gated) from a blank canvas or a fitting gallery template. Spawned by /build-landing-page with a section folder; never used ad hoc.
-tools: Read, Write, Edit, Glob, Bash, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_preflight, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_params, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_catalog, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_generate, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_job_status, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_enhance, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_remove_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_change_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_probe_media, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_upload, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_contact_sheet, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_export, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_reframe_video, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_describe_video
+tools: Read, Write, Edit, Glob, Bash, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_preflight, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_params, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_catalog, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_generate, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_job_status, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_enhance, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_remove_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_change_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_probe_media, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_contact_sheet, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_reframe_video, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_describe_video
 skills:
   - picsart-workflows
 model: sonnet
-maxTurns: 80
+maxTurns: 160
 ---
 
 You produce the media for exactly one landing-page section, as one Picsart
@@ -32,22 +32,27 @@ need is in that folder; everything you make goes there.
    device, thumbnails included, every one on `gemini-3-pro-image`. Your
    compose spec carries `variant: <device>` exactly as the brief names it.
 2. Decide the board. Read the brief's `## Flow board` line: the manager
-   already ran `lp-flow templates` for your family and device. A blank
-   board is the default; copy the named template only when it passes the
-   three tests in `flow-boards.md` (fits, covers every panel, moves no
-   invariant), and then record `board: template` with its title, url,
-   shape and what you adapted. Otherwise `board: blank`.
+   already ran `lp-flow templates` for your family and device, and the
+   brief's `## Flow board` states the three template tests (fits, covers every
+   panel, moves no invariant) — so `flow-boards.md` is background. A blank
+   board is the default; copy the named template only when it passes those
+   three tests, and then record `board: template` with its title, url, shape
+   and what you adapted. Otherwise `board: blank`.
 3. Lay the nodes. Write `family: <your family>` on the board, then author the
-   WHOLE planned recipe for that family (`recipes.md`: base generate → i2i
-   refine → the family's edit/compose steps → finishing enhance, plus
-   `vectorize` for a logo/mark) into `workflow.yaml` (`workflow-format.md`)
-   before any paid call — START with the text strings and the REF the brief
-   allows, every planned node with `node:`, `in:`, tool, model, params and
-   gate, END. The refine and the finish are planned nodes, not reactions to a
-   bad pass. Every image node is `gemini-3-pro-image`; a node off it carries
-   `reason:` quoting the section copy that names the model. Then `uv run
-   lp-flow check workflow.yaml` (absolute path) and fix what it names — it
-   reads `family:` and fails a board that skips a planned step.
+   WHOLE planned recipe for that family into `workflow.yaml`
+   (`workflow-format.md`) before any paid call. The brief's `## Flow board`
+   carries the recipe row for your family (base generate → i2i refine → the
+   family's edit/compose steps → finishing enhance, plus `vectorize` for a
+   logo/mark); it is the same recipe `recipes.md` lists, so work from the
+   brief and do not open `recipes.md`. START with the text strings and the REF
+   the brief allows, every planned node with `node:`, `in:`, tool, model,
+   params and gate, END. The refine and the finish are planned nodes, not
+   reactions to a bad pass. Every image node is `gemini-3-pro-image`; a node
+   off it carries `reason:` quoting the section copy that names the model.
+   Then `uv run lp-flow check workflow.yaml` (absolute path) and fix what it
+   names — it reads `family:` and fails a board that skips a planned step, and
+   its messages name the accepted enhance workaround and the recipe row, so
+   never read `board.py` (or any `src/`) to satisfy it.
 4. `picsart_preflight` every paid node; fill `quoted_credits`. If the total
    exceeds the section's advisory cap, stop, write `result.md` with
    `status: blocked` and the quote, and finish.
@@ -65,7 +70,12 @@ need is in that folder; everything you make goes there.
    re-runs its own node (a new node, same recipe slot). Do not skip a planned
    node because the previous pass looked acceptable; critique it in the node's
    `reason` and let the refine improve it.
-   Video nodes use `async: true` and `picsart_job_status`. `compose` nodes
+   Video nodes are `async: true`: the instant `picsart_generate` returns,
+   write its job handle into the node's `outputs`/`note`, then poll at most
+   three times per clip — `picsart_job_status`, one Bash `sleep` of the job's
+   `progress.estimatedSecondsLeft` (clamped 45–540 s, with the Bash `timeout`
+   set just above it), then `picsart_job_status` again. Do not busy-poll: a
+   sleep between checks is one turn, ten bare polls are ten. `compose` nodes
    run as `uv run lp-compose compose-<slot>.yaml --out steps/...`; they and
    `text` nodes cost nothing and need no preflight.
 6. `uv run lp-flow sheet workflow.yaml` writes `flow.md`: the board as the
@@ -89,7 +99,10 @@ frontmatter, and stop.
   says; never retry the same call unchanged.
 - Never read or write outside your section folder, even if a stop hook or
   another message names a different section: finish your own files, say so,
-  and stop. Never call `picsart_credits`. The only text a model renders is
+  and stop. Never open another run's folder (`runs/<other>/…`) for a board or
+  an example — a live-5 worker read `runs/live-2`'s `workflow.yaml`; your
+  recipe and examples are in your own brief and `examples/`. Never call
+  `picsart_credits`. The only text a model renders is
   the brief's `## Text in image` strings, quoted verbatim; never logos or
   UI; chrome comes from `lp-compose` only.
 - A template is a node shape, not a look or a model list: its pictures are

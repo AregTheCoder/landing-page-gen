@@ -100,3 +100,25 @@ def test_inject_resolves_run_relative_chosen(tmp_path, monkeypatch):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup((run / "dist" / "index.html").read_text(), "html.parser")
     assert soup.select_one('[data-lp="S01-m1"]')["data-lp-chosen"] == "sections/S01/steps/S01-m1-3-1.png"
+
+
+def test_inject_assembles_page_md_from_result_frontmatter(tmp_path):
+    """A7: with sections/*/result.md present, lp-inject writes page.md itself
+    (chosen + workflow per slot) instead of the manager hand-writing it."""
+    run = build_run(tmp_path)
+    chosen = tmp_path / "hero.png"
+    Image.new("RGB", (1600, 900), "red").save(chosen)
+    (run / "sections" / "S01").mkdir(parents=True)
+    (run / "sections" / "S01" / "result.md").write_text(
+        f"---\nsection: S01\nslots:\n  S01-m1:\n    chosen: {chosen}\n    local: steps/x.png\n---\nprose\n")
+    (run / "sections" / "S02").mkdir(parents=True)
+    (run / "sections" / "S02" / "result.md").write_text(
+        "---\nsection: S02\nslots:\n  S02-m1:\n    chosen: null\n---\nprose\n")
+    assert not (run / "page.md").exists()
+
+    report = inject.inject(run, log=lambda m: None, localise_css_assets=False)
+
+    page = (run / "page.md").read_text()
+    assert "chosen:" in page and "workflow: sections/S01/workflow.yaml" in page
+    assert report["filled"] == ["S01-m1"] and report["placeholders"] == ["S02-m1"]
+    assert "S03-m1" in report["kept"]

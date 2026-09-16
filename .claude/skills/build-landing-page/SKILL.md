@@ -117,79 +117,39 @@ page's families are covered.
 
 ## 2. Write one brief per section
 
-For each section with slots, fill `brief-template.md` into
-`<run>/sections/<Sxx>/brief.md`:
+The four `>` lines (annotation, style, text, device) are the manager's
+judgement (§1.4–1.7). Once a section's are resolved in `skeleton.md`, assemble
+its brief deterministically — do not read `style-families.md`, `slots.json`, the
+example excerpts or the references yourself:
 
-- the page frontmatter's `page`, `brand`, `audience`, `defaults`, `budget`
-  and `notes`; never `source:` or `snapshot:` (nothing in a brief needs the
-  original's URL or path; `lp-inject` reads the snapshot from `slots.json`);
-- that H2 block verbatim (text, slots, annotations, the `> device:` line)
-  and nothing from other sections; strip `src:`, `local:` and `alt:` from
-  its slot blocks; the `Device:` line under `## Style family` repeats the
-  id and claim and says whether it is a compose variant or an annotation;
-  the `## Slots to produce` table lists every panel of the variant;
-- the slot's `## <style>` block from `picsart-workflows/style-families.md`,
-  verbatim, under `## Style family`, followed by its **Signature** line as a
-  checklist (one item per attribute) that `resemblance` walks;
-- the `## Text in image` table: one row per string from the slot's
-  `> text:` line with its role (headline or call-to-action), the panel that
-  carries it and where; or the single word `none`;
-- 2 example sections of the same type, same family first, one image each:
-  `uv run lp-corpus similar --type <type> --style <true family[/ground]>
-  --query "<headline and body>" --exclude <frontmatter page>
-  --exclude-asset <id> [--exclude-asset <id> ...] -k 2
-  --out <run>/sections/<Sxx>/examples/` (excerpt `.md` files plus one
-  480 px PNG each; video examples arrive as a still frame). A worker reads
-  every image it is given, so two pictures that show the look beat twelve.
-  `--exclude-asset` is repeatable: pass one per generated slot of the whole
-  page, the id being the first 8 hex of the uuid in the slot's `src` (what
-  `attrs.asset_id` and the Examples lines use), not the hash at the end of
-  `local:` (that is `sha1(url)`, and differs per CDN host). Blocks shared
-  site-wide (the tutorial grid) show this page's own images on other pages
-  and other section types, which is why every slot's id goes on every call;
-  `--attr ground=black` narrows further;
-  When the family has kept pool entries (`corpus/pool/<family>.yaml`), add
-  `--pool 2 --seed <run folder name>` to the same call: two licensed stock
-  images land as `p<n>-pool.md` + PNG beside the corpus excerpts, rotated by
-  the seed so the next run sees different ones. Pool images carry a known
-  licence and a credit line; they are still look references only, and no
-  worker wires one into a node.
-  When `similar` prints fewer than 2 tagged same-family examples and the
-  pool has nothing kept, widen the family instead: `uv run lp-corpus widen
-  <family>` (once per family per fortnight; `SERPAPI_KEY` or
-  `GOOGLE_VISION_API_KEY` in the environment, no key means skip and say so
-  in the report) and re-run `similar` with `--widen 2`, which adds two
-  visual neighbours of the family's corpus assets as `w<n>-widened.md` +
-  PNG. Neighbours are look references with an unknown licence: the brief
-  says so, and no worker wires one into a node;
-- the `## Flow board` section: the output of `uv run lp-flow templates
-  --family <family> --device <device> --query "<H2>"`, verbatim — either
-  "start from a blank board" or the fitting template(s). The worker decides;
-  you only put the catalogue's answer in front of it;
-- the `## References` section from `corpus/references/<family>.yaml`: its
-  `prompt_guidance` verbatim, the `search_terms`, and two `examples`
-  entries whose `matches` fit this slot's class. This is where the photo's
-  look comes from; the section copy gives the subject matter and, through
-  `> device:`, what the panels demonstrate together;
-- `<run>/shared-context.md` if it exists (see step 3);
-- the budget line (advisory per-slot cap from the frontmatter) and the
-  output contract.
+```
+uv run python .claude/skills/build-landing-page/brief.py <run> <Sxx> \
+    [--pool N --seed <run>] [--widen N]
+```
 
-Write `<run>/shared-context.md` (§3) first, before any brief — it is derived
-from the skeleton alone, and every brief carries it, so it must exist before
-the first section is spawned.
+`brief.py` fills `brief-template.md` from the skeleton and the corpus: the
+section block (verbatim, minus `src:/local:/alt:`), the family's
+`style-families.md` block and its **Signature** checklist (a
+`Template: none; brief as X` becomes X's block with a `Stands in for:` line;
+a video slot is briefed as its poster family's main panel), the recipe row
+rendered from `flow/board.py` RECIPES (never a hand-typed table that could
+drift from `lp-flow check`), `lp-flow templates`, `similar -k 2` with the
+page's own asset ids excluded (from `slots.json`, so no `exclude_ids.txt`),
+the references genre and terms, `shared-context.md`, the budget and the output
+contract. It runs `blindcheck.py` for that section and refuses to write on a
+hit — fix the hit (exclude the id, or delete the example) and re-run.
 
-Blind-check and spawn each section the moment its brief is written, rather
-than waiting for the whole set: as you finish a section's brief, run
-`uv run python .claude/skills/build-landing-page/blindcheck.py <run> <Sxx>`.
-It greps that section's brief and example excerpts for the page's own asset
-ids (read page-wide from `slots.json`) and for `snapshot:`/`source:`
-pointers. A hit names the section: re-run `similar` with the id excluded or
-delete that example, and strip the line it names, then re-check. That section
-gets no worker while its check fails; a clean section is spawned straight away
-(§4). When every brief is written, run the whole-run check once
-(`blindcheck.py <run>`, no section) as a backstop and record its clean result
-in the report.
+Pass `--pool 2 --seed <run>` when the family has kept pool entries
+(`corpus/pool/<family>.yaml`); pass `--widen 2` (after `uv run lp-corpus widen
+<family>`, once per family per fortnight) when `similar` yields fewer than two
+same-family examples and the pool is empty. Both add look-only references the
+worker never wires into a node.
+
+Write `<run>/shared-context.md` (§3) first — every brief carries it, so it must
+exist before the first section. Spawn each section the moment its brief is
+written (§4); when every brief is written, run the whole-run backstop once
+(`uv run python .claude/skills/build-landing-page/blindcheck.py <run>`, no
+section) and record its clean result in the report.
 
 ## 3. Shared context, before any worker
 
@@ -214,9 +174,10 @@ step 5's precheck, append its photo URL to `shared-context.md` under
 `imageUrls`, everyone else ignores it. Nothing waits on the hero image — §3's
 shared context is written from the skeleton.
 
-Record each agent's tokens and wall time from its completion notification in
-`report.md` under "Agents" (one line per spawn), so the next run can be
-compared.
+Do not hand-log tokens per spawn: after the run, `uv run lp-tokens <run>`
+reads the session transcript and emits the per-agent token/cost `## Agents`
+table (turns, average context, output, cache-read, cost, and the polls,
+sleeps and ledger reads that drive them). Paste it into `report.md` at §6.
 
 ## 5. Precheck and review, per section as workers finish
 
@@ -230,8 +191,11 @@ compared.
    without its source). A problem here is a SendMessage to the worker
    ("Record fix: ...") and a re-run of the check, never a review round.
 2. The moment a section passes its precheck, spawn a `section-reviewer` for
-   that section — the run folder, that one section folder (batch up to 3 that
-   clear precheck close together), and `<run>/ledger.jsonl`. Review overlaps
+   that section — the run folder and that one section folder (batch up to 3
+   that clear precheck close together). The precheck (§5.1) has already
+   reconciled `credits.spent` against the ledger, so the prompt says
+   `precheck: clean record` instead of passing `<run>/ledger.jsonl`; the
+   reviewer never greps the ledger. Review overlaps
    the still-running wave instead of following it, and each spawn stays well
    inside its turn budget. It writes one `review-N.md` per section named, with
    `verdict: accept | rework | block` and numbered change requests tied to
@@ -249,26 +213,26 @@ has already looked. Keep your own context for coordination.
 
 ## 6. Assemble
 
-1. Write `<run>/page.md`: the skeleton with each filled `slot` block
-   replaced by a `chosen` line (`chosen: <url or run-relative path>` and
-   `workflow: sections/<Sxx>/workflow.yaml`), kept-from-source slots left
-   untouched.
-2. `uv run lp-inject <run>`.
-3. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
+1. `uv run lp-inject <run>` — it reads the skeleton and each
+   `sections/<Sxx>/result.md` frontmatter (the worker's `chosen` asset and
+   `workflow` per slot) and assembles `<run>/page.md` itself, kept-from-source
+   slots untouched, then injects the media and changed text. Do not hand-write
+   page.md.
+2. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
    measured against the original it replaced (family, ground, coverage,
    saturation, and for composites the `pictures` count, a device proxy that
    raises `[fit]` flags) with flags keyed to the rubric. Paste its per-slot table and
    flags into `report.md` under "Against the original" **before** opening
    any original yourself; then look, and write what the numbers missed.
-4. `picsart_credits` again. Finish `report.md`: per section board (blank,
+3. `picsart_credits` again. Finish `report.md`: per section board (blank,
    or the template title), recipe, nodes, credits quoted vs spent (from
    `ledger.jsonl`), rounds, verdict; totals, with how many boards were
    blank and how many copied a template; which families were widened and
    with how many neighbours; which families drew pool references, how many
    each, and the `--seed` used;
    kept-from-source and blocked slots; balance delta versus ledger sum; the
-   "Agents" table (spawn, model, tokens, minutes) and the wall time from the
-   first spawn to the last verdict.
+   `## Agents` table from `uv run lp-tokens <run>` (§4) and the wall time from
+   the first spawn to the last verdict.
 
 ## Dry run
 

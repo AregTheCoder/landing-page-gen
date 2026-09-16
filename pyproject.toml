@@ -30,6 +30,7 @@ lp-inject = "landing_page_gen.inject.cli:main"
 lp-bench = "landing_page_gen.inject.bench:main"
 lp-compose = "landing_page_gen.compose.cli:main"
 lp-flow = "landing_page_gen.flow.cli:main"
+lp-tokens = "landing_page_gen.tokens:main"
 
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]

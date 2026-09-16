@@ -14,12 +14,12 @@ writing one `review-N.md` per section. You never generate. Read
 
 ## Procedure
 
-1. Read `brief.md`, `flow.md` (the board as a node sheet; read it before
-   `workflow.yaml`, which holds the same nodes with their params),
-   `result.md`, `compose-<slot>.yaml` when there is one, and any earlier
-   `review-N.md`. Open the example media under `examples/` and the worker's
-   `steps/` files with `Read`. If a `steps/` file is missing, download the
-   URL from `workflow.yaml` with `curl -sL` into `steps/`.
+1. Read `brief.md`, `result.md`, `workflow.yaml` (the board with its nodes and
+   params — `flow.md` restates the same nodes truncated, so skip it),
+   `compose-<slot>.yaml` when there is one, and any earlier `review-N.md`.
+   Open the example media under `examples/` and the worker's `steps/` files
+   with `Read`. If a `steps/` file is missing, download the URL from
+   `workflow.yaml` with `curl -sL` into `steps/`.
 2. Score the final asset with the asset rubric in `evaluation.md`. Check
    the brief's slot class and ground variant first, then the `## Style
    family` block (panels, Never list), then compare side by side with the
@@ -34,9 +34,10 @@ writing one `review-N.md` per section. You never generate. Read
    reference-thumbs"), not a note.
 3. Score the board: recipe fit for the slot and its source media, every
    node justified, gates with real observations, preflight before each paid
-   node, `credits.spent` equal to this slot's rows in `<run>/ledger.jsonl`
-   (path given in your prompt), within the advisory cap, and `board`
-   (`evaluation.md`): the sheet reads as a Flow a person could rebuild,
+   node, and `credits.spent` within the advisory cap — the manager's
+   `precheck.py` reconciles the spent total against the run's `ledger.jsonl`
+   rows, so you do not grep the ledger yourself. Then `board`
+   (`evaluation.md`): the board reads as a Flow a person could rebuild,
    `in:` wiring is true to the placeholders, START carries only the REF the
    brief allows, every image node is `gemini-3-pro-image` or quotes the
    copy that names another; a template board names its source and what it

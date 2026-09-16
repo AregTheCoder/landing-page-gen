@@ -48,6 +48,33 @@ RECIPES = {
     "cutout-checkerboard": [_IMG, frozenset({"cutout"}), frozenset({"compose"})],
 }
 
+# Human label for a recipe step-set, so `recipe_row` can render a brief's
+# recipe line from RECIPES itself instead of a hand-typed table that drifts.
+_STEP_LABEL = {
+    frozenset({"enhance"}): "enhance",
+    frozenset({"compose"}): "compose",
+    frozenset({"cutout"}): "cutout (remove_bg)",
+    frozenset({"enhance", "background", "cutout"}): "edit (enhance/background/cutout)",
+}
+
+
+def recipe_row(family):
+    """The family's planned recipe as one line ("generate -> i2i refine ->
+    enhance"), rendered from RECIPES so it always matches what check() enforces.
+    None for a family with no recipe."""
+    recipe = RECIPES.get(family)
+    if not recipe:
+        return None
+    parts, imgs = [], 0
+    for step in recipe:
+        if step == _IMG:
+            parts.append("generate" if imgs == 0 else "i2i refine")
+            imgs += 1
+        else:
+            parts.append(_STEP_LABEL.get(step, "/".join(sorted(step))))
+    return " -> ".join(parts)
+
+
 # Flow node kind -> the engine it runs on over MCP (or locally). `text` and
 # `ref` nodes make no call: the worker writes the text; a ref is a URL.
 NODE_ENGINES = {
@@ -178,6 +205,11 @@ def check(doc):
         )
         if kind not in NODE_ENGINES:
             problems.append(f"{sid}: node kind {kind!r} (one of {', '.join(NODE_ENGINES)})")
+        elif kind == "enhance" and s.get("tool") == "picsart_generate" and not enhance_workaround:
+            problems.append(
+                f"{sid}: enhance node on picsart_generate needs model in "
+                f"{{{', '.join(sorted(ENHANCE_MODELS))}}} (the Drive-403 workaround: "
+                f"picsart_generate + topaz-upscale-image, saveToDrive:false); else use picsart_enhance")
         elif s.get("tool") and s["tool"] not in NODE_ENGINES[kind] and NODE_ENGINES[kind] \
                 and not enhance_workaround:
             problems.append(f"{sid}: {kind} node on {s['tool']} (expects {' or '.join(sorted(NODE_ENGINES[kind]))})")

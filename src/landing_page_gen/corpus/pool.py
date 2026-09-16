@@ -91,7 +91,7 @@ def family_path(family, pool_dir=POOL_DIR):
 
 def load(family, pool_dir=POOL_DIR):
     path = family_path(family, pool_dir)
-    data = (yaml.safe_load(path.read_text()) or {}) if path.exists() else {}
+    data = (styles.load_yaml(path.read_text()) or {}) if path.exists() else {}
     data.setdefault("family", family)
     data.setdefault("entries", {})
     for entry in data["entries"].values():  # entries written before the vocabulary carry a label
@@ -100,11 +100,28 @@ def load(family, pool_dir=POOL_DIR):
     return data
 
 
+# A dropped entry is never sheeted, served or re-ranked again; calibration reads
+# only its drop/term/family bookkeeping, so these ranking by-products are dead
+# weight on disk. attribution_required and tier:pool are constants every reader
+# already defaults, so they are never written.
+_DROP_ON_DROPPED = ("nearest", "family_scores", "features", "thumb", "creator_url")
+
+
+def _slim(entry):
+    e = {k: v for k, v in entry.items()
+         if k != "attribution_required" and not (k == "tier" and v == "pool")}
+    if e.get("state") == "dropped":
+        for k in _DROP_ON_DROPPED:
+            e.pop(k, None)
+    return e
+
+
 def save(data, pool_dir=POOL_DIR):
     path = family_path(data["family"], pool_dir)
     path.parent.mkdir(parents=True, exist_ok=True)
-    data["entries"] = dict(sorted(data["entries"].items()))
-    path.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=1000))
+    out = dict(data)
+    out["entries"] = {eid: _slim(e) for eid, e in sorted(data["entries"].items())}
+    path.write_text(styles.dump_yaml(out, sort_keys=False, allow_unicode=True, width=1000))
     return path
 
 
@@ -115,7 +132,7 @@ def all_entries(pool_dir=POOL_DIR):
     for path in sorted(Path(pool_dir).glob("*.yaml")):
         if path.name.startswith("_"):
             continue
-        for eid, e in ((yaml.safe_load(path.read_text()) or {}).get("entries") or {}).items():
+        for eid, e in ((styles.load_yaml(path.read_text()) or {}).get("entries") or {}).items():
             out[eid] = e
     return out
 
@@ -131,7 +148,7 @@ def corpus_hashes(pool_dir=POOL_DIR, attrs_path=attrs.ATTRIBUTES_YAML, styles_pa
     written must not leave its new assets unprotected. Hashes only what is
     missing, drops what has gone, and rewrites only on a change."""
     path = Path(pool_dir) / "_hashes.yaml"
-    cached = {} if refresh else ((yaml.safe_load(path.read_text()) or {}) if path.exists() else {})
+    cached = {} if refresh else ((styles.load_yaml(path.read_text()) or {}) if path.exists() else {})
     mapping = attrs.load(attrs_path) if attrs_mapping is None else attrs_mapping
     tags = styles.load(styles_path) if styles_mapping is None else styles_mapping
     out, hashed = dict(cached), 0
@@ -156,16 +173,19 @@ def corpus_hashes(pool_dir=POOL_DIR, attrs_path=attrs.ATTRIBUTES_YAML, styles_pa
     # stale across a re-tag, so it is refreshed for free while we are here.
     if out != cached:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(yaml.safe_dump(out, sort_keys=False, allow_unicode=True, width=1000))
+        path.write_text(styles.dump_yaml(out, sort_keys=False, allow_unicode=True, width=1000))
         log(f"{path}: {len(out)} corpus assets ({hashed} newly hashed)")
     return out
 
 
 def nearest_dup(h, hm, hashed, cap):
-    """(distance, name) of the closest hash within cap, the mirror tried too."""
+    """(distance, name) of the closest hash within cap, the mirror tried too.
+    `hashed` is a list of (int-hash, name): the caller parses the corpus/pool
+    hex once per search instead of this loop re-parsing it per candidate."""
+    hi, hmi = int(h, 16), int(hm, 16)
     best = None
     for other, name in hashed:
-        d = min(phash.hamming(h, other), phash.hamming(hm, other))
+        d = min((hi ^ other).bit_count(), (hmi ^ other).bit_count())
         if d <= cap and (best is None or d < best[0]):
             best = (d, name)
     return best
@@ -225,7 +245,7 @@ def _reference_block(family, composition, references_dir=None):
     path = Path(references_dir or REFERENCES_DIR) / f"{family}.yaml"
     if not path.exists():
         return {}
-    data = yaml.safe_load(path.read_text()) or {}
+    data = styles.load_yaml(path.read_text()) or {}
     return data.get(REFERENCE_BLOCK[composition][0]) or {}
 
 
@@ -372,6 +392,8 @@ class HistogramRanker:
 
     def prepare(self, family, attrs_mapping=None, styles_mapping=None, log=print):
         self.family = family
+        attrs_mapping = attrs.load() if attrs_mapping is None else attrs_mapping
+        styles_mapping = styles.load() if styles_mapping is None else styles_mapping
         self.hists, self.freq = baseline(family, attrs_mapping, styles_mapping)
 
     def reliable(self, family):
@@ -403,6 +425,9 @@ class ClipRanker:
 
     def prepare(self, family, attrs_mapping=None, styles_mapping=None, log=print):
         self.encoder = self.encoder or embed.load_encoder()
+        # load once here; _freq/_fields/baseline below all reuse these mappings
+        attrs_mapping = attrs.load() if attrs_mapping is None else attrs_mapping
+        styles_mapping = styles.load() if styles_mapping is None else styles_mapping
         self.emb, _ = embed.corpus_embeddings(self.encoder, attrs_mapping, styles_mapping,
                                               cache_dir=self.cache_dir, refresh=self.refresh, log=log)
         vectors = self.emb.vectors
@@ -793,8 +818,8 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                     target, sc, nearest = best, best_sc, best_nearest
         candidates.append((sc, eid, ph, h, hm, features, nearest, target, scores))
 
-    corpus_hashed = [(rec["phash"], attrs.asset_id(src)) for src, rec in hashes.items()]
-    pool_hashed = [(e["phash"], other) for other, e in existing.items() if e.get("phash")]
+    corpus_hashed = [(int(rec["phash"], 16), attrs.asset_id(src)) for src, rec in hashes.items()]
+    pool_hashed = [(int(e["phash"], 16), other) for other, e in existing.items() if e.get("phash")]
     today = datetime.date.today().isoformat()
     datas = {family: data}
     by_creator = Counter()
@@ -847,7 +872,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                 stats["dropped_by"]["threshold"] += 1
                 stats["auto_dropped"] += 1
         if entry["state"] == "pending":
-            pool_hashed.append((h, eid))
+            pool_hashed.append((int(h, 16), eid))
             by_creator[ph.get("creator") or ""] += 1
             stats["new"] += 1
         else:
@@ -994,7 +1019,7 @@ def build_sheets(family, pool_dir=POOL_DIR, per_sheet=PER_SHEET, thumb=320, colu
                                           "family_scores": e.get("family_scores"),
                                           "explored": e.get("explored")}
                                   for n, (eid, e) in enumerate(chunk)}}
-            (out_dir / f"{name}.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True, width=1000))
+            (out_dir / f"{name}.yaml").write_text(styles.dump_yaml(manifest, sort_keys=False, allow_unicode=True, width=1000))
             for eid, e in chunk:
                 data["entries"][eid]["sheet"] = name
             written.append({"name": name, "png": png, "cells": len(chunk), "composition": mode,
@@ -1060,7 +1085,7 @@ def ingest_labels(family=None, pool_dir=POOL_DIR, keys=None, fetch=stock.fetch_j
     for man_path in sorted(out_dir.glob("*.yaml")) if out_dir.exists() else []:
         if man_path.name.endswith(".answers.yaml"):
             continue
-        man = yaml.safe_load(man_path.read_text()) or {}
+        man = styles.load_yaml(man_path.read_text()) or {}
         fam = man.get("family")
         if not fam or (family and fam != family):
             continue
@@ -1072,7 +1097,7 @@ def ingest_labels(family=None, pool_dir=POOL_DIR, keys=None, fetch=stock.fetch_j
         cells = man.get("cells") or {}
         data = datas.setdefault(fam, load(fam, pool_dir))
         try:
-            answers = yaml.safe_load(answers_path.read_text()) or {}
+            answers = styles.load_yaml(answers_path.read_text()) or {}
         except yaml.YAMLError as exc:
             # one unparseable sheet must not cost the other thirty-five their merge
             first = str(exc).splitlines()[0]
@@ -1120,7 +1145,7 @@ def ingest_labels(family=None, pool_dir=POOL_DIR, keys=None, fetch=stock.fetch_j
                 entry["drop"] = "off-style (sheet answer)"
             stats["kept" if keep else "dropped"] += 1
     if any(e.get("state") == "kept" for d in datas.values() for e in d["entries"].values()):
-        hashed = [(rec["phash"], attrs.asset_id(src)) for src, rec in corpus_hashes(pool_dir, log=log).items()]
+        hashed = [(int(rec["phash"], 16), attrs.asset_id(src)) for src, rec in corpus_hashes(pool_dir, log=log).items()]
         for data in datas.values():
             for eid, e in data["entries"].items():
                 if e.get("state") != "kept":

@@ -103,7 +103,7 @@ def build(mapping, out_dir=LABELS_DIR, per_sheet=PER_SHEET, thumb=THUMB, columns
             manifest = {"sheet": name, "group": dict(zip(("type", "ground", "layout"), key)),
                         "fields": fields, "answers": f"{name}.answers.yaml",
                         "cells": {n + 1: cell(src, rec) for n, (src, rec) in enumerate(chunk)}}
-            (out_dir / f"{name}.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True, width=1000))
+            (out_dir / f"{name}.yaml").write_text(styles.dump_yaml(manifest, sort_keys=False, allow_unicode=True, width=1000))
             sheets.append({"name": name, "png": png, "cells": len(chunk), "group": key, "fields": fields,
                            "answered": (out_dir / f"{name}.answers.yaml").exists()})
     stats = {"pending": len(todo), "groups": len(groups), "sheets": len(sheets),
@@ -139,18 +139,23 @@ def prompt():
 
 
 def write_index(sheets, out_dir=LABELS_DIR, stats=None):
-    """README.md: the labelling prompt and one row per sheet."""
+    """README.md: the labelling prompt and stats, what a label subagent reads.
+    The per-sheet table (one row per sheet, hundreds of them) goes to its own
+    index.md so a subagent is not handed ~45 KB of rows it does not need."""
     out_dir = Path(out_dir)
-    lines = [f"# Labelling sheets ({len(sheets)})", ""]
+    head = [f"# Labelling sheets ({len(sheets)})", ""]
     if stats:
-        lines += [f"{stats['pending']} assets pending in {stats['groups']} groups; "
-                  f"{stats['answered']}/{len(sheets)} sheets answered.", ""]
-    lines += ["| sheet | cells | type | ground | layout | answered |",
-              "| --- | --- | --- | --- | --- | --- |"]
+        head += [f"{stats['pending']} assets pending in {stats['groups']} groups; "
+                 f"{stats['answered']}/{len(sheets)} sheets answered.", ""]
+
+    table = ["| sheet | cells | type | ground | layout | answered |",
+             "| --- | --- | --- | --- | --- | --- |"]
     for s in sheets:
-        lines.append(f"| {s['name']}.png | {s['cells']} | " + " | ".join(s["group"])
+        table.append(f"| {s['name']}.png | {s['cells']} | " + " | ".join(s["group"])
                      + f" | {'yes' if s['answered'] else ''} |")
-    lines += ["", "## Prompt", "", prompt(), ""]
+    (out_dir / "index.md").write_text("\n".join([*head, *table, ""]))
+
     path = out_dir / "README.md"
-    path.write_text("\n".join(lines))
+    path.write_text("\n".join([*head, "The per-sheet table is in `index.md`.", "",
+                               "## Prompt", "", prompt(), ""]))
     return path

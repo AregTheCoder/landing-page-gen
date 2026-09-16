@@ -281,9 +281,13 @@ def main(argv=None) -> int:
                 led = ledger.Ledger(Path(a.out) / "_api.sqlite") if have_keys else None
                 client = apiclient.Client(ledger=led, run_id=run_id, max_requests=a.max_requests,
                                           refresh=a.refresh, log=log) if have_keys else None
+                # load attributes+styles once here; plan/search thread these
+                # through baseline/_freq/_fields/corpus_embeddings, which each
+                # used to re-load them (~33x per search before this).
                 common = dict(terms=a.terms or None, platforms=platforms, orientation=a.orientation,
                               pages=a.pages, min_width=a.min_width, keep_floor=a.keep_floor,
                               composition=a.composition,
+                              attrs_mapping=attrs.load(), styles_mapping=styles.load(),
                               pool_dir=a.out, client=client)
                 if a.dry_run:
                     common["ranker_name"] = a.rank
@@ -310,13 +314,15 @@ def main(argv=None) -> int:
                           + (f"  STOPPED ({st['stopped']})" if st["stopped"] else ""))
                 if led is not None:
                     led.append_run(stats)
+                    led.prune()  # else _api.sqlite grows unbounded (10 MB and counting)
                 for path in paths:
                     print(f"{path}: {stats['raw']} found, {stats['new']} new, {stats['dropped']} dropped "
                           f"({stats['dropped_by']['corpus']} corpus, {stats['dropped_by']['pool']} pool, "
                           f"{stats['dropped_by']['threshold']} below threshold)"
                           + (" (rate limited, re-run to resume)" if stats["rate_limited"] else ""))
             elif a.stage == "sheets":
-                _, stats = pool.build_sheets(a.family, pool_dir=a.out, resheet=a.resheet, log=log)
+                _, stats = pool.build_sheets(a.family, pool_dir=a.out, resheet=a.resheet,
+                                             attrs_mapping=attrs.load(), styles_mapping=styles.load(), log=log)
                 print(f"{stats['sheets']} sheet(s) for {stats['pending']} pending entr(ies) -> {a.out}/sheets")
             else:
                 stats = pool.ingest_labels(a.family, pool_dir=a.out, log=log)
@@ -377,7 +383,7 @@ def cmd_discover(a):
     pages = discover.crawl(seeds=seeds, depth=a.depth, limit=a.limit, log=log)
     rows = [{"path": path, **info} for path, info in sorted(pages.items(), key=lambda kv: (kv[1]["family"] or "zz", kv[0]))]
     a.out.parent.mkdir(parents=True, exist_ok=True)
-    a.out.write_text(yaml.safe_dump(rows, sort_keys=False, allow_unicode=True))
+    a.out.write_text(styles.dump_yaml(rows, sort_keys=False, allow_unicode=True))
     counts = {}
     for r in rows:
         counts[r["family"]] = counts.get(r["family"], 0) + 1
@@ -388,7 +394,7 @@ def cmd_discover(a):
 
 
 def inventory():
-    return yaml.safe_load(PAGES_YAML.read_text()) if PAGES_YAML.exists() else []
+    return styles.load_yaml(PAGES_YAML.read_text()) if PAGES_YAML.exists() else []
 
 
 def cmd_fetch(a):
@@ -571,7 +577,7 @@ def cmd_organise(a):
     attrs_mapping = attrs.load(a.attrs)
     styles_mapping = styles.load(a.styles)
     hashes = {src: (e or {}).get("phash") for src, e in
-              (yaml.safe_load((pool.POOL_DIR / "_hashes.yaml").read_text()) or {}).items()} \
+              (styles.load_yaml((pool.POOL_DIR / "_hashes.yaml").read_text()) or {}).items()} \
         if (pool.POOL_DIR / "_hashes.yaml").exists() else {}
     c = library.organise(a.root, con, attrs_mapping, styles_mapping, hashes,
                          a.pages_dir, PAGES_YAML, a.frames, dry_run=a.dry_run, log=log)

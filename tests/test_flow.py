@@ -52,7 +52,10 @@ def test_enhance_via_generate_is_accepted_only_for_upscale_models():
     en["tool"], en["model"] = "picsart_generate", "topaz-upscale-image"  # Drive-403 workaround
     assert board.check(doc) == []
     en["model"] = "gemini-3-pro-image"  # a plain generate is NOT an enhance
-    assert any("enhance node on picsart_generate" in p for p in board.check(doc))
+    problems = board.check(doc)
+    assert any("enhance node on picsart_generate" in p for p in problems)
+    # the message names the workaround, so a worker need not read board.py source
+    assert any("topaz-upscale-image" in p for p in problems)
 
 
 def board_of(family, kinds):

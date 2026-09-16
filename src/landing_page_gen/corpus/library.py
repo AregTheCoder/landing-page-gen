@@ -13,7 +13,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db, media, sectionize, snapshot, taxonomy
+from . import db, media, sectionize, snapshot, styles, taxonomy
 
 LIBRARY_DIR = Path("library")
 UNLABELLED = "_unlabelled"
@@ -160,7 +160,7 @@ def sidecar(rec):
     front["placements"] = [{"page": p["slug"], "slot": p.get("slot"), "section": (p.get("slot") or "").split("-")[0],
                             "type": p.get("type"), "headline": p.get("headline")} for p in rec["placements"]]
     front["library"] = str(tree_path(rec))
-    dumped = yaml.safe_dump(front, sort_keys=False, allow_unicode=True, width=1000).rstrip()
+    dumped = styles.dump_yaml(front, sort_keys=False, allow_unicode=True, width=1000).rstrip()
     lines = ["---", dumped, "---", "", _paragraph(rec), "", "## Appears on"]
     depth = len(tree_path(rec).parts) + 1  # sidecar sits one level deeper than its folder root
     up = "../" * depth
@@ -189,7 +189,7 @@ def link(src, dest, stats):
 def _pages_from(pages_yaml):
     """{slug: {from: {slugs}, to: {slugs}}} from corpus/pages.yaml (a list of
     {path, from} entries; `from` is the path a page was discovered through)."""
-    data = yaml.safe_load(Path(pages_yaml).read_text()) if Path(pages_yaml).exists() else []
+    data = styles.load_yaml(Path(pages_yaml).read_text()) if Path(pages_yaml).exists() else []
     entries = data if isinstance(data, list) else list((data.get("pages") or data or {}).values())
     rel = defaultdict(lambda: {"from": set(), "to": set()})
     for info in entries:
@@ -213,7 +213,7 @@ def page_md(con, slug, recs_by_src, related):
     front = {"slug": slug, "url": row["url"], "title": row["title"], "family": row["family"],
              "fetched_at": row["fetched_at"], "sections": len(secs), "media": len(media_rows),
              "snapshot": f"corpus/pages/{slug}"}
-    lines = ["---", yaml.safe_dump(front, sort_keys=False, allow_unicode=True, width=1000).rstrip(), "---", ""]
+    lines = ["---", styles.dump_yaml(front, sort_keys=False, allow_unicode=True, width=1000).rstrip(), "---", ""]
     if row["screenshot_path"]:
         lines += ["![full page](page.png)", ""]
     rel = related.get(slug, {})

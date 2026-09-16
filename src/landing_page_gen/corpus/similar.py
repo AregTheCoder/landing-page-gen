@@ -152,18 +152,26 @@ class FrameGrabber:
     ffmpeg has no VP9 decoder, and agents cannot open .webm anyway)."""
 
     def __enter__(self):
-        from playwright.sync_api import sync_playwright
-        self._pw = sync_playwright().start()
-        self._browser = self._pw.chromium.launch()
+        # Launch nothing yet: most `similar` runs have no video example, and
+        # Chromium startup is ~0.9s per call inside the build loop.
+        self._pw = self._browser = None
         return self
 
     def __exit__(self, *exc):
-        self._browser.close()
-        self._pw.stop()
+        if self._browser is not None:
+            self._browser.close()
+            self._pw.stop()
+
+    def _ensure(self):
+        if self._browser is None:
+            from playwright.sync_api import sync_playwright
+            self._pw = sync_playwright().start()
+            self._browser = self._pw.chromium.launch()
 
     def grab(self, src, png, at=1.0):
         """src: a CDN URL or a local Path (served to Chromium through a route,
         since a set_content page may not load file:// media)."""
+        self._ensure()
         page = self._browser.new_page(viewport={"width": 1280, "height": 720})
         try:
             url = str(src)

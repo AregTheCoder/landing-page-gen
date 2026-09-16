@@ -19,12 +19,12 @@ alone already place in a family).
 
 ```
 uv run lp-corpus attrs                      # only if corpus/attributes.yaml is missing or stale
-uv run lp-corpus sheets [--skip-resolved]   # -> corpus/labels/*.png + *.yaml + README.md
+uv run lp-corpus sheets [--skip-resolved]   # -> corpus/labels/*.png + *.yaml + README.md + index.md
 ```
 
 Read `corpus/labels/README.md` once: it carries the field definitions, the
-family reference and the answer format. Pick the first N sheets that have no
-`.answers.yaml` yet.
+family reference and the answer format (the per-sheet table is in `index.md`).
+Pick the first N sheets that have no `.answers.yaml` yet.
 
 `lp-corpus labels` also renames any dropped vocabulary idempotently on its way
 in (e.g. the old `finish` field to `art_style`), rewriting stray answers files,
