@@ -6,14 +6,19 @@
    "ground": "photo-full-bleed",
    "layout": "single"
   },
-  "assets": 314,
-  "rows": 571,
+  "assets": 315,
+  "rows": 572,
   "pages": 42,
   "families": {
-   "cinematic-still": 314
+   "cinematic-still": 314,
+   "mockup-card": 1
   },
   "hints": {
-   "?": 314
+   "template-mockup": 30,
+   "full-bleed": 245,
+   "graphic-collage": 1,
+   "mockup-card": 1,
+   "cinematic-still": 38
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/017f6029-3a7f-43dd-9d35-0654373a94c7.png",
@@ -126,6 +131,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/508eb219-c3a4-41e1-91eb-80f50a96e10d.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5092d079-7057-4fc5-a849-e5f928dcf7af.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5243cba4-f11e-4275-8e25-0b60798c6531.webp?type=webp&to=min&r=400",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/54e9db90-82d1-4398-b62c-9d8dce5d23b3.png?type=webp&to=min&r=400&type=webp&to=min&r=400",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/55586263-220b-490e-bd0f-3844a84fc064.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/55a4e949-818f-4e72-9677-1bc193a5216d.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5697681d-0855-4e6a-ba9f-134f90903280.jpeg?type=webp&to=min&r=400",
@@ -343,10 +349,14 @@
   "rows": 111,
   "pages": 17,
   "families": {
-   "full-bleed": 97
+   "full-bleed": 94,
+   "graphic-collage": 3
   },
   "hints": {
-   "?": 97
+   "template-mockup": 18,
+   "full-bleed": 65,
+   "graphic-collage": 8,
+   "cinematic-still": 6
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/069e220d-6dab-4e26-86ad-4541fe97dbb7.png",
@@ -459,10 +469,14 @@
   "rows": 106,
   "pages": 18,
   "families": {
-   "full-bleed": 81
+   "full-bleed": 77,
+   "graphic-collage": 4
   },
   "hints": {
-   "?": 81
+   "template-mockup": 20,
+   "full-bleed": 53,
+   "graphic-collage": 7,
+   "other": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0452779d-91a7-4e0e-8746-77469c222a4b.png",
@@ -562,7 +576,9 @@
    "full-bleed": 61
   },
   "hints": {
-   "?": 61
+   "template-mockup": 41,
+   "full-bleed": 17,
+   "cinematic-still": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/09946879-a755-4196-8272-2a15c05d5f53.png",
@@ -631,6 +647,55 @@
  {
   "key": {
    "type": "gallery",
+   "aspect_class": "None",
+   "ground": "photo-full-bleed",
+   "layout": "single"
+  },
+  "assets": 30,
+  "rows": 30,
+  "pages": 1,
+  "families": {
+   "full-bleed": 30
+  },
+  "hints": {
+   "full-bleed": 30
+  },
+  "srcs": [
+   "https://cdn131.picsart.com/325275162120211.png?type=webp&to=min&r=400",
+   "https://cdn131.picsart.com/336340346042211.png?type=webp&to=min&r=400",
+   "https://cdn131.picsart.com/704d253d-fc38-4fdc-9575-c902c45407fd/406076137011211.png?type=webp&to=min&r=400",
+   "https://cdn140.picsart.com/365171590029201.jpg?type=webp&to=min&r=400",
+   "https://cdn141.picsart.com/336645036040211.png?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/0f2e60eb-e32d-4977-9aa5-9fd8fbd4f62a/525957732008201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/12bd0b4e-c729-4d36-b583-5a95e993c318/526218583004201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/34b8e6ff-6727-4eaf-8b8d-501c27e6350a/522221850005201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/48e49c4f-6e57-4d28-8c3a-8452946f05f5/525389814006201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/714ddc22-f259-413c-8a8c-1190bb43e10a/518992065006201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/768d4f84-3f14-4ce2-9aca-771d3e197b10/522387741002201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/76a5c4f9-c307-43a6-aaa8-ec4b5551f25d/417702900012201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/812c7f7a-69db-49c1-98eb-02b3773119c7/524920011004201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/8211ed1c-df1e-40c3-bba8-5e95b2e5544b/525756504002201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/9901e94d-0eb4-4010-8305-c59e7dd521d0/525851890014201.jpeg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/ae9077d5-05da-44e5-a1c6-34204dd51c23/420300088034201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/ecbd6fe9-7b09-49e0-a646-0a883e5d578e/412354104009201.jpg?type=webp&to=min&r=400",
+   "https://cdn270.picsart.com/f6b78131-10b0-42dc-b63d-693a339bf858/526188848002201.jpeg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/135933ef-891e-4a80-b964-b311526a4260/441657980006201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/1ad6af2e-944e-4284-9d83-7dee30be62d2/434998546035201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/26dc0961-966f-401f-a2cd-be058b42bab0/417990530030201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/27fd46d7-6c95-4bb8-9e8b-2c268c84c781/521300574006201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/2815f4c3-aa04-423a-9849-0b00c4323f7c/421770766018201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/44335d9d-18f0-4646-9e7e-b7934a0f6a92/522301616015201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/4858ee04-2b96-46ff-a89a-f1d08dcd8495/455124583056211.png?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/5b3821fd-5948-4c5b-921a-dc8ddb87a720/430785921043211.png?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/ad3f7769-4744-445e-8338-9796f53cff86/504350213001201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/c61802ad-7bda-4a5e-baba-9c863e887c88/518786446001201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/ef9a0234-31d3-4d39-8a8e-9da3e604ba67/447471574010201.jpg?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/f77a981e-4772-464f-b440-be3367d42ec9/500916316003211.png?type=webp&to=min&r=400"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
    "aspect_class": "2:3",
    "ground": "photo-full-bleed",
    "layout": "single"
@@ -639,10 +704,13 @@
   "rows": 54,
   "pages": 14,
   "families": {
-   "full-bleed": 29
+   "full-bleed": 25,
+   "graphic-collage": 4
   },
   "hints": {
-   "?": 29
+   "template-mockup": 22,
+   "full-bleed": 4,
+   "graphic-collage": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0292d436-0202-4430-9403-594241842702.png",
@@ -679,52 +747,9 @@
  {
   "key": {
    "type": "gallery",
-   "aspect_class": "None",
-   "ground": "photo-full-bleed",
-   "layout": "single"
-  },
-  "assets": 24,
-  "rows": 24,
-  "pages": 1,
-  "families": {
-   "full-bleed": 24
-  },
-  "hints": {
-   "?": 24
-  },
-  "srcs": [
-   "https://cdn131.picsart.com/336340346042211.png?type=webp&to=min&r=400",
-   "https://cdn140.picsart.com/365171590029201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/0f2e60eb-e32d-4977-9aa5-9fd8fbd4f62a/525957732008201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/12bd0b4e-c729-4d36-b583-5a95e993c318/526218583004201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/34b8e6ff-6727-4eaf-8b8d-501c27e6350a/522221850005201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/48e49c4f-6e57-4d28-8c3a-8452946f05f5/525389814006201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/714ddc22-f259-413c-8a8c-1190bb43e10a/518992065006201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/768d4f84-3f14-4ce2-9aca-771d3e197b10/522387741002201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/76a5c4f9-c307-43a6-aaa8-ec4b5551f25d/417702900012201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/812c7f7a-69db-49c1-98eb-02b3773119c7/524920011004201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/8211ed1c-df1e-40c3-bba8-5e95b2e5544b/525756504002201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/9901e94d-0eb4-4010-8305-c59e7dd521d0/525851890014201.jpeg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/ae9077d5-05da-44e5-a1c6-34204dd51c23/420300088034201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/ecbd6fe9-7b09-49e0-a646-0a883e5d578e/412354104009201.jpg?type=webp&to=min&r=400",
-   "https://cdn270.picsart.com/f6b78131-10b0-42dc-b63d-693a339bf858/526188848002201.jpeg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/135933ef-891e-4a80-b964-b311526a4260/441657980006201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/1ad6af2e-944e-4284-9d83-7dee30be62d2/434998546035201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/26dc0961-966f-401f-a2cd-be058b42bab0/417990530030201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/27fd46d7-6c95-4bb8-9e8b-2c268c84c781/521300574006201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/2815f4c3-aa04-423a-9849-0b00c4323f7c/421770766018201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/44335d9d-18f0-4646-9e7e-b7934a0f6a92/522301616015201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/ad3f7769-4744-445e-8338-9796f53cff86/504350213001201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/c61802ad-7bda-4a5e-baba-9c863e887c88/518786446001201.jpg?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/ef9a0234-31d3-4d39-8a8e-9da3e604ba67/447471574010201.jpg?type=webp&to=min&r=400"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
    "aspect_class": "2:1",
    "ground": "None",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 19,
   "rows": 25,
@@ -733,7 +758,7 @@
    "unresolved": 19
   },
   "hints": {
-   "?": 19
+   "other": 19
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/041c7d23-c14e-4875-b038-cf196a2e5165.webp",
@@ -768,11 +793,21 @@
   "rows": 17,
   "pages": 4,
   "families": {
-   "unresolved": 15,
-   "before-after": 2
+   "unresolved": 12,
+   "before-after": 2,
+   "prompt-card": 1,
+   "mockup-card": 1,
+   "template-mockup/black": 1
   },
   "hints": {
-   "?": 17
+   "full-bleed": 4,
+   "before-after": 6,
+   "outcome-tile": 2,
+   "prompt-card": 1,
+   "cutout-checkerboard": 1,
+   "dark-composite": 1,
+   "mockup-card": 1,
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/13ab1b99-daec-46db-b8b4-68acf3dac49e.avif",
@@ -805,10 +840,13 @@
   "rows": 19,
   "pages": 6,
   "families": {
-   "full-bleed": 16
+   "full-bleed": 13,
+   "graphic-collage": 3
   },
   "hints": {
-   "?": 16
+   "template-mockup": 12,
+   "full-bleed": 1,
+   "graphic-collage": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/1e48dd4f-3b0c-4926-8b8f-290e97141d24.png",
@@ -843,7 +881,7 @@
    "unresolved": 12
   },
   "hints": {
-   "?": 12
+   "template-mockup": 12
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0d6a21f4-62d7-4770-be18-3a8d818f0c74.png",
@@ -874,7 +912,7 @@
    "unresolved": 11
   },
   "hints": {
-   "?": 11
+   "template-mockup": 11
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/04b5e6e0-c99d-4879-bdbc-e9863b0d229b.png",
@@ -893,36 +931,6 @@
  {
   "key": {
    "type": "gallery",
-   "aspect_class": "None",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 11,
-  "rows": 11,
-  "pages": 1,
-  "families": {
-   "unresolved": 11
-  },
-  "hints": {
-   "?": 11
-  },
-  "srcs": [
-   "https://cdn130.picsart.com/306899983389211.png?type=webp&to=min&r=400",
-   "https://cdn131.picsart.com/325275162120211.png?type=webp&to=min&r=400",
-   "https://cdn131.picsart.com/357396577006211.png?type=webp&to=min&r=400",
-   "https://cdn131.picsart.com/704d253d-fc38-4fdc-9575-c902c45407fd/406076137011211.png?type=webp&to=min&r=400",
-   "https://cdn141.picsart.com/336645036040211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/4858ee04-2b96-46ff-a89a-f1d08dcd8495/455124583056211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/5b3821fd-5948-4c5b-921a-dc8ddb87a720/430785921043211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/68c96093-1aad-4d4e-bc59-9e5185f8acb3/441474422034211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/a3c2b5d5-ce46-4854-9ad4-432d930d7415/465590264038211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/f77a981e-4772-464f-b440-be3367d42ec9/500916316003211.png?type=webp&to=min&r=400",
-   "https://cdn271.picsart.com/fed08f38-360b-4f19-857e-c56dcf44ef0e/503708238000211.png?type=webp&to=min&r=400"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
    "aspect_class": "2:1",
    "ground": "photo-full-bleed",
    "layout": "single"
@@ -934,7 +942,8 @@
    "full-bleed": 10
   },
   "hints": {
-   "?": 10
+   "template-mockup": 8,
+   "full-bleed": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/471a3601-89c5-4347-8455-272fe44e4cde.png",
@@ -960,10 +969,14 @@
   "rows": 10,
   "pages": 8,
   "families": {
-   "unresolved": 9
+   "unresolved": 8,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 9
+   "template-mockup": 2,
+   "full-bleed": 2,
+   "other": 4,
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/5288b448-64f6-4191-a867-a9a5bf2727ad.png",
@@ -991,7 +1004,7 @@
    "unresolved": 8
   },
   "hints": {
-   "?": 8
+   "template-mockup": 8
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0e6e805e-bf10-44e1-bce6-915b3d7d1c52.png",
@@ -1018,7 +1031,7 @@
    "unresolved": 8
   },
   "hints": {
-   "?": 8
+   "template-mockup": 8
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/5bb8a98a-af88-426a-b6db-aad1fb703f0c.png",
@@ -1042,10 +1055,11 @@
   "rows": 15,
   "pages": 7,
   "families": {
-   "unresolved": 8
+   "unresolved": 7,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 8
+   "template-mockup": 8
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/77d0292d-cb7e-4f67-b2bc-e0a32130f02d.png",
@@ -1072,7 +1086,8 @@
    "unresolved": 8
   },
   "hints": {
-   "?": 8
+   "template-mockup": 7,
+   "other": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/a5937a03-f0ef-455f-8fa1-ee7defbe20d8.png",
@@ -1083,6 +1098,35 @@
    "https://cdn-template.picsart.com/templates-cdn/91044ee1-4ee7-42f3-b60d-37f1434f48e8.jpeg",
    "https://cdn-template.picsart.com/templates-cdn/9c598afc-8dc4-4fc6-af22-017eb9246245.jpg",
    "https://cdn-template.picsart.com/templates-cdn/c34f4a47-84e3-41ab-b740-61e42cc33618.jpeg"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "single"
+  },
+  "assets": 7,
+  "rows": 9,
+  "pages": 7,
+  "families": {
+   "outcome-tile": 6,
+   "graphic-collage/white": 1
+  },
+  "hints": {
+   "template-mockup": 5,
+   "full-bleed": 1,
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-basic-content-api.picsart.io/p/0856d76f-2506-4ad0-9bf3-c0ec5fa10bc0.png",
+   "https://cdn-basic-content-api.picsart.io/p/1420103e-2888-40c1-961a-09e88fc214b4.png",
+   "https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png",
+   "https://cdn-basic-content-api.picsart.io/p/9f142618-b471-4f6a-a3eb-e3777c768cde.png",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d1eea79-08df-4b5c-93af-b75c1d8f2fab.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/5aceec28-1c78-4373-9ec7-84e7c8b10336.avif",
+   "https://cdn-pipeline-output.picsart.com/magic-flow/ef737d20-0626-421b-a79a-7fa3dcc58613.png?type=webp&to=min&r=1200"
   ]
  },
  {
@@ -1099,7 +1143,7 @@
    "unresolved": 7
   },
   "hints": {
-   "?": 7
+   "template-mockup": 7
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/11f55488-2e8c-4947-b279-d0363d29d498.png",
@@ -1125,7 +1169,7 @@
    "unresolved": 7
   },
   "hints": {
-   "?": 7
+   "template-mockup": 7
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/241c701d-79ee-4747-b7bc-dcef01ee1272.png",
@@ -1151,7 +1195,7 @@
    "unresolved": 6
   },
   "hints": {
-   "?": 6
+   "template-mockup": 6
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/019c2eea-ac74-4465-9f51-98793e48de84.png",
@@ -1160,31 +1204,6 @@
    "https://cdn-basic-content-api.picsart.io/p/5cff918f-5b82-4eeb-9514-8dfe3562ace6.png",
    "https://cdn-template.picsart.com/templates-cdn/bf3073a7-3a06-44a2-8d67-ee62130246d6.png",
    "https://cdn-template.picsart.com/templates-cdn/d80b3263-dee8-492c-be16-113a50039643.jpg"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
-   "aspect_class": "1:1",
-   "ground": "white",
-   "layout": "single"
-  },
-  "assets": 6,
-  "rows": 8,
-  "pages": 6,
-  "families": {
-   "outcome-tile": 6
-  },
-  "hints": {
-   "?": 6
-  },
-  "srcs": [
-   "https://cdn-basic-content-api.picsart.io/p/0856d76f-2506-4ad0-9bf3-c0ec5fa10bc0.png",
-   "https://cdn-basic-content-api.picsart.io/p/1420103e-2888-40c1-961a-09e88fc214b4.png",
-   "https://cdn-basic-content-api.picsart.io/p/8febd34e-7da8-4814-8863-4530a17b843b.png",
-   "https://cdn-basic-content-api.picsart.io/p/9f142618-b471-4f6a-a3eb-e3777c768cde.png",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d1eea79-08df-4b5c-93af-b75c1d8f2fab.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/5aceec28-1c78-4373-9ec7-84e7c8b10336.avif"
   ]
  },
  {
@@ -1201,7 +1220,7 @@
    "unresolved": 6
   },
   "hints": {
-   "?": 6
+   "template-mockup": 6
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/11fe0709-cd91-4732-a3a3-4aef5556b83e.png",
@@ -1226,7 +1245,7 @@
    "unresolved": 6
   },
   "hints": {
-   "?": 6
+   "template-mockup": 6
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/1b86260e-e4d9-49ca-9c2c-ad0bb58aa53c.png",
@@ -1242,7 +1261,7 @@
    "type": "gallery",
    "aspect_class": "16:9",
    "ground": "None",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 6,
   "rows": 30,
@@ -1251,7 +1270,7 @@
    "unresolved": 6
   },
   "hints": {
-   "?": 6
+   "other": 6
   },
   "srcs": [
    "https://cdn130.picsart.com/09802469177636365765.png",
@@ -1273,10 +1292,13 @@
   "rows": 5,
   "pages": 5,
   "families": {
-   "unresolved": 5
+   "unresolved": 4,
+   "graphic-collage/black": 1
   },
   "hints": {
-   "?": 5
+   "template-mockup": 2,
+   "graphic-collage": 1,
+   "full-bleed": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/3f5c7dfe-1281-4a7b-9675-08b6080b2707.png",
@@ -1297,10 +1319,12 @@
   "rows": 5,
   "pages": 4,
   "families": {
-   "unresolved": 5
+   "graphic-collage/light": 2,
+   "unresolved": 3
   },
   "hints": {
-   "?": 5
+   "graphic-collage": 2,
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/4ac0748d-5ca3-4795-bbca-5bb23c8c1f2e.png",
@@ -1324,7 +1348,8 @@
    "unresolved": 5
   },
   "hints": {
-   "?": 5
+   "template-mockup": 4,
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/58620402-c810-4453-a722-c4b61f1bccb7.png",
@@ -1348,7 +1373,8 @@
    "outcome-tile": 5
   },
   "hints": {
-   "?": 5
+   "template-mockup": 2,
+   "full-bleed": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/6288ee49-942a-41de-b87a-8785d77a5396.png",
@@ -1369,10 +1395,11 @@
   "rows": 4,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "unresolved": 3,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0c1e6ba3-adf7-4fbc-b3bb-46fa135f2792.png",
@@ -1392,10 +1419,11 @@
   "rows": 9,
   "pages": 3,
   "families": {
-   "unresolved": 4
+   "unresolved": 3,
+   "graphic-collage/light": 1
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0ca58307-fa5c-4de4-8645-01244322ea9a.png",
@@ -1418,7 +1446,7 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/1cfe4a4c-2fb6-4dd8-b017-5e26234361e5.png",
@@ -1438,10 +1466,12 @@
   "rows": 4,
   "pages": 4,
   "families": {
-   "outcome-tile": 4
+   "graphic-collage/white": 1,
+   "outcome-tile": 3
   },
   "hints": {
-   "?": 4
+   "template-mockup": 3,
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/2095310c-8042-4149-9bc4-f66b59ee5b84.png",
@@ -1464,7 +1494,7 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/27af7aa2-11f8-44a1-b0ba-1a61f0f46474.png",
@@ -1487,7 +1517,7 @@
    "full-bleed": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/3fc719cf-a9bb-4fde-8eb4-a920a0244280.png",
@@ -1510,7 +1540,7 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/45de37d6-12f2-46ca-844e-db1e437b788f.png",
@@ -1533,7 +1563,7 @@
    "full-bleed": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/84f3c859-06bd-47f0-9a64-2e9f59c19d9d.png",
@@ -1556,7 +1586,9 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 2,
+   "full-bleed": 1,
+   "other": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/86b946c1-c3ef-43b6-9dc3-2f75cf4bae90.png",
@@ -1576,10 +1608,11 @@
   "rows": 4,
   "pages": 3,
   "families": {
-   "unresolved": 4
+   "graphic-collage/white": 1,
+   "unresolved": 3
   },
   "hints": {
-   "?": 4
+   "template-mockup": 4
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/992377b5-8f6f-4127-9282-26b7c1f51aa2.png",
@@ -1602,7 +1635,7 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "cinematic-still": 4
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/31f4fda3-986f-409d-b078-fd606267f207.avif",
@@ -1625,7 +1658,7 @@
    "full-bleed": 4
   },
   "hints": {
-   "?": 4
+   "full-bleed": 4
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/488610b8-4834-401b-83cd-f52fba42a5ed.png?type=webp&to=min&r=400",
@@ -1637,9 +1670,32 @@
  {
   "key": {
    "type": "gallery",
+   "aspect_class": "None",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 4,
+  "rows": 4,
+  "pages": 1,
+  "families": {
+   "unresolved": 4
+  },
+  "hints": {
+   "other": 4
+  },
+  "srcs": [
+   "https://cdn130.picsart.com/306899983389211.png?type=webp&to=min&r=400",
+   "https://cdn131.picsart.com/357396577006211.png?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/68c96093-1aad-4d4e-bc59-9e5185f8acb3/441474422034211.png?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/fed08f38-360b-4f19-857e-c56dcf44ef0e/503708238000211.png?type=webp&to=min&r=400"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
    "aspect_class": "3:1",
    "ground": "None",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 4,
   "rows": 72,
@@ -1648,7 +1704,7 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "other": 4
   },
   "srcs": [
    "https://yearly-cdn.picsart.com/cdn140/09078530482880184775.png",
@@ -1662,7 +1718,7 @@
    "type": "gallery",
    "aspect_class": "1:1",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 3,
   "rows": 3,
@@ -1671,7 +1727,7 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/03171ed9-aa2c-47aa-9d70-8853d2140c89.png",
@@ -1690,10 +1746,11 @@
   "rows": 4,
   "pages": 3,
   "families": {
-   "unresolved": 3
+   "graphic-collage": 1,
+   "unresolved": 2
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/07aee7e3-0b24-4c3d-a31f-44b4ca72f794.png",
@@ -1715,7 +1772,7 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/11bea93d-4ed2-4dc7-b049-0dfa1b97c24c.png",
@@ -1737,7 +1794,7 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/18977c6d-d279-4698-ae93-9682c210f5cb.png",
@@ -1759,34 +1816,12 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/22132c34-6c54-4a4a-aa41-5874d5dc32e2.png",
    "https://cdn-basic-content-api.picsart.io/p/99233221-0640-4dcd-b0ee-ffae9d0bd512.png",
    "https://cdn-template.picsart.com/templates-cdn/f80c742a-10b9-4413-84c7-44e458cb31b3.jpg"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
-   "aspect_class": "2:3",
-   "ground": "mixed",
-   "layout": "None"
-  },
-  "assets": 3,
-  "rows": 6,
-  "pages": 3,
-  "families": {
-   "unresolved": 3
-  },
-  "hints": {
-   "?": 3
-  },
-  "srcs": [
-   "https://cdn-basic-content-api.picsart.io/p/2bc1b3e7-cab7-411e-b8f3-ab2253b9e7e0.png",
-   "https://cdn-basic-content-api.picsart.io/p/5c95e58c-5653-48a2-b54c-4df39fd8792e.png",
-   "https://cdn-basic-content-api.picsart.io/p/a96a3d8f-d340-43c0-8d7d-07bfdec6e6e5.png"
   ]
  },
  {
@@ -1803,7 +1838,7 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/32cc7938-60b9-4396-8b3e-eeaed4b07125.png",
@@ -1825,7 +1860,7 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/5b9e924c-c7dd-4a0e-b868-dff364f47460.png",
@@ -1844,10 +1879,12 @@
   "rows": 3,
   "pages": 2,
   "families": {
-   "full-bleed": 3
+   "graphic-collage": 1,
+   "full-bleed": 2
   },
   "hints": {
-   "?": 3
+   "graphic-collage": 1,
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/6e8c2c29-0754-4b73-ab62-99d9c9ddd489.png",
@@ -1860,7 +1897,7 @@
    "type": "gallery",
    "aspect_class": "9:16",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 3,
   "rows": 3,
@@ -1869,34 +1906,14 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "template-mockup": 1,
+   "full-bleed": 1,
+   "cinematic-still": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/ec96bcdf-7b1d-4037-b69a-e4e0baa4c626.png",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2386671f-7e15-40e8-9bdb-3333161fcc7f.avif",
    "https://pcdn.picsart.com/cms-uploads/1c072577-6000-41c0-9108-a1e8bb43ff7e.avif"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
-   "aspect_class": "1:1",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 3,
-  "rows": 3,
-  "pages": 2,
-  "families": {
-   "unresolved": 3
-  },
-  "hints": {
-   "?": 3
-  },
-  "srcs": [
-   "https://cdn-pipeline-output.picsart.com/magic-flow/ef737d20-0626-421b-a79a-7fa3dcc58613.png?type=webp&to=min&r=1200",
-   "https://cdn-template.picsart.com/templates-cdn/71f2826b-9f79-4642-9989-ec99dbd15803.png",
-   "https://cdn-template.picsart.com/templates-cdn/91e66a7f-0455-44df-b654-29adfe9541ea.png"
   ]
  },
  {
@@ -1910,10 +1927,11 @@
   "rows": 2,
   "pages": 2,
   "families": {
-   "unresolved": 2
+   "template-mockup/colour": 1,
+   "unresolved": 1
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0268ce5e-0d36-44b9-aa04-0b14cc530bb6.png",
@@ -1931,10 +1949,11 @@
   "rows": 2,
   "pages": 2,
   "families": {
-   "unresolved": 2
+   "unresolved": 1,
+   "graphic-collage/light": 1
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0ac0480b-9e55-446e-a772-ffc5089ee660.png",
@@ -1946,7 +1965,7 @@
    "type": "gallery",
    "aspect_class": "3:4",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 2,
   "rows": 2,
@@ -1955,7 +1974,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/0b2e1517-82e5-4674-a76d-3a791818bf40.png",
@@ -1976,7 +1995,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/171f2907-b71b-4b2c-8185-7d918bb054fd.png",
@@ -1997,7 +2016,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/284e90cf-ce17-43f9-8971-c9c86f1e0436.png",
@@ -2018,7 +2037,8 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "other": 1,
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/2a0d3a6a-7f0d-481c-b297-6936f4b414b7.png",
@@ -2039,7 +2059,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/2ffd9c10-3f4b-478e-8e64-01f04e398045.png",
@@ -2060,7 +2080,7 @@
    "cinematic-still": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/3d35d534-ce83-419d-9cfb-a6a117c2e04a.png",
@@ -2081,7 +2101,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/417e6c7c-9b26-46e1-80e6-0cdd1ef150d7.png",
@@ -2102,11 +2122,33 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/4a63e06c-0d04-4ac2-bef3-541c338c7610.png",
    "https://cdn-basic-content-api.picsart.io/p/4fc8b524-530c-4bb6-bb7e-b3684e723a76.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "2:3",
+   "ground": "mixed",
+   "layout": "single"
+  },
+  "assets": 2,
+  "rows": 5,
+  "pages": 2,
+  "families": {
+   "unresolved": 2
+  },
+  "hints": {
+   "template-mockup": 1,
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-basic-content-api.picsart.io/p/5c95e58c-5653-48a2-b54c-4df39fd8792e.png",
+   "https://cdn-basic-content-api.picsart.io/p/a96a3d8f-d340-43c0-8d7d-07bfdec6e6e5.png"
   ]
  },
  {
@@ -2123,7 +2165,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/8689e655-2bb0-47de-8a81-d85a12ad7611.png",
@@ -2144,7 +2186,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/8ed34466-26e8-4bcc-8c43-7e0967fd4184.png",
@@ -2165,7 +2207,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/8fee7df6-98c4-4547-9934-aea7cd8307d7.png",
@@ -2186,7 +2228,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/acb915fe-f981-4908-8995-e52ac19de881.png",
@@ -2204,10 +2246,12 @@
   "rows": 2,
   "pages": 2,
   "families": {
-   "unresolved": 2
+   "unresolved": 1,
+   "mockup-card/white": 1
   },
   "hints": {
-   "?": 2
+   "template-mockup": 1,
+   "mockup-card": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/d5af1554-c05b-4779-a6b8-0424846ace82.png",
@@ -2225,35 +2269,14 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "unresolved": 2
+   "before-after": 2
   },
   "hints": {
-   "?": 2
+   "before-after": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/06bfdecd-129a-4b8c-8c36-25aefba32efe.png?type=webp&to=min&r=400",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a94ed2.png?type=webp&to=min&r=400"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
-   "aspect_class": "5:4",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 2,
-  "rows": 2,
-  "pages": 1,
-  "families": {
-   "unresolved": 2
-  },
-  "hints": {
-   "?": 2
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/07081122-ff58-4489-99f3-3320639cfaf2.png?type=webp&to=min&r=800",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/a80848bd-1dfe-4f7a-8536-4b552e1155f9.png?type=webp&to=min&r=800"
   ]
  },
  {
@@ -2270,7 +2293,8 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "cutout-checkerboard": 1,
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/21c52953-9a7c-44c7-afdf-fcc2bf0c9e74.png",
@@ -2301,27 +2325,6 @@
  {
   "key": {
    "type": "gallery",
-   "aspect_class": "9:16",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 2,
-  "rows": 2,
-  "pages": 1,
-  "families": {
-   "unresolved": 2
-  },
-  "hints": {
-   "?": 2
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/54e9db90-82d1-4398-b62c-9d8dce5d23b3.png?type=webp&to=min&r=400&type=webp&to=min&r=400",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d7e0d443-0803-4d3a-aa20-09692875465a.png?type=webp&to=min&r=400&type=webp&to=min&r=400"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
    "aspect_class": "16:10",
    "ground": "black",
    "layout": "two-up"
@@ -2330,10 +2333,10 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "unresolved": 2
+   "prompt-card": 2
   },
   "hints": {
-   "?": 2
+   "prompt-card": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/60bbbd6d-8c3f-46b0-9013-41704fccee17.webp",
@@ -2351,10 +2354,12 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "unresolved": 2
+   "prompt-card": 1,
+   "unresolved": 1
   },
   "hints": {
-   "?": 2
+   "prompt-card": 1,
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/60f1d44c-cf5a-4d5c-971a-68502992f9f4.jpg?type=webp&to=min&r=400",
@@ -2375,7 +2380,8 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "cutout-checkerboard": 1,
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a82f6eef-4d04-445c-9f50-21dfa9feac34.png",
@@ -2396,11 +2402,32 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-pipeline-output.picsart.com/magic-flow/1e8ff602-4b2c-4006-b6b7-d1cbe6a10e08.png?type=webp&to=min&r=1200",
    "https://cdn-pipeline-output.picsart.com/magic-flow/a5d9dd05-6673-45e4-ac26-d494b319638e.png?type=webp&to=min&r=1200"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "1:1",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "unresolved": 2
+  },
+  "hints": {
+   "other": 2
+  },
+  "srcs": [
+   "https://cdn-template.picsart.com/templates-cdn/71f2826b-9f79-4642-9989-ec99dbd15803.png",
+   "https://cdn-template.picsart.com/templates-cdn/91e66a7f-0455-44df-b654-29adfe9541ea.png"
   ]
  },
  {
@@ -2414,14 +2441,37 @@
   "rows": 3,
   "pages": 2,
   "families": {
-   "unresolved": 2
+   "graphic-collage/white": 1,
+   "unresolved": 1
   },
   "hints": {
-   "?": 2
+   "template-mockup": 1,
+   "other": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/d7b55eac-58e1-4307-9667-434f43d3641d.png",
    "https://pcdn.picsart.com/cms-uploads/fa55d808-36c9-4365-9e1a-acb055928ab4.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "None",
+   "ground": "black",
+   "layout": "single"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "unresolved": 2
+  },
+  "hints": {
+   "full-bleed": 2
+  },
+  "srcs": [
+   "https://cdn271.picsart.com/a3c2b5d5-ce46-4854-9ad4-432d930d7415/465590264038211.png?type=webp&to=min&r=400",
+   "https://cdn271.picsart.com/e6b8d0d2-131b-4f34-ae24-bfb9a083f102/418223447046201.jpg?type=webp&to=min&r=400"
   ]
  },
  {
@@ -2438,10 +2488,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/2b05c521-c2e1-44f0-a194-7e23dcf305fe.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "2:3",
+   "ground": "mixed",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-basic-content-api.picsart.io/p/2bc1b3e7-cab7-411e-b8f3-ab2253b9e7e0.png"
   ]
  },
  {
@@ -2458,7 +2528,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/2bc91091-2bef-494a-a5b3-c365d08fc13d.png"
@@ -2478,7 +2548,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/5e826c31-48c4-47e5-9e82-c050dc9d8931.png"
@@ -2498,7 +2568,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/610afd69-b6f5-4c78-82fa-0baef760f311.png"
@@ -2518,7 +2588,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/623b790f-e74b-43fd-acaa-e6b43fb3d074.png"
@@ -2538,7 +2608,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/696adcb9-5ecc-454e-b5c0-4ce45f0d4091.png"
@@ -2558,7 +2628,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/69f7298b-93e1-4c68-85ae-4a7d7a0601fc.png"
@@ -2578,7 +2648,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/6ae03ea8-a0f0-4b52-974c-1e345a6085cd.png"
@@ -2595,10 +2665,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "graphic-collage/black": 1
   },
   "hints": {
-   "?": 1
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/6b35873c-e578-423d-8de1-7e2ce8c674f5.png"
@@ -2618,7 +2688,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/6fc1e646-7d7c-4904-b7d1-81844f00611a.png"
@@ -2638,7 +2708,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/72515441-69cb-44dd-a96b-b923409eec74.png"
@@ -2658,7 +2728,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/7312456d-381f-45ed-bc8d-8bf6ca89e72d.png"
@@ -2678,7 +2748,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/7441a905-2d0c-481f-8b41-240f3ff7823a.png"
@@ -2698,7 +2768,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/8e3b2250-2cce-419b-81d7-95547162cb83.png"
@@ -2718,7 +2788,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/94121e4a-5a3f-4b71-81e4-7ee2bcb4ce6c.png"
@@ -2738,7 +2808,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/a710062f-d43c-4852-9ce4-30b9f420386c.png"
@@ -2755,10 +2825,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "template-mockup/black": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/b8cc1321-45e8-42af-8ccb-70ef6a035ccf.png"
@@ -2778,7 +2848,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/ba6ea146-3b1d-4d57-bde3-fc0d32375f2a.png"
@@ -2798,7 +2868,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/bc3648b3-8f1c-4556-87b7-1a1d79e2762c.png"
@@ -2818,7 +2888,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/c391960a-aa69-4b9f-94d0-44e4cb53dae6.png"
@@ -2838,7 +2908,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/d19edb3b-7424-40f8-b6b1-3a05ae476bc9.png"
@@ -2858,7 +2928,7 @@
    "full-bleed": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/d2361afa-a8fa-43f5-a0e4-2ced7429551f.png"
@@ -2869,7 +2939,7 @@
    "type": "gallery",
    "aspect_class": "3:4",
    "ground": "checkerboard",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 1,
   "rows": 1,
@@ -2878,7 +2948,7 @@
    "cutout-checkerboard/checker": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/e12dcda2-16e0-49fa-86d7-04be932ee9c5.png"
@@ -2898,7 +2968,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/e1d39a7a-9afc-406f-9a6c-c5e6a8a1d77a.png"
@@ -2909,7 +2979,7 @@
    "type": "gallery",
    "aspect_class": "2:1",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 1,
   "rows": 1,
@@ -2918,7 +2988,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/e6f7b7a0-3d19-4a07-9b5b-cce8b3b0e888.png"
@@ -2935,10 +3005,10 @@
   "rows": 4,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "graphic-collage/white": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/e910d03a-4e85-41a2-b61f-9b96558b8cba.png"
@@ -2958,7 +3028,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/ee4763d6-0d9d-4587-9320-67a1cdc47e87.png"
@@ -2978,7 +3048,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/ef1d0550-1b22-4a15-b242-69ee4d70002c.png"
@@ -2998,7 +3068,7 @@
    "outcome-tile": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/f5d786ff-1aee-43b3-bc5c-392c3b67c013.png"
@@ -3018,10 +3088,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-basic-content-api.picsart.io/p/ff362f9f-d9c2-46a2-b6f2-05e4ddd22eca.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "5:4",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "mockup-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/07081122-ff58-4489-99f3-3320639cfaf2.png?type=webp&to=min&r=800"
   ]
  },
  {
@@ -3038,10 +3128,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "cinematic-still": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6a9dc95b-f572-427c-a715-cd94589e38e8.webp?type=webp&to=min&r=400"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "5:4",
+   "ground": "white",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "editor-canvas": 1
+  },
+  "hints": {
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/a80848bd-1dfe-4f7a-8536-4b552e1155f9.png?type=webp&to=min&r=800"
   ]
  },
  {
@@ -3058,10 +3168,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ba40b076-efb1-42a2-b777-88518f184991.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "gallery",
+   "aspect_class": "9:16",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d7e0d443-0803-4d3a-aa20-09692875465a.png?type=webp&to=min&r=400&type=webp&to=min&r=400"
   ]
  },
  {
@@ -3078,7 +3208,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-pipeline-output.picsart.com/magic-flow/78e08b29-6410-42e5-86a7-ca9ce68cf13f.png?type=webp&to=min&r=1200"
@@ -3098,7 +3228,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/2aa09f3d-129d-45b0-b182-cb774bd279d8.jpg"
@@ -3118,7 +3248,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/8cb0dd46-de12-4ccc-9f07-5354612d5c7a.png"
@@ -3138,7 +3268,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/a234eb46-da06-4ee6-a9b5-c71955eba831.png"
@@ -3155,10 +3285,10 @@
   "rows": 4,
   "pages": 1,
   "families": {
-   "before-after": 1
+   "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/d95a4386-9352-4dd5-8c2f-87cb4680ccd5.jpg"
@@ -3178,7 +3308,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-template.picsart.com/templates-cdn/e1cd5003-c578-4d92-a8d2-fe1d6dd9e1a8.png"
@@ -3198,7 +3328,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn130.picsart.com/364687821030201.jpg?type=webp&to=min&r=400"
@@ -3218,7 +3348,7 @@
    "outcome-tile": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn270.picsart.com/c3f7910f-d1a5-438a-8f50-715c15172441/526219018008201.jpeg?type=webp&to=min&r=400"
@@ -3238,30 +3368,10 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn271.picsart.com/14523594-9c1a-4a2e-baf9-aecbc6efd7b8/514636367015201.jpg?type=webp&to=min&r=400"
-  ]
- },
- {
-  "key": {
-   "type": "gallery",
-   "aspect_class": "None",
-   "ground": "black",
-   "layout": "single"
-  },
-  "assets": 1,
-  "rows": 1,
-  "pages": 1,
-  "families": {
-   "unresolved": 1
-  },
-  "hints": {
-   "?": 1
-  },
-  "srcs": [
-   "https://cdn271.picsart.com/e6b8d0d2-131b-4f34-ae24-bfb9a083f102/418223447046201.jpg?type=webp&to=min&r=400"
   ]
  },
  {
@@ -3271,19 +3381,44 @@
    "ground": "photo-full-bleed",
    "layout": "single"
   },
-  "assets": 256,
-  "rows": 280,
-  "pages": 89,
+  "assets": 269,
+  "rows": 298,
+  "pages": 95,
   "families": {
-   "full-bleed": 245,
-   "before-after": 11
+   "full-bleed": 193,
+   "editor-canvas": 10,
+   "before-after": 11,
+   "graphic-collage": 1,
+   "crop-frame": 9,
+   "template-mockup": 5,
+   "prompt-card": 14,
+   "panel-overlay": 4,
+   "cutout-checkerboard": 4,
+   "mockup-card": 18
   },
   "hints": {
-   "?": 256
+   "before-after": 28,
+   "dark-composite": 21,
+   "editor-canvas": 8,
+   "vs-two-up": 38,
+   "cutout-checkerboard": 18,
+   "graphic-collage": 5,
+   "template-mockup": 28,
+   "crop-frame": 6,
+   "full-bleed": 56,
+   "other": 17,
+   "?": 5,
+   "prompt-card": 19,
+   "panel-overlay": 3,
+   "cinematic-still": 4,
+   "mockup-card": 11,
+   "outcome-tile": 1,
+   "model-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/00ae199c-4df7-41be-b817-059e3f5e4a4d.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/01328a85-1ef4-4291-bda6-b247ea4a0134.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/01c48ea8-6015-4439-8321-8936944541d6.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/020cb13e-8745-41e9-afd4-4934b0d98c3f.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/04a66c65-2795-43dd-bef6-976f7f80e0e7.avif",
@@ -3291,6 +3426,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0672af7c-151c-45b2-b1d4-8cc4b1d90d04.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/07a5a169-45b0-4805-893a-c3f4f94623d7.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/07fdeeac-d218-4db3-8cd1-915734b5ab4a.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/098f70be-3ebd-4c16-ad45-4a18798d4db4.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f1ee1.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0ce6b746-74be-40e5-b082-99ed069e5f38.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0dbc1ad5-0f34-41a9-b729-0c3da4c45e51.webm",
@@ -3300,17 +3436,20 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/120ec35a-d36c-4ced-afab-2303b6a86750.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/122adc7e-0534-4007-ad9a-19bae3b79cb8.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/139bfd24-28dd-46fd-a6cc-f37a124849f9.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1556b530-f63a-4d12-8d3e-ed8ad38bfb4f.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1a14a8fe-7c89-49e3-bb73-eb38a3a25979.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1bd451b2-ab20-449f-b5e1-ce95ab2d5882.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d0d70f9-5328-4f19-a2c7-abc848f31251.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3c1628-e2a2-40f1-9e87-b177de827945.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d4dc329-def1-4b60-8f0e-de71194e22da.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d6ac8fa-5ec5-43d4-8efd-891dc03637a2.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/211e67d0-ed58-43cb-bc4c-9a8cdc24e2b7.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/21fd293e-bd53-4fa3-a76f-67bb7f8bfab2.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/221b0850-01d2-401f-a4d4-9d7b2117d238.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/23a79d15-5220-4903-b14e-d3ebc724a77e.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/23c37d87-8727-4f1d-9aef-b113ae1545b2.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2585a025-5031-4ec0-9b1c-d201f967e088.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/263c939b-e57e-4c41-ba7c-04b9c197c1ad.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/28fa22ac-65d3-48ef-9eae-593688763d72.webm",
@@ -3355,6 +3494,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5cf85bce-45ef-4d31-a222-b8ff7cc1dd5d.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5ec5bf49-41b7-423c-9b41-c029ced37a5a.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5f89a61f-5b17-4c57-a880-3bf3798ca8a7.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/60c4d0c6-f03c-4ee6-af56-92e58e2d2fc9.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6110a9e6-815a-45e2-a347-22bf633eb846.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/63fb102b-fd68-4405-a42a-5466c0943ed8.webm",
@@ -3412,6 +3552,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ab14a4bf-d118-4268-9a2c-f54a7766f8ca.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ab7e3042-545f-494f-adaa-8a5643c045f8.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ac5aa2a5-f623-44a5-b4f4-32471a194c41.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ade9ed71-7c13-4a3b-85ee-78a48a278e61.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ae15a6af-87d8-4c82-9a30-62ed7d8f6f35.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/af02f9ab-66a0-481f-a8e5-a2732fd7a806.avif",
@@ -3419,6 +3560,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b22d092f-67f0-4647-a1b1-904cce981cd1.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b24a2c08-10b1-43cd-b54e-99dda8407bd9.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b295bbca-1e72-4e64-a80f-8521ee6af42f.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ae8c90-0dd4-4874-929e-febd78dd094f.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b46fa575-410c-4e87-8c8a-dfcfc32a557b.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b55a2099-3a31-4052-8831-c6e45fa7c208.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b572f707-195d-4ce0-b1b9-d5a8b23c85cb.avif",
@@ -3430,12 +3572,14 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bd2c72db-796e-412a-b51a-927cc22faea5.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bd94f88c-5d5a-4b43-9f24-5b3d13d51045.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bef623e5-df4c-452f-bf7c-00e049a757a0.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c1276496-9670-4cef-b711-e77e11fc6369.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c15c10e5-908b-46b2-9e17-816740ce4693.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c2b972f4-ae2a-4849-84f3-bd735cdb0eae.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c476a874-7a61-482f-ba0b-0268a88df516.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c579f32a-5351-4aed-8e35-cf2a26b52f14.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c7311ec5-acb7-4e57-94e0-704ef42e7f34.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c958bace-e135-40bc-b50c-4f9be0cd5717.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c97d5a69-1832-42ff-ab38-c9538ed7dbdf.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c99606d9-d24e-4dfb-860b-1ba4cfcd331e.avif",
@@ -3479,6 +3623,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f92ec76b-21d7-49a1-b409-bb813ca8b5be.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f96e5d5a-c692-4e8e-b305-6200b62d1dd0.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fc72f021-3378-4f61-bace-adc327bdde6e.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fdac2539-ae58-4f8a-8949-7c2d79989424.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fe95fa2f-a444-413e-b979-754dc9b53ba1.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ff61788c-fadc-408c-b611-81964ad17fb1.avif",
@@ -3492,6 +3637,7 @@
    "https://pastatic.picsart.com/cms-pastatic/10abe8ee-6361-41d6-9ef1-703350dedc57.png",
    "https://pastatic.picsart.com/cms-pastatic/1676dd8b-b017-4519-a818-85e855e6edb2.png",
    "https://pastatic.picsart.com/cms-pastatic/234929a2-4d37-4f5a-bd22-d81bfa8cc52f.png",
+   "https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png",
    "https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.png",
    "https://pastatic.picsart.com/cms-pastatic/2fd282a1-7ae9-4c3b-be64-2a62b37447c2.png",
    "https://pastatic.picsart.com/cms-pastatic/3359b079-6db7-4540-add0-dff59bc02363.png",
@@ -3516,6 +3662,7 @@
    "https://pastatic.picsart.com/cms-pastatic/73b6bcc6-72d4-4d57-aff2-cf23830446a8.png",
    "https://pastatic.picsart.com/cms-pastatic/73cfb468-ac20-4dc4-94a2-219da5954145.png",
    "https://pastatic.picsart.com/cms-pastatic/761f61b9-6328-4972-bb2b-5b726c9f8f07.png",
+   "https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png",
    "https://pastatic.picsart.com/cms-pastatic/8f1651b8-25d1-452e-84e5-0e3aa4a20f22.png",
    "https://pastatic.picsart.com/cms-pastatic/9157aa7e-8a82-414a-b51e-d2402dc2018b.png",
    "https://pastatic.picsart.com/cms-pastatic/93c0e7d4-184e-460c-8ba6-979bb5e75221.png",
@@ -3547,14 +3694,31 @@
    "ground": "white",
    "layout": "single"
   },
-  "assets": 120,
-  "rows": 141,
-  "pages": 44,
+  "assets": 127,
+  "rows": 148,
+  "pages": 45,
   "families": {
-   "unresolved": 120
+   "prompt-card/white": 14,
+   "unresolved": 58,
+   "cutout-checkerboard/white": 4,
+   "panel-overlay/white": 3,
+   "editor-canvas": 3,
+   "mockup-card/white": 17,
+   "template-mockup": 24,
+   "crop-frame": 4
   },
   "hints": {
-   "?": 120
+   "prompt-card": 7,
+   "full-bleed": 5,
+   "other": 35,
+   "template-mockup": 53,
+   "panel-overlay": 2,
+   "dark-composite": 1,
+   "mockup-card": 10,
+   "?": 7,
+   "editor-canvas": 2,
+   "crop-frame": 2,
+   "cutout-checkerboard": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/081fcfeb-e376-43d6-b306-01b388bc3d98.webp",
@@ -3625,6 +3789,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e010276d-b085-4298-9aee-1806618b75ea.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e14ef221-5202-4a1e-9f96-e4c6eeef0f5e.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e393bb2f-ee17-4d81-bc06-83343096438e.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e567c337-e6ab-4f60-9804-9cdaa92e8d83.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e99e01d1-6ff8-40fb-a9b8-c3140767a717.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ed4dc87c-72d7-4da1-8b18-37a6bac2f721.webp",
@@ -3649,23 +3814,29 @@
    "https://pastatic.picsart.com/cms-pastatic/30cc0835-e700-4f9d-bc75-99fd2ed8cd4b.png",
    "https://pastatic.picsart.com/cms-pastatic/3445db4c-b9d2-4aca-a17f-e30ddfe6c8cd.png",
    "https://pastatic.picsart.com/cms-pastatic/3b59c7df-7a6b-453a-bdf0-ab45093e7d67.png",
+   "https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png",
    "https://pastatic.picsart.com/cms-pastatic/40bd8a93-8b81-4ba0-926a-37e1073d26f9.png",
    "https://pastatic.picsart.com/cms-pastatic/499af3d1-d840-4dc8-9992-b7504ecddeaa.png",
    "https://pastatic.picsart.com/cms-pastatic/4c6a2635-11ec-4d23-88a9-068051ab69b0.png",
    "https://pastatic.picsart.com/cms-pastatic/4e5049d8-de3c-4e50-b2df-f3e2cf3ec6d4.png",
    "https://pastatic.picsart.com/cms-pastatic/5659a5d0-7078-4eeb-8f27-c1db7c830ef0.png",
    "https://pastatic.picsart.com/cms-pastatic/5a9447cb-bb7b-4ce1-8d2c-eced69058336.png",
+   "https://pastatic.picsart.com/cms-pastatic/5f3c7799-67ea-436a-8680-be451591f670.png",
    "https://pastatic.picsart.com/cms-pastatic/62145bab-c4cf-435a-a77d-0e8f25dd1746.png",
+   "https://pastatic.picsart.com/cms-pastatic/7e048761-e836-4799-8cc7-64defe051952.png",
    "https://pastatic.picsart.com/cms-pastatic/843fc5da-4aa0-4576-bb9e-d8dd35105c18.png",
+   "https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png",
    "https://pastatic.picsart.com/cms-pastatic/895ac1f6-f688-4db5-bcda-2e1533a59b4c.png",
    "https://pastatic.picsart.com/cms-pastatic/8d4e7241-9f68-4a0b-8010-55c59dacfa46.png",
    "https://pastatic.picsart.com/cms-pastatic/92477904-117e-427e-b6ef-45bc03d28cbd.png",
+   "https://pastatic.picsart.com/cms-pastatic/946febf9-c714-4f6b-ba0d-56497504060b.png",
    "https://pastatic.picsart.com/cms-pastatic/978715ce-0dc4-4b99-b5ef-03b1e807f2a0.png",
    "https://pastatic.picsart.com/cms-pastatic/9a29fc3f-947e-4ef9-b6ac-8824bd27de58.png",
    "https://pastatic.picsart.com/cms-pastatic/a17cb6cd-61cf-4469-b066-07140633fe96.png",
    "https://pastatic.picsart.com/cms-pastatic/a9128172-d7a9-4495-851a-2920859c0770.png",
    "https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.png",
    "https://pastatic.picsart.com/cms-pastatic/b77d8d7c-68a6-4e21-b752-4595dd70ca5c.png",
+   "https://pastatic.picsart.com/cms-pastatic/bff59f10-2680-4b5c-a2cb-6867645d9a7a.png",
    "https://pastatic.picsart.com/cms-pastatic/c0b2446c-f278-4acd-8f29-149a05986cf8.png",
    "https://pastatic.picsart.com/cms-pastatic/cbbdbcc3-fb2e-4b3d-9e9a-e61174ffdc34.png",
    "https://pastatic.picsart.com/cms-pastatic/cf140e97-6c14-4ba8-af30-ed880509aafc.png",
@@ -3683,148 +3854,37 @@
   "key": {
    "type": "feature-callout",
    "aspect_class": "1:1",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 111,
-  "rows": 220,
-  "pages": 34,
-  "families": {
-   "unresolved": 111
-  },
-  "hints": {
-   "?": 111
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/024b8aa7-f648-439c-b59b-869996f6c81d.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/098f70be-3ebd-4c16-ad45-4a18798d4db4.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1556b530-f63a-4d12-8d3e-ed8ad38bfb4f.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/15abe5ad-8e67-4d05-a3cf-aa840373cbfe.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1fe89325-ce38-44e3-a1f5-eaabca648c08.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/21cdafd9-b685-4558-94a5-8d5495a624f9.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/21d96d4e-f8be-4daf-bf14-599125d43dd2.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/273b2152-0aa6-4800-a105-840c9be66ee5.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/301fffa8-dd55-455a-b8fd-b91e90d5095c.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/32e24b56-54c0-4cf9-840f-112fb1fbf893.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/4300f508-307f-41cd-b437-e63a10d7b245.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/45cd0723-6d6c-48f4-b24a-507665603213.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/463d2cfa-bc90-40dd-a369-4cf568351d6b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/5ab810ca-dd64-40e6-86dd-356c205a4b4f.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6082f48b-e642-4739-8577-ab27b4e794ea.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/61107c70-4698-4284-ba0e-0fc97e6b11f9.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6300c642-6a8d-45e1-b124-72dda827be38.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/66e63c9c-6a39-475b-b2ce-2a9ae1d1d648.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6aada687-e0bb-4209-99ff-e140a8e21706.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6b9a19c4-4685-47bc-8497-dbe0d71c0f5c.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/82a6a79f-a869-4510-960a-639217e5b675.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/87a28071-ebf2-4291-ab14-a5cad9972e06.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8e3c73fe-def2-45a9-be1a-340a06257927.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f0040a2-c570-41b1-b581-d23d3d6f658f.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f1f1e39-fd6c-4a7b-815b-c93095a65968.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f57b835-0b47-4c41-ae32-c4903191c481.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/97a69d8d-b068-4ae3-bf6d-e83a3160b3b3.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/ac7e8ae2-cab8-451a-8445-e16f33760503.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/b2749949-9df4-4886-8241-985fbeb36cce.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/b3ae8c90-0dd4-4874-929e-febd78dd094f.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/b61ebffd-b070-4d50-9106-928b5e07c5a7.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/ba57eaf9-6f82-4bde-b95a-27a25bb87ec2.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/be8708d4-bafe-454f-847e-fd81b4949bff.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/bfb444a5-a805-49ea-add8-40358de0b12d.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/c1113515-c5ea-4287-86c1-94ae0b25821b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3461329-6ddb-464d-8a29-a7e1ec62e772.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d09760f3-10b8-4189-a5af-130ae2181e79.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d4507d92-9a72-492e-993d-85b93dd1e390.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d7577fb9-5ba3-493c-b075-e6b625677f4b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/db96688b-19f8-48f3-a6ed-b345bd30241f.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/dd9a2585-9da3-42ed-b0eb-a9a7ce265ca0.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e0fa3c09-dc9b-4fbe-b702-7edceb743234.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/ee6516f7-67a3-4efb-82f9-9bf752dcbe95.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f0117422-45c3-4399-885b-8a40095699e9.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fb8c02a7-e225-456a-a8d3-7c858eb1fdfa.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fe50b495-9744-4423-a87a-ede455017dc0.webp",
-   "https://pastatic.picsart.com/cms-pastatic/01d7834e-fa46-4281-8ff6-35fd0743f360.png",
-   "https://pastatic.picsart.com/cms-pastatic/06073f33-fae7-4432-8926-3f399923ffa5.png",
-   "https://pastatic.picsart.com/cms-pastatic/0a059f15-375e-4bd0-a92a-e13ead8f5ce6.png",
-   "https://pastatic.picsart.com/cms-pastatic/219070b9-dc9b-464f-8ea2-e1ba59c033d8.png",
-   "https://pastatic.picsart.com/cms-pastatic/2628ed8d-03f2-4150-9d61-9af4c51873e5.png",
-   "https://pastatic.picsart.com/cms-pastatic/307dc471-15f1-41d2-9758-068ad7272e22.png",
-   "https://pastatic.picsart.com/cms-pastatic/49f3cb74-0ad6-4391-b7d2-29accfdfda06.png",
-   "https://pastatic.picsart.com/cms-pastatic/4c10cce3-43b2-455c-af56-2cefcae7c341.png",
-   "https://pastatic.picsart.com/cms-pastatic/4c70579c-893a-437f-9a74-c26212882554.png",
-   "https://pastatic.picsart.com/cms-pastatic/517b85da-c031-478c-82c6-a70c3518c366.png",
-   "https://pastatic.picsart.com/cms-pastatic/55c91c8a-11a3-4b6e-ab28-23b8097f0af3.png",
-   "https://pastatic.picsart.com/cms-pastatic/56f038cf-bdbb-4b69-9a71-736cf9053105.png",
-   "https://pastatic.picsart.com/cms-pastatic/5bc56a53-7167-40f2-976e-dab195ed84aa.png",
-   "https://pastatic.picsart.com/cms-pastatic/5d64241c-8999-4485-96ed-5b9693c9e717.png",
-   "https://pastatic.picsart.com/cms-pastatic/60eb80c9-ebd8-43b8-b913-4652e06c54fa.png",
-   "https://pastatic.picsart.com/cms-pastatic/62862076-9915-4097-9f3c-55f195033fce.png",
-   "https://pastatic.picsart.com/cms-pastatic/68a8682e-5ad7-4afb-a907-3dfefeec465a.png",
-   "https://pastatic.picsart.com/cms-pastatic/6aac8086-abe0-4156-a747-e03c7ac2a499.png",
-   "https://pastatic.picsart.com/cms-pastatic/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494.png",
-   "https://pastatic.picsart.com/cms-pastatic/7fe312b0-aac9-4607-a007-0c4ce625b209.png",
-   "https://pastatic.picsart.com/cms-pastatic/8031c225-ae21-421b-ad9c-3a49a40c6c4f.png",
-   "https://pastatic.picsart.com/cms-pastatic/80694dc4-4c3e-4fea-a011-e1a1dfc620ac.png",
-   "https://pastatic.picsart.com/cms-pastatic/861c2971-6932-469f-b71f-eff6b13ab767.png",
-   "https://pastatic.picsart.com/cms-pastatic/997e272b-8303-44cb-a542-73248807c9d3.png",
-   "https://pastatic.picsart.com/cms-pastatic/a591037a-5c12-4d55-846b-13ab3c3b0b6e.png",
-   "https://pastatic.picsart.com/cms-pastatic/b16b0d9a-32d6-4924-9eb5-0ba1c89218cd.png",
-   "https://pastatic.picsart.com/cms-pastatic/b5ec82e7-be2a-43ec-a152-cfb7f887d3e3.png",
-   "https://pastatic.picsart.com/cms-pastatic/bbc37648-4f1e-4f72-8a0a-a8f7d5430328.png",
-   "https://pastatic.picsart.com/cms-pastatic/bc3d7ce1-dd9d-4036-b43e-2d54b9eae83d.png",
-   "https://pastatic.picsart.com/cms-pastatic/c491d842-ddd5-496f-b91a-93064489b928.png",
-   "https://pastatic.picsart.com/cms-pastatic/c94c1d42-4c47-4dd4-8477-e178813b6b4d.png",
-   "https://pastatic.picsart.com/cms-pastatic/cbd69e03-2353-486a-a0b0-051391c6f4c2.png",
-   "https://pastatic.picsart.com/cms-pastatic/cf38e144-65ac-46b7-ac20-8b9ba1c23096.png",
-   "https://pastatic.picsart.com/cms-pastatic/d4a58bb1-ce7a-4c55-8a12-65096fce1ddd.png",
-   "https://pastatic.picsart.com/cms-pastatic/d5d56eb0-01cc-4ed1-a605-de87ce135413.png",
-   "https://pastatic.picsart.com/cms-pastatic/d5ee5072-a3fd-4373-ba85-a1b7890497fc.png",
-   "https://pastatic.picsart.com/cms-pastatic/d6886bb7-7b0a-4549-8b4b-2211ea3f953d.png",
-   "https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png",
-   "https://pastatic.picsart.com/cms-pastatic/dfd22ac3-b1c8-445d-b51e-0b9e61956bcf.png",
-   "https://pastatic.picsart.com/cms-pastatic/e5c708c5-ad42-4422-b6a2-55c61ba7799e.png",
-   "https://pastatic.picsart.com/cms-pastatic/e675b4bf-31b7-4e0d-8608-3282a9fd040b.png",
-   "https://pastatic.picsart.com/cms-pastatic/e67f42df-9478-4b5a-80da-8fa492b1b7f0.png",
-   "https://pastatic.picsart.com/cms-pastatic/eadb151d-2ba8-4282-aafb-90b1a6922da9.png",
-   "https://pastatic.picsart.com/cms-pastatic/ec6aebfc-ff91-47b9-bf24-981f5ae7f0b8.png",
-   "https://pastatic.picsart.com/cms-pastatic/eec92ca9-d828-4eee-b56e-26e10bcfc570.png",
-   "https://pastatic.picsart.com/cms-pastatic/eed87235-38d8-4082-8823-f0589c4cf1f6.png",
-   "https://pastatic.picsart.com/cms-pastatic/f57cb379-95bd-4fcd-b149-c08a7a1180e7.png",
-   "https://pastatic.picsart.com/cms-pastatic/fc4bbe40-5b69-4c57-9984-eeb4168e63a1.png"
-  ]
- },
- {
-  "key": {
-   "type": "feature-callout",
-   "aspect_class": "1:1",
    "ground": "photo-full-bleed",
    "layout": "split"
   },
-  "assets": 101,
-  "rows": 107,
-  "pages": 48,
+  "assets": 104,
+  "rows": 115,
+  "pages": 49,
   "families": {
-   "before-after": 20,
-   "unresolved": 81
+   "crop-frame": 13,
+   "before-after": 22,
+   "unresolved": 50,
+   "prompt-card": 13,
+   "panel-overlay": 1,
+   "mockup-card": 1,
+   "cutout-checkerboard": 3,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 101
+   "vs-two-up": 47,
+   "other": 5,
+   "before-after": 7,
+   "prompt-card": 12,
+   "template-mockup": 8,
+   "graphic-collage": 2,
+   "model-card": 1,
+   "cutout-checkerboard": 3,
+   "panel-overlay": 1,
+   "crop-frame": 2,
+   "editor-canvas": 1,
+   "dark-composite": 10,
+   "mockup-card": 2,
+   "?": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/02e5c476-4054-425f-8dee-8c6f6981c6d9.webm",
@@ -3898,6 +3958,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ad4a1557-85a5-4f64-a1da-d94d562484ac.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ad530266-8664-4a0e-bab6-8a6315c79dd9.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b4f726ca-5e04-4f33-a920-016977d33fac.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b9f1a949-8585-4b04-8c10-813aa051dbc8.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bbc0f909-707b-4e8a-885b-867f9c8b921a.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bc1424ed-c046-4db0-9dd9-42b874136bfb.avif",
@@ -3917,6 +3978,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e90902ed-bf87-4a14-bd06-965e5c0198e3.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ec67a479-54dd-4b68-9e8c-81871f1e0a35.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/edb74178-8b98-4ce0-ac64-3014cd75e262.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ee36e3a1-27d8-4d97-80ce-05e1cab37db2.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f0619567-4a20-43d1-9932-029ce553d4f0.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f0b2c933-afa7-4212-a571-8f652df22328.webm",
@@ -3926,6 +3988,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fa62c50f-ded1-4468-82b5-7758509e7e63.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fc1a07de-2f79-4188-b7ea-ffe8b53ba2ec.avif",
    "https://pcdn.picsart.com/cms-uploads/08a123dd-3cfa-414c-bf07-a3b8e0f041e6.avif",
+   "https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif",
    "https://pcdn.picsart.com/cms-uploads/a3502ec3-cfed-45f4-8f3d-6ae643df6603.avif",
    "https://pcdn.picsart.com/cms-uploads/b0bc3822-b65c-460b-974f-d4aa08dbd9d4.avif"
   ]
@@ -3937,14 +4000,28 @@
    "ground": "black",
    "layout": "single"
   },
-  "assets": 64,
-  "rows": 100,
-  "pages": 32,
+  "assets": 65,
+  "rows": 101,
+  "pages": 33,
   "families": {
-   "unresolved": 64
+   "unresolved": 32,
+   "prompt-card": 17,
+   "crop-frame/black": 4,
+   "mockup-card": 4,
+   "template-mockup/black": 4,
+   "panel-overlay/black": 2,
+   "editor-canvas/black": 1,
+   "cutout-checkerboard": 1
   },
   "hints": {
-   "?": 64
+   "full-bleed": 13,
+   "other": 15,
+   "prompt-card": 20,
+   "dark-composite": 3,
+   "cutout-checkerboard": 3,
+   "editor-canvas": 4,
+   "template-mockup": 6,
+   "?": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/036bda94-7c15-4edf-b5ab-11a8eeb85604.webm",
@@ -4010,6 +4087,7 @@
    "https://pastatic.picsart.com/cms-pastatic/f230f55e-9661-4698-93f2-16051723fc55.png",
    "https://pastatic.picsart.com/cms-pastatic/f383f0c4-0806-40ef-bce7-bd0e09047b73.png",
    "https://pastatic.picsart.com/cms-pastatic/f76d7601-d94d-4032-8d4f-44902e7d83cc.png",
+   "https://pcdn.picsart.com/cms-uploads/0cc719d2-f26f-48c4-9e14-c86b932867aa.avif",
    "https://pcdn.picsart.com/cms-uploads/52bc1e66-3fbc-48d5-a098-906463e7fb9d.avif"
   ]
  },
@@ -4020,24 +4098,39 @@
    "ground": "white",
    "layout": "column-main"
   },
-  "assets": 20,
-  "rows": 35,
-  "pages": 11,
+  "assets": 31,
+  "rows": 49,
+  "pages": 20,
   "families": {
-   "unresolved": 20
+   "crop-frame": 1,
+   "template-mockup": 12,
+   "unresolved": 4,
+   "mockup-card/white": 7,
+   "dark-composite/white": 5,
+   "prompt-card/white": 1,
+   "editor-canvas": 1
   },
   "hints": {
-   "?": 20
+   "mockup-card": 3,
+   "template-mockup": 24,
+   "?": 4
   },
   "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/15abe5ad-8e67-4d05-a3cf-aa840373cbfe.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2d2e0666-a05f-4f18-86c5-0f268c8c05fc.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/32e24b56-54c0-4cf9-840f-112fb1fbf893.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/3908c0df-5426-4feb-a387-4bf35ae265b6.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/39a9c192-3c3e-473d-b801-71c3287a294f.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4300f508-307f-41cd-b437-e63a10d7b245.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4ab669c9-826c-4ef3-af27-7dfacdf2d113.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/66e63c9c-6a39-475b-b2ce-2a9ae1d1d648.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6b9a19c4-4685-47bc-8497-dbe0d71c0f5c.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6df3d733-ea68-4fc2-b995-2991c1d5cbb4.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/7c711856-41a8-4ed9-9c87-ea81e303ca4e.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/9119fccd-5d22-49e5-920e-c8aa1d1842f7.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ba57eaf9-6f82-4bde-b95a-27a25bb87ec2.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d4507d92-9a72-492e-993d-85b93dd1e390.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e41ea569-771c-40f7-abd5-9b957035cba4.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fc6f4401-fcf9-4d90-a4b1-ca69665c58b9.avif",
    "https://pastatic.picsart.com/cms-pastatic/152daa9b-f42d-4176-9961-3f718daae1ab.png",
@@ -4049,6 +4142,10 @@
    "https://pastatic.picsart.com/cms-pastatic/abdad764-a124-4fbb-a366-aa9ce7e5797b.png",
    "https://pastatic.picsart.com/cms-pastatic/ad52b812-d7f0-42ef-934b-9948c8d095e5.png",
    "https://pastatic.picsart.com/cms-pastatic/b2d4c124-795d-44d3-af73-481c08e9dc35.png",
+   "https://pastatic.picsart.com/cms-pastatic/d5d56eb0-01cc-4ed1-a605-de87ce135413.png",
+   "https://pastatic.picsart.com/cms-pastatic/d6886bb7-7b0a-4549-8b4b-2211ea3f953d.png",
+   "https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png",
+   "https://pastatic.picsart.com/cms-pastatic/dfd22ac3-b1c8-445d-b51e-0b9e61956bcf.png",
    "https://pastatic.picsart.com/cms-pastatic/e2cf0e6a-ae57-4e65-88e8-b88b8665e5f0.png"
   ]
  },
@@ -4059,25 +4156,35 @@
    "ground": "black",
    "layout": "column-main"
   },
-  "assets": 16,
-  "rows": 16,
-  "pages": 11,
+  "assets": 25,
+  "rows": 39,
+  "pages": 16,
   "families": {
-   "unresolved": 11,
-   "dark-composite": 3,
-   "mockup-card": 1,
-   "prompt-card": 1
+   "unresolved": 9,
+   "dark-composite": 7,
+   "mockup-card": 3,
+   "cutout-checkerboard": 1,
+   "template-mockup/black": 3,
+   "prompt-card": 1,
+   "crop-frame/black": 1
   },
   "hints": {
-   "?": 11,
+   "full-bleed": 1,
+   "template-mockup": 8,
+   "mockup-card": 2,
    "vs-two-up": 2,
-   "mockup-card": 1,
-   "prompt-card": 1,
-   "dark-composite": 1
+   "?": 8,
+   "prompt-card": 2,
+   "dark-composite": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/11da1e05-301c-4662-b389-42464e9956b7.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/21cdafd9-b685-4558-94a5-8d5495a624f9.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/21d96d4e-f8be-4daf-bf14-599125d43dd2.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/463d2cfa-bc90-40dd-a369-4cf568351d6b.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/5ab810ca-dd64-40e6-86dd-356c205a4b4f.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6300c642-6a8d-45e1-b124-72dda827be38.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/63ce8e4f-ed34-4fa6-bccc-24088399f766.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6766a842-d366-4165-afe4-fd3e78d603d4.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/7aa36208-76f8-4ec8-a2ee-92b9c4cf7c55.webm",
@@ -4085,7 +4192,11 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/83cb7e61-fa71-4ea2-93fc-9bea6a56b97b.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/896831e1-d7d7-4261-9987-3a13aecad57d.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/af8d42de-e318-402f-9851-e9d325e5e806.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b2749949-9df4-4886-8241-985fbeb36cce.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bd3c5739-9e9e-40e9-9207-d549b9b922f1.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/c1113515-c5ea-4287-86c1-94ae0b25821b.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3461329-6ddb-464d-8a29-a7e1ec62e772.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/d724fc56-e279-47c7-861c-29ec2cd8c135.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ed7a95bd-ce05-4250-8905-ed8350f66445.webm",
@@ -4098,34 +4209,112 @@
   "key": {
    "type": "feature-callout",
    "aspect_class": "1:1",
-   "ground": "mixed",
-   "layout": "None"
+   "ground": "None",
+   "layout": "column-main"
   },
-  "assets": 15,
-  "rows": 15,
-  "pages": 10,
+  "assets": 20,
+  "rows": 86,
+  "pages": 15,
   "families": {
-   "unresolved": 15
+   "prompt-card": 3,
+   "unresolved": 5,
+   "template-mockup": 11,
+   "cutout-checkerboard": 1
   },
   "hints": {
-   "?": 15
+   "prompt-card": 3,
+   "other": 4,
+   "template-mockup": 13
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/41c52162-d2a1-464f-bcc4-f59782719904.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/595b38bf-29d8-477c-a13d-ffa4d395216c.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/63283d1d-e123-4317-82ab-45d48c0e6235.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/7f9dc20b-fd4b-4ce7-b5ce-e44ad37d7a35.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/87121e97-93c2-43ca-88ce-32ddc8fd3044.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/aa3b21b4-379b-4e04-a523-a5bf22ce694a.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f1025f68-88ff-4e9f-9b17-a93946360343.webm",
-   "https://pastatic.picsart.com/cms-pastatic/3c5f212a-479c-4bd5-b8be-239e6d55ae39.png",
-   "https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.png",
-   "https://pastatic.picsart.com/cms-pastatic/57dcf388-b47f-4e55-8771-a131767cbc6b.png",
-   "https://pastatic.picsart.com/cms-pastatic/5b9be208-6799-44c1-9756-0b5bd56ebb16.png",
-   "https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.png",
-   "https://pastatic.picsart.com/cms-pastatic/b6c7af30-d662-4c63-95d3-f0cc5f07277b.png",
-   "https://pastatic.picsart.com/cms-pastatic/c37725fd-1f8e-426a-b944-39f9a7305b2a.png",
-   "https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f0040a2-c570-41b1-b581-d23d3d6f658f.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ac7e8ae2-cab8-451a-8445-e16f33760503.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d7577fb9-5ba3-493c-b075-e6b625677f4b.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e0fa3c09-dc9b-4fbe-b702-7edceb743234.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f0117422-45c3-4399-885b-8a40095699e9.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp",
+   "https://pastatic.picsart.com/cms-pastatic/01d7834e-fa46-4281-8ff6-35fd0743f360.png",
+   "https://pastatic.picsart.com/cms-pastatic/06073f33-fae7-4432-8926-3f399923ffa5.png",
+   "https://pastatic.picsart.com/cms-pastatic/307dc471-15f1-41d2-9758-068ad7272e22.png",
+   "https://pastatic.picsart.com/cms-pastatic/4c10cce3-43b2-455c-af56-2cefcae7c341.png",
+   "https://pastatic.picsart.com/cms-pastatic/4c70579c-893a-437f-9a74-c26212882554.png",
+   "https://pastatic.picsart.com/cms-pastatic/80694dc4-4c3e-4fea-a011-e1a1dfc620ac.png",
+   "https://pastatic.picsart.com/cms-pastatic/861c2971-6932-469f-b71f-eff6b13ab767.png",
+   "https://pastatic.picsart.com/cms-pastatic/f57cb379-95bd-4fcd-b149-c08a7a1180e7.png",
+   "https://pastatic.picsart.com/cms-pastatic/fc4bbe40-5b69-4c57-9984-eeb4168e63a1.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "light-grey",
+   "layout": "column-main"
+  },
+  "assets": 12,
+  "rows": 12,
+  "pages": 9,
+  "families": {
+   "dark-composite/light": 5,
+   "template-mockup/light": 5,
+   "mockup-card/light": 1,
+   "crop-frame/light": 1
+  },
+  "hints": {
+   "template-mockup": 12
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1fe89325-ce38-44e3-a1f5-eaabca648c08.webp",
+   "https://pastatic.picsart.com/cms-pastatic/517b85da-c031-478c-82c6-a70c3518c366.png",
+   "https://pastatic.picsart.com/cms-pastatic/55c91c8a-11a3-4b6e-ab28-23b8097f0af3.png",
+   "https://pastatic.picsart.com/cms-pastatic/56f038cf-bdbb-4b69-9a71-736cf9053105.png",
+   "https://pastatic.picsart.com/cms-pastatic/5bc56a53-7167-40f2-976e-dab195ed84aa.png",
+   "https://pastatic.picsart.com/cms-pastatic/62862076-9915-4097-9f3c-55f195033fce.png",
+   "https://pastatic.picsart.com/cms-pastatic/68a8682e-5ad7-4afb-a907-3dfefeec465a.png",
+   "https://pastatic.picsart.com/cms-pastatic/6aac8086-abe0-4156-a747-e03c7ac2a499.png",
+   "https://pastatic.picsart.com/cms-pastatic/8031c225-ae21-421b-ad9c-3a49a40c6c4f.png",
+   "https://pastatic.picsart.com/cms-pastatic/e5c708c5-ad42-4422-b6a2-55c61ba7799e.png",
+   "https://pastatic.picsart.com/cms-pastatic/eadb151d-2ba8-4282-aafb-90b1a6922da9.png",
+   "https://pastatic.picsart.com/cms-pastatic/ec6aebfc-ff91-47b9-bf24-981f5ae7f0b8.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "None",
+   "layout": "stacked"
+  },
+  "assets": 12,
+  "rows": 12,
+  "pages": 9,
+  "families": {
+   "template-mockup": 9,
+   "prompt-card": 1,
+   "mockup-card": 2
+  },
+  "hints": {
+   "template-mockup": 11,
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/87a28071-ebf2-4291-ab14-a5cad9972e06.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/dd9a2585-9da3-42ed-b0eb-a9a7ce265ca0.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fb8c02a7-e225-456a-a8d3-7c858eb1fdfa.webp",
+   "https://pastatic.picsart.com/cms-pastatic/0a059f15-375e-4bd0-a92a-e13ead8f5ce6.png",
+   "https://pastatic.picsart.com/cms-pastatic/219070b9-dc9b-464f-8ea2-e1ba59c033d8.png",
+   "https://pastatic.picsart.com/cms-pastatic/997e272b-8303-44cb-a542-73248807c9d3.png",
+   "https://pastatic.picsart.com/cms-pastatic/a591037a-5c12-4d55-846b-13ab3c3b0b6e.png",
+   "https://pastatic.picsart.com/cms-pastatic/bbc37648-4f1e-4f72-8a0a-a8f7d5430328.png",
+   "https://pastatic.picsart.com/cms-pastatic/bc3d7ce1-dd9d-4036-b43e-2d54b9eae83d.png",
+   "https://pastatic.picsart.com/cms-pastatic/c491d842-ddd5-496f-b91a-93064489b928.png",
+   "https://pastatic.picsart.com/cms-pastatic/cf38e144-65ac-46b7-ac20-8b9ba1c23096.png",
+   "https://pastatic.picsart.com/cms-pastatic/eed87235-38d8-4082-8823-f0589c4cf1f6.png"
   ]
  },
  {
@@ -4135,14 +4324,18 @@
    "ground": "white",
    "layout": "stacked"
   },
-  "assets": 10,
-  "rows": 10,
-  "pages": 8,
+  "assets": 11,
+  "rows": 11,
+  "pages": 9,
   "families": {
-   "unresolved": 10
+   "unresolved": 2,
+   "mockup-card/white": 7,
+   "template-mockup": 1,
+   "crop-frame": 1
   },
   "hints": {
-   "?": 10
+   "template-mockup": 8,
+   "mockup-card": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/19374784-8bb5-42b8-ab4e-b9f20108f4b9.webp",
@@ -4154,7 +4347,43 @@
    "https://pastatic.picsart.com/cms-pastatic/648fdfe3-3e27-49d3-a20e-1c88021c2a88.png",
    "https://pastatic.picsart.com/cms-pastatic/79fc64ff-8a3b-43a4-9537-c3bb5d4a37a5.png",
    "https://pastatic.picsart.com/cms-pastatic/84b85b5e-8402-4eb3-8a21-cc4a8773f1f6.png",
-   "https://pastatic.picsart.com/cms-pastatic/ce5825f4-0936-4837-a145-13d90188f3a1.png"
+   "https://pastatic.picsart.com/cms-pastatic/ce5825f4-0936-4837-a145-13d90188f3a1.png",
+   "https://pastatic.picsart.com/cms-pastatic/d4a58bb1-ce7a-4c55-8a12-65096fce1ddd.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "two-up"
+  },
+  "assets": 10,
+  "rows": 10,
+  "pages": 6,
+  "families": {
+   "cutout-checkerboard/white": 1,
+   "prompt-card/white": 5,
+   "mockup-card/white": 2,
+   "unresolved": 2
+  },
+  "hints": {
+   "mockup-card": 2,
+   "prompt-card": 5,
+   "template-mockup": 2,
+   "?": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/024b8aa7-f648-439c-b59b-869996f6c81d.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/39120e67-c950-4588-84c4-7562280b8e10.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/be8708d4-bafe-454f-847e-fd81b4949bff.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ebe8e85d-1307-4ba8-8746-5fedfa68e717.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp",
+   "https://pastatic.picsart.com/cms-pastatic/5d64241c-8999-4485-96ed-5b9693c9e717.png",
+   "https://pastatic.picsart.com/cms-pastatic/6e05cdb5-7265-40b2-b982-f887be69bc28.png"
   ]
  },
  {
@@ -4168,10 +4397,14 @@
   "rows": 7,
   "pages": 3,
   "families": {
-   "unresolved": 7
+   "mockup-card/white": 1,
+   "prompt-card/white": 4,
+   "unresolved": 1,
+   "template-mockup": 1
   },
   "hints": {
-   "?": 7
+   "template-mockup": 6,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0d8aafba-8e7a-4832-8745-e796810895c4.webp",
@@ -4181,6 +4414,68 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f04fb5fe-aca4-4d33-b0ef-df40e5c150a6.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fd767bc1-b77f-4291-a725-b595887e1a60.webp",
    "https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "overlay"
+  },
+  "assets": 7,
+  "rows": 7,
+  "pages": 5,
+  "families": {
+   "graphic-collage/mixed": 2,
+   "unresolved": 1,
+   "panel-overlay/mixed": 1,
+   "crop-frame/mixed": 1,
+   "template-mockup/mixed": 2
+  },
+  "hints": {
+   "crop-frame": 1,
+   "graphic-collage": 1,
+   "template-mockup": 3,
+   "cutout-checkerboard": 1,
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6082f48b-e642-4739-8577-ab27b4e794ea.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/aa3b21b4-379b-4e04-a523-a5bf22ce694a.avif",
+   "https://pastatic.picsart.com/cms-pastatic/3c5f212a-479c-4bd5-b8be-239e6d55ae39.png",
+   "https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.png",
+   "https://pastatic.picsart.com/cms-pastatic/5b9be208-6799-44c1-9756-0b5bd56ebb16.png",
+   "https://pastatic.picsart.com/cms-pastatic/b6c7af30-d662-4c63-95d3-f0cc5f07277b.png",
+   "https://pastatic.picsart.com/cms-pastatic/c37725fd-1f8e-426a-b944-39f9a7305b2a.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "None",
+   "layout": "grid"
+  },
+  "assets": 7,
+  "rows": 34,
+  "pages": 7,
+  "families": {
+   "template-mockup": 5,
+   "unresolved": 2
+  },
+  "hints": {
+   "template-mockup": 6,
+   "model-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/82a6a79f-a869-4510-960a-639217e5b675.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f57b835-0b47-4c41-ae32-c4903191c481.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/97a69d8d-b068-4ae3-bf6d-e83a3160b3b3.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp",
+   "https://pastatic.picsart.com/cms-pastatic/49f3cb74-0ad6-4391-b7d2-29accfdfda06.png",
+   "https://pastatic.picsart.com/cms-pastatic/b16b0d9a-32d6-4924-9eb5-0ba1c89218cd.png",
+   "https://pastatic.picsart.com/cms-pastatic/cbd69e03-2353-486a-a0b0-051391c6f4c2.png"
   ]
  },
  {
@@ -4197,7 +4492,9 @@
    "full-bleed": 6
   },
   "hints": {
-   "?": 6
+   "full-bleed": 2,
+   "cinematic-still": 2,
+   "other": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0accb81d-bd9c-4ad1-ace9-e102c7b2942e.webm",
@@ -4212,31 +4509,6 @@
   "key": {
    "type": "feature-callout",
    "aspect_class": "1:1",
-   "ground": "white",
-   "layout": "two-up"
-  },
-  "assets": 6,
-  "rows": 6,
-  "pages": 2,
-  "families": {
-   "unresolved": 6
-  },
-  "hints": {
-   "?": 6
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/39120e67-c950-4588-84c4-7562280b8e10.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/ebe8e85d-1307-4ba8-8746-5fedfa68e717.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp"
-  ]
- },
- {
-  "key": {
-   "type": "feature-callout",
-   "aspect_class": "1:1",
    "ground": "black",
    "layout": "stacked"
   },
@@ -4244,10 +4516,16 @@
   "rows": 6,
   "pages": 4,
   "families": {
-   "unresolved": 5
+   "prompt-card": 1,
+   "unresolved": 3,
+   "mockup-card": 1
   },
   "hints": {
-   "?": 5
+   "prompt-card": 1,
+   "other": 1,
+   "full-bleed": 1,
+   "mockup-card": 1,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/015dcbcd-d75e-4ca5-bcf7-d4e830f97af4.webm",
@@ -4261,6 +4539,82 @@
   "key": {
    "type": "feature-callout",
    "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "single"
+  },
+  "assets": 4,
+  "rows": 4,
+  "pages": 2,
+  "families": {
+   "unresolved": 4
+  },
+  "hints": {
+   "full-bleed": 1,
+   "template-mockup": 1,
+   "crop-frame": 1,
+   "cutout-checkerboard": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/595b38bf-29d8-477c-a13d-ffa4d395216c.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/63283d1d-e123-4317-82ab-45d48c0e6235.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/87121e97-93c2-43ca-88ce-32ddc8fd3044.webm",
+   "https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "solid-colour",
+   "layout": "column-main"
+  },
+  "assets": 4,
+  "rows": 4,
+  "pages": 3,
+  "families": {
+   "unresolved": 1,
+   "cutout-checkerboard/colour": 1,
+   "editor-canvas/colour": 2
+  },
+  "hints": {
+   "before-after": 1,
+   "template-mockup": 1,
+   "editor-canvas": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/afda9819-c7ef-4bb6-90d2-361d714d1d3f.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif",
+   "https://cdn140.picsart.com/82576960349479261092.jpg",
+   "https://cdn140.picsart.com/95704440111494284974.jpg"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "light-grey",
+   "layout": "two-up"
+  },
+  "assets": 3,
+  "rows": 3,
+  "pages": 3,
+  "families": {
+   "template-mockup/light": 1,
+   "unresolved": 2
+  },
+  "hints": {
+   "template-mockup": 3
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/301fffa8-dd55-455a-b8fd-b91e90d5095c.webp",
+   "https://pastatic.picsart.com/cms-pastatic/60eb80c9-ebd8-43b8-b913-4652e06c54fa.png",
+   "https://pastatic.picsart.com/cms-pastatic/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
    "ground": "black",
    "layout": "grid"
   },
@@ -4268,10 +4622,13 @@
   "rows": 3,
   "pages": 3,
   "families": {
-   "unresolved": 3
+   "unresolved": 2,
+   "cutout-checkerboard": 1
   },
   "hints": {
-   "?": 3
+   "vs-two-up": 1,
+   "dark-composite": 1,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5cd399cf-cc15-46a0-a0e7-ceae2c824eb1.webm",
@@ -4283,22 +4640,51 @@
   "key": {
    "type": "feature-callout",
    "aspect_class": "1:1",
-   "ground": "solid-colour",
-   "layout": "column-main"
+   "ground": "white",
+   "layout": "overlay"
   },
   "assets": 3,
   "rows": 3,
   "pages": 2,
   "families": {
-   "unresolved": 3
+   "prompt-card/white": 1,
+   "mockup-card/white": 1,
+   "template-mockup": 1
   },
   "hints": {
-   "?": 3
+   "prompt-card": 1,
+   "mockup-card": 2
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/afda9819-c7ef-4bb6-90d2-361d714d1d3f.webp",
-   "https://cdn140.picsart.com/82576960349479261092.jpg",
-   "https://cdn140.picsart.com/95704440111494284974.jpg"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/61107c70-4698-4284-ba0e-0fc97e6b11f9.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d09760f3-10b8-4189-a5af-130ae2181e79.webp",
+   "https://pastatic.picsart.com/cms-pastatic/d5ee5072-a3fd-4373-ba85-a1b7890497fc.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "16:10",
+   "ground": "photo-full-bleed",
+   "layout": "split"
+  },
+  "assets": 3,
+  "rows": 3,
+  "pages": 1,
+  "families": {
+   "unresolved": 1,
+   "cutout-checkerboard": 1,
+   "before-after": 1
+  },
+  "hints": {
+   "?": 1,
+   "template-mockup": 1,
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/dae3bcef-aab8-4561-a2ec-7e496541586b.avif"
   ]
  },
  {
@@ -4306,7 +4692,121 @@
    "type": "feature-callout",
    "aspect_class": "1:1",
    "ground": "None",
-   "layout": "split"
+   "layout": "overlay"
+  },
+  "assets": 3,
+  "rows": 3,
+  "pages": 3,
+  "families": {
+   "template-mockup": 2,
+   "crop-frame": 1
+  },
+  "hints": {
+   "mockup-card": 1,
+   "other": 1,
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/ee6516f7-67a3-4efb-82f9-9bf752dcbe95.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif",
+   "https://pastatic.picsart.com/cms-pastatic/2628ed8d-03f2-4150-9d61-9af4c51873e5.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "None",
+   "layout": "two-up"
+  },
+  "assets": 3,
+  "rows": 3,
+  "pages": 3,
+  "families": {
+   "unresolved": 1,
+   "template-mockup": 2
+  },
+  "hints": {
+   "template-mockup": 3
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fe50b495-9744-4423-a87a-ede455017dc0.webp",
+   "https://pastatic.picsart.com/cms-pastatic/b5ec82e7-be2a-43ec-a152-cfb7f887d3e3.png",
+   "https://pastatic.picsart.com/cms-pastatic/c94c1d42-4c47-4dd4-8477-e178813b6b4d.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "overlay"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "editor-canvas": 1,
+   "crop-frame": 1
+  },
+  "hints": {
+   "crop-frame": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "light-grey",
+   "layout": "overlay"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "mockup-card/light": 2
+  },
+  "hints": {
+   "mockup-card": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/273b2152-0aa6-4800-a105-840c9be66ee5.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8f1f1e39-fd6c-4a7b-815b-c93095a65968.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "grid"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "editor-canvas": 1,
+   "unresolved": 1
+  },
+  "hints": {
+   "crop-frame": 1,
+   "full-bleed": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/d6a30a53-f93f-4ce4-9a0d-99b50a04e97b.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "column-main"
   },
   "assets": 2,
   "rows": 2,
@@ -4315,11 +4815,33 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "vs-two-up": 1,
+   "cutout-checkerboard": 1
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/41c52162-d2a1-464f-bcc4-f59782719904.webm",
+   "https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "two-up"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "prompt-card": 2
+  },
+  "hints": {
+   "prompt-card": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/45cd0723-6d6c-48f4-b24a-507665603213.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b61ebffd-b070-4d50-9106-928b5e07c5a7.webp"
   ]
  },
  {
@@ -4333,10 +4855,12 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "full-bleed": 2
+   "prompt-card": 1,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 2
+   "prompt-card": 1,
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/531d8853-cd67-43ca-bbac-8df8f4d66e9d.avif",
@@ -4357,7 +4881,8 @@
    "full-bleed": 2
   },
   "hints": {
-   "?": 2
+   "full-bleed": 1,
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/67d86043-206b-4e00-b42b-801f8c68e9fb.avif",
@@ -4367,23 +4892,88 @@
  {
   "key": {
    "type": "feature-callout",
-   "aspect_class": "16:10",
-   "ground": "photo-full-bleed",
-   "layout": "split"
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "two-up"
   },
   "assets": 2,
   "rows": 2,
-  "pages": 1,
+  "pages": 2,
   "families": {
-   "unresolved": 1,
-   "before-after": 1
+   "vs-two-up/mixed": 2
   },
   "hints": {
-   "?": 2
+   "vs-two-up": 2
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/dae3bcef-aab8-4561-a2ec-7e496541586b.avif"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/7f9dc20b-fd4b-4ce7-b5ce-e44ad37d7a35.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f1025f68-88ff-4e9f-9b17-a93946360343.webm"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "light-grey",
+   "layout": "grid"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "unresolved": 1,
+   "template-mockup/light": 1
+  },
+  "hints": {
+   "other": 1,
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/db96688b-19f8-48f3-a6ed-b345bd30241f.avif",
+   "https://pastatic.picsart.com/cms-pastatic/e67f42df-9478-4b5a-80da-8fa492b1b7f0.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "black",
+   "layout": "two-up"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "vs-two-up/black": 1,
+   "unresolved": 1
+  },
+  "hints": {
+   "vs-two-up": 1,
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f7808afd-52e0-4c49-8c50-2ff4ecd7901b.webm",
+   "https://pastatic.picsart.com/cms-pastatic/7fe312b0-aac9-4607-a007-0c4ce625b209.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "black",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "prompt-card": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp"
   ]
  },
  {
@@ -4400,7 +4990,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d22f0c9-fc67-44d8-82a2-d1925cfcbdff.webm"
@@ -4420,10 +5010,30 @@
    "before-after/colour": 1
   },
   "hints": {
-   "?": 1
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2e9d292c-9633-4935-8e04-393497e4f3e4.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "None",
+   "layout": "None"
+  },
+  "assets": 1,
+  "rows": 3,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "?": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif"
   ]
  },
  {
@@ -4437,13 +5047,33 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "editor-canvas/black": 1
   },
   "hints": {
-   "?": 1
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "full-bleed": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6aada687-e0bb-4209-99ff-e140a8e21706.webp"
   ]
  },
  {
@@ -4460,10 +5090,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/70eb8b70-f9f6-4ba0-bec2-0748c23e8faa.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "checkerboard",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "cutout-checkerboard/checker": 1
+  },
+  "hints": {
+   "mockup-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8e3c73fe-def2-45a9-be1a-340a06257927.avif"
   ]
  },
  {
@@ -4480,7 +5130,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/98265479-86e7-4983-a010-7e405174b083.avif"
@@ -4537,13 +5187,33 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "editor-canvas/black": 1
   },
   "hints": {
-   "?": 1
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b6f634bb-c1a6-455a-a877-3960d96ed9f8.mp4"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "light-grey",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "crop-frame/light": 1
+  },
+  "hints": {
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif"
   ]
  },
  {
@@ -4560,7 +5230,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ba461c55-dfa2-4f86-ab52-26954b637b92.webp"
@@ -4580,30 +5250,10 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf.mp4"
-  ]
- },
- {
-  "key": {
-   "type": "feature-callout",
-   "aspect_class": "1:1",
-   "ground": "black",
-   "layout": "two-up"
-  },
-  "assets": 1,
-  "rows": 1,
-  "pages": 1,
-  "families": {
-   "unresolved": 1
-  },
-  "hints": {
-   "?": 1
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f7808afd-52e0-4c49-8c50-2ff4ecd7901b.webm"
   ]
  },
  {
@@ -4620,7 +5270,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/28433458737789537458.jpg"
@@ -4640,10 +5290,30 @@
    "full-bleed": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/36859796455276761041.jpg"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "mockup-card/mixed": 1
+  },
+  "hints": {
+   "cutout-checkerboard": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/57dcf388-b47f-4e55-8771-a131767cbc6b.png"
   ]
  },
  {
@@ -4657,10 +5327,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "cutout-checkerboard/white": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/7ec514d6-8d0c-4235-92dc-43c4ef354021.png"
@@ -4680,7 +5350,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/90e04820-5e3c-44b0-910a-926aa0e1874c.png"
@@ -4697,13 +5367,53 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "crop-frame/black": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/c47d8b25-9af5-4d0e-a3ef-f93d87d58fb8.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "template-mockup": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/e675b4bf-31b7-4e0d-8608-3282a9fd040b.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "feature-callout",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "crop-frame": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/eec92ca9-d828-4eee-b56e-26e10bcfc570.png"
   ]
  },
  {
@@ -4717,10 +5427,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "template-mockup/black": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/fe1b2295-dadf-47fe-a4fc-76785292a58a.png"
@@ -4737,10 +5447,28 @@
   "rows": 526,
   "pages": 46,
   "families": {
-   "unresolved": 104
+   "mockup-card/white": 6,
+   "model-card/white": 7,
+   "prompt-card/white": 10,
+   "unresolved": 52,
+   "editor-canvas": 7,
+   "template-mockup": 16,
+   "graphic-collage/white": 2,
+   "crop-frame": 2,
+   "panel-overlay/white": 2
   },
   "hints": {
-   "?": 104
+   "other": 12,
+   "mockup-card": 3,
+   "prompt-card": 12,
+   "template-mockup": 28,
+   "cutout-checkerboard": 16,
+   "model-card": 1,
+   "full-bleed": 11,
+   "crop-frame": 2,
+   "before-after": 10,
+   "editor-canvas": 7,
+   "graphic-collage": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp",
@@ -4860,10 +5588,30 @@
   "rows": 225,
   "pages": 41,
   "families": {
-   "full-bleed": 80
+   "full-bleed": 51,
+   "prompt-card": 6,
+   "model-card": 4,
+   "editor-canvas": 9,
+   "template-mockup": 2,
+   "graphic-collage": 2,
+   "mockup-card": 1,
+   "crop-frame": 2,
+   "cutout-checkerboard": 2,
+   "panel-overlay": 1
   },
   "hints": {
-   "?": 80
+   "full-bleed": 23,
+   "other": 3,
+   "prompt-card": 6,
+   "dark-composite": 5,
+   "vs-two-up": 3,
+   "cinematic-still": 2,
+   "template-mockup": 9,
+   "graphic-collage": 7,
+   "editor-canvas": 9,
+   "before-after": 7,
+   "cutout-checkerboard": 4,
+   "crop-frame": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/08c521f1-3e56-4771-9971-0bf0d222c8dd.avif",
@@ -4959,10 +5707,29 @@
   "rows": 171,
   "pages": 6,
   "families": {
-   "unresolved": 73
+   "editor-canvas": 8,
+   "template-mockup": 17,
+   "mockup-card/white": 3,
+   "prompt-card/white": 6,
+   "unresolved": 26,
+   "crop-frame": 3,
+   "model-card/white": 5,
+   "panel-overlay/white": 3,
+   "graphic-collage/white": 1,
+   "cutout-checkerboard/white": 1
   },
   "hints": {
-   "?": 73
+   "editor-canvas": 10,
+   "template-mockup": 26,
+   "mockup-card": 3,
+   "prompt-card": 5,
+   "before-after": 9,
+   "cutout-checkerboard": 9,
+   "model-card": 1,
+   "crop-frame": 2,
+   "full-bleed": 4,
+   "graphic-collage": 2,
+   "other": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/011fb16f-2be5-45cb-84bc-73cf452a28fd.webp?type=webp&to=min&r=640",
@@ -5047,18 +5814,30 @@
    "ground": "white",
    "layout": "column-main"
   },
-  "assets": 19,
-  "rows": 45,
-  "pages": 14,
+  "assets": 20,
+  "rows": 50,
+  "pages": 15,
   "families": {
-   "unresolved": 19
+   "editor-canvas": 2,
+   "prompt-card/white": 1,
+   "mockup-card/white": 4,
+   "crop-frame": 1,
+   "model-card/white": 6,
+   "unresolved": 1,
+   "template-mockup": 5
   },
   "hints": {
-   "?": 19
+   "editor-canvas": 3,
+   "prompt-card": 1,
+   "template-mockup": 8,
+   "model-card": 5,
+   "other": 2,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/38d2100f-3c43-425d-98a0-7f6e85a3ece0.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp",
@@ -5085,20 +5864,33 @@
    "ground": "white",
    "layout": "column-main"
   },
-  "assets": 17,
-  "rows": 42,
+  "assets": 19,
+  "rows": 44,
   "pages": 6,
   "families": {
-   "unresolved": 17
+   "editor-canvas": 2,
+   "prompt-card/white": 3,
+   "model-card/white": 4,
+   "dark-composite/white": 2,
+   "mockup-card/white": 4,
+   "crop-frame": 1,
+   "template-mockup": 3
   },
   "hints": {
-   "?": 17
+   "editor-canvas": 2,
+   "prompt-card": 3,
+   "other": 3,
+   "template-mockup": 9,
+   "model-card": 1,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0ec241f2-d79f-4d48-ac0a-28905131959c.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d9e87da-cba5-4748-9f29-c9e2ad834448.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/3062ad35-61ae-46bc-951e-3da0741776d4.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/464e0bea-b934-4378-8966-7e784235b8c6.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/7baf8638-c197-48d2-bba6-e9b68d6fbe54.webp?type=webp&to=min&r=640",
@@ -5117,61 +5909,34 @@
  {
   "key": {
    "type": "link-grid",
-   "aspect_class": "16:10",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 17,
-  "rows": 29,
-  "pages": 5,
-  "families": {
-   "unresolved": 17
-  },
-  "hints": {
-   "?": 17
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/19020849-d887-4a84-b316-7418e69871e6.png?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1c7454d0-61fd-4b19-8729-57b860b334e9.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d9e87da-cba5-4748-9f29-c9e2ad834448.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/5a2c3cad-e043-4385-8034-d88e0796af1f.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8297fefc-d80d-4b8d-a38e-359fc26714fd.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/87e68668-df4d-45c9-bae5-2daa0c253c8d.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/8b06c0c1-9edd-49d1-b8db-78dbaeeda680.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90&type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp?type=webp&to=min&r=640",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp?type=webp&to=min&r=640"
-  ]
- },
- {
-  "key": {
-   "type": "link-grid",
    "aspect_class": "5:4",
    "ground": "photo-full-bleed",
    "layout": "split"
   },
-  "assets": 16,
-  "rows": 63,
-  "pages": 11,
+  "assets": 17,
+  "rows": 91,
+  "pages": 12,
   "families": {
-   "unresolved": 14,
-   "before-after": 2
+   "model-card": 7,
+   "mockup-card": 2,
+   "unresolved": 1,
+   "before-after": 6,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 16
+   "vs-two-up": 7,
+   "mockup-card": 1,
+   "template-mockup": 1,
+   "other": 1,
+   "before-after": 6,
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/25f071ed-e665-412b-aeda-1a5e0c58f83c.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/29010bdd-1767-43a9-ba76-d4f08b7ea95a.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a54d9358-029f-4f24-84bd-9f20455fd335.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp",
@@ -5197,10 +5962,23 @@
   "rows": 67,
   "pages": 15,
   "families": {
-   "unresolved": 15
+   "template-mockup": 4,
+   "unresolved": 1,
+   "model-card/white": 5,
+   "prompt-card/white": 2,
+   "editor-canvas": 1,
+   "mockup-card/white": 1,
+   "graphic-collage/white": 1
   },
   "hints": {
-   "?": 15
+   "template-mockup": 6,
+   "other": 1,
+   "model-card": 1,
+   "prompt-card": 2,
+   "editor-canvas": 1,
+   "graphic-collage": 2,
+   "mockup-card": 1,
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png",
@@ -5231,10 +6009,17 @@
   "rows": 32,
   "pages": 12,
   "families": {
-   "unresolved": 13
+   "editor-canvas/black": 5,
+   "model-card/black": 2,
+   "unresolved": 3,
+   "mockup-card": 1,
+   "template-mockup/black": 2
   },
   "hints": {
-   "?": 13
+   "editor-canvas": 6,
+   "prompt-card": 2,
+   "before-after": 2,
+   "template-mockup": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4b84a00e-0ac0-476b-bbc3-4d3d3a9e0cec.avif",
@@ -5263,10 +6048,17 @@
   "rows": 26,
   "pages": 11,
   "families": {
-   "unresolved": 11
+   "unresolved": 4,
+   "model-card/black": 5,
+   "editor-canvas/black": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 11
+   "vs-two-up": 4,
+   "model-card": 2,
+   "other": 1,
+   "prompt-card": 3,
+   "dark-composite": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/287d248c-3dbd-4132-8dd8-138d9ce9e5e9.webp",
@@ -5293,10 +6085,18 @@
   "rows": 22,
   "pages": 5,
   "families": {
-   "full-bleed": 11
+   "full-bleed": 8,
+   "mockup-card": 2,
+   "editor-canvas": 1
   },
   "hints": {
-   "?": 11
+   "vs-two-up": 1,
+   "before-after": 1,
+   "mockup-card": 1,
+   "template-mockup": 2,
+   "full-bleed": 4,
+   "editor-canvas": 1,
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp?type=webp&to=min&r=640",
@@ -5319,21 +6119,28 @@
    "ground": "photo-full-bleed",
    "layout": "split"
   },
-  "assets": 9,
-  "rows": 21,
+  "assets": 10,
+  "rows": 24,
   "pages": 5,
   "families": {
-   "unresolved": 8,
-   "before-after": 1
+   "template-mockup": 1,
+   "model-card": 5,
+   "mockup-card": 1,
+   "unresolved": 1,
+   "before-after": 2
   },
   "hints": {
-   "?": 9
+   "template-mockup": 2,
+   "vs-two-up": 5,
+   "mockup-card": 1,
+   "before-after": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/02c147ba-69a2-40ea-8683-b55abe25112a.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/135dae81-f8b2-4487-b873-cebf4340b36a.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/29010bdd-1767-43a9-ba76-d4f08b7ea95a.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a69952b7-3669-4038-854f-1d365bbeca90.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp?type=webp&to=min&r=640",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ff20b102-6a77-4fd6-81f1-d75266821170.webp?type=webp&to=min&r=640",
@@ -5352,10 +6159,14 @@
   "rows": 122,
   "pages": 5,
   "families": {
-   "unresolved": 9
+   "vs-two-up/white": 6,
+   "prompt-card/white": 2,
+   "unresolved": 1
   },
   "hints": {
-   "?": 9
+   "model-card": 6,
+   "prompt-card": 2,
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp",
@@ -5372,34 +6183,6 @@
  {
   "key": {
    "type": "link-grid",
-   "aspect_class": "5:4",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 9,
-  "rows": 85,
-  "pages": 6,
-  "families": {
-   "unresolved": 9
-  },
-  "hints": {
-   "?": 9
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3321f296-7962-43c9-bcbe-5bd81e55f7ab.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp",
-   "https://pastatic.picsart.com/cms-pastatic/4f964bac-d166-45e7-ada7-0c90436294a9.png",
-   "https://pastatic.picsart.com/cms-pastatic/bb1f0bb5-6857-4f53-8d07-d9bed836ef34.png",
-   "https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png"
-  ]
- },
- {
-  "key": {
-   "type": "link-grid",
    "aspect_class": "16:10",
    "ground": "white",
    "layout": "stacked"
@@ -5408,10 +6191,17 @@
   "rows": 16,
   "pages": 3,
   "families": {
-   "unresolved": 8
+   "template-mockup": 2,
+   "editor-canvas": 1,
+   "prompt-card/white": 1,
+   "mockup-card/white": 3,
+   "model-card/white": 1
   },
   "hints": {
-   "?": 8
+   "template-mockup": 3,
+   "editor-canvas": 1,
+   "prompt-card": 1,
+   "mockup-card": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png?type=webp&to=min&r=640",
@@ -5435,10 +6225,18 @@
   "rows": 51,
   "pages": 6,
   "families": {
-   "unresolved": 8
+   "unresolved": 3,
+   "model-card/white": 1,
+   "prompt-card/white": 1,
+   "mockup-card/white": 1,
+   "template-mockup": 2
   },
   "hints": {
-   "?": 8
+   "vs-two-up": 3,
+   "other": 1,
+   "prompt-card": 1,
+   "mockup-card": 1,
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp",
@@ -5456,19 +6254,24 @@
    "type": "link-grid",
    "aspect_class": "5:4",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "overlay"
   },
-  "assets": 8,
-  "rows": 19,
-  "pages": 7,
+  "assets": 7,
+  "rows": 18,
+  "pages": 6,
   "families": {
-   "unresolved": 8
+   "prompt-card/mixed": 1,
+   "panel-overlay/mixed": 2,
+   "unresolved": 3,
+   "model-card/mixed": 1
   },
   "hints": {
-   "?": 8
+   "prompt-card": 2,
+   "mockup-card": 1,
+   "full-bleed": 3,
+   "editor-canvas": 1
   },
   "srcs": [
-   "https://cdnblog.picsart.com/2021/01/Business-Card_header.jpg?to=max&r=700&type=webp",
    "https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png",
    "https://pastatic.picsart.com/cms-pastatic/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68.png",
    "https://pastatic.picsart.com/cms-pastatic/b4127bb0-9159-4cc7-96dd-64ee3cae4706.png",
@@ -5489,10 +6292,15 @@
   "rows": 8,
   "pages": 3,
   "families": {
-   "unresolved": 6
+   "model-card/black": 2,
+   "unresolved": 3,
+   "editor-canvas/black": 1
   },
   "hints": {
-   "?": 6
+   "model-card": 1,
+   "vs-two-up": 3,
+   "other": 1,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/18415fcb-69f6-43f9-b262-a82364763d24.webp?type=webp&to=min&r=640",
@@ -5514,10 +6322,16 @@
   "rows": 16,
   "pages": 3,
   "families": {
-   "unresolved": 6
+   "unresolved": 3,
+   "model-card/white": 1,
+   "prompt-card/white": 1,
+   "mockup-card/white": 1
   },
   "hints": {
-   "?": 6
+   "vs-two-up": 3,
+   "other": 1,
+   "prompt-card": 1,
+   "mockup-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp?type=webp&to=min&r=640",
@@ -5539,10 +6353,13 @@
   "rows": 4,
   "pages": 1,
   "families": {
-   "full-bleed": 4
+   "full-bleed": 3,
+   "mockup-card": 1
   },
   "hints": {
-   "?": 4
+   "before-after": 1,
+   "template-mockup": 1,
+   "full-bleed": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0fd65ee5-43de-4129-b006-37bbc125574f.png",
@@ -5562,10 +6379,12 @@
   "rows": 6,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "vs-two-up/white": 2,
+   "unresolved": 2
   },
   "hints": {
-   "?": 4
+   "model-card": 3,
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp?type=webp&to=min&r=640",
@@ -5585,10 +6404,14 @@
   "rows": 10,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "model-card/black": 1,
+   "crop-frame/black": 2,
+   "unresolved": 1
   },
   "hints": {
-   "?": 4
+   "dark-composite": 1,
+   "other": 2,
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/727a3ff5-821d-4016-9ff9-c419fb2d87c6.webp",
@@ -5608,16 +6431,71 @@
   "rows": 6,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "prompt-card": 1,
+   "model-card/black": 1,
+   "unresolved": 2
   },
   "hints": {
-   "?": 4
+   "dark-composite": 2,
+   "vs-two-up": 1,
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/7cebda74-4698-46e6-9fef-a87c136e458a.png",
    "https://cdnblog.picsart.com/2026/04/Head.webp",
    "https://pastatic.picsart.com/cms-pastatic/b02ed7aa-7eee-458f-b5b1-86b4d8677ada.png",
    "https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "None",
+   "layout": "stacked"
+  },
+  "assets": 4,
+  "rows": 8,
+  "pages": 2,
+  "families": {
+   "template-mockup": 2,
+   "model-card": 1,
+   "editor-canvas": 1
+  },
+  "hints": {
+   "template-mockup": 2,
+   "model-card": 1,
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/87e68668-df4d-45c9-bae5-2daa0c253c8d.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8b06c0c1-9edd-49d1-b8db-78dbaeeda680.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "mixed",
+   "layout": "column-main"
+  },
+  "assets": 3,
+  "rows": 5,
+  "pages": 2,
+  "families": {
+   "prompt-card/mixed": 2,
+   "unresolved": 1
+  },
+  "hints": {
+   "prompt-card": 2,
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/5a2c3cad-e043-4385-8034-d88e0796af1f.webp?type=webp&to=min&r=640",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp?type=webp&to=min&r=640"
   ]
  },
  {
@@ -5631,15 +6509,63 @@
   "rows": 5,
   "pages": 3,
   "families": {
-   "unresolved": 3
+   "editor-canvas/black": 1,
+   "panel-overlay/black": 1,
+   "template-mockup/black": 1
   },
   "hints": {
-   "?": 3
+   "editor-canvas": 2,
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/31ad13c3-278d-48aa-9688-9eb04300c6f7.png?type=webp&to=min&r=640",
    "https://pastatic.picsart.com/cms-pastatic/bc5e359e-7877-4d4f-837c-88c61cdefb03.png?type=webp&to=min&r=640",
    "https://pastatic.picsart.com/cms-pastatic/e47b7b3d-314f-47a7-a968-1c09ffaffb24.png?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "None",
+   "layout": "stacked"
+  },
+  "assets": 2,
+  "rows": 26,
+  "pages": 1,
+  "families": {
+   "model-card": 1,
+   "editor-canvas": 1
+  },
+  "hints": {
+   "model-card": 1,
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/c3cbf8c8-56bb-4544-97d5-a33e0014e699.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "gradient",
+   "layout": "overlay"
+  },
+  "assets": 2,
+  "rows": 8,
+  "pages": 2,
+  "families": {
+   "unresolved": 2
+  },
+  "hints": {
+   "other": 1,
+   "graphic-collage": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/4f964bac-d166-45e7-ada7-0c90436294a9.png",
+   "https://pastatic.picsart.com/cms-pastatic/e406abf2-c475-4919-be1e-c57be0648628.png"
   ]
  },
  {
@@ -5656,7 +6582,7 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "other": 2
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9.png",
@@ -5677,11 +6603,51 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "template-mockup": 2
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/ec76dfa3-9fec-4d65-8f53-1805c419da43.png",
    "https://pastatic.picsart.com/cms-pastatic/f0986785-46ae-4dbb-8366-6f19bb1b0aec.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "light-grey",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/19020849-d887-4a84-b316-7418e69871e6.png?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "mixed",
+   "layout": "stacked"
+  },
+  "assets": 1,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "prompt-card/mixed": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1c7454d0-61fd-4b19-8729-57b860b334e9.webp?type=webp&to=min&r=640"
   ]
  },
  {
@@ -5698,10 +6664,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1e4d122b-7dd9-43f9-b2ba-9c2ee6258925.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "mixed",
+   "layout": "two-up"
+  },
+  "assets": 1,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "model-card/mixed": 1
+  },
+  "hints": {
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp?type=webp&to=min&r=640"
   ]
  },
  {
@@ -5718,10 +6704,90 @@
    "before-after": 1
   },
   "hints": {
-   "?": 1
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5c49db20-5b2c-4809-91ee-254b324f0ea6.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "black",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "prompt-card": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/8297fefc-d80d-4b8d-a38e-359fc26714fd.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "editor-canvas": 1
+  },
+  "hints": {
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "None",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 5,
+  "pages": 1,
+  "families": {
+   "template-mockup": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "None",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "template-mockup": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90&type=webp&to=min&r=640"
   ]
  },
  {
@@ -5735,13 +6801,33 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "cutout-checkerboard/white": 1
   },
   "hints": {
-   "?": 1
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/9fd25abc-5f1e-4aa6-8006-6f56d678c1bc.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "None",
+   "layout": "single"
+  },
+  "assets": 1,
+  "rows": 12,
+  "pages": 1,
+  "families": {
+   "editor-canvas": 1
+  },
+  "hints": {
+   "editor-canvas": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp"
   ]
  },
  {
@@ -5755,10 +6841,10 @@
   "rows": 9,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "dark-composite": 1
   },
   "hints": {
-   "?": 1
+   "dark-composite": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp"
@@ -5775,10 +6861,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "editor-canvas/black": 1
   },
   "hints": {
-   "?": 1
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/cf4224b1-a78d-4419-8b3a-4a8bf35d5d5e.png"
@@ -5798,10 +6884,50 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e2744d0e-1f5c-4874-83ec-84b77f7b922e.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "16:10",
+   "ground": "None",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "prompt-card": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp?type=webp&to=min&r=640"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "mixed",
+   "layout": "two-up"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "template-mockup/mixed": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdnblog.picsart.com/2021/01/Business-Card_header.jpg?to=max&r=700&type=webp"
   ]
  },
  {
@@ -5818,10 +6944,30 @@
    "before-after": 1
   },
   "hints": {
-   "?": 1
+   "before-after": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/7fd68d60-df94-4b1e-9813-3f4ad25c897b.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "link-grid",
+   "aspect_class": "5:4",
+   "ground": "solid-colour",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "unresolved": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/bb1f0bb5-6857-4f53-8d07-d9bed836ef34.png"
   ]
  },
  {
@@ -5838,7 +6984,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "graphic-collage": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/fcae38ba-06e9-4bbf-8304-111e1bb05b13.png?type=webp&to=min&r=640"
@@ -5851,17 +6997,34 @@
    "ground": "photo-full-bleed",
    "layout": "single"
   },
-  "assets": 64,
-  "rows": 81,
-  "pages": 50,
+  "assets": 66,
+  "rows": 85,
+  "pages": 52,
   "families": {
-   "full-bleed": 60,
-   "before-after": 4
+   "full-bleed": 50,
+   "prompt-card": 5,
+   "before-after": 4,
+   "crop-frame": 4,
+   "mockup-card": 2,
+   "cutout-checkerboard": 1
   },
   "hints": {
-   "?": 64
+   "?": 6,
+   "prompt-card": 6,
+   "model-card": 14,
+   "before-after": 9,
+   "vs-two-up": 8,
+   "full-bleed": 11,
+   "crop-frame": 4,
+   "template-mockup": 2,
+   "cinematic-still": 1,
+   "graphic-collage": 1,
+   "other": 2,
+   "dark-composite": 1,
+   "cutout-checkerboard": 1
   },
   "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/023d0eee-bcba-42b1-bac1-c62f533bbe73.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/04aabc52-42a2-4b6b-8508-5f4517a52302.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/07a043cc-506a-4788-985c-8fcd45acd4e8.png",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0b0a14f9-9d21-4197-9d28-5ea8386d77d2.avif",
@@ -5882,6 +7045,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/504ce07b-69f8-4281-a498-eca9cf80bc7b.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/50d38386-1a62-4138-9474-1abc51d0fb51.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/537bdb6c-e205-4bf7-baf4-0ba678b70264.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d706f0b.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/64668807-2857-4fdc-85bb-7f14b48fc3aa.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/64cbe910-3dd0-4a04-a614-aa9240b673f4.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6731d7b6-3317-49d4-be51-88214b52d368.webm",
@@ -5942,7 +7106,10 @@
    "cinematic-still": 44
   },
   "hints": {
-   "?": 44
+   "full-bleed": 40,
+   "cutout-checkerboard": 1,
+   "cinematic-still": 2,
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/000ae663-ad9f-4d1d-8c89-005341915a79.avif",
@@ -5998,14 +7165,31 @@
    "ground": "black",
    "layout": "single"
   },
-  "assets": 30,
-  "rows": 43,
-  "pages": 30,
+  "assets": 31,
+  "rows": 44,
+  "pages": 31,
   "families": {
-   "unresolved": 30
+   "unresolved": 18,
+   "prompt-card": 1,
+   "crop-frame/black": 2,
+   "mockup-card": 2,
+   "editor-canvas/black": 1,
+   "template-mockup/black": 6,
+   "panel-overlay/black": 1
   },
   "hints": {
-   "?": 30
+   "other": 9,
+   "full-bleed": 1,
+   "cutout-checkerboard": 3,
+   "prompt-card": 1,
+   "dark-composite": 4,
+   "crop-frame": 1,
+   "mockup-card": 2,
+   "before-after": 1,
+   "template-mockup": 6,
+   "?": 1,
+   "editor-canvas": 1,
+   "panel-overlay": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/05d04dc5-5ee2-4381-ae34-2f7632b482b3.webm",
@@ -6026,6 +7210,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f61cd2ae-33a0-4392-8de4-0e1181f193a1.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fd9fd0f8-2318-4e28-8788-4380bf89c64e.webm",
    "https://pastatic.picsart.com/cms-pastatic/11283356-68c8-4335-a620-499d1172d191.png",
+   "https://pastatic.picsart.com/cms-pastatic/1602a6dd-d39b-4961-82f2-e6940c22a852.png",
    "https://pastatic.picsart.com/cms-pastatic/34a30d66-d25b-4cb2-aee2-445587f111d9.png",
    "https://pastatic.picsart.com/cms-pastatic/37ede1e7-842e-4909-bd58-fa12945e3162.png",
    "https://pastatic.picsart.com/cms-pastatic/541ef3fb-7df8-4775-a2c7-4b01f1e7708d.png",
@@ -6044,65 +7229,25 @@
   "key": {
    "type": "hero",
    "aspect_class": "1:1",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 29,
-  "rows": 102,
-  "pages": 28,
-  "families": {
-   "unresolved": 29
-  },
-  "hints": {
-   "?": 29
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b86ba28-dc68-4402-85df-4cbcd5e87420.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1b6049ab-edaa-496b-93df-dda6956ff6b4.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1be936d3-084e-414d-b416-1d32f6a307fa.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/4a097de9-0f81-4b66-a712-cde19cc868c6.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/5e33a7f9-7cd0-44be-a25d-66967f6237a9.png",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d706f0b.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/96b53d3d-e8ee-44a2-b1d1-5fca07b13f3d.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e901b80b-381c-40a2-bef3-38bb8305abb6.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp",
-   "https://pastatic.picsart.com/cms-pastatic/04b695ff-5694-44b1-8eb1-73004f92cf9f.png",
-   "https://pastatic.picsart.com/cms-pastatic/148fd103-b184-4ef6-b31b-634c7dc1c0d5.png",
-   "https://pastatic.picsart.com/cms-pastatic/1cec4b81-90c1-4d9b-ad0a-78084688bff3.png",
-   "https://pastatic.picsart.com/cms-pastatic/397905e1-a695-4088-82d3-feb7a770de0a.png",
-   "https://pastatic.picsart.com/cms-pastatic/493f7a4c-5028-4be3-b159-9bce3204fca4.png",
-   "https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png",
-   "https://pastatic.picsart.com/cms-pastatic/4f979922-8504-418e-92ac-8fb6feff0b47.png",
-   "https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png",
-   "https://pastatic.picsart.com/cms-pastatic/6756514d-48cd-4b1a-88d4-462dc3f1272b.png",
-   "https://pastatic.picsart.com/cms-pastatic/70405a14-b5c8-4f28-bcd3-978360ee39b7.png",
-   "https://pastatic.picsart.com/cms-pastatic/72e4d513-6a2b-4b54-987e-37dccef91c8e.png",
-   "https://pastatic.picsart.com/cms-pastatic/9f33d9bf-17a4-4332-9dd5-c1c26281e8eb.png",
-   "https://pastatic.picsart.com/cms-pastatic/a0620c56-909b-462a-96ce-e7603e2771db.png",
-   "https://pastatic.picsart.com/cms-pastatic/af11b8c3-692d-495d-a183-028b917e1d2b.png",
-   "https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png",
-   "https://pastatic.picsart.com/cms-pastatic/dbb7217a-31ed-421f-902e-791e1c5fde3f.png"
-  ]
- },
- {
-  "key": {
-   "type": "hero",
-   "aspect_class": "1:1",
    "ground": "white",
    "layout": "single"
   },
-  "assets": 24,
-  "rows": 33,
-  "pages": 24,
+  "assets": 25,
+  "rows": 34,
+  "pages": 25,
   "families": {
-   "unresolved": 24
+   "panel-overlay/white": 1,
+   "prompt-card/white": 3,
+   "unresolved": 14,
+   "mockup-card/white": 2,
+   "template-mockup": 5
   },
   "hints": {
-   "?": 24
+   "template-mockup": 10,
+   "prompt-card": 3,
+   "other": 9,
+   "full-bleed": 1,
+   "mockup-card": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2a6c2e04-0903-4e1d-97fa-68877fe198e5.webp",
@@ -6125,6 +7270,7 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/ff8ac657-9599-450d-96f3-c25284f1b642.webp",
    "https://pastatic.picsart.com/cms-pastatic/0d5406a5-f85b-439f-8772-397e71202a10.png",
    "https://pastatic.picsart.com/cms-pastatic/0e470b88-8e0d-4e5e-af7f-1c344ab25bca.png",
+   "https://pastatic.picsart.com/cms-pastatic/1cec4b81-90c1-4d9b-ad0a-78084688bff3.png",
    "https://pastatic.picsart.com/cms-pastatic/49f7d13f-1ee6-4471-aa1d-92f6b6988e5d.png",
    "https://pastatic.picsart.com/cms-pastatic/5855e915-1369-4c1b-b2bd-dff514b2f17e.png",
    "https://pastatic.picsart.com/cms-pastatic/cec366f3-618a-47b4-8e29-5ffd6c8a6504.png",
@@ -6138,15 +7284,20 @@
    "ground": "photo-full-bleed",
    "layout": "split"
   },
-  "assets": 10,
-  "rows": 12,
-  "pages": 9,
+  "assets": 11,
+  "rows": 13,
+  "pages": 10,
   "families": {
-   "before-after": 5,
-   "unresolved": 5
+   "unresolved": 9,
+   "before-after": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 10
+   "vs-two-up": 6,
+   "cutout-checkerboard": 1,
+   "before-after": 1,
+   "dark-composite": 2,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0445e9fd-ed1a-42be-abf4-95ac6618b1cc.avif",
@@ -6155,10 +7306,41 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/303e844a-33c7-4588-834a-a6d592b5b37e.png",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/3e6f1364-0317-4878-bcfb-349ad6a86527.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/42c2618b-d6b7-496c-973a-5da761fa9fb9.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4a097de9-0f81-4b66-a712-cde19cc868c6.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/84105f43-0673-4aab-b17b-18421e9c4be7.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a64e65b8-c4cd-4ed6-815a-cff15b14f57c.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e6044b29-c0f0-494b-b8b3-f41180fecf9a.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "stacked"
+  },
+  "assets": 9,
+  "rows": 9,
+  "pages": 9,
+  "families": {
+   "template-mockup": 8,
+   "mockup-card/white": 1
+  },
+  "hints": {
+   "template-mockup": 8,
+   "mockup-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b86ba28-dc68-4402-85df-4cbcd5e87420.webp",
+   "https://pastatic.picsart.com/cms-pastatic/04b695ff-5694-44b1-8eb1-73004f92cf9f.png",
+   "https://pastatic.picsart.com/cms-pastatic/148fd103-b184-4ef6-b31b-634c7dc1c0d5.png",
+   "https://pastatic.picsart.com/cms-pastatic/37ae2bfd-261c-4b98-9fa9-5c29f1e59052.png",
+   "https://pastatic.picsart.com/cms-pastatic/397905e1-a695-4088-82d3-feb7a770de0a.png",
+   "https://pastatic.picsart.com/cms-pastatic/4f979922-8504-418e-92ac-8fb6feff0b47.png",
+   "https://pastatic.picsart.com/cms-pastatic/70405a14-b5c8-4f28-bcd3-978360ee39b7.png",
+   "https://pastatic.picsart.com/cms-pastatic/9f33d9bf-17a4-4332-9dd5-c1c26281e8eb.png",
+   "https://pastatic.picsart.com/cms-pastatic/dbb7217a-31ed-421f-902e-791e1c5fde3f.png"
   ]
  },
  {
@@ -6175,7 +7357,7 @@
    "full-bleed": 8
   },
   "hints": {
-   "?": 8
+   "full-bleed": 8
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1c335cb7-ed8b-4930-9457-9e919e90669d.avif",
@@ -6192,6 +7374,38 @@
   "key": {
    "type": "hero",
    "aspect_class": "1:1",
+   "ground": "black",
+   "layout": "column-main"
+  },
+  "assets": 6,
+  "rows": 58,
+  "pages": 4,
+  "families": {
+   "dark-composite": 1,
+   "prompt-card": 1,
+   "editor-canvas/black": 1,
+   "unresolved": 1,
+   "mockup-card": 2
+  },
+  "hints": {
+   "dark-composite": 3,
+   "prompt-card": 1,
+   "editor-canvas": 1,
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7542cb-32be-42e4-98c3-cbc257716c29.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/77de9c99-22d1-4aff-af3e-1143c35fd7ad.webm",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/86ac1dbd-b51a-4375-b78e-a9ddc09d8cf8.webm"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
    "ground": "white",
    "layout": "column-main"
   },
@@ -6199,10 +7413,15 @@
   "rows": 10,
   "pages": 6,
   "families": {
-   "unresolved": 6
+   "mockup-card/white": 3,
+   "dark-composite/white": 2,
+   "editor-canvas": 1
   },
   "hints": {
-   "?": 6
+   "mockup-card": 1,
+   "other": 1,
+   "template-mockup": 3,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0ca73156-42c0-466d-aaeb-dbd7f7dbdfe3.webm",
@@ -6218,40 +7437,20 @@
    "type": "hero",
    "aspect_class": "1:1",
    "ground": "black",
-   "layout": "column-main"
-  },
-  "assets": 5,
-  "rows": 5,
-  "pages": 3,
-  "families": {
-   "unresolved": 5
-  },
-  "hints": {
-   "?": 5
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7542cb-32be-42e4-98c3-cbc257716c29.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/392f28ee-9ecb-4ad5-87d5-cc8a3d8b2c46.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/77de9c99-22d1-4aff-af3e-1143c35fd7ad.webm",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/86ac1dbd-b51a-4375-b78e-a9ddc09d8cf8.webm"
-  ]
- },
- {
-  "key": {
-   "type": "hero",
-   "aspect_class": "1:1",
-   "ground": "black",
    "layout": "grid"
   },
   "assets": 5,
   "rows": 5,
   "pages": 4,
   "families": {
-   "unresolved": 5
+   "unresolved": 3,
+   "mockup-card": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 5
+   "template-mockup": 2,
+   "mockup-card": 1,
+   "other": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/83b2e3d3-06de-46b3-b1f6-7be311c1b930.webm",
@@ -6259,6 +7458,29 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/cb73d459-7461-4b2e-a9cc-039708276924.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fbe10860-9a4a-45ee-9179-d4fcad0fa5f2.webm",
    "https://pastatic.picsart.com/cms-pastatic/d0e32635-ab74-4c8f-8c8d-96e786d44af2.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "solid-colour",
+   "layout": "stacked"
+  },
+  "assets": 4,
+  "rows": 4,
+  "pages": 4,
+  "families": {
+   "template-mockup/colour": 4
+  },
+  "hints": {
+   "template-mockup": 4
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1b6049ab-edaa-496b-93df-dda6956ff6b4.webp",
+   "https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png",
+   "https://pastatic.picsart.com/cms-pastatic/a0620c56-909b-462a-96ce-e7603e2771db.png",
+   "https://pastatic.picsart.com/cms-pastatic/af11b8c3-692d-495d-a183-028b917e1d2b.png"
   ]
  },
  {
@@ -6275,7 +7497,7 @@
    "full-bleed": 4
   },
   "hints": {
-   "?": 4
+   "full-bleed": 4
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/26b99232-5b30-4e11-9ba8-b72d8f78aa41.avif",
@@ -6298,13 +7520,58 @@
    "full-bleed": 4
   },
   "hints": {
-   "?": 4
+   "full-bleed": 1,
+   "?": 3
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/82e51dda-2592-4251-aa83-69cb57802818.webp",
    "https://cdn130.picsart.com/06008710753166939814.png",
    "https://cdn140.picsart.com/65114972051132710729.png",
    "https://cdn140.picsart.com/98906144867066151629.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "two-up"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "vs-two-up/mixed": 2
+  },
+  "hints": {
+   "vs-two-up": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e901b80b-381c-40a2-bef3-38bb8305abb6.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "two-up"
+  },
+  "assets": 2,
+  "rows": 10,
+  "pages": 2,
+  "families": {
+   "unresolved": 1,
+   "prompt-card": 1
+  },
+  "hints": {
+   "full-bleed": 1,
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp"
   ]
  },
  {
@@ -6326,6 +7593,50 @@
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2ff17dd9-9ff1-4601-a6e5-1c57699adc70.webm",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c5417411-8198-46ce-9f41-a63c4c61fd82.webm"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "solid-colour",
+   "layout": "single"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "crop-frame/colour": 1,
+   "template-mockup/colour": 1
+  },
+  "hints": {
+   "crop-frame": 1,
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3908cda1-72ad-44ca-b070-c323a1c98f3f.png",
+   "https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "white",
+   "layout": "grid"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "template-mockup": 2
+  },
+  "hints": {
+   "template-mockup": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/96b53d3d-e8ee-44a2-b1d1-5fca07b13f3d.webp",
+   "https://pastatic.picsart.com/cms-pastatic/6756514d-48cd-4b1a-88d4-462dc3f1272b.png"
   ]
  },
  {
@@ -6353,8 +7664,8 @@
   "key": {
    "type": "hero",
    "aspect_class": "21:9",
-   "ground": "None",
-   "layout": "None"
+   "ground": "light-grey",
+   "layout": "single"
   },
   "assets": 2,
   "rows": 4,
@@ -6363,11 +7674,31 @@
    "unresolved": 2
   },
   "hints": {
-   "?": 2
+   "other": 2
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/09ffad1f-cec9-417d-b688-5cfecaee59f6.png",
    "https://pastatic.picsart.com/cms-pastatic/212a2e4e-a28a-4a8b-83f2-bd34f38169d2.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "template-mockup/mixed": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1be936d3-084e-414d-b416-1d32f6a307fa.webp"
   ]
  },
  {
@@ -6384,7 +7715,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/285af5fd-f72b-4541-9773-078f208ef5c7.webm"
@@ -6394,20 +7725,20 @@
   "key": {
    "type": "hero",
    "aspect_class": "1:1",
-   "ground": "solid-colour",
-   "layout": "single"
+   "ground": "light-grey",
+   "layout": "stacked"
   },
   "assets": 1,
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "template-mockup/light": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3908cda1-72ad-44ca-b070-c323a1c98f3f.png"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/5e33a7f9-7cd0-44be-a25d-66967f6237a9.png"
   ]
  },
  {
@@ -6424,10 +7755,30 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/661eb519-4a8a-4c5e-a100-5e8f53ae4281.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 14,
+  "pages": 1,
+  "families": {
+   "prompt-card": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp"
   ]
  },
  {
@@ -6444,7 +7795,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6ec7cbfc-6fcb-4598-9562-89fc85993fb2.webp"
@@ -6464,7 +7815,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c9db3083-85e4-4d21-9838-b40d041fc537.webp"
@@ -6484,7 +7835,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e2509421-b207-4d2a-a0dc-a1b6bb812c27.webp"
@@ -6504,7 +7855,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "cinematic-still": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f44dc281-721e-407e-888c-85d617b0a632.avif"
@@ -6521,10 +7872,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card/white": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f7dd9043-fa02-4f69-8cc3-588cbc8ff458.webp"
@@ -6544,7 +7895,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/26255880684190648073.png"
@@ -6561,10 +7912,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "full-bleed": 1
+   "panel-overlay": 1
   },
   "hints": {
-   "?": 1
+   "panel-overlay": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/48531286883404972211.png"
@@ -6594,20 +7945,40 @@
   "key": {
    "type": "hero",
    "aspect_class": "1:1",
-   "ground": "white",
+   "ground": "solid-colour",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "template-mockup/colour": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/493f7a4c-5028-4be3-b159-9bce3204fca4.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "gradient",
    "layout": "stacked"
   },
   "assets": 1,
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "template-mockup/gradient": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
-   "https://pastatic.picsart.com/cms-pastatic/37ae2bfd-261c-4b98-9fa9-5c29f1e59052.png"
+   "https://pastatic.picsart.com/cms-pastatic/72e4d513-6a2b-4b54-987e-37dccef91c8e.png"
   ]
  },
  {
@@ -6615,16 +7986,16 @@
    "type": "hero",
    "aspect_class": "1:1",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "overlay"
   },
   "assets": 1,
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "mockup-card/mixed": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/74803928-588c-436f-a745-8c5842b0926a.png"
@@ -6632,34 +8003,57 @@
  },
  {
   "key": {
-   "type": "use-case-grid",
-   "aspect_class": "2:1",
-   "ground": "None",
-   "layout": "split"
+   "type": "hero",
+   "aspect_class": "1:1",
+   "ground": "gradient",
+   "layout": "single"
   },
-  "assets": 33,
-  "rows": 50,
-  "pages": 33,
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
   "families": {
-   "before-after": 15,
-   "unresolved": 18
+   "template-mockup/gradient": 1
   },
   "hints": {
-   "?": 33
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "black",
+   "layout": "split"
+  },
+  "assets": 28,
+  "rows": 71,
+  "pages": 28,
+  "families": {
+   "prompt-card": 19,
+   "before-after": 8,
+   "template-mockup/black": 1
+  },
+  "hints": {
+   "prompt-card": 25,
+   "template-mockup": 1,
+   "other": 1,
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/02013450-ea42-459c-af07-124901257f1a.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/08385997-a884-4c37-a987-fbbd1b2e35fc.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0af91011-2134-453e-89b0-46b84dc82c37.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1c99c491-f12d-4c67-a671-30b84b0d4a45.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/21e5ec27-38e6-4b4b-b9c9-72eb8ce269eb.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/25de333f-97c6-47dd-821f-f50e15aeda45.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2c990e97-c51f-4d19-be93-6cb7c2f21620.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2d8d9c5a-f920-4828-949b-b445e4a9c522.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/45d4f5ad-b8f7-4466-ba61-1b142c186222.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4857a276-0417-4aa9-9324-7b783bf87822.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4dd48450-728e-4b15-a832-e64e989f056e.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/50393c49-c6ef-4ddc-adb3-773c0d2c423c.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/51ce3cd4-6298-4160-9528-30929d88f710.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5acfd40b-5caf-4e9c-a407-d94eaa6808b6.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/5bb50e97-f7c8-455e-8395-aaac71ba66da.webp",
@@ -6668,19 +8062,15 @@
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6e1c292f-9d97-422f-8d32-83057c34811b.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/768fcebb-55c2-42af-8651-f38269c57803.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/85677966-3331-46ed-be1c-1daead8be21c.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/979c5f9c-ae5e-4757-81a3-2fbaa55420e2.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/9871a1ec-8cdc-445d-a76b-eec5e0445758.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/bb63a74c-c746-424c-9bdd-c50d1ce613ff.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/c5715e9b-5f24-4c78-92e4-b539c82d29ed.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/dad15a71-8397-471a-9f28-8001c8e9cd9c.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e6fe5f30-6182-43ad-98b6-fe38ea22edc0.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f223c881-0393-4d49-a26a-b171bb6ccd83.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f2d9f9ac-2442-4062-b504-ab89765fed98.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/f86ca8f3-0a1b-459c-94d5-868e59d875e4.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fa27f8ec-09fd-4306-8e23-ca77f677f07a.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/fca46557-b000-49a5-a12a-ae7e22d9925c.webp",
-   "https://pcdn.picsart.com/cms-uploads/2b7a985a-f7ed-4ee4-8c18-bab27fd6bb2d.avif",
-   "https://pcdn.picsart.com/cms-uploads/41c41e72-7fd3-4d70-b0a7-2d518f93f7fd.avif"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/fca46557-b000-49a5-a12a-ae7e22d9925c.webp"
   ]
  },
  {
@@ -6694,10 +8084,16 @@
   "rows": 25,
   "pages": 10,
   "families": {
-   "full-bleed": 25
+   "full-bleed": 23,
+   "panel-overlay": 2
   },
   "hints": {
-   "?": 25
+   "full-bleed": 11,
+   "cutout-checkerboard": 1,
+   "before-after": 1,
+   "panel-overlay": 2,
+   "?": 8,
+   "template-mockup": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/39dcb17e-7a61-4610-a9c5-0991249921b2.webp",
@@ -6730,36 +8126,6 @@
  {
   "key": {
    "type": "use-case-grid",
-   "aspect_class": "2:1",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 11,
-  "rows": 43,
-  "pages": 10,
-  "families": {
-   "unresolved": 11
-  },
-  "hints": {
-   "?": 11
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/2f5015e2-365b-496a-9fb5-f812bbbde4dc.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/4857a276-0417-4aa9-9324-7b783bf87822.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/4c0fad35-bfc0-47d6-803b-8bd4b317329f.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/979c5f9c-ae5e-4757-81a3-2fbaa55420e2.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f57c774f-f1c6-4ddf-854f-682fb1a48587.webp"
-  ]
- },
- {
-  "key": {
-   "type": "use-case-grid",
    "aspect_class": "1:1",
    "ground": "photo-full-bleed",
    "layout": "single"
@@ -6768,10 +8134,19 @@
   "rows": 11,
   "pages": 7,
   "families": {
-   "full-bleed": 11
+   "template-mockup": 1,
+   "cutout-checkerboard": 1,
+   "editor-canvas": 1,
+   "full-bleed": 7,
+   "graphic-collage": 1
   },
   "hints": {
-   "?": 11
+   "template-mockup": 3,
+   "mockup-card": 1,
+   "editor-canvas": 2,
+   "full-bleed": 2,
+   "?": 1,
+   "graphic-collage": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/25214cd1-3043-4105-95c3-22f981278f20.png?type=webp&to=min&r=600",
@@ -6790,48 +8165,87 @@
  {
   "key": {
    "type": "use-case-grid",
-   "aspect_class": "5:4",
-   "ground": "None",
-   "layout": "None"
+   "aspect_class": "2:1",
+   "ground": "photo-full-bleed",
+   "layout": "split"
   },
-  "assets": 5,
-  "rows": 5,
-  "pages": 4,
+  "assets": 8,
+  "rows": 14,
+  "pages": 8,
   "families": {
-   "unresolved": 5
+   "before-after": 3,
+   "prompt-card": 3,
+   "unresolved": 1,
+   "mockup-card": 1
   },
   "hints": {
-   "?": 5
+   "before-after": 2,
+   "prompt-card": 3,
+   "full-bleed": 1,
+   "template-mockup": 1,
+   "other": 1
   },
   "srcs": [
-   "https://cdn130.picsart.com/29494432891824860802.png",
-   "https://cdn130.picsart.com/62196660432044235255.png",
-   "https://cdn140.picsart.com/16814288451195410172.png",
-   "https://cdn140.picsart.com/54386132267696966254.png",
-   "https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/08385997-a884-4c37-a987-fbbd1b2e35fc.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cb59a99-e35e-4568-8f1a-651866802cc7.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/684bc550-bc66-4044-801f-35f01c204f8b.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c468bfc-7bf8-45c8-a53f-994caedfebc0.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e6fe5f30-6182-43ad-98b6-fe38ea22edc0.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f01022a0-6703-4df8-a068-ec25d0dce4a0.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f223c881-0393-4d49-a26a-b171bb6ccd83.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "5:4",
+   "ground": "photo-full-bleed",
+   "layout": "single"
+  },
+  "assets": 6,
+  "rows": 6,
+  "pages": 3,
+  "families": {
+   "full-bleed": 6
+  },
+  "hints": {
+   "?": 3,
+   "full-bleed": 2,
+   "mockup-card": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/2e4bb9bb-3de4-401a-bd04-f6a0cc29d5bf.png",
+   "https://pastatic.picsart.com/cms-pastatic/4c226420-38e6-4501-8d89-7d1a7ddb1172.png",
+   "https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png",
+   "https://pastatic.picsart.com/cms-pastatic/d4a0767f-fad3-4b33-bc1c-8b56ebe78049.png",
+   "https://pastatic.picsart.com/cms-pastatic/e36a6ea3-01f2-4b94-9913-d497a5637ce6.png",
+   "https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png"
   ]
  },
  {
   "key": {
    "type": "use-case-grid",
    "aspect_class": "2:1",
-   "ground": "photo-full-bleed",
+   "ground": "mixed",
    "layout": "split"
   },
   "assets": 4,
   "rows": 4,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "before-after/mixed": 3,
+   "unresolved": 1
   },
   "hints": {
-   "?": 4
+   "other": 2,
+   "model-card": 2
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/3cb59a99-e35e-4568-8f1a-651866802cc7.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/684bc550-bc66-4044-801f-35f01c204f8b.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6c468bfc-7bf8-45c8-a53f-994caedfebc0.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/f01022a0-6703-4df8-a068-ec25d0dce4a0.webp"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0af91011-2134-453e-89b0-46b84dc82c37.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/25de333f-97c6-47dd-821f-f50e15aeda45.avif",
+   "https://pcdn.picsart.com/cms-uploads/2b7a985a-f7ed-4ee4-8c18-bab27fd6bb2d.avif",
+   "https://pcdn.picsart.com/cms-uploads/41c41e72-7fd3-4d70-b0a7-2d518f93f7fd.avif"
   ]
  },
  {
@@ -6845,10 +8259,14 @@
   "rows": 4,
   "pages": 4,
   "families": {
-   "unresolved": 4
+   "mockup-card": 2,
+   "unresolved": 2
   },
   "hints": {
-   "?": 4
+   "template-mockup": 1,
+   "other": 1,
+   "full-bleed": 1,
+   "mockup-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/8787dc19-1d3e-47a0-80b0-7af054cca1ad.avif",
@@ -6871,13 +8289,39 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "graphic-collage": 4
   },
   "srcs": [
    "https://cdn130.picsart.com/17238261536603361130.png",
    "https://cdn140.picsart.com/99723626936142097507.png",
    "https://pastatic.picsart.com/cms-pastatic/3d05cded-106b-49c6-b92f-cedf79ebba52.png",
    "https://pastatic.picsart.com/cms-pastatic/8dc0bb33-0350-4d10-a0a3-df5c2dc01c88.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "5:4",
+   "ground": "white",
+   "layout": "overlay"
+  },
+  "assets": 4,
+  "rows": 4,
+  "pages": 3,
+  "families": {
+   "unresolved": 3,
+   "graphic-collage/white": 1
+  },
+  "hints": {
+   "full-bleed": 2,
+   "before-after": 1,
+   "graphic-collage": 1
+  },
+  "srcs": [
+   "https://cdn130.picsart.com/29494432891824860802.png",
+   "https://cdn130.picsart.com/62196660432044235255.png",
+   "https://cdn140.picsart.com/16814288451195410172.png",
+   "https://cdn140.picsart.com/54386132267696966254.png"
   ]
  },
  {
@@ -6894,7 +8338,8 @@
    "full-bleed": 3
   },
   "hints": {
-   "?": 3
+   "full-bleed": 2,
+   "cutout-checkerboard": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/44a260e0-4289-4e5b-bf56-a6aa7d270b69.webp",
@@ -6916,7 +8361,7 @@
    "before-after": 3
   },
   "hints": {
-   "?": 3
+   "before-after": 3
   },
   "srcs": [
    "https://cdn130.picsart.com/54964550287710715013.png",
@@ -6928,22 +8373,22 @@
   "key": {
    "type": "use-case-grid",
    "aspect_class": "5:4",
-   "ground": "photo-full-bleed",
+   "ground": "white",
    "layout": "single"
   },
-  "assets": 3,
-  "rows": 3,
+  "assets": 2,
+  "rows": 4,
   "pages": 2,
   "families": {
-   "full-bleed": 3
+   "unresolved": 2
   },
   "hints": {
-   "?": 3
+   "?": 1,
+   "full-bleed": 1
   },
   "srcs": [
-   "https://pastatic.picsart.com/cms-pastatic/4c226420-38e6-4501-8d89-7d1a7ddb1172.png",
-   "https://pastatic.picsart.com/cms-pastatic/d4a0767f-fad3-4b33-bc1c-8b56ebe78049.png",
-   "https://pastatic.picsart.com/cms-pastatic/e36a6ea3-01f2-4b94-9913-d497a5637ce6.png"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif",
+   "https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png"
   ]
  },
  {
@@ -6957,14 +8402,37 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "unresolved": 2
+   "unresolved": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 2
+   "other": 1,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1fa421aa-7b45-47bd-9410-1d1d97aed76a.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/4484fd93-9d48-4dc5-b022-79cef255c467.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "checkerboard",
+   "layout": "overlay"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 1,
+  "families": {
+   "cutout-checkerboard/checker": 2
+  },
+  "hints": {
+   "cutout-checkerboard": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/2f5015e2-365b-496a-9fb5-f812bbbde4dc.webp",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/b7497932-5e94-4c09-a4eb-6d74ed3a5cb5.avif"
   ]
  },
  {
@@ -6978,10 +8446,12 @@
   "rows": 2,
   "pages": 2,
   "families": {
-   "full-bleed": 2
+   "full-bleed": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 2
+   "before-after": 1,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f81aa.webp",
@@ -6991,18 +8461,39 @@
  {
   "key": {
    "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "white",
+   "layout": "two-up"
+  },
+  "assets": 2,
+  "rows": 2,
+  "pages": 2,
+  "families": {
+   "vs-two-up/white": 2
+  },
+  "hints": {
+   "mockup-card": 2
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4c0fad35-bfc0-47d6-803b-8bd4b317329f.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
    "aspect_class": "4:3",
-   "ground": "None",
-   "layout": "None"
+   "ground": "white",
+   "layout": "overlay"
   },
   "assets": 2,
   "rows": 2,
   "pages": 1,
   "families": {
-   "unresolved": 2
+   "panel-overlay/white": 2
   },
   "hints": {
-   "?": 2
+   "panel-overlay": 2
   },
   "srcs": [
    "https://cdn140.picsart.com/12481028616582094390.png",
@@ -7012,18 +8503,38 @@
  {
   "key": {
    "type": "use-case-grid",
-   "aspect_class": "1:1",
-   "ground": "None",
-   "layout": "None"
+   "aspect_class": "5:4",
+   "ground": "white",
+   "layout": "column-main"
   },
   "assets": 1,
-  "rows": 1,
+  "rows": 3,
   "pages": 1,
   "families": {
    "unresolved": 1
   },
   "hints": {
    "?": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/0e0b5f00-6ba6-4871-9487-69335076adf2.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "1:1",
+   "ground": "mixed",
+   "layout": "two-up"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "mockup-card/mixed": 1
+  },
+  "hints": {
+   "mockup-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/327f0a90-14dd-45c9-be23-5cf1152fcf12.avif"
@@ -7032,12 +8543,32 @@
  {
   "key": {
    "type": "use-case-grid",
-   "aspect_class": "1:1",
-   "ground": "None",
+   "aspect_class": "2:1",
+   "ground": "checkerboard",
    "layout": "split"
   },
   "assets": 1,
   "rows": 1,
+  "pages": 1,
+  "families": {
+   "cutout-checkerboard/checker": 1
+  },
+  "hints": {
+   "cutout-checkerboard": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/50393c49-c6ef-4ddc-adb3-773c0d2c423c.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "5:4",
+   "ground": "white",
+   "layout": "stacked"
+  },
+  "assets": 1,
+  "rows": 3,
   "pages": 1,
   "families": {
    "unresolved": 1
@@ -7046,7 +8577,87 @@
    "?": 1
   },
   "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "1:1",
+   "ground": "black",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "prompt-card": 1
+  },
+  "hints": {
+   "prompt-card": 1
+  },
+  "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/afd1585a-6e10-47a8-bc58-90010c6870a6.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "solid-colour",
+   "layout": "split"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "before-after/colour": 1
+  },
+  "hints": {
+   "other": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/bb63a74c-c746-424c-9bdd-c50d1ce613ff.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "black",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "dark-composite": 1
+  },
+  "hints": {
+   "crop-frame": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "light-grey",
+   "layout": "column-main"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "dark-composite/light": 1
+  },
+  "hints": {
+   "template-mockup": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/f57c774f-f1c6-4ddf-854f-682fb1a48587.webp"
   ]
  },
  {
@@ -7063,7 +8674,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fa47db5d-2dd4-460f-852e-d18ca08ad2fe.webp"
@@ -7083,7 +8694,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn130.picsart.com/77468920618713422116.jpg"
@@ -7103,7 +8714,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/66235342018860345323.jpg"
@@ -7120,10 +8731,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "graphic-collage/white": 1
   },
   "hints": {
-   "?": 1
+   "graphic-collage": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/67517861305127782937.jpg"
@@ -7154,6 +8765,26 @@
    "type": "use-case-grid",
    "aspect_class": "3:2",
    "ground": "mixed",
+   "layout": "overlay"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "panel-overlay/mixed": 1
+  },
+  "hints": {
+   "mockup-card": 1
+  },
+  "srcs": [
+   "https://pastatic.picsart.com/cms-pastatic/506be643-ce46-42a3-9071-265194c50d95.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "use-case-grid",
+   "aspect_class": "2:1",
+   "ground": "None",
    "layout": "None"
   },
   "assets": 1,
@@ -7166,7 +8797,7 @@
    "?": 1
   },
   "srcs": [
-   "https://pastatic.picsart.com/cms-pastatic/506be643-ce46-42a3-9071-265194c50d95.png"
+   "https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif"
   ]
  },
  {
@@ -7183,7 +8814,8 @@
    "full-bleed": 49
   },
   "hints": {
-   "?": 49
+   "full-bleed": 47,
+   "mockup-card": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/049cc946-625c-4317-ad58-46d1de553cb2.avif",
@@ -7251,7 +8883,7 @@
    "unresolved": 7
   },
   "hints": {
-   "?": 7
+   "full-bleed": 7
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/358649ff-86d4-4eb0-9a4f-39924d0aeca6.avif",
@@ -7277,7 +8909,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "outcome-tile": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/20ff55ab-e490-4f46-a741-120bdf9e0add.avif"
@@ -7297,7 +8929,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/39dc567c-a369-450d-aa19-b64f2b738fe7.avif"
@@ -7308,7 +8940,7 @@
    "type": "tutorial-grid",
    "aspect_class": "3:2",
    "ground": "mixed",
-   "layout": "None"
+   "layout": "single"
   },
   "assets": 1,
   "rows": 2,
@@ -7317,7 +8949,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/d5ef06b7-9bb3-4a44-8118-f218c53a2b50.avif"
@@ -7337,7 +8969,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/e2de6a0e-7ceb-4eca-9eb1-afa2bb9453a3.avif"
@@ -7357,7 +8989,7 @@
    "before-after/light": 1
   },
   "hints": {
-   "?": 1
+   "before-after": 1
   },
   "srcs": [
    "https://cdn-pipeline-output.picsart.com/magic-flow/e7ec76aa-fbfa-4003-9d47-7144fc92725a.png?type=webp&to=min&r=1200&q=85"
@@ -7367,24 +8999,23 @@
   "key": {
    "type": "how-it-works",
    "aspect_class": "4:5",
-   "ground": "None",
-   "layout": "None"
+   "ground": "mixed",
+   "layout": "overlay"
   },
-  "assets": 19,
-  "rows": 19,
-  "pages": 19,
+  "assets": 17,
+  "rows": 17,
+  "pages": 17,
   "families": {
-   "unresolved": 19
+   "template-mockup/mixed": 16,
+   "unresolved": 1
   },
   "hints": {
-   "?": 19
+   "template-mockup": 17
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/67c30159-b8b0-48d3-9274-9c5237b5fd5a.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/6cfcb1a3-61af-47ff-9178-a7639c0065f9.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6da16efb-e131-419b-bd3c-511797ac55dc.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/6ecf9805-026f-4e35-84bb-51967ca195d4.webp",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/a49dfb87-3b48-4b44-9133-8673e2699455.webp",
    "https://pastatic.picsart.com/cms-pastatic/0e9054a8-8761-428c-b304-a64f11d5541e.png",
    "https://pastatic.picsart.com/cms-pastatic/10928a1c-a708-4e0d-9637-73f29787f317.png",
    "https://pastatic.picsart.com/cms-pastatic/1641935e-e1ed-4ed6-b9fd-9ac79ac1b8ac.png",
@@ -7412,10 +9043,13 @@
   "rows": 5,
   "pages": 5,
   "families": {
-   "unresolved": 5
+   "mockup-card/white": 3,
+   "unresolved": 2
   },
   "hints": {
-   "?": 5
+   "template-mockup": 3,
+   "mockup-card": 1,
+   "full-bleed": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/766bc2a0-03c7-4aaf-8337-39291798e959.webp",
@@ -7439,13 +9073,39 @@
    "unresolved": 4
   },
   "hints": {
-   "?": 4
+   "template-mockup": 2,
+   "before-after": 1,
+   "full-bleed": 1
   },
   "srcs": [
    "https://pastatic.picsart.com/cms-pastatic/08501e32-9ecc-49c2-b4b6-4d18eb6af204.png",
    "https://pastatic.picsart.com/cms-pastatic/439ccff6-304b-46f3-9765-704aaba568e2.png",
    "https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.png",
    "https://pastatic.picsart.com/cms-pastatic/95a24b16-f78d-4646-8d37-6586ff32c554.png"
+  ]
+ },
+ {
+  "key": {
+   "type": "how-it-works",
+   "aspect_class": "1:1",
+   "ground": "photo-full-bleed",
+   "layout": "single"
+  },
+  "assets": 3,
+  "rows": 3,
+  "pages": 3,
+  "families": {
+   "full-bleed": 2,
+   "prompt-card": 1
+  },
+  "hints": {
+   "full-bleed": 2,
+   "prompt-card": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/4c930829-f759-4f6a-a005-fd0193561f12.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/76a2d6b7-bbbf-45f1-b887-23ffb43bade5.avif",
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif"
   ]
  },
  {
@@ -7459,10 +9119,12 @@
   "rows": 3,
   "pages": 3,
   "families": {
-   "unresolved": 3
+   "cutout-checkerboard": 1,
+   "unresolved": 2
   },
   "hints": {
-   "?": 3
+   "mockup-card": 1,
+   "other": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/644754eb-cc96-46ce-a529-bfef5a83e5ae.avif",
@@ -7484,33 +9146,13 @@
    "unresolved": 3
   },
   "hints": {
-   "?": 3
+   "other": 1,
+   "full-bleed": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/72349a05-a086-4c75-946f-556e20c0d108.webp",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/77b21ba1-e2ed-4632-ae8d-e5dac86e9d9f.avif",
    "https://cdn-cms-uploads.picsart.com/cms-uploads/a11de2b2-464f-4abe-946f-431517b331a3.avif"
-  ]
- },
- {
-  "key": {
-   "type": "how-it-works",
-   "aspect_class": "1:1",
-   "ground": "None",
-   "layout": "None"
-  },
-  "assets": 2,
-  "rows": 2,
-  "pages": 2,
-  "families": {
-   "unresolved": 2
-  },
-  "hints": {
-   "?": 2
-  },
-  "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/76a2d6b7-bbbf-45f1-b887-23ffb43bade5.avif",
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif"
   ]
  },
  {
@@ -7524,10 +9166,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/229d8186-db3f-4f2e-a5a2-3afb82cc6288.webp"
@@ -7536,21 +9178,21 @@
  {
   "key": {
    "type": "how-it-works",
-   "aspect_class": "1:1",
-   "ground": "photo-full-bleed",
-   "layout": "single"
+   "aspect_class": "4:5",
+   "ground": "mixed",
+   "layout": "column-main"
   },
   "assets": 1,
   "rows": 1,
   "pages": 1,
   "families": {
-   "full-bleed": 1
+   "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
-   "https://cdn-cms-uploads.picsart.com/cms-uploads/4c930829-f759-4f6a-a005-fd0193561f12.avif"
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/6cfcb1a3-61af-47ff-9178-a7639c0065f9.webp"
   ]
  },
  {
@@ -7564,13 +9206,33 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "full-bleed": 1
+   "template-mockup": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/7760a5bf-6448-46c3-a2ef-23ef357be1ef.avif"
+  ]
+ },
+ {
+  "key": {
+   "type": "how-it-works",
+   "aspect_class": "4:5",
+   "ground": "checkerboard",
+   "layout": "grid"
+  },
+  "assets": 1,
+  "rows": 1,
+  "pages": 1,
+  "families": {
+   "cutout-checkerboard/checker": 1
+  },
+  "hints": {
+   "cutout-checkerboard": 1
+  },
+  "srcs": [
+   "https://cdn-cms-uploads.picsart.com/cms-uploads/a49dfb87-3b48-4b44-9133-8673e2699455.webp"
   ]
  },
  {
@@ -7584,10 +9246,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c.webp"
@@ -7597,8 +9259,8 @@
   "key": {
    "type": "how-it-works",
    "aspect_class": "2:3",
-   "ground": "None",
-   "layout": "None"
+   "ground": "mixed",
+   "layout": "column-main"
   },
   "assets": 1,
   "rows": 1,
@@ -7607,7 +9269,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "template-mockup": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/fdd6dde8-dfa5-4f6e-8719-e9236e81bb0b.webp"
@@ -7627,7 +9289,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "other": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/09226849243971081316.jpg"
@@ -7647,7 +9309,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "other": 1
   },
   "srcs": [
    "https://cdn140.picsart.com/09387211516741511611.jpg"
@@ -7667,7 +9329,8 @@
    "full-bleed": 3
   },
   "hints": {
-   "?": 3
+   "full-bleed": 1,
+   "dark-composite": 2
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/20b6391a-4e06-4048-8506-d8efa22409d3.avif",
@@ -7686,10 +9349,12 @@
   "rows": 2,
   "pages": 1,
   "families": {
-   "full-bleed": 2
+   "full-bleed": 1,
+   "prompt-card": 1
   },
   "hints": {
-   "?": 2
+   "dark-composite": 1,
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/0a2d1364-dd67-4d09-9e92-7feba3221390.webp",
@@ -7707,10 +9372,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "editor-canvas/black": 1
   },
   "hints": {
-   "?": 1
+   "editor-canvas": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/1d0b15ba-d839-4e90-bf3d-5712960a357f.jpg"
@@ -7730,7 +9395,7 @@
    "full-bleed": 1
   },
   "hints": {
-   "?": 1
+   "dark-composite": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/28d83ce3-3c71-4ee7-9944-225c7c17a980.avif"
@@ -7750,7 +9415,7 @@
    "unresolved": 1
   },
   "hints": {
-   "?": 1
+   "vs-two-up": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/2ada28c9-aa5e-4156-a157-7a732ff37a4d.webp"
@@ -7770,7 +9435,7 @@
    "full-bleed": 1
   },
   "hints": {
-   "?": 1
+   "dark-composite": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/462188b6-73c4-491f-b904-e4d08e55f49d.webp"
@@ -7787,10 +9452,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/8672999d-b486-4a4f-a0c3-18b23d3da4a9.avif"
@@ -7807,10 +9472,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "dark-composite": 1
   },
   "hints": {
-   "?": 1
+   "other": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/b476daea-7716-4982-ad7a-edfd6c347d0c.webp"
@@ -7827,10 +9492,10 @@
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/d4b9cf35-fb5f-4966-bef7-d772dad9d502.avif"
@@ -7840,17 +9505,17 @@
   "key": {
    "type": "interactive-demo",
    "aspect_class": "4:3",
-   "ground": "None",
-   "layout": "None"
+   "ground": "light-grey",
+   "layout": "column-main"
   },
   "assets": 1,
   "rows": 1,
   "pages": 1,
   "families": {
-   "unresolved": 1
+   "prompt-card/light": 1
   },
   "hints": {
-   "?": 1
+   "prompt-card": 1
   },
   "srcs": [
    "https://cdn-cms-uploads.picsart.com/cms-uploads/39884e5e-010c-4afe-bd8e-3154d79c54f5.png"

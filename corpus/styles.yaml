@@ -11209,8 +11209,8 @@ https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.p
   page: background-remover
   slot: S17-m5
   source: rules
-? https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min
-: style: full-bleed
+https://pastatic.picsart.com/cms-pastatic/017968b8-9687-447d-82de-9b4d86153666.png?type=webp&r=548&to=min?type=webp&r=548&to=min:
+  style: full-bleed
   variant: null
   confidence: 0.4
   page: ai-sticker-maker
@@ -11448,8 +11448,8 @@ https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.p
   page: ai-content-generator
   slot: S09-m4
   source: rules
-? https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png?type=webp&r=548&to=min?type=webp&r=548&to=min
-: style: editor-canvas
+https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png?type=webp&r=548&to=min?type=webp&r=548&to=min:
+  style: editor-canvas
   variant: null
   confidence: 0.4
   page: remove-object-from-photo
@@ -12279,8 +12279,8 @@ https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.p
   page: background-tools
   slot: S12-m4
   source: rules
-? https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png?type=webp&r=548&to=min?type=webp&r=548&to=min
-: style: editor-canvas
+https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png?type=webp&r=548&to=min?type=webp&r=548&to=min:
+  style: editor-canvas
   variant: null
   confidence: 0.5
   page: photo-editor
