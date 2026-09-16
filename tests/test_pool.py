@@ -956,3 +956,14 @@ def test_corpus_hashes_is_incremental_and_cannot_be_erased(tmp_path):
     kept = pool.corpus_hashes(pool_dir=tmp_path, attrs_mapping={}, styles_mapping={},
                               log=lambda m: None)
     assert kept == third
+
+
+def test_ranker_prepare_reuses_passed_mappings_without_reloading(monkeypatch):
+    """B3: when the CLI hands prepare the attributes/styles mappings, the ranker
+    threads them through baseline/_freq and never re-reads the yaml."""
+    attrs_mapping, styles_mapping = portrait_corpus()
+    loads = {"attrs": 0, "styles": 0}
+    monkeypatch.setattr(pool.attrs, "load", lambda *a, **k: loads.__setitem__("attrs", loads["attrs"] + 1))
+    monkeypatch.setattr(pool.styles, "load", lambda *a, **k: loads.__setitem__("styles", loads["styles"] + 1))
+    pool.HistogramRanker().prepare(FAMILY, attrs_mapping, styles_mapping)
+    assert loads == {"attrs": 0, "styles": 0}

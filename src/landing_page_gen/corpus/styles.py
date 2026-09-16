@@ -10,19 +10,37 @@ from pathlib import Path
 
 import yaml
 
+# The libyaml C loader/dumper where PyYAML was built with it (attributes.yaml is
+# 2.4 MB and 6-9x slower under the pure-Python parser). Semantically identical to
+# the safe loader/dumper; the only round-trip differences are cosmetic (a >128-char
+# key loses the `? key` explicit form, non-BMP emoji are \U-escaped).
+LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+DUMPER = getattr(yaml, "CSafeDumper", yaml.SafeDumper)
+
+
+def load_yaml(text):
+    return yaml.load(text, Loader=LOADER)
+
+
+def dump_yaml(data, **kw):
+    kw.setdefault("Dumper", DUMPER)
+    kw.setdefault("allow_unicode", True)
+    return yaml.dump(data, **kw)
+
+
 STYLES_YAML = Path("corpus/styles.yaml")
 DOC = Path(__file__).resolve().parents[3] / ".claude" / "skills" / "picsart-workflows" / "style-families.md"
 
 
 def load(path=STYLES_YAML):
     path = Path(path)
-    return (yaml.safe_load(path.read_text()) or {}) if path.exists() else {}
+    return (load_yaml(path.read_text()) or {}) if path.exists() else {}
 
 
 def save(mapping, path=STYLES_YAML):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(yaml.safe_dump(dict(sorted(mapping.items())), sort_keys=False, allow_unicode=True, width=1000))
+    path.write_text(dump_yaml(dict(sorted(mapping.items())), sort_keys=False, width=1000))
 
 
 def apply(con, mapping):

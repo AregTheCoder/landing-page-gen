@@ -103,7 +103,7 @@ def build(mapping, out_dir=LABELS_DIR, per_sheet=PER_SHEET, thumb=THUMB, columns
             manifest = {"sheet": name, "group": dict(zip(("type", "ground", "layout"), key)),
                         "fields": fields, "answers": f"{name}.answers.yaml",
                         "cells": {n + 1: cell(src, rec) for n, (src, rec) in enumerate(chunk)}}
-            (out_dir / f"{name}.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True, width=1000))
+            (out_dir / f"{name}.yaml").write_text(styles.dump_yaml(manifest, sort_keys=False, allow_unicode=True, width=1000))
             sheets.append({"name": name, "png": png, "cells": len(chunk), "group": key, "fields": fields,
                            "answered": (out_dir / f"{name}.answers.yaml").exists()})
     stats = {"pending": len(todo), "groups": len(groups), "sheets": len(sheets),

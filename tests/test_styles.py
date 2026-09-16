@@ -250,3 +250,21 @@ def test_pool_files_name_families_and_carry_the_required_fields():
                 for src, rec in hashes.items():
                     assert phash.hamming(e["phash"], rec["phash"]) > pool.CORPUS_DUP, \
                         (path, eid, "kept entry duplicates corpus asset", src)
+
+
+def test_c_loader_round_trips_long_keys_and_emoji(tmp_path):
+    """B1: the libyaml loader/dumper is semantically identical to the safe one,
+    including a >128-char key and non-BMP emoji (only their spelling on disk
+    differs)."""
+    import yaml
+
+    long_key = "https://cdn.example.com/" + "a" * 140
+    mapping = {
+        long_key: {"style": "full-bleed"},
+        "b": {"creator": "Jane 🎨🖼️ Doe", "style": "cinematic-still"},
+    }
+    p = tmp_path / "styles.yaml"
+    styles.save(mapping, p)
+    # read back with both the C loader (styles.load) and the pure-Python safe loader
+    assert styles.load(p) == mapping
+    assert yaml.safe_load(p.read_text()) == mapping

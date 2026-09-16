@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import attrs, measure, sheets
+from . import attrs, measure, sheets, styles
 
 ANSWER_SUFFIX = ".answers.yaml"
 
@@ -70,7 +70,7 @@ def migrate_files(out_dir, stats):
     for path in sorted(out_dir.glob("*" + ANSWER_SUFFIX)):
         raw = path.read_text()
         try:
-            data = yaml.safe_load(raw) or {}
+            data = styles.load_yaml(raw) or {}
         except yaml.YAMLError:
             continue  # ingest reports and skips it
         touched = False
@@ -84,14 +84,14 @@ def migrate_files(out_dir, stats):
                     if mapped is not None:
                         answer[new_field] = mapped
         if touched:
-            path.write_text(_lead_comments(raw) + yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+            path.write_text(_lead_comments(raw) + styles.dump_yaml(data, sort_keys=False, allow_unicode=True))
             stats["migrated"] += 1
     for path in manifests(out_dir):
-        man = yaml.safe_load(path.read_text()) or {}
+        man = styles.load_yaml(path.read_text()) or {}
         fields = man.get("fields") or []
         if any(f in RENAMED for f in fields):
             man["fields"] = sorted({RENAMED[f][0] if f in RENAMED else f for f in fields})
-            path.write_text(yaml.safe_dump(man, sort_keys=False, allow_unicode=True))
+            path.write_text(styles.dump_yaml(man, sort_keys=False, allow_unicode=True))
             stats["migrated"] += 1
 
 
@@ -147,14 +147,14 @@ def ingest(mapping, out_dir=sheets.LABELS_DIR, log=print):
     for rec in mapping.values():
         migrate_record(rec, stats)
     for man_path in manifests(out_dir):
-        man = yaml.safe_load(man_path.read_text()) or {}
+        man = styles.load_yaml(man_path.read_text()) or {}
         stats["sheets"] += 1
         answers_path = Path(out_dir) / man.get("answers", man_path.stem + ANSWER_SUFFIX)
         if not answers_path.exists():
             continue
         stats["answered"] += 1
         try:
-            answers = yaml.safe_load(answers_path.read_text()) or {}
+            answers = styles.load_yaml(answers_path.read_text()) or {}
         except yaml.YAMLError as exc:
             stats["errors"].append(f"{answers_path.name}: unparseable YAML, skipped ({exc.__class__.__name__})")
             continue
