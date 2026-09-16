@@ -13,6 +13,7 @@ kind that does not match its engine, an image node off the pro model with no
 quoted copy, a template board without its source)."""
 
 import re
+from collections import Counter
 from pathlib import Path
 
 import yaml
@@ -20,6 +21,32 @@ import yaml
 PRO_IMAGE = "gemini-3-pro-image"
 BOARDS = ("blank", "template")
 TEMPLATES_YAML = Path("corpus/flow-templates.yaml")
+
+# Planned, mandatory recipe per family. A board is authored WHOLE from this
+# recipe up front — every planned node is laid down and run, not grown
+# reactively when a gate happens to find a flaw. Each recipe is an ordered list
+# of planned steps; a step is the set of node kinds that can satisfy it. The
+# first image is the base generate, the second the planned i2i refine (which
+# used to be optional). `enhance` is the planned finishing upscale; `compose`,
+# `cutout` and the `background`/`enhance`/`cutout` edit are the family's own
+# chrome and derived-panel steps. `check()` enforces this whenever the board
+# names its `family:`; a board that skips a planned step does not wire.
+_IMG = frozenset({"image"})
+RECIPES = {
+    "full-bleed":          [_IMG, _IMG, frozenset({"enhance"})],
+    "cinematic-still":     [_IMG, _IMG, frozenset({"enhance"})],
+    "graphic-collage":     [_IMG, _IMG],
+    "outcome-tile":        [_IMG, _IMG],
+    "dark-composite":      [_IMG, _IMG, frozenset({"compose"})],
+    "template-mockup":     [_IMG, _IMG, frozenset({"compose"})],
+    "prompt-card":         [_IMG, _IMG, frozenset({"compose"})],
+    "mockup-card":         [_IMG, _IMG, frozenset({"compose"})],
+    "vs-two-up":           [_IMG, _IMG, frozenset({"compose"})],
+    "panel-overlay":       [_IMG, _IMG, frozenset({"compose"})],
+    "crop-frame":          [_IMG, _IMG, frozenset({"compose"})],
+    "before-after":        [_IMG, frozenset({"enhance", "background", "cutout"}), frozenset({"compose"})],
+    "cutout-checkerboard": [_IMG, frozenset({"cutout"}), frozenset({"compose"})],
+}
 
 # Flow node kind -> the engine it runs on over MCP (or locally). `text` and
 # `ref` nodes make no call: the worker writes the text; a ref is a URL.
@@ -31,11 +58,17 @@ NODE_ENGINES = {
     "cutout": {"picsart_remove_bg"},
     "background": {"picsart_change_bg"},
     "enhance": {"picsart_enhance"},
+    "vectorize": {"picsart_vectorize"},
     "video": {"picsart_generate"},
     "motion": {"picsart_media_export", "picsart_media_apply_scene_template", "picsart_media_patch_scene",
                "picsart_media_validate_scene", "picsart_media_contact_sheet"},
     "compose": {"lp-compose"},
 }
+# Upscale models an `enhance` node may run. `picsart_enhance` is the direct
+# tool; when Picsart Drive is full it 403s (no saveToDrive override), so the
+# same upscale engine is reached through `picsart_generate` on one of these
+# models with saveToDrive:false. `lp-flow check` accepts that substitution.
+ENHANCE_MODELS = {"picsart-enhance", "topaz-upscale-image"}
 EDIT_MODELS = {"picsart-qwen-image-edit"}
 VIDEO_MODEL_HINT = ("seedance", "kling", "luma", "veo", "omni", "runway", "video")
 
@@ -84,6 +117,40 @@ def nodes(doc):
     return out
 
 
+def recipe_problems(doc):
+    """A board that skips a node its family's planned recipe requires. The
+    recipe is authored up front, so this catches a shallow board (a lone
+    generate where the plan calls for generate -> i2i refine -> finish) before
+    it runs — enforced only when the board names a `family:` in RECIPES."""
+    family = doc.get("family")
+    recipe = RECIPES.get(family)
+    if not recipe:
+        return []
+    slot = doc.get("slot", "?")
+    kinds = [s["node"] for s in nodes(doc)]
+    problems = []
+    need_img = sum(1 for step in recipe if step == _IMG)
+    have_img = kinds.count("image")
+    if have_img < need_img:
+        problems.append(
+            f"{slot}: {family} recipe plans {need_img} image nodes (a base generate and "
+            f"the planned i2i refine); board has {have_img}. Author the refine up front, "
+            f"do not wait for a gate to fail.")
+    avail = Counter(k for k in kinds if k != "image")
+    for step in recipe:
+        if step == _IMG:
+            continue
+        if not any(avail.get(k, 0) > 0 for k in step):
+            label = " or ".join(sorted(step))
+            problems.append(f"{slot}: {family} recipe plans a {label} node; board has none")
+        else:
+            for k in step:
+                if avail.get(k, 0) > 0:
+                    avail[k] -= 1
+                    break
+    return problems
+
+
 def check(doc):
     """Problems with one slot's board; empty when it wires."""
     slot = doc.get("slot", "?")
@@ -103,9 +170,16 @@ def check(doc):
     for s in steps:
         sid = f"{slot} node {s.get('id')}"
         kind = s["node"]
+        # An enhance node run through picsart_generate on an upscale model is the
+        # accepted Drive-403 workaround (see ENHANCE_MODELS), not a wrong engine.
+        enhance_workaround = (
+            kind == "enhance" and s.get("tool") == "picsart_generate"
+            and s.get("model") in ENHANCE_MODELS
+        )
         if kind not in NODE_ENGINES:
             problems.append(f"{sid}: node kind {kind!r} (one of {', '.join(NODE_ENGINES)})")
-        elif s.get("tool") and s["tool"] not in NODE_ENGINES[kind] and NODE_ENGINES[kind]:
+        elif s.get("tool") and s["tool"] not in NODE_ENGINES[kind] and NODE_ENGINES[kind] \
+                and not enhance_workaround:
             problems.append(f"{sid}: {kind} node on {s['tool']} (expects {' or '.join(sorted(NODE_ENGINES[kind]))})")
         elif not s.get("tool") and NODE_ENGINES[kind]:
             problems.append(f"{sid}: {kind} node without a tool")
@@ -118,6 +192,7 @@ def check(doc):
             seen.add(s["id"])
     if "final" not in doc:
         problems.append(f"{slot}: no END node (final:)")
+    problems += recipe_problems(doc)
     return problems
 
 

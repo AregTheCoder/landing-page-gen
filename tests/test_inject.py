@@ -37,7 +37,7 @@ def test_inject_fills_placeholders_keeps_and_rewrites_text(tmp_path):
     md = md.replace("- t1 h1: Comic Book Generator", "- t1 h1: Comic Maker")
     (run / "page.md").write_text(md)
 
-    report = inject.inject(run, log=lambda m: None)
+    report = inject.inject(run, log=lambda m: None, localise_css_assets=False)
     assert report["filled"] == ["S01-m1"] and report["placeholders"] == ["S02-m1"]
     assert "S03-m1" in report["kept"] and report["texts_changed"] == 1 and report["missing"] == []
     html = (run / "dist" / "index.html").read_text()
@@ -54,12 +54,32 @@ def test_inject_fills_placeholders_keeps_and_rewrites_text(tmp_path):
     assert soup.select_one('[data-lp-t="S01-t2"]').get_text(" ", strip=True).startswith("Turn your story"), "unchanged text left alone"
 
 
+def test_looks_like_html_detects_a_stale_chunk():
+    # A stale, redeployed chunk serves the app-shell HTML with a 200 — must not
+    # be saved as CSS (the live-5 formatting bug).
+    assert inject.looks_like_html("<!DOCTYPE html><html>...")
+    assert inject.looks_like_html("   <html lang=\"en\"><head>")
+    assert not inject.looks_like_html(".a{color:red}")
+    assert not inject.looks_like_html("@layer base;@layer utils{.flex{display:flex}}")
+
+
+def test_absolutise_css_urls_keeps_the_page_self_contained():
+    u = "https://picsart.com/landings-ssr/_next/static/chunks/abc.css"
+    css = ('a{background:url(/f/x.png)} b{src:url("y.woff2")} '
+           'c{background:url(data:image/png;base64,Z)} d{background:url(https://z/i.png)}')
+    out = inject.absolutise_css_urls(css, u)
+    assert 'url("https://picsart.com/f/x.png")' in out            # root-relative -> origin
+    assert 'url("https://picsart.com/landings-ssr/_next/static/chunks/y.woff2")' in out  # relative -> chunk dir
+    assert "url(data:image/png;base64,Z)" in out                  # data URI untouched
+    assert "url(https://z/i.png)" in out                          # already absolute untouched
+
+
 def test_cli_returns_nonzero_on_missing_stamp(tmp_path):
     run = build_run(tmp_path)
     md = (run / "skeleton.md").read_text().replace("id: S01-m1\n", "id: S01-m1\nchosen: null\n", 1)
     md += "\n```slot\nid: S99-m1\nkind: image\nchosen: null\n```\n"
     (run / "page.md").write_text(md)
-    assert inject.main([str(run)]) == 1
+    assert inject.main([str(run), "--no-localise-css"]) == 1
     assert json.loads((run / "slots.json").read_text())["page"] == "comic-book-generator"
 
 
@@ -74,7 +94,7 @@ def test_inject_resolves_run_relative_chosen(tmp_path, monkeypatch):
     elsewhere = tmp_path / "elsewhere"
     elsewhere.mkdir()
     monkeypatch.chdir(elsewhere)  # the path is run-relative, not cwd-relative
-    report = inject.inject(run, log=lambda m: None)
+    report = inject.inject(run, log=lambda m: None, localise_css_assets=False)
     assert report["filled"] == ["S01-m1"]
     assert Image.open(run / "dist" / "media" / "gen" / "S01-m1.png").size == (300, 450)
     from bs4 import BeautifulSoup

@@ -46,6 +46,56 @@ def test_node_fed_by_a_later_node_or_wrong_engine_fails():
     assert any("edit node on picsart_enhance" in p for p in problems)
 
 
+def test_enhance_via_generate_is_accepted_only_for_upscale_models():
+    doc = board_of("full-bleed", ["image", "image", "enhance"])
+    en = doc["steps"][2]
+    en["tool"], en["model"] = "picsart_generate", "topaz-upscale-image"  # Drive-403 workaround
+    assert board.check(doc) == []
+    en["model"] = "gemini-3-pro-image"  # a plain generate is NOT an enhance
+    assert any("enhance node on picsart_generate" in p for p in board.check(doc))
+
+
+def board_of(family, kinds):
+    """A minimal wired board of the given node kinds, tagged with a family, so
+    the planned-recipe check can be exercised."""
+    steps = []
+    for i, k in enumerate(kinds, 1):
+        tool = next(iter(board.NODE_ENGINES[k]), None)
+        steps.append({"id": i, "node": k, "in": ["start"] if i == 1 else [i - 1],
+                      "tool": tool, "model": "gemini-3-pro-image" if k == "image" else None,
+                      "params": {"prompt": PROMPT} if k == "image" else {}, "quoted_credits": 5,
+                      "gate": "ok", "status": "done"})
+    return {"slot": "S01-m1", "board": "blank", "family": family, "steps": steps,
+            "final": {"url": "https://x/f.png"}}
+
+
+def test_recipe_flags_a_shallow_board():
+    """full-bleed plans generate -> i2i refine -> enhance; a lone generate fails."""
+    problems = board.check(board_of("full-bleed", ["image"]))
+    assert any("plans 2 image nodes" in p for p in problems)
+    assert any("plans a enhance node" in p for p in problems)
+
+
+def test_recipe_passes_when_the_plan_is_realised():
+    assert board.check(board_of("full-bleed", ["image", "image", "enhance"])) == []
+    assert board.check(board_of("template-mockup", ["image", "image", "compose"])) == []
+
+
+def test_recipe_flags_a_missing_family_specific_step():
+    problems = board.check(board_of("template-mockup", ["image", "image"]))
+    assert any("plans a compose node" in p for p in problems)
+    # before-after's derived "after" step accepts an edit/enhance/cutout node
+    assert board.check(board_of("before-after", ["image", "enhance", "compose"])) == []
+    assert any("background or cutout or enhance" in p
+               for p in board.check(board_of("before-after", ["image", "compose"])))
+
+
+def test_recipe_only_enforced_when_family_is_known():
+    assert board.check(board_of("full-bleed", ["image"]))          # known -> flagged
+    assert board.check({"slot": "S1", "board": "blank", "steps": board_of("x", ["image"])["steps"],
+                        "final": {"url": "u"}}) == []               # no family -> not enforced
+
+
 def test_image_node_off_the_pro_model_needs_a_reason():
     doc = blank_board()
     doc["steps"][0]["model"] = "gemini-3.1-flash-image"
