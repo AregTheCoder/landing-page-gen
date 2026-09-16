@@ -253,18 +253,18 @@ has already looked. Keep your own context for coordination.
 
 ## 6. Assemble
 
-1. Write `<run>/page.md`: the skeleton with each filled `slot` block
-   replaced by a `chosen` line (`chosen: <url or run-relative path>` and
-   `workflow: sections/<Sxx>/workflow.yaml`), kept-from-source slots left
-   untouched.
-2. `uv run lp-inject <run>`.
-3. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
+1. `uv run lp-inject <run>` — it reads the skeleton and each
+   `sections/<Sxx>/result.md` frontmatter (the worker's `chosen` asset and
+   `workflow` per slot) and assembles `<run>/page.md` itself, kept-from-source
+   slots untouched, then injects the media and changed text. Do not hand-write
+   page.md.
+2. `uv run lp-bench <run>` writes `<run>/benchmark.md`: every generated slot
    measured against the original it replaced (family, ground, coverage,
    saturation, and for composites the `pictures` count, a device proxy that
    raises `[fit]` flags) with flags keyed to the rubric. Paste its per-slot table and
    flags into `report.md` under "Against the original" **before** opening
    any original yourself; then look, and write what the numbers missed.
-4. `picsart_credits` again. Finish `report.md`: per section board (blank,
+3. `picsart_credits` again. Finish `report.md`: per section board (blank,
    or the template title), recipe, nodes, credits quoted vs spent (from
    `ledger.jsonl`), rounds, verdict; totals, with how many boards were
    blank and how many copied a template; which families were widened and

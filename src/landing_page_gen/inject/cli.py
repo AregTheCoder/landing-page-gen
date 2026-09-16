@@ -1,8 +1,9 @@
 """lp-inject: write a run's chosen media and changed text back into the page
 snapshot and emit runs/<run>/dist/index.html.
 
-Input is runs/<run>/page.md (the skeleton with a `chosen:` key added to each
-filled slot block) plus slots.json from `lp-corpus skeleton`. Every element
+Input is runs/<run>/skeleton.md plus each sections/*/result.md (whose
+frontmatter names the `chosen` asset per slot) and slots.json from `lp-corpus
+skeleton`; lp-inject assembles page.md itself. Every element
 is addressed by the data-lp / data-lp-t stamps sectionize wrote into the
 snapshot. Images are centre-cropped to the slot's aspect and downscaled to
 the slot size; videos are copied as they are. A slot whose `chosen` is null
@@ -38,6 +39,44 @@ def parse_page_md(text):
         for tid, tag, value in TEXT_RE.findall(body):
             texts[f"{sid}-{tid}"] = value.strip()
     return slots, texts
+
+
+def _result_slots(run):
+    """{slot_id: {chosen, workflow}} from every sections/*/result.md frontmatter,
+    so the manager no longer hand-writes page.md (a 47 KB restatement of the
+    skeleton plus each worker's chosen line)."""
+    out = {}
+    sections = run / "sections"
+    for res in sorted(sections.glob("S*/result.md")) if sections.is_dir() else []:
+        m = re.match(r"^---\n(.*?)\n---", res.read_text(), re.S)
+        if not m:
+            continue
+        fm = yaml.safe_load(m.group(1)) or {}
+        workflow = f"sections/{res.parent.name}/workflow.yaml"
+        for sid, s in (fm.get("slots") or {}).items():
+            if isinstance(s, dict) and "chosen" in s:
+                out[sid] = {"chosen": s.get("chosen"), "workflow": workflow}
+    return out
+
+
+def assemble_page_md(run):
+    """The skeleton with each produced slot's `chosen`/`workflow` appended to its
+    slot block, kept-from-source slots untouched — what the manager used to write."""
+    run = Path(run)
+    skeleton = (run / "skeleton.md").read_text()
+    results = _result_slots(run)
+
+    def add(m):
+        block = m.group(1)
+        slot = yaml.safe_load(block) or {}
+        r = results.get(slot.get("id"))
+        if r is None or "chosen" in slot:
+            return m.group(0)
+        lines = yaml.safe_dump({"chosen": r["chosen"], "workflow": r["workflow"]},
+                               sort_keys=False, allow_unicode=True, width=10000).rstrip()
+        return f"```slot\n{block}\n{lines}\n```"
+
+    return SLOT_RE.sub(add, skeleton)
 
 
 def fetch_to(src, dest):
@@ -214,8 +253,12 @@ def _frontmatter_source(text):
 def inject(run, out=None, log=print, localise_css_assets=True):
     run = Path(run)
     out = Path(out) if out else run / "dist"
-    page_md = (run / "page.md") if (run / "page.md").exists() else run / "skeleton.md"
-    page_text = page_md.read_text()
+    if (run / "sections").is_dir() and any((run / "sections").glob("S*/result.md")):
+        page_text = assemble_page_md(run)  # lp-inject owns page.md now
+        (run / "page.md").write_text(page_text)
+    else:  # older runs, or a hand-assembled page.md
+        page_md = (run / "page.md") if (run / "page.md").exists() else run / "skeleton.md"
+        page_text = page_md.read_text()
     slots_meta = json.loads((run / "slots.json").read_text())
     snapshot = Path(slots_meta["snapshot"])
     source_url = slots_meta.get("source") or _frontmatter_source(page_text)
