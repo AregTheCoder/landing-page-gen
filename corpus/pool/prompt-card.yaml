@@ -1,0 +1,574 @@
+family: prompt-card
+entries:
+  pexels-14012409:
+    url: https://www.pexels.com/photo/flamingos-on-body-of-water-14012409/
+    image: https://images.pexels.com/photos/14012409/pexels-photo-14012409.jpeg
+    thumb: https://images.pexels.com/photos/14012409/pexels-photo-14012409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Quang Nguyen Vinh
+    creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6860
+    height: 4576
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 490f0333338d0f8d
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - e30f27f2
+    - 0aee3bdc
+    - 4484fd93
+    - 531d8853
+    - a4976270
+    - 6ade1f1d
+    - 979c5f9c
+    - '71631159'
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-18174667:
+    url: https://www.pexels.com/photo/two-standing-flamingos-18174667/
+    image: https://images.pexels.com/photos/18174667/pexels-photo-18174667.jpeg
+    thumb: https://images.pexels.com/photos/18174667/pexels-photo-18174667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jesus Mateos
+    creator_url: https://www.pexels.com/@jesus-mateos-704632565
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 1656430f9f9e868c
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 4484fd93
+    - 0aee3bdc
+    - e30f27f2
+    - 7cebda74
+    - 979c5f9c
+    - 531d8853
+    - fac139f1
+    - '02013450'
+    state: pending
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    explored: true
+  pexels-207950:
+    url: https://www.pexels.com/photo/two-yellow-mugs-tied-together-with-rope-207950/
+    image: https://images.pexels.com/photos/207950/pexels-photo-207950.jpeg
+    thumb: https://images.pexels.com/photos/207950/pexels-photo-207950.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pixabay
+    creator_url: https://www.pexels.com/@pixabay
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful mug product photography
+    collected: '2026-09-16'
+    phash: bf0d1173733379cf
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 22f9b181
+    - a4976270
+    - f2d9f9ac
+    - '02013450'
+    - b324b63e
+    - b5e0893f
+    - 0cda6c41
+    - f01022a0
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-33530060:
+    url: https://www.pexels.com/photo/pair-of-flamingos-reflecting-in-tranquil-water-33530060/
+    image: https://images.pexels.com/photos/33530060/pexels-photo-33530060.jpeg
+    thumb: https://images.pexels.com/photos/33530060/pexels-photo-33530060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Guerrero De la Luz
+    creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3964
+    height: 3964
+    aspect_class: '1:1'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 19e99994ece9ece4
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.31
+    nearest:
+    - '71631159'
+    - a4976270
+    - e30f27f2
+    - fac139f1
+    - 4484fd93
+    - 6ade1f1d
+    - 979c5f9c
+    - 531d8853
+    state: pending
+    family_scores:
+      before-after: 0.363
+      graphic-collage: 0.34
+      crop-frame: 0.33
+    best_family: before-after
+  pexels-33563407:
+    url: https://www.pexels.com/photo/elegant-flamingos-wading-in-tranquil-pond-33563407/
+    image: https://images.pexels.com/photos/33563407/pexels-photo-33563407.jpeg
+    thumb: https://images.pexels.com/photos/33563407/pexels-photo-33563407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Guerrero De la Luz
+    creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5790
+    height: 3860
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 4bcb4b2727cdede9
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - '71631159'
+    - e30f27f2
+    - a4976270
+    - 531d8853
+    - 6ade1f1d
+    - 4484fd93
+    - 979c5f9c
+    - fac139f1
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-34871486:
+    url: https://www.pexels.com/photo/vibrant-flamingos-standing-near-rocky-background-34871486/
+    image: https://images.pexels.com/photos/34871486/pexels-photo-34871486.jpeg
+    thumb: https://images.pexels.com/photos/34871486/pexels-photo-34871486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Becka H
+    creator_url: https://www.pexels.com/@diosajandy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4496
+    height: 3000
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 81332d3737363226
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - e30f27f2
+    - 0aee3bdc
+    - 7cebda74
+    - fac139f1
+    - '71631159'
+    - 4484fd93
+    - 979c5f9c
+    - 531d8853
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-35729059:
+    url: https://www.pexels.com/photo/close-up-of-two-interacting-flamingos-35729059/
+    image: https://images.pexels.com/photos/35729059/pexels-photo-35729059.jpeg
+    thumb: https://images.pexels.com/photos/35729059/pexels-photo-35729059.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Optical Chemist
+    creator_url: https://www.pexels.com/@optical-chemist-340351297
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 263846a33174d8d9
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.068
+    nearest:
+    - 4484fd93
+    - 979c5f9c
+    - 7cebda74
+    - 531d8853
+    - 1d3251a6
+    - 0aee3bdc
+    - fca46557
+    - f01022a0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.125
+      crop-frame: 0.116
+      panel-overlay: 0.095
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-36499546:
+    url: https://www.pexels.com/photo/blooming-magnolia-tree-against-clear-blue-sky-36499546/
+    image: https://images.pexels.com/photos/36499546/pexels-photo-36499546.jpeg
+    thumb: https://images.pexels.com/photos/36499546/pexels-photo-36499546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mario Vogt
+    creator_url: https://www.pexels.com/@mario-vogt-2627668
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6048
+    height: 4032
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: cfd7335ecedc90c2
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 1d3251a6
+    - 4484fd93
+    - fac139f1
+    - 979c5f9c
+    - 0aee3bdc
+    - 3df4299d
+    - 034a35d6
+    - a4976270
+    state: dropped
+    family_scores:
+      vs-two-up: 0.134
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-37817287:
+    url: https://www.pexels.com/photo/pair-of-flamingos-in-natural-habitat-37817287/
+    image: https://images.pexels.com/photos/37817287/pexels-photo-37817287.jpeg
+    thumb: https://images.pexels.com/photos/37817287/pexels-photo-37817287.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Guerrero De la Luz
+    creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2363
+    height: 2363
+    aspect_class: '1:1'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 4964686a2be6cd2c
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.31
+    nearest:
+    - '71631159'
+    - e30f27f2
+    - fac139f1
+    - a4976270
+    - 531d8853
+    - '02013450'
+    - afd1585a
+    - 4dd48450
+    state: pending
+    family_scores:
+      before-after: 0.363
+      graphic-collage: 0.34
+      crop-frame: 0.33
+    best_family: before-after
+  pexels-38128934:
+    url: https://www.pexels.com/photo/beautiful-pair-of-pink-flamingos-at-zoo-38128934/
+    image: https://images.pexels.com/photos/38128934/pexels-photo-38128934.jpeg
+    thumb: https://images.pexels.com/photos/38128934/pexels-photo-38128934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andreas Berget
+    creator_url: https://www.pexels.com/@fauske
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 202011c141210345
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 0aee3bdc
+    - e30f27f2
+    - 7cebda74
+    - 531d8853
+    - 4484fd93
+    - fac139f1
+    - 979c5f9c
+    - 548dbd95
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-38478464:
+    url: https://www.pexels.com/photo/close-up-of-two-pink-flamingos-in-heart-formation-38478464/
+    image: https://images.pexels.com/photos/38478464/pexels-photo-38478464.jpeg
+    thumb: https://images.pexels.com/photos/38478464/pexels-photo-38478464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Dominik Rheinheimer
+    creator_url: https://www.pexels.com/@dominikrh
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: 31051b9316271333
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 0aee3bdc
+    - e30f27f2
+    - 4484fd93
+    - 7cebda74
+    - 3df4299d
+    - fac139f1
+    - 531d8853
+    - 979c5f9c
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.118
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7183439:
+    url: https://www.pexels.com/photo/a-close-up-shot-of-a-pink-flower-about-to-bloom-7183439/
+    image: https://images.pexels.com/photos/7183439/pexels-photo-7183439.jpeg
+    thumb: https://images.pexels.com/photos/7183439/pexels-photo-7183439.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Klumba Seven
+    creator_url: https://www.pexels.com/@klumba7
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3872
+    height: 2592
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: 3bcba91b1a78328d
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 4484fd93
+    - 1d3251a6
+    - 034a35d6
+    - fca46557
+    - fc728ce2
+    - 6ade1f1d
+    - 0aee3bdc
+    - 7cebda74
+    state: dropped
+    family_scores:
+      vs-two-up: 0.144
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7267588:
+    url: https://www.pexels.com/photo/medals-on-pedestal-on-pink-studio-background-7267588/
+    image: https://images.pexels.com/photos/7267588/pexels-photo-7267588.jpeg
+    thumb: https://images.pexels.com/photos/7267588/pexels-photo-7267588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6216
+    height: 4144
+    aspect_class: '3:2'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: fe7ef3f4d46e6b62
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.014
+    nearest:
+    - 548dbd95
+    - 094ede42
+    - 0aee3bdc
+    - 7cebda74
+    - b324b63e
+    - a4976270
+    - 6df3d733
+    - 1c99c491
+    state: pending
+    family_scores:
+      vs-two-up: 0.104
+      dark-composite: 0.089
+      graphic-collage: 0.036
+    best_family: vs-two-up
+    explored: true
+  pexels-7940623:
+    url: https://www.pexels.com/photo/pink-flowers-with-green-leaves-7940623/
+    image: https://images.pexels.com/photos/7940623/pexels-photo-7940623.jpeg
+    thumb: https://images.pexels.com/photos/7940623/pexels-photo-7940623.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anastasiia
+    creator_url: https://www.pexels.com/@anastasiia-3888101
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4272
+    height: 2848
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: 3eb4e42724a52f4b
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.067
+    nearest:
+    - 4484fd93
+    - 034a35d6
+    - 1d3251a6
+    - 0aee3bdc
+    - 7258b3fb
+    - 3df4299d
+    - e30f27f2
+    - fca46557
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)

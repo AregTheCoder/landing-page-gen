@@ -1,5 +1,44 @@
 family: cinematic-still
 entries:
+  pexels-10205307:
+    url: https://www.pexels.com/photo/bunch-of-flowers-and-mirror-10205307/
+    image: https://images.pexels.com/photos/10205307/pexels-photo-10205307.jpeg
+    thumb: https://images.pexels.com/photos/10205307/pexels-photo-10205307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Dmytro Kormylets
+    creator_url: https://www.pexels.com/@dmytro-kormylets-5998914
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2472
+    height: 3941
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 000014a2e1f1f187
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.6
+    nearest:
+    - fef1b03a
+    - d7c195e6
+    - 029c5ad4
+    - '52650601'
+    - 502e5e12
+    - 3496c786
+    - ff00ef5d
+    - 58eb3266
+    state: pending
+    family_scores:
+      cinematic-still: 0.6
+      graphic-collage: 0.548
+      cutout-checkerboard: 0.351
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-10211137:
     url: https://www.pexels.com/photo/a-portrait-of-a-man-10211137/
     image: https://images.pexels.com/photos/10211137/pexels-photo-10211137.jpeg
@@ -253,6 +292,47 @@ entries:
     sheet: cinematic-still-d571d9
     subject: person
     note: monochrome warm brown grade with deliberate rim light, dark but unified
+  pexels-10480552:
+    url: https://www.pexels.com/photo/hand-holding-wax-candle-and-shadow-10480552/
+    image: https://images.pexels.com/photos/10480552/pexels-photo-10480552.jpeg
+    thumb: https://images.pexels.com/photos/10480552/pexels-photo-10480552.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Lena Glukhova
+    creator_url: https://www.pexels.com/@lllenaglukhova
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 5184
+    aspect_class: '2:3'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: 0004d0d3030b2c23
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.631
+    nearest:
+    - 20d3cfb3
+    - fef1b03a
+    - 92cfff35
+    - 6778e5bf
+    - '86769613'
+    - 8d5b5311
+    - ee82a094
+    - d2c5701b
+    state: pending
+    family_scores:
+      cinematic-still: 0.631
+      graphic-collage: 0.332
+      crop-frame: 0.254
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-10563758:
     url: https://www.pexels.com/photo/portrait-of-man-in-brown-sweater-10563758/
     image: https://images.pexels.com/photos/10563758/pexels-photo-10563758.jpeg
@@ -503,6 +583,47 @@ entries:
     sheet: cinematic-still-bd5611
     subject: person
     note: red-blue neon split
+  pexels-10820346:
+    url: https://www.pexels.com/photo/silver-studded-necklace-on-white-textile-10820346/
+    image: https://images.pexels.com/photos/10820346/pexels-photo-10820346.jpeg
+    thumb: https://images.pexels.com/photos/10820346/pexels-photo-10820346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MADEINEGYPT.CA
+    creator_url: https://www.pexels.com/@madeinegypt-ca-121489142
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 3e4ca766eb3f393b
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.345
+    nearest:
+    - 94154ee0
+    - 65de488d
+    - fef1b03a
+    - 9e0f5dfc
+    - f9669ed9
+    - 5f3494c4
+    - da0bceaf
+    - 2eed9f1a
+    state: pending
+    family_scores:
+      cinematic-still: 0.345
+      graphic-collage: 0.179
+      cutout-checkerboard: 0.12
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-10853219:
     url: https://www.pexels.com/photo/close-up-shot-of-a-woman-touching-her-hair-10853219/
     image: https://images.pexels.com/photos/10853219/pexels-photo-10853219.jpeg
@@ -751,6 +872,86 @@ entries:
     sheet: cinematic-still-3341ab
     subject: person
     note: warm golden grade but hazy and carries a thin film-frame border, crop before use
+  pexels-11236415:
+    url: https://www.pexels.com/photo/close-up-of-a-perfume-bottle-11236415/
+    image: https://images.pexels.com/photos/11236415/pexels-photo-11236415.jpeg
+    thumb: https://images.pexels.com/photos/11236415/pexels-photo-11236415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nina Pintar
+    creator_url: https://www.pexels.com/@plantscandy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: 0f1f676765e5c7e7
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.561
+    nearest:
+    - fc87e5c3
+    - aed110ba
+    - 7f219b61
+    - '11337690'
+    - 92cfff35
+    - 3496c786
+    - 7f7fa360
+    - 20d3cfb3
+    state: pending
+    family_scores:
+      cinematic-still: 0.561
+      vs-two-up: 0.367
+      dark-composite: 0.185
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-11238894:
+    url: https://www.pexels.com/photo/a-man-in-a-white-tank-top-smoking-11238894/
+    image: https://images.pexels.com/photos/11238894/pexels-photo-11238894.jpeg
+    thumb: https://images.pexels.com/photos/11238894/pexels-photo-11238894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Иван Васючков
+    creator_url: https://www.pexels.com/@99816073
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3744
+    height: 5616
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 2de4094d0d1b1f0f
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.643
+    nearest:
+    - 2af4af3e
+    - 4b4df875
+    - 691c6644
+    - a509d9ab
+    - f9669ed9
+    - 494a80e2
+    - 4b4a4a54
+    - d1102444
+    state: pending
+    family_scores:
+      cinematic-still: 0.643
+      graphic-collage: 0.299
+      editor-canvas: 0.247
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-11320131:
     url: https://www.pexels.com/photo/a-portrait-of-a-woman-11320131/
     image: https://images.pexels.com/photos/11320131/pexels-photo-11320131.jpeg
@@ -1125,6 +1326,47 @@ entries:
     sheet: cinematic-still-645a03
     subject: person
     note: teal-orange split with practical lamp
+  pexels-11890256:
+    url: https://www.pexels.com/photo/face-of-woman-in-black-leather-jacket-11890256/
+    image: https://images.pexels.com/photos/11890256/pexels-photo-11890256.jpeg
+    thumb: https://images.pexels.com/photos/11890256/pexels-photo-11890256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Yusuf Çelik
+    creator_url: https://www.pexels.com/@zandatsu
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3840
+    height: 5760
+    aspect_class: '2:3'
+    term: woman red jacket purple background
+    collected: '2026-09-16'
+    phash: 3f9fcd2d8c49a188
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 379118c8
+    - a509d9ab
+    - f9669ed9
+    - 2af4af3e
+    - b6c42c9a
+    - ca787233
+    - ad02dfe3
+    - 691c6644
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.459
+      before-after: 0.445
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-11890375:
     url: https://www.pexels.com/photo/photo-of-a-girl-flexing-11890375/
     image: https://images.pexels.com/photos/11890375/pexels-photo-11890375.jpeg
@@ -1249,6 +1491,47 @@ entries:
     sheet: cinematic-still-4911b4
     subject: person
     note: teal rim light on warm bokeh
+  pexels-12486903:
+    url: https://www.pexels.com/photo/a-vase-with-pink-roses-on-a-blue-background-12486903/
+    image: https://images.pexels.com/photos/12486903/pexels-photo-12486903.jpeg
+    thumb: https://images.pexels.com/photos/12486903/pexels-photo-12486903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Eleonora Sky
+    creator_url: https://www.pexels.com/@eleonora-sky-3280875
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3146
+    height: 4900
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 53536660c9cb9b93
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.462
+    nearest:
+    - 029c5ad4
+    - fef1b03a
+    - 3496c786
+    - 112552c5
+    - cc63b042
+    - 6214962e
+    - 7b977095
+    - 7f219b61
+    state: pending
+    family_scores:
+      cinematic-still: 0.462
+      graphic-collage: 0.264
+      cutout-checkerboard: 0.242
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-12585536:
     url: https://www.pexels.com/photo/a-man-in-white-coat-toy-standing-beside-the-wooden-ladder-12585536/
     image: https://images.pexels.com/photos/12585536/pexels-photo-12585536.jpeg
@@ -1375,6 +1658,47 @@ entries:
     sheet: cinematic-still-2e0b2d
     subject: object
     note: single prop, unified amber grade, shallow depth
+  pexels-12745053:
+    url: https://www.pexels.com/photo/blue-button-on-purple-background-12745053/
+    image: https://images.pexels.com/photos/12745053/pexels-photo-12745053.jpeg
+    thumb: https://images.pexels.com/photos/12745053/pexels-photo-12745053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Didier ROMAIN
+    creator_url: https://www.pexels.com/@didier-romain-266260521
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3472
+    height: 4624
+    aspect_class: '3:4'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: 0000016525604183
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.302
+    nearest:
+    - d7c195e6
+    - 54e9db90
+    - 20d3cfb3
+    - c3aaa9b3
+    - bb8074bd
+    - '47219548'
+    - ee82a094
+    - f17c10c5
+    state: pending
+    family_scores:
+      cinematic-still: 0.302
+      dark-composite: 0.269
+      editor-canvas: 0.263
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-12817682:
     url: https://www.pexels.com/photo/a-young-woman-in-a-trendy-outfit-12817682/
     image: https://images.pexels.com/photos/12817682/pexels-photo-12817682.jpeg
@@ -1542,6 +1866,47 @@ entries:
     best_family: full-bleed
     sheet: cinematic-still-0d9197
     subject: person
+  pexels-13023364:
+    url: https://www.pexels.com/photo/withering-flowers-on-a-bottle-13023364/
+    image: https://images.pexels.com/photos/13023364/pexels-photo-13023364.jpeg
+    thumb: https://images.pexels.com/photos/13023364/pexels-photo-13023364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Svitlana Myslyvets
+    creator_url: https://www.pexels.com/@luchsveta
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3024
+    height: 4032
+    aspect_class: '3:4'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 706c4c901430b000
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.614
+    nearest:
+    - fef1b03a
+    - aed110ba
+    - 7f219b61
+    - 3496c786
+    - d7c195e6
+    - 6214962e
+    - cc63b042
+    - 029c5ad4
+    state: pending
+    family_scores:
+      cinematic-still: 0.614
+      cutout-checkerboard: 0.286
+      before-after: 0.271
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-13223196:
     url: https://www.pexels.com/photo/blonde-woman-in-mountains-13223196/
     image: https://images.pexels.com/photos/13223196/pexels-photo-13223196.jpeg
@@ -1875,6 +2240,47 @@ entries:
     subject: person
     note: near-monochrome low-key face
     drop: off-style (sheet answer)
+  pexels-13447017:
+    url: https://www.pexels.com/photo/portrait-of-smiling-woman-wearing-baseball-hat-13447017/
+    image: https://images.pexels.com/photos/13447017/pexels-photo-13447017.jpeg
+    thumb: https://images.pexels.com/photos/13447017/pexels-photo-13447017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Laolu Photography
+    creator_url: https://www.pexels.com/@laolu-photography-124842090
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 4320
+    aspect_class: '4:5'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 33e9c86978383367
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 598f6935
+    - a0688108
+    - db317d05
+    - 9231a5f0
+    - 69d930ac
+    - a5d87058
+    - 2b1e692f
+    - 6c64016a
+    state: pending
+    family_scores:
+      cinematic-still: 0.733
+      before-after: 0.281
+      graphic-collage: 0.206
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-13448989:
     url: https://www.pexels.com/photo/woman-in-pink-standing-behind-a-pink-counter-13448989/
     image: https://images.pexels.com/photos/13448989/pexels-photo-13448989.jpeg
@@ -2043,6 +2449,47 @@ entries:
     sheet: cinematic-still-d571d9
     subject: person
     note: silhouette on saturated orange, one eye lit; torso fully in shadow
+  pexels-13729581:
+    url: https://www.pexels.com/photo/photograph-of-white-cups-13729581/
+    image: https://images.pexels.com/photos/13729581/pexels-photo-13729581.jpeg
+    thumb: https://images.pexels.com/photos/13729581/pexels-photo-13729581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Bilal Furkan KOŞAR
+    creator_url: https://www.pexels.com/@bilalfurkankosar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3012
+    height: 4016
+    aspect_class: '3:4'
+    term: ceramic mug colored background
+    collected: '2026-09-16'
+    phash: c4cfe8d5d4e857d8
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.526
+    nearest:
+    - 6027c22c
+    - 92cfff35
+    - f23d829a
+    - ee82a094
+    - f17c10c5
+    - c3aaa9b3
+    - d7c195e6
+    - c5a8cdbd
+    state: pending
+    family_scores:
+      cinematic-still: 0.526
+      graphic-collage: 0.27
+      vs-two-up: 0.115
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-13831097:
     url: https://www.pexels.com/photo/bearded-man-holding-a-dslr-camera-while-smoking-13831097/
     image: https://images.pexels.com/photos/13831097/pexels-photo-13831097.jpeg
@@ -2127,6 +2574,47 @@ entries:
     sheet: cinematic-still-3341ab
     subject: person
     note: warm bokeh glow on dark ground
+  pexels-13909260:
+    url: https://www.pexels.com/photo/a-candle-in-a-bottle-13909260/
+    image: https://images.pexels.com/photos/13909260/pexels-photo-13909260.jpeg
+    thumb: https://images.pexels.com/photos/13909260/pexels-photo-13909260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Iryna Riabchykova
+    creator_url: https://www.pexels.com/@iryna-riabchykova-264150108
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4059
+    height: 5683
+    aspect_class: '3:4'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: fcf28d8e1ec9f03e
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.575
+    nearest:
+    - 92cfff35
+    - aed110ba
+    - 7f219b61
+    - 58eb3266
+    - 6214962e
+    - cc63b042
+    - d7c195e6
+    - 20d3cfb3
+    state: pending
+    family_scores:
+      cinematic-still: 0.575
+      vs-two-up: 0.354
+      before-after: 0.293
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-13921897:
     url: https://www.pexels.com/photo/woman-s-face-in-grayscale-photography-13921897/
     image: https://images.pexels.com/photos/13921897/pexels-photo-13921897.jpeg
@@ -2335,6 +2823,47 @@ entries:
     sheet: cinematic-still-7da3e4
     subject: person
     note: golden-hour backlit avenue; unified warm grade; wider frame than most
+  pexels-14544446:
+    url: https://www.pexels.com/photo/portrait-of-young-man-in-baseball-cap-14544446/
+    image: https://images.pexels.com/photos/14544446/pexels-photo-14544446.jpeg
+    thumb: https://images.pexels.com/photos/14544446/pexels-photo-14544446.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ali  Drabo
+    creator_url: https://www.pexels.com/@ali-drabo-10956272
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4992
+    height: 7488
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 9427271f0e636104
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.464
+    nearest:
+    - 373814d9
+    - 2903d1cf
+    - 403f157c
+    - bf44ec1d
+    - 2ae35c11
+    - 55a4e949
+    - a0688108
+    - 2cbbc61a
+    state: pending
+    family_scores:
+      cinematic-still: 0.464
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-14655019:
     url: https://www.pexels.com/photo/portrait-of-a-beautiful-woman-wearing-a-tube-top-14655019/
     image: https://images.pexels.com/photos/14655019/pexels-photo-14655019.jpeg
@@ -3133,6 +3662,47 @@ entries:
     sheet: cinematic-still-09b32d
     subject: object
     note: blue toy car against warm bokeh
+  pexels-15260343:
+    url: https://www.pexels.com/photo/standing-woman-in-violet-warm-short-bomber-jacket-15260343/
+    image: https://images.pexels.com/photos/15260343/pexels-photo-15260343.jpeg
+    thumb: https://images.pexels.com/photos/15260343/pexels-photo-15260343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sina Rezakhani
+    creator_url: https://www.pexels.com/@sinarz97
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2080
+    height: 3120
+    aspect_class: '2:3'
+    term: woman red jacket purple background
+    collected: '2026-09-16'
+    phash: 3f3b2d77666eedf4
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 29b9d3ff
+    - 4bc20995
+    - '84634617'
+    - e0c4ea7c
+    - 157cca82
+    - bb8074bd
+    - bcff0e1a
+    - 105e49d0
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.345
+      editor-canvas: 0.339
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-15409852:
     url: https://www.pexels.com/photo/close-up-shot-of-a-kaki-fruit-15409852/
     image: https://images.pexels.com/photos/15409852/pexels-photo-15409852.jpeg
@@ -3382,6 +3952,48 @@ entries:
     sheet: cinematic-still-e2a023
     subject: person
     note: green key vs orange ground
+  pexels-15560929:
+    url: https://www.pexels.com/photo/black-and-white-photo-of-empty-glass-standing-on-table-15560929/
+    image: https://images.pexels.com/photos/15560929/pexels-photo-15560929.jpeg
+    thumb: https://images.pexels.com/photos/15560929/pexels-photo-15560929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pablo de Haro
+    creator_url: https://www.pexels.com/@pablo-de-haro-2487637
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2257
+    height: 3386
+    aspect_class: '2:3'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 07412c4d4d4d6969
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.253
+    nearest:
+    - 54e9db90
+    - 20d3cfb3
+    - 92cfff35
+    - cc63b042
+    - 6214962e
+    - 597e7e0f
+    - 5f3494c4
+    - d2c5701b
+    state: dropped
+    family_scores:
+      cinematic-still: 0.253
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus d8fd8cad (hamming 10)
   pexels-15669898:
     url: https://www.pexels.com/photo/young-man-with-curly-hair-in-light-and-shadow-15669898/
     image: https://images.pexels.com/photos/15669898/pexels-photo-15669898.jpeg
@@ -3424,6 +4036,47 @@ entries:
     sheet: cinematic-still-2f5c21
     subject: person
     note: hard sidelight against black reads as a film still; grade neutral warm, not coloured
+  pexels-16022181:
+    url: https://www.pexels.com/photo/contact-lenses-cases-16022181/
+    image: https://images.pexels.com/photos/16022181/pexels-photo-16022181.jpeg
+    thumb: https://images.pexels.com/photos/16022181/pexels-photo-16022181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: by Natallia
+    creator_url: https://www.pexels.com/@by-natallia-311038782
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 4608
+    aspect_class: '3:4'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: 0191976d796369ae
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.287
+    nearest:
+    - d7c195e6
+    - b9273ce4
+    - c3aaa9b3
+    - 2745748e
+    - f102931f
+    - 6027c22c
+    - fef1b03a
+    - '11337690'
+    state: pending
+    family_scores:
+      cinematic-still: 0.287
+      graphic-collage: 0.256
+      before-after: 0.238
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-16039805:
     url: https://www.pexels.com/photo/sweets-in-cone-16039805/
     image: https://images.pexels.com/photos/16039805/pexels-photo-16039805.jpeg
@@ -3591,6 +4244,48 @@ entries:
     subject: person
     note: large legible neon sign text fills the middle third
     drop: off-style (sheet answer)
+  pexels-16214025:
+    url: https://www.pexels.com/photo/streetlight-on-an-orange-wall-16214025/
+    image: https://images.pexels.com/photos/16214025/pexels-photo-16214025.jpeg
+    thumb: https://images.pexels.com/photos/16214025/pexels-photo-16214025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Aranza Palma
+    creator_url: https://www.pexels.com/@aranza-palma-465918629
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8334
+    height: 12077
+    aspect_class: '2:3'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: 0000083252521000
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.564
+    nearest:
+    - 719ef5dc
+    - '55586263'
+    - 92cfff35
+    - dab26cbd
+    - 2745748e
+    - 20d3cfb3
+    - '52641765'
+    - 54e9db90
+    state: dropped
+    family_scores:
+      cinematic-still: 0.564
+      crop-frame: 0.267
+      editor-canvas: 0.217
+    best_family: cinematic-still
+    moved_from: graphic-collage
+    drop: near-dup of corpus 5b16a1b0 (hamming 9)
   pexels-16218837:
     url: https://www.pexels.com/photo/flying-delorean-time-machine-from-back-to-the-future-next-to-a-full-moon-lamp-16218837/
     image: https://images.pexels.com/photos/16218837/pexels-photo-16218837.jpeg
@@ -3884,6 +4579,88 @@ entries:
     sheet: cinematic-still-b2de8a
     subject: person
     note: warm unified grade
+  pexels-16773031:
+    url: https://www.pexels.com/photo/close-up-of-burnt-wax-candle-16773031/
+    image: https://images.pexels.com/photos/16773031/pexels-photo-16773031.jpeg
+    thumb: https://images.pexels.com/photos/16773031/pexels-photo-16773031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anastasiya Doicheva
+    creator_url: https://www.pexels.com/@anastasiya-doicheva-21177406
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2554
+    height: 3405
+    aspect_class: '3:4'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: 1a072a4a2c2d9353
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.651
+    nearest:
+    - 92cfff35
+    - c3aaa9b3
+    - 20d3cfb3
+    - 54e9db90
+    - d2c5701b
+    - 76b0a464
+    - 7189ab4f
+    - 597e7e0f
+    state: pending
+    family_scores:
+      cinematic-still: 0.651
+      vs-two-up: 0.226
+      crop-frame: 0.196
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-17123844:
+    url: https://www.pexels.com/photo/woman-with-curly-hair-sitting-17123844/
+    image: https://images.pexels.com/photos/17123844/pexels-photo-17123844.jpeg
+    thumb: https://images.pexels.com/photos/17123844/pexels-photo-17123844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Oscar Calstrom
+    creator_url: https://www.pexels.com/@oscar-calstrom-428110439
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 2f4f4d6e139b0109
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.416
+    nearest:
+    - 6c64016a
+    - 0d3549f9
+    - 2b1e692f
+    - b6c42c9a
+    - 9bc8a759
+    - da0bceaf
+    - a5d87058
+    - 69d930ac
+    state: pending
+    family_scores:
+      cinematic-still: 0.416
+      graphic-collage: 0.243
+      before-after: 0.134
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-17180388:
     url: https://www.pexels.com/photo/dark-studio-shot-of-a-young-woman-17180388/
     image: https://images.pexels.com/photos/17180388/pexels-photo-17180388.jpeg
@@ -4717,6 +5494,47 @@ entries:
     sheet: cinematic-still-7da3e4
     subject: person
     note: textbook teal-orange split across the face
+  pexels-18332031:
+    url: https://www.pexels.com/photo/blonde-woman-in-cap-18332031/
+    image: https://images.pexels.com/photos/18332031/pexels-photo-18332031.jpeg
+    thumb: https://images.pexels.com/photos/18332031/pexels-photo-18332031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Antonio Friedemann
+    creator_url: https://www.pexels.com/@toni
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: f3d8c8c8ccdbc0c4
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.596
+    nearest:
+    - 9bc8a759
+    - 598f6935
+    - da0bceaf
+    - '84634617'
+    - db317d05
+    - 9231a5f0
+    - 2af4af3e
+    - 0937bae7
+    state: pending
+    family_scores:
+      cinematic-still: 0.596
+      cutout-checkerboard: 0.29
+      before-after: 0.282
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-18382581:
     url: https://www.pexels.com/photo/toy-car-on-floor-18382581/
     image: https://images.pexels.com/photos/18382581/pexels-photo-18382581.jpeg
@@ -5135,6 +5953,47 @@ entries:
     sheet: cinematic-still-c38924
     subject: person
     note: clean teal-orange split
+  pexels-19003095:
+    url: https://www.pexels.com/photo/portrait-of-african-woman-wearing-headscarf-19003095/
+    image: https://images.pexels.com/photos/19003095/pexels-photo-19003095.jpeg
+    thumb: https://images.pexels.com/photos/19003095/pexels-photo-19003095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MUSA^
+    creator_url: https://www.pexels.com/@musa-750017780
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3280
+    height: 4920
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 13191939316b1b37
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a0688108
+    - 99d81409
+    - a5d87058
+    - 69d930ac
+    - 2b1e692f
+    - 0d3549f9
+    - 6c64016a
+    - 9231a5f0
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.501
+      before-after: 0.344
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-19074523:
     url: https://www.pexels.com/photo/woman-in-sensual-pose-in-red-light-19074523/
     image: https://images.pexels.com/photos/19074523/pexels-photo-19074523.jpeg
@@ -5178,6 +6037,47 @@ entries:
     subject: person
     note: sensual pose
     drop: off-style (sheet answer)
+  pexels-19086278:
+    url: https://www.pexels.com/photo/woman-holding-a-jar-of-cream-19086278/
+    image: https://images.pexels.com/photos/19086278/pexels-photo-19086278.jpeg
+    thumb: https://images.pexels.com/photos/19086278/pexels-photo-19086278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Roselène de Koning
+    creator_url: https://www.pexels.com/@roselene-de-koning-791440941
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 4fe3f1a3e1b1d74b
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.502
+    nearest:
+    - 92cfff35
+    - 7fb595ef
+    - 6027c22c
+    - d7c195e6
+    - 6214962e
+    - cc63b042
+    - 7e5488b0
+    - 3496c786
+    state: pending
+    family_scores:
+      cinematic-still: 0.502
+      before-after: 0.484
+      graphic-collage: 0.383
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-19174749:
     url: https://www.pexels.com/photo/brunette-woman-in-white-shirt-in-forest-19174749/
     image: https://images.pexels.com/photos/19174749/pexels-photo-19174749.jpeg
@@ -5850,6 +6750,88 @@ entries:
     sheet: cinematic-still-4911b4
     subject: person
     note: saturated red hair against cool blue shirt
+  pexels-20158095:
+    url: https://www.pexels.com/photo/close-up-of-white-candles-in-different-shapes-20158095/
+    image: https://images.pexels.com/photos/20158095/pexels-photo-20158095.jpeg
+    thumb: https://images.pexels.com/photos/20158095/pexels-photo-20158095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Darya Grey_Owl
+    creator_url: https://www.pexels.com/@darya-grey_owl-132130036
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3712
+    height: 5568
+    aspect_class: '2:3'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: 07871b1f4b2f3c93
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.493
+    nearest:
+    - 7f219b61
+    - aed110ba
+    - 20d3cfb3
+    - fef1b03a
+    - 58eb3266
+    - 92cfff35
+    - d7c195e6
+    - 54e9db90
+    state: pending
+    family_scores:
+      cinematic-still: 0.493
+      graphic-collage: 0.207
+      vs-two-up: 0.123
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-20171282:
+    url: https://www.pexels.com/photo/nars-cosmetics-on-table-20171282/
+    image: https://images.pexels.com/photos/20171282/pexels-photo-20171282.jpeg
+    thumb: https://images.pexels.com/photos/20171282/pexels-photo-20171282.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: KÜBRA TOKUR
+    creator_url: https://www.pexels.com/@kubra-tokur-210746713
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3376
+    height: 6000
+    aspect_class: '9:16'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: 91908040c5f0f0e5
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.528
+    nearest:
+    - '11337690'
+    - 3496c786
+    - fc87e5c3
+    - 7f219b61
+    - aed110ba
+    - c5a8cdbd
+    - fef1b03a
+    - '86769613'
+    state: pending
+    family_scores:
+      cinematic-still: 0.528
+      vs-two-up: 0.238
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-20318960:
     url: https://www.pexels.com/photo/young-woman-in-a-pink-blouse-and-with-pink-eye-makeup-lying-on-a-bed-with-pink-bedding-20318960/
     image: https://images.pexels.com/photos/20318960/pexels-photo-20318960.jpeg
@@ -5934,6 +6916,47 @@ entries:
     sheet: cinematic-still-58fd4c
     subject: person
     note: teal velvet on dark ground with warm hand highlight; pinned notes are illegible
+  pexels-20737562:
+    url: https://www.pexels.com/photo/close-up-of-a-clear-glass-ball-lying-on-a-yellow-surface-in-sunlight-20737562/
+    image: https://images.pexels.com/photos/20737562/pexels-photo-20737562.jpeg
+    thumb: https://images.pexels.com/photos/20737562/pexels-photo-20737562.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nothing Ahead
+    creator_url: https://www.pexels.com/@ian-panelo
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: c0d535696963a78d
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.55
+    nearest:
+    - 92cfff35
+    - '52622373'
+    - 6214962e
+    - cc63b042
+    - 54e9db90
+    - 7fb595ef
+    - 6027c22c
+    - d7c195e6
+    state: pending
+    family_scores:
+      cinematic-still: 0.55
+      vs-two-up: 0.265
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-20778521:
     url: https://www.pexels.com/photo/hands-of-a-woman-eating-meal-using-chopsticks-20778521/
     image: https://images.pexels.com/photos/20778521/pexels-photo-20778521.jpeg
@@ -5976,6 +6999,212 @@ entries:
     sheet: cinematic-still-7c19ad
     subject: food
     note: teal seamless
+  pexels-21897132:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897132/
+    image: https://images.pexels.com/photos/21897132/pexels-photo-21897132.jpeg
+    thumb: https://images.pexels.com/photos/21897132/pexels-photo-21897132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 07071367e1c28681
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.421
+    nearest:
+    - '84634617'
+    - 9dd0d4ee
+    - 502e5e12
+    - 32af4b15
+    - 8fb87bef
+    - e0c4ea7c
+    - 1ff86bd2
+    - 6f2acbc4
+    state: dropped
+    family_scores:
+      cinematic-still: 0.421
+      graphic-collage: 0.338
+      cutout-checkerboard: 0.131
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: more than 3 from Muneeb Malhotra this pass
+  pexels-21897141:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897141/
+    image: https://images.pexels.com/photos/21897141/pexels-photo-21897141.jpeg
+    thumb: https://images.pexels.com/photos/21897141/pexels-photo-21897141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 06191d14b0f0d35e
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.424
+    nearest:
+    - 502e5e12
+    - '84634617'
+    - b5d17420
+    - 8fb87bef
+    - 598f6935
+    - 32af4b15
+    - b697b3d4
+    - 9697a12f
+    state: dropped
+    family_scores:
+      cinematic-still: 0.424
+      before-after: 0.302
+      graphic-collage: 0.285
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: more than 3 from Muneeb Malhotra this pass
+  pexels-21897147:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897147/
+    image: https://images.pexels.com/photos/21897147/pexels-photo-21897147.jpeg
+    thumb: https://images.pexels.com/photos/21897147/pexels-photo-21897147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 53b1b564d4e84864
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.456
+    nearest:
+    - 13142ebf
+    - b697b3d4
+    - 32af4b15
+    - 502e5e12
+    - '84634617'
+    - dc76dc4b
+    - 5f3494c4
+    - 2af4af3e
+    state: pending
+    family_scores:
+      cinematic-still: 0.456
+      before-after: 0.24
+      graphic-collage: 0.212
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-21897309:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897309/
+    image: https://images.pexels.com/photos/21897309/pexels-photo-21897309.jpeg
+    thumb: https://images.pexels.com/photos/21897309/pexels-photo-21897309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-16'
+    phash: b3b9e1664e607307
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.192
+    nearest:
+    - '84634617'
+    - d11bba6c
+    - b697b3d4
+    - 502e5e12
+    - 9dd0d4ee
+    - 8d5b5311
+    - dc76dc4b
+    - 598f6935
+    state: dropped
+    family_scores:
+      cinematic-still: 0.192
+      vs-two-up: 0.153
+      graphic-collage: 0.111
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: more than 3 from Muneeb Malhotra this pass
+  pexels-22608258:
+    url: https://www.pexels.com/photo/portrait-of-woman-smiling-in-tank-top-22608258/
+    image: https://images.pexels.com/photos/22608258/pexels-photo-22608258.jpeg
+    thumb: https://images.pexels.com/photos/22608258/pexels-photo-22608258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Eric Moura
+    creator_url: https://www.pexels.com/@eric-moura-859101902
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 5184
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 143369686870b4d4
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.71
+    nearest:
+    - a5d87058
+    - 69d930ac
+    - 6c64016a
+    - 029d49e5
+    - 5697681d
+    - a0688108
+    - 4b4df875
+    - 9bc8a759
+    state: pending
+    family_scores:
+      cinematic-still: 0.71
+      graphic-collage: 0.427
+      before-after: 0.422
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-22643623:
     url: https://www.pexels.com/photo/a-woman-wearing-a-coat-22643623/
     image: https://images.pexels.com/photos/22643623/pexels-photo-22643623.jpeg
@@ -6185,6 +7414,47 @@ entries:
     sheet: cinematic-still-d571d9
     subject: person
     note: teal key against amber ground, clean teal-orange split
+  pexels-24601685:
+    url: https://www.pexels.com/photo/portrait-of-woman-in-shadow-24601685/
+    image: https://images.pexels.com/photos/24601685/pexels-photo-24601685.jpeg
+    thumb: https://images.pexels.com/photos/24601685/pexels-photo-24601685.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Yusuf Çelik
+    creator_url: https://www.pexels.com/@zandatsu
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5152
+    height: 7728
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 1e38363b1f5b666c
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 20d3cfb3
+    - 939672f0
+    - 2af4af3e
+    - 9231a5f0
+    - db317d05
+    - '55586263'
+    - 379118c8
+    - '48914862'
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.303
+      editor-canvas: 0.259
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-24601690:
     url: https://www.pexels.com/photo/portrait-of-woman-in-pink-light-24601690/
     image: https://images.pexels.com/photos/24601690/pexels-photo-24601690.jpeg
@@ -6269,6 +7539,88 @@ entries:
     sheet: cinematic-still-b2de8a
     subject: person
     note: textbook blue-orange split
+  pexels-26790906:
+    url: https://www.pexels.com/photo/close-up-portrait-of-a-woman-in-a-green-top-26790906/
+    image: https://images.pexels.com/photos/26790906/pexels-photo-26790906.jpeg
+    thumb: https://images.pexels.com/photos/26790906/pexels-photo-26790906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrea Musto
+    creator_url: https://www.pexels.com/@andrea-musto-135941147
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2832
+    height: 4256
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: b9b87cdcf9717973
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.223
+    nearest:
+    - fcba61c8
+    - 9e0f5dfc
+    - b5d17420
+    - 20d3cfb3
+    - 9bc8a759
+    - 598f6935
+    - 84bdf497
+    - 676a1da4
+    state: pending
+    family_scores:
+      cinematic-still: 0.223
+      graphic-collage: 0.159
+      panel-overlay: 0.086
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-26790950:
+    url: https://www.pexels.com/photo/black-and-white-shot-of-a-woman-dressed-in-black-26790950/
+    image: https://images.pexels.com/photos/26790950/pexels-photo-26790950.jpeg
+    thumb: https://images.pexels.com/photos/26790950/pexels-photo-26790950.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrea Musto
+    creator_url: https://www.pexels.com/@andrea-musto-135941147
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2832
+    height: 4256
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: bcbcfe34dcdcf068
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - da0bceaf
+    - 598f6935
+    - 2af4af3e
+    - 20d3cfb3
+    - f9669ed9
+    - 9bc8a759
+    - 4b4df875
+    - a5d87058
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.607
+      editor-canvas: 0.362
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-27203521:
     url: https://www.pexels.com/photo/a-woman-with-dark-hair-and-blue-eyes-27203521/
     image: https://images.pexels.com/photos/27203521/pexels-photo-27203521.jpeg
@@ -6395,6 +7747,45 @@ entries:
     sheet: cinematic-still-d8c155
     note: busy photo-collage wall; flat daylight; no deliberate coloured light
     drop: off-style (sheet answer)
+  pexels-27555583:
+    url: https://www.pexels.com/photo/a-woman-in-a-dress-with-a-red-necklace-27555583/
+    image: https://images.pexels.com/photos/27555583/pexels-photo-27555583.jpeg
+    thumb: https://images.pexels.com/photos/27555583/pexels-photo-27555583.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Karina
+    creator_url: https://www.pexels.com/@karina-1622396627
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: b34dcd9e22b6bcb6
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.6
+    nearest:
+    - 2af4af3e
+    - 494a80e2
+    - 4b4df875
+    - 691c6644
+    - 2eb3fc0e
+    - 9bc8a759
+    - f9669ed9
+    - 6778e5bf
+    state: pending
+    family_scores:
+      cinematic-still: 0.6
+      before-after: 0.244
+      vs-two-up: 0.234
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-27583999:
     url: https://www.pexels.com/photo/a-man-sitting-in-the-dark-with-smoke-coming-out-of-his-mouth-27583999/
     image: https://images.pexels.com/photos/27583999/pexels-photo-27583999.jpeg
@@ -6562,6 +7953,47 @@ entries:
       full-bleed: 0.521
     best_family: outcome-tile
     drop: near-dup of corpus 0672af7c (hamming 10)
+  pexels-28395944:
+    url: https://www.pexels.com/photo/stylish-woman-posing-in-dark-sunglasses-28395944/
+    image: https://images.pexels.com/photos/28395944/pexels-photo-28395944.jpeg
+    thumb: https://images.pexels.com/photos/28395944/pexels-photo-28395944.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Atahan Demir
+    creator_url: https://www.pexels.com/@atahandemir
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5152
+    height: 7728
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 1b256d0f9b9ba4a1
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a509d9ab
+    - 494a80e2
+    - 5fa672a6
+    - cd6962d3
+    - 65462d05
+    - 95a8f35c
+    - 4b4df875
+    - 5cb08ddf
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.412
+      before-after: 0.397
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-28517487:
     url: https://www.pexels.com/photo/portrait-of-young-woman-with-soft-lighting-28517487/
     image: https://images.pexels.com/photos/28517487/pexels-photo-28517487.jpeg
@@ -6604,6 +8036,47 @@ entries:
     sheet: cinematic-still-4911b4
     subject: person
     note: warm rim light on dark
+  pexels-2853909:
+    url: https://www.pexels.com/photo/woman-in-pink-zip-up-jacket-and-blue-denim-jeans-2853909/
+    image: https://images.pexels.com/photos/2853909/pexels-photo-2853909.jpeg
+    thumb: https://images.pexels.com/photos/2853909/pexels-photo-2853909.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ivan Oboleninov
+    creator_url: https://www.pexels.com/@vanyaoboleninov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3744
+    height: 5616
+    aspect_class: '2:3'
+    term: woman red jacket purple background
+    collected: '2026-09-16'
+    phash: 170f3b074d396b0b
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - '84634617'
+    - e0c4ea7c
+    - 1ff86bd2
+    - 0937bae7
+    - d1102444
+    - 105e49d0
+    - db41482a
+    - 4727bcf4
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.584
+      before-after: 0.514
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-2872078:
     url: https://www.pexels.com/photo/woman-wearing-an-orange-button-up-shirt-raising-her-arms-above-her-head-2872078/
     image: https://images.pexels.com/photos/2872078/pexels-photo-2872078.jpeg
@@ -7021,6 +8494,47 @@ entries:
     sheet: cinematic-still-d8c155
     subject: person
     note: pink-on-pink magenta grade; closest to ref d1102444
+  pexels-29634210:
+    url: https://www.pexels.com/photo/young-woman-posing-in-front-of-colorful-backdrop-29634210/
+    image: https://images.pexels.com/photos/29634210/pexels-photo-29634210.jpeg
+    thumb: https://images.pexels.com/photos/29634210/pexels-photo-29634210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Evandro Paula Alves
+    creator_url: https://www.pexels.com/@evandro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: d74bcf978f879cd4
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.672
+    nearest:
+    - 4b4df875
+    - 69d930ac
+    - a5d87058
+    - '84634617'
+    - 494a80e2
+    - 691c6644
+    - d1102444
+    - 029d49e5
+    state: pending
+    family_scores:
+      cinematic-still: 0.672
+      graphic-collage: 0.452
+      before-after: 0.411
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-29653805:
     url: https://www.pexels.com/photo/elegant-portrait-of-a-woman-in-vibrant-attire-29653805/
     image: https://images.pexels.com/photos/29653805/pexels-photo-29653805.jpeg
@@ -7399,6 +8913,47 @@ entries:
     sheet: cinematic-still-52dd44
     note: flat neutral window light, no coloured grade; boudoir snapshot
     drop: off-style (sheet answer)
+  pexels-30231449:
+    url: https://www.pexels.com/photo/striking-portrait-of-model-in-vibrant-studio-setting-30231449/
+    image: https://images.pexels.com/photos/30231449/pexels-photo-30231449.jpeg
+    thumb: https://images.pexels.com/photos/30231449/pexels-photo-30231449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jimmy Elizarraras
+    creator_url: https://www.pexels.com/@jimmyelizarraras
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3495
+    height: 4369
+    aspect_class: '4:5'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: e0cc9c4d31d8fcb8
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 2af4af3e
+    - 598f6935
+    - 8d5b5311
+    - '84634617'
+    - 0d8dd3dd
+    - c3332bac
+    - 9bc8a759
+    - f9669ed9
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.699
+      editor-canvas: 0.679
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-30244804:
     url: https://www.pexels.com/photo/vibrant-portrait-with-neon-light-aesthetic-30244804/
     image: https://images.pexels.com/photos/30244804/pexels-photo-30244804.jpeg
@@ -8156,6 +9711,47 @@ entries:
     subject: person
     note: 'same shoot as #3, subject small in a flat washed wide frame'
     drop: off-style (sheet answer)
+  pexels-30676123:
+    url: https://www.pexels.com/photo/elegant-cbd-infused-candle-on-lavender-background-30676123/
+    image: https://images.pexels.com/photos/30676123/pexels-photo-30676123.jpeg
+    thumb: https://images.pexels.com/photos/30676123/pexels-photo-30676123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Gaea CBD
+    creator_url: https://www.pexels.com/@gaeahealthco
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3646
+    height: 4797
+    aspect_class: '3:4'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: b6b99c8ce566c841
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.641
+    nearest:
+    - 3496c786
+    - cc63b042
+    - 6214962e
+    - '47219548'
+    - fc87e5c3
+    - 7f219b61
+    - aed110ba
+    - '11337690'
+    state: pending
+    family_scores:
+      cinematic-still: 0.641
+      dark-composite: 0.398
+      template-mockup: 0.382
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-30681514:
     url: https://www.pexels.com/photo/silhouette-of-a-woman-against-abstract-lighting-30681514/
     image: https://images.pexels.com/photos/30681514/pexels-photo-30681514.jpeg
@@ -8279,6 +9875,47 @@ entries:
     best_family: outcome-tile
     sheet: cinematic-still-ee12fd
     subject: person
+  pexels-31046845:
+    url: https://www.pexels.com/photo/confident-woman-in-stylish-blue-dress-portrait-31046845/
+    image: https://images.pexels.com/photos/31046845/pexels-photo-31046845.jpeg
+    thumb: https://images.pexels.com/photos/31046845/pexels-photo-31046845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrea Musto
+    creator_url: https://www.pexels.com/@andrea-musto-135941147
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4912
+    height: 7360
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: e3e8f091898583a3
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.556
+    nearest:
+    - 598f6935
+    - 84bdf497
+    - 676a1da4
+    - 20d3cfb3
+    - '84634617'
+    - 502e5e12
+    - 6778e5bf
+    - 8d5b5311
+    state: pending
+    family_scores:
+      cinematic-still: 0.556
+      before-after: 0.164
+      graphic-collage: 0.147
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-31303096:
     url: https://www.pexels.com/photo/moody-portrait-with-dramatic-lighting-effects-31303096/
     image: https://images.pexels.com/photos/31303096/pexels-photo-31303096.jpeg
@@ -8361,6 +9998,129 @@ entries:
     sheet: cinematic-still-4911b4
     subject: person
     note: golden pool of light on dark street
+  pexels-31601627:
+    url: https://www.pexels.com/photo/expressive-black-and-white-emotional-portrait-31601627/
+    image: https://images.pexels.com/photos/31601627/pexels-photo-31601627.jpeg
+    thumb: https://images.pexels.com/photos/31601627/pexels-photo-31601627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Enes Türkoğlu
+    creator_url: https://www.pexels.com/@turkogluenes
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4468
+    height: 6702
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: 030669e86813b370
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 2b1e692f
+    - a5d87058
+    - 69d930ac
+    - 99d81409
+    - a0688108
+    - 6c64016a
+    - 4011f7c6
+    - 0d3549f9
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.554
+      before-after: 0.315
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-31604442:
+    url: https://www.pexels.com/photo/elegant-portrait-of-woman-with-statement-necklace-31604442/
+    image: https://images.pexels.com/photos/31604442/pexels-photo-31604442.jpeg
+    thumb: https://images.pexels.com/photos/31604442/pexels-photo-31604442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MEDULA GRAPHICS
+    creator_url: https://www.pexels.com/@medula-graphics-2151304041
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 5184
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 7efd6bfbd9cac9f5
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a5d87058
+    - 69d930ac
+    - 65de488d
+    - a0688108
+    - 2903d1cf
+    - 2b1e692f
+    - 65462d05
+    - cd6962d3
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      cutout-checkerboard: 0.267
+      graphic-collage: 0.256
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-31652754:
+    url: https://www.pexels.com/photo/smiling-man-in-black-and-white-portrait-31652754/
+    image: https://images.pexels.com/photos/31652754/pexels-photo-31652754.jpeg
+    thumb: https://images.pexels.com/photos/31652754/pexels-photo-31652754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Chichebe Chidiebere
+    creator_url: https://www.pexels.com/@chichebe-chidiebere-1250819667
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3318
+    height: 4148
+    aspect_class: '4:5'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 00f0696970cc0c99
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.694
+    nearest:
+    - 2903d1cf
+    - 083024a7
+    - 2a230ba1
+    - a0688108
+    - a5d87058
+    - 69d930ac
+    - bf44ec1d
+    - 55a4e949
+    state: pending
+    family_scores:
+      cinematic-still: 0.694
+      graphic-collage: 0.197
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-31744362:
     url: https://www.pexels.com/photo/earth-globe-in-ice-cream-cone-concept-31744362/
     image: https://images.pexels.com/photos/31744362/pexels-photo-31744362.jpeg
@@ -8566,6 +10326,47 @@ entries:
       graphic-collage: 0.092
     best_family: outcome-tile
     drop: near-dup of corpus 6a717d80 (hamming 10)
+  pexels-31812005:
+    url: https://www.pexels.com/photo/lancome-genifique-youth-activating-serum-31812005/
+    image: https://images.pexels.com/photos/31812005/pexels-photo-31812005.jpeg
+    thumb: https://images.pexels.com/photos/31812005/pexels-photo-31812005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hữu Nhựt Trần
+    creator_url: https://www.pexels.com/@h-u-nh-t-tr-n-2147716634
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: e39333313312909c
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.363
+    nearest:
+    - 0e48de67
+    - cc63b042
+    - 6214962e
+    - aed110ba
+    - 7f219b61
+    - 3496c786
+    - fc87e5c3
+    - '11337690'
+    state: pending
+    family_scores:
+      cinematic-still: 0.363
+      vs-two-up: 0.284
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-31835759:
     url: https://www.pexels.com/photo/serene-portrait-of-a-man-in-sunlit-forest-31835759/
     image: https://images.pexels.com/photos/31835759/pexels-photo-31835759.jpeg
@@ -8608,6 +10409,47 @@ entries:
     sheet: cinematic-still-49272c
     subject: person
     note: backlit golden hour forest
+  pexels-31863057:
+    url: https://www.pexels.com/photo/portrait-of-a-thoughtful-adult-woman-31863057/
+    image: https://images.pexels.com/photos/31863057/pexels-photo-31863057.jpeg
+    thumb: https://images.pexels.com/photos/31863057/pexels-photo-31863057.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Dennis Kemmerling
+    creator_url: https://www.pexels.com/@dennis-kemmerling-358690023
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: 4f3369c4dcd8f9f2
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.571
+    nearest:
+    - da0bceaf
+    - db317d05
+    - 9231a5f0
+    - 2b1e692f
+    - c6447fc2
+    - b5d17420
+    - 20d3cfb3
+    - 0d3549f9
+    state: pending
+    family_scores:
+      cinematic-still: 0.571
+      before-after: 0.334
+      vs-two-up: 0.112
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-31987247:
     url: https://www.pexels.com/photo/moody-portrait-of-man-with-tattoos-31987247/
     image: https://images.pexels.com/photos/31987247/pexels-photo-31987247.jpeg
@@ -8728,6 +10570,47 @@ entries:
     sheet: cinematic-still-d18d63
     subject: food
     note: blue shake on yellow
+  pexels-32181759:
+    url: https://www.pexels.com/photo/elegant-portrait-of-a-woman-with-braided-hair-32181759/
+    image: https://images.pexels.com/photos/32181759/pexels-photo-32181759.jpeg
+    thumb: https://images.pexels.com/photos/32181759/pexels-photo-32181759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ytalo Marcos
+    creator_url: https://www.pexels.com/@ytalo-marcos-2149389074
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2656
+    height: 3984
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: 001c32390d1c232b
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a0688108
+    - 99d81409
+    - 2b1e692f
+    - a5d87058
+    - 69d930ac
+    - 0d3549f9
+    - 6c64016a
+    - c4678f69
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.547
+      before-after: 0.38
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-32281228:
     url: https://www.pexels.com/photo/dramatic-portrait-with-warm-lighting-effect-32281228/
     image: https://images.pexels.com/photos/32281228/pexels-photo-32281228.jpeg
@@ -9066,6 +10949,86 @@ entries:
     sheet: cinematic-still-52dd44
     subject: person
     note: teal-orange split, background neon is bokeh not text
+  pexels-33821455:
+    url: https://www.pexels.com/photo/vivid-pink-peonies-in-elegant-glass-vase-33821455/
+    image: https://images.pexels.com/photos/33821455/pexels-photo-33821455.jpeg
+    thumb: https://images.pexels.com/photos/33821455/pexels-photo-33821455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ayrat
+    creator_url: https://www.pexels.com/@ayrat-244411276
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3903
+    height: 5854
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 0e27da5870313333
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.6
+    nearest:
+    - fef1b03a
+    - 029c5ad4
+    - 112552c5
+    - 3496c786
+    - cc63b042
+    - 6214962e
+    - aed110ba
+    - 7f219b61
+    state: pending
+    family_scores:
+      cinematic-still: 0.6
+      crop-frame: 0.319
+      vs-two-up: 0.312
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-33827634:
+    url: https://www.pexels.com/photo/creative-portrait-of-tattooed-woman-in-studio-33827634/
+    image: https://images.pexels.com/photos/33827634/pexels-photo-33827634.jpeg
+    thumb: https://images.pexels.com/photos/33827634/pexels-photo-33827634.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Matheus Bertelli
+    creator_url: https://www.pexels.com/@bertellifotografia
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 18e060a878305a68
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - '84634617'
+    - f9669ed9
+    - a0688108
+    - 9bc8a759
+    - 4b4df875
+    - 691c6644
+    - a509d9ab
+    - cd6962d3
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.643
+      before-after: 0.522
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-3388702:
     url: https://www.pexels.com/photo/woman-wearing-green-velvet-shirt-3388702/
     image: https://images.pexels.com/photos/3388702/pexels-photo-3388702.jpeg
@@ -9359,6 +11322,47 @@ entries:
     subject: scene
     note: cluttered antique-market detail, no readable single subject
     drop: off-style (sheet answer)
+  pexels-34366695:
+    url: https://www.pexels.com/photo/woman-with-denim-jacket-against-red-background-34366695/
+    image: https://images.pexels.com/photos/34366695/pexels-photo-34366695.jpeg
+    thumb: https://images.pexels.com/photos/34366695/pexels-photo-34366695.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Luiz Woellner Fotografia
+    creator_url: https://www.pexels.com/@luiz-woellner-fotografia-557028708
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2865
+    height: 4298
+    aspect_class: '2:3'
+    term: woman red jacket purple background
+    collected: '2026-09-16'
+    phash: f3a586c68920381c
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.701
+    nearest:
+    - a509d9ab
+    - db317d05
+    - 9231a5f0
+    - 379118c8
+    - 2af4af3e
+    - 4b4df875
+    - 0d3549f9
+    - 502e5e12
+    state: pending
+    family_scores:
+      cinematic-still: 0.701
+      before-after: 0.434
+      graphic-collage: 0.249
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-34376242:
     url: https://www.pexels.com/photo/surreal-tv-head-in-cornfield-art-scene-34376242/
     image: https://images.pexels.com/photos/34376242/pexels-photo-34376242.jpeg
@@ -9483,6 +11487,47 @@ entries:
     best_family: outcome-tile
     sheet: cinematic-still-8f0a85
     subject: person
+  pexels-34523449:
+    url: https://www.pexels.com/photo/zebra-haworthia-with-ruby-necklace-in-pot-34523449/
+    image: https://images.pexels.com/photos/34523449/pexels-photo-34523449.jpeg
+    thumb: https://images.pexels.com/photos/34523449/pexels-photo-34523449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: F 植生记
+    creator_url: https://www.pexels.com/@f-2154796291
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2706
+    height: 4800
+    aspect_class: '9:16'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 0c4e1e3b5e5c59fd
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.813
+    nearest:
+    - d7c195e6
+    - fef1b03a
+    - 112552c5
+    - 7fb595ef
+    - '52628407'
+    - f68c0108
+    - 7d3e7452
+    - '52641765'
+    state: pending
+    family_scores:
+      cinematic-still: 0.813
+      before-after: 0.185
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-34613317:
     url: https://www.pexels.com/photo/portrait-of-a-young-woman-in-artistic-setting-34613317/
     image: https://images.pexels.com/photos/34613317/pexels-photo-34613317.jpeg
@@ -9736,6 +11781,48 @@ entries:
     sheet: cinematic-still-bd5611
     subject: person
     note: teal-orange split through wet glass
+  pexels-34777468:
+    url: https://www.pexels.com/photo/minimalist-bolt-against-blue-and-pink-background-34777468/
+    image: https://images.pexels.com/photos/34777468/pexels-photo-34777468.jpeg
+    thumb: https://images.pexels.com/photos/34777468/pexels-photo-34777468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3615
+    height: 5423
+    aspect_class: '2:3'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: f7e3870f37370387
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.496
+    nearest:
+    - d7c195e6
+    - c3aaa9b3
+    - ee82a094
+    - 20d3cfb3
+    - cc0a8058
+    - bb8074bd
+    - '47219548'
+    - fcba61c8
+    state: dropped
+    family_scores:
+      cinematic-still: 0.496
+      graphic-collage: 0.22
+      crop-frame: 0.212
+    best_family: cinematic-still
+    moved_from: graphic-collage
+    drop: near-dup of corpus 041c7d23 (hamming 9)
   pexels-34867971:
     url: https://www.pexels.com/photo/elegant-portrait-of-woman-in-black-and-orange-34867971/
     image: https://images.pexels.com/photos/34867971/pexels-photo-34867971.jpeg
@@ -9778,6 +11865,47 @@ entries:
     sheet: cinematic-still-7da3e4
     subject: person
     note: black veil with saturated orange on black; bold complementary studio colour
+  pexels-34947129:
+    url: https://www.pexels.com/photo/stylish-woman-in-maroon-jacket-against-purple-wall-34947129/
+    image: https://images.pexels.com/photos/34947129/pexels-photo-34947129.jpeg
+    thumb: https://images.pexels.com/photos/34947129/pexels-photo-34947129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Psiconauta _
+    creator_url: https://www.pexels.com/@psiconauta-_-2152780705
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 5065
+    aspect_class: '4:5'
+    term: woman red jacket purple background
+    collected: '2026-09-16'
+    phash: 0431e2c2ccc4e1e0
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a509d9ab
+    - d1102444
+    - b6c42c9a
+    - 157cca82
+    - 4b4df875
+    - a0688108
+    - 5fa672a6
+    - 99d81409
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.414
+      graphic-collage: 0.386
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-34993591:
     url: https://www.pexels.com/photo/macro-shot-of-hand-holding-miniature-figurine-34993591/
     image: https://images.pexels.com/photos/34993591/pexels-photo-34993591.jpeg
@@ -10030,6 +12158,45 @@ entries:
     sheet: cinematic-still-cf2f7e
     note: black-and-white miniature
     drop: off-style (sheet answer)
+  pexels-35933224:
+    url: https://www.pexels.com/photo/elegant-jewelry-with-ribbon-on-soft-pastel-background-35933224/
+    image: https://images.pexels.com/photos/35933224/pexels-photo-35933224.jpeg
+    thumb: https://images.pexels.com/photos/35933224/pexels-photo-35933224.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: hatice genç
+    creator_url: https://www.pexels.com/@hatice-genc-3580692
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4134
+    height: 6890
+    aspect_class: '9:16'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 0100e4a09a72781a
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.621
+    nearest:
+    - f9669ed9
+    - 65462d05
+    - cd6962d3
+    - 32af4b15
+    - '47219548'
+    - e0c4ea7c
+    - 94154ee0
+    - d1102444
+    state: pending
+    family_scores:
+      cinematic-still: 0.621
+      vs-two-up: 0.186
+      graphic-collage: 0.103
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-36091817:
     url: https://www.pexels.com/photo/colorful-blue-plastic-forks-on-textured-background-36091817/
     image: https://images.pexels.com/photos/36091817/pexels-photo-36091817.jpeg
@@ -10321,6 +12488,89 @@ entries:
     sheet: cinematic-still-7da3e4
     subject: person
     note: warm red wall; unified saturated grade
+  pexels-36625151:
+    url: https://www.pexels.com/photo/colorful-minimalist-shaving-razors-on-vibrant-background-36625151/
+    image: https://images.pexels.com/photos/36625151/pexels-photo-36625151.jpeg
+    thumb: https://images.pexels.com/photos/36625151/pexels-photo-36625151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3840
+    height: 5760
+    aspect_class: '2:3'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: c6c6c6c6c2dcf083
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.682
+    nearest:
+    - 54e9db90
+    - d7c195e6
+    - fcba61c8
+    - 021fefec
+    - cc0a8058
+    - 1babe98c
+    - c3aaa9b3
+    - c001bbf0
+    state: pending
+    family_scores:
+      cinematic-still: 0.682
+      dark-composite: 0.6
+      graphic-collage: 0.423
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-36625152:
+    url: https://www.pexels.com/photo/colorful-razors-on-vibrant-paper-background-36625152/
+    image: https://images.pexels.com/photos/36625152/pexels-photo-36625152.jpeg
+    thumb: https://images.pexels.com/photos/36625152/pexels-photo-36625152.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3537
+    height: 5305
+    aspect_class: '2:3'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: e6e6e6e6e6e6e09e
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.647
+    nearest:
+    - d7c195e6
+    - 54e9db90
+    - fef1b03a
+    - fcba61c8
+    - f17c10c5
+    - cc0a8058
+    - 021fefec
+    - 719ef5dc
+    state: dropped
+    family_scores:
+      cinematic-still: 0.647
+      dark-composite: 0.6
+      template-mockup: 0.537
+    best_family: cinematic-still
+    moved_from: graphic-collage
+    drop: near-dup of corpus c391960a (hamming 10)
   pexels-36695332:
     url: https://www.pexels.com/photo/portrait-of-a-young-woman-with-red-hair-36695332/
     image: https://images.pexels.com/photos/36695332/pexels-photo-36695332.jpeg
@@ -10363,6 +12613,47 @@ entries:
     sheet: cinematic-still-3341ab
     subject: person
     note: red hair on teal shutter, complementary grade
+  pexels-36826291:
+    url: https://www.pexels.com/photo/portrait-of-a-woman-with-curly-hair-and-black-sweater-36826291/
+    image: https://images.pexels.com/photos/36826291/pexels-photo-36826291.jpeg
+    thumb: https://images.pexels.com/photos/36826291/pexels-photo-36826291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alejandro Larrondo Torres
+    creator_url: https://www.pexels.com/@alejandro-larrondo-torres-2160576738
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4448
+    height: 6665
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: 8470c8cce4e68292
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.732
+    nearest:
+    - 502e5e12
+    - a509d9ab
+    - 9697a12f
+    - 5cb08ddf
+    - 20d3cfb3
+    - 0d3549f9
+    - 6c97b212
+    - 2af4af3e
+    state: pending
+    family_scores:
+      cinematic-still: 0.732
+      before-after: 0.407
+      graphic-collage: 0.249
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-36868224:
     url: https://www.pexels.com/photo/delicious-mango-sticky-rice-with-coconut-sauce-36868224/
     image: https://images.pexels.com/photos/36868224/pexels-photo-36868224.jpeg
@@ -10529,6 +12820,47 @@ entries:
     sheet: cinematic-still-7530df
     note: flat white light
     drop: off-style (sheet answer)
+  pexels-37132288:
+    url: https://www.pexels.com/photo/silhouetted-woman-against-vibrant-orange-backdrop-37132288/
+    image: https://images.pexels.com/photos/37132288/pexels-photo-37132288.jpeg
+    thumb: https://images.pexels.com/photos/37132288/pexels-photo-37132288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Chandri Anggara
+    creator_url: https://www.pexels.com/@chandrianggara
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3208
+    height: 4812
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 000683c990949030
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 8d5b5311
+    - 6778e5bf
+    - 691c6644
+    - '55586263'
+    - d1102444
+    - 95b65e4f
+    - cd6962d3
+    - 65462d05
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.471
+      before-after: 0.425
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-37167778:
     url: https://www.pexels.com/photo/elegant-portrait-of-woman-with-dramatic-lighting-37167778/
     image: https://images.pexels.com/photos/37167778/pexels-photo-37167778.jpeg
@@ -10697,6 +13029,88 @@ entries:
     sheet: cinematic-still-7c19ad
     subject: object
     note: golden-hour backlight
+  pexels-37515289:
+    url: https://www.pexels.com/photo/elegant-still-life-of-dried-flowers-in-vases-37515289/
+    image: https://images.pexels.com/photos/37515289/pexels-photo-37515289.jpeg
+    thumb: https://images.pexels.com/photos/37515289/pexels-photo-37515289.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cencial _
+    creator_url: https://www.pexels.com/@cencial
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4499
+    height: 6832
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 334d4d9b9b1e0f2e
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.577
+    nearest:
+    - fef1b03a
+    - aed110ba
+    - 7f219b61
+    - 029c5ad4
+    - d7c195e6
+    - 3496c786
+    - c3aaa9b3
+    - 6214962e
+    state: pending
+    family_scores:
+      cinematic-still: 0.577
+      graphic-collage: 0.3
+      vs-two-up: 0.221
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-37658615:
+    url: https://www.pexels.com/photo/thoughtful-portrait-of-woman-in-black-and-white-37658615/
+    image: https://images.pexels.com/photos/37658615/pexels-photo-37658615.jpeg
+    thumb: https://images.pexels.com/photos/37658615/pexels-photo-37658615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Stylish  Gallery
+    creator_url: https://www.pexels.com/@stylish
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: 1006110d2d9e1e20
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.6
+    nearest:
+    - d2c5701b
+    - 597e7e0f
+    - 40a2858d
+    - a0688108
+    - 95f279aa
+    - 1d484fc9
+    - 55a4e949
+    - 91f91c57
+    state: pending
+    family_scores:
+      cinematic-still: 0.6
+      graphic-collage: 0.23
+      editor-canvas: 0.225
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-37690834:
     url: https://www.pexels.com/photo/sugary-donut-on-bright-blue-background-37690834/
     image: https://images.pexels.com/photos/37690834/pexels-photo-37690834.jpeg
@@ -10775,6 +13189,47 @@ entries:
       vs-two-up: 0.108
     best_family: outcome-tile
     drop: near-dup of corpus dab26cbd (hamming 10)
+  pexels-3786172:
+    url: https://www.pexels.com/photo/person-holding-white-and-red-medical-pills-and-capsules-3786172/
+    image: https://images.pexels.com/photos/3786172/pexels-photo-3786172.jpeg
+    thumb: https://images.pexels.com/photos/3786172/pexels-photo-3786172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Shvets
+    creator_url: https://www.pexels.com/@shvetsa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3709
+    height: 5564
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 3392d6de9e040000
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.241
+    nearest:
+    - f102931f
+    - b9273ce4
+    - 20d3cfb3
+    - 6027c22c
+    - '52622373'
+    - 7fb595ef
+    - 6c97b212
+    - 92cfff35
+    state: pending
+    family_scores:
+      cinematic-still: 0.241
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-37921707:
     url: https://www.pexels.com/photo/silhouette-of-man-at-sunset-by-the-sea-37921707/
     image: https://images.pexels.com/photos/37921707/pexels-photo-37921707.jpeg
@@ -11111,6 +13566,47 @@ entries:
     sheet: cinematic-still-1fedd3
     note: 'near-duplicate of #7, same model and session'
     drop: off-style (sheet answer)
+  pexels-3851104:
+    url: https://www.pexels.com/photo/woman-in-black-turtleneck-shirt-3851104/
+    image: https://images.pexels.com/photos/3851104/pexels-photo-3851104.jpeg
+    thumb: https://images.pexels.com/photos/3851104/pexels-photo-3851104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Shvets
+    creator_url: https://www.pexels.com/@shvetsa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: c289a99091807c03
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.496
+    nearest:
+    - c6447fc2
+    - 6c97b212
+    - c3628009
+    - 20d3cfb3
+    - c73ec25a
+    - e1af1637
+    - 307c1492
+    - 4b4df875
+    state: pending
+    family_scores:
+      cinematic-still: 0.496
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-38553325:
     url: https://www.pexels.com/photo/blonde-woman-relaxing-in-pink-bedding-38553325/
     image: https://images.pexels.com/photos/38553325/pexels-photo-38553325.jpeg
@@ -11194,6 +13690,48 @@ entries:
     best_family: graphic-collage
     sheet: cinematic-still-2179a1
     drop: off-style (sheet answer)
+  pexels-38892302:
+    url: https://www.pexels.com/photo/colorful-handmade-ceramic-mugs-displayed-on-shelves-38892302/
+    image: https://images.pexels.com/photos/38892302/pexels-photo-38892302.jpeg
+    thumb: https://images.pexels.com/photos/38892302/pexels-photo-38892302.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tanita Lupa
+    creator_url: https://www.pexels.com/@tanita-lupa-2162270212
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3024
+    height: 4032
+    aspect_class: '3:4'
+    term: ceramic mug colored background
+    collected: '2026-09-16'
+    phash: fa5528f8c0d1b11c
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.15
+    nearest:
+    - 6027c22c
+    - 92cfff35
+    - f17c10c5
+    - ee82a094
+    - f23d829a
+    - fef1b03a
+    - 5f3494c4
+    - 597e7e0f
+    state: dropped
+    family_scores:
+      cinematic-still: 0.15
+      graphic-collage: 0.114
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
   pexels-3893187:
     url: https://www.pexels.com/photo/photo-of-woman-holding-her-face-3893187/
     image: https://images.pexels.com/photos/3893187/pexels-photo-3893187.jpeg
@@ -11403,6 +13941,48 @@ entries:
     best_family: outcome-tile
     sheet: cinematic-still-ee12fd
     subject: person
+  pexels-39465806:
+    url: https://www.pexels.com/photo/minimalist-white-stool-in-empty-studio-setting-39465806/
+    image: https://images.pexels.com/photos/39465806/pexels-photo-39465806.jpeg
+    thumb: https://images.pexels.com/photos/39465806/pexels-photo-39465806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Israyosoy S.
+    creator_url: https://www.pexels.com/@israyosoy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3803
+    height: 4754
+    aspect_class: '4:5'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: '0707070707070103'
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.295
+    nearest:
+    - 5f3494c4
+    - 0937bae7
+    - d7c195e6
+    - f17c10c5
+    - c5a8cdbd
+    - 6778e5bf
+    - 8d5b5311
+    - fef1b03a
+    state: dropped
+    family_scores:
+      cinematic-still: 0.295
+      graphic-collage: 0.146
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 5b323474 (hamming 8)
   pexels-39526253:
     url: https://www.pexels.com/photo/artistic-portrait-with-orange-tulle-veil-39526253/
     image: https://images.pexels.com/photos/39526253/pexels-photo-39526253.jpeg
@@ -11445,6 +14025,45 @@ entries:
     sheet: cinematic-still-1fedd3
     subject: person
     note: teal-orange with orange tulle, deliberate coloured light
+  pexels-4004225:
+    url: https://www.pexels.com/photo/flat-lay-of-accessories-4004225/
+    image: https://images.pexels.com/photos/4004225/pexels-photo-4004225.jpeg
+    thumb: https://images.pexels.com/photos/4004225/pexels-photo-4004225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hana Brannigan
+    creator_url: https://www.pexels.com/@thishanabee
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3639
+    height: 5095
+    aspect_class: '3:4'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: f7f5f4b6eee2f5f7
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.24
+    nearest:
+    - '86769613'
+    - fef1b03a
+    - d7c195e6
+    - f9669ed9
+    - 94154ee0
+    - '47219548'
+    - c242e2fd
+    - ff00ef5d
+    state: pending
+    family_scores:
+      cinematic-still: 0.24
+      vs-two-up: 0.069
+      graphic-collage: 0.052
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-4030352:
     url: https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-4030352/
     image: https://images.pexels.com/photos/4030352/pexels-photo-4030352.jpeg
@@ -11487,6 +14106,47 @@ entries:
     sheet: cinematic-still-1fedd3
     subject: person
     note: hard directional light on a saturated magenta ground
+  pexels-4040599:
+    url: https://www.pexels.com/photo/set-of-colorful-semiprecious-stones-placed-chaotically-on-gray-tabletop-in-jewelry-store-4040599/
+    image: https://images.pexels.com/photos/4040599/pexels-photo-4040599.jpeg
+    thumb: https://images.pexels.com/photos/4040599/pexels-photo-4040599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 294ad8a84aa6a469
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.326
+    nearest:
+    - '52622373'
+    - '47219548'
+    - fef1b03a
+    - aed110ba
+    - 7f219b61
+    - 7fb595ef
+    - d7c195e6
+    - '52645701'
+    state: pending
+    family_scores:
+      cinematic-still: 0.326
+      vs-two-up: 0.148
+      graphic-collage: 0.147
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-4055973:
     url: https://www.pexels.com/photo/small-comic-hero-figurine-placed-on-tree-trunk-4055973/
     image: https://images.pexels.com/photos/4055973/pexels-photo-4055973.jpeg
@@ -11530,6 +14190,47 @@ entries:
     subject: object
     note: brown macro of a figurine on roots
     drop: off-style (sheet answer)
+  pexels-4176561:
+    url: https://www.pexels.com/photo/hand-of-a-person-holding-white-plastic-spray-bottle-4176561/
+    image: https://images.pexels.com/photos/4176561/pexels-photo-4176561.jpeg
+    thumb: https://images.pexels.com/photos/4176561/pexels-photo-4176561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Edward Jenner
+    creator_url: https://www.pexels.com/@edward-jenner
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5500
+    height: 8250
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 270f271b1c160bff
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.676
+    nearest:
+    - d7c195e6
+    - 7e5488b0
+    - 598f6935
+    - fc87e5c3
+    - 3496c786
+    - f102931f
+    - 6027c22c
+    - 7f219b61
+    state: pending
+    family_scores:
+      cinematic-still: 0.676
+      before-after: 0.563
+      editor-canvas: 0.562
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-4219577:
     url: https://www.pexels.com/photo/calm-young-woman-relaxing-in-soft-bed-4219577/
     image: https://images.pexels.com/photos/4219577/pexels-photo-4219577.jpeg
@@ -11735,6 +14436,47 @@ entries:
     sheet: cinematic-still-49272c
     subject: person
     note: teal shadow with orange flower accents
+  pexels-4522910:
+    url: https://www.pexels.com/photo/flowers-in-clear-glass-vase-4522910/
+    image: https://images.pexels.com/photos/4522910/pexels-photo-4522910.jpeg
+    thumb: https://images.pexels.com/photos/4522910/pexels-photo-4522910.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Tankilevitch
+    creator_url: https://www.pexels.com/@polina-tankilevitch
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 3000
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 04030f6cf0191ab4
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.475
+    nearest:
+    - fef1b03a
+    - 029c5ad4
+    - d7c195e6
+    - 58eb3266
+    - '52650601'
+    - 3496c786
+    - 5f3494c4
+    - 1bc36d4c
+    state: pending
+    family_scores:
+      cinematic-still: 0.475
+      graphic-collage: 0.179
+      before-after: 0.153
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-4567200:
     url: https://www.pexels.com/photo/creative-sign-made-of-sticks-with-message-on-paper-on-a-leaf-4567200/
     image: https://images.pexels.com/photos/4567200/pexels-photo-4567200.jpeg
@@ -11818,6 +14560,89 @@ entries:
     sheet: cinematic-still-4fcd4f
     subject: person
     note: hard slash of warm light on dark drape
+  pexels-4938268:
+    url: https://www.pexels.com/photo/person-holding-white-round-plastic-container-4938268/
+    image: https://images.pexels.com/photos/4938268/pexels-photo-4938268.jpeg
+    thumb: https://images.pexels.com/photos/4938268/pexels-photo-4938268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4057
+    height: 6085
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: d57c760793caca1b
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.588
+    nearest:
+    - 92cfff35
+    - 20d3cfb3
+    - 598f6935
+    - 6027c22c
+    - d7c195e6
+    - f102931f
+    - '11337690'
+    - '52622373'
+    state: dropped
+    family_scores:
+      cinematic-still: 0.588
+      before-after: 0.467
+      editor-canvas: 0.45
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: more than 3 from https://kaboompics.com/ this pass
+  pexels-4938325:
+    url: https://www.pexels.com/photo/woman-opening-white-cream-container-4938325/
+    image: https://images.pexels.com/photos/4938325/pexels-photo-4938325.jpeg
+    thumb: https://images.pexels.com/photos/4938325/pexels-photo-4938325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 9f97699ccc4d9686
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.695
+    nearest:
+    - d7c195e6
+    - 598f6935
+    - 7e5488b0
+    - 6027c22c
+    - 92cfff35
+    - ff00ef5d
+    - 20d3cfb3
+    - '11337690'
+    state: pending
+    family_scores:
+      cinematic-still: 0.695
+      before-after: 0.562
+      graphic-collage: 0.556
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-5055498:
     url: https://www.pexels.com/photo/man-sitting-in-red-light-5055498/
     image: https://images.pexels.com/photos/5055498/pexels-photo-5055498.jpeg
@@ -12026,6 +14851,47 @@ entries:
     sheet: cinematic-still-4fcd4f
     subject: person
     note: golden-hour backlight
+  pexels-5538164:
+    url: https://www.pexels.com/photo/brown-glass-bottle-on-the-table-5538164/
+    image: https://images.pexels.com/photos/5538164/pexels-photo-5538164.jpeg
+    thumb: https://images.pexels.com/photos/5538164/pexels-photo-5538164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3995
+    height: 5993
+    aspect_class: '2:3'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: dfcfc3c8c7e178de
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.418
+    nearest:
+    - 92cfff35
+    - c3aaa9b3
+    - d7c195e6
+    - 7ac6fe2c
+    - 6027c22c
+    - c5a8cdbd
+    - 598f6935
+    - 58eb3266
+    state: pending
+    family_scores:
+      cinematic-still: 0.418
+      graphic-collage: 0.179
+      vs-two-up: 0.14
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-5543164:
     url: https://www.pexels.com/photo/man-taking-photo-with-a-camera-5543164/
     image: https://images.pexels.com/photos/5543164/pexels-photo-5543164.jpeg
@@ -12068,6 +14934,47 @@ entries:
     sheet: cinematic-still-8f0a85
     note: backlit documentary snapshot, face hidden by camera, washed-out grade
     drop: off-style (sheet answer)
+  pexels-5556300:
+    url: https://www.pexels.com/photo/shopping-bags-with-tissue-paper-5556300/
+    image: https://images.pexels.com/photos/5556300/pexels-photo-5556300.jpeg
+    thumb: https://images.pexels.com/photos/5556300/pexels-photo-5556300.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Leeloo The First
+    creator_url: https://www.pexels.com/@leeloothefirst
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4016
+    height: 6016
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 3cbb3393d3131313
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.565
+    nearest:
+    - 20d3cfb3
+    - '86769613'
+    - 92cfff35
+    - 32af4b15
+    - 597e7e0f
+    - '52641765'
+    - 939672f0
+    - 7ac6fe2c
+    state: pending
+    family_scores:
+      cinematic-still: 0.565
+      vs-two-up: 0.204
+      before-after: 0.196
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-5629727:
     url: https://www.pexels.com/photo/thoughtful-woman-in-warm-jacket-in-red-light-5629727/
     image: https://images.pexels.com/photos/5629727/pexels-photo-5629727.jpeg
@@ -12822,6 +15729,47 @@ entries:
       graphic-collage: 0.274
     best_family: outcome-tile
     drop: near-dup of corpus 4b4d3546 (hamming 9)
+  pexels-6312178:
+    url: https://www.pexels.com/photo/white-mugs-on-white-surface-6312178/
+    image: https://images.pexels.com/photos/6312178/pexels-photo-6312178.jpeg
+    thumb: https://images.pexels.com/photos/6312178/pexels-photo-6312178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: KATRIN  BOLOVTSOVA
+    creator_url: https://www.pexels.com/@ekaterina-bolovtsova
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: ceramic mug colored background
+    collected: '2026-09-16'
+    phash: 000f0f1f646637cd
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.444
+    nearest:
+    - 6027c22c
+    - d7c195e6
+    - 92cfff35
+    - ff00ef5d
+    - f23d829a
+    - f17c10c5
+    - ee82a094
+    - 20d3cfb3
+    state: pending
+    family_scores:
+      cinematic-still: 0.444
+      graphic-collage: 0.231
+      vs-two-up: 0.161
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-6320210:
     url: https://www.pexels.com/photo/silhouette-of-sexy-woman-outdoors-6320210/
     image: https://images.pexels.com/photos/6320210/pexels-photo-6320210.jpeg
@@ -12862,6 +15810,88 @@ entries:
       graphic-collage: 0.179
     best_family: outcome-tile
     drop: near-dup of corpus ce5825f4 (hamming 7)
+  pexels-6343290:
+    url: https://www.pexels.com/photo/woman-posing-on-blue-background-6343290/
+    image: https://images.pexels.com/photos/6343290/pexels-photo-6343290.jpeg
+    thumb: https://images.pexels.com/photos/6343290/pexels-photo-6343290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jacquelin Perez
+    creator_url: https://www.pexels.com/@jacquelin-perez-15364603
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2736
+    height: 4104
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 3131190e333370cc
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 69d930ac
+    - a5d87058
+    - a0688108
+    - f9669ed9
+    - 2b1e692f
+    - 65462d05
+    - cd6962d3
+    - 691c6644
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.647
+      before-after: 0.421
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-6345390:
+    url: https://www.pexels.com/photo/studio-portrait-of-a-boy-in-a-baseball-cap-6345390/
+    image: https://images.pexels.com/photos/6345390/pexels-photo-6345390.jpeg
+    thumb: https://images.pexels.com/photos/6345390/pexels-photo-6345390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: ff7b8f7959793539
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - e1af1637
+    - 307c1492
+    - 9bc8a759
+    - '84634617'
+    - 04a66e9b
+    - 3bc4d480
+    - d7c195e6
+    - 6c97b212
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.526
+      graphic-collage: 0.492
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-6346147:
     url: https://www.pexels.com/photo/coffee-and-a-donut-6346147/
     image: https://images.pexels.com/photos/6346147/pexels-photo-6346147.jpeg
@@ -13029,6 +16059,171 @@ entries:
     best_family: full-bleed
     sheet: cinematic-still-4fcd4f
     subject: person
+  pexels-6612344:
+    url: https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-bottle-6612344/
+    image: https://images.pexels.com/photos/6612344/pexels-photo-6612344.jpeg
+    thumb: https://images.pexels.com/photos/6612344/pexels-photo-6612344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3913
+    height: 5869
+    aspect_class: '2:3'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 00002395643c191b
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.499
+    nearest:
+    - 598f6935
+    - 92cfff35
+    - d7c195e6
+    - c6447fc2
+    - aed110ba
+    - 7f219b61
+    - 089f1b92
+    - 307c1492
+    state: pending
+    family_scores:
+      cinematic-still: 0.499
+      editor-canvas: 0.395
+      graphic-collage: 0.336
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-6612353:
+    url: https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-bottle-6612353/
+    image: https://images.pexels.com/photos/6612353/pexels-photo-6612353.jpeg
+    thumb: https://images.pexels.com/photos/6612353/pexels-photo-6612353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3803
+    height: 5705
+    aspect_class: '2:3'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: f8fedee6ccc9ebdd
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.401
+    nearest:
+    - f68c0108
+    - 598f6935
+    - f102931f
+    - '11337690'
+    - c3aaa9b3
+    - '52622373'
+    - 92cfff35
+    - d7c195e6
+    state: pending
+    family_scores:
+      cinematic-still: 0.401
+      graphic-collage: 0.292
+      editor-canvas: 0.24
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-6612355:
+    url: https://www.pexels.com/photo/a-person-holding-clear-glass-bottle-6612355/
+    image: https://images.pexels.com/photos/6612355/pexels-photo-6612355.jpeg
+    thumb: https://images.pexels.com/photos/6612355/pexels-photo-6612355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3915
+    height: 5872
+    aspect_class: '2:3'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 00207878e8eaf7dc
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.369
+    nearest:
+    - d7c195e6
+    - 2096f1d2
+    - 6027c22c
+    - f68c0108
+    - '52622373'
+    - 598f6935
+    - 92cfff35
+    - 58eb3266
+    state: dropped
+    family_scores:
+      cinematic-still: 0.369
+      graphic-collage: 0.314
+      editor-canvas: 0.221
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: more than 3 from Tima Miroshnichenko this pass
+  pexels-6641228:
+    url: https://www.pexels.com/photo/a-person-in-white-pearl-necklace-6641228/
+    image: https://images.pexels.com/photos/6641228/pexels-photo-6641228.jpeg
+    thumb: https://images.pexels.com/photos/6641228/pexels-photo-6641228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 397b395b3934e6e8
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - '11337690'
+    - 20d3cfb3
+    - db317d05
+    - 9231a5f0
+    - 76b0a464
+    - 7189ab4f
+    - 8d5b5311
+    - 7f7fa360
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.499
+      graphic-collage: 0.355
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-6698307:
     url: https://www.pexels.com/photo/a-portrait-of-a-young-woman-in-a-red-turtleneck-sweater-6698307/
     image: https://images.pexels.com/photos/6698307/pexels-photo-6698307.jpeg
@@ -13323,6 +16518,129 @@ entries:
     sheet: cinematic-still-2179a1
     note: near-duplicate of 10
     drop: off-style (sheet answer)
+  pexels-6831606:
+    url: https://www.pexels.com/photo/topless-man-wearing-red-headscarf-6831606/
+    image: https://images.pexels.com/photos/6831606/pexels-photo-6831606.jpeg
+    thumb: https://images.pexels.com/photos/6831606/pexels-photo-6831606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 007079783231656c
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.703
+    nearest:
+    - 2903d1cf
+    - 55a4e949
+    - 2cbbc61a
+    - bf44ec1d
+    - 40a2858d
+    - 2ae35c11
+    - 1d484fc9
+    - 95f279aa
+    state: pending
+    family_scores:
+      cinematic-still: 0.703
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: graphic-collage
+  pexels-6920192:
+    url: https://www.pexels.com/photo/portrait-of-a-painter-touching-her-lips-and-red-paint-strokes-on-a-wall-6920192/
+    image: https://images.pexels.com/photos/6920192/pexels-photo-6920192.jpeg
+    thumb: https://images.pexels.com/photos/6920192/pexels-photo-6920192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: b64b6bb0ba78f8e6
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.537
+    nearest:
+    - c6447fc2
+    - '11337690'
+    - 69d930ac
+    - a5d87058
+    - 502e5e12
+    - da0bceaf
+    - fc87e5c3
+    - '81187271'
+    state: pending
+    family_scores:
+      cinematic-still: 0.537
+      before-after: 0.417
+      graphic-collage: 0.352
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-6990340:
+    url: https://www.pexels.com/photo/red-translucent-dices-in-clear-drinking-glass-6990340/
+    image: https://images.pexels.com/photos/6990340/pexels-photo-6990340.jpeg
+    thumb: https://images.pexels.com/photos/6990340/pexels-photo-6990340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5397
+    height: 8096
+    aspect_class: '2:3'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: fffff7cbb6b8f8d0
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.273
+    nearest:
+    - f68c0108
+    - '47219548'
+    - 7fb595ef
+    - d7c195e6
+    - d754cd28
+    - 6d0ab8a0
+    - fef1b03a
+    - 1bc36d4c
+    state: pending
+    family_scores:
+      cinematic-still: 0.273
+      vs-two-up: 0.16
+      graphic-collage: 0.1
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-6999394:
     url: https://www.pexels.com/photo/close-up-shot-of-painted-eggs-on-a-bowl-6999394/
     image: https://images.pexels.com/photos/6999394/pexels-photo-6999394.jpeg
@@ -13489,6 +16807,47 @@ entries:
     best_family: cinematic-still
     sheet: cinematic-still-2aa228
     subject: person
+  pexels-7038196:
+    url: https://www.pexels.com/photo/white-cream-on-the-person-s-hand-7038196/
+    image: https://images.pexels.com/photos/7038196/pexels-photo-7038196.jpeg
+    thumb: https://images.pexels.com/photos/7038196/pexels-photo-7038196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nora Topicals
+    creator_url: https://www.pexels.com/@noratopicals
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 6f9f6366ccfa9a15
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.622
+    nearest:
+    - 92cfff35
+    - aed110ba
+    - 7f219b61
+    - d7c195e6
+    - fc87e5c3
+    - c242e2fd
+    - 3496c786
+    - '86769613'
+    state: pending
+    family_scores:
+      cinematic-still: 0.622
+      before-after: 0.528
+      graphic-collage: 0.461
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-7104844:
     url: https://www.pexels.com/photo/figurines-near-roadway-on-illuminated-street-7104844/
     image: https://images.pexels.com/photos/7104844/pexels-photo-7104844.jpeg
@@ -13572,6 +16931,88 @@ entries:
     sheet: cinematic-still-7c19ad
     subject: object
     note: fairy-light bokeh
+  pexels-7149738:
+    url: https://www.pexels.com/photo/bright-colorful-kitchenware-7149738/
+    image: https://images.pexels.com/photos/7149738/pexels-photo-7149738.jpeg
+    thumb: https://images.pexels.com/photos/7149738/pexels-photo-7149738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ksenia Chernaya
+    creator_url: https://www.pexels.com/@kseniachernaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2670
+    height: 4000
+    aspect_class: '2:3'
+    term: ceramic mug colored background
+    collected: '2026-09-16'
+    phash: 8078e08086e6dbe1
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.503
+    nearest:
+    - d7c195e6
+    - 4dd9f1de
+    - c001bbf0
+    - f102931f
+    - 6027c22c
+    - b9273ce4
+    - '47219548'
+    - 57ac45a7
+    state: pending
+    family_scores:
+      cinematic-still: 0.503
+      graphic-collage: 0.481
+      dark-composite: 0.3
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-7161094:
+    url: https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-skin-care-product-7161094/
+    image: https://images.pexels.com/photos/7161094/pexels-photo-7161094.jpeg
+    thumb: https://images.pexels.com/photos/7161094/pexels-photo-7161094.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Misolo Cosmetic
+    creator_url: https://www.pexels.com/@misolo-cosmetic-2588316
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3985
+    height: 5977
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 074f336961c8e6e2
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.637
+    nearest:
+    - d7c195e6
+    - c242e2fd
+    - 6027c22c
+    - 7e5488b0
+    - 598f6935
+    - 92cfff35
+    - da0bceaf
+    - 7fb595ef
+    state: pending
+    family_scores:
+      cinematic-still: 0.637
+      editor-canvas: 0.514
+      graphic-collage: 0.503
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-7194740:
     url: https://www.pexels.com/photo/expressive-bald-woman-shouting-in-studio-7194740/
     image: https://images.pexels.com/photos/7194740/pexels-photo-7194740.jpeg
@@ -13655,6 +17096,213 @@ entries:
     sheet: cinematic-still-353849
     subject: food
     note: yellow pineapple on blue seamless
+  pexels-7256088:
+    url: https://www.pexels.com/photo/person-holding-a-pink-lipstick-7256088/
+    image: https://images.pexels.com/photos/7256088/pexels-photo-7256088.jpeg
+    thumb: https://images.pexels.com/photos/7256088/pexels-photo-7256088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4404
+    height: 6605
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: b7eff6f2fad2d25a
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.645
+    nearest:
+    - '11337690'
+    - 3496c786
+    - 20d3cfb3
+    - f68c0108
+    - fc87e5c3
+    - d7c195e6
+    - b9273ce4
+    - 719ef5dc
+    state: pending
+    family_scores:
+      cinematic-still: 0.645
+      editor-canvas: 0.414
+      graphic-collage: 0.387
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-7256156:
+    url: https://www.pexels.com/photo/beads-in-a-container-7256156/
+    image: https://images.pexels.com/photos/7256156/pexels-photo-7256156.jpeg
+    thumb: https://images.pexels.com/photos/7256156/pexels-photo-7256156.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4951
+    height: 7427
+    aspect_class: '2:3'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: dd75b2b1b1b1314e
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.209
+    nearest:
+    - '52645701'
+    - 3496c786
+    - '52622373'
+    - '47219548'
+    - 7fb595ef
+    - f68c0108
+    - aed110ba
+    - 7f219b61
+    state: dropped
+    family_scores:
+      cinematic-still: 0.209
+      before-after: 0.166
+      vs-two-up: 0.158
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7290610:
+    url: https://www.pexels.com/photo/person-holding-a-lipstick-7290610/
+    image: https://images.pexels.com/photos/7290610/pexels-photo-7290610.jpeg
+    thumb: https://images.pexels.com/photos/7290610/pexels-photo-7290610.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3879
+    height: 5818
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 06070b070f4f0202
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.587
+    nearest:
+    - f102931f
+    - 20d3cfb3
+    - '11337690'
+    - 92cfff35
+    - c6447fc2
+    - 508eb219
+    - 83a3dd81
+    - 6c97b212
+    state: dropped
+    family_scores:
+      cinematic-still: 0.587
+      dark-composite: 0.431
+      editor-canvas: 0.388
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: near-dup of corpus f57cb379 (hamming 8)
+  pexels-7290660:
+    url: https://www.pexels.com/photo/a-red-lipstick-and-purple-background-7290660/
+    image: https://images.pexels.com/photos/7290660/pexels-photo-7290660.jpeg
+    thumb: https://images.pexels.com/photos/7290660/pexels-photo-7290660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: '8000252434303213'
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - '11337690'
+    - 20d3cfb3
+    - f68c0108
+    - 3496c786
+    - fc87e5c3
+    - 7fb595ef
+    - '86769613'
+    - 92cfff35
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.504
+      editor-canvas: 0.392
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-7301671:
+    url: https://www.pexels.com/photo/a-bearded-man-wearing-a-red-sweater-7301671/
+    image: https://images.pexels.com/photos/7301671/pexels-photo-7301671.jpeg
+    thumb: https://images.pexels.com/photos/7301671/pexels-photo-7301671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Norma Mortenson
+    creator_url: https://www.pexels.com/@norma-mortenson
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3507
+    height: 5260
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 7ffffbf8b4f4d99b
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.65
+    nearest:
+    - e1af1637
+    - 307c1492
+    - c6447fc2
+    - 403f157c
+    - 373814d9
+    - 089f1b92
+    - 4011f7c6
+    - a0688108
+    state: pending
+    family_scores:
+      cinematic-still: 0.65
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-7315881:
     url: https://www.pexels.com/photo/a-woman-posing-at-the-camera-7315881/
     image: https://images.pexels.com/photos/7315881/pexels-photo-7315881.jpeg
@@ -13696,6 +17344,88 @@ entries:
     best_family: cinematic-still
     sheet: cinematic-still-2aa228
     subject: person
+  pexels-7321549:
+    url: https://www.pexels.com/photo/person-holding-a-cosmetic-product-in-close-up-photography-7321549/
+    image: https://images.pexels.com/photos/7321549/pexels-photo-7321549.jpeg
+    thumb: https://images.pexels.com/photos/7321549/pexels-photo-7321549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: dfd7e79af0e9f3ed
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.636
+    nearest:
+    - 20d3cfb3
+    - f102931f
+    - d7c195e6
+    - 598f6935
+    - 7e5488b0
+    - 6027c22c
+    - '11337690'
+    - c242e2fd
+    state: pending
+    family_scores:
+      cinematic-still: 0.636
+      editor-canvas: 0.591
+      graphic-collage: 0.507
+    best_family: cinematic-still
+    moved_from: template-mockup
+  pexels-7321552:
+    url: https://www.pexels.com/photo/person-holding-a-container-7321552/
+    image: https://images.pexels.com/photos/7321552/pexels-photo-7321552.jpeg
+    thumb: https://images.pexels.com/photos/7321552/pexels-photo-7321552.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 618939f1d1dc7db9
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - '11337690'
+    - 20d3cfb3
+    - 92cfff35
+    - 7fb595ef
+    - fc87e5c3
+    - 7e5488b0
+    - '86769613'
+    - 598f6935
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.733
+      before-after: 0.713
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-7332328:
     url: https://www.pexels.com/photo/a-woman-wearing-bunny-ears-7332328/
     image: https://images.pexels.com/photos/7332328/pexels-photo-7332328.jpeg
@@ -13738,6 +17468,47 @@ entries:
     sheet: cinematic-still-49ab97
     note: cluttered bedroom background; harsh green face cast; grade is not unified
     drop: off-style (sheet answer)
+  pexels-7382924:
+    url: https://www.pexels.com/photo/person-holding-white-makeup-container-7382924/
+    image: https://images.pexels.com/photos/7382924/pexels-photo-7382924.jpeg
+    thumb: https://images.pexels.com/photos/7382924/pexels-photo-7382924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Tankilevitch
+    creator_url: https://www.pexels.com/@polina-tankilevitch
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 3000
+    aspect_class: '2:3'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 2e3626efcc021b1f
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 6027c22c
+    - 92cfff35
+    - c242e2fd
+    - ee82a094
+    - 598f6935
+    - 20d3cfb3
+    - ff00ef5d
+    - d7c195e6
+    state: pending
+    family_scores:
+      cinematic-still: 0.675
+      graphic-collage: 0.384
+      before-after: 0.254
+    best_family: cinematic-still
+    moved_from: template-mockup
   pexels-7384166:
     url: https://www.pexels.com/photo/a-serious-facial-expression-of-a-woman-7384166/
     image: https://images.pexels.com/photos/7384166/pexels-photo-7384166.jpeg
@@ -13779,6 +17550,47 @@ entries:
     best_family: outcome-tile
     sheet: cinematic-still-ee12fd
     subject: person
+  pexels-7390466:
+    url: https://www.pexels.com/photo/close-up-photograph-of-blooming-hyacinth-flowers-7390466/
+    image: https://images.pexels.com/photos/7390466/pexels-photo-7390466.jpeg
+    thumb: https://images.pexels.com/photos/7390466/pexels-photo-7390466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Lara
+    creator_url: https://www.pexels.com/@larissafarber
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3712
+    height: 5560
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 00080d8ce0c9c486
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.453
+    nearest:
+    - 029c5ad4
+    - fef1b03a
+    - d7c195e6
+    - 112552c5
+    - 502e5e12
+    - 3496c786
+    - aed110ba
+    - 7f219b61
+    state: pending
+    family_scores:
+      cinematic-still: 0.453
+      graphic-collage: 0.179
+      before-after: 0.165
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-7449328:
     url: https://www.pexels.com/photo/avocado-on-blue-background-7449328/
     image: https://images.pexels.com/photos/7449328/pexels-photo-7449328.jpeg
@@ -13819,6 +17631,47 @@ entries:
     sheet: cinematic-still-d9a2a7
     subject: food
     note: levitating food on saturated blue seamless, glossy studio grade
+  pexels-7515731:
+    url: https://www.pexels.com/photo/portrait-of-a-young-woman-in-split-yellow-and-red-lighting-7515731/
+    image: https://images.pexels.com/photos/7515731/pexels-photo-7515731.jpeg
+    thumb: https://images.pexels.com/photos/7515731/pexels-photo-7515731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4034
+    height: 6051
+    aspect_class: '2:3'
+    term: woman studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 0307797969797cf8
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 379118c8
+    - f9669ed9
+    - fc87e5c3
+    - 2af4af3e
+    - cd6962d3
+    - 65462d05
+    - '11337690'
+    - 691c6644
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.381
+      graphic-collage: 0.381
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-7674930:
     url: https://www.pexels.com/photo/blue-banana-in-close-up-photography-7674930/
     image: https://images.pexels.com/photos/7674930/pexels-photo-7674930.jpeg
@@ -14107,6 +17960,48 @@ entries:
     sheet: cinematic-still-58fd4c
     subject: person
     note: blue rim light on near-black
+  pexels-7828522:
+    url: https://www.pexels.com/photo/green-ceramic-mug-on-white-marble-7828522/
+    image: https://images.pexels.com/photos/7828522/pexels-photo-7828522.jpeg
+    thumb: https://images.pexels.com/photos/7828522/pexels-photo-7828522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: ffffffdfe7f336cc
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.624
+    nearest:
+    - 6027c22c
+    - d7c195e6
+    - 92cfff35
+    - ee82a094
+    - f23d829a
+    - fef1b03a
+    - b9273ce4
+    - '47219548'
+    state: dropped
+    family_scores:
+      cinematic-still: 0.624
+      graphic-collage: 0.573
+      dark-composite: 0.42
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 041c7d23 (hamming 10)
   pexels-7918316:
     url: https://www.pexels.com/photo/yellow-guitar-pick-beside-a-toy-car-7918316/
     image: https://images.pexels.com/photos/7918316/pexels-photo-7918316.jpeg
@@ -14394,6 +18289,89 @@ entries:
     best_family: outcome-tile
     sheet: cinematic-still-8f0a85
     subject: person
+  pexels-8166818:
+    url: https://www.pexels.com/photo/photo-of-flowers-on-white-vase-8166818/
+    image: https://images.pexels.com/photos/8166818/pexels-photo-8166818.jpeg
+    thumb: https://images.pexels.com/photos/8166818/pexels-photo-8166818.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2800
+    height: 3500
+    aspect_class: '4:5'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 2f67dbf8301cfc67
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.685
+    nearest:
+    - fef1b03a
+    - d7c195e6
+    - 029c5ad4
+    - '52650601'
+    - 3496c786
+    - 1ff86bd2
+    - f17c10c5
+    - 5f3494c4
+    state: pending
+    family_scores:
+      cinematic-still: 0.685
+      before-after: 0.438
+      graphic-collage: 0.384
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-8217412:
+    url: https://www.pexels.com/photo/a-person-holding-a-clear-glass-bottle-8217412/
+    image: https://images.pexels.com/photos/8217412/pexels-photo-8217412.jpeg
+    thumb: https://images.pexels.com/photos/8217412/pexels-photo-8217412.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3897
+    height: 5846
+    aspect_class: '2:3'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 5f3f3f6b59591927
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.384
+    nearest:
+    - 58eb3266
+    - d7c195e6
+    - 6778e5bf
+    - 92cfff35
+    - 8d5b5311
+    - 32af4b15
+    - f68c0108
+    - b9273ce4
+    state: dropped
+    family_scores:
+      cinematic-still: 0.384
+      graphic-collage: 0.311
+      vs-two-up: 0.267
+    best_family: cinematic-still
+    moved_from: template-mockup
+    drop: more than 3 from MART  PRODUCTION this pass
   pexels-8262600:
     url: https://www.pexels.com/photo/woman-sitting-on-white-bed-among-clouds-8262600/
     image: https://images.pexels.com/photos/8262600/pexels-photo-8262600.jpeg
@@ -14721,6 +18699,89 @@ entries:
       full-bleed: 0.16
     best_family: outcome-tile
     drop: near-dup of corpus a34d8e67 (hamming 10)
+  pexels-8490303:
+    url: https://www.pexels.com/photo/white-plastic-container-8490303/
+    image: https://images.pexels.com/photos/8490303/pexels-photo-8490303.jpeg
+    thumb: https://images.pexels.com/photos/8490303/pexels-photo-8490303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: PNW Production
+    creator_url: https://www.pexels.com/@pnw-prod
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 0000192626262609
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.294
+    nearest:
+    - 92cfff35
+    - d7c195e6
+    - 20d3cfb3
+    - ff00ef5d
+    - 7ac6fe2c
+    - 54e9db90
+    - c3aaa9b3
+    - 6027c22c
+    state: pending
+    family_scores:
+      cinematic-still: 0.294
+      vs-two-up: 0.171
+      graphic-collage: 0.144
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-8533648:
+    url: https://www.pexels.com/photo/white-glass-candle-holder-on-white-surface-8533648/
+    image: https://images.pexels.com/photos/8533648/pexels-photo-8533648.jpeg
+    thumb: https://images.pexels.com/photos/8533648/pexels-photo-8533648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hanna Pad
+    creator_url: https://www.pexels.com/@anna-nekrashevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3613
+    height: 5420
+    aspect_class: '2:3'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: 435b471919191919
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.557
+    nearest:
+    - 92cfff35
+    - 597e7e0f
+    - aed110ba
+    - 7f219b61
+    - d7c195e6
+    - 20d3cfb3
+    - d2c5701b
+    - 6214962e
+    state: dropped
+    family_scores:
+      cinematic-still: 0.557
+      before-after: 0.326
+      vs-two-up: 0.268
+    best_family: cinematic-still
+    moved_from: graphic-collage
+    drop: near-dup of corpus b95353fc (hamming 9)
   pexels-8635724:
     url: https://www.pexels.com/photo/woman-standing-on-sunflower-field-during-sunset-8635724/
     image: https://images.pexels.com/photos/8635724/pexels-photo-8635724.jpeg
@@ -14762,6 +18823,47 @@ entries:
     best_family: cinematic-still
     sheet: cinematic-still-2aa228
     subject: person
+  pexels-8657441:
+    url: https://www.pexels.com/photo/woman-in-gray-long-sleeves-pouting-her-lips-8657441/
+    image: https://images.pexels.com/photos/8657441/pexels-photo-8657441.jpeg
+    thumb: https://images.pexels.com/photos/8657441/pexels-photo-8657441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Konstantin Mishchenko
+    creator_url: https://www.pexels.com/@aksioart
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5504
+    height: 8256
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 0f3b98cce44fcec6
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - da0bceaf
+    - 307c1492
+    - e1af1637
+    - 4b4df875
+    - 2af4af3e
+    - 598f6935
+    - 502e5e12
+    - 9bc8a759
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.482
+      cutout-checkerboard: 0.317
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-8671511:
     url: https://www.pexels.com/photo/man-with-shadow-of-a-hand-in-his-face-8671511/
     image: https://images.pexels.com/photos/8671511/pexels-photo-8671511.jpeg
@@ -14966,6 +19068,47 @@ entries:
     sheet: cinematic-still-7da3e4
     subject: person
     note: teal grade with red rim; clean film-still read
+  pexels-8727379:
+    url: https://www.pexels.com/photo/an-elderly-woman-with-her-serious-facial-expression-8727379/
+    image: https://images.pexels.com/photos/8727379/pexels-photo-8727379.jpeg
+    thumb: https://images.pexels.com/photos/8727379/pexels-photo-8727379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3866
+    height: 5799
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 100d4d8f170f078f
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.399
+    nearest:
+    - 598f6935
+    - da0bceaf
+    - 0f0e9817
+    - cddfb909
+    - 307c1492
+    - e1af1637
+    - 691c6644
+    - 0d3549f9
+    state: pending
+    family_scores:
+      cinematic-still: 0.399
+      graphic-collage: 0.179
+      before-after: 0.113
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-8755111:
     url: https://www.pexels.com/photo/slices-of-watermelon-on-blue-surface-8755111/
     image: https://images.pexels.com/photos/8755111/pexels-photo-8755111.jpeg
@@ -15050,6 +19193,47 @@ entries:
     sheet: cinematic-still-2f5c21
     subject: food
     note: yolk on blue seamless, hard directional light, yellow/blue like ref c3aaa9b3
+  pexels-8903716:
+    url: https://www.pexels.com/photo/plants-in-vases-8903716/
+    image: https://images.pexels.com/photos/8903716/pexels-photo-8903716.jpeg
+    thumb: https://images.pexels.com/photos/8903716/pexels-photo-8903716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4445
+    height: 6667
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 2cd265cce46198b4
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.629
+    nearest:
+    - fef1b03a
+    - d7c195e6
+    - aed110ba
+    - 7f219b61
+    - 58eb3266
+    - c242e2fd
+    - '64325027'
+    - f384e59d
+    state: pending
+    family_scores:
+      cinematic-still: 0.629
+      graphic-collage: 0.578
+      vs-two-up: 0.268
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-8963992:
     url: https://www.pexels.com/photo/glass-bottles-and-plate-of-strawberries-8963992/
     image: https://images.pexels.com/photos/8963992/pexels-photo-8963992.jpeg
@@ -15132,6 +19316,47 @@ entries:
     sheet: cinematic-still-7c19ad
     note: top-down flat-lay pattern
     drop: off-style (sheet answer)
+  pexels-9092308:
+    url: https://www.pexels.com/photo/a-portrait-of-a-man-in-a-white-shirt-9092308/
+    image: https://images.pexels.com/photos/9092308/pexels-photo-9092308.jpeg
+    thumb: https://images.pexels.com/photos/9092308/pexels-photo-9092308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Gustavo Rangel
+    creator_url: https://www.pexels.com/@gustavo-rangel-90236833
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 4d0f0e1b33270e0f
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.646
+    nearest:
+    - c6447fc2
+    - e1af1637
+    - 307c1492
+    - 373814d9
+    - 6c64016a
+    - 2903d1cf
+    - d95df979
+    - 403f157c
+    state: pending
+    family_scores:
+      cinematic-still: 0.646
+      graphic-collage: 0.179
+      before-after: 0.144
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-9100222:
     url: https://www.pexels.com/photo/man-in-a-dark-9100222/
     image: https://images.pexels.com/photos/9100222/pexels-photo-9100222.jpeg
@@ -15549,6 +19774,47 @@ entries:
     sheet: cinematic-still-353849
     subject: object
     note: neon bokeh night
+  pexels-9310743:
+    url: https://www.pexels.com/photo/woman-in-black-sleeveless-top-9310743/
+    image: https://images.pexels.com/photos/9310743/pexels-photo-9310743.jpeg
+    thumb: https://images.pexels.com/photos/9310743/pexels-photo-9310743.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Antonio Friedemann
+    creator_url: https://www.pexels.com/@toni
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: 70696c787c747424
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.603
+    nearest:
+    - 4b4df875
+    - 20d3cfb3
+    - 691c6644
+    - 494a80e2
+    - 2af4af3e
+    - a509d9ab
+    - 502e5e12
+    - d1102444
+    state: pending
+    family_scores:
+      cinematic-still: 0.603
+      before-after: 0.375
+      graphic-collage: 0.313
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-932644:
     url: https://www.pexels.com/photo/orange-light-bulb-on-rock-932644/
     image: https://images.pexels.com/photos/932644/pexels-photo-932644.jpeg
@@ -15673,6 +19939,89 @@ entries:
     sheet: cinematic-still-2cfaf3
     subject: food
     note: chiaroscuro still-life
+  pexels-9462348:
+    url: https://www.pexels.com/photo/plain-white-can-in-white-background-9462348/
+    image: https://images.pexels.com/photos/9462348/pexels-photo-9462348.jpeg
+    thumb: https://images.pexels.com/photos/9462348/pexels-photo-9462348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Леся Терехова
+    creator_url: https://www.pexels.com/@3170155
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 1f0f3b3939391907
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.521
+    nearest:
+    - d7c195e6
+    - c3aaa9b3
+    - 92cfff35
+    - ee82a094
+    - 54e9db90
+    - 6027c22c
+    - ff00ef5d
+    - 6778e5bf
+    state: dropped
+    family_scores:
+      cinematic-still: 0.521
+      graphic-collage: 0.179
+      vs-two-up: 0.158
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus a5a602fb (hamming 10)
+  pexels-9486842:
+    url: https://www.pexels.com/photo/portrait-of-woman-in-black-tank-top-9486842/
+    image: https://images.pexels.com/photos/9486842/pexels-photo-9486842.jpeg
+    thumb: https://images.pexels.com/photos/9486842/pexels-photo-9486842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROCKETMANN TEAM
+    creator_url: https://www.pexels.com/@rocketmann-prod
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2681
+    height: 4016
+    aspect_class: '2:3'
+    term: studio portrait solid color background
+    collected: '2026-09-16'
+    phash: b3e9ccc661f2d4c8
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - a0688108
+    - db317d05
+    - 9231a5f0
+    - 69d930ac
+    - a5d87058
+    - 0d3549f9
+    - 99d81409
+    - 379118c8
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.713
+      graphic-collage: 0.582
+    best_family: cinematic-still
+    moved_from: graphic-collage
   pexels-9502889:
     url: https://www.pexels.com/photo/close-up-shot-of-a-man-holding-a-light-bulb-9502889/
     image: https://images.pexels.com/photos/9502889/pexels-photo-9502889.jpeg
@@ -15757,6 +20106,169 @@ entries:
     sheet: cinematic-still-49ab97
     subject: person
     note: pink/teal neon glow; tubes are abstract loops with no legible text
+  pexels-9558597:
+    url: https://www.pexels.com/photo/woman-in-white-crew-neck-shirt-wearing-white-cap-9558597/
+    image: https://images.pexels.com/photos/9558597/pexels-photo-9558597.jpeg
+    thumb: https://images.pexels.com/photos/9558597/pexels-photo-9558597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 07030f3361692147
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 9bc8a759
+    - 2af4af3e
+    - 04a66e9b
+    - 3bc4d480
+    - 0937bae7
+    - f9669ed9
+    - '84634617'
+    - d95df979
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.57
+      cutout-checkerboard: 0.5
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-9558689:
+    url: https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-wearing-white-and-black-fitted-cap-9558689/
+    image: https://images.pexels.com/photos/9558689/pexels-photo-9558689.jpeg
+    thumb: https://images.pexels.com/photos/9558689/pexels-photo-9558689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 021773e3938ba3b2
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - d95df979
+    - 2903d1cf
+    - 9bc8a759
+    - 0937bae7
+    - e1af1637
+    - 307c1492
+    - c729da33
+    - 3bc4d480
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.455
+      cutout-checkerboard: 0.395
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+  pexels-9558763:
+    url: https://www.pexels.com/photo/woman-in-black-and-white-cap-9558763/
+    image: https://images.pexels.com/photos/9558763/pexels-photo-9558763.jpeg
+    thumb: https://images.pexels.com/photos/9558763/pexels-photo-9558763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 100d86d8c8c4ccb2
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.245
+    nearest:
+    - 7189ab4f
+    - 76b0a464
+    - 4326501f
+    - da0bceaf
+    - 1d484fc9
+    - 95f279aa
+    - 9bc8a759
+    - 9231a5f0
+    state: dropped
+    family_scores:
+      cinematic-still: 0.245
+      before-after: 0.177
+      graphic-collage: 0.092
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
+    drop: more than 3 from MART  PRODUCTION this pass
+  pexels-9558777:
+    url: https://www.pexels.com/photo/woman-in-white-crew-neck-t-shirt-and-blue-denim-jeans-wearing-white-cap-9558777/
+    image: https://images.pexels.com/photos/9558777/pexels-photo-9558777.jpeg
+    thumb: https://images.pexels.com/photos/9558777/pexels-photo-9558777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3885
+    height: 5827
+    aspect_class: '2:3'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 051b11430681a9e9
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 0937bae7
+    - d95df979
+    - '84634617'
+    - 9bc8a759
+    - e1af1637
+    - 307c1492
+    - f9669ed9
+    - e0c4ea7c
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.491
+      cutout-checkerboard: 0.426
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-9584793:
     url: https://www.pexels.com/photo/lens-flares-on-portrait-of-woman-by-river-9584793/
     image: https://images.pexels.com/photos/9584793/pexels-photo-9584793.jpeg
@@ -16008,6 +20520,47 @@ entries:
     sheet: cinematic-still-49272c
     subject: person
     note: sunset backlight
+  pexels-9775488:
+    url: https://www.pexels.com/photo/artistic-photo-of-a-young-man-in-white-clothing-9775488/
+    image: https://images.pexels.com/photos/9775488/pexels-photo-9775488.jpeg
+    thumb: https://images.pexels.com/photos/9775488/pexels-photo-9775488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: SHVETS production
+    creator_url: https://www.pexels.com/@shvets-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3545
+    height: 5318
+    aspect_class: '2:3'
+    term: portrait white background studio expressive
+    collected: '2026-09-16'
+    phash: cff3bb9bfce46076
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 3bc4d480
+    - 04a66e9b
+    - 2af4af3e
+    - 18aa4780
+    - d95df979
+    - db41482a
+    - 105e49d0
+    - 307c1492
+    state: pending
+    family_scores:
+      cinematic-still: 0.675
+      graphic-collage: 0.314
+      vs-two-up: 0.272
+    best_family: cinematic-still
+    moved_from: cutout-checkerboard
   pexels-9811075:
     url: https://www.pexels.com/photo/a-woman-in-turtle-neck-shirt-smiling-9811075/
     image: https://images.pexels.com/photos/9811075/pexels-photo-9811075.jpeg

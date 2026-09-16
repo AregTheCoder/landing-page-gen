@@ -1,5 +1,77 @@
 family: panel-overlay
 entries:
+  pexels-10989432:
+    url: https://www.pexels.com/photo/man-wearing-silver-cross-necklace-10989432/
+    image: https://images.pexels.com/photos/10989432/pexels-photo-10989432.jpeg
+    thumb: https://images.pexels.com/photos/10989432/pexels-photo-10989432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Joeyy B
+    creator_url: https://www.pexels.com/@joeyy-b-170430656
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 1f0f333337170747
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.108
+    nearest:
+    - '48531286'
+    - d1da1aae
+    - c249a42e
+    state: dropped
+    family_scores:
+      graphic-collage: 0.161
+      before-after: 0.123
+      panel-overlay: 0.108
+    best_family: graphic-collage
+    drop: near-dup of corpus 4b4d3546 (hamming 10)
+  pexels-12245821:
+    url: https://www.pexels.com/photo/corridor-in-modern-office-building-12245821/
+    image: https://images.pexels.com/photos/12245821/pexels-photo-12245821.jpeg
+    thumb: https://images.pexels.com/photos/12245821/pexels-photo-12245821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-16'
+    phash: 2f2f3f3f37331d9e
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.187
+    nearest:
+    - '48790089'
+    - d1da1aae
+    - 3f1d367d
+    state: dropped
+    family_scores:
+      dark-composite: 0.222
+      panel-overlay: 0.187
+      before-after: 0.123
+    best_family: dark-composite
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
   pexels-13327153:
     url: https://www.pexels.com/photo/a-woman-sitting-at-the-table-13327153/
     image: https://images.pexels.com/photos/13327153/pexels-photo-13327153.jpeg
@@ -39,3 +111,580 @@ entries:
     best_family: cinematic-still
     note: strong neon look but a large legible HUSTLE IN SILENCE sign
     moved_from: cinematic-still
+  pexels-14354712:
+    url: https://www.pexels.com/photo/close-up-photo-of-bald-man-smiling-in-purple-background-14354712/
+    image: https://images.pexels.com/photos/14354712/pexels-photo-14354712.jpeg
+    thumb: https://images.pexels.com/photos/14354712/pexels-photo-14354712.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Angel Fernandez
+    creator_url: https://www.pexels.com/@vafphotos
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2600
+    height: 1733
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 23735b696b3b4dc6
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.152
+    nearest:
+    - '27148736'
+    - c249a42e
+    - 4e30ac1a
+    state: dropped
+    family_scores:
+      panel-overlay: 0.152
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-14362429:
+    url: https://www.pexels.com/photo/pink-chinese-peony-in-bloom-14362429/
+    image: https://images.pexels.com/photos/14362429/pexels-photo-14362429.jpeg
+    thumb: https://images.pexels.com/photos/14362429/pexels-photo-14362429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Maria Annette
+    creator_url: https://www.pexels.com/@maria-annette-349378697
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3264
+    height: 2448
+    aspect_class: '4:3'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: cf476606032a0664
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 1d8867c2
+    - 3f1d367d
+    - 0e6fd8bb
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      before-after: 0.135
+      graphic-collage: 0.114
+    best_family: panel-overlay
+    moved_from: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-19226176:
+    url: https://www.pexels.com/photo/lampposts-against-colorful-background-19226176/
+    image: https://images.pexels.com/photos/19226176/pexels-photo-19226176.jpeg
+    thumb: https://images.pexels.com/photos/19226176/pexels-photo-19226176.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-16'
+    phash: 2f2c2d2f2f2f4f4f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.214
+    nearest:
+    - '48790089'
+    - 3f1d367d
+    - c249a42e
+    state: dropped
+    family_scores:
+      panel-overlay: 0.214
+      before-after: 0.172
+      crop-frame: 0.159
+    best_family: panel-overlay
+    drop: near-dup of corpus bd014004 (hamming 8)
+  pexels-20078064:
+    url: https://www.pexels.com/photo/living-room-with-a-designated-kids-space-20078064/
+    image: https://images.pexels.com/photos/20078064/pexels-photo-20078064.jpeg
+    thumb: https://images.pexels.com/photos/20078064/pexels-photo-20078064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Thới Nam Cao
+    creator_url: https://www.pexels.com/@thoinamcao
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4032
+    height: 3024
+    aspect_class: '4:3'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 1f8786c7ccc6b93b
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 506be643
+    - d1da1aae
+    - 548e38c0
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      crop-frame: 0.181
+      cutout-checkerboard: 0.18
+    best_family: panel-overlay
+    moved_from: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-29703512:
+    url: https://www.pexels.com/photo/colorful-abstract-iridescent-mosaic-texture-29703512/
+    image: https://images.pexels.com/photos/29703512/pexels-photo-29703512.jpeg
+    thumb: https://images.pexels.com/photos/29703512/pexels-photo-29703512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Magda Ehlers
+    creator_url: https://www.pexels.com/@magda-ehlers-pexels
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4032
+    height: 3024
+    aspect_class: '4:3'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 0b0f5b5d9fdb7b8e
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - '48790089'
+    - d1da1aae
+    - c249a42e
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      before-after: 0.135
+      cutout-checkerboard: 0.134
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-30543113:
+    url: https://www.pexels.com/photo/fashionable-woman-in-red-beret-against-yellow-wall-30543113/
+    image: https://images.pexels.com/photos/30543113/pexels-photo-30543113.jpeg
+    thumb: https://images.pexels.com/photos/30543113/pexels-photo-30543113.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Eduardo HernandezSoto
+    creator_url: https://www.pexels.com/@eduardo-hernandezsoto-1315528681
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5001
+    height: 3355
+    aspect_class: '3:2'
+    term: woman red outfit colorful wall fashion
+    collected: '2026-09-16'
+    phash: 1f6767e777736373
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.108
+    nearest:
+    - '27148736'
+    - '48790089'
+    - d1da1aae
+    state: dropped
+    family_scores:
+      before-after: 0.194
+      graphic-collage: 0.187
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32213649:
+    url: https://www.pexels.com/photo/fashionable-woman-in-vibrant-maxi-dress-outdoors-32213649/
+    image: https://images.pexels.com/photos/32213649/pexels-photo-32213649.jpeg
+    thumb: https://images.pexels.com/photos/32213649/pexels-photo-32213649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrea Musto
+    creator_url: https://www.pexels.com/@andrea-musto-135941147
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3543
+    height: 2362
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-16'
+    phash: 1404181c08180cac
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.108
+    nearest:
+    - '12481028'
+    - '27148736'
+    - '48790089'
+    state: dropped
+    family_scores:
+      before-after: 0.167
+      vs-two-up: 0.15
+      graphic-collage: 0.114
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-34163293:
+    url: https://www.pexels.com/photo/casual-outdoor-portrait-in-sunny-park-34163293/
+    image: https://images.pexels.com/photos/34163293/pexels-photo-34163293.jpeg
+    thumb: https://images.pexels.com/photos/34163293/pexels-photo-34163293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Guillermo Berlin
+    creator_url: https://www.pexels.com/@guillermo-berlin-1524368912
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5840
+    height: 4380
+    aspect_class: '4:3'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 3b3968cc3438181c
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 4e30ac1a
+    - 506be643
+    - c249a42e
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      vs-two-up: 0.153
+      before-after: 0.135
+    best_family: panel-overlay
+    moved_from: mockup-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-35226155:
+    url: https://www.pexels.com/photo/fashionable-woman-posing-against-yellow-wall-35226155/
+    image: https://images.pexels.com/photos/35226155/pexels-photo-35226155.jpeg
+    thumb: https://images.pexels.com/photos/35226155/pexels-photo-35226155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Astrid Sosa
+    creator_url: https://www.pexels.com/@astrid
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: woman red outfit colorful wall fashion
+    collected: '2026-09-16'
+    phash: 1f17b79696971f27
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: true
+    score: 0.0
+    nearest: []
+    state: dropped
+    family_scores:
+      before-after: 0.0
+      cinematic-still: 0.0
+      crop-frame: 0.0
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-36727369:
+    url: https://www.pexels.com/photo/woman-in-vibrant-african-print-skirt-outdoors-36727369/
+    image: https://images.pexels.com/photos/36727369/pexels-photo-36727369.jpeg
+    thumb: https://images.pexels.com/photos/36727369/pexels-photo-36727369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: abubakar mamman
+    creator_url: https://www.pexels.com/@abubakar-mamman-2148132108
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2857
+    aspect_class: '4:3'
+    term: woman striped skirt white shirt
+    collected: '2026-09-16'
+    phash: e80f193939394873
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - c249a42e
+    - '27148736'
+    - '12481028'
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      cutout-checkerboard: 0.139
+      before-after: 0.135
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-4555193:
+    url: https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-4555193/
+    image: https://images.pexels.com/photos/4555193/pexels-photo-4555193.jpeg
+    thumb: https://images.pexels.com/photos/4555193/pexels-photo-4555193.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Elīna Arāja
+    creator_url: https://www.pexels.com/@elina-araja-1743227
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2027
+    height: 2252
+    aspect_class: '1:1'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: b371713331d470b3
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.33
+    nearest:
+    - c249a42e
+    - 4e30ac1a
+    - '48531286'
+    state: pending
+    family_scores:
+      before-after: 0.363
+      graphic-collage: 0.34
+      vs-two-up: 0.334
+    best_family: before-after
+  pexels-67836:
+    url: https://www.pexels.com/photo/woman-in-grey-shirt-sitting-on-stadium-chair-67836/
+    image: https://images.pexels.com/photos/67836/stadium-football-viewers-olympic-stadium-67836.jpeg
+    thumb: https://images.pexels.com/photos/67836/stadium-football-viewers-olympic-stadium-67836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pixabay
+    creator_url: https://www.pexels.com/@pixabay
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2592
+    height: 1944
+    aspect_class: '4:3'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 0f1f2f71b304091f
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 3f1d367d
+    - '48790089'
+    - bc5e359e
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      before-after: 0.135
+      graphic-collage: 0.114
+    best_family: panel-overlay
+    moved_from: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7256596:
+    url: https://www.pexels.com/photo/a-close-up-shot-of-flamingos-7256596/
+    image: https://images.pexels.com/photos/7256596/pexels-photo-7256596.jpeg
+    thumb: https://images.pexels.com/photos/7256596/pexels-photo-7256596.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Petr Ganaj
+    creator_url: https://www.pexels.com/@ganajp
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5763
+    height: 4335
+    aspect_class: '4:3'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: b1b9533391db6f3f
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 506be643
+    - 1d8867c2
+    - 245b27b0
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      before-after: 0.135
+      graphic-collage: 0.114
+    best_family: panel-overlay
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7399879:
+    url: https://www.pexels.com/photo/man-gesturing-with-his-neon-outlined-hands-7399879/
+    image: https://images.pexels.com/photos/7399879/pexels-photo-7399879.jpeg
+    thumb: https://images.pexels.com/photos/7399879/pexels-photo-7399879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Maurício Mascaro
+    creator_url: https://www.pexels.com/@maumascaro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 879797d7df090623
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.108
+    nearest:
+    - c249a42e
+    - '27148736'
+    - 3f1d367d
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8093478:
+    url: https://www.pexels.com/photo/pink-flowers-in-close-up-photography-8093478/
+    image: https://images.pexels.com/photos/8093478/pexels-photo-8093478.jpeg
+    thumb: https://images.pexels.com/photos/8093478/pexels-photo-8093478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kindel Media
+    creator_url: https://www.pexels.com/@kindelmedia
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3888
+    aspect_class: '4:3'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: cf2b3135333325cb
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.182
+    nearest:
+    - 1d8867c2
+    - 0e6fd8bb
+    - dbebc97c
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      vs-two-up: 0.179
+      before-after: 0.166
+    best_family: panel-overlay
+    moved_from: prompt-card
+    drop: near-dup of corpus dfd22ac3 (hamming 10)
+  pexels-8108330:
+    url: https://www.pexels.com/photo/man-in-black-jacket-smiling-8108330/
+    image: https://images.pexels.com/photos/8108330/pexels-photo-8108330.jpeg
+    thumb: https://images.pexels.com/photos/8108330/pexels-photo-8108330.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5838
+    height: 3892
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: d6c6c6c6ccc8d0d1
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: black
+      layout: grid
+      panel_count: 4
+      before_after: false
+    score: 0.287
+    nearest:
+    - c249a42e
+    - '27148736'
+    - 4e30ac1a
+    state: pending
+    family_scores:
+      before-after: 0.317
+      vs-two-up: 0.296
+      panel-overlay: 0.287
+    best_family: before-after

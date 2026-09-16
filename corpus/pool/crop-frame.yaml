@@ -1,5 +1,1216 @@
 family: crop-frame
 entries:
+  pexels-10020438:
+    url: https://www.pexels.com/photo/a-black-mark-on-the-asphalt-road-10020438/
+    image: https://images.pexels.com/photos/10020438/pexels-photo-10020438.jpeg
+    thumb: https://images.pexels.com/photos/10020438/pexels-photo-10020438.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tom Fisk
+    creator_url: https://www.pexels.com/@tomfisk
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5239
+    height: 3531
+    aspect_class: '3:2'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 94240d3303266637
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - 3908cda1
+    - d93605b1
+    - d6c2f547
+    - 0016b432
+    - 5f91c6aa
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      vs-two-up: 0.117
+      graphic-collage: 0.114
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-10839667:
+    url: https://www.pexels.com/photo/photo-of-a-man-with-long-hair-10839667/
+    image: https://images.pexels.com/photos/10839667/pexels-photo-10839667.jpeg
+    thumb: https://images.pexels.com/photos/10839667/pexels-photo-10839667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mateo.iq
+    creator_url: https://www.pexels.com/@mateo-iq-160124164
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: young man basketball urban portrait
+    collected: '2026-09-16'
+    phash: 671b686551d4b233
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - b618ca32
+    - 5f91c6aa
+    - df6f0107
+    - fa2a98b6
+    - 6c64e373
+    - 9e4e068f
+    state: dropped
+    family_scores:
+      vs-two-up: 0.18
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-11897410:
+    url: https://www.pexels.com/photo/woman-holding-a-motorcycle-helmet-under-her-arm-11897410/
+    image: https://images.pexels.com/photos/11897410/pexels-photo-11897410.jpeg
+    thumb: https://images.pexels.com/photos/11897410/pexels-photo-11897410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Airam Dato-on
+    creator_url: https://www.pexels.com/@airamdphoto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3072
+    height: 2048
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 34f38c5212288c8d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 9e4e068f
+    - fa2a98b6
+    - b618ca32
+    - df6f0107
+    - 5f91c6aa
+    - d93605b1
+    state: dropped
+    family_scores:
+      before-after: 0.168
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-11922790:
+    url: https://www.pexels.com/photo/cloud-over-industrial-dam-11922790/
+    image: https://images.pexels.com/photos/11922790/pexels-photo-11922790.jpeg
+    thumb: https://images.pexels.com/photos/11922790/pexels-photo-11922790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Brett Sayles
+    creator_url: https://www.pexels.com/@brett-sayles
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6048
+    height: 4024
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 1383330d0721cace
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - d93605b1
+    - b95353fc
+    - 639e11c1
+    - 3908cda1
+    - d6c2f547
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-12277636:
+    url: https://www.pexels.com/photo/a-cushioned-chair-beside-white-wall-with-boarder-12277636/
+    image: https://images.pexels.com/photos/12277636/pexels-photo-12277636.jpeg
+    thumb: https://images.pexels.com/photos/12277636/pexels-photo-12277636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: dada _design
+    creator_url: https://www.pexels.com/@dada-_design-240566386
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4600
+    height: 3000
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 981c1f1f1f1f1f1f
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.417
+    nearest:
+    - 3908cda1
+    - 5b9be208
+    - a17cb6cd
+    - d009e3c0
+    - 639e11c1
+    - 54f94706
+    state: dropped
+    family_scores:
+      crop-frame: 0.417
+      cutout-checkerboard: 0.365
+      graphic-collage: 0.311
+    best_family: crop-frame
+    moved_from: editor-canvas
+    drop: near-dup of corpus 5b323474 (hamming 8)
+  pexels-12914280:
+    url: https://www.pexels.com/photo/glass-bowl-in-a-studio-12914280/
+    image: https://images.pexels.com/photos/12914280/pexels-photo-12914280.jpeg
+    thumb: https://images.pexels.com/photos/12914280/pexels-photo-12914280.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: iJoxi  Studios
+    creator_url: https://www.pexels.com/@ijoxi-studios-274852259
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4500
+    height: 2532
+    aspect_class: '16:9'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0703030301989828
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.188
+    nearest:
+    - 3908cda1
+    - a17cb6cd
+    - d009e3c0
+    - fc1a07de
+    - d6c2f547
+    - 0016b432
+    state: dropped
+    family_scores:
+      crop-frame: 0.188
+      graphic-collage: 0.179
+      cutout-checkerboard: 0.147
+    best_family: crop-frame
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-13146583:
+    url: https://www.pexels.com/photo/a-man-wearing-face-mask-and-eyeglasses-13146583/
+    image: https://images.pexels.com/photos/13146583/pexels-photo-13146583.jpeg
+    thumb: https://images.pexels.com/photos/13146583/pexels-photo-13146583.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rogelio RA
+    creator_url: https://www.pexels.com/@rogelio-ra-288924965
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: 71e333336a687930
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 5f91c6aa
+    - d009e3c0
+    - 9e4e068f
+    - 639e11c1
+    - ee36e3a1
+    - d93605b1
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-13334083:
+    url: https://www.pexels.com/photo/drone-shot-of-a-man-walking-on-the-sidewalk-13334083/
+    image: https://images.pexels.com/photos/13334083/pexels-photo-13334083.jpeg
+    thumb: https://images.pexels.com/photos/13334083/pexels-photo-13334083.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Soner Arkan
+    creator_url: https://www.pexels.com/@soner-arkan-277045183
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2670
+    aspect_class: '3:2'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 0c0418133767c50f
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d93605b1
+    - 0016b432
+    - d6c2f547
+    - d009e3c0
+    - 54f94706
+    - 639e11c1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.173
+      graphic-collage: 0.167
+      before-after: 0.163
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-13901890:
+    url: https://www.pexels.com/photo/a-red-sign-on-a-wall-13901890/
+    image: https://images.pexels.com/photos/13901890/pexels-photo-13901890.jpeg
+    thumb: https://images.pexels.com/photos/13901890/pexels-photo-13901890.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 090905191b0d0909
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - b95353fc
+    - d009e3c0
+    - d93605b1
+    - 639e11c1
+    - b77d8d7c
+    - 54f94706
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: near-dup of corpus 4c4bdae9 (hamming 8)
+  pexels-14052653:
+    url: https://www.pexels.com/photo/bright-wall-with-stripes-14052653/
+    image: https://images.pexels.com/photos/14052653/pexels-photo-14052653.jpeg
+    thumb: https://images.pexels.com/photos/14052653/pexels-photo-14052653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 6d6d8d0d0d0d0d15
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.225
+    nearest:
+    - d009e3c0
+    - b95353fc
+    - 3908cda1
+    - d93605b1
+    - 639e11c1
+    - a17cb6cd
+    state: dropped
+    family_scores:
+      vs-two-up: 0.24
+      crop-frame: 0.225
+      editor-canvas: 0.157
+    best_family: vs-two-up
+    drop: near-dup of corpus 1d22f0c9 (hamming 9)
+  pexels-14076244:
+    url: https://www.pexels.com/photo/polka-dots-painting-over-a-corrugated-steel-wall-14076244/
+    image: https://images.pexels.com/photos/14076244/pexels-photo-14076244.jpeg
+    thumb: https://images.pexels.com/photos/14076244/pexels-photo-14076244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ann Perkas
+    creator_url: https://www.pexels.com/@annpeach
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5328
+    height: 4000
+    aspect_class: '4:3'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: cca2e3d290228a92
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.336
+    nearest:
+    - d009e3c0
+    - b95353fc
+    - 639e11c1
+    - d93605b1
+    - 3908cda1
+    - 0016b432
+    state: pending
+    family_scores:
+      dark-composite: 0.411
+      panel-overlay: 0.337
+      crop-frame: 0.336
+    best_family: dark-composite
+  pexels-14128506:
+    url: https://www.pexels.com/photo/steel-lamp-against-metal-wall-with-stripes-14128506/
+    image: https://images.pexels.com/photos/14128506/pexels-photo-14128506.jpeg
+    thumb: https://images.pexels.com/photos/14128506/pexels-photo-14128506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: '2524242424242424'
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.31
+    nearest:
+    - d009e3c0
+    - a17cb6cd
+    - 3908cda1
+    - b95353fc
+    - 0016b432
+    - d6c2f547
+    state: dropped
+    family_scores:
+      crop-frame: 0.31
+      before-after: 0.254
+      graphic-collage: 0.173
+    best_family: crop-frame
+    drop: near-dup of corpus 1310b66c (hamming 6)
+  pexels-1590075:
+    url: https://www.pexels.com/photo/photo-of-woman-sitting-on-gray-bleacher-chair-1590075/
+    image: https://images.pexels.com/photos/1590075/pexels-photo-1590075.jpeg
+    thumb: https://images.pexels.com/photos/1590075/pexels-photo-1590075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Dương Nhân
+    creator_url: https://www.pexels.com/@d-ng-nhan-324384
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3337
+    height: 2225
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 1a19a9a9b9393968
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - df6f0107
+    - fa2a98b6
+    - 5f91c6aa
+    - eadb151d
+    - d93605b1
+    - 9e4e068f
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-16052752:
+    url: https://www.pexels.com/photo/red-door-in-a-corrugated-gray-wall-16052752/
+    image: https://images.pexels.com/photos/16052752/pexels-photo-16052752.jpeg
+    thumb: https://images.pexels.com/photos/16052752/pexels-photo-16052752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 00908125b21a1a3a
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.058
+    nearest:
+    - d009e3c0
+    - b95353fc
+    - 3908cda1
+    - d93605b1
+    - a17cb6cd
+    - 639e11c1
+    state: dropped
+    family_scores:
+      before-after: 0.143
+      vs-two-up: 0.074
+      graphic-collage: 0.068
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-16091929:
+    url: https://www.pexels.com/photo/patterned-siding-in-sunlight-16091929/
+    image: https://images.pexels.com/photos/16091929/pexels-photo-16091929.jpeg
+    thumb: https://images.pexels.com/photos/16091929/pexels-photo-16091929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 90b1b58189919181
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.161
+    nearest:
+    - b95353fc
+    - d009e3c0
+    - 3908cda1
+    - d93605b1
+    - 54f94706
+    - 0016b432
+    state: dropped
+    family_scores:
+      vs-two-up: 0.205
+      panel-overlay: 0.167
+      crop-frame: 0.161
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-16694138:
+    url: https://www.pexels.com/photo/man-with-gray-hair-16694138/
+    image: https://images.pexels.com/photos/16694138/pexels-photo-16694138.jpeg
+    thumb: https://images.pexels.com/photos/16694138/pexels-photo-16694138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Juan Sebastián González R.
+    creator_url: https://www.pexels.com/@juan-sebastian-gonzalez-r-327514956
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5654
+    height: 3011
+    aspect_class: '16:9'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: 0b272d4d0d4d4d0d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 2a96c113
+    - 639e11c1
+    - 9e4e068f
+    - 738d1d58
+    - ee36e3a1
+    - fa2a98b6
+    state: dropped
+    family_scores:
+      graphic-collage: 0.179
+      before-after: 0.113
+      editor-canvas: 0.1
+    best_family: graphic-collage
+    drop: near-dup of corpus 10928a1c (hamming 9)
+  pexels-19380780:
+    url: https://www.pexels.com/photo/a-close-up-of-a-colorful-pink-red-rose-19380780/
+    image: https://images.pexels.com/photos/19380780/pexels-photo-19380780.jpeg
+    thumb: https://images.pexels.com/photos/19380780/pexels-photo-19380780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wyxina Tresse
+    creator_url: https://www.pexels.com/@wyxina-tresse-311038210
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 938d4e4e1e1f270e
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.612
+    nearest:
+    - 0016b432
+    - d6c2f547
+    - d009e3c0
+    - d93605b1
+    - 6c64e373
+    - 3908cda1
+    state: pending
+    family_scores:
+      crop-frame: 0.612
+      graphic-collage: 0.538
+      editor-canvas: 0.478
+    best_family: crop-frame
+    moved_from: editor-canvas
+  pexels-24022855:
+    url: https://www.pexels.com/photo/a-close-up-of-a-pink-rose-flower-in-bloom-24022855/
+    image: https://images.pexels.com/photos/24022855/pexels-photo-24022855.jpeg
+    thumb: https://images.pexels.com/photos/24022855/pexels-photo-24022855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wyxina Tresse
+    creator_url: https://www.pexels.com/@wyxina-tresse-311038210
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 320e1f17070f0d0e
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.338
+    nearest:
+    - 0016b432
+    - d6c2f547
+    - d009e3c0
+    - d93605b1
+    - b95353fc
+    - 63e561f8
+    state: dropped
+    family_scores:
+      crop-frame: 0.338
+      cutout-checkerboard: 0.295
+      vs-two-up: 0.268
+    best_family: crop-frame
+    moved_from: editor-canvas
+    drop: more than 3 from Wyxina Tresse this pass
+  pexels-2526663:
+    url: https://www.pexels.com/photo/man-in-white-t-shirt-and-blue-jeans-holding-gray-umbrella-2526663/
+    image: https://images.pexels.com/photos/2526663/pexels-photo-2526663.jpeg
+    thumb: https://images.pexels.com/photos/2526663/pexels-photo-2526663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: William Gan
+    creator_url: https://www.pexels.com/@whgan017
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 4000
+    aspect_class: '1:1'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 0600131b272027c4
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.33
+    nearest:
+    - 5f91c6aa
+    - d009e3c0
+    - d93605b1
+    - 0016b432
+    - d6c2f547
+    - 639e11c1
+    state: pending
+    family_scores:
+      vs-two-up: 0.423
+      before-after: 0.363
+      graphic-collage: 0.34
+    best_family: vs-two-up
+  pexels-27726313:
+    url: https://www.pexels.com/photo/a-close-up-of-a-pink-rose-flower-in-bloom-27726313/
+    image: https://images.pexels.com/photos/27726313/pexels-photo-27726313.jpeg
+    thumb: https://images.pexels.com/photos/27726313/pexels-photo-27726313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wyxina Tresse
+    creator_url: https://www.pexels.com/@wyxina-tresse-311038210
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 4c8d37262b9f9c58
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.497
+    nearest:
+    - d6c2f547
+    - 0016b432
+    - d009e3c0
+    - b95353fc
+    - d93605b1
+    - 2a96c113
+    state: pending
+    family_scores:
+      crop-frame: 0.497
+      before-after: 0.368
+      editor-canvas: 0.349
+    best_family: crop-frame
+    moved_from: editor-canvas
+  pexels-32408683:
+    url: https://www.pexels.com/photo/portrait-of-woman-in-orange-dress-by-fence-32408683/
+    image: https://images.pexels.com/photos/32408683/pexels-photo-32408683.jpeg
+    thumb: https://images.pexels.com/photos/32408683/pexels-photo-32408683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kazys Photography
+    creator_url: https://www.pexels.com/@kazys-photography-2151238955
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3888
+    height: 2592
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 939b32331334b5b3
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 6c64e373
+    - 639e11c1
+    - c78690a2
+    - df6f0107
+    - b618ca32
+    - 738d1d58
+    state: pending
+    family_scores:
+      graphic-collage: 0.156
+      before-after: 0.123
+      panel-overlay: 0.108
+    best_family: graphic-collage
+    explored: true
+  pexels-33045179:
+    url: https://www.pexels.com/photo/elegant-pink-rose-in-dramatic-low-light-33045179/
+    image: https://images.pexels.com/photos/33045179/pexels-photo-33045179.jpeg
+    thumb: https://images.pexels.com/photos/33045179/pexels-photo-33045179.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ilas
+    creator_url: https://www.pexels.com/@valentin-ilas-2154050328
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8448
+    height: 6336
+    aspect_class: '4:3'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 4870485dcd4d3214
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.496
+    nearest:
+    - 0016b432
+    - d6c2f547
+    - d009e3c0
+    - d93605b1
+    - b95353fc
+    - 3908cda1
+    state: pending
+    family_scores:
+      crop-frame: 0.496
+      graphic-collage: 0.342
+      before-after: 0.321
+    best_family: crop-frame
+    moved_from: editor-canvas
+  pexels-33831607:
+    url: https://www.pexels.com/photo/portrait-of-a-young-man-in-front-of-wooden-wall-33831607/
+    image: https://images.pexels.com/photos/33831607/pexels-photo-33831607.jpeg
+    thumb: https://images.pexels.com/photos/33831607/pexels-photo-33831607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Eyüpcan Timur
+    creator_url: https://www.pexels.com/@eyupcan-timur-424989336
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5890
+    height: 3926
+    aspect_class: '3:2'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: 296c740f0f2f2d2d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 5f91c6aa
+    - 9e4e068f
+    - 639e11c1
+    - d93605b1
+    - b0a87ed7
+    - fa2a98b6
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-34502998:
+    url: https://www.pexels.com/photo/bright-red-corrugated-metal-wall-with-drainpipe-34502998/
+    image: https://images.pexels.com/photos/34502998/pexels-photo-34502998.jpeg
+    thumb: https://images.pexels.com/photos/34502998/pexels-photo-34502998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2795
+    height: 1863
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 6f6f6f6f6f6f6d6d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.144
+    nearest:
+    - b95353fc
+    - d009e3c0
+    - d93605b1
+    - 3908cda1
+    - b77d8d7c
+    - 639e11c1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.167
+      crop-frame: 0.144
+      before-after: 0.123
+    best_family: vs-two-up
+    drop: near-dup of corpus 8f0040a2 (hamming 7)
+  pexels-34596275:
+    url: https://www.pexels.com/photo/aerial-view-of-road-construction-in-chattanooga-34596275/
+    image: https://images.pexels.com/photos/34596275/pexels-photo-34596275.jpeg
+    thumb: https://images.pexels.com/photos/34596275/pexels-photo-34596275.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: K
+    creator_url: https://www.pexels.com/@kelly
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8184
+    height: 4600
+    aspect_class: '16:9'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 2d2e3b9b9ad9d9d9
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - b95353fc
+    - d93605b1
+    - 5f91c6aa
+    - 2a96c113
+    - a6439ac4
+    state: pending
+    family_scores:
+      graphic-collage: 0.179
+      before-after: 0.113
+      editor-canvas: 0.1
+    best_family: graphic-collage
+    explored: true
+  pexels-36563477:
+    url: https://www.pexels.com/photo/solitude-in-an-empty-stadium-seating-36563477/
+    image: https://images.pexels.com/photos/36563477/pexels-photo-36563477.jpeg
+    thumb: https://images.pexels.com/photos/36563477/pexels-photo-36563477.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jolenne Trieu
+    creator_url: https://www.pexels.com/@jolennetrieu
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 336b253a3a5ee9ad
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - 639e11c1
+    - 3908cda1
+    - 54f94706
+    - d6c2f547
+    - 0016b432
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      vs-two-up: 0.118
+      graphic-collage: 0.114
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-3752027:
+    url: https://www.pexels.com/photo/gold-round-bottle-top-on-black-surface-3752027/
+    image: https://images.pexels.com/photos/3752027/pexels-photo-3752027.jpeg
+    thumb: https://images.pexels.com/photos/3752027/pexels-photo-3752027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Miguel Á. Padriñán
+    creator_url: https://www.pexels.com/@padrinan
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6016
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 0f0f170f0f170f07
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.23
+    nearest:
+    - 4c0b8b9b
+    - d6c2f547
+    - 0016b432
+    - 54f94706
+    - 3908cda1
+    - d009e3c0
+    state: dropped
+    family_scores:
+      crop-frame: 0.23
+      editor-canvas: 0.126
+      vs-two-up: 0.121
+    best_family: crop-frame
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus f44dc281 (hamming 3)
+  pexels-37692357:
+    url: https://www.pexels.com/photo/close-up-of-pink-peony-flowers-in-bloom-37692357/
+    image: https://images.pexels.com/photos/37692357/pexels-photo-37692357.jpeg
+    thumb: https://images.pexels.com/photos/37692357/pexels-photo-37692357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nika Benedictova
+    creator_url: https://www.pexels.com/@nika-benedictova-24565203
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4928
+    height: 3264
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: d6e76bcf4b439eb0
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.641
+    nearest:
+    - d6c2f547
+    - 0016b432
+    - d009e3c0
+    - b95353fc
+    - d93605b1
+    - 4c0b8b9b
+    state: pending
+    family_scores:
+      crop-frame: 0.641
+      editor-canvas: 0.586
+      cutout-checkerboard: 0.581
+    best_family: crop-frame
+    moved_from: prompt-card
+  pexels-38169662:
+    url: https://www.pexels.com/photo/blooming-pink-peony-in-dark-foliage-38169662/
+    image: https://images.pexels.com/photos/38169662/pexels-photo-38169662.jpeg
+    thumb: https://images.pexels.com/photos/38169662/pexels-photo-38169662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Irina Iriser
+    creator_url: https://www.pexels.com/@iriser
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6365
+    height: 4243
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 7148cd968e4d3bb3
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.491
+    nearest:
+    - d6c2f547
+    - 0016b432
+    - d009e3c0
+    - d93605b1
+    - 2a96c113
+    - 3908cda1
+    state: pending
+    family_scores:
+      crop-frame: 0.491
+      graphic-collage: 0.483
+      before-after: 0.446
+    best_family: crop-frame
+    moved_from: editor-canvas
+  pexels-39425288:
+    url: https://www.pexels.com/photo/lavender-bush-against-corrugated-wall-in-kapunda-39425288/
+    image: https://images.pexels.com/photos/39425288/pexels-photo-39425288.jpeg
+    thumb: https://images.pexels.com/photos/39425288/pexels-photo-39425288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ~* gEm  *~
+    creator_url: https://www.pexels.com/@gem-644771370
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 0607220391b0a22d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - 0016b432
+    - d6c2f547
+    - b95353fc
+    - 3908cda1
+    - a17cb6cd
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-5416145:
+    url: https://www.pexels.com/photo/full-shot-of-rusty-wall-5416145/
+    image: https://images.pexels.com/photos/5416145/pexels-photo-5416145.jpeg
+    thumb: https://images.pexels.com/photos/5416145/pexels-photo-5416145.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: James Frid
+    creator_url: https://www.pexels.com/@james-frid-81279
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6571
+    height: 4381
+    aspect_class: '3:2'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 2e2e2c3c36565672
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - d009e3c0
+    - 3908cda1
+    - d93605b1
+    - b95353fc
+    - 639e11c1
+    - 54f94706
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
   pexels-5755672:
     url: https://www.pexels.com/photo/unrecognizable-female-in-wooden-frames-placed-on-sandy-dune-5755672/
     image: https://images.pexels.com/photos/5755672/pexels-photo-5755672.jpeg
@@ -42,3 +1253,309 @@ entries:
     subject: scene
     note: desaturated pastel dune
     moved_from: cinematic-still
+  pexels-5922561:
+    url: https://www.pexels.com/photo/close-up-of-a-pink-peony-flower-5922561/
+    image: https://images.pexels.com/photos/5922561/pexels-photo-5922561.jpeg
+    thumb: https://images.pexels.com/photos/5922561/pexels-photo-5922561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mohan Nannapaneni
+    creator_url: https://www.pexels.com/@mnannapaneni
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: 08304c0c06347224
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.252
+    nearest:
+    - d6c2f547
+    - 0016b432
+    - d009e3c0
+    - 2a96c113
+    - b95353fc
+    - 3908cda1
+    state: pending
+    family_scores:
+      crop-frame: 0.252
+      vs-two-up: 0.206
+      editor-canvas: 0.145
+    best_family: crop-frame
+    moved_from: prompt-card
+  pexels-5942889:
+    url: https://www.pexels.com/photo/a-girl-standing-in-front-of-a-mural-painting-5942889/
+    image: https://images.pexels.com/photos/5942889/pexels-photo-5942889.jpeg
+    thumb: https://images.pexels.com/photos/5942889/pexels-photo-5942889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Flávio Santos
+    creator_url: https://www.pexels.com/@officialflavio
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4741
+    height: 3161
+    aspect_class: '3:2'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: c0911d09ed8f4ecc
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - fa2a98b6
+    - d6c2f547
+    - 0016b432
+    - 6c64e373
+    - 9e4e068f
+    - d009e3c0
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8126957:
+    url: https://www.pexels.com/photo/man-in-jacket-on-red-background-8126957/
+    image: https://images.pexels.com/photos/8126957/pexels-photo-8126957.jpeg
+    thumb: https://images.pexels.com/photos/8126957/pexels-photo-8126957.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: fcec5ade969696cc
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 639e11c1
+    - 738d1d58
+    - c78690a2
+    - df6f0107
+    - 39c8ee3b
+    - 2a96c113
+    state: dropped
+    family_scores:
+      before-after: 0.125
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8980775:
+    url: https://www.pexels.com/photo/bearded-man-in-gray-shirt-looking-at-camera-while-holding-a-basketball-8980775/
+    image: https://images.pexels.com/photos/8980775/pexels-photo-8980775.jpeg
+    thumb: https://images.pexels.com/photos/8980775/pexels-photo-8980775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: PNW Production
+    creator_url: https://www.pexels.com/@pnw-prod
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: young man basketball urban portrait
+    collected: '2026-09-16'
+    phash: 10b337f4e3c46065
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - df6f0107
+    - 7f72e491
+    - 639e11c1
+    - b618ca32
+    - 9e4e068f
+    - ee36e3a1
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9440473:
+    url: https://www.pexels.com/photo/multi-colored-tableware-9440473/
+    image: https://images.pexels.com/photos/9440473/pexels-photo-9440473.jpeg
+    thumb: https://images.pexels.com/photos/9440473/pexels-photo-9440473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DRAKE NICOLLS
+    creator_url: https://www.pexels.com/@drakenicolls
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3264
+    height: 3264
+    aspect_class: '1:1'
+    term: colorful kitchenware pastel background
+    collected: '2026-09-16'
+    phash: 193894084a93f318
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.49
+    nearest:
+    - 4c0b8b9b
+    - 54f94706
+    - b95353fc
+    - b77d8d7c
+    - a17cb6cd
+    - 3908cda1
+    state: pending
+    family_scores:
+      crop-frame: 0.49
+      cutout-checkerboard: 0.479
+      before-after: 0.46
+    best_family: crop-frame
+    moved_from: prompt-card
+  pexels-9550520:
+    url: https://www.pexels.com/photo/man-standing-on-a-empty-road-9550520/
+    image: https://images.pexels.com/photos/9550520/pexels-photo-9550520.jpeg
+    thumb: https://images.pexels.com/photos/9550520/pexels-photo-9550520.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ivan Larin
+    creator_url: https://www.pexels.com/@ivan-larin-77752766
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3035
+    height: 2276
+    aspect_class: '4:3'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 17333168eceaea69
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: true
+    score: 0.0
+    nearest: []
+    state: dropped
+    family_scores:
+      before-after: 0.0
+      cinematic-still: 0.0
+      crop-frame: 0.0
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9703581:
+    url: https://www.pexels.com/photo/adult-woman-sitting-on-chair-outside-9703581/
+    image: https://images.pexels.com/photos/9703581/pexels-photo-9703581.jpeg
+    thumb: https://images.pexels.com/photos/9703581/pexels-photo-9703581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Airam Dato-on
+    creator_url: https://www.pexels.com/@airamdphoto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3072
+    height: 2048
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 0606235a0b62532d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 9e4e068f
+    - fa2a98b6
+    - 639e11c1
+    - df6f0107
+    - d009e3c0
+    - 3908cda1
+    state: dropped
+    family_scores:
+      before-after: 0.14
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9887430:
+    url: https://www.pexels.com/photo/a-woman-sitting-on-bleachers-9887430/
+    image: https://images.pexels.com/photos/9887430/pexels-photo-9887430.jpeg
+    thumb: https://images.pexels.com/photos/9887430/pexels-photo-9887430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Саша Круглая
+    creator_url: https://www.pexels.com/@alexkrugla
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4928
+    height: 3264
+    aspect_class: '3:2'
+    term: woman stadium seats portrait
+    collected: '2026-09-16'
+    phash: 3fad278bd1706bf3
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.08
+    nearest:
+    - 639e11c1
+    - d009e3c0
+    - d6c2f547
+    - 0016b432
+    - 39c8ee3b
+    - fa2a98b6
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)

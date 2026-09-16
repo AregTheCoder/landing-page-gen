@@ -1,5 +1,725 @@
 family: editor-canvas
 entries:
+  pexels-10175156:
+    url: https://www.pexels.com/photo/white-wooden-bench-beside-green-wall-10175156/
+    image: https://images.pexels.com/photos/10175156/pexels-photo-10175156.jpeg
+    thumb: https://images.pexels.com/photos/10175156/pexels-photo-10175156.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: A D
+    creator_url: https://www.pexels.com/@adrien
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5078
+    height: 3385
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 0f0f0f0b0b090905
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 927193e3
+    - '82576960'
+    - '95704440'
+    - '76440186'
+    - 122adc7e
+    - 5770afcd
+    - 31ad13c3
+    state: dropped
+    family_scores:
+      graphic-collage: 0.147
+      before-after: 0.123
+      panel-overlay: 0.108
+    best_family: graphic-collage
+    drop: near-dup of corpus bd014004 (hamming 8)
+  pexels-10378460:
+    url: https://www.pexels.com/photo/low-angle-shot-of-woman-in-black-jacket-and-black-sunglasses-10378460/
+    image: https://images.pexels.com/photos/10378460/pexels-photo-10378460.jpeg
+    thumb: https://images.pexels.com/photos/10378460/pexels-photo-10378460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 10767370506262f3
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.444
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 122adc7e
+    - 011fb16f
+    - 35b5e9f3
+    - 927193e3
+    - cf4224b1
+    state: dropped
+    family_scores:
+      editor-canvas: 0.444
+      before-after: 0.424
+      graphic-collage: 0.321
+    best_family: editor-canvas
+    moved_from: model-card
+    drop: more than 3 from cottonbro studio this pass
+  pexels-10892990:
+    url: https://www.pexels.com/photo/photograph-of-wooden-chairs-near-a-wall-10892990/
+    image: https://images.pexels.com/photos/10892990/pexels-photo-10892990.jpeg
+    thumb: https://images.pexels.com/photos/10892990/pexels-photo-10892990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5887
+    height: 3925
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 0707070b0f070b03
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 927193e3
+    - '82576960'
+    - 68ac744f
+    - 19ef9fad
+    - 234929a2
+    - '95704440'
+    - 65ba628b
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: near-dup of corpus b2749949 (hamming 9)
+  pexels-10978535:
+    url: https://www.pexels.com/photo/man-standing-in-front-of-graffiti-10978535/
+    image: https://images.pexels.com/photos/10978535/pexels-photo-10978535.jpeg
+    thumb: https://images.pexels.com/photos/10978535/pexels-photo-10978535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Linneas Boland-Godbey
+    creator_url: https://www.pexels.com/@linneas-boland-godbey-107473144
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: person standing in front of colorful wall
+    collected: '2026-09-16'
+    phash: 39296d151595d797
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.203
+    nearest:
+    - '95704440'
+    - '82576960'
+    - cf4224b1
+    - 927193e3
+    - 8cbfbb5d
+    - '76440186'
+    - 011fb16f
+    state: dropped
+    family_scores:
+      editor-canvas: 0.203
+      cutout-checkerboard: 0.19
+      vs-two-up: 0.163
+    best_family: editor-canvas
+    moved_from: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-12628400:
+    url: https://www.pexels.com/photo/pair-of-new-white-snickers-from-nike-12628400/
+    image: https://images.pexels.com/photos/12628400/pexels-photo-12628400.jpeg
+    thumb: https://images.pexels.com/photos/12628400/pexels-photo-12628400.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: HamZa NOUASRIA
+    creator_url: https://www.pexels.com/@hamza01nsr
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 1827472f3736b846
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.432
+    nearest:
+    - a6b02f5d
+    - 133128a4
+    - '95704440'
+    - 35b5e9f3
+    - '82576960'
+    - 4b84a00e
+    - f8b7e8f3
+    state: pending
+    family_scores:
+      editor-canvas: 0.432
+      vs-two-up: 0.265
+      cinematic-still: 0.26
+    best_family: editor-canvas
+    moved_from: cutout-checkerboard
+  pexels-12696505:
+    url: https://www.pexels.com/photo/naked-man-on-neon-sign-background-12696505/
+    image: https://images.pexels.com/photos/12696505/pexels-photo-12696505.jpeg
+    thumb: https://images.pexels.com/photos/12696505/pexels-photo-12696505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nikita Skripnik
+    creator_url: https://www.pexels.com/@lunariomus
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5584
+    height: 3723
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 2f2f2f2f2f4f672f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.471
+    nearest:
+    - 011fb16f
+    - 86c853b4
+    - '82576960'
+    - '95704440'
+    - cf4224b1
+    - 5770afcd
+    - 927193e3
+    state: dropped
+    family_scores:
+      editor-canvas: 0.471
+      graphic-collage: 0.35
+      panel-overlay: 0.326
+    best_family: editor-canvas
+    moved_from: panel-overlay
+    drop: near-dup of corpus bd014004 (hamming 4)
+  pexels-13272754:
+    url: https://www.pexels.com/photo/a-person-holding-a-white-dropper-bottle-13272754/
+    image: https://images.pexels.com/photos/13272754/pexels-photo-13272754.jpeg
+    thumb: https://images.pexels.com/photos/13272754/pexels-photo-13272754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Element Apothec
+    creator_url: https://www.pexels.com/@element-apothec-275580249
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 14000
+    height: 14000
+    aspect_class: '1:1'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 5824245a99989a94
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.805
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - '82576960'
+    - '95704440'
+    - 122adc7e
+    - 3835c687
+    - 68ac744f
+    state: pending
+    family_scores:
+      editor-canvas: 0.805
+      vs-two-up: 0.803
+      before-after: 0.79
+    best_family: editor-canvas
+    moved_from: dark-composite
+  pexels-14412667:
+    url: https://www.pexels.com/photo/beautiful-flowers-with-petals-14412667/
+    image: https://images.pexels.com/photos/14412667/pexels-photo-14412667.jpeg
+    thumb: https://images.pexels.com/photos/14412667/pexels-photo-14412667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Irina Iriser
+    creator_url: https://www.pexels.com/@iriser
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 0d4d8e36260644e8
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.093
+    nearest:
+    - 2d4a4641
+    - 927193e3
+    - '82576960'
+    - 1d3ef5b7
+    - 1f9ea0e7
+    - ee7ad2e6
+    - '95704440'
+    state: dropped
+    family_scores:
+      vs-two-up: 0.137
+      before-after: 0.119
+      panel-overlay: 0.095
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-1531544:
+    url: https://www.pexels.com/photo/man-standing-beside-a-white-car-1531544/
+    image: https://images.pexels.com/photos/1531544/pexels-photo-1531544.jpeg
+    thumb: https://images.pexels.com/photos/1531544/pexels-photo-1531544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Walid Ahmad
+    creator_url: https://www.pexels.com/@walidphotoz
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4032
+    height: 2600
+    aspect_class: '16:10'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 0e3f1f1d399bc9c9
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.363
+    nearest:
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - '95704440'
+    - 122adc7e
+    - '82576960'
+    - 011fb16f
+    state: pending
+    family_scores:
+      editor-canvas: 0.363
+      vs-two-up: 0.358
+      dark-composite: 0.268
+    best_family: editor-canvas
+    moved_from: crop-frame
+  pexels-16042675:
+    url: https://www.pexels.com/photo/yellow-podium-16042675/
+    image: https://images.pexels.com/photos/16042675/pexels-photo-16042675.jpeg
+    thumb: https://images.pexels.com/photos/16042675/pexels-photo-16042675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: IP Creative
+    creator_url: https://www.pexels.com/@ip-creative-495856013
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3750
+    height: 3000
+    aspect_class: '5:4'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 000040246cc68366
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.618
+    nearest:
+    - 1f9ea0e7
+    - 19ef9fad
+    - 3835c687
+    - 95f67986
+    - 24e4540f
+    - 68ac744f
+    - 927193e3
+    state: pending
+    family_scores:
+      editor-canvas: 0.618
+      graphic-collage: 0.514
+      dark-composite: 0.498
+    best_family: editor-canvas
+    moved_from: prompt-card
+  pexels-16059552:
+    url: https://www.pexels.com/photo/white-green-podium-16059552/
+    image: https://images.pexels.com/photos/16059552/pexels-photo-16059552.jpeg
+    thumb: https://images.pexels.com/photos/16059552/pexels-photo-16059552.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: IP Creative
+    creator_url: https://www.pexels.com/@ip-creative-495856013
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3750
+    height: 3000
+    aspect_class: '5:4'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0000264bc6d31937
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.57
+    nearest:
+    - 19ef9fad
+    - 927193e3
+    - 1f9ea0e7
+    - 8f1651b8
+    - 3835c687
+    - 95f67986
+    - 5770afcd
+    state: pending
+    family_scores:
+      editor-canvas: 0.57
+      dark-composite: 0.535
+      vs-two-up: 0.484
+    best_family: editor-canvas
+    moved_from: prompt-card
+  pexels-17260472:
+    url: https://www.pexels.com/photo/man-in-jean-jacket-posing-with-leg-raised-17260472/
+    image: https://images.pexels.com/photos/17260472/pexels-photo-17260472.jpeg
+    thumb: https://images.pexels.com/photos/17260472/pexels-photo-17260472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: rajan vijayakumar
+    creator_url: https://www.pexels.com/@vijayakumar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8084
+    height: 5392
+    aspect_class: '3:2'
+    term: full body street fashion portrait colorful background
+    collected: '2026-09-16'
+    phash: 1f5f4d497b6f6f77
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.38
+    nearest:
+    - '82576960'
+    - '76440186'
+    - '95704440'
+    - 011fb16f
+    - f8b7e8f3
+    - 4b84a00e
+    - 31ad13c3
+    state: pending
+    family_scores:
+      editor-canvas: 0.38
+      graphic-collage: 0.28
+      vs-two-up: 0.253
+    best_family: editor-canvas
+    moved_from: crop-frame
+  pexels-17484768:
+    url: https://www.pexels.com/photo/pink-rose-in-bloom-after-the-rain-17484768/
+    image: https://images.pexels.com/photos/17484768/pexels-photo-17484768.jpeg
+    thumb: https://images.pexels.com/photos/17484768/pexels-photo-17484768.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wyxina Tresse
+    creator_url: https://www.pexels.com/@wyxina-tresse-311038210
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 324d0696960e0c51
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: grid
+      panel_count: 2
+      before_after: false
+    score: 0.288
+    nearest:
+    - 2d4a4641
+    - 927193e3
+    - '82576960'
+    - 1f9ea0e7
+    - '95704440'
+    - 68ac744f
+    - 1d3ef5b7
+    state: dropped
+    family_scores:
+      before-after: 0.323
+      graphic-collage: 0.301
+      editor-canvas: 0.288
+    best_family: before-after
+    drop: more than 3 from Wyxina Tresse this pass
+  pexels-17792808:
+    url: https://www.pexels.com/photo/woman-in-braided-hair-standing-by-church-17792808/
+    image: https://images.pexels.com/photos/17792808/pexels-photo-17792808.jpeg
+    thumb: https://images.pexels.com/photos/17792808/pexels-photo-17792808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: TONY G
+    creator_url: https://www.pexels.com/@tony-g-438614328
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 002020e0f2e2e0f0
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.612
+    nearest:
+    - cf4224b1
+    - '95704440'
+    - '82576960'
+    - 1d3ef5b7
+    - 0208b13c
+    - 927193e3
+    - 9e538e24
+    state: pending
+    family_scores:
+      editor-canvas: 0.612
+      graphic-collage: 0.573
+      before-after: 0.524
+    best_family: editor-canvas
+    moved_from: model-card
+  pexels-17891267:
+    url: https://www.pexels.com/photo/woman-hand-holding-bottle-17891267/
+    image: https://images.pexels.com/photos/17891267/pexels-photo-17891267.jpeg
+    thumb: https://images.pexels.com/photos/17891267/pexels-photo-17891267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jonathan Borba
+    creator_url: https://www.pexels.com/@jonathanborba
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3408
+    height: 2272
+    aspect_class: '3:2'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 3e1c595933391989
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.7
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 9e538e24
+    - '82576960'
+    - '95704440'
+    - 1f9ea0e7
+    state: pending
+    family_scores:
+      editor-canvas: 0.7
+      before-after: 0.685
+      graphic-collage: 0.658
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-18611107:
+    url: https://www.pexels.com/photo/a-close-up-of-a-pink-rose-in-bloom-with-rose-buds-with-rain-drops-18611107/
+    image: https://images.pexels.com/photos/18611107/pexels-photo-18611107.jpeg
+    thumb: https://images.pexels.com/photos/18611107/pexels-photo-18611107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wyxina Tresse
+    creator_url: https://www.pexels.com/@wyxina-tresse-311038210
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 3e371e8d0d0d1b83
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.414
+    nearest:
+    - 927193e3
+    - 2d4a4641
+    - '82576960'
+    - 1f9ea0e7
+    - '95704440'
+    - 68ac744f
+    - 1d3ef5b7
+    state: pending
+    family_scores:
+      crop-frame: 0.432
+      editor-canvas: 0.414
+      graphic-collage: 0.359
+    best_family: crop-frame
+  pexels-18642591:
+    url: https://www.pexels.com/photo/chair-on-shallow-water-on-plains-18642591/
+    image: https://images.pexels.com/photos/18642591/pexels-photo-18642591.jpeg
+    thumb: https://images.pexels.com/photos/18642591/pexels-photo-18642591.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Berna
+    creator_url: https://www.pexels.com/@mibernaa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5747
+    height: 3769
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 0f0f0f1f2f2f0f0f
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.022
+    nearest:
+    - 927193e3
+    - '82576960'
+    - '95704440'
+    - 122adc7e
+    - '76440186'
+    - e2a6880f
+    - 1d0b15ba
+    state: dropped
+    family_scores:
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+      editor-canvas: 0.022
+    best_family: panel-overlay
+    drop: near-dup of corpus 52230161 (hamming 7)
+  pexels-20625150:
+    url: https://www.pexels.com/photo/man-standing-in-jacket-and-t-shirt-under-construction-beams-20625150/
+    image: https://images.pexels.com/photos/20625150/pexels-photo-20625150.jpeg
+    thumb: https://images.pexels.com/photos/20625150/pexels-photo-20625150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nacho Gomez
+    creator_url: https://www.pexels.com/@nacho-gomez-682299374
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 593777666c6edcbc
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.287
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 011fb16f
+    - cf4224b1
+    - 122adc7e
+    - 31ad13c3
+    - 4b84a00e
+    state: pending
+    family_scores:
+      editor-canvas: 0.287
+      vs-two-up: 0.273
+      before-after: 0.267
+    best_family: editor-canvas
+    moved_from: model-card
   pexels-20819874:
     url: https://www.pexels.com/photo/phone-screen-while-filming-20819874/
     image: https://images.pexels.com/photos/20819874/pexels-photo-20819874.jpeg
@@ -39,3 +759,2089 @@ entries:
       editor-canvas: 0.679
     best_family: full-bleed
     moved_from: cinematic-still
+  pexels-26280308:
+    url: https://www.pexels.com/photo/lamp-over-single-chair-26280308/
+    image: https://images.pexels.com/photos/26280308/pexels-photo-26280308.jpeg
+    thumb: https://images.pexels.com/photos/26280308/pexels-photo-26280308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 0f170f0f0f517133
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 31ad13c3
+    - 35b5e9f3
+    - 4b84a00e
+    - f8b7e8f3
+    - '82576960'
+    - '95704440'
+    - 122adc7e
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.129
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+    drop: near-dup of corpus 1344901e (hamming 9)
+  pexels-26613413:
+    url: https://www.pexels.com/photo/empty-chair-on-floor-26613413/
+    image: https://images.pexels.com/photos/26613413/pexels-photo-26613413.jpeg
+    thumb: https://images.pexels.com/photos/26613413/pexels-photo-26613413.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 0707071919181818
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '82576960'
+    - '95704440'
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - 35b5e9f3
+    - 927193e3
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.172
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-27954772:
+    url: https://www.pexels.com/photo/two-women-in-pink-dresses-holding-a-pink-purse-27954772/
+    image: https://images.pexels.com/photos/27954772/pexels-photo-27954772.jpeg
+    thumb: https://images.pexels.com/photos/27954772/pexels-photo-27954772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: pedro furtado
+    creator_url: https://www.pexels.com/@pedrofurtadoo
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3936
+    height: 2624
+    aspect_class: '3:2'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 6969696ce4b83cf0
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.421
+    nearest:
+    - d636148e
+    - 9e538e24
+    - 1d3ef5b7
+    - b762ed92
+    - 645533c4
+    - 24e4540f
+    - a80848bd
+    state: pending
+    family_scores:
+      editor-canvas: 0.421
+      before-after: 0.406
+      graphic-collage: 0.373
+    best_family: editor-canvas
+    moved_from: vs-two-up
+  pexels-2851393:
+    url: https://www.pexels.com/photo/woman-in-red-dress-2851393/
+    image: https://images.pexels.com/photos/2851393/pexels-photo-2851393.jpeg
+    thumb: https://images.pexels.com/photos/2851393/pexels-photo-2851393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: GK Lola
+    creator_url: https://www.pexels.com/@gk-lola-1480181
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5677
+    height: 3785
+    aspect_class: '3:2'
+    term: colorful fashion model outdoor sky
+    collected: '2026-09-16'
+    phash: 1e2f33736767331a
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.504
+    nearest:
+    - '82576960'
+    - 927193e3
+    - 122adc7e
+    - '95704440'
+    - b762ed92
+    - '76440186'
+    - 1d3ef5b7
+    state: pending
+    family_scores:
+      editor-canvas: 0.504
+      graphic-collage: 0.481
+      before-after: 0.446
+    best_family: editor-canvas
+    moved_from: model-card
+  pexels-31114840:
+    url: https://www.pexels.com/photo/elegant-greater-flamingos-in-heart-shape-pose-31114840/
+    image: https://images.pexels.com/photos/31114840/pexels-photo-31114840.jpeg
+    thumb: https://images.pexels.com/photos/31114840/pexels-photo-31114840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jesús Esteban San José
+    creator_url: https://www.pexels.com/@jesus-esteban-san-jose-11194232
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3331
+    height: 2596
+    aspect_class: '5:4'
+    term: two flamingos heart shape necks
+    collected: '2026-09-16'
+    phash: a7dad9256765616d
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.329
+    nearest:
+    - 2d4a4641
+    - 927193e3
+    - 1f9ea0e7
+    - ee7ad2e6
+    - 1d0b15ba
+    - 122adc7e
+    - '82576960'
+    state: pending
+    family_scores:
+      editor-canvas: 0.329
+      model-card: 0.292
+      vs-two-up: 0.25
+    best_family: editor-canvas
+    moved_from: prompt-card
+  pexels-32103537:
+    url: https://www.pexels.com/photo/elegant-peony-arrangement-with-magazine-display-32103537/
+    image: https://images.pexels.com/photos/32103537/pexels-photo-32103537.jpeg
+    thumb: https://images.pexels.com/photos/32103537/pexels-photo-32103537.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andy Lee
+    creator_url: https://www.pexels.com/@andy-lee-222330306
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5823
+    height: 3882
+    aspect_class: '3:2'
+    term: hand holding pink peony dark background
+    collected: '2026-09-16'
+    phash: 0f4b1d2323030303
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 2d4a4641
+    - ee7ad2e6
+    - 3835c687
+    - 1f9ea0e7
+    - 68ac744f
+    - '82576960'
+    - 35fd07a1
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32259215:
+    url: https://www.pexels.com/photo/rustic-wooden-porch-with-autumn-leaves-32259215/
+    image: https://images.pexels.com/photos/32259215/pexels-photo-32259215.jpeg
+    thumb: https://images.pexels.com/photos/32259215/pexels-photo-32259215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ahmad Anafee
+    creator_url: https://www.pexels.com/@ahmad-anafee-736239011
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 383a32191d2b010f
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 927193e3
+    - 234929a2
+    - 8cbfbb5d
+    - 31ad13c3
+    - 8d4e7241
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32268846:
+    url: https://www.pexels.com/photo/matcha-latte-in-branded-cafe-kitsune-glass-32268846/
+    image: https://images.pexels.com/photos/32268846/pexels-photo-32268846.jpeg
+    thumb: https://images.pexels.com/photos/32268846/pexels-photo-32268846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Swarup Sarkar
+    creator_url: https://www.pexels.com/@roopsarkar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7964
+    height: 5312
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 0f33323332b2f230
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.076
+    nearest:
+    - '82576960'
+    - 95f67986
+    - 0188182b
+    - 1f9ea0e7
+    - '95704440'
+    - a5c54cd3
+    - cf4224b1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.085
+      panel-overlay: 0.084
+      graphic-collage: 0.083
+    best_family: vs-two-up
+    drop: near-dup of corpus 2e9d292c (hamming 10)
+  pexels-32338558:
+    url: https://www.pexels.com/photo/vibrant-peony-bud-in-soft-evening-light-32338558/
+    image: https://images.pexels.com/photos/32338558/pexels-photo-32338558.jpeg
+    thumb: https://images.pexels.com/photos/32338558/pexels-photo-32338558.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jason Nelson
+    creator_url: https://www.pexels.com/@curiouspixelspro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 0f0f170f0f1b1716
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.208
+    nearest:
+    - 2d4a4641
+    - 927193e3
+    - '82576960'
+    - 68ac744f
+    - ee7ad2e6
+    - 35fd07a1
+    - '95704440'
+    state: dropped
+    family_scores:
+      crop-frame: 0.291
+      vs-two-up: 0.256
+      editor-canvas: 0.208
+    best_family: crop-frame
+    drop: near-dup of corpus f44dc281 (hamming 5)
+  pexels-32712249:
+    url: https://www.pexels.com/photo/aerial-view-of-a-solo-walker-on-urban-road-32712249/
+    image: https://images.pexels.com/photos/32712249/pexels-photo-32712249.jpeg
+    thumb: https://images.pexels.com/photos/32712249/pexels-photo-32712249.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Germán Latasa
+    creator_url: https://www.pexels.com/@german-latasa-814203747
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7219
+    height: 4813
+    aspect_class: '3:2'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 0f0f17132b27070f
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.426
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - 122adc7e
+    - 011fb16f
+    state: dropped
+    family_scores:
+      editor-canvas: 0.426
+      vs-two-up: 0.293
+      dark-composite: 0.288
+    best_family: editor-canvas
+    moved_from: crop-frame
+    drop: near-dup of corpus f44dc281 (hamming 7)
+  pexels-33298595:
+    url: https://www.pexels.com/photo/barista-holding-iced-matcha-latte-outdoors-33298595/
+    image: https://images.pexels.com/photos/33298595/pexels-photo-33298595.jpeg
+    thumb: https://images.pexels.com/photos/33298595/pexels-photo-33298595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Emre Gokceoglu
+    creator_url: https://www.pexels.com/@0ldpikes
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7595
+    height: 5063
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 6b13990c0c0d6307
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '82576960'
+    - 3835c687
+    - 9e538e24
+    - 95f67986
+    - 19ef9fad
+    - '95704440'
+    - 68ac744f
+    state: dropped
+    family_scores:
+      graphic-collage: 0.144
+      before-after: 0.123
+      vs-two-up: 0.121
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-34637971:
+    url: https://www.pexels.com/photo/vintage-wooden-chair-against-green-backdrop-34637971/
+    image: https://images.pexels.com/photos/34637971/pexels-photo-34637971.jpeg
+    thumb: https://images.pexels.com/photos/34637971/pexels-photo-34637971.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 2304
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 08104c4c0d6454f1
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 927193e3
+    - '82576960'
+    - '95704440'
+    - 35fd07a1
+    - 234929a2
+    - 3835c687
+    - 5770afcd
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-35414825:
+    url: https://www.pexels.com/photo/rustic-wooden-chair-against-textured-wall-35414825/
+    image: https://images.pexels.com/photos/35414825/pexels-photo-35414825.jpeg
+    thumb: https://images.pexels.com/photos/35414825/pexels-photo-35414825.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6016
+    height: 4016
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: f171313038381c3c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '82576960'
+    - 2d4a4641
+    - 1f9ea0e7
+    - 35b5e9f3
+    - 3835c687
+    - 19ef9fad
+    - '95704440'
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-35552627:
+    url: https://www.pexels.com/photo/plastic-chair-against-wooden-wall-outdoors-35552627/
+    image: https://images.pexels.com/photos/35552627/pexels-photo-35552627.jpeg
+    thumb: https://images.pexels.com/photos/35552627/pexels-photo-35552627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Gurgenidze G
+    creator_url: https://www.pexels.com/@gurgenidze-g-2150226156
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5796
+    height: 4000
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 0f5f5bcb43e36319
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 927193e3
+    - '82576960'
+    - '95704440'
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - 35fd07a1
+    state: pending
+    family_scores:
+      graphic-collage: 0.128
+      before-after: 0.123
+      panel-overlay: 0.108
+    best_family: graphic-collage
+    explored: true
+  pexels-36072743:
+    url: https://www.pexels.com/photo/elegant-minimalist-green-chair-in-studio-36072743/
+    image: https://images.pexels.com/photos/36072743/pexels-photo-36072743.jpeg
+    thumb: https://images.pexels.com/photos/36072743/pexels-photo-36072743.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muhammad Rasyad Indra Putra
+    creator_url: https://www.pexels.com/@mrasyadindra
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: c3e7676733733333
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '82576960'
+    - 35b5e9f3
+    - 1f9ea0e7
+    - 3835c687
+    - 35fd07a1
+    - '95704440'
+    - 2d4a4641
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-36267071:
+    url: https://www.pexels.com/photo/vibrant-abstract-satin-texture-in-rainbow-hues-36267071/
+    image: https://images.pexels.com/photos/36267071/pexels-photo-36267071.jpeg
+    thumb: https://images.pexels.com/photos/36267071/pexels-photo-36267071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 2e9f99d9b4771333
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.625
+    nearest:
+    - '82576960'
+    - 927193e3
+    - '95704440'
+    - 86c853b4
+    - 011fb16f
+    - 24e4540f
+    - 122adc7e
+    state: pending
+    family_scores:
+      editor-canvas: 0.625
+      crop-frame: 0.545
+      model-card: 0.541
+    best_family: editor-canvas
+    moved_from: panel-overlay
+  pexels-36717700:
+    url: https://www.pexels.com/photo/minimalist-pink-water-bottle-against-neutral-background-36717700/
+    image: https://images.pexels.com/photos/36717700/pexels-photo-36717700.jpeg
+    thumb: https://images.pexels.com/photos/36717700/pexels-photo-36717700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Letícia Alvares
+    creator_url: https://www.pexels.com/@leticia-alvares-1805702
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3840
+    height: 5760
+    aspect_class: '2:3'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 756d1233370fab93
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.614
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - '82576960'
+    - 9e538e24
+    - 68ac744f
+    - '95704440'
+    - 1f9ea0e7
+    state: pending
+    family_scores:
+      editor-canvas: 0.614
+      cinematic-still: 0.567
+      graphic-collage: 0.528
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-36737006:
+    url: https://www.pexels.com/photo/refreshing-iced-matcha-latte-cup-on-wooden-table-36737006/
+    image: https://images.pexels.com/photos/36737006/pexels-photo-36737006.jpeg
+    thumb: https://images.pexels.com/photos/36737006/pexels-photo-36737006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Namfon Sasimaporn
+    creator_url: https://www.pexels.com/@sasi-tha
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 9b9959e9acb8b24a
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 3835c687
+    - 95f67986
+    - 8d4e7241
+    - 1f9ea0e7
+    - 927193e3
+    state: dropped
+    family_scores:
+      vs-two-up: 0.158
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-37105719:
+    url: https://www.pexels.com/photo/refreshing-matcha-latte-and-waffle-breakfast-37105719/
+    image: https://images.pexels.com/photos/37105719/pexels-photo-37105719.jpeg
+    thumb: https://images.pexels.com/photos/37105719/pexels-photo-37105719.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Amar  Preciado
+    creator_url: https://www.pexels.com/@amar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5412
+    height: 3376
+    aspect_class: '16:10'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: '4244303060323306'
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.223
+    nearest:
+    - d636148e
+    - '95704440'
+    - '82576960'
+    - 68ac744f
+    - 35b5e9f3
+    - 19ef9fad
+    - 3835c687
+    state: pending
+    family_scores:
+      graphic-collage: 0.247
+      editor-canvas: 0.223
+      vs-two-up: 0.219
+    best_family: graphic-collage
+  pexels-373925:
+    url: https://www.pexels.com/photo/person-holds-pink-flower-with-both-hands-373925/
+    image: https://images.pexels.com/photos/373925/pexels-photo-373925.jpeg
+    thumb: https://images.pexels.com/photos/373925/pexels-photo-373925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Burst
+    creator_url: https://www.pexels.com/@burst
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4998
+    height: 3332
+    aspect_class: '3:2'
+    term: hand holding pink peony dark background
+    collected: '2026-09-16'
+    phash: 693bb2969e8e0c4c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.167
+    nearest:
+    - 19ef9fad
+    - '82576960'
+    - 68ac744f
+    - 927193e3
+    - 2d4a4641
+    - a5c54cd3
+    - 24e4540f
+    state: dropped
+    family_scores:
+      vs-two-up: 0.26
+      crop-frame: 0.214
+      graphic-collage: 0.206
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-37538265:
+    url: https://www.pexels.com/photo/vibrant-purple-and-blue-iridescent-fabric-waves-37538265/
+    image: https://images.pexels.com/photos/37538265/pexels-photo-37538265.jpeg
+    thumb: https://images.pexels.com/photos/37538265/pexels-photo-37538265.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8027
+    height: 5351
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 30cd27d866c8e329
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.651
+    nearest:
+    - '82576960'
+    - 927193e3
+    - '95704440'
+    - 86c853b4
+    - 122adc7e
+    - 1d0b15ba
+    - 011fb16f
+    state: pending
+    family_scores:
+      editor-canvas: 0.651
+      vs-two-up: 0.548
+      crop-frame: 0.499
+    best_family: editor-canvas
+    moved_from: panel-overlay
+  pexels-37575397:
+    url: https://www.pexels.com/photo/elegant-makeup-and-accessories-flat-lay-37575397/
+    image: https://images.pexels.com/photos/37575397/pexels-photo-37575397.jpeg
+    thumb: https://images.pexels.com/photos/37575397/pexels-photo-37575397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Shimaa Mohamed
+    creator_url: https://www.pexels.com/@shimaa-mohamed-126244
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4236
+    height: 2640
+    aspect_class: '16:10'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 4eca0b2192869696
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.74
+    nearest:
+    - 68ac744f
+    - '82576960'
+    - d636148e
+    - 5770afcd
+    - '95704440'
+    - 234929a2
+    - 122adc7e
+    state: pending
+    family_scores:
+      editor-canvas: 0.74
+      before-after: 0.707
+      graphic-collage: 0.677
+    best_family: editor-canvas
+    moved_from: dark-composite
+  pexels-38573345:
+    url: https://www.pexels.com/photo/modern-industrial-building-with-red-and-white-panels-38573345/
+    image: https://images.pexels.com/photos/38573345/pexels-photo-38573345.jpeg
+    thumb: https://images.pexels.com/photos/38573345/pexels-photo-38573345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Carsten Ruthemann
+    creator_url: https://www.pexels.com/@cannontaler
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5000
+    height: 4000
+    aspect_class: '5:4'
+    term: portrait pink corrugated wall
+    collected: '2026-09-16'
+    phash: 4dcb4b4b9f9f9b9b
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.329
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 122adc7e
+    - '76440186'
+    - 5770afcd
+    - 86c853b4
+    - 8f1651b8
+    state: pending
+    family_scores:
+      editor-canvas: 0.329
+      model-card: 0.292
+      vs-two-up: 0.25
+    best_family: editor-canvas
+    moved_from: crop-frame
+  pexels-38914244:
+    url: https://www.pexels.com/photo/colorful-sneakers-hanging-against-pink-wall-38914244/
+    image: https://images.pexels.com/photos/38914244/pexels-photo-38914244.jpeg
+    thumb: https://images.pexels.com/photos/38914244/pexels-photo-38914244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Risiii
+    creator_url: https://www.pexels.com/@risiii-2163411747
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4928
+    height: 3058
+    aspect_class: '16:10'
+    term: shoes pastel background
+    collected: '2026-09-16'
+    phash: 2767c3b191292713
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.792
+    nearest:
+    - a6b02f5d
+    - 133128a4
+    - '82576960'
+    - '95704440'
+    - d636148e
+    - cf4224b1
+    - 19ef9fad
+    state: pending
+    family_scores:
+      editor-canvas: 0.792
+      vs-two-up: 0.483
+      crop-frame: 0.449
+    best_family: editor-canvas
+    moved_from: before-after
+  pexels-39517599:
+    url: https://www.pexels.com/photo/outdoor-rustic-chairs-with-wooden-table-39517599/
+    image: https://images.pexels.com/photos/39517599/pexels-photo-39517599.jpeg
+    thumb: https://images.pexels.com/photos/39517599/pexels-photo-39517599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6048
+    height: 4032
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 8f8ca6aecdd6c457
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 3835c687
+    - 122adc7e
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: more than 3 from Sóc Năng Động this pass
+  pexels-4228194:
+    url: https://www.pexels.com/photo/modern-style-sneakers-on-street-pavement-in-town-4228194/
+    image: https://images.pexels.com/photos/4228194/pexels-photo-4228194.jpeg
+    thumb: https://images.pexels.com/photos/4228194/pexels-photo-4228194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erik Mclean
+    creator_url: https://www.pexels.com/@introspectivedsgn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5149
+    height: 3433
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: dad62d0d961b390f
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.439
+    nearest:
+    - a6b02f5d
+    - 133128a4
+    - '82576960'
+    - '95704440'
+    - 122adc7e
+    - 19ef9fad
+    - 927193e3
+    state: pending
+    family_scores:
+      editor-canvas: 0.439
+      vs-two-up: 0.263
+      before-after: 0.202
+    best_family: editor-canvas
+    moved_from: mockup-card
+  pexels-5202466:
+    url: https://www.pexels.com/photo/woman-applying-sunscreen-on-bare-legs-5202466/
+    image: https://images.pexels.com/photos/5202466/pexels-photo-5202466.jpeg
+    thumb: https://images.pexels.com/photos/5202466/pexels-photo-5202466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: sunscreen bottle hand
+    collected: '2026-09-16'
+    phash: 5529ab5b9c53be5b
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.7
+    nearest:
+    - 19ef9fad
+    - 122adc7e
+    - '82576960'
+    - '76440186'
+    - b762ed92
+    - 68ac744f
+    - 24e4540f
+    state: pending
+    family_scores:
+      editor-canvas: 0.7
+      before-after: 0.693
+      graphic-collage: 0.636
+    best_family: editor-canvas
+    moved_from: dark-composite
+  pexels-5991535:
+    url: https://www.pexels.com/photo/garden-set-of-chairs-and-a-table-5991535/
+    image: https://images.pexels.com/photos/5991535/pexels-photo-5991535.jpeg
+    thumb: https://images.pexels.com/photos/5991535/pexels-photo-5991535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hakim  Santoso
+    creator_url: https://www.pexels.com/@hakimsatoso
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4603
+    height: 3049
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 070707073760ec4f
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - '95704440'
+    - '82576960'
+    - 35fd07a1
+    - 122adc7e
+    - 7f78f079
+    - 234929a2
+    - 5770afcd
+    state: dropped
+    family_scores:
+      crop-frame: 0.127
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-6074832:
+    url: https://www.pexels.com/photo/a-man-playing-basketball-6074832/
+    image: https://images.pexels.com/photos/6074832/pexels-photo-6074832.jpeg
+    thumb: https://images.pexels.com/photos/6074832/pexels-photo-6074832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tim Bruns
+    creator_url: https://www.pexels.com/@timmeeeeeeey
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: young man basketball urban portrait
+    collected: '2026-09-16'
+    phash: 23246f6d4c09153d
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.542
+    nearest:
+    - '82576960'
+    - 122adc7e
+    - '95704440'
+    - '76440186'
+    - 4b84a00e
+    - f8b7e8f3
+    - 31ad13c3
+    state: dropped
+    family_scores:
+      editor-canvas: 0.542
+      vs-two-up: 0.408
+      before-after: 0.32
+    best_family: editor-canvas
+    moved_from: crop-frame
+    drop: near-dup of corpus fc7b7887 (hamming 8)
+  pexels-6153081:
+    url: https://www.pexels.com/photo/still-life-photography-of-a-chair-on-gray-background-6153081/
+    image: https://images.pexels.com/photos/6153081/pexels-photo-6153081.jpeg
+    thumb: https://images.pexels.com/photos/6153081/pexels-photo-6153081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 24125ab0b0f8f0d8
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.028
+    nearest:
+    - '82576960'
+    - 35b5e9f3
+    - 122adc7e
+    - '95704440'
+    - f8b7e8f3
+    - 4b84a00e
+    - 31ad13c3
+    state: dropped
+    family_scores:
+      graphic-collage: 0.038
+      editor-canvas: 0.028
+      panel-overlay: 0.028
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-6476115:
+    url: https://www.pexels.com/photo/person-holding-white-plastic-container-6476115/
+    image: https://images.pexels.com/photos/6476115/pexels-photo-6476115.jpeg
+    thumb: https://images.pexels.com/photos/6476115/pexels-photo-6476115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hanna Pad
+    creator_url: https://www.pexels.com/@anna-nekrashevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 08304c484c4c2426
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.647
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - '82576960'
+    - 9e538e24
+    - 1f9ea0e7
+    - '76440186'
+    state: dropped
+    family_scores:
+      editor-canvas: 0.647
+      cinematic-still: 0.597
+      dark-composite: 0.568
+    best_family: editor-canvas
+    moved_from: template-mockup
+    drop: near-dup of corpus 1b7381fb (hamming 9)
+  pexels-6544082:
+    url: https://www.pexels.com/photo/a-woman-in-pink-dress-holding-a-clear-drinking-glass-with-milkshake-6544082/
+    image: https://images.pexels.com/photos/6544082/pexels-photo-6544082.jpeg
+    thumb: https://images.pexels.com/photos/6544082/pexels-photo-6544082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 2987
+    aspect_class: '3:2'
+    term: pink hair woman pastel
+    collected: '2026-09-16'
+    phash: 7b3335747074f4e1
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.678
+    nearest:
+    - 1d3ef5b7
+    - 19ef9fad
+    - 9e538e24
+    - 24e4540f
+    - 1f9ea0e7
+    - d636148e
+    - '82576960'
+    state: dropped
+    family_scores:
+      editor-canvas: 0.678
+      graphic-collage: 0.655
+      before-after: 0.618
+    best_family: editor-canvas
+    moved_from: model-card
+    drop: more than 3 from cottonbro studio this pass
+  pexels-6612385:
+    url: https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-bottle-6612385/
+    image: https://images.pexels.com/photos/6612385/pexels-photo-6612385.jpeg
+    thumb: https://images.pexels.com/photos/6612385/pexels-photo-6612385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4955
+    height: 2990
+    aspect_class: '16:10'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 3838383438363a39
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.701
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - '82576960'
+    - 68ac744f
+    - '95704440'
+    - 9e538e24
+    - 1f9ea0e7
+    state: pending
+    family_scores:
+      editor-canvas: 0.701
+      vs-two-up: 0.487
+      graphic-collage: 0.483
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-6860487:
+    url: https://www.pexels.com/photo/a-green-velvet-chair-beside-a-wooden-table-6860487/
+    image: https://images.pexels.com/photos/6860487/pexels-photo-6860487.jpeg
+    thumb: https://images.pexels.com/photos/6860487/pexels-photo-6860487.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5837
+    height: 3891
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 8280c0e0e1c3873e
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.1
+    nearest:
+    - 3835c687
+    - d636148e
+    - 9e538e24
+    - 24e4540f
+    - 1f9ea0e7
+    - f8b7e8f3
+    - 4b84a00e
+    state: dropped
+    family_scores:
+      graphic-collage: 0.151
+      before-after: 0.137
+      cutout-checkerboard: 0.115
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7193706:
+    url: https://www.pexels.com/photo/brown-wooden-chair-beside-white-wall-7193706/
+    image: https://images.pexels.com/photos/7193706/pexels-photo-7193706.jpeg
+    thumb: https://images.pexels.com/photos/7193706/pexels-photo-7193706.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: dfdfe7e7e5e1e0ff
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.022
+    nearest:
+    - '82576960'
+    - 68ac744f
+    - 927193e3
+    - '95704440'
+    - 19ef9fad
+    - 1f9ea0e7
+    - 234929a2
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.067
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+    best_family: cutout-checkerboard
+    drop: near-dup of corpus 761f61b9 (hamming 8)
+  pexels-7290102:
+    url: https://www.pexels.com/photo/woman-in-yellow-blazer-holding-an-eyeshadow-palette-7290102/
+    image: https://images.pexels.com/photos/7290102/pexels-photo-7290102.jpeg
+    thumb: https://images.pexels.com/photos/7290102/pexels-photo-7290102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: woman yellow background purple fashion portrait
+    collected: '2026-09-16'
+    phash: 261a1d1a1b1d0d0f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.678
+    nearest:
+    - 1d3ef5b7
+    - d636148e
+    - 24e4540f
+    - '82576960'
+    - 9e538e24
+    - 68ac744f
+    - '76440186'
+    state: pending
+    family_scores:
+      editor-canvas: 0.678
+      before-after: 0.677
+      panel-overlay: 0.57
+    best_family: editor-canvas
+    moved_from: panel-overlay
+  pexels-7407277:
+    url: https://www.pexels.com/photo/bottle-against-a-pink-background-7407277/
+    image: https://images.pexels.com/photos/7407277/pexels-photo-7407277.jpeg
+    thumb: https://images.pexels.com/photos/7407277/pexels-photo-7407277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Тимур Слугин
+    creator_url: https://www.pexels.com/@43717972
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 4472d2c3d2c0c313
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.478
+    nearest:
+    - 1f9ea0e7
+    - d636148e
+    - 1d3ef5b7
+    - 9e538e24
+    - 19ef9fad
+    - 24e4540f
+    - '82576960'
+    state: pending
+    family_scores:
+      editor-canvas: 0.478
+      graphic-collage: 0.362
+      vs-two-up: 0.315
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-7466791:
+    url: https://www.pexels.com/photo/topless-man-holding-a-spray-bottle-with-brown-liquid-7466791/
+    image: https://images.pexels.com/photos/7466791/pexels-photo-7466791.jpeg
+    thumb: https://images.pexels.com/photos/7466791/pexels-photo-7466791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Tarazevich
+    creator_url: https://www.pexels.com/@anntarazevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3500
+    height: 2333
+    aspect_class: '3:2'
+    term: sunscreen bottle hand
+    collected: '2026-09-16'
+    phash: ba36b9ea6c78697c
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.669
+    nearest:
+    - '82576960'
+    - 122adc7e
+    - b762ed92
+    - '95704440'
+    - 19ef9fad
+    - '76440186'
+    - 68ac744f
+    state: pending
+    family_scores:
+      editor-canvas: 0.669
+      before-after: 0.581
+      graphic-collage: 0.539
+    best_family: editor-canvas
+    moved_from: dark-composite
+  pexels-7514143:
+    url: https://www.pexels.com/photo/man-wearing-sweater-standing-beside-graffiti-wall-7514143/
+    image: https://images.pexels.com/photos/7514143/pexels-photo-7514143.jpeg
+    thumb: https://images.pexels.com/photos/7514143/pexels-photo-7514143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Flávio Santos
+    creator_url: https://www.pexels.com/@officialflavio
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5854
+    height: 3903
+    aspect_class: '3:2'
+    term: full body street fashion portrait colorful background
+    collected: '2026-09-16'
+    phash: 7d5bce4bb5313919
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.492
+    nearest:
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - '76440186'
+    - '95704440'
+    - '82576960'
+    - 011fb16f
+    state: pending
+    family_scores:
+      editor-canvas: 0.492
+      before-after: 0.452
+      vs-two-up: 0.263
+    best_family: editor-canvas
+    moved_from: crop-frame
+  pexels-7924838:
+    url: https://www.pexels.com/photo/photo-of-a-man-running-7924838/
+    image: https://images.pexels.com/photos/7924838/pexels-photo-7924838.jpeg
+    thumb: https://images.pexels.com/photos/7924838/pexels-photo-7924838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: behrouz sasani
+    creator_url: https://www.pexels.com/@behrouz-sasani-3568050
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2500
+    height: 1642
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-16'
+    phash: f1f9f9f9f9f1f1f1
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.376
+    nearest:
+    - '76440186'
+    - '95704440'
+    - '82576960'
+    - 31ad13c3
+    - 4b84a00e
+    - f8b7e8f3
+    - 122adc7e
+    state: dropped
+    family_scores:
+      editor-canvas: 0.376
+      vs-two-up: 0.239
+      panel-overlay: 0.194
+    best_family: editor-canvas
+    moved_from: panel-overlay
+    drop: near-dup of corpus bd7d13f4 (hamming 10)
+  pexels-8157145:
+    url: https://www.pexels.com/photo/a-woman-applying-sunscreen-on-arm-8157145/
+    image: https://images.pexels.com/photos/8157145/pexels-photo-8157145.jpeg
+    thumb: https://images.pexels.com/photos/8157145/pexels-photo-8157145.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: sunscreen bottle hand
+    collected: '2026-09-16'
+    phash: 0c0e39421633293c
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.7
+    nearest:
+    - '82576960'
+    - 19ef9fad
+    - '95704440'
+    - b762ed92
+    - 122adc7e
+    - 24e4540f
+    - 68ac744f
+    state: dropped
+    family_scores:
+      editor-canvas: 0.7
+      before-after: 0.616
+      graphic-collage: 0.616
+    best_family: editor-canvas
+    moved_from: dark-composite
+    drop: more than 3 from Mikhail Nilov this pass
+  pexels-8158555:
+    url: https://www.pexels.com/photo/woman-in-yellow-bikini-bottom-holding-white-plastic-bottle-8158555/
+    image: https://images.pexels.com/photos/8158555/pexels-photo-8158555.jpeg
+    thumb: https://images.pexels.com/photos/8158555/pexels-photo-8158555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5372
+    height: 3581
+    aspect_class: '3:2'
+    term: sunscreen bottle hand
+    collected: '2026-09-16'
+    phash: ba9ebebe3e7e89c6
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.7
+    nearest:
+    - '82576960'
+    - 122adc7e
+    - 19ef9fad
+    - b762ed92
+    - 24e4540f
+    - '95704440'
+    - 68ac744f
+    state: dropped
+    family_scores:
+      editor-canvas: 0.7
+      before-after: 0.677
+      graphic-collage: 0.462
+    best_family: editor-canvas
+    moved_from: dark-composite
+    drop: more than 3 from Mikhail Nilov this pass
+  pexels-8166398:
+    url: https://www.pexels.com/photo/spray-bottles-on-blue-and-yellow-table-8166398/
+    image: https://images.pexels.com/photos/8166398/pexels-photo-8166398.jpeg
+    thumb: https://images.pexels.com/photos/8166398/pexels-photo-8166398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2800
+    height: 3500
+    aspect_class: '4:5'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: 74698c86a4d99dc7
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.581
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 5770afcd
+    - 95f67986
+    - 3835c687
+    - '76440186'
+    state: pending
+    family_scores:
+      editor-canvas: 0.581
+      before-after: 0.547
+      vs-two-up: 0.481
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-8166452:
+    url: https://www.pexels.com/photo/a-spray-bottle-on-a-purple-surface-8166452/
+    image: https://images.pexels.com/photos/8166452/pexels-photo-8166452.jpeg
+    thumb: https://images.pexels.com/photos/8166452/pexels-photo-8166452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2800
+    height: 3500
+    aspect_class: '4:5'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: d7e9ad86a6184c2c
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.425
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - '82576960'
+    - 9e538e24
+    - '95704440'
+    - 3835c687
+    - 68ac744f
+    state: pending
+    family_scores:
+      editor-canvas: 0.425
+      cinematic-still: 0.363
+      vs-two-up: 0.363
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-8166611:
+    url: https://www.pexels.com/photo/blank-perfume-bottles-8166611/
+    image: https://images.pexels.com/photos/8166611/pexels-photo-8166611.jpeg
+    thumb: https://images.pexels.com/photos/8166611/pexels-photo-8166611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3500
+    height: 2800
+    aspect_class: '5:4'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 206832306a4b0516
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.695
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 122adc7e
+    - '82576960'
+    - 5770afcd
+    - '76440186'
+    state: pending
+    family_scores:
+      editor-canvas: 0.695
+      vs-two-up: 0.684
+      before-after: 0.561
+    best_family: editor-canvas
+    moved_from: dark-composite
+  pexels-8217301:
+    url: https://www.pexels.com/photo/person-holding-glass-bottle-with-empty-label-8217301/
+    image: https://images.pexels.com/photos/8217301/pexels-photo-8217301.jpeg
+    thumb: https://images.pexels.com/photos/8217301/pexels-photo-8217301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5989
+    height: 3993
+    aspect_class: '3:2'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: b2b3b9b16d4cb0b0
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.615
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 9e538e24
+    - 68ac744f
+    - '82576960'
+    - 1f9ea0e7
+    - 02dd5012
+    state: pending
+    family_scores:
+      editor-canvas: 0.615
+      before-after: 0.491
+      graphic-collage: 0.392
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-8217418:
+    url: https://www.pexels.com/photo/glass-bottle-with-pink-liquid-8217418/
+    image: https://images.pexels.com/photos/8217418/pexels-photo-8217418.jpeg
+    thumb: https://images.pexels.com/photos/8217418/pexels-photo-8217418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5992
+    height: 3995
+    aspect_class: '3:2'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: 1f3f3b39392d291a
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.267
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 927193e3
+    - '82576960'
+    - 8f1651b8
+    - 5770afcd
+    state: dropped
+    family_scores:
+      editor-canvas: 0.267
+      graphic-collage: 0.247
+      vs-two-up: 0.236
+    best_family: editor-canvas
+    moved_from: template-mockup
+    drop: more than 3 from MART  PRODUCTION this pass
+  pexels-8726730:
+    url: https://www.pexels.com/photo/girl-s-legs-under-plastic-coat-on-blue-surface-8726730/
+    image: https://images.pexels.com/photos/8726730/pexels-photo-8726730.jpeg
+    thumb: https://images.pexels.com/photos/8726730/pexels-photo-8726730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Michelangelo Buonarroti
+    creator_url: https://www.pexels.com/@michelangelo-buonarroti
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 3131190b3a3a0703
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.497
+    nearest:
+    - 19ef9fad
+    - a6b02f5d
+    - 133128a4
+    - '82576960'
+    - 5770afcd
+    - 24e4540f
+    - 927193e3
+    state: pending
+    family_scores:
+      editor-canvas: 0.497
+      vs-two-up: 0.367
+      crop-frame: 0.366
+    best_family: editor-canvas
+    moved_from: panel-overlay
+  pexels-8941679:
+    url: https://www.pexels.com/photo/man-taking-selfie-with-a-cellphone-8941679/
+    image: https://images.pexels.com/photos/8941679/pexels-photo-8941679.jpeg
+    thumb: https://images.pexels.com/photos/8941679/pexels-photo-8941679.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Thirdman
+    creator_url: https://www.pexels.com/@thirdman
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6523
+    height: 4349
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 296b686c4cecccde
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.483
+    nearest:
+    - '82576960'
+    - 011fb16f
+    - '95704440'
+    - cf4224b1
+    - 02dd5012
+    - 927193e3
+    - 35b5e9f3
+    state: pending
+    family_scores:
+      editor-canvas: 0.483
+      model-card: 0.408
+      panel-overlay: 0.369
+    best_family: editor-canvas
+    moved_from: panel-overlay
+  pexels-956726:
+    url: https://www.pexels.com/photo/man-in-black-sleeveless-shirt-holding-green-mountain-bike-near-metal-staircase-956726/
+    image: https://images.pexels.com/photos/956726/pexels-photo-956726.jpeg
+    thumb: https://images.pexels.com/photos/956726/pexels-photo-956726.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Godisable Jacob
+    creator_url: https://www.pexels.com/@godisable-jacob-226636
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: lime green outfit fashion model outdoor
+    collected: '2026-09-16'
+    phash: 4f474b6d4707c2f3
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.415
+    nearest:
+    - '82576960'
+    - '95704440'
+    - 122adc7e
+    - '76440186'
+    - 31ad13c3
+    - b762ed92
+    - 4b84a00e
+    state: dropped
+    family_scores:
+      editor-canvas: 0.415
+      vs-two-up: 0.342
+      before-after: 0.307
+    best_family: editor-canvas
+    moved_from: model-card
+    drop: more than 3 from Godisable Jacob this pass
+  pexels-9774602:
+    url: https://www.pexels.com/photo/hand-holding-a-cosmetic-cream-9774602/
+    image: https://images.pexels.com/photos/9774602/pexels-photo-9774602.jpeg
+    thumb: https://images.pexels.com/photos/9774602/pexels-photo-9774602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: SHVETS production
+    creator_url: https://www.pexels.com/@shvets-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: hand holding cosmetic jar
+    collected: '2026-09-16'
+    phash: 23032c4c13736e01
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.678
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 3835c687
+    - '82576960'
+    - '95704440'
+    - 1f9ea0e7
+    state: pending
+    family_scores:
+      editor-canvas: 0.678
+      before-after: 0.57
+      graphic-collage: 0.5
+    best_family: editor-canvas
+    moved_from: template-mockup
+  pexels-9774790:
+    url: https://www.pexels.com/photo/close-up-view-of-beauty-product-9774790/
+    image: https://images.pexels.com/photos/9774790/pexels-photo-9774790.jpeg
+    thumb: https://images.pexels.com/photos/9774790/pexels-photo-9774790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: SHVETS production
+    creator_url: https://www.pexels.com/@shvets-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4866
+    height: 3244
+    aspect_class: '3:2'
+    term: hand holding bottle pink background
+    collected: '2026-09-16'
+    phash: '2511606465657229'
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.678
+    nearest:
+    - 19ef9fad
+    - 24e4540f
+    - 68ac744f
+    - 927193e3
+    - '82576960'
+    - '95704440'
+    - 3835c687
+    state: pending
+    family_scores:
+      editor-canvas: 0.678
+      before-after: 0.545
+      vs-two-up: 0.483
+    best_family: editor-canvas
+    moved_from: template-mockup

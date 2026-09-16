@@ -1,5 +1,41 @@
 family: dark-composite
 entries:
+  pexels-10549280:
+    url: https://www.pexels.com/photo/grayscale-photos-of-chairs-in-a-studio-10549280/
+    image: https://images.pexels.com/photos/10549280/pexels-photo-10549280.png
+    thumb: https://images.pexels.com/photos/10549280/pexels-photo-10549280.png?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mike Cho
+    creator_url: https://www.pexels.com/@dwayne-x
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4796
+    height: 3366
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: '8686828383031313'
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.271
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - dfd22ac3
+    state: pending
+    family_scores:
+      dark-composite: 0.271
+      cutout-checkerboard: 0.266
+      vs-two-up: 0.197
+    best_family: dark-composite
+    moved_from: editor-canvas
   pexels-1111562:
     url: https://www.pexels.com/photo/red-and-white-bus-toy-1111562/
     image: https://images.pexels.com/photos/1111562/pexels-photo-1111562.jpeg
@@ -42,6 +78,292 @@ entries:
     subject: object
     note: prop on near-black ground
     moved_from: cinematic-still
+  pexels-11171196:
+    url: https://www.pexels.com/photo/red-chair-backrest-11171196/
+    image: https://images.pexels.com/photos/11171196/pexels-photo-11171196.jpeg
+    thumb: https://images.pexels.com/photos/11171196/pexels-photo-11171196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5833
+    height: 3889
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: fe03434303cefe23
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.36
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - 4fed106c
+    state: pending
+    family_scores:
+      dark-composite: 0.36
+      crop-frame: 0.349
+      cutout-checkerboard: 0.337
+    best_family: dark-composite
+    moved_from: editor-canvas
+  pexels-11200116:
+    url: https://www.pexels.com/photo/hands-holding-pills-and-box-11200116/
+    image: https://images.pexels.com/photos/11200116/pexels-photo-11200116.jpeg
+    thumb: https://images.pexels.com/photos/11200116/pexels-photo-11200116.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Towfiqu barbhuiya
+    creator_url: https://www.pexels.com/@towfiqu-barbhuiya-3440682
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4592
+    height: 3064
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 0703071b12141c1e
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.284
+    nearest:
+    - 21cdafd9
+    - 5ab810ca
+    - 3062ad35
+    state: pending
+    family_scores:
+      editor-canvas: 0.382
+      graphic-collage: 0.366
+      before-after: 0.319
+    best_family: editor-canvas
+  pexels-12198526:
+    url: https://www.pexels.com/photo/green-podium-with-shadow-of-palm-leaf-12198526/
+    image: https://images.pexels.com/photos/12198526/pexels-photo-12198526.jpeg
+    thumb: https://images.pexels.com/photos/12198526/pexels-photo-12198526.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: crazy motions
+    creator_url: https://www.pexels.com/@crazy-motions-80195021
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3000
+    height: 1687
+    aspect_class: '16:9'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 192346062454900d
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.509
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - f57c774f
+    state: pending
+    family_scores:
+      dark-composite: 0.509
+      graphic-collage: 0.409
+      editor-canvas: 0.34
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-12231889:
+    url: https://www.pexels.com/photo/a-pair-of-accessories-beside-red-rose-12231889/
+    image: https://images.pexels.com/photos/12231889/pexels-photo-12231889.jpeg
+    thumb: https://images.pexels.com/photos/12231889/pexels-photo-12231889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sheilabox
+    creator_url: https://www.pexels.com/@sheilabox-235376934
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4664
+    height: 3110
+    aspect_class: '3:2'
+    term: necklace red background
+    collected: '2026-09-16'
+    phash: 87c5448088938b88
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.391
+    nearest:
+    - 21cdafd9
+    - 3062ad35
+    - 4fed106c
+    state: pending
+    family_scores:
+      dark-composite: 0.391
+      vs-two-up: 0.338
+      crop-frame: 0.289
+    best_family: dark-composite
+    moved_from: graphic-collage
+  pexels-12292639:
+    url: https://www.pexels.com/photo/pink-and-white-round-illustration-12292639/
+    image: https://images.pexels.com/photos/12292639/pexels-photo-12292639.jpeg
+    thumb: https://images.pexels.com/photos/12292639/pexels-photo-12292639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: dada _design
+    creator_url: https://www.pexels.com/@dada-_design-240566386
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7500
+    height: 4500
+    aspect_class: '16:10'
+    term: colorful kitchenware pastel background
+    collected: '2026-09-16'
+    phash: 908088842080c880
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 3
+      before_after: false
+    score: 0.63
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - dfd22ac3
+    state: dropped
+    family_scores:
+      dark-composite: 0.63
+      cutout-checkerboard: 0.473
+      vs-two-up: 0.462
+    best_family: dark-composite
+    moved_from: prompt-card
+    drop: near-dup of corpus 1f002ec5 (hamming 10)
+  pexels-12932574:
+    url: https://www.pexels.com/photo/minimalist-composition-with-pink-disk-and-lilac-rectangles-12932574/
+    image: https://images.pexels.com/photos/12932574/pexels-photo-12932574.jpeg
+    thumb: https://images.pexels.com/photos/12932574/pexels-photo-12932574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: iJoxi  Studios
+    creator_url: https://www.pexels.com/@ijoxi-studios-274852259
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4500
+    height: 2532
+    aspect_class: '16:9'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 616d6465643c2420
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.606
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - dfd22ac3
+    state: pending
+    family_scores:
+      dark-composite: 0.606
+      crop-frame: 0.479
+      template-mockup: 0.407
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-13097400:
+    url: https://www.pexels.com/photo/overhead-shot-of-a-person-s-legs-near-a-notebook-13097400/
+    image: https://images.pexels.com/photos/13097400/pexels-photo-13097400.jpeg
+    thumb: https://images.pexels.com/photos/13097400/pexels-photo-13097400.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Melike  B
+    creator_url: https://www.pexels.com/@mlkbnl
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: feet sandals socks pastel background
+    collected: '2026-09-16'
+    phash: 2559199db113d546
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.553
+    nearest:
+    - 21cdafd9
+    - 4300f508
+    - 56f038cf
+    state: pending
+    family_scores:
+      dark-composite: 0.553
+      mockup-card: 0.507
+      template-mockup: 0.48
+    best_family: dark-composite
+    moved_from: before-after
+  pexels-1493113:
+    url: https://www.pexels.com/photo/gold-colored-necklace-in-between-analog-watch-and-eyeglasses-on-pink-surface-1493113/
+    image: https://images.pexels.com/photos/1493113/pexels-photo-1493113.jpeg
+    thumb: https://images.pexels.com/photos/1493113/pexels-photo-1493113.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Shane Aldendorff
+    creator_url: https://www.pexels.com/@pluyar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 091113696d4c1c1c
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.428
+    nearest:
+    - 4fed106c
+    - fc6f4401
+    - 21cdafd9
+    state: pending
+    family_scores:
+      dark-composite: 0.428
+      graphic-collage: 0.319
+      vs-two-up: 0.284
+    best_family: dark-composite
+    moved_from: graphic-collage
   pexels-15238964:
     url: https://www.pexels.com/photo/young-posing-woman-15238964/
     image: https://images.pexels.com/photos/15238964/pexels-photo-15238964.jpeg
@@ -126,6 +448,43 @@ entries:
     subject: person
     note: low-key but near-monochrome
     moved_from: cinematic-still
+  pexels-16036148:
+    url: https://www.pexels.com/photo/green-podium-16036148/
+    image: https://images.pexels.com/photos/16036148/pexels-photo-16036148.jpeg
+    thumb: https://images.pexels.com/photos/16036148/pexels-photo-16036148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: IP Creative
+    creator_url: https://www.pexels.com/@ip-creative-495856013
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3750
+    height: 3000
+    aspect_class: '5:4'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 00001870d6c1e916
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.51
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - 4300f508
+    state: dropped
+    family_scores:
+      dark-composite: 0.51
+      editor-canvas: 0.491
+      vs-two-up: 0.481
+    best_family: dark-composite
+    moved_from: prompt-card
+    drop: more than 3 from IP Creative this pass
   pexels-16218836:
     url: https://www.pexels.com/photo/delorean-time-machine-flying-by-the-full-moon-on-a-shelf-16218836/
     image: https://images.pexels.com/photos/16218836/pexels-photo-16218836.jpeg
@@ -209,6 +568,252 @@ entries:
     subject: person
     note: ideal teal-orange grade but legible NO MERCY slogan across the tee
     moved_from: cinematic-still
+  pexels-18751139:
+    url: https://www.pexels.com/photo/kitchenware-for-honey-18751139/
+    image: https://images.pexels.com/photos/18751139/pexels-photo-18751139.png
+    thumb: https://images.pexels.com/photos/18751139/pexels-photo-18751139.png?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Fernanda Núñez
+    creator_url: https://www.pexels.com/@fernanda-nunez-760836228
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5616
+    height: 3744
+    aspect_class: '3:2'
+    term: colorful kitchenware pastel background
+    collected: '2026-09-16'
+    phash: 1b6b3bedec7b6b59
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.536
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - 3062ad35
+    state: pending
+    family_scores:
+      dark-composite: 0.536
+      graphic-collage: 0.498
+      editor-canvas: 0.443
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-20604626:
+    url: https://www.pexels.com/photo/portrait-of-a-woman-on-a-white-background-20604626/
+    image: https://images.pexels.com/photos/20604626/pexels-photo-20604626.jpeg
+    thumb: https://images.pexels.com/photos/20604626/pexels-photo-20604626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ноями Noyami
+    creator_url: https://www.pexels.com/@noyami-170979394
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: fashion portrait white background gloves
+    collected: '2026-09-16'
+    phash: 323272623271f4e4
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.537
+    nearest:
+    - 3062ad35
+    - 4fed106c
+    - 21cdafd9
+    state: pending
+    family_scores:
+      before-after: 0.58
+      dark-composite: 0.537
+      model-card: 0.429
+    best_family: before-after
+  pexels-25533521:
+    url: https://www.pexels.com/photo/selective-focus-of-lipsticks-25533521/
+    image: https://images.pexels.com/photos/25533521/pexels-photo-25533521.jpeg
+    thumb: https://images.pexels.com/photos/25533521/pexels-photo-25533521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ALOK DAS
+    creator_url: https://www.pexels.com/@alokkd1
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 2000
+    aspect_class: '1:1'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 75dcf19696969e9c
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.85
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - 4300f508
+    state: pending
+    family_scores:
+      dark-composite: 0.85
+      template-mockup: 0.746
+      crop-frame: 0.738
+    best_family: dark-composite
+  pexels-29175402:
+    url: https://www.pexels.com/photo/modern-black-lipstick-with-water-droplets-29175402/
+    image: https://images.pexels.com/photos/29175402/pexels-photo-29175402.jpeg
+    thumb: https://images.pexels.com/photos/29175402/pexels-photo-29175402.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vural Yavas
+    creator_url: https://www.pexels.com/@vuralyavas
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6319
+    height: 4299
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 0f1f1b190d191912
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.407
+    nearest:
+    - 4fed106c
+    - 21cdafd9
+    - bd3c5739
+    state: pending
+    family_scores:
+      vs-two-up: 0.448
+      dark-composite: 0.407
+      editor-canvas: 0.266
+    best_family: vs-two-up
+  pexels-29996972:
+    url: https://www.pexels.com/photo/modern-workspace-setup-with-2025-planner-29996972/
+    image: https://images.pexels.com/photos/29996972/pexels-photo-29996972.jpeg
+    thumb: https://images.pexels.com/photos/29996972/pexels-photo-29996972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Viridiana Rivera
+    creator_url: https://www.pexels.com/@viridianaor
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6905
+    height: 4672
+    aspect_class: '3:2'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: c0c4c6c9c9d4dcd8
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.462
+    nearest:
+    - 4300f508
+    - fc6f4401
+    - ec6aebfc
+    state: pending
+    family_scores:
+      dark-composite: 0.462
+      vs-two-up: 0.326
+      panel-overlay: 0.293
+    best_family: dark-composite
+    moved_from: template-mockup
+  pexels-30408335:
+    url: https://www.pexels.com/photo/elegant-lipsticks-on-seashell-display-30408335/
+    image: https://images.pexels.com/photos/30408335/pexels-photo-30408335.jpeg
+    thumb: https://images.pexels.com/photos/30408335/pexels-photo-30408335.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ahimsa -  OM
+    creator_url: https://www.pexels.com/@ahimsa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 2916
+    aspect_class: '16:9'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: 1f0f3b3b1b07131d
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.367
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - fc6f4401
+    state: dropped
+    family_scores:
+      dark-composite: 0.367
+      vs-two-up: 0.35
+      graphic-collage: 0.242
+    best_family: dark-composite
+    moved_from: graphic-collage
+    drop: near-dup of corpus e5399c00 (hamming 9)
+  pexels-32891969:
+    url: https://www.pexels.com/photo/colorful-stacked-blue-and-yellow-mugs-32891969/
+    image: https://images.pexels.com/photos/32891969/pexels-photo-32891969.jpeg
+    thumb: https://images.pexels.com/photos/32891969/pexels-photo-32891969.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rashed Paykary
+    creator_url: https://www.pexels.com/@peaky
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6581
+    height: 8726
+    aspect_class: '3:4'
+    term: ceramic mug colored background
+    collected: '2026-09-16'
+    phash: 71dc32b173f2b048
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.42
+    nearest:
+    - fc6f4401
+    - 4300f508
+    - 21cdafd9
+    state: pending
+    family_scores:
+      dark-composite: 0.42
+      vs-two-up: 0.37
+      cutout-checkerboard: 0.258
+    best_family: dark-composite
+    moved_from: template-mockup
   pexels-33424854:
     url: https://www.pexels.com/photo/moody-portrait-of-young-woman-in-low-light-33424854/
     image: https://images.pexels.com/photos/33424854/pexels-photo-33424854.jpeg
@@ -251,6 +856,76 @@ entries:
     subject: person
     note: near-black low-key
     moved_from: cinematic-still
+  pexels-3373738:
+    url: https://www.pexels.com/photo/five-assorted-color-of-liquid-lipsticks-3373738/
+    image: https://images.pexels.com/photos/3373738/pexels-photo-3373738.jpeg
+    thumb: https://images.pexels.com/photos/3373738/pexels-photo-3373738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Shiny Diamond
+    creator_url: https://www.pexels.com/@shiny-diamond
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5260
+    height: 3506
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 3f5f0faf4d463633
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.333
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - b476daea
+    state: pending
+    family_scores:
+      before-after: 0.363
+      editor-canvas: 0.341
+      graphic-collage: 0.334
+    best_family: before-after
+  pexels-3373740:
+    url: https://www.pexels.com/photo/close-up-photo-of-pink-lip-gloss-3373740/
+    image: https://images.pexels.com/photos/3373740/pexels-photo-3373740.jpeg
+    thumb: https://images.pexels.com/photos/3373740/pexels-photo-3373740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Shiny Diamond
+    creator_url: https://www.pexels.com/@shiny-diamond
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6037
+    height: 4024
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 0b17137325252333
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.598
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - dfd22ac3
+    state: pending
+    family_scores:
+      dark-composite: 0.598
+      editor-canvas: 0.469
+      before-after: 0.418
+    best_family: dark-composite
   pexels-34415083:
     url: https://www.pexels.com/photo/surreal-artistic-still-life-with-vase-and-spheres-34415083/
     image: https://images.pexels.com/photos/34415083/pexels-photo-34415083.jpeg
@@ -334,6 +1009,1152 @@ entries:
     best_family: outcome-tile
     note: dim multi-prop conceptual still life, muddy grade
     moved_from: cinematic-still
+  pexels-36032200:
+    url: https://www.pexels.com/photo/colorful-striped-brick-wall-with-texture-36032200/
+    image: https://images.pexels.com/photos/36032200/pexels-photo-36032200.jpeg
+    thumb: https://images.pexels.com/photos/36032200/pexels-photo-36032200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tim Mossholder
+    creator_url: https://www.pexels.com/@timmossholder
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5568
+    height: 3712
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-16'
+    phash: fcfcfcfe9ee6c4c4
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.41
+    nearest:
+    - f57c774f
+    - fc6f4401
+    - 1fe89325
+    state: pending
+    family_scores:
+      dark-composite: 0.41
+      panel-overlay: 0.16
+      before-after: 0.148
+    best_family: dark-composite
+    moved_from: panel-overlay
+  pexels-36626343:
+    url: https://www.pexels.com/photo/minimalist-black-chair-against-white-brick-wall-36626343/
+    image: https://images.pexels.com/photos/36626343/pexels-photo-36626343.jpeg
+    thumb: https://images.pexels.com/photos/36626343/pexels-photo-36626343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6016
+    height: 4016
+    aspect_class: '3:2'
+    term: single chair minimalist studio plain wall
+    collected: '2026-09-16'
+    phash: 021242cacac2c2c2
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.22
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - b476daea
+    state: dropped
+    family_scores:
+      dark-composite: 0.22
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: dark-composite
+    moved_from: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-38655380:
+    url: https://www.pexels.com/photo/close-up-of-a-textured-baseball-cap-in-monochrome-38655380/
+    image: https://images.pexels.com/photos/38655380/pexels-photo-38655380.jpeg
+    thumb: https://images.pexels.com/photos/38655380/pexels-photo-38655380.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kamil Čičila
+    creator_url: https://www.pexels.com/@cicosvk
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4080
+    height: 3072
+    aspect_class: '4:3'
+    term: baseball cap product
+    collected: '2026-09-16'
+    phash: 53070fcfe7f3f343
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.268
+    nearest:
+    - f57c774f
+    - fc6f4401
+    - bd014004
+    state: pending
+    family_scores:
+      dark-composite: 0.268
+      vs-two-up: 0.171
+      panel-overlay: 0.113
+    best_family: dark-composite
+    moved_from: before-after
+  pexels-39360164:
+    url: https://www.pexels.com/photo/dynamic-jump-in-scenic-outdoor-setting-39360164/
+    image: https://images.pexels.com/photos/39360164/pexels-photo-39360164.jpeg
+    thumb: https://images.pexels.com/photos/39360164/pexels-photo-39360164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Dion Martins
+    creator_url: https://www.pexels.com/@dion-martins-911300074
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: fashion editorial colorful outfit blue sky
+    collected: '2026-09-16'
+    phash: fffefd69e9dbf968
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.369
+    nearest:
+    - f57c774f
+    - e247e30d
+    - bd014004
+    state: pending
+    family_scores:
+      dark-composite: 0.369
+      vs-two-up: 0.361
+      graphic-collage: 0.34
+    best_family: dark-composite
+    moved_from: model-card
+  pexels-5054606:
+    url: https://www.pexels.com/photo/people-clinking-bottled-beer-in-their-hands-5054606/
+    image: https://images.pexels.com/photos/5054606/pexels-photo-5054606.jpeg
+    thumb: https://images.pexels.com/photos/5054606/pexels-photo-5054606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ketut Subiyanto
+    creator_url: https://www.pexels.com/@ketut-subiyanto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5289
+    height: 3508
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 7f4f3069483a2b2b
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.395
+    nearest:
+    - e247e30d
+    - f57c774f
+    - b476daea
+    state: pending
+    family_scores:
+      dark-composite: 0.395
+      graphic-collage: 0.277
+      vs-two-up: 0.262
+    best_family: dark-composite
+  pexels-5055738:
+    url: https://www.pexels.com/photo/people-holding-beer-bottles-5055738/
+    image: https://images.pexels.com/photos/5055738/pexels-photo-5055738.jpeg
+    thumb: https://images.pexels.com/photos/5055738/pexels-photo-5055738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ketut Subiyanto
+    creator_url: https://www.pexels.com/@ketut-subiyanto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: e3e3706369396a4b
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.169
+    nearest:
+    - f57c774f
+    - e247e30d
+    - b476daea
+    state: dropped
+    family_scores:
+      graphic-collage: 0.232
+      vs-two-up: 0.188
+      dark-composite: 0.169
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-5055740:
+    url: https://www.pexels.com/photo/people-with-beer-bottles-5055740/
+    image: https://images.pexels.com/photos/5055740/pexels-photo-5055740.jpeg
+    thumb: https://images.pexels.com/photos/5055740/pexels-photo-5055740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ketut Subiyanto
+    creator_url: https://www.pexels.com/@ketut-subiyanto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4452
+    height: 3438
+    aspect_class: '4:3'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: f0a56ae6d696343f
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.31
+    nearest:
+    - f57c774f
+    - e247e30d
+    - bd014004
+    state: pending
+    family_scores:
+      dark-composite: 0.31
+      vs-two-up: 0.23
+      graphic-collage: 0.216
+    best_family: dark-composite
+  pexels-6373845:
+    url: https://www.pexels.com/photo/blank-name-tag-on-plate-near-rocks-6373845/
+    image: https://images.pexels.com/photos/6373845/pexels-photo-6373845.jpeg
+    thumb: https://images.pexels.com/photos/6373845/pexels-photo-6373845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Monstera Production
+    creator_url: https://www.pexels.com/@gabby-k
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 66a70d9c9c99cb4d
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.358
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - 21cdafd9
+    state: pending
+    family_scores:
+      dark-composite: 0.358
+      template-mockup: 0.329
+      graphic-collage: 0.298
+    best_family: dark-composite
+    moved_from: vs-two-up
+  pexels-6527699:
+    url: https://www.pexels.com/photo/cosmetic-products-on-white-surface-6527699/
+    image: https://images.pexels.com/photos/6527699/pexels-photo-6527699.jpeg
+    thumb: https://images.pexels.com/photos/6527699/pexels-photo-6527699.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hakim  Santoso
+    creator_url: https://www.pexels.com/@hakimsatoso
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4595
+    height: 4595
+    aspect_class: '1:1'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 09944c0cdc48c9c8
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.522
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - bd3c5739
+    state: pending
+    family_scores:
+      vs-two-up: 0.589
+      crop-frame: 0.571
+      dark-composite: 0.522
+    best_family: vs-two-up
+  pexels-6840026:
+    url: https://www.pexels.com/photo/neon-podium-under-golden-arch-6840026/
+    image: https://images.pexels.com/photos/6840026/pexels-photo-6840026.jpeg
+    thumb: https://images.pexels.com/photos/6840026/pexels-photo-6840026.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 如飞 刘
+    creator_url: https://www.pexels.com/@3416890
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2500
+    aspect_class: '16:10'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0f17b2b2322a0e10
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.63
+    nearest:
+    - fc6f4401
+    - ec6aebfc
+    - 21cdafd9
+    state: pending
+    family_scores:
+      dark-composite: 0.63
+      editor-canvas: 0.592
+      cutout-checkerboard: 0.461
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-6990186:
+    url: https://www.pexels.com/photo/blue-dice-with-white-dots-6990186/
+    image: https://images.pexels.com/photos/6990186/pexels-photo-6990186.jpeg
+    thumb: https://images.pexels.com/photos/6990186/pexels-photo-6990186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6811
+    height: 4541
+    aspect_class: '3:2'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: 70f088b4b2c8e4a0
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.237
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - ec6aebfc
+    state: dropped
+    family_scores:
+      dark-composite: 0.237
+      template-mockup: 0.224
+      vs-two-up: 0.175
+    best_family: dark-composite
+    moved_from: graphic-collage
+    drop: near-dup of corpus 0e7c6b6c (hamming 9)
+  pexels-6991797:
+    url: https://www.pexels.com/photo/a-yellow-sticky-note-on-white-surface-6991797/
+    image: https://images.pexels.com/photos/6991797/pexels-photo-6991797.jpeg
+    thumb: https://images.pexels.com/photos/6991797/pexels-photo-6991797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7239
+    height: 4826
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 7f7ff3cfb3b2cff6
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.318
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - 4300f508
+    state: dropped
+    family_scores:
+      dark-composite: 0.318
+      template-mockup: 0.264
+      vs-two-up: 0.194
+    best_family: dark-composite
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 0672af7c (hamming 9)
+  pexels-7256060:
+    url: https://www.pexels.com/photo/nude-color-cosmetic-products-7256060/
+    image: https://images.pexels.com/photos/7256060/pexels-photo-7256060.jpeg
+    thumb: https://images.pexels.com/photos/7256060/pexels-photo-7256060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8365
+    height: 5577
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: ffffff6ba5399b27
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.53
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - bd3c5739
+    state: dropped
+    family_scores:
+      before-after: 0.596
+      editor-canvas: 0.566
+      dark-composite: 0.53
+    best_family: before-after
+    drop: near-dup of corpus 5b16a1b0 (hamming 8)
+  pexels-7256082:
+    url: https://www.pexels.com/photo/a-lipsticks-on-a-white-surface-7256082/
+    image: https://images.pexels.com/photos/7256082/pexels-photo-7256082.jpeg
+    thumb: https://images.pexels.com/photos/7256082/pexels-photo-7256082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6356
+    height: 4237
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: bfb7774fb3b3b2b3
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.23
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - 4fed106c
+    state: dropped
+    family_scores:
+      vs-two-up: 0.303
+      dark-composite: 0.23
+      crop-frame: 0.113
+    best_family: vs-two-up
+    drop: more than 3 from DS stories this pass
+  pexels-7256092:
+    url: https://www.pexels.com/photo/close-up-shot-of-cosmetic-products-on-a-white-surface-7256092/
+    image: https://images.pexels.com/photos/7256092/pexels-photo-7256092.jpeg
+    thumb: https://images.pexels.com/photos/7256092/pexels-photo-7256092.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7454
+    height: 4969
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: b3abf5b3b3b0b0d3
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.314
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - bd3c5739
+    state: dropped
+    family_scores:
+      vs-two-up: 0.36
+      dark-composite: 0.314
+      editor-canvas: 0.27
+    best_family: vs-two-up
+    drop: more than 3 from DS stories this pass
+  pexels-7256105:
+    url: https://www.pexels.com/photo/close-up-shot-of-cosmetic-products-on-a-gray-surface-7256105/
+    image: https://images.pexels.com/photos/7256105/pexels-photo-7256105.jpeg
+    thumb: https://images.pexels.com/photos/7256105/pexels-photo-7256105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7693
+    height: 5128
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 030f97ad29693103
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.299
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - 4300f508
+    state: dropped
+    family_scores:
+      dark-composite: 0.299
+      vs-two-up: 0.273
+      editor-canvas: 0.135
+    best_family: dark-composite
+    drop: more than 3 from DS stories this pass
+  pexels-7256118:
+    url: https://www.pexels.com/photo/pink-and-orange-lipstick-on-orange-background-7256118/
+    image: https://images.pexels.com/photos/7256118/pexels-photo-7256118.jpeg
+    thumb: https://images.pexels.com/photos/7256118/pexels-photo-7256118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8502
+    height: 5668
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 37330732b3311303
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.6
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - fc6f4401
+    state: pending
+    family_scores:
+      dark-composite: 0.6
+      editor-canvas: 0.417
+      vs-two-up: 0.399
+    best_family: dark-composite
+  pexels-7256137:
+    url: https://www.pexels.com/photo/lip-pencil-lipsticks-and-leaves-on-pink-background-7256137/
+    image: https://images.pexels.com/photos/7256137/pexels-photo-7256137.jpeg
+    thumb: https://images.pexels.com/photos/7256137/pexels-photo-7256137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7706
+    height: 5137
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 176b676f6333330f
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 5
+      before_after: false
+    score: 0.672
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - fc6f4401
+    state: pending
+    family_scores:
+      dark-composite: 0.672
+      editor-canvas: 0.568
+      vs-two-up: 0.481
+    best_family: dark-composite
+  pexels-7256139:
+    url: https://www.pexels.com/photo/lipsticks-on-pink-surface-7256139/
+    image: https://images.pexels.com/photos/7256139/pexels-photo-7256139.jpeg
+    thumb: https://images.pexels.com/photos/7256139/pexels-photo-7256139.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7282
+    height: 4855
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 679b6971ba33132f
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.626
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - 4fed106c
+    state: pending
+    family_scores:
+      dark-composite: 0.626
+      editor-canvas: 0.395
+      vs-two-up: 0.388
+    best_family: dark-composite
+  pexels-7256147:
+    url: https://www.pexels.com/photo/lipstick-against-a-pink-background-7256147/
+    image: https://images.pexels.com/photos/7256147/pexels-photo-7256147.jpeg
+    thumb: https://images.pexels.com/photos/7256147/pexels-photo-7256147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6870
+    height: 4579
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 228001010041a255
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.487
+    nearest:
+    - 21cdafd9
+    - 4fed106c
+    - fc6f4401
+    state: dropped
+    family_scores:
+      dark-composite: 0.487
+      before-after: 0.374
+      editor-canvas: 0.361
+    best_family: dark-composite
+    drop: more than 3 from DS stories this pass
+  pexels-7290124:
+    url: https://www.pexels.com/photo/a-person-holding-a-palette-7290124/
+    image: https://images.pexels.com/photos/7290124/pexels-photo-7290124.jpeg
+    thumb: https://images.pexels.com/photos/7290124/pexels-photo-7290124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3884
+    height: 5826
+    aspect_class: '2:3'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: 9202086062d090e3
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.516
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - 3062ad35
+    state: pending
+    family_scores:
+      dark-composite: 0.516
+      graphic-collage: 0.401
+      editor-canvas: 0.325
+    best_family: dark-composite
+    moved_from: template-mockup
+  pexels-7354453:
+    url: https://www.pexels.com/photo/photo-of-an-orange-flower-leaning-on-blue-vase-7354453/
+    image: https://images.pexels.com/photos/7354453/pexels-photo-7354453.jpeg
+    thumb: https://images.pexels.com/photos/7354453/pexels-photo-7354453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2752
+    height: 4128
+    aspect_class: '2:3'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 4d3332d9e0f0f201
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.42
+    nearest:
+    - fc6f4401
+    - 4300f508
+    - f57c774f
+    state: pending
+    family_scores:
+      dark-composite: 0.42
+      cinematic-still: 0.413
+      vs-two-up: 0.222
+    best_family: dark-composite
+    moved_from: cutout-checkerboard
+  pexels-7718809:
+    url: https://www.pexels.com/photo/photo-of-a-yellow-notebook-7718809/
+    image: https://images.pexels.com/photos/7718809/pexels-photo-7718809.jpeg
+    thumb: https://images.pexels.com/photos/7718809/pexels-photo-7718809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5842
+    height: 3895
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 1f3733333333170c
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.57
+    nearest:
+    - 4300f508
+    - fc6f4401
+    - 56f038cf
+    state: dropped
+    family_scores:
+      dark-composite: 0.57
+      template-mockup: 0.34
+      crop-frame: 0.216
+    best_family: dark-composite
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 3dde3e8f (hamming 9)
+  pexels-7828279:
+    url: https://www.pexels.com/photo/blue-ceramic-mug-on-a-marbled-tile-7828279/
+    image: https://images.pexels.com/photos/7828279/pexels-photo-7828279.jpeg
+    thumb: https://images.pexels.com/photos/7828279/pexels-photo-7828279.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful mug product photography
+    collected: '2026-09-16'
+    phash: ffffffe76764f8da
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.469
+    nearest:
+    - fc6f4401
+    - 4300f508
+    - f57c774f
+    state: pending
+    family_scores:
+      dark-composite: 0.469
+      before-after: 0.359
+      vs-two-up: 0.327
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-7893809:
+    url: https://www.pexels.com/photo/group-of-people-toasting-beer-bottles-7893809/
+    image: https://images.pexels.com/photos/7893809/pexels-photo-7893809.jpeg
+    thumb: https://images.pexels.com/photos/7893809/pexels-photo-7893809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kampus Production
+    creator_url: https://www.pexels.com/@kampus
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6016
+    height: 4016
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 253d1b73b3360c1b
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.524
+    nearest:
+    - f57c774f
+    - e247e30d
+    - b476daea
+    state: pending
+    family_scores:
+      dark-composite: 0.524
+      graphic-collage: 0.265
+      vs-two-up: 0.248
+    best_family: dark-composite
+  pexels-7911758:
+    url: https://www.pexels.com/photo/white-and-brown-round-frame-7911758/
+    image: https://images.pexels.com/photos/7911758/pexels-photo-7911758.jpeg
+    thumb: https://images.pexels.com/photos/7911758/pexels-photo-7911758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rodion Kutsaiev
+    creator_url: https://www.pexels.com/@frostroomhead
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2800
+    height: 2800
+    aspect_class: '1:1'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0c3231b1b9f9c1e2
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.701
+    nearest:
+    - fc6f4401
+    - 1fe89325
+    - dfd22ac3
+    state: pending
+    family_scores:
+      dark-composite: 0.701
+      cutout-checkerboard: 0.439
+      crop-frame: 0.429
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-8015467:
+    url: https://www.pexels.com/photo/brown-cardboard-box-on-white-surface-8015467/
+    image: https://images.pexels.com/photos/8015467/pexels-photo-8015467.jpeg
+    thumb: https://images.pexels.com/photos/8015467/pexels-photo-8015467.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: fffff7f978f8fbff
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.115
+    nearest:
+    - 4300f508
+    - fc6f4401
+    - f57c774f
+    state: dropped
+    family_scores:
+      dark-composite: 0.115
+      graphic-collage: 0.036
+      editor-canvas: 0.034
+    best_family: dark-composite
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 041c7d23 (hamming 8)
+  pexels-8166561:
+    url: https://www.pexels.com/photo/hand-holding-white-paper-bag-8166561/
+    image: https://images.pexels.com/photos/8166561/pexels-photo-8166561.jpeg
+    thumb: https://images.pexels.com/photos/8166561/pexels-photo-8166561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daria Liudnaya
+    creator_url: https://www.pexels.com/@daria-liudnaya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2800
+    height: 3500
+    aspect_class: '4:5'
+    term: hand holding product colorful background
+    collected: '2026-09-16'
+    phash: d737760e9f86e39b
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.522
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - f57c774f
+    state: pending
+    family_scores:
+      dark-composite: 0.522
+      graphic-collage: 0.5
+      cinematic-still: 0.464
+    best_family: dark-composite
+    moved_from: template-mockup
+  pexels-8356319:
+    url: https://www.pexels.com/photo/pink-ceramic-slippers-on-pink-background-8356319/
+    image: https://images.pexels.com/photos/8356319/pexels-photo-8356319.jpeg
+    thumb: https://images.pexels.com/photos/8356319/pexels-photo-8356319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marina M
+    creator_url: https://www.pexels.com/@marina-m
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2667
+    aspect_class: '3:2'
+    term: shoes pastel background
+    collected: '2026-09-16'
+    phash: 0b1909094dc74307
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.435
+    nearest:
+    - 21cdafd9
+    - fc6f4401
+    - 4fed106c
+    state: pending
+    family_scores:
+      dark-composite: 0.435
+      editor-canvas: 0.341
+      before-after: 0.332
+    best_family: dark-composite
+    moved_from: before-after
+  pexels-8776809:
+    url: https://www.pexels.com/photo/close-up-shot-of-cosmetics-on-a-white-surface-8776809/
+    image: https://images.pexels.com/photos/8776809/pexels-photo-8776809.jpeg
+    thumb: https://images.pexels.com/photos/8776809/pexels-photo-8776809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ron Lach
+    creator_url: https://www.pexels.com/@ron-lach
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2913
+    height: 4381
+    aspect_class: '2:3'
+    term: product on colored background
+    collected: '2026-09-16'
+    phash: 35f2f03073e8f871
+    ranker: clip
+    searched_family: template-mockup
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.317
+    nearest:
+    - fc6f4401
+    - 21cdafd9
+    - 4300f508
+    state: pending
+    family_scores:
+      dark-composite: 0.317
+      vs-two-up: 0.302
+      template-mockup: 0.187
+    best_family: dark-composite
+    moved_from: template-mockup
+  pexels-8903348:
+    url: https://www.pexels.com/photo/ceramic-dinnerware-on-blue-surface-8903348/
+    image: https://images.pexels.com/photos/8903348/pexels-photo-8903348.jpeg
+    thumb: https://images.pexels.com/photos/8903348/pexels-photo-8903348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6526
+    height: 4351
+    aspect_class: '3:2'
+    term: colorful kitchenware pastel background
+    collected: '2026-09-16'
+    phash: ffd8938785c3a6fc
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.455
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - 21cdafd9
+    state: pending
+    family_scores:
+      dark-composite: 0.455
+      graphic-collage: 0.356
+      vs-two-up: 0.296
+    best_family: dark-composite
+    moved_from: prompt-card
+  pexels-9120948:
+    url: https://www.pexels.com/photo/white-table-tops-with-brown-wooden-chairs-9120948/
+    image: https://images.pexels.com/photos/9120948/pexels-photo-9120948.jpeg
+    thumb: https://images.pexels.com/photos/9120948/pexels-photo-9120948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: SpotwizardLee
+    creator_url: https://www.pexels.com/@spotwizardlee-35777904
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6687
+    height: 4640
+    aspect_class: '3:2'
+    term: wooden chair against green wall
+    collected: '2026-09-16'
+    phash: 0101010301cccc4d
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.331
+    nearest:
+    - fc6f4401
+    - f57c774f
+    - d5d56eb0
+    state: pending
+    family_scores:
+      dark-composite: 0.331
+      graphic-collage: 0.309
+      crop-frame: 0.271
+    best_family: dark-composite
+    moved_from: editor-canvas
   pexels-9241893:
     url: https://www.pexels.com/photo/black-and-silver-dslr-camera-9241893/
     image: https://images.pexels.com/photos/9241893/pexels-photo-9241893.jpeg
@@ -375,3 +2196,39 @@ entries:
     best_family: outcome-tile
     note: levitating camera and binoculars on flat dark ground
     moved_from: cinematic-still
+  pexels-9363480:
+    url: https://www.pexels.com/photo/man-in-white-tank-top-wearing-black-hat-9363480/
+    image: https://images.pexels.com/photos/9363480/pexels-photo-9363480.jpeg
+    thumb: https://images.pexels.com/photos/9363480/pexels-photo-9363480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Lara Jameson
+    creator_url: https://www.pexels.com/@lara-jameson
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: studio portrait colorful background
+    collected: '2026-09-16'
+    phash: 317161737362525a
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.6
+    nearest:
+    - c1b34851
+    - bd014004
+    - bd3c5739
+    state: pending
+    family_scores:
+      dark-composite: 0.6
+      graphic-collage: 0.593
+      before-after: 0.569
+    best_family: dark-composite
+    moved_from: vs-two-up

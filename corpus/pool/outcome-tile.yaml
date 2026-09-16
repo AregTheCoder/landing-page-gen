@@ -83,6 +83,249 @@ entries:
     subject: product
     note: flat pastel pink-on-pink product still, no cinematic grade or directional light
     moved_from: cinematic-still
+  pexels-10509255:
+    url: https://www.pexels.com/photo/a-cupcakes-with-chocolate-toppings-on-top-10509255/
+    image: https://images.pexels.com/photos/10509255/pexels-photo-10509255.jpeg
+    thumb: https://images.pexels.com/photos/10509255/pexels-photo-10509255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sara
+    creator_url: https://www.pexels.com/@sarahpictures
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 3371cc6cf0f0f8d5
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.37
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - ef737d20
+    state: pending
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+  pexels-1055270:
+    url: https://www.pexels.com/photo/cupcake-with-whipped-cream-and-fruits-on-top-1055270/
+    image: https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg
+    thumb: https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Aaron Paul
+    creator_url: https://www.pexels.com/@aaron-paul-127162
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 4000
+    aspect_class: '1:1'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: b04d31716f63e367
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.925
+    nearest:
+    - 1420103e
+    - 715e6d64
+    - f5d786ff
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.644
+      before-after: 0.393
+      vs-two-up: 0.352
+    best_family: cutout-checkerboard
+  pexels-1055271:
+    url: https://www.pexels.com/photo/cupcake-topped-with-creamy-icing-1055271/
+    image: https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg
+    thumb: https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Aaron Paul
+    creator_url: https://www.pexels.com/@aaron-paul-127162
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 4000
+    aspect_class: '1:1'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 050d13676161e178
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.925
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 1420103e
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.515
+      dark-composite: 0.348
+      template-mockup: 0.311
+    best_family: cutout-checkerboard
+  pexels-1055272:
+    url: https://www.pexels.com/photo/photograph-of-chocolate-cupcake-with-red-strawberry-toppings-1055272/
+    image: https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg
+    thumb: https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Aaron Paul
+    creator_url: https://www.pexels.com/@aaron-paul-127162
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 4000
+    aspect_class: '1:1'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 334db37361e1e379
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.925
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - f5d786ff
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.418
+      dark-composite: 0.348
+      template-mockup: 0.311
+    best_family: cutout-checkerboard
+  pexels-10777242:
+    url: https://www.pexels.com/photo/piece-of-cake-and-milk-on-dessert-10777242/
+    image: https://images.pexels.com/photos/10777242/pexels-photo-10777242.jpeg
+    thumb: https://images.pexels.com/photos/10777242/pexels-photo-10777242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Belousova
+    creator_url: https://www.pexels.com/@anna-belousova-130658517
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3079
+    height: 5472
+    aspect_class: '9:16'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 021170b23c2cf8c0
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.506
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 1420103e
+    state: pending
+    family_scores:
+      cinematic-still: 0.366
+      graphic-collage: 0.147
+      panel-overlay: 0.056
+    best_family: cinematic-still
+  pexels-11188689:
+    url: https://www.pexels.com/photo/a-stack-of-doughnuts-on-a-white-surface-11188689/
+    image: https://images.pexels.com/photos/11188689/pexels-photo-11188689.jpeg
+    thumb: https://images.pexels.com/photos/11188689/pexels-photo-11188689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Olena Bohovyk
+    creator_url: https://www.pexels.com/@olenkabohovyk
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 17b10fb13131f11f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.397
+    nearest:
+    - f3c49517
+    - 318a6f41
+    - 9f142618
+    state: pending
+    family_scores:
+      cinematic-still: 0.161
+      graphic-collage: 0.092
+      vs-two-up: 0.02
+    best_family: cinematic-still
+  pexels-11188694:
+    url: https://www.pexels.com/photo/a-doughnut-with-white-background-11188694/
+    image: https://images.pexels.com/photos/11188694/pexels-photo-11188694.jpeg
+    thumb: https://images.pexels.com/photos/11188694/pexels-photo-11188694.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Olena Bohovyk
+    creator_url: https://www.pexels.com/@olenkabohovyk
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 01010d3372e30f03
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 7
+      before_after: false
+    score: 0.658
+    nearest:
+    - f3c49517
+    - 318a6f41
+    - ef737d20
+    state: pending
+    family_scores:
+      cinematic-still: 0.329
+      graphic-collage: 0.2
+      dark-composite: 0.089
+    best_family: cinematic-still
   pexels-11345213:
     url: https://www.pexels.com/photo/colorful-macaroons-on-blue-plate-11345213/
     image: https://images.pexels.com/photos/11345213/pexels-photo-11345213.jpeg
@@ -167,6 +410,252 @@ entries:
     subject: food
     note: top-down flat-lay pattern on a pale plate, flat light, not single-subject
     moved_from: cinematic-still
+  pexels-11753640:
+    url: https://www.pexels.com/photo/close-up-photo-of-white-plastic-containers-11753640/
+    image: https://images.pexels.com/photos/11753640/pexels-photo-11753640.jpeg
+    thumb: https://images.pexels.com/photos/11753640/pexels-photo-11753640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vilnis Husko
+    creator_url: https://www.pexels.com/@vhusko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 06aaaa8e96969694
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.662
+    nearest:
+    - f3c49517
+    - 292b3a8d
+    - 5aceec28
+    state: pending
+    family_scores:
+      vs-two-up: 0.339
+      before-after: 0.317
+      editor-canvas: 0.271
+    best_family: vs-two-up
+  pexels-12679985:
+    url: https://www.pexels.com/photo/person-holding-a-croissant-12679985/
+    image: https://images.pexels.com/photos/12679985/pexels-photo-12679985.jpeg
+    thumb: https://images.pexels.com/photos/12679985/pexels-photo-12679985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Shvets
+    creator_url: https://www.pexels.com/@shvetsa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 00436f179bcee679
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 318a6f41
+    - 9f142618
+    - 715e6d64
+    state: pending
+    family_scores:
+      cinematic-still: 0.539
+      graphic-collage: 0.288
+      before-after: 0.113
+    best_family: cinematic-still
+  pexels-14027296:
+    url: https://www.pexels.com/photo/close-up-shot-of-black-supplement-gummies-on-white-surface-14027296/
+    image: https://images.pexels.com/photos/14027296/pexels-photo-14027296.jpeg
+    thumb: https://images.pexels.com/photos/14027296/pexels-photo-14027296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Supplements On Demand
+    creator_url: https://www.pexels.com/@supliful
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2048
+    height: 2048
+    aspect_class: '1:1'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 09104cd2d9f80c03
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.816
+    nearest:
+    - f3c49517
+    - 292b3a8d
+    - '52621901'
+    state: pending
+    family_scores:
+      vs-two-up: 0.507
+      graphic-collage: 0.308
+      panel-overlay: 0.306
+    best_family: vs-two-up
+  pexels-14029288:
+    url: https://www.pexels.com/photo/close-up-shot-of-gummy-bears-in-the-jar-14029288/
+    image: https://images.pexels.com/photos/14029288/pexels-photo-14029288.jpeg
+    thumb: https://images.pexels.com/photos/14029288/pexels-photo-14029288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Supplements On Demand
+    creator_url: https://www.pexels.com/@supliful
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4096
+    height: 4096
+    aspect_class: '1:1'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 007272666666f139
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.476
+    nearest:
+    - '52621901'
+    - ef737d20
+    - 292b3a8d
+    state: pending
+    family_scores:
+      graphic-collage: 0.308
+      panel-overlay: 0.306
+      vs-two-up: 0.297
+    best_family: graphic-collage
+  pexels-14541068:
+    url: https://www.pexels.com/photo/boxes-with-tablets-and-smartphones-14541068/
+    image: https://images.pexels.com/photos/14541068/pexels-photo-14541068.jpeg
+    thumb: https://images.pexels.com/photos/14541068/pexels-photo-14541068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alan Quirván
+    creator_url: https://www.pexels.com/@quirva
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3093
+    height: 3868
+    aspect_class: '4:5'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 406868b4b4c4d434
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: column-main
+      panel_count: 5
+      before_after: false
+    score: 0.075
+    nearest:
+    - f3c49517
+    - 5aceec28
+    - 9f142618
+    state: dropped
+    family_scores:
+      vs-two-up: 0.168
+      dark-composite: 0.098
+      template-mockup: 0.097
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-14942205:
+    url: https://www.pexels.com/photo/sweet-food-on-plate-14942205/
+    image: https://images.pexels.com/photos/14942205/pexels-photo-14942205.jpeg
+    thumb: https://images.pexels.com/photos/14942205/pexels-photo-14942205.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mathias Reding
+    creator_url: https://www.pexels.com/@matreding
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5793
+    height: 3862
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 12b96c74f0f07071
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 9f142618
+    state: pending
+    family_scores:
+      graphic-collage: 0.198
+      vs-two-up: 0.196
+      cutout-checkerboard: 0.106
+    best_family: graphic-collage
+  pexels-14942208:
+    url: https://www.pexels.com/photo/bread-on-white-plate-14942208/
+    image: https://images.pexels.com/photos/14942208/pexels-photo-14942208.jpeg
+    thumb: https://images.pexels.com/photos/14942208/pexels-photo-14942208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mathias Reding
+    creator_url: https://www.pexels.com/@matreding
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 2042c9e9e1a97232
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 9f142618
+    state: pending
+    family_scores:
+      vs-two-up: 0.233
+      graphic-collage: 0.23
+      crop-frame: 0.146
+    best_family: vs-two-up
   pexels-16014763:
     url: https://www.pexels.com/photo/dessert-with-grapes-16014763/
     image: https://images.pexels.com/photos/16014763/pexels-photo-16014763.jpeg
@@ -249,6 +738,217 @@ entries:
     best_family: outcome-tile
     note: top-down donut-and-straws graphic flat-lay
     moved_from: cinematic-still
+  pexels-1775036:
+    url: https://www.pexels.com/photo/two-pastries-on-a-plate-1775036/
+    image: https://images.pexels.com/photos/1775036/pexels-photo-1775036.jpeg
+    thumb: https://images.pexels.com/photos/1775036/pexels-photo-1775036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mariana Kurnyk
+    creator_url: https://www.pexels.com/@mariana-kurnyk-844465
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: '2747676769191919'
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.626
+    nearest:
+    - 715e6d64
+    - 5aceec28
+    - 9f142618
+    state: pending
+    family_scores:
+      graphic-collage: 0.184
+      panel-overlay: 0.084
+      editor-canvas: 0.076
+    best_family: graphic-collage
+  pexels-18553031:
+    url: https://www.pexels.com/photo/close-up-of-colorful-sweet-creamy-food-18553031/
+    image: https://images.pexels.com/photos/18553031/pexels-photo-18553031.jpeg
+    thumb: https://images.pexels.com/photos/18553031/pexels-photo-18553031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: lucas caron
+    creator_url: https://www.pexels.com/@lucas-caron-743765219
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 0f27336333372659
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.075
+    nearest:
+    - 715e6d64
+    - ef737d20
+    - 9f142618
+    state: dropped
+    family_scores:
+      panel-overlay: 0.084
+      graphic-collage: 0.081
+      editor-canvas: 0.078
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-19987966:
+    url: https://www.pexels.com/photo/woman-holding-birthday-cupcakes-in-the-shadow-19987966/
+    image: https://images.pexels.com/photos/19987966/pexels-photo-19987966.jpeg
+    thumb: https://images.pexels.com/photos/19987966/pexels-photo-19987966.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: kasra eftekhari
+    creator_url: https://www.pexels.com/@kasra-eftekhari-796696601
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 0010480c9d8c3c30
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 1420103e
+    - 318a6f41
+    - f3c49517
+    state: pending
+    family_scores:
+      cinematic-still: 0.344
+      graphic-collage: 0.183
+      before-after: 0.14
+    best_family: cinematic-still
+  pexels-20030864:
+    url: https://www.pexels.com/photo/sweet-cupcakes-with-chocolate-20030864/
+    image: https://images.pexels.com/photos/20030864/pexels-photo-20030864.jpeg
+    thumb: https://images.pexels.com/photos/20030864/pexels-photo-20030864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jeferson santos
+    creator_url: https://www.pexels.com/@jeferson-santos-793315344
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3847
+    height: 5737
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: e7efe062b0ed4ca6
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.604
+    nearest:
+    - f3c49517
+    - 6288ee49
+    - 9f142618
+    state: pending
+    family_scores:
+      graphic-collage: 0.463
+      cinematic-still: 0.369
+      cutout-checkerboard: 0.191
+    best_family: graphic-collage
+  pexels-20140025:
+    url: https://www.pexels.com/photo/medicine-bottles-and-pills-20140025/
+    image: https://images.pexels.com/photos/20140025/pexels-photo-20140025.jpeg
+    thumb: https://images.pexels.com/photos/20140025/pexels-photo-20140025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Leeloo The First
+    creator_url: https://www.pexels.com/@leeloothefirst
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4016
+    height: 6016
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 8bb4a6729c9c359d
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.589
+    nearest:
+    - 318a6f41
+    - ef737d20
+    - 9f142618
+    state: pending
+    family_scores:
+      vs-two-up: 0.303
+      cinematic-still: 0.271
+      before-after: 0.198
+    best_family: vs-two-up
+  pexels-20272563:
+    url: https://www.pexels.com/photo/close-up-of-a-stack-of-colorful-french-macarons-20272563/
+    image: https://images.pexels.com/photos/20272563/pexels-photo-20272563.jpeg
+    thumb: https://images.pexels.com/photos/20272563/pexels-photo-20272563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Simeon Mihaylov
+    creator_url: https://www.pexels.com/@simeon-mihaylov-927910676
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6016
+    height: 4016
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: daa4a4b2a4b4f0c8
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 9f142618
+    - 1420103e
+    - 318a6f41
+    state: pending
+    family_scores:
+      graphic-collage: 0.425
+      mockup-card: 0.336
+      cutout-checkerboard: 0.283
+    best_family: graphic-collage
   pexels-20318923:
     url: https://www.pexels.com/photo/young-woman-in-pink-clothing-and-pink-makeup-lying-on-a-bed-20318923/
     image: https://images.pexels.com/photos/20318923/pexels-photo-20318923.jpeg
@@ -375,6 +1075,112 @@ entries:
     subject: food
     note: top-down flat-lay plate on paper
     moved_from: cinematic-still
+  pexels-25477874:
+    url: https://www.pexels.com/photo/sweet-cakes-on-plate-25477874/
+    image: https://images.pexels.com/photos/25477874/pexels-photo-25477874.jpeg
+    thumb: https://images.pexels.com/photos/25477874/pexels-photo-25477874.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anastasia Saiko
+    creator_url: https://www.pexels.com/@likhtarik
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 0e1f63677776761f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 715e6d64
+    - 9f142618
+    - f3c49517
+    state: pending
+    family_scores:
+      graphic-collage: 0.438
+      crop-frame: 0.295
+      cutout-checkerboard: 0.138
+    best_family: graphic-collage
+  pexels-27176376:
+    url: https://www.pexels.com/photo/cupcake-with-number-1-candle-for-first-birthday-27176376/
+    image: https://images.pexels.com/photos/27176376/pexels-photo-27176376.jpeg
+    thumb: https://images.pexels.com/photos/27176376/pexels-photo-27176376.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Helena Lopes
+    creator_url: https://www.pexels.com/@helenalopes
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 440f2e4e4e18120f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 1420103e
+    - 6288ee49
+    - 318a6f41
+    state: pending
+    family_scores:
+      graphic-collage: 0.258
+      cutout-checkerboard: 0.188
+      before-after: 0.123
+    best_family: graphic-collage
+  pexels-27274783:
+    url: https://www.pexels.com/photo/parfum-27274783/
+    image: https://images.pexels.com/photos/27274783/pexels-photo-27274783.jpeg
+    thumb: https://images.pexels.com/photos/27274783/pexels-photo-27274783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Beyza Nur Yurtçu
+    creator_url: https://www.pexels.com/@beyza-nur-yurtcu-1013673166
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: '3034327071616860'
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.15
+    nearest:
+    - ef737d20
+    - '52621901'
+    - f3c49517
+    state: dropped
+    family_scores:
+      vs-two-up: 0.211
+      panel-overlay: 0.113
+      editor-canvas: 0.107
+    best_family: vs-two-up
+    drop: near-dup of corpus 7312456d (hamming 9)
   pexels-27302822:
     url: https://www.pexels.com/photo/blueberries-on-blue-background-27302822/
     image: https://images.pexels.com/photos/27302822/pexels-photo-27302822.jpeg
@@ -416,6 +1222,181 @@ entries:
     best_family: outcome-tile
     note: top-down berry macro
     moved_from: cinematic-still
+  pexels-28122539:
+    url: https://www.pexels.com/photo/red-velvet-cupcake-28122539/
+    image: https://images.pexels.com/photos/28122539/pexels-photo-28122539.jpeg
+    thumb: https://images.pexels.com/photos/28122539/pexels-photo-28122539.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rawan Ali
+    creator_url: https://www.pexels.com/@rawan-ali-133113257
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 419b4cb3e3659ef0
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.658
+    nearest:
+    - f3c49517
+    - ef737d20
+    - 715e6d64
+    state: pending
+    family_scores:
+      cinematic-still: 0.468
+      cutout-checkerboard: 0.176
+      vs-two-up: 0.168
+    best_family: cinematic-still
+  pexels-28772530:
+    url: https://www.pexels.com/photo/studio-lighting-equipment-on-stand-28772530/
+    image: https://images.pexels.com/photos/28772530/pexels-photo-28772530.jpeg
+    thumb: https://images.pexels.com/photos/28772530/pexels-photo-28772530.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alpha En
+    creator_url: https://www.pexels.com/@alphaen
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3927
+    height: 5891
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 4d32312926206343
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.733
+    nearest:
+    - f3c49517
+    - '52621901'
+    - 292b3a8d
+    state: pending
+    family_scores:
+      vs-two-up: 0.142
+      graphic-collage: 0.114
+      model-card: 0.057
+    best_family: vs-two-up
+  pexels-29057149:
+    url: https://www.pexels.com/photo/colorful-assorted-donuts-with-sprinkles-29057149/
+    image: https://images.pexels.com/photos/29057149/pexels-photo-29057149.jpeg
+    thumb: https://images.pexels.com/photos/29057149/pexels-photo-29057149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vladimir Srajber
+    creator_url: https://www.pexels.com/@vladimirsrajber
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5568
+    height: 3712
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 574fd4166d351676
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 318a6f41
+    - 715e6d64
+    - 9144b930
+    state: pending
+    family_scores:
+      graphic-collage: 0.306
+      cutout-checkerboard: 0.198
+      vs-two-up: 0.152
+    best_family: graphic-collage
+  pexels-29096364:
+    url: https://www.pexels.com/photo/professional-hair-care-setup-with-stylist-in-studio-29096364/
+    image: https://images.pexels.com/photos/29096364/pexels-photo-29096364.jpeg
+    thumb: https://images.pexels.com/photos/29096364/pexels-photo-29096364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: pedro furtado
+    creator_url: https://www.pexels.com/@pedrofurtadoo
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2667
+    height: 4000
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 0c3164643287c61e
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.711
+    nearest:
+    - '52621901'
+    - 1420103e
+    - 292b3a8d
+    state: pending
+    family_scores:
+      cinematic-still: 0.377
+      before-after: 0.32
+      graphic-collage: 0.179
+    best_family: cinematic-still
+  pexels-29151824:
+    url: https://www.pexels.com/photo/powdered-sugar-topped-pastry-on-dark-background-29151824/
+    image: https://images.pexels.com/photos/29151824/pexels-photo-29151824.jpeg
+    thumb: https://images.pexels.com/photos/29151824/pexels-photo-29151824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: '- landsmann -'
+    creator_url: https://www.pexels.com/@landsmann-803094805
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 220d86072f864d33
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.399
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 292b3a8d
+    state: pending
+    family_scores:
+      panel-overlay: 0.095
+      editor-canvas: 0.093
+      graphic-collage: 0.079
+    best_family: panel-overlay
   pexels-29476593:
     url: https://www.pexels.com/photo/colorful-picnic-setup-with-hot-dog-and-fries-29476593/
     image: https://images.pexels.com/photos/29476593/pexels-photo-29476593.jpeg
@@ -458,6 +1439,41 @@ entries:
     subject: food
     note: multi-prop still life on teal
     moved_from: cinematic-still
+  pexels-31116124:
+    url: https://www.pexels.com/photo/delicious-homemade-chocolate-chip-cookie-31116124/
+    image: https://images.pexels.com/photos/31116124/pexels-photo-31116124.jpeg
+    thumb: https://images.pexels.com/photos/31116124/pexels-photo-31116124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kate L
+    creator_url: https://www.pexels.com/@kate-l-2149358429
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5080
+    height: 7620
+    aspect_class: '2:3'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 014d327161601d22
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.403
+    nearest:
+    - f3c49517
+    - 9f142618
+    - ef737d20
+    state: pending
+    family_scores:
+      graphic-collage: 0.147
+      cinematic-still: 0.075
+      panel-overlay: 0.056
+    best_family: graphic-collage
   pexels-31807951:
     url: https://www.pexels.com/photo/vibrant-macarons-in-stacked-display-31807951/
     image: https://images.pexels.com/photos/31807951/pexels-photo-31807951.jpeg
@@ -499,6 +1515,77 @@ entries:
     best_family: outcome-tile
     note: multicoloured product stack
     moved_from: cinematic-still
+  pexels-32604577:
+    url: https://www.pexels.com/photo/colorful-french-macarons-on-wooden-platter-32604577/
+    image: https://images.pexels.com/photos/32604577/pexels-photo-32604577.jpeg
+    thumb: https://images.pexels.com/photos/32604577/pexels-photo-32604577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Travel with  Lenses
+    creator_url: https://www.pexels.com/@travel-with-lenses-734723610
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6078
+    height: 4052
+    aspect_class: '3:2'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 1174ccd8b4cce023
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.084
+    nearest:
+    - f3c49517
+    - 9f142618
+    - 715e6d64
+    state: dropped
+    family_scores:
+      panel-overlay: 0.084
+      graphic-collage: 0.083
+      editor-canvas: 0.076
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-33365012:
+    url: https://www.pexels.com/photo/elegant-floral-arrangement-with-makeup-set-33365012/
+    image: https://images.pexels.com/photos/33365012/pexels-photo-33365012.jpeg
+    thumb: https://images.pexels.com/photos/33365012/pexels-photo-33365012.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Darcy Lis | Photography & travels
+    creator_url: https://www.pexels.com/@darcy-lis-photography-travels-1478124445
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2207
+    height: 3311
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 3f2f267666d69edc
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 5aceec28
+    - 9f142618
+    - 318a6f41
+    state: pending
+    family_scores:
+      cinematic-still: 0.532
+      graphic-collage: 0.38
+      crop-frame: 0.319
+    best_family: cinematic-still
   pexels-34075793:
     url: https://www.pexels.com/photo/minimalist-pink-soup-in-white-bowl-on-blue-background-34075793/
     image: https://images.pexels.com/photos/34075793/pexels-photo-34075793.jpeg
@@ -541,6 +1628,77 @@ entries:
     subject: food
     note: top-down flat lay; flat studio light; no cinematic grade
     moved_from: cinematic-still
+  pexels-34159010:
+    url: https://www.pexels.com/photo/three-cosmetic-bottles-on-white-surface-34159010/
+    image: https://images.pexels.com/photos/34159010/pexels-photo-34159010.jpeg
+    thumb: https://images.pexels.com/photos/34159010/pexels-photo-34159010.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anhelina Vasylyk
+    creator_url: https://www.pexels.com/@anhelina-vasylyk-734724285
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 70860e6fe7713f07
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.19
+    nearest:
+    - 5aceec28
+    - 318a6f41
+    - 9f142618
+    state: pending
+    family_scores:
+      graphic-collage: 0.179
+      vs-two-up: 0.154
+      cinematic-still: 0.15
+    best_family: graphic-collage
+    explored: true
+  pexels-3609620:
+    url: https://www.pexels.com/photo/nail-polish-on-white-background-3609620/
+    image: https://images.pexels.com/photos/3609620/pexels-photo-3609620.jpeg
+    thumb: https://images.pexels.com/photos/3609620/pexels-photo-3609620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Suzy Hazelwood
+    creator_url: https://www.pexels.com/@suzyhazelwood
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4471
+    height: 3222
+    aspect_class: '4:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 06060606062c0918
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.6
+    nearest:
+    - 318a6f41
+    - f3c49517
+    - '52621901'
+    state: pending
+    family_scores:
+      dark-composite: 0.556
+      vs-two-up: 0.462
+      editor-canvas: 0.303
+    best_family: dark-composite
   pexels-36326593:
     url: https://www.pexels.com/photo/colorful-assortment-of-dehydrated-citrus-slices-36326593/
     image: https://images.pexels.com/photos/36326593/pexels-photo-36326593.jpeg
@@ -582,6 +1740,358 @@ entries:
     best_family: outcome-tile
     note: top-down graphic tray, poster-flat rather than a film still
     moved_from: cinematic-still
+  pexels-36673063:
+    url: https://www.pexels.com/photo/gourmet-vanilla-eclair-on-white-background-36673063/
+    image: https://images.pexels.com/photos/36673063/pexels-photo-36673063.jpeg
+    thumb: https://images.pexels.com/photos/36673063/pexels-photo-36673063.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Max Griss
+    creator_url: https://www.pexels.com/@max-griss-16866522
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2927
+    height: 3659
+    aspect_class: '4:5'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 10041289c4e0e10c
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.478
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - '52621901'
+    state: pending
+    family_scores:
+      cinematic-still: 0.15
+      graphic-collage: 0.146
+      before-after: 0.113
+    best_family: cinematic-still
+  pexels-36698526:
+    url: https://www.pexels.com/photo/nivea-men-black-white-invisible-deodorant-36698526/
+    image: https://images.pexels.com/photos/36698526/pexels-photo-36698526.jpeg
+    thumb: https://images.pexels.com/photos/36698526/pexels-photo-36698526.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Christopher Welsch Leveroni
+    creator_url: https://www.pexels.com/@christopher-welsch-leveroni-2150186467
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4028
+    height: 6054
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 147272b03272723a
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.208
+    nearest:
+    - ef737d20
+    - f3c49517
+    - '52621901'
+    state: dropped
+    family_scores:
+      graphic-collage: 0.159
+      panel-overlay: 0.086
+      editor-canvas: 0.085
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-36976592:
+    url: https://www.pexels.com/photo/classic-donut-on-white-background-36976592/
+    image: https://images.pexels.com/photos/36976592/pexels-photo-36976592.jpeg
+    thumb: https://images.pexels.com/photos/36976592/pexels-photo-36976592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Areef Aminudin
+    creator_url: https://www.pexels.com/@areef-aminudin-433294364
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2052
+    height: 3648
+    aspect_class: '9:16'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 1d1b4c137070b00d
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.953
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 318a6f41
+    state: pending
+    family_scores:
+      cinematic-still: 0.56
+      graphic-collage: 0.159
+      panel-overlay: 0.086
+    best_family: cinematic-still
+  pexels-38134570:
+    url: https://www.pexels.com/photo/delicious-pistachio-topped-cheesecake-slice-38134570/
+    image: https://images.pexels.com/photos/38134570/pexels-photo-38134570.jpeg
+    thumb: https://images.pexels.com/photos/38134570/pexels-photo-38134570.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Visen Group
+    creator_url: https://www.pexels.com/@visen-group-2161585898
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3840
+    height: 2160
+    aspect_class: '16:9'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 4bb978e0e4fce007
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.54
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 292b3a8d
+    state: pending
+    family_scores:
+      graphic-collage: 0.159
+      editor-canvas: 0.107
+      panel-overlay: 0.086
+    best_family: graphic-collage
+  pexels-38431293:
+    url: https://www.pexels.com/photo/vibrant-purple-frosted-cupcakes-with-berries-38431293/
+    image: https://images.pexels.com/photos/38431293/pexels-photo-38431293.jpeg
+    thumb: https://images.pexels.com/photos/38431293/pexels-photo-38431293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anat Landa
+    creator_url: https://www.pexels.com/@anat-landa-2162599192
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6805
+    height: 4537
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 1324b09894e43030
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.568
+    nearest:
+    - f5d786ff
+    - 715e6d64
+    - ef737d20
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.319
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+  pexels-3850333:
+    url: https://www.pexels.com/photo/croissants-3850333/
+    image: https://images.pexels.com/photos/3850333/pexels-photo-3850333.jpeg
+    thumb: https://images.pexels.com/photos/3850333/pexels-photo-3850333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ready made
+    creator_url: https://www.pexels.com/@readymade
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 1043a4961652ad12
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: black
+      layout: two-up
+      panel_count: 2
+      before_after: false
+    score: 0.6
+    nearest:
+    - f3c49517
+    - 9f142618
+    - 715e6d64
+    state: pending
+    family_scores:
+      vs-two-up: 0.147
+      graphic-collage: 0.048
+      editor-canvas: 0.039
+    best_family: vs-two-up
+  pexels-4108462:
+    url: https://www.pexels.com/photo/cupcakes-with-flags-of-usa-on-plate-4108462/
+    image: https://images.pexels.com/photos/4108462/pexels-photo-4108462.jpeg
+    thumb: https://images.pexels.com/photos/4108462/pexels-photo-4108462.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Zimmerman
+    creator_url: https://www.pexels.com/@polina-zimmerman
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: d3d9c6c4d2f36b62
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 1420103e
+    - 318a6f41
+    - 6288ee49
+    state: pending
+    family_scores:
+      graphic-collage: 0.234
+      cutout-checkerboard: 0.125
+      before-after: 0.123
+    best_family: graphic-collage
+  pexels-4828361:
+    url: https://www.pexels.com/photo/photo-of-a-halved-croissant-on-a-blue-surface-4828361/
+    image: https://images.pexels.com/photos/4828361/pexels-photo-4828361.jpeg
+    thumb: https://images.pexels.com/photos/4828361/pexels-photo-4828361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Tankilevitch
+    creator_url: https://www.pexels.com/@polina-tankilevitch
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 3000
+    aspect_class: '2:3'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 0000041238d8dc21
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.658
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 9f142618
+    state: pending
+    family_scores:
+      cinematic-still: 0.301
+      graphic-collage: 0.119
+      dark-composite: 0.089
+    best_family: cinematic-still
+  pexels-4841343:
+    url: https://www.pexels.com/photo/bag-of-skin-care-products-4841343/
+    image: https://images.pexels.com/photos/4841343/pexels-photo-4841343.jpeg
+    thumb: https://images.pexels.com/photos/4841343/pexels-photo-4841343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Misolo Cosmetic
+    creator_url: https://www.pexels.com/@misolo-cosmetic-2588316
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4853
+    height: 3235
+    aspect_class: '3:2'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 0753cbc9c3cb8383
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.075
+    nearest:
+    - 9f142618
+    - ef737d20
+    - 292b3a8d
+    state: dropped
+    family_scores:
+      vs-two-up: 0.107
+      panel-overlay: 0.084
+      graphic-collage: 0.083
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-5208774:
+    url: https://www.pexels.com/photo/smartphone-stabilizer-in-close-up-shot-5208774/
+    image: https://images.pexels.com/photos/5208774/pexels-photo-5208774.jpeg
+    thumb: https://images.pexels.com/photos/5208774/pexels-photo-5208774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4061
+    height: 6092
+    aspect_class: '2:3'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: cb83932f55132d2e
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - f3c49517
+    - '52621901'
+    - 5aceec28
+    state: pending
+    family_scores:
+      cinematic-still: 0.507
+      dark-composite: 0.422
+      before-after: 0.394
+    best_family: cinematic-still
   pexels-5469265:
     url: https://www.pexels.com/photo/gummy-worms-on-blue-studio-background-5469265/
     image: https://images.pexels.com/photos/5469265/pexels-photo-5469265.jpeg
@@ -749,6 +2259,75 @@ entries:
     best_family: outcome-tile
     note: top-down flat-lay of hands and lunchbox, no cinematic grade
     moved_from: cinematic-still
+  pexels-6168518:
+    url: https://www.pexels.com/photo/cupcake-on-white-ceramic-plate-6168518/
+    image: https://images.pexels.com/photos/6168518/pexels-photo-6168518.jpeg
+    thumb: https://images.pexels.com/photos/6168518/pexels-photo-6168518.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kezia Lynn
+    creator_url: https://www.pexels.com/@kezia-lynn-10955977
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 591f393949c9fc30
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.058
+    nearest:
+    - 715e6d64
+    - ef737d20
+    - 318a6f41
+    state: dropped
+    family_scores:
+      graphic-collage: 0.092
+      vs-two-up: 0.02
+      panel-overlay: 0.011
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-6693941:
+    url: https://www.pexels.com/photo/brown-bottles-on-white-background-6693941/
+    image: https://images.pexels.com/photos/6693941/pexels-photo-6693941.jpeg
+    thumb: https://images.pexels.com/photos/6693941/pexels-photo-6693941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tara Winstead
+    creator_url: https://www.pexels.com/@tara-winstead
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6246
+    height: 4164
+    aspect_class: '3:2'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 0101013061e9d969
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 9f142618
+    - 5aceec28
+    - 6288ee49
+    state: pending
+    family_scores:
+      vs-two-up: 0.347
+      graphic-collage: 0.312
+      template-mockup: 0.291
+    best_family: vs-two-up
   pexels-6837624:
     url: https://www.pexels.com/photo/burned-matchsticks-6837624/
     image: https://images.pexels.com/photos/6837624/pexels-photo-6837624.jpeg
@@ -832,6 +2411,146 @@ entries:
     subject: object
     note: flat pastel studio macro
     moved_from: cinematic-still
+  pexels-7016331:
+    url: https://www.pexels.com/photo/cupcakes-with-green-icing-on-white-surface-7016331/
+    image: https://images.pexels.com/photos/7016331/pexels-photo-7016331.jpeg
+    thumb: https://images.pexels.com/photos/7016331/pexels-photo-7016331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Darlene Alderson
+    creator_url: https://www.pexels.com/@darlene-alderson
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 0f630a31b2496cb6
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.359
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 9f142618
+    state: pending
+    family_scores:
+      cinematic-still: 0.265
+      graphic-collage: 0.179
+      cutout-checkerboard: 0.135
+    best_family: cinematic-still
+  pexels-7348018:
+    url: https://www.pexels.com/photo/strawberry-shake-on-clear-drinking-glass-7348018/
+    image: https://images.pexels.com/photos/7348018/pexels-photo-7348018.jpeg
+    thumb: https://images.pexels.com/photos/7348018/pexels-photo-7348018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Bishop Tamrakar
+    creator_url: https://www.pexels.com/@bishop-tamrakar-2752417
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 5184
+    aspect_class: '2:3'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 6e737064ecd4f0f0
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.634
+    nearest:
+    - 715e6d64
+    - 1420103e
+    - ef737d20
+    state: pending
+    family_scores:
+      cinematic-still: 0.403
+      cutout-checkerboard: 0.285
+      graphic-collage: 0.159
+    best_family: cinematic-still
+  pexels-7440357:
+    url: https://www.pexels.com/photo/close-up-of-chocolate-doughnuts-7440357/
+    image: https://images.pexels.com/photos/7440357/pexels-photo-7440357.jpeg
+    thumb: https://images.pexels.com/photos/7440357/pexels-photo-7440357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Amanda Hemphill
+    creator_url: https://www.pexels.com/@amanda-hemphill-2407528
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: 09b6c34d06c11130
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.256
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - ef737d20
+    state: pending
+    family_scores:
+      graphic-collage: 0.179
+      cinematic-still: 0.15
+      before-after: 0.113
+    best_family: graphic-collage
+  pexels-7552743:
+    url: https://www.pexels.com/photo/cupcakes-in-a-box-7552743/
+    image: https://images.pexels.com/photos/7552743/pexels-photo-7552743.jpeg
+    thumb: https://images.pexels.com/photos/7552743/pexels-photo-7552743.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Hanna Pad
+    creator_url: https://www.pexels.com/@anna-nekrashevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3928
+    height: 5891
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 1176efcbc9f09907
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.549
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 9f142618
+    state: pending
+    family_scores:
+      cinematic-still: 0.431
+      graphic-collage: 0.294
+      cutout-checkerboard: 0.199
+    best_family: cinematic-still
   pexels-7630763:
     url: https://www.pexels.com/photo/a-baguette-on-a-brick-7630763/
     image: https://images.pexels.com/photos/7630763/pexels-photo-7630763.jpeg
@@ -915,6 +2634,499 @@ entries:
     best_family: outcome-tile
     note: top-down scatter of five bananas
     moved_from: cinematic-still
+  pexels-7691100:
+    url: https://www.pexels.com/photo/close-up-shot-of-skincare-products-7691100/
+    image: https://images.pexels.com/photos/7691100/pexels-photo-7691100.jpeg
+    thumb: https://images.pexels.com/photos/7691100/pexels-photo-7691100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: e9f1f31b5981a600
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 5aceec28
+    - 318a6f41
+    - 292b3a8d
+    state: pending
+    family_scores:
+      before-after: 0.695
+      cinematic-still: 0.654
+      editor-canvas: 0.554
+    best_family: before-after
+  pexels-7691159:
+    url: https://www.pexels.com/photo/close-up-shot-of-skincare-products-7691159/
+    image: https://images.pexels.com/photos/7691159/pexels-photo-7691159.jpeg
+    thumb: https://images.pexels.com/photos/7691159/pexels-photo-7691159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4326
+    height: 6489
+    aspect_class: '2:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: c085499993c6c620
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.658
+    nearest:
+    - '52621901'
+    - 5aceec28
+    - 292b3a8d
+    state: pending
+    family_scores:
+      vs-two-up: 0.359
+      before-after: 0.342
+      cinematic-still: 0.296
+    best_family: vs-two-up
+  pexels-8014720:
+    url: https://www.pexels.com/photo/cupcakes-beside-balloons-8014720/
+    image: https://images.pexels.com/photos/8014720/pexels-photo-8014720.jpeg
+    thumb: https://images.pexels.com/photos/8014720/pexels-photo-8014720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8082
+    height: 5391
+    aspect_class: '3:2'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 1f3f6f3f4f672717
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 1420103e
+    - f5d786ff
+    - 9f142618
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.465
+      graphic-collage: 0.463
+      before-after: 0.43
+    best_family: cutout-checkerboard
+  pexels-8014842:
+    url: https://www.pexels.com/photo/cupcakes-with-lit-candles-8014842/
+    image: https://images.pexels.com/photos/8014842/pexels-photo-8014842.jpeg
+    thumb: https://images.pexels.com/photos/8014842/pexels-photo-8014842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 7f3f7fdf7396966d
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.6
+    nearest:
+    - 1420103e
+    - 6288ee49
+    - f5d786ff
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.403
+      graphic-collage: 0.305
+      template-mockup: 0.284
+    best_family: cutout-checkerboard
+    drop: more than 3 from Cup of  Couple this pass
+  pexels-8014843:
+    url: https://www.pexels.com/photo/a-cupcake-with-icing-and-lighted-candle-on-top-8014843/
+    image: https://images.pexels.com/photos/8014843/pexels-photo-8014843.jpeg
+    thumb: https://images.pexels.com/photos/8014843/pexels-photo-8014843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5464
+    height: 8192
+    aspect_class: '2:3'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 37bfcfc20239384f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 1420103e
+    - f5d786ff
+    - 5aceec28
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.325
+      cinematic-still: 0.313
+      graphic-collage: 0.258
+    best_family: cutout-checkerboard
+  pexels-8015485:
+    url: https://www.pexels.com/photo/a-box-with-jade-roller-beside-white-plastic-tubes-8015485/
+    image: https://images.pexels.com/photos/8015485/pexels-photo-8015485.jpeg
+    thumb: https://images.pexels.com/photos/8015485/pexels-photo-8015485.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: ffffedb9fcfdffff
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 5aceec28
+    - 9f142618
+    - 292b3a8d
+    state: dropped
+    family_scores:
+      graphic-collage: 0.414
+      dark-composite: 0.4
+      template-mockup: 0.349
+    best_family: graphic-collage
+    drop: near-dup of corpus 041c7d23 (hamming 7)
+  pexels-8015796:
+    url: https://www.pexels.com/photo/white-plastic-bottles-on-white-surface-8015796/
+    image: https://images.pexels.com/photos/8015796/pexels-photo-8015796.jpeg
+    thumb: https://images.pexels.com/photos/8015796/pexels-photo-8015796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 1f0f4b0f61d3c300
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.6
+    nearest:
+    - 5aceec28
+    - '52621901'
+    - 318a6f41
+    state: dropped
+    family_scores:
+      editor-canvas: 0.557
+      dark-composite: 0.491
+      vs-two-up: 0.472
+    best_family: editor-canvas
+    drop: more than 3 from Cup of  Couple this pass
+  pexels-8015797:
+    url: https://www.pexels.com/photo/cosmetic-equipment-in-a-studio-8015797/
+    image: https://images.pexels.com/photos/8015797/pexels-photo-8015797.jpeg
+    thumb: https://images.pexels.com/photos/8015797/pexels-photo-8015797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4472
+    height: 6705
+    aspect_class: '2:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 17130b4f3958582f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 4
+      before_after: false
+    score: 0.658
+    nearest:
+    - 5aceec28
+    - f3c49517
+    - 9f142618
+    state: pending
+    family_scores:
+      dark-composite: 0.415
+      template-mockup: 0.343
+      graphic-collage: 0.263
+    best_family: dark-composite
+  pexels-8015837:
+    url: https://www.pexels.com/photo/bathroom-accessories-on-white-8015837/
+    image: https://images.pexels.com/photos/8015837/pexels-photo-8015837.jpeg
+    thumb: https://images.pexels.com/photos/8015837/pexels-photo-8015837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5464
+    height: 8192
+    aspect_class: '2:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: ffffffffdfae2fdd
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 9f142618
+    - 5aceec28
+    - f3c49517
+    state: dropped
+    family_scores:
+      cinematic-still: 0.252
+      graphic-collage: 0.244
+      before-after: 0.141
+    best_family: cinematic-still
+    drop: near-dup of corpus 041c7d23 (hamming 8)
+  pexels-8150676:
+    url: https://www.pexels.com/photo/a-croissant-on-a-plate-beside-a-glass-of-milk-8150676/
+    image: https://images.pexels.com/photos/8150676/pexels-photo-8150676.jpeg
+    thumb: https://images.pexels.com/photos/8150676/pexels-photo-8150676.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Samuel Wong
+    creator_url: https://www.pexels.com/@samuel-wong-3035716
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2268
+    height: 4032
+    aspect_class: '9:16'
+    term: pastry isolated (Unsplash)
+    collected: '2026-09-16'
+    phash: ffffbf4ddcdf047f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.887
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 9f142618
+    state: pending
+    family_scores:
+      cinematic-still: 0.705
+      graphic-collage: 0.226
+      vs-two-up: 0.128
+    best_family: cinematic-still
+  pexels-8210522:
+    url: https://www.pexels.com/photo/a-chocolate-cupcake-with-sprinkles-8210522/
+    image: https://images.pexels.com/photos/8210522/pexels-photo-8210522.jpeg
+    thumb: https://images.pexels.com/photos/8210522/pexels-photo-8210522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sharon  Snider
+    creator_url: https://www.pexels.com/@sharon-snider-2339082
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 5e46b617b6f27371
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.142
+    nearest:
+    - 1420103e
+    - 715e6d64
+    - f5d786ff
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8210523:
+    url: https://www.pexels.com/photo/cupcakes-on-white-surface-8210523/
+    image: https://images.pexels.com/photos/8210523/pexels-photo-8210523.jpeg
+    thumb: https://images.pexels.com/photos/8210523/pexels-photo-8210523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sharon  Snider
+    creator_url: https://www.pexels.com/@sharon-snider-2339082
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 8be769292f67a5ad
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.2
+    nearest:
+    - 1420103e
+    - f5d786ff
+    - f3c49517
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8210524:
+    url: https://www.pexels.com/photo/close-up-shot-of-cupcakes-8210524/
+    image: https://images.pexels.com/photos/8210524/pexels-photo-8210524.jpeg
+    thumb: https://images.pexels.com/photos/8210524/pexels-photo-8210524.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sharon  Snider
+    creator_url: https://www.pexels.com/@sharon-snider-2339082
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5621
+    height: 4173
+    aspect_class: '4:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 9b9ae6eaaee6caea
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.192
+    nearest:
+    - 1420103e
+    - f5d786ff
+    - f3c49517
+    state: dropped
+    family_scores:
+      panel-overlay: 0.182
+      before-after: 0.135
+      graphic-collage: 0.114
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8210525:
+    url: https://www.pexels.com/photo/close-up-of-cupcakes-with-frosting-and-sprinkles-8210525/
+    image: https://images.pexels.com/photos/8210525/pexels-photo-8210525.jpeg
+    thumb: https://images.pexels.com/photos/8210525/pexels-photo-8210525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sharon  Snider
+    creator_url: https://www.pexels.com/@sharon-snider-2339082
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 17106e5e19193a3e
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 1420103e
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.168
+      before-after: 0.134
+      graphic-collage: 0.134
+    best_family: cutout-checkerboard
   pexels-8350873:
     url: https://www.pexels.com/photo/close-up-photo-of-raspberry-macaroon-8350873/
     image: https://images.pexels.com/photos/8350873/pexels-photo-8350873.jpeg
@@ -956,6 +3168,217 @@ entries:
     best_family: outcome-tile
     note: flat-lit product macro on graphic tricolour ground
     moved_from: cinematic-still
+  pexels-8625923:
+    url: https://www.pexels.com/photo/chocolate-cupcakes-decorated-with-fox-and-owl-figures-8625923/
+    image: https://images.pexels.com/photos/8625923/pexels-photo-8625923.jpeg
+    thumb: https://images.pexels.com/photos/8625923/pexels-photo-8625923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valeria Boltneva
+    creator_url: https://www.pexels.com/@valeriya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6202
+    height: 4135
+    aspect_class: '3:2'
+    term: cupcake white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 1f2ae2c6d4797d76
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.348
+    nearest:
+    - 1420103e
+    - ef737d20
+    - 6288ee49
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.28
+      graphic-collage: 0.136
+      before-after: 0.123
+    best_family: cutout-checkerboard
+  pexels-8625932:
+    url: https://www.pexels.com/photo/chocolate-cupcakes-decorated-with-fox-and-owl-figures-8625932/
+    image: https://images.pexels.com/photos/8625932/pexels-photo-8625932.jpeg
+    thumb: https://images.pexels.com/photos/8625932/pexels-photo-8625932.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valeria Boltneva
+    creator_url: https://www.pexels.com/@valeriya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6343
+    height: 4229
+    aspect_class: '3:2'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 0f2c246563397ce0
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.088
+    nearest:
+    - 1420103e
+    - 6288ee49
+    - ef737d20
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.147
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8794098:
+    url: https://www.pexels.com/photo/snack-pieces-on-white-surface-8794098/
+    image: https://images.pexels.com/photos/8794098/pexels-photo-8794098.jpeg
+    thumb: https://images.pexels.com/photos/8794098/pexels-photo-8794098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tamanna Rumee
+    creator_url: https://www.pexels.com/@tamanna-rumee-52377920
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 06090c0d12161201
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.675
+    nearest:
+    - 715e6d64
+    - f3c49517
+    - 9f142618
+    state: pending
+    family_scores:
+      graphic-collage: 0.144
+      dark-composite: 0.098
+      cutout-checkerboard: 0.081
+    best_family: graphic-collage
+  pexels-8794273:
+    url: https://www.pexels.com/photo/chocolate-bars-on-white-surface-8794273/
+    image: https://images.pexels.com/photos/8794273/pexels-photo-8794273.jpeg
+    thumb: https://images.pexels.com/photos/8794273/pexels-photo-8794273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tamanna Rumee
+    creator_url: https://www.pexels.com/@tamanna-rumee-52377920
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: dessert isolated white
+    collected: '2026-09-16'
+    phash: 4b1ba6d2e2331265
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - f3c49517
+    - 715e6d64
+    - 9f142618
+    state: pending
+    family_scores:
+      crop-frame: 0.233
+      dark-composite: 0.143
+      before-after: 0.135
+    best_family: crop-frame
+  pexels-913136:
+    url: https://www.pexels.com/photo/chocolate-cupcake-with-white-and-red-toppings-913136/
+    image: https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg
+    thumb: https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jess Bailey Designs
+    creator_url: https://www.pexels.com/@jessbaileydesign
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3184
+    height: 4246
+    aspect_class: '3:4'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: 30cbc48282e20092
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.514
+    nearest:
+    - 1420103e
+    - f5d786ff
+    - f3c49517
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.302
+      cinematic-still: 0.185
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+  pexels-9147813:
+    url: https://www.pexels.com/photo/cupcakes-on-white-ceramic-plate-9147813/
+    image: https://images.pexels.com/photos/9147813/pexels-photo-9147813.jpeg
+    thumb: https://images.pexels.com/photos/9147813/pexels-photo-9147813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3648
+    height: 5472
+    aspect_class: '2:3'
+    term: cupcake white background
+    collected: '2026-09-16'
+    phash: d95a5a3c64ec5825
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.652
+    nearest:
+    - 715e6d64
+    - f5d786ff
+    - f3c49517
+    state: pending
+    family_scores:
+      cinematic-still: 0.451
+      cutout-checkerboard: 0.385
+      graphic-collage: 0.248
+    best_family: cinematic-still
   pexels-9227762:
     url: https://www.pexels.com/photo/a-person-holding-an-ice-cream-cone-9227762/
     image: https://images.pexels.com/photos/9227762/pexels-photo-9227762.jpeg
@@ -1038,3 +3461,73 @@ entries:
     subject: object
     note: levitating props on flat grey
     moved_from: cinematic-still
+  pexels-9462395:
+    url: https://www.pexels.com/photo/white-cans-in-white-surface-9462395/
+    image: https://images.pexels.com/photos/9462395/pexels-photo-9462395.jpeg
+    thumb: https://images.pexels.com/photos/9462395/pexels-photo-9462395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Леся Терехова
+    creator_url: https://www.pexels.com/@3170155
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: 1f1f1f6b696c661f
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 5
+      before_after: false
+    score: 0.525
+    nearest:
+    - 318a6f41
+    - 5aceec28
+    - f3c49517
+    state: pending
+    family_scores:
+      cinematic-still: 0.213
+      graphic-collage: 0.1
+      dark-composite: 0.089
+    best_family: cinematic-still
+  pexels-9900796:
+    url: https://www.pexels.com/photo/monochrome-photo-of-a-studio-9900796/
+    image: https://images.pexels.com/photos/9900796/pexels-photo-9900796.jpeg
+    thumb: https://images.pexels.com/photos/9900796/pexels-photo-9900796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexey Demidov
+    creator_url: https://www.pexels.com/@alexeydemidov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3620
+    height: 2415
+    aspect_class: '3:2'
+    term: product photography white background
+    collected: '2026-09-16'
+    phash: 4cb24d8f16745c58
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - f3c49517
+    - 5aceec28
+    - 318a6f41
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.421
+      crop-frame: 0.368
+      editor-canvas: 0.355
+    best_family: cutout-checkerboard

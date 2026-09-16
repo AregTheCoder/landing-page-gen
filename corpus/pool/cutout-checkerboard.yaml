@@ -1,0 +1,2280 @@
+family: cutout-checkerboard
+entries:
+  pexels-16785688:
+    url: https://www.pexels.com/photo/coffee-glass-with-straw-16785688/
+    image: https://images.pexels.com/photos/16785688/pexels-photo-16785688.jpeg
+    thumb: https://images.pexels.com/photos/16785688/pexels-photo-16785688.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ömer Furkan Yakar
+    creator_url: https://www.pexels.com/@omer-furkan-yakar-542782865
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 376f23b2b3b3b3b3
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.555
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.555
+      vs-two-up: 0.22
+      panel-overlay: 0.102
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-16969312:
+    url: https://www.pexels.com/photo/close-up-of-a-person-stirring-an-iced-drink-with-a-straw-16969312/
+    image: https://images.pexels.com/photos/16969312/pexels-photo-16969312.jpeg
+    thumb: https://images.pexels.com/photos/16969312/pexels-photo-16969312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pedram Sepaha
+    creator_url: https://www.pexels.com/@pedram-sepaha-575436548
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7426
+    height: 5304
+    aspect_class: '4:3'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 9f3d3f0b3f3536fc
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.512
+      vs-two-up: 0.419
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-18142624:
+    url: https://www.pexels.com/photo/sweet-cocktail-on-glass-18142624/
+    image: https://images.pexels.com/photos/18142624/pexels-photo-18142624.jpeg
+    thumb: https://images.pexels.com/photos/18142624/pexels-photo-18142624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Denys Gromov
+    creator_url: https://www.pexels.com/@jdgromov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7008
+    height: 4672
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 070713070f0910b0
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.57
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.57
+      vs-two-up: 0.223
+      panel-overlay: 0.163
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-18553404:
+    url: https://www.pexels.com/photo/cocktail-with-ice-in-cup-18553404/
+    image: https://images.pexels.com/photos/18553404/pexels-photo-18553404.png
+    thumb: https://images.pexels.com/photos/18553404/pexels-photo-18553404.png?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Lampalampa Indonesia
+    creator_url: https://www.pexels.com/@lampalampa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3400
+    height: 3400
+    aspect_class: '1:1'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: fa3a8e0eccb03216
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.414
+    nearest:
+    - b46fa575
+    - 40a224bf
+    - ec67a479
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.414
+      before-after: 0.363
+      graphic-collage: 0.34
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-21897118:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897118/
+    image: https://images.pexels.com/photos/21897118/pexels-photo-21897118.jpeg
+    thumb: https://images.pexels.com/photos/21897118/pexels-photo-21897118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 032b6b6363646c39
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.341
+    nearest:
+    - 70aef1eb
+    - edff67df
+    - d092bcc1
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.341
+      graphic-collage: 0.332
+      before-after: 0.294
+    best_family: cutout-checkerboard
+    drop: more than 3 from Muneeb Malhotra this pass
+  pexels-21897313:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897313/
+    image: https://images.pexels.com/photos/21897313/pexels-photo-21897313.jpeg
+    thumb: https://images.pexels.com/photos/21897313/pexels-photo-21897313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 060e12132997256d
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.444
+    nearest:
+    - 70aef1eb
+    - edff67df
+    - bbde53af
+    state: pending
+    family_scores:
+      graphic-collage: 0.499
+      cutout-checkerboard: 0.444
+      before-after: 0.397
+    best_family: graphic-collage
+  pexels-21897317:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897317/
+    image: https://images.pexels.com/photos/21897317/pexels-photo-21897317.jpeg
+    thumb: https://images.pexels.com/photos/21897317/pexels-photo-21897317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 0fd7d6960e090d0c
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.295
+    nearest:
+    - 70aef1eb
+    - d092bcc1
+    - edff67df
+    state: dropped
+    family_scores:
+      graphic-collage: 0.316
+      before-after: 0.298
+      cutout-checkerboard: 0.295
+    best_family: graphic-collage
+    drop: more than 3 from Muneeb Malhotra this pass
+  pexels-21897318:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897318/
+    image: https://images.pexels.com/photos/21897318/pexels-photo-21897318.jpeg
+    thumb: https://images.pexels.com/photos/21897318/pexels-photo-21897318.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 050e2e27a3d3694d
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.457
+    nearest:
+    - 70aef1eb
+    - edff67df
+    - bbde53af
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.457
+      graphic-collage: 0.376
+      editor-canvas: 0.324
+    best_family: cutout-checkerboard
+  pexels-2271522:
+    url: https://www.pexels.com/photo/baby-s-red-and-white-low-top-sneakers-2271522/
+    image: https://images.pexels.com/photos/2271522/pexels-photo-2271522.jpeg
+    thumb: https://images.pexels.com/photos/2271522/pexels-photo-2271522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexas Fotos
+    creator_url: https://www.pexels.com/@alexasfotos
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5858
+    height: 3837
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 275757370b69e4c5
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.343
+    nearest:
+    - 68b8f004
+    - a49dfb87
+    - 4604e99a
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.343
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-26443457:
+    url: https://www.pexels.com/photo/top-view-of-converse-shoes-26443457/
+    image: https://images.pexels.com/photos/26443457/pexels-photo-26443457.jpeg
+    thumb: https://images.pexels.com/photos/26443457/pexels-photo-26443457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ana Vieira
+    creator_url: https://www.pexels.com/@ana-vieira-1110685065
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 27dbdbd3d3d383ab
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.24
+    nearest:
+    - 68b8f004
+    - 4604e99a
+    - 40a224bf
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.24
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: cutout-checkerboard
+  pexels-26956136:
+    url: https://www.pexels.com/photo/mesh-baseball-cap-26956136/
+    image: https://images.pexels.com/photos/26956136/pexels-photo-26956136.jpeg
+    thumb: https://images.pexels.com/photos/26956136/pexels-photo-26956136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: mohamed abdelghaffar
+    creator_url: https://www.pexels.com/@moh-adbelghaffar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6192
+    height: 4128
+    aspect_class: '3:2'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 375b0d0d4743458b
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.353
+    nearest:
+    - 4604e99a
+    - ad9d863b
+    - 40a224bf
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.353
+      panel-overlay: 0.095
+      editor-canvas: 0.093
+    best_family: cutout-checkerboard
+  pexels-26956138:
+    url: https://www.pexels.com/photo/close-up-of-a-baseball-cap-with-a-patch-26956138/
+    image: https://images.pexels.com/photos/26956138/pexels-photo-26956138.jpeg
+    thumb: https://images.pexels.com/photos/26956138/pexels-photo-26956138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: mohamed abdelghaffar
+    creator_url: https://www.pexels.com/@moh-adbelghaffar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5664
+    height: 3502
+    aspect_class: '16:10'
+    term: baseball cap product
+    collected: '2026-09-16'
+    phash: 0f771f0d4dcfc364
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.411
+    nearest:
+    - ad9d863b
+    - 4604e99a
+    - 40a224bf
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.411
+      vs-two-up: 0.229
+      editor-canvas: 0.223
+    best_family: cutout-checkerboard
+    moved_from: before-after
+  pexels-27046146:
+    url: https://www.pexels.com/photo/foto-creativa-de-carteras-27046146/
+    image: https://images.pexels.com/photos/27046146/pexels-photo-27046146.jpeg
+    thumb: https://images.pexels.com/photos/27046146/pexels-photo-27046146.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: José Martin Segura Benites
+    creator_url: https://www.pexels.com/@jose-martin-segura-benites-1422456152
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 2000
+    aspect_class: '1:1'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 1f03448c8ebb5e3e
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.314
+    nearest:
+    - 70aef1eb
+    - 0eee34d8
+    - '98672563'
+    state: pending
+    family_scores:
+      vs-two-up: 0.403
+      before-after: 0.363
+      graphic-collage: 0.34
+    best_family: vs-two-up
+  pexels-27486776:
+    url: https://www.pexels.com/photo/a-person-s-feet-are-on-a-skateboard-27486776/
+    image: https://images.pexels.com/photos/27486776/pexels-photo-27486776.jpeg
+    thumb: https://images.pexels.com/photos/27486776/pexels-photo-27486776.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nguyễn Minh Thắng
+    creator_url: https://www.pexels.com/@nguy-n-minh-th-ng-1607643759
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 230d0d161f9c6ebd
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.269
+    nearest:
+    - 68b8f004
+    - ad9d863b
+    - 9fd25abc
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.269
+      vs-two-up: 0.195
+      before-after: 0.187
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-30128844:
+    url: https://www.pexels.com/photo/minimalist-black-sneaker-on-white-background-30128844/
+    image: https://images.pexels.com/photos/30128844/pexels-photo-30128844.jpeg
+    thumb: https://images.pexels.com/photos/30128844/pexels-photo-30128844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Saputra K
+    creator_url: https://www.pexels.com/@saputra-k-2148253367
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3024
+    height: 4032
+    aspect_class: '3:4'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 08a634cac6e038c6
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: white
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.072
+    nearest:
+    - 68b8f004
+    - 4604e99a
+    - 9fd25abc
+    state: dropped
+    family_scores:
+      graphic-collage: 0.094
+      panel-overlay: 0.086
+      editor-canvas: 0.085
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-31272462:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-wooden-tray-indoors-31272462/
+    image: https://images.pexels.com/photos/31272462/pexels-photo-31272462.jpeg
+    thumb: https://images.pexels.com/photos/31272462/pexels-photo-31272462.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 6f2f1f179ccc5c6b
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.662
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.662
+      graphic-collage: 0.518
+      before-after: 0.385
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: more than 3 from 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 this pass
+  pexels-31273420:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-wooden-table-outdoors-31273420/
+    image: https://images.pexels.com/photos/31273420/pexels-photo-31273420.jpeg
+    thumb: https://images.pexels.com/photos/31273420/pexels-photo-31273420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: cf0727bf9b9b2767
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.586
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.586
+      graphic-collage: 0.375
+      vs-two-up: 0.355
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: more than 3 from 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 this pass
+  pexels-31722936:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-rustic-wooden-table-31722936/
+    image: https://images.pexels.com/photos/31722936/pexels-photo-31722936.jpeg
+    thumb: https://images.pexels.com/photos/31722936/pexels-photo-31722936.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6960
+    height: 4640
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: '8909191829393969'
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.468
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.468
+      graphic-collage: 0.333
+      vs-two-up: 0.308
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: more than 3 from 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 this pass
+  pexels-31970996:
+    url: https://www.pexels.com/photo/colorful-mosaic-circular-earrings-on-white-background-31970996/
+    image: https://images.pexels.com/photos/31970996/pexels-photo-31970996.jpeg
+    thumb: https://images.pexels.com/photos/31970996/pexels-photo-31970996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nikolaos D. Nomikos
+    creator_url: https://www.pexels.com/@nikolaos-d-nomikos-2151019299
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 0916696969696916
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: white
+      layout: two-up
+      panel_count: 2
+      before_after: false
+    score: 0.218
+    nearest:
+    - '98672563'
+    - 50393c49
+    - 4604e99a
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.218
+      vs-two-up: 0.125
+      panel-overlay: 0.057
+    best_family: cutout-checkerboard
+    moved_from: graphic-collage
+    drop: near-dup of corpus 3b277442 (hamming 9)
+  pexels-32166393:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-wooden-table-32166393/
+    image: https://images.pexels.com/photos/32166393/pexels-photo-32166393.jpeg
+    thumb: https://images.pexels.com/photos/32166393/pexels-photo-32166393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 0c1317074b67338b
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.55
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.55
+      graphic-collage: 0.441
+      panel-overlay: 0.303
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: more than 3 from 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 this pass
+  pexels-32268861:
+    url: https://www.pexels.com/photo/iced-matcha-latte-in-cafe-kitsune-glass-32268861/
+    image: https://images.pexels.com/photos/32268861/pexels-photo-32268861.jpeg
+    thumb: https://images.pexels.com/photos/32268861/pexels-photo-32268861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Swarup Sarkar
+    creator_url: https://www.pexels.com/@roopsarkar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 0f33333733b2f330
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.222
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.222
+      vs-two-up: 0.15
+      panel-overlay: 0.12
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: near-dup of corpus bc1424ed (hamming 9)
+  pexels-32268863:
+    url: https://www.pexels.com/photo/stylish-iced-latte-at-cafe-kitsune-32268863/
+    image: https://images.pexels.com/photos/32268863/pexels-photo-32268863.jpeg
+    thumb: https://images.pexels.com/photos/32268863/pexels-photo-32268863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Swarup Sarkar
+    creator_url: https://www.pexels.com/@roopsarkar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8120
+    height: 5416
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 0f33333333b3f230
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.301
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.301
+      vs-two-up: 0.153
+      panel-overlay: 0.096
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: near-dup of corpus bc1424ed (hamming 8)
+  pexels-32268870:
+    url: https://www.pexels.com/photo/iced-coffee-in-cafe-kitsune-glass-on-white-background-32268870/
+    image: https://images.pexels.com/photos/32268870/pexels-photo-32268870.jpeg
+    thumb: https://images.pexels.com/photos/32268870/pexels-photo-32268870.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Swarup Sarkar
+    creator_url: https://www.pexels.com/@roopsarkar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 17333b3333b3f330
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.477
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.477
+      vs-two-up: 0.167
+      panel-overlay: 0.115
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: near-dup of corpus bc1424ed (hamming 8)
+  pexels-32268873:
+    url: https://www.pexels.com/photo/iced-coffee-from-cafe-kitsune-with-topping-32268873/
+    image: https://images.pexels.com/photos/32268873/pexels-photo-32268873.jpeg
+    thumb: https://images.pexels.com/photos/32268873/pexels-photo-32268873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Swarup Sarkar
+    creator_url: https://www.pexels.com/@roopsarkar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 0f33333333b3b2f0
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.339
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.339
+      panel-overlay: 0.084
+      graphic-collage: 0.083
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-33029966:
+    url: https://www.pexels.com/photo/refreshing-iced-coffees-on-a-sunny-day-33029966/
+    image: https://images.pexels.com/photos/33029966/pexels-photo-33029966.jpeg
+    thumb: https://images.pexels.com/photos/33029966/pexels-photo-33029966.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 1a1a99333f34353c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.651
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.651
+      graphic-collage: 0.394
+      vs-two-up: 0.33
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-33029979:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-drinks-on-a-tray-33029979/
+    image: https://images.pexels.com/photos/33029979/pexels-photo-33029979.jpeg
+    thumb: https://images.pexels.com/photos/33029979/pexels-photo-33029979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 33bbbdb3979da53c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.627
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.627
+      graphic-collage: 0.449
+      crop-frame: 0.305
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-33328343:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-drinks-on-wooden-table-33328343/
+    image: https://images.pexels.com/photos/33328343/pexels-photo-33328343.jpeg
+    thumb: https://images.pexels.com/photos/33328343/pexels-photo-33328343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: '1062333333539949'
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.528
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.528
+      graphic-collage: 0.324
+      vs-two-up: 0.283
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-33720736:
+    url: https://www.pexels.com/photo/iced-coffee-with-straw-in-outdoor-garden-setting-33720736/
+    image: https://images.pexels.com/photos/33720736/pexels-photo-33720736.jpeg
+    thumb: https://images.pexels.com/photos/33720736/pexels-photo-33720736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 6e65f537065e366f
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.431
+      vs-two-up: 0.399
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-33736860:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-with-straw-on-tray-outdoors-33736860/
+    image: https://images.pexels.com/photos/33736860/pexels-photo-33736860.jpeg
+    thumb: https://images.pexels.com/photos/33736860/pexels-photo-33736860.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 353e9ca4070b19b6
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.494
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.494
+      vs-two-up: 0.321
+      graphic-collage: 0.293
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: more than 3 from Sóc Năng Động this pass
+  pexels-33835517:
+    url: https://www.pexels.com/photo/refreshing-vietnamese-iced-coffee-with-flag-33835517/
+    image: https://images.pexels.com/photos/33835517/pexels-photo-33835517.jpeg
+    thumb: https://images.pexels.com/photos/33835517/pexels-photo-33835517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 6ecbe2c666fb1fff
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.506
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.506
+      vs-two-up: 0.286
+      panel-overlay: 0.253
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: more than 3 from Sóc Năng Động this pass
+  pexels-34046777:
+    url: https://www.pexels.com/photo/iced-coffee-and-black-cup-on-wooden-table-34046777/
+    image: https://images.pexels.com/photos/34046777/pexels-photo-34046777.jpeg
+    thumb: https://images.pexels.com/photos/34046777/pexels-photo-34046777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4029
+    height: 2685
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 1a3b5e4c6c347137
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.583
+      vs-two-up: 0.384
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-34138694:
+    url: https://www.pexels.com/photo/iced-coffee-with-foam-on-wooden-table-indoors-34138694/
+    image: https://images.pexels.com/photos/34138694/pexels-photo-34138694.jpeg
+    thumb: https://images.pexels.com/photos/34138694/pexels-photo-34138694.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4106
+    height: 2737
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 8e260e1c8d493133
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.605
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.605
+      graphic-collage: 0.475
+      vs-two-up: 0.286
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: more than 3 from 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳 this pass
+  pexels-34710464:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-wooden-table-34710464/
+    image: https://images.pexels.com/photos/34710464/pexels-photo-34710464.jpeg
+    thumb: https://images.pexels.com/photos/34710464/pexels-photo-34710464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: cecbe7739d9d96d8
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.555
+      before-after: 0.371
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-35618111:
+    url: https://www.pexels.com/photo/white-sneakers-on-pink-background-flat-lay-35618111/
+    image: https://images.pexels.com/photos/35618111/pexels-photo-35618111.jpeg
+    thumb: https://images.pexels.com/photos/35618111/pexels-photo-35618111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Thang Nguyen
+    creator_url: https://www.pexels.com/@chipi1189
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: shoes pastel background
+    collected: '2026-09-16'
+    phash: 232723735b5b4bcf
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.313
+    nearest:
+    - 68b8f004
+    - 4604e99a
+    - bbde53af
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.313
+      vs-two-up: 0.18
+      before-after: 0.175
+    best_family: cutout-checkerboard
+    moved_from: before-after
+  pexels-36095047:
+    url: https://www.pexels.com/photo/vibrant-iridescent-satin-fabric-texture-36095047/
+    image: https://images.pexels.com/photos/36095047/pexels-photo-36095047.jpeg
+    thumb: https://images.pexels.com/photos/36095047/pexels-photo-36095047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: d8cc4c4a5bb935d6
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.457
+    nearest:
+    - a49dfb87
+    - '98672563'
+    - 50393c49
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.457
+      vs-two-up: 0.348
+      editor-canvas: 0.343
+    best_family: cutout-checkerboard
+    moved_from: panel-overlay
+    drop: more than 3 from Rafael Minguet Delgado this pass
+  pexels-36516529:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-in-outdoor-greenery-36516529/
+    image: https://images.pexels.com/photos/36516529/pexels-photo-36516529.jpeg
+    thumb: https://images.pexels.com/photos/36516529/pexels-photo-36516529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: iced latte cafe bokeh
+    collected: '2026-09-16'
+    phash: 131b274f3d353734
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.547
+      before-after: 0.423
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-36516531:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-sunny-day-outdoors-36516531/
+    image: https://images.pexels.com/photos/36516531/pexels-photo-36516531.jpeg
+    thumb: https://images.pexels.com/photos/36516531/pexels-photo-36516531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    creator_url: https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 79592b2e34349757
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.664
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.664
+      graphic-collage: 0.487
+      before-after: 0.419
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-37486085:
+    url: https://www.pexels.com/photo/top-view-of-iced-coffee-drink-with-shadows-37486085/
+    image: https://images.pexels.com/photos/37486085/pexels-photo-37486085.jpeg
+    thumb: https://images.pexels.com/photos/37486085/pexels-photo-37486085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: azra melek
+    creator_url: https://www.pexels.com/@melek
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: 0c62c29292828d11
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.501
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.501
+      vs-two-up: 0.3
+      dark-composite: 0.299
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-37701998:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-on-rustic-table-37701998/
+    image: https://images.pexels.com/photos/37701998/pexels-photo-37701998.jpeg
+    thumb: https://images.pexels.com/photos/37701998/pexels-photo-37701998.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: 13138ba3e3e8b838
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.447
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.447
+      graphic-collage: 0.162
+      panel-overlay: 0.157
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-38028988:
+    url: https://www.pexels.com/photo/refreshing-iced-coffee-in-a-glass-with-straw-38028988/
+    image: https://images.pexels.com/photos/38028988/pexels-photo-38028988.jpeg
+    thumb: https://images.pexels.com/photos/38028988/pexels-photo-38028988.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Elle Kwee
+    creator_url: https://www.pexels.com/@elle-kwee-1568101
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3632
+    height: 3632
+    aspect_class: '1:1'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: c281040f0e4c4c0c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.729
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.729
+      graphic-collage: 0.515
+      panel-overlay: 0.512
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-38422736:
+    url: https://www.pexels.com/photo/vibrant-iridescent-fabric-with-luminous-texture-38422736/
+    image: https://images.pexels.com/photos/38422736/pexels-photo-38422736.jpeg
+    thumb: https://images.pexels.com/photos/38422736/pexels-photo-38422736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: d4c6796ac6f1e3ec
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.397
+    nearest:
+    - a49dfb87
+    - '98672563'
+    - 50393c49
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.397
+      vs-two-up: 0.307
+      model-card: 0.264
+    best_family: cutout-checkerboard
+    moved_from: panel-overlay
+    drop: more than 3 from Rafael Minguet Delgado this pass
+  pexels-38422738:
+    url: https://www.pexels.com/photo/vibrant-iridescent-purple-satin-fabric-texture-38422738/
+    image: https://images.pexels.com/photos/38422738/pexels-photo-38422738.jpeg
+    thumb: https://images.pexels.com/photos/38422738/pexels-photo-38422738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 6c33d96738b5d188
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.403
+    nearest:
+    - 50393c49
+    - a49dfb87
+    - '98672563'
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.403
+      vs-two-up: 0.322
+      before-after: 0.207
+    best_family: cutout-checkerboard
+    moved_from: panel-overlay
+    drop: more than 3 from Rafael Minguet Delgado this pass
+  pexels-38526581:
+    url: https://www.pexels.com/photo/vibrant-holographic-fabric-with-neon-waves-38526581/
+    image: https://images.pexels.com/photos/38526581/pexels-photo-38526581.jpeg
+    thumb: https://images.pexels.com/photos/38526581/pexels-photo-38526581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 539529f3ad3a3423
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.381
+    nearest:
+    - 50393c49
+    - '98672563'
+    - 70aef1eb
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.381
+      vs-two-up: 0.381
+      panel-overlay: 0.259
+    best_family: cutout-checkerboard
+    moved_from: panel-overlay
+    drop: more than 3 from Rafael Minguet Delgado this pass
+  pexels-4271563:
+    url: https://www.pexels.com/photo/black-and-white-converse-sneakers-on-the-black-boxes-4271563/
+    image: https://images.pexels.com/photos/4271563/pexels-photo-4271563.jpeg
+    thumb: https://images.pexels.com/photos/4271563/pexels-photo-4271563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: alleksana
+    creator_url: https://www.pexels.com/@alleksana
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3994
+    height: 5991
+    aspect_class: '2:3'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 9a9aceca4b22c4f0
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 3
+      before_after: false
+    score: 0.322
+    nearest:
+    - 68b8f004
+    - 9fd25abc
+    - 4604e99a
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.322
+      cinematic-still: 0.248
+      vs-two-up: 0.136
+    best_family: cutout-checkerboard
+  pexels-4324507:
+    url: https://www.pexels.com/photo/pink-flowers-under-the-blue-sky-4324507/
+    image: https://images.pexels.com/photos/4324507/pexels-photo-4324507.jpeg
+    thumb: https://images.pexels.com/photos/4324507/pexels-photo-4324507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Konevi
+    creator_url: https://www.pexels.com/@konevi
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: 9a9e8ec6d7ddd77d
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.32
+    nearest:
+    - 86d12a52
+    - a49dfb87
+    - '98672563'
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.32
+      vs-two-up: 0.296
+      before-after: 0.248
+    best_family: cutout-checkerboard
+    moved_from: prompt-card
+  pexels-4869289:
+    url: https://www.pexels.com/photo/cold-coffee-drink-in-clear-drinking-glass-4869289/
+    image: https://images.pexels.com/photos/4869289/pexels-photo-4869289.jpeg
+    thumb: https://images.pexels.com/photos/4869289/pexels-photo-4869289.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced coffee glass coloured background
+    collected: '2026-09-16'
+    phash: f7f777234b0ba343
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.48
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.48
+      graphic-collage: 0.407
+      before-after: 0.352
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-4869290:
+    url: https://www.pexels.com/photo/cold-coffee-drink-in-clear-drinking-glass-4869290/
+    image: https://images.pexels.com/photos/4869290/pexels-photo-4869290.jpeg
+    thumb: https://images.pexels.com/photos/4869290/pexels-photo-4869290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5929
+    height: 3953
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 3f2f21212133b3c3
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.582
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.582
+      graphic-collage: 0.457
+      before-after: 0.369
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-4869291:
+    url: https://www.pexels.com/photo/creamy-coffee-drink-in-clear-drinking-glass-4869291/
+    image: https://images.pexels.com/photos/4869291/pexels-photo-4869291.jpeg
+    thumb: https://images.pexels.com/photos/4869291/pexels-photo-4869291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5683
+    height: 3789
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 0d1e97272f978786
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.477
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.477
+      graphic-collage: 0.376
+      before-after: 0.355
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: more than 3 from ROMAN ODINTSOV this pass
+  pexels-4869293:
+    url: https://www.pexels.com/photo/creamy-coffee-drink-in-clear-drinking-glass-4869293/
+    image: https://images.pexels.com/photos/4869293/pexels-photo-4869293.jpeg
+    thumb: https://images.pexels.com/photos/4869293/pexels-photo-4869293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMAN ODINTSOV
+    creator_url: https://www.pexels.com/@roman-odintsov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5683
+    height: 3789
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: c6c7cba7a62727bb
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.532
+    nearest:
+    - b46fa575
+    - ec67a479
+    - c1276496
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.532
+      graphic-collage: 0.338
+      vs-two-up: 0.296
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-5168562:
+    url: https://www.pexels.com/photo/pink-shoes-on-brown-fur-5168562/
+    image: https://images.pexels.com/photos/5168562/pexels-photo-5168562.jpeg
+    thumb: https://images.pexels.com/photos/5168562/pexels-photo-5168562.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jubair Bin Iqbal
+    creator_url: https://www.pexels.com/@jbigallery
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4510
+    height: 3007
+    aspect_class: '3:2'
+    term: shoes pastel background
+    collected: '2026-09-16'
+    phash: 575756246b4edd15
+    ranker: clip
+    searched_family: before-after
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.271
+    nearest:
+    - 68b8f004
+    - '98672563'
+    - 50393c49
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.271
+      vs-two-up: 0.126
+      before-after: 0.123
+    best_family: cutout-checkerboard
+    moved_from: before-after
+  pexels-5946977:
+    url: https://www.pexels.com/photo/refreshing-matcha-latte-served-with-yummy-pie-5946977/
+    image: https://images.pexels.com/photos/5946977/pexels-photo-5946977.jpeg
+    thumb: https://images.pexels.com/photos/5946977/pexels-photo-5946977.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Charlotte May
+    creator_url: https://www.pexels.com/@charlotte-may
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5040
+    height: 3360
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 1a0f0b24a6e36662
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.316
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.316
+      graphic-collage: 0.248
+      vs-two-up: 0.163
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+  pexels-6509353:
+    url: https://www.pexels.com/photo/close-up-photo-of-a-baby-s-shoes-6509353/
+    image: https://images.pexels.com/photos/6509353/pexels-photo-6509353.jpeg
+    thumb: https://images.pexels.com/photos/6509353/pexels-photo-6509353.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Joel Santos
+    creator_url: https://www.pexels.com/@joelsantosfotografias
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4288
+    height: 2848
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: ea72d2d9d1d7c639
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.206
+    nearest:
+    - 68b8f004
+    - 4604e99a
+    - edff67df
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.206
+      before-after: 0.123
+      graphic-collage: 0.122
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7123547:
+    url: https://www.pexels.com/photo/purple-hair-comb-on-a-white-surface-7123547/
+    image: https://images.pexels.com/photos/7123547/pexels-photo-7123547.jpeg
+    thumb: https://images.pexels.com/photos/7123547/pexels-photo-7123547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tara Winstead
+    creator_url: https://www.pexels.com/@tara-winstead
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: '3048643232100800'
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.035
+    nearest:
+    - '98672563'
+    - ad9d863b
+    - 50393c49
+    state: dropped
+    family_scores:
+      panel-overlay: 0.084
+      graphic-collage: 0.083
+      editor-canvas: 0.076
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7282737:
+    url: https://www.pexels.com/photo/coffee-with-ice-in-a-glass-7282737/
+    image: https://images.pexels.com/photos/7282737/pexels-photo-7282737.jpeg
+    thumb: https://images.pexels.com/photos/7282737/pexels-photo-7282737.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina ⠀
+    creator_url: https://www.pexels.com/@polina-kovaleva
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4592
+    height: 3064
+    aspect_class: '3:2'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 4c8e960b2fb68e4d
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.217
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 70aef1eb
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.217
+      vs-two-up: 0.2
+      crop-frame: 0.099
+    best_family: cutout-checkerboard
+    moved_from: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7486963:
+    url: https://www.pexels.com/photo/lavender-flowers-in-vase-on-blue-background-7486963/
+    image: https://images.pexels.com/photos/7486963/pexels-photo-7486963.jpeg
+    thumb: https://images.pexels.com/photos/7486963/pexels-photo-7486963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marina Leonova
+    creator_url: https://www.pexels.com/@marina-zasorina
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2667
+    aspect_class: '3:2'
+    term: flowers vase pastel blue background
+    collected: '2026-09-16'
+    phash: 0707070f0f0b070f
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.313
+    nearest:
+    - 7ec514d6
+    - 86d12a52
+    - a49dfb87
+    state: dropped
+    family_scores:
+      graphic-collage: 0.334
+      crop-frame: 0.327
+      cutout-checkerboard: 0.313
+    best_family: graphic-collage
+    drop: near-dup of corpus f44dc281 (hamming 7)
+  pexels-792991:
+    url: https://www.pexels.com/photo/selective-focus-photo-of-white-plastic-cup-with-lid-and-straw-792991/
+    image: https://images.pexels.com/photos/792991/pexels-photo-792991.jpeg
+    thumb: https://images.pexels.com/photos/792991/pexels-photo-792991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Min An
+    creator_url: https://www.pexels.com/@minan1398
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4100
+    height: 2608
+    aspect_class: '16:10'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 5534594763b33d0d
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.644
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.644
+      vs-two-up: 0.385
+      panel-overlay: 0.373
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-7987867:
+    url: https://www.pexels.com/photo/paper-bags-on-black-surface-7987867/
+    image: https://images.pexels.com/photos/7987867/pexels-photo-7987867.jpeg
+    thumb: https://images.pexels.com/photos/7987867/pexels-photo-7987867.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tamanna Rumee
+    creator_url: https://www.pexels.com/@tamanna-rumee-52377920
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 4f28d4d2e061e0f1
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.064
+    nearest:
+    - 68b8f004
+    - 70aef1eb
+    - 50393c49
+    state: pending
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    explored: true
+  pexels-8008626:
+    url: https://www.pexels.com/photo/a-person-s-hand-holding-clear-plastic-cup-with-coffee-8008626/
+    image: https://images.pexels.com/photos/8008626/pexels-photo-8008626.jpeg
+    thumb: https://images.pexels.com/photos/8008626/pexels-photo-8008626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nguyen Huy
+    creator_url: https://www.pexels.com/@ngochuy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: cca84b8eca48cac3
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.498
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 68b8f004
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.498
+      graphic-collage: 0.292
+      panel-overlay: 0.254
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-8147433:
+    url: https://www.pexels.com/photo/a-person-tying-a-shoelace-8147433/
+    image: https://images.pexels.com/photos/8147433/pexels-photo-8147433.jpeg
+    thumb: https://images.pexels.com/photos/8147433/pexels-photo-8147433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: https://kaboompics.com/
+    creator_url: https://www.pexels.com/@karola-g
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 6d49cac848900001
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.349
+    nearest:
+    - 68b8f004
+    - 9fd25abc
+    - bbde53af
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.349
+      cinematic-still: 0.341
+      graphic-collage: 0.146
+    best_family: cutout-checkerboard
+    drop: more than 3 from https://kaboompics.com/ this pass
+  pexels-8178560:
+    url: https://www.pexels.com/photo/ice-coffee-with-drinking-straw-beside-a-potted-plant-8178560/
+    image: https://images.pexels.com/photos/8178560/pexels-photo-8178560.jpeg
+    thumb: https://images.pexels.com/photos/8178560/pexels-photo-8178560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nguyen Huy
+    creator_url: https://www.pexels.com/@ngochuy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: b9ffeb8b634bd9d9
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.63
+    nearest:
+    - b46fa575
+    - ec67a479
+    - 7ec514d6
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.63
+      vs-two-up: 0.331
+      graphic-collage: 0.327
+    best_family: cutout-checkerboard
+    moved_from: mockup-card
+  pexels-8335273:
+    url: https://www.pexels.com/photo/assorted-leather-handbags-8335273/
+    image: https://images.pexels.com/photos/8335273/pexels-photo-8335273.jpeg
+    thumb: https://images.pexels.com/photos/8335273/pexels-photo-8335273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: aaron tannando
+    creator_url: https://www.pexels.com/@aaron-tannando-69038912
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5891
+    height: 2914
+    aspect_class: '2:1'
+    term: bag product
+    collected: '2026-09-16'
+    phash: 181a191a69696909
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.247
+    nearest:
+    - d092bcc1
+    - '98672563'
+    - 0eee34d8
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.247
+      dark-composite: 0.237
+      vs-two-up: 0.234
+    best_family: cutout-checkerboard
+    drop: near-dup of corpus 108a2d8f (hamming 10)
+  pexels-9267588:
+    url: https://www.pexels.com/photo/three-leather-purses-9267588/
+    image: https://images.pexels.com/photos/9267588/pexels-photo-9267588.jpeg
+    thumb: https://images.pexels.com/photos/9267588/pexels-photo-9267588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Denys Mikhalevych
+    creator_url: https://www.pexels.com/@denys
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3072
+    height: 2777
+    aspect_class: '1:1'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: f0e1626cecd6e360
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.545
+    nearest:
+    - '98672563'
+    - 4604e99a
+    - d092bcc1
+    state: pending
+    family_scores:
+      cutout-checkerboard: 0.545
+      dark-composite: 0.49
+      graphic-collage: 0.483
+    best_family: cutout-checkerboard
+    moved_from: vs-two-up
+  pexels-9558604:
+    url: https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-wearing-white-fedora-hat-9558604/
+    image: https://images.pexels.com/photos/9558604/pexels-photo-9558604.jpeg
+    thumb: https://images.pexels.com/photos/9558604/pexels-photo-9558604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: baseball cap studio white background
+    collected: '2026-09-16'
+    phash: 071f67636b090d9f
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.528
+    nearest:
+    - ad9d863b
+    - 40a224bf
+    - bbde53af
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.528
+      before-after: 0.464
+      editor-canvas: 0.401
+    best_family: cutout-checkerboard
+    drop: more than 3 from MART  PRODUCTION this pass

@@ -1,5 +1,1126 @@
 family: vs-two-up
 entries:
+  pexels-10547288:
+    url: https://www.pexels.com/photo/women-in-colored-suits-against-sky-10547288/
+    image: https://images.pexels.com/photos/10547288/pexels-photo-10547288.jpeg
+    thumb: https://images.pexels.com/photos/10547288/pexels-photo-10547288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5626
+    height: 3751
+    aspect_class: '3:2'
+    term: colorful fashion model outdoor sky
+    collected: '2026-09-16'
+    phash: 00000000184a4a4a
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.169
+    nearest:
+    - 62f736f4
+    - 4c0fad35
+    - 1794ea79
+    state: dropped
+    family_scores:
+      vs-two-up: 0.169
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: more than 3 from cottonbro studio this pass
+  pexels-10553847:
+    url: https://www.pexels.com/photo/legs-in-red-shoes-of-unrecognizable-woman-laying-in-agricultural-field-10553847/
+    image: https://images.pexels.com/photos/10553847/pexels-photo-10553847.jpeg
+    thumb: https://images.pexels.com/photos/10553847/pexels-photo-10553847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ron Lach
+    creator_url: https://www.pexels.com/@ron-lach
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5797
+    height: 3865
+    aspect_class: '3:2'
+    term: surreal fashion editorial
+    collected: '2026-09-16'
+    phash: 6b2d354967732123
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.143
+    nearest:
+    - 548b38f1
+    - 1794ea79
+    - 62f736f4
+    state: dropped
+    family_scores:
+      vs-two-up: 0.143
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-11009223:
+    url: https://www.pexels.com/photo/matcha-latte-in-glass-on-table-11009223/
+    image: https://images.pexels.com/photos/11009223/pexels-photo-11009223.jpeg
+    thumb: https://images.pexels.com/photos/11009223/pexels-photo-11009223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Shameel mukkath
+    creator_url: https://www.pexels.com/@shameel-mukkath-3421394
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 304c4d4d4c4f1331
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.248
+    nearest:
+    - fc94b953
+    - f2fb27ec
+    - 4c0fad35
+    state: pending
+    family_scores:
+      vs-two-up: 0.248
+      cutout-checkerboard: 0.184
+      before-after: 0.123
+    best_family: vs-two-up
+    moved_from: editor-canvas
+  pexels-11054221:
+    url: https://www.pexels.com/photo/aerial-shot-of-a-man-standing-beside-a-car-during-nighttime-11054221/
+    image: https://images.pexels.com/photos/11054221/pexels-photo-11054221.jpeg
+    thumb: https://images.pexels.com/photos/11054221/pexels-photo-11054221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sergei Skrynnik
+    creator_url: https://www.pexels.com/@screeny42
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 2250
+    aspect_class: '16:9'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 11394dcd934f4f0f
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.186
+    nearest:
+    - 62f736f4
+    - a3c3ca6d
+    - 548b38f1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.186
+      graphic-collage: 0.179
+      panel-overlay: 0.135
+    best_family: vs-two-up
+    moved_from: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-1124839:
+    url: https://www.pexels.com/photo/man-in-black-full-zip-jacket-1124839/
+    image: https://images.pexels.com/photos/1124839/pexels-photo-1124839.jpeg
+    thumb: https://images.pexels.com/photos/1124839/pexels-photo-1124839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Min An
+    creator_url: https://www.pexels.com/@minan1398
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4256
+    height: 2724
+    aspect_class: '16:10'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 336b4f49e6e6c1c3
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.324
+    nearest:
+    - a3c3ca6d
+    - 548b38f1
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.324
+      editor-canvas: 0.223
+      model-card: 0.166
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-1161538:
+    url: https://www.pexels.com/photo/unpaired-of-black-and-white-lace-up-sneaker-in-selective-focus-photography-1161538/
+    image: https://images.pexels.com/photos/1161538/pexels-photo-1161538.jpeg
+    thumb: https://images.pexels.com/photos/1161538/pexels-photo-1161538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jens Mahnke
+    creator_url: https://www.pexels.com/@atomlaborblog
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2048
+    height: 1365
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 0307079372f9e3b1
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.167
+    nearest:
+    - a3c3ca6d
+    - f85d92c0
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.167
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: mockup-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-11942007:
+    url: https://www.pexels.com/photo/soda-cans-on-a-white-surface-11942007/
+    image: https://images.pexels.com/photos/11942007/pexels-photo-11942007.jpeg
+    thumb: https://images.pexels.com/photos/11942007/pexels-photo-11942007.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: SverreVegard
+    creator_url: https://www.pexels.com/@sverrevegard-173741266
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6118
+    height: 6118
+    aspect_class: '1:1'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: d6c8dc94d4d4cccc
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.405
+    nearest:
+    - fc94b953
+    - a3c3ca6d
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.405
+      before-after: 0.363
+      graphic-collage: 0.34
+    best_family: vs-two-up
+    drop: near-dup of corpus 895ac1f6 (hamming 9)
+  pexels-12225949:
+    url: https://www.pexels.com/photo/perfume-bottles-on-white-table-12225949/
+    image: https://images.pexels.com/photos/12225949/pexels-photo-12225949.jpeg
+    thumb: https://images.pexels.com/photos/12225949/pexels-photo-12225949.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alvin Putra
+    creator_url: https://www.pexels.com/@alvinputraaaaa
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4100
+    height: 3280
+    aspect_class: '5:4'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: c5c1531f595b2701
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.734
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.734
+      editor-canvas: 0.449
+      graphic-collage: 0.366
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-12292641:
+    url: https://www.pexels.com/photo/green-and-white-round-illustration-12292641/
+    image: https://images.pexels.com/photos/12292641/pexels-photo-12292641.jpeg
+    thumb: https://images.pexels.com/photos/12292641/pexels-photo-12292641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: dada _design
+    creator_url: https://www.pexels.com/@dada-_design-240566386
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7500
+    height: 4500
+    aspect_class: '16:10'
+    term: colorful kitchenware pastel background
+    collected: '2026-09-16'
+    phash: f7ed7fd9db6cedff
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 3
+      before_after: false
+    score: 0.427
+    nearest:
+    - 4c0fad35
+    - f85d92c0
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.427
+      dark-composite: 0.411
+      graphic-collage: 0.353
+    best_family: vs-two-up
+    moved_from: prompt-card
+    drop: near-dup of corpus 041c7d23 (hamming 8)
+  pexels-12969358:
+    url: https://www.pexels.com/photo/tubes-of-cosmetics-to-makeup-and-a-makeup-brush-12969358/
+    image: https://images.pexels.com/photos/12969358/pexels-photo-12969358.jpeg
+    thumb: https://images.pexels.com/photos/12969358/pexels-photo-12969358.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Atlantic Ambience
+    creator_url: https://www.pexels.com/@freestockpro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 2b4725335555453d
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.378
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.378
+      before-after: 0.265
+      editor-canvas: 0.222
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-13570925:
+    url: https://www.pexels.com/photo/person-catching-a-black-leather-sling-bag-13570925/
+    image: https://images.pexels.com/photos/13570925/pexels-photo-13570925.jpeg
+    thumb: https://images.pexels.com/photos/13570925/pexels-photo-13570925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Serch  Arafat
+    creator_url: https://www.pexels.com/@serch-arafat-285181768
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2444
+    height: 2444
+    aspect_class: '1:1'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 72f2c1e58cbc9b5b
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.459
+    nearest:
+    - f85d92c0
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      before-after: 0.534
+      crop-frame: 0.497
+      cutout-checkerboard: 0.474
+    best_family: before-after
+  pexels-14039964:
+    url: https://www.pexels.com/photo/blonde-woman-in-jacket-and-with-bag-14039964/
+    image: https://images.pexels.com/photos/14039964/pexels-photo-14039964.jpeg
+    thumb: https://images.pexels.com/photos/14039964/pexels-photo-14039964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Peter Chirkov
+    creator_url: https://www.pexels.com/@visualkamikaze
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5100
+    height: 2870
+    aspect_class: '16:9'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 6b33331b32323363
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.268
+    nearest:
+    - 4c0fad35
+    - 548b38f1
+    - f85d92c0
+    state: dropped
+    family_scores:
+      before-after: 0.35
+      model-card: 0.275
+      vs-two-up: 0.268
+    best_family: before-after
+    drop: near-dup of corpus a03ad87c (hamming 8)
+  pexels-14362372:
+    url: https://www.pexels.com/photo/a-woman-wearing-red-dress-and-mask-14362372/
+    image: https://images.pexels.com/photos/14362372/pexels-photo-14362372.jpeg
+    thumb: https://images.pexels.com/photos/14362372/pexels-photo-14362372.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MOHAMAD    ALOUL
+    creator_url: https://www.pexels.com/@aloul
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 3d9f9f9fdfc9c3cf
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.153
+    nearest:
+    - 4c0fad35
+    - 548b38f1
+    - 1794ea79
+    state: dropped
+    family_scores:
+      vs-two-up: 0.153
+      before-after: 0.149
+      graphic-collage: 0.133
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-1456733:
+    url: https://www.pexels.com/photo/sneakers-with-dense-surface-against-gray-background-1456733/
+    image: https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg
+    thumb: https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ray Piedra
+    creator_url: https://www.pexels.com/@craytive
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5155
+    height: 3437
+    aspect_class: '3:2'
+    term: sneaker white background
+    collected: '2026-09-16'
+    phash: 7431f97264e4ed33
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.173
+    nearest:
+    - f85d92c0
+    - f2fb27ec
+    - a3c3ca6d
+    state: dropped
+    family_scores:
+      vs-two-up: 0.173
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+    best_family: vs-two-up
+    moved_from: cutout-checkerboard
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-15552081:
+    url: https://www.pexels.com/photo/close-up-of-cherry-blossom-against-blue-sky-15552081/
+    image: https://images.pexels.com/photos/15552081/pexels-photo-15552081.jpeg
+    thumb: https://images.pexels.com/photos/15552081/pexels-photo-15552081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sheng-lu Wu
+    creator_url: https://www.pexels.com/@sheng-lu-wu-241205014
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: 140499599bb373c0
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.167
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.167
+      before-after: 0.123
+      cutout-checkerboard: 0.115
+    best_family: vs-two-up
+    moved_from: prompt-card
+    explored: true
+  pexels-15566231:
+    url: https://www.pexels.com/photo/smiling-woman-under-clouds-15566231/
+    image: https://images.pexels.com/photos/15566231/pexels-photo-15566231.jpeg
+    thumb: https://images.pexels.com/photos/15566231/pexels-photo-15566231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nino  Sanger
+    creator_url: https://www.pexels.com/@nino-sanger-203570376
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful fashion model outdoor sky
+    collected: '2026-09-16'
+    phash: 3c73187959d999b8
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.153
+    nearest:
+    - 1794ea79
+    - 4c0fad35
+    - 548b38f1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.153
+      graphic-collage: 0.148
+      before-after: 0.135
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-1557980:
+    url: https://www.pexels.com/photo/clear-glass-perfume-bottle-on-brown-surface-1557980/
+    image: https://images.pexels.com/photos/1557980/pexels-photo-1557980.jpeg
+    thumb: https://images.pexels.com/photos/1557980/pexels-photo-1557980.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kade Jermark
+    creator_url: https://www.pexels.com/@kdjproductions
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4567
+    height: 2854
+    aspect_class: '16:10'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 0f0f170b0f3b2b3b
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.342
+    nearest:
+    - f2fb27ec
+    - 4c0fad35
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.342
+      editor-canvas: 0.223
+      model-card: 0.166
+    best_family: vs-two-up
+    moved_from: mockup-card
+    drop: near-dup of corpus f44dc281 (hamming 9)
+  pexels-15897778:
+    url: https://www.pexels.com/photo/vials-of-cod-liver-oil-15897778/
+    image: https://images.pexels.com/photos/15897778/pexels-photo-15897778.jpeg
+    thumb: https://images.pexels.com/photos/15897778/pexels-photo-15897778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: by Natallia
+    creator_url: https://www.pexels.com/@by-natallia-311038782
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4608
+    height: 3456
+    aspect_class: '4:3'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 2ee3e3e2e86968f8
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.288
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.288
+      before-after: 0.18
+      panel-overlay: 0.158
+    best_family: vs-two-up
+  pexels-16051941:
+    url: https://www.pexels.com/photo/hand-in-a-surgical-glove-holding-a-pill-bottle-16051941/
+    image: https://images.pexels.com/photos/16051941/pexels-photo-16051941.jpeg
+    thumb: https://images.pexels.com/photos/16051941/pexels-photo-16051941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Etatics Inc.
+    creator_url: https://www.pexels.com/@etatics-inc-252430999
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4032
+    height: 2520
+    aspect_class: '16:10'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 73f9d8d8183c9cdc
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.257
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.257
+      editor-canvas: 0.223
+      before-after: 0.188
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-16149990:
+    url: https://www.pexels.com/photo/podium-simple-shape-16149990/
+    image: https://images.pexels.com/photos/16149990/pexels-photo-16149990.jpeg
+    thumb: https://images.pexels.com/photos/16149990/pexels-photo-16149990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: IP Creative
+    creator_url: https://www.pexels.com/@ip-creative-495856013
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3750
+    height: 3000
+    aspect_class: '5:4'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0812151669899222
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.564
+    nearest:
+    - 4c0fad35
+    - f85d92c0
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.564
+      editor-canvas: 0.454
+      graphic-collage: 0.405
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-17650220:
+    url: https://www.pexels.com/photo/can-of-sprite-on-white-background-17650220/
+    image: https://images.pexels.com/photos/17650220/pexels-photo-17650220.jpeg
+    thumb: https://images.pexels.com/photos/17650220/pexels-photo-17650220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ali Dashti
+    creator_url: https://www.pexels.com/@ali-dashti-506667798
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5669
+    height: 5669
+    aspect_class: '1:1'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 0c3232b2f2721400
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: white
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.402
+    nearest:
+    - f85d92c0
+    - fc94b953
+    - 4c0fad35
+    state: dropped
+    family_scores:
+      vs-two-up: 0.402
+      template-mockup: 0.307
+      mockup-card: 0.301
+    best_family: vs-two-up
+    drop: near-dup of corpus 16491b64 (hamming 9)
+  pexels-17650223:
+    url: https://www.pexels.com/photo/can-of-coca-cola-light-17650223/
+    image: https://images.pexels.com/photos/17650223/pexels-photo-17650223.jpeg
+    thumb: https://images.pexels.com/photos/17650223/pexels-photo-17650223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ali Dashti
+    creator_url: https://www.pexels.com/@ali-dashti-506667798
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5395
+    height: 5395
+    aspect_class: '1:1'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 0c323232c2642701
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: white
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.569
+    nearest:
+    - f85d92c0
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.569
+      cutout-checkerboard: 0.463
+      crop-frame: 0.429
+    best_family: vs-two-up
+  pexels-1961795:
+    url: https://www.pexels.com/photo/dolce-and-gabbana-perfume-bottle-1961795/
+    image: https://images.pexels.com/photos/1961795/pexels-photo-1961795.jpeg
+    thumb: https://images.pexels.com/photos/1961795/pexels-photo-1961795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valeria Boltneva
+    creator_url: https://www.pexels.com/@valeriya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6633
+    height: 4422
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 70695151796d6365
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.331
+    nearest:
+    - f2fb27ec
+    - 4c0fad35
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.331
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-19957691:
+    url: https://www.pexels.com/photo/cup-on-speaker-19957691/
+    image: https://images.pexels.com/photos/19957691/pexels-photo-19957691.jpeg
+    thumb: https://images.pexels.com/photos/19957691/pexels-photo-19957691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: wutthichai charoenburi
+    creator_url: https://www.pexels.com/@wutthichai-charoenburi-553075115
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: colorful mug product photography
+    collected: '2026-09-16'
+    phash: 07271e1e2665f533
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.318
+    nearest:
+    - f85d92c0
+    - f2fb27ec
+    - 4c0fad35
+    state: pending
+    family_scores:
+      vs-two-up: 0.318
+      before-after: 0.302
+      graphic-collage: 0.24
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-21897306:
+    url: https://www.pexels.com/photo/hand-bages-shoot-by-dhanno-2024-21897306/
+    image: https://images.pexels.com/photos/21897306/pexels-photo-21897306.jpeg
+    thumb: https://images.pexels.com/photos/21897306/pexels-photo-21897306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Muneeb Malhotra
+    creator_url: https://www.pexels.com/@dhanno
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 0737331a2a0c0c14
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.192
+    nearest:
+    - 4c0fad35
+    - 1ccc69c2
+    - f2fb27ec
+    state: pending
+    family_scores:
+      before-after: 0.289
+      graphic-collage: 0.265
+      cutout-checkerboard: 0.227
+    best_family: before-after
+    explored: true
+  pexels-2198626:
+    url: https://www.pexels.com/photo/grayscale-photography-of-glass-of-milk-2198626/
+    image: https://images.pexels.com/photos/2198626/pexels-photo-2198626.jpeg
+    thumb: https://images.pexels.com/photos/2198626/pexels-photo-2198626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexas Fotos
+    creator_url: https://www.pexels.com/@alexasfotos
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4874
+    height: 3588
+    aspect_class: '4:3'
+    term: iced latte glass plain backdrop product photo
+    collected: '2026-09-16'
+    phash: 000c004d4d4d4d4c
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.197
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - a3c3ca6d
+    state: dropped
+    family_scores:
+      vs-two-up: 0.197
+      panel-overlay: 0.169
+      cutout-checkerboard: 0.118
+    best_family: vs-two-up
+    moved_from: editor-canvas
+    drop: near-dup of corpus bdc00d0f (hamming 9)
+  pexels-230778:
+    url: https://www.pexels.com/photo/clear-glass-bottle-230778/
+    image: https://images.pexels.com/photos/230778/pexels-photo-230778.jpeg
+    thumb: https://images.pexels.com/photos/230778/pexels-photo-230778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ahmed Aqtai
+    creator_url: https://www.pexels.com/@aqtai
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5377
+    height: 3598
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 351379da4d4de77b
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.319
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.319
+      before-after: 0.145
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-23947555:
+    url: https://www.pexels.com/photo/pink-blossoms-on-branches-in-spring-23947555/
+    image: https://images.pexels.com/photos/23947555/pexels-photo-23947555.jpeg
+    thumb: https://images.pexels.com/photos/23947555/pexels-photo-23947555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Beth Fitzpatrick
+    creator_url: https://www.pexels.com/@beth-fitzpatrick-742222899
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: 01c3313566c9eaaa
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.266
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - 548b38f1
+    state: pending
+    family_scores:
+      vs-two-up: 0.266
+      before-after: 0.178
+      cutout-checkerboard: 0.161
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-24917565:
+    url: https://www.pexels.com/photo/cans-of-coca-cola-24917565/
+    image: https://images.pexels.com/photos/24917565/pexels-photo-24917565.jpeg
+    thumb: https://images.pexels.com/photos/24917565/pexels-photo-24917565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rohan kumar sah
+    creator_url: https://www.pexels.com/@rohan-kumar-sah-605445854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 5339994193890c1e
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.401
+    nearest:
+    - fc94b953
+    - f85d92c0
+    - f2fb27ec
+    state: pending
+    family_scores:
+      before-after: 0.401
+      vs-two-up: 0.401
+      crop-frame: 0.333
+    best_family: before-after
+  pexels-25402112:
+    url: https://www.pexels.com/photo/can-of-coca-cola-25402112/
+    image: https://images.pexels.com/photos/25402112/pexels-photo-25402112.jpeg
+    thumb: https://images.pexels.com/photos/25402112/pexels-photo-25402112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cuma  Ersöz
+    creator_url: https://www.pexels.com/@cuma-ersoz-218033532
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5316
+    height: 3544
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 069e9e9e9e969696
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.286
+    nearest:
+    - f85d92c0
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.286
+      cutout-checkerboard: 0.204
+      panel-overlay: 0.191
+    best_family: vs-two-up
+    drop: near-dup of corpus 21c52953 (hamming 5)
+  pexels-25402113:
+    url: https://www.pexels.com/photo/water-drops-on-coca-cola-can-25402113/
+    image: https://images.pexels.com/photos/25402113/pexels-photo-25402113.jpeg
+    thumb: https://images.pexels.com/photos/25402113/pexels-photo-25402113.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cuma  Ersöz
+    creator_url: https://www.pexels.com/@cuma-ersoz-218033532
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5316
+    height: 3544
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: '2525252521212525'
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.323
+    nearest:
+    - f2fb27ec
+    - 4c0fad35
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.323
+      cutout-checkerboard: 0.179
+      panel-overlay: 0.178
+    best_family: vs-two-up
+    drop: near-dup of corpus fa2a98b6 (hamming 5)
   pexels-25585750:
     url: https://www.pexels.com/photo/meal-on-plate-and-drink-behind-25585750/
     image: https://images.pexels.com/photos/25585750/pexels-photo-25585750.jpeg
@@ -35,3 +1156,2488 @@ entries:
       graphic-collage: 0.066
     best_family: outcome-tile
     moved_from: cinematic-still
+  pexels-27174557:
+    url: https://www.pexels.com/photo/woman-hands-holding-leather-bag-27174557/
+    image: https://images.pexels.com/photos/27174557/pexels-photo-27174557.jpeg
+    thumb: https://images.pexels.com/photos/27174557/pexels-photo-27174557.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: José Martin Segura Benites
+    creator_url: https://www.pexels.com/@jose-martin-segura-benites-1422456152
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2160
+    height: 2160
+    aspect_class: '1:1'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 32296968696c6c60
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.38
+    nearest:
+    - 4c0fad35
+    - 1ccc69c2
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.38
+      before-after: 0.363
+      graphic-collage: 0.34
+    best_family: vs-two-up
+  pexels-2790435:
+    url: https://www.pexels.com/photo/a-pretty-woman-in-black-top-posing-2790435/
+    image: https://images.pexels.com/photos/2790435/pexels-photo-2790435.jpeg
+    thumb: https://images.pexels.com/photos/2790435/pexels-photo-2790435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Victor L.
+    creator_url: https://www.pexels.com/@victor-l-19338
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5572
+    height: 3713
+    aspect_class: '3:2'
+    term: portrait gradient background studio
+    collected: '2026-09-16'
+    phash: 172d2d0d0f274f5b
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.03
+    nearest:
+    - 1794ea79
+    - 4c0fad35
+    - f85d92c0
+    state: dropped
+    family_scores:
+      panel-overlay: 0.095
+      editor-canvas: 0.093
+      graphic-collage: 0.079
+    best_family: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-29036777:
+    url: https://www.pexels.com/photo/woman-in-blue-on-track-field-bench-29036777/
+    image: https://images.pexels.com/photos/29036777/pexels-photo-29036777.jpeg
+    thumb: https://images.pexels.com/photos/29036777/pexels-photo-29036777.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: KAMZY NUEL
+    creator_url: https://www.pexels.com/@kamzy-nuel-1139605143
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4812
+    height: 3213
+    aspect_class: '3:2'
+    term: handbag blue sky
+    collected: '2026-09-16'
+    phash: 063ffd8c1d79c193
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.13
+    nearest:
+    - a3c3ca6d
+    - fc94b953
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.13
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-29229019:
+    url: https://www.pexels.com/photo/vibrant-red-lipstick-trio-on-blue-background-29229019/
+    image: https://images.pexels.com/photos/29229019/pexels-photo-29229019.jpeg
+    thumb: https://images.pexels.com/photos/29229019/pexels-photo-29229019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rohit Sharma
+    creator_url: https://www.pexels.com/@rohit-sharma-1230131
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5328
+    height: 4000
+    aspect_class: '4:3'
+    term: product photography colorful background
+    collected: '2026-09-16'
+    phash: 9f9f9569a9327367
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.385
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.385
+      before-after: 0.31
+      crop-frame: 0.272
+    best_family: vs-two-up
+    moved_from: graphic-collage
+  pexels-29435588:
+    url: https://www.pexels.com/photo/silhouette-of-person-against-orange-background-29435588/
+    image: https://images.pexels.com/photos/29435588/pexels-photo-29435588.jpeg
+    thumb: https://images.pexels.com/photos/29435588/pexels-photo-29435588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: dp singh Bhullar
+    creator_url: https://www.pexels.com/@dpsinghbhullar
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: portrait gradient background studio
+    collected: '2026-09-16'
+    phash: 9b3169687131386c
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.155
+    nearest:
+    - 1794ea79
+    - f85d92c0
+    - 4c0fad35
+    state: dropped
+    family_scores:
+      editor-canvas: 0.174
+      vs-two-up: 0.155
+      before-after: 0.143
+    best_family: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-30811791:
+    url: https://www.pexels.com/photo/cherry-blossoms-in-bloom-against-blue-sky-30811791/
+    image: https://images.pexels.com/photos/30811791/pexels-photo-30811791.jpeg
+    thumb: https://images.pexels.com/photos/30811791/pexels-photo-30811791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Salvador Chinchilla
+    creator_url: https://www.pexels.com/@salvador-chinchilla-768230
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: b6b67332c4cd958a
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.282
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - 548b38f1
+    state: pending
+    family_scores:
+      vs-two-up: 0.282
+      graphic-collage: 0.237
+      before-after: 0.199
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-31663606:
+    url: https://www.pexels.com/photo/fashionable-young-man-in-a-green-coat-outdoors-31663606/
+    image: https://images.pexels.com/photos/31663606/pexels-photo-31663606.jpeg
+    thumb: https://images.pexels.com/photos/31663606/pexels-photo-31663606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mike C
+    creator_url: https://www.pexels.com/@mike-c-2151163165
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: fashion editorial colorful outfit blue sky
+    collected: '2026-09-16'
+    phash: 1f1f571313b69007
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.162
+    nearest:
+    - 1794ea79
+    - 548b38f1
+    - 4c0fad35
+    state: dropped
+    family_scores:
+      vs-two-up: 0.162
+      before-after: 0.142
+      graphic-collage: 0.126
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-31763557:
+    url: https://www.pexels.com/photo/chilled-soda-can-with-vapor-on-black-background-31763557/
+    image: https://images.pexels.com/photos/31763557/pexels-photo-31763557.jpeg
+    thumb: https://images.pexels.com/photos/31763557/pexels-photo-31763557.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Bastian Riccardi
+    creator_url: https://www.pexels.com/@shutter-speed
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5536
+    height: 3114
+    aspect_class: '16:9'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 1c1c0d2c3c480818
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.25
+    nearest:
+    - f2fb27ec
+    - 4c0fad35
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.25
+      graphic-collage: 0.144
+      editor-canvas: 0.093
+    best_family: vs-two-up
+    drop: near-dup of corpus 861c2971 (hamming 10)
+  pexels-31965470:
+    url: https://www.pexels.com/photo/refreshing-cherry-cola-can-with-water-splash-31965470/
+    image: https://images.pexels.com/photos/31965470/pexels-photo-31965470.jpeg
+    thumb: https://images.pexels.com/photos/31965470/pexels-photo-31965470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Christopher Welsch Leveroni
+    creator_url: https://www.pexels.com/@christopher-welsch-leveroni-2150186467
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5542
+    height: 3695
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 32727a727272737b
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.123
+    nearest:
+    - f2fb27ec
+    - fc94b953
+    - f85d92c0
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      vs-two-up: 0.123
+      graphic-collage: 0.114
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-31966524:
+    url: https://www.pexels.com/photo/cherry-flavored-coke-can-with-droplets-on-black-background-31966524/
+    image: https://images.pexels.com/photos/31966524/pexels-photo-31966524.jpeg
+    thumb: https://images.pexels.com/photos/31966524/pexels-photo-31966524.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Christopher Welsch Leveroni
+    creator_url: https://www.pexels.com/@christopher-welsch-leveroni-2150186467
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2727
+    height: 2727
+    aspect_class: '1:1'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 0c06869696968616
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.382
+    nearest:
+    - f85d92c0
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.382
+      panel-overlay: 0.317
+      prompt-card: 0.312
+    best_family: vs-two-up
+    drop: near-dup of corpus 21c52953 (hamming 6)
+  pexels-32115562:
+    url: https://www.pexels.com/photo/fashion-model-in-red-dress-by-water-s-edge-32115562/
+    image: https://images.pexels.com/photos/32115562/pexels-photo-32115562.jpeg
+    thumb: https://images.pexels.com/photos/32115562/pexels-photo-32115562.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Diana Reyes
+    creator_url: https://www.pexels.com/@diana-reyes-227887231
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5680
+    height: 3787
+    aspect_class: '3:2'
+    term: surreal fashion editorial
+    collected: '2026-09-16'
+    phash: 05bdf7636c281820
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.143
+    nearest:
+    - 4c0fad35
+    - 62f736f4
+    - 1794ea79
+    state: dropped
+    family_scores:
+      vs-two-up: 0.143
+      panel-overlay: 0.128
+      before-after: 0.123
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32502936:
+    url: https://www.pexels.com/photo/vibrant-pink-peony-blooming-in-summer-garden-32502936/
+    image: https://images.pexels.com/photos/32502936/pexels-photo-32502936.jpeg
+    thumb: https://images.pexels.com/photos/32502936/pexels-photo-32502936.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Wolfgang Vrede
+    creator_url: https://www.pexels.com/@wolfgang-vrede-9996223
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: 0e862622332b27d2
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.173
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.173
+      before-after: 0.123
+      cutout-checkerboard: 0.116
+    best_family: vs-two-up
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32529470:
+    url: https://www.pexels.com/photo/refreshing-iced-matcha-latte-on-wooden-tray-32529470/
+    image: https://images.pexels.com/photos/32529470/pexels-photo-32529470.jpeg
+    thumb: https://images.pexels.com/photos/32529470/pexels-photo-32529470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: iced matcha latte minimalist background
+    collected: '2026-09-16'
+    phash: 319d8e3373ebe2d0
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.296
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.296
+      cutout-checkerboard: 0.211
+      before-after: 0.142
+    best_family: vs-two-up
+    moved_from: editor-canvas
+    drop: more than 3 from Sóc Năng Động this pass
+  pexels-33487189:
+    url: https://www.pexels.com/photo/man-walking-on-urban-zebra-crossing-from-above-33487189/
+    image: https://images.pexels.com/photos/33487189/pexels-photo-33487189.jpeg
+    thumb: https://images.pexels.com/photos/33487189/pexels-photo-33487189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Da Na
+    creator_url: https://www.pexels.com/@da-na-461418424
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5504
+    height: 4128
+    aspect_class: '4:3'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 8c8c3162c5830f2e
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.28
+    nearest:
+    - 62f736f4
+    - a3c3ca6d
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.28
+      panel-overlay: 0.182
+      cutout-checkerboard: 0.175
+    best_family: vs-two-up
+    moved_from: crop-frame
+  pexels-33519968:
+    url: https://www.pexels.com/photo/aerial-view-of-pedestrian-on-urban-zebra-crossing-33519968/
+    image: https://images.pexels.com/photos/33519968/pexels-photo-33519968.jpeg
+    thumb: https://images.pexels.com/photos/33519968/pexels-photo-33519968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Da Na
+    creator_url: https://www.pexels.com/@da-na-461418424
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5504
+    height: 4128
+    aspect_class: '4:3'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: cc8c3162c5830f2e
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.256
+    nearest:
+    - 62f736f4
+    - a3c3ca6d
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.256
+      before-after: 0.241
+      panel-overlay: 0.221
+    best_family: vs-two-up
+    moved_from: crop-frame
+    drop: near-dup of pool pexels-33487189 (hamming 1)
+  pexels-33993825:
+    url: https://www.pexels.com/photo/white-jasmine-aromatherapy-candle-and-perfume-33993825/
+    image: https://images.pexels.com/photos/33993825/pexels-photo-33993825.jpeg
+    thumb: https://images.pexels.com/photos/33993825/pexels-photo-33993825.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mike
+    creator_url: https://www.pexels.com/@mike-2155322665
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3069
+    height: 3445
+    aspect_class: '4:5'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 8a9cec66b6726563
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.168
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.168
+      graphic-collage: 0.146
+      before-after: 0.113
+    best_family: vs-two-up
+    moved_from: mockup-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-34502814:
+    url: https://www.pexels.com/photo/glass-and-ink-bottle-with-dramatic-lighting-34502814/
+    image: https://images.pexels.com/photos/34502814/pexels-photo-34502814.jpeg
+    thumb: https://images.pexels.com/photos/34502814/pexels-photo-34502814.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cheese Burger
+    creator_url: https://www.pexels.com/@cheeseburger
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3949
+    height: 4887
+    aspect_class: '4:5'
+    term: candle hard shadow product
+    collected: '2026-09-16'
+    phash: ff3f57ed6c3c0f03
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.446
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.446
+      before-after: 0.19
+      cutout-checkerboard: 0.173
+    best_family: vs-two-up
+    moved_from: graphic-collage
+  pexels-35979966:
+    url: https://www.pexels.com/photo/colorful-shower-gel-bottles-with-flowers-35979966/
+    image: https://images.pexels.com/photos/35979966/pexels-photo-35979966.jpeg
+    thumb: https://images.pexels.com/photos/35979966/pexels-photo-35979966.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Fenn
+    creator_url: https://www.pexels.com/@fenn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 01050c28303476f6
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.362
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.362
+      before-after: 0.287
+      cutout-checkerboard: 0.126
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-36834060:
+    url: https://www.pexels.com/photo/elegant-perfume-display-with-lemon-and-rocks-36834060/
+    image: https://images.pexels.com/photos/36834060/pexels-photo-36834060.jpeg
+    thumb: https://images.pexels.com/photos/36834060/pexels-photo-36834060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: High  Rollick studio
+    creator_url: https://www.pexels.com/@high-rollick-studio-553091901
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 0f17373919484c6d
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.271
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.271
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: near-dup of corpus 2096f1d2 (hamming 10)
+  pexels-36834269:
+    url: https://www.pexels.com/photo/elegant-wild-black-perfume-with-dramatic-lighting-36834269/
+    image: https://images.pexels.com/photos/36834269/pexels-photo-36834269.jpeg
+    thumb: https://images.pexels.com/photos/36834269/pexels-photo-36834269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: High  Rollick studio
+    creator_url: https://www.pexels.com/@high-rollick-studio-553091901
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 1e1f1f1f17db9706
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.328
+    nearest:
+    - f2fb27ec
+    - 4c0fad35
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.328
+      panel-overlay: 0.095
+      editor-canvas: 0.093
+    best_family: vs-two-up
+    drop: near-dup of corpus 22834634 (hamming 10)
+  pexels-36945304:
+    url: https://www.pexels.com/photo/vibrant-pink-cherry-blossoms-against-blue-sky-36945304/
+    image: https://images.pexels.com/photos/36945304/pexels-photo-36945304.jpeg
+    thumb: https://images.pexels.com/photos/36945304/pexels-photo-36945304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tibor Szabo
+    creator_url: https://www.pexels.com/@tibszabo
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7008
+    height: 4672
+    aspect_class: '3:2'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: b9d9bdeceaaa3636
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.284
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - 548b38f1
+    state: pending
+    family_scores:
+      vs-two-up: 0.284
+      before-after: 0.27
+      graphic-collage: 0.216
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-37127787:
+    url: https://www.pexels.com/photo/luxury-perfume-bottle-with-golden-bokeh-background-37127787/
+    image: https://images.pexels.com/photos/37127787/pexels-photo-37127787.jpeg
+    thumb: https://images.pexels.com/photos/37127787/pexels-photo-37127787.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Thilina Alagiyawanna
+    creator_url: https://www.pexels.com/@thilina-alagiyawanna-3266092
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5874
+    height: 3916
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 1f2f3f1d3b39393d
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.352
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.352
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-37248123:
+    url: https://www.pexels.com/photo/close-up-of-pink-peonies-in-soft-natural-light-37248123/
+    image: https://images.pexels.com/photos/37248123/pexels-photo-37248123.jpeg
+    thumb: https://images.pexels.com/photos/37248123/pexels-photo-37248123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: pink peony blue sky close up
+    collected: '2026-09-16'
+    phash: 8e2d574f6d77663f
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.216
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.216
+      before-after: 0.186
+      cutout-checkerboard: 0.134
+    best_family: vs-two-up
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-3774943:
+    url: https://www.pexels.com/photo/pensive-sensual-woman-in-vintage-outfit-with-binoculars-3774943/
+    image: https://images.pexels.com/photos/3774943/pexels-photo-3774943.jpeg
+    thumb: https://images.pexels.com/photos/3774943/pexels-photo-3774943.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrea Piacquadio
+    creator_url: https://www.pexels.com/@olly
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7062
+    height: 4889
+    aspect_class: '3:2'
+    term: fashion portrait white background gloves
+    collected: '2026-09-16'
+    phash: 3260686060c8c8e4
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.145
+    nearest:
+    - 4c0fad35
+    - f85d92c0
+    - 1794ea79
+    state: dropped
+    family_scores:
+      vs-two-up: 0.145
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: dark-composite
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-38178510:
+    url: https://www.pexels.com/photo/glossy-obsidian-stone-on-orange-background-38178510/
+    image: https://images.pexels.com/photos/38178510/pexels-photo-38178510.jpeg
+    thumb: https://images.pexels.com/photos/38178510/pexels-photo-38178510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Samiran Biswas
+    creator_url: https://www.pexels.com/@honiwow
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6192
+    height: 4128
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 05133171e360710f
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.068
+    nearest:
+    - f85d92c0
+    - 4c0fad35
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.068
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-38394972:
+    url: https://www.pexels.com/photo/vibrant-iridescent-fabric-with-futuristic-design-38394972/
+    image: https://images.pexels.com/photos/38394972/pexels-photo-38394972.jpeg
+    thumb: https://images.pexels.com/photos/38394972/pexels-photo-38394972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rafael Minguet Delgado
+    creator_url: https://www.pexels.com/@thales13
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8640
+    height: 5760
+    aspect_class: '3:2'
+    term: holographic iridescent fashion portrait
+    collected: '2026-09-16'
+    phash: 48c0011ff8f6d666
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.462
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.462
+      model-card: 0.459
+      editor-canvas: 0.44
+    best_family: vs-two-up
+    moved_from: panel-overlay
+  pexels-38718303:
+    url: https://www.pexels.com/photo/minimalist-black-water-bottle-on-yellow-background-38718303/
+    image: https://images.pexels.com/photos/38718303/pexels-photo-38718303.jpeg
+    thumb: https://images.pexels.com/photos/38718303/pexels-photo-38718303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4825
+    height: 3209
+    aspect_class: '3:2'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: 170f193163676f17
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 3
+      before_after: false
+    score: 0.372
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.372
+      editor-canvas: 0.355
+      before-after: 0.287
+    best_family: vs-two-up
+    moved_from: graphic-collage
+  pexels-38932141:
+    url: https://www.pexels.com/photo/woman-in-blue-lace-dress-relaxing-on-grass-38932141/
+    image: https://images.pexels.com/photos/38932141/pexels-photo-38932141.jpeg
+    thumb: https://images.pexels.com/photos/38932141/pexels-photo-38932141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Inna Mykytas
+    creator_url: https://www.pexels.com/@innamykytas
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5000
+    height: 3327
+    aspect_class: '3:2'
+    term: lime green outfit fashion model outdoor
+    collected: '2026-09-16'
+    phash: 66380e0eca4adc82
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.212
+    nearest:
+    - 4c0fad35
+    - 1794ea79
+    - 548b38f1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.212
+      before-after: 0.183
+      panel-overlay: 0.141
+    best_family: vs-two-up
+    moved_from: model-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-3961751:
+    url: https://www.pexels.com/photo/red-mug-3961751/
+    image: https://images.pexels.com/photos/3961751/pexels-photo-3961751.jpeg
+    thumb: https://images.pexels.com/photos/3961751/pexels-photo-3961751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andreea Ch
+    creator_url: https://www.pexels.com/@andreea-ch-371539
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5962
+    height: 3977
+    aspect_class: '3:2'
+    term: colorful mug product photography
+    collected: '2026-09-16'
+    phash: 1f3f3d132c6c2c13
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.142
+    nearest:
+    - f85d92c0
+    - f2fb27ec
+    - 4c0fad35
+    state: dropped
+    family_scores:
+      vs-two-up: 0.142
+      dark-composite: 0.089
+      graphic-collage: 0.036
+    best_family: vs-two-up
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-4022309:
+    url: https://www.pexels.com/photo/flat-lay-of-lipsticks-4022309/
+    image: https://images.pexels.com/photos/4022309/pexels-photo-4022309.jpeg
+    thumb: https://images.pexels.com/photos/4022309/pexels-photo-4022309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Suzy Hazelwood
+    creator_url: https://www.pexels.com/@suzyhazelwood
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3833
+    height: 2718
+    aspect_class: '4:3'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 160e0b03070a1616
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: white
+      layout: stacked
+      panel_count: 4
+      before_after: false
+    score: 0.529
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.529
+      editor-canvas: 0.348
+      template-mockup: 0.305
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-418225:
+    url: https://www.pexels.com/photo/person-holding-beer-glass-bottle-418225/
+    image: https://images.pexels.com/photos/418225/pexels-photo-418225.jpeg
+    thumb: https://images.pexels.com/photos/418225/pexels-photo-418225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mateusz Dach
+    creator_url: https://www.pexels.com/@mateusz-dach-99805
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4608
+    height: 3072
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 3f3f3f3737333138
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.185
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.185
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: dark-composite
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-479392:
+    url: https://www.pexels.com/photo/pink-flowering-tree-479392/
+    image: https://images.pexels.com/photos/479392/pexels-photo-479392.jpeg
+    thumb: https://images.pexels.com/photos/479392/pexels-photo-479392.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: icon0 com
+    creator_url: https://www.pexels.com/@icon0
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3264
+    height: 2448
+    aspect_class: '4:3'
+    term: vibrant pink blossoms against blue sky
+    collected: '2026-09-16'
+    phash: 016d4d2524440506
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.188
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - 548b38f1
+    state: dropped
+    family_scores:
+      vs-two-up: 0.188
+      panel-overlay: 0.182
+      before-after: 0.135
+    best_family: vs-two-up
+    moved_from: prompt-card
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-5538228:
+    url: https://www.pexels.com/photo/silver-can-on-black-background-5538228/
+    image: https://images.pexels.com/photos/5538228/pexels-photo-5538228.jpeg
+    thumb: https://images.pexels.com/photos/5538228/pexels-photo-5538228.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5903
+    height: 3935
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 0004004d07060414
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.245
+    nearest:
+    - f85d92c0
+    - 4c0fad35
+    - 62f736f4
+    state: dropped
+    family_scores:
+      vs-two-up: 0.245
+      panel-overlay: 0.132
+      cutout-checkerboard: 0.124
+    best_family: vs-two-up
+    drop: near-dup of corpus 07683daf (hamming 9)
+  pexels-5538231:
+    url: https://www.pexels.com/photo/grayscale-photo-of-a-can-5538231/
+    image: https://images.pexels.com/photos/5538231/pexels-photo-5538231.jpeg
+    thumb: https://images.pexels.com/photos/5538231/pexels-photo-5538231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 040646c6e6f363e3
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.228
+    nearest:
+    - f85d92c0
+    - fc94b953
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.228
+      cutout-checkerboard: 0.152
+      panel-overlay: 0.145
+    best_family: vs-two-up
+    drop: more than 3 from cottonbro studio this pass
+  pexels-5586473:
+    url: https://www.pexels.com/photo/a-man-holding-a-basketball-5586473/
+    image: https://images.pexels.com/photos/5586473/pexels-photo-5586473.jpeg
+    thumb: https://images.pexels.com/photos/5586473/pexels-photo-5586473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tima Miroshnichenko
+    creator_url: https://www.pexels.com/@tima-miroshnichenko
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4609
+    height: 3073
+    aspect_class: '3:2'
+    term: young man basketball urban portrait
+    collected: '2026-09-16'
+    phash: 52527666e8e8bc68
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.198
+    nearest:
+    - a3c3ca6d
+    - f85d92c0
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.198
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-5994299:
+    url: https://www.pexels.com/photo/black-bottle-on-red-background-5994299/
+    image: https://images.pexels.com/photos/5994299/pexels-photo-5994299.jpeg
+    thumb: https://images.pexels.com/photos/5994299/pexels-photo-5994299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Maksim Goncharenok
+    creator_url: https://www.pexels.com/@maksgelatin
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4432
+    height: 2954
+    aspect_class: '3:2'
+    term: product photography plain background single object
+    collected: '2026-09-16'
+    phash: 002170f0f0f04cd0
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.428
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.428
+      before-after: 0.339
+      cutout-checkerboard: 0.287
+    best_family: vs-two-up
+    moved_from: cutout-checkerboard
+    drop: near-dup of corpus 114e2d74 (hamming 9)
+  pexels-6238454:
+    url: https://www.pexels.com/photo/faceless-man-with-bottle-of-pop-drink-in-town-6238454/
+    image: https://images.pexels.com/photos/6238454/pexels-photo-6238454.jpeg
+    thumb: https://images.pexels.com/photos/6238454/pexels-photo-6238454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erik Mclean
+    creator_url: https://www.pexels.com/@introspectivedsgn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: hand holding bottle blue sky
+    collected: '2026-09-16'
+    phash: 4ad2d3c373331381
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.201
+    nearest:
+    - fc94b953
+    - f2fb27ec
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.201
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    moved_from: dark-composite
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-6343129:
+    url: https://www.pexels.com/photo/hand-shadows-reaching-for-a-soda-can-6343129/
+    image: https://images.pexels.com/photos/6343129/pexels-photo-6343129.jpeg
+    thumb: https://images.pexels.com/photos/6343129/pexels-photo-6343129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexander Sergienko
+    creator_url: https://www.pexels.com/@alexander-sergienko-3350339
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: c3861478dad68e1b
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.325
+    nearest:
+    - fc94b953
+    - f85d92c0
+    - 4c0fad35
+    state: pending
+    family_scores:
+      vs-two-up: 0.325
+      crop-frame: 0.255
+      before-after: 0.2
+    best_family: vs-two-up
+  pexels-6767774:
+    url: https://www.pexels.com/photo/cosmetic-products-photography-over-white-surface-6767774/
+    image: https://images.pexels.com/photos/6767774/pexels-photo-6767774.jpeg
+    thumb: https://images.pexels.com/photos/6767774/pexels-photo-6767774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Misolo Cosmetic
+    creator_url: https://www.pexels.com/@misolo-cosmetic-2588316
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5650
+    height: 3767
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 0f0f479585cd6b1f
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.374
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.374
+      before-after: 0.316
+      editor-canvas: 0.219
+    best_family: vs-two-up
+  pexels-6767789:
+    url: https://www.pexels.com/photo/a-beauty-products-near-the-rock-6767789/
+    image: https://images.pexels.com/photos/6767789/pexels-photo-6767789.jpeg
+    thumb: https://images.pexels.com/photos/6767789/pexels-photo-6767789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Misolo Cosmetic
+    creator_url: https://www.pexels.com/@misolo-cosmetic-2588316
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5795
+    height: 3863
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 0f07130935232b25
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.406
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.406
+      before-after: 0.341
+      editor-canvas: 0.136
+    best_family: vs-two-up
+  pexels-6801177:
+    url: https://www.pexels.com/photo/spray-bottle-on-a-white-table-6801177/
+    image: https://images.pexels.com/photos/6801177/pexels-photo-6801177.jpeg
+    thumb: https://images.pexels.com/photos/6801177/pexels-photo-6801177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Artem Podrez
+    creator_url: https://www.pexels.com/@artempodrez
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5932
+    height: 3337
+    aspect_class: '16:9'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 0b1b6f6ff7671b41
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.484
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.484
+      editor-canvas: 0.415
+      before-after: 0.41
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-6940338:
+    url: https://www.pexels.com/photo/photo-of-a-man-wearing-sunglasses-6940338/
+    image: https://images.pexels.com/photos/6940338/pexels-photo-6940338.jpeg
+    thumb: https://images.pexels.com/photos/6940338/pexels-photo-6940338.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alena Darmel
+    creator_url: https://www.pexels.com/@a-darmel
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5000
+    height: 3333
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 48383054dc84a4f2
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.306
+    nearest:
+    - a3c3ca6d
+    - f85d92c0
+    - 62f736f4
+    state: pending
+    family_scores:
+      vs-two-up: 0.306
+      graphic-collage: 0.279
+      model-card: 0.247
+    best_family: vs-two-up
+    moved_from: panel-overlay
+  pexels-7115510:
+    url: https://www.pexels.com/photo/light-blue-ceramic-bowl-on-turquoise-background-7115510/
+    image: https://images.pexels.com/photos/7115510/pexels-photo-7115510.jpeg
+    thumb: https://images.pexels.com/photos/7115510/pexels-photo-7115510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Feng Zou
+    creator_url: https://www.pexels.com/@ferezou
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single object colored background hard light
+    collected: '2026-09-16'
+    phash: 0f070707330e4c98
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.264
+    nearest:
+    - f85d92c0
+    - 4c0fad35
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.264
+      before-after: 0.242
+      dark-composite: 0.12
+    best_family: vs-two-up
+    moved_from: graphic-collage
+  pexels-7177985:
+    url: https://www.pexels.com/photo/a-close-up-shot-of-a-pink-peony-flower-7177985/
+    image: https://images.pexels.com/photos/7177985/pexels-photo-7177985.jpeg
+    thumb: https://images.pexels.com/photos/7177985/pexels-photo-7177985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Zuzanna Musial
+    creator_url: https://www.pexels.com/@042896ec25
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4608
+    height: 3456
+    aspect_class: '4:3'
+    term: pink peony dramatic light dark background
+    collected: '2026-09-16'
+    phash: 22c3132b2f1e8f43
+    ranker: clip
+    searched_family: editor-canvas
+    composition: bare
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.208
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: dropped
+    family_scores:
+      vs-two-up: 0.208
+      panel-overlay: 0.169
+      crop-frame: 0.143
+    best_family: vs-two-up
+    moved_from: editor-canvas
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7206429:
+    url: https://www.pexels.com/photo/red-coca-cola-tin-cans-arranged-on-a-table-7206429/
+    image: https://images.pexels.com/photos/7206429/pexels-photo-7206429.jpeg
+    thumb: https://images.pexels.com/photos/7206429/pexels-photo-7206429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ana Madeleine Uribe
+    creator_url: https://www.pexels.com/@bananamade
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 0f1f1f7564dcfcf4
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: light-grey
+      layout: grid
+      panel_count: 4
+      before_after: false
+    score: 0.237
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.237
+      before-after: 0.062
+      graphic-collage: 0.031
+    best_family: vs-two-up
+  pexels-724646:
+    url: https://www.pexels.com/photo/marc-jacobs-daisy-fragrance-bottle-724646/
+    image: https://images.pexels.com/photos/724646/pexels-photo-724646.jpeg
+    thumb: https://images.pexels.com/photos/724646/pexels-photo-724646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valeria Boltneva
+    creator_url: https://www.pexels.com/@valeriya
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4941
+    height: 3262
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 9e9fcc8d4d0c0f0b
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.486
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.486
+      cutout-checkerboard: 0.331
+      dark-composite: 0.24
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-7317086:
+    url: https://www.pexels.com/photo/cosmetic-products-on-the-floor-7317086/
+    image: https://images.pexels.com/photos/7317086/pexels-photo-7317086.jpeg
+    thumb: https://images.pexels.com/photos/7317086/pexels-photo-7317086.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: BEAUDEC
+    creator_url: https://www.pexels.com/@beaudec-30350896
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5574
+    height: 3716
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 397d52d955672b57
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.209
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.209
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    explored: true
+  pexels-7598170:
+    url: https://www.pexels.com/photo/perfumes-on-the-table-7598170/
+    image: https://images.pexels.com/photos/7598170/pexels-photo-7598170.jpeg
+    thumb: https://images.pexels.com/photos/7598170/pexels-photo-7598170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5980
+    height: 3987
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 373403c3d393a7fb
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.452
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.452
+      graphic-collage: 0.339
+      cutout-checkerboard: 0.269
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-7810568:
+    url: https://www.pexels.com/photo/lipsticks-on-wet-surface-7810568/
+    image: https://images.pexels.com/photos/7810568/pexels-photo-7810568.jpeg
+    thumb: https://images.pexels.com/photos/7810568/pexels-photo-7810568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ankush Dawar
+    creator_url: https://www.pexels.com/@ankush-dawar-596696
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 81892d7402aca476
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.504
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.504
+      before-after: 0.48
+      editor-canvas: 0.45
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-7810573:
+    url: https://www.pexels.com/photo/lipsticks-on-a-wooden-surface-7810573/
+    image: https://images.pexels.com/photos/7810573/pexels-photo-7810573.jpeg
+    thumb: https://images.pexels.com/photos/7810573/pexels-photo-7810573.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ankush Dawar
+    creator_url: https://www.pexels.com/@ankush-dawar-596696
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-16'
+    phash: 65e0b0b05aa3c5ce
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.311
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.311
+      before-after: 0.259
+      graphic-collage: 0.179
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-7814940:
+    url: https://www.pexels.com/photo/a-white-pump-bottle-beside-a-rock-7814940/
+    image: https://images.pexels.com/photos/7814940/pexels-photo-7814940.jpeg
+    thumb: https://images.pexels.com/photos/7814940/pexels-photo-7814940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5081
+    height: 3390
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 0810030909252525
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.184
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.184
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7814954:
+    url: https://www.pexels.com/photo/a-bottle-of-perfume-on-a-stack-of-stones-7814954/
+    image: https://images.pexels.com/photos/7814954/pexels-photo-7814954.jpeg
+    thumb: https://images.pexels.com/photos/7814954/pexels-photo-7814954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7952
+    height: 5304
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: 636202060f173d27
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.554
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.554
+      before-after: 0.355
+      editor-canvas: 0.222
+    best_family: vs-two-up
+  pexels-7897470:
+    url: https://www.pexels.com/photo/white-paper-rolls-on-white-table-7897470/
+    image: https://images.pexels.com/photos/7897470/pexels-photo-7897470.jpeg
+    thumb: https://images.pexels.com/photos/7897470/pexels-photo-7897470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Rodion Kutsaiev
+    creator_url: https://www.pexels.com/@frostroomhead
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3750
+    height: 3000
+    aspect_class: '5:4'
+    term: pastel product podium studio
+    collected: '2026-09-16'
+    phash: 0000096de6d6c6e7
+    ranker: clip
+    searched_family: prompt-card
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.421
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.421
+      editor-canvas: 0.306
+      before-after: 0.295
+    best_family: vs-two-up
+    moved_from: prompt-card
+  pexels-8015460:
+    url: https://www.pexels.com/photo/white-containers-on-white-surface-8015460/
+    image: https://images.pexels.com/photos/8015460/pexels-photo-8015460.jpeg
+    thumb: https://images.pexels.com/photos/8015460/pexels-photo-8015460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: product white background (Unsplash)
+    collected: '2026-09-16'
+    phash: ffff7f9f5d595fff
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.143
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.143
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+    best_family: vs-two-up
+    moved_from: outcome-tile
+    drop: near-dup of corpus 041c7d23 (hamming 6)
+  pexels-8015790:
+    url: https://www.pexels.com/photo/an-illustration-with-blank-pump-bottles-8015790/
+    image: https://images.pexels.com/photos/8015790/pexels-photo-8015790.jpeg
+    thumb: https://images.pexels.com/photos/8015790/pexels-photo-8015790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cup of  Couple
+    creator_url: https://www.pexels.com/@cup-of-couple
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: cosmetic product studio
+    collected: '2026-09-16'
+    phash: 0f070768e8691605
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: white
+      layout: grid
+      panel_count: 4
+      before_after: false
+    score: 0.278
+    nearest:
+    - fc94b953
+    - 4c0fad35
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.278
+      editor-canvas: 0.194
+      before-after: 0.15
+    best_family: vs-two-up
+    moved_from: dark-composite
+  pexels-8084244:
+    url: https://www.pexels.com/photo/clear-glass-perfume-bottle-on-brown-table-8084244/
+    image: https://images.pexels.com/photos/8084244/pexels-photo-8084244.jpeg
+    thumb: https://images.pexels.com/photos/8084244/pexels-photo-8084244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anastasia  Shuraeva
+    creator_url: https://www.pexels.com/@anastasia-shuraeva
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: e6ece9f9e999c346
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.299
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.299
+      graphic-collage: 0.143
+      before-after: 0.124
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-8128068:
+    url: https://www.pexels.com/photo/person-holding-makeup-products-in-glass-container-8128068/
+    image: https://images.pexels.com/photos/8128068/pexels-photo-8128068.jpeg
+    thumb: https://images.pexels.com/photos/8128068/pexels-photo-8128068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ron Lach
+    creator_url: https://www.pexels.com/@ron-lach
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: product on rock studio
+    collected: '2026-09-16'
+    phash: b773696bb171f903
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.4
+    nearest:
+    - 4c0fad35
+    - f85d92c0
+    - fc94b953
+    state: pending
+    family_scores:
+      dark-composite: 0.451
+      graphic-collage: 0.422
+      vs-two-up: 0.4
+    best_family: dark-composite
+  pexels-8450248:
+    url: https://www.pexels.com/photo/a-clear-glass-perfume-bottle-on-the-table-8450248/
+    image: https://images.pexels.com/photos/8450248/pexels-photo-8450248.jpeg
+    thumb: https://images.pexels.com/photos/8450248/pexels-photo-8450248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: MART  PRODUCTION
+    creator_url: https://www.pexels.com/@mart-production
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: perfume bottle on table bokeh
+    collected: '2026-09-16'
+    phash: 3acad8b9da9a9680
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.596
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.596
+      editor-canvas: 0.417
+      before-after: 0.392
+    best_family: vs-two-up
+    moved_from: mockup-card
+  pexels-8721825:
+    url: https://www.pexels.com/photo/futuristic-fashion-model-in-blue-light-8721825/
+    image: https://images.pexels.com/photos/8721825/pexels-photo-8721825.jpeg
+    thumb: https://images.pexels.com/photos/8721825/pexels-photo-8721825.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Michelangelo Buonarroti
+    creator_url: https://www.pexels.com/@michelangelo-buonarroti
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: 99195c58190c1c04
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.158
+    nearest:
+    - 1794ea79
+    - f85d92c0
+    - 4c0fad35
+    state: dropped
+    family_scores:
+      vs-two-up: 0.158
+      panel-overlay: 0.038
+      graphic-collage: 0.028
+    best_family: vs-two-up
+    moved_from: panel-overlay
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8811580:
+    url: https://www.pexels.com/photo/aerial-view-of-highway-roads-8811580/
+    image: https://images.pexels.com/photos/8811580/pexels-photo-8811580.jpeg
+    thumb: https://images.pexels.com/photos/8811580/pexels-photo-8811580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erik Mclean
+    creator_url: https://www.pexels.com/@introspectivedsgn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 3000
+    aspect_class: '4:3'
+    term: man standing road markings aerial
+    collected: '2026-09-16'
+    phash: 6461637b57557757
+    ranker: clip
+    searched_family: crop-frame
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: split
+      panel_count: 2
+      before_after: false
+    score: 0.223
+    nearest:
+    - 62f736f4
+    - a3c3ca6d
+    - f85d92c0
+    state: pending
+    family_scores:
+      vs-two-up: 0.223
+      panel-overlay: 0.214
+      before-after: 0.135
+    best_family: vs-two-up
+    moved_from: crop-frame
+  pexels-9149416:
+    url: https://www.pexels.com/photo/a-red-coca-cola-in-can-9149416/
+    image: https://images.pexels.com/photos/9149416/pexels-photo-9149416.jpeg
+    thumb: https://images.pexels.com/photos/9149416/pexels-photo-9149416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Bastian Riccardi
+    creator_url: https://www.pexels.com/@shutter-speed
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 0e0f0b08000b0b2f
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.289
+    nearest:
+    - fc94b953
+    - f85d92c0
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.289
+      panel-overlay: 0.089
+      crop-frame: 0.085
+    best_family: vs-two-up
+    drop: near-dup of corpus bd014004 (hamming 10)
+  pexels-9220518:
+    url: https://www.pexels.com/photo/photo-of-red-cans-on-a-flag-9220518/
+    image: https://images.pexels.com/photos/9220518/pexels-photo-9220518.jpeg
+    thumb: https://images.pexels.com/photos/9220518/pexels-photo-9220518.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mochammad  Algi
+    creator_url: https://www.pexels.com/@cripsdog
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 3512
+    aspect_class: '16:9'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 0f1c8e07160c0d11
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.22
+    nearest:
+    - fc94b953
+    - f2fb27ec
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.22
+      graphic-collage: 0.179
+      crop-frame: 0.12
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9364761:
+    url: https://www.pexels.com/photo/coca-cola-cans-on-wooden-plank-9364761/
+    image: https://images.pexels.com/photos/9364761/pexels-photo-9364761.jpeg
+    thumb: https://images.pexels.com/photos/9364761/pexels-photo-9364761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Radu Daniel ( MRD )
+    creator_url: https://www.pexels.com/@radu-daniel-mrd-1938968
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4944
+    height: 3296
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 2b0d13322a6b0d3a
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.184
+    nearest:
+    - fc94b953
+    - f85d92c0
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.184
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    explored: true
+  pexels-9367106:
+    url: https://www.pexels.com/photo/close-up-photo-of-a-soda-in-a-can-9367106/
+    image: https://images.pexels.com/photos/9367106/pexels-photo-9367106.jpeg
+    thumb: https://images.pexels.com/photos/9367106/pexels-photo-9367106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erik Mclean
+    creator_url: https://www.pexels.com/@introspectivedsgn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 1c9c096e2b6763d9
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.068
+    nearest:
+    - fc94b953
+    - f85d92c0
+    - 62f736f4
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9462351:
+    url: https://www.pexels.com/photo/white-cans-on-white-surface-9462351/
+    image: https://images.pexels.com/photos/9462351/pexels-photo-9462351.jpeg
+    thumb: https://images.pexels.com/photos/9462351/pexels-photo-9462351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Леся Терехова
+    creator_url: https://www.pexels.com/@3170155
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 0f4f6b6539197363
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: light-grey
+      layout: grid
+      panel_count: 3
+      before_after: false
+    score: 0.082
+    nearest:
+    - 4c0fad35
+    - f85d92c0
+    - f2fb27ec
+    state: dropped
+    family_scores:
+      vs-two-up: 0.082
+      graphic-collage: 0.031
+      panel-overlay: 0.028
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-9462390:
+    url: https://www.pexels.com/photo/close-up-of-blank-soda-cans-9462390/
+    image: https://images.pexels.com/photos/9462390/pexels-photo-9462390.jpeg
+    thumb: https://images.pexels.com/photos/9462390/pexels-photo-9462390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Леся Терехова
+    creator_url: https://www.pexels.com/@3170155
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 171373d9c9793337
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.169
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - f2fb27ec
+    state: pending
+    family_scores:
+      vs-two-up: 0.169
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    explored: true
+  pexels-9462402:
+    url: https://www.pexels.com/photo/white-soda-can-on-white-surfance-9462402/
+    image: https://images.pexels.com/photos/9462402/pexels-photo-9462402.jpeg
+    thumb: https://images.pexels.com/photos/9462402/pexels-photo-9462402.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Леся Терехова
+    creator_url: https://www.pexels.com/@3170155
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: product photography can studio
+    collected: '2026-09-16'
+    phash: 1f6f67272727271f
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.165
+    nearest:
+    - fc94b953
+    - 62f736f4
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.165
+      before-after: 0.153
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: near-dup of corpus 22f9b181 (hamming 9)
+  pexels-9706990:
+    url: https://www.pexels.com/photo/close-up-photo-of-a-coca-cola-can-on-a-black-textile-9706990/
+    image: https://images.pexels.com/photos/9706990/pexels-photo-9706990.jpeg
+    thumb: https://images.pexels.com/photos/9706990/pexels-photo-9706990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Abhishek Acharya
+    creator_url: https://www.pexels.com/@abhishek-acharya-113937898
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3888
+    aspect_class: '4:3'
+    term: soda can product photography
+    collected: '2026-09-16'
+    phash: 8acccc4ccdcc4e32
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: black
+      layout: grid
+      panel_count: 2
+      before_after: false
+    score: 0.22
+    nearest:
+    - fc94b953
+    - f2fb27ec
+    - f85d92c0
+    state: dropped
+    family_scores:
+      vs-two-up: 0.22
+      panel-overlay: 0.113
+      before-after: 0.047
+    best_family: vs-two-up
+    drop: near-dup of corpus 2cc925c8 (hamming 9)
+  pexels-9888084:
+    url: https://www.pexels.com/photo/a-wristwatch-beside-a-perfume-9888084/
+    image: https://images.pexels.com/photos/9888084/pexels-photo-9888084.jpeg
+    thumb: https://images.pexels.com/photos/9888084/pexels-photo-9888084.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pegah Sharifi
+    creator_url: https://www.pexels.com/@peg1997
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4515
+    height: 3611
+    aspect_class: '5:4'
+    term: jewelry flat lay colorful background
+    collected: '2026-09-16'
+    phash: 029c8a89ec755323
+    ranker: clip
+    searched_family: graphic-collage
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.429
+    nearest:
+    - 4c0fad35
+    - f2fb27ec
+    - fc94b953
+    state: pending
+    family_scores:
+      vs-two-up: 0.429
+      editor-canvas: 0.329
+      model-card: 0.292
+    best_family: vs-two-up
+    moved_from: graphic-collage

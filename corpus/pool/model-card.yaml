@@ -1,0 +1,508 @@
+family: model-card
+entries:
+  pexels-10046919:
+    url: https://www.pexels.com/photo/a-reflection-of-a-man-wearing-a-suit-10046919/
+    image: https://images.pexels.com/photos/10046919/pexels-photo-10046919.jpeg
+    thumb: https://images.pexels.com/photos/10046919/pexels-photo-10046919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4880
+    height: 3253
+    aspect_class: '3:2'
+    term: surreal fashion editorial
+    collected: '2026-09-16'
+    phash: 3970373f3a34381e
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - 8789713b
+    - 22e1a38a
+    - c88d7a70
+    - 57b2ef08
+    - 18415fcb
+    - 25f071ed
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: more than 3 from cottonbro studio this pass
+  pexels-10545004:
+    url: https://www.pexels.com/photo/four-women-standing-on-green-grass-field-10545004/
+    image: https://images.pexels.com/photos/10545004/pexels-photo-10545004.jpeg
+    thumb: https://images.pexels.com/photos/10545004/pexels-photo-10545004.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5559
+    height: 3706
+    aspect_class: '3:2'
+    term: surreal fashion editorial
+    collected: '2026-09-16'
+    phash: 030f09b93bdb4b05
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - c88d7a70
+    - fdf44d95
+    - 57b2ef08
+    - 22e1a38a
+    - cfcfb357
+    - 8789713b
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: more than 3 from cottonbro studio this pass
+  pexels-12998846:
+    url: https://www.pexels.com/photo/a-woman-wearing-a-red-dress-12998846/
+    image: https://images.pexels.com/photos/12998846/pexels-photo-12998846.jpeg
+    thumb: https://images.pexels.com/photos/12998846/pexels-photo-12998846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: 嵐 楓
+    creator_url: https://www.pexels.com/@262056625
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4492
+    height: 2994
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 1b0d8f070707bfb1
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - c3cbf8c8
+    - 18415fcb
+    - 8789713b
+    - fdf44d95
+    - c9d1e981
+    - cfed9542
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-16229208:
+    url: https://www.pexels.com/photo/woman-posing-in-a-red-costume-16229208/
+    image: https://images.pexels.com/photos/16229208/pexels-photo-16229208.jpeg
+    thumb: https://images.pexels.com/photos/16229208/pexels-photo-16229208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marjan Taghipour
+    creator_url: https://www.pexels.com/@marjan-taghipour-306415692
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 9069
+    height: 5566
+    aspect_class: '16:10'
+    term: fashion editorial colorful outfit blue sky
+    collected: '2026-09-16'
+    phash: 3a383939383cf8c0
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.233
+    nearest:
+    - c3cbf8c8
+    - 8789713b
+    - 57b2ef08
+    - c88d7a70
+    - 54f8c383
+    - Head
+    state: pending
+    family_scores:
+      before-after: 0.301
+      graphic-collage: 0.29
+      vs-two-up: 0.272
+    best_family: before-after
+  pexels-17444164:
+    url: https://www.pexels.com/photo/woman-standing-with-arms-raised-17444164/
+    image: https://images.pexels.com/photos/17444164/pexels-photo-17444164.jpeg
+    thumb: https://images.pexels.com/photos/17444164/pexels-photo-17444164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pollianna Bonnett
+    creator_url: https://www.pexels.com/@pollianna-bonnett-554370395
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4896
+    height: 3264
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: cffb7951d1e16171
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.39
+    nearest:
+    - 8789713b
+    - c3cbf8c8
+    - c88d7a70
+    - 57b2ef08
+    - cfed9542
+    - 54f8c383
+    state: pending
+    family_scores:
+      graphic-collage: 0.407
+      model-card: 0.39
+      vs-two-up: 0.378
+    best_family: graphic-collage
+  pexels-27391170:
+    url: https://www.pexels.com/photo/a-woman-in-a-bright-orange-dress-on-a-sandy-beach-27391170/
+    image: https://images.pexels.com/photos/27391170/pexels-photo-27391170.jpeg
+    thumb: https://images.pexels.com/photos/27391170/pexels-photo-27391170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vika Glitter
+    creator_url: https://www.pexels.com/@vika-glitter-392079
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6010
+    height: 3925
+    aspect_class: '3:2'
+    term: colorful fashion model outdoor sky
+    collected: '2026-09-16'
+    phash: 1a5a9b1c980f0f1f
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - fdf44d95
+    - c9d1e981
+    - 8789713b
+    - c3cbf8c8
+    - 8388005a
+    - 40b37491
+    state: dropped
+    family_scores:
+      vs-two-up: 0.129
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-31305463:
+    url: https://www.pexels.com/photo/elegant-woman-posing-in-vibrant-blue-gown-outdoors-31305463/
+    image: https://images.pexels.com/photos/31305463/pexels-photo-31305463.jpeg
+    thumb: https://images.pexels.com/photos/31305463/pexels-photo-31305463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vika Glitter
+    creator_url: https://www.pexels.com/@vika-glitter-392079
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6007
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful fashion model outdoor sky
+    collected: '2026-09-16'
+    phash: 030c24dd410939f8
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - c9d1e981
+    - c3cbf8c8
+    - 54f8c383
+    - 5beaeb7a
+    - 553d11df
+    - fdf44d95
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-31591255:
+    url: https://www.pexels.com/photo/elegant-woman-in-lime-green-dress-against-stone-wall-31591255/
+    image: https://images.pexels.com/photos/31591255/pexels-photo-31591255.jpeg
+    thumb: https://images.pexels.com/photos/31591255/pexels-photo-31591255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Walter Alejandro
+    creator_url: https://www.pexels.com/@walter-alejandro-228509595
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5668
+    height: 3779
+    aspect_class: '3:2'
+    term: lime green outfit fashion model outdoor
+    collected: '2026-09-16'
+    phash: 3263295c4d4d6d4d
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - 8789713b
+    - e8321a24
+    - 1d9e87da
+    - 54f8c383
+    - c9d1e981
+    - e9a9f441
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: near-dup of corpus 99a0fda9 (hamming 10)
+  pexels-3193713:
+    url: https://www.pexels.com/photo/low-angle-shot-of-a-young-man-in-colorful-active-wear-sitting-on-top-of-a-pile-of-rubble-3193713/
+    image: https://images.pexels.com/photos/3193713/pexels-photo-3193713.jpeg
+    thumb: https://images.pexels.com/photos/3193713/pexels-photo-3193713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jermaine Ulinwa
+    creator_url: https://www.pexels.com/@roseleon
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5616
+    height: 3744
+    aspect_class: '3:2'
+    term: fashion editorial colorful outfit blue sky
+    collected: '2026-09-16'
+    phash: 1f1f579394341a1b
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - c3cbf8c8
+    - 25f071ed
+    - 727a3ff5
+    - 57b2ef08
+    - c88d7a70
+    - d45cd106
+    state: dropped
+    family_scores:
+      vs-two-up: 0.129
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-32000676:
+    url: https://www.pexels.com/photo/elegant-woman-in-lime-green-dress-at-historic-site-32000676/
+    image: https://images.pexels.com/photos/32000676/pexels-photo-32000676.jpeg
+    thumb: https://images.pexels.com/photos/32000676/pexels-photo-32000676.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erick Melgar
+    creator_url: https://www.pexels.com/@erick-melgar-2150397853
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: lime green outfit fashion model outdoor
+    collected: '2026-09-16'
+    phash: 66767272662617f7
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - 54f8c383
+    - c9d1e981
+    - 1d9e87da
+    - 7e3e579f
+    - c3cbf8c8
+    - 5beaeb7a
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-36036481:
+    url: https://www.pexels.com/photo/artistic-portrait-of-a-young-woman-with-freckles-36036481/
+    image: https://images.pexels.com/photos/36036481/pexels-photo-36036481.jpeg
+    thumb: https://images.pexels.com/photos/36036481/pexels-photo-36036481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: marcin wróblewski
+    creator_url: https://www.pexels.com/@resoflife
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2304
+    height: 1792
+    aspect_class: '5:4'
+    term: beauty portrait freckles studio
+    collected: '2026-09-16'
+    phash: cccccddddcccccf2
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.782
+    nearest:
+    - 8388005a
+    - 8789713b
+    - cfed9542
+    - Head
+    - e9a9f441
+    - 727a3ff5
+    state: dropped
+    family_scores:
+      model-card: 0.782
+      before-after: 0.663
+      vs-two-up: 0.569
+    best_family: model-card
+    moved_from: vs-two-up
+    drop: near-dup of corpus 36b35162 (hamming 9)
+  pexels-5119200:
+    url: https://www.pexels.com/photo/man-in-black-coat-sitting-on-brown-rock-5119200/
+    image: https://images.pexels.com/photos/5119200/pexels-photo-5119200.jpeg
+    thumb: https://images.pexels.com/photos/5119200/pexels-photo-5119200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: low angle fashion model dramatic sky
+    collected: '2026-09-16'
+    phash: 0313131335313249
+    ranker: clip
+    searched_family: model-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.042
+    nearest:
+    - c3cbf8c8
+    - 9909d150
+    - 25f071ed
+    - 57b2ef08
+    - c88d7a70
+    - 8789713b
+    state: dropped
+    family_scores:
+      vs-two-up: 0.134
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: more than 3 from cottonbro studio this pass
+  pexels-8108480:
+    url: https://www.pexels.com/photo/man-and-woman-looking-at-each-other-8108480/
+    image: https://images.pexels.com/photos/8108480/pexels-photo-8108480.jpeg
+    thumb: https://images.pexels.com/photos/8108480/pexels-photo-8108480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-16'
+    phash: b6a1898794fcf8d8
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.317
+    nearest:
+    - 8789713b
+    - 727a3ff5
+    - Header-3
+    - 1e1c5d7a
+    - Head
+    - 8388005a
+    state: pending
+    family_scores:
+      model-card: 0.317
+      vs-two-up: 0.298
+      before-after: 0.276
+    best_family: model-card
+    moved_from: panel-overlay

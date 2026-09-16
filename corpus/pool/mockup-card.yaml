@@ -1,0 +1,903 @@
+family: mockup-card
+entries:
+  pexels-10640640:
+    url: https://www.pexels.com/photo/woman-in-red-coat-standing-near-red-and-white-tower-10640640/
+    image: https://images.pexels.com/photos/10640640/pexels-photo-10640640.jpeg
+    thumb: https://images.pexels.com/photos/10640640/pexels-photo-10640640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexey Demidov
+    creator_url: https://www.pexels.com/@alexeydemidov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4032
+    height: 2688
+    aspect_class: '3:2'
+    term: woman standing outdoors portrait front
+    collected: '2026-09-16'
+    phash: 0704146e6f284167
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 7a90b246
+    - 543e0b23
+    - 30cc0835
+    - b21a711b
+    - f1928495
+    - e567c337
+    - 824cb824
+    - 9d5b9950
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-10773592:
+    url: https://www.pexels.com/photo/man-in-beanie-hat-covered-with-cloth-10773592/
+    image: https://images.pexels.com/photos/10773592/pexels-photo-10773592.jpeg
+    thumb: https://images.pexels.com/photos/10773592/pexels-photo-10773592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Abrar Hashim
+    creator_url: https://www.pexels.com/@abrar-hashim-159060174
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 0f373331f2f35033
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 543e0b23
+    - 7a90b246
+    - b21a711b
+    - cde6be49
+    - 30cc0835
+    - f55eafd1
+    - 0d8aafba
+    - e2cf0e6a
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-12932651:
+    url: https://www.pexels.com/photo/man-in-a-sports-t-shirt-and-headphones-in-his-ears-12932651/
+    image: https://images.pexels.com/photos/12932651/pexels-photo-12932651.jpeg
+    thumb: https://images.pexels.com/photos/12932651/pexels-photo-12932651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Atlantic Ambience
+    creator_url: https://www.pexels.com/@freestockpro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 307572b1a9713333
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - f55eafd1
+    - 39a9c192
+    - fd0a6faa
+    - e28971b7
+    - 7a90b246
+    - d09760f3
+    - 8787dc19
+    - 5c9a9f54
+    state: pending
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    explored: true
+  pexels-14525659:
+    url: https://www.pexels.com/photo/shoe-on-red-background-14525659/
+    image: https://images.pexels.com/photos/14525659/pexels-photo-14525659.jpeg
+    thumb: https://images.pexels.com/photos/14525659/pexels-photo-14525659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Luis Quintero
+    creator_url: https://www.pexels.com/@jibarofoto
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 00104adc3c14010e
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - bd2c72db
+    - 3066e7aa
+    - fd0a6faa
+    - 8c1972df
+    - '74803928'
+    - 4ae5947f
+    - 179cd866
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-15614993:
+    url: https://www.pexels.com/photo/woman-in-sweater-in-winter-15614993/
+    image: https://images.pexels.com/photos/15614993/pexels-photo-15614993.jpeg
+    thumb: https://images.pexels.com/photos/15614993/pexels-photo-15614993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Max Kladitin
+    creator_url: https://www.pexels.com/@max-kladitin-456997122
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: woman portrait park arms crossed
+    collected: '2026-09-16'
+    phash: 4b4d6d393d1c1c19
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 543e0b23
+    - 30cc0835
+    - b21a711b
+    - 7a90b246
+    - c9cfc94b
+    - 273b2152
+    - af8d42de
+    - fd0a6faa
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-19446301:
+    url: https://www.pexels.com/photo/elderly-woman-in-blue-cardigan-in-yard-19446301/
+    image: https://images.pexels.com/photos/19446301/pexels-photo-19446301.jpeg
+    thumb: https://images.pexels.com/photos/19446301/pexels-photo-19446301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Thới Nam Cao
+    creator_url: https://www.pexels.com/@thoinamcao
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3543
+    height: 2397
+    aspect_class: '3:2'
+    term: woman standing outdoors portrait front
+    collected: '2026-09-16'
+    phash: 0307042c5c393939
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 543e0b23
+    - 8787dc19
+    - 239c9729
+    - 34cc62c4
+    - fd0a6faa
+    - 273b2152
+    - e28971b7
+    - 0d8aafba
+    state: dropped
+    family_scores:
+      graphic-collage: 0.149
+      before-after: 0.123
+      panel-overlay: 0.108
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-19893251:
+    url: https://www.pexels.com/photo/shoe-on-floor-19893251/
+    image: https://images.pexels.com/photos/19893251/pexels-photo-19893251.jpeg
+    thumb: https://images.pexels.com/photos/19893251/pexels-photo-19893251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Lesandu  Alokabandara
+    creator_url: https://www.pexels.com/@lesandu-alokabandara-670648380
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 0b07236551136f36
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - 4ae5947f
+    - d3e02e75
+    - f55eafd1
+    - 3066e7aa
+    - bd2c72db
+    - f230f55e
+    - 8c1972df
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-19976783:
+    url: https://www.pexels.com/photo/woman-in-black-coat-and-with-book-19976783/
+    image: https://images.pexels.com/photos/19976783/pexels-photo-19976783.jpeg
+    thumb: https://images.pexels.com/photos/19976783/pexels-photo-19976783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nur Demirbaş
+    creator_url: https://www.pexels.com/@nur-demirbas-627769864
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6006
+    height: 4015
+    aspect_class: '3:2'
+    term: woman portrait park arms crossed
+    collected: '2026-09-16'
+    phash: 336b49f070e96d69
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - e567c337
+    - 30cc0835
+    - 543e0b23
+    - 273b2152
+    - db734582
+    - b21a711b
+    - f55eafd1
+    - af8d42de
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-20867437:
+    url: https://www.pexels.com/photo/portrait-of-woman-in-leather-jacket-20867437/
+    image: https://images.pexels.com/photos/20867437/pexels-photo-20867437.jpeg
+    thumb: https://images.pexels.com/photos/20867437/pexels-photo-20867437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anh Nguyen
+    creator_url: https://www.pexels.com/@anh-nguyen-517648218
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7632
+    height: 5091
+    aspect_class: '3:2'
+    term: woman standing outdoors portrait front
+    collected: '2026-09-16'
+    phash: 9bb32969696d3c30
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 543e0b23
+    - 824cb824
+    - db734582
+    - f55eafd1
+    - 273b2152
+    - 30cc0835
+    - d9aa257c
+    - 1e29c092
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-27451450:
+    url: https://www.pexels.com/photo/a-pair-of-sneakers-sitting-in-the-grass-27451450/
+    image: https://images.pexels.com/photos/27451450/pexels-photo-27451450.jpeg
+    thumb: https://images.pexels.com/photos/27451450/pexels-photo-27451450.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Chris F
+    creator_url: https://www.pexels.com/@chris-f-38966
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5357
+    height: 3634
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 846461a11333330f
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - 34cc62c4
+    - 3066e7aa
+    - fd0a6faa
+    - af8d42de
+    - ad52b812
+    - 0d8aafba
+    - '85936259'
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-33271169:
+    url: https://www.pexels.com/photo/confident-man-in-outdoor-natural-setting-portrait-33271169/
+    image: https://images.pexels.com/photos/33271169/pexels-photo-33271169.jpeg
+    thumb: https://images.pexels.com/photos/33271169/pexels-photo-33271169.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anil  Sharma
+    creator_url: https://www.pexels.com/@shootsaga
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 351d1819290f1f0d
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 149c0940
+    - 7a90b246
+    - cbbdbcc3
+    - 824cb824
+    - 8787dc19
+    - 21d96d4e
+    - d09760f3
+    - 660c4514
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-33435705:
+    url: https://www.pexels.com/photo/portrait-of-young-adult-in-natural-setting-33435705/
+    image: https://images.pexels.com/photos/33435705/pexels-photo-33435705.jpeg
+    thumb: https://images.pexels.com/photos/33435705/pexels-photo-33435705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Joshua Bull
+    creator_url: https://www.pexels.com/@themangoeatingguru
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2735
+    height: 1830
+    aspect_class: '3:2'
+    term: woman standing outdoors portrait front
+    collected: '2026-09-16'
+    phash: 4f33334b490f4d4c
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 273b2152
+    - e567c337
+    - 9d5b9950
+    - 30cc0835
+    - 824cb824
+    - c9cfc94b
+    - 7a90b246
+    - d09760f3
+    state: dropped
+    family_scores:
+      vs-two-up: 0.156
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-35233341:
+    url: https://www.pexels.com/photo/confident-man-standing-by-historic-architecture-35233341/
+    image: https://images.pexels.com/photos/35233341/pexels-photo-35233341.jpeg
+    thumb: https://images.pexels.com/photos/35233341/pexels-photo-35233341.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anil  Sharma
+    creator_url: https://www.pexels.com/@shootsaga
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 7008
+    height: 4672
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 48c8e4602cb6f264
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 149c0940
+    - 824cb824
+    - f55eafd1
+    - d09760f3
+    - 34cc62c4
+    - 0d8aafba
+    - 543e0b23
+    - 7a90b246
+    state: pending
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    explored: true
+  pexels-36433598:
+    url: https://www.pexels.com/photo/iced-coffee-with-bon-appetit-message-36433598/
+    image: https://images.pexels.com/photos/36433598/pexels-photo-36433598.jpeg
+    thumb: https://images.pexels.com/photos/36433598/pexels-photo-36433598.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5520
+    height: 3680
+    aspect_class: '3:2'
+    term: iced coffee cup cafe table
+    collected: '2026-09-16'
+    phash: f0f023d3e6e5e9e1
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 39e0c953
+    - d9fe72a6
+    - b21a711b
+    - 30cc0835
+    - 2c7d11d9
+    - fd0a6faa
+    - ad52b812
+    - b144ee02
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: more than 3 from Sóc Năng Động this pass
+  pexels-4724516:
+    url: https://www.pexels.com/photo/person-holding-gray-fabric-sneaker-in-hand-4724516/
+    image: https://images.pexels.com/photos/4724516/pexels-photo-4724516.jpeg
+    thumb: https://images.pexels.com/photos/4724516/pexels-photo-4724516.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Erik Mclean
+    creator_url: https://www.pexels.com/@introspectivedsgn
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 0dab17131b1f0d0d
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - 8c1972df
+    - 39e0c953
+    - 997f7fca
+    - fd0a6faa
+    - 34cc62c4
+    - cf140e97
+    - 1e29c092
+    state: dropped
+    family_scores:
+      vs-two-up: 0.134
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-4921531:
+    url: https://www.pexels.com/photo/a-coffee-menu-placed-on-wooden-table-4921531/
+    image: https://images.pexels.com/photos/4921531/pexels-photo-4921531.jpeg
+    thumb: https://images.pexels.com/photos/4921531/pexels-photo-4921531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: iced latte cafe bokeh
+    collected: '2026-09-16'
+    phash: 1e3e3f0f0f2f5bb2
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - d3e02e75
+    - 39e0c953
+    - 9877e28a
+    - e393bb2f
+    - e28971b7
+    - b144ee02
+    - 2c7d11d9
+    - 34cc62c4
+    state: dropped
+    family_scores:
+      cutout-checkerboard: 0.161
+      panel-overlay: 0.156
+      graphic-collage: 0.127
+    best_family: cutout-checkerboard
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-6385986:
+    url: https://www.pexels.com/photo/woman-in-white-striped-shirt-smiling-6385986/
+    image: https://images.pexels.com/photos/6385986/pexels-photo-6385986.jpeg
+    thumb: https://images.pexels.com/photos/6385986/pexels-photo-6385986.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Abd Elrahman Elokby
+    creator_url: https://www.pexels.com/@abd-elrahman-elokby-3774320
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2652
+    height: 2701
+    aspect_class: '1:1'
+    term: woman standing outdoors portrait front
+    collected: '2026-09-16'
+    phash: e0e8dbdb7353c7a6
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.308
+    nearest:
+    - 543e0b23
+    - 273b2152
+    - 824cb824
+    - fd0a6faa
+    - f55eafd1
+    - 9d5b9950
+    - af8d42de
+    - 0d8aafba
+    state: pending
+    family_scores:
+      graphic-collage: 0.402
+      before-after: 0.363
+      dark-composite: 0.349
+    best_family: graphic-collage
+  pexels-6950707:
+    url: https://www.pexels.com/photo/man-wearing-a-brown-sweater-with-eyeglasses-6950707/
+    image: https://images.pexels.com/photos/6950707/pexels-photo-6950707.jpeg
+    thumb: https://images.pexels.com/photos/6950707/pexels-photo-6950707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kampus Production
+    creator_url: https://www.pexels.com/@kampus
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5023
+    height: 3353
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 801492990c2c2c0e
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8787dc19
+    - fd0a6faa
+    - f55eafd1
+    - 824cb824
+    - 34cc62c4
+    - 149c0940
+    - 39e0c953
+    - 0d8aafba
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-7551297:
+    url: https://www.pexels.com/photo/man-in-blue-crew-neck-t-shirt-smiling-7551297/
+    image: https://images.pexels.com/photos/7551297/pexels-photo-7551297.jpeg
+    thumb: https://images.pexels.com/photos/7551297/pexels-photo-7551297.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6088
+    height: 4059
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: dc9cb63a604d7970
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 149c0940
+    - 8787dc19
+    - 7a90b246
+    - 21d96d4e
+    - cbbdbcc3
+    - fd0a6faa
+    - 34cc62c4
+    - d09760f3
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8248704:
+    url: https://www.pexels.com/photo/leaf-on-shoes-8248704/
+    image: https://images.pexels.com/photos/8248704/pexels-photo-8248704.jpeg
+    thumb: https://images.pexels.com/photos/8248704/pexels-photo-8248704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Julia Filirovska
+    creator_url: https://www.pexels.com/@filirovska
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5506
+    height: 3671
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: e3ef77d353b6589e
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - 8c1972df
+    - fd0a6faa
+    - 34cc62c4
+    - af8d42de
+    - bd2c72db
+    - f55eafd1
+    - ad52b812
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8911820:
+    url: https://www.pexels.com/photo/a-man-in-black-button-down-shirt-with-his-arms-crossed-8911820/
+    image: https://images.pexels.com/photos/8911820/pexels-photo-8911820.jpeg
+    thumb: https://images.pexels.com/photos/8911820/pexels-photo-8911820.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Yan Krukau
+    creator_url: https://www.pexels.com/@yankrukov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: man arms crossed outdoors portrait
+    collected: '2026-09-16'
+    phash: 494949d919ffd919
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8787dc19
+    - 149c0940
+    - d3e02e75
+    - 1c2dd362
+    - f55eafd1
+    - cbbdbcc3
+    - e28971b7
+    - e393bb2f
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+  pexels-8979069:
+    url: https://www.pexels.com/photo/white-and-black-nike-shoe-8979069/
+    image: https://images.pexels.com/photos/8979069/pexels-photo-8979069.jpeg
+    thumb: https://images.pexels.com/photos/8979069/pexels-photo-8979069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Gustavo Gimenez
+    creator_url: https://www.pexels.com/@indigentesce
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 3999
+    aspect_class: '3:2'
+    term: single sneaker on table blurred background
+    collected: '2026-09-16'
+    phash: 03074b0d07231701
+    ranker: clip
+    searched_family: mockup-card
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.062
+    nearest:
+    - 8f1f1e39
+    - 1734675f
+    - 4ae5947f
+    - bd2c72db
+    - 1e29c092
+    - bb870462
+    - 8c1972df
+    - e393bb2f
+    state: dropped
+    family_scores:
+      before-after: 0.123
+      graphic-collage: 0.114
+      panel-overlay: 0.108
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
