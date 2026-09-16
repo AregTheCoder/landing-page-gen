@@ -924,3 +924,35 @@ def test_cli_search_reaches_pool_search_with_every_flag_once(tmp_path, monkeypat
     assert seen["kw"]["composition"] == pool.LAYOUT
     assert seen["kw"]["limit_per_term"] == 7 and seen["kw"]["max_per_creator"] == 8
     assert seen["kw"]["platforms"] == ("pexels",)
+
+
+def test_corpus_hashes_is_incremental_and_cannot_be_erased(tmp_path):
+    """Write-once was the bug: this file is what stops a stock photo that IS one
+    of Picsart's own source images from entering the pool, so a corpus that has
+    grown since it was written must not leave the new assets unguarded. It also
+    must survive an injected empty mapping."""
+    a, b = noise_image("one"), noise_image("two")
+    pa, pb = tmp_path / "a.png", tmp_path / "b.png"
+    a.save(pa); b.save(pb)
+    src_a, src_b = "https://cdn.picsart.io/a.png", "https://cdn.picsart.io/b.png"
+    attrs_mapping = {src_a: {"local": str(pa)}}
+    styles_mapping = {src_a: {"style": FAMILY}}
+    first = pool.corpus_hashes(pool_dir=tmp_path, attrs_mapping=attrs_mapping,
+                               styles_mapping=styles_mapping, log=lambda m: None)
+    assert set(first) == {src_a} and first[src_a]["family"] == FAMILY
+    # the corpus grows: the new asset is hashed, the old one is not re-hashed
+    attrs_mapping[src_b] = {"local": str(pb)}
+    styles_mapping[src_b] = {"style": CINEMATIC}
+    second = pool.corpus_hashes(pool_dir=tmp_path, attrs_mapping=attrs_mapping,
+                                styles_mapping=styles_mapping, log=lambda m: None)
+    assert set(second) == {src_a, src_b}
+    assert second[src_a]["phash"] == first[src_a]["phash"]
+    # a re-tag refreshes provenance without re-hashing
+    styles_mapping[src_a] = {"style": CINEMATIC}
+    third = pool.corpus_hashes(pool_dir=tmp_path, attrs_mapping=attrs_mapping,
+                               styles_mapping=styles_mapping, log=lambda m: None)
+    assert third[src_a]["family"] == CINEMATIC and third[src_a]["phash"] == first[src_a]["phash"]
+    # an empty mapping never erases it — the tests inject exactly that
+    kept = pool.corpus_hashes(pool_dir=tmp_path, attrs_mapping={}, styles_mapping={},
+                              log=lambda m: None)
+    assert kept == third

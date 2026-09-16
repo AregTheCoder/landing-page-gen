@@ -120,25 +120,44 @@ def all_entries(pool_dir=POOL_DIR):
     return out
 
 
-def corpus_hashes(pool_dir=POOL_DIR, attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML, log=print):
-    """{src: {phash, family}} of every measured corpus asset, built once from
-    the attributes' local files and cached in `<pool_dir>/_hashes.yaml`."""
+def corpus_hashes(pool_dir=POOL_DIR, attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML,
+                  attrs_mapping=None, styles_mapping=None, refresh=False, log=print):
+    """{src: {phash, family}} of every measured corpus asset, cached in
+    `<pool_dir>/_hashes.yaml`.
+
+    Incremental, not write-once. This file is what stops a stock photo that IS
+    one of Picsart's own source images from entering the pool — it caught 23 of
+    them in the first sweep — so a corpus that has grown since the file was
+    written must not leave its new assets unprotected. Hashes only what is
+    missing, drops what has gone, and rewrites only on a change."""
     path = Path(pool_dir) / "_hashes.yaml"
-    if path.exists():
-        return yaml.safe_load(path.read_text()) or {}
-    tags = styles.load(styles_path)
-    out = {}
-    for src, rec in attrs.load(attrs_path).items():
+    cached = {} if refresh else ((yaml.safe_load(path.read_text()) or {}) if path.exists() else {})
+    mapping = attrs.load(attrs_path) if attrs_mapping is None else attrs_mapping
+    tags = styles.load(styles_path) if styles_mapping is None else styles_mapping
+    out, hashed = dict(cached), 0
+    for src, rec in mapping.items():
+        family = (tags.get(src) or {}).get("style")
+        keep = cached.get(src)
+        if keep and keep.get("phash"):
+            out[src] = {"phash": keep["phash"], "family": family}  # a re-tag costs no hashing
+            continue
         local = rec.get("local")
         if not local or not Path(local).exists():
             continue
         try:
-            out[src] = {"phash": phash.dhash(local), "family": (tags.get(src) or {}).get("style")}
+            out[src] = {"phash": phash.dhash(local), "family": family}
+            hashed += 1
         except Exception:  # an unreadable file has no identity to protect
             continue
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(yaml.safe_dump(out, sort_keys=False, allow_unicode=True, width=1000))
-    log(f"{path}: hashed {len(out)} corpus assets")
+    # Add-only, and only ever from the mapping it was given: a hash kept for an
+    # asset no longer in the corpus guards a photo that cannot reach a worker
+    # anyway, while dropping rows would let an injected empty mapping erase the
+    # file. `family` is provenance — dedupe reads only the phash — but it goes
+    # stale across a re-tag, so it is refreshed for free while we are here.
+    if out != cached:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(yaml.safe_dump(out, sort_keys=False, allow_unicode=True, width=1000))
+        log(f"{path}: {len(out)} corpus assets ({hashed} newly hashed)")
     return out
 
 
@@ -646,7 +665,8 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
         from .media import download
     if to_png is None:
         from .similar import to_png
-    hashes = corpus_hashes(pool_dir, log=log) if hashes is None else hashes
+    hashes = corpus_hashes(pool_dir, attrs_mapping=attrs_mapping, styles_mapping=styles_mapping,
+                           log=log) if hashes is None else hashes
     existing = all_entries(pool_dir)
     data = load(family, pool_dir)
     allowed, auto = family_orientations(family, attrs_mapping, styles_mapping)
