@@ -1,0 +1,12 @@
+1: {keep: true, subject: person}
+2: {keep: true, subject: person, note: hard orange sunlight stripe on teal shadow, exact family grade}
+3: {keep: false, best_family: graphic-collage, note: flat colour blocks, no cinematic light; bare figure at a ledge reads badly}
+4: {keep: false, subject: person, note: blown-out white sky, washed grade, documentary snapshot}
+5: {keep: true, subject: person, note: tight headshot but clean teal-orange split}
+6: {keep: false, subject: person, note: desaturated grey; gas mask and hanging doll not brand-safe}
+7: {keep: true, subject: person}
+8: {keep: false, subject: object, note: lovely bokeh grade but a VW badge/vehicle is legible - visible brand}
+9: {keep: true, subject: person}
+10: {keep: false, subject: person, note: muted overcast grade, documentary snapshot}
+11: {keep: true, subject: person}
+12: {keep: true, subject: person, note: unified teal studio grade; crop top, borderline but not revealing}

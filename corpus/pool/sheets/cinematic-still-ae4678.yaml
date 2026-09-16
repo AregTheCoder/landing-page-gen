@@ -1,0 +1,189 @@
+sheet: cinematic-still-ae4678
+family: cinematic-still
+answers: cinematic-still-ae4678.answers.yaml
+anchors:
+- 4b4df875
+- d1102444
+- 157cca82
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-15465498
+    url: https://www.pexels.com/photo/portrait-of-a-young-woman-in-a-white-sweater-15465498/
+    creator: Amin Alizadeh
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  2:
+    id: pexels-15484495
+    url: https://www.pexels.com/photo/man-posing-for-portrait-at-night-15484495/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.542
+    explored: null
+  3:
+    id: pexels-16045195
+    url: https://www.pexels.com/photo/woman-lying-on-the-bed-16045195/
+    creator: Soner Özcan
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.343
+    explored: null
+  4:
+    id: pexels-16469373
+    url: https://www.pexels.com/photo/woman-in-orange-jacket-sitting-on-steps-16469373/
+    creator: Beard Kid
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  5:
+    id: pexels-16537553
+    url: https://www.pexels.com/photo/portrait-of-young-woman-in-pink-neon-light-16537553/
+    creator: Fireberrytech .
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.346
+    explored: null
+  6:
+    id: pexels-17378959
+    url: https://www.pexels.com/photo/blonde-woman-sitting-on-meadow-17378959/
+    creator: Jean-Daniel Francoeur
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.779
+      full-bleed: 0.77
+      cinematic-still: 0.75
+    explored: null
+  7:
+    id: pexels-17756835
+    url: https://www.pexels.com/photo/woman-touching-her-face-17756835/
+    creator: Pegah Sharifi
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.76
+      cinematic-still: 0.75
+      before-after: 0.713
+    explored: null
+  8:
+    id: pexels-17859453
+    url: https://www.pexels.com/photo/woman-in-dark-17859453/
+    creator: Şükür Azimoviç
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.409
+    explored: null
+  9:
+    id: pexels-17993595
+    url: https://www.pexels.com/photo/woman-fixing-her-hair-in-sunlight-17993595/
+    creator: Dasha
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.524
+    explored: null
+  10:
+    id: pexels-18066103
+    url: https://www.pexels.com/photo/portrait-of-woman-in-pink-light-18066103/
+    creator: Evoking  Ephemerality
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      graphic-collage: 0.426
+    explored: null
+  11:
+    id: pexels-18066106
+    url: https://www.pexels.com/photo/woman-in-sport-overalls-18066106/
+    creator: Evoking  Ephemerality
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.471
+    explored: null
+  12:
+    id: pexels-18073843
+    url: https://www.pexels.com/photo/woman-in-black-boots-18073843/
+    creator: Luis Ariza
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.621
+    explored: null

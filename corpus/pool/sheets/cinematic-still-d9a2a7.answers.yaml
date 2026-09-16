@@ -1,0 +1,12 @@
+1: {keep: false, best_family: outcome-tile, note: 'top-down flat-lay of hands and lunchbox, no cinematic grade'}
+2: {keep: false, best_family: outcome-tile, note: 'top-down graphic tray, poster-flat rather than a film still'}
+3: {keep: true, subject: food, note: 'levitating food on saturated blue seamless, glossy studio grade'}
+4: {keep: false, note: 'pale pastel top-down bowl, desaturated, no deliberate coloured light'}
+5: {keep: false, note: 'scattered watermelon pattern flat-lay'}
+6: {keep: false, note: 'documentary miniature cars on moss, green and flat, no grade'}
+7: {keep: false, best_family: panel-overlay, note: 'strong neon look but a large legible HUSTLE IN SILENCE sign'}
+8: {keep: false, note: 'cluttered documentary bedroom, wall photos, reclining crop-top framing'}
+9: {keep: false, best_family: dark-composite, note: 'dim multi-prop conceptual still life, muddy grade'}
+10: {keep: false, note: 'dim office snapshot of figurines, no colour direction'}
+11: {keep: true, subject: food, note: 'same blue-seamless shoot as #3, distinct composition'}
+12: {keep: false, best_family: outcome-tile, note: 'top-down board on blue, flat-lay not a film still'}

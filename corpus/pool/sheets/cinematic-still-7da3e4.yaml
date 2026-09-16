@@ -1,0 +1,189 @@
+sheet: cinematic-still-7da3e4
+family: cinematic-still
+answers: cinematic-still-7da3e4.answers.yaml
+anchors:
+- 4b4a4a54
+- 4b4df875
+- a509d9ab
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-14416558
+    url: https://www.pexels.com/photo/woman-wearing-coat-on-autumn-day-14416558/
+    creator: rasul lotfi
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.6
+      graphic-collage: 0.361
+    explored: null
+  2:
+    id: pexels-18271626
+    url: https://www.pexels.com/photo/young-woman-posing-on-the-background-of-a-wall-with-graffiti-18271626/
+    creator: Eduardo López
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      full-bleed: 0.62
+      cinematic-still: 0.6
+    explored: null
+  3:
+    id: pexels-18324265
+    url: https://www.pexels.com/photo/woman-portrait-in-darkness-18324265/
+    creator: Şükür Azimoviç
+    platform: Pexels
+    score: 0.6
+    aspect_class: '3:4'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.6
+      outcome-tile: 0.6
+      full-bleed: 0.586
+    explored: null
+  4:
+    id: pexels-18766071
+    url: https://www.pexels.com/photo/light-on-woman-in-darkness-18766071/
+    creator: Morteza Ghanbari
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      full-bleed: 0.513
+    explored: null
+  5:
+    id: pexels-34075793
+    url: https://www.pexels.com/photo/minimalist-pink-soup-in-white-bowl-on-blue-background-34075793/
+    creator: Leandro Prevideli
+    platform: Pexels
+    score: 0.6
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.6
+      outcome-tile: 0.6
+      graphic-collage: 0.243
+    explored: null
+  6:
+    id: pexels-34867971
+    url: https://www.pexels.com/photo/elegant-portrait-of-woman-in-black-and-orange-34867971/
+    creator: Maryam Talepoor
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      graphic-collage: 0.398
+    explored: null
+  7:
+    id: pexels-36100733
+    url: https://www.pexels.com/photo/dramatic-low-light-portrait-of-a-person-36100733/
+    creator: Serhii Volyk
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      full-bleed: 0.294
+    explored: null
+  8:
+    id: pexels-36482277
+    url: https://www.pexels.com/photo/moody-portrait-of-a-young-man-in-dramatic-lighting-36482277/
+    creator: Celal Murathan Tarikci
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      full-bleed: 0.526
+    explored: null
+  9:
+    id: pexels-36700962
+    url: https://www.pexels.com/photo/young-woman-with-flowers-in-soft-portrait-36700962/
+    creator: Anh Nguyen
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.679
+      outcome-tile: 0.658
+      full-bleed: 0.62
+    explored: null
+  10:
+    id: pexels-7958765
+    url: https://www.pexels.com/photo/millennial-model-with-blue-eyes-and-shade-on-face-7958765/
+    creator: Jonaorle
+    platform: Pexels
+    score: 0.6
+    aspect_class: '3:4'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.6
+      outcome-tile: 0.6
+      before-after: 0.151
+    explored: null
+  11:
+    id: pexels-8671511
+    url: https://www.pexels.com/photo/man-with-shadow-of-a-hand-in-his-face-8671511/
+    creator: Nicolás Langellotti
+    platform: Pexels
+    score: 0.6
+    aspect_class: '3:4'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.602
+      cinematic-still: 0.6
+      outcome-tile: 0.6
+    explored: null
+  12:
+    id: pexels-8718348
+    url: https://www.pexels.com/photo/a-man-in-sunglasses-looking-down-8718348/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      full-bleed: 0.62
+      cinematic-still: 0.6
+    explored: null

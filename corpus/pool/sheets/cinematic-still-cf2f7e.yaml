@@ -1,0 +1,189 @@
+sheet: cinematic-still-cf2f7e
+family: cinematic-still
+answers: cinematic-still-cf2f7e.answers.yaml
+anchors:
+- d7c195e6
+- 4b4a4a54
+- 20d3cfb3
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-35490730
+    url: https://www.pexels.com/photo/vintage-style-black-and-white-miniature-clock-35490730/
+    creator: Elina Volkova
+    platform: Pexels
+    score: 0.366
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.366
+      full-bleed: 0.351
+    explored: null
+  2:
+    id: pexels-17056136
+    url: https://www.pexels.com/photo/colorful-donut-on-a-blue-counter-top-17056136/
+    creator: Santiago Sauceda González
+    platform: Pexels
+    score: 0.365
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.561
+      cinematic-still: 0.365
+      graphic-collage: 0.179
+    explored: null
+  3:
+    id: pexels-5688317
+    url: https://www.pexels.com/photo/hands-hugging-tree-trunk-in-wood-5688317/
+    creator: Erik Mclean
+    platform: Pexels
+    score: 0.364
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      full-bleed: 0.682
+      graphic-collage: 0.367
+    explored: null
+  4:
+    id: pexels-8275175
+    url: https://www.pexels.com/photo/low-angle-shot-of-a-woman-with-nose-piercing-8275175/
+    creator: Thuanny Gantuss
+    platform: Pexels
+    score: 0.362
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.726
+      cinematic-still: 0.362
+      graphic-collage: 0.354
+    explored: null
+  5:
+    id: pexels-36126804
+    url: https://www.pexels.com/photo/cozy-pink-themed-bedroom-portrait-36126804/
+    creator: Rachel Brooks
+    platform: Pexels
+    score: 0.361
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.361
+      graphic-collage: 0.293
+    explored: null
+  6:
+    id: pexels-10229580
+    url: https://www.pexels.com/photo/close-up-photo-of-a-miniature-santa-claus-beside-a-black-plectrum-10229580/
+    creator: ROMBO
+    platform: Pexels
+    score: 0.357
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.357
+      full-bleed: 0.197
+      vs-two-up: 0.152
+    explored: null
+  7:
+    id: pexels-15409852
+    url: https://www.pexels.com/photo/close-up-shot-of-a-kaki-fruit-15409852/
+    creator: Amel Uzunovic
+    platform: Pexels
+    score: 0.356
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.697
+      cinematic-still: 0.356
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-10211137
+    url: https://www.pexels.com/photo/a-portrait-of-a-man-10211137/
+    creator: Елизавета Борзилова
+    platform: Pexels
+    score: 0.353
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.353
+      graphic-collage: 0.179
+    explored: null
+  9:
+    id: pexels-15079052
+    url: https://www.pexels.com/photo/light-over-man-portrait-15079052/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.353
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.5
+      cinematic-still: 0.353
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-7964190
+    url: https://www.pexels.com/photo/sliced-kiwis-and-oranges-on-blue-surface-7964190/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.349
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.349
+      outcome-tile: 0.346
+      graphic-collage: 0.186
+    explored: null
+  11:
+    id: pexels-14709872
+    url: https://www.pexels.com/photo/boy-lying-on-ground-in-autumn-forest-14709872/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.343
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.424
+      cinematic-still: 0.343
+    explored: null
+  12:
+    id: pexels-2747685
+    url: https://www.pexels.com/photo/red-and-white-volkswagen-beetle-miniature-2747685/
+    creator: lil artsy
+    platform: Pexels
+    score: 0.34
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.402
+      cinematic-still: 0.34
+      graphic-collage: 0.196
+    explored: null

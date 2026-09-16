@@ -1,0 +1,189 @@
+sheet: cinematic-still-49272c
+family: cinematic-still
+answers: cinematic-still-49272c.answers.yaml
+anchors:
+- a509d9ab
+- 2af4af3e
+- d20378d4
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-9227762
+    url: https://www.pexels.com/photo/a-person-holding-an-ice-cream-cone-9227762/
+    creator: DS stories
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      graphic-collage: 0.449
+    explored: null
+  2:
+    id: pexels-31835759
+    url: https://www.pexels.com/photo/serene-portrait-of-a-man-in-sunlit-forest-31835759/
+    creator: Daniel's Richard
+    platform: Pexels
+    score: 0.598
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.724
+      cinematic-still: 0.598
+      full-bleed: 0.217
+    explored: null
+  3:
+    id: pexels-4468766
+    url: https://www.pexels.com/photo/young-woman-with-flowers-in-dark-countryside-4468766/
+    creator: Maria Eduarda Loura  Magalhães
+    platform: Pexels
+    score: 0.598
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.598
+      graphic-collage: 0.463
+    explored: null
+  4:
+    id: pexels-29476593
+    url: https://www.pexels.com/photo/colorful-picnic-setup-with-hot-dog-and-fries-29476593/
+    creator: Alejandro Aznar
+    platform: Pexels
+    score: 0.597
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.597
+      graphic-collage: 0.409
+    explored: null
+  5:
+    id: pexels-34212108
+    url: https://www.pexels.com/photo/confident-woman-in-pink-bikini-indoors-34212108/
+    creator: Slava  Kol
+    platform: Pexels
+    score: 0.596
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.596
+      before-after: 0.348
+    explored: null
+  6:
+    id: pexels-9665629
+    url: https://www.pexels.com/photo/adult-woman-among-flower-with-sunlight-in-behind-9665629/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.595
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.595
+      full-bleed: 0.209
+    explored: null
+  7:
+    id: pexels-17686648
+    url: https://www.pexels.com/photo/handsome-man-posing-in-dark-alley-17686648/
+    creator: UMUT   🆁🅰🆆
+    platform: Pexels
+    score: 0.588
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.588
+      outcome-tile: 0.459
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-15075284
+    url: https://www.pexels.com/photo/woman-holding-fruit-and-posing-15075284/
+    creator: Yusra  Mizgin Günay
+    platform: Pexels
+    score: 0.586
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.586
+      graphic-collage: 0.479
+    explored: null
+  9:
+    id: pexels-15078880
+    url: https://www.pexels.com/photo/light-over-man-in-jacket-posing-for-portrait-15078880/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.585
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.585
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-32281228
+    url: https://www.pexels.com/photo/dramatic-portrait-with-warm-lighting-effect-32281228/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.584
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.584
+      graphic-collage: 0.179
+    explored: null
+  11:
+    id: pexels-30285223
+    url: https://www.pexels.com/photo/woman-in-pink-pajamas-relaxing-with-laptop-in-bedroom-30285223/
+    creator: Noor din
+    platform: Pexels
+    score: 0.583
+    aspect_class: '3:4'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.583
+      full-bleed: 0.535
+    explored: null
+  12:
+    id: pexels-32318376
+    url: https://www.pexels.com/photo/fashionable-woman-posing-on-bed-indoors-32318376/
+    creator: Guilherme Simão
+    platform: Pexels
+    score: 0.579
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.579
+      before-after: 0.271
+    explored: null

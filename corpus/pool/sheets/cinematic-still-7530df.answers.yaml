@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: red key light on black, single subject, film-still grade}
+2: {keep: true, subject: person, note: golden hour backlit figure on a third, unified warm grade}
+3: {keep: true, subject: person, note: teal-orange split with anamorphic flare, exactly the target look}
+4: {keep: false, note: flat white light, no cinematic grade, concept product shot}
+5: {keep: false, best_family: graphic-collage, note: arranged flat-lay pattern, bold colour but no single subject}
+6: {keep: true, subject: person, note: golden hour rim light, warm saturated grade, shallow depth}
+7: {keep: true, subject: person, note: neon pink/magenta glow, single subject vertical}
+8: {keep: false, best_family: full-bleed, note: scattered flat-lay pattern on cyan, reads as a background}
+9: {keep: true, subject: object, note: dark prop still with deliberate blue moon glow and warm rim}
+10: {keep: false, best_family: full-bleed, note: documentary wildlife frame, neutral daylight grade}
+11: {keep: true, subject: food, note: bold complementary yellow/blue studio colour, single dish with hand}
+12: {keep: true, subject: food, note: orange on blue, saturated unified grade, single subject}

@@ -1,0 +1,189 @@
+sheet: cinematic-still-2179a1
+family: cinematic-still
+answers: cinematic-still-2179a1.answers.yaml
+anchors:
+- d7c195e6
+- c3aaa9b3
+- 7fb595ef
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-34060569
+    url: https://www.pexels.com/photo/miniature-model-of-vibrant-urban-scene-with-colorful-buildings-34060569/
+    creator: Robert Schwarz
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  2:
+    id: pexels-34376242
+    url: https://www.pexels.com/photo/surreal-tv-head-in-cornfield-art-scene-34376242/
+    creator: Matosuky
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.248
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  3:
+    id: pexels-34434369
+    url: https://www.pexels.com/photo/miniature-green-suv-on-rustic-roof-tiles-34434369/
+    creator: Emrecan Dora
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  4:
+    id: pexels-36225184
+    url: https://www.pexels.com/photo/chocolate-ice-cream-bars-with-floral-decor-36225184/
+    creator: Зоряна Русин
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      outcome-tile: 0.152
+    explored: null
+  5:
+    id: pexels-36868224
+    url: https://www.pexels.com/photo/delicious-mango-sticky-rice-with-coconut-sauce-36868224/
+    creator: Ba Uoc Phung
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  6:
+    id: pexels-38616753
+    url: https://www.pexels.com/photo/miniature-worker-harvesting-peanuts-in-artistic-macro-shot-38616753/
+    creator: Neng Rina
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  7:
+    id: pexels-4567200
+    url: https://www.pexels.com/photo/creative-sign-made-of-sticks-with-message-on-paper-on-a-leaf-4567200/
+    creator: Somesh Kotalwar
+    platform: Pexels
+    score: 0.15
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.197
+      outcome-tile: 0.162
+      cinematic-still: 0.15
+    explored: null
+  8:
+    id: pexels-6224418
+    url: https://www.pexels.com/photo/woman-in-pink-dress-sitting-on-bed-6224418/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  9:
+    id: pexels-6823320
+    url: https://www.pexels.com/photo/sliced-cucumber-and-boiled-egg-in-ceramic-bowl-6823320/
+    creator: Antoni Shkraba
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.31
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  10:
+    id: pexels-6823330
+    url: https://www.pexels.com/photo/rice-bowl-with-vegetables-and-boiled-egg-in-close-up-shot-6823330/
+    creator: Antoni Shkraba
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.233
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  11:
+    id: pexels-6823336
+    url: https://www.pexels.com/photo/healthy-bowl-with-rice-egg-and-vegetables-6823336/
+    creator: Antoni Shkraba
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  12:
+    id: pexels-7104844
+    url: https://www.pexels.com/photo/figurines-near-roadway-on-illuminated-street-7104844/
+    creator: Nothing Ahead
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.399
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null

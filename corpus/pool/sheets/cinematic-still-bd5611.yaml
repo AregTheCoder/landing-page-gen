@@ -1,0 +1,189 @@
+sheet: cinematic-still-bd5611
+family: cinematic-still
+answers: cinematic-still-bd5611.answers.yaml
+anchors:
+- 2af4af3e
+- a509d9ab
+- b6c42c9a
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-7773876
+    url: https://www.pexels.com/photo/grayscale-portrait-of-a-man-7773876/
+    creator: Artem Podrez
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.345
+    explored: null
+  2:
+    id: pexels-10802164
+    url: https://www.pexels.com/photo/a-man-wearing-a-black-shirt-10802164/
+    creator: Jayden G
+    platform: Pexels
+    score: 0.966
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.966
+      outcome-tile: 0.887
+      graphic-collage: 0.352
+    explored: null
+  3:
+    id: pexels-34742154
+    url: https://www.pexels.com/photo/moody-portrait-of-woman-reaching-forward-34742154/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.959
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.959
+      outcome-tile: 0.887
+      graphic-collage: 0.343
+    explored: null
+  4:
+    id: pexels-27738637
+    url: https://www.pexels.com/photo/fotografia-de-retrato-27738637/
+    creator: Christian Correa
+    platform: Pexels
+    score: 0.94
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.94
+      outcome-tile: 0.887
+      before-after: 0.35
+    explored: null
+  5:
+    id: pexels-29889409
+    url: https://www.pexels.com/photo/moody-portrait-of-young-person-in-leather-jacket-29889409/
+    creator: Yusuf Çelik
+    platform: Pexels
+    score: 0.928
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.928
+      outcome-tile: 0.887
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-33424854
+    url: https://www.pexels.com/photo/moody-portrait-of-young-woman-in-low-light-33424854/
+    creator: Abdelilah Hibat Allah
+    platform: Pexels
+    score: 0.925
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.925
+      outcome-tile: 0.887
+      before-after: 0.41
+    explored: null
+  7:
+    id: pexels-5629776
+    url: https://www.pexels.com/photo/serious-female-photographer-in-hallway-5629776/
+    creator: tugay aydın
+    platform: Pexels
+    score: 0.925
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.925
+      outcome-tile: 0.887
+      graphic-collage: 0.208
+    explored: null
+  8:
+    id: pexels-15238964
+    url: https://www.pexels.com/photo/young-posing-woman-15238964/
+    creator: David Lyutov
+    platform: Pexels
+    score: 0.924
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.924
+      outcome-tile: 0.887
+      graphic-collage: 0.239
+    explored: null
+  9:
+    id: pexels-34613317
+    url: https://www.pexels.com/photo/portrait-of-a-young-woman-in-artistic-setting-34613317/
+    creator: brandon retratos
+    platform: Pexels
+    score: 0.918
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.918
+      outcome-tile: 0.887
+      graphic-collage: 0.272
+    explored: null
+  10:
+    id: pexels-22643623
+    url: https://www.pexels.com/photo/a-woman-wearing-a-coat-22643623/
+    creator: Maryia Siutsova
+    platform: Pexels
+    score: 0.895
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.895
+      outcome-tile: 0.887
+      graphic-collage: 0.197
+    explored: null
+  11:
+    id: pexels-28944761
+    url: https://www.pexels.com/photo/red-light-portrait-of-woman-in-winter-scarf-28944761/
+    creator: Alex Moschopoulos
+    platform: Pexels
+    score: 0.873
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.873
+      graphic-collage: 0.179
+    explored: null
+  12:
+    id: pexels-20066289
+    url: https://www.pexels.com/photo/portrait-of-woman-20066289/
+    creator: Ferhat  Kocakaya
+    platform: Pexels
+    score: 0.853
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.853
+      before-after: 0.24
+    explored: null

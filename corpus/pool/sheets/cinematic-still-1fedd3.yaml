@@ -1,0 +1,189 @@
+sheet: cinematic-still-1fedd3
+family: cinematic-still
+answers: cinematic-still-1fedd3.answers.yaml
+anchors:
+- d1102444
+- 8d5b5311
+- 2af4af3e
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-35064595
+    url: https://www.pexels.com/photo/woman-in-red-dress-relaxing-on-park-bench-35064595/
+    creator: César O'neill
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.711
+    explored: null
+  2:
+    id: pexels-35098699
+    url: https://www.pexels.com/photo/photographer-capturing-a-sunset-in-duisburg-35098699/
+    creator: Enes Türkoğlu
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  3:
+    id: pexels-35256272
+    url: https://www.pexels.com/photo/silhouette-of-a-woman-at-sunset-on-the-beach-35256272/
+    creator: Alef Morais
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.455
+    explored: null
+  4:
+    id: pexels-36199724
+    url: https://www.pexels.com/photo/young-woman-posing-on-a-sunlit-beach-36199724/
+    creator: Alena Evseenko
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.496
+    explored: null
+  5:
+    id: pexels-37346866
+    url: https://www.pexels.com/photo/sunset-portrait-of-woman-in-floral-dress-37346866/
+    creator: Breno Cardoso
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.706
+    explored: null
+  6:
+    id: pexels-38224207
+    url: https://www.pexels.com/photo/relaxed-woman-in-pink-sweatsuit-on-bed-38224207/
+    creator: Portraits By PB
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.595
+    explored: null
+  7:
+    id: pexels-38472977
+    url: https://www.pexels.com/photo/woman-in-pink-dress-sitting-on-bed-indoors-38472977/
+    creator: Murat IŞIK
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.637
+      graphic-collage: 0.214
+    explored: null
+  8:
+    id: pexels-38472978
+    url: https://www.pexels.com/photo/portrait-of-a-young-woman-with-tattoos-38472978/
+    creator: Murat IŞIK
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.34
+    explored: null
+  9:
+    id: pexels-38553325
+    url: https://www.pexels.com/photo/blonde-woman-relaxing-in-pink-bedding-38553325/
+    creator: Dmitriy Steinke
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      before-after: 0.411
+    explored: null
+  10:
+    id: pexels-3924863
+    url: https://www.pexels.com/photo/woman-in-red-top-3924863/
+    creator: Marco Irodistan
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.769
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  11:
+    id: pexels-39526253
+    url: https://www.pexels.com/photo/artistic-portrait-with-orange-tulle-veil-39526253/
+    creator: Vika Glitter
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.565
+    explored: null
+  12:
+    id: pexels-4030352
+    url: https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-4030352/
+    creator: Ibraim Leonardo
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.718
+    explored: null

@@ -1,0 +1,12 @@
+1: drop
+2: {keep: true, subject: person, note: teal sky over orange corn, single subject, surreal film-still mood}
+3: drop
+4: {keep: false, best_family: graphic-collage, note: flat-lay pattern of three bars, no single subject}
+5: {keep: true, subject: food, note: yellow mango on blue seamless, exact complementary studio look}
+6: drop
+7: drop
+8: {keep: true, subject: person, note: neon/pink glow is the family look; neon script text needs cropping out}
+9: {keep: false, note: near-duplicate of 10, bowl cropped by frame edge}
+10: {keep: true, subject: food, note: warm yolk on saturated blue ground, centred single dish}
+11: {keep: false, note: near-duplicate of 10, subject too small in frame}
+12: drop

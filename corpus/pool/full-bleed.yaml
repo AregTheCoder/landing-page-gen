@@ -1,0 +1,868 @@
+family: full-bleed
+entries:
+  pexels-11091750:
+    url: https://www.pexels.com/photo/woman-in-eyeglasses-crouching-in-grain-cropland-11091750/
+    image: https://images.pexels.com/photos/11091750/pexels-photo-11091750.jpeg
+    thumb: https://images.pexels.com/photos/11091750/pexels-photo-11091750.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vladimir Konoplev
+    creator_url: https://www.pexels.com/@vladimir-konoplev-155326297
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3569
+    height: 5325
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 1e16383873474e47
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 502e5e12
+    - 1ff86bd2
+    - 4e22d61a
+    - a509d9ab
+    - 4b4df875
+    - 69d08503
+    - da0bceaf
+    - 8fb87bef
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.611
+    best_family: cinematic-still
+    subject: person
+    note: pale hazy golden-hour lifestyle frame
+    moved_from: cinematic-still
+  pexels-12501798:
+    url: https://www.pexels.com/photo/photo-of-a-fresh-fruits-composition-12501798/
+    image: https://images.pexels.com/photos/12501798/pexels-photo-12501798.jpeg
+    thumb: https://images.pexels.com/photos/12501798/pexels-photo-12501798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Boryslav Shoot
+    creator_url: https://www.pexels.com/@boryslav
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2848
+    height: 4288
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 0b67767cb9a28c3d
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.298
+    nearest:
+    - 1bc36d4c
+    - fef1b03a
+    - 13c49ee4
+    - 58eb3266
+    - f68c0108
+    - '52645701'
+    - 5f3494c4
+    - 4dd9f1de
+    state: pending
+    family_scores:
+      outcome-tile: 0.644
+      cinematic-still: 0.298
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    note: busy dark table spread
+    moved_from: cinematic-still
+  pexels-14782258:
+    url: https://www.pexels.com/photo/chocolate-cookies-on-blue-background-14782258/
+    image: https://images.pexels.com/photos/14782258/pexels-photo-14782258.jpeg
+    thumb: https://images.pexels.com/photos/14782258/pexels-photo-14782258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Paul Uchechukwu 🇳🇬
+    creator_url: https://www.pexels.com/@paul-uchechukwu-246994638
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 4608
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: ccccda92b68eaded
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.286
+    nearest:
+    - f68c0108
+    - c3aaa9b3
+    - d7c195e6
+    - 1bc36d4c
+    - 92cfff35
+    - 6027c22c
+    - ee82a094
+    - 54e9db90
+    state: pending
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.429
+      full-bleed: 0.286
+    best_family: outcome-tile
+    note: scattered flat-lay pattern on cyan
+    moved_from: cinematic-still
+  pexels-17378959:
+    url: https://www.pexels.com/photo/blonde-woman-sitting-on-meadow-17378959/
+    image: https://images.pexels.com/photos/17378959/pexels-photo-17378959.jpeg
+    thumb: https://images.pexels.com/photos/17378959/pexels-photo-17378959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jean-Daniel Francoeur
+    creator_url: https://www.pexels.com/@jean-daniel
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3919
+    height: 5878
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 8008c0c1c0e01b0b
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.77
+    nearest:
+    - 502e5e12
+    - 1ff86bd2
+    - 4e22d61a
+    - 8fb87bef
+    - 69d930ac
+    - a5d87058
+    - d179f179
+    - '52627874'
+    state: pending
+    family_scores:
+      graphic-collage: 0.779
+      full-bleed: 0.77
+      cinematic-still: 0.75
+    best_family: graphic-collage
+    note: washed pastel golden hour, blown sky, no unified grade
+    moved_from: cinematic-still
+  pexels-17756835:
+    url: https://www.pexels.com/photo/woman-touching-her-face-17756835/
+    image: https://images.pexels.com/photos/17756835/pexels-photo-17756835.jpeg
+    thumb: https://images.pexels.com/photos/17756835/pexels-photo-17756835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Pegah Sharifi
+    creator_url: https://www.pexels.com/@peg1997
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3802
+    height: 4753
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 3964460e4761296b
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.76
+    nearest:
+    - 2af4af3e
+    - 9697a12f
+    - '11337690'
+    - 5cb08ddf
+    - 494a80e2
+    - 20d3cfb3
+    - 691c6644
+    - a5d87058
+    state: pending
+    family_scores:
+      full-bleed: 0.76
+      cinematic-still: 0.75
+      before-after: 0.713
+    best_family: full-bleed
+    note: neutral beauty headshot, no coloured cinematic light
+    moved_from: cinematic-still
+  pexels-18896757:
+    url: https://www.pexels.com/photo/man-in-black-t-shirt-with-camera-in-hands-18896757/
+    image: https://images.pexels.com/photos/18896757/pexels-photo-18896757.jpeg
+    thumb: https://images.pexels.com/photos/18896757/pexels-photo-18896757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tuba Nur Dogan
+    creator_url: https://www.pexels.com/@tubiderler
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2161
+    height: 3224
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: ad8d327971736969
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.313
+    nearest:
+    - d179f179
+    - d95df979
+    - 1e87768c
+    - 4b4a4a54
+    - 9fe3fcb7
+    - 05f2c15a
+    - 373814d9
+    - 893eda55
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.313
+      vs-two-up: 0.206
+    best_family: outcome-tile
+    note: documentary field portrait
+    moved_from: cinematic-still
+  pexels-20100636:
+    url: https://www.pexels.com/photo/a-person-standing-outdoors-at-sunset-20100636/
+    image: https://images.pexels.com/photos/20100636/pexels-photo-20100636.jpeg
+    thumb: https://images.pexels.com/photos/20100636/pexels-photo-20100636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: terence b
+    creator_url: https://www.pexels.com/@terence-b-774980713
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3334
+    height: 5000
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 8db3ebb2f3d3d9c9
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.494
+    nearest:
+    - a0688108
+    - d835bb34
+    - 5cb08ddf
+    - 5697681d
+    - f9669ed9
+    - 99d81409
+    - d179f179
+    - 18aa4780
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.554
+      full-bleed: 0.494
+    best_family: outcome-tile
+    subject: person
+    note: washed faded backlight
+    moved_from: cinematic-still
+  pexels-24809720:
+    url: https://www.pexels.com/photo/woman-in-white-blouse-on-meadow-24809720/
+    image: https://images.pexels.com/photos/24809720/pexels-photo-24809720.jpeg
+    thumb: https://images.pexels.com/photos/24809720/pexels-photo-24809720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nina Fiedler
+    creator_url: https://www.pexels.com/@nina-fiedler-894772640
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 170c0f0327062336
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.564
+    nearest:
+    - 1ff86bd2
+    - 4e22d61a
+    - 502e5e12
+    - '52636694'
+    - 6778e5bf
+    - 8d5b5311
+    - da0bceaf
+    - 127e1660
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.564
+    best_family: cinematic-still
+    note: golden hour but matte and desaturated; face turned away
+    moved_from: cinematic-still
+  pexels-30434789:
+    url: https://www.pexels.com/photo/woman-with-vintage-camera-outdoors-in-sunlight-30434789/
+    image: https://images.pexels.com/photos/30434789/pexels-photo-30434789.jpeg
+    thumb: https://images.pexels.com/photos/30434789/pexels-photo-30434789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Beyzanur K.
+    creator_url: https://www.pexels.com/@thefullonmonet
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4667
+    height: 7000
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 8170f6dfc6e6c796
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.77
+    nearest:
+    - 502e5e12
+    - a509d9ab
+    - c3332bac
+    - da0bceaf
+    - a5d87058
+    - 69d930ac
+    - 4326501f
+    - 4b4df875
+    state: pending
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.748
+      outcome-tile: 0.733
+    best_family: full-bleed
+    note: flat daylight documentary snapshot, no cinematic grade
+    moved_from: cinematic-still
+  pexels-30669378:
+    url: https://www.pexels.com/photo/ethereal-autumn-portrait-in-brevard-field-30669378/
+    image: https://images.pexels.com/photos/30669378/pexels-photo-30669378.jpeg
+    thumb: https://images.pexels.com/photos/30669378/pexels-photo-30669378.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daniel & Hannah Snipes
+    creator_url: https://www.pexels.com/@prolificpeople
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2880
+    height: 4320
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 03019786a63713e3
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 1ff86bd2
+    - 502e5e12
+    - 939672f0
+    - 4e22d61a
+    - '52636694'
+    - cc7648ea
+    - 2af4af3e
+    - 127e1660
+    state: pending
+    family_scores:
+      graphic-collage: 0.777
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    best_family: graphic-collage
+    note: wide environmental frame with sky, not a single-subject still
+    moved_from: cinematic-still
+  pexels-35098699:
+    url: https://www.pexels.com/photo/photographer-capturing-a-sunset-in-duisburg-35098699/
+    image: https://images.pexels.com/photos/35098699/pexels-photo-35098699.jpeg
+    thumb: https://images.pexels.com/photos/35098699/pexels-photo-35098699.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Enes Türkoğlu
+    creator_url: https://www.pexels.com/@turkogluenes
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4267
+    height: 6400
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 170fb17849d4c8e8
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.77
+    nearest:
+    - 6027c22c
+    - ff00ef5d
+    - '86769613'
+    - c3332bac
+    - 486b5911
+    - 92cfff35
+    - d7c195e6
+    - 2745748e
+    state: pending
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    best_family: full-bleed
+    note: face hidden behind camera; documentary industrial scene, but a good teal-orange sky
+    moved_from: cinematic-still
+  pexels-36700962:
+    url: https://www.pexels.com/photo/young-woman-with-flowers-in-soft-portrait-36700962/
+    image: https://images.pexels.com/photos/36700962/pexels-photo-36700962.png
+    thumb: https://images.pexels.com/photos/36700962/pexels-photo-36700962.png?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anh Nguyen
+    creator_url: https://www.pexels.com/@anh-nguyen-517648218
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 3000
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 334f47960f0b332c
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.62
+    nearest:
+    - 9697a12f
+    - 5cb08ddf
+    - 9231a5f0
+    - db317d05
+    - ad02dfe3
+    - ca787233
+    - 04a66e9b
+    - 3bc4d480
+    state: pending
+    family_scores:
+      graphic-collage: 0.679
+      outcome-tile: 0.658
+      full-bleed: 0.62
+    best_family: graphic-collage
+    subject: person
+    note: soft ambient light; muted grade; no deliberate coloured key
+    moved_from: cinematic-still
+  pexels-39320166:
+    url: https://www.pexels.com/photo/refreshing-ceviche-dish-on-a-yellow-background-39320166/
+    image: https://images.pexels.com/photos/39320166/pexels-photo-39320166.jpeg
+    thumb: https://images.pexels.com/photos/39320166/pexels-photo-39320166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: César O'neill
+    creator_url: https://www.pexels.com/@cesar-o-neill-26650613
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 5810
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 1f4d8a3979bbc639
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.207
+    nearest:
+    - 7fb595ef
+    - 69d08503
+    - fef1b03a
+    - d7c195e6
+    - a5425f11
+    - 6027c22c
+    - c3aaa9b3
+    - 58eb3266
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.207
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    subject: food
+    note: overhead plate on yellow
+    moved_from: cinematic-still
+  pexels-4835500:
+    url: https://www.pexels.com/photo/blue-and-white-snake-on-brown-rock-4835500/
+    image: https://images.pexels.com/photos/4835500/pexels-photo-4835500.jpeg
+    thumb: https://images.pexels.com/photos/4835500/pexels-photo-4835500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: raul romagnoli
+    creator_url: https://www.pexels.com/@raul-romagnoli-2193562
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 5184
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 5ecef81cb7b06e1f
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.427
+    nearest:
+    - f68e3e66
+    - 31a28121
+    - 7d3e7452
+    - 1344901e
+    - d60937f1
+    - 1f860348
+    - 54e9db90
+    - 95feaf52
+    state: pending
+    family_scores:
+      cinematic-still: 0.427
+      outcome-tile: 0.349
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    note: documentary wildlife frame
+    moved_from: cinematic-still
+  pexels-6279564:
+    url: https://www.pexels.com/photo/a-woman-lying-on-the-couch-6279564/
+    image: https://images.pexels.com/photos/6279564/pexels-photo-6279564.jpeg
+    thumb: https://images.pexels.com/photos/6279564/pexels-photo-6279564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Olha Ruskykh
+    creator_url: https://www.pexels.com/@olha-ruskykh
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2435
+    height: 3652
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 8080808080b3c399
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - da0bceaf
+    - ee82a094
+    - d7c195e6
+    - '84634617'
+    - b9273ce4
+    - 4e22d61a
+    - 6778e5bf
+    - f17c10c5
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      before-after: 0.481
+    best_family: outcome-tile
+    subject: person
+    note: flat even light
+    moved_from: cinematic-still
+  pexels-6698308:
+    url: https://www.pexels.com/photo/a-woman-wearing-a-turtleneck-sweater-listening-to-music-6698308/
+    image: https://images.pexels.com/photos/6698308/pexels-photo-6698308.jpeg
+    thumb: https://images.pexels.com/photos/6698308/pexels-photo-6698308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3746
+    height: 5619
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    collected: '2026-09-16'
+    phash: 0060616161e1c8c4
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.75
+    nearest:
+    - 4011f7c6
+    - 0d3549f9
+    - 6c64016a
+    - 69d930ac
+    - a5d87058
+    - a0688108
+    - 2b1e692f
+    - '84634617'
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.619
+    best_family: cinematic-still
+    note: wide bedroom scene
+    moved_from: cinematic-still
+  pexels-8089669:
+    url: https://www.pexels.com/photo/bearded-man-staring-at-the-woman-8089669/
+    image: https://images.pexels.com/photos/8089669/pexels-photo-8089669.jpeg
+    thumb: https://images.pexels.com/photos/8089669/pexels-photo-8089669.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ron Lach
+    creator_url: https://www.pexels.com/@ron-lach
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 6240
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    collected: '2026-09-16'
+    phash: bb92a76f4f4743c3
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.673
+    nearest:
+    - 4011f7c6
+    - 089f1b92
+    - bf44ec1d
+    - 373814d9
+    - 2ae35c11
+    - c4678f69
+    - a0688108
+    - 403f157c
+    state: pending
+    family_scores:
+      cinematic-still: 0.673
+      outcome-tile: 0.319
+      graphic-collage: 0.183
+    best_family: cinematic-still
+    note: two subjects, not a single-subject frame
+    moved_from: cinematic-still
+  pexels-8647550:
+    url: https://www.pexels.com/photo/drone-shot-of-a-woman-in-a-white-dress-lying-on-a-road-8647550/
+    image: https://images.pexels.com/photos/8647550/pexels-photo-8647550.jpeg
+    thumb: https://images.pexels.com/photos/8647550/pexels-photo-8647550.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Maxim Kovalev
+    creator_url: https://www.pexels.com/@maxim-kovalev-77351469
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2970
+    height: 3962
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0d0d0d4dcc8d040b
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.275
+    nearest:
+    - 6778e5bf
+    - 8d5b5311
+    - 95b65e4f
+    - f384e59d
+    - 4e22d61a
+    - d2822b77
+    - f1634439
+    - 0d8dd3dd
+    state: pending
+    family_scores:
+      outcome-tile: 0.533
+      cinematic-still: 0.517
+      full-bleed: 0.275
+    best_family: outcome-tile
+    note: top-down aerial
+    moved_from: cinematic-still
+  pexels-9046047:
+    url: https://www.pexels.com/photo/close-up-shot-of-spoons-with-chocolate-9046047/
+    image: https://images.pexels.com/photos/9046047/pexels-photo-9046047.jpeg
+    thumb: https://images.pexels.com/photos/9046047/pexels-photo-9046047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: hello aesthe
+    creator_url: https://www.pexels.com/@helloaesthe
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6000
+    height: 8000
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 06061f116193d060
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.197
+    nearest:
+    - c3aaa9b3
+    - fef1b03a
+    - 92cfff35
+    - 7fb595ef
+    - '52641765'
+    - 2745748e
+    - 54e9db90
+    - 20d3cfb3
+    state: pending
+    family_scores:
+      outcome-tile: 0.559
+      cinematic-still: 0.231
+      full-bleed: 0.197
+    best_family: outcome-tile
+    subject: food
+    note: overhead flat-lay of drizzle
+    moved_from: cinematic-still
+  pexels-9119219:
+    url: https://www.pexels.com/photo/person-holding-a-violin-on-grass-field-9119219/
+    image: https://images.pexels.com/photos/9119219/pexels-photo-9119219.jpeg
+    thumb: https://images.pexels.com/photos/9119219/pexels-photo-9119219.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Zafer Erdoğan
+    creator_url: https://www.pexels.com/@zafer-erdogan-49915050
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 6336
+    height: 9504
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 07171773b2140747
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.328
+    nearest:
+    - de015472
+    - 0a8a0653
+    - bb5a613d
+    - 089f1b92
+    - 7ac6fe2c
+    - '86769613'
+    - fef1b03a
+    - 508eb219
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.686
+      full-bleed: 0.328
+    best_family: outcome-tile
+    subject: object
+    note: muted scenic frame
+    moved_from: cinematic-still
+  pexels-9508235:
+    url: https://www.pexels.com/photo/a-woman-n-white-printed-long-sleeves-wearing-black-hat-while-looking-afar-9508235/
+    image: https://images.pexels.com/photos/9508235/pexels-photo-9508235.jpeg
+    thumb: https://images.pexels.com/photos/9508235/pexels-photo-9508235.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kseniia Kolomyts
+    creator_url: https://www.pexels.com/@kseniia-kolomyts-105649428
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2410
+    height: 3213
+    aspect_class: '3:4'
+    term: golden hour portrait film
+    collected: '2026-09-16'
+    phash: 2e5fbf7f9e9ec3ef
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.609
+    nearest:
+    - 1ff86bd2
+    - 502e5e12
+    - da0bceaf
+    - a509d9ab
+    - b6c42c9a
+    - 69d930ac
+    - a5d87058
+    - '52636694'
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      full-bleed: 0.609
+    best_family: cinematic-still
+    note: washed backlit golden hour, blown white sky, no saturated grade
+    moved_from: cinematic-still

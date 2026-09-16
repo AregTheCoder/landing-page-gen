@@ -1,0 +1,189 @@
+sheet: cinematic-still-b801d8
+family: cinematic-still
+answers: cinematic-still-b801d8.answers.yaml
+anchors:
+- a509d9ab
+- d1102444
+- a5d87058
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-18532104
+    url: https://www.pexels.com/photo/portrait-of-blonde-woman-18532104/
+    creator: Moisés  Fonseca
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.725
+    explored: null
+  2:
+    id: pexels-18554597
+    url: https://www.pexels.com/photo/studio-shot-of-a-smiling-girl-18554597/
+    creator: mohamed abdelghaffar
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.721
+    explored: null
+  3:
+    id: pexels-18739540
+    url: https://www.pexels.com/photo/close-up-of-a-woman-face-partially-covered-by-hair-18739540/
+    creator: Yusuf Çelik
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.71
+    explored: null
+  4:
+    id: pexels-19074523
+    url: https://www.pexels.com/photo/woman-in-sensual-pose-in-red-light-19074523/
+    creator: Hatice Baran
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  5:
+    id: pexels-19174749
+    url: https://www.pexels.com/photo/brunette-woman-in-white-shirt-in-forest-19174749/
+    creator: Mihman Duğanlı
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.742
+      outcome-tile: 0.733
+    explored: null
+  6:
+    id: pexels-19369427
+    url: https://www.pexels.com/photo/man-portrait-in-darkness-at-sunset-19369427/
+    creator: Amir Vakili
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.498
+    explored: null
+  7:
+    id: pexels-19830276
+    url: https://www.pexels.com/photo/woman-sitting-in-blue-light-at-club-19830276/
+    creator: Daniil Kondrashin
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.718
+    explored: null
+  8:
+    id: pexels-19871471
+    url: https://www.pexels.com/photo/young-woman-standing-outside-at-sunset-19871471/
+    creator: Felipe Vieira
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  9:
+    id: pexels-19961886
+    url: https://www.pexels.com/photo/young-fashionable-woman-sitting-by-the-window-with-a-pink-neon-sign-19961886/
+    creator: Zois Fotis
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.469
+    explored: null
+  10:
+    id: pexels-20016572
+    url: https://www.pexels.com/photo/silhouette-of-woman-in-studio-20016572/
+    creator: Daniel Neves Cotta
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.729
+    explored: null
+  11:
+    id: pexels-20096042
+    url: https://www.pexels.com/photo/woman-in-jacket-20096042/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.371
+    explored: null
+  12:
+    id: pexels-20318923
+    url: https://www.pexels.com/photo/young-woman-in-pink-clothing-and-pink-makeup-lying-on-a-bed-20318923/
+    creator: Annika Rose
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.63
+    explored: null

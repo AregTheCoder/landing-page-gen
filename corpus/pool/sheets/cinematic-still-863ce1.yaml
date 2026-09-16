@@ -1,0 +1,189 @@
+sheet: cinematic-still-863ce1
+family: cinematic-still
+answers: cinematic-still-863ce1.answers.yaml
+anchors:
+- f384e59d
+- a509d9ab
+- 2af4af3e
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-16045198
+    url: https://www.pexels.com/photo/woman-in-blue-light-in-bedroom-drawing-heart-on-mirror-16045198/
+    creator: Soner Özcan
+    platform: Pexels
+    score: 0.339
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.4
+      cinematic-still: 0.339
+      graphic-collage: 0.179
+    explored: null
+  2:
+    id: pexels-1993620
+    url: https://www.pexels.com/photo/classic-yellow-and-red-volkswagen-beetle-coupe-toy-1993620/
+    creator: Tailan  Mangabeira
+    platform: Pexels
+    score: 0.338
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.663
+      cinematic-still: 0.338
+      graphic-collage: 0.213
+    explored: null
+  3:
+    id: pexels-9282049
+    url: https://www.pexels.com/photo/toy-taxi-and-skyscrapers-in-background-9282049/
+    creator: Brian Lazo
+    platform: Pexels
+    score: 0.329
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.329
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  4:
+    id: pexels-34415083
+    url: https://www.pexels.com/photo/surreal-artistic-still-life-with-vase-and-spheres-34415083/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.326
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.326
+      vs-two-up: 0.227
+    explored: null
+  5:
+    id: pexels-3801089
+    url: https://www.pexels.com/photo/red-volkswagen-beetle-scale-model-3801089/
+    creator: Igor photic
+    platform: Pexels
+    score: 0.326
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.326
+      outcome-tile: 0.286
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-8380274
+    url: https://www.pexels.com/photo/coconut-with-a-slice-of-orange-and-lemon-on-a-plastic-stick-8380274/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.325
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      cinematic-still: 0.325
+      graphic-collage: 0.304
+    explored: null
+  7:
+    id: pexels-4055973
+    url: https://www.pexels.com/photo/small-comic-hero-figurine-placed-on-tree-trunk-4055973/
+    creator: Rama Dhanu
+    platform: Pexels
+    score: 0.323
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.323
+      outcome-tile: 0.317
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-9241895
+    url: https://www.pexels.com/photo/pipe-box-and-petals-flying-9241895/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.322
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.659
+      cinematic-still: 0.322
+      full-bleed: 0.16
+    explored: null
+  9:
+    id: pexels-5755672
+    url: https://www.pexels.com/photo/unrecognizable-female-in-wooden-frames-placed-on-sandy-dune-5755672/
+    creator: Abdo. Shannan
+    platform: Pexels
+    score: 0.321
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.321
+      outcome-tile: 0.22
+      full-bleed: 0.16
+    explored: null
+  10:
+    id: pexels-9209713
+    url: https://www.pexels.com/photo/a-jeep-wrangler-near-brown-rock-formation-9209713/
+    creator: Ashok Sharma
+    platform: Pexels
+    score: 0.319
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.55
+      full-bleed: 0.38
+      cinematic-still: 0.319
+    explored: null
+  11:
+    id: pexels-17739090
+    url: https://www.pexels.com/photo/young-woman-sitting-on-a-chair-by-the-water-17739090/
+    creator: Beyzaa Yurtkuran
+    platform: Pexels
+    score: 0.317
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.386
+      cinematic-still: 0.317
+      graphic-collage: 0.179
+    explored: null
+  12:
+    id: pexels-13427041
+    url: https://www.pexels.com/photo/close-up-shot-of-a-man-s-face-13427041/
+    creator: Ilya Dudnikov
+    platform: Pexels
+    score: 0.316
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.316
+      graphic-collage: 0.144
+    explored: null

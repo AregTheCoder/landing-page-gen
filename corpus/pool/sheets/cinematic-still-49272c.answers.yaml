@@ -1,0 +1,12 @@
+1: {keep: false, subject: food, best_family: outcome-tile, note: flat pastel studio product shot, no cinematic grade}
+2: {keep: true, subject: person, note: backlit golden hour forest, unified warm grade}
+3: {keep: true, subject: person, note: teal shadow with orange flower accents, true film still}
+4: {keep: false, subject: food, best_family: outcome-tile, note: multi-prop still life on teal, flat light}
+5: {keep: false, subject: person, note: flat daylight bedroom boudoir, no colour grade}
+6: {keep: true, subject: person, note: sunset backlight, warm unified grade, subject small but usable}
+7: {keep: false, subject: person, note: great red-neon grade but legible neon sign fills right third}
+8: {keep: true, subject: person, note: warm low-key portrait with prop, unified grade}
+9: {keep: false, subject: person, note: giant legible marquee letters dominate both sides}
+10: {keep: true, subject: person, note: saturated amber single-subject frame, no text}
+11: {keep: false, subject: scene, note: wide flat interior snapshot plus neon text sign}
+12: {keep: false, subject: person, note: flat bed boudoir, no coloured light, near-duplicate of 5}

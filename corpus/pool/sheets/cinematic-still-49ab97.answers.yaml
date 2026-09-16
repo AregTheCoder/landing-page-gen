@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: "golden-hour bokeh; warm unified grade; dark lower third reads as negative space"}
+2: {keep: true, subject: person, note: "golden hour field; single subject on a third; shallow depth"}
+3: {keep: true, subject: person, note: "teal headwrap against orange dress; saturated complementary studio grade"}
+4: {keep: true, subject: person, note: "textbook teal-orange dusk split; glossy unified grade"}
+5: {keep: true, subject: person, note: "pink/teal neon glow; tubes are abstract loops with no legible text"}
+6: {keep: true, subject: person, note: "silhouette against a red-orange ring; bold coloured light but no facial detail"}
+7: {keep: true, subject: person, note: "backlit golden close-up; shallow depth; unified warm grade"}
+8: {keep: true, subject: person, note: "golden hour backlit profile; hazy warm grade"}
+9: {keep: true, subject: person, note: "teal key against red ground with flame accent; strongest split-light frame"}
+10: {keep: false, note: "near-duplicate of #2 (same creator/shoot/wardrobe) with weaker light on the face"}
+11: {keep: false, note: "cluttered bedroom background; harsh green face cast; grade is not unified"}
+12: {keep: true, subject: person, note: "red-magenta with a blue wedge; unconventional lying framing but a true film still"}

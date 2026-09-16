@@ -1,0 +1,377 @@
+family: dark-composite
+entries:
+  pexels-1111562:
+    url: https://www.pexels.com/photo/red-and-white-bus-toy-1111562/
+    image: https://images.pexels.com/photos/1111562/pexels-photo-1111562.jpeg
+    thumb: https://images.pexels.com/photos/1111562/pexels-photo-1111562.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: lil artsy
+    creator_url: https://www.pexels.com/@lilartsy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0020d8301b0fb064
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.529
+    nearest:
+    - f384e59d
+    - 20d3cfb3
+    - 211b36b3
+    - 6027c22c
+    - cd360229
+    - 2745748e
+    - d7c195e6
+    - ff00ef5d
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.529
+      full-bleed: 0.494
+    best_family: outcome-tile
+    subject: object
+    note: prop on near-black ground
+    moved_from: cinematic-still
+  pexels-15238964:
+    url: https://www.pexels.com/photo/young-posing-woman-15238964/
+    image: https://images.pexels.com/photos/15238964/pexels-photo-15238964.jpeg
+    thumb: https://images.pexels.com/photos/15238964/pexels-photo-15238964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: David Lyutov
+    creator_url: https://www.pexels.com/@darkobv
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3376
+    height: 6000
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    collected: '2026-09-16'
+    phash: 08540c2c064d614a
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.924
+    nearest:
+    - 20d3cfb3
+    - a509d9ab
+    - 2af4af3e
+    - db317d05
+    - 9231a5f0
+    - 502e5e12
+    - b6c42c9a
+    - a0688108
+    state: pending
+    family_scores:
+      cinematic-still: 0.924
+      outcome-tile: 0.887
+      graphic-collage: 0.239
+    best_family: cinematic-still
+    subject: person
+    note: subject lost in black
+    moved_from: cinematic-still
+  pexels-15792394:
+    url: https://www.pexels.com/photo/young-man-in-a-velvet-blouse-and-orange-sunglasses-15792394/
+    image: https://images.pexels.com/photos/15792394/pexels-photo-15792394.jpeg
+    thumb: https://images.pexels.com/photos/15792394/pexels-photo-15792394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nino  Sanger
+    creator_url: https://www.pexels.com/@nino-sanger-203570376
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 0245b99949092942
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.574
+    nearest:
+    - e1af1637
+    - 307c1492
+    - 4b4a4a54
+    - 2af4af3e
+    - 939672f0
+    - a509d9ab
+    - 95f279aa
+    - 1d484fc9
+    state: pending
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.574
+      before-after: 0.266
+    best_family: outcome-tile
+    subject: person
+    note: low-key but near-monochrome
+    moved_from: cinematic-still
+  pexels-16218836:
+    url: https://www.pexels.com/photo/delorean-time-machine-flying-by-the-full-moon-on-a-shelf-16218836/
+    image: https://images.pexels.com/photos/16218836/pexels-photo-16218836.jpeg
+    thumb: https://images.pexels.com/photos/16218836/pexels-photo-16218836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Douglas Mendes
+    creator_url: https://www.pexels.com/@doouglasma
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3608
+    height: 5412
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 11234f4f43030c4f
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.474
+    nearest:
+    - 43458a76
+    - dab26cbd
+    - '52626787'
+    - cd360229
+    - 7ac6fe2c
+    - f384e59d
+    - '86769613'
+    - 508eb219
+    state: pending
+    family_scores:
+      outcome-tile: 0.559
+      cinematic-still: 0.474
+      full-bleed: 0.376
+    best_family: outcome-tile
+    note: monochrome moon/toy car
+    moved_from: cinematic-still
+  pexels-17488505:
+    url: https://www.pexels.com/photo/bearded-brunette-in-tshirt-17488505/
+    image: https://images.pexels.com/photos/17488505/pexels-photo-17488505.jpeg
+    thumb: https://images.pexels.com/photos/17488505/pexels-photo-17488505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daniel Pratt
+    creator_url: https://www.pexels.com/@danielpratt
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3456
+    height: 4320
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 02040b4d4f9f1d1d
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.567
+    nearest:
+    - e1af1637
+    - 307c1492
+    - 4b4a4a54
+    - 0937bae7
+    - 18aa4780
+    - 5092d079
+    - d1102444
+    - 4b4df875
+    state: pending
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.567
+      graphic-collage: 0.111
+    best_family: outcome-tile
+    subject: person
+    note: ideal teal-orange grade but legible NO MERCY slogan across the tee
+    moved_from: cinematic-still
+  pexels-33424854:
+    url: https://www.pexels.com/photo/moody-portrait-of-young-woman-in-low-light-33424854/
+    image: https://images.pexels.com/photos/33424854/pexels-photo-33424854.jpeg
+    thumb: https://images.pexels.com/photos/33424854/pexels-photo-33424854.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Abdelilah Hibat Allah
+    creator_url: https://www.pexels.com/@abdelilah-hibat-allah-1652683667
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 1836
+    height: 3265
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    collected: '2026-09-16'
+    phash: 0d245b5d4f4f720a
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.925
+    nearest:
+    - a509d9ab
+    - b6c42c9a
+    - 9697a12f
+    - 5697681d
+    - 502e5e12
+    - 494a80e2
+    - 5cb08ddf
+    - 4b4df875
+    state: pending
+    family_scores:
+      cinematic-still: 0.925
+      outcome-tile: 0.887
+      before-after: 0.41
+    best_family: cinematic-still
+    subject: person
+    note: near-black low-key
+    moved_from: cinematic-still
+  pexels-34415083:
+    url: https://www.pexels.com/photo/surreal-artistic-still-life-with-vase-and-spheres-34415083/
+    image: https://images.pexels.com/photos/34415083/pexels-photo-34415083.jpeg
+    thumb: https://images.pexels.com/photos/34415083/pexels-photo-34415083.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3840
+    height: 5760
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 3c3e1b1d172b6b64
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.326
+    nearest:
+    - fef1b03a
+    - 3496c786
+    - aed110ba
+    - 7f219b61
+    - cc63b042
+    - 6214962e
+    - '52645701'
+    - c5a8cdbd
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.326
+      vs-two-up: 0.227
+    best_family: outcome-tile
+    subject: object
+    note: dark studio still life
+    moved_from: cinematic-still
+  pexels-35769880:
+    url: https://www.pexels.com/photo/creative-conceptual-art-with-mannequins-and-globes-35769880/
+    image: https://images.pexels.com/photos/35769880/pexels-photo-35769880.jpeg
+    thumb: https://images.pexels.com/photos/35769880/pexels-photo-35769880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3373
+    height: 5060
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: cd4b81a93b724b34
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.237
+    nearest:
+    - '52623855'
+    - d754cd28
+    - 6d0ab8a0
+    - '55586263'
+    - dab26cbd
+    - '52628407'
+    - '52622682'
+    - '52645701'
+    state: pending
+    family_scores:
+      outcome-tile: 0.42
+      cinematic-still: 0.237
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    note: dim multi-prop conceptual still life, muddy grade
+    moved_from: cinematic-still
+  pexels-9241893:
+    url: https://www.pexels.com/photo/black-and-silver-dslr-camera-9241893/
+    image: https://images.pexels.com/photos/9241893/pexels-photo-9241893.jpeg
+    thumb: https://images.pexels.com/photos/9241893/pexels-photo-9241893.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: JJ Jordan
+    creator_url: https://www.pexels.com/@jj-jordan-44924743
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4800
+    height: 6000
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 07273b35263b3911
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.312
+    nearest:
+    - 251cd592
+    - '52623855'
+    - 508eb219
+    - 866bda44
+    - 13c49ee4
+    - b63206f3
+    - 57ac45a7
+    - c3332bac
+    state: pending
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.312
+      vs-two-up: 0.275
+    best_family: outcome-tile
+    note: levitating camera and binoculars on flat dark ground
+    moved_from: cinematic-still

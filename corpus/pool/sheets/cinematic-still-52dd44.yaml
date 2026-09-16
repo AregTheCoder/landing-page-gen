@@ -1,0 +1,189 @@
+sheet: cinematic-still-52dd44
+family: cinematic-still
+answers: cinematic-still-52dd44.answers.yaml
+anchors:
+- a509d9ab
+- 1ff86bd2
+- 502e5e12
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-30031895
+    url: https://www.pexels.com/photo/dramatic-portrait-with-bold-lighting-effects-30031895/
+    creator: Eduardo HernandezSoto
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.736
+      outcome-tile: 0.675
+    explored: null
+  2:
+    id: pexels-30104294
+    url: https://www.pexels.com/photo/portrait-of-woman-in-pink-lingerie-by-window-30104294/
+    creator: fatih kılıç
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  3:
+    id: pexels-30244804
+    url: https://www.pexels.com/photo/vibrant-portrait-with-neon-light-aesthetic-30244804/
+    creator: Marcus
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  4:
+    id: pexels-30272658
+    url: https://www.pexels.com/photo/moody-portrait-with-neon-lighting-and-flowers-30272658/
+    creator: Juanfran
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  5:
+    id: pexels-30669343
+    url: https://www.pexels.com/photo/woman-in-field-during-golden-hour-autumn-scene-30669343/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.553
+    explored: null
+  6:
+    id: pexels-30669378
+    url: https://www.pexels.com/photo/ethereal-autumn-portrait-in-brevard-field-30669378/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.777
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  7:
+    id: pexels-30669382
+    url: https://www.pexels.com/photo/serene-autumn-portrait-in-golden-light-30669382/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.779
+      full-bleed: 0.77
+      cinematic-still: 0.75
+    explored: null
+  8:
+    id: pexels-30669384
+    url: https://www.pexels.com/photo/serene-woman-in-autumn-field-at-golden-hour-30669384/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.749
+      outcome-tile: 0.733
+    explored: null
+  9:
+    id: pexels-30669397
+    url: https://www.pexels.com/photo/golden-hour-portrait-in-autumn-field-30669397/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      graphic-collage: 0.762
+      cinematic-still: 0.75
+    explored: null
+  10:
+    id: pexels-30669398
+    url: https://www.pexels.com/photo/serene-portrait-in-autumn-golden-light-30669398/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.779
+      full-bleed: 0.77
+      cinematic-still: 0.75
+    explored: null
+  11:
+    id: pexels-33760063
+    url: https://www.pexels.com/photo/stylish-portrait-of-a-woman-in-neon-lighting-33760063/
+    creator: danial jahangiri
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.642
+    explored: null
+  12:
+    id: pexels-3388702
+    url: https://www.pexels.com/photo/woman-wearing-green-velvet-shirt-3388702/
+    creator: Luka Van der Cruyssen
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.459
+    explored: null

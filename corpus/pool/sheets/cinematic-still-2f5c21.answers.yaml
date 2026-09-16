@@ -1,0 +1,12 @@
+1: {keep: true, subject: food, note: "yolk on blue seamless, hard directional light, yellow/blue like ref c3aaa9b3"}
+2: {keep: true, subject: person, note: "magenta neon key on a dark bg with bokeh, unified saturated grade"}
+3: {keep: false, subject: product, best_family: outcome-tile, note: "flat pastel pink-on-pink product still, no cinematic grade or directional light"}
+4: {keep: false, subject: food, best_family: outcome-tile, note: "top-down flat-lay pattern on a pale plate, flat light, not single-subject"}
+5: {keep: false, subject: person, note: "washed grainy documentary snapshot, muted grade, subject in profile against water"}
+6: {keep: true, subject: person, note: "warm red-orange studio grade, single subject, shallow depth"}
+7: {keep: false, subject: multiple, note: "multi-object surrealist still-life, muted olive painterly grade, no single subject"}
+8: {keep: false, subject: product, note: "near-duplicate of cell 3 (same creator, pink car on pink), flat pastel"}
+9: {keep: true, subject: person, note: "golden hour field portrait, unified warm grade, shallow depth"}
+10: {keep: true, subject: person, note: "hard sidelight against black reads as a film still; grade neutral warm, not coloured"}
+11: {keep: true, subject: person, note: "teal-orange night portrait with neon bokeh, 9:16, closest to the family"}
+12: {keep: true, subject: food, note: "yellow mango bowl on blue seamless, saturated and glossy"}

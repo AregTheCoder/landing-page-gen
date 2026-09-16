@@ -1,0 +1,12 @@
+1: {keep: true, subject: person}
+2: {keep: true, subject: person, note: 'teal-orange street still; neon behind is ornamental, no legible words'}
+3: {keep: false, note: 'bare-backed bedroom frame, too suggestive for a product page'}
+4: {keep: true, subject: person, note: 'orange coat on teal sky, deliberate complementary grade'}
+5: {keep: true, subject: person}
+6: {keep: false, best_family: full-bleed, note: 'washed pastel golden hour, blown sky, no unified grade'}
+7: {keep: false, best_family: full-bleed, note: 'neutral beauty headshot, no coloured cinematic light'}
+8: {keep: true, subject: person, note: 'blue-orange split, very low-key but unified'}
+9: {keep: true, subject: person, note: 'warm golden hour; top third is blown white sky'}
+10: {keep: true, subject: person}
+11: {keep: false, note: 'near-duplicate of #10, same shoot, wall and outfit'}
+12: {keep: true, subject: person}

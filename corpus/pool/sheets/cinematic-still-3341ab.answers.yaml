@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: 'dark teal glass wall, cool unified grade, small painted "214" is scene detail'}
+2: {keep: true, subject: person}
+3: {keep: true, subject: person, note: 'warm golden-hour grade, shallow depth, subject on a third'}
+4: {keep: true, subject: person, note: 'textbook teal rim over warm key'}
+5: {keep: true, subject: person, note: 'red-blue split light, 9:16'}
+6: {keep: true, subject: person, note: 'warm bokeh glow on dark ground'}
+7: {keep: true, subject: food, note: 'saturated macarons on blue, bold complementary studio colour'}
+8: {keep: false, subject: person, note: 'same shoot as #3, subject small in a flat washed wide frame'}
+9: {keep: false, subject: scene, note: 'cluttered antique-market detail, no readable single subject'}
+10: {keep: true, subject: person, note: 'red hair on teal shutter, complementary grade'}
+11: {keep: true, subject: person, note: 'deep blue monochrome, dramatic single subject'}
+12: {keep: true, subject: person, note: 'warm golden grade but hazy and carries a thin film-frame border, crop before use'}

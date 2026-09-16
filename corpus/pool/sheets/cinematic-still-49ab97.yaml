@@ -1,0 +1,189 @@
+sheet: cinematic-still-49ab97
+family: cinematic-still
+answers: cinematic-still-49ab97.answers.yaml
+anchors:
+- a509d9ab
+- 4b4df875
+- a5d87058
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-37201825
+    url: https://www.pexels.com/photo/serene-young-woman-relaxing-at-sunset-outdoors-37201825/
+    creator: Breno Cardoso
+    platform: Pexels
+    score: 0.737
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.737
+      outcome-tile: 0.733
+    explored: null
+  2:
+    id: pexels-30669412
+    url: https://www.pexels.com/photo/serene-sunset-portrait-in-autumn-field-30669412/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.733
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.733
+      outcome-tile: 0.733
+      full-bleed: 0.676
+    explored: null
+  3:
+    id: pexels-29653807
+    url: https://www.pexels.com/photo/portrait-of-a-woman-in-traditional-nigerian-attire-29653807/
+    creator: BULE
+    platform: Pexels
+    score: 0.73
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.73
+      outcome-tile: 0.571
+      full-bleed: 0.418
+    explored: null
+  4:
+    id: pexels-14708209
+    url: https://www.pexels.com/photo/portrait-of-young-woman-standing-by-the-fence-at-dusk-14708209/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.729
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.729
+      full-bleed: 0.527
+    explored: null
+  5:
+    id: pexels-9513837
+    url: https://www.pexels.com/photo/a-woman-looking-up-9513837/
+    creator: Alec Aiello
+    platform: Pexels
+    score: 0.726
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.726
+      before-after: 0.454
+    explored: null
+  6:
+    id: pexels-30681514
+    url: https://www.pexels.com/photo/silhouette-of-a-woman-against-abstract-lighting-30681514/
+    creator: Rachel Brooks
+    platform: Pexels
+    score: 0.723
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.723
+      graphic-collage: 0.326
+    explored: null
+  7:
+    id: pexels-9665628
+    url: https://www.pexels.com/photo/close-up-on-sunlit-womans-face-9665628/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.717
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.717
+      full-bleed: 0.311
+    explored: null
+  8:
+    id: pexels-29286308
+    url: https://www.pexels.com/photo/young-woman-in-tranquil-sunset-reflection-29286308/
+    creator: Henry Acevedo
+    platform: Pexels
+    score: 0.711
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.711
+      graphic-collage: 0.478
+    explored: null
+  9:
+    id: pexels-30299784
+    url: https://www.pexels.com/photo/dramatic-portrait-with-a-flame-and-colored-lighting-30299784/
+    creator: Juliet Montesinos
+    platform: Pexels
+    score: 0.71
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.71
+      before-after: 0.316
+    explored: null
+  10:
+    id: pexels-30669396
+    url: https://www.pexels.com/photo/sunlit-portrait-in-a-field-30669396/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.709
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.709
+      full-bleed: 0.651
+    explored: null
+  11:
+    id: pexels-7332328
+    url: https://www.pexels.com/photo/a-woman-wearing-bunny-ears-7332328/
+    creator: KoolShooters
+    platform: Pexels
+    score: 0.709
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.709
+      graphic-collage: 0.293
+    explored: null
+  12:
+    id: pexels-29130005
+    url: https://www.pexels.com/photo/mystical-dreamscape-of-a-woman-in-pink-light-29130005/
+    creator: Daniil Kondrashin
+    platform: Pexels
+    score: 0.708
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.708
+      graphic-collage: 0.269
+    explored: null

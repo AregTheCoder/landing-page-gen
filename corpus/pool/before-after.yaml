@@ -1,0 +1,42 @@
+family: before-after
+entries:
+  pexels-18324274:
+    url: https://www.pexels.com/photo/silhouette-of-woman-in-orange-light-18324274/
+    image: https://images.pexels.com/photos/18324274/pexels-photo-18324274.jpeg
+    thumb: https://images.pexels.com/photos/18324274/pexels-photo-18324274.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Şükür Azimoviç
+    creator_url: https://www.pexels.com/@shukur
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4160
+    height: 4904
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    collected: '2026-09-16'
+    phash: 8e1b39393222cc34
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.473
+    nearest:
+    - 7fd68d60
+    - '85838174'
+    - 01c48ea8
+    - '99076257'
+    - '82424493'
+    - '91443790'
+    - '54964550'
+    - 303e844a
+    state: pending
+    family_scores:
+      outcome-tile: 0.6
+      full-bleed: 0.477
+      before-after: 0.473
+    best_family: outcome-tile
+    moved_from: cinematic-still

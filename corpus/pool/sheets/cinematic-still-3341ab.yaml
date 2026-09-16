@@ -1,0 +1,189 @@
+sheet: cinematic-still-3341ab
+family: cinematic-still
+answers: cinematic-still-3341ab.answers.yaml
+anchors:
+- 4b4df875
+- 4b4a4a54
+- 1ff86bd2
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-15522598
+    url: https://www.pexels.com/photo/standing-woman-leaning-on-wall-15522598/
+    creator: Artem  Korsakov
+    platform: Pexels
+    score: 0.645
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.645
+      before-after: 0.304
+    explored: null
+  2:
+    id: pexels-834058
+    url: https://www.pexels.com/photo/close-up-photo-of-person-in-blue-denim-sweater-vest-with-sunglasses-834058/
+    creator: JorgeArturo Andrade
+    platform: Pexels
+    score: 0.645
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.645
+      full-bleed: 0.5
+    explored: null
+  3:
+    id: pexels-30669369
+    url: https://www.pexels.com/photo/autumn-portrait-in-brevard-field-30669369/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.642
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.642
+      full-bleed: 0.411
+    explored: null
+  4:
+    id: pexels-15079055
+    url: https://www.pexels.com/photo/man-posing-in-corduroy-jacket-15079055/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.641
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.641
+      graphic-collage: 0.179
+    explored: null
+  5:
+    id: pexels-11556037
+    url: https://www.pexels.com/photo/portrait-of-a-man-s-face-11556037/
+    creator: Sergio Medina
+    platform: Pexels
+    score: 0.64
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.859
+      cinematic-still: 0.64
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-13871440
+    url: https://www.pexels.com/photo/woman-with-long-hair-shaking-her-head-13871440/
+    creator: Matheus Bertelli
+    platform: Pexels
+    score: 0.638
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.638
+      before-after: 0.471
+    explored: null
+  7:
+    id: pexels-30410850
+    url: https://www.pexels.com/photo/colorful-macarons-in-glass-with-floral-decor-30410850/
+    creator: Tamanna Rumee
+    platform: Pexels
+    score: 0.634
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.716
+      cinematic-still: 0.634
+      graphic-collage: 0.239
+    explored: null
+  8:
+    id: pexels-30669413
+    url: https://www.pexels.com/photo/serene-autumn-portrait-in-north-carolina-field-30669413/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.632
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.632
+      graphic-collage: 0.384
+    explored: null
+  9:
+    id: pexels-34289212
+    url: https://www.pexels.com/photo/vintage-reflection-in-antique-market-mirror-34289212/
+    creator: Mihman Duğanlı
+    platform: Pexels
+    score: 0.631
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      full-bleed: 0.731
+      cinematic-still: 0.631
+    explored: null
+  10:
+    id: pexels-36695332
+    url: https://www.pexels.com/photo/portrait-of-a-young-woman-with-red-hair-36695332/
+    creator: Evoking  Ephemerality
+    platform: Pexels
+    score: 0.628
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.654
+      cinematic-still: 0.628
+      full-bleed: 0.254
+    explored: null
+  11:
+    id: pexels-34742152
+    url: https://www.pexels.com/photo/moody-portrait-of-woman-with-dramatic-lighting-34742152/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.623
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.623
+      graphic-collage: 0.144
+    explored: null
+  12:
+    id: pexels-11212218
+    url: https://www.pexels.com/photo/redhead-woman-smelling-bouquet-of-wildflowers-11212218/
+    creator: Helena Jankovičová Kováčová
+    platform: Pexels
+    score: 0.622
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.667
+      cinematic-still: 0.622
+    explored: null

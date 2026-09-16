@@ -1,0 +1,189 @@
+sheet: cinematic-still-b2de8a
+family: cinematic-still
+answers: cinematic-still-b2de8a.answers.yaml
+anchors:
+- 2af4af3e
+- 4b4a4a54
+- a509d9ab
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-10563758
+    url: https://www.pexels.com/photo/portrait-of-man-in-brown-sweater-10563758/
+    creator: Eko Agalarov
+    platform: Pexels
+    score: 0.687
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.687
+      outcome-tile: 0.675
+      full-bleed: 0.16
+    explored: null
+  2:
+    id: pexels-9119219
+    url: https://www.pexels.com/photo/person-holding-a-violin-on-grass-field-9119219/
+    creator: Zafer Erdoğan
+    platform: Pexels
+    score: 0.686
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.686
+      full-bleed: 0.328
+    explored: null
+  3:
+    id: pexels-19995894
+    url: https://www.pexels.com/photo/young-man-with-curly-hair-in-orange-lighting-19995894/
+    creator: Caner Kökçü
+    platform: Pexels
+    score: 0.681
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      outcome-tile: 0.733
+      cinematic-still: 0.681
+    explored: null
+  4:
+    id: pexels-38363887
+    url: https://www.pexels.com/photo/moody-portrait-of-young-woman-in-sunlight-38363887/
+    creator: Bruna  Fossile
+    platform: Pexels
+    score: 0.679
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.679
+      before-after: 0.339
+    explored: null
+  5:
+    id: pexels-32281234
+    url: https://www.pexels.com/photo/moody-portrait-of-woman-in-dramatic-lighting-32281234/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.677
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.775
+      cinematic-still: 0.677
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-11320131
+    url: https://www.pexels.com/photo/a-portrait-of-a-woman-11320131/
+    creator: Hebert  Santos
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      before-after: 0.328
+    explored: null
+  7:
+    id: pexels-14655019
+    url: https://www.pexels.com/photo/portrait-of-a-beautiful-woman-wearing-a-tube-top-14655019/
+    creator: Morteza Khobzi
+    platform: Pexels
+    score: 0.675
+    aspect_class: '3:4'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.722
+      cinematic-still: 0.675
+      outcome-tile: 0.675
+    explored: null
+  8:
+    id: pexels-16564575
+    url: https://www.pexels.com/photo/young-brunette-in-a-coat-posing-in-studio-16564575/
+    creator: Josue Velasquez
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      full-bleed: 0.4
+    explored: null
+  9:
+    id: pexels-19727014
+    url: https://www.pexels.com/photo/woman-in-a-blue-bra-gazing-19727014/
+    creator: Luis  Erives
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      before-after: 0.512
+    explored: null
+  10:
+    id: pexels-25552226
+    url: https://www.pexels.com/photo/man-standing-in-pullover-with-arms-crossed-25552226/
+    creator: Raymond McClintonel
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      full-bleed: 0.401
+    explored: null
+  11:
+    id: pexels-5385608
+    url: https://www.pexels.com/photo/woman-in-pink-lipstick-wearing-black-leather-jacket-5385608/
+    creator: Octavian Popa
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      full-bleed: 0.684
+      cinematic-still: 0.675
+    explored: null
+  12:
+    id: pexels-6279564
+    url: https://www.pexels.com/photo/a-woman-lying-on-the-couch-6279564/
+    creator: Olha Ruskykh
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.675
+      before-after: 0.481
+    explored: null

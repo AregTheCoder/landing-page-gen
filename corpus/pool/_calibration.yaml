@@ -1,0 +1,92 @@
+generated: '2026-09-16'
+min_labels: 30
+target_recall: 0.95
+rankers:
+  clip:
+    labels: 363
+    keep_rate: 0.697
+    auc: 0.596
+    precision_at:
+      12: 0.583
+      24: 0.625
+      48: 0.729
+    deciles:
+    - lo: 0.0
+      hi: 0.1
+      n: 3
+      kept: 2
+    - lo: 0.1
+      hi: 0.2
+      n: 20
+      kept: 7
+    - lo: 0.2
+      hi: 0.3
+      n: 20
+      kept: 12
+    - lo: 0.3
+      hi: 0.4
+      n: 30
+      kept: 15
+    - lo: 0.4
+      hi: 0.5
+      n: 37
+      kept: 27
+    - lo: 0.5
+      hi: 0.6
+      n: 43
+      kept: 29
+    - lo: 0.6
+      hi: 0.7
+      n: 58
+      kept: 48
+    - lo: 0.7
+      hi: 0.8
+      n: 122
+      kept: 92
+    - lo: 0.8
+      hi: 0.9
+      n: 11
+      kept: 9
+    - lo: 0.9
+      hi: 1.0
+      n: 19
+      kept: 12
+    threshold: 0.221
+    threshold_recall: 0.953
+    would_skip: 0.072
+    families:
+      cinematic-still:
+        labels: 363
+        keep_rate: 0.697
+        auc: 0.596
+        threshold: 0.221
+    terms:
+      cinematic-still:
+        cinematic portrait vertical:
+          n: 72
+          kept: 56
+          keep_rate: 0.778
+        colorful food photography blue background:
+          n: 36
+          kept: 27
+          keep_rate: 0.75
+        golden hour portrait film:
+          n: 63
+          kept: 49
+          keep_rate: 0.778
+        neon pink bedroom portrait:
+          n: 74
+          kept: 38
+          keep_rate: 0.514
+        surreal miniature photography:
+          n: 50
+          kept: 21
+          keep_rate: 0.42
+        teal orange portrait moody:
+          n: 68
+          kept: 62
+          keep_rate: 0.912
+    platforms:
+      Pexels:
+        n: 363
+        keep_rate: 0.697

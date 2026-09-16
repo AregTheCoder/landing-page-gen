@@ -1,0 +1,189 @@
+sheet: cinematic-still-4fcd4f
+family: cinematic-still
+answers: cinematic-still-4fcd4f.answers.yaml
+anchors:
+- a5d87058
+- 69d930ac
+- d1102444
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-4256873
+    url: https://www.pexels.com/photo/thoughtful-woman-in-neon-light-on-pink-background-4256873/
+    creator: POI
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.749
+      outcome-tile: 0.733
+    explored: null
+  2:
+    id: pexels-4675837
+    url: https://www.pexels.com/photo/a-portrait-of-a-woman-4675837/
+    creator: Zura Modebadze
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.513
+    explored: null
+  3:
+    id: pexels-5055498
+    url: https://www.pexels.com/photo/man-sitting-in-red-light-5055498/
+    creator: Ketut Subiyanto
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.733
+      outcome-tile: 0.733
+    explored: null
+  4:
+    id: pexels-5169086
+    url: https://www.pexels.com/photo/woman-in-gray-long-sleeve-shirt-5169086/
+    creator: Luan Queiros
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.797
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+    explored: null
+  5:
+    id: pexels-5456333
+    url: https://www.pexels.com/photo/back-view-of-woman-5456333/
+    creator: Renan Lima
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  6:
+    id: pexels-6224522
+    url: https://www.pexels.com/photo/snow-fashion-love-woman-6224522/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      graphic-collage: 0.747
+    explored: null
+  7:
+    id: pexels-6224523
+    url: https://www.pexels.com/photo/woman-in-pink-dress-on-the-bed-6224523/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      graphic-collage: 0.744
+      outcome-tile: 0.733
+    explored: null
+  8:
+    id: pexels-6224533
+    url: https://www.pexels.com/photo/snow-fashion-love-woman-6224533/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.741
+      outcome-tile: 0.733
+    explored: null
+  9:
+    id: pexels-6541629
+    url: https://www.pexels.com/photo/short-haired-woman-with-neck-tattoo-6541629/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  10:
+    id: pexels-6698307
+    url: https://www.pexels.com/photo/a-portrait-of-a-young-woman-in-a-red-turtleneck-sweater-6698307/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  11:
+    id: pexels-6698308
+    url: https://www.pexels.com/photo/a-woman-wearing-a-turtleneck-sweater-listening-to-music-6698308/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.619
+    explored: null
+  12:
+    id: pexels-6789632
+    url: https://www.pexels.com/photo/a-woman-under-the-blanket-6789632/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.752
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null

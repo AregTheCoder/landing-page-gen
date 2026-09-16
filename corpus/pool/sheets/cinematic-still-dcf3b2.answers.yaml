@@ -1,0 +1,12 @@
+1: {keep: true, subject: object, note: teal/pink/yellow miniature, shallow depth, unified saturated grade}
+2: {keep: false, note: licensed cartoon character figurine; hazy green grade, brand-safety risk}
+3: {keep: false, note: desaturated cluttered windowsill snapshot, no grade}
+4: {keep: false, note: subject is smoking, not brand-safe}
+5: {keep: false, subject: food, best_family: outcome-tile, note: top-down flat-lay plate on paper}
+6: {keep: false, note: pale desaturated white-seamless miniature, no coloured light}
+7: {keep: true, subject: food, note: blue banana on yellow/red, bold complementary studio colour, glossy}
+8: {keep: false, subject: food, best_family: graphic-collage, note: several fruit slices, graphic conceit not single subject}
+9: {keep: true, subject: object, note: green moody miniature film still, shallow depth; same creator as 1 but different frame}
+10: {keep: false, note: legible neon text and crop-top framing}
+11: {keep: false, note: near-duplicate of 10, same legible neon text}
+12: {keep: false, subject: food, best_family: outcome-tile, note: menu-style bowl shot, no cinematic light}

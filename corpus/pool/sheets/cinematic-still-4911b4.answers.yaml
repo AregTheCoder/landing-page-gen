@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: teal rim light on warm bokeh, textbook teal-orange}
+2: {keep: true, subject: person, note: magenta/blue neon split on black, saturated}
+3: {keep: false, note: black and white, no coloured light or saturated grade}
+4: {keep: false, subject: person, note: murky available-light interior, flat low-key, no grade}
+5: {keep: true, subject: person, note: saturated red hair against cool blue shirt, shallow depth}
+6: {keep: true, subject: person, note: warm rim light on dark, glossy unified grade}
+7: {keep: true, subject: person, note: golden pool of light on dark street, full body rather than close}
+8: {keep: false, subject: person, note: desaturated grey, subject half-occluded by column}
+9: {keep: false, note: black and white, no coloured light}
+10: {keep: true, subject: person, note: warm skin on teal ground, painterly saturated grade}
+11: {keep: true, subject: person, note: hazy golden-hour retro, unified warm grade}
+12: {keep: false, note: grayscale portrait, no colour grade}

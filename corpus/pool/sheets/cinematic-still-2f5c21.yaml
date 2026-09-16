@@ -1,0 +1,189 @@
+sheet: cinematic-still-2f5c21
+family: cinematic-still
+answers: cinematic-still-2f5c21.answers.yaml
+anchors:
+- f68c0108
+- c3aaa9b3
+- 7fb595ef
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-8859449
+    url: https://www.pexels.com/photo/close-up-shot-of-an-egg-yolk-on-blue-surface-8859449/
+    creator: Ron Lach
+    platform: Pexels
+    score: 0.42
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.42
+      full-bleed: 0.31
+    explored: null
+  2:
+    id: pexels-10902317
+    url: https://www.pexels.com/photo/a-woman-wearing-a-fur-jacket-10902317/
+    creator: Roman Tymochko
+    platform: Pexels
+    score: 0.419
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.419
+      before-after: 0.307
+    explored: null
+  3:
+    id: pexels-10216078
+    url: https://www.pexels.com/photo/pink-toy-car-on-pink-background-10216078/
+    creator: DS stories
+    platform: Pexels
+    score: 0.416
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.416
+      outcome-tile: 0.324
+      graphic-collage: 0.179
+    explored: null
+  4:
+    id: pexels-11345215
+    url: https://www.pexels.com/photo/colorful-macaroons-on-blue-plate-11345215/
+    creator: Daka
+    platform: Pexels
+    score: 0.411
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.558
+      cinematic-still: 0.411
+      graphic-collage: 0.254
+    explored: null
+  5:
+    id: pexels-17739092
+    url: https://www.pexels.com/photo/portrait-of-a-woman-by-the-lake-17739092/
+    creator: Beyzaa Yurtkuran
+    platform: Pexels
+    score: 0.41
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.41
+      graphic-collage: 0.265
+    explored: null
+  6:
+    id: pexels-10563766
+    url: https://www.pexels.com/photo/portrait-of-man-in-brown-sweater-10563766/
+    creator: Eko Agalarov
+    platform: Pexels
+    score: 0.408
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      cinematic-still: 0.408
+      vs-two-up: 0.105
+    explored: null
+  7:
+    id: pexels-34253448
+    url: https://www.pexels.com/photo/surrealist-composition-with-eggs-and-fish-34253448/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.408
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.589
+      cinematic-still: 0.408
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-10216071
+    url: https://www.pexels.com/photo/pink-toy-car-on-pink-background-10216071/
+    creator: DS stories
+    platform: Pexels
+    score: 0.407
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.407
+      graphic-collage: 0.282
+    explored: null
+  9:
+    id: pexels-30669341
+    url: https://www.pexels.com/photo/warm-autumn-portrait-in-golden-field-30669341/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.403
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.687
+      cinematic-still: 0.403
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-15669898
+    url: https://www.pexels.com/photo/young-man-with-curly-hair-in-light-and-shadow-15669898/
+    creator: Aman Malik
+    platform: Pexels
+    score: 0.402
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.667
+      full-bleed: 0.471
+      cinematic-still: 0.402
+    explored: null
+  11:
+    id: pexels-10939888
+    url: https://www.pexels.com/photo/portrait-of-a-bearded-man-with-eyeglasses-10939888/
+    creator: Nandu Vasudevan
+    platform: Pexels
+    score: 0.4
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.4
+      outcome-tile: 0.386
+      graphic-collage: 0.179
+    explored: null
+  12:
+    id: pexels-36868226
+    url: https://www.pexels.com/photo/refreshing-mango-dessert-bowl-with-ice-cream-36868226/
+    creator: Ba Uoc Phung
+    platform: Pexels
+    score: 0.4
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.4
+      graphic-collage: 0.248
+    explored: null

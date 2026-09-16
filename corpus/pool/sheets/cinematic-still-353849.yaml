@@ -1,0 +1,189 @@
+sheet: cinematic-still-353849
+family: cinematic-still
+answers: cinematic-still-353849.answers.yaml
+anchors:
+- 2af4af3e
+- f384e59d
+- d7c195e6
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-1522180
+    url: https://www.pexels.com/photo/selective-focus-photography-of-white-volkswagen-t2-van-model-on-ground-1522180/
+    creator: Nubia Navarro (nubikini)
+    platform: Pexels
+    score: 0.528
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.578
+      cinematic-still: 0.528
+      full-bleed: 0.216
+    explored: null
+  2:
+    id: pexels-2309134
+    url: https://www.pexels.com/photo/young-woman-with-flower-in-mouth-at-night-2309134/
+    creator: Kha Ruxury
+    platform: Pexels
+    score: 0.525
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.525
+      graphic-collage: 0.241
+    explored: null
+  3:
+    id: pexels-11890375
+    url: https://www.pexels.com/photo/photo-of-a-girl-flexing-11890375/
+    creator: Yusuf Çelik
+    platform: Pexels
+    score: 0.522
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.522
+      vs-two-up: 0.132
+    explored: null
+  4:
+    id: pexels-7194900
+    url: https://www.pexels.com/photo/cut-ripe-pineapple-with-sweet-flesh-and-green-leaves-7194900/
+    creator: SHVETS production
+    platform: Pexels
+    score: 0.518
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.518
+      graphic-collage: 0.179
+    explored: null
+  5:
+    id: pexels-8647550
+    url: https://www.pexels.com/photo/drone-shot-of-a-woman-in-a-white-dress-lying-on-a-road-8647550/
+    creator: Maxim Kovalev
+    platform: Pexels
+    score: 0.517
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.533
+      cinematic-still: 0.517
+      full-bleed: 0.275
+    explored: null
+  6:
+    id: pexels-7034530
+    url: https://www.pexels.com/photo/photo-of-donuts-on-a-blue-surface-7034530/
+    creator: Tima Miroshnichenko
+    platform: Pexels
+    score: 0.516
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.516
+      full-bleed: 0.365
+    explored: null
+  7:
+    id: pexels-16356790
+    url: https://www.pexels.com/photo/light-on-woman-face-16356790/
+    creator: Jana Al Mubaslat
+    platform: Pexels
+    score: 0.514
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.514
+      panel-overlay: 0.203
+    explored: null
+  8:
+    id: pexels-35028880
+    url: https://www.pexels.com/photo/creative-matchstick-sculpture-on-fire-35028880/
+    creator: Christopher Welsch Leveroni
+    platform: Pexels
+    score: 0.514
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.514
+      full-bleed: 0.458
+    explored: null
+  9:
+    id: pexels-9239143
+    url: https://www.pexels.com/photo/a-woman-in-a-black-tank-top-9239143/
+    creator: Lena Glukhova
+    platform: Pexels
+    score: 0.514
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.514
+      outcome-tile: 0.421
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-9282050
+    url: https://www.pexels.com/photo/yellow-and-black-car-on-road-during-night-time-9282050/
+    creator: Brian Lazo
+    platform: Pexels
+    score: 0.511
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.629
+      cinematic-still: 0.511
+      full-bleed: 0.263
+    explored: null
+  11:
+    id: pexels-14811342
+    url: https://www.pexels.com/photo/man-face-near-window-14811342/
+    creator: Furkan Salihoğlu
+    platform: Pexels
+    score: 0.509
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.509
+      graphic-collage: 0.132
+    explored: null
+  12:
+    id: pexels-27939407
+    url: https://www.pexels.com/photo/a-woman-sitting-on-a-couch-in-front-of-a-neon-sign-that-says-freshsas-fack-27939407/
+    creator: Ani Coloca
+    platform: Pexels
+    score: 0.508
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.508
+      full-bleed: 0.271
+    explored: null

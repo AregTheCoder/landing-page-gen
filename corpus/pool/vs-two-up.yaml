@@ -1,0 +1,37 @@
+family: vs-two-up
+entries:
+  pexels-25585750:
+    url: https://www.pexels.com/photo/meal-on-plate-and-drink-behind-25585750/
+    image: https://images.pexels.com/photos/25585750/pexels-photo-25585750.jpeg
+    thumb: https://images.pexels.com/photos/25585750/pexels-photo-25585750.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jimmy Elizarraras
+    creator_url: https://www.pexels.com/@jimmyelizarraras
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3839
+    height: 4483
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 00080b0807332307
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: black
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.102
+    nearest:
+    - 4c0fad35
+    - fc94b953
+    - 62f736f4
+    state: pending
+    family_scores:
+      outcome-tile: 0.6
+      vs-two-up: 0.102
+      graphic-collage: 0.066
+    best_family: outcome-tile
+    moved_from: cinematic-still

@@ -1,0 +1,189 @@
+sheet: cinematic-still-ee12fd
+family: cinematic-still
+answers: cinematic-still-ee12fd.answers.yaml
+anchors:
+- b6c42c9a
+- 2af4af3e
+- a509d9ab
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-9811076
+    url: https://www.pexels.com/photo/portrait-of-black-hair-man-in-coat-9811076/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.622
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.622
+      graphic-collage: 0.506
+    explored: null
+  2:
+    id: pexels-19615548
+    url: https://www.pexels.com/photo/woman-in-a-dark-room-with-sunlight-falling-on-her-face-19615548/
+    creator: Wolrider YURTSEVEN
+    platform: Pexels
+    score: 0.615
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.615
+      graphic-collage: 0.344
+    explored: null
+  3:
+    id: pexels-34619282
+    url: https://www.pexels.com/photo/toy-figure-on-colorful-geometric-background-34619282/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.615
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.615
+      editor-canvas: 0.354
+    explored: null
+  4:
+    id: pexels-30434192
+    url: https://www.pexels.com/photo/young-woman-photographing-at-sunset-outdoors-30434192/
+    creator: Beyzanur K.
+    platform: Pexels
+    score: 0.613
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      outcome-tile: 0.733
+      cinematic-still: 0.613
+    explored: null
+  5:
+    id: pexels-31987249
+    url: https://www.pexels.com/photo/portrait-of-young-man-with-unique-hairstyle-31987249/
+    creator: Zayn Haddad
+    platform: Pexels
+    score: 0.611
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.812
+      cinematic-still: 0.611
+      vs-two-up: 0.123
+    explored: null
+  6:
+    id: pexels-29097935
+    url: https://www.pexels.com/photo/apocalyptic-scene-with-gas-mask-in-armenia-29097935/
+    creator: IsaaK Alexandre KaRslian
+    platform: Pexels
+    score: 0.61
+    aspect_class: '9:16'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.61
+      outcome-tile: 0.334
+      graphic-collage: 0.179
+    explored: null
+  7:
+    id: pexels-39452924
+    url: https://www.pexels.com/photo/moody-low-key-portrait-of-a-thoughtful-man-39452924/
+    creator: alireza shamsadinloo
+    platform: Pexels
+    score: 0.609
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.828
+      cinematic-still: 0.609
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-3004666
+    url: https://www.pexels.com/photo/volkswagen-van-diecast-model-on-street-with-bokeh-background-3004666/
+    creator: Haydan As-soendawy
+    platform: Pexels
+    score: 0.607
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.607
+      full-bleed: 0.297
+    explored: null
+  9:
+    id: pexels-7384166
+    url: https://www.pexels.com/photo/a-serious-facial-expression-of-a-woman-7384166/
+    creator: SaHni SouRav
+    platform: Pexels
+    score: 0.606
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.606
+      full-bleed: 0.313
+    explored: null
+  10:
+    id: pexels-17739445
+    url: https://www.pexels.com/photo/portrait-of-a-woman-by-the-lake-17739445/
+    creator: Beyzaa Yurtkuran
+    platform: Pexels
+    score: 0.604
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.604
+      graphic-collage: 0.41
+    explored: null
+  11:
+    id: pexels-31019864
+    url: https://www.pexels.com/photo/sunlit-rooftop-portrait-of-a-woman-at-golden-hour-31019864/
+    creator: Konstantin Mishchenko
+    platform: Pexels
+    score: 0.602
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.602
+      graphic-collage: 0.245
+    explored: null
+  12:
+    id: pexels-11546920
+    url: https://www.pexels.com/photo/woman-in-white-tank-top-raising-her-hands-11546920/
+    creator: Ahmet İlker  Şin
+    platform: Pexels
+    score: 0.6
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      before-after: 0.476
+    explored: null

@@ -1,0 +1,189 @@
+sheet: cinematic-still-58fd4c
+family: cinematic-still
+answers: cinematic-still-58fd4c.answers.yaml
+anchors:
+- 2af4af3e
+- 1ff86bd2
+- 939672f0
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-20717599
+    url: https://www.pexels.com/photo/portrait-of-a-young-man-shading-eyes-from-the-sun-20717599/
+    creator: Lucas Andrade
+    platform: Pexels
+    score: 0.706
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.706
+      full-bleed: 0.663
+    explored: null
+  2:
+    id: pexels-9665626
+    url: https://www.pexels.com/photo/young-woman-standing-among-flowers-with-sunlight-behind-9665626/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.706
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.706
+      full-bleed: 0.645
+    explored: null
+  3:
+    id: pexels-15067656
+    url: https://www.pexels.com/photo/woman-wearing-lingerie-smoking-a-cigarette-15067656/
+    creator: Dazzle Wong
+    platform: Pexels
+    score: 0.705
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.705
+      editor-canvas: 0.439
+    explored: null
+  4:
+    id: pexels-18399258
+    url: https://www.pexels.com/photo/young-woman-standing-outside-in-sunlight-18399258/
+    creator: Esma Atak
+    platform: Pexels
+    score: 0.704
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.704
+      before-after: 0.356
+    explored: null
+  5:
+    id: pexels-34993591
+    url: https://www.pexels.com/photo/macro-shot-of-hand-holding-miniature-figurine-34993591/
+    creator: Michael Obstoj
+    platform: Pexels
+    score: 0.704
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.704
+      full-bleed: 0.591
+    explored: null
+  6:
+    id: pexels-24235272
+    url: https://www.pexels.com/photo/portrait-of-woman-in-shadow-24235272/
+    creator: Ferhat Tenşık
+    platform: Pexels
+    score: 0.701
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.701
+      outcome-tile: 0.694
+      graphic-collage: 0.179
+    explored: null
+  7:
+    id: pexels-10271288
+    url: https://www.pexels.com/photo/close-up-photo-of-woman-s-face-10271288/
+    creator: Ben Moses
+    platform: Pexels
+    score: 0.7
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.7
+      before-after: 0.435
+    explored: null
+  8:
+    id: pexels-6246058
+    url: https://www.pexels.com/photo/woman-in-a-blue-top-standing-on-a-field-during-sunset-6246058/
+    creator: Anastasia  Bladyko
+    platform: Pexels
+    score: 0.7
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.7
+      graphic-collage: 0.288
+    explored: null
+  9:
+    id: pexels-12168779
+    url: https://www.pexels.com/photo/a-toy-taxi-on-we-surface-12168779/
+    creator: Brian Lazo
+    platform: Pexels
+    score: 0.699
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.699
+      full-bleed: 0.548
+    explored: null
+  10:
+    id: pexels-30669405
+    url: https://www.pexels.com/photo/golden-hour-portrait-in-autumn-field-30669405/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.694
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.694
+      graphic-collage: 0.444
+    explored: null
+  11:
+    id: pexels-9227970
+    url: https://www.pexels.com/photo/lemon-slices-near-the-yellow-ice-cream-9227970/
+    creator: DS stories
+    platform: Pexels
+    score: 0.693
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.712
+      cinematic-still: 0.693
+    explored: null
+  12:
+    id: pexels-7792274
+    url: https://www.pexels.com/photo/a-man-cosplaying-raiden-of-mortal-kombat-7792274/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.692
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.692
+      vs-two-up: 0.183
+    explored: null

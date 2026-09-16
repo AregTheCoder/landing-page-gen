@@ -1,0 +1,12 @@
+1: {keep: false, note: black-and-white portrait, no grade}
+2: {keep: true, subject: person, note: red-blue neon split, saturated, vertical}
+3: {keep: true, subject: person, note: teal-orange split through wet glass}
+4: {keep: true, subject: person, note: golden haze studio, unified amber grade}
+5: {keep: true, subject: person, note: olive-tan studio grade, muted but unified}
+6: {keep: false, subject: person, best_family: dark-composite, note: near-black low-key, no coloured light}
+7: {keep: true, subject: person, note: deliberate red wash in dark hallway}
+8: {keep: false, subject: person, best_family: dark-composite, note: subject lost in black, warm key only}
+9: {keep: false, subject: person, note: legible signage and busy framed art behind subject}
+10: {keep: false, note: black-and-white night snapshot}
+11: {keep: true, subject: person, note: red gel on subject vs cool blue forest}
+12: {keep: false, subject: person, note: documentary snapshot, neutral low-saturation grade}

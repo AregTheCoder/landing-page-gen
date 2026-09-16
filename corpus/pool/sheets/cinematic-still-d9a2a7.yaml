@@ -1,0 +1,189 @@
+sheet: cinematic-still-d9a2a7
+family: cinematic-still
+answers: cinematic-still-d9a2a7.answers.yaml
+anchors:
+- 7fb595ef
+- c3aaa9b3
+- 13c49ee4
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-5971966
+    url: https://www.pexels.com/photo/food-on-green-lunchbox-5971966/
+    creator: Vanessa Loring
+    platform: Pexels
+    score: 0.274
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.638
+      graphic-collage: 0.313
+      cinematic-still: 0.274
+    explored: null
+  2:
+    id: pexels-36326593
+    url: https://www.pexels.com/photo/colorful-assortment-of-dehydrated-citrus-slices-36326593/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.273
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.401
+      cinematic-still: 0.273
+      graphic-collage: 0.179
+    explored: null
+  3:
+    id: pexels-7449328
+    url: https://www.pexels.com/photo/avocado-on-blue-background-7449328/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.254
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      vs-two-up: 0.263
+      cinematic-still: 0.254
+    explored: null
+  4:
+    id: pexels-6999394
+    url: https://www.pexels.com/photo/close-up-shot-of-painted-eggs-on-a-bowl-6999394/
+    creator: Pavel Danilyuk
+    platform: Pexels
+    score: 0.253
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.265
+      cinematic-still: 0.253
+      full-bleed: 0.17
+    explored: null
+  5:
+    id: pexels-8755111
+    url: https://www.pexels.com/photo/slices-of-watermelon-on-blue-surface-8755111/
+    creator: Tamanna Rumee
+    platform: Pexels
+    score: 0.252
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.624
+      cinematic-still: 0.252
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-6019495
+    url: https://www.pexels.com/photo/three-matchbox-cars-on-moss-6019495/
+    creator: Romawi  Namaasli
+    platform: Pexels
+    score: 0.249
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.374
+      cinematic-still: 0.249
+      full-bleed: 0.193
+    explored: null
+  7:
+    id: pexels-13327153
+    url: https://www.pexels.com/photo/a-woman-sitting-at-the-table-13327153/
+    creator: Connor Scott McManus
+    platform: Pexels
+    score: 0.245
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.245
+      graphic-collage: 0.092
+      vs-two-up: 0.077
+    explored: null
+  8:
+    id: pexels-10600613
+    url: https://www.pexels.com/photo/woman-in-red-top-on-a-phone-call-10600613/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.242
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.688
+      cinematic-still: 0.242
+      graphic-collage: 0.179
+    explored: null
+  9:
+    id: pexels-35769880
+    url: https://www.pexels.com/photo/creative-conceptual-art-with-mannequins-and-globes-35769880/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.237
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.42
+      cinematic-still: 0.237
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-35139283
+    url: https://www.pexels.com/photo/miniature-figurines-on-monitor-edge-in-office-35139283/
+    creator: zeynep
+    platform: Pexels
+    score: 0.236
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.415
+      cinematic-still: 0.236
+      full-bleed: 0.197
+    explored: null
+  11:
+    id: pexels-7689003
+    url: https://www.pexels.com/photo/chili-and-cucumber-on-blue-background-7689003/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.236
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.304
+      cinematic-still: 0.236
+      vs-two-up: 0.113
+    explored: null
+  12:
+    id: pexels-16014763
+    url: https://www.pexels.com/photo/dessert-with-grapes-16014763/
+    creator: Fernanda  Lima
+    platform: Pexels
+    score: 0.233
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.313
+      cinematic-still: 0.233
+      graphic-collage: 0.179
+    explored: null
