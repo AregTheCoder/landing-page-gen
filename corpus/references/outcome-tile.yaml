@@ -149,3 +149,109 @@ open:
   - No Pexels or Unsplash photo matches the blurred-scene ground (cbd078ac) or garden ground (db63aad8) with the same cutout; those grounds are made by the tool, not shot.
   - No shadowless transparent-state reference exists on stock sites; the isolated-on-white shots all keep a faint contact shadow.
   - Competitor category convention not researched.
+layout:
+  arrangement: >
+    Three or more equal cells in a row or grid, each holding one copy of the
+    same subject at the same scale and pose. Even gutters of plain ground,
+    nothing in them. Only the backdrop changes per cell.
+  repetition: >
+    One subject, repeated unchanged across the set: the same cupcake cutout in
+    every tile, or one motif repeated in an evenly spaced line, with the ground
+    (checker, white, colour, scene) as the only variable.
+  search_terms:
+    - identical objects evenly spaced row color block background
+    - sticky notes grid flat lay white surface
+    - three identical cupcakes in a row white background
+    - same object repeated on flat colour background studio
+    - macaron pattern grid pastel background
+    - three identical objects on a blue background
+    - objects arranged in rows on coloured background
+  examples:
+    - url: https://www.pexels.com/photo/cupcakes-on-white-platforms-9295343/
+      image: https://images.pexels.com/photos/9295343/pexels-photo-9295343.jpeg
+      creator: Skyler Ewing
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        8542fb1b: three identical cupcakes, one per white plinth, evenly spaced
+        in a row on white, the same subject in every cell
+      differs: >
+        Picsart splits the row into separate 16:10 tiles, drops the plinths and
+        the decor, and swaps each tile's ground
+    - url: https://www.pexels.com/photo/yellow-sticky-note-on-white-surface-6991796/
+      image: https://images.pexels.com/photos/6991796/pexels-photo-6991796.jpeg
+      creator: DS stories
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        the gallery row: identical square cells in a regular grid with even
+        gutters of white between them
+      differs: >
+        Picsart's cells are rounded 16:10 and each carries a photographic
+        subject instead of blank paper
+    - url: https://www.pexels.com/photo/an-array-of-blank-orange-notepads-stuck-on-purple-surface-6991812/
+      image: https://images.pexels.com/photos/6991812/pexels-photo-6991812.jpeg
+      creator: DS stories
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        cbd078ac: the same grid of equal cells, here over a flat colour ground
+        rather than white
+      differs: >
+        Picsart varies the ground per tile; here every cell is the same orange
+        on one lilac surface
+    - url: https://www.pexels.com/photo/yellow-meeples-on-a-surface-6989951/
+      image: https://images.pexels.com/photos/6989951/pexels-photo-6989951.jpeg
+      creator: DS stories
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        the serial set: one motif repeated in an evenly spaced line, ground
+        colour changed to match the subject, copyspace around it
+      differs: >
+        Picsart keeps one subject per tile rather than many in one frame, and
+        the ground is white or checker
+    - url: https://www.pexels.com/photo/pattern-of-green-macaroon-cakes-on-pink-background-8244287/
+      image: https://images.pexels.com/photos/8244287/pexels-photo-8244287.jpeg
+      creator: Eugenia
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        db63aad8: one food subject repeated in even rows, identical scale and
+        pose, on a single flat colour ground
+      differs: >
+        Picsart shows the food once per tile and makes the coloured ground from
+        the cutout, not from a shot surface
+    - url: https://www.pexels.com/photo/cupcakes-on-a-yellow-background-9095621/
+      image: https://images.pexels.com/photos/9095621/pexels-photo-9095621.jpeg
+      creator: Polina ⠀
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        cbd078ac: three copies of the same cupcake across the frame on one flat
+        colour ground, same scale
+      differs: >
+        Picsart crops to one cupcake per 16:10 tile and drops the cactus
+        toppers
+    - url: https://unsplash.com/photos/three-colorful-cassette-tapes-hover-on-a-blue-background-KKhV93U5jyo
+      image: https://images.unsplash.com/photo-1750913026677-408f64c7c077
+      creator: Omar L. Lopez-Rincon
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        the three-up row: three copies of one object, evenly spaced, same pose,
+        floating on a flat colour ground with no shadow
+      differs: >
+        Picsart puts each copy in its own tile and changes the ground per tile;
+        the objects are a render, not a photograph
+    - url: https://unsplash.com/photos/twelve-gray-spheres-arranged-in-four-rows-on-red-background-GjzWejbl1jM
+      image: https://images.unsplash.com/photo-1741335661615-7a8013f4c541
+      creator: Põldroos, Enn
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        the tile grid: twelve identical subjects in four rows of three, equal
+        spacing, one flat ground behind all of them
+      differs: >
+        A painted artwork, not a shot set; Picsart's grid is three to five
+        photographic tiles on white

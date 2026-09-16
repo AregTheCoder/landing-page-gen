@@ -156,7 +156,116 @@ prompt_guidance: >
   stadium seats or road markings from above. Natural daylight, streetwear contrasting with the
   backdrop. Plain photograph, no text, brackets, rulers, handles or grids.
 open:
+  - 'layout: no stock picture carries the exact two-panel split with a bracketed, dimmed source beside its own crop; the splits found are two different views, the nested crops are prints held by a hand'
+  - 'layout: Pexels and Unsplash have no frame-within-a-frame over a person in streetwear on a coloured wall; the two frame-prop portraits are studio poses with the frame in the subject''s hands'
   - Frank Flores's "woman standing in front of a row of bleachers" fits df6f0107 but is Unsplash+ premium, not the free licence; dropped
   - no free match found for the exact top-down view of a figure on yellow diamond road markings (5f91c6aa); the two road examples are frontal or half-body
   - Collins Lesulie and Beer Drinker are mostly landscape shooters; their single matching photos are kept but they are not listed as creators
   - ANNIE HATUANH, Nurlan Tortbayev, helloiamtugce and SAAD EMRIS profiles were not fetched
+layout:
+  arrangement: >
+    Two unequal panels in a square, one hard vertical divide. Left: a small dimmed source on black
+    ground, white corner brackets on the subject. Right: the same photograph enlarged full-bleed.
+    The ground holds an icon and a size label.
+  repetition: >
+    One photograph twice, not two photographs: the same subject small and bracketed, then large
+    and re-anchored. The repeat is the framing itself, so a set of such pairs from one shoot is
+    the asset.
+  search_terms:
+    - hand holding polaroid in front of the same landscape
+    - photo print held against the scene it shows
+    - diptych two panels same street scene
+    - split image two halves side by side
+    - woman holding empty picture frame coloured backdrop
+    - instant photo framing mountain view
+    - picture within a picture composition
+  examples:
+    - url: https://unsplash.com/photos/mBh_t21Qla8
+      image: https://images.unsplash.com/photo-1724961221902-8fff1cc70263
+      creator: Tara-mae Miller
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        5f91c6aa and df6f0107: the frame is two panels side by side, hard vertical divide, the same
+        street scene at two framings either side
+      differs: >
+        Picsart's two panels are unequal, the left one dimmed and bracketed on black ground, and
+        the right one is a tight crop of the left, not a second exposure. Film borders would be
+        stripped.
+    - url: https://www.pexels.com/photo/split-view-of-waterfront-with-bridge-and-cityscape-38960044/
+      image: https://images.pexels.com/photos/38960044/pexels-photo-38960044.jpeg
+      creator: Elena Golovchenko
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        5f91c6aa: one square frame divided into two side-by-side panels by a straight vertical
+        edge, each panel carrying a full-height view
+      differs: >
+        Picsart's halves are unequal and show one subject twice; here the two halves are different
+        views. Picsart adds brackets, the icon and the size label on a black ground.
+    - url: https://www.pexels.com/photo/person-holding-mountain-picture-in-nature-landscape-6606291/
+      image: https://images.pexels.com/photos/6606291/pexels-photo-6606291.jpeg
+      creator: KATRIN BOLOVTSOVA
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        df6f0107: a small bordered rectangle sits over the wider view of the same subject, holding
+        a tighter framing of it, exactly the source panel's bracketed crop
+      differs: >
+        Picsart draws the rectangle as four white corner brackets instead of a print with a white
+        border, removes the hand, and puts the tighter framing in a second panel beside it.
+    - url: https://www.pexels.com/photo/person-holding-a-polaroid-picture-of-snow-covered-mountain-14557814/
+      image: https://images.pexels.com/photos/14557814/pexels-photo-14557814.jpeg
+      creator: Josh Hild
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        5f91c6aa: the inner rectangle is aligned with the subject behind it, so the picture shows
+        one scene at two scales in one frame
+      differs: >
+        Picsart dims the wide view under the rectangle rather than keeping it bright, and the
+        rectangle is empty brackets, not a print. The hand and film border go.
+    - url: https://www.pexels.com/photo/person-holding-photo-of-tree-2073622/
+      image: https://images.pexels.com/photos/2073622/pexels-photo-2073622.jpeg
+      creator: Brett Sayles
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        df6f0107: a held print carries a sharp crop of the subject while the wider view behind it
+        falls soft, the same emphasis the brackets give the source panel
+      differs: >
+        Picsart separates the two scales into panels instead of nesting them, keeps both sharp,
+        and places the label under the brackets rather than in the picture.
+    - url: https://unsplash.com/photos/hand-holding-a-polaroid-of-snowy-mountains-and-lake-YvJWZVBMBNk
+      image: https://images.unsplash.com/photo-1777764567864-fd314b5e69dc
+      creator: Ali Kazal
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        5f91c6aa: one small rectangle of the scene held against the scene, the inner frame in
+        portrait ratio like the 9:16 result panel
+      differs: >
+        Picsart's inner frame is drawn over a person, not a landscape, and the result is shown at
+        panel size beside the source. The instant-film border is stripped.
+    - url: https://www.pexels.com/photo/studio-portrait-of-woman-holding-picture-frame-4347306/
+      image: https://images.pexels.com/photos/4347306/pexels-photo-4347306.jpeg
+      creator: Wendy Wei
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        df6f0107 and cf837643: one person against a flat colour backdrop with an empty rectangle
+        held over her centre third, the arrangement of the bracketed source panel
+      differs: >
+        Picsart's rectangle is a bracket overlay, not a prop in the subject's hands, sits on a
+        dimmed panel, and is paired with the cropped result on the right.
+    - url: https://www.pexels.com/photo/young-woman-posing-with-ornate-picture-frame-33696414/
+      image: https://images.pexels.com/photos/33696414/pexels-photo-33696414.jpeg
+      creator: Loutphy Artwork
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        cf837643: full-body figure centred on a plain wall, a rectangle framing part of her while
+        the body stays visible around it, as the brackets do on the source
+      differs: >
+        Picsart's frame is thin white brackets with a size label, the wall is one saturated colour,
+        and the same shot repeats as a 9:16 crop in the second panel.

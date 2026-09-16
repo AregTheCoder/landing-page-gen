@@ -160,3 +160,116 @@ open:
   - No candle on coloured paper in warm daylight; the closest match is white-on-white.
   - Strong yellow-seamless male portraits found were Unsplash+ (Getty), so excluded.
   - Sound On's profile is mostly video; the photo is kept, the creator is not listed.
+  - 'Arrangement gap: no free photo pairs a hard photographic cutout with loose black brush
+    strokes; the stroke accent is Picsart''s alone.'
+  - 'Arrangement gap: Unsplash''s laid-out collage portraits (cutout figure, flat ground,
+    flat shapes) are almost all Unsplash+ premium, so only one Unsplash example is listed.'
+  - 'Arrangement gap: the flat-shape layouts found use paper props or paper art; none is a
+    photographed subject re-grounded on flat colour at 1:1.'
+layout:
+  arrangement: >
+    One undivided frame, no panels: a hard-edged cutout subject centred on a flat
+    saturated ground. Two or three flat shapes sit behind it, a disc by the head and a band
+    at the far corner, plus black brush strokes.
+  repetition: >
+    The tile recipe repeats, not the subject: one cutout, one flat ground colour, a disc high
+    one side, a band low the other. A serial set is one subject class re-grounded in a new
+    colour per tile.
+  search_terms:
+    - paper cutout figure on colored background
+    - papercut collage dancer bright background
+    - portrait geometric shapes vibrant background studio
+    - single object layered colored paper
+    - abstract bottle collage flat color
+    - cutout silhouette flat saturated ground
+    - poster style portrait circle behind head
+    - bust geometric shapes purple background
+  examples:
+    - url: https://www.pexels.com/photo/colorful-abstract-bottle-collage-on-green-34699664/
+      image: https://images.pexels.com/photos/34699664/pexels-photo-34699664.jpeg?cs=srgb&dl=pexels-valentin-ivantsov-2154772556-34699664.jpg&fm=jpg
+      creator: Valentin Ivantsov
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        9f8db27a: hard-edged cutouts laid flat on one saturated ground, no photographic
+        backdrop, shapes overlapping each other rather than sitting in panels.
+      differs: >
+        Picsart keeps one subject only and adds black brush strokes; the repeated bottle
+        shapes would be cut to a single cutout at the tile ratio.
+    - url: https://www.pexels.com/photo/abstract-colorful-bottle-collage-art-39358898/
+      image: https://images.pexels.com/photos/39358898/pexels-photo-39358898.jpeg?cs=srgb&dl=pexels-valentin-ivantsov-2154772556-39358898.jpg&fm=jpg
+      creator: Valentin Ivantsov
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        9f8db27a: same recipe as the frame above in a second colourway, which is the serial
+        motif this family tiles: one cutout set, one flat ground, re-coloured per tile.
+      differs: >
+        Ground is neutral rather than saturated; Picsart would put it on purple or coral and
+        reduce the cluster to one subject with two shapes behind.
+    - url: https://www.pexels.com/photo/paper-cut-out-of-a-woman-on-a-blue-surface-8879834/
+      image: https://images.pexels.com/photos/8879834/pexels-photo-8879834.jpeg?cs=srgb&dl=pexels-polina-kovaleva-8879834.jpg&fm=jpg
+      creator: Polina Kovaleva
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        865c8f66: one cutout figure mid-gesture on a flat bright ground, layered colour shapes
+        behind the body, square poster framing with no divide.
+      differs: >
+        Picsart's cutout is photographic, not paper; ground becomes violet or coral and one or
+        two black brush strokes join the flat shapes.
+    - url: https://www.pexels.com/photo/paper-cutout-of-a-woman-in-a-bikini-8879924/
+      image: https://images.pexels.com/photos/8879924/pexels-photo-8879924.jpeg?cs=srgb&dl=pexels-polina-kovaleva-8879924.jpg&fm=jpg
+      creator: Polina Kovaleva
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        865c8f66: second frame of the same carnival series, so the same arrangement repeats
+        with a new figure and ground colour: one cutout, flat colour blocks behind it.
+      differs: >
+        Ground is warm earth tones in several blocks; Picsart uses one saturated colour and
+        keeps only two or three shapes.
+    - url: https://www.pexels.com/photo/woman-in-orange-long-sleeves-sitting-with-her-eyes-closed-7515727/
+      image: https://images.pexels.com/photos/7515727/pexels-photo-7515727.jpeg
+      creator: cottonbro studio
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        865c8f66: one person over a flat saturated yellow ground with flat geometric shapes
+        layered behind and beside the body, single frame, poster-like.
+      differs: >
+        The shapes are physical props in the studio; Picsart flattens them to graphic discs
+        behind a hard cutout edge and drops the cast shadow.
+    - url: https://www.pexels.com/photo/woman-in-orange-zip-up-shirt-beside-a-yellow-wall-7510011/
+      image: https://images.pexels.com/photos/7510011/pexels-photo-7510011.jpeg
+      creator: cottonbro studio
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        865c8f66: same shoot as the frame above, one subject against a flat yellow ground with
+        geometric shapes around her: the serial set this family tiles.
+      differs: >
+        Framing is looser and the wall reads as a real backdrop; Picsart crops to the tile and
+        replaces the wall with a flat ground.
+    - url: https://www.pexels.com/photo/vibrant-red-ball-on-colorful-abstract-background-33971352/
+      image: https://images.pexels.com/photos/33971352/pexels-photo-33971352.jpeg
+      creator: Sóc Năng Động
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        9f8db27a: one object centred over flat colour planes layered behind it, no panel
+        divide, shapes reading as graphic ground rather than a scene.
+      differs: >
+        The paper layers are stepped and shaded; Picsart wants two or three flat shapes and a
+        single ground colour, and crops to 1:1.
+    - url: https://unsplash.com/photos/white-bust-geometric-shapes-and-robert-greene-text-on-purple-FxWEO7m6QnY
+      image: https://images.unsplash.com/photo-1783537781695-cf89566d7fec
+      creator: Brecht Corbeel
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        865c8f66: one subject centred on a flat violet ground with geometric shapes floating
+        behind it, single frame, poster arrangement.
+      differs: >
+        Picsart strips the "robert greene" lettering unless `> text:` names a word, and swaps
+        the 3D cubes for flat discs and black brush strokes.
