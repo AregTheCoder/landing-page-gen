@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import apiclient, attrs, calibration, db, discover, embed, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
+from . import apiclient, attrs, calibration, db, discover, doctor, embed, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -173,6 +173,8 @@ def main(argv=None) -> int:
     fb.add_argument("run", type=Path, help="runs/<run> with benchmark.md and slots.json")
     fb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
 
+    sub.add_parser("doctor", help="Verify the corpus conforms to the metastructure (snapshots indexed, assets measured, styles synced, labels in-enum, pool well-formed); exits non-zero on an ERROR")
+
     a = p.parse_args(argv)
     if a.cmd == "init":
         db.connect(a.db).close()
@@ -200,6 +202,8 @@ def main(argv=None) -> int:
         return cmd_organise(a)
     if a.cmd == "feedback":
         return cmd_feedback(a)
+    if a.cmd == "doctor":
+        return doctor.report(doctor.run(a.db))
     if a.cmd == "widen":
         try:
             path, searched, added = widen.widen(a.family, styles.load(), backend=a.backend, limit=a.limit,

@@ -207,3 +207,10 @@ Never wired into a node; they widen what a family's photography can look like.
   inform the prompt; they are never node inputs.
 - **A run's spend is auditable.** Every paid URL is in `ledger.jsonl`; `report.md`
   reconciles quoted vs spent against the `picsart_credits` delta.
+- **The corpus is verifiable.** `lp-corpus doctor` is the machine check of this
+  document: every snapshot indexed, every generated asset measured, `styles.yaml`
+  derived from `attributes.yaml` and mirrored into `media.style`, every label
+  inside its enum, the pool well-formed. Run it after a scrape (and in CI); an
+  ERROR means a stage was skipped or a source hand-edited, and it exits non-zero.
+  A new page conforms to this format by passing through the full pipeline and
+  clearing `doctor` — that is the intake contract.

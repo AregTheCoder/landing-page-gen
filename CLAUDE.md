@@ -47,6 +47,7 @@ uv run lp-corpus labels                                   # merge every corpus/l
 uv run lp-corpus taxonomy --out corpus/taxonomy           # cross-tab + contact sheets from attributes.yaml -> report.md
 uv run lp-corpus styles --from-attrs                      # derive corpus/styles.yaml from the attributes through the rule table
 uv run lp-corpus organise [--dry-run]                     # rebuild library/: a browsable hardlink tree (page dossiers; assets by model -> art_style -> structure) + a Markdown sidecar per asset
+uv run lp-corpus doctor                                   # verify the corpus conforms to metastructure.md (snapshots indexed, assets measured, styles synced + mirrored, labels in-enum, pool well-formed); exits non-zero on an ERROR. Run before and after a scrape.
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
 uv run lp-corpus similar --type hero --style full-bleed --query "<headline and body>" \
     --exclude ai-image-generator --exclude-asset <8hex> -k 3 --out runs/<run>/sections/S01/examples
