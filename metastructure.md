@@ -60,6 +60,10 @@ projection of the snapshots plus `styles.yaml`. Tables:
 - **texts** — `id, section_id, tid, tag, text, href, selector`
 - **sections_fts** (+ shadow tables) — BM25 over section Markdown, what `similar` queries.
 
+Indexed on `media(src)`, `media(section_id)`, `sections(page_id)` and
+`texts(section_id)`, added by `connect()` on every open, so `attrs`/`styles`
+apply their ~3300 per-src updates by index seek, not a table scan.
+
 `media.src` is the unwrapped CDN asset URL and is the **join key** across the whole
 corpus — `attributes.yaml`, `styles.yaml` and `references/` are all keyed by it.
 `media.role` gates spend: `creative`/`thumbnail` are generated; `ui-screenshot`,
@@ -75,6 +79,11 @@ enums (`art_style`, `chrome`, `subject`, `text_in_image`, `ui_mockup`,
 `family_hint`, `confidence`). The `labelled:` list records which fields came from a
 sheet. **Never hand-edit this file** — the enums are pinned across `attrs.FIELDS`,
 `picsart-workflows/style-families.md` and `tests/test_styles.py` and move together.
+
+A long measuring pass checkpoints to `corpus/attributes.partial.jsonl` (an
+append-only delta, gitignored) instead of re-dumping the whole 2.4 MB file every
+100 assets; a crashed pass resumes from it and the final `merge_save` folds it in
+and unlinks it.
 
 Supporting label data:
 - `corpus/labels/<asset>.png` + `*.manifest.yaml` — contact sheets asking for the

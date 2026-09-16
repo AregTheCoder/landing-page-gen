@@ -330,3 +330,22 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   names only, so they cannot see, pace or ledger an `lp-corpus` HTTP call —
   `apiclient`/`ledger` are that guard, and `--dry-run` is how a sweep is
   costed before it is run. (2026-09-16)
+- The cost of an agent role is **context × turns**, not bytes: cache-read is
+  70–85% of every role's bill, so a file (or an image, or a skill companion)
+  read once is paid for on every later turn of that agent. Optimise by cutting
+  turns (bounded polling, a higher turn cap so a section finishes in one spawn)
+  and per-turn context (a deterministic `brief.py` so the manager stops reading
+  style-families.md/slots.json/examples in the wave; the reviewer reads
+  workflow.yaml not flow.md). `lp-tokens <run>` measures it from the session
+  transcript. (2026-09-16)
+- Poll an async video job by its own estimate, not by spinning: record the job
+  handle the instant generate returns, then at most three `job_status` per clip
+  with one `sleep` of `progress.estimatedSecondsLeft` between — ten bare polls
+  are ten turns, a sleep-and-check is one. (2026-09-16)
+- `precheck.py` owns the credit reconciliation (spent vs the ledger rows, by
+  prompt); the reviewer checks only the advisory cap and never greps the ledger
+  (it was 40 of 122 reviewer turns in live-5). (2026-09-16)
+- Parse the corpus YAML with the libyaml C loader/dumper (`styles.LOADER/
+  DUMPER`, shared via `load_yaml`/`dump_yaml`) and index `media(src)` /
+  `media(section_id)`: the two together take a maintenance command's YAML+DB
+  cost from ~12s to under 1s. YAML stays the single committed form. (2026-09-16)
