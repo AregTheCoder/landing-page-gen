@@ -162,10 +162,13 @@ def corpus_hashes(pool_dir=POOL_DIR, attrs_path=attrs.ATTRIBUTES_YAML, styles_pa
 
 
 def nearest_dup(h, hm, hashed, cap):
-    """(distance, name) of the closest hash within cap, the mirror tried too."""
+    """(distance, name) of the closest hash within cap, the mirror tried too.
+    `hashed` is a list of (int-hash, name): the caller parses the corpus/pool
+    hex once per search instead of this loop re-parsing it per candidate."""
+    hi, hmi = int(h, 16), int(hm, 16)
     best = None
     for other, name in hashed:
-        d = min(phash.hamming(h, other), phash.hamming(hm, other))
+        d = min((hi ^ other).bit_count(), (hmi ^ other).bit_count())
         if d <= cap and (best is None or d < best[0]):
             best = (d, name)
     return best
@@ -798,8 +801,8 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                     target, sc, nearest = best, best_sc, best_nearest
         candidates.append((sc, eid, ph, h, hm, features, nearest, target, scores))
 
-    corpus_hashed = [(rec["phash"], attrs.asset_id(src)) for src, rec in hashes.items()]
-    pool_hashed = [(e["phash"], other) for other, e in existing.items() if e.get("phash")]
+    corpus_hashed = [(int(rec["phash"], 16), attrs.asset_id(src)) for src, rec in hashes.items()]
+    pool_hashed = [(int(e["phash"], 16), other) for other, e in existing.items() if e.get("phash")]
     today = datetime.date.today().isoformat()
     datas = {family: data}
     by_creator = Counter()
@@ -852,7 +855,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                 stats["dropped_by"]["threshold"] += 1
                 stats["auto_dropped"] += 1
         if entry["state"] == "pending":
-            pool_hashed.append((h, eid))
+            pool_hashed.append((int(h, 16), eid))
             by_creator[ph.get("creator") or ""] += 1
             stats["new"] += 1
         else:
@@ -1125,7 +1128,7 @@ def ingest_labels(family=None, pool_dir=POOL_DIR, keys=None, fetch=stock.fetch_j
                 entry["drop"] = "off-style (sheet answer)"
             stats["kept" if keep else "dropped"] += 1
     if any(e.get("state") == "kept" for d in datas.values() for e in d["entries"].values()):
-        hashed = [(rec["phash"], attrs.asset_id(src)) for src, rec in corpus_hashes(pool_dir, log=log).items()]
+        hashed = [(int(rec["phash"], 16), attrs.asset_id(src)) for src, rec in corpus_hashes(pool_dir, log=log).items()]
         for data in datas.values():
             for eid, e in data["entries"].items():
                 if e.get("state") != "kept":

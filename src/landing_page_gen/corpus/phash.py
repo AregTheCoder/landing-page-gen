@@ -39,4 +39,4 @@ def dhash_pair(source):
 
 def hamming(a, b):
     """Bit distance between two 16-hex hashes."""
-    return bin(int(a, 16) ^ int(b, 16)).count("1")
+    return (int(a, 16) ^ int(b, 16)).bit_count()

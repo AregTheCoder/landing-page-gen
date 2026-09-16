@@ -967,3 +967,14 @@ def test_ranker_prepare_reuses_passed_mappings_without_reloading(monkeypatch):
     monkeypatch.setattr(pool.styles, "load", lambda *a, **k: loads.__setitem__("styles", loads["styles"] + 1))
     pool.HistogramRanker().prepare(FAMILY, attrs_mapping, styles_mapping)
     assert loads == {"attrs": 0, "styles": 0}
+
+
+def test_nearest_dup_takes_int_hashes_parsed_once():
+    """B6: nearest_dup compares against pre-parsed int hashes (min over the
+    mirror), so the corpus/pool hex is parsed once per search, not per candidate."""
+    hashed = [(int("0" * 16, 16), "a"), (int("f" * 16, 16), "b")]
+    assert pool.nearest_dup("0" * 16, "1" * 16, hashed, 6) == (0, "a")
+    # the mirror is what is within cap: h ("0f"*8, 32 bits from both) is beyond
+    # cap, but the mirror hm equals "b"
+    assert pool.nearest_dup("0f" * 8, "f" * 16, hashed, 6) == (0, "b")
+    assert pool.nearest_dup("5" * 16, "a" * 16, hashed, 6) is None
