@@ -27,6 +27,13 @@ corpus/labels/*.png
 corpus/labels/README.md
 # Widened look-corpus: the yaml (URLs, provenance) stays; thumbnails are re-fetched.
 corpus/widened/**/*.png
+# Stock pool: yamls, sheet manifests, answers, the calibration and the run log
+# stay; eval thumbs, sheet PNGs, the API cache and the embedding cache are all
+# rebuildable, and the cache is per-machine state keyed to per-machine API keys.
+corpus/pool/thumbs/
+corpus/pool/sheets/*.png
+corpus/pool/_api.sqlite*
+corpus/pool/_embed/
 corpus/pages/*/*
 !corpus/pages/*/sections.md
 !corpus/pages/*/meta.json
@@ -36,3 +43,6 @@ corpus/pages/*/*
 
 # Per-machine Claude Code overrides
 .claude/settings.local.json
+
+# generated browsable view of the corpus (rebuilt by `lp-corpus organise`)
+library/

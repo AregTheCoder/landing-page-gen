@@ -15,6 +15,15 @@ dependencies = [
     "pyyaml>=6.0.3",
 ]
 
+[project.optional-dependencies]
+# CLIP ranking for the stock pool (`lp-corpus pool embed`, `--rank clip`).
+# Kept out of the core install: torch plus the weights is ~1 GB and nothing in
+# generation needs it; without it the pool ranks on histograms.
+embed = [
+    "open_clip_torch>=2.24",
+    "torch>=2.2",
+]
+
 [project.scripts]
 lp-corpus = "landing_page_gen.corpus.cli:main"
 lp-inject = "landing_page_gen.inject.cli:main"

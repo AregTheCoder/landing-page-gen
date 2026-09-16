@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import attrs, db, discover, label, media, sectionize, sheets, similar, skeleton, snapshot, styles, taxonomy, widen
+from . import apiclient, attrs, calibration, db, discover, embed, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -70,6 +70,10 @@ def main(argv=None) -> int:
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
     sm.add_argument("--widen", type=int, default=0, metavar="N",
                     help="add N reverse-image neighbours of the --style family from corpus/widened/ as look references")
+    sm.add_argument("--pool", type=int, default=0, metavar="N",
+                    help="add N kept licensed stock images of the --style family from corpus/pool/ as look references")
+    sm.add_argument("--seed", default="", help="rotation seed for --pool (the run folder name): same seed, same picks")
+    sm.add_argument("--pool-aspect", choices=sectionize.ASPECT_CLASSES, help="only pool entries of this aspect class")
     sm.add_argument("--out", type=Path, required=True, help="folder for the excerpts and media")
 
     w = sub.add_parser("widen", help="Reverse-image search every tagged asset of a family -> corpus/widened/<family>.yaml")
@@ -79,6 +83,44 @@ def main(argv=None) -> int:
     w.add_argument("--limit", type=int, help="search at most this many assets")
     w.add_argument("--exact", action="store_true", help="exact matches (the photo's own stock page) instead of visual neighbours")
     w.add_argument("--out", type=Path, default=widen.WIDENED_DIR)
+
+    pl = sub.add_parser("pool", help="Licensed stock pool per family: search -> sheets -> labels; served by `similar --pool`")
+    pl.add_argument("stage", choices=("search", "sheets", "labels", "embed", "calibrate", "quota"),
+                    help="search = fetch, dedupe and rank new candidates; sheets = contact sheets of pending entries; "
+                         "labels = merge the answers, keep or drop; embed = build the CLIP cache the clip ranker reads; "
+                         "calibrate = turn the answers into a threshold and per-term keep rates; quota = how much each family is owed")
+    pl.add_argument("family", nargs="?", choices=db.STYLES, help="style family (labels without one merges every family)")
+    pl.add_argument("--terms", action="append", default=[],
+                    help="search term (repeatable; default: the family's corpus/references search_terms)")
+    pl.add_argument("--limit-per-term", type=int, default=30,
+                    help="admitted candidates per platform per term per run (default 30)")
+    pl.add_argument("--platform", action="append", choices=stock.PLATFORMS + ("all",),
+                    help="repeatable; default all (a platform with no key is skipped)")
+    pl.add_argument("--orientation", choices=stock.ORIENTATIONS, help="passed to every API; default: the family's own shape")
+    pl.add_argument("--pages", type=int, default=1, help="how deep to page, breadth-first (default 1)")
+    pl.add_argument("--min-width", type=int, default=pool.MIN_WIDTH, help=f"reject narrower photos (default {pool.MIN_WIDTH})")
+    pl.add_argument("--keep-floor", type=float, default=pool.KEEP_FLOOR,
+                    help="calibrated keep rate below which a term gets no second page")
+    pl.add_argument("--explore", type=float, default=pool.EXPLORE,
+                    help="share of below-threshold candidates sheeted anyway (default 0.1)")
+    pl.add_argument("--composition", choices=pool.COMPOSITIONS, default=pool.BARE,
+                    help="bare = the raw photograph that goes inside the chrome (default); "
+                         "layout = a picture that already carries the arrangement "
+                         "(split, grid, collage, mockup scene)")
+    pl.add_argument("--max-per-creator", type=int, default=pool.MAX_PER_CREATOR,
+                    help=f"cap on one creator's shoot per term (default {pool.MAX_PER_CREATOR}); "
+                         "raise it for template families, where a serial set is the point")
+    pl.add_argument("--no-threshold", action="store_true", help="sheet everything: ignore the calibrated auto-drop")
+    pl.add_argument("--dry-run", action="store_true", help="print the planned requests per platform and make none")
+    pl.add_argument("--refresh", action="store_true", help="bypass the response cache (Pixabay keeps its 24 h floor)")
+    pl.add_argument("--max-requests", type=int, default=0, help="stop the run after this many API requests (0 = tier caps only)")
+    pl.add_argument("--resheet", action="store_true", help="rebuild sheets for entries already stamped with one")
+    pl.add_argument("--rank", choices=tuple(pool.RANKERS), help="ranker (default: clip when `uv sync --extra embed` is installed)")
+    pl.add_argument("--describe", action="store_true", help="pool embed: report the cache instead of building it")
+    pl.add_argument("--write", action="store_true", help="pool calibrate: write _calibration.yaml instead of only printing it")
+    pl.add_argument("--family-check", action="store_true", help="pool calibrate: also run the leave-one-out family agreement check (needs the clip cache)")
+    pl.add_argument("--quota-base", type=int, default=pool.QUOTA_BASE, help="candidates per platform for the largest family")
+    pl.add_argument("--out", type=Path, default=pool.POOL_DIR)
 
     st = sub.add_parser("styles", help="Derive corpus/styles.yaml from the attributes through the rule table, or mirror it into media.style")
     st.add_argument("--styles", type=Path, default=styles.STYLES_YAML, help="yaml of tags (default corpus/styles.yaml)")
@@ -120,6 +162,17 @@ def main(argv=None) -> int:
     tx.add_argument("--min", type=int, default=5, help="groups with fewer assets share one sheet per type")
     tx.add_argument("--per-cell", type=int, default=12, help="thumbnails per sheet")
 
+    org = sub.add_parser("organise", help="Rebuild library/: a browsable tree of pages + assets filed by model -> art_style -> structure, each with a Markdown sidecar")
+    org.add_argument("--root", type=Path, default=library.LIBRARY_DIR)
+    org.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    org.add_argument("--styles", type=Path, default=styles.STYLES_YAML)
+    org.add_argument("--frames", type=Path, default=attrs.FRAMES_DIR)
+    org.add_argument("--dry-run", action="store_true", help="count what would be built, write nothing")
+
+    fb = sub.add_parser("feedback", help="Queue a finished run's data-suspect originals (benchmark family-mismatch flags on chrome-unanswered tags) for re-labelling first")
+    fb.add_argument("run", type=Path, help="runs/<run> with benchmark.md and slots.json")
+    fb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+
     a = p.parse_args(argv)
     if a.cmd == "init":
         db.connect(a.db).close()
@@ -143,6 +196,10 @@ def main(argv=None) -> int:
         return cmd_labels(a)
     if a.cmd == "taxonomy":
         return cmd_taxonomy(a)
+    if a.cmd == "organise":
+        return cmd_organise(a)
+    if a.cmd == "feedback":
+        return cmd_feedback(a)
     if a.cmd == "widen":
         try:
             path, searched, added = widen.widen(a.family, styles.load(), backend=a.backend, limit=a.limit,
@@ -150,6 +207,125 @@ def main(argv=None) -> int:
         except ValueError as exc:
             p.error(str(exc))
         print(f"{path}: {searched} asset(s) searched, {added} match(es) added")
+        return 0
+    if a.cmd == "pool":
+        if a.stage in ("search", "sheets") and not a.family:
+            p.error(f"pool {a.stage} needs a family")
+        try:
+            if a.stage == "quota":
+                counts = pool.family_counts()
+                cal = calibration.load()
+                kept = {fam: sum(1 for e in pool.load(fam, a.out)["entries"].values() if e.get("state") == "kept")
+                        for fam in db.STYLES}
+                print(f"{'family':22} {'corpus':>7} {'kept':>6} {'quota':>7} {'per term':>9}")
+                for fam in sorted(db.STYLES, key=lambda f: counts.get(f, 0)):
+                    terms = pool.reference_terms(fam) or [""]
+                    want, per_term = pool.plan_search(fam, counts, terms, a.quota_base, cal)
+                    print(f"{fam:22} {counts.get(fam, 0):7} {kept[fam]:6} {want:7} {per_term:9}")
+                return 0
+            if a.stage == "calibrate":
+                fams = [a.family] if a.family else list(db.STYLES)
+                entries = {fam: pool.load(fam, a.out)["entries"] for fam in fams}
+                cal = calibration.calibrate(entries)
+                if a.family_check:
+                    try:
+                        encoder = embed.load_encoder()
+                    except ImportError as exc:
+                        p.error(str(exc))
+                    emb, _ = embed.corpus_embeddings(encoder, cache_dir=Path(a.out) / "_embed", log=log)
+                    hints = {attrs.asset_id(src): (rec.get("family_hint") or None)
+                             for src, rec in attrs.load().items()}
+                    cal["family_check"] = calibration.family_check(emb, hints)
+                for name, rec in (cal.get("rankers") or {}).items():
+                    print(f"{name}: {rec['labels']} label(s), keep rate {rec['keep_rate']}, auc {rec['auc']}")
+                    print(f"  threshold {rec['threshold']} at recall {rec['threshold_recall']} "
+                          f"-> would skip {rec['would_skip']} of the labelled set")
+                    for fam, f in (rec.get("families") or {}).items():
+                        print(f"  {fam:22} {f['labels']:4} labels  keep {f['keep_rate']:<6} threshold {f['threshold']}")
+                    for fam, terms in (rec.get("terms") or {}).items():
+                        for term, t in terms.items():
+                            if t.get("prune"):
+                                print(f"  prune? {fam} {term!r}: {t['kept']}/{t['n']} kept")
+                if cal.get("family_check"):
+                    fc = cal["family_check"]
+                    print(f"family check on {fc['n']} asset(s): argmax vs tag {fc['argmax_vs_tag']}, "
+                          f"merged photo families {fc['argmax_vs_tag_merged_photo']}, "
+                          f"vs hint {fc['argmax_vs_hint']} (hint vs tag {fc['hint_vs_tag']})")
+                if a.write:
+                    print(f"{calibration.save(cal, Path(a.out) / '_calibration.yaml')}: written")
+                return 0
+            if a.stage == "embed":
+                if a.describe:
+                    for model, rec in (embed.describe(Path(a.out) / "_embed") or {}).items():
+                        for name, info in rec.items():
+                            top = ", ".join(f"{f} {n}" for f, n in list(info["families"].items())[:5])
+                            print(f"{model} {name}: {info['rows']} rows, dim {info['dim']}"
+                                  + (f" ({top})" if top else ""))
+                    return 0
+                try:
+                    encoder = embed.load_encoder()
+                except ImportError as exc:
+                    p.error(str(exc))
+                _, stats = embed.corpus_embeddings(encoder, cache_dir=Path(a.out) / "_embed",
+                                                   refresh=a.refresh, log=log)
+                print(f"{stats['rows']} corpus still(s) on {encoder.name}: "
+                      f"{stats['embedded']} embedded, {stats['reused']} reused -> {a.out}/_embed")
+                return 0
+            if a.stage == "search":
+                chosen = [pf for pf in (a.platform or []) if pf != "all"]
+                platforms = tuple(chosen) if chosen else stock.PLATFORMS
+                run_id = __import__("datetime").datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+                # no key anywhere is an error pool.search raises; do not open a
+                # ledger (and leave an empty sqlite behind) to find that out
+                have_keys, _ = stock.keys_available(platforms)
+                led = ledger.Ledger(Path(a.out) / "_api.sqlite") if have_keys else None
+                client = apiclient.Client(ledger=led, run_id=run_id, max_requests=a.max_requests,
+                                          refresh=a.refresh, log=log) if have_keys else None
+                common = dict(terms=a.terms or None, platforms=platforms, orientation=a.orientation,
+                              pages=a.pages, min_width=a.min_width, keep_floor=a.keep_floor,
+                              pool_dir=a.out, client=client)
+                if a.dry_run:
+                    common["ranker_name"] = a.rank
+                if a.dry_run:
+                    planned, stats = pool.plan(a.family, log=log, **common)
+                    for pf, rec in planned.items():
+                        windows = " ".join(f"{w['used']}/{int(w['cap'] * 0.9)} per {w['seconds']}s"
+                                           for w in rec["windows"]) or "no ledger"
+                        print(f"  {pf:9} {rec['planned']:4} planned  {rec['cached']:4} cached  "
+                              f"{rec['to_fetch']:4} to fetch   {windows}   {'ok' if rec['ok'] else 'OVER BUDGET'}")
+                    for pf in stats["skipped_platforms"]:
+                        print(f"  {pf:9} no {stock.KEYS[pf]}; skipped")
+                    print(f"dry run: {a.family} — {stats['terms']} term(s), pages <= {a.pages}, no requests made")
+                    return 0
+                paths, stats = pool.search(a.family, limit_per_term=a.limit_per_term, explore=a.explore,
+                                           use_threshold=not a.no_threshold, ranker_name=a.rank,
+                                           max_per_creator=a.max_per_creator,
+                                           composition=a.composition,
+                                           run_id=run_id, log=log, **common)
+                for pf, st in stats["platforms"].items():
+                    pre = st["prefiltered"]
+                    print(f"  {pf:9} {st['requests']:4} req  {st['cache_hits']:3} cached  {st['results']:5} results  "
+                          f"{st['dup_id']:5} known  {pre['aspect'] + pre['min_width'] + pre['no_image'] + pre['licence']:4} prefiltered  "
+                          f"{st['admitted']:4} admitted  {st['thumb_bytes'] // 1024:6} KiB"
+                          + (f"  STOPPED ({st['stopped']})" if st["stopped"] else ""))
+                if led is not None:
+                    led.append_run(stats)
+                for path in paths:
+                    print(f"{path}: {stats['raw']} found, {stats['new']} new, {stats['dropped']} dropped "
+                          f"({stats['dropped_by']['corpus']} corpus, {stats['dropped_by']['pool']} pool, "
+                          f"{stats['dropped_by']['threshold']} below threshold)"
+                          + (" (rate limited, re-run to resume)" if stats["rate_limited"] else ""))
+            elif a.stage == "sheets":
+                _, stats = pool.build_sheets(a.family, pool_dir=a.out, resheet=a.resheet, log=log)
+                print(f"{stats['sheets']} sheet(s) for {stats['pending']} pending entr(ies) -> {a.out}/sheets")
+            else:
+                stats = pool.ingest_labels(a.family, pool_dir=a.out, log=log)
+                for err in stats["errors"]:
+                    log(f"  {err}")
+                print(f"{stats['answered']}/{stats['sheets']} sheet(s) answered: "
+                      f"{stats['kept']} kept, {stats['dropped']} dropped")
+        except ValueError as exc:
+            p.error(str(exc))
         return 0
     if a.cmd == "skeleton":
         con = db.connect(a.db)
@@ -181,6 +357,14 @@ def main(argv=None) -> int:
             if not picks:
                 log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
             widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
+        if a.pool:
+            if not fam:
+                p.error("--pool needs --style: the pool is stored per family")
+            picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect)
+            if not picks:
+                log(f"no kept pool entries for {fam}: run `lp-corpus pool search {fam}` and answer the sheets")
+            pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
+                                start=len(rows) + 1 + a.widen)
         tagged = sum(1 for r in rows if con.execute(
             "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0
         print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")
@@ -365,13 +549,39 @@ def cmd_labels(a):
     n = attrs.apply(con, mapping)
     cov = label.coverage(mapping)
     print(f"labels: {stats['answered']}/{stats['sheets']} sheets answered, {stats['cells']} cells merged, "
-          f"{n} media rows touched -> {a.attrs}")
+          f"{stats['migrated']} files/records migrated, {n} media rows touched -> {a.attrs}")
     done = round(cov["complete"] * len(mapping))
     print(f"  {done}/{len(mapping)} records complete, "
           f"{100 * taxonomy.resolved_share(mapping):.0f} % resolve to a family")
     for err in stats["errors"][:20]:
         print(f"  {err}")
     return 1 if stats["errors"] else 0
+
+
+def cmd_feedback(a):
+    from . import feedback
+    suspects, queue = feedback.from_run(a.run, a.attrs)
+    print(f"feedback: {len(suspects)} data-suspect original(s) from {a.run} queued; "
+          f"{len(queue)} in the re-label queue -> {feedback.QUEUE_PATH}")
+    return 0
+
+
+def cmd_organise(a):
+    con = db.connect(a.db)
+    attrs_mapping = attrs.load(a.attrs)
+    styles_mapping = styles.load(a.styles)
+    hashes = {src: (e or {}).get("phash") for src, e in
+              (yaml.safe_load((pool.POOL_DIR / "_hashes.yaml").read_text()) or {}).items()} \
+        if (pool.POOL_DIR / "_hashes.yaml").exists() else {}
+    c = library.organise(a.root, con, attrs_mapping, styles_mapping, hashes,
+                         a.pages_dir, PAGES_YAML, a.frames, dry_run=a.dry_run, log=log)
+    verb = "would organise" if a.dry_run else "organised"
+    extra = f", {c['copied']} copied not linked" if c.get("copied") else ""
+    print(f"library ({verb}): {c['images']} images, {c['videos']} videos, {c['screenshots']} screenshots, "
+          f"{c['pages']} pages (+{c['shells']} app shells) -> {a.root}; "
+          f"{c['missing']} missing files, {c['no_poster']} videos without poster, "
+          f"{c['no_art']} images without art_style{extra}")
+    return 0
 
 
 def cmd_taxonomy(a):
