@@ -139,18 +139,23 @@ def prompt():
 
 
 def write_index(sheets, out_dir=LABELS_DIR, stats=None):
-    """README.md: the labelling prompt and one row per sheet."""
+    """README.md: the labelling prompt and stats, what a label subagent reads.
+    The per-sheet table (one row per sheet, hundreds of them) goes to its own
+    index.md so a subagent is not handed ~45 KB of rows it does not need."""
     out_dir = Path(out_dir)
-    lines = [f"# Labelling sheets ({len(sheets)})", ""]
+    head = [f"# Labelling sheets ({len(sheets)})", ""]
     if stats:
-        lines += [f"{stats['pending']} assets pending in {stats['groups']} groups; "
-                  f"{stats['answered']}/{len(sheets)} sheets answered.", ""]
-    lines += ["| sheet | cells | type | ground | layout | answered |",
-              "| --- | --- | --- | --- | --- | --- |"]
+        head += [f"{stats['pending']} assets pending in {stats['groups']} groups; "
+                 f"{stats['answered']}/{len(sheets)} sheets answered.", ""]
+
+    table = ["| sheet | cells | type | ground | layout | answered |",
+             "| --- | --- | --- | --- | --- | --- |"]
     for s in sheets:
-        lines.append(f"| {s['name']}.png | {s['cells']} | " + " | ".join(s["group"])
+        table.append(f"| {s['name']}.png | {s['cells']} | " + " | ".join(s["group"])
                      + f" | {'yes' if s['answered'] else ''} |")
-    lines += ["", "## Prompt", "", prompt(), ""]
+    (out_dir / "index.md").write_text("\n".join([*head, *table, ""]))
+
     path = out_dir / "README.md"
-    path.write_text("\n".join(lines))
+    path.write_text("\n".join([*head, "The per-sheet table is in `index.md`.", "",
+                               "## Prompt", "", prompt(), ""]))
     return path

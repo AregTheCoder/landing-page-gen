@@ -221,7 +221,11 @@ def test_sheets_group_the_pending_assets_and_labels_merge_the_answers(tmp_path):
     assert man["cells"][1]["asset"] == "00000000" and man["cells"][1]["ground"] == "black"
     assert man["fields"] == sorted(sheets.SEMANTIC), "every measurable field is already answered"
     index = sheets.write_index(built, tmp_path / "labels", stats)
-    assert "chrome (list, any of tile" in index.read_text()
+    readme = index.read_text()
+    assert "chrome (list, any of tile" in readme  # the prompt stays in README.md
+    assert "| sheet | cells |" not in readme, "the per-sheet table is not in README"
+    table = (tmp_path / "labels" / "index.md").read_text()
+    assert "| sheet | cells |" in table and f"{built[0]['name']}.png" in table
 
     answers = {1: {k: v for k, v in DARK_LIGHT.items() if k in sheets.SEMANTIC},
                2: {"art_style": "nope", "subject": "person"},
