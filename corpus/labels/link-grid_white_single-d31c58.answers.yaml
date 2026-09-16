@@ -1,0 +1,81 @@
+1:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: split portrait of a man with makeup retouch on one half
+  family_hint: before-after
+  confidence: 0.5
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: fanned stack of greeting card design templates
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: mixed
+  description: cake photo with a script headline and a small AI writer suggestion card
+  family_hint: template-mockup
+  confidence: 0.45
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: mixed
+  description: cake photo with a script headline and a small AI writer suggestion card
+  family_hint: template-mockup
+  confidence: 0.45
+5:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: fanned stack of poster and flyer design templates
+  family_hint: template-mockup
+  confidence: 0.6
+6:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: wide typographic poster template over a mountain photo
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: [play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: cosmetic tube product photo with a transparent checkerboard corner
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+8:
+  chrome: [play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: cosmetic tube product photo with a transparent checkerboard corner
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: flat-vector
+  description: two party invitation design templates side by side
+  family_hint: template-mockup
+  confidence: 0.65

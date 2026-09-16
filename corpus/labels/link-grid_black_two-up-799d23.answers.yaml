@@ -1,0 +1,18 @@
+1:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a four-up grid of a woman in different outfits on black with a round button
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman photo shown twice before and after with selection handles
+  family_hint: before-after
+  confidence: 0.6

@@ -4,11 +4,11 @@ group:
   ground: white
   layout: grid
 fields:
+- art_style
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - subject
 - text_in_image
 - ui_mockup

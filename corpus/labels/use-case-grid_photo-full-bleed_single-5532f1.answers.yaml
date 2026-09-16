@@ -1,0 +1,81 @@
+1:
+  chrome: [badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a polaroid of a person blowing bubblegum with handwritten text and numbered badges
+  family_hint: graphic-collage
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman against a plain grey-green background
+  family_hint: full-bleed
+  confidence: 0.85
+3:
+  chrome: [browser-window, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: browser-window
+  subject: person
+  art_style: mixed
+  description: a browser window with a portrait beside a grid of style thumbnails
+  family_hint: editor-canvas
+  confidence: 0.35
+4:
+  chrome: [button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a spring makers market poster with floral stickers and a sticker tool button
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: an art exhibition poster with a hand-drawn green smiley on a lime ground
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a hand holding an ornate mirror beside a purple sports car render on a coral ground
+  family_hint: graphic-collage
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink cold brew coffee package mockup on a purple ground
+  family_hint: mockup-card
+  confidence: 0.4
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman with reddish hair against a grey-green background
+  family_hint: full-bleed
+  confidence: 0.85
+9:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: illustration
+  art_style: mixed
+  description: a phone lock-screen wallpaper mockup with floral wallpaper cards on a purple grid
+  family_hint: template-mockup
+  confidence: 0.45

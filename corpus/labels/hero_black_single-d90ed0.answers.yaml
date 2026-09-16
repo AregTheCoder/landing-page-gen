@@ -1,0 +1,102 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  description: a pink Start new project button on black
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  description: an Upload a photo button on black
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man with a camera standing in a misty forest
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a dog on a green studio set with plants and a Remove BG chip
+  family_hint: cutout-checkerboard
+  confidence: 0.35
+5:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  description: a Generate prompt bar on black
+  family_hint: prompt-card
+  confidence: 0.4
+6:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a stylized pink haired character in a neon city with crop panels and a model logo
+  family_hint: dark-composite
+  confidence: 0.4
+7:
+  chrome: [brackets]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a green handbag on a table with white focus brackets
+  family_hint: crop-frame
+  confidence: 0.4
+8:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  description: an Upload a photo button on black
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  description: a dark upload icon tile on black
+  family_hint: other
+  confidence: 0.3
+10:
+  chrome: [tile, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a flowery meadow with Start Frame and End Frame thumbnails and a model logo
+  family_hint: dark-composite
+  confidence: 0.4
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  description: a collage grid icon tile on black
+  family_hint: other
+  confidence: 0.3
+12:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an ACE branded bottle on blue sky with tennis balls and a model logo tile
+  family_hint: dark-composite
+  confidence: 0.4

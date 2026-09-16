@@ -1,0 +1,120 @@
+1:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  description: a generate prompt panel beside a galaxy wallpaper on phone and tablet
+  family_hint: prompt-card
+  confidence: 0.75
+  before_after: false
+2:
+  chrome: [tile, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: collage
+  description: a man photo turned into a sticker social post with trust the vibe text
+  family_hint: mockup-card
+  confidence: 0.4
+  before_after: false
+3:
+  chrome: [mockup-card, badge, tile]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a woman photo beside an Annie Wang profile card with a cutout tile
+  family_hint: mockup-card
+  confidence: 0.75
+  before_after: false
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a woman photo beside a scrapbook collage of her with polaroids and stars
+  family_hint: graphic-collage
+  confidence: 0.6
+  before_after: false
+5:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two mushroom-scene portraits with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+6:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: an ice cream tub beside a woman eating ice cream with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+7:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two mushroom-scene portraits with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+8:
+  chrome: [model-logo, chip, size-label, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a model-picker list and aspect chips beside a man in a red sweater
+  family_hint: dark-composite
+  confidence: 0.7
+  before_after: false
+9:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: editor tool tiles beside a building strength fitness poster
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+10:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two full-body portraits with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+11:
+  chrome: [prompt-panel, chip, button]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a lyrics and language panel beside a figure on a red heart cloud
+  family_hint: prompt-card
+  confidence: 0.4
+  before_after: false
+12:
+  chrome: [pill, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: two coffee-bag packaging designs with model pills
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false

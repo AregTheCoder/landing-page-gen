@@ -1,0 +1,108 @@
+1:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked portraits of a woman in yellow with model name pills
+  family_hint: vs-two-up
+  confidence: 0.6
+2:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two urban selfie stills with model name pills
+  family_hint: vs-two-up
+  confidence: 0.6
+3:
+  chrome: [chip, tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: tinted sunglasses on a reflective surface above model chips and a tool tile
+  family_hint: dark-composite
+  confidence: 0.5
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: sneaker and figure sticker cutouts on a checkerboard with tool tiles
+  family_hint: cutout-checkerboard
+  confidence: 0.8
+5:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: businessman working on a laptop at the beach with a model logo and a tool tile
+  family_hint: dark-composite
+  confidence: 0.5
+6:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a man in white at the beach with a Before pill
+  family_hint: before-after
+  confidence: 0.7
+7:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: two model video stills of a creature and a skateboarder with model and spec chips
+  family_hint: vs-two-up
+  confidence: 0.6
+8:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: social post of a pickleball player with a headline overlay and social action icons
+  family_hint: mockup-card
+  confidence: 0.5
+9:
+  chrome: [prompt-panel, chip, model-logo, size-label]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: astronaut in a glowing mushroom forest with prompt text and model chips
+  family_hint: prompt-card
+  confidence: 0.7
+10:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two skincare portraits holding a cream jar with model name pills
+  family_hint: vs-two-up
+  confidence: 0.6
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a portrait beside its pop-art comic restyle with a tool tile
+  family_hint: dark-composite
+  confidence: 0.4
+12:
+  chrome: [chip, size-label]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a hand holding a Pulse soda can with resolution and aspect chips
+  family_hint: dark-composite
+  confidence: 0.5

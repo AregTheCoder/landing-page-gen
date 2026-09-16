@@ -1,0 +1,108 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: dandelion seed head photo beside a black panel with a Generate button
+  family_hint: prompt-card
+  confidence: 0.55
+3:
+  chrome: [tile, button, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: black and white video of a person at a desk beside motion control labels
+  family_hint: prompt-card
+  confidence: 0.5
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: scene
+  art_style: photo
+  description: voice profile card list beside a bookshelf photo with a title overlay
+  family_hint: mockup-card
+  confidence: 0.6
+5:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  description: black panel with a Generate button beside coffee latte photos
+  family_hint: prompt-card
+  confidence: 0.55
+6:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded Generate button on white
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+8:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a small magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: black rounded tile with a white planet line icon
+  family_hint: other
+  confidence: 0.3
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a suit and sunglasses sitting on stairs
+  family_hint: full-bleed
+  confidence: 0.55
+12:
+  chrome: [mockup-card, play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: food
+  art_style: photo
+  description: voice profile card list beside a pancake dessert photo with a play button
+  family_hint: mockup-card
+  confidence: 0.6

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: an album cover template with black-outlined geometric shapes on blue
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a warm wishes christmas card template with illustrated mittens and teapot on pink
+  family_hint: template-mockup
+  confidence: 0.55
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a november calendar template with a forest photo on tan
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a celebrate good times invitation with a cutout woman over teal leaf shapes
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a red lunar new year card with a gold snake and lanterns
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a teacher quote poster in script over pink crumpled paper
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: an autumn anniversaries card with a circular portrait and gold leaf sprigs
+  family_hint: template-mockup
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a playing-card style birthday game night invitation on cream
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a grand opening shoe flyer with red high heels on teal
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: a march 2026 calendar template on magenta
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a merry christmas photo card of a couple framed on red
+  family_hint: template-mockup
+  confidence: 0.55
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a merry christmas card with hanging ornament illustrations on blue
+  family_hint: template-mockup
+  confidence: 0.55

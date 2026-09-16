@@ -7,18 +7,46 @@ blank board; when `lp-flow templates` returns a gallery template that passes
 the three tests in `flow-boards.md`, its shape replaces the recipe's and the
 rules below still bind every node.
 
+## Workflow philosophy: plan the whole board up front
+
+A worker's board is not one call that ships whatever it returns, and it is not
+a generate that grows a refine only when a gate happens to find a flaw. It is a
+**multi-step recipe planned in full before the first call**: you look up the
+slot's family recipe in `recipes.md`, lay every planned node into
+`workflow.yaml` (the base generate, the i2i refine, the family's edit/compose
+steps, the finishing upscale), preflight the whole board against the cap, `lp-
+flow check` it, then run each node with its gate. Every planned node runs — the
+refine and the finish are part of the plan, not a reaction to a bad pass. A gate
+that fails re-runs *its own* node; it never decides whether a planned node
+exists. `lp-flow check` enforces the recipe from the board's `family:` line, so
+a shallow board does not wire. State what each planned node changed in its
+`reason`.
+
+"Layered", in the Picsart house style, is about the **finished picture**, not
+about stacking many photos: a photographic base layer with a clean graphic
+overlay laid over it — the panel-overlay / HSL family, where `lp-compose`
+draws the control panel over a generated stock photo (`style-families.md`).
+The worker iterates the photo layer toward final; the overlay layer is the
+deterministic compose step. (Distinct from the `layered` recipe below, which
+is the different job of seating one subject inside a generated scene.) Keep
+both clean: depth of iteration, not a pile of elements.
+
 ## Board recipes
 
 **direct**: for the hero or any slot with no shared context yet.
-Board: START → `image` → (`edit`) → (`enhance`) → END.
-1. generate `gemini-3-pro-image`, `count: 1`, 1K, nearest ratio → gate: pass,
-   or fix the prompt and regenerate (once, as a new node). The prompt names
-   the stock genre from the brief's `## References` (subject, light,
-   backdrop, colour, framing) and keeps clear the area a chrome item will
-   cover.
-2. `edit` node (`picsart-qwen-image-edit`) only if the gate named a
-   concrete flaw (extra hand, stray object, wrong colour).
-3. `enhance` ×2 if the slot is wider than 2000 px or the pick is soft.
+Board (planned whole): START → `image` generate → `image` i2i refine →
+`enhance` → END; add a `vectorize` node when the subject is a logo/mark
+(`recipes.md`).
+1. generate `gemini-3-pro-image`, `count: 1`, 1K, nearest ratio → gate. The
+   prompt names the stock genre from the brief's `## References` (subject,
+   light, backdrop, colour, framing) and keeps clear the area a chrome item
+   will cover.
+2. `image` i2i refine (planned, always): the base in `imageUrls`, a prompt
+   describing only the improvement (tighter or fuller subject, cleaner light,
+   fixed crop) → gate. A separate `edit` node (`picsart-qwen-image-edit`) is
+   added on top when the gate names a surgical flaw (extra hand, stray object).
+3. `enhance` (planned finishing upscale; ×2 when the slot is wider than 2000 px
+   or the pick is soft).
 
 **anchored** (default after the hero): same board as direct, but the prompt carries
 the hero's light, palette and finish in words from `shared-context.md`
@@ -67,9 +95,11 @@ a specific plate.
   harmonise (`in:` the plate and the cutout, both in `imageUrls`, a prompt
   that only seats the subject: contact shadow to the named side, match the
   warm light and the plate's grain, keep the subject identical) → (`enhance`)
-  → END. `picsart_remove_bg` does not preflight-quote (the guard denies it
-  in a run), so a Route 2 board without a quotable cutout harmonises the
-  subject's own render instead of a cut.
+  → END. The flat-rate edit nodes carry no preflight quote; the guard prices
+  them from a fixed table (`cutout`/remove_bg 0, `background`/change_bg 2,
+  `enhance` 2, topaz 3) and allows them without a preflight, so a Route 2
+  board runs a true cut. (i2i-harmonise on the subject's own render is still
+  a valid cheaper variant when exact placement is not needed.)
 - Harmonisation gate, every item: one key-light side across the elements;
   one colour temperature; a contact shadow whose direction and softness
   match the plate's own; no matte line or halo; scale, horizon and
@@ -179,26 +209,32 @@ extra word, a finish the family forbids, a palette off shared context) —
 that is a gate failure, not variation. State the one thing you varied for a
 slot in its step `reason`.
 
-## Longer workflows: spend the per-slot headroom
+## The planned pipeline: every node authored before node 1
 
-The per-slot cap affords more than generate-and-stop. Once a panel passes
-its gate, the default next move is to add nodes that make it better, not to
-ship it:
+The recipe (`recipes.md`) is laid down whole before the first call, not grown
+as gates fire. The standard pipeline for an image slot:
 
 1. **generate** `image` node, `gemini-3-pro-image`, `count: 1` → gate.
-2. **critique** the pass against the brief and examples in the node note —
-   name the weakest concrete thing (soft subject, flat light, crop, a prop
-   that fights the palette). If nothing is weak, stop; do not spend to spend.
-3. **i2i refine**: an `image` node `in:` the pass, the pass in `imageUrls`
-   and a prompt describing only that change → gate. Keeps the composition,
-   fixes the flaw.
-4. **variation pass** (series slots, or a hero the reviewer may choose
-   among): one alternate `image` node that holds every invariant and moves
-   one varied axis, so there is a real choice, not a re-roll.
+2. **i2i refine** (planned, always present): an `image` node `in:` the pass,
+   the pass in `imageUrls`, a prompt describing only the improvement (tighter
+   or fuller subject, cleaner light, fixed crop) → gate. Name in its `reason`
+   the one thing it improved; the refine still earns its gate, but its
+   existence is fixed by the plan, not by whether the base looked acceptable.
+3. **family edit / compose** as `recipes.md` names it (cutout, background,
+   the after-edit for before-after, the `compose` chrome step).
+4. **finishing enhance** (planned on full-bleed and cinematic-still, and any
+   slot over 1000 px); **vectorize** last when the subject is a logo/mark.
+5. **variation pass** (series slots, or a hero the reviewer may choose among):
+   one alternate `image` node that holds every invariant and moves one varied
+   axis, so there is a real choice, not a re-roll.
 
-Every node is still preflighted, gated and recorded. Preflight the whole
-planned board before node 1 and stop if the quoted total exceeds the
-section cap — depth is for quality, never a licence to overrun the budget.
+Preflight the **whole** planned board before node 1; if the quoted total
+exceeds the section cap, drop the optional extras (a second refine, the
+variation) in that order until it fits, but never the recipe's own planned
+nodes — if the recipe floor alone exceeds the cap, stop and report. Every node
+is preflighted, gated and recorded. `lp-flow check` (which the manager re-runs
+in `precheck.py`) reads the board's `family:` and fails a board that skips a
+planned step.
 
 ## Gate checklist per node
 

@@ -1,0 +1,120 @@
+1:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a brand design of a man in a printed tee beside a typography poster tile
+  family_hint: template-mockup
+  confidence: 0.55
+  before_after: false
+2:
+  chrome: [vs-badge, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  description: two video model panels of a woman and a bottle compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+3:
+  chrome: [vs-badge, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  description: two video model panels of a woman and a bottle compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+4:
+  chrome: [mockup-card, button, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: two sponsored ad mockup cards showing a backpack product listing
+  family_hint: mockup-card
+  confidence: 0.6
+  before_after: false
+5:
+  chrome: [mockup-card, button, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: two sponsored ad mockup cards showing a backpack product listing
+  family_hint: mockup-card
+  confidence: 0.6
+  before_after: false
+6:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two panels of a person with a helmet by burning cars compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+7:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two video model panels of food crops and a person in a car with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+8:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two video model panels of food crops and a person in a car with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+9:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two model panels of a cutout collage and a person on a cloud with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false
+10:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model portraits of a woman with flowers compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+11:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model portraits of a woman with flowers compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+12:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model panels of a hand with a ball and a person in a field with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false

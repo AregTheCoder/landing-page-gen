@@ -1,0 +1,14 @@
+1:
+  text_in_image: headline
+  ui_mockup: browser-window
+  art_style: ui-screenshot
+  description: a Picsart add-stickers page in a browser with a Finder file-upload dialog open
+  family_hint: other
+  confidence: 0.5
+2:
+  text_in_image: headline
+  ui_mockup: browser-window
+  art_style: ui-screenshot
+  description: a Picsart rotate-image page in a browser with a Finder file-picker dialog open
+  family_hint: other
+  confidence: 0.5

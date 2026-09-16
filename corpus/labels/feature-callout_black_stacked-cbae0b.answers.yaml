@@ -1,0 +1,54 @@
+1:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: 3d-render
+  description: 3D koala holding coffee above a story prompt panel with Generate
+  family_hint: prompt-card
+  confidence: 0.85
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  description: a 3D alien character driving with a filmstrip of scene thumbnails above
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: legs in sneakers walking a park path with an Export bar below
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: social app mockup of a man in a blue neckerchief with BLUEKNOT branding and Follow
+  family_hint: mockup-card
+  confidence: 0.7
+5:
+  chrome: [pill, badge, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: astronaut sticker cutouts with flowers on checkerboard with a prompt pill and ai logo
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+6:
+  chrome: [tile, selection-handles]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: space exploration timeline poster with Templates pill and a selected star graphic
+  family_hint: template-mockup
+  confidence: 0.75

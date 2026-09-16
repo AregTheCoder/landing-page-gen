@@ -1,0 +1,77 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  ground: black
+  before_after: false
+  description: prompt panel beside two dogs watching a golden shooting star
+  family_hint: prompt-card
+  confidence: 0.7
+2:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: travel prompt panel beside a grid of explore the world posters
+  family_hint: prompt-card
+  confidence: 0.6
+3:
+  chrome: [pill, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  ground: black
+  before_after: true
+  description: beach poster shown before and after upscaling with before after pills
+  family_hint: before-after
+  confidence: 0.7
+4:
+  chrome: [prompt-panel, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: flat-vector
+  ground: black
+  before_after: false
+  description: music prompt panel beside a flat illustration of a pouring moka pot
+  family_hint: prompt-card
+  confidence: 0.6
+5:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: logo prompt panel beside a grid of four generated brand logos
+  family_hint: prompt-card
+  confidence: 0.6
+6:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: prompt panel beside an Arabic summer poster over a coastal scene
+  family_hint: prompt-card
+  confidence: 0.6
+7:
+  chrome: [prompt-panel, button, play-button, arrow]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  ground: black
+  before_after: false
+  description: video prompt panel beside a garden pavilion with iridescent bubbles
+  family_hint: prompt-card
+  confidence: 0.7

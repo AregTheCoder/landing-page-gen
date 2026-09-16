@@ -1,0 +1,53 @@
+1:
+  chrome: [play-button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  art_style: ui-screenshot
+  description: a voiceover voice picker card with three named voice rows and play buttons
+  family_hint: mockup-card
+  confidence: 0.5
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  art_style: ui-screenshot
+  description: an empty rounded upload dropzone with a black upload icon tile
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: icy font preview tiles beside a frosty dessert poster and Ai and T tiles
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: two people cutout on checkerboard with fashion boutique mockup cards and an edit menu
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+  before_after: false
+5:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: floral quote social post with reaction buttons, flower photos and a font tile
+  family_hint: template-mockup
+  confidence: 0.6
+6:
+  chrome: [selection-handles, swatch, button, tile]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: a lemon quote card on an editor canvas with colour swatches and selection handles
+  family_hint: template-mockup
+  confidence: 0.5

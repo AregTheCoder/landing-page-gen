@@ -1,0 +1,60 @@
+1:
+  chrome: [slider, pill]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two women at a cafe split by a before-after handle with a prompt caption
+  family_hint: before-after
+  confidence: 0.6
+  before_after: true
+2:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  description: a cute fluffy 3d cartoon character split by a before-after handle
+  family_hint: before-after
+  confidence: 0.6
+  before_after: true
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: two framed NEW FORMS posters on a dotted gallery wall with a passerby
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a botanical Flora Restaurant menu design with item lists and a QR code
+  family_hint: template-mockup
+  confidence: 0.55
+  before_after: false
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a black-and-white photographer business card with film-strip border and name
+  family_hint: template-mockup
+  confidence: 0.55
+  before_after: false
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a red Kate's Photography Workshop banner with a camera photo panel
+  family_hint: template-mockup
+  confidence: 0.55
+  before_after: false

@@ -1,0 +1,120 @@
+1:
+  chrome: [tile, chip, size-label]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: two 3d-render girls in pink with aspect chips and a dark tile
+  family_hint: dark-composite
+  confidence: 0.6
+  before_after: false
+2:
+  chrome: [tile, chip, size-label, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a model-picker list and aspect chips beside a man in a floral shirt
+  family_hint: dark-composite
+  confidence: 0.7
+  before_after: false
+3:
+  chrome: [prompt-panel, model-logo, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel and model list beside a man holding an iced coffee
+  family_hint: prompt-card
+  confidence: 0.85
+  before_after: false
+4:
+  chrome: [badge, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: patterned tote and cap cutouts beside a Whimsy Cut product card
+  family_hint: cutout-checkerboard
+  confidence: 0.75
+  before_after: false
+5:
+  chrome: [tile, chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a serum bottle cutout with aspect chips beside a woman applying serum
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+6:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two grocery-store portraits with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+7:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  description: a model-picker panel beside a whimsical candy and balloon scene
+  family_hint: dark-composite
+  confidence: 0.6
+  before_after: false
+8:
+  chrome: [tile, button, badge, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an upscale control panel with x4 x2 buttons beside handbag product shots
+  family_hint: before-after
+  confidence: 0.5
+  before_after: false
+9:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  description: two 3d-render creatures with a model-picker list
+  family_hint: dark-composite
+  confidence: 0.6
+  before_after: false
+10:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: flat-vector figures and a pink skateboarder with a model-picker list
+  family_hint: dark-composite
+  confidence: 0.55
+  before_after: false
+11:
+  chrome: [none]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: four stylized illustrations on blue grounds
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+12:
+  chrome: [pill, model-logo, chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: stacked coastal shots beside a robed figure with model pills
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false

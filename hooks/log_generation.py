@@ -32,7 +32,7 @@ def main():
         found = CREDITS_RE.search(response_text)
         credits = int(found.group(1)) if found else None
     else:
-        credits = L.last_quote(L.ledger_rows(run), model)
+        credits = L.quote_for(L.ledger_rows(run), model)
 
     row = {
         "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),

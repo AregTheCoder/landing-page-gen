@@ -1,0 +1,24 @@
+1:
+  chrome: [pill, chip, badge]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a carousel of persona style cards, centre Y2K portrait with a hot pill and tag chips
+  family_hint: mockup-card
+  confidence: 0.5
+2:
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  art_style: flat-vector
+  description: a phone frame with an AI Assistant chat-bubble icon and label on black
+  family_hint: other
+  confidence: 0.4
+3:
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait card of a man in a field as a node on a dotted flow canvas
+  family_hint: other
+  confidence: 0.35

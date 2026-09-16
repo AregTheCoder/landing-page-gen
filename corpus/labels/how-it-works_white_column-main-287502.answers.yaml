@@ -1,0 +1,45 @@
+1:
+  art_style: mixed
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  family_hint: template-mockup
+  confidence: 0.6
+  description: brand kit card with a Bloom headline, colour bars, Aa type samples and a floral photo
+2:
+  art_style: mixed
+  chrome: [mockup-card, play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: scene
+  family_hint: mockup-card
+  confidence: 0.5
+  description: sunny street photo above an audio player card with a waveform and play button
+3:
+  art_style: mixed
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  family_hint: template-mockup
+  confidence: 0.5
+  description: a hand holding a printed book cover titled The Cat Lover with an illustrated figure
+4:
+  art_style: mixed
+  chrome: [mockup-card, swatch]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  family_hint: template-mockup
+  confidence: 0.6
+  description: brand identity card with two logo tiles, a colour palette and brand font samples
+5:
+  art_style: flat-vector
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  family_hint: full-bleed
+  confidence: 0.3
+  description: black line drawing of wildflowers on a white card

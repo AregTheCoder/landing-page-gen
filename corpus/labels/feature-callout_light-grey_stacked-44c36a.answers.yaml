@@ -1,0 +1,9 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: navy corduroy baseball cap with a red heart patch on grey, After pill
+  family_hint: before-after
+  confidence: 0.55

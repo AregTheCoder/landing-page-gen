@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: food
+  art_style: painterly-illustration
+  description: thanksgiving dinner invitation with painted pies and event details
+  family_hint: full-bleed
+  confidence: 0.35
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: dark tech podcast cover with a purple gradient swirl and title
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: happy thanksgiving card with line art pumpkins and leaves on cream
+  family_hint: full-bleed
+  confidence: 0.35
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a day in my life thumbnail with a grid of lifestyle photos
+  family_hint: full-bleed
+  confidence: 0.35
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: birthday invitation with a flat vector girl illustration and details
+  family_hint: full-bleed
+  confidence: 0.35
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: thanksgiving card with a family photo and an autumn leaf border
+  family_hint: full-bleed
+  confidence: 0.35
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: luxury real estate flyer with interior photos and body copy
+  family_hint: full-bleed
+  confidence: 0.4
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: concert album cover with a singer at a mic and Lights Up title
+  family_hint: full-bleed
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: minimalist book cover with pressed leaves and pink brush strokes
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: bookmark with a desert dune photo, a small dancer and a quote
+  family_hint: full-bleed
+  confidence: 0.45
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: red toned album cover with a woman in headphones and repeated title
+  family_hint: full-bleed
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: pink birthday weekend itinerary with a friday to sunday schedule
+  family_hint: full-bleed
+  confidence: 0.35

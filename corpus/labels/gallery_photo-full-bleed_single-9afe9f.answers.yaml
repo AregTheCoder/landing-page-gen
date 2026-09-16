@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: elderly fisherman mending nets beside weathered boats at a harbour
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in red tracksuit and sunglasses holding a boombox in the city
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: young woman in a purple hoodie against warm bokeh lights
+  family_hint: full-bleed
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two people on a subway escalator, moody cinematic frame
+  family_hint: cinematic-still
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman with popcorn reaching toward camera at a funfair
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person and greyhound on a surfboard riding a wave at dusk
+  family_hint: full-bleed
+  confidence: 0.75
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: woman in hanbok before a large white dragon graphic
+  family_hint: full-bleed
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: picnic blanket with basket, bread and lemonade in a meadow
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: black and white jazz pianist playing, motion blur
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: athletic woman seen from behind against a blue background
+  family_hint: full-bleed
+  confidence: 0.85
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: elderly woman laughing in a rustic kitchen
+  family_hint: full-bleed
+  confidence: 0.85
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: woven basket with an apple on a tree stump in grass
+  family_hint: full-bleed
+  confidence: 0.8

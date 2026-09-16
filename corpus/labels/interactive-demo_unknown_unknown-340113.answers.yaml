@@ -1,0 +1,12 @@
+1:
+  chrome: [prompt-panel, button, mockup-card, swatch]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  ground: light-grey
+  layout: column-main
+  panel_count: 1
+  description: an ad-maker demo with a prompt panel, a brand kit and a pink sneaker poster
+  family_hint: prompt-card
+  confidence: 0.6

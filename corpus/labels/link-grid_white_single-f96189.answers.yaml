@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: two coffee bag product renders on a blue set
+  family_hint: full-bleed
+  confidence: 0.35
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green handbag photo split against a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green handbag photo split against a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green handbag photo split against a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+5:
+  chrome: [badge, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: before and after portrait with a magenta check badge
+  family_hint: before-after
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: profile cutout of a man inside a glowing pixelated ring
+  family_hint: graphic-collage
+  confidence: 0.5
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: stacked comedy special poster templates with bold type
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: stacked comedy special poster templates with bold type
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: [mockup-card, brackets]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: mixed
+  description: croissant social post card with reaction icons and crop brackets
+  family_hint: mockup-card
+  confidence: 0.5
+10:
+  chrome: [chip, mockup-card]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: typography
+  art_style: mixed
+  description: dark app mockup of a project tasks template with a Templates chip
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: two overlapping panels of a rendered woman portrait
+  family_hint: before-after
+  confidence: 0.35
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: two overlapping panels of a rendered woman portrait
+  family_hint: before-after
+  confidence: 0.35

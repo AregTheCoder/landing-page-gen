@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a Los Angeles influencer vlog banner collage of palm and travel photos
+  family_hint: graphic-collage
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a November calendar with an autumn spice photo
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a signature cocktails menu with a drink photo on teal
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a pop-art album cover collage with a reclining figure
+  family_hint: graphic-collage
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn moodboard collage with a woman and polaroids
+  family_hint: graphic-collage
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a jewellery giveaway design with earrings on a purple swoosh
+  family_hint: graphic-collage
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a summer vision board collage of stamp-framed photos
+  family_hint: graphic-collage
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a merry christmas card with a decorative plate on linen
+  family_hint: template-mockup
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a homeschooling channel banner with colored pencils
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a nature travel brochure with mountain photos and trip details
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a book cover with repeated EDGE lettering in yellow
+  family_hint: template-mockup
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a wedding planning brochure with floral photos and a text card
+  family_hint: template-mockup
+  confidence: 0.4

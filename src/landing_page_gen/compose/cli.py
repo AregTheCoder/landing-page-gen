@@ -80,7 +80,8 @@ def resolve(spec):
     for name, p in family["panels"].items():
         o = (spec.get("panels") or {}).get(name) or {}
         panels[name] = {"rect": rect(p["rect"]) if p["rect"] else (0, 0, w * SS, h * SS), "fit": o.get("fit", p.get("fit", "cover")),
-                        "anchor": o.get("anchor", "center"), "under": p.get("under"), "image": spec["_dir"] / o["image"]}
+                        "anchor": o.get("anchor", "center"), "under": p.get("under"), "dim": o.get("dim", p.get("dim")),
+                        "image": spec["_dir"] / o["image"]}
     overrides, omit = spec.get("chrome") or {}, set(spec.get("omit") or [])
     chrome = []
     for item in family["chrome"]:
@@ -107,13 +108,17 @@ def compose(layout):
     for p in layout["panels"].values():
         with Image.open(p["image"]) as im:
             draw.panel(canvas, im, p["rect"], r, p["fit"], p["anchor"], p["under"], round(CHECKER_CELL * s))
+        if p.get("dim"):
+            draw.dim(canvas, p["rect"], r, p["dim"])
     for it in layout["chrome"]:
         k = it["kind"]
         if k == "card":
             continue
         if k == "tile":
             fill = tuple(it["fill"]) + (255,) if it.get("fill") else (0, 0, 0, 255)
-            box = draw.tile(canvas, it["rect"], it["icon"], r, fill=fill)
+            box = draw.tile(canvas, it["rect"], it.get("icon"), r, fill=fill)
+        elif k == "icon":
+            box = draw.icon(canvas, it["rect"], it["icon"])
         elif k == "pill" and "rect" in it:
             box = draw.pill_in(canvas, it["rect"], it["text"], it["style"], draw.font(FONT_PX["button"] * s))
         elif k == "pill":

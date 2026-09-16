@@ -1,0 +1,132 @@
+1:
+  chrome: [button, play-button, arrow]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: photo-full-bleed
+  before_after: false
+  description: person with a flower bouquet head beside a generate video panel
+  family_hint: prompt-card
+  confidence: 0.5
+2:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  before_after: false
+  description: dark prompt panel beside a young man sitting on a giant peach
+  family_hint: prompt-card
+  confidence: 0.8
+3:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  before_after: true
+  description: person and dog with background replaced to a warm sunset field
+  family_hint: prompt-card
+  confidence: 0.6
+4:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: Happy Birthday template card beside a person holding the printed card
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: [prompt-panel, button, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: anime-cartoon
+  ground: black
+  before_after: false
+  description: music prompt panel beside a stylized character in a colourful kimono
+  family_hint: prompt-card
+  confidence: 0.6
+6:
+  chrome: [prompt-panel, button, chip, play-button, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  before_after: false
+  description: video prompt panel with duration chips beside a windsurfer scene
+  family_hint: prompt-card
+  confidence: 0.7
+7:
+  chrome: [tile, badge]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  ground: checkerboard
+  before_after: false
+  description: gold jewellery cutouts on a checkerboard with check badges and tiles
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+8:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: music prompt panel beside a grid of genre selection chips
+  family_hint: prompt-card
+  confidence: 0.5
+9:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  ground: black
+  before_after: true
+  description: red sunglasses with the concrete floor replaced by grass
+  family_hint: prompt-card
+  confidence: 0.6
+10:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  ground: black
+  before_after: false
+  description: logo prompt panel beside a grid of four generated brand logos
+  family_hint: prompt-card
+  confidence: 0.6
+11:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  ground: black
+  before_after: false
+  description: prompt panel beside a silver disco ball resting in grass
+  family_hint: prompt-card
+  confidence: 0.8
+12:
+  chrome: [button, play-button, arrow]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  before_after: false
+  description: dancer with a drink can beside a generate video panel
+  family_hint: prompt-card
+  confidence: 0.5

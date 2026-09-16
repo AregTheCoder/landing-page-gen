@@ -1,0 +1,18 @@
+1:
+  chrome: [arrow]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a node board linking a cookie plate and a hand cutout by arrows to a hand-reaching-cookie result
+  family_hint: other
+  confidence: 0.35
+2:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel with a Generate button beside a woman holding a pink flower over one eye
+  family_hint: prompt-card
+  confidence: 0.9

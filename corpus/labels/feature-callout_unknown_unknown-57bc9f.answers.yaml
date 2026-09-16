@@ -1,0 +1,134 @@
+1:
+  chrome: [prompt-panel, button, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel and model list beside a photo of two women in a green field
+  family_hint: prompt-card
+  confidence: 0.8
+  layout: column-main
+  panel_count: 1
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a grid of brochure and flyer template cards
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: grid
+  panel_count: 6
+3:
+  chrome: [chip, slider]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a column of caption chips and a speed slider beside a woman video still with a caption
+  family_hint: other
+  confidence: 0.4
+  layout: column-main
+  panel_count: 1
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: stacked youtube thumbnails about cows on my head with a kid in sunglasses
+  family_hint: template-mockup
+  confidence: 0.5
+  layout: stacked
+  panel_count: 3
+5:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: product
+  art_style: photo
+  description: a serum bottle cutout on checkerboard beside a phone new product mockup
+  family_hint: mockup-card
+  confidence: 0.45
+  ground: checkerboard
+  layout: column-main
+  panel_count: 2
+6:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a column of tiles beside a slice of fun pizza night invitation card
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: column-main
+  panel_count: 1
+7:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: a colourful sneaker beside a product card showing two sneakers with a buy button
+  family_hint: mockup-card
+  confidence: 0.6
+  ground: light-grey
+  layout: overlay
+  panel_count: 2
+8:
+  chrome: [mockup-card, button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a variation control bar above three mira lipstick sale poster variants
+  family_hint: template-mockup
+  confidence: 0.5
+  layout: grid
+  panel_count: 3
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: three reading themed bookmark designs side by side
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: grid
+  panel_count: 3
+10:
+  chrome: [badge, selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a large metallic flower earring photo beside two checked earring variant thumbnails
+  family_hint: other
+  confidence: 0.4
+  layout: column-main
+  panel_count: 3
+11:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: an illustrated art panel beside a purple nineties theme party invitation and a tile
+  family_hint: template-mockup
+  confidence: 0.65
+  layout: column-main
+  panel_count: 2
+12:
+  chrome: [tile, mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: dark tiles beside a Tennis Class poster over a tennis court photo
+  family_hint: template-mockup
+  confidence: 0.7
+  layout: column-main
+  panel_count: 1

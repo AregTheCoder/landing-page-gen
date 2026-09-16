@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: photo of a woman by the Eiffel Tower with a 3d gold European Summer headline
+  family_hint: full-bleed
+  confidence: 0.55
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: two pink donuts floating in a blue sky with an AI button
+  family_hint: full-bleed
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cinematic photo of a man in a green robe by a moonlit lake
+  family_hint: cinematic-still
+  confidence: 0.5
+4:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a chrome sphere over a lavender field with a music player panel and genre pills
+  family_hint: other
+  confidence: 0.4
+5:
+  chrome: [model-logo, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: product photos of a bag, dog and bottle with a prompt caption and Picsart logo
+  family_hint: model-card
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: 3d-render
+  description: a claymation crowd of people before a towering rock cliff
+  family_hint: full-bleed
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: overgrown abandoned houses reclaimed by jungle
+  family_hint: full-bleed
+  confidence: 0.75
+8:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: striped ceramic mug photo with a Before pill
+  family_hint: before-after
+  confidence: 0.75
+9:
+  chrome: [button, arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hand holding a green iced drink with a checkerboard extend area and expand controls
+  family_hint: crop-frame
+  confidence: 0.55
+10:
+  chrome: [vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model results side by side with a VS badge and model name chips
+  family_hint: vs-two-up
+  confidence: 0.8
+11:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt panel and Generate button beside a flower-earring poster design
+  family_hint: prompt-card
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: comic pop-art woman with silver hair and a boombox in a stylized city
+  family_hint: full-bleed
+  confidence: 0.55

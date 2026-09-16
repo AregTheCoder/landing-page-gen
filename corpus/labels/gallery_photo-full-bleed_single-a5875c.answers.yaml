@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a birthday card with a cake and confetti
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a pink christmas t-shirt mockup on green
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a santorini travel card with beach photos
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: an education infographic with a circular icon chart
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a welcome to school poster with supply illustrations
+  family_hint: template-mockup
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a books-are-my-happy-place bookmark on gradient
+  family_hint: template-mockup
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: an infographics guide slide with idea plan draw labels
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a sunlit world album cover with a green beetle and rainbow
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a spa gift certificate with a terrazzo border
+  family_hint: template-mockup
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a dynamo music lessons flyer with violins
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: [cursor]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a bff bingo card with labelled squares
+  family_hint: template-mockup
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: animal
+  art_style: mixed
+  description: a happy pet care brochure with pet photos and services
+  family_hint: template-mockup
+  confidence: 0.7

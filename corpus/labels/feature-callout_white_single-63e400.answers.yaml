@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: portrait of a woman with a social post card and a brighten button
+  family_hint: mockup-card
+  confidence: 0.55
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: white mug mockup with an AI button and mugs behind
+  family_hint: mockup-card
+  confidence: 0.5
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: how-to blog infographic poster with a font picker panel
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: [mockup-card, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: flower bouquet beside a dark green gardening essentials card
+  family_hint: template-mockup
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: white t-shirt and mug mockups with a line-art print
+  family_hint: mockup-card
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: iced coffee drink cutout with checkerboard behind
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: croissant photo with a wooden surface prompt chip and checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.45
+8:
+  chrome: [mockup-card, model-logo]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: multiple
+  art_style: mixed
+  description: dark tablet window showing a photo grid gallery
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: stacked resume template cards with text and a small portrait
+  family_hint: template-mockup
+  confidence: 0.7
+10:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: storyboard template with film frames and a prompt chip
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: [swatch, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: mixed
+  description: crafters logo over swirls with colour swatches and add to canvas button
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: big quote lettering over a seated person with add to canvas button
+  family_hint: template-mockup
+  confidence: 0.55

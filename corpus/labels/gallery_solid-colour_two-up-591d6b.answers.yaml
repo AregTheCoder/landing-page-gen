@@ -1,0 +1,9 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a purple new season hats banner with a portrait in an orange circle
+  family_hint: template-mockup
+  confidence: 0.5

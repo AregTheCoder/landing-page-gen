@@ -1,0 +1,113 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a pink glitter texture filling a vertical tile
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  layout: single
+  panel_count: 1
+  description: a blurred cutout of colorful glowing lights
+  family_hint: other
+  confidence: 0.3
+3:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the POPSOCKETS brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+4:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the DocuPost logo with a paper plane icon and name
+  family_hint: other
+  confidence: 0.3
+5:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Walsworth brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+6:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the imgur brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+7:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the COSMOPOLITAN brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+8:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the BuzzFeed brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+9:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the UPROXX brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+10:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the boredpanda logo with a panda icon and name
+  family_hint: other
+  confidence: 0.3
+11:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Yahoo News brand wordmark logo
+  family_hint: other
+  confidence: 0.3

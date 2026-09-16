@@ -1,0 +1,144 @@
+1:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  ground: light-grey
+  layout: single
+  panel_count: 0
+  description: a YouTube play button glyph on a grey disc
+  family_hint: other
+  confidence: 0.4
+2:
+  chrome: [tile, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: mixed
+  layout: stacked
+  panel_count: 3
+  description: a photo result above start frame and end frame thumbnails with a model tile
+  family_hint: prompt-card
+  confidence: 0.45
+3:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  ground: white
+  layout: column-main
+  panel_count: 3
+  description: two labelled reference thumbnails beside a portrait output
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [prompt-panel, button, tile, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  ground: mixed
+  layout: column-main
+  panel_count: 2
+  description: a green mug product shot with a prompt panel and model tiles
+  family_hint: prompt-card
+  confidence: 0.6
+5:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  ground: mixed
+  layout: two-up
+  panel_count: 2
+  description: two podcast portrait frames with caption text
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: [tile, swatch, button, mockup-card]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: 3d-render
+  ground: white
+  layout: column-main
+  panel_count: 1
+  description: an Own the bold poster of a red bag with template tiles
+  family_hint: template-mockup
+  confidence: 0.6
+7:
+  chrome: [tile, swatch, button, mockup-card]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: 3d-render
+  ground: white
+  layout: column-main
+  panel_count: 1
+  description: an Own the bold poster of a red bag with template tiles
+  family_hint: template-mockup
+  confidence: 0.6
+8:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  description: two panels of ACE branded bottles over a sky with tennis balls
+  family_hint: template-mockup
+  confidence: 0.35
+9:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 2
+  description: two panels of ACE branded bottles over a sky with tennis balls
+  family_hint: template-mockup
+  confidence: 0.35
+10:
+  chrome: [play-button, tile, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  ground: mixed
+  layout: column-main
+  panel_count: 1
+  description: a bold typographic fashion poster with a play button and editor tiles
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: [prompt-panel, button, model-logo, chip, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: mixed
+  layout: column-main
+  panel_count: 3
+  description: a runner app card beside reference thumbnails and a prompt panel
+  family_hint: prompt-card
+  confidence: 0.45
+12:
+  chrome: [prompt-panel, button, model-logo, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: a cinematic prompt panel with Sora logo beside an overhead portrait
+  family_hint: prompt-card
+  confidence: 0.5

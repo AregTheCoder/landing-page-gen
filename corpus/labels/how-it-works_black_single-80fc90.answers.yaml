@@ -1,0 +1,27 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait photo card with a Photo of your hero upload button on black
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in red standing among desert cacti, full-bleed photo card
+  family_hint: full-bleed
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: close-up portrait of a woman with wet hair in a pink shirt
+  family_hint: full-bleed
+  confidence: 0.6

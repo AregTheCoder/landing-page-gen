@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: painterly-illustration
+  description: a surreal dali style painting of melting headphones in a desert
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: [model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a street photo of women at a crosswalk with a runway model logo and thumbnails
+  family_hint: model-card
+  confidence: 0.4
+3:
+  chrome: [chip, button]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a music player card over a blue silhouette with genre chips and a track description
+  family_hint: prompt-card
+  confidence: 0.4
+4:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two side by side portraits of a person by a burning car labeled with two model names
+  family_hint: vs-two-up
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  description: a low poly 3d render of a crocodile on colorful geometric rocks
+  family_hint: full-bleed
+  confidence: 0.7
+6:
+  chrome: [model-logo, vs-badge, chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a compare card of wan and kling models with a woman on a cloud and a vs badge
+  family_hint: vs-two-up
+  confidence: 0.6
+7:
+  chrome: [prompt-panel, model-logo, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: a prompt card describing leaping lambs above a photo of lambs in a blue sky with a player bar
+  family_hint: prompt-card
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a moody portrait of a person in a brown bucket hat covering the eyes
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a surreal photo of a person in pink holding an oversized flower in a green field
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: [brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a person holding a croissant with yellow selection brackets around the face
+  family_hint: crop-frame
+  confidence: 0.4
+11:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a person in red sunglasses with a before pill at bottom left
+  family_hint: before-after
+  confidence: 0.6
+12:
+  chrome: [model-logo, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: an illustrated lakeside scene with cherry blossoms and a dall-e model logo with thumbnail chips
+  family_hint: model-card
+  confidence: 0.5

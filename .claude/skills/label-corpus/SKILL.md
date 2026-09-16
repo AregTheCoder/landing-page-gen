@@ -26,6 +26,12 @@ Read `corpus/labels/README.md` once: it carries the field definitions, the
 family reference and the answer format. Pick the first N sheets that have no
 `.answers.yaml` yet.
 
+`lp-corpus labels` also renames any dropped vocabulary idempotently on its way
+in (e.g. the old `finish` field to `art_style`), rewriting stray answers files,
+manifests and records; a value with no mapping is reported and dropped, never
+kept. Never run `lp-corpus sheets` to fix a renamed field — it would regroup
+and orphan more answers; `labels` alone is enough.
+
 ## 2. Fan out, one subagent per sheet
 
 Spawn the subagents in a single message, at most 8 at a time. Give each one

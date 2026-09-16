@@ -1,0 +1,63 @@
+1:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: kickmates sneaker graphic cards with a holiday themes panel
+  family_hint: template-mockup
+  confidence: 0.65
+2:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: collage
+  description: in progress social cards with a person hearts and magenta shapes
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: [mockup-card, tile, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: House Blend coffee packaging and bag with font tiles
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: [mockup-card, size-label, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: stacked Forma brand mockup cards with social size options
+  family_hint: template-mockup
+  confidence: 0.65
+5:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: Big Brew coffee ad poster with a drink and sun pattern
+  family_hint: template-mockup
+  confidence: 0.65
+6:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: stacked Thanksgiving bingo challenge card templates
+  family_hint: template-mockup
+  confidence: 0.65
+7:
+  chrome: [mockup-card, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: Pumpkin spice coffee poster with checkerboard cutout behind
+  family_hint: template-mockup
+  confidence: 0.65

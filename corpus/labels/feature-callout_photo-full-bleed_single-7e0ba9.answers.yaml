@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card, size-label, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a photo of patterned heels with a Facebook post mockup card and a size chip
+  family_hint: template-mockup
+  confidence: 0.3
+2:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a fan of document and letter mockup cards
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a How to make heading and body text beside a ceramic bowl photo on yellow
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a gallery wall of framed stylized portraits and a framed cat
+  family_hint: full-bleed
+  confidence: 0.3
+5:
+  chrome: [chip, badge]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: two portrait cards with a style caption panel and an AI badge
+  family_hint: full-bleed
+  confidence: 0.3
+6:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a cat in a cowboy hat by a cactus with a Howdy Pawtner headline
+  family_hint: full-bleed
+  confidence: 0.4
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: two 3d hand renders labelled clay and watercolor with numbered chips
+  family_hint: full-bleed
+  confidence: 0.3
+8:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a captioned meme about business and creative people with a text tile
+  family_hint: full-bleed
+  confidence: 0.4
+9:
+  chrome: [button, chip, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a bicycle poster with a checkerboard split an AI Enhance button and an Amsterdam postcard
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [button, tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: classic cars on a blue grid ground with a Remove BG button and checkerboard cutout
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a grid of orange line food icons on cream tiles with a logo tile
+  family_hint: full-bleed
+  confidence: 0.3
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two women with hair styled into loops on a warm ground
+  family_hint: full-bleed
+  confidence: 0.5

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: summer scrapbook collage with a framed portrait and a bye bye summer script
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: resume layout with a headshot header and dense body text
+  family_hint: template-mockup
+  confidence: 0.85
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: purple WELCOME BACK school poster with a photo of students
+  family_hint: template-mockup
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: instagram post collage of a car ride and a picnic with Summer Days text
+  family_hint: template-mockup
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: floral wreath thank you card on a pink ground
+  family_hint: template-mockup
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: bold geometric poster for a colors in photography art exhibition
+  family_hint: template-mockup
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: sage green desktop organizer wallpaper with to do and folder zones
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: road trip collage of friends and a camera flatlay with script text
+  family_hint: template-mockup
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: purple BACK TO SCHOOL MIXER flyer with a guitar and star graphics
+  family_hint: template-mockup
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: ocean water photo with a salty air motivational quote
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: neon green ANNIVERSARY SALE poster over a portrait of a boy
+  family_hint: template-mockup
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: scattered polaroid collage of beach and friend snapshots
+  family_hint: template-mockup
+  confidence: 0.75

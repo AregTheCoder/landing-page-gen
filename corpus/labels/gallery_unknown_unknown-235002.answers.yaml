@@ -1,0 +1,124 @@
+1:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Google brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: mixed
+  layout: single
+  panel_count: 1
+  description: a phone frame showing the Picsart app editing a portrait
+  family_hint: mockup-card
+  confidence: 0.4
+3:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the POPSOCKETS brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+4:
+  text_in_image: none
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the T-Mobile T symbol logo
+  family_hint: other
+  confidence: 0.3
+5:
+  text_in_image: none
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the T-Mobile T symbol logo
+  family_hint: other
+  confidence: 0.3
+6:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Walsworth brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the Ideogram AI model logo with icon and name
+  family_hint: other
+  confidence: 0.3
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: 3d-render
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a blue abstract fluid ribbon render
+  family_hint: full-bleed
+  confidence: 0.5
+9:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the DocuPost logo with a paper plane icon and name
+  family_hint: other
+  confidence: 0.3
+10:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the Meta brand logo with icon and name
+  family_hint: other
+  confidence: 0.3
+11:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the getty images brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+12:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the imgur brand wordmark logo
+  family_hint: other
+  confidence: 0.3

@@ -1,0 +1,9 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a cap beside a blue add image tile and a skateboarder photo
+  family_hint: editor-canvas
+  confidence: 0.35

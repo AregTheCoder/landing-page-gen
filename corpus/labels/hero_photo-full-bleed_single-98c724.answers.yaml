@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a person with a top bun face gems and a floral top
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a flower covered beauty portrait in vertical strips above a prompt describing the image
+  family_hint: prompt-card
+  confidence: 0.55
+3:
+  chrome: [model-logo, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a fashion portrait in a futuristic pod beside a column of small portrait thumbnails
+  family_hint: model-card
+  confidence: 0.45
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with gold teeth and rings smiling on a suburban street
+  family_hint: full-bleed
+  confidence: 0.85
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person in a red shirt and jeans against a purple blue studio gradient
+  family_hint: full-bleed
+  confidence: 0.7
+6:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person leaping in orange against a blue sky with a before pill
+  family_hint: before-after
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person in a red shirt cut out on a transparent checkerboard background
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+8:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: two compared video frames labeled veo and kling with a vs badge and setting chips
+  family_hint: vs-two-up
+  confidence: 0.6
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a blurred portrait of a person resting on their hand with a before pill
+  family_hint: before-after
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling blond person in a white shirt against a grey background
+  family_hint: full-bleed
+  confidence: 0.85
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with curly hair smiling under a red umbrella outdoors
+  family_hint: full-bleed
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: a dark comic illustration of hooded figures in a cave with a chain
+  family_hint: full-bleed
+  confidence: 0.6

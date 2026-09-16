@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: layered graphic design banner reading art spill
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: stylized blue haired portrait split down the middle
+  family_hint: before-after
+  confidence: 0.4
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: cartoon sticker cutouts on a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: lounge chair photo with the background removed to checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+5:
+  chrome: [swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: knit bag photo beside colour palette stripes on white
+  family_hint: cutout-checkerboard
+  confidence: 0.35
+6:
+  chrome: [brackets, selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: photo
+  description: food photo on an editor canvas with rule of thirds grid and handles
+  family_hint: editor-canvas
+  confidence: 0.45
+7:
+  chrome: [brackets, selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: photo
+  description: food photo on an editor canvas with rule of thirds grid and handles
+  family_hint: editor-canvas
+  confidence: 0.45
+8:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: chair photo split from blurred to sharp
+  family_hint: before-after
+  confidence: 0.45
+9:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: chair photo split from blurred to sharp
+  family_hint: before-after
+  confidence: 0.45
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hot dog on a checked napkin over wood
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: [slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two portrait halves of people placed side by side
+  family_hint: before-after
+  confidence: 0.4
+12:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: rendered bottle with geometric shapes and a play button on pink
+  family_hint: full-bleed
+  confidence: 0.5

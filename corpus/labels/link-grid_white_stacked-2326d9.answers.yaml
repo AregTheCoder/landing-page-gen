@@ -1,0 +1,99 @@
+1:
+  chrome: [chip, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a legs and boots collage with daisy stickers and a Complementary colour chip
+  family_hint: graphic-collage
+  confidence: 0.5
+2:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: a spark social profile card above a star tile and an eye makeup photo
+  family_hint: mockup-card
+  confidence: 0.6
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: an Instagram post of two women captioned postcard from Amalfi with a like heart
+  family_hint: mockup-card
+  confidence: 0.6
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: an Instagram post of two women captioned postcard from Amalfi with a like heart
+  family_hint: mockup-card
+  confidence: 0.6
+5:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink retro Cookie Heaven logo with two font chips
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink retro Cookie Heaven logo with two font chips
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a vintage polaroid of two women with an fx label
+  family_hint: full-bleed
+  confidence: 0.3
+8:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: the words Luke and Mary over a building photo with two font chips
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: collage
+  description: hands holding green sunglasses over checkerboard and green with a colour palette
+  family_hint: graphic-collage
+  confidence: 0.4
+10:
+  chrome: [mockup-card, swatch, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a crumbs brand kit with logos colour palette business cards and a font specimen
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: [prompt-panel]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: 3d-render
+  description: a fluffy pink cat render beside an AI GIF Generator prompt panel
+  family_hint: prompt-card
+  confidence: 0.6

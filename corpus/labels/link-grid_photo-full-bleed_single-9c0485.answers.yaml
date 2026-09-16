@@ -1,0 +1,108 @@
+1:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a man with gold grillz compared across two model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a neon-lit ramen street stall at night in the rain
+  family_hint: cinematic-still
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink vase of cherry blossoms with a script brand name on pink
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a close-up of a woman with a pink flower over her eye and an After pill
+  family_hint: before-after
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a top-down photo of grilled eel and miso soup on a wooden tray
+  family_hint: full-bleed
+  confidence: 0.9
+6:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a repeated portrait strip with a coming-soon caption panel and audio waveform
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a person sitting alone in a sunlit cafe with tall windows
+  family_hint: full-bleed
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a model in a dramatic oversized blue coat in a bright bare room
+  family_hint: full-bleed
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in sunglasses in a pool holding an orange starfish
+  family_hint: full-bleed
+  confidence: 0.85
+10:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a man with gold grillz compared across two model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+11:
+  chrome: [mockup-card, button, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: a dark feature menu with an AI portrait Instagram card and Learn more button
+  family_hint: mockup-card
+  confidence: 0.6
+12:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a lilac sneaker on a blue ground with a play button overlay
+  family_hint: full-bleed
+  confidence: 0.6

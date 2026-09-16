@@ -36,15 +36,15 @@ def test_compose_before_after_geometry_ground_and_pill(tmp_path):
     out = tmp_path / "steps" / "S07-m1-3-1.png"
     assert cli.main([str(spec), "--out", str(out)]) == 0
     im = Image.open(out)
-    assert im.size == (720, 720) and im.mode == "RGB"
+    assert im.size == (720, 720) and im.mode == "RGBA"
     layout = cli.resolve(cli.load_spec(spec))
     _, drawn = cli.compose(layout)
 
     def centre(name):
         x0, y0, x1, y1 = out_rect(layout, name)
-        return im.getpixel((int((x0 + x1) / 2), int((y0 + y1) / 2)))
+        return im.getpixel((int((x0 + x1) / 2), int((y0 + y1) / 2)))[:3]
     assert centre("before") == (255, 0, 0) and centre("after") == (0, 0, 255) and centre("result") == (255, 0, 0)
-    assert im.getpixel((1, 1)) == (0, 0, 0), "the black ground shows through the rounded corner"
+    assert im.getpixel((1, 1))[3] == 0, "transparent ground shows through the rounded corner (the page supplies it)"
     x0, y0, x1, y1 = (int(v) for v in drawn["before-pill"])
     bx0, by0, bx1, by1 = out_rect(layout, "before")
     assert bx0 < x0 < x1 < bx1 and by0 < y0 < y1 < by1, "pill sits inside its panel"
@@ -53,7 +53,7 @@ def test_compose_before_after_geometry_ground_and_pill(tmp_path):
     assert any(60 < p[0] < 200 and p[1] < 60 and p[2] < 60 for p in px), "translucent dark fill over the red panel"
     tx0, ty0, tx1, ty1 = (int(v) for v in drawn["tile"])
     tile = [im.getpixel((x, y)) for x in range(tx0 + 2, tx1 - 2, 3) for y in range(ty0 + 2, ty1 - 2, 3)]
-    assert sum(p == (0, 0, 0) for p in tile) > len(tile) * 0.7 and any(p[0] > 200 for p in tile), "black tile, white icon"
+    assert sum(p[:3] == (0, 0, 0) and p[3] > 200 for p in tile) > len(tile) * 0.6 and any(p[0] > 200 for p in tile), "black tile, white icon"
 
 
 @pytest.mark.parametrize("family", sorted(FAMILIES))

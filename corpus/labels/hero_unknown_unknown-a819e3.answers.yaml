@@ -1,0 +1,84 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a stacked cafe menu template card with green pattern and an item list
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: stacked
+  panel_count: 2
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a youtube banner template card with an eye graphic and channel title
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: gradient
+  layout: stacked
+  panel_count: 2
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a 2025 calendar template card with pink scribbles and a month grid
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: stacked
+  panel_count: 2
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a facebook post template card reading milestone magic with a man photo
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: solid-colour
+  layout: stacked
+  panel_count: 2
+5:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a blue coupon template card reading 30 percent off just for you
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: solid-colour
+  layout: stacked
+  panel_count: 2
+6:
+  chrome: [mockup-card, badge]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a dark ad template card for ai password management with a facebook badge
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: gradient
+  layout: single
+  panel_count: 1
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a thank you card template with avocado and banana characters
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: stacked
+  panel_count: 2

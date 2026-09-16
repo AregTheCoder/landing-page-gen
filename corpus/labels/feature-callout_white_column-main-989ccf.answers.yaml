@@ -1,0 +1,72 @@
+1:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: font style tiles beside a noah gift guide template card
+  family_hint: template-mockup
+  confidence: 0.55
+3:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: social post of a person leaping among pink 3D balloon letters in the sky
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fashion template with a timeless chick headline and portrait thumbnails
+  family_hint: template-mockup
+  confidence: 0.6
+5:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: typography
+  description: font generator input with four stylized Keep Going lettering variants
+  family_hint: template-mockup
+  confidence: 0.45
+6:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: product
+  art_style: photo
+  description: pink Plump perfume product photos and a social post mockup
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: cutout furniture items arranged on a white collage grid
+  family_hint: template-mockup
+  confidence: 0.35
+11:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: browser-window
+  subject: typography
+  art_style: ui-screenshot
+  description: timeline maker browser window showing a 7 Days of Creativity document
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: typography
+  art_style: ui-screenshot
+  description: book cover maker browser window showing a Wildflower cover design
+  family_hint: template-mockup
+  confidence: 0.5

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: travel scrapbook collage titled travel to Arizona this summer
+  family_hint: template-mockup
+  confidence: 0.45
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: june calendar design with photos in circles
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: autumn floral giving thanks card design
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: youtube banner with tips for new homeschool moms and a woman
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: vegan christmas brunch menu design
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: orange gingham autumn birthday party invitation
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: globetrek getaways travel brochure with faq and photos
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: merry christmas card with pine branches and berries
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: floral hang tag label for valentines deals shop now
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: peach gradient bookmark reading just one more page
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: pink quote poster about a great teacher igniting curiosity
+  family_hint: template-mockup
+  confidence: 0.55
+12:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: black vision board wallpaper with a photo collage
+  family_hint: template-mockup
+  confidence: 0.45

@@ -1,0 +1,108 @@
+1:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: phone-frame
+  subject: object
+  art_style: photo
+  description: a smartphone on dark moss with a play button on its screen
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: [mockup-card, tile, cursor]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: mixed
+  description: a yellow plans and ideas sketch note beside a photo card with draw tool tiles
+  family_hint: editor-canvas
+  confidence: 0.45
+3:
+  chrome: [tile, badge, brackets]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: mixed
+  description: a honey bottle render on a checkerboard with purple sparkles and an Elements panel
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+4:
+  chrome: [swatch, selection-handles, adjust-panel, cursor]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: collage
+  description: a smoothie and flower collage on teal with a colour picker panel and selection handles
+  family_hint: editor-canvas
+  confidence: 0.5
+5:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: browser-window
+  subject: typography
+  art_style: flat-vector
+  description: an invoice document template with a Grazie script card on a checkerboard corner
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: 3d-render
+  description: an astronaut with flowers in the helmet beside an AI prompt panel with a Generate button
+  family_hint: prompt-card
+  confidence: 0.7
+7:
+  chrome: [chip, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: scene
+  art_style: anime-cartoon
+  description: an anime cyberpunk city scene with an inset anime character card and an AI Filters chip
+  family_hint: full-bleed
+  confidence: 0.5
+8:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: scene
+  art_style: mixed
+  description: a Sea You in the sun beach social post with palm leaf cutouts on a checkerboard
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: [mockup-card, swatch]
+  text_in_image: body
+  ui_mockup: browser-window
+  subject: typography
+  art_style: flat-vector
+  description: a Project Phoenix timeline document with numbered phases and a document colours swatch row
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: [badge, chip, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a beach selfie of a couple and a painterly filtered version of the same photo
+  family_hint: other
+  confidence: 0.4
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: anime-cartoon
+  description: an anime train window scene with a Miyazaki style prompt and Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: typography
+  description: two dark university notebook covers with colourful line-art typography
+  family_hint: template-mockup
+  confidence: 0.5

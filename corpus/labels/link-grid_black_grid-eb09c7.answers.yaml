@@ -1,0 +1,36 @@
+1:
+  art_style: photo
+  chrome: [button, prompt-panel, mockup-card]
+  text_in_image: body
+  ui_mockup: product-card
+  subject: product
+  family_hint: dark-composite
+  confidence: 0.4
+  description: lipstick product reveal composite with prompt text, an approve button and store buttons
+2:
+  art_style: photo
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  family_hint: vs-two-up
+  confidence: 0.55
+  description: two stylized portraits in ski goggles labelled with two model chips
+3:
+  art_style: anime-cartoon
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  family_hint: other
+  confidence: 0.3
+  description: anime characters including a pink-haired girl eating ice cream with a chat bubble
+4:
+  art_style: photo
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  family_hint: dark-composite
+  confidence: 0.4
+  description: photo of an athlete beside two dark tiles with image placeholder icons

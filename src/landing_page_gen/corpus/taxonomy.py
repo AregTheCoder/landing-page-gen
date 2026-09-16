@@ -5,6 +5,7 @@ attributes; `role_fix` corrects a guessed media role from what the model saw;
 human can name, split or merge families with counts in hand."""
 
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -28,7 +29,7 @@ def family_of(rec):
     lay = rec.get("layout")
     ch = set(rec.get("chrome") or [])
     ui = rec.get("ui_mockup") or "none"
-    fin = rec.get("finish")
+    art = rec.get("art_style")
     txt = rec.get("text_in_image") or "none"
     typ = rec.get("type")
     panels = rec.get("panel_count") or 0
@@ -40,7 +41,7 @@ def family_of(rec):
         fam = "panel-overlay"  # the tool panel over a photo; on heroes the tool badge + label pill stand in for it
     elif ch & {"brackets", "size-label"}:
         fam = "crop-frame"
-    elif g == "checkerboard" or ("badge" in ch and fin == "photo"):
+    elif g == "checkerboard" or ("badge" in ch and art == "photo"):
         fam = "cutout-checkerboard"
     elif "prompt-panel" in ch or ui == "prompt-ui":
         fam = "prompt-card"
@@ -58,7 +59,7 @@ def family_of(rec):
         fam = "dark-composite"
     elif g == "photo-full-bleed" and rec.get("aspect_class") == "9:16" and typ in ("gallery", "hero"):
         fam = "cinematic-still"
-    elif fin == "collage":
+    elif art == "collage":
         fam = "graphic-collage"
     elif typ == "gallery" and g in ("white", "checkerboard") and panels <= 1:
         fam = "outcome-tile"
@@ -73,16 +74,135 @@ def family_of(rec):
 def role_fix(rec):
     """A corrected role, or None to keep the guess. Mockup-card composites
     stay creative: they are generated assets of their own family."""
-    role, fin, ui = rec.get("role"), rec.get("finish"), rec.get("ui_mockup") or "none"
-    if role == "creative" and (fin == "screenshot" or ui in ("editor-canvas", "browser-window")):
+    role, art, ui = rec.get("role"), rec.get("art_style"), rec.get("ui_mockup") or "none"
+    if role == "creative" and (art == "ui-screenshot" or ui in ("editor-canvas", "browser-window")):
         return "ui-screenshot"
-    if role == "ui-screenshot" and fin == "photo" and ui == "none":
+    if role == "ui-screenshot" and art == "photo" and ui == "none":
         return "creative"
     return None
 
 
 def style_label(style, variant):
     return f"{style}/{variant}" if style and variant else style
+
+
+# --- structure: the coarse shape of a picture, computed on read ---------------
+STRUCTURES = ("single-picture", "before-after", "side-by-side", "grid-set", "column-main",
+              "panel-overlay", "card", "cutout-checkerboard", "crop-frame")
+
+
+def structure_of(rec):
+    """(structure | None, source) for one attribute record. Computed on read
+    (no stored field): pixel facts (before/after, checkerboard) outrank labelled
+    chrome; labelled chrome outranks measured layout. source is 'labelled' when
+    chrome was answered (it is on every sheet, so an answered chrome means a
+    person saw the picture), else 'measured'."""
+    g = rec.get("ground")
+    lay = rec.get("layout")
+    ch = set(rec.get("chrome") or [])
+    ui = rec.get("ui_mockup") or "none"
+    panels = rec.get("panel_count") or 0
+    source = "labelled" if rec.get("chrome") is not None else "measured"
+    if rec.get("before_after"):
+        st = "before-after"
+    elif g == "checkerboard":
+        st = "cutout-checkerboard"
+    elif ch & {"brackets", "size-label"}:
+        st = "crop-frame"
+    elif "adjust-panel" in ch or lay == "overlay":
+        st = "panel-overlay"
+    elif "vs-badge" in ch:
+        st = "side-by-side"
+    elif ui != "none" or ch & {"mockup-card", "prompt-panel"}:
+        st = "card"
+    elif lay == "column-main":
+        st = "column-main"
+    elif lay in ("two-up", "split") or (lay in ("grid", "stacked") and panels <= 2):
+        st = "side-by-side"
+    elif lay in ("grid", "stacked"):
+        st = "grid-set"
+    elif lay == "single" or g == "photo-full-bleed":
+        st = "single-picture"
+    else:
+        return None, None
+    return st, source
+
+
+# --- model: who generated an asset, from where it is placed -------------------
+# Thumbnails of these types depict other pages; the DB holds no href, so they
+# are never evidence of who made the asset.
+CROSS_LINK_TYPES = ("link-grid", "tutorial-grid", "resource-links")
+HEADLINE_RE = re.compile(r"\b(?:created|made) with (.+?)(?:\s+AI model)?\s*$", re.I)
+
+
+def slugify(name):
+    """'Flux 2 Max' -> 'flux-2-max'."""
+    return re.sub(r"[^a-z0-9]+", "-", (name or "").strip().lower()).strip("-")
+
+
+def model_slug(slug):
+    """The model part of an 'ai-models--<model>' page slug, else None."""
+    prefix = "ai-models--"
+    return slug[len(prefix):] if slug and slug.startswith(prefix) else None
+
+
+def model_slugs(con):
+    """Every 'ai-models--<model>' page's model slug (the known-models set)."""
+    return {model_slug(r["slug"]) for r in con.execute(
+        "SELECT slug FROM pages WHERE slug LIKE 'ai-models--%'")}
+
+
+def display_name(title):
+    """A readable model name from a page title, for the sidecar only (the
+    folder is always the slug). Cuts the title at its first product-category
+    or separator word."""
+    if not title:
+        return None
+    head = re.split(r"\s+(?:AI|—|-|\||:)\s", title, maxsplit=1)[0]
+    head = re.sub(r"\s+AI$", "", head).strip()
+    return head or title.strip()
+
+
+def placements(con, roles=db.GENERATED_ROLES):
+    """{src: [{slug, family, type, headline, role, kind, slot}, ...]} for every
+    generated-role media row, one join over media x sections x pages."""
+    out = defaultdict(list)
+    q = ("SELECT m.src AS src, m.role AS role, m.kind AS kind, m.slot_id AS slot, "
+         "s.type AS type, s.headline AS headline, p.slug AS slug, p.family AS family "
+         "FROM media m JOIN sections s ON m.section_id = s.id JOIN pages p ON s.page_id = p.id "
+         "WHERE m.role IN (%s)" % ",".join("?" * len(roles)))
+    for r in con.execute(q, tuple(roles)):
+        out[r["src"]].append({k: r[k] for k in ("slug", "family", "type", "headline", "role", "kind", "slot")})
+    return dict(out)
+
+
+def model_of(asset_placements, known):
+    """(model | None, evidence, models) for one asset. `known` = model_slugs(con).
+    Evidence order: a 'made with X' headline naming one known model is a strict
+    upgrade of the page set; two headlines conflict (general); one own ai-models
+    page names the model; two or more are shared (general); a lone compare page
+    yields the pair (general, in the sidecar); anything else is general."""
+    own = [p for p in asset_placements if p.get("type") not in CROSS_LINK_TYPES]
+    heads = sorted({slugify(m.group(1)) for p in own
+                    for m in [HEADLINE_RE.search(p.get("headline") or "")] if m
+                    and slugify(m.group(1)) in known})
+    if len(heads) == 1:
+        return heads[0], "headline", []
+    if len(heads) >= 2:
+        return None, "conflict", heads
+    ai = sorted({model_slug(p["slug"]) for p in own if model_slug(p["slug"]) in known})
+    if len(ai) == 1:
+        return ai[0], "page", []
+    if len(ai) >= 2:
+        return None, "shared", ai
+    slugs = {p["slug"] for p in own}
+    if len(slugs) == 1:
+        only = next(iter(slugs))
+        body = only[len("compare-models--"):] if only.startswith("compare-models--") else None
+        if body and "-vs-" in body:
+            a, b = body.split("-vs-", 1)
+            return None, "compare", [a, b]
+    return None, None, []
 
 
 def key_of(rec, keys):
@@ -192,7 +312,7 @@ def write_report(mapping, out_dir, keys=("type", "aspect_class", "ground", "layo
     for s, r in unresolved[:200]:
         lines.append(f"- {r.get('page')} {r.get('slot')} ({r.get('type')}, {r.get('aspect_class')}): ground {r.get('ground')}, "
                      f"layout {r.get('layout')}, chrome {'+'.join(r.get('chrome') or []) or 'none'}, ui {r.get('ui_mockup')}, "
-                     f"finish {r.get('finish')}; hint {r.get('family_hint')}; {r.get('description', '')}")
+                     f"art_style {r.get('art_style')}; hint {r.get('family_hint')}; {r.get('description', '')}")
     (out_dir / "report.md").write_text("\n".join(lines) + "\n")
     (out_dir / "groups.json").write_text(json.dumps(json_groups, indent=1))
     return out_dir / "report.md", len(grp), len(unresolved)

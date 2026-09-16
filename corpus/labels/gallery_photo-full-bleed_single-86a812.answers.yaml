@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: an album cover with a woman in a hat over mountains and a name headline
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a bookmark design with a lone tree and a quote headline
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a gift certificate card with macarons and purple graphics
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a white t-shirt mockup on a green ground
+  family_hint: template-mockup
+  confidence: 0.45
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a book cover with a red abstract shape and an author name
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: an album cover with a flat illustrated flower and the word celestial
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a name card reading hello with a hair colorist title
+  family_hint: template-mockup
+  confidence: 0.45
+8:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: an aerial photo of boats on blue water with a small corner logo
+  family_hint: full-bleed
+  confidence: 0.45
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a floral-bordered restaurant menu with courses listed
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a clothing gift certificate with a model photo and a thirty dollar value
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink t-shirt mockup with small printed text on a sky ground
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a white t-shirt mockup printed bright mind on a green ground
+  family_hint: template-mockup
+  confidence: 0.45

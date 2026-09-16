@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: a process-flow diagram document template with step labels and a small plant icon
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: black friday sale coupon banners with a model photo and barcode
+  family_hint: template-mockup
+  confidence: 0.55
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a red serif motivational quote poster on light grey
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: gift coupon banner templates with teal accent and discount percentages
+  family_hint: template-mockup
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: buy more save more black friday coupon banners with green ribbon graphics
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a holiday photo greeting card of a family by a christmas tree with script text
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a green serif teacher quote poster on cream
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: perforated coupon ticket templates with discount labels
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: a numbered project workflow list document template in pastel colors
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: black friday discount coupon banners with bold lettering
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink script determination quote poster over lined paper
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: black friday coupon ticket templates in black and pink with discount seals
+  family_hint: template-mockup
+  confidence: 0.55

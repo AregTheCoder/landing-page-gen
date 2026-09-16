@@ -1,0 +1,144 @@
+1:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a blue brochure template card reading flavor feast with a noodle bowl photo
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: stacked
+  panel_count: 2
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a stacked birthday card template with an illustrated candle cake
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: solid-colour
+  layout: stacked
+  panel_count: 2
+3:
+  chrome: [mockup-card, button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a cupcake brand design with two variation thumbnails and a count stepper
+  family_hint: template-mockup
+  confidence: 0.4
+  ground: mixed
+  layout: column-main
+  panel_count: 3
+4:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: two model result cards of a yellow handbag GPT Image versus Flux 2 Pro with VS
+  family_hint: vs-two-up
+  confidence: 0.9
+  ground: mixed
+  layout: two-up
+  panel_count: 2
+5:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt panel and model tiles beside a green FRESH mug product shot
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+  layout: column-main
+  panel_count: 2
+6:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two video frames of a man at a microphone with caption bars
+  family_hint: full-bleed
+  confidence: 0.3
+  ground: photo-full-bleed
+  layout: two-up
+  panel_count: 2
+7:
+  chrome: [mockup-card, chip, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a talking man portrait beside a script card with language flags
+  family_hint: prompt-card
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: split
+  panel_count: 1
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a stacked comedy flyer template reading jake knows no limits with a man photo
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: stacked
+  panel_count: 2
+9:
+  chrome: [slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman with flowers under a brightness slider and a before after divider
+  family_hint: before-after
+  confidence: 0.45
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+10:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: two runner phone frames with a Nanobanana prompt and a message input
+  family_hint: prompt-card
+  confidence: 0.7
+  ground: photo-full-bleed
+  layout: column-main
+  panel_count: 2
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: three illustrated bookmark templates including just one more page
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: grid
+  panel_count: 3
+12:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model result cards of a woman in a scarf Ideogram versus Flux 2 Pro with VS
+  family_hint: vs-two-up
+  confidence: 0.9
+  ground: mixed
+  layout: two-up
+  panel_count: 2

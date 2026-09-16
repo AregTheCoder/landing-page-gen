@@ -1,0 +1,18 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: selfie portrait of a woman sitting in a car, full-bleed photo
+  family_hint: full-bleed
+  confidence: 0.7
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: album cover design reading CELESTIAL with flat flower illustration over a template gallery
+  family_hint: template-mockup
+  confidence: 0.6

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: youtube banner of a photographer with a tips headline
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: cream t-shirt mockup with a tarot moon graphic
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: dark blue bookmark design titled The Dark Soul
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: infographic titled online store in five steps with icons
+  family_hint: template-mockup
+  confidence: 0.45
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: black t-shirt mockup with a small snowflake graphic
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: mixed
+  description: album cover with green and purple fluid art titled untextured
+  family_hint: template-mockup
+  confidence: 0.45
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: pink dance festival poster with neon line icons
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: seven day workout program schedule design
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: mint studios bookmark with abstract geometric shapes
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: red gift certificate design for a special gift
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: black t-shirt mockup with a red cupid graphic
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: pink bookmark reading a book a day keeps reality away
+  family_hint: template-mockup
+  confidence: 0.5

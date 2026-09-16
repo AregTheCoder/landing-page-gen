@@ -1,0 +1,63 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a seedream 4.0 dark promo card with a plush cloud and product panels
+  family_hint: dark-composite
+  confidence: 0.6
+2:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a mountain lake landscape with three nano banana model chips below
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a nano banana prompts dark card with a grid of portrait and product photos
+  family_hint: dark-composite
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a best ai image prompts dark card with teddy bear portrait and food photos
+  family_hint: dark-composite
+  confidence: 0.6
+5:
+  chrome: [play-button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a seedance 2.5 dark video showcase with play buttons and clip frames
+  family_hint: dark-composite
+  confidence: 0.6
+6:
+  chrome: [play-button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a wan 2.7 dark video showcase with owl and portrait clips and play buttons
+  family_hint: dark-composite
+  confidence: 0.6
+7:
+  chrome: [prompt-panel]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: photo
+  description: a flow prompt node linked to three portrait output cards on a dark canvas
+  family_hint: prompt-card
+  confidence: 0.45

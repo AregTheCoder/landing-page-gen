@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a red lunar new year card with a glass snake and a headline
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a blue brand card with an orange head silhouette and bold title
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a cream christmas brunch menu card with botanical accents
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an orange script teacher quote on a pink ground
+  family_hint: template-mockup
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a dark blue lunar new year card with a flat vector snake
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a thanksgiving card template with a family photo and autumn leaves
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: [pill]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: an orange shoe ad with black shoes and a fall feels script
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a green christmas card with a pine wreath and peace on earth text
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink script exam quote on a pink ground
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a dessert menu card with a blue lace border and menu items
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a summer sale poster with a woman in denim and purple shapes
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fashion sale card with a woman carrying a bag and floral accents
+  family_hint: template-mockup
+  confidence: 0.5

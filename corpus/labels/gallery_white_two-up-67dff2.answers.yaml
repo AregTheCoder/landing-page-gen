@@ -1,0 +1,9 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a travel scrapbook poster of Italy with photos handwritten captions and cutout shapes
+  family_hint: template-mockup
+  confidence: 0.6

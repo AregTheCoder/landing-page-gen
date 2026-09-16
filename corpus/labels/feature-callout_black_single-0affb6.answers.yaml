@@ -1,0 +1,98 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  description: an empty dark card with a white Generate button
+  family_hint: prompt-card
+  confidence: 0.5
+2:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a green satin dress taking a mirror selfie with a reference thumbnail inset
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  description: cupcake photos beside an ingredient description card with a Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: a black tile with a white add-image icon
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  description: an empty dark card with a white Generate button
+  family_hint: prompt-card
+  confidence: 0.5
+6:
+  chrome: [prompt-panel, chip, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: woman on an orange couch with a video style and voiceover script panel below
+  family_hint: prompt-card
+  confidence: 0.5
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  description: an empty dark card with a white Generate button
+  family_hint: prompt-card
+  confidence: 0.5
+8:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  description: an empty dark card with a white Generate button
+  family_hint: prompt-card
+  confidence: 0.5
+9:
+  chrome: [size-label, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: a woman photo and a fox character render with a size label and Generate button
+  family_hint: prompt-card
+  confidence: 0.5
+10:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: motion-blur photo of a woman in a yellow dress with a reference thumbnail inset
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: start-frame and end-frame keyframe cards beside an ornate cloud archway painting
+  family_hint: other
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a hand holding a swirl pastry on a Paris street
+  family_hint: full-bleed
+  confidence: 0.7

@@ -1,0 +1,108 @@
+1:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: anime-cartoon
+  description: anime girl drinking matcha on a beach with a prompt bar and small item cutouts
+  family_hint: prompt-card
+  confidence: 0.5
+2:
+  chrome: [tile, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: poodle wearing headphones beside a model logo tile and a dj turntable
+  family_hint: full-bleed
+  confidence: 0.3
+3:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: young man with a basketball on a pink ground with an After pill
+  family_hint: before-after
+  confidence: 0.5
+4:
+  chrome: [tile, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a designed mountains graphic thumbnail with model logo tiles
+  family_hint: full-bleed
+  confidence: 0.3
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: mirrored photo of a person on rainbow stripes with a floating overlay card
+  family_hint: full-bleed
+  confidence: 0.3
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: pixar style 3d characters in a kitchen scene with an alert text overlay
+  family_hint: full-bleed
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: group selfie of laughing people with a checkerboard cutout on the right
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+8:
+  chrome: [chip, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person in a city with a column of clothing reference thumbnails and an audio bar
+  family_hint: full-bleed
+  confidence: 0.3
+9:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: two stacked panels of a cat dj with Luma and Kling model pills
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green sunglasses held by a hand on a pink sky with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+11:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a matte black business card mockup on a silver metal ring with a prompt caption
+  family_hint: template-mockup
+  confidence: 0.3
+12:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a black suit against a blue sky with a column of pose variation thumbnails
+  family_hint: full-bleed
+  confidence: 0.3

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a purple gift card design with red shoes reading shoe lovers dream
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a black friday coupon with a promo code and barcode on torn paper
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: collage
+  description: a black friday sale poster built from sticker shapes and cutout labels
+  family_hint: graphic-collage
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a moodboard collage of photo cards and an envelope reading of the year
+  family_hint: graphic-collage
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a cupcake composited onto a grassy hill under blue sky
+  family_hint: full-bleed
+  confidence: 0.45
+6:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: an old car with a before after slider from grainy to restored
+  family_hint: before-after
+  confidence: 0.65
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a motion blurred jazz musician with a jazz genre chip
+  family_hint: cinematic-still
+  confidence: 0.45
+8:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a modern house with a before after slider from pixelated to sharp
+  family_hint: before-after
+  confidence: 0.65
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: the same cupcake cut out on a plain white ground
+  family_hint: outcome-tile
+  confidence: 0.4
+10:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling woman in sunglasses with a before after slider handle
+  family_hint: before-after
+  confidence: 0.65
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in pink shown against several coloured background panels
+  family_hint: outcome-tile
+  confidence: 0.35
+12:
+  chrome: [prompt-panel, button, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: ui-screenshot
+  description: a text to video prompt panel with generate button and aspect options
+  family_hint: prompt-card
+  confidence: 0.55

@@ -1,0 +1,27 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a dark starry banner with moon-phase photos and a Moon Magic headline
+  family_hint: template-mockup
+  confidence: 0.3
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a fashion portrait of a woman in a black sculptural ribbon dress
+  family_hint: cinematic-still
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: three product cutouts on checkerboard tiles over a black ground
+  family_hint: cutout-checkerboard
+  confidence: 0.6

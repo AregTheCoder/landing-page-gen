@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a product promo card for a patterned tumbler with a bold offer headline
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an event poster template with a sunrise illustration and stacked cards
+  family_hint: template-mockup
+  confidence: 0.55
+3:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a child crossing a rope bridge over water with a play button
+  family_hint: full-bleed
+  confidence: 0.45
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a colorful abstract art panel beside a black and white interior portrait
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: hands with rings shown on transparent checkerboard and on a gradient
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a man shown in color and black and white stacked cards
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a dog with a red collar against pink clouds with a play button
+  family_hint: full-bleed
+  confidence: 0.45
+8:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a child crossing a rope bridge over water with a play button
+  family_hint: full-bleed
+  confidence: 0.45
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a product launch promo card featuring colorful socks with bold text
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: an astronaut among pink clouds shown as stacked photo cards
+  family_hint: other
+  confidence: 0.3
+11:
+  chrome: [mockup-card, adjust-panel, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a beauty product ad with a brand logo panel and color palette
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a hand holding green sunglasses on teal and transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.55

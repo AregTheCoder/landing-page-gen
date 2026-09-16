@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: stacked brand marketing design cards with a woman photo
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: two anime style portraits of a purple haired man on a gradient
+  family_hint: other
+  confidence: 0.35
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a line-art print shown on a white t-shirt and a coffee mug
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a hand holding green sunglasses over a teal and transparent checkerboard split
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a white haired woman beside a chrome sphere in a cloudy sky
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a white haired woman beside a chrome sphere in a cloudy sky
+  family_hint: full-bleed
+  confidence: 0.6
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: nail salon and invoice design template cards
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: nail salon and invoice design template cards
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a blue product bag on a green and transparent checkerboard split with a slider
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+10:
+  chrome: [selection-handles, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: a logo on an editor canvas with selection handles and a shapes panel
+  family_hint: editor-canvas
+  confidence: 0.65
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: painterly-illustration
+  description: an embroidered floral bouquet on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: painterly-illustration
+  description: an embroidered floral bouquet on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.55

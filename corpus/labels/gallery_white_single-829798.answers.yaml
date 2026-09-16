@@ -1,0 +1,45 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: flat-vector
+  description: an isometric flat illustration of a furnished apartment interior
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: painterly-illustration
+  description: a black ink brush painting of a koi fish on white
+  family_hint: full-bleed
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a red patent jacket and red sunglasses
+  family_hint: full-bleed
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a flat vector illustration of a person sitting on a chair
+  family_hint: full-bleed
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a colourful flat vector illustration of a dancing figure
+  family_hint: full-bleed
+  confidence: 0.6

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: gift certificate design with a jewelry photo and a DAZZLE DELIGHT headline
+  family_hint: template-mockup
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: youtube banner with a coffee terrace photo and a PEACE IN THE HUSTLE headline
+  family_hint: template-mockup
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: teal resume layout for a history teacher with skills and experience text
+  family_hint: template-mockup
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: independence day sale flyer with a flag star graphic and 25 percent off headline
+  family_hint: template-mockup
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: resume layout with a headshot and dense experience text
+  family_hint: template-mockup
+  confidence: 0.85
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: travel brochure with a beach photo and ESCAPE TO PARADISE body copy
+  family_hint: template-mockup
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: floral birthday party invitation for John Smith
+  family_hint: template-mockup
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: youtube banner with an autumn portrait and a cozy fall weekend headline
+  family_hint: template-mockup
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: birthday card with a couple in party hats and bunting
+  family_hint: template-mockup
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: halloween crafts book cover banner with a pumpkin photo
+  family_hint: template-mockup
+  confidence: 0.75
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: christmas card with a family photo and a red Merry Christmas script
+  family_hint: template-mockup
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: spa salon brochure with treatment photos and a services list
+  family_hint: template-mockup
+  confidence: 0.8

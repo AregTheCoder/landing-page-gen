@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: fashion lookbook panels labelled A/W23 new collection
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: [swatch, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: coffee brand kit with logo colour palette and font samples
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: [swatch, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: coffee brand kit with logo colour palette and font samples
+  family_hint: template-mockup
+  confidence: 0.6
+4:
+  chrome: [tile, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: before and after portrait of a woman with a sparkle tile
+  family_hint: before-after
+  confidence: 0.6
+5:
+  chrome: [tile, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: before and after portrait of a woman with a sparkle tile
+  family_hint: before-after
+  confidence: 0.6
+6:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: beauty video thumbnail with a headline and a duration chip
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: stacked wedding invitation design templates
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait with the background removed to a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait with the background removed to a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: ceramic mug photo split between checkerboard and blue background
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: stacked save the date invitation templates
+  family_hint: template-mockup
+  confidence: 0.7
+12:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: dark app mockup of stacked document design templates
+  family_hint: template-mockup
+  confidence: 0.5

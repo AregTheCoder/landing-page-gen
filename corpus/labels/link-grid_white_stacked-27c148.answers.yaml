@@ -1,0 +1,96 @@
+1:
+  chrome: [mockup-card, tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  description: 'rise and shine poster template with person cutout and editor tiles above'
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: [mockup-card, tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  description: 'rise and shine poster template with person cutout and editor tiles above'
+  family_hint: template-mockup
+  confidence: 0.85
+3:
+  chrome: [mockup-card, tile, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  description: elegant "Celeste" jewelry template with try-now button and a text tool tile
+  family_hint: template-mockup
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  description: flat illustrated water-cycle infographic diagram with labelled arrows
+  family_hint: other
+  confidence: 0.4
+5:
+  chrome: [mockup-card, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: food
+  description: iced-coffee ad template "tired mornings" with three editor tool tiles below
+  family_hint: template-mockup
+  confidence: 0.7
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  description: man in a forest above a music tile and audio waveform track
+  family_hint: editor-canvas
+  confidence: 0.45
+7:
+  chrome: [chip, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  description: woman portrait in pink flowers with three detail-crop chips below
+  family_hint: model-card
+  confidence: 0.7
+8:
+  chrome: [button, chip]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  description: woman leaping in a starry blue sky above a sticker search bar
+  family_hint: prompt-card
+  confidence: 0.4
+9:
+  chrome: [button, chip]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  description: woman leaping in a starry blue sky above a sticker search bar
+  family_hint: prompt-card
+  confidence: 0.4
+10:
+  chrome: [mockup-card, swatch, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  description: graphic-designer resume template card with font tiles and colour swatches
+  family_hint: template-mockup
+  confidence: 0.65
+11:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: food
+  description: instagram social-post mockup of a green coffee drink with like icons
+  family_hint: mockup-card
+  confidence: 0.7
+12:
+  chrome: [badge, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  description: multi-panel edit grid with magenta check badges and a tools context menu
+  family_hint: editor-canvas
+  confidence: 0.4

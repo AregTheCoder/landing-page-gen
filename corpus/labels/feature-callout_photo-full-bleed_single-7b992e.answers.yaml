@@ -1,0 +1,108 @@
+1:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: low angle photo of woman in red on a city building ledge with a model pill
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman on a pink ground with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+3:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: teddy bear on a park bench with a video timeline strip and thumbnails below
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: rounded panel of a white building interior floating on a light blue gradient
+  family_hint: full-bleed
+  confidence: 0.3
+5:
+  chrome: [prompt-panel, size-label, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel and language list beside a photo of a man inside a transparent bubble
+  family_hint: prompt-card
+  confidence: 0.7
+6:
+  chrome: [chip, play-button]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man playing trumpet in an ornate room with an audio player and genre chips
+  family_hint: full-bleed
+  confidence: 0.3
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: low angle fisheye photo of a person over a city with first and last frame thumbnails
+  family_hint: full-bleed
+  confidence: 0.4
+8:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a perfume bottle on a branch over a checkerboard with carousel arrows
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+9:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked sports video panels with Veo and Kling model pills
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman resting by a train window in warm light
+  family_hint: full-bleed
+  confidence: 0.6
+11:
+  chrome: [play-button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a set of designed album cover mockups with titles and a play button
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [chip, button]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  description: woman in a silver jacket walking a neon city at night with a GIF export bar
+  family_hint: full-bleed
+  confidence: 0.4

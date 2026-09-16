@@ -1,0 +1,27 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a purple heart app icon centred on a lilac panel
+  family_hint: other
+  confidence: 0.4
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a purple profile card app icon on a lilac panel
+  family_hint: other
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: a purple cosmetic tube over a pink ground with white organic shapes
+  family_hint: graphic-collage
+  confidence: 0.55

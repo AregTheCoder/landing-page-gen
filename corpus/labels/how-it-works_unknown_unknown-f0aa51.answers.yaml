@@ -1,0 +1,120 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: red MERRY CHRISTMAS greeting card with a flat tree illustration over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+2:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: magenta 2025 calendar design with a numbered month grid over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: black ANNUAL ARTS AND CRAFTS FAIR flyer with a photo over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+4:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person wearing a printed pink t-shirt on blue over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.5
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+5:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: FASHION AND STYLE youtube banner over a sky and a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.55
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+6:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: yellow EXFOLIATE SAFELY AT HOME instagram post with a woman face and Learn More button
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: framed portrait quote poster reading QUEEN over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.55
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: black Merry Christmas card with a candy cane illustration over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+9:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: vintage GIFT CERTIFICATE design over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+10:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: 20 percent off ice cream coupon with scoop photos over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1

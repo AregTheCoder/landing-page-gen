@@ -2,7 +2,7 @@
 read off the image itself, with no model in the loop.
 
 `ground`, `layout`, `panel_count` and `before_after` are geometry and colour
-statistics; the semantic fields (chrome, text, mockup, subject, finish) are
+statistics; the semantic fields (chrome, text, mockup, subject, art_style) are
 left blank for the labelling sheets to fill. Everything here works on a
 256 px copy of the local file (a cached poster frame, for a video)."""
 

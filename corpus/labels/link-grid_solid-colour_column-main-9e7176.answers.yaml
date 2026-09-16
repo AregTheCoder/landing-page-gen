@@ -1,0 +1,27 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a green handbag cutout on dark checkerboard with an After label
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a manicured hand with rings on blue behind large A/W 23 lettering
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a manicured hand with rings on blue behind large A/W 23 lettering
+  family_hint: template-mockup
+  confidence: 0.4

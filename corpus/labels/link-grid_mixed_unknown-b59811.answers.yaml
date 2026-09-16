@@ -1,0 +1,88 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: two business card designs on a soft surface with shadow
+  family_hint: template-mockup
+  confidence: 0.7
+  layout: two-up
+  panel_count: 2
+2:
+  chrome: [prompt-panel, button, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: sci-fi jellyfish over a Mars scene with a prompt panel and generate button
+  family_hint: prompt-card
+  confidence: 0.8
+  layout: overlay
+  panel_count: 1
+3:
+  chrome: [mockup-card, chip, slider]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: social profile card of a capped model with a transparent cutout of the cap
+  family_hint: mockup-card
+  confidence: 0.6
+  layout: overlay
+  panel_count: 2
+4:
+  chrome: [swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hand dipping a spoon into an orange jelly dessert with a red cutout sticker
+  family_hint: full-bleed
+  confidence: 0.4
+  layout: overlay
+  panel_count: 2
+5:
+  chrome: [swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hand dipping a spoon into an orange jelly dessert with a red cutout sticker
+  family_hint: full-bleed
+  confidence: 0.4
+  layout: overlay
+  panel_count: 2
+6:
+  chrome: [swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hand dipping a spoon into an orange jelly dessert with a red cutout sticker
+  family_hint: full-bleed
+  confidence: 0.4
+  layout: overlay
+  panel_count: 2
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: mixed
+  description: flamingo landscape with an overlapping painted flamingo card and a prompt caption
+  family_hint: prompt-card
+  confidence: 0.5
+  layout: overlay
+  panel_count: 2
+8:
+  chrome: [slider]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: hands with watches over big A/W23 lettering with a cutout and editor grid
+  family_hint: editor-canvas
+  confidence: 0.5
+  layout: overlay
+  panel_count: 2

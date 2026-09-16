@@ -1,0 +1,100 @@
+1:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: ad prompt panel with generate button beside a design ad poster
+  family_hint: prompt-card
+  confidence: 0.65
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man walking on a night city street
+  family_hint: full-bleed
+  confidence: 0.7
+3:
+  chrome: [swatch, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: three brand kit rows with logos colour swatches and font labels
+  family_hint: template-mockup
+  confidence: 0.6
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+5:
+  chrome: [swatch, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: mixed
+  description: colour palette blocks with a Sakura Atelier brand label
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: Totally tote bag design with logo colour palette and barcode
+  family_hint: template-mockup
+  confidence: 0.6
+7:
+  chrome: [tile, play-button, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: grid of social video frames with people and play button
+  family_hint: template-mockup
+  confidence: 0.45
+8:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: pottery classes template with a dotted mug and tool tiles
+  family_hint: template-mockup
+  confidence: 0.75
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: cake photos with an oh hey bakery poster and checkerboard cutout
+  family_hint: template-mockup
+  confidence: 0.65
+10:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: pink Start Creating button on white
+  family_hint: other
+  confidence: 0.4
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: dark bar with a Generate button
+  family_hint: other
+  confidence: 0.4

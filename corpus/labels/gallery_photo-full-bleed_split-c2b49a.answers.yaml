@@ -1,0 +1,120 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn photo moodboard collage with a handwritten autumn aesthetics label
+  family_hint: template-mockup
+  confidence: 0.45
+  before_after: false
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Coffee Co voucher coupon design with an iced-coffee photo
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an Around The World In 30 Days vlog banner with a travel photo collage
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Celebrating Ten Years anniversary card with a woman in sunglasses
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Grand Opening announcement card with a woman in a fur collar
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Harlem Renaissance exhibition flyer with street-art photography
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Work Zone Gym membership promo with a woman working out
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a Sneak Peak Fall Boots product card with pink rain boots
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Spring 2023 Collection fashion post with a woman holding fruit
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Discover Europe travel brochure with Colosseum photos and tour prices
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Euboea travel design with a backpacker photo and body copy
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a skincare product post with a woman applying face cream
+  family_hint: template-mockup
+  confidence: 0.6
+  before_after: false

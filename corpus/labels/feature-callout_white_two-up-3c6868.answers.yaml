@@ -1,0 +1,54 @@
+1:
+  chrome: [prompt-panel, button, pill]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt panel beside a designed handbag sale ad with add to cart button
+  family_hint: prompt-card
+  confidence: 0.6
+2:
+  chrome: [prompt-panel, button, browser-window]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt panel beside a green sunglasses ad in a shop browser card
+  family_hint: prompt-card
+  confidence: 0.55
+3:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: photo
+  description: two summer drink ad cards with facebook and instagram icons
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [mockup-card, browser-window, chip]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: product
+  art_style: 3d-render
+  description: a green mug ad with a test ad analytics card in a browser mockup
+  family_hint: mockup-card
+  confidence: 0.4
+5:
+  chrome: [prompt-panel, tile, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  description: a prompt panel beside a cherry cake ad on a cotton candy cloud
+  family_hint: prompt-card
+  confidence: 0.6
+6:
+  chrome: [prompt-panel]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt panel beside a pink armchair furniture collection ad
+  family_hint: prompt-card
+  confidence: 0.55

@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, size-label, pill]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: coffee photo beside a Beyond Coffee poster with x2 and enlarge tiles
+  family_hint: before-after
+  confidence: 0.4
+2:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: two sunscreen bottle shots side by side with model pills
+  family_hint: vs-two-up
+  confidence: 0.9
+3:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a person in a bucket hat with model pills
+  family_hint: vs-two-up
+  confidence: 0.9
+4:
+  chrome: [pill, model-logo, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two pink-fur portraits with a VS badge and model pills
+  family_hint: vs-two-up
+  confidence: 0.95
+5:
+  chrome: [pill, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: floral Bloom panel beside chrome Bloom lettering with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+6:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two full-body portraits of a person on a rooftop with model pills
+  family_hint: vs-two-up
+  confidence: 0.9
+7:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a woman with sunglasses and cherries with model pills
+  family_hint: vs-two-up
+  confidence: 0.9
+8:
+  chrome: [pill, model-logo, button, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits with model pills plus upload audio and 4K chrome
+  family_hint: vs-two-up
+  confidence: 0.85
+9:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two metallic-puffer portraits among tulips with model pills
+  family_hint: vs-two-up
+  confidence: 0.9
+10:
+  chrome: [pill, model-logo, chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a soda can and a portrait side by side with model pills and size chips
+  family_hint: vs-two-up
+  confidence: 0.85
+11:
+  chrome: [pill, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two hat portraits with model pills and timing chips
+  family_hint: vs-two-up
+  confidence: 0.85
+12:
+  chrome: [pill, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a Heavenly cloud-typography panel beside a pink car in clouds with model pills
+  family_hint: vs-two-up
+  confidence: 0.85

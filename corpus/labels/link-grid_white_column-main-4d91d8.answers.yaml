@@ -1,0 +1,96 @@
+1:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  family_hint: other
+  confidence: 0.3
+  description: AI-styled portraits of women with coloured hair and makeup, small glam label
+2:
+  chrome: [chip, mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  family_hint: template-mockup
+  confidence: 0.5
+  description: classical bust meme in red sunglasses with caption on a social card, Aa font chip
+3:
+  chrome: [chip, swatch, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  family_hint: template-mockup
+  confidence: 0.6
+  description: graphic-designer resume layout with photo, font chips and colour swatches
+4:
+  chrome: [chip, selection-handles]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  family_hint: editor-canvas
+  confidence: 0.6
+  description: event poster on editor canvas with toolbar, font chips and selection handles
+5:
+  chrome: [chip, mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: typography
+  family_hint: template-mockup
+  confidence: 0.5
+  description: floral social post with script headline, like and share icons, font chip
+6:
+  chrome: [button, badge]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+  description: handbag product card with Add to Bag button and checkerboard cutout colour variants
+7:
+  chrome: [button, badge]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+  description: handbag product card with Add to Bag button and checkerboard cutout colour variants
+8:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  family_hint: template-mockup
+  confidence: 0.5
+  description: purple travel-timeline note card with taped corners and handwritten entries
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  family_hint: template-mockup
+  confidence: 0.45
+  description: 2025 calendar design with pink scribble headline, stacked cards behind
+10:
+  chrome: [model-logo, chip, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  family_hint: model-card
+  confidence: 0.55
+  description: flat vector illustration of a woman with daisies beside Picsart logo, SVG chip and swatches
+11:
+  chrome: [model-logo, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  family_hint: model-card
+  confidence: 0.6
+  description: 3D render of a pink-green creature beside Picsart logo and two detail crop chips
+12:
+  chrome: [model-logo, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  family_hint: model-card
+  confidence: 0.6
+  description: stylized illustration of a blue elf girl beside Picsart logo and two crop chips

@@ -1,0 +1,133 @@
+1:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Esquire brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+2:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  description: the TechCrunch logo with icon and name
+  family_hint: other
+  confidence: 0.3
+3:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the Forbes brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+4:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 0
+  description: the People brand wordmark logo
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a glowing neon wireframe globe on grey
+  family_hint: full-bleed
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  layout: single
+  panel_count: 1
+  description: a cutout of a small teddy bear toy
+  family_hint: other
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: painterly-illustration
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a vivid psychedelic swirl of rainbow colors with a handle watermark
+  family_hint: full-bleed
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: painterly-illustration
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: an illustrated arrangement of muted flowers and leaves
+  family_hint: full-bleed
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a crumpled grey fabric texture
+  family_hint: full-bleed
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+  description: a glossy blue morpho butterfly
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  layout: single
+  panel_count: 1
+  description: the year 2024 in glossy dark reflective 3d lettering
+  family_hint: other
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  ground: black
+  layout: single
+  panel_count: 1
+  description: a red light trail swirling on a black ground
+  family_hint: full-bleed
+  confidence: 0.5

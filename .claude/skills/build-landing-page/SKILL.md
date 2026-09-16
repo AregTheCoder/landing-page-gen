@@ -148,13 +148,20 @@ For each section with slots, fill `brief-template.md` into
   site-wide (the tutorial grid) show this page's own images on other pages
   and other section types, which is why every slot's id goes on every call;
   `--attr ground=black` narrows further;
-  When `similar` prints fewer than 2 tagged same-family examples, widen the
-  family first: `uv run lp-corpus widen <family>` (once per family per
-  fortnight; `SERPAPI_KEY` or `GOOGLE_VISION_API_KEY` in the environment,
-  no key means skip and say so in the report) and re-run `similar` with
-  `--widen 2`, which adds two visual neighbours of the family's corpus
-  assets as `w<n>-widened.md` + PNG. Neighbours are look references with an
-  unknown licence: the brief says so, and no worker wires one into a node;
+  When the family has kept pool entries (`corpus/pool/<family>.yaml`), add
+  `--pool 2 --seed <run folder name>` to the same call: two licensed stock
+  images land as `p<n>-pool.md` + PNG beside the corpus excerpts, rotated by
+  the seed so the next run sees different ones. Pool images carry a known
+  licence and a credit line; they are still look references only, and no
+  worker wires one into a node.
+  When `similar` prints fewer than 2 tagged same-family examples and the
+  pool has nothing kept, widen the family instead: `uv run lp-corpus widen
+  <family>` (once per family per fortnight; `SERPAPI_KEY` or
+  `GOOGLE_VISION_API_KEY` in the environment, no key means skip and say so
+  in the report) and re-run `similar` with `--widen 2`, which adds two
+  visual neighbours of the family's corpus assets as `w<n>-widened.md` +
+  PNG. Neighbours are look references with an unknown licence: the brief
+  says so, and no worker wires one into a node;
 - the `## Flow board` section: the output of `uv run lp-flow templates
   --family <family> --device <device> --query "<H2>"`, verbatim — either
   "start from a blank board" or the fitting template(s). The worker decides;
@@ -168,12 +175,21 @@ For each section with slots, fill `brief-template.md` into
 - the budget line (advisory per-slot cap from the frontmatter) and the
   output contract.
 
-When every brief is written, run
-`uv run python .claude/skills/build-landing-page/blindcheck.py <run>`. It
-greps the briefs and example excerpts for the page's own asset ids and for
-`snapshot:`/`source:` pointers. A hit names the section: re-run `similar`
-with the id excluded or delete that example, and strip the line it names.
-No worker is spawned while it fails. Record the clean result in the report.
+Write `<run>/shared-context.md` (§3) first, before any brief — it is derived
+from the skeleton alone, and every brief carries it, so it must exist before
+the first section is spawned.
+
+Blind-check and spawn each section the moment its brief is written, rather
+than waiting for the whole set: as you finish a section's brief, run
+`uv run python .claude/skills/build-landing-page/blindcheck.py <run> <Sxx>`.
+It greps that section's brief and example excerpts for the page's own asset
+ids (read page-wide from `slots.json`) and for `snapshot:`/`source:`
+pointers. A hit names the section: re-run `similar` with the id excluded or
+delete that example, and strip the line it names, then re-check. That section
+gets no worker while its check fails; a clean section is spawned straight away
+(§4). When every brief is written, run the whole-run check once
+(`blindcheck.py <run>`, no section) as a backstop and record its clean result
+in the report.
 
 ## 3. Shared context, before any worker
 
@@ -183,21 +199,26 @@ the hero annotation and the family's `prompt_guidance` ("hard even studio
 flash, seamless yellow and purple, glossy editorial finish, one person").
 Anchored workers quote these words; no worker waits for the hero image.
 
-## 4. One wave: every section at once
+## 4. The wave: spawn each section as its brief clears
 
 Spawn one `section-worker` per section (Agent tool, `subagent_type:
-section-worker`), all in one message, in the background, with the prompt:
+section-worker`), in the background, the moment that section's per-section
+blind check passes (§2) — do not wait for the last brief, so the earliest
+sections generate while the later briefs are still being assembled. Batch
+into one message whatever briefs are ready at the same time. The prompt:
 "Section <Sxx>. Work only inside `<run>/sections/<Sxx>/`. Read `brief.md`
-first." The hero is just one of them. When the hero worker finishes and its
-record passes step 5's precheck, append its photo URL to
-`shared-context.md` under `hero_url:`; a Series worker that has not yet
-generated may pass it in `imageUrls`, everyone else ignores it.
+first." The hero is just one of them (spawned as soon as its brief clears, so
+usually among the first). When the hero worker finishes and its record passes
+step 5's precheck, append its photo URL to `shared-context.md` under
+`hero_url:`; a Series worker that has not yet generated may pass it in
+`imageUrls`, everyone else ignores it. Nothing waits on the hero image — §3's
+shared context is written from the skeleton.
 
 Record each agent's tokens and wall time from its completion notification in
 `report.md` under "Agents" (one line per spawn), so the next run can be
 compared.
 
-## 5. Precheck, then one review for the wave
+## 5. Precheck and review, per section as workers finish
 
 1. As each worker finishes, run the paperwork check, no agent involved:
    `uv run python .claude/skills/build-landing-page/precheck.py <run> <Sxx>`.
@@ -208,17 +229,18 @@ compared.
    an image node off the pro model with no quoted copy, a template board
    without its source). A problem here is a SendMessage to the worker
    ("Record fix: ...") and a re-run of the check, never a review round.
-2. When every section has passed the precheck (or after the last worker,
-   whichever comes first), spawn one `section-reviewer` for the whole wave
-   with: the run folder, the list of section folders, and
-   `<run>/ledger.jsonl`. It writes one `review-N.md` per section with
+2. The moment a section passes its precheck, spawn a `section-reviewer` for
+   that section — the run folder, that one section folder (batch up to 3 that
+   clear precheck close together), and `<run>/ledger.jsonl`. Review overlaps
+   the still-running wave instead of following it, and each spawn stays well
+   inside its turn budget. It writes one `review-N.md` per section named, with
    `verdict: accept | rework | block` and numbered change requests tied to
-   workflow steps. One reviewer spawn loads the rubric once for all sections.
-3. Decide per section:
+   workflow steps.
+3. Decide per section as each verdict arrives:
    - accept: mark it in the report.
    - rework: SendMessage the same worker: "Rework: re-run from node N.
      Changes: ..." (its context is intact). At most 2 rework rounds per
-     section; reworked sections are reviewed together in one more spawn.
+     section; a reworked section is re-reviewed in its own spawn.
    - after 2 rounds: accept the best candidate the reviewer names, or mark
      the slot blocked with the reason.
 
@@ -242,7 +264,8 @@ has already looked. Keep your own context for coordination.
    or the template title), recipe, nodes, credits quoted vs spent (from
    `ledger.jsonl`), rounds, verdict; totals, with how many boards were
    blank and how many copied a template; which families were widened and
-   with how many neighbours;
+   with how many neighbours; which families drew pool references, how many
+   each, and the `--seed` used;
    kept-from-source and blocked slots; balance delta versus ledger sum; the
    "Agents" table (spawn, model, tokens, minutes) and the wall time from the
    first spawn to the last verdict.

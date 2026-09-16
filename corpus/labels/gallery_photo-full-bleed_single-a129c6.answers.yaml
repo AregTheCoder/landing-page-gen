@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a resume template with a teacher headshot and body text
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fall-palette social post with a woman in headphones
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a digital planner template with labelled section cards
+  family_hint: template-mockup
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a happy holidays card with a star pattern border
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a summer-days banner with beach photos and script text
+  family_hint: template-mockup
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a shampoo product showcase poster with hair-type labels
+  family_hint: template-mockup
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a kids-place back-to-school flyer with an icon badge
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a three-photo travel collage stacked vertically
+  family_hint: template-mockup
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fall-sale instagram post with a smiling woman
+  family_hint: template-mockup
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a thanksgiving card with a line-drawn pumpkin on orange
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a halloween crafts banner with a spooky candle still
+  family_hint: template-mockup
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a lunar new year sale banner in red and gold
+  family_hint: template-mockup
+  confidence: 0.7

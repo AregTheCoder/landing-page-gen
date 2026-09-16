@@ -1,0 +1,108 @@
+1:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a low poly geometric vase on pink with a play button
+  family_hint: full-bleed
+  confidence: 0.4
+2:
+  chrome: [chip, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a winter wear brand logo with a shopping bag mockup and icon chips
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: [mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: stacked social media post mockup cards with a play button
+  family_hint: mockup-card
+  confidence: 0.5
+4:
+  chrome: [mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: stacked social media post mockup cards with a play button
+  family_hint: mockup-card
+  confidence: 0.5
+5:
+  chrome: [adjust-panel, badge]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  description: portrait panels with magenta check badges and a tool menu panel
+  family_hint: editor-canvas
+  confidence: 0.5
+6:
+  chrome: [chip, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: layered promotional template cards around a portrait with marketing headlines
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [chip, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: layered promotional template cards around a portrait with marketing headlines
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: [adjust-panel, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: mixed
+  description: a strawberry jam jar with a sticker picker panel and a text tile
+  family_hint: editor-canvas
+  confidence: 0.4
+9:
+  chrome: [adjust-panel, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: mixed
+  description: a strawberry jam jar with a sticker picker panel and a text tile
+  family_hint: editor-canvas
+  confidence: 0.4
+10:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: stacked wellness thumbnail cards with a headline and a beach portrait
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a thirty percent off coupon design with a QR code
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: photo
+  description: a fried egg cutout on checkerboard with a transform selection frame
+  family_hint: editor-canvas
+  confidence: 0.5

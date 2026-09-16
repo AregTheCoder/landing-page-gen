@@ -1,0 +1,144 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: prompt panel beside a woman lying on moss with a rose-gold laptop
+  family_hint: prompt-card
+  confidence: 0.8
+2:
+  chrome: [prompt-panel, button, chip, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: video prompt panel with duration chips beside a teal clog in pink hills
+  family_hint: prompt-card
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: flat-vector
+  ground: checkerboard
+  layout: overlay
+  panel_count: 5
+  description: set of coffee themed stickers scattered on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+4:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: 3d-render
+  ground: mixed
+  layout: two-up
+  panel_count: 2
+  description: phone app card with two duck child characters and animate buttons
+  family_hint: mockup-card
+  confidence: 0.6
+5:
+  chrome: [prompt-panel, button, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: prompt panel beside two mirror selfie video frames of a woman
+  family_hint: prompt-card
+  confidence: 0.7
+6:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: prompt panel beside a surreal landscape of giant lipsticks and mushrooms
+  family_hint: prompt-card
+  confidence: 0.7
+7:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  ground: white
+  layout: two-up
+  panel_count: 2
+  description: blue perfume bottle beside a woman holding it with a model chip
+  family_hint: mockup-card
+  confidence: 0.4
+8:
+  chrome: [prompt-panel, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  ground: black
+  layout: split
+  panel_count: 2
+  description: prompt panel beside a florist shop with a cyclist frozen mid-motion
+  family_hint: prompt-card
+  confidence: 0.6
+9:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: flat-vector
+  ground: checkerboard
+  layout: overlay
+  panel_count: 5
+  description: set of coffee themed stickers scattered on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+10:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  ground: black
+  layout: column-main
+  panel_count: 1
+  description: column of social format chips beside a photo of friends in a car
+  family_hint: crop-frame
+  confidence: 0.5
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  ground: white
+  layout: two-up
+  panel_count: 2
+  description: two blue perfume bottle shots with a Recraft model chip
+  family_hint: mockup-card
+  confidence: 0.4
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  ground: light-grey
+  layout: column-main
+  panel_count: 5
+  description: layout tiles beside a black and white photo collage of people
+  family_hint: template-mockup
+  confidence: 0.5

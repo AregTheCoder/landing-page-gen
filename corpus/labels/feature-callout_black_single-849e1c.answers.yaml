@@ -1,0 +1,98 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a candid photo of a laughing couple
+  family_hint: full-bleed
+  confidence: 0.65
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: a black tile with a white music note icon
+  family_hint: other
+  confidence: 0.35
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: an empty black card with a Start Creating button
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [prompt-panel, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: two views of a man in an olive jacket with a fisheye video prompt and a frame strip
+  family_hint: prompt-card
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman seated among lush greenery with a row of video frames below
+  family_hint: full-bleed
+  confidence: 0.5
+6:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: an empty black card with a Start Creating button
+  family_hint: other
+  confidence: 0.4
+7:
+  chrome: [prompt-panel, button, model-logo, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: a marmot meadow photo beside a POV selfie prompt and a model list
+  family_hint: prompt-card
+  confidence: 0.65
+8:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a high-fashion editorial photo of a woman on a green sofa with a prompt and audio toggle
+  family_hint: prompt-card
+  confidence: 0.6
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  description: an empty black card with a small blank panel
+  family_hint: other
+  confidence: 0.2
+10:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: an empty black card with a Start Creating button
+  family_hint: other
+  confidence: 0.4
+11:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a classical statue with heart sunglasses taking a selfie with a Sora logo
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: [prompt-panel, button, size-label, model-logo, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: photo
+  description: a woman with a puppy photo beside a fisheye video prompt and a size label
+  family_hint: prompt-card
+  confidence: 0.6

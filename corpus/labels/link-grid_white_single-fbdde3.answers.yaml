@@ -1,0 +1,108 @@
+1:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a dark tablet showing employee of the month resume templates
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman portrait with white face landmark points for retouching
+  family_hint: editor-canvas
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a milestone magic social post design with a man in a cap
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: dark stacked invoice document templates with a green card
+  family_hint: template-mockup
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a coffee brand sun logo over purple and transparent checkerboard
+  family_hint: template-mockup
+  confidence: 0.4
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a hand holding green sunglasses on a mint and black split background
+  family_hint: full-bleed
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink graphic t-shirt and a black t-shirt side by side
+  family_hint: full-bleed
+  confidence: 0.3
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: collage
+  description: an ice cream cone with planets floating over a sky panel
+  family_hint: graphic-collage
+  confidence: 0.6
+9:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: a cosmetic jar on wood with outward arrows over transparent checkerboard
+  family_hint: crop-frame
+  confidence: 0.4
+10:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: a cosmetic jar on wood with outward arrows over transparent checkerboard
+  family_hint: crop-frame
+  confidence: 0.4
+11:
+  chrome: [swatch]
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  description: a blue phone frame showing a this or that quiz template with color swatches
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a croissant on a checked cloth with a center comparison slider handle
+  family_hint: before-after
+  confidence: 0.4

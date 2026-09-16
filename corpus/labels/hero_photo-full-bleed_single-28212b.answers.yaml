@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a hand holding a glowing smartphone in a dark scene
+  family_hint: full-bleed
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a spring sale fashion story poster with two men and headline text
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a neon city street at night
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: [swatch, badge]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a blue cap on a man with a magenta colour swatch and a logo badge
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [tile, model-logo, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person holding a camera under model logo and size label tiles
+  family_hint: dark-composite
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a white dress taking a mirror selfie
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pastel ceramic mug on a checkerboard with an After pill
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a white suit holding red roses in a foggy field
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in an orange shirt laughing on a white ground
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a pixar-style girl in a pink beanie and headphones holding a mug
+  family_hint: full-bleed
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a four-panel pop-art grid of a woman in neon colours
+  family_hint: full-bleed
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: 3d-render
+  description: a miniature isometric village diorama with water
+  family_hint: full-bleed
+  confidence: 0.7

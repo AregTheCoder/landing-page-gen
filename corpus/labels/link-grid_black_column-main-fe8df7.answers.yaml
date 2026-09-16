@@ -1,0 +1,45 @@
+1:
+  art_style: photo
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  family_hint: dark-composite
+  confidence: 0.55
+  description: cinematic sci-fi man portrait beside a column of reference thumbnails and tool tiles
+2:
+  art_style: photo
+  chrome: [play-button, chip, cursor, arrow]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  family_hint: editor-canvas
+  confidence: 0.4
+  description: vertical photo of a person under aurora on a dark canvas with a play button and reaction chip
+3:
+  art_style: photo
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  family_hint: other
+  confidence: 0.3
+  description: a hand holding a dark rose against blue sky with two resolution size chips
+4:
+  art_style: photo
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  family_hint: before-after
+  confidence: 0.45
+  description: split slider between an ice cream cone and the same cone shaped as a christmas tree
+5:
+  art_style: photo
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  family_hint: other
+  confidence: 0.3
+  description: a hand holding a dark rose against blue sky with two resolution size chips

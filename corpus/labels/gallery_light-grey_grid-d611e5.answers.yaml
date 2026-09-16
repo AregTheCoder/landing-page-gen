@@ -1,0 +1,18 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: organizer wallpaper template with labeled colored blocks on a patterned ground
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: colorful SWOT analysis document template with flat icons and text blocks
+  family_hint: template-mockup
+  confidence: 0.6

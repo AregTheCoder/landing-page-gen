@@ -1,0 +1,108 @@
+1:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man singing into a microphone on stage in a leather jacket
+  family_hint: cinematic-still
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: surreal denim high heel shoe resting on a white cloud in blue sky
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: minimal blue sky gradient with a hint of a shape at the bottom
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: man with a torch running through jungle ruins in a cinematic render
+  family_hint: cinematic-still
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: hand pouring sand on a beach with a cliff behind
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man riding a motorcycle at night with a light streak overhead
+  family_hint: cinematic-still
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person doing a skateboard trick midair at a concrete skatepark
+  family_hint: cinematic-still
+  confidence: 0.45
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: editorial portrait of a man in a brown suit and red sunglasses with a bag
+  family_hint: full-bleed
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: surreal scene of a bald man on grass beside a giant pink mushroom
+  family_hint: full-bleed
+  confidence: 0.45
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: noodles lifted by chopsticks from a metallic bowl against blue
+  family_hint: full-bleed
+  confidence: 0.45
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: selfie of a person holding an oversized pizza slice on a street
+  family_hint: full-bleed
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: silver concept car parked in a rocky cave with light streaming in
+  family_hint: cinematic-still
+  confidence: 0.45

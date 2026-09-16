@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: cozy illustrated kitchen with two children at a warm lit table
+  family_hint: full-bleed
+  confidence: 0.75
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: young man smiling at his phone in a bright kitchen
+  family_hint: full-bleed
+  confidence: 0.9
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person carrying orange RIFT branded skateboards on a street
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: hooded figure overlooking a misty village at sunrise
+  family_hint: full-bleed
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: dark book cover for THE VISUAL STORYTELLING PLAYBOOK
+  family_hint: template-mockup
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: comic style post apocalyptic warrior with goggles and a rusted mask
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: 3d-render
+  description: glossy ice cream sundae with strawberries in a silver goblet
+  family_hint: full-bleed
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: stylized illustration of a woman in white standing in a lily pond
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: flat-vector
+  description: flat vector illustration of a snowy mountain over green fields
+  family_hint: full-bleed
+  confidence: 0.85
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: cel shaded anime figure crouching in a train carriage
+  family_hint: full-bleed
+  confidence: 0.85
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: flat-vector
+  description: posterized illustration of a cabin by a mountain lake
+  family_hint: full-bleed
+  confidence: 0.75
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: flat vector pop portrait of a person in red sunglasses
+  family_hint: full-bleed
+  confidence: 0.85

@@ -1,0 +1,133 @@
+1:
+  chrome: [play-button, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two women eating watermelon with a play button and a video timeline strip below
+  family_hint: full-bleed
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+2:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: two reference photos and an edit prompt panel beside a man in a pink shirt result
+  family_hint: prompt-card
+  confidence: 0.7
+  layout: column-main
+  panel_count: 3
+3:
+  chrome: [chip, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a prompt chip above two captioned heeled shoe photos on red and blue
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: two-up
+  panel_count: 2
+4:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a column of design thumbnails beside a white tee with a dancing figures print
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: column-main
+  panel_count: 4
+5:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a Market Makers beige flyer with furniture illustration beside a swatch column and tiles
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: column-main
+  panel_count: 1
+6:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a silver bows cutout, an orange gift certificate card and a pink code certificate
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: stacked
+  panel_count: 2
+7:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a constellation cutout, a Time to Shine 2025 calendar card and swatches
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: stacked
+  panel_count: 2
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a grey boot product cutout and a New Collection poster of the boot on concrete
+  family_hint: template-mockup
+  confidence: 0.55
+  layout: overlay
+  panel_count: 2
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a column of card thumbnails beside a Merry Christmas card with a green 3d tree
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: column-main
+  panel_count: 4
+10:
+  chrome: [mockup-card, pill]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a grid of gift certificate template cards
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: grid
+  panel_count: 6
+11:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a More Magic in 2025 floral calendar card beside a swatch column and tiles
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: column-main
+  panel_count: 1
+12:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a dark Sima Yang influencer banner with a portrait beside tiles and swatches
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: column-main
+  panel_count: 1

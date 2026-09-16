@@ -1,0 +1,9 @@
+1:
+  chrome: [chip, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a lamp product cutout with a prompt chip above three lamp interior result photos on black
+  family_hint: prompt-card
+  confidence: 0.4

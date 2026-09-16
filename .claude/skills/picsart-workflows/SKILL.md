@@ -15,6 +15,7 @@ that it wires, then execute. Read only the companion you need:
 | File | Read when |
 |---|---|
 | `flow-boards.md` | starting a slot: what a board is, node kinds and their engines, blank board vs gallery template, the canvas sheet |
+| `recipes.md` | before authoring any board: the family's planned, mandatory node pipeline (generate → i2i refine → family edit/compose → finish), enforced by `lp-flow check` from the board's `family:` line |
 | `tool-map.md` | choosing an engine or model for a node, checking cost, connector, params |
 | `image-workflows.md` | the slot is an image: board recipes (direct, anchored, cutout, series, composite, layered), ratio map, prompt rules |
 | `video-workflows.md` | the slot is a video: draft tier, startFrame, audio, extend |
@@ -24,6 +25,12 @@ that it wires, then execute. Read only the companion you need:
 
 ## Non-negotiables
 
+- **Plan the whole board up front.** Write `family: <family>` on the board and
+  author every node its recipe (`recipes.md`) calls for — base generate, i2i
+  refine, the family's edit/compose steps, the finishing enhance/vectorize —
+  before the first call, then preflight the whole board. Nodes are planned, not
+  grown when a gate finds a flaw; a gate failure re-runs its own node. `lp-flow
+  check` reads `family:` and fails a board that skips a planned step.
 - Paid calls only through the `b05f6314` tools, only after
   `picsart_preflight` on the same model. The credit guard denies otherwise.
 - Every image node is `gemini-3-pro-image` (Nano Banana Pro); a video node

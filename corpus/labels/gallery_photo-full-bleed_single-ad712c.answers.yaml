@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: comic illustration of a red-haired person running in the rain
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a woman preparing food on a lemon terrace
+  family_hint: full-bleed
+  confidence: 0.9
+3:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a woman in a white dress dancing with a GIF chip
+  family_hint: full-bleed
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a couple by a city waterfront at dusk
+  family_hint: full-bleed
+  confidence: 0.9
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a girl sitting on a yellow chair on white
+  family_hint: full-bleed
+  confidence: 0.9
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: beauty photo of a woman framing her face with her hands
+  family_hint: full-bleed
+  confidence: 0.9
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a man performing hip-hop with a boombox at sunset
+  family_hint: full-bleed
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a person in a brown bucket hat and jacket
+  family_hint: full-bleed
+  confidence: 0.9
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: close-up photo of coffee being poured into a cup
+  family_hint: full-bleed
+  confidence: 0.9
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a woman in a trench coat on a neon city street
+  family_hint: full-bleed
+  confidence: 0.9
+11:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a person in a cowboy hat and boots with a Country chip
+  family_hint: full-bleed
+  confidence: 0.85
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: photo of a woman running along a waterfront path
+  family_hint: full-bleed
+  confidence: 0.9

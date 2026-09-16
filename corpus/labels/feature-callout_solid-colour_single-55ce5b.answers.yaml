@@ -1,0 +1,9 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man walking past a pink wall with an After pill bottom-right
+  family_hint: before-after
+  confidence: 0.6

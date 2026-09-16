@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card, tile, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a resume template with a portrait and stacked document cards
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  description: a phone frame showing a winter accessories quiz with illustrated items
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: typography
+  art_style: mixed
+  description: a pink browser mockup of a twinkl logo design on a framed poster
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: multiple
+  art_style: mixed
+  description: a website mockup with a repeated ITS ME watermark over product images
+  family_hint: template-mockup
+  confidence: 0.4
+5:
+  chrome: [adjust-panel, slider, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a model photo on an editor canvas with opacity and size sliders
+  family_hint: editor-canvas
+  confidence: 0.5
+6:
+  chrome: [slider, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a floral clipy logo on a design card with a font list and colour swatches
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [button, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a quote card with a chair photo and an export format dropdown
+  family_hint: template-mockup
+  confidence: 0.45
+8:
+  chrome: [swatch, tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a colourful resume template for Morgan Evans with font and colour tiles
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a floral greeting card design standing behind a real bouquet
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: a storyboard project card with a grid of cafe photos
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: [selection-handles, cursor, tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: object
+  art_style: photo
+  description: a pink flower cutout with selection handles on an editor canvas
+  family_hint: editor-canvas
+  confidence: 0.5
+12:
+  chrome: [chip, size-label, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a skincare discount ad shown at two social media sizes
+  family_hint: crop-frame
+  confidence: 0.35

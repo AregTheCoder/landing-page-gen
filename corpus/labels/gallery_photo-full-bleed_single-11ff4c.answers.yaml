@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a youtube banner about shooting a portrait over a blue-painted face
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a t-shirt mockup with a Christmas tree slogan on a holiday flatlay
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an arts and crafts club social post design in teal
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a summer sale poster with 30 percent off in pink and mint
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a cream t-shirt mockup with a pink bow print on mossy ground
+  family_hint: template-mockup
+  confidence: 0.65
+6:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a bookmark design with a flat illustration of a person reading
+  family_hint: template-mockup
+  confidence: 0.65
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a t-shirt mockup with an abstract Christmas tree graphic
+  family_hint: template-mockup
+  confidence: 0.65
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a black t-shirt mockup with a repeated Merry print
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a wedding florist brochure design with a flower bouquet photo
+  family_hint: template-mockup
+  confidence: 0.65
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: abstract
+  art_style: typography
+  description: a minimalist blue and white wallpaper with a short tagline
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: mixed
+  description: an album cover design with colorful paint and Mineral title text
+  family_hint: template-mockup
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a 25 dollar gift certificate design with ink brush accents
+  family_hint: template-mockup
+  confidence: 0.65

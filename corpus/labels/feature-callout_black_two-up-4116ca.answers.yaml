@@ -1,0 +1,9 @@
+1:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two cinematic night stills each labelled with a model pill Seedance 2.5 and Kling 3.0
+  family_hint: vs-two-up
+  confidence: 0.8

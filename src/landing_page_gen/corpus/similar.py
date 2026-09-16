@@ -1,12 +1,13 @@
 """Find the k closest sections of one type across the corpus and write them as
 example excerpts (Markdown plus downloaded media) for a worker's brief."""
 
+import json
 import re
 import shutil
 import urllib.parse
 from pathlib import Path
 
-from . import db
+from . import db, taxonomy
 from .media import download  # noqa: F401  (tests monkeypatch similar.download)
 
 STOP = {"the", "and", "for", "with", "your", "you", "from", "that", "this", "are", "can", "any", "all",
@@ -58,6 +59,29 @@ def _media_clause(need_media, style=None, attrs=None, exclude_asset=None):
     return sql, tuple(params)
 
 
+def _row_score(con, section_id, fam, attrs):
+    """How well a candidate section's example media match the target slot, for
+    re-ranking on look/construction rather than section copy alone. A same-family
+    example scores; a chrome-ANSWERED (verified) one scores more than a
+    pixel-only provisional guess (the measurer mislabels composites as
+    full-bleed until chrome is answered); each matching target attribute adds a
+    little. 0 when the section has no usable example media."""
+    rows = con.execute("SELECT style, attrs FROM media WHERE section_id = ? "
+                       "AND role IN ('creative','thumbnail')", (section_id,)).fetchall()
+    best = 0.0
+    for m in rows:
+        a = json.loads(m["attrs"]) if m["attrs"] else {}
+        s = 0.0
+        if fam and m["style"] == fam:
+            s += 2.0
+            s += 1.0 if a.get("chrome") is not None else 0.0   # verified beats provisional
+        for key, val in (attrs or {}).items():
+            if a.get(key) == val:
+                s += 0.5
+        best = max(best, s)
+    return best
+
+
 def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=None, attrs=None, exclude_asset=None):
     """Top-k sections of `type_` by BM25, at most one per page, from pages
     other than `exclude` and never showing any of `exclude_asset` (an 8-hex
@@ -87,6 +111,12 @@ def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=No
                 f"""SELECT s.*, p.slug, p.url, 0 AS rank FROM sections s JOIN pages p ON p.id = s.page_id
                     WHERE s.type = ? {clause} ORDER BY s.media_count DESC, s.text_len DESC LIMIT ?""",
                 (type_, *params, k * 8)).fetchall()
+    # Re-rank on look/construction: a verified same-family, structurally-matching
+    # example outranks a text-only BM25 hit. Stable, so BM25 order breaks ties.
+    fam, _ = split_style(style)
+    if fam or attrs:
+        scored = sorted(enumerate(rows), key=lambda t: (-_row_score(con, t[1]["id"], fam, attrs), t[0]))
+        rows = [r for _, r in scored]
     out, seen = [], set()
     for r in rows:
         if r["slug"] == exclude or r["slug"] in seen:
@@ -151,6 +181,30 @@ class FrameGrabber:
             page.close()
 
 
+def _built(attrs_json):
+    """A compact `built: {...}` of an example's construction (ground, layout,
+    panels, chrome, art_style, structure) so a worker anchors on how the picture
+    is made, not a 480px thumbnail alone. Empty when the asset is unlabelled."""
+    a = json.loads(attrs_json) if attrs_json else {}
+    if not a:
+        return ""
+    parts = []
+    if a.get("ground"):
+        parts.append(f"ground: {a['ground']}")
+    if a.get("layout"):
+        parts.append(f"layout: {a['layout']}")
+    if a.get("panel_count") is not None:
+        parts.append(f"panels: {a['panel_count']}")
+    if a.get("chrome"):
+        parts.append(f"chrome: [{', '.join(a['chrome'])}]")
+    if a.get("art_style"):
+        parts.append(f"art_style: {a['art_style']}")
+    struct = taxonomy.structure_of(a)[0]
+    if struct:
+        parts.append(f"structure: {struct}")
+    return f", built: {{{', '.join(parts)}}}" if parts else ""
+
+
 MAX_EXAMPLE_MEDIA = 1  # per example section; a brief shows the look, not the whole grid
 
 
@@ -191,7 +245,8 @@ def write_examples(con, rows, out_dir, log=print, grabber=None, max_media=MAX_EX
         for m, f in files:
             size = f"{m['width']}x{m['height']}" if m["width"] and m["height"] else "?"
             lines.append(f"  - {{slot: {m['slot_id']}, kind: {m['kind']}, role: {m['role']}, size: {size}, "
-                         f"aspect: '{m['aspect']}', style: {m['style'] or 'untagged'}, local: {f.name}, src: {m['src']}}}")
+                         f"aspect: '{m['aspect']}', style: {m['style'] or 'untagged'}, local: {f.name}, "
+                         f"src: {m['src']}{_built(m['attrs'])}}}")
         lines += ["---", "", r["md"]]
         path = out_dir / f"{stem}.md"
         path.write_text("\n".join(lines))

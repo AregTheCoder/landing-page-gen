@@ -1,0 +1,108 @@
+1:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel with body text beside a woman skincare result card
+  family_hint: prompt-card
+  confidence: 0.8
+2:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel with body text beside a woman skincare result card
+  family_hint: prompt-card
+  confidence: 0.8
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a baby shower invitation template with cherries and save the date text
+  family_hint: template-mockup
+  confidence: 0.75
+4:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an orange armchair split before and after a background change with a slider
+  family_hint: before-after
+  confidence: 0.6
+5:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: three generated variations of a woman in a green field with a prompt caption
+  family_hint: prompt-card
+  confidence: 0.4
+6:
+  chrome: [chip, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a pottery product photo with a bold headline and review testimonial chips
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [selection-handles, size-label, chip]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a portrait on the editor canvas with selection handles and 1080 size labels
+  family_hint: editor-canvas
+  confidence: 0.45
+8:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a croissant split between photo and transparent checkerboard with a slider
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling woman cutout on a transparent checkerboard card
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person cutout on checkerboard beside the same person on a starry sky
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person cutout on checkerboard beside the same person on a starry sky
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: a prompt panel beside a bold flower poster design result
+  family_hint: prompt-card
+  confidence: 0.55

@@ -1,0 +1,134 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: ui-screenshot
+  description: a laptop showing a video editor with a woman on the call
+  family_hint: editor-canvas
+  confidence: 0.35
+  ground: white
+  layout: single
+  panel_count: 1
+2:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: the Meta wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+3:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: the Getty Images wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: typography
+  art_style: 3d-render
+  description: a blue gradient 3d letter S on a grey ground
+  family_hint: other
+  confidence: 0.35
+  layout: single
+  panel_count: 1
+5:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: the Google wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+6:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: the Ideogram logo mark and wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+7:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: the Modulari wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+8:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a purple blueberry sorbet tub on a white ground
+  family_hint: other
+  confidence: 0.35
+  ground: white
+  layout: single
+  panel_count: 1
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a colorful club fit gym logo with line-art fitness icons
+  family_hint: other
+  confidence: 0.35
+  layout: single
+  panel_count: 0
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a black monoline soul crunch fitness studio logo
+  family_hint: other
+  confidence: 0.35
+  layout: single
+  panel_count: 0
+11:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: the Mashable wordmark on a grey ground
+  family_hint: other
+  confidence: 0.6
+  layout: single
+  panel_count: 0
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a blank white polaroid frame on a grey ground
+  family_hint: other
+  confidence: 0.35
+  layout: single
+  panel_count: 1

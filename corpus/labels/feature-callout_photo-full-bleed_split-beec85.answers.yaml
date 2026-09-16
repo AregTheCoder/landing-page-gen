@@ -1,0 +1,120 @@
+1:
+  chrome: [pill, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman before and after an effect with an fx tile and pills
+  family_hint: before-after
+  confidence: 0.7
+  before_after: true
+2:
+  chrome: [tile, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: tool tiles and poppies beside a floral perfume ad with a shop button
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+3:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a grid of woman-with-dumbbells shots with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+4:
+  chrome: [none]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a wall of ad thumbnails with an all-in-one AI platform headline
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+5:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two beach scenes of a woman with a coconut and model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+6:
+  chrome: [badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: pink knit bag cutouts beside a New Style Bag Deals sale design
+  family_hint: template-mockup
+  confidence: 0.45
+  before_after: false
+7:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two moody lakeside portraits of a man with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+8:
+  chrome: [model-logo, chip, size-label, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a model-picker list and aspect chips beside a man with a water gun
+  family_hint: dark-composite
+  confidence: 0.7
+  before_after: false
+9:
+  chrome: [brackets, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman with crop brackets and a Story size label beside her larger
+  family_hint: crop-frame
+  confidence: 0.75
+  before_after: false
+10:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two group-of-friends photos with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+11:
+  chrome: [model-logo, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a model-picker panel beside an Explore Venus retro travel poster
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+12:
+  chrome: [badge, chip, tile, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: an iced coffee cutout beside a Cappuccino product order card
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+  before_after: false

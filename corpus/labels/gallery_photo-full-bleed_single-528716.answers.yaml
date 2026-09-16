@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: vlog youtube banner with dream vacation travel collage
+  family_hint: graphic-collage
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: fall sale giveaway promo with loafers photo and blobs
+  family_hint: graphic-collage
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: 3d-render
+  description: soft orange abstract gradient autumn wallpaper
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: black friday price tag with seventy percent off
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: terracotta birthday invitation with white botanical border
+  family_hint: template-mockup
+  confidence: 0.65
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: bold black friday seventy percent off type poster
+  family_hint: template-mockup
+  confidence: 0.6
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: thank you card with couple embracing in field
+  family_hint: template-mockup
+  confidence: 0.45
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: travel to thrive youtube thumbnail over mountain photo
+  family_hint: template-mockup
+  confidence: 0.45
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: green christmas card with angel and script text
+  family_hint: template-mockup
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: leather tote bag half off promo over pastel shapes
+  family_hint: graphic-collage
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: happy holidays christmas photo collage with red card
+  family_hint: graphic-collage
+  confidence: 0.55
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: titan gym gift certificate with sneakers and dumbbell
+  family_hint: template-mockup
+  confidence: 0.5

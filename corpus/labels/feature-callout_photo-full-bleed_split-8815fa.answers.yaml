@@ -1,0 +1,120 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a generate prompt panel beside a Spring-Summer Discounts fashion poster
+  family_hint: prompt-card
+  confidence: 0.7
+  before_after: false
+2:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a vector figure beside a photo figure with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+3:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: an astronaut at a diner beside a greenhouse scene with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+4:
+  chrome: [none]
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: painterly-illustration
+  description: a blue-ink Sip Club illustration and the same design on a paper bag
+  family_hint: template-mockup
+  confidence: 0.35
+  before_after: false
+5:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt panel and lipstick cutout beside a lipstick on a flowered rock
+  family_hint: prompt-card
+  confidence: 0.5
+  before_after: false
+6:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  description: a music prompt panel beside a Summer is calling phone call screen
+  family_hint: prompt-card
+  confidence: 0.4
+  before_after: false
+7:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a flower-image grid beside a woman among flowers with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+8:
+  chrome: [tile, size-label, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a crosswalk portrait upscaled with x4 tile and before after pills
+  family_hint: before-after
+  confidence: 0.7
+  before_after: true
+9:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: two 3d-render girls with pink headphones and model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+10:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a garden-image grid beside a woman with a dog and model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+11:
+  chrome: [pill, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: two Good Vibes typography posters with model pills
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false
+12:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two flower-framed portraits with model pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false

@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fisheye photo of a woman eating cereal with a sparkle tile and prompt caption
+  family_hint: model-card
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: gold coin stacks beside a screen showing an available credit balance
+  family_hint: full-bleed
+  confidence: 0.6
+3:
+  chrome: [model-logo, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: paneled photos of a woman holding giant flowers with a logo and prompt caption
+  family_hint: model-card
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a four-up grid of stylized portrait photos
+  family_hint: full-bleed
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: white happy birthday cake with a pink plaque and black ribbon
+  family_hint: full-bleed
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a red-haired freckled man with glasses
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a textured globe resting on an open book with soft bokeh
+  family_hint: full-bleed
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a couple on a rooftop at sunset with a city skyline
+  family_hint: cinematic-still
+  confidence: 0.5
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman in red sunglasses with an After pill
+  family_hint: before-after
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: retouched portrait of a person with a buzzcut and layered necklaces
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a Sora versus Veo comparison with model logos, a VS badge and spec chips
+  family_hint: vs-two-up
+  confidence: 0.8
+12:
+  chrome: [brackets, button]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hands plating food with a rule-of-thirds crop frame and crop tool
+  family_hint: crop-frame
+  confidence: 0.6

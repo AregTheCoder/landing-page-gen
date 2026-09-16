@@ -1,0 +1,9 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: animal
+  art_style: photo
+  description: an underwater jellyfish scene above a video editing timeline with add audio
+  family_hint: editor-canvas
+  confidence: 0.45

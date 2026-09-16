@@ -1,0 +1,108 @@
+1:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person on a rope bridge video with a play button and a cutout panel
+  family_hint: full-bleed
+  confidence: 0.4
+2:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: animal
+  art_style: painterly-illustration
+  description: a painterly flamingo lake scene with a caption describing it
+  family_hint: prompt-card
+  confidence: 0.45
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: two rounded app icon logos a red mark and a yellow dog
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a room photo with an fx tile and a Vintage filter chip
+  family_hint: other
+  confidence: 0.4
+5:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: book cover design templates on a black editor canvas
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a psychedelic channel banner template with an eye graphic
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a psychedelic channel banner template with an eye graphic
+  family_hint: template-mockup
+  confidence: 0.55
+8:
+  chrome: [mockup-card, swatch, adjust-panel]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: a watermelon lemonade menu poster on a tablet with a color hex picker
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: daily self-care checklist and typography template cards
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a dancer shown twice against a rainbow striped background
+  family_hint: full-bleed
+  confidence: 0.45
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink dropper bottle on a purple gradient and transparent checkerboard split
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+12:
+  chrome: [mockup-card, prompt-panel]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a make it cheesy pizza poster with an AI writer quote panel
+  family_hint: template-mockup
+  confidence: 0.5

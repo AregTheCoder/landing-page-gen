@@ -1,0 +1,9 @@
+1:
+  chrome: [mockup-card, tile, brackets, selection-handles]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: vintage-style portrait template with NEW typography beside a social post mockup card
+  family_hint: template-mockup
+  confidence: 0.8

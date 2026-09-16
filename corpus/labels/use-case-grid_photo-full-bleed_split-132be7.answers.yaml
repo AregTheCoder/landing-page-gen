@@ -1,0 +1,80 @@
+1:
+  chrome: [tile, button, play-button, chip]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: video generation UI with first and last frame thumbnails and a Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+  before_after: false
+2:
+  chrome: [button, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: two panels of a desk workspace with upload and GIF export buttons
+  family_hint: full-bleed
+  confidence: 0.4
+  before_after: false
+3:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: illustration
+  art_style: mixed
+  description: dark invitation card mockups beside a wedding invitation illustration
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+4:
+  chrome: [mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: music track list and waveform beside a smiling woman with content headline
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+5:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fx tile and Golden Hour filter label over lifestyle photos of a woman
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+6:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  description: a fluffy blue cartoon creature shown twice with a centre slider handle
+  family_hint: full-bleed
+  confidence: 0.4
+  before_after: false
+7:
+  chrome: [tile, mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: editor icon tiles beside a social post of a home outfit with reaction icons
+  family_hint: mockup-card
+  confidence: 0.6
+  before_after: false
+8:
+  chrome: [prompt-panel, button, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: prompt panel with Sora model logo beside a photo of hands holding iced matcha
+  family_hint: prompt-card
+  confidence: 0.8
+  before_after: false

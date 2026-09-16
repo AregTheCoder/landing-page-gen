@@ -1,0 +1,108 @@
+1:
+  chrome: [button, play-button, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a man photo in an editor with a Remove control and a play button
+  family_hint: editor-canvas
+  confidence: 0.55
+2:
+  chrome: [button, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a man photo with a Remove label and a magenta edit overlay
+  family_hint: editor-canvas
+  confidence: 0.5
+3:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: an AI collage with an ai logo, a prompt chip and style tags over renders
+  family_hint: prompt-card
+  confidence: 0.45
+4:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: an AI collage with an ai logo, a prompt chip and style tags over renders
+  family_hint: prompt-card
+  confidence: 0.45
+5:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a blue vintage car with motion blur split by a before after slider
+  family_hint: before-after
+  confidence: 0.65
+6:
+  chrome: [button, play-button, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a man photo in an editor with a Remove control and a play button
+  family_hint: editor-canvas
+  confidence: 0.55
+7:
+  chrome: [button, play-button, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a man photo in an editor with a Remove control and a play button
+  family_hint: editor-canvas
+  confidence: 0.55
+8:
+  chrome: [mockup-card, tile, swatch]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: mixed
+  description: a beauty brand mockup collage with femme cards and a product bottle on black
+  family_hint: template-mockup
+  confidence: 0.45
+9:
+  chrome: [slider, button]
+  text_in_image: none
+  ui_mockup: phone-frame
+  subject: scene
+  art_style: photo
+  description: stacked phone frames of a neon city street with a colour slider and fx button
+  family_hint: editor-canvas
+  confidence: 0.4
+10:
+  chrome: [adjust-panel, badge]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: photo
+  description: a pizza photo with an editing menu panel and magenta check badges
+  family_hint: editor-canvas
+  confidence: 0.5
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: tilted sale poster and business card designs on black
+  family_hint: template-mockup
+  confidence: 0.55
+12:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a woman portrait split between photo and line drawing with a slider
+  family_hint: before-after
+  confidence: 0.55

@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: illustration
+  art_style: mixed
+  description: a floral bookstore website mockup with a header and search bar
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a twinkle beauty brand logo with an eye makeup closeup and star tile
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a twinkle beauty brand logo with an eye makeup closeup and star tile
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a stylized rendered female portrait with pink makeup over stacked cards
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a botanical cosmetic jar on greenery split by a before after line
+  family_hint: before-after
+  confidence: 0.5
+6:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: an illustrated couple in folk style with a real photo card overlaid
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: hands holding cups over a red ground with cutout starburst shapes
+  family_hint: graphic-collage
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: hands holding cups over a red ground with cutout starburst shapes
+  family_hint: graphic-collage
+  confidence: 0.6
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a get well soon greeting card with a purple bird holding a flower
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: [selection-handles]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: a neon logo over a dark photo on an editor canvas with grid and handles
+  family_hint: editor-canvas
+  confidence: 0.55
+11:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a surreal red figure in pink smoke with a small road sign card overlaid
+  family_hint: other
+  confidence: 0.3
+12:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a surreal red figure in pink smoke with a small road sign card overlaid
+  family_hint: other
+  confidence: 0.3

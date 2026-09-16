@@ -1,0 +1,18 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: For My Dear Kathleen card, blue with botanical leaves and red berries
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  description: crumpled brown kraft paper texture, no text
+  family_hint: full-bleed
+  confidence: 0.6

@@ -1,0 +1,108 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: overhead yoga photo in two stacked panels with Before pills
+  family_hint: before-after
+  confidence: 0.5
+2:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in green suit in a poppy field beside a column of small result thumbnails and a model logo tile
+  family_hint: dark-composite
+  confidence: 0.4
+3:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: blond woman on a pink gradient background with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+4:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: black card with two labelled model frames Runway Gen 4 and Veo 3.1 and stat chips
+  family_hint: vs-two-up
+  confidence: 0.5
+5:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: 3d-render
+  description: iridescent purple scales macro with an Imagen 4 model tile and a 4K chip
+  family_hint: dark-composite
+  confidence: 0.6
+6:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: plate of pasta and lobster on a checkerboard ground with a dashed selection outline
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a drink bottle and watermelon on a pink panel over a green ground
+  family_hint: graphic-collage
+  confidence: 0.4
+8:
+  chrome: [vs-badge, model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two women with giant flowers side by side, a VS badge and GPT Image and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.9
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a red sweater at the beach with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+10:
+  chrome: [pill, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: pink scallop chair shown Before in a room and After on a checkerboard cutout with a slider
+  family_hint: before-after
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person flying over a city skyline from a helicopter, full-bleed frame
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: [brackets]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a green hat making a frame gesture with yellow crop brackets on his face
+  family_hint: crop-frame
+  confidence: 0.6

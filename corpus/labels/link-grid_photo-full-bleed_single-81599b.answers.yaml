@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: silhouette of a photographer holding a camera against a sunset sky
+  family_hint: full-bleed
+  confidence: 0.9
+2:
+  chrome: [cursor]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a hiring poster template with a made-up model and bold headline text
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: pastel books with a designed bookmark tag over a gradient
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a snowboarder crossing a snowy slope under a pale sky
+  family_hint: full-bleed
+  confidence: 0.9
+5:
+  chrome: [selection-handles, button, cursor]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a dancing person on the editor canvas with a selection box and Animate button
+  family_hint: editor-canvas
+  confidence: 0.85
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a bearded man with a green and red color grade on teal
+  family_hint: full-bleed
+  confidence: 0.85
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: two side-by-side photos of the same living room interior on a gradient
+  family_hint: before-after
+  confidence: 0.5
+8:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a dark composite of AI portraits and renders with style chips and tool tiles
+  family_hint: dark-composite
+  confidence: 0.7
+9:
+  chrome: [tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: fanned business-card design templates with a Fonts tool tile
+  family_hint: template-mockup
+  confidence: 0.8
+10:
+  chrome: [mockup-card, prompt-panel, play-button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: a Picsart Ignite promo with app cards for AI image and video over dark smoke
+  family_hint: prompt-card
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a dark banner reading 500 million AI images with cutout renders around it
+  family_hint: dark-composite
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a magnifying glass held over a circuit board on a desk in warm lamplight
+  family_hint: full-bleed
+  confidence: 0.8

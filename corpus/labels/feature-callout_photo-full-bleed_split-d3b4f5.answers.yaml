@@ -1,0 +1,72 @@
+1:
+  chrome: [model-logo, pill, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a woman compared with Flux and Midjourney pills and detail chips
+  family_hint: vs-two-up
+  confidence: 0.9
+2:
+  chrome: [model-logo, pill, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: yellow handbag on a cactus shown twice with model pills and style chips
+  family_hint: vs-two-up
+  confidence: 0.9
+3:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: metallic chrome and green face compared across Dall-e 3 and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.9
+4:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman with a pinwheel in a field compared across Luma Ray 2 and Kling 3.0
+  family_hint: vs-two-up
+  confidence: 0.9
+5:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: dark prompt panel with Generate button beside a fancy restaurant website mockup
+  family_hint: prompt-card
+  confidence: 0.6
+6:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman among large pink flowers compared across Dall-e 3 and Midjourney
+  family_hint: vs-two-up
+  confidence: 0.9
+7:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: roller coaster and mountain road frames compared across Runway Gen 4 and Veo 3.1
+  family_hint: vs-two-up
+  confidence: 0.9
+8:
+  chrome: [model-logo, pill, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: camera on a rock shown twice with Ideogram and Flux pills and size chips
+  family_hint: vs-two-up
+  confidence: 0.9

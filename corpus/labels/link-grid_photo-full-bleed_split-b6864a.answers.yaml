@@ -1,0 +1,120 @@
+1:
+  chrome: [model-logo, vs-badge, chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: two video model result cards side by side with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.8
+2:
+  chrome: [badge, mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  before_after: false
+  description: a language selection panel beside a portrait with Japanese lettering
+  family_hint: other
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  before_after: false
+  description: a coming soon slogan panel beside a fashion portrait
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  before_after: true
+  description: a blue cartoon mascot on skates shown twice with a compare slider
+  family_hint: before-after
+  confidence: 0.5
+5:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: two model results of a yellow handbag with a VS badge and size chips
+  family_hint: vs-two-up
+  confidence: 0.85
+6:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: two model results of a yellow handbag with a VS badge and size chips
+  family_hint: vs-two-up
+  confidence: 0.85
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: a person on a court split into two colour grades
+  family_hint: before-after
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: a portrait split into a normal half and a colour-shifted half
+  family_hint: before-after
+  confidence: 0.5
+9:
+  chrome: [pill, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: true
+  description: a flower photo with before and after pills and a compare slider
+  family_hint: before-after
+  confidence: 0.9
+10:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  before_after: false
+  description: a collage of framed pet portraits and poster designs
+  family_hint: graphic-collage
+  confidence: 0.4
+11:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  before_after: true
+  description: a dog shown in four panels with different hats and a compare slider
+  family_hint: before-after
+  confidence: 0.4
+12:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: a portrait with a butterfly split by a compare slider
+  family_hint: before-after
+  confidence: 0.6

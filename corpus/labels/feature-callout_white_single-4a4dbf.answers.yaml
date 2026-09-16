@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: a Core Pilates social poster with purple swatches and a coreflow logo tile
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [tile, mockup-card]
+  text_in_image: none
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a column of black social platform tiles beside a portrait card
+  family_hint: mockup-card
+  confidence: 0.4
+6:
+  chrome: [button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: a black panel with a Generate button beside a Winter in the Alps village photo
+  family_hint: prompt-card
+  confidence: 0.55
+7:
+  chrome: [mockup-card, badge, tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: flower arrangement photos with check badges beside a floral social post card
+  family_hint: mockup-card
+  confidence: 0.5
+8:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+10:
+  chrome: [tile, mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: mixed
+  description: a Super Matcha social post with a hand holding a drink, green swatches and a logo tile
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white transition line icon
+  family_hint: other
+  confidence: 0.3
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: mixed
+  description: a prompt card beside a Science Fair poster with a microscope and beakers
+  family_hint: template-mockup
+  confidence: 0.45

@@ -1,0 +1,33 @@
+1:
+  chrome: [mockup-card, chip, play-button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a Luminous Renewal skincare poster card with a serum cutout on checkerboard and a video bar
+  family_hint: template-mockup
+  confidence: 0.5
+  layout: overlay
+  panel_count: 2
+2:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: an ARTAFORM interior designer logo watermark over a living room with font chips
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: overlay
+  panel_count: 2
+3:
+  chrome: [play-button, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a hand holding a green energy drink on checkerboard with a column of background thumbs
+  family_hint: cutout-checkerboard
+  confidence: 0.45
+  layout: column-main
+  panel_count: 5

@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  description: three phone story templates fanned out on a warm gradient
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: [pill, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: before and after panels of patterned coffee mugs with a divider
+  family_hint: before-after
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with a backpack on rocks with a red selection mask over the background
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: [button, badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a model in a creativity bucket hat with social buttons and a 50 percent off badge
+  family_hint: mockup-card
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a red sorry not sorry cap on a wooden table
+  family_hint: full-bleed
+  confidence: 0.4
+6:
+  chrome: [cursor, mockup-card]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a comic-style hero illustration with a small source photo and a cursor
+  family_hint: editor-canvas
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with a backpack crouching on coastal rocks
+  family_hint: full-bleed
+  confidence: 0.85
+8:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: an AI art tile and abstract panels beside a framed print over a blue table
+  family_hint: template-mockup
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a red sorry not sorry cap on green grass
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a cutout of a freckled woman on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman with pink tulle against a bright sky
+  family_hint: full-bleed
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a red sorry not sorry cap on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.6

@@ -1,0 +1,90 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a thank you holiday card with a party-popper illustration on dark green
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a photo collage wallpaper of taped lifestyle snapshots on cream
+  family_hint: template-mockup
+  confidence: 0.45
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a thank you card with cute cartoon donut characters and a pun on pink
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a new arrival shoe promo poster with red flats on red
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a learning lab book cover banner with a kid photo on purple
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a hello introduction label template with highlighted name fields on mint
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a quarantine bingo grid card template with orange border
+  family_hint: template-mockup
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a fun activities at home document with a grid of labeled circle icons on lavender
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a happy birthday card with bunting and a line-icon cake on navy
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Blush album cover with a green-toned rose photo and parental advisory label
+  family_hint: template-mockup
+  confidence: 0.55

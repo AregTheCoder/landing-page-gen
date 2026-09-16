@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a white tee standing against a bright cloudy blue sky
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: candid portrait of a woman indoors beside a houseplant
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a city skyline glowing at sunset seen from a rooftop
+  family_hint: full-bleed
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a huge full moon over a night city street between skyscrapers
+  family_hint: full-bleed
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a camel coat on a cobbled city street
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man sitting cross legged under a fisheye view of skyscrapers
+  family_hint: full-bleed
+  confidence: 0.75
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: red haired woman with a bridal hairpiece on an orange background
+  family_hint: full-bleed
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: older man with a white beard looking out over a beach
+  family_hint: full-bleed
+  confidence: 0.85
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man playing a cello with a Classical label
+  family_hint: full-bleed
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: an anthropomorphic cat in a victorian suit on a moody moor
+  family_hint: full-bleed
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a young figure skater mid glide on the ice
+  family_hint: full-bleed
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: a neon lit car with glowing Nexis lettering along its body
+  family_hint: full-bleed
+  confidence: 0.6

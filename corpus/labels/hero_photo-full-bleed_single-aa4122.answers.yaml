@@ -1,0 +1,72 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime illustration of a blonde woman in a desert village
+  family_hint: full-bleed
+  confidence: 0.75
+2:
+  chrome: [model-logo, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: soft 3d creature render beside a model logo column
+  family_hint: model-card
+  confidence: 0.5
+3:
+  chrome: [model-logo, chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: flat vector woman with daisies beside an svg model column
+  family_hint: model-card
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime illustration of a braided blonde woman in a village
+  family_hint: full-bleed
+  confidence: 0.75
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime illustration of a blonde woman in a study
+  family_hint: full-bleed
+  confidence: 0.75
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime illustration of a blonde woman in an underwater palace
+  family_hint: full-bleed
+  confidence: 0.75
+7:
+  chrome: [model-logo, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: soft render of an elf face beside a model logo column
+  family_hint: model-card
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime illustration of a blonde woman in a palace
+  family_hint: full-bleed
+  confidence: 0.75

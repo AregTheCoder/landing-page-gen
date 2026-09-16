@@ -1,0 +1,108 @@
+1:
+  chrome: [adjust-panel, slider, chip]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: photo
+  description: stacked filter preview cards with an adjustment slider panel
+  family_hint: panel-overlay
+  confidence: 0.4
+2:
+  chrome: [chip, adjust-panel]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: photo
+  description: a coastal road photo with tiled watermark text and an editor toolbar
+  family_hint: editor-canvas
+  confidence: 0.4
+3:
+  chrome: [mockup-card, swatch, badge, tile]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: object
+  art_style: mixed
+  description: a Cogni Craft brand kit card with swatches and a product box mockup
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait shown on green then on white with an arrow between them
+  family_hint: before-after
+  confidence: 0.4
+5:
+  chrome: [selection-handles, cursor]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: illustration
+  art_style: mixed
+  description: a School Timetable board with sticky notes and selection handles
+  family_hint: editor-canvas
+  confidence: 0.4
+6:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: iced coffee cups on checkerboard and beach with a marine-themed packaging label
+  family_hint: cutout-checkerboard
+  confidence: 0.35
+7:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two floral-outfit portrait cards on yellow with an AI chip
+  family_hint: dark-composite
+  confidence: 0.3
+8:
+  chrome: [selection-handles, chip]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: a real-estate report slide with a chart and selection handles
+  family_hint: editor-canvas
+  confidence: 0.4
+9:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a white line-art figure on a dark starry card with an AI chip
+  family_hint: full-bleed
+  confidence: 0.3
+10:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: two stacked social post cards of ringed hands with social icons
+  family_hint: mockup-card
+  confidence: 0.5
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a skateboarder cutout on a checkerboard with an image tile
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: ringed hands with reference thumbnails and a warm bokeh restyle
+  family_hint: dark-composite
+  confidence: 0.3

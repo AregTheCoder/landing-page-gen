@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card, tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: mixed
+  description: a palm logo watermark card over a striped lounge photo with a checkerboard corner
+  family_hint: template-mockup
+  confidence: 0.35
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: three book covers reading Summer, Long Way Down and Edge
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: [arrow]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: painterly-illustration
+  description: a doodle animation storyboard strip of four sketched panels on a whiteboard
+  family_hint: other
+  confidence: 0.35
+4:
+  chrome: [adjust-panel, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a dark and a brightened iced drink photo with a brightness adjust panel
+  family_hint: panel-overlay
+  confidence: 0.45
+5:
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a lamp product photo with an x2 chip and JPG PNG PDF format chips
+  family_hint: crop-frame
+  confidence: 0.35
+6:
+  chrome: [mockup-card, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an Impressionism artist quiz card with a grid of painter names
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: illustration
+  art_style: mixed
+  description: cartoon cookie stickers around a Crumbly social card
+  family_hint: mockup-card
+  confidence: 0.4
+8:
+  chrome: [mockup-card, tile, brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  description: embroidery photo panels with a selected frame, a checkerboard cutout and an AI tile
+  family_hint: cutout-checkerboard
+  confidence: 0.35
+9:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an Indigo Hart web developer resume with dark education and skills cards
+  family_hint: template-mockup
+  confidence: 0.45
+10:
+  chrome: [mockup-card, tile]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: a template picker beside an Employee of the Month certificate for Marcus Neal
+  family_hint: template-mockup
+  confidence: 0.45
+11:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: food
+  art_style: mixed
+  description: a Crust artisan bakery brand card set with bread photos and social icons
+  family_hint: template-mockup
+  confidence: 0.4
+12:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: mixed
+  description: a landscape quote card reading Embrace the unknown with font tiles
+  family_hint: template-mockup
+  confidence: 0.4

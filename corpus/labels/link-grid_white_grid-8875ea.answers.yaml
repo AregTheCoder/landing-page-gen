@@ -1,0 +1,18 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a fanned stack of poster templates with a lemon quote card in front
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a Sea Food House moodboard template with a grid of photos
+  family_hint: template-mockup
+  confidence: 0.6

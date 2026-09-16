@@ -1,0 +1,144 @@
+1:
+  chrome: [mockup-card, brackets]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: sweet sandwich social card with a row of variation thumbnails below
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: stacked
+  panel_count: 4
+2:
+  chrome: [tile, swatch]
+  text_in_image: body
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: breakfast club menu template with food photos and a colour swatch strip
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: column-main
+  panel_count: 1
+3:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: product
+  art_style: photo
+  description: lipstick cutout and a spring sale shop browser mockup
+  family_hint: mockup-card
+  confidence: 0.5
+  ground: white
+  layout: overlay
+  panel_count: 2
+4:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: red thank you card beside small thank you template thumbnails
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: column-main
+  panel_count: 4
+5:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: retro diner flyer beside small card template thumbnails
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: column-main
+  panel_count: 4
+6:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: concert poster template with a large ampersand and a swatch strip
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: column-main
+  panel_count: 1
+7:
+  chrome: [mockup-card, tile, swatch]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: typography
+  art_style: flat-vector
+  description: tutoring social post mockup with like icons font tile and swatches
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 2
+8:
+  chrome: [mockup-card, button, swatch, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: ten years of style fashion post with a woman shop now and swatches
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: split
+  panel_count: 1
+9:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: four coupon card templates in a grid
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: grid
+  panel_count: 4
+10:
+  chrome: [mockup-card, brackets]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: black friday sale story beside small template thumbnails
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 4
+11:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: you made my day thank you card with sunglasses graphic and swatches
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: light-grey
+  layout: column-main
+  panel_count: 2
+12:
+  chrome: [pill, brackets, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: sandals on a tropical beach background with a scene prompt pill and thumbnails
+  family_hint: template-mockup
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: column-main
+  panel_count: 3

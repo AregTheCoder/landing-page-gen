@@ -1,0 +1,27 @@
+1:
+  chrome: [tile, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an iridescent SLAY lettering panel beside a Recraft logo tile and two metallic crop tiles
+  family_hint: dark-composite
+  confidence: 0.55
+2:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: flat-vector
+  description: a flat vector cow on purple beside a Recraft logo tile with SVG and 9:16 chips
+  family_hint: dark-composite
+  confidence: 0.55
+3:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a shirtless man with butterflies on red beside a Recraft logo tile and two crop tiles
+  family_hint: dark-composite
+  confidence: 0.5

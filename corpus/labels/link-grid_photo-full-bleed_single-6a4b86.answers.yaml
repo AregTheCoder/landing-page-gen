@@ -1,0 +1,99 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: Picsart ai wordmark over a grid of generated art thumbnails
+  family_hint: graphic-collage
+  confidence: 0.5
+2:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fiery runner scene with meme chat bubbles and a small Picsart mark
+  family_hint: full-bleed
+  confidence: 0.3
+3:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: sunglasses on stacked pastel cards
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: ice cream sandwich shown solid then transparent with a drag slider
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: red-lit double exposure portrait of a person
+  family_hint: full-bleed
+  confidence: 0.5
+6:
+  chrome: [brackets, size-label]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: woman in yellow flowers with crop brackets a grid and a 1080 size label
+  family_hint: crop-frame
+  confidence: 0.7
+7:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two overlapping vintage black and white photo cards of a couple
+  family_hint: before-after
+  confidence: 0.4
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in an orange jacket shown in two side-by-side panels
+  family_hint: before-after
+  confidence: 0.5
+9:
+  chrome: [chip, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: grid of AI avatar portraits with an AI Avatar chip
+  family_hint: graphic-collage
+  confidence: 0.4
+10:
+  chrome: [size-label, adjust-panel]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: summer ad with an Exact Size panel and width and height inputs
+  family_hint: crop-frame
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: scrapbook collage of polaroid photos dried flowers and collect memories script
+  family_hint: graphic-collage
+  confidence: 0.7

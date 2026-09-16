@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, brackets, play-button, mockup-card]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: mixed
+  description: design canvas with a "50% off" blue-lipstick promo poster, font tiles and a video thumb
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: cupcake brand poster with two product variation cards and a variations stepper bar
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: [tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: captioned talking-head video with a magenta CC tile and a caption text card
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: large fashion render beside a Runway Aleph 2.0 model chip and a street detail crop
+  family_hint: model-card
+  confidence: 0.7
+5:
+  chrome: [tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: captioned talking-head video with a magenta CC tile and a caption text card
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: [tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: captioned talking-head video with a magenta CC tile and a caption text card
+  family_hint: other
+  confidence: 0.4
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: handbag product shots with an "Add white lilies near the bag" prompt and Generate button
+  family_hint: prompt-card
+  confidence: 0.7
+8:
+  chrome: [mockup-card, tile, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: product
+  art_style: 3d
+  description: pink "plump" skincare jar in an Instagram post card with small product tiles
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [mockup-card, tile, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: product
+  art_style: 3d
+  description: pink "plump" skincare jar in an Instagram post card with small product tiles
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: portrait retouch canvas with small variant thumbnails and a magenta tool tile
+  family_hint: editor-canvas
+  confidence: 0.5
+11:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: blue line-flower cutout on checkerboard beside a "THE ART OF MAKING" bloom box poster
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: orange sneakers on purple beside a Flux 2 Klein 4B model chip and a detail crop
+  family_hint: model-card
+  confidence: 0.7
