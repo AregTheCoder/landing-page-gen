@@ -978,3 +978,31 @@ def test_nearest_dup_takes_int_hashes_parsed_once():
     # cap, but the mirror hm equals "b"
     assert pool.nearest_dup("0f" * 8, "f" * 16, hashed, 6) == (0, "b")
     assert pool.nearest_dup("5" * 16, "a" * 16, hashed, 6) is None
+
+
+def test_save_slims_dropped_entries_and_omits_constants(tmp_path):
+    """B7: save() writes the required fields and calibration bookkeeping, but
+    drops a dropped entry's ranking by-products and never writes the constants
+    (attribution_required, tier:pool) that every reader already defaults."""
+    data = {"family": FAMILY, "entries": {
+        "pexels-1": {"url": "u", "image": "i", "creator": "c", "platform": "Pexels",
+                     "licence": "pexels", "phash": "0" * 16, "score": 0.9, "state": "kept",
+                     "thumb": "t", "tier": "pool", "attribution_required": False,
+                     "family_scores": {FAMILY: 0.9}},
+        "pexels-2": {"url": "u", "image": "i", "creator": "c", "platform": "Pexels",
+                     "licence": "pexels", "phash": "1" * 16, "score": 0.1, "state": "dropped",
+                     "term": "studio portrait", "searched_family": FAMILY, "drop": "off-style",
+                     "nearest": ["abc"], "family_scores": {FAMILY: 0.1}, "features": {"ground": "x"},
+                     "thumb": "t", "creator_url": "cu"}}}
+    pool.save(data, pool_dir=tmp_path)
+    back = pool.load(FAMILY, pool_dir=tmp_path)["entries"]
+
+    kept, dropped = back["pexels-1"], back["pexels-2"]
+    assert "attribution_required" not in kept and "tier" not in kept
+    assert kept["thumb"] == "t" and kept["family_scores"] == {FAMILY: 0.9}  # kept entries keep them
+    for gone in ("nearest", "family_scores", "features", "thumb", "creator_url"):
+        assert gone not in dropped, gone
+    for keep in ("term", "searched_family", "drop", "score", "state"):
+        assert keep in dropped, keep
+    # the input dict is not mutated by the slimming
+    assert data["entries"]["pexels-2"]["nearest"] == ["abc"]

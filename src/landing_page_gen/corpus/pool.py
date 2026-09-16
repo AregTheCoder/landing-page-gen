@@ -100,11 +100,28 @@ def load(family, pool_dir=POOL_DIR):
     return data
 
 
+# A dropped entry is never sheeted, served or re-ranked again; calibration reads
+# only its drop/term/family bookkeeping, so these ranking by-products are dead
+# weight on disk. attribution_required and tier:pool are constants every reader
+# already defaults, so they are never written.
+_DROP_ON_DROPPED = ("nearest", "family_scores", "features", "thumb", "creator_url")
+
+
+def _slim(entry):
+    e = {k: v for k, v in entry.items()
+         if k != "attribution_required" and not (k == "tier" and v == "pool")}
+    if e.get("state") == "dropped":
+        for k in _DROP_ON_DROPPED:
+            e.pop(k, None)
+    return e
+
+
 def save(data, pool_dir=POOL_DIR):
     path = family_path(data["family"], pool_dir)
     path.parent.mkdir(parents=True, exist_ok=True)
-    data["entries"] = dict(sorted(data["entries"].items()))
-    path.write_text(styles.dump_yaml(data, sort_keys=False, allow_unicode=True, width=1000))
+    out = dict(data)
+    out["entries"] = {eid: _slim(e) for eid, e in sorted(data["entries"].items())}
+    path.write_text(styles.dump_yaml(out, sort_keys=False, allow_unicode=True, width=1000))
     return path
 
 
