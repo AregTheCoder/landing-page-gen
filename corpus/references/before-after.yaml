@@ -148,3 +148,79 @@ open:
   - No Pexels or Unsplash match for the exact 69ed3f5c scene (flowers tucked into socks on pastel blue); nearest are plain heels-and-socks studio shots.
   - Nothing verified for a cap shot low in golden-hour backlight on grass; both cap matches are flat daylight.
   - Unsplash searches for "cap grass" and "woman portrait pastel studio" returned only grass textures or Unsplash+ premium items.
+  - Layout: Pexels carries no two-panel before/after arrangement at all (it rejects collages); every layout example below is Unsplash.
+  - Layout: the renovation and hair before/after splits are Unsplash+ premium (Getty, Fellipe Ditadi), so none were taken.
+  - Layout: nothing free matches the modal wide card (small before panel plus a large applied-mockup result) or the black icon-tile cell.
+  - Layout: half-and-half wipe frames were skipped on purpose; the family's Never line bars wipes and sliders.
+layout:
+  arrangement: >
+    Two or three flat rectangles on one ground, parted by an empty gutter, no divider graphic. Either an equal
+    pair, stacked or side by side, or a small panel plus a larger result panel. One subject, framed alike,
+    throughout.
+  repetition: >
+    One photograph repeated: identical framing in the before panel and the after panel, then a third time
+    inside the large result panel as an applied print, poster or product shot.
+  search_terms:
+    - before and after split panel
+    - before and after comparison two panels
+    - before after skincare panel
+    - two collage photo
+    - before and after dental smile
+    - before and after hair treatment
+    - renovation before and after side by side
+  examples:
+    - url: https://unsplash.com/photos/woman-before-and-after-dental-cosmetic-improvements-Hki-3eGBi9c
+      image: https://images.unsplash.com/photo-1776400985210-92f654712d30
+      creator: Precision Dentistry & Implants of Kerrville
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        15c37bff pair: two equal panels side by side, hard vertical gutter, one subject photographed the same
+        way either side, before and after an edit
+      differs: >
+        Picsart strips the clinic caption, crops each panel square on a transparent ground and draws its own
+        Before and After pills bottom-left
+    - url: https://unsplash.com/photos/womans-hair-before-and-after-treatment-displayed-with-cosmetic-jars-9OjBFZKqVmg
+      image: https://images.unsplash.com/photo-1785323451868-edd1e693daa6
+      creator: Ela De Pure
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        69ed3f5c: a two-panel before/after pair beside the product, one subject, the same framing in both
+        panels, empty gutter between them
+      differs: >
+        The pair is printed on a notebook page inside a flat lay; Picsart's panels are flat rounded rectangles
+        with no surrounding scene
+    - url: https://unsplash.com/photos/skincare-serum-bottle-with-before-and-after-pore-refinement-images-FxjpDWgW0pk
+      image: https://images.unsplash.com/photo-1782086816100-017c99c45109
+      creator: Ela De Pure
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        c5715e9b: three cells read across one frame — before panel, a middle cell, after panel — same subject
+        in the two photo cells
+      differs: >
+        Brand name and claim text are printed in the cells; Picsart keeps panels textless and makes the middle
+        cell a black tile with one white icon
+    - url: https://unsplash.com/photos/skincare-product-targeting-open-pores-and-acne-marks-uQOiEdKjezM
+      image: https://images.unsplash.com/photo-1783284884071-ec702160bfe1
+      creator: Ela De Pure
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        69ed3f5c: a row of unequal cells, close-up skin panels next to a small label card, the way the family
+        sets a label tile among photo panels
+      differs: >
+        The label cards carry marketing copy; Picsart's equivalent cell is a plain black tile with a line icon,
+        and the panels are rounded and gutter-separated
+    - url: https://unsplash.com/photos/two-collage-photo-of-man-and-woman-D7wAlgU259E
+      image: https://images.unsplash.com/photo-1539023783599-98b06ee0afbd
+      creator: SunnyOcean Wind
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        15c37bff pair: two equal portrait panels, hard vertical divide, both portraits framed alike, nothing
+        in the gutter
+      differs: >
+        The panels hold two different people; Picsart's pair holds one photograph twice, before and after the
+        editing tool
