@@ -845,3 +845,39 @@ def test_each_intake_mode_reads_its_own_reference_block(tmp_path):
         assert False, "should refuse a sweep with no terms"
     except ValueError as exc:
         assert "layout.search_terms" in str(exc)
+
+
+def test_a_sheet_never_mixes_intake_modes_and_each_gets_its_own_prompt(tmp_path):
+    """A bare photograph and an arrangement are judged against different
+    things. One sheet carrying both, under one instruction, can only be right
+    about half of it."""
+    write_corpus_hashes(tmp_path, noise_image("far-away"))
+    attrs_mapping, styles_mapping = two_family_corpus(tmp_path, n=3)
+    refs = tmp_path / "references"
+    refs.mkdir()
+    (refs / f"{FAMILY}.yaml").write_text(yaml.safe_dump({
+        "photography": {"genre": "One picture filling the slot."},
+        "layout": {"arrangement": "Two equal panels, hard vertical divide."}}))
+    seed_entries(tmp_path, n=4, state="pending")
+    data = pool.load(FAMILY, tmp_path)
+    for i, eid in enumerate(sorted(data["entries"])):
+        data["entries"][eid]["composition"] = pool.LAYOUT if i < 2 else pool.BARE
+    pool.save(data, tmp_path)
+    written, _ = pool.build_sheets(FAMILY, pool_dir=tmp_path, per_sheet=12, attrs_mapping=attrs_mapping,
+                                   styles_mapping=styles_mapping, references_dir=refs,
+                                   log=lambda m: None)
+    modes = sorted(s["composition"] for s in written)
+    assert modes == [pool.BARE, pool.LAYOUT], "one sheet per mode, not one sheet of both"
+    sheets_dir = tmp_path / "sheets"
+    for sheet in written:
+        man = yaml.safe_load((sheets_dir / f"{sheet['name']}.yaml").read_text())
+        assert man["composition"] == sheet["composition"]
+        entries = pool.load(FAMILY, tmp_path)["entries"]
+        assert {entries[c["id"]]["composition"] for c in man["cells"].values()} == {man["composition"]}
+    readme = (sheets_dir / f"README-{FAMILY}.md").read_text()
+    assert "## Prompt — bare" in readme and "## Prompt — layout" in readme
+    assert "One picture filling the slot" in readme and "Two equal panels" in readme
+    # the layout prompt must invert the two bare rules, or reviewers drop what it collected
+    layout = pool.prompt(FAMILY, refs, pool.LAYOUT)
+    assert "watermarks are expected" in layout and "not duplicates" in layout
+    assert "text-heavy" in pool.prompt(FAMILY, refs, pool.BARE)

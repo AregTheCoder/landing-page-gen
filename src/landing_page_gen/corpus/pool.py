@@ -843,7 +843,9 @@ def prompt(family, references_dir=None, composition=BARE):
         "names each cell's source.",
         ""]
     if genre:
-        lines += ["The photography this family needs:", "", f"> {genre}", ""]
+        heading = ("The photography this family needs:" if composition == BARE
+                   else "The arrangement this family needs:")
+        lines += [heading, "", f"> {genre}", ""]
     lines += [
         "Write <sheet>.answers.yaml beside the sheet, one line per cell:",
         "", "```yaml", "1: keep", "2: drop", "3: {keep: true, subject: person}",
@@ -854,11 +856,33 @@ def prompt(family, references_dir=None, composition=BARE):
         "`{...}` form an unquoted note breaks the file: a comma ends the value, and a",
         "`#` (as in `same shoot as #10`) starts a comment that eats the closing brace.",
         "",
-        "keep = the photograph a worker could build this family's slot from; drop = off-style,",
-        "watermarked, text-heavy, or a near-duplicate of another cell. Judge the photograph only:",
-        "the tiles, pills, panels and badges of the family are drawn by lp-compose afterwards, so a",
-        "bare photo is what you should be seeing.",
-        "",
+    ]
+    if composition == BARE:
+        lines += [
+            "keep = the photograph a worker could build this family's slot from; drop = off-style,",
+            "watermarked, text-heavy, or a near-duplicate of another cell. Judge the photograph only:",
+            "the tiles, pills, panels and badges of the family are drawn by lp-compose afterwards, so a",
+            "bare photo is what you should be seeing.",
+            ""]
+    else:
+        lines += [
+            "**These cells are judged on their arrangement, not their photography.** They were",
+            "collected because they are already laid out like this family's slot — a split, a grid, a",
+            "collage, a mockup scene — and they are kept as compositional references for how the",
+            "panels sit. A mediocre photograph in exactly the right arrangement is a keep; a beautiful",
+            "single frame that carries no arrangement is a drop.",
+            "",
+            "So the bare-sheet rules invert on two points. **Text, logos and watermarks are expected**",
+            "— a laid-out picture is usually a marketing artifact — and are not grounds to drop on",
+            "their own; say in the `note` what Picsart would have to strip. And **cells from one",
+            "shoot are not duplicates** where this family tiles a repeating motif: that serial set is",
+            "the point, so keep the ones that differ and say so.",
+            "",
+            "Still drop: another product's UI (a competitor's editor is not an arrangement Picsart can",
+            "reuse), an arrangement this family never uses, anything unusable on a product page",
+            "(explicit, smoking, branded beyond a strippable mark), and genuine near-identical repeats.",
+            ""]
+    lines += [
         f"`subject` (optional): one of {', '.join(attrs.ENUMS['subject'])}.",
         f"`best_family` (optional): a better-fitting family from {', '.join(db.STYLES)} — a good photo",
         "in the wrong place moves there instead of being lost.",
@@ -901,44 +925,57 @@ def build_sheets(family, pool_dir=POOL_DIR, per_sheet=PER_SHEET, thumb=320, colu
         pending.append((eid, e))
     pending.sort(key=lambda kv: -(kv[1].get("score") or 0))
     written = []
-    for i in range(0, len(pending), per_sheet):
-        chunk = pending[i:i + per_sheet]
-        name = sheet_name(family, [eid for eid, _ in chunk])
-        png = out_dir / f"{name}.png"
-        refs = anchor_items(family, chunk, anchor_pool, anchors) if anchors else []
-        # pad the anchor row so the candidates start on a fresh row
-        pad = [("", {"local": None})] * ((-len(refs)) % columns) if refs else []
-        head = refs + pad
-        items = head + [(eid, {"local": str(thumb_path(eid, pool_dir))}) for eid, _ in chunk]
+    # One sheet never mixes intake modes: a bare photograph and an arrangement
+    # are judged against different things, and a reviewer given both under one
+    # instruction can only be wrong about half of them.
+    by_mode = {}
+    for eid, e in pending:
+        by_mode.setdefault(e.get("composition") or BARE, []).append((eid, e))
+    for mode in COMPOSITIONS:
+        mode_pending = by_mode.get(mode) or []
+        for i in range(0, len(mode_pending), per_sheet):
+            chunk = mode_pending[i:i + per_sheet]
+            name = sheet_name(family, [eid for eid, _ in chunk])
+            png = out_dir / f"{name}.png"
+            refs = anchor_items(family, chunk, anchor_pool, anchors) if anchors else []
+            # pad the anchor row so the candidates start on a fresh row
+            pad = [("", {"local": None})] * ((-len(refs)) % columns) if refs else []
+            head = refs + pad
+            items = head + [(eid, {"local": str(thumb_path(eid, pool_dir))}) for eid, _ in chunk]
 
-        def caption(n, key, rec, _head=len(head)):
-            if n < _head:
-                return f"ref {key}" if key else ""
-            return f"#{n - _head + 1} {key} {chunk[n - _head][1].get('score')}"
-        taxonomy.contact_sheet(items, png, per_cell=len(items), thumb=thumb, columns=columns,
-                               caption=caption)
-        manifest = {"sheet": name, "family": family, "answers": f"{name}.answers.yaml",
-                    "anchors": [aid for aid, _ in refs], "genre": reference_genre(family, references_dir),
-                    "cells": {n + 1: {"id": eid, "url": e["url"], "creator": e["creator"],
-                                      "platform": e["platform"], "score": e.get("score"),
-                                      "aspect_class": e.get("aspect_class"), "term": e.get("term"),
-                                      "searched_family": e.get("searched_family"),
-                                      "best_family": e.get("best_family"),
-                                      "family_scores": e.get("family_scores"),
-                                      "explored": e.get("explored")}
-                              for n, (eid, e) in enumerate(chunk)}}
-        (out_dir / f"{name}.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True, width=1000))
-        for eid, e in chunk:
-            data["entries"][eid]["sheet"] = name
-        written.append({"name": name, "png": png, "cells": len(chunk),
-                        "answered": (out_dir / f"{name}.answers.yaml").exists()})
+            def caption(n, key, rec, _head=len(head), _chunk=chunk):
+                if n < _head:
+                    return f"ref {key}" if key else ""
+                return f"#{n - _head + 1} {key} {_chunk[n - _head][1].get('score')}"
+            taxonomy.contact_sheet(items, png, per_cell=len(items), thumb=thumb, columns=columns,
+                                   caption=caption)
+            manifest = {"sheet": name, "family": family, "composition": mode,
+                        "answers": f"{name}.answers.yaml",
+                        "anchors": [aid for aid, _ in refs],
+                        "genre": reference_genre(family, references_dir, mode),
+                        "cells": {n + 1: {"id": eid, "url": e["url"], "creator": e["creator"],
+                                          "platform": e["platform"], "score": e.get("score"),
+                                          "aspect_class": e.get("aspect_class"), "term": e.get("term"),
+                                          "searched_family": e.get("searched_family"),
+                                          "best_family": e.get("best_family"),
+                                          "family_scores": e.get("family_scores"),
+                                          "explored": e.get("explored")}
+                                  for n, (eid, e) in enumerate(chunk)}}
+            (out_dir / f"{name}.yaml").write_text(yaml.safe_dump(manifest, sort_keys=False, allow_unicode=True, width=1000))
+            for eid, e in chunk:
+                data["entries"][eid]["sheet"] = name
+            written.append({"name": name, "png": png, "cells": len(chunk), "composition": mode,
+                            "answered": (out_dir / f"{name}.answers.yaml").exists()})
     per = max((s["cells"] for s in written), default=0)
     lines = [f"# Pool sheets: {family}", "",
              f"{len(written)} sheet(s) of at most {per} numbered cell(s) each, "
              f"covering {len(pending)} pending entr(ies); "
              f"{sum(1 for s in written if s['answered'])}/{len(written)} answered.",
              "Those counts are for the whole family — one sheet holds only its own cells.",
-             "", "## Prompt", "", prompt(family, references_dir), ""]
+             "Each sheet's manifest names its `composition`: read the matching prompt below.", ""]
+    for mode in COMPOSITIONS:
+        if any(s["composition"] == mode for s in written):
+            lines += [f"## Prompt — {mode}", "", prompt(family, references_dir, mode), ""]
     (out_dir / f"README-{family}.md").write_text("\n".join(lines))
     save(data, pool_dir)
     return written, {"pending": len(pending), "sheets": len(written)}

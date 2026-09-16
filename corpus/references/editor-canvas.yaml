@@ -142,3 +142,19 @@ open:
   - no iced coffee with a striped paper straw alone on blush pink without props
   - Planet Volumes' green-on-green armchair (Unsplash) is an Unsplash+ premium file, excluded
   - Unsplash image URLs are kept as served, with their tracking parameters
+  - >
+    2026-09-16 layout sweep, no layout block written; the arrangement is the Picsart
+    editor canvas itself (rounded card, selection handles, rule-of-thirds grid, cursor,
+    glyph chip row), chrome that lp-compose owns and the family never generates
+  - >
+    the only Pexels/Unsplash pictures carrying an editor-canvas arrangement are
+    screenshots of other products' editors (Photoshop, Lightroom, video timelines),
+    excluded by rule, not a gap in the search
+  - >
+    queries tried, all empty for this arrangement - photo editing crop grid overlay,
+    photo editing software screen, design canvas mockup, rule of thirds grid overlay;
+    no card on a plain ground with handles, grid, cursor and a chip strip
+  - >
+    the card interiors (centred hard vertical blur-sharp split; layered cutout collage
+    with a text block) are sourceable, but they belong to before-after and
+    graphic-collage; collecting them here would mislabel the family

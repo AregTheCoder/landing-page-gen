@@ -23,9 +23,24 @@ uv run lp-corpus pool search <family>               # only if you need new candi
 uv run lp-corpus pool sheets <family>               # -> corpus/pool/sheets/*.png + *.yaml + README-<family>.md
 ```
 
-Read `corpus/pool/sheets/README-<family>.md` once: it carries the family's
-photography genre and the answer format. Pick the first N sheets with no
-`.answers.yaml` yet.
+Read `corpus/pool/sheets/README-<family>.md` once: it carries the answer format
+and one prompt per **intake mode** the family has sheets for. Pick the first N
+sheets with no `.answers.yaml` yet.
+
+A sheet is one mode or the other, never both — its manifest names which:
+
+- `composition: bare` — the raw photograph that goes inside Picsart's chrome.
+  Judge the photograph; the layout is drawn by `lp-compose` afterwards.
+- `composition: layout` — a picture already laid out like the chrome (a split, a
+  grid, a collage, a mockup scene), kept as a compositional reference for how
+  the panels sit. Judge the arrangement, and note that **two of the bare rules
+  invert**: text, logos and watermarks are expected rather than disqualifying,
+  and several cells from one shoot are the serial set this family tiles rather
+  than duplicates to cap away.
+
+Pass the mode to each subagent and let it read the matching prompt. Mixing them
+up is the one mistake that wastes a whole sheet: the bare rules would drop
+almost every layout candidate for carrying text.
 
 An entry is stamped with its sheet when the sheet is built and is never
 sheeted again, so a second `pool sheets` run offers only what a new search
@@ -37,20 +52,28 @@ Spawn the subagents in a single message, at most 8 at a time. Give each one
 exactly this task, with `<sheet>` and `<family>` filled in:
 
 > Review one contact sheet of licensed stock candidates for a Picsart style family.
-> 1. Read `corpus/pool/sheets/README-<family>.md` (the family's photography
->    genre and the answer format) and `corpus/pool/sheets/<sheet>.yaml` (the
->    manifest: the source, score and search term behind each numbered cell).
+> 1. Read `corpus/pool/sheets/<sheet>.yaml` first (the manifest: this sheet's
+>    `composition`, plus the source, score and search term behind each numbered
+>    cell), then the matching `## Prompt — <composition>` section of
+>    `corpus/pool/sheets/README-<family>.md`. This sheet is `<composition>`:
+>    follow that section's rules, not the other one's.
 > 2. Read `corpus/pool/sheets/<sheet>.png`. **Row 1 is three Picsart originals
 >    of this family, captioned `ref <id>` — the target, not candidates. Do not
 >    judge them.** Numbered cells `#1`, `#2`, ... start on row 2.
 > 3. Write `corpus/pool/sheets/<sheet>.answers.yaml`: one line per cell number,
 >    `keep` or `drop`, or a mapping with `keep` plus an optional `subject`,
 >    `best_family` or `note`.
-> Judge the photograph, not the layout: the tiles, pills, panels and badges of
-> the family are drawn by `lp-compose` afterwards, so a bare photo is what you
-> should be seeing. Keep what a worker could build this family's slot from;
-> drop what is off-style, watermarked, text-heavy, or a near-duplicate of
-> another cell. If a photo is good but belongs to another family, answer
+> On a `bare` sheet: judge the photograph, not the layout — the tiles, pills,
+> panels and badges of the family are drawn by `lp-compose` afterwards, so a
+> bare photo is what you should be seeing. Keep what a worker could build this
+> family's slot from; drop what is off-style, watermarked, text-heavy, or a
+> near-duplicate of another cell.
+> On a `layout` sheet: judge the arrangement. A mediocre photograph in exactly
+> the right arrangement is a keep; a beautiful single frame carrying no
+> arrangement is a drop. Expect text and watermarks and note what Picsart would
+> strip rather than dropping for them; keep the differing cells of a repeating
+> shoot rather than calling them duplicates.
+> Either way, if a candidate is good but belongs to another family, answer
 > `best_family` — it moves there instead of being lost.
 > Leave a cell out entirely if the thumbnail cannot settle it.
 > Report the cells you kept, dropped, moved and left out, and any search term
@@ -109,6 +132,8 @@ Then report:
 - Keep on the photograph, not on the subject's suitability alone — but a frame
   that could not appear on a Picsart product page (explicit, smoking, branded)
   is a drop whatever its grade, and worth saying so in the `note`.
-- Watch for one shoot filling a sheet: several cells from one creator's session
-  are near-duplicates and only the best is worth keeping. Report it — a
-  per-creator cap in `pool search` is the fix, not more review.
+- Watch for one shoot filling a **bare** sheet: several cells from one creator's
+  session are near-duplicates and only the best is worth keeping. Report it —
+  `pool search --max-per-creator` is the fix, not more review. On a `layout`
+  sheet the same pattern is usually the serial motif the family tiles, so raise
+  the cap there instead of lowering it.
