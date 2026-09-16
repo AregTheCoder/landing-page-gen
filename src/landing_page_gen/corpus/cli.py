@@ -283,6 +283,7 @@ def main(argv=None) -> int:
                                           refresh=a.refresh, log=log) if have_keys else None
                 common = dict(terms=a.terms or None, platforms=platforms, orientation=a.orientation,
                               pages=a.pages, min_width=a.min_width, keep_floor=a.keep_floor,
+                              composition=a.composition,
                               pool_dir=a.out, client=client)
                 if a.dry_run:
                     common["ranker_name"] = a.rank

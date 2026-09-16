@@ -196,23 +196,30 @@ def score(hist, features, hists, freq, family):
     return round(W_HIST * hist_part + W_FIELDS * field_part, 3), [aid for _, aid in sims]
 
 
-def reference_terms(family, references_dir=None):
-    """The family's search_terms from corpus/references/<family>.yaml."""
-    path = Path(references_dir or REFERENCES_DIR) / f"{family}.yaml"
-    if not path.exists():
-        return []
-    data = yaml.safe_load(path.read_text()) or {}
-    return list((data.get("photography") or {}).get("search_terms") or [])
+# Each intake mode reads its own block of corpus/references/<family>.yaml: the
+# bare photograph and the arrangement are found by different queries and
+# described to a reviewer in different words.
+REFERENCE_BLOCK = {BARE: ("photography", "genre"), LAYOUT: ("layout", "arrangement")}
 
 
-def reference_genre(family, references_dir=None):
-    """The family's photography description from corpus/references/<family>.yaml:
-    what a reviewer is actually being asked to match."""
+def _reference_block(family, composition, references_dir=None):
     path = Path(references_dir or REFERENCES_DIR) / f"{family}.yaml"
     if not path.exists():
-        return ""
+        return {}
     data = yaml.safe_load(path.read_text()) or {}
-    return ((data.get("photography") or {}).get("genre") or "").strip()
+    return data.get(REFERENCE_BLOCK[composition][0]) or {}
+
+
+def reference_terms(family, references_dir=None, composition=BARE):
+    """The family's search terms for this intake mode."""
+    return list(_reference_block(family, composition, references_dir).get("search_terms") or [])
+
+
+def reference_genre(family, references_dir=None, composition=BARE):
+    """What a reviewer is actually being asked to match: the photography genre
+    for the bare intake, the arrangement for the layout one."""
+    block = _reference_block(family, composition, references_dir)
+    return (block.get(REFERENCE_BLOCK[composition][1]) or "").strip()
 
 
 def family_locals(family, attrs_mapping=None, styles_mapping=None):
@@ -555,14 +562,16 @@ def deepen(family, term, cal, ranker="histogram", keep_floor=KEEP_FLOOR, pages=1
     return rate >= keep_floor
 
 
-def _resolve(family, terms, platforms, keys, pool_dir, references_dir=None):
+def _resolve(family, terms, platforms, keys, pool_dir, references_dir=None, composition=BARE):
     """The shared prologue of `search` and `plan`: validate, find the terms,
     and keep only the platforms this machine has a key for."""
     if family not in db.STYLES:
         raise ValueError(f"unknown style family {family!r}; one of {', '.join(db.STYLES)}")
-    terms = list(terms or reference_terms(family, references_dir))
+    terms = list(terms or reference_terms(family, references_dir, composition))
     if not terms:
-        raise ValueError(f"no search terms: pass --terms or collect corpus/references/{family}.yaml first")
+        where = f"{REFERENCE_BLOCK[composition][0]}.search_terms"
+        raise ValueError(f"no {composition} search terms: pass --terms or collect "
+                         f"{where} into corpus/references/{family}.yaml first")
     api_keys, missing = stock.keys_available(platforms, keys)
     if not api_keys:
         names = ", ".join(stock.KEYS[pf] for pf in platforms)
@@ -572,11 +581,13 @@ def _resolve(family, terms, platforms, keys, pool_dir, references_dir=None):
 
 def plan(family, terms=None, platforms=stock.PLATFORMS, orientation=None, keys=None, pages=1,
          min_width=MIN_WIDTH, pool_dir=POOL_DIR, client=None, attrs_mapping=None,
-         styles_mapping=None, cal=None, keep_floor=KEEP_FLOOR, ranker_name=None, log=print):
+         styles_mapping=None, cal=None, keep_floor=KEEP_FLOOR, ranker_name=None,
+         composition=BARE, references_dir=None, log=print):
     """What a search would ask for, without asking: the real clients build
     their real URLs against a recording stub, and each is looked up in the
     cache. Nothing is fetched and nothing is written."""
-    terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir)
+    terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir, references_dir,
+                                        composition)
     ranker_name = ranker_name or ("clip" if embed.available() else "histogram")
     cal = calibration.load() if cal is None else cal
     allowed, auto = family_orientations(family, attrs_mapping, styles_mapping)
@@ -626,7 +637,8 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
     below the calibrated threshold is dropped without ever costing a sheet
     cell, bar a deterministic exploration slice that keeps the threshold
     honest. Returns (written paths, stats)."""
-    terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir, references_dir)
+    terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir, references_dir,
+                                        composition)
     client = client or DirectFetcher(fetch)
     ranker = ranker if ranker is not None else make_ranker(ranker_name, composition=composition, log=log)
     cal = calibration.load() if cal is None else cal
@@ -820,8 +832,8 @@ def sheet_name(family, ids):
     return f"{family}-{hashlib.sha1(chr(10).join(sorted(ids)).encode()).hexdigest()[:6]}"
 
 
-def prompt(family, references_dir=None):
-    genre = reference_genre(family, references_dir)
+def prompt(family, references_dir=None, composition=BARE):
+    genre = reference_genre(family, references_dir, composition)
     lines = [
         f"Review one contact sheet of licensed stock candidates for the `{family}` style family.",
         "",

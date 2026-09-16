@@ -819,3 +819,29 @@ def test_write_examples_is_licensed_and_blind(tmp_path):
         text = md.read_text()
         assert not re.search(r"\b[0-9a-f]{8}\b", text), "no 8-hex asset id may reach a brief"
         assert not re.search(r"^(snapshot|source): ", text, re.M)
+
+
+def test_each_intake_mode_reads_its_own_reference_block(tmp_path):
+    """The bare photograph and the arrangement are found by different queries
+    and described to a reviewer in different words, so they live in different
+    blocks. A mode with no terms must say which block is empty."""
+    refs = tmp_path / "references"
+    refs.mkdir()
+    (refs / f"{FAMILY}.yaml").write_text(yaml.safe_dump({
+        "photography": {"genre": "One picture filling the slot.",
+                        "search_terms": ["moody portrait"]},
+        "layout": {"arrangement": "Two panels split down the middle.",
+                   "search_terms": ["before after split screen"]}}))
+    assert pool.reference_terms(FAMILY, refs) == ["moody portrait"]
+    assert pool.reference_terms(FAMILY, refs, pool.LAYOUT) == ["before after split screen"]
+    assert pool.reference_genre(FAMILY, refs).startswith("One picture")
+    assert pool.reference_genre(FAMILY, refs, pool.LAYOUT).startswith("Two panels")
+    # a family collected for bare only names the block the layout sweep needs
+    (refs / f"{CINEMATIC}.yaml").write_text(yaml.safe_dump(
+        {"photography": {"genre": "g", "search_terms": ["t"]}}))
+    assert pool.reference_terms(CINEMATIC, refs, pool.LAYOUT) == []
+    try:
+        pool._resolve(CINEMATIC, None, ("pexels",), {"pexels": "k"}, tmp_path, refs, pool.LAYOUT)
+        assert False, "should refuse a sweep with no terms"
+    except ValueError as exc:
+        assert "layout.search_terms" in str(exc)

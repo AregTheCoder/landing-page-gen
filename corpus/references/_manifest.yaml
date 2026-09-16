@@ -2,19 +2,34 @@ dark-composite:
   use: feature-callout and hero on ai-models, compare-models and generator pages; the headline names a model, a
     resolution, or "generate"/"create" with AI. The default when a callout shows one AI result next to tool controls.
   slots: callout-1:1 (n=…), callout-1:1-video (n=…), hero-1:1 (n=…).
-  ground: 'black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…).'
-  panels_worker: 'A `photo` (generate 3:4): one editorial photograph of what the tool makes, a product, a person
-    or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light;
-    no border.'
+  ground: 'black (default, tool pages) | light: light grey `#f2f2f4` (ai-models and compare pages, n=…). The measured
+    ground in the slot''s `> attrs:` line wins over the row''s `/light` when it says black (the Recraft model pages
+    are black cards on ai-models).'
+  panels_worker: 'A `photo` (generate 3:4; 9:16 under `model-picker`): one editorial photograph of what the tool
+    makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated,
+    natural or clean studio light; no border. Under `reference-thumbs` and `model-picker` also `thumb-a` and `thumb-b`
+    (generate 1:1 and 4:3 respectively, `gemini-3-pro-image` like every panel): two smaller pictures in the same
+    finish and palette as `photo` with different subjects, the references the copy says the model locks onto or
+    the other outputs it was chosen among. Under `two-up` also `photo-b` (generate 9:16): a second output of the
+    same style on its own ground.'
   text: 'chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless
     `> text:` names a string (rare: a product''s own printed name).'
   never: collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model
-    logos.
-  tagged_assets: 3
+    logos; competitor model names or marks in the list card.
+  tagged_assets: 26
   pages:
+  - brochure-maker
+  - motivation-poster-maker
+  - collage-maker
+  - thank-you-card-maker
+  - ai-agents
+  - add-subtitles-to-video
+  - video-tools
+  - bookmark-maker
+  - variation-generator
+  - design
   - compare-models--nano-banana-2-vs-flux-2-pro
-  - compare-models--flux-2-pro-vs-midjourney
-  - ai-models--recraft-v4-styles
+  - video-editor
   examples:
   - id: f746795b
     page: ai-models--flux-2-flex
@@ -38,7 +53,9 @@ before-after:
   use: 'feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change
     background; the headline says before/after, fix, improve, transform.'
   slots: callout-1:1 (n=…), hero-1:1 (n=…).
-  ground: 'black (default) | none: two 1:1 panels side by side with no ground, the hero pair on tool pages (n=…).'
+  ground: 'transparent (the compose export carries alpha; the page section supplies the surround — every corpus
+    composite). The modal real layout is a WIDE ~2.1:1 card (`variant: wide`), not the 1:1 stack (2026-09-15 audit;
+    research/template-audit/before-after.md).'
   panels_worker: 'A `before` (generate 1:1): the source photograph, ordinary and slightly flawed as the tool''s
     input would be (soft, dull, a cluttered background). B `after`: the same photograph after the tool''s effect,
     made from A with `picsart_enhance`, `picsart_change_bg` or `picsart_remove_bg`, never a second generate. `result`
@@ -46,17 +63,17 @@ before-after:
   text: 'chrome text only: the Before and After pills are drawn by `lp-compose` (the after panel is derived from
     the before by an editing tool, so no model could carry a label). `> text:` is `none` for this family.'
   never: two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
-  tagged_assets: 69
+  tagged_assets: 73
   pages:
   - ai-image-enhancer
   - ai-replace
-  - compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
-  - compare-models--dall-e-3-vs-midjourney
-  - compare-models--flux-2-pro-vs-midjourney
   - photo-effects
-  - compare-models--nano-banana-2-vs-flux-2-pro
   - image-upscale
-  - compare-models--recraft-v4-vs-ideogram-3-0-flash
+  - compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
+  - compare-models--flux-2-pro-vs-midjourney
+  - compare-models--dall-e-3-vs-midjourney
+  - aura
+  - image-enlarger
   - compare-models--runway-gen-4-vs-veo-3
   - background-changer
   - red-eye-remover
@@ -83,7 +100,8 @@ crop-frame:
   use: feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size,
     a platform format (Story, Reel, post) or says resize, crop, fit.
   slots: callout-1:1 (n=…).
-  ground: 'white (default) | transparent: the rounded corners show the page (n=…).'
+  ground: black (default; 10/13 in-family assets, all crop-image pages) | white (rare). The source panel is dimmed
+    under the brackets and the top-left mark is a bare white icon, not a filled tile (2026-09-15 audit; research/template-audit/crop-frame.md).
   panels_worker: 'A `source` (generate 2:3): one photograph with a clear subject in the centre third so the brackets
     frame something. B `result` (generate 9:16): the same photograph, anchored on the subject; usually A''s own
     URL with a different anchor. People or products in an environment read best; the crop must still read at 480
@@ -91,8 +109,20 @@ crop-frame:
   text: 'chrome text only: the size or format label under the brackets (x2, 1080 x 1920 px, Story) is drawn by `lp-compose`
     and comes from the section copy. The photo carries no text.'
   never: brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
-  tagged_assets: 0
-  pages: []
+  tagged_assets: 58
+  pages:
+  - crop-image
+  - resize-image
+  - ai-background
+  - ai-image-extender
+  - background-tools
+  - compare-models--kling-vs-runway
+  - ai-models--ideogram-4-0
+  - photo-editor
+  - content-creation-tools
+  - batch-photo-editor
+  - ai-models--grok-imagine
+  - ai-models--imagen-4-0
   examples:
   - id: 5f91c6aa
     page: resize-image
@@ -116,7 +146,9 @@ cutout-checkerboard:
   use: feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the
     headline says remove, cut out, transparent, sticker, batch, isolate.
   slots: callout-1:1 (n=…).
-  ground: 'black (default) | checker: the checkerboard fills the ground instead of two panels (n=…).'
+  ground: transparent (the compose export carries alpha; the page supplies black/white). Checker tone is dark on
+    batch/sticker pages, light on background-remover pages (light-tone rendering is a deferred knob). Real checker
+    panels are before/after splits — deferred, see research/template-audit/cutout-checkerboard.md.
   panels_worker: 'A `cutout-a` and B `cutout-b` (generate 2:3): two products or subjects each generated alone on
     a plain mid-grey backdrop, then `picsart_remove_bg` (free) so they arrive as transparent PNGs; they are placed
     with `fit: contain`. C `result` (generate 3:4): one of them in a finished scene, either `picsart_change_bg`
@@ -125,9 +157,20 @@ cutout-checkerboard:
     subjects carry no text; a product''s own printed label counts as text and is avoided.'
   never: a checkerboard or halo painted by the model, shadows under transparent cutouts, text on the products, more
     than one subject per cutout panel.
-  tagged_assets: 1
+  tagged_assets: 32
   pages:
+  - batch-photo-editor
+  - background-remover
+  - sticker-maker
+  - background-changer
+  - persona
+  - ai-models--seedance-1-pro
+  - background-tools
   - thank-you-card-maker
+  - variation-generator
+  - instagram-video-maker
+  - photo-editor
+  - flip-image
   examples:
   - id: 4604e99a
     page: batch-photo-editor
@@ -151,8 +194,10 @@ template-mockup:
   use: feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font
     and logo generators; the headline says template, design, customize, layout, brand.
   slots: callout-1:1 (n=…), gallery-1:1 (n=…).
-  ground: 'white (default, with tool tiles) | black: black ground with a magenta tile, a gradient swatch and a checkerboard
-    cutout beside the card, the poster-maker look (n=…) | gradient: pink-to-purple, no tiles (n=…).'
+  ground: transparent (the compose export carries alpha; the page supplies white/black — 12/14 assets). /black is
+    the same artwork on a dark page (a fill override), not a separate drawing. The tile column is 3 MIXED tiles
+    (one magenta), not 4 uniform black; the `photo` panel is the finished card design (the model renders the headline
+    inside it — never blank bars). 2026-09-15 audit; research/template-audit/template-mockup.md.
   panels_worker: 'A `photo` (generate 1:1): the photograph the template is built around: a single product or lifestyle
     subject on a plain or softly coloured backdrop, front-on, centred, at least 25 % margin around the subject.
     It is a flat picture, not a printed object. A person holding the product reads as well as the product alone.'
@@ -162,8 +207,20 @@ template-mockup:
     writes both strings in `> text:`; the four icon tiles carry no text.'
   never: printed cards standing on tables, stacks or fans of cards, perspective, drop shadows, paper texture, logos
     or text other than the brief's strings inside the photo, mock toolbars.
-  tagged_assets: 0
-  pages: []
+  tagged_assets: 204
+  pages:
+  - design
+  - resume-maker
+  - calendar-maker
+  - youtube-thumbnail-maker
+  - birthday-card-maker
+  - motivation-poster-maker
+  - invitation-maker
+  - gift-certificate-maker
+  - facebook-post-maker
+  - quiz-maker
+  - coupon-maker
+  - brochure-maker
   examples:
   - id: 5d8ec016
     page: ai-template-generator
@@ -192,9 +249,20 @@ prompt-card:
   text: the prompt sentence is chrome text (the card is chrome) and is not generated; until a template exists the
     slot is briefed as `dark-composite` and `> text:` is `none`. The result photo carries no text.
   never: prompt text, buttons or cursors rendered by the model; screenshots of the product.
-  tagged_assets: 1
+  tagged_assets: 171
   pages:
-  - ai-models--dall-e-3
+  - ai-design-tools
+  - ai-poster-generator
+  - text-to-video-ai
+  - ai-models--async-flash-v1
+  - ai-story-generator
+  - ai-models--gpt-2
+  - ai-models--flux-2-flex
+  - ai-photo-editing
+  - ai-product-image-generator
+  - ai-models
+  - ai-models--sora
+  - ai-models--kling
   examples:
   - id: 22f9b181
     page: ai-models
@@ -229,20 +297,20 @@ full-bleed:
     otherwise. Rendered by the model at the position the brief gives; HTML copy overlays are never duplicated in
     the image.
   never: collages, split panels, borders, vignettes, logos, UI, text other than the brief's strings.
-  tagged_assets: 865
+  tagged_assets: 756
   pages:
   - home
   - ai-story-generator
   - document-maker
-  - comic-book-generator
   - ai-retouch
-  - album-cover-maker
-  - background-remover
+  - comic-book-generator
   - ai-models--seedance-2-5
-  - ai-image-extender
-  - ai-filters
   - flyer-maker
-  - background-tools
+  - album-cover-maker
+  - ai-art-generator
+  - brochure-maker
+  - ai-image-extender
+  - background-remover
   examples:
   - id: '57793011'
     page: compare-models--gpt-image-1-5-vs-flux-2-pro
@@ -274,8 +342,19 @@ vs-two-up:
   text: chrome text only for pills and chips (model names, sizes), drawn by `lp-compose` when templated. Picture
     text only when the section is about text rendering and `> text:` names the word.
   never: a VS badge or model names painted by the model; two unrelated subjects; logos inside the panels.
-  tagged_assets: 0
-  pages: []
+  tagged_assets: 15
+  pages:
+  - ai-models--async-flash-v1
+  - ai-models--dall-e-3
+  - compare-models--kling-vs-runway
+  - compare-models--gpt-image-1-5-vs-flux-2-pro
+  - ai-models--gpt-image-1
+  - ai-models
+  - compare-models--sora-vs-veo
+  - compare-models--ideogram-3-0-flash-vs-flux-2-pro
+  - ai-models--recraft-v4-1
+  - compare-models--seedance-2-5-vs-kling-3-0
+  - image-models
   examples:
   - id: 1ccc69c2
     page: compare-models--gpt-image-1-5-vs-flux-2-pro
@@ -308,9 +387,20 @@ mockup-card:
     real names or brands. The photo carries no text.'
   never: a real social network's logo or layout copied exactly, readable personal names, real prices with currency,
     UI painted by the model.
-  tagged_assets: 1
+  tagged_assets: 123
   pages:
-  - collage-maker
+  - ai-voice-generator
+  - content-creation-tools
+  - ai-design-tools
+  - ai-background
+  - ai-agents
+  - youtube-thumbnail-maker
+  - ai-models--seedance-1-pro
+  - brand-identity-generator
+  - packaging-design
+  - instagram-post-creator
+  - instagram-video-maker
+  - home
   examples:
   - id: 7a980105
     page: background-remover
@@ -377,9 +467,20 @@ graphic-collage:
   text: none by default; a single word in bold display type only when `> text:` names it.
   never: photographic backgrounds, drop shadows, gradients as the main ground, more than one subject, text other
     than the brief's string.
-  tagged_assets: 1
+  tagged_assets: 45
   pages:
+  - collage-maker
+  - wallpaper-maker
+  - youtube-thumbnail-maker
+  - calendar-maker
+  - background-tools
   - add-stickers-to-photos
+  - youtube-banner-maker
+  - album-cover-maker
+  - label-maker
+  - birthday-card-maker
+  - coupon-maker
+  - christmas-card-maker
   examples:
   - id: 9f8db27a
     page: background-remover
@@ -410,13 +511,12 @@ outcome-tile:
     the same cutout).'
   text: none.
   never: different subjects across the set, shadows on the transparent state, text, UI.
-  tagged_assets: 17
+  tagged_assets: 16
   pages:
   - background-tools
+  - home
   - birthday-card-maker
-  - wallpaper-maker
   - menu-maker
-  - collage-maker
   - facebook-post-maker
   - twitter-post-maker
   - quote-maker
@@ -424,6 +524,7 @@ outcome-tile:
   - ai-models--imagen-4-0
   - ai-retouch
   - ai-models--flux-2-pro
+  - aura
   examples:
   - id: 8542fb1b
     page: background-remover
@@ -451,8 +552,20 @@ editor-canvas:
   panels_worker: none produced; the source tile is kept.
   text: chrome text only (tool labels), kept from source.
   never: generated.
-  tagged_assets: 0
-  pages: []
+  tagged_assets: 71
+  pages:
+  - ai-design-tools
+  - video-tools
+  - image-tools
+  - content-creation-tools
+  - crop-image
+  - collage-maker
+  - video-editor
+  - meme-generator
+  - flow
+  - video-to-gif
+  - ai-models--flux-3
+  - rotate-image
   examples:
   - id: 86c853b4
     page: ai-logo-generator
@@ -481,8 +594,20 @@ model-card:
     URL for the crop chips.
   text: chrome text only (the model mark), kept from source.
   never: 'generated today; later: model logos painted by the model.'
-  tagged_assets: 0
-  pages: []
+  tagged_assets: 61
+  pages:
+  - compare-models--dall-e-3-vs-midjourney
+  - ai-models
+  - image-models
+  - video-models
+  - ai-models--happyhorse-1-1-ref-to-video
+  - ai-models--recraft-v4-styles-pro
+  - ai-models--seedream-5-0-pro
+  - design
+  - ai-design-tools
+  - ai-filters
+  - compare-models--kling-vs-runway
+  - compare-models--sora-vs-veo
   examples:
   - id: c3cbf8c8
     page: ai-models
@@ -526,9 +651,20 @@ panel-overlay:
   never: a panel, sliders, chips or a colour wheel painted by the model; a recoloured or "hue-shifted" subject prompted
     into the photo (the panel implies the edit); a still life or landscape where the corpus shows people; two people;
     a busy background under the panel.
-  tagged_assets: 5
+  tagged_assets: 28
   pages:
   - hsl-color
+  - face-editor
+  - background-remover
+  - image-tools
+  - image-style-transfer
+  - instagram-video-maker
+  - design-localization
+  - video-to-gif
+  - ai-filters
+  - watermark-maker
+  - watermark-photos
+  - add-shadow-to-image
   examples:
   - id: 85708ef3
     page: hsl-color

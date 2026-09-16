@@ -39,6 +39,54 @@ open:                             # what could not be found or verified; empty l
   - ...
 ```
 
+## The `layout` block (optional, written by `--layout`)
+
+The block above describes the photograph that goes *inside* the family's
+chrome. This one describes a picture that already carries the **arrangement** —
+a split, a grid, a collage, a diptych, a device mockup scene. The pool's
+`--composition layout` intake reads it, and its bare intake scores every
+pre-arranged image zero by design, so without this block no such reference can
+ever enter the pool.
+
+```yaml
+layout:                           # optional; absent for families that have no arrangement to match
+  arrangement: >                  # 2 to 4 sentences: how many panels, how they divide the frame,
+    ...                           # what repeats across them, what sits in the gutter
+  repetition: >                   # optional: the serial motif, when the family tiles one subject
+    ...                           # (five mugs in five colours; one framing across six faces)
+  search_terms:                   # 3 to 8 queries that return pictures already laid out this way
+    - before after split screen skincare
+  examples:                       # 3 to 8, each verified on its own photo page, same shape as above
+    - url: ...
+      image: ...
+      creator: ...
+      platform: Pexels
+      licence: Pexels
+      matches: >                  # which corpus example's ARRANGEMENT it resembles
+        f746795b: two equal panels, hard vertical divide, same subject either side
+      differs: >
+        Picsart's divider carries a drag handle and the panels are 5:4
+```
+
+### Rules for the layout block
+
+- Judge the **arrangement**, not the photograph. A mediocre photo in exactly
+  the right two-panel split is a better layout reference than a beautiful
+  single frame.
+- A laid-out stock picture is a marketing artifact far more often than a bare
+  photo is, so it usually carries text, a logo or a watermark. Record that in
+  `differs` rather than rejecting it: the pool keeps these as compositional
+  references only, and a reviewer needs to know what Picsart would strip.
+- Never collect a layout that is itself another product's UI — a competitor's
+  editor screenshot is not an arrangement Picsart can reuse.
+- Write no `layout` block at all for a family whose slot is one uninterrupted
+  picture (`full-bleed`, `cinematic-still`). An empty block is worse than none:
+  it makes a sweep look collected when it is not.
+- `repetition` is the point for the tiling families (`outcome-tile`,
+  `graphic-collage`, `cutout-checkerboard`): name the motif that repeats, since
+  a set of near-identical frames from one shoot is the asset there, not a
+  duplicate to be capped away.
+
 ## Rules
 
 - Pexels and Unsplash only. Both licences allow free use; both photo pages

@@ -15,9 +15,9 @@ examples match its layout. No paid Picsart calls anywhere in it.
 
 Arguments: `$ARGUMENTS` = optional family ids (default: every family in
 `db.STYLES` that has no `corpus/references/<family>.yaml` yet, or whose file
-is older than `style-families.md`) and `--pages` (second wave: one subagent
+is older than `style-families.md`), `--pages` (second wave: one subagent
 per page with creatives, writing `corpus/pages/<slug>/references.yaml`;
-see "Wave 2" below).
+see "Wave 2" below) and `--layout` (see "Layout wave" below).
 
 ## 1. Build the manifest
 
@@ -50,6 +50,42 @@ Procedure section into the prompt. Give each one exactly this task, with
 > number of examples, and anything you could not find.
 
 Do not collect for a family yourself while its subagent runs.
+
+## Layout wave (`--layout`)
+
+Everything above collects the photograph that goes *inside* a family's chrome.
+`--layout` collects the other thing the pool needs: pictures already laid out
+like the chrome itself — a split, a grid, a collage, a diptych, a mockup scene.
+It writes a `layout:` block into the same `corpus/references/<family>.yaml`,
+leaving `photography:` untouched, and `lp-corpus pool search --composition
+layout` reads it.
+
+Run it only for families whose slot has an arrangement to match. Skip
+`full-bleed` and `cinematic-still`: their slot is one uninterrupted picture, and
+an empty block makes a sweep look collected when it is not.
+
+Same fan-out, one subagent per family, with this task:
+
+> Collect **layout** references for the Picsart style family `<family>`.
+> 1. Read the "layout block" section of
+>    `.claude/skills/collect-references/reference-format.md`, then the
+>    `<family>` entry of `corpus/references/_manifest.yaml`, then open every
+>    example PNG it lists with `Read`.
+> 2. Look at how those examples are *arranged*: how many panels, how they
+>    divide the frame, what repeats across them, what sits in the gutter.
+>    Ignore the subject of the photographs entirely.
+> 3. Find 3 to 8 Pexels or Unsplash pictures that already carry that
+>    arrangement, verify each on its own page, and add a `layout:` block to
+>    `corpus/references/<family>.yaml`. Do not touch `photography:`.
+> Judge the arrangement, not the photograph: a mediocre photo in exactly the
+> right split beats a beautiful single frame. Expect text, logos and watermarks
+> — these are marketing artifacts, and the pool keeps them as compositional
+> references only, so record what Picsart would strip under `differs` instead of
+> rejecting them. Never collect another product's UI as an arrangement.
+> If the family tiles one subject, fill `repetition` with the motif that
+> repeats; that serial set is the asset, not a duplicate.
+> Report the file, the number of examples, and any arrangement you could not
+> find on either platform.
 
 ## 3. Apply and check
 
