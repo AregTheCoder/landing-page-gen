@@ -254,6 +254,19 @@ def run(con, limit=None, force=False, roles=None, kinds=("image", "video"), type
     results. Returns (mapping, stats)."""
     mapping = load(path)
     written = set()  # what to flush: --force re-measures assets already in the yaml
+    # Checkpoints append the pass's new records to a sidecar jsonl instead of
+    # re-dumping the whole 2.4 MB yaml every CHECKPOINT assets. A crashed pass
+    # resumes from it (records loaded here are skipped by candidates() and still
+    # persisted by the final merge_save); a clean pass unlinks it at the end.
+    partial = Path(path).with_suffix(".partial.jsonl")
+    appended = set()
+    if partial.exists():
+        for line in partial.read_text().splitlines():
+            if line.strip():
+                recs = json.loads(line)
+                mapping.update(recs)
+                written.update(recs)
+                appended.update(recs)
     roles = tuple(roles) if roles else db.GENERATED_ROLES
     if no_video:
         kinds = tuple(k for k in kinds if k != "video")
@@ -282,8 +295,13 @@ def run(con, limit=None, force=False, roles=None, kinds=("image", "video"), type
             stats["grounds"][g] = stats["grounds"].get(g, 0) + 1
         if i % CHECKPOINT == 0:
             log(f"  {i}/{len(todo)}")
-            mapping = merge_save({k: mapping[k] for k in written}, path)
+            delta = {k: mapping[k] for k in written if k not in appended}
+            if delta:
+                with partial.open("a") as fh:
+                    fh.write(json.dumps(delta) + "\n")
+                appended |= set(delta)
     mapping = merge_save({k: mapping[k] for k in written}, path)
+    partial.unlink(missing_ok=True)
     return mapping, stats
 
 

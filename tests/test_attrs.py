@@ -353,3 +353,30 @@ def test_styles_derive_keeps_manual_entries():
     assert "c" not in derived, "unresolved assets get no style entry"
     assert derived["d"]["style"] == "full-bleed" and derived["d"]["provisional"] is True, "a chrome-unanswered tag is provisional"
     assert "provisional" not in derived["b"], "a chrome-answered tag is trusted, no provisional flag"
+
+
+def test_checkpoints_append_a_partial_delta_not_a_full_resave(tmp_path, monkeypatch):
+    """B5: with CHECKPOINT=1 the pass appends each record to attributes.partial.jsonl
+    and calls merge_save once at the end; a seeded partial line (a crashed pass)
+    is skipped by candidates() yet persisted by the final save."""
+    con, _ = build(tmp_path, ["comic-book-generator"], monkeypatch)
+    yml, frames = tmp_path / "attributes.yaml", tmp_path / "frames"
+    partial = yml.with_suffix(".partial.jsonl")
+    monkeypatch.setattr(attrs, "CHECKPOINT", 1)
+    saves = {"n": 0}
+    real = attrs.merge_save
+    monkeypatch.setattr(attrs, "merge_save",
+                        lambda *a, **k: (saves.__setitem__("n", saves["n"] + 1), real(*a, **k))[1])
+
+    _, stats = attrs.run(con, path=yml, frames_dir=frames, grabber=FakeGrabber())
+    assert stats["measured"] == 5
+    assert saves["n"] == 1, "one merge_save at the end, not one per checkpoint"
+    assert not partial.exists(), "a clean pass unlinks the sidecar"
+
+    # a crashed pass left a record in the sidecar: skip it, but do not lose it.
+    seed = "https://cdn.x/crashed.png"
+    partial.write_text(json.dumps({seed: {"ground": "white", "source": "measured"}}) + "\n")
+    _, stats = attrs.run(con, path=yml, frames_dir=frames, grabber=FakeGrabber(), force=True)
+    assert stats["measured"] == 5, "the seeded record is not re-measured (not a corpus row)"
+    assert seed in attrs.load(yml), "the seeded record survives the final save"
+    assert not partial.exists()

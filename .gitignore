@@ -46,3 +46,6 @@ corpus/pages/*/*
 
 # generated browsable view of the corpus (rebuilt by `lp-corpus organise`)
 library/
+
+# attrs.run checkpoints its measuring pass here; unlinked on clean finish
+corpus/attributes.partial.jsonl
