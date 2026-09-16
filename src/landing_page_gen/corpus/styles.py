@@ -60,6 +60,12 @@ def derive(attrs_mapping, existing):
         style, variant = taxonomy.family_of(rec)
         if style is None:
             continue
-        out[src] = {"style": style, "variant": variant, "confidence": round(float(rec.get("confidence") or 0), 2),
-                    "page": rec.get("page"), "slot": rec.get("slot"), "source": "rules"}
+        entry = {"style": style, "variant": variant, "confidence": round(float(rec.get("confidence") or 0), 2),
+                 "page": rec.get("page"), "slot": rec.get("slot"), "source": "rules"}
+        # A family inferred from pixels alone (chrome never answered) can be wrong:
+        # the measurer reads a black composite card as photo-full-bleed/single and
+        # mislabels it full-bleed. Flag it so retrieval and the manager distrust it.
+        if rec.get("chrome") is None:
+            entry["provisional"] = True
+        out[src] = entry
     return out

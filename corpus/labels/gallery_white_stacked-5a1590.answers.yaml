@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a book cover template with black and white portrait photos
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a book cover template with bold blue title and mesh graphic
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: black friday coupon ticket templates with 30 percent off
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a numbered four-step infographic template with coloured rings
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a project management workflow infographic with numbered bars
+  family_hint: template-mockup
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: gift coupon templates with amounts and claim line
+  family_hint: template-mockup
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: a book cover template with abstract pink and orange semicircles
+  family_hint: template-mockup
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a wedding timeline template with line icons and a dashed path
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an elementary teacher resume template with green headers
+  family_hint: template-mockup
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a student CV template with green accents and side timeline
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a blue-accent resume template for Clara Hoffield
+  family_hint: template-mockup
+  confidence: 0.7
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a quote poster template with script text and a small pink heart
+  family_hint: template-mockup
+  confidence: 0.7

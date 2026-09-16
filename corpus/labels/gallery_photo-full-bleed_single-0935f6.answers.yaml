@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a stand-up comedian performing on a club stage
+  family_hint: cinematic-still
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a flat-vector figure in a purple puffer against yellow
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a new collection ad for green sport sunglasses
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman smiling before crashing ocean waves
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a lush bouquet of pink and burgundy flowers
+  family_hint: full-bleed
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a girl unboxing colorful hair accessories
+  family_hint: full-bleed
+  confidence: 0.6
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: people wandering a meadow of giant mushrooms
+  family_hint: cinematic-still
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a close portrait of a freckled man in glasses
+  family_hint: full-bleed
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: a comic-style hero riding a motorcycle through a desert
+  family_hint: full-bleed
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person crouching among pink cherry blossoms
+  family_hint: full-bleed
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in a suit playing a trumpet labelled Blues
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: hands playing a grand piano in black and white
+  family_hint: full-bleed
+  confidence: 0.6

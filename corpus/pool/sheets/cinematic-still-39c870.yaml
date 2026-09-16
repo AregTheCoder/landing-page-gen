@@ -1,0 +1,189 @@
+sheet: cinematic-still-39c870
+family: cinematic-still
+answers: cinematic-still-39c870.answers.yaml
+anchors:
+- c3aaa9b3
+- 7fb595ef
+- d7c195e6
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-34619284
+    url: https://www.pexels.com/photo/vibrant-still-life-of-lemon-on-colorful-background-34619284/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.314
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.314
+      graphic-collage: 0.295
+    explored: null
+  2:
+    id: pexels-18896757
+    url: https://www.pexels.com/photo/man-in-black-t-shirt-with-camera-in-hands-18896757/
+    creator: Tuba Nur Dogan
+    platform: Pexels
+    score: 0.313
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.313
+      vs-two-up: 0.206
+    explored: null
+  3:
+    id: pexels-9241893
+    url: https://www.pexels.com/photo/black-and-silver-dslr-camera-9241893/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.312
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.312
+      vs-two-up: 0.275
+    explored: null
+  4:
+    id: pexels-3233275
+    url: https://www.pexels.com/photo/variety-of-spices-on-spoons-3233275/
+    creator: Anastasia Belousova
+    platform: Pexels
+    score: 0.306
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.425
+      cinematic-still: 0.306
+      full-bleed: 0.197
+    explored: null
+  5:
+    id: pexels-36091817
+    url: https://www.pexels.com/photo/colorful-blue-plastic-forks-on-textured-background-36091817/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.299
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.299
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-12501798
+    url: https://www.pexels.com/photo/photo-of-a-fresh-fruits-composition-12501798/
+    creator: Boryslav Shoot
+    platform: Pexels
+    score: 0.298
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.644
+      cinematic-still: 0.298
+      graphic-collage: 0.179
+    explored: null
+  7:
+    id: pexels-14189656
+    url: https://www.pexels.com/photo/bearded-man-looking-up-14189656/
+    creator: Furkan Salihoğlu
+    platform: Pexels
+    score: 0.298
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.298
+      graphic-collage: 0.145
+    explored: null
+  8:
+    id: pexels-5895399
+    url: https://www.pexels.com/photo/a-robot-on-wet-concrete-floor-5895399/
+    creator: Erik Mclean
+    platform: Pexels
+    score: 0.294
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.337
+      cinematic-still: 0.294
+      graphic-collage: 0.179
+    explored: null
+  9:
+    id: pexels-27302822
+    url: https://www.pexels.com/photo/blueberries-on-blue-background-27302822/
+    creator: hello aesthe
+    platform: Pexels
+    score: 0.291
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.291
+      graphic-collage: 0.258
+    explored: null
+  10:
+    id: pexels-7767796
+    url: https://www.pexels.com/photo/person-trying-to-grab-sushi-with-chopsticks-7767796/
+    creator: MART  PRODUCTION
+    platform: Pexels
+    score: 0.288
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      cinematic-still: 0.288
+      graphic-collage: 0.261
+    explored: null
+  11:
+    id: pexels-8110193
+    url: https://www.pexels.com/photo/wooden-human-figurine-and-a-half-of-an-orange-8110193/
+    creator: Karen Laårk Boshoff
+    platform: Pexels
+    score: 0.278
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.466
+      cinematic-still: 0.278
+      graphic-collage: 0.189
+    explored: null
+  12:
+    id: pexels-1170371
+    url: https://www.pexels.com/photo/variety-of-fruits-on-white-ceramic-bowl-with-gray-fork-1170371/
+    creator: Lisa Fotios
+    platform: Pexels
+    score: 0.275
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      cinematic-still: 0.275
+      graphic-collage: 0.213
+    explored: null

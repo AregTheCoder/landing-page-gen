@@ -4,11 +4,11 @@ group:
   ground: unknown
   layout: unknown
 fields:
+- art_style
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - ground
 - layout
 - panel_count

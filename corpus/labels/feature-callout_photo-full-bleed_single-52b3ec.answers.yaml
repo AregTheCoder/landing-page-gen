@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a young woman in a blue denim bucket hat
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman holding denim platform sandals in a cloudy sky with video control labels
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: [chip, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: two stacked model results a pink RELAX pool scene and an underwater woman labelled Dall-e and Midjourney
+  family_hint: vs-two-up
+  confidence: 0.5
+4:
+  chrome: [chip, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: split floral portrait with a thumbnail picker strip and logo disc below
+  family_hint: full-bleed
+  confidence: 0.4
+5:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: pink and red bouquet before a pink locker with a Before pill
+  family_hint: before-after
+  confidence: 0.75
+6:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: collage
+  description: a vision-board photo collage with a folder icon and tool tiles below
+  family_hint: template-mockup
+  confidence: 0.45
+7:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: mixed
+  description: a zebra album cover with green Heliconius typography and design tool tiles
+  family_hint: template-mockup
+  confidence: 0.6
+8:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: yellow slides on a beach with a variant thumbnail strip and a scene caption
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: cinematic still of drummers and warriors backlit at sunset
+  family_hint: cinematic-still
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a burger in a rounded frame over a coral ground
+  family_hint: graphic-collage
+  confidence: 0.4
+11:
+  chrome: [chip, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two model results labelled Seedance and Kling with metric chips on black
+  family_hint: vs-two-up
+  confidence: 0.7
+12:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two women in blue coats walking a city street labelled Seedance and Runway
+  family_hint: vs-two-up
+  confidence: 0.7

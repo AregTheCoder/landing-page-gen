@@ -1,0 +1,36 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a face serum dropper bottle on a black studio background
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a homeschooling sport banner design with running legs photo and orange type
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a couple sitting in a heart-shaped cave opening at sunset over water
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a stylised armoured knight holding a sword in dramatic lighting
+  family_hint: cinematic-still
+  confidence: 0.6

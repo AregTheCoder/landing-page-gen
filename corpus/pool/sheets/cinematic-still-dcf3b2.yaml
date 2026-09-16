@@ -1,0 +1,189 @@
+sheet: cinematic-still-dcf3b2
+family: cinematic-still
+answers: cinematic-still-dcf3b2.answers.yaml
+anchors:
+- c3aaa9b3
+- fef1b03a
+- d7c195e6
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-7918316
+    url: https://www.pexels.com/photo/yellow-guitar-pick-beside-a-toy-car-7918316/
+    creator: ROMBO
+    platform: Pexels
+    score: 0.202
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.202
+      graphic-collage: 0.168
+      full-bleed: 0.16
+    explored: null
+  2:
+    id: pexels-31769327
+    url: https://www.pexels.com/photo/toy-figure-in-misty-forest-scene-with-plants-31769327/
+    creator: 🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳
+    platform: Pexels
+    score: 0.196
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.196
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  3:
+    id: pexels-32452872
+    url: https://www.pexels.com/photo/vintage-robot-figurine-by-lace-curtain-32452872/
+    creator: bahar 𓆰
+    platform: Pexels
+    score: 0.195
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.244
+      full-bleed: 0.197
+      cinematic-still: 0.195
+    explored: null
+  4:
+    id: pexels-13831097
+    url: https://www.pexels.com/photo/bearded-man-holding-a-dslr-camera-while-smoking-13831097/
+    creator: Emre  Akyol
+    platform: Pexels
+    score: 0.19
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.19
+      dark-composite: 0.104
+    explored: null
+  5:
+    id: pexels-22608111
+    url: https://www.pexels.com/photo/chocolate-and-strawberries-on-plate-22608111/
+    creator: Jeferson santos
+    platform: Pexels
+    score: 0.18
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.426
+      cinematic-still: 0.18
+      graphic-collage: 0.179
+    explored: null
+  6:
+    id: pexels-12585536
+    url: https://www.pexels.com/photo/a-man-in-white-coat-toy-standing-beside-the-wooden-ladder-12585536/
+    creator: BOOM 💥 Photography
+    platform: Pexels
+    score: 0.177
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.718
+      cinematic-still: 0.177
+      graphic-collage: 0.147
+    explored: null
+  7:
+    id: pexels-7674930
+    url: https://www.pexels.com/photo/blue-banana-in-close-up-photography-7674930/
+    creator: Mikhail Nilov
+    platform: Pexels
+    score: 0.169
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.623
+      graphic-collage: 0.179
+      full-bleed: 0.17
+    explored: null
+  8:
+    id: pexels-7465042
+    url: https://www.pexels.com/photo/fruit-slices-balancing-on-a-line-7465042/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.161
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.644
+      cinematic-still: 0.161
+      vs-two-up: 0.132
+    explored: null
+  9:
+    id: pexels-10767568
+    url: https://www.pexels.com/photo/a-yellow-guitar-pick-10767568/
+    creator: ROMBO
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  10:
+    id: pexels-13448989
+    url: https://www.pexels.com/photo/woman-in-pink-standing-behind-a-pink-counter-13448989/
+    creator: Airam Dato-on
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      cinematic-still: 0.15
+    explored: null
+  11:
+    id: pexels-13448996
+    url: https://www.pexels.com/photo/woman-in-pink-coat-13448996/
+    creator: Airam Dato-on
+    platform: Pexels
+    score: 0.15
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.179
+      full-bleed: 0.17
+      outcome-tile: 0.159
+    explored: null
+  12:
+    id: pexels-20778523
+    url: https://www.pexels.com/photo/salad-in-bowl-20778523/
+    creator: Nadin Sh
+    platform: Pexels
+    score: 0.15
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.464
+      full-bleed: 0.197
+      cinematic-still: 0.15
+    explored: null

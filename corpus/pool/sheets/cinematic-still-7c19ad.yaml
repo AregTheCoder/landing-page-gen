@@ -1,0 +1,189 @@
+sheet: cinematic-still-7c19ad
+family: cinematic-still
+answers: cinematic-still-7c19ad.answers.yaml
+anchors:
+- f68c0108
+- c3aaa9b3
+- 4dd9f1de
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-16218836
+    url: https://www.pexels.com/photo/delorean-time-machine-flying-by-the-full-moon-on-a-shelf-16218836/
+    creator: Douglas Mendes
+    platform: Pexels
+    score: 0.474
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.559
+      cinematic-still: 0.474
+      full-bleed: 0.376
+    explored: null
+  2:
+    id: pexels-9227713
+    url: https://www.pexels.com/photo/hand-holding-cup-of-vanilla-ice-cream-9227713/
+    creator: DS stories
+    platform: Pexels
+    score: 0.474
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.474
+      graphic-collage: 0.465
+    explored: null
+  3:
+    id: pexels-39313492
+    url: https://www.pexels.com/photo/surreal-portrait-with-a-mirror-and-floral-reflection-39313492/
+    creator: Fidan Nazim qizi
+    platform: Pexels
+    score: 0.472
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.472
+      full-bleed: 0.448
+    explored: null
+  4:
+    id: pexels-714917
+    url: https://www.pexels.com/photo/macro-shot-photography-of-brown-volkswagen-van-figure-on-table-714917/
+    creator: Nubia Navarro (nubikini)
+    platform: Pexels
+    score: 0.467
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.492
+      cinematic-still: 0.467
+    explored: null
+  5:
+    id: pexels-20778521
+    url: https://www.pexels.com/photo/hands-of-a-woman-eating-meal-using-chopsticks-20778521/
+    creator: Nadin Sh
+    platform: Pexels
+    score: 0.459
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.459
+      graphic-collage: 0.211
+    explored: null
+  6:
+    id: pexels-3739452
+    url: https://www.pexels.com/photo/decoration-of-matches-in-autumn-forest-in-daylight-3739452/
+    creator: Nishant Das
+    platform: Pexels
+    score: 0.459
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.459
+      graphic-collage: 0.374
+    explored: null
+  7:
+    id: pexels-8281409
+    url: https://www.pexels.com/photo/cut-pomegranate-on-blue-background-8281409/
+    creator: Karen Laårk Boshoff
+    platform: Pexels
+    score: 0.458
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.648
+      cinematic-still: 0.458
+      graphic-collage: 0.356
+    explored: null
+  8:
+    id: pexels-8350873
+    url: https://www.pexels.com/photo/close-up-photo-of-raspberry-macaroon-8350873/
+    creator: Polina ⠀
+    platform: Pexels
+    score: 0.453
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.492
+      cinematic-still: 0.453
+      full-bleed: 0.197
+    explored: null
+  9:
+    id: pexels-8964284
+    url: https://www.pexels.com/photo/macaroons-cookies-on-blue-surface-8964284/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.453
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.621
+      cinematic-still: 0.453
+      graphic-collage: 0.406
+    explored: null
+  10:
+    id: pexels-36126809
+    url: https://www.pexels.com/photo/retro-fashion-portrait-with-pink-aesthetic-36126809/
+    creator: Rachel Brooks
+    platform: Pexels
+    score: 0.449
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.584
+      cinematic-still: 0.449
+      graphic-collage: 0.179
+    explored: null
+  11:
+    id: pexels-6346147
+    url: https://www.pexels.com/photo/coffee-and-a-donut-6346147/
+    creator: Carlie Wright
+    platform: Pexels
+    score: 0.445
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.445
+      graphic-collage: 0.436
+    explored: null
+  12:
+    id: pexels-31807951
+    url: https://www.pexels.com/photo/vibrant-macarons-in-stacked-display-31807951/
+    creator: Busenur Demirkan
+    platform: Pexels
+    score: 0.442
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.681
+      cinematic-still: 0.442
+      graphic-collage: 0.313
+    explored: null

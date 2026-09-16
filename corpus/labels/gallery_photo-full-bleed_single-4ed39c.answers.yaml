@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: varsity club education flyer with chalkboard child photo
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: bold black friday sale poster with diagonal type
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: summer travel photo collage of sea and car
+  family_hint: graphic-collage
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: illustrated character carrying giant birthday cake
+  family_hint: template-mockup
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: happy thanksgiving flat illustration with pumpkin and leaves
+  family_hint: template-mockup
+  confidence: 0.65
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: march calendar page with leaf shadow overlay
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: design flows book cover with man photo and green frame
+  family_hint: template-mockup
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: stacked travel photo collage for instagram
+  family_hint: graphic-collage
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: july recap calendar collage with taped photos
+  family_hint: graphic-collage
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: travel blog banner with photographer and doodles
+  family_hint: graphic-collage
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: alex johnson resume layout with skills columns
+  family_hint: template-mockup
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: live in green plant bookmark with photos
+  family_hint: template-mockup
+  confidence: 0.5

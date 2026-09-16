@@ -1,0 +1,7 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  description: a dark prompt card with a story prompt sentence and a white Generate button
+  family_hint: prompt-card
+  confidence: 0.75

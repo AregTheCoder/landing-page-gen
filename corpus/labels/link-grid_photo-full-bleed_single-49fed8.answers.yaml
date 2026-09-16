@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Maven Graphics business card with a sun graphic and contact numbers
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: [model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: Nano Banana 2 model showcase with floating result thumbnails on black
+  family_hint: dark-composite
+  confidence: 0.4
+3:
+  chrome: [model-logo, play-button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: Wan 2.7 model showcase with fantasy video thumbnails and play buttons on black
+  family_hint: dark-composite
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: laughing woman in a desert shown across three vertical panels
+  family_hint: full-bleed
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: laughing woman in a desert shown across three vertical panels
+  family_hint: full-bleed
+  confidence: 0.4
+6:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: orange-haired person on stacked Hazy Hair design cards with flowers
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: fiery action scene with a prompt panel generate button and chat bubbles
+  family_hint: prompt-card
+  confidence: 0.7
+8:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: food
+  art_style: mixed
+  description: pizza design in a browser window with a Make It Cheesy headline and prompt panel
+  family_hint: prompt-card
+  confidence: 0.4
+9:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: sunglasses on stacked pastel cards
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: two white sneaker panels on different backgrounds with selection handles
+  family_hint: editor-canvas
+  confidence: 0.4
+11:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: two white sneaker panels on different backgrounds with selection handles
+  family_hint: editor-canvas
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: red-lit double exposure portrait of a person
+  family_hint: full-bleed
+  confidence: 0.5

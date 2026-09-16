@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a lone figure meditating on a floating rock in a blue cosmic nebula
+  family_hint: full-bleed
+  confidence: 0.7
+2:
+  chrome: [pill, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a before-after slider on a stone bowl photo with a 50 photos pill
+  family_hint: before-after
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a vertical cosmic scene of planets and a nebula
+  family_hint: cinematic-still
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a strawberry cream cupcake cutout on a transparent checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.8
+5:
+  chrome: [tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: two AI tool tiles beside a beach umbrella clip with a play button
+  family_hint: dark-composite
+  confidence: 0.5
+6:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a motion-blurred figure in gold light with a small GIF label
+  family_hint: cinematic-still
+  confidence: 0.5
+7:
+  chrome: [mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: a social post card with a coffee cup a slogan and heart likes
+  family_hint: mockup-card
+  confidence: 0.7
+8:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a Sparkz brand card with a 3d ring render and colour swatches
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a strawberry cream cupcake set in a bright sky and grass scene
+  family_hint: full-bleed
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a strawberry cream cupcake on a coral pink gradient background
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a strawberry cream cupcake in a real flower field
+  family_hint: full-bleed
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a lone figure meditating on a floating rock in a blue cosmic nebula
+  family_hint: full-bleed
+  confidence: 0.7

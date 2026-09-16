@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: face with mirrored sunglasses and water droplets
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: comic illustration of giant pen over pink field
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: wired magazine cover with ai revolution headline
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: face with mirrored sunglasses and water droplets
+  family_hint: full-bleed
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: laughing man in red hoodie with glasses
+  family_hint: full-bleed
+  confidence: 0.85
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in glowing bioluminescent forest at night
+  family_hint: cinematic-still
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: desert highway with rock buttes and lightning
+  family_hint: full-bleed
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman reading by window with city view
+  family_hint: full-bleed
+  confidence: 0.7
+9:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: black and white hands playing electric guitar
+  family_hint: full-bleed
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: boxer dog sitting in sunflower field
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: marble statue bust with sunflower crown
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman surrounded by white fluffy toys
+  family_hint: full-bleed
+  confidence: 0.6

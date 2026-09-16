@@ -1,0 +1,12 @@
+1: {keep: false, note: whole frame blurred behind a magenta flare, subject unreadable}
+2: {keep: true, subject: person}
+3: {keep: false, note: washed-out hazy snapshot, no deliberate colour and no unified grade}
+4: {keep: false, note: large neon sign text dominates the top third}
+5: {keep: true, subject: person, note: clean red-blue split on black}
+6: {keep: true, subject: person, note: textbook teal-orange}
+7: {keep: true, subject: person, note: heavy golden haze but the grade is unified and deliberate}
+8: {keep: true, subject: person, note: magenta-blue neon swirl}
+9: {keep: true, subject: person, note: environmental night street, subject smaller than usual}
+10: {keep: true, subject: person, note: cyan window light against warm skin}
+11: {keep: true, subject: person, note: very dark teal-orange interior, subject reads on the left third}
+12: {keep: true, subject: person, note: pink fairy-light bedroom, matches ref d1102444}

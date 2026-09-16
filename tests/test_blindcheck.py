@@ -54,3 +54,21 @@ def test_clean_run_and_exit_codes(tmp_path, capsys):
     assert "blind" in capsys.readouterr().out
     assert blindcheck.main([str(make_run(tmp_path / "c"))]) == 1
     assert blindcheck.check(tmp_path / "nowhere") == ["slots.json missing"]
+
+
+def test_per_section_scope(tmp_path):
+    run = make_run(tmp_path)  # S09 leaks and carries a pointer; S03 is clean
+    s09 = blindcheck.check(run, "S09")
+    assert s09 and all(p.startswith("S09") for p in s09), "checking S09 names only S09 problems"
+    assert blindcheck.check(run, "S03") == [], "a clean section on its own is blind"
+    # a section with no folder yields nothing to flag, not a crash
+    assert blindcheck.check(run, "S99") == []
+    # per-section still uses the page-wide id set, so it catches every S09 leak
+    whole = [p for p in blindcheck.check(run) if p.startswith("S09")]
+    assert s09 == whole, "single-section result equals that section's slice of the whole run"
+
+
+def test_arg_count(tmp_path):
+    run = str(make_run(tmp_path / "a", leak=False, pointer=False))
+    assert blindcheck.main([run, "S03"]) == 0
+    assert blindcheck.main([run, "S09", "extra"]) == 2

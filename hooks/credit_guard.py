@@ -38,7 +38,7 @@ def main():
 
     rows = L.ledger_rows(run)
     model = L.model_of(tool, data.get("tool_input", {}))
-    quote = L.last_quote(rows, model)
+    quote = L.quote_for(rows, model)
     if quote is None:
         deny(f"No preflight quote for model {model!r} in this run. Call picsart_preflight "
              f"with the same model and params first.")

@@ -19,7 +19,7 @@ PER_SHEET = 12
 THUMB = 320
 COLUMNS = 4
 # what a sheet always asks for: the fields no pixel statistic can settle
-SEMANTIC = ("chrome", "text_in_image", "ui_mockup", "subject", "finish", "description",
+SEMANTIC = ("chrome", "text_in_image", "ui_mockup", "subject", "art_style", "description",
             "family_hint", "confidence")
 
 
@@ -34,15 +34,17 @@ def fields_for(rec):
     return out
 
 
-def pending(mapping, skip_resolved=False):
+def pending(mapping, skip_resolved=False, priority=None):
     """[(src, rec)] for every asset with an unanswered field, hardest first:
-    assets the measured fields alone cannot place into a family come before
-    the ones that already have a fallback answer."""
+    a run flagged its family as suspect (`priority`) comes first, then assets the
+    measured fields alone cannot place into a family, then the ones that already
+    have a fallback answer."""
+    priority = priority or set()
     out = [(src, rec) for src, rec in mapping.items()
            if any(rec.get(f) is None for f in SEMANTIC) and rec.get("local")]
     if skip_resolved:
         out = [(src, rec) for src, rec in out if taxonomy.family_of(rec)[0] is None]
-    out.sort(key=lambda kv: (taxonomy.family_of(kv[1])[0] is not None, group_key(kv[1]), kv[0]))
+    out.sort(key=lambda kv: (kv[0] not in priority, taxonomy.family_of(kv[1])[0] is not None, group_key(kv[1]), kv[0]))
     return out
 
 
@@ -69,11 +71,16 @@ def cell(src, rec):
 
 
 def build(mapping, out_dir=LABELS_DIR, per_sheet=PER_SHEET, thumb=THUMB, columns=COLUMNS,
-          limit=None, skip_resolved=False):
-    """Write the sheets and their manifests. Returns (sheets, stats)."""
+          limit=None, skip_resolved=False, priority=None):
+    """Write the sheets and their manifests. Returns (sheets, stats). When
+    `priority` is None the persistent re-label queue (run feedback) is used, so
+    a run's suspect originals are laid out first."""
+    from . import feedback
+    if priority is None:
+        priority = feedback.load_queue()
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    todo = pending(mapping, skip_resolved)
+    todo = pending(mapping, skip_resolved, priority)
     groups, order = {}, []
     for src, rec in todo:
         key = group_key(rec)
@@ -124,7 +131,7 @@ def prompt():
     lines += ["", "Style families, for family_hint only:", styles.guide(),
               "", "Write <sheet>.answers.yaml beside the sheet, one block per cell:", "",
               "```yaml", "1:", "  chrome: [tile, chip]", "  text_in_image: labels-only",
-              "  ui_mockup: none", "  subject: product", "  finish: photo",
+              "  ui_mockup: none", "  subject: product", "  art_style: photo",
               "  description: a product photo beside two tool tiles", "  family_hint: dark-composite",
               "  confidence: 0.8", "```", "",
               "Leave a cell out entirely if the thumbnail is too small to judge; do not guess."]

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman with pink hair against a checkerboard wall
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: infographic diagram explaining how sleep shapes brain function
+  family_hint: other
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a giant hamster seated at a cozy table by a fireplace
+  family_hint: full-bleed
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a giant octopus draped over an escalator in an airport
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman holding a red perfume bottle beside her face
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a vase of wilting flowers against a concrete wall with framed art
+  family_hint: full-bleed
+  confidence: 0.75
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a figure in a white bunny costume holding balloons on a car at night
+  family_hint: cinematic-still
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a laptop resting on stacked cushions by a bright window
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a stylized 3d cartoon boy character against a plain wall
+  family_hint: full-bleed
+  confidence: 0.65
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a sticker book product mockup surrounded by cute cutout stickers
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: anime-cartoon
+  description: an anime forest scene with a child walking through sunbeams
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a Livean cosmetic tube resting on a bed of fresh cherries
+  family_hint: full-bleed
+  confidence: 0.75

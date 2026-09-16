@@ -1,0 +1,12 @@
+1: {keep: true, subject: person}
+2: {keep: false, best_family: full-bleed, note: "face hidden behind camera; documentary industrial scene, but a good teal-orange sky"}
+3: {keep: true, subject: person, note: "backlit golden-hour silhouette, unified warm grade"}
+4: {keep: true, subject: person}
+5: {keep: true, subject: person, note: "same golden haze as #3 but a different pose and full figure"}
+6: {keep: true, subject: person, note: "pink-on-white monochrome, matches ref d1102444"}
+7: {keep: false, note: "flat window light, cluttered bedding; glamour snapshot, not a film still"}
+8: {keep: false, note: "near-duplicate of #7, same model and session"}
+9: {keep: true, subject: person, note: "saturated pink monochrome, clean frame"}
+10: {keep: true, subject: person, note: "red-blue neon split, strongest match on the sheet"}
+11: {keep: true, subject: person, note: "teal-orange with orange tulle, deliberate coloured light"}
+12: {keep: true, subject: person, note: "hard directional light on a saturated magenta ground"}

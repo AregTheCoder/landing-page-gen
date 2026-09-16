@@ -1,0 +1,189 @@
+sheet: cinematic-still-e2a023
+family: cinematic-still
+answers: cinematic-still-e2a023.answers.yaml
+anchors:
+- b6c42c9a
+- d179f179
+- 9bc8a759
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-31987247
+    url: https://www.pexels.com/photo/moody-portrait-of-man-with-tattoos-31987247/
+    creator: Zayn Haddad
+    platform: Pexels
+    score: 0.552
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.812
+      cinematic-still: 0.552
+      graphic-collage: 0.092
+    explored: null
+  2:
+    id: pexels-32281230
+    url: https://www.pexels.com/photo/moody-portrait-of-woman-in-dramatic-lighting-32281230/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.545
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.844
+      cinematic-still: 0.545
+      graphic-collage: 0.179
+    explored: null
+  3:
+    id: pexels-34742151
+    url: https://www.pexels.com/photo/moody-portrait-in-creative-lighting-34742151/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.543
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.651
+      cinematic-still: 0.543
+      graphic-collage: 0.179
+    explored: null
+  4:
+    id: pexels-14746505
+    url: https://www.pexels.com/photo/a-pretty-woman-wearing-pink-crop-top-14746505/
+    creator: Pryscylla Olin
+    platform: Pexels
+    score: 0.541
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      full-bleed: 0.552
+      cinematic-still: 0.541
+    explored: null
+  5:
+    id: pexels-12696400
+    url: https://www.pexels.com/photo/a-dessert-beside-a-cup-of-coffee-12696400/
+    creator: Amine
+    platform: Pexels
+    score: 0.54
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.54
+      full-bleed: 0.474
+    explored: null
+  6:
+    id: pexels-15543488
+    url: https://www.pexels.com/photo/man-wearing-a-tank-top-15543488/
+    creator: BEEYZUS بيزوس
+    platform: Pexels
+    score: 0.54
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.721
+      cinematic-still: 0.54
+      full-bleed: 0.281
+    explored: null
+  7:
+    id: pexels-9158315
+    url: https://www.pexels.com/photo/toy-mini-bus-on-a-crowded-sidewalk-9158315/
+    creator: Nubia Navarro (nubikini)
+    platform: Pexels
+    score: 0.537
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.577
+      cinematic-still: 0.537
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-18093258
+    url: https://www.pexels.com/photo/redhead-woman-sitting-on-bed-18093258/
+    creator: Raymond McClintonel
+    platform: Pexels
+    score: 0.536
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.536
+      outcome-tile: 0.398
+      graphic-collage: 0.354
+    explored: null
+  9:
+    id: pexels-17583364
+    url: https://www.pexels.com/photo/woman-resting-her-head-on-her-arms-17583364/
+    creator: Maria Luiza  Melo
+    platform: Pexels
+    score: 0.53
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.53
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-6224335
+    url: https://www.pexels.com/photo/baby-in-white-and-red-dress-sitting-on-bed-6224335/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.53
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.53
+      graphic-collage: 0.454
+    explored: null
+  11:
+    id: pexels-9811077
+    url: https://www.pexels.com/photo/portrait-of-kneeling-black-hair-man-in-coat-9811077/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.53
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.53
+      graphic-collage: 0.29
+    explored: null
+  12:
+    id: pexels-1111562
+    url: https://www.pexels.com/photo/red-and-white-bus-toy-1111562/
+    creator: lil artsy
+    platform: Pexels
+    score: 0.529
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.529
+      full-bleed: 0.494
+    explored: null

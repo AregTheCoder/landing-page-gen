@@ -1,0 +1,102 @@
+1:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a white-haired woman beside a vertical model logo picker
+  family_hint: dark-composite
+  confidence: 0.5
+2:
+  chrome: [prompt-panel, button, model-logo, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a man with a dog photo beside a prompt panel and a model list
+  family_hint: prompt-card
+  confidence: 0.65
+3:
+  chrome: [chip, tile, mockup-card]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a seated woman beside a column of caption cards and a captions icon tile
+  family_hint: dark-composite
+  confidence: 0.45
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a hand holding an iced coffee with a Barista Club script headline
+  family_hint: full-bleed
+  confidence: 0.6
+5:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: an empty black card with a Start Creating button
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: an empty black card with a Start Creating button
+  family_hint: other
+  confidence: 0.4
+7:
+  chrome: [mockup-card, button, pill]
+  text_in_image: body
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  description: a candy-shop character card with a caption and an Animate button beside the full photo
+  family_hint: prompt-card
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  description: an empty black card with a small blank panel
+  family_hint: other
+  confidence: 0.2
+9:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a mirror selfie of a woman with Image and Reference Video thumbnail insets
+  family_hint: full-bleed
+  confidence: 0.45
+10:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: photo
+  description: a giant cat and a girl scene with a cinematic prompt and Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: underwater and tropical beach scenes with a fisheye prompt and Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: 3d-render
+  description: a 3d travel vlogger character shown across panels with a prompt and Generate button
+  family_hint: prompt-card
+  confidence: 0.6

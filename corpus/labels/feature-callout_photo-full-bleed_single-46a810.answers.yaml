@@ -1,0 +1,108 @@
+1:
+  chrome: [badge, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a column of checked thumbnails beside a yellow car photo with Before and After pills
+  family_hint: before-after
+  confidence: 0.5
+2:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: painterly-illustration
+  description: painterly countryside manor variations with a prompt panel and a Generate button
+  family_hint: prompt-card
+  confidence: 0.65
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: three friends with heart and sticker overlays in a collage style
+  family_hint: graphic-collage
+  confidence: 0.55
+4:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a young man with a basketball against a pink shutter with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+5:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a grid of fashion portraits by four models with a prompt caption and detail chips
+  family_hint: vs-two-up
+  confidence: 0.45
+6:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: three mountain landscape style variants labelled Cartoon Wispy and Pastel with fx and Ai tiles
+  family_hint: other
+  confidence: 0.35
+7:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a navy cap with a red heart patch on grass with a Before pill
+  family_hint: before-after
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in a red sweater on a green armchair among flying koi on blue
+  family_hint: full-bleed
+  confidence: 0.4
+9:
+  chrome: [slider, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: object
+  art_style: photo
+  description: pink flowers with a before after slider beside a flower listing card with price and Add to bag
+  family_hint: mockup-card
+  confidence: 0.4
+10:
+  chrome: [tile, selection-handles]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: mixed
+  description: a Creative Board moodboard of numbered thumbnails with selected type and a Helvetica font tile
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two fashion portraits in sunglasses labelled Recraft V4 and Midjourney V7
+  family_hint: vs-two-up
+  confidence: 0.65
+12:
+  chrome: [tile, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a woman eating a snack with bold YUMMY typography an Ideogram logo tile and a 2K tile
+  family_hint: dark-composite
+  confidence: 0.4

@@ -4,7 +4,7 @@
 video (as a poster frame) once per CDN src: `measure` reads ground, layout,
 panel count and before/after off the pixels and writes them to
 corpus/attributes.yaml. The semantic fields (chrome, text, mockup, subject,
-finish) are answered afterwards from the labelling sheets (`sheets`,
+art_style) are answered afterwards from the labelling sheets (`sheets`,
 `labels`), so no vision API is in the loop. `taxonomy.family_of` turns a
 finished record into a style family; `apply` mirrors attributes, family and
 role fixes into the media table after every re-index."""
@@ -57,9 +57,13 @@ FIELDS = {
                   "product-card = a shop card with price or order button; browser-window; phone-frame"),
     "subject": (("person", "product", "scene", "food", "animal", "abstract", "typography", "illustration", "object", "multiple"),
                 "the main photographic subject"),
-    "finish": (("photo", "3d", "flat-illustration", "collage", "screenshot", "mixed"),
-               "photo = editorial photography; 3d = rendered; flat-illustration; collage = cutouts over shapes and brush "
-               "strokes on a flat ground; screenshot = a real product screen; mixed"),
+    "art_style": (("photo", "3d-render", "flat-vector", "painterly-illustration", "anime-cartoon", "collage",
+                   "typography", "ui-screenshot", "mixed"),
+                  "how the picture is made: photo = photographic, real or generated; 3d-render = modelled and lit CGI; "
+                  "flat-vector = flat shapes and clean outlines, no paint texture; painterly-illustration = visible "
+                  "brush, pencil or ink; anime-cartoon = cel-shaded characters; collage = cutouts and stickers pasted "
+                  "over shapes or a photo; typography = lettering is the picture; ui-screenshot = a real product screen; "
+                  "mixed = two or more of these in one image"),
     "before_after": ("boolean", "true when the image shows the same picture twice, before and after an edit"),
     "description": ("string", "one line, at most 20 words, what a designer would call this image"),
     "family_hint": (tuple(db.STYLES) + ("other",), "your best guess at the style family described below, or other"),

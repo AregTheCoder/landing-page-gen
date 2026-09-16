@@ -83,9 +83,11 @@ tests, `lp-flow templates` prints "start from a blank board" and you do.
 - **A gate on every node** and a preflight quote on every paid one, before
   the first call. `lp-flow check` before you run; the manager's `precheck.py`
   runs it again.
-- **Depth is nodes, not re-rolls**: a pass is followed by a critique and,
-  when a concrete flaw is named, an i2i `image` node fed by it and one
-  variation node, each gated (`image-workflows.md`, "Longer workflows").
+- **Depth is planned, not reactive**: the board is authored whole from the
+  family's recipe (`recipes.md`) before node 1 — a base generate, a planned
+  i2i refine, the family's edit/compose steps, a finishing enhance — every
+  planned node gated. `family:` on the board makes `lp-flow check` enforce the
+  recipe, so a lone generate does not wire.
 - **The sheet**: after the last node, `uv run lp-flow sheet workflow.yaml`
   writes `flow.md` beside it. The reviewer reads the sheet first; a person
   can rebuild the board in the Flow editor from it node by node.

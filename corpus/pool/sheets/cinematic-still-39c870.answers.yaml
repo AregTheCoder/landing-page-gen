@@ -1,0 +1,12 @@
+1: {keep: true, subject: food, note: single lemon, saturated complementary studio colour; ground is colour-blocked paper}
+2: {keep: false, best_family: full-bleed, note: documentary field portrait, muted grade, white film border}
+3: {keep: false, best_family: dark-composite, note: levitating camera and binoculars on flat dark ground, no cinematic light}
+4: {keep: false, note: top-down spice flat-lay pattern, multiple subjects}
+5: {keep: false, note: repeated-object graphic pattern, not a film still}
+6: {keep: false, best_family: full-bleed, note: busy dark table spread, no single subject}
+7: {keep: true, subject: person, note: chiaroscuro portrait, deliberate single light, unified dark grade}
+8: {keep: false, note: soft muted toy snapshot, no saturated grade}
+9: {keep: false, best_family: outcome-tile, note: top-down berry macro, mostly negative space}
+10: {keep: true, subject: food, note: hand and chopsticks on yellow seamless, bold complementary colour}
+11: {keep: true, subject: object, note: single prop on blue seamless, hard shadow, red-blue complement}
+12: {keep: true, subject: food, note: single bowl on blue seamless, saturated unified grade; top-down}

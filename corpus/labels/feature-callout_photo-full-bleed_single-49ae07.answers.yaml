@@ -1,0 +1,108 @@
+1:
+  chrome: [slider, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a column of small group photos beside a jumping woman with a before after slider and an HD tile
+  family_hint: before-after
+  confidence: 0.45
+2:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a four image grid of a woman in cat-eye sunglasses playing chess with a prompt caption and chips
+  family_hint: prompt-card
+  confidence: 0.45
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  description: capybara renders in a desert labelled Runway Gen 4 and Veo 3.1
+  family_hint: vs-two-up
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a red top on a street with black extended bars on either side
+  family_hint: full-bleed
+  confidence: 0.4
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two men in pink puffer jackets among pink lilies with a text swap tile
+  family_hint: full-bleed
+  confidence: 0.35
+6:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two street fashion videos labelled Seedance 2.5 and Kling 3.0 with reference thumbnails and a waveform
+  family_hint: vs-two-up
+  confidence: 0.6
+7:
+  chrome: [prompt-panel, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a dog headed figure in an olive hoodie with a set thumbnails card and a hoodie prompt
+  family_hint: prompt-card
+  confidence: 0.4
+8:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a red and a blue lipstick on gradient grounds with a text cutout tile
+  family_hint: full-bleed
+  confidence: 0.35
+9:
+  chrome: [chip, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: neon Slay lettering in two versions labelled Ideogram 3.0 Flash and Flux 2 Pro with tool tiles
+  family_hint: vs-two-up
+  confidence: 0.45
+10:
+  chrome: [tile, cursor]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: legs in sneakers on blue with red graphic shapes and a tap cursor tile
+  family_hint: graphic-collage
+  confidence: 0.35
+11:
+  chrome: [chip, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a hooded man playing a handpan in the rain with Audio On and 1080p chips and a waveform
+  family_hint: cinematic-still
+  confidence: 0.45
+12:
+  chrome: [badge]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: a lilac cosmetic tube on a green product stand on purple gradient with a transparency badge
+  family_hint: outcome-tile
+  confidence: 0.3

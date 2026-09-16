@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a surreal top-down cup of coffee with a tiny woman lying inside
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a dark forest scene with a pink neon frame and a bonsai
+  family_hint: cinematic-still
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a technical blueprint diagram of domestic cat anatomy with labels
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling man in headphones and a tank top under palm trees
+  family_hint: cinematic-still
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a vintage van with a surfboard on a sandy beach
+  family_hint: full-bleed
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a tabby cat wearing a pink tutu collar among monstera leaves
+  family_hint: full-bleed
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a hand holding a soft-serve ice cream cone against a red curtain
+  family_hint: full-bleed
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a glowing bioluminescent blue octopus underwater
+  family_hint: full-bleed
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in linen standing in a wildflower meadow at golden hour
+  family_hint: cinematic-still
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a DJ in sunglasses working turntables
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a chalkboard daily specials menu with prices
+  family_hint: full-bleed
+  confidence: 0.45
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a gold sequin dress on a red carpet
+  family_hint: cinematic-still
+  confidence: 0.55

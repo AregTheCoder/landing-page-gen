@@ -1,0 +1,18 @@
+1:
+  chrome: [badge, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  description: a grid of four glossy cutout flowers and rings on checkerboard tiles with check badges
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a two-by-two grid of one man in four different backgrounds
+  family_hint: other
+  confidence: 0.3

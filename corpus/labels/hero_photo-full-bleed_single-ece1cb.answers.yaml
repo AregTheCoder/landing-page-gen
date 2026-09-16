@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a flowing yellow dress among giant tulips
+  family_hint: full-bleed
+  confidence: 0.75
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a hand reaching toward a jellyfish underwater with light rays
+  family_hint: full-bleed
+  confidence: 0.65
+3:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a cinematic film montage with a Seedance model label
+  family_hint: cinematic-still
+  confidence: 0.45
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: cel-shaded illustration of a young man walking under a blue sky
+  family_hint: full-bleed
+  confidence: 0.75
+5:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: browser-window
+  subject: object
+  art_style: photo
+  description: laptop on a desk showing an Authentication Successful screen
+  family_hint: full-bleed
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: glamour beauty portrait of a woman with wavy dark hair
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a monochrome patterned dress on a city street
+  family_hint: full-bleed
+  confidence: 0.8
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: baroque painted noblewoman wearing modern sunglasses with cherubs
+  family_hint: full-bleed
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a young man in a lime tank top with pink-tinted hair
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a person in a pharaoh costume with gold headdress
+  family_hint: full-bleed
+  confidence: 0.75
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: person in a green hoodie on a green ground with a wear your vibe headline
+  family_hint: graphic-collage
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a person in a leather jacket on a rooftop
+  family_hint: full-bleed
+  confidence: 0.8

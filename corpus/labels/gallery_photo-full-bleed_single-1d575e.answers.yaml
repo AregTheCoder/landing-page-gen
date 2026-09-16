@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: travel social post over a mountain sunset with Explore Switzerland headline
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: back to school essentials flat vector post with a blue spiral logo
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: lifestyle photo grid mood board with a New Month New Me note
+  family_hint: full-bleed
+  confidence: 0.35
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: gift voucher template with a pixelated boot and fifty dollar value
+  family_hint: full-bleed
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: navy labor day event poster with a patriotic ribbon and body copy
+  family_hint: full-bleed
+  confidence: 0.35
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: november calendar template with autumn candle photo and a date grid
+  family_hint: full-bleed
+  confidence: 0.35
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: beauty social post with a portrait, orange checkerboard border and Shop Now
+  family_hint: full-bleed
+  confidence: 0.35
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: muted mountain and field landscape with a Golden Hush wordmark
+  family_hint: full-bleed
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: summer scrapbook collage of beach photos taped on sand with a note
+  family_hint: full-bleed
+  confidence: 0.35
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: travel photography guide banner with a person holding a camera
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: flash sale fashion post with two children and bold red offer text
+  family_hint: full-bleed
+  confidence: 0.35
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: vertical bookmark template in dark tones with orange chevrons and a quote
+  family_hint: full-bleed
+  confidence: 0.3

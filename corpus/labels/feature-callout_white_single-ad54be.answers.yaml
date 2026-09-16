@@ -1,0 +1,98 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: prompt panel with generate button beside red jelly renders and a sky poster
+  family_hint: prompt-card
+  confidence: 0.65
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two frames of a basketball player with a red blob added on court
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: collage of shopping video frames with tool tiles and play button
+  family_hint: template-mockup
+  confidence: 0.45
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on near-empty white
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: [tile, badge, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: column of chair product variants with a main chair and play button
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: DJ poster prompt panel with generate button beside a night shift poster
+  family_hint: prompt-card
+  confidence: 0.65
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+9:
+  chrome: [mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: language checklist and tool tiles beside a Nouvelle Collection poster
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: grid of basketball player frames with a photo tool tile
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: [adjust-panel, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: dark motion options panel with slide selected and a time slider
+  family_hint: panel-overlay
+  confidence: 0.4

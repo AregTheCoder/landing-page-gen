@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: The Pasta Club logo, red with a black line spaghetti icon
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: flat-vector
+  description: The Perez Family Is Grateful card, illustrated pie and autumn leaves
+  family_hint: template-mockup
+  confidence: 0.85
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Take Our Fashion Quiz template, blue-grey, white boots photo
+  family_hint: template-mockup
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Thanks So Much To You card, pink with green smiley faces and sparkles
+  family_hint: template-mockup
+  confidence: 0.85
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Back to School post, dark teal with white school-supply doodles
+  family_hint: template-mockup
+  confidence: 0.85
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: gift certificate, Something Special, navy with an illustrated gift box
+  family_hint: template-mockup
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Valentine card, A Love Like Six and Seven, pink with an ornate heart
+  family_hint: template-mockup
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: Valentine card, Friends Go Together, pink with two heart playing cards
+  family_hint: template-mockup
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: Learning Is Fun poster, green, student photo with school-supply doodles
+  family_hint: template-mockup
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: New Season New Look poster, blue, woman in knit sweater with white shapes
+  family_hint: template-mockup
+  confidence: 0.8
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Little Looks Best Deals poster, mint, a girl with glasses photo
+  family_hint: template-mockup
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: Lunar New Year thank-you card, green with an illustrated snake
+  family_hint: template-mockup
+  confidence: 0.8

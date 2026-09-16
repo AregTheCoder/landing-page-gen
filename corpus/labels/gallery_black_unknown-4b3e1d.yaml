@@ -4,11 +4,11 @@ group:
   ground: black
   layout: unknown
 fields:
+- art_style
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - layout
 - subject
 - text_in_image

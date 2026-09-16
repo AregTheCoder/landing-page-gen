@@ -1,0 +1,108 @@
+1:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: pink DAZZY product bottle cut out on a checkerboard with two tool tiles
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+2:
+  chrome: [chip, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: a Petalskin skincare tube on checkerboard with a Lilac silk product card and Buy button
+  family_hint: mockup-card
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: studio portrait of a young man on a grey ground
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: split garden and marmot scenes labelled Seedance and Kling with resolution chips
+  family_hint: vs-two-up
+  confidence: 0.75
+5:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked frames an athlete and women at a table labelled Veo and Sora
+  family_hint: vs-two-up
+  confidence: 0.75
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a fanned carousel of rounded image cards on a black ground
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: chocolate poured over a heart-shaped cake in a red striped cup
+  family_hint: full-bleed
+  confidence: 0.75
+8:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a green striped top on a soccer field with Imagen 4 and 4K label bars
+  family_hint: full-bleed
+  confidence: 0.4
+9:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked frames of a person eating with chopsticks marked GIF
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: [chip, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: Bloom balloon lettering compared as Recraft V4 and Midjourney V7 with support chips
+  family_hint: vs-two-up
+  confidence: 0.7
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked spaceship frames of a bearded man labelled Kling and Runway with fps chips
+  family_hint: vs-two-up
+  confidence: 0.7
+12:
+  chrome: [chip, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: two DREAM BIG balloon scenes labelled Recraft V4 and Ideogram 3.0 Flash
+  family_hint: vs-two-up
+  confidence: 0.7

@@ -157,3 +157,12 @@ open:
   - No free match for a model with a dog on an alpine meadow with oversized flowers (1794ea79); results were lifestyle, not editorial.
   - Pastel pink bob in clouds (c02d25a9) matched only partly; closest were studio shots with props.
   - Unsplash+ premium photos (plus.unsplash.com) were excluded as not covered by the free licence.
+  - >
+    Layout pass 2026-09-16 found no layout reference and wrote no layout block. The
+    arrangement (one dominant rounded render, a solid black brand-mark tile, one or two
+    micro detail crops, flush on a light-grey ground) exists on stock only as another
+    product's card or app UI.
+  - >
+    Nearest stock arrangements are all wrong. Gallery walls and moodboards are scattered
+    physical prints with mats and shadows; film strips and contact sheets are equal-size
+    grids.

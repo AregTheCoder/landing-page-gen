@@ -28,6 +28,12 @@ finds Pexels/Unsplash photos and creators that match the family's
 photography → `corpus/references/<family>.yaml` and a **References** line in
 `style-families.md`; `--pages` does the same per page. No paid calls.
 
+`/review-pool [family]`: one subagent per contact sheet keeps or drops the
+stock pool's ranked candidates (`corpus/pool/<family>.yaml`), moving a good
+photo to a better family with `best_family`, then `pool calibrate` turns the
+answers into the auto-drop threshold the next search obeys. Free-tier APIs
+only, metered in code; no paid calls.
+
 ## Run
 
 ```
@@ -40,11 +46,18 @@ uv run lp-corpus sheets [--skip-resolved]                 # assets still missing
 uv run lp-corpus labels                                   # merge every corpus/labels/*.answers.yaml (validated) into the attributes
 uv run lp-corpus taxonomy --out corpus/taxonomy           # cross-tab + contact sheets from attributes.yaml -> report.md
 uv run lp-corpus styles --from-attrs                      # derive corpus/styles.yaml from the attributes through the rule table
+uv run lp-corpus organise [--dry-run]                     # rebuild library/: a browsable hardlink tree (page dossiers; assets by model -> art_style -> structure) + a Markdown sidecar per asset
 uv run lp-corpus skeleton ai-image-generator --out runs/<run>/skeleton.md   # + slots.json
 uv run lp-corpus similar --type hero --style full-bleed --query "<headline and body>" \
     --exclude ai-image-generator --exclude-asset <8hex> -k 3 --out runs/<run>/sections/S01/examples
 uv run lp-corpus widen template-mockup [--exact] [--limit 5]  # reverse-image neighbours of the family's assets -> corpus/widened/<family>.yaml (SERPAPI_KEY or GOOGLE_VISION_API_KEY)
 uv run lp-corpus similar ... --style template-mockup --widen 2  # + two neighbours in examples/ as w<n>-widened.md, look only
+uv run lp-corpus pool search full-bleed [--pages 2] [--dry-run]  # Pexels/Unsplash/Pixabay by the family's search_terms, metered and cached, pHash-deduped vs corpus+pool, ranked -> corpus/pool/<family>.yaml (PEXELS_API_KEY, UNSPLASH_ACCESS_KEY, PIXABAY_API_KEY; a missing key skips that platform)
+uv run lp-corpus pool quota                                # how many candidates each family is owed, inversely to the corpus it already has
+uv run lp-corpus pool embed [--describe] [--refresh]       # build the CLIP cache the clip ranker reads (needs `uv sync --extra embed`)
+uv run lp-corpus pool sheets full-bleed && uv run lp-corpus pool labels  # keep/drop from contact sheets (/review-pool), like the label sheets
+uv run lp-corpus pool calibrate full-bleed --write [--family-check]  # answers -> auto-drop threshold at 95% recall + per-term keep rates
+uv run lp-corpus similar ... --style full-bleed --pool 2 --seed <run>  # + two kept licensed images as p<n>-pool.md, rotated per run
 uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
 uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
 uv run lp-flow templates --family template-mockup --device applied-mockup   # gallery templates that fit, from corpus/flow-templates.yaml
@@ -71,11 +84,25 @@ the served URL is kept on each element as `data-lp-src`.
   invariant. Written whole and `lp-flow check`ed before anything runs, every
   paid node preflighted, `flow.md` rendered after. `result.md` follows the
   output contract in the `build-landing-page` skill.
-- Corpus, stock references and widened neighbours are read for the look and
-  never wired into a node (`imageUrls`, `startFrame`, `image`).
+- Pool traffic is free-tier only and metered in code (`apiclient`/`ledger`):
+  the `hooks/` guards match `picsart_*` MCP names and cannot see an
+  `lp-corpus` HTTP call. `--dry-run` costs a sweep before it runs; a re-run
+  inside the cache TTL costs zero requests. Zero credits, zero spend.
+- Corpus assets, stock references and widened neighbours **are** read for the
+  look and curated into a worker's `examples/` exactly as the workflow rules
+  say; they are never wired into a node (`imageUrls`, `startFrame`, `image`).
+- **Previously generated media never impacts a new image.** No earlier run's
+  outputs (`runs/*/steps`, `runs/*/dist`) and nothing from Picsart Drive is
+  read as a reference *or* wired into a node — a new generation is seeded only
+  by the corpus/stock look and the run's own in-run nodes. The read half is
+  procedure: never point curation, `similar`, or a brief at `runs/*` or Drive.
+  The wire half is enforced by `hooks/isolation_guard.py` — a paid call that
+  references any URL not in the current run's `ledger.jsonl` is denied (corpus,
+  Drive, prior-run, or a `media_upload`-laundered URL); corpus is read-only so
+  it is never wired regardless.
 - Paid calls only on the `b05f6314` connector and only after a preflight.
   Inside an active run (`runs/current` exists) the `hooks/` scripts enforce
-  this, deny dry-run and over-cap calls, and log every URL to
+  this, deny dry-run, over-cap and cross-run calls, and log every URL to
   `ledger.jsonl`; outside a run the guard allows everything.
 - Roles `ui-screenshot`, `icon`, `decorative` are never generated.
 - Text inside an image is generated, but only the exact strings the

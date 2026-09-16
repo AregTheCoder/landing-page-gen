@@ -1,0 +1,90 @@
+1:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: four portrait panels of a woman in sunglasses each with a localized design word
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: [mockup-card, chip, button]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: voice generator panel with a text box, waveform and voice list beside a pilates poster
+  family_hint: mockup-card
+  confidence: 0.4
+3:
+  chrome: [mockup-card, chip, play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: voice list cards with waveform and a photo of people at a table
+  family_hint: mockup-card
+  confidence: 0.4
+4:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: a set-design card with product photo thumbnails and font chips
+  family_hint: template-mockup
+  confidence: 0.4
+5:
+  chrome: [mockup-card, swatch, button]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: mixed
+  description: a jewelry new-collection ad with color palette and font panels and a shop button
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: [mockup-card, chip, button]
+  text_in_image: body
+  ui_mockup: phone-frame
+  subject: product
+  art_style: mixed
+  description: a storyboard scene card with a product still and an upload icon
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [mockup-card, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a coffee cup with a black pattern design beside a color swatch row and a logo card
+  family_hint: template-mockup
+  confidence: 0.4
+8:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: person
+  art_style: mixed
+  description: a bold book-cover design beside a product card with price and add-to-cart button
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [mockup-card, chip, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: a social post thank-you card with a person photo and a templates chip
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: mixed
+  description: a printed t-shirt mockup beside a product card with name and price
+  family_hint: mockup-card
+  confidence: 0.5

@@ -1,0 +1,100 @@
+1:
+  chrome: [prompt-panel, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel beside a man relaxing in a leather armchair in a green field
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+2:
+  chrome: [prompt-panel, button, tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: a prompt panel beside two pink swans forming a heart shape
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+3:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an image input tile beside a perfume bottle among daisies in the rain
+  family_hint: other
+  confidence: 0.4
+  ground: black
+4:
+  chrome: [prompt-panel, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel beside a woman in sequins seated on a black horse
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+5:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  description: four expressions of a pink cartoon character in a green hoodie on cyan
+  family_hint: other
+  confidence: 0.3
+  ground: solid-colour
+6:
+  chrome: [prompt-panel, tile, pill]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  description: a swap the car prompt panel beside a red and black car before and after
+  family_hint: prompt-card
+  confidence: 0.6
+  ground: black
+7:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two street panels of a person in a red robe labelled Runway Aleph 2.0
+  family_hint: other
+  confidence: 0.35
+  ground: photo-full-bleed
+8:
+  chrome: [pill, tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman at a microphone shown before and after video enhancement with pills
+  family_hint: before-after
+  confidence: 0.75
+  ground: photo-full-bleed
+9:
+  chrome: [model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a Recraft brand tile beside a grid of athlete and portrait renders
+  family_hint: model-card
+  confidence: 0.3
+  ground: mixed
+10:
+  chrome: [model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a Recraft brand tile beside red-toned eyewear renders and a CORVI poster
+  family_hint: model-card
+  confidence: 0.3
+  ground: mixed

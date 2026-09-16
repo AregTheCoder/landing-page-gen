@@ -1,0 +1,10 @@
+1:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: one mug cutout turned into four lifestyle product scenes, arrow pointing to the grid
+  family_hint: outcome-tile
+  confidence: 0.4
+  before_after: false

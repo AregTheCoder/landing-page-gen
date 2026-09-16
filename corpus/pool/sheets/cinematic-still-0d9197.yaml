@@ -1,0 +1,189 @@
+sheet: cinematic-still-0d9197
+family: cinematic-still
+answers: cinematic-still-0d9197.answers.yaml
+anchors:
+- a509d9ab
+- d1102444
+- 4b4df875
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-12945508
+    url: https://www.pexels.com/photo/blur-portrait-of-young-woman-in-dark-12945508/
+    creator: Santiago Sauceda González
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.484
+    explored: null
+  2:
+    id: pexels-13023091
+    url: https://www.pexels.com/photo/a-woman-in-spaghetti-strap-top-13023091/
+    creator: Jean-Daniel Francoeur
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  3:
+    id: pexels-13223196
+    url: https://www.pexels.com/photo/blonde-woman-in-mountains-13223196/
+    creator: Skyler Anderson
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      graphic-collage: 0.537
+    explored: null
+  4:
+    id: pexels-13329173
+    url: https://www.pexels.com/photo/woman-in-dress-posing-in-glamour-interior-13329173/
+    creator: camila esteves
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.755
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  5:
+    id: pexels-13338091
+    url: https://www.pexels.com/photo/a-beautiful-woman-wearing-a-black-spaghetti-strap-top-13338091/
+    creator: ICXOD
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  6:
+    id: pexels-13375198
+    url: https://www.pexels.com/photo/a-woman-in-black-spaghetti-strap-top-13375198/
+    creator: Hebert  Santos
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.679
+    explored: null
+  7:
+    id: pexels-14180396
+    url: https://www.pexels.com/photo/beautiful-woman-with-sunglasses-on-head-14180396/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.346
+    explored: null
+  8:
+    id: pexels-14679285
+    url: https://www.pexels.com/photo/young-woman-in-a-pink-jacket-14679285/
+    creator: Efren Ftz
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  9:
+    id: pexels-14708213
+    url: https://www.pexels.com/photo/woman-wearing-a-crop-long-sleeve-shirt-14708213/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.33
+    explored: null
+  10:
+    id: pexels-14797330
+    url: https://www.pexels.com/photo/portrait-of-a-brunette-14797330/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.497
+    explored: null
+  11:
+    id: pexels-14850127
+    url: https://www.pexels.com/photo/woman-sitting-on-bed-in-dark-room-14850127/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.394
+    explored: null
+  12:
+    id: pexels-15098049
+    url: https://www.pexels.com/photo/brunette-talking-on-pink-shoe-phone-15098049/
+    creator: Jacob Sierra
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.423
+    explored: null

@@ -1,0 +1,144 @@
+1:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: wedding invitation template card beside a black column of tool tiles
+  family_hint: template-mockup
+  confidence: 0.85
+  ground: black
+  layout: column-main
+  panel_count: 1
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: talking head video still of two men with caption text overlays
+  family_hint: full-bleed
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+3:
+  chrome: [chip, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: photo of a man beside a comic render with a genre picker panel
+  family_hint: prompt-card
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: two-up
+  panel_count: 2
+4:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: birthday party template card with abstract shapes and a colour swatch strip
+  family_hint: template-mockup
+  confidence: 0.8
+  ground: white
+  layout: column-main
+  panel_count: 1
+5:
+  chrome: [badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: jelly dessert product photos with brand text and check badges on pink
+  family_hint: template-mockup
+  confidence: 0.4
+  ground: solid-colour
+  layout: column-main
+  panel_count: 3
+6:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: avatar portrait beside a script prompt card with a generate button
+  family_hint: prompt-card
+  confidence: 0.6
+  ground: white
+  layout: two-up
+  panel_count: 1
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fitness promo video still with a bold text overlay
+  family_hint: full-bleed
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+8:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: Japanese childrens day poster template beside black tool tiles
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: black
+  layout: column-main
+  panel_count: 1
+9:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: music festival poster template with a font tile and swatch strip
+  family_hint: template-mockup
+  confidence: 0.8
+  ground: black
+  layout: column-main
+  panel_count: 2
+10:
+  chrome: [selection-handles, size-label, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: portrait photo with a rule of thirds crop grid and a pixel size label
+  family_hint: crop-frame
+  confidence: 0.6
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 2
+11:
+  chrome: [mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: stacked profile app cards for a person over a light ground
+  family_hint: mockup-card
+  confidence: 0.7
+  ground: white
+  layout: overlay
+  panel_count: 1
+12:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: birthday poster template with a cake cutout font tiles and swatch strip
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: column-main
+  panel_count: 2

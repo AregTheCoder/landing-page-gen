@@ -95,6 +95,84 @@ def test_logger_records_urls_model_and_quote(tmp_path):
     assert "https://gcdn.picsart.com/out.png" in rows[1]["urls"]
 
 
+def edit_tool(short):
+    return f"mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__{short}"
+
+
+def test_guard_allows_flat_rate_edit_tools_without_preflight(tmp_path):
+    """remove_bg/change_bg/enhance are generate-only-unquotable flat models;
+    the guard uses their fixed price instead of demanding a preflight."""
+    run = make_run(tmp_path, run_credits=300)
+    for short in ("picsart_remove_bg", "picsart_change_bg", "picsart_enhance"):
+        call = {"tool_name": edit_tool(short), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
+        assert run_hook("credit_guard.py", call, run) is None, short
+
+
+def test_guard_counts_flat_rate_cost_against_cap(tmp_path):
+    run = make_run(tmp_path, run_credits=3)
+    call = {"tool_name": edit_tool("picsart_change_bg"), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
+    assert run_hook("credit_guard.py", call, run) is None          # 0 + 2 <= 3
+    run_hook("log_generation.py", {**call, "tool_response": {"results": [{"url": "https://gcdn.picsart.com/o.png"}]}}, run)
+    out = run_hook("credit_guard.py", call, run)                    # 2 + 2 = 4 > 3
+    assert decision(out)[0] == "deny" and "budget exceeded" in decision(out)[1]
+
+
+def test_logger_records_fixed_price_without_preflight(tmp_path):
+    run = make_run(tmp_path, run_credits=300)
+    call = {"tool_name": edit_tool("picsart_change_bg"), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
+    run_hook("log_generation.py", {**call, "tool_response": {"results": [{"url": "https://gcdn.picsart.com/o.png"}]}}, run)
+    row = json.loads((run / "ledger.jsonl").read_text().splitlines()[0])
+    assert row["tool"] == "picsart_change_bg" and row["model"] == "recraftv3-replace-bg"
+    assert row["quoted_credits"] == 2          # fixed price, no preflight row needed
+
+
+def paid_gen(params):
+    return {"tool_name": GEN, "tool_input": {"model": "seedream-4", "params": params}}
+
+
+def log_output(run, url):
+    """Log a paid generate whose response carries `url`, so it enters the run's
+    ledger as a within-run output the isolation guard will then allow."""
+    run_hook("log_generation.py", {**paid_gen({"prompt": "x"}),
+             "tool_response": {"results": [{"url": url}]}}, run)
+
+
+def test_isolation_allows_when_no_run_is_active(tmp_path):
+    call = paid_gen({"imageUrls": ["https://gcdn.picsart.com/prior.png"]})
+    assert run_hook("isolation_guard.py", call, tmp_path / "absent") is None
+
+
+def test_isolation_allows_text_only_generation(tmp_path):
+    run = make_run(tmp_path, run_credits=400)
+    assert run_hook("isolation_guard.py", paid_gen({"prompt": "a red teapot"}), run) is None
+
+
+def test_isolation_denies_foreign_url(tmp_path):
+    """A corpus / prior-run / Drive asset is not in this run's ledger."""
+    run = make_run(tmp_path, run_credits=400)
+    log_output(run, "https://gcdn.picsart.com/inrun.png")
+    call = paid_gen({"prompt": "x", "imageUrls": ["https://gcdn.picsart.com/de63706d-prior.png"]})
+    out = run_hook("isolation_guard.py", call, run)
+    assert decision(out)[0] == "deny" and "Run isolation" in decision(out)[1]
+
+
+def test_isolation_allows_in_run_output_even_as_download_variant(tmp_path):
+    run = make_run(tmp_path, run_credits=400)
+    log_output(run, "https://gcdn.picsart.com/inrun.png")
+    call = {"tool_name": edit_tool("picsart_enhance"),
+            "tool_input": {"image": "https://gcdn.picsart.com/inrun.png?download=true&x=1"}}
+    assert run_hook("isolation_guard.py", call, run) is None
+
+
+def test_isolation_denies_laundered_upload(tmp_path):
+    """media_upload is not a paid tool, so the URL it mints never enters the
+    ledger; wiring it into the next paid call is still caught here."""
+    run = make_run(tmp_path, run_credits=400)
+    call = paid_gen({"prompt": "x", "imageUrls": ["https://cdn.picsart.com/uploaded-prior.png"]})
+    out = run_hook("isolation_guard.py", call, run)
+    assert decision(out)[0] == "deny"
+
+
 def test_check_result_blocks_until_contract_is_met(tmp_path):
     run = make_run(tmp_path)
     section = run / "sections" / "S03"

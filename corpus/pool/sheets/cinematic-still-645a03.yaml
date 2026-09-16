@@ -1,0 +1,189 @@
+sheet: cinematic-still-645a03
+family: cinematic-still
+answers: cinematic-still-645a03.answers.yaml
+anchors:
+- a509d9ab
+- 4b4df875
+- f9669ed9
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-11441133
+    url: https://www.pexels.com/photo/close-up-photo-of-woman-in-black-leather-jacket-11441133/
+    creator: Abdulsalam Jarroud
+    platform: Pexels
+    score: 0.85
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.85
+      outcome-tile: 0.812
+      before-after: 0.236
+    explored: null
+  2:
+    id: pexels-31303096
+    url: https://www.pexels.com/photo/moody-portrait-with-dramatic-lighting-effects-31303096/
+    creator: Eric Moura
+    platform: Pexels
+    score: 0.85
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.85
+      outcome-tile: 0.812
+      editor-canvas: 0.312
+    explored: null
+  3:
+    id: pexels-37167778
+    url: https://www.pexels.com/photo/elegant-portrait-of-woman-with-dramatic-lighting-37167778/
+    creator: Ailín  Policano
+    platform: Pexels
+    score: 0.85
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.85
+      outcome-tile: 0.812
+      graphic-collage: 0.182
+    explored: null
+  4:
+    id: pexels-5629727
+    url: https://www.pexels.com/photo/thoughtful-woman-in-warm-jacket-in-red-light-5629727/
+    creator: tugay aydın
+    platform: Pexels
+    score: 0.85
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.85
+      outcome-tile: 0.812
+      before-after: 0.307
+    explored: null
+  5:
+    id: pexels-6045599
+    url: https://www.pexels.com/photo/young-woman-with-closed-eyes-in-room-illuminated-with-neon-light-6045599/
+    creator: Skylar Kang
+    platform: Pexels
+    score: 0.85
+    aspect_class: '9:16'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.85
+      outcome-tile: 0.812
+      graphic-collage: 0.386
+    explored: null
+  6:
+    id: pexels-22890183
+    url: https://www.pexels.com/photo/a-man-sitting-in-a-chair-in-the-dark-22890183/
+    creator: Swastik Arora
+    platform: Pexels
+    score: 0.842
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.842
+      graphic-collage: 0.144
+    explored: null
+  7:
+    id: pexels-18806381
+    url: https://www.pexels.com/photo/focused-man-sitting-by-the-cage-18806381/
+    creator: UMUT   🆁🅰🆆
+    platform: Pexels
+    score: 0.839
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.839
+      outcome-tile: 0.812
+      vs-two-up: 0.169
+    explored: null
+  8:
+    id: pexels-30713503
+    url: https://www.pexels.com/photo/artistic-portrait-surrounded-by-hands-30713503/
+    creator: Eyüpcan Timur
+    platform: Pexels
+    score: 0.821
+    aspect_class: '9:16'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.821
+      outcome-tile: 0.812
+      graphic-collage: 0.279
+    explored: null
+  9:
+    id: pexels-10645544
+    url: https://www.pexels.com/photo/portrait-of-woman-with-blue-hair-10645544/
+    creator: Романов Владимир
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  10:
+    id: pexels-10853219
+    url: https://www.pexels.com/photo/close-up-shot-of-a-woman-touching-her-hair-10853219/
+    creator: Yusuf Çelik
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  11:
+    id: pexels-11091750
+    url: https://www.pexels.com/photo/woman-in-eyeglasses-crouching-in-grain-cropland-11091750/
+    creator: Vladimir Konoplev
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.611
+    explored: null
+  12:
+    id: pexels-11728761
+    url: https://www.pexels.com/photo/portrait-of-a-brunette-11728761/
+    creator: Zeyneb Alishova
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.424
+    explored: null

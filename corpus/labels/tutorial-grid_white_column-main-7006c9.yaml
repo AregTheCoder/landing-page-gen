@@ -4,12 +4,12 @@ group:
   ground: white
   layout: column-main
 fields:
+- art_style
 - before_after
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - subject
 - text_in_image
 - ui_mockup

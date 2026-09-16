@@ -1,0 +1,102 @@
+1:
+  chrome: [prompt-panel, button, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  description: prompt panel with Generate button beside a pink cake with tiny figures
+  family_hint: prompt-card
+  confidence: 0.75
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: leather toiletry pouch on a wooden table
+  family_hint: full-bleed
+  confidence: 0.5
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: pink Start new project button on black
+  family_hint: other
+  confidence: 0.5
+4:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: Start Creating button on black
+  family_hint: other
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: canvas tote bag with a red bird logo on grass
+  family_hint: full-bleed
+  confidence: 0.45
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a man pointing up with a video timeline strip below
+  family_hint: full-bleed
+  confidence: 0.4
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cutout of a man in a red beanie on yellow beside a tool tile
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+8:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: hedgehog in a vest with a column of small labelled result cards
+  family_hint: dark-composite
+  confidence: 0.5
+9:
+  chrome: [prompt-panel, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt card with jungle adventure text beside a climbing explorer
+  family_hint: prompt-card
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: 3d-render
+  description: iridescent foil torus shape on black
+  family_hint: full-bleed
+  confidence: 0.5
+11:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  description: Add Image button on black
+  family_hint: other
+  confidence: 0.5
+12:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two panels of a silver-suited woman in a spaceship with a Download button
+  family_hint: full-bleed
+  confidence: 0.4

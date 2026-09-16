@@ -1,0 +1,108 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a pink and red bouquet on a pink locker with an After pill
+  family_hint: before-after
+  confidence: 0.6
+2:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two stacked tennis-bag frames labelled Nano Banana and Flux 2 Pro
+  family_hint: vs-two-up
+  confidence: 0.7
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black card with a sneaker and a dessert labelled Veo and Kling with duration chips
+  family_hint: vs-two-up
+  confidence: 0.7
+4:
+  chrome: [tile, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in pink glasses with a Flux model tile and cutout thumbnail column
+  family_hint: other
+  confidence: 0.35
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: two hands toasting iced coffee cups against a blue sky
+  family_hint: full-bleed
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a green Garden in the City flyer and a hand-drawn doodled weekly calendar
+  family_hint: template-mockup
+  confidence: 0.35
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a boy riding a bicycle on an autumn park path
+  family_hint: full-bleed
+  confidence: 0.75
+8:
+  chrome: [chip, model-logo, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked frames people in a car and a woman reading labelled Seedance and Kling
+  family_hint: vs-two-up
+  confidence: 0.65
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a curly-haired woman on a green ground
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: [tile, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: an illustrated man in a cap in a flower field with a photo-to-art thumbnail column
+  family_hint: other
+  confidence: 0.35
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two kids in sunglasses panels labelled Seedance and Runway with resolution chips
+  family_hint: vs-two-up
+  confidence: 0.7
+12:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a group celebrating with balloons at a party with a Before pill
+  family_hint: before-after
+  confidence: 0.5

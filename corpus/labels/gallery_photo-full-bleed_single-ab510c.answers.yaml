@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a teacher quote poster framed on a wall
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a black friday sale poster in yellow and black
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: an autumn aura skincare post with a product photo
+  family_hint: template-mockup
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a one more page bookmark with tropical fruit art
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a 1000 tales thumbnail over desert dunes
+  family_hint: template-mockup
+  confidence: 0.7
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an inspirational quote card over a flower field
+  family_hint: template-mockup
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a the deep dive album cover with a person on a road
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a this-or-that travel quiz checklist over mountains
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a study-with-me thumbnail with a reading woman and polaroids
+  family_hint: template-mockup
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a christmas card with a gingerbread house on green
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a thanksgiving dinner invitation with autumn leaves
+  family_hint: template-mockup
+  confidence: 0.7
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a tutoring center flyer with children photos
+  family_hint: template-mockup
+  confidence: 0.7

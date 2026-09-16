@@ -1,0 +1,27 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: an inventory metrics dashboard infographic with bar charts and stat callouts
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a text document page with a pink FAQ heading and paragraphs of body copy
+  family_hint: template-mockup
+  confidence: 0.35
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a teachers blog banner headline with three numbered concept circles
+  family_hint: template-mockup
+  confidence: 0.4

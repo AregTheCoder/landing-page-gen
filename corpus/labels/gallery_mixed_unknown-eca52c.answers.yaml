@@ -1,0 +1,132 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an album cover with bold lettering over a glowing orb and retro grid
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: a thank you card with an envelope illustration and a message
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a contemporary home rental brochure with interior photos and details
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: grid
+  panel_count: 4
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fall style poster with a portrait in a yellow frame
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an elegant script quote over a white peony photo
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an ATK monogram logo over a dark interior photo
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an annual conference itinerary schedule in text
+  family_hint: other
+  confidence: 0.4
+  layout: single
+  panel_count: 0
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a happiest birthday card in white type on green with a leaf shape
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 0
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a watermelon lemonade menu poster with a drink photo
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+10:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: floating Lumeri perfume bottles with water splashes
+  family_hint: full-bleed
+  confidence: 0.6
+  layout: single
+  panel_count: 1
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a colourful summer sale flyer with 3d blobs and text
+  family_hint: template-mockup
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a profile portrait of a blonde woman against deep blue
+  family_hint: cinematic-still
+  confidence: 0.5
+  layout: single
+  panel_count: 1

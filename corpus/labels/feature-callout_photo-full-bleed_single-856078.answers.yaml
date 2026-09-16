@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a the best sushi designed headline with a sushi photo and chopsticks
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: [button, chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: an ice kingdom lettering over a beach with a text input and font option chips
+  family_hint: editor-canvas
+  confidence: 0.3
+3:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: two stylized figure poster cards labelled doll and poster on pink
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a styled city portrait with a checkerboard cutout and grid overlay
+  family_hint: full-bleed
+  confidence: 0.3
+5:
+  chrome: [button, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a hair and makeup academy certificate design with an export format dropdown
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: a cozy interior with framed posters an AI Writer prompt panel and Generate button
+  family_hint: prompt-card
+  confidence: 0.6
+7:
+  chrome: [button, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a t-shirt mockup with puffy sale text on pink and a font option card
+  family_hint: template-mockup
+  confidence: 0.4
+8:
+  chrome: [tile, arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portrait panels of a woman with braids over a checkerboard cutout
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+9:
+  chrome: [button, tile]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: mixed
+  description: orange sunglasses on a super sale round sticker with an editor toolbar
+  family_hint: editor-canvas
+  confidence: 0.3
+10:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pediatrician document mockup with a font search dropdown
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a music from cartoons graphic with a vinyl record and sticker cutouts on checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.3
+12:
+  chrome: [tile, selection-handles, button]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a person die-cut sticker with a chillax expert label crown and edit handles
+  family_hint: cutout-checkerboard
+  confidence: 0.4

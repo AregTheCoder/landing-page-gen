@@ -1,0 +1,11 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a Giving Thanks greeting card with a family photo and autumn leaf border
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: single
+  panel_count: 1

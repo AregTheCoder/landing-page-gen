@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Fall Fashion To Fall For post, beige, a woman in a field photo
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: Warm Holiday Wishes card, green with a gold 3d Christmas tree
+  family_hint: template-mockup
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Process Flow infographic, purple with white swirl step numbers
+  family_hint: template-mockup
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Happy Mother's Day card, maroon with an illustrated envelope and letter
+  family_hint: template-mockup
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: surprise birthday invite, blue, circular photo of a woman with a cake
+  family_hint: template-mockup
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Take Our Fashion Quiz template, dark, a seated man photo
+  family_hint: template-mockup
+  confidence: 0.85
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Back to School poster, navy, a schoolgirl with a backpack photo
+  family_hint: template-mockup
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: Take Our Fashion Quiz template, grey-blue, a ring on cherry blossoms
+  family_hint: template-mockup
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: Take Our Fashion Quiz template, grey, rings against a cloudy sky
+  family_hint: template-mockup
+  confidence: 0.85
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Take Our Fashion Quiz template, grey, black-and-white dancing woman
+  family_hint: template-mockup
+  confidence: 0.85
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: Hello I'm Juan name-tag label with sticky-note lettering on grey paper
+  family_hint: template-mockup
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: A Little Birthday Toast card, mint, a cartoon toast character with balloons
+  family_hint: template-mockup
+  confidence: 0.85

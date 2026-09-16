@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a back to school promo template with a girl in uniform and sticker text
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a birthday card template with an oval portrait and confetti doodles
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a vision board collage of pinned lifestyle photos
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fall vibes template with a girl photo and autumn leaf graphics
+  family_hint: template-mockup
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a new menu template with a salmon dish photo
+  family_hint: template-mockup
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a hello fall photo collage template with autumn images
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a fall fashion template with a clothing rack cutout over abstract shapes
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: an etsy shop cover template with a woman photo in an oval
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a motivational quote design in bold blue lettering
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a party supplies label with script text over a pink watercolor
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a bauhaus art exhibition poster with geometric shapes and bold text
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a retouched male headshot on white
+  family_hint: full-bleed
+  confidence: 0.4

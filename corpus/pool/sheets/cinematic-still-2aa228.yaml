@@ -1,0 +1,189 @@
+sheet: cinematic-still-2aa228
+family: cinematic-still
+answers: cinematic-still-2aa228.answers.yaml
+anchors:
+- a509d9ab
+- cd6962d3
+- f9669ed9
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-7006685
+    url: https://www.pexels.com/photo/a-portrait-of-a-woman-7006685/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.393
+    explored: null
+  2:
+    id: pexels-7035209
+    url: https://www.pexels.com/photo/woman-posing-while-wearing-her-peach-suit-7035209/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.663
+    explored: null
+  3:
+    id: pexels-7194740
+    url: https://www.pexels.com/photo/expressive-bald-woman-shouting-in-studio-7194740/
+    creator: SHVETS production
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.428
+    explored: null
+  4:
+    id: pexels-7315881
+    url: https://www.pexels.com/photo/a-woman-posing-at-the-camera-7315881/
+    creator: Yan Krukau
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.72
+    explored: null
+  5:
+    id: pexels-7929745
+    url: https://www.pexels.com/photo/woman-in-green-knit-cardigan-7929745/
+    creator: Mikhail Nilov
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.626
+    explored: null
+  6:
+    id: pexels-7944904
+    url: https://www.pexels.com/photo/woman-in-orange-jacket-wearing-eyeglasses-in-blue-neon-light-7944904/
+    creator: Chris F
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      before-after: 0.713
+      full-bleed: 0.712
+    explored: null
+  7:
+    id: pexels-8262600
+    url: https://www.pexels.com/photo/woman-sitting-on-white-bed-among-clouds-8262600/
+    creator: Ron Lach
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.724
+      graphic-collage: 0.262
+    explored: null
+  8:
+    id: pexels-8635724
+    url: https://www.pexels.com/photo/woman-standing-on-sunflower-field-during-sunset-8635724/
+    creator: Breno Cardoso
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.624
+    explored: null
+  9:
+    id: pexels-8717366
+    url: https://www.pexels.com/photo/woman-in-black-tank-top-wearing-black-framed-sunglasses-8717366/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.724
+    explored: null
+  10:
+    id: pexels-8717522
+    url: https://www.pexels.com/photo/low-angle-shot-of-a-woman-wearing-sunglasses-8717522/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  11:
+    id: pexels-8718343
+    url: https://www.pexels.com/photo/a-man-in-leather-coat-looking-up-8718343/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.712
+    explored: null
+  12:
+    id: pexels-9268393
+    url: https://www.pexels.com/photo/close-up-shot-of-a-pretty-woman-in-white-off-shoulder-9268393/
+    creator: Kai Yuan
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.738
+      outcome-tile: 0.675
+    explored: null

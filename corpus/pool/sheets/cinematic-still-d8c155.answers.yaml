@@ -1,0 +1,12 @@
+1: {keep: false, note: "blown-out window; pink only on the subject; lifestyle snapshot not a graded still"}
+2: {keep: true, subject: person, note: "magenta/blue split light; unified saturated grade; clean vertical"}
+3: {keep: false, best_family: full-bleed, note: "golden hour but matte and desaturated; face turned away"}
+4: {keep: false, note: "busy photo-collage wall; flat daylight; no deliberate coloured light"}
+5: {keep: true, subject: person, note: "orange on teal seamless; textbook complementary studio colour"}
+6: {keep: false, note: "neon sign letterforms legible behind the subject; counts as text"}
+7: {keep: false, note: "near-duplicate of #9; same model/wardrobe/light from the same shoot"}
+8: {keep: false, note: "legible neon signage across the frame"}
+9: {keep: true, subject: person, note: "pink-on-pink magenta grade; closest to ref d1102444"}
+10: {keep: true, subject: person, note: "teal-orange complementary wardrobe; backdrop a touch muted"}
+11: {keep: true, subject: person, note: "orange-teal split grade; strapless top; single-subject vertical"}
+12: {keep: false, note: "near-duplicate of #11; bare-shoulder framing reads ambiguous for a product page"}

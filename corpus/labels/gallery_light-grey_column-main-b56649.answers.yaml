@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a paper note with a handwritten teacher quote and a paperclip
+  family_hint: template-mockup
+  confidence: 0.3
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a November 2025 calendar layout with a flower polaroid photo
+  family_hint: template-mockup
+  confidence: 0.3
+3:
+  chrome: [button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a friendsgiving card with illustrated food and date time place buttons
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a Fall Mood autumn photo collage with color dots
+  family_hint: template-mockup
+  confidence: 0.3
+5:
+  chrome: [button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a New Year sale card with an ornaments photo and a shop-now button
+  family_hint: template-mockup
+  confidence: 0.3
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a kids birthday invitation with cartoon party animals
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a grey card with a teacher quote in serif type
+  family_hint: template-mockup
+  confidence: 0.3
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a March 2026 calendar over a snowy mountain photo
+  family_hint: template-mockup
+  confidence: 0.3
+9:
+  chrome: [button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a fall sale skincare post with a woman portrait in an arch and an order button
+  family_hint: template-mockup
+  confidence: 0.3
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a wedding itinerary card with a timed schedule and a line-drawn couple
+  family_hint: template-mockup
+  confidence: 0.3
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a September quote card with a cherry blossom photo and a mini calendar
+  family_hint: template-mockup
+  confidence: 0.3
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a pink happy birthday card with party hats and confetti illustration
+  family_hint: template-mockup
+  confidence: 0.3

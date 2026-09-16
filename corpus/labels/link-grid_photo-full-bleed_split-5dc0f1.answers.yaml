@@ -1,0 +1,18 @@
+1:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman with butterflies split by a before and after slider
+  family_hint: before-after
+  confidence: 0.75
+2:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: an ice cream biscuit split showing original and transparent cutout with a slider
+  family_hint: before-after
+  confidence: 0.6

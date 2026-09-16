@@ -1,0 +1,189 @@
+sheet: cinematic-still-8f0a85
+family: cinematic-still
+answers: cinematic-still-8f0a85.answers.yaml
+anchors:
+- 2af4af3e
+- a509d9ab
+- 8d5b5311
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-8116981
+    url: https://www.pexels.com/photo/orange-light-on-a-woman-s-face-8116981/
+    creator: SaHni SouRav
+    platform: Pexels
+    score: 0.675
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      full-bleed: 0.695
+      cinematic-still: 0.675
+    explored: null
+  2:
+    id: pexels-17504594
+    url: https://www.pexels.com/photo/woman-silhouette-on-bed-in-pink-light-17504594/
+    creator: Jayson Hinrichsen
+    platform: Pexels
+    score: 0.674
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.674
+      full-bleed: 0.36
+    explored: null
+  3:
+    id: pexels-8089669
+    url: https://www.pexels.com/photo/bearded-man-staring-at-the-woman-8089669/
+    creator: Ron Lach
+    platform: Pexels
+    score: 0.673
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.673
+      outcome-tile: 0.319
+      graphic-collage: 0.183
+    explored: null
+  4:
+    id: pexels-9584793
+    url: https://www.pexels.com/photo/lens-flares-on-portrait-of-woman-by-river-9584793/
+    creator: Lada Rezantseva
+    platform: Pexels
+    score: 0.673
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.673
+      full-bleed: 0.547
+    explored: null
+  5:
+    id: pexels-15079027
+    url: https://www.pexels.com/photo/portrait-of-man-with-light-near-15079027/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.672
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.672
+      vs-two-up: 0.181
+    explored: null
+  6:
+    id: pexels-5543164
+    url: https://www.pexels.com/photo/man-taking-photo-with-a-camera-5543164/
+    creator: Matheus Antonio
+    platform: Pexels
+    score: 0.668
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      outcome-tile: 0.733
+      cinematic-still: 0.668
+    explored: null
+  7:
+    id: pexels-30669395
+    url: https://www.pexels.com/photo/serene-autumn-portrait-with-warm-sunlight-30669395/
+    creator: Daniel & Hannah Snipes
+    platform: Pexels
+    score: 0.667
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      full-bleed: 0.684
+      cinematic-still: 0.667
+    explored: null
+  8:
+    id: pexels-6224492
+    url: https://www.pexels.com/photo/snow-light-fashion-love-6224492/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.665
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.748
+      outcome-tile: 0.733
+      cinematic-still: 0.665
+    explored: null
+  9:
+    id: pexels-11728760
+    url: https://www.pexels.com/photo/woman-face-in-light-behind-glass-11728760/
+    creator: Zeyneb Alishova
+    platform: Pexels
+    score: 0.655
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.655
+      graphic-collage: 0.309
+    explored: null
+  10:
+    id: pexels-34460723
+    url: https://www.pexels.com/photo/dramatic-portrait-of-a-young-woman-in-natural-light-34460723/
+    creator: Alena Evseenko
+    platform: Pexels
+    score: 0.652
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.652
+      full-bleed: 0.485
+    explored: null
+  11:
+    id: pexels-1790949
+    url: https://www.pexels.com/photo/photo-of-woman-leaning-against-window-looking-outside-1790949/
+    creator: Kaique Jorge
+    platform: Pexels
+    score: 0.648
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.648
+      before-after: 0.476
+    explored: null
+  12:
+    id: pexels-15079025
+    url: https://www.pexels.com/photo/light-over-man-in-jacket-15079025/
+    creator: Atahan Demir
+    platform: Pexels
+    score: 0.646
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.646
+      full-bleed: 0.248
+    explored: null

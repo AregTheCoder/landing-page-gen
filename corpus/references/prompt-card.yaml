@@ -147,3 +147,106 @@ open:
   - No stock match for the surreal grade of 6e1c292f (magenta birds on a teal storm sky); all
     flamingo pairs are natural daylight.
   - Liquid chrome 3D type over the peonies (802fe719) is a rendered effect, not photography; not searched.
+layout:
+  arrangement: >
+    Two to four rounded panels on a black gutter. One panel is the large finished picture; the others
+    are smaller: a dark text card, an icon square, or the same subject raw or cut out. Unequal split.
+  repetition: >
+    The same subject twice in one frame: the raw snapshot and the polished result; the same lettering
+    over the photo and again on a transparency checkerboard.
+  search_terms:
+    - photo collage wall mixed sizes
+    - half renovated facade before after
+    - framed prints on black wall
+    - gallery wall large and small frames
+    - open magazine spread text and photo
+    - photobooth strip repeated frames
+    - three prints in a row on a wall
+  examples:
+    - url: https://www.pexels.com/photo/collection-of-colorful-photo-collage-on-wall-at-home-3816395/
+      image: https://images.pexels.com/photos/3816395/pexels-photo-3816395.jpeg
+      creator: Brett Sayles
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        22f9b181: rectangles of unequal size butted into one block, one large picture among smaller
+        ones, printed titles standing in for the text panel
+      differs: >
+        Picsart strips the wall, the paper edges and the printed titles; the panels become rounded
+        tiles on black with a prompt card and a Generate button
+    - url: https://www.pexels.com/photo/wooden-house-renovated-only-in-half-16690918/
+      image: https://images.pexels.com/photos/16690918/pexels-photo-16690918.jpeg
+      creator: Neriman Özaydın
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        22f9b181: one subject carried across a hard vertical divide, weathered on one side and
+        finished on the other, same framing either side
+      differs: >
+        the divide is the building itself, with no gutter; Picsart separates the two states into
+        two tiles with black between them
+    - url: https://unsplash.com/photos/a-black-wall-with-a-lot-of-different-pictures-on-it-gI-V2t2wD7Q
+      image: https://images.unsplash.com/photo-1717326086495-fced92fb7121
+      creator: Peter Herrmann
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        802fe719: bright rectangular pictures of several sizes held apart by black, the ground
+        reading as gutter rather than backdrop
+      differs: >
+        many panels, frames and wall texture; Picsart keeps three or four, rounds the corners and
+        adds an icon tile
+    - url: https://www.pexels.com/photo/pictures-on-cork-board-26892064/
+      image: https://images.pexels.com/photos/26892064/pexels-photo-26892064.jpeg
+      creator: Fiona Murray
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        802fe719: one dominant print with two smaller ones tucked below it, thin even gaps, mixed
+        panel widths in one square block
+      differs: >
+        cork texture, pins and torn edges; Picsart's gaps are black and equal and the small panels
+        carry a logo and a cut-out
+    - url: https://www.pexels.com/photo/white-book-page-on-brown-wooden-table-4063538/
+      image: https://images.pexels.com/photos/4063538/pexels-photo-4063538.jpeg
+      creator: 戴 宇扬 (Darry Young)
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        6e1c292f: two-column split with a block of type on one side and the picture on the other,
+        a clear gutter down the middle
+      differs: >
+        paper on a table, warm light, real body copy; Picsart's left column is a dark card with one
+        truncated prompt sentence and a pill button
+    - url: https://www.pexels.com/photo/frames-on-white-background-310435/
+      image: https://images.pexels.com/photos/310435/pexels-photo-310435.jpeg
+      creator: Dom J
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        22f9b181: a few unequal rectangles set on a plain ground with wide even margins, one bigger
+        than the rest; the light-grey variant of the family
+      differs: >
+        physical frames and mounts on a white wall; Picsart drops the frames and tightens the gaps
+        to a few pixels
+    - url: https://www.pexels.com/photo/flatlay-4550433/
+      image: https://images.pexels.com/photos/4550433/pexels-photo-4550433.jpeg
+      creator: cottonbro studio
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        802fe719: one motif repeated down a strip of equal frames, same framing each time, thin
+        separators between them
+      differs: >
+        monochrome print on wood, four stacked frames; Picsart repeats the subject twice only, in
+        colour, across tiles of different sizes
+    - url: https://unsplash.com/photos/three-polaroid-photographs-hanging-on-a-wall-4XTnkRfoKho
+      image: https://images.unsplash.com/photo-1676883343810-e3e4b63d8ecd
+      creator: Kristyna Squared.one
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        6e1c292f: a short row of equal rectangles with even gaps, read left to right as one set
+      differs: >
+        white print borders, tape and wall behind; Picsart's row sits on black and one member of the
+        row is a text card, not a picture

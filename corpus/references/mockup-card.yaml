@@ -144,7 +144,118 @@ prompt_guidance: >
   One person or one product in a real environment, front-on, head or product in the centre third, waist-up
   for people, 3:4. Natural daylight, natural colour, background softly blurred (park lawn and trees, or a cafe
   with warm bokeh). No text, no logos, no UI, no second subject, no props competing with the subject.
+layout:
+  arrangement: >
+    Square frame, dark gutter, two rounded panels. Narrow left column: the tall source photo with small
+    label tiles stacked below. Wider right panel: the same subject restated on a pale ground with
+    placeholder text beneath it.
+  repetition: >
+    One subject twice at two scales: the full frame on the left, then the same face or product cropped to a
+    circle or lifted onto a clean ground on the right.
+  search_terms:
+    - hand holding printed photo in front of same scene
+    - phone screen showing the object beside it
+    - product next to its packaging box beige background
+    - smartphone standing beside vase clean surface
+    - polaroid photos arranged on table
+    - framed print held against plain wall
+    - person holding photo of building
+  examples:
+    - url: https://www.pexels.com/photo/a-person-holding-a-smartphone-with-a-picture-displayed-on-the-screen-8412040/
+      image: https://images.pexels.com/photos/8412040/pexels-photo-8412040.jpeg
+      creator: Zafer Erdogan
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        7a980105: the subject twice in one frame, the raw scene plus a smaller upright rounded panel that
+        restates it, screen edge acting as the gutter.
+      differs: >
+        The panel overlaps the scene instead of sitting beside it; Picsart separates them into two columns on
+        black and strips the hand and the phone body.
+    - url: https://unsplash.com/photos/hand-holding-a-polaroid-of-a-snowy-mountain-landscape-Hiql3tVXamI
+      image: https://images.unsplash.com/photo-1777764567911-5769a7ab67ec
+      creator: Ali Kazal
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        ec67a479: the same subject presented twice, a small bordered card with a pale margin against the
+        wider frame it was taken from.
+      differs: >
+        Instant-film border and hand; Picsart replaces them with a rounded dark card, a pale product ground
+        and a drawn label row.
+    - url: https://unsplash.com/photos/person-holds-photo-of-building-lMITPabVlvY
+      image: https://images.unsplash.com/photo-1548754537-1003c36e45a3
+      creator: Pavel Nekoranec
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        7a980105: an upright rectangular print held flat against its own subject, two versions of one thing
+        at two scales in one square-ish frame.
+      differs: >
+        Print is centred and overlapping; Picsart puts photo left, card right, with a black gutter between
+        and chips under the left column.
+    - url: https://www.pexels.com/photo/6640486/
+      image: https://images.pexels.com/photos/6640486/pexels-photo-6640486.jpeg
+      creator: Karola G
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        ec67a479: one product in the frame and the same product re-framed inside an upright screen panel
+        beside it, clean indoor ground.
+      differs: >
+        Hands and the camera app's shutter row would be stripped; Picsart draws its own price chip and ORDER
+        button and cuts the product out.
+    - url: https://www.pexels.com/photo/smartphone-standing-next-to-a-minimalist-vase-with-dried-flowers-6483584/
+      image: https://images.pexels.com/photos/6483584/pexels-photo-6483584.jpeg
+      creator: Mikael Blomkvist
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        ec67a479: two upright rounded shapes side by side on a plain pale ground, a narrow screen panel
+        beside a wider object, gutter of empty ground between.
+      differs: >
+        The screen is blank and the two shapes are unrelated; Picsart shows the same subject in both and
+        moves the ground to black.
+    - url: https://www.pexels.com/photo/minimalist-beige-candle-and-box-on-sunlit-surface-30075351/
+      image: https://images.pexels.com/photos/30075351/pexels-photo-30075351.jpeg
+      creator: Tiarra Sorte
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        ec67a479: product beside its own packaging, two upright unequal blocks side by side on a pale
+        seamless ground, the right block carrying the label.
+      differs: >
+        The brand name on the box is real; Picsart uses placeholder text, a rounded card edge and a black
+        outer ground.
+    - url: https://www.pexels.com/photo/a-person-holding-white-picture-frame-5583120/
+      image: https://images.pexels.com/photos/5583120/pexels-photo-5583120.jpeg
+      creator: Polina Tankilevitch
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        7a980105: the right-hand half alone, one upright framed panel held centred on a plain neutral
+        ground with margin all round.
+      differs: >
+        Only one panel, no source photo beside it; Picsart pairs it with the left column and drops the
+        hands and the frame moulding.
+    - url: https://www.pexels.com/photo/8266758/
+      image: https://images.pexels.com/photos/8266758/pexels-photo-8266758.jpeg
+      creator: Erik Mclean
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        7a980105: a serial set of identical small rounded panels laid out on a dark surface, one framing
+        repeated across every tile.
+      differs: >
+        Scattered rather than a two-column split; Picsart keeps the repeat but aligns it to one gutter and
+        adds label tiles under the left column.
 open:
   - No Unsplash portrait with a sunlit open lawn behind the subject was free; the close matches on Unsplash+ were dropped.
   - No verified example of a takeaway cup in front of a shopfront with warm street bokeh, the exact ec67a479 backdrop.
   - Nguyễn Tiến Thịnh's and William Chen's profiles were not a fit for creators (William Chen's is mostly landscapes).
+  - Layout, no stock picture carries the family's exact square two-column split of rounded panels; the
+    closest are photo-in-photo scenes, device mockup scenes and product-beside-packaging pairs.
+  - Layout, candidates whose screen showed another product's editor or a social app (Lightroom on a tablet,
+    Instagram profiles, a live-stream overlay) were dropped as another product's UI.
+  - Layout, the best hand-held-polaroid-against-the-beach frames on Unsplash were Unsplash+ premium and were
+    dropped.

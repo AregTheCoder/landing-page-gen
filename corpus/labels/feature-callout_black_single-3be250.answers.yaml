@@ -1,0 +1,63 @@
+1:
+  chrome: [selection-handles, adjust-panel, slider, cursor]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: animal
+  art_style: photo
+  description: dog photos on an editor canvas with a grid, selection handles and an adjust panel
+  family_hint: editor-canvas
+  confidence: 0.6
+2:
+  chrome: [selection-handles, mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: mixed
+  description: a watermark logo on a checkerboard editor canvas with a surfer photo card
+  family_hint: editor-canvas
+  confidence: 0.55
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: a Ski and Snowboard schedule social post card with a snowboarder photo
+  family_hint: template-mockup
+  confidence: 0.6
+4:
+  chrome: [pill, brackets, cursor, tile]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a Sales Proposal layout with a goggled model and a sparkle element selected on canvas
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: [badge, swatch, slider, selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait split between a transparent cutout and a pink background with colour swatches
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+6:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: typography
+  art_style: flat-vector
+  description: a Creative Writing Class document template card with colored tabs and a weekly table
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  description: a three by three grid of glossy gradient app icons on black tiles
+  family_hint: other
+  confidence: 0.4

@@ -1,0 +1,45 @@
+1:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a black-ground collage of social-post template cards with designed headlines
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: [button, chip]
+  text_in_image: body
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: a product-reveal agent card with lipstick photos, store buttons and thumbnails
+  family_hint: mockup-card
+  confidence: 0.4
+3:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a two-by-two grid of try-on photos of a woman in different outfits on blue sky
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: flat-vector
+  description: a chat input bar with emoji, attach, camera and mic icons on black
+  family_hint: other
+  confidence: 0.2
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a black-ground grid of stationery and document templates including a nail salon poster and invoice
+  family_hint: template-mockup
+  confidence: 0.5

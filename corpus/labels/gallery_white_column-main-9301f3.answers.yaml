@@ -1,0 +1,120 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a green and black high-school resume template with headline name
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a wedding timeline template with line icons and times
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a numbered infographic template with coloured circles
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a wedding order-of-the-day template with line icons
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink birthday invitation template with scalloped frame
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a black and white resume template with large name heading
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a March 2026 calendar template on textured paper
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a black and white resume template for Alex Morgan
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a wedding timeline template with times and events
+  family_hint: template-mockup
+  confidence: 0.7
+  before_after: false
+10:
+  chrome: [pill]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: multiple
+  art_style: ui-screenshot
+  description: a directory list of user profile cards with pink tag pills
+  family_hint: mockup-card
+  confidence: 0.5
+  before_after: false
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a skincare serum ad with headline and shop now line
+  family_hint: template-mockup
+  confidence: 0.5
+  before_after: false
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a coffee brand ad with product tin and headline on dark
+  family_hint: template-mockup
+  confidence: 0.5
+  before_after: false

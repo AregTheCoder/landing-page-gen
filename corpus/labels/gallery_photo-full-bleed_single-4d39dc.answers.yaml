@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: autumn floral invitation card with thanksgiving dinner text
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: thanksgiving dinner invitation with scattered autumn leaves
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: travel would-you-rather template with labelled photo grid
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: fall glasses promo with woman photo and bold type
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: travel collage with cutout women over seaside photo
+  family_hint: graphic-collage
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: colorful abstract book cover titled wildflower
+  family_hint: template-mockup
+  confidence: 0.6
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: august scrapbook calendar collage with heart photos
+  family_hint: graphic-collage
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: pop-up store social collage with photo tiles and text
+  family_hint: graphic-collage
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: birthday card cutout of grandmother over pink space scene
+  family_hint: graphic-collage
+  confidence: 0.65
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: bake sale fundraiser poster with textured circle shapes
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: collage
+  description: art supplies coupon with colorful brush strokes and code
+  family_hint: graphic-collage
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: christmas menu on dark red with listed courses
+  family_hint: template-mockup
+  confidence: 0.6

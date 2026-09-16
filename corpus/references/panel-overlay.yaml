@@ -164,3 +164,114 @@ open:
   - e9c17dd8 (woman in iridescent fringe top, arms raised, high-key) not found on Pexels or Unsplash; Vika Glitter 33798239 is the nearest genre match.
   - 9caa06ad source is inferred from the Unsplash description "Girl in rainbow skirt"; not pixel-verified.
   - R. Fera, Nuta Sorokina, Max Mishin and Isabela Kronemberger profiles are mostly landscapes, monochrome, wildlife or product, so they are examples only, not genre creators.
+  - layout gap - no stock picture on either platform carries a dark rounded UI-style control panel laid over a photo; the closest free-licence arrangements are flat wall blocks and printed ad panels.
+  - layout gap - the tilted-card variant (9caa06ad and e9c17dd8, a second plain rounded card offset and rotated behind the photo) was not found as a single frame; Polina 6551894 is the nearest, with torn paper instead of a card.
+layout:
+  arrangement: >
+    One photograph fills the frame, corners rounded, and a single opaque dark rounded rectangle
+    is laid over one corner: about half the width and a third to a half of the height, anchored
+    to that edge. The subject sits in the opposite two thirds, so the rectangle covers only flat
+    backdrop and never the face. No gutter, no divider, no second picture; the hero variant swaps
+    the panel for a round badge and a pill in the upper right, and two cards set a second plain
+    rounded card offset behind the photo, rotated about ten degrees.
+  repetition: >
+    One panel design repeated over four different portraits on the same page, same size, same
+    corner radius, same title, with only the slider row changing (Hue, Saturation, Lightness).
+    The set of four cards is the asset; the photographs underneath are unrelated.
+  search_terms:
+    - portrait beside flat colour block wall
+    - woman standing next to painted wall panel
+    - man in front of geometric colour wall
+    - woman leaning on coloured door
+    - collage portrait with text block
+    - fashion advertisement billboard brand logo
+    - portrait with colour block over the frame
+  examples:
+    - url: https://unsplash.com/photos/nX1XAdwFACY
+      image: https://images.unsplash.com/photo-1629931412677-fc543fafe2b7
+      creator: Brittani Burns
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        da31e929: subject held in the left third, the rest of the frame flat hard-edged colour
+        blocks; the right side reads as the plane the panel lands on.
+      differs: >
+        The blocks are the wall itself, not laid over. Picsart puts one dark rounded panel over
+        the right half and rounds the frame corners.
+    - url: https://unsplash.com/photos/FE0dkdKNwp4
+      image: https://images.unsplash.com/photo-1719459289359-f3f4491c3be9
+      creator: Manish Bishnoi
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        0c9be8c4: one person centre-left with a large flat rectangle of a second colour filling
+        the right of the frame, at the panel's size and position.
+      differs: >
+        The red block runs the full height. Picsart's rectangle is dark, rounded, half-width and
+        anchored to the bottom edge, carrying a title and sliders.
+    - url: https://www.pexels.com/photo/portrait-of-a-woman-standing-with-her-hands-on-her-hips-10477926/
+      image: https://images.pexels.com/photos/10477926/pexels-photo-10477926.jpeg
+      creator: Hazal Celik
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        da31e929: woman at the left, one flat saturated rectangle (a blue door) holding the right
+        half, nothing else in the frame.
+      differs: >
+        Picsart's plane is dark and rounded, sits in the lower right rather than full height, and
+        carries the HSL title, eight colour chips and sliders.
+    - url: https://www.pexels.com/photo/woman-in-black-v-neck-sleeveless-dress-leaning-on-door-3023222/
+      image: https://images.pexels.com/photos/3023222/pexels-photo-3023222.jpeg
+      creator: Caleb Oquendo
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        e9c17dd8: one figure at the left edge, a tall flat teal rectangle filling the right two
+        thirds, no gutter and no second frame.
+      differs: >
+        The rectangle is textured wood and full height. Picsart's is a smooth dark panel over the
+        lower half, and the photo sits on a rotated backing card.
+    - url: https://unsplash.com/photos/V8dA0uakZKo
+      image: https://images.unsplash.com/photo-1593643798898-d5cbbb6220b2
+      creator: Adam Thomas
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        85708ef3: one person against flat colour fields, the clean rectangular blocks leaving an
+        open upper corner where the hero's badge and pill go.
+      differs: >
+        The blocks are architecture behind him. Picsart lays a white round logo badge and a white
+        pill over the upper right instead.
+    - url: https://www.pexels.com/photo/collage-of-photos-and-notes-6551894/
+      image: https://images.pexels.com/photos/6551894/pexels-photo-6551894.jpeg
+      creator: Polina
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        9caa06ad: a portrait with an opaque strip of type laid across part of it and offset paper
+        edges showing behind, the closest thing to the tilted backing card.
+      differs: >
+        Handmade tape and torn paper, monochrome. Picsart's overlay is one clean dark rounded
+        panel and the backing is a plain rotated rectangle; strip the collage text.
+    - url: https://www.pexels.com/photo/outdoor-fashion-billboard-at-night-31165586/
+      image: https://images.pexels.com/photos/31165586/pexels-photo-31165586.jpeg
+      creator: Garrison Gao
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        0c9be8c4: a lit fashion photograph with a brand block set over its empty side, a real
+        laid-over panel on a full-bleed portrait.
+      differs: >
+        Shot at an angle inside a street scene. Picsart's frame is the ad itself, head-on at 4:3;
+        strip the DKNY wordmark and the surrounding pavement.
+    - url: https://www.pexels.com/photo/grayscale-photography-of-woman-walking-near-outdoor-2840360/
+      image: https://images.pexels.com/photos/2840360/pexels-photo-2840360.jpeg
+      creator: Nam Phong Bùi
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        da31e929: a large fashion photograph with a flat text panel over one side and a walking
+        figure crossing the left of the frame.
+      differs: >
+        Black and white, and the layout is a wall behind a street rather than the slot itself.
+        Picsart wants colour, head-on, panel lower right.

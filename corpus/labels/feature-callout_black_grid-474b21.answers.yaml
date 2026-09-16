@@ -1,0 +1,35 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: two model outputs of a pink handbag labelled Seedance 2.0 and Runway Gen 4
+  family_hint: vs-two-up
+  confidence: 0.7
+2:
+  chrome: [cursor]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: a product dropper-bottle photo card on a dark editor canvas with a cursor
+  family_hint: editor-canvas
+  confidence: 0.5
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  art_style: photo
+  description: three dark tool tiles with magenta icons on black
+  family_hint: dark-composite
+  confidence: 0.4
+4:
+  chrome: [badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: four product cutouts on colored grounds each with a magenta check badge
+  family_hint: cutout-checkerboard
+  confidence: 0.6

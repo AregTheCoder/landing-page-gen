@@ -1,0 +1,1040 @@
+family: outcome-tile
+entries:
+  pexels-10215983:
+    url: https://www.pexels.com/photo/person-holding-blue-and-white-plastic-toy-car-10215983/
+    image: https://images.pexels.com/photos/10215983/pexels-photo-10215983.jpeg
+    thumb: https://images.pexels.com/photos/10215983/pexels-photo-10215983.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5630
+    height: 8445
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 000c326262c6ec6c
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.299
+    nearest:
+    - f102931f
+    - 20d3cfb3
+    - ee82a094
+    - 4dd9f1de
+    - b9273ce4
+    - d7c195e6
+    - e486cc15
+    - 83a3dd81
+    state: pending
+    family_scores:
+      outcome-tile: 0.299
+      graphic-collage: 0.145
+      full-bleed: 0.095
+    best_family: outcome-tile
+    note: top-down prop on flat pastel pink
+    moved_from: cinematic-still
+  pexels-10216078:
+    url: https://www.pexels.com/photo/pink-toy-car-on-pink-background-10216078/
+    image: https://images.pexels.com/photos/10216078/pexels-photo-10216078.jpeg
+    thumb: https://images.pexels.com/photos/10216078/pexels-photo-10216078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5630
+    height: 8445
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0cf23100c47080a0
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.324
+    nearest:
+    - '52645701'
+    - f384e59d
+    - f68c0108
+    - 4dd9f1de
+    - 61a82e28
+    - 266d0f90
+    - '47219548'
+    - c3aaa9b3
+    state: pending
+    family_scores:
+      cinematic-still: 0.416
+      outcome-tile: 0.324
+      graphic-collage: 0.179
+    best_family: cinematic-still
+    subject: product
+    note: flat pastel pink-on-pink product still, no cinematic grade or directional light
+    moved_from: cinematic-still
+  pexels-11345213:
+    url: https://www.pexels.com/photo/colorful-macaroons-on-blue-plate-11345213/
+    image: https://images.pexels.com/photos/11345213/pexels-photo-11345213.jpeg
+    thumb: https://images.pexels.com/photos/11345213/pexels-photo-11345213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daka
+    creator_url: https://www.pexels.com/@daka
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2714
+    height: 3800
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 0f7dd9d4e97b1e03
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.205
+    nearest:
+    - f68c0108
+    - 1bc36d4c
+    - 7fb595ef
+    - '47219548'
+    - fef1b03a
+    - eadc6930
+    - 6027c22c
+    - 4dd9f1de
+    state: pending
+    family_scores:
+      cinematic-still: 0.205
+      full-bleed: 0.197
+      cutout-checkerboard: 0.166
+    best_family: cinematic-still
+    subject: food
+    note: pale flat light
+    moved_from: cinematic-still
+  pexels-11345215:
+    url: https://www.pexels.com/photo/colorful-macaroons-on-blue-plate-11345215/
+    image: https://images.pexels.com/photos/11345215/pexels-photo-11345215.jpeg
+    thumb: https://images.pexels.com/photos/11345215/pexels-photo-11345215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daka
+    creator_url: https://www.pexels.com/@daka
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2464
+    height: 3449
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 1c76cdd8c9e2f87c
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.558
+    nearest:
+    - f68c0108
+    - 1bc36d4c
+    - 4dd9f1de
+    - 6027c22c
+    - fef1b03a
+    - 029c5ad4
+    - '52645701'
+    - 7fb595ef
+    state: pending
+    family_scores:
+      outcome-tile: 0.558
+      cinematic-still: 0.411
+      graphic-collage: 0.254
+    best_family: outcome-tile
+    subject: food
+    note: top-down flat-lay pattern on a pale plate, flat light, not single-subject
+    moved_from: cinematic-still
+  pexels-16014763:
+    url: https://www.pexels.com/photo/dessert-with-grapes-16014763/
+    image: https://images.pexels.com/photos/16014763/pexels-photo-16014763.jpeg
+    thumb: https://images.pexels.com/photos/16014763/pexels-photo-16014763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Fernanda  Lima
+    creator_url: https://www.pexels.com/@fernanda-lima-420898164
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3747
+    height: 5621
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 939a0e1f3f9ed7bd
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.313
+    nearest:
+    - 7fb595ef
+    - 58eb3266
+    - 1bc36d4c
+    - c3aaa9b3
+    - f68c0108
+    - 5f3494c4
+    - a5425f11
+    - '47219548'
+    state: pending
+    family_scores:
+      outcome-tile: 0.313
+      cinematic-still: 0.233
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    note: top-down board on blue, flat-lay not a film still
+    moved_from: cinematic-still
+  pexels-17056136:
+    url: https://www.pexels.com/photo/colorful-donut-on-a-blue-counter-top-17056136/
+    image: https://images.pexels.com/photos/17056136/pexels-photo-17056136.jpeg
+    thumb: https://images.pexels.com/photos/17056136/pexels-photo-17056136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Santiago Sauceda González
+    creator_url: https://www.pexels.com/@santiago-sauceda-gonzalez-3426899
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3859
+    height: 5641
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 3319a45241e1c8e5
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.561
+    nearest:
+    - f68c0108
+    - '52645701'
+    - 4dd9f1de
+    - c3aaa9b3
+    - '47219548'
+    - 1bc36d4c
+    - 13c49ee4
+    - 61a82e28
+    state: pending
+    family_scores:
+      outcome-tile: 0.561
+      cinematic-still: 0.365
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    note: top-down donut-and-straws graphic flat-lay
+    moved_from: cinematic-still
+  pexels-20318923:
+    url: https://www.pexels.com/photo/young-woman-in-pink-clothing-and-pink-makeup-lying-on-a-bed-20318923/
+    image: https://images.pexels.com/photos/20318923/pexels-photo-20318923.jpeg
+    thumb: https://images.pexels.com/photos/20318923/pexels-photo-20318923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Annika Rose
+    creator_url: https://www.pexels.com/@moodsofana
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3072
+    height: 4608
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    collected: '2026-09-16'
+    phash: 1f1f0f63cb69bcd4
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - '11337690'
+    - 029d49e5
+    - d1102444
+    - a5d87058
+    - 69d930ac
+    - 502e5e12
+    - '47219548'
+    - 000ae663
+    state: pending
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.63
+    best_family: cinematic-still
+    subject: person
+    note: pink styling under flat blown-out daylight
+    moved_from: cinematic-still
+  pexels-20778523:
+    url: https://www.pexels.com/photo/salad-in-bowl-20778523/
+    image: https://images.pexels.com/photos/20778523/pexels-photo-20778523.jpeg
+    thumb: https://images.pexels.com/photos/20778523/pexels-photo-20778523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nadin Sh
+    creator_url: https://www.pexels.com/@nadin-sh-78971847
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3165
+    height: 4224
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: c8d393aeb2b9f718
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.464
+    nearest:
+    - 7fb595ef
+    - fef1b03a
+    - c3aaa9b3
+    - 029c5ad4
+    - 1bc36d4c
+    - c3b65908
+    - 112552c5
+    - '86769613'
+    state: pending
+    family_scores:
+      outcome-tile: 0.464
+      full-bleed: 0.197
+      cinematic-still: 0.15
+    best_family: outcome-tile
+    subject: food
+    note: menu-style bowl shot
+    moved_from: cinematic-still
+  pexels-22608111:
+    url: https://www.pexels.com/photo/chocolate-and-strawberries-on-plate-22608111/
+    image: https://images.pexels.com/photos/22608111/pexels-photo-22608111.jpeg
+    thumb: https://images.pexels.com/photos/22608111/pexels-photo-22608111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jeferson santos
+    creator_url: https://www.pexels.com/@jeferson-santos-793315344
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3672
+    height: 5452
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 730518d8c83c131f
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.426
+    nearest:
+    - 1bc36d4c
+    - 13c49ee4
+    - f68c0108
+    - 69d08503
+    - a5425f11
+    - c3aaa9b3
+    - 58eb3266
+    - c3b65908
+    state: pending
+    family_scores:
+      outcome-tile: 0.426
+      cinematic-still: 0.18
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    subject: food
+    note: top-down flat-lay plate on paper
+    moved_from: cinematic-still
+  pexels-27302822:
+    url: https://www.pexels.com/photo/blueberries-on-blue-background-27302822/
+    image: https://images.pexels.com/photos/27302822/pexels-photo-27302822.jpeg
+    thumb: https://images.pexels.com/photos/27302822/pexels-photo-27302822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: hello aesthe
+    creator_url: https://www.pexels.com/@helloaesthe
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 6ddcfa3361320701
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - fef1b03a
+    - d7c195e6
+    - 4dd9f1de
+    - 92cfff35
+    - 7fb595ef
+    - 58eb3266
+    - f68c0108
+    - c242e2fd
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.291
+      graphic-collage: 0.258
+    best_family: outcome-tile
+    note: top-down berry macro
+    moved_from: cinematic-still
+  pexels-29476593:
+    url: https://www.pexels.com/photo/colorful-picnic-setup-with-hot-dog-and-fries-29476593/
+    image: https://images.pexels.com/photos/29476593/pexels-photo-29476593.jpeg
+    thumb: https://images.pexels.com/photos/29476593/pexels-photo-29476593.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alejandro Aznar
+    creator_url: https://www.pexels.com/@alejandro-aznar-155337093
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2160
+    height: 2700
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 402000600813c1e0
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.675
+    nearest:
+    - f384e59d
+    - d20378d4
+    - c3aaa9b3
+    - f68c0108
+    - 58eb3266
+    - 69d08503
+    - 6027c22c
+    - 486b5911
+    state: pending
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.597
+      graphic-collage: 0.409
+    best_family: outcome-tile
+    subject: food
+    note: multi-prop still life on teal
+    moved_from: cinematic-still
+  pexels-31807951:
+    url: https://www.pexels.com/photo/vibrant-macarons-in-stacked-display-31807951/
+    image: https://images.pexels.com/photos/31807951/pexels-photo-31807951.jpeg
+    thumb: https://images.pexels.com/photos/31807951/pexels-photo-31807951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Busenur Demirkan
+    creator_url: https://www.pexels.com/@buselliyy
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4000
+    height: 6000
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 01118484803a3c80
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.681
+    nearest:
+    - f68c0108
+    - '52645701'
+    - c3aaa9b3
+    - '11337690'
+    - 6027c22c
+    - '47219548'
+    - 58eb3266
+    - 4dd9f1de
+    state: pending
+    family_scores:
+      outcome-tile: 0.681
+      cinematic-still: 0.442
+      graphic-collage: 0.313
+    best_family: outcome-tile
+    note: multicoloured product stack
+    moved_from: cinematic-still
+  pexels-34075793:
+    url: https://www.pexels.com/photo/minimalist-pink-soup-in-white-bowl-on-blue-background-34075793/
+    image: https://images.pexels.com/photos/34075793/pexels-photo-34075793.jpeg
+    thumb: https://images.pexels.com/photos/34075793/pexels-photo-34075793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Leandro Prevideli
+    creator_url: https://www.pexels.com/@leandro-prevideli-2155901130
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4284
+    height: 5712
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 1f0f33330c787018
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.6
+    nearest:
+    - 7fb595ef
+    - 6027c22c
+    - c3aaa9b3
+    - 92cfff35
+    - ee82a094
+    - f68c0108
+    - 4dd9f1de
+    - '11337690'
+    state: pending
+    family_scores:
+      cinematic-still: 0.6
+      outcome-tile: 0.6
+      graphic-collage: 0.243
+    best_family: cinematic-still
+    subject: food
+    note: top-down flat lay; flat studio light; no cinematic grade
+    moved_from: cinematic-still
+  pexels-36326593:
+    url: https://www.pexels.com/photo/colorful-assortment-of-dehydrated-citrus-slices-36326593/
+    image: https://images.pexels.com/photos/36326593/pexels-photo-36326593.jpeg
+    thumb: https://images.pexels.com/photos/36326593/pexels-photo-36326593.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Valentin Ivantsov
+    creator_url: https://www.pexels.com/@valentin-ivantsov-2154772556
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3481
+    height: 5246
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 03036c9c512ef073
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.401
+    nearest:
+    - a5425f11
+    - c3aaa9b3
+    - 13c49ee4
+    - fef1b03a
+    - '52645701'
+    - d754cd28
+    - 4dd9f1de
+    - 3d35d534
+    state: pending
+    family_scores:
+      outcome-tile: 0.401
+      cinematic-still: 0.273
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    note: top-down graphic tray, poster-flat rather than a film still
+    moved_from: cinematic-still
+  pexels-5469265:
+    url: https://www.pexels.com/photo/gummy-worms-on-blue-studio-background-5469265/
+    image: https://images.pexels.com/photos/5469265/pexels-photo-5469265.jpeg
+    thumb: https://images.pexels.com/photos/5469265/pexels-photo-5469265.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Tankilevitch
+    creator_url: https://www.pexels.com/@polina-tankilevitch
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2000
+    height: 3000
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 64752426335bb124
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.619
+    nearest:
+    - c3aaa9b3
+    - d7c195e6
+    - 69d08503
+    - 2745748e
+    - f68c0108
+    - 61a82e28
+    - 54e9db90
+    - c3628009
+    state: pending
+    family_scores:
+      outcome-tile: 0.619
+      cinematic-still: 0.386
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    subject: food
+    note: flat-lay scatter pattern
+    moved_from: cinematic-still
+  pexels-5900884:
+    url: https://www.pexels.com/photo/close-up-shot-of-sushi-on-a-plate-5900884/
+    image: https://images.pexels.com/photos/5900884/pexels-photo-5900884.jpeg
+    thumb: https://images.pexels.com/photos/5900884/pexels-photo-5900884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: cottonbro studio
+    creator_url: https://www.pexels.com/@cottonbro
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3926
+    height: 5889
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 79cf86cdcbd0f873
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - 7fb595ef
+    - c3aaa9b3
+    - 029d49e5
+    - 69d08503
+    - b9273ce4
+    - '11337690'
+    - f68c0108
+    - 4dd9f1de
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.399
+      graphic-collage: 0.218
+    best_family: outcome-tile
+    subject: food
+    note: two cropped people
+    moved_from: cinematic-still
+  pexels-5971964:
+    url: https://www.pexels.com/photo/food-on-green-lunchbox-5971964/
+    image: https://images.pexels.com/photos/5971964/pexels-photo-5971964.jpeg
+    thumb: https://images.pexels.com/photos/5971964/pexels-photo-5971964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vanessa Loring
+    creator_url: https://www.pexels.com/@vanessa-loring
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4597
+    height: 6887
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 04304c4cd4f0f084
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.568
+    nearest:
+    - c3aaa9b3
+    - d7c195e6
+    - 58eb3266
+    - 69d08503
+    - ff00ef5d
+    - a5425f11
+    - 7fb595ef
+    - 5163d720
+    state: pending
+    family_scores:
+      outcome-tile: 0.568
+      cinematic-still: 0.215
+      graphic-collage: 0.211
+    best_family: outcome-tile
+    subject: food
+    note: small centred lunchbox on flat blue
+    moved_from: cinematic-still
+  pexels-5971966:
+    url: https://www.pexels.com/photo/food-on-green-lunchbox-5971966/
+    image: https://images.pexels.com/photos/5971966/pexels-photo-5971966.jpeg
+    thumb: https://images.pexels.com/photos/5971966/pexels-photo-5971966.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Vanessa Loring
+    creator_url: https://www.pexels.com/@vanessa-loring
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 4766
+    height: 7142
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 0c310cccb6b29633
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.638
+    nearest:
+    - 69d08503
+    - 7fb595ef
+    - c3aaa9b3
+    - d7c195e6
+    - ee82a094
+    - 6027c22c
+    - c242e2fd
+    - 58eb3266
+    state: pending
+    family_scores:
+      outcome-tile: 0.638
+      graphic-collage: 0.313
+      cinematic-still: 0.274
+    best_family: outcome-tile
+    note: top-down flat-lay of hands and lunchbox, no cinematic grade
+    moved_from: cinematic-still
+  pexels-6837624:
+    url: https://www.pexels.com/photo/burned-matchsticks-6837624/
+    image: https://images.pexels.com/photos/6837624/pexels-photo-6837624.jpeg
+    thumb: https://images.pexels.com/photos/6837624/pexels-photo-6837624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nataliya Vaitkevich
+    creator_url: https://www.pexels.com/@n-voitkevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2827
+    height: 4240
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0d2f74da63664c49
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.508
+    nearest:
+    - 719ef5dc
+    - fef1b03a
+    - d7c195e6
+    - c3aaa9b3
+    - '11337690'
+    - bb8074bd
+    - cc0a8058
+    - cd6962d3
+    state: pending
+    family_scores:
+      outcome-tile: 0.508
+      graphic-collage: 0.145
+      full-bleed: 0.095
+    best_family: outcome-tile
+    note: pastel flat-lay pattern of matchsticks
+    moved_from: cinematic-still
+  pexels-6837626:
+    url: https://www.pexels.com/photo/burnt-matchstick-surrounded-by-unburn-matchsticks-on-a-pink-surface-6837626/
+    image: https://images.pexels.com/photos/6837626/pexels-photo-6837626.jpeg
+    thumb: https://images.pexels.com/photos/6837626/pexels-photo-6837626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nataliya Vaitkevich
+    creator_url: https://www.pexels.com/@n-voitkevich
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3030
+    height: 4545
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 254a615359b90b13
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - f68c0108
+    - 719ef5dc
+    - 20d3cfb3
+    - c3aaa9b3
+    - d7c195e6
+    - 7fb595ef
+    - '11337690'
+    - 54e9db90
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.372
+      graphic-collage: 0.179
+    best_family: outcome-tile
+    subject: object
+    note: flat pastel studio macro
+    moved_from: cinematic-still
+  pexels-7630763:
+    url: https://www.pexels.com/photo/a-baguette-on-a-brick-7630763/
+    image: https://images.pexels.com/photos/7630763/pexels-photo-7630763.jpeg
+    thumb: https://images.pexels.com/photos/7630763/pexels-photo-7630763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marina Leonova
+    creator_url: https://www.pexels.com/@marina-zasorina
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2667
+    height: 4000
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0080bd4fa7f16965
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - d7c195e6
+    - 5f3494c4
+    - 6778e5bf
+    - fef1b03a
+    - 8d5b5311
+    - '84634617'
+    - 58eb3266
+    - ff00ef5d
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.504
+      graphic-collage: 0.425
+    best_family: outcome-tile
+    subject: food
+    note: bare beige still life, no coloured light or saturated grade
+    moved_from: cinematic-still
+  pexels-7674929:
+    url: https://www.pexels.com/photo/fruits-on-yellow-surface-7674929/
+    image: https://images.pexels.com/photos/7674929/pexels-photo-7674929.jpeg
+    thumb: https://images.pexels.com/photos/7674929/pexels-photo-7674929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mikhail Nilov
+    creator_url: https://www.pexels.com/@mikhail-nilov
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 2624
+    height: 3936
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 3dcfdeacedf9b3cf
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.733
+    nearest:
+    - c3aaa9b3
+    - 54e9db90
+    - d7c195e6
+    - cc0a8058
+    - f102931f
+    - 021fefec
+    - 20d3cfb3
+    - cb7071d2
+    state: pending
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.145
+      cinematic-still: 0.129
+    best_family: outcome-tile
+    note: top-down scatter of five bananas
+    moved_from: cinematic-still
+  pexels-8350873:
+    url: https://www.pexels.com/photo/close-up-photo-of-raspberry-macaroon-8350873/
+    image: https://images.pexels.com/photos/8350873/pexels-photo-8350873.jpeg
+    thumb: https://images.pexels.com/photos/8350873/pexels-photo-8350873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina ⠀
+    creator_url: https://www.pexels.com/@polina-kovaleva
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3323
+    height: 4425
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: 7e2f038838060000
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.492
+    nearest:
+    - f68c0108
+    - fef1b03a
+    - 1bc36d4c
+    - cc0a8058
+    - d20378d4
+    - 3496c786
+    - 32af4b15
+    - 4dd9f1de
+    state: pending
+    family_scores:
+      outcome-tile: 0.492
+      cinematic-still: 0.453
+      full-bleed: 0.197
+    best_family: outcome-tile
+    note: flat-lit product macro on graphic tricolour ground
+    moved_from: cinematic-still
+  pexels-9227762:
+    url: https://www.pexels.com/photo/a-person-holding-an-ice-cream-cone-9227762/
+    image: https://images.pexels.com/photos/9227762/pexels-photo-9227762.jpeg
+    thumb: https://images.pexels.com/photos/9227762/pexels-photo-9227762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: DS stories
+    creator_url: https://www.pexels.com/@ds-stories
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 5264
+    height: 7896
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    collected: '2026-09-16'
+    phash: dfefdf93d9daeea9
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.658
+    nearest:
+    - f68c0108
+    - d20378d4
+    - c3aaa9b3
+    - 6027c22c
+    - 69d08503
+    - 1bc36d4c
+    - '11337690'
+    - 92cfff35
+    state: pending
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.6
+      graphic-collage: 0.449
+    best_family: outcome-tile
+    subject: food
+    note: flat pastel studio product shot
+    moved_from: cinematic-still
+  pexels-9241895:
+    url: https://www.pexels.com/photo/pipe-box-and-petals-flying-9241895/
+    image: https://images.pexels.com/photos/9241895/pexels-photo-9241895.jpeg
+    thumb: https://images.pexels.com/photos/9241895/pexels-photo-9241895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: JJ Jordan
+    creator_url: https://www.pexels.com/@jj-jordan-44924743
+    platform: Pexels
+    licence: pexels
+    attribution_required: false
+    tier: pool
+    width: 3739
+    height: 4674
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    collected: '2026-09-16'
+    phash: 0f0f1d0b171d1337
+    ranker: clip
+    searched_family: cinematic-still
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.659
+    nearest:
+    - '52623855'
+    - 2b0f659c
+    - ca787233
+    - ad02dfe3
+    - fef1b03a
+    - 266d0f90
+    - 92cfff35
+    - c3aaa9b3
+    state: pending
+    family_scores:
+      outcome-tile: 0.659
+      cinematic-still: 0.322
+      full-bleed: 0.16
+    best_family: outcome-tile
+    subject: object
+    note: levitating props on flat grey
+    moved_from: cinematic-still

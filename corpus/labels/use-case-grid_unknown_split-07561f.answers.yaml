@@ -1,0 +1,132 @@
+1:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: a dark prompt panel with Generate button beside a glowing shooting star landscape
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+  before_after: false
+2:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: a prompt panel beside travel vlog covers reading explore the world
+  family_hint: prompt-card
+  confidence: 0.75
+  ground: black
+  before_after: false
+3:
+  chrome: [pill, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a beach scene shown before and after upscaling with before and after pills
+  family_hint: before-after
+  confidence: 0.6
+  ground: photo-full-bleed
+  before_after: true
+4:
+  chrome: [prompt-panel, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: illustration
+  art_style: flat-vector
+  description: a dark audio track panel beside a flat illustration of coffee cups and moka pot
+  family_hint: prompt-card
+  confidence: 0.7
+  ground: black
+  before_after: false
+5:
+  chrome: [prompt-panel, tile, model-logo]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: a logo prompt panel beside a grid of four generated brand logos
+  family_hint: prompt-card
+  confidence: 0.75
+  ground: black
+  before_after: false
+6:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: mixed
+  description: a prompt panel beside a summer coastal poster with Arabic lettering
+  family_hint: prompt-card
+  confidence: 0.75
+  ground: black
+  before_after: false
+7:
+  chrome: [prompt-panel, button, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  description: a prompt panel beside a cinematic garden pavilion scene with iridescent bubbles
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+  before_after: false
+8:
+  chrome: [prompt-panel, chip, tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: 3d-render
+  description: a prompt panel with Audio On chip beside a needle-felted boy and puppy
+  family_hint: prompt-card
+  confidence: 0.75
+  ground: black
+  before_after: false
+9:
+  chrome: [pill, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a green top shown before and after enhancement with pills
+  family_hint: before-after
+  confidence: 0.75
+  ground: photo-full-bleed
+  before_after: true
+10:
+  chrome: [tile, play-button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman clip with flip and download tiles beside a flipped version reading Life is good
+  family_hint: other
+  confidence: 0.4
+  ground: mixed
+  before_after: true
+11:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt panel beside a photo of tortoiseshell eyeglasses floating
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: black
+  before_after: false
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: image and music tiles beside a grid of frames of a man in an orange beanie
+  family_hint: other
+  confidence: 0.4
+  ground: mixed
+  before_after: false

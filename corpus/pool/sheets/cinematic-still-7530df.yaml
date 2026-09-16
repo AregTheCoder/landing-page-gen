@@ -1,0 +1,189 @@
+sheet: cinematic-still-7530df
+family: cinematic-still
+answers: cinematic-still-7530df.answers.yaml
+anchors:
+- d7c195e6
+- 6027c22c
+- f68c0108
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-11320134
+    url: https://www.pexels.com/photo/woman-in-leather-jacket-posing-in-red-light-11320134/
+    creator: Hebert  Santos
+    platform: Pexels
+    score: 0.44
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.44
+      graphic-collage: 0.223
+    explored: null
+  2:
+    id: pexels-9928411
+    url: https://www.pexels.com/photo/young-man-filming-with-a-retro-camcorder-9928411/
+    creator: ph.galtri
+    platform: Pexels
+    score: 0.439
+    aspect_class: '4:5'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.576
+      cinematic-still: 0.439
+      graphic-collage: 0.21
+    explored: null
+  3:
+    id: pexels-9100222
+    url: https://www.pexels.com/photo/man-in-a-dark-9100222/
+    creator: Klaudia Rak
+    platform: Pexels
+    score: 0.436
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.666
+      cinematic-still: 0.436
+      graphic-collage: 0.179
+    explored: null
+  4:
+    id: pexels-3709097
+    url: https://www.pexels.com/photo/person-holding-yellow-and-black-school-bus-toy-3709097/
+    creator: lil artsy
+    platform: Pexels
+    score: 0.435
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.435
+      graphic-collage: 0.393
+    explored: null
+  5:
+    id: pexels-8093443
+    url: https://www.pexels.com/photo/photo-of-assorted-berries-on-cones-8093443/
+    creator: Kindel Media
+    platform: Pexels
+    score: 0.434
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.587
+      cinematic-still: 0.434
+      cutout-checkerboard: 0.275
+    explored: null
+  6:
+    id: pexels-9811075
+    url: https://www.pexels.com/photo/a-woman-in-turtle-neck-shirt-smiling-9811075/
+    creator: Daria Nekipelova
+    platform: Pexels
+    score: 0.434
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.434
+      graphic-collage: 0.251
+    explored: null
+  7:
+    id: pexels-16537552
+    url: https://www.pexels.com/photo/young-blonde-woman-posing-in-neon-light-16537552/
+    creator: Fireberrytech .
+    platform: Pexels
+    score: 0.431
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.431
+      outcome-tile: 0.431
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-14782258
+    url: https://www.pexels.com/photo/chocolate-cookies-on-blue-background-14782258/
+    creator: Paul Uchechukwu 🇳🇬
+    platform: Pexels
+    score: 0.429
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.429
+      full-bleed: 0.286
+    explored: null
+  9:
+    id: pexels-16218837
+    url: https://www.pexels.com/photo/flying-delorean-time-machine-from-back-to-the-future-next-to-a-full-moon-lamp-16218837/
+    creator: Douglas Mendes
+    platform: Pexels
+    score: 0.428
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.428
+      outcome-tile: 0.35
+      full-bleed: 0.249
+    explored: null
+  10:
+    id: pexels-4835500
+    url: https://www.pexels.com/photo/blue-and-white-snake-on-brown-rock-4835500/
+    creator: raul romagnoli
+    platform: Pexels
+    score: 0.427
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.427
+      outcome-tile: 0.349
+      graphic-collage: 0.179
+    explored: null
+  11:
+    id: pexels-7767787
+    url: https://www.pexels.com/photo/person-holding-a-piece-of-sushi-horizontally-7767787/
+    creator: MART  PRODUCTION
+    platform: Pexels
+    score: 0.426
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.496
+      cinematic-still: 0.426
+    explored: null
+  12:
+    id: pexels-36303740
+    url: https://www.pexels.com/photo/freshly-peeled-orange-against-blue-background-36303740/
+    creator: Mirа Fialkova
+    platform: Pexels
+    score: 0.422
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.422
+      full-bleed: 0.197
+    explored: null

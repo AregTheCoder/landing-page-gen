@@ -1,0 +1,36 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: autumn forest photo beside an October 2025 calendar template
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: Warmest Christmas greeting card with a beaded red tree illustration
+  family_hint: template-mockup
+  confidence: 0.85
+3:
+  chrome: [button]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Calm Practice paint-class promo card with a woman at an easel
+  family_hint: template-mockup
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: Tommy's Camera Reviews YouTube banner with a man holding cameras
+  family_hint: template-mockup
+  confidence: 0.8

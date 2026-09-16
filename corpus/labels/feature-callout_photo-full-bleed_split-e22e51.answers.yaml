@@ -1,0 +1,120 @@
+1:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: cutout portraits on checkerboard beside an outfit-of-the-day flat lay with headline
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+2:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two colorful makeup portraits compared across Ideogram and Flux pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+3:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: collage of edited portraits with fresh fits headlines checkerboard cutout and icon tiles
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: grid of generated art styles airship cubist face and cyberpunk scene with an AI tile
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+5:
+  chrome: [tile, play-button, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: magenta brand tile and person cutout beside a man walking through a flower arch
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+6:
+  chrome: [chip, model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: three stacked reference image cards beside a woman at a chessboard with WAN pill
+  family_hint: other
+  confidence: 0.35
+  before_after: false
+7:
+  chrome: [prompt-panel, button, slider]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: dark prompt panel with Generate button beside a Bold Visions magazine cover
+  family_hint: prompt-card
+  confidence: 0.7
+  before_after: false
+8:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: prompt panel with Generate button beside a juni handbag in-stock poster
+  family_hint: prompt-card
+  confidence: 0.7
+  before_after: false
+9:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man flying over a city shown twice compared across Ideogram and Flux pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+10:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: collage portrait with brush strokes beside a woman with an it's party time headline
+  family_hint: graphic-collage
+  confidence: 0.4
+  before_after: false
+11:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: woman with a bike shown in photo anime and illustration styles with a GPT Image 1 tile
+  family_hint: model-card
+  confidence: 0.4
+  before_after: false
+12:
+  chrome: [tile, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: cupcake cutout on checkerboard beside a background changer panel with color and background swatches
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  before_after: false

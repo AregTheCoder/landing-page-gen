@@ -4,12 +4,12 @@ group:
   ground: unknown
   layout: split
 fields:
+- art_style
 - before_after
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - ground
 - subject
 - text_in_image

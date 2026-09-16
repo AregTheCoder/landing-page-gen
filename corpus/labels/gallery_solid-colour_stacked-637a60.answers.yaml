@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Thanksgiving card, The Davis Family Gives Thanks, plaid with a pilgrim hat
+  family_hint: template-mockup
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: magazine-style wallpaper collage of cutout people with stars
+  family_hint: template-mockup
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: Hello My Name Is name-badge label design in pink
+  family_hint: template-mockup
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: Take Our Fashion Quiz template, brown, a backpack photo
+  family_hint: template-mockup
+  confidence: 0.85
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: Take Our Fashion Quiz template, teal, gold rings photo
+  family_hint: template-mockup
+  confidence: 0.85
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: quote poster, exams test your preparation, over a blue bubble background
+  family_hint: template-mockup
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: Holiday Bingo card, dark green with a red gift and a text grid
+  family_hint: template-mockup
+  confidence: 0.8
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Back to School Again poster, yellow with doodles and a starburst
+  family_hint: template-mockup
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: Manage Your Anxiety pink infographic list with icon pills
+  family_hint: template-mockup
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: album cover, the dutch elevator, pink with a blue and white illustration
+  family_hint: template-mockup
+  confidence: 0.75
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: SWOT Analysis hand-drawn infographic on yellow
+  family_hint: template-mockup
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: Every Gift Tells a Story bookmark with a toy car carrying gifts
+  family_hint: template-mockup
+  confidence: 0.8

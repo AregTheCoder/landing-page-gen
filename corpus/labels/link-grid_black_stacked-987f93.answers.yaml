@@ -1,0 +1,96 @@
+1:
+  chrome: [model-logo, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  description: large landscape render of a woman under a tree, model logo and three crop chips below
+  family_hint: model-card
+  confidence: 0.8
+2:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two portraits of a woman in sunglasses side by side, VS badge, two model pills below
+  family_hint: vs-two-up
+  confidence: 0.9
+3:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman holding a red flower balloon, VS badge, GPT and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.9
+4:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman with a red flower balloon, VS badge, GPT and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.9
+5:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman eating a burger, VS badge, Dall-e 3 and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.9
+6:
+  chrome: [model-logo, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  description: single portrait of a woman in sunglasses with a model logo and prompt caption bar below
+  family_hint: model-card
+  confidence: 0.6
+7:
+  chrome: [model-logo, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  description: portrait of a woman in pink sunglasses with heart graphics, model logo and prompt caption below
+  family_hint: model-card
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: scene
+  description: leaning tower of Pisa with "summer in italy" headline and a video timeline strip below
+  family_hint: other
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: scene
+  description: leaning tower of Pisa with "summer in italy" headline and a video timeline strip below
+  family_hint: other
+  confidence: 0.4
+10:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman in a pink fur coat, VS badge, GPT and Imagen pills below
+  family_hint: vs-two-up
+  confidence: 0.9
+11:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman in a pink fur coat, VS badge, GPT and Imagen pills below
+  family_hint: vs-two-up
+  confidence: 0.9
+12:
+  chrome: [model-logo, pill, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  description: two panels of a woman on a phone in blue, VS badge, Luma Ray 2 and Kling 3.0 pills
+  family_hint: vs-two-up
+  confidence: 0.9

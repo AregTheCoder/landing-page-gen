@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: 3d-render
+  description: glossy 3d 2024 Happy New Year lettering with gold balloons
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: autumn landscape with a pond and warm foliage at sunset
+  family_hint: full-bleed
+  confidence: 0.85
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  description: abstract yellow liquid splash on a dark ground
+  family_hint: full-bleed
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a dirt path winding through a green forest
+  family_hint: full-bleed
+  confidence: 0.85
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: dreamy purple fantasy landscape with a crescent moon and stars
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a road under a stone bridge with a huge moon rising
+  family_hint: full-bleed
+  confidence: 0.75
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: snowy night forest with glowing snowflakes and pine trees
+  family_hint: full-bleed
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: close-up of white plumeria flowers on green leaves
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: photo
+  description: surreal hourglass holding a tree in a desert landscape
+  family_hint: full-bleed
+  confidence: 0.65
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: fragrance brand ad for Sole with a bottle and tagline text
+  family_hint: template-mockup
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a chrome dive watch product shot on a grey ground
+  family_hint: full-bleed
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a row of leather handbags arranged over draped silk fabric
+  family_hint: full-bleed
+  confidence: 0.8

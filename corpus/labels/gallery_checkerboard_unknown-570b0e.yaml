@@ -4,11 +4,11 @@ group:
   ground: checkerboard
   layout: unknown
 fields:
+- art_style
 - chrome
 - confidence
 - description
 - family_hint
-- finish
 - layout
 - panel_count
 - subject

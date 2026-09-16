@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling person floating in the sea with a wave behind them
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: two dogs in striped bathrobes at a bathroom mirror with a hailuo model logo and reference chips
+  family_hint: model-card
+  confidence: 0.5
+3:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a stylish person with pink hair and sunglasses holding cherries above a prompt describing the portrait
+  family_hint: prompt-card
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: an anime style illustration of a man with crossed arms on a city street
+  family_hint: full-bleed
+  confidence: 0.75
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: a van gogh style painting of a bearded man in a bowler hat among sunflowers
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a studio portrait of a person with short hair star earrings and a lace top
+  family_hint: full-bleed
+  confidence: 0.85
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a product photo of an amber glass bottle on a rock with orange lilies and a moon
+  family_hint: full-bleed
+  confidence: 0.7
+8:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a silver haired person in pink flowers with a model logo and two crop chips
+  family_hint: model-card
+  confidence: 0.55
+9:
+  chrome: [model-logo, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a 3d render of a purple flower beside small flower thumbnails and a recraft logo tile
+  family_hint: model-card
+  confidence: 0.45
+10:
+  chrome: [vs-badge, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two side by side scenes of people on pink beds labeled luma ray and kling with a vs badge
+  family_hint: vs-two-up
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: flat-vector
+  description: a pixel art underwater scene with fish a diver and a treasure chest
+  family_hint: full-bleed
+  confidence: 0.6
+12:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person holding a green bag beside three labeled reference image thumbnails
+  family_hint: model-card
+  confidence: 0.4

@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a retro photo of a woman with vinyl records and a boombox
+  family_hint: full-bleed
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a photo of a hand holding a cappuccino on a street
+  family_hint: full-bleed
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a cinematic red planet landscape with a comet
+  family_hint: cinematic-still
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a product photo of purple sneakers on a blue rock
+  family_hint: full-bleed
+  confidence: 0.6
+5:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a product photo of a cappuccino candle with a muffin
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a 3d render of a character in a pink puffer jacket
+  family_hint: full-bleed
+  confidence: 0.6
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a photo of a small dog in a red sweater and sunglasses
+  family_hint: full-bleed
+  confidence: 0.7
+8:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a photo of a dj at a mixer with a gif label
+  family_hint: full-bleed
+  confidence: 0.6
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a person with a pink buzzcut on purple
+  family_hint: full-bleed
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a 3d animated girl playing a string instrument
+  family_hint: full-bleed
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman with large floral earrings
+  family_hint: full-bleed
+  confidence: 0.7
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a photo of a person in red sportswear lifting dumbbells
+  family_hint: full-bleed
+  confidence: 0.7

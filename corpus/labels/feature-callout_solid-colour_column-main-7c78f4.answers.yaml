@@ -1,0 +1,27 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: stack of pink and coral round gift boxes on blue, Before pill
+  family_hint: before-after
+  confidence: 0.5
+2:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: ui-screenshot
+  description: Picsart editor screenshot with a dancer photo on the canvas
+  family_hint: editor-canvas
+  confidence: 0.55
+3:
+  chrome: [selection-handles, mockup-card]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: ui-screenshot
+  description: Picsart editor screenshot with a woman photo selected on the canvas
+  family_hint: editor-canvas
+  confidence: 0.55

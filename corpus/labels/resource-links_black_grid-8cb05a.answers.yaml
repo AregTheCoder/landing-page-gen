@@ -1,0 +1,9 @@
+1:
+  chrome: [prompt-panel, tile, play-button, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: 3d-render
+  description: dark prompt panel beside a Seedance video result of a surreal teal foam clog in pink plush hills
+  family_hint: prompt-card
+  confidence: 0.8

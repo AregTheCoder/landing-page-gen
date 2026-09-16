@@ -1,0 +1,144 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: bookmark design with a person illustration and reading slogan over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+2:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: red shoes photo with SEASONAL DISCOUNT and 40 percent off text plus a black text tool tile
+  family_hint: template-mockup
+  confidence: 0.4
+  ground: mixed
+  layout: column-main
+  panel_count: 3
+3:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: pink birthday celebration invite with a cupcake photo over a faded card gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: STYLE UNLEASHED magazine spread design over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman holding a product with a slogan caption and an audio waveform bar
+  family_hint: full-bleed
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: four colourful flower rings shown as cutouts on a checkerboard grid
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+  ground: checkerboard
+  layout: grid
+  panel_count: 4
+7:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: woman in houndstooth blazer with a video prompt caption, Kling V3 chip and duration chip
+  family_hint: prompt-card
+  confidence: 0.6
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+8:
+  chrome: [chip, button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: NEW COLLECTION fashion render with two variation thumbnails and a number of variations stepper
+  family_hint: template-mockup
+  confidence: 0.35
+  ground: mixed
+  layout: column-main
+  panel_count: 3
+9:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: SALE 20 percent off social post with a woman portrait over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+10:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: yellow SOUTHERN BORDER menu design over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.55
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: colourful THANK YOU card with swirls over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: mixed
+  layout: overlay
+  panel_count: 1
+12:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: NEW NEW furniture collection post with a chair over a faded template gallery
+  family_hint: template-mockup
+  confidence: 0.55
+  ground: mixed
+  layout: overlay
+  panel_count: 1

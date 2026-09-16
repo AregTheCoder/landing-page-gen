@@ -1,0 +1,18 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a wedding timeline schedule template with times and purple flower illustrations
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: collage
+  description: a travel collage template with postage-stamp framed city photos over a map
+  family_hint: template-mockup
+  confidence: 0.45

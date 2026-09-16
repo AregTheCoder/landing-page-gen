@@ -1,0 +1,12 @@
+1: {keep: false, subject: food, best_family: outcome-tile, note: 'bare beige still life, no coloured light or saturated grade'}
+2: {keep: true, subject: person, note: 'pink/purple bedroom glow, single subject, matches ref 029d49e5'}
+3: {keep: true, subject: person, note: 'teal frame with warm orange blob, motion-blurred but reads as a still'}
+4: {keep: false, subject: multiple, note: 'two subjects plus legible neon and box text; same set as #10'}
+5: {keep: false, subject: person, note: 'flat daylight documentary snapshot, no unified grade'}
+6: {keep: true, subject: person, note: 'blue key with warm fill on black, clean teal-orange split'}
+7: {keep: true, subject: object, note: 'single prop, unified amber grade, shallow depth'}
+8: {keep: true, subject: person, note: 'night window, teal-orange neon split, strong film-still feel'}
+9: {keep: true, subject: person, note: 'teal body light with orange rim on textured backdrop'}
+10: {keep: false, subject: multiple, note: 'near-duplicate of #4, same bedroom set, neon sign text'}
+11: {keep: true, subject: person, note: 'bold monochrome pink set, small neon sign top-left only'}
+12: {keep: true, subject: person, note: 'golden-hour silhouette, soft but deliberate gradient light'}

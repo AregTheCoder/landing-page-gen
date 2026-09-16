@@ -1,0 +1,135 @@
+1:
+  chrome: [button]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: painterly-illustration
+  description: a full comic book page of a superhero dog with speech bubbles and a share button
+  family_hint: full-bleed
+  confidence: 0.4
+  ground: white
+  layout: grid
+  panel_count: 6
+2:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: three bookmark designs beside a swatch column and text and sticker tiles
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: column-main
+  panel_count: 3
+3:
+  chrome: [brackets, button, mockup-card]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a surfer photo with a crop grid overlay and a cropped social post card
+  family_hint: crop-frame
+  confidence: 0.55
+  ground: photo-full-bleed
+  layout: overlay
+  panel_count: 2
+4:
+  chrome: [arrow, chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: three numbered panels of a hand holding green sunglasses flipped with arrows
+  family_hint: other
+  confidence: 0.4
+  ground: light-grey
+  layout: grid
+  panel_count: 3
+5:
+  chrome: [prompt-panel]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a dark description card above a How I Edit My Pics youtube thumbnail with a girl
+  family_hint: prompt-card
+  confidence: 0.45
+  layout: stacked
+  panel_count: 1
+6:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel with a Generate button beside a Velvet Sessions saxophonist poster
+  family_hint: prompt-card
+  confidence: 0.85
+  layout: column-main
+  panel_count: 1
+7:
+  chrome: [pill, play-button]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: two labelled portraits beside comic panels of a villain with speech bubbles
+  family_hint: other
+  confidence: 0.4
+  layout: column-main
+  panel_count: 5
+8:
+  chrome: [mockup-card, button, selection-handles]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: product
+  art_style: mixed
+  description: a quiet crafts ceramics shop mockup with product photos and a vase cutout
+  family_hint: mockup-card
+  confidence: 0.55
+  layout: overlay
+  panel_count: 4
+9:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a large portrait beside a column of three smaller face thumbnails one selected
+  family_hint: other
+  confidence: 0.4
+  layout: column-main
+  panel_count: 4
+10:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a grid of lipstick product photos with a Nanobanana model logo and 4K chip
+  family_hint: model-card
+  confidence: 0.4
+  layout: grid
+  panel_count: 5
+11:
+  chrome: [brackets, pill, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  description: several photos with a crop grid overlay and a plus fifty photos batch pill
+  family_hint: other
+  confidence: 0.4
+  layout: overlay
+  panel_count: 3
+12:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: template and font tiles above a Study Tips youtube video card with a girl
+  family_hint: template-mockup
+  confidence: 0.6
+  layout: stacked
+  panel_count: 1

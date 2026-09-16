@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with a backpack resting on rocks by a sunny sea
+  family_hint: full-bleed
+  confidence: 0.9
+2:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a dark quote card with a Generate button and audio waveform beside a city photo
+  family_hint: prompt-card
+  confidence: 0.55
+3:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: AI portraits of people in historical styling, one labelled Historical
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman applying colourful makeup to her freckled face
+  family_hint: full-bleed
+  confidence: 0.85
+5:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman at a cafe table with a scene-description caption and a logo tile
+  family_hint: full-bleed
+  confidence: 0.35
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: hands filing nails over a towel with manicure tools
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a happy woman sitting cross-legged on a bed tossing papers in the air
+  family_hint: full-bleed
+  confidence: 0.9
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a swimmer with a surfboard in bright turquoise water
+  family_hint: full-bleed
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a suburban house with a landscaped front lawn
+  family_hint: full-bleed
+  confidence: 0.9
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: hands holding a phone photographing bright lights in the dark
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a split before-after of a woman's face for red-eye removal with a divider handle
+  family_hint: before-after
+  confidence: 0.6
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a patterned paper coffee cup on a flat orange ground
+  family_hint: full-bleed
+  confidence: 0.4

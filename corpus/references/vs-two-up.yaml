@@ -144,3 +144,98 @@ open:
   - No Pexels or Unsplash match for a handbag hung on a cactus; closest is a bag held against blue sky.
   - Denim-cap studio portraits on a gradient backdrop not found; cap portraits on the platforms are street or monochrome.
   - Unsplash+ premium results (plus.unsplash.com) appeared in searches and were dropped as not freely licensed.
+  - No Pexels or Unsplash pair carries the family's exact arrangement, two labelled panels of one product
+    or one face shot twice; the closest are before/after and film diptychs of places and facades.
+  - Every laid-out candidate is a marketing or documentary artifact, so panel labels, clinic branding and
+    film borders are what Picsart would strip.
+layout:
+  arrangement: >
+    Two equal vertical panels fill a square frame, split by a hard seam or thin gutter at the centre.
+    One subject per panel, same framing and palette either side. The seam carries a round VS badge; a
+    name pill and size chips label each half. A variant offsets the panels as overlapping cards.
+  repetition: >
+    The same prompt rendered twice, one product or one face per panel, identical crop, light and palette,
+    differing only in finish. The pair is the asset, not a panel.
+  search_terms:
+    - diptych two panels side by side
+    - split screen comparison photo
+    - before after split frame
+    - split background portrait half colour
+    - old versus restored split view
+    - two film frames side by side
+    - two panel before after comparison
+  examples:
+    - url: https://www.pexels.com/photo/split-view-of-waterfront-with-bridge-and-cityscape-38960044/
+      image: https://images.pexels.com/photos/38960044/pexels-photo-38960044.jpeg
+      creator: Elena Golovchenko
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        8632c15f: two equal panels, hard vertical seam at the centre, one scene per half, same sky across both.
+      differs: >
+        Picsart rounds the panel corners, puts a VS badge on the seam and a model pill with size chips
+        under each half.
+    - url: https://www.pexels.com/photo/lush-greenery-in-greenhouse-with-unique-angle-38960047/
+      image: https://images.pexels.com/photos/38960047/pexels-photo-38960047.jpeg
+      creator: Elena Golovchenko
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        8632c15f: flush two-panel diptych, one subject per half, the same setting repeated either side.
+      differs: >
+        Picsart's halves are portrait tiles on a light-grey ground and each carries a provider logo pill.
+    - url: https://unsplash.com/photos/mBh_t21Qla8
+      image: https://images.unsplash.com/photo-1724961221902-8fff1cc70263
+      creator: Tara-mae Miller
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        1ccc69c2: two frames side by side with a thin divider, matched framing, the same place shot twice.
+      differs: >
+        Picsart's gutter is wider and light, holds a VS badge, and the panels are labelled; film borders removed.
+    - url: https://unsplash.com/photos/r3_FMXVrLyw
+      image: https://images.unsplash.com/photo-1724961221869-cf0d4dc01062
+      creator: Tara-mae Miller
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        1ccc69c2: paired frames with a dividing line, equal halves, one subject each, identical treatment.
+      differs: >
+        Picsart squares the pair to 1:1, rounds the corners and adds name pills and ratio chips.
+    - url: https://unsplash.com/photos/Hki-3eGBi9c
+      image: https://images.unsplash.com/photo-1776400985210-92f654712d30
+      creator: Precision Dentistry & Implants of Kerrville
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        0897494e: two panels side by side, the same face in both, same crop and light, only the result differs.
+      differs: >
+        A clinic's before/after labels and branding would be stripped; Picsart labels the halves with model
+        pills and sets a VS badge on the seam.
+    - url: https://www.pexels.com/photo/contrast-of-old-and-restored-wooden-house-in-istanbul-37535123/
+      image: https://images.pexels.com/photos/37535123/pexels-photo-37535123.jpeg
+      creator: Hakan Tunc
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        8632c15f: one frame cut down the middle, same subject either side in two finishes, seam dead centre.
+      differs: >
+        Picsart separates the halves into two tiles with a gutter and puts a chip row under each.
+    - url: https://www.pexels.com/photo/wooden-house-renovated-only-in-half-16690918/
+      image: https://images.pexels.com/photos/16690918/pexels-photo-16690918.jpeg
+      creator: Neriman Özaydın
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        0897494e: hard vertical divide across the frame, the two halves repeat one subject with two finishes.
+      differs: >
+        Picsart's divide is a gutter between rounded panels, not a material join, and each half is labelled.
+    - url: https://www.pexels.com/photo/portrait-of-a-man-wearing-eyeglasses-6616126/
+      image: https://images.pexels.com/photos/6616126/pexels-photo-6616126.jpeg
+      creator: cottonbro studio
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        0897494e: frame split vertically into two tones, one head centred on the divide, studio light both sides.
+      differs: >
+        Picsart puts a whole subject in each half rather than one across the seam, and the seam carries a badge.

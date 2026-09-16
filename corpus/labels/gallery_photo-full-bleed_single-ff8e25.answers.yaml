@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a rooftop garden gathering of people and a dog around a table
+  family_hint: full-bleed
+  confidence: 0.85
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a golden retriever in sunglasses and a straw hat by a pool
+  family_hint: full-bleed
+  confidence: 0.85
+3:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a cafe selfie of two people with a dark edit-instruction pill over it
+  family_hint: full-bleed
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: a colourful expressive-brushstroke portrait of two smiling people
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a rainy neon cyberpunk city street at night
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person in a green robe by a lake at dusk, cinematic
+  family_hint: cinematic-still
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man walking a neon-lit rainy city street at night, cinematic
+  family_hint: cinematic-still
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman with blue hair in a white t-shirt
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a black handbag on a rock by the sea
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a cyberpunk-styled man portrait in a neon city
+  family_hint: cinematic-still
+  confidence: 0.55
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two suited figures with animal heads in a narrow alley, cinematic
+  family_hint: cinematic-still
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in a puffer jacket standing on rocks with mountains behind
+  family_hint: full-bleed
+  confidence: 0.8

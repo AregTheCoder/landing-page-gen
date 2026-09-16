@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hands holding a taco box on a bicycle handlebar on grey concrete
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a studio portrait of a man in a green blazer with headphones
+  family_hint: full-bleed
+  confidence: 0.45
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a stylized man holding a dalmatian plush on a beige ground
+  family_hint: full-bleed
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a flat vector hand holding a phone with a blue screen on yellow
+  family_hint: other
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: 3d-render
+  description: glossy 3d create more lettering on a cream ground
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: flat-vector
+  description: flat vector chickens scattered on a bright blue ground
+  family_hint: other
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a 3d chess knight lit orange and blue on a dark blue ground
+  family_hint: other
+  confidence: 0.4
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a pink self care bingo card with a grid of labelled circles
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a beige t-shirt mockup with a merry and bright wreath design
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a beige t-shirt mockup with a red joy script on gold confetti
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a graduation photo collage of polaroids on a pink ground
+  family_hint: graphic-collage
+  confidence: 0.45
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a beige t-shirt mockup with a be joyful christmas tree design
+  family_hint: template-mockup
+  confidence: 0.5

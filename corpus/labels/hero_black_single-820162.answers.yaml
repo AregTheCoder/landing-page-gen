@@ -1,0 +1,63 @@
+1:
+  chrome: [pill, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a denim jacket with flower stickers a Sticker pill and sticker option tiles
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+2:
+  chrome: [tile, selection-handles, brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman portrait on an editor canvas with a crop grid and tool tiles
+  family_hint: editor-canvas
+  confidence: 0.5
+3:
+  chrome: [mockup-card, tile, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: a coffee shop social post mockup with graphic shapes and editor elements
+  family_hint: mockup-card
+  confidence: 0.45
+4:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: a purple cosmetic tube on black with a grey liquid shape and a pill
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [adjust-panel, slider, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a vivid portrait on pink with style thumbnails and a brightness adjust panel
+  family_hint: panel-overlay
+  confidence: 0.55
+6:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: storyboard template cards for a seafood restaurant with photos and labels
+  family_hint: template-mockup
+  confidence: 0.6
+7:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  description: a chat mockup with dino stickers and a checkerboard sticker cutout
+  family_hint: cutout-checkerboard
+  confidence: 0.4

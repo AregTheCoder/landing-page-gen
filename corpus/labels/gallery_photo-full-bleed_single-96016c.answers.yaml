@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a wedding venue brochure with building photos and booking details
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a red christmas invitation card with a bow illustration
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a birthday card with a flat illustrated cake and a name greeting
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a three-panel wellness brochure with coach photo and text
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a teacher resume template with a headshot and sections
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an anti-bullying flyer with orange silhouettes and event text
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a history teacher resume template with a headshot
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a gradient health seminar flyer with event details
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an SAT prep flyer with a photo of studying students
+  family_hint: template-mockup
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a March calendar page on a red silk background
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a thanksgiving bingo card with illustrated leaves and squares
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn photo collage titled happy fall
+  family_hint: template-mockup
+  confidence: 0.45

@@ -155,3 +155,104 @@ open:
   - No Pexels or Unsplash match found for pastel gradient two-tone lipstick tubes on cream seamless; nearest are pink monochrome flat lays.
   - No verified match for a coloured-cap bottle held against sky with a large fictional label; sky-bottle results carry real brands.
   - Unsplash search pages returned few usable studio fashion results; the fashion side is Pexels only.
+  - Layout, no match for the asymmetric one-big-panel plus 2x2 thumb grid built from a *product*; every grid found tiles a person or a landscape.
+  - Layout, the closest triptychs and photo-series (Valeriia Miller, Mohammad Alizade, Olivie Strauss) are Unsplash+ premium, so they were left out.
+  - Layout, smartphone side-by-side comparisons dominate split-screen searches; skipped as another product's UI.
+layout:
+  arrangement: >
+    A square canvas cut into two to six rectangular panels, all showing the same subject.
+    Either one dominant panel takes half to three quarters of the frame with a column or 2x2
+    grid of smaller equal panels beside it, or two equal halves meet on a hard vertical seam.
+    Gutters are a few pixels of flat black; corners rounded; dark chrome pills along the bottom
+    edge or in the rail.
+  repetition: >
+    One subject photographed four or five times: different angle, crop and scale, same backdrop,
+    light and palette in every panel. The serial set is the asset; the dominant panel is the
+    closest crop of the same object.
+  search_terms:
+    - product photo collage grid
+    - contact sheet photo grid
+    - diptych two panel
+    - photo booth strip
+    - split screen before after same subject
+    - collage of one model different expressions
+    - film strip mosaic portraits
+    - photo grid same subject different angles
+  examples:
+    - url: https://www.pexels.com/photo/lush-greenery-in-greenhouse-with-unique-angle-38960047/
+      image: https://images.pexels.com/photos/38960047/pexels-photo-38960047.jpeg
+      creator: Elena Golovchenko
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        0794e437: two panels side by side splitting the frame down the middle, the same scene
+        photographed twice, no chrome in the gutter.
+      differs: >
+        Landscape 3:2 where Picsart is square with exactly equal halves, and lp-compose sets a
+        dark model pill at the bottom of each half.
+    - url: https://www.pexels.com/photo/contrast-of-old-and-restored-wooden-house-in-istanbul-37535123/
+      image: https://images.pexels.com/photos/37535123/pexels-photo-37535123.jpeg
+      creator: Hakan Tunc
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        0794e437: one vertical seam, one subject in two states either side, each half holding a
+        full-height view of it.
+      differs: >
+        The seam is inside the scene; Picsart composites two separate generations edge to edge on
+        a 1:1 canvas and crops portrait 2:3 down to square.
+    - url: https://unsplash.com/photos/contact-sheet-with-six-small-nature-and-garden-scenes-QhRXDjN16kc
+      image: https://images.unsplash.com/photo-1759197402865-ff08a07d2fe0
+      creator: Brooke Balentine
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        f746795b: several equal small frames in a regular grid, one shoot, the same palette and
+        backdrop in every cell.
+      differs: >
+        Picsart makes one cell dominant beside the grid, rounds the corners, and adds a black
+        gutter and a chip row. The film paper border is stripped.
+    - url: https://unsplash.com/photos/collage-of-a-young-woman-making-different-facial-expressions-sdUAMcpAYlk
+      image: https://images.unsplash.com/photo-1759197402667-e5c30fb18bb5
+      creator: Brooke Balentine
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        f746795b: one subject repeated across a set of small frames, same light and wardrobe in
+        each, read as one serial set.
+      differs: >
+        Picsart aligns the panels on a grid, adds the large panel and the 4K chip, and strips the
+        analogue frame edges and any handwriting.
+    - url: https://unsplash.com/photos/woman-with-devil-and-angel-drawings-in-photo-booth-strip-EnppG9LqnBk
+      image: https://images.unsplash.com/photo-1759209816487-0677a49f01b8
+      creator: Brooke Balentine
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        4eeca13c: a narrow vertical column of equal stacked frames of one subject running down
+        one edge of the frame.
+      differs: >
+        Picsart's rail holds square chrome tiles, not photographs, and a dominant photo fills the
+        rest of the square. The drawn-on doodles are stripped.
+    - url: https://www.pexels.com/photo/black-and-white-collage-of-female-portraits-5801901/
+      image: https://images.pexels.com/photos/5801901/pexels-photo-5801901.jpeg
+      creator: Helena Jankovičová Kováčová
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        f746795b: several panels of one subject at different scales and angles, visible gutters
+        between them, one dominant view.
+      differs: >
+        Monochrome and loosely placed; Picsart keeps the panels rectangular, aligned and
+        saturated, with a pill row under the grid.
+    - url: https://www.pexels.com/photo/abstract-art-mosaic-of-portraits-10311958/
+      image: https://images.pexels.com/photos/10311958/pexels-photo-10311958.jpeg
+      creator: Nurlan Tortbayev
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        f746795b: square canvas, frames of one subject tiled across it with dark ground showing
+        through the gutters.
+      differs: >
+        The frames overlap and carry sprocket holes and film edges; Picsart aligns them on a grid
+        with rounded corners and clean black gutters.

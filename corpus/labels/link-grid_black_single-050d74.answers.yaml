@@ -1,0 +1,36 @@
+1:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a HUG BREAD logo design beside a font style card on black
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a HUG BREAD logo design beside a font style card on black
+  family_hint: template-mockup
+  confidence: 0.55
+3:
+  chrome: [model-logo, selection-handles, chip]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: photo
+  description: a surrealistic garden render with selection handles, an ai logo and a caption
+  family_hint: editor-canvas
+  confidence: 0.5
+4:
+  chrome: [model-logo, selection-handles, chip]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: photo
+  description: a surrealistic garden render with selection handles, an ai logo and a caption
+  family_hint: editor-canvas
+  confidence: 0.5

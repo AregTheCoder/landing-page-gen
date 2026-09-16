@@ -1,0 +1,110 @@
+1:
+  chrome: [chip, tile, size-label]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a 3d render of a girl in pink beside aspect chips and a tool tile
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+2:
+  chrome: [chip, tile, model-logo, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in a floral shirt beside a model picker list and a 4K tile
+  family_hint: dark-composite
+  confidence: 0.6
+  before_after: false
+3:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a man holding an iced coffee beside a video prompt panel and model list
+  family_hint: prompt-card
+  confidence: 0.6
+  before_after: false
+4:
+  chrome: [badge, mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: tote and cap cutouts on checkerboard beside a Whimsy Cut shirt product card
+  family_hint: cutout-checkerboard
+  confidence: 0.45
+  before_after: false
+5:
+  chrome: [chip, tile, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a serum bottle on checkerboard beside a woman applying serum
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+6:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two grocery-store stills labelled with two video model names
+  family_hint: vs-two-up
+  confidence: 0.6
+  before_after: false
+7:
+  chrome: [tile, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: 3d-render
+  description: a candy and gummy-bear balloon landscape beside a model picker list
+  family_hint: dark-composite
+  confidence: 0.55
+  before_after: false
+8:
+  chrome: [adjust-panel, button, tile, badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an upscale control panel beside navy handbags on a branch
+  family_hint: before-after
+  confidence: 0.4
+  before_after: false
+9:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  description: soft 3d render of a chick and a butterfly beside a model picker list
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+10:
+  chrome: [chip, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a bold flat-vector skateboarder beside a model picker list and vector panels
+  family_hint: dark-composite
+  confidence: 0.5
+  before_after: false
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: flat-vector
+  description: a four-panel grid of stylized illustrations on blue and red
+  family_hint: graphic-collage
+  confidence: 0.3
+  before_after: false

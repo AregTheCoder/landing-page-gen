@@ -1,0 +1,36 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a taped polaroid of a woman with a backpack on a mint ground
+  family_hint: graphic-collage
+  confidence: 0.45
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a beige t-shirt with a Christmas script slogan on dark green
+  family_hint: template-mockup
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a flat illustration of dark hands holding a yellow apple on red
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: flat-vector
+  description: a stylized black panther with glowing eyes on a blue ground
+  family_hint: other
+  confidence: 0.4

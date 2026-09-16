@@ -1,0 +1,63 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: neon-lit night street scene with a motel vacancy sign and a taxi in the rain
+  family_hint: full-bleed
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: close-up of a camera zoom lens on a dark background
+  family_hint: full-bleed
+  confidence: 0.7
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: studio portrait of a woman against a dark background
+  family_hint: full-bleed
+  confidence: 0.7
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: moody product photo of a serum bottle on dark marble
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: person editing video on a computer monitor in a dark room
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: tray of colourful ranunculus flowers arranged in a grid
+  family_hint: full-bleed
+  confidence: 0.6
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: product photo of a face serum bottle with a dropper on black
+  family_hint: full-bleed
+  confidence: 0.7

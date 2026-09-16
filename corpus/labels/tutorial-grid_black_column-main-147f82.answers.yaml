@@ -1,0 +1,9 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: moody low-key portrait of a bearded man looking to the side
+  family_hint: full-bleed
+  confidence: 0.75

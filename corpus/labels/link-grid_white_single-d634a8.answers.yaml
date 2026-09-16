@@ -1,0 +1,108 @@
+1:
+  chrome: [pill, tile, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: before and after iced coffee panels with labelled pills and a sparkle tile
+  family_hint: before-after
+  confidence: 0.8
+2:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: portrait on a transparency checkerboard with directional expand arrows
+  family_hint: crop-frame
+  confidence: 0.4
+3:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: portrait on a transparency checkerboard with directional expand arrows
+  family_hint: crop-frame
+  confidence: 0.4
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two panels of a vintage couple photo with a sparkle tile
+  family_hint: before-after
+  confidence: 0.45
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two panels of a vintage couple photo with a sparkle tile
+  family_hint: before-after
+  confidence: 0.45
+6:
+  chrome: [tile, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: brand kit tiles with a yellow mascot colour palette and font sample
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: orange mug product photo split against a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: orange mug product photo split against a transparency checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+9:
+  chrome: [mockup-card, size-label]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: portrait with a social post mockup card and a size label
+  family_hint: mockup-card
+  confidence: 0.6
+10:
+  chrome: [pill, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: before and after portrait split by a slider with labelled pills
+  family_hint: before-after
+  confidence: 0.8
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: mixed
+  description: dark prompt card with a Generate button beside a cupcake ad result
+  family_hint: prompt-card
+  confidence: 0.8
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: mixed
+  description: dark prompt card with a Generate button beside a cupcake ad result
+  family_hint: prompt-card
+  confidence: 0.8

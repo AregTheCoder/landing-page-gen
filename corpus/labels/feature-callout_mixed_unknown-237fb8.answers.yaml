@@ -1,0 +1,131 @@
+1:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: WAN and Kling model outputs with a column of thumbs and a Free 10 seconds credits bar
+  family_hint: vs-two-up
+  confidence: 0.5
+  layout: column-main
+  panel_count: 5
+2:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman stretching on a warm gradient with a round text tool button
+  family_hint: full-bleed
+  confidence: 0.4
+  layout: single
+  panel_count: 1
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a One-Day Barista Workshop poster over brown colour blocks with a speech bubble
+  family_hint: template-mockup
+  confidence: 0.55
+  layout: single
+  panel_count: 1
+4:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: Sora monster render and Veo astronaut labelled panels with a credits bar
+  family_hint: vs-two-up
+  confidence: 0.6
+  layout: two-up
+  panel_count: 2
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait in blue sunglasses being cropped on a green ground
+  family_hint: crop-frame
+  confidence: 0.5
+  layout: single
+  panel_count: 1
+6:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: a woman cutout on a cube over a pink collage ground with an After pill
+  family_hint: graphic-collage
+  confidence: 0.6
+  layout: overlay
+  panel_count: 1
+7:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: Kling mousse and Runway matcha labelled food panels with a credits bar
+  family_hint: vs-two-up
+  confidence: 0.6
+  layout: two-up
+  panel_count: 2
+8:
+  chrome: [mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  art_style: mixed
+  description: a meme template card with Top Text and Bottom Text over small thumbnails
+  family_hint: template-mockup
+  confidence: 0.5
+  layout: overlay
+  panel_count: 2
+9:
+  chrome: [swatch, chip, slider, adjust-panel]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman face with checkerboard cutout and a HEX colour swatch panel
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+  layout: overlay
+  panel_count: 1
+10:
+  chrome: [chip, slider]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: animal
+  art_style: photo
+  description: a dog cutout on checkerboard beside a chewoof dog food package with an fx chip
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+  layout: split
+  panel_count: 2
+11:
+  chrome: [brackets, chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: an Ongrow logo watermark placed over a plant scene with alignment chips
+  family_hint: editor-canvas
+  confidence: 0.4
+  layout: overlay
+  panel_count: 1
+12:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: browser-window
+  subject: product
+  art_style: photo
+  description: a sneaker cutout on checkerboard in a browser window with sky and city thumbs
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  layout: single
+  panel_count: 4

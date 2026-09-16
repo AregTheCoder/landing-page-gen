@@ -142,3 +142,98 @@ open:
     (Virginia Marinova) are Unsplash+ paid and were dropped.
   - Jievani's, Jonathan Borba's and MART PRODUCTION's portfolios are not product-on-colour as a body of work; only
     the single photos are cited.
+  - 'layout: no stock picture carries the asymmetric split (one large card beside a column of small tiles); every
+    match found is an even grid, so that proportion stays Picsart''s.'
+  - 'layout: matches are printed or hung objects. A flat panel grid on a transparent or pure white ground exists
+    on stock only as another product''s UI, which was not collected.'
+layout:
+  arrangement: >
+    Two zones on one flat ground: a column of three or four equal small squares at left, one large rounded card,
+    two thirds of the frame, at right. Even gutters, no dividers, no perspective, same corner radius throughout.
+  repetition: >
+    One subject repeats across the panels: the same product shows up as a cutout tile, a colour swatch and again
+    finished inside the big card. A serial set of one framing in several colours reads the same way.
+  search_terms:
+    - paint sample cards grid
+    - polaroid photos grid flat lay
+    - vintage poster grid wall
+    - film strip contact sheet
+    - art prints grid white wall
+    - color swatch cards top view
+    - framed artwork even grid display
+  examples:
+    - url: https://unsplash.com/photos/four-polaroid-photographs-of-a-car-and-a-building-ahvOwUto214
+      image: https://images.unsplash.com/photo-1632757673499-d3803580a38f
+      creator: Matthew Moloney
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        21cdafd9: four equal flat panels in a 2x2 block, even gutters, plain ground between them, one series
+        across all four frames.
+      differs: >
+        Picsart makes one panel large and the rest a small column beside it, and drops the white instant-film
+        borders.
+    - url: https://unsplash.com/photos/a-set-of-six-film-strips-with-a-picture-of-a-cat-uUUy1YnTcfQ
+      image: https://images.unsplash.com/photo-1649366735070-8e78a4f86f31
+      creator: Shannia Christanty
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        5d8ec016: two columns of three equal square frames, identical spacing, one subject repeated in every
+        frame, like the stacked tile column.
+      differs: >
+        Picsart's tiles are rounded and black, the gutter is white page ground, and one panel grows into the
+        template card.
+    - url: https://unsplash.com/photos/vintage-travel-posters-displayed-on-a-grid-wall-sS-N2nYV5G4
+      image: https://images.unsplash.com/photo-1785811462004-e482b7930854
+      creator: Mario Gogh
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        21cdafd9: a regular grid of designed cards, each one headline type over a picture, the same layout
+        repeated at the same size.
+      differs: >
+        Picsart strips the printed brand names and city text, keeps only the brief's headline, and puts one card
+        at full size.
+    - url: https://www.pexels.com/photo/pink-paint-samples-15388685/
+      image: https://images.pexels.com/photos/15388685/pexels-photo-15388685.jpeg
+      creator: Lisa Fotios
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        5d8ec016: equal rectangles in rows and columns, flat, no perspective, one motif repeated with the colour
+        changing per tile.
+      differs: >
+        The swatch codes and brand names printed on each card would go; Picsart keeps a white gutter and rounded
+        corners.
+    - url: https://www.pexels.com/photo/described-color-pallets-15388691/
+      image: https://images.pexels.com/photos/15388691/pexels-photo-15388691.jpeg
+      creator: Lisa Fotios
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        5d8ec016: the same serial grid in a second colour family, showing the set as a set rather than one tile.
+      differs: >
+        Cards touch each other; Picsart needs a visible gutter, and the printed swatch labels would be removed.
+    - url: https://www.pexels.com/photo/abstract-colorful-paintings-on-display-grid-39111988/
+      image: https://images.pexels.com/photos/39111988/pexels-photo-39111988.jpeg
+      creator: Melike
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        7c5d6f7d: flat panels of two sizes hung on one plain ground, aligned, with the ground reading as the
+        gutter.
+      differs: >
+        Shot at a slight angle on a room wall; Picsart wants it straight on with the panels on transparent or
+        white.
+    - url: https://www.pexels.com/photo/pictures-on-the-wall-5705093/
+      image: https://images.pexels.com/photos/5705093/pexels-photo-5705093.jpeg
+      creator: Anastasia Shuraeva
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        7c5d6f7d: a set of flat prints of mixed sizes on white, some carrying type and some a line drawing,
+        aligned to a shared grid.
+      differs: >
+        Picsart drops the frames and the quote text, squares the crop to 1:1 and tightens the panels into one
+        column plus one card.

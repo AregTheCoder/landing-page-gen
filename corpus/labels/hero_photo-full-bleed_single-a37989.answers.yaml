@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a smiling person in a blue cap and white shirt outdoors
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person with purple curly hair in a teal shirt on an orange background
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: [model-logo, chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a person lacing an orange sneaker beside a model logo an aspect chip and a shoe cutout
+  family_hint: model-card
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a 3d animated girl in a denim jacket on a city street
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a perfume bottle resting on a lotus flower floating on water
+  family_hint: full-bleed
+  confidence: 0.75
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a hand reaching for a chocolate chip cookie on a green plate
+  family_hint: full-bleed
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a hand reaching for a cookie on a green plate framed by black bars
+  family_hint: full-bleed
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: an athletic person in red sportswear holding dumbbells on a blue background
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a close up of a person with colorful makeup and rings with an after pill
+  family_hint: before-after
+  confidence: 0.5
+10:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a person in pink adjusting sunglasses above a prompt describing a fashion portrait
+  family_hint: prompt-card
+  confidence: 0.6
+11:
+  chrome: [tile, chip, selection-handles]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a poster with a bold headline over a person on sand with a text tool tile and a font name chip
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: two compared surreal scenes of people among vintage tvs labeled seedance and kling with a vs badge
+  family_hint: vs-two-up
+  confidence: 0.6

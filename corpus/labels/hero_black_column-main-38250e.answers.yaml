@@ -1,0 +1,45 @@
+1:
+  chrome: [button, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an input-output panel diagram of ring photos with a central remix button
+  family_hint: dark-composite
+  confidence: 0.5
+2:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a sunglasses-wearing statue bust on an editor grid with a meme caption
+  family_hint: editor-canvas
+  confidence: 0.4
+3:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: a white upload arrow icon centered on a black card
+  family_hint: other
+  confidence: 0.2
+4:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: an agent chat card placing a sunglasses cutout onto a person photo result
+  family_hint: dark-composite
+  confidence: 0.4
+5:
+  chrome: [chip, swatch, model-logo]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: a brand-style agent card with headphones, a palette swatch row and a person photo
+  family_hint: dark-composite
+  confidence: 0.4

@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: stylized red and green glossy portrait of a woman beside a column of dark tool tiles
+  family_hint: dark-composite
+  confidence: 0.5
+2:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a celebrating couple in motion blur with an After chip
+  family_hint: before-after
+  confidence: 0.5
+3:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: decorated product design reading new product and order now with a magenta tool tile
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: [play-button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: editorial video of a woman riding a giant pink beetle with a caption and video chips
+  family_hint: prompt-card
+  confidence: 0.4
+5:
+  chrome: [tile, mockup-card, button]
+  text_in_image: none
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: a toy-figure version of a person on a street shown in a social post card with edit tiles
+  family_hint: mockup-card
+  confidence: 0.4
+6:
+  chrome: [adjust-panel, selection-handles]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a face with landmark points and a dark panel with Face and Nose controls
+  family_hint: panel-overlay
+  confidence: 0.5
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman on a red phone amid flying papers with resolution and fps chips
+  family_hint: full-bleed
+  confidence: 0.5
+8:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: gold YOU necklace close-up in two stacked Before and After panels
+  family_hint: before-after
+  confidence: 0.7
+9:
+  chrome: [chip, mockup-card]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: hands typing on a keyboard with a caption and an export size table with a GIF icon
+  family_hint: other
+  confidence: 0.3
+10:
+  chrome: [tile, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: vintage car photo with warped yellow lettering and a font name label
+  family_hint: template-mockup
+  confidence: 0.4
+11:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: four variants of a man skateboarding labelled V4, Vector and Pro
+  family_hint: other
+  confidence: 0.3
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: several pastel sky and cloud wallpaper panels above two dark tool tiles
+  family_hint: other
+  confidence: 0.3

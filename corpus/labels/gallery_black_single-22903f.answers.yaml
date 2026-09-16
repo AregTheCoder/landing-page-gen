@@ -1,0 +1,54 @@
+1:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a face serum bottle product shot on black
+  family_hint: full-bleed
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a homeschooling youtube banner design with running legs and arrows
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a couple sitting in a heart shaped cave at sunset
+  family_hint: full-bleed
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: a holographic knight character render holding a spear
+  family_hint: full-bleed
+  confidence: 0.55
+5:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a pink frosted cupcake with a before after slider handle
+  family_hint: before-after
+  confidence: 0.7
+6:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: an oil serum bottle on yellow with a before after slider handle
+  family_hint: before-after
+  confidence: 0.7

@@ -1,0 +1,11 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  layout: single
+  panel_count: 1
+  description: a group of branded dropper serum bottles arranged on a dark surface
+  family_hint: full-bleed
+  confidence: 0.6

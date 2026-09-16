@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man standing on desert dunes under a strange glowing ceiling
+  family_hint: cinematic-still
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person in a pink tulle dress holding a ruffled pink bag
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a lipstick standing among moss and wildflowers
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a teddy bear sipping a matcha drink through a straw
+  family_hint: full-bleed
+  confidence: 0.75
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a purple mascot costume crossing a busy city crosswalk
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a man in a purple beanie and glasses
+  family_hint: full-bleed
+  confidence: 0.85
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a young man in a black tank top indoors
+  family_hint: full-bleed
+  confidence: 0.85
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman with a painted face in a blue fleece
+  family_hint: full-bleed
+  confidence: 0.85
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a giant red balloon-dog sculpture over a city park
+  family_hint: full-bleed
+  confidence: 0.7
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a brutalist concrete building in fog
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a cozy library nook with a cat asleep on books and genre labels
+  family_hint: full-bleed
+  confidence: 0.7
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: profile portrait of a man in white sunglasses on teal
+  family_hint: full-bleed
+  confidence: 0.85

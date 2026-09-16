@@ -115,6 +115,16 @@ def card(canvas, rect, fill, radius):
     return rect
 
 
+def dim(canvas, rect, radius, amount):
+    """Darken a panel region (crop-frame dims the source under the brackets)."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = Image.new("RGBA", (x1 - x0, y1 - y0), (0, 0, 0, 0))
+    ImageDraw.Draw(layer).rounded_rectangle((0, 0, x1 - x0 - 1, y1 - y0 - 1), radius=radius,
+                                            fill=(0, 0, 0, round(255 * amount)))
+    canvas.alpha_composite(layer, (x0, y0))
+    return rect
+
+
 def icon(canvas, rect, name, colour=WHITE):
     """A line icon from the 24-unit grid, centred in rect, sized to its
     shorter side; strokes are 2 units with round caps and joints."""
@@ -144,9 +154,10 @@ def icon(canvas, rect, name, colour=WHITE):
 def tile(canvas, rect, name, radius, fill=(0, 0, 0, 255)):
     x0, y0, x1, y1 = rect
     ImageDraw.Draw(canvas).rounded_rectangle(rect, radius=radius, fill=fill)
-    s = round(min(x1 - x0, y1 - y0) * 0.4)
-    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-    icon(canvas, (cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2), name)
+    if name:  # a colour-swatch tile (no glyph) when name is falsy
+        s = round(min(x1 - x0, y1 - y0) * 0.4)
+        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+        icon(canvas, (cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2), name)
     return rect
 
 
@@ -256,20 +267,26 @@ def adjust_panel(canvas, rect, title, chips, active, sliders, fnt_title, fnt_lab
     tx = x0 + pad + mark * 1.4
     d.text((tx, y0 + pad + mark / 2), title, font=fnt_title, fill=WHITE, anchor="lm")
     tw = d.textlength(title, font=fnt_title) if title else 0
-    bw, bh = mark * 0.55, mark * 0.4
-    d.rounded_rectangle((tx + tw + mark * 0.4, y0 + pad + (mark - bh) / 2, tx + tw + mark * 0.4 + bw, y0 + pad + (mark + bh) / 2),
-                        radius=bh * 0.25, fill=(60, 200, 180, 255))
+    # teal badge: a small circle with a white inner mark (hsl-color zoom), not a bar
+    bd = mark * 0.5
+    bcx, bcy = tx + tw + mark * 0.55, y0 + pad + mark / 2
+    d.ellipse((bcx - bd / 2, bcy - bd / 2, bcx + bd / 2, bcy + bd / 2), fill=(60, 200, 180, 255))
+    d.ellipse((bcx - bd * 0.12, bcy - bd * 0.12, bcx + bd * 0.12, bcy + bd * 0.12), fill=WHITE)
     icon(layer, (x1 - pad - mark, y0 + pad, x1 - pad, y0 + pad + mark), "chevron", (200, 200, 200, 255))
-    # chips
+    # hairline separator under the header
+    sep_y = y0 + pad + hh - pad * 0.35
+    d.line([(x0 + pad, sep_y), (x1 - pad, sep_y)], fill=(60, 60, 64, 255), width=max(1, round(h * 0.004)))
+    # chips: rounded squares (squircles) with a WHITE ring on the active one
     top = y0 + pad + hh
     if chips:
         step = (w - 2 * pad - dia) / max(1, chips - 1)
         for i in range(chips):
             cx = x0 + pad + i * step
-            d.ellipse((cx, top, cx + dia, top + dia), fill=HUES[i % len(HUES)] + (255,))
+            d.rounded_rectangle((cx, top, cx + dia, top + dia), radius=dia * 0.3, fill=HUES[i % len(HUES)] + (255,))
             if i == active:
-                ring = dia * 0.12
-                d.ellipse((cx - ring, top - ring, cx + dia + ring, top + dia + ring), outline=(250, 215, 40, 255), width=max(1, round(ring * 0.6)))
+                ring = dia * 0.14
+                d.rounded_rectangle((cx - ring, top - ring, cx + dia + ring, top + dia + ring),
+                                    radius=dia * 0.42, outline=WHITE, width=max(1, round(ring * 0.6)))
         top += dia + pad
     # sliders
     if sliders:
@@ -296,13 +313,13 @@ def tool_pill(canvas, rect, text, icon_name, fnt):
     w, h = x1 - x0, y1 - y0
     layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
-    dia = min(w * 0.42, h * 0.45)
+    dia = min(w * 0.59, h * 0.55)   # badge ~0.59 of the block width (85708ef3)
     bx = x0 + (w - dia) / 2
     d.ellipse((bx, y0, bx + dia, y0 + dia), fill=WHITE)
     inset = dia * 0.28
     icon(layer, (bx + inset, y0 + inset, bx + dia - inset, y0 + dia - inset), icon_name, (20, 20, 20, 255))
     ph = h * 0.28
-    py0 = y1 - ph
+    py0 = max(y1 - ph, y0 + dia + h * 0.09)   # pill sits just below the badge, ~0.09h gap
     d.rounded_rectangle((x0, py0, x1, y1), radius=ph * 0.3, fill=WHITE)
     tip = ph * 0.3
     mx = (x0 + x1) / 2

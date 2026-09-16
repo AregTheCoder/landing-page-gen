@@ -45,6 +45,16 @@ either "start from a blank board" or the fitting template(s) with title, url, sh
 Blank board by default. Copy a template above only when it passes the three
 tests in `flow-boards.md`; record `board:` and `template:` in `workflow.yaml`.
 
+**Planned recipe (mandatory, `recipes.md`).** Write `family: <family>` on the
+board and author the whole recipe up front — every planned node before the
+first call, not grown when a gate finds a flaw:
+
+<the family's row from picsart-workflows/recipes.md, e.g. "generate → i2i
+refine → compose" for template-mockup, "generate → i2i refine → enhance
+(+ vectorize for a logo/mark)" for full-bleed>
+
+`lp-flow check` reads `family:` and fails a board that skips a planned node.
+
 ## Text in image
 
 | slot | string | role | panel | position |
@@ -71,7 +81,11 @@ Kept from source (do not produce): <list or "none">
 ## Examples from the corpus (same section type)
 
 <for each of 2 examples: page slug, section type, the excerpt markdown, and
-the one local media path under examples/ (`similar -k 2`, one image each)>
+the one local media path under examples/ (`similar -k 2`, one image each). Each
+media line carries a `built:` field — the example's measured construction
+(ground, layout, panels, chrome, art_style, structure) when the asset is
+labelled — so the worker anchors on how the picture is made, not the thumbnail
+alone. An example with no `built:` is unlabelled; trust its pixels less.>
 
 <when `similar --widen N` added neighbours: one line per `w<n>-widened.md`
 with its source and page. They show the family's look as the web holds it;

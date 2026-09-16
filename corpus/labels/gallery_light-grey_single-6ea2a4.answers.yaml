@@ -1,0 +1,63 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a blank book cover template with flat-vector bookshelf and globe art
+  family_hint: template-mockup
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn days photo collage with polaroid frames and a pumpkin truck
+  family_hint: graphic-collage
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a flat-vector autumn menu design with a bottle and fruit
+  family_hint: template-mockup
+  confidence: 0.5
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a happy thanksgiving greeting card in orange line art and lettering
+  family_hint: template-mockup
+  confidence: 0.4
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn moodboard photo collage of a woman coffee and pastries
+  family_hint: graphic-collage
+  confidence: 0.4
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: branded Fruit Wisp product packaging mockup in pink
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a colourful puzzle cube on a pale grey background
+  family_hint: full-bleed
+  confidence: 0.6

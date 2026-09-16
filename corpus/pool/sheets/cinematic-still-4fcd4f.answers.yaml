@@ -1,0 +1,12 @@
+1: {keep: true, subject: person}
+2: {keep: true, subject: person, note: hard slash of warm light on dark drape, reads as a film still}
+3: {keep: true, subject: person}
+4: {keep: true, subject: person, note: orange prop on charcoal seamless; complementary but grade is cooler than family}
+5: {keep: true, subject: person, note: golden-hour backlight, back view on a third}
+6: {keep: false, note: legible "Never Stop Dreaming" neon sign, cluttered multi-prop bedroom}
+7: {keep: false, note: same neon-sign set as 6/8, legible script plus second neon prop}
+8: {keep: false, note: legible neon sign text, near-duplicate of 6}
+9: {keep: true, subject: person}
+10: {keep: true, subject: person, note: neon heart behind subject, script inside it illegible}
+11: {keep: false, best_family: full-bleed, note: wide bedroom scene, subject small, room clutter}
+12: {keep: true, subject: person}

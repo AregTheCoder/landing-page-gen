@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: magenta/blue neon portrait, saturated unified grade}
+2: {keep: false, note: muted teal snapshot of a hand holding a toy, no deliberate grade}
+3: {keep: false, note: flat grey overcast sky, legible TAXI sign text}
+4: {keep: false, best_family: dark-composite, subject: object, note: dark studio still life, not a film still}
+5: {keep: true, subject: object, note: teal-orange street bokeh, shallow depth, single subject}
+6: {keep: true, subject: food, note: saturated citrus on blue seamless, complementary studio colour}
+7: {keep: false, subject: object, note: brown macro of a figurine on roots, busy ground, no film-still read}
+8: {keep: false, best_family: outcome-tile, subject: object, note: levitating props on flat grey, no colour}
+9: {keep: false, best_family: crop-frame, subject: scene, note: desaturated pastel dune, literal wooden frames}
+10: {keep: false, subject: scene, note: keyhole framing, subject tiny behind brown blur}
+11: {keep: true, subject: person, note: golden-hour portrait by water, warm unified grade}
+12: {keep: false, subject: person, note: near-monochrome low-key face, no coloured light}

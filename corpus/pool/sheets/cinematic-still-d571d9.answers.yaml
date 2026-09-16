@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: 'neon-lit interior, unified pink/teal grade, single seated subject'}
+2: {keep: false, best_family: full-bleed, note: 'washed backlit golden hour, blown white sky, no saturated grade'}
+3: {keep: false, note: 'baked-in film-strip border with legible KODAK PORTRA 400 text'}
+4: {keep: false, note: 'same film-strip border text as #3, same shoot'}
+5: {keep: true, subject: person, note: 'red gel key on dark ground, textbook cinematic split light'}
+6: {keep: true, subject: person, note: 'silhouette on saturated orange, one eye lit; torso fully in shadow'}
+7: {keep: false, best_family: full-bleed, note: 'flat daylight documentary snapshot, no cinematic grade'}
+8: {keep: false, note: 'legible neon sign text, cluttered multi-prop frame, swimwear'}
+9: {keep: true, subject: person, note: 'amber wall profile, unified saturated warm grade'}
+10: {keep: true, subject: person, note: 'golden autumn grade and dappled light; foreground foliage slightly busy'}
+11: {keep: true, subject: person, note: 'teal key against amber ground, clean teal-orange split'}
+12: {keep: true, subject: person, note: 'monochrome warm brown grade with deliberate rim light, dark but unified'}

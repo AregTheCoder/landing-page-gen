@@ -1,0 +1,36 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a smartphone mockup wrapped in a colourful floral vector pattern on teal
+  family_hint: graphic-collage
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a canvas tote bag printed with a pink flamingo pattern on coral
+  family_hint: graphic-collage
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a green polka-dot cosmetic pouch mockup reading seed extract mask on yellow
+  family_hint: graphic-collage
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a red gift bag mockup with a green Christmas tree and Happy Holidays on coral
+  family_hint: graphic-collage
+  confidence: 0.4

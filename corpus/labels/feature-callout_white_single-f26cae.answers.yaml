@@ -1,0 +1,96 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: back-to-school poster prompt panel with generate button and result
+  family_hint: prompt-card
+  confidence: 0.65
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+4:
+  chrome: [mockup-card, chip, model-logo]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: food
+  art_style: mixed
+  description: Amour Bakes social cards with cupcake croissant and ad spend stats
+  family_hint: template-mockup
+  confidence: 0.6
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+6:
+  chrome: [tile, play-button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: champagne toast video frames with tool tiles and an invite line
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black gif play button tile on white
+  family_hint: other
+  confidence: 0.4
+8:
+  chrome: [badge, play-button, tile]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: column of video frames with a person and laptop main frame
+  family_hint: template-mockup
+  confidence: 0.5
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  description: black upload button tile on white
+  family_hint: other
+  confidence: 0.4
+11:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: mixed
+  description: Elegant Accessories poster with a white dog and Korean localized version
+  family_hint: template-mockup
+  confidence: 0.6
+12:
+  chrome: [tile, play-button, badge]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: photo
+  description: social video frames of people with a Final Sale promo frame
+  family_hint: template-mockup
+  confidence: 0.55

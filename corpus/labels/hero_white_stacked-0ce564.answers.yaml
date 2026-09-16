@@ -1,0 +1,9 @@
+1:
+  chrome: [tile, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: a green table lamp product photo with AI tiles and a shop card with a buy button
+  family_hint: mockup-card
+  confidence: 0.6

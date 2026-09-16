@@ -16,11 +16,12 @@ need is in that folder; everything you make goes there.
 
 1. Read `brief.md` once, then open the example media files under
    `examples/` with `Read` (the manager leaves one per corpus example, plus
-   any `w<n>-widened.png` neighbours). Note the finish, framing and density
-   they share. The `## References` section names the stock genre and a
-   prompt guidance line: build your photo prompt from it, not from the
-   section copy's example objects. Examples and neighbours are read, never
-   wired: no example, stock or widened URL enters a node.
+   any `p<n>-pool.png` licensed stock and `w<n>-widened.png` neighbours).
+   Note the finish, framing and density they share. The `## References`
+   section names the stock genre and a prompt guidance line: build your
+   photo prompt from it, not from the section copy's example objects.
+   Examples, pool images and neighbours are read, never wired: no example,
+   stock, pool or widened URL enters a node.
    The `## Style family` block says which panels you produce; you produce
    those and nothing else. Its **Template** and **Ground** lines change what
    `lp-compose` draws, never what you generate; a `Series:` line means one
@@ -36,14 +37,17 @@ need is in that folder; everything you make goes there.
    three tests in `flow-boards.md` (fits, covers every panel, moves no
    invariant), and then record `board: template` with its title, url,
    shape and what you adapted. Otherwise `board: blank`.
-3. Lay the nodes. Pick the recipe (`image-workflows.md` or
-   `video-workflows.md`) and write the complete `workflow.yaml`
-   (`workflow-format.md`) — START with the text strings and the REF the
-   brief allows, every node with `node:`, `in:`, tool, model, params and
-   gate, END — before any paid call. Every image node is
-   `gemini-3-pro-image`; a node off it carries `reason:` quoting the section
-   copy that names the model. Then `uv run lp-flow check workflow.yaml`
-   (absolute path) and fix what it names.
+3. Lay the nodes. Write `family: <your family>` on the board, then author the
+   WHOLE planned recipe for that family (`recipes.md`: base generate → i2i
+   refine → the family's edit/compose steps → finishing enhance, plus
+   `vectorize` for a logo/mark) into `workflow.yaml` (`workflow-format.md`)
+   before any paid call — START with the text strings and the REF the brief
+   allows, every planned node with `node:`, `in:`, tool, model, params and
+   gate, END. The refine and the finish are planned nodes, not reactions to a
+   bad pass. Every image node is `gemini-3-pro-image`; a node off it carries
+   `reason:` quoting the section copy that names the model. Then `uv run
+   lp-flow check workflow.yaml` (absolute path) and fix what it names — it
+   reads `family:` and fails a board that skips a planned step.
 4. `picsart_preflight` every paid node; fill `quoted_credits`. If the total
    exceeds the section's advisory cap, stop, write `result.md` with
    `status: blocked` and the quote, and finish.
@@ -56,8 +60,11 @@ need is in that folder; everything you make goes there.
    node carries one paid call: the manager's `precheck.py` matches ledger
    rows to nodes by prompt text, so three attempts folded into one node read
    as 15 credits against a 5-credit record and cost a fix round (live-2 S05,
-   live-3 S05 and S08). After a pass, critique it and add the refine and
-   variation nodes the recipe calls for when a concrete flaw is named.
+   live-3 S05 and S08). The refine and finishing nodes are already in the
+   board from step 3's plan — run them in order and gate each; a gate failure
+   re-runs its own node (a new node, same recipe slot). Do not skip a planned
+   node because the previous pass looked acceptable; critique it in the node's
+   `reason` and let the refine improve it.
    Video nodes use `async: true` and `picsart_job_status`. `compose` nodes
    run as `uv run lp-compose compose-<slot>.yaml --out steps/...`; they and
    `text` nodes cost nothing and need no preflight.

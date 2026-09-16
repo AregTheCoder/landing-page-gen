@@ -153,3 +153,113 @@ open:
   - No verified free portrait with hands framing the face on white; the two portraits found are grey or white backdrops without that gesture.
   - Curated Lifestyle's Lisianthus-in-jar on pale blue (6HljH9l5zSE) fits but is Unsplash+ premium, so dropped.
   - Pexels and Unsplash profile summaries come from the first page of each gallery, not the whole body of work.
+  - Layout pass: no free match for the family's signature split, a narrow rail of two small panels beside one large panel; every collage found is a uniform grid or a scatter.
+  - Layout pass: the strongest serial sets (identical rubber stamps, a portrait series in a car, a three-frame negative) are all Unsplash+ premium, so dropped.
+  - Layout pass: arrangements were read from each photo page's description; no file was opened, so panel counts on the Unsplash collages are unverified.
+layout:
+  arrangement: >
+    Two or three flat panels sharing one ground, no perspective. The usual split is a narrow
+    left rail of two stacked small panels against one large panel filling the right two thirds;
+    the variant staggers three rounded panels diagonally. The gutter is bare ground, black or
+    dark grey, wide and even.
+  repetition: >
+    One subject carries every panel: the same cap, the same face, the same flower-filled locker
+    appears in the rail and again in the large panel, each time at a different crop or state
+    (on its backdrop, isolated, finished). Two colourways of one product count as the same motif.
+  search_terms:
+    - photo collage grid same person different expressions
+    - contact sheet grid of frames
+    - multi panel portrait montage black and white
+    - instant photos laid out on grey surface
+    - flat lay separate clothing items white background
+    - identical products evenly spaced plain background
+    - photo collage poster grid
+  examples:
+    - url: https://www.pexels.com/photo/collage-photo-of-woman-3812743/
+      image: https://images.pexels.com/photos/3812743/pexels-photo-3812743.jpeg
+      creator: Andrea Piacquadio
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        2f68b1c9: one square frame divided into equal panels, the same person in every panel,
+        plain light gutters, each panel a different state of one subject
+      differs: >
+        Picsart makes the panels unequal (two small left, one large right), the gutter black,
+        and puts a checkerboard behind the isolated panels
+    - url: https://www.pexels.com/photo/collage-photo-of-a-man-11972288/
+      image: https://images.pexels.com/photos/11972288/pexels-photo-11972288.jpeg
+      creator: polina
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        4604e99a: a tall composite of several panels of one subject at different crops, straight
+        edges, no perspective, panels flush to the frame
+      differs: >
+        Picsart is 1:1 and keeps colour; the panel count drops to three, with a pill button
+        under the large panel
+    - url: https://unsplash.com/photos/QhRXDjN16kc
+      image: https://images.unsplash.com/photo-1759197402865-ff08a07d2fe0
+      creator: Brooke Balentine
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        b95353fc: six small frames on one sheet, one framing repeated across them, even gutters,
+        the ground reads as the divider
+      differs: >
+        Picsart uses three panels, not six, staggers them instead of ruling them, and the ground
+        is black
+    - url: https://unsplash.com/photos/c3qSBwj3lcI
+      image: https://images.unsplash.com/photo-1645387326447-7f7ea34f0162
+      creator: Lucas George Wendt
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        b95353fc: one subject cut into several rectangular panels of unequal size, consistent
+        gutters, poster-flat, no depth
+      differs: >
+        Picsart rounds the panel corners, keeps the subject whole inside each panel, and drops
+        any caption
+    - url: https://unsplash.com/photos/6wXtZwWc2Jg
+      image: https://images.unsplash.com/photo-1571501325021-0e1edcd96b77
+      creator: Mockaroon
+      platform: Unsplash
+      licence: Unsplash
+      matches: >
+        4604e99a: a grid of panels on one flat ground with the same picture repeated, uniform
+        gutter, front-on
+      differs: >
+        Picsart breaks the uniform grid into a two-plus-one split and varies the state of the
+        subject between panels
+    - url: https://www.pexels.com/photo/instant-photos-placed-on-gray-surface-7447884/
+      image: https://images.pexels.com/photos/7447884/pexels-photo-7447884.jpeg
+      creator: Erik Mclean
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        b95353fc: several small framed pictures staggered across a plain grey ground, overhead,
+        each frame a separate panel with the ground as the gutter
+      differs: >
+        Picsart's panels are square, rounded and aligned to a diagonal, the ground is clean black,
+        and the white photo borders go
+    - url: https://www.pexels.com/photo/shirt-shoes-watch-wallet-and-string-9065153/
+      image: https://images.pexels.com/photos/9065153/pexels-photo-9065153.jpeg
+      creator: Denis Trushtin
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        2f68b1c9: the large result panel, five separate items spaced apart on one flat pale
+        ground, overhead, each item isolated with room around it
+      differs: >
+        Picsart adds the cutout portrait and a headline into the same field and crops it to the
+        right two thirds of a square
+    - url: https://www.pexels.com/photo/colorful-minimalist-shaving-razors-on-vibrant-background-36625151/
+      image: https://images.pexels.com/photos/36625151/pexels-photo-36625151.jpeg
+      creator: Valentin Ivantsov
+      platform: Pexels
+      licence: Pexels
+      matches: >
+        4604e99a: one product repeated as five near-identical copies, evenly spaced on a single
+        flat colour field, front-on, no depth cues
+      differs: >
+        Picsart splits the copies into separate panels rather than one field, two per composite,
+        and cuts each out onto a checkerboard

@@ -1,0 +1,144 @@
+sheet: cinematic-still-d18d63
+family: cinematic-still
+answers: cinematic-still-d18d63.answers.yaml
+anchors:
+- c3aaa9b3
+- d7c195e6
+- f68c0108
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-32086343
+    url: https://www.pexels.com/photo/colorful-donut-and-milkshake-on-yellow-background-32086343/
+    creator: Valeria Dominguez
+    platform: Pexels
+    score: 0.143
+    aspect_class: '3:4'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.234
+      cinematic-still: 0.143
+      vs-two-up: 0.079
+    explored: null
+  2:
+    id: pexels-7674929
+    url: https://www.pexels.com/photo/fruits-on-yellow-surface-7674929/
+    creator: Mikhail Nilov
+    platform: Pexels
+    score: 0.129
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.145
+      cinematic-still: 0.129
+    explored: null
+  3:
+    id: pexels-7545835
+    url: https://www.pexels.com/photo/pieces-of-orange-and-lime-up-in-the-air-7545835/
+    creator: JJ Jordan
+    platform: Pexels
+    score: 0.112
+    aspect_class: '4:5'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.259
+      cinematic-still: 0.112
+      graphic-collage: 0.06
+    explored: null
+  4:
+    id: pexels-10215983
+    url: https://www.pexels.com/photo/person-holding-blue-and-white-plastic-toy-car-10215983/
+    creator: DS stories
+    platform: Pexels
+    score: 0.075
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.299
+      graphic-collage: 0.145
+      full-bleed: 0.095
+    explored: null
+  5:
+    id: pexels-31744362
+    url: https://www.pexels.com/photo/earth-globe-in-ice-cream-cone-concept-31744362/
+    creator: Ann H
+    platform: Pexels
+    score: 0.075
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.144
+      outcome-tile: 0.133
+      full-bleed: 0.095
+    explored: null
+  6:
+    id: pexels-6837624
+    url: https://www.pexels.com/photo/burned-matchsticks-6837624/
+    creator: Nataliya Vaitkevich
+    platform: Pexels
+    score: 0.075
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.508
+      graphic-collage: 0.145
+      full-bleed: 0.095
+    explored: null
+  7:
+    id: pexels-10856215
+    url: https://www.pexels.com/photo/bearded-man-looking-over-shoulder-10856215/
+    creator: Nathan Marcam
+    platform: Pexels
+    score: 0.07
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.33
+      dark-composite: 0.104
+      graphic-collage: 0.097
+    explored: null
+  8:
+    id: pexels-17180388
+    url: https://www.pexels.com/photo/dark-studio-shot-of-a-young-woman-17180388/
+    creator: The Earthy Jay
+    platform: Pexels
+    score: 0.061
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      graphic-collage: 0.092
+      cinematic-still: 0.061
+    explored: null
+  9:
+    id: pexels-36731331
+    url: https://www.pexels.com/photo/creative-still-life-of-fish-on-blue-background-36731331/
+    creator: Valentin Ivantsov
+    platform: Pexels
+    score: 0.009
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.46
+      graphic-collage: 0.099
+      dark-composite: 0.072
+    explored: null

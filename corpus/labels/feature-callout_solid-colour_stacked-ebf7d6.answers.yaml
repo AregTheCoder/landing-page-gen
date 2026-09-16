@@ -1,0 +1,9 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a green sweater and brown pants walking past a wall, Before pill
+  family_hint: before-after
+  confidence: 0.55

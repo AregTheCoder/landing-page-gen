@@ -1,0 +1,120 @@
+1:
+  chrome: [tile, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: VIVA drink can cutout on checkerboard with aspect labels beside a hand holding the can
+  family_hint: other
+  confidence: 0.3
+  before_after: false
+2:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits in caps compared across GPT Image 1.5 and Flux 2 Pro pills
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+3:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a locker room shown twice compared across Luma Ray 2 and Kling 3.0
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+4:
+  chrome: [model-logo, pill]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: morning mug coffee packaging compared across Recraft V4 and Midjourney V7 pills
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false
+5:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: men drinking at a beach shown twice compared across Dall-e 3 and Midjourney
+  family_hint: vs-two-up
+  confidence: 0.85
+  before_after: false
+6:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel for a retro blue hairstyle beside a woman with blue hair and sunglasses
+  family_hint: prompt-card
+  confidence: 0.65
+  before_after: false
+7:
+  chrome: [prompt-panel, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel to recolor a blazer beside a woman in a purple blazer in a field
+  family_hint: prompt-card
+  confidence: 0.6
+  before_after: false
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: collage grid of a man skateboarding with dark tiles and an add-image tile
+  family_hint: template-mockup
+  confidence: 0.35
+  before_after: false
+9:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: mirror cube bag cutout on checkerboard with a prompt panel beside the bag in a desert
+  family_hint: prompt-card
+  confidence: 0.5
+  before_after: false
+10:
+  chrome: [model-logo, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: astronaut on a pink desert planet compared across Kling 3.0 and Veo 3.1
+  family_hint: vs-two-up
+  confidence: 0.8
+  before_after: false
+11:
+  chrome: [prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: GPT prompt panel for a fashion portrait beside a blonde woman in blue sunglasses
+  family_hint: prompt-card
+  confidence: 0.65
+  before_after: false
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: tomato brand grid with Tomano logo and the art of freshness tagline
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false

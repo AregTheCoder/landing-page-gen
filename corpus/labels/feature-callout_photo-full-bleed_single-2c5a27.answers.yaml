@@ -1,0 +1,108 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a building photo on the left and a line sketch of it on the right with a brush tile
+  family_hint: before-after
+  confidence: 0.4
+2:
+  chrome: [chip, play-button, slider]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt sentence over a warrior video with a Flux 3 chip and a video player
+  family_hint: prompt-card
+  confidence: 0.6
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a GPT Image 1 model result of sneakers on an armchair with model logo and size chips
+  family_hint: model-card
+  confidence: 0.45
+4:
+  chrome: [tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a classroom blackboard of kinematics equations with a sparkle tile and a caption
+  family_hint: prompt-card
+  confidence: 0.4
+5:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman seated on a white block on purple ground with a Before pill
+  family_hint: before-after
+  confidence: 0.75
+6:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a cinematic dragon on a cliff with a Grok Imagine chip and a 4K tile
+  family_hint: cinematic-still
+  confidence: 0.45
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a fuzzy pink felt flower over a fanned stack of landscape photo cards
+  family_hint: other
+  confidence: 0.3
+8:
+  chrome: [brackets, selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: a white sneaker on a pedestal with clouds inside crop brackets and edit handles
+  family_hint: editor-canvas
+  confidence: 0.5
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man operating a cinema camera rig against a blue fence
+  family_hint: full-bleed
+  confidence: 0.7
+10:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a social post mockup of a man in a face mask with meme text and reactions on yellow
+  family_hint: mockup-card
+  confidence: 0.7
+11:
+  chrome: [chip, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a portrait with a make it low poly isometric prompt chip and small style cards on pink
+  family_hint: prompt-card
+  confidence: 0.45
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: 3d-render
+  description: a 3d gift box on a cake with an AI Writer prompt panel and a Generate button
+  family_hint: prompt-card
+  confidence: 0.55

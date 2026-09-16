@@ -1,0 +1,33 @@
+1:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a yellow real estate sale card with a house photo above a row of template thumbnails
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: stacked
+  panel_count: 4
+2:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a portrait card over a large typographic backdrop beside a swatch column and tiles
+  family_hint: template-mockup
+  confidence: 0.85
+  layout: column-main
+  panel_count: 1
+3:
+  chrome: [tile, swatch, mockup-card, selection-handles]
+  text_in_image: body
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: an apple cutout with handles and cherries beside a blue bar menu card and swatches
+  family_hint: template-mockup
+  confidence: 0.8
+  layout: column-main
+  panel_count: 2

@@ -1,0 +1,12 @@
+1: {keep: false, subject: food, best_family: outcome-tile, note: two cropped people, flat pastel light, no cinematic grade}
+2: {keep: true, subject: object, note: bulb on rock at dusk, golden-hour gradient, closest to the traffic-light ref}
+3: {keep: true, subject: person, note: single subject, dark teal forest with saturated red accent, surreal clouds}
+4: {keep: true, subject: person, note: magenta neon bedroom glow, neon sign small and illegible}
+5: {keep: true, subject: person}
+6: {keep: true, subject: person, note: warm rim on dark ground, teal-orange moody portrait}
+7: {keep: false, subject: food, best_family: outcome-tile, note: flat-lay scatter pattern, no single subject or grade}
+8: {keep: false, subject: object, note: near-duplicate of 9 (tilt-shift toy vehicle, warm bokeh); subject too small}
+9: {keep: true, subject: object, note: blue toy car against warm bokeh, clean teal-orange, shallow depth}
+10: {keep: false, subject: person, note: large legible neon script fills the top third, text-heavy}
+11: {keep: false, subject: object, best_family: outcome-tile, note: flat pastel studio macro, no cinematic grade}
+12: {keep: true, subject: person, note: violet-amber bedroom split light; a second hand enters frame at left}

@@ -1,0 +1,189 @@
+sheet: cinematic-still-d571d9
+family: cinematic-still
+answers: cinematic-still-d571d9.answers.yaml
+anchors:
+- 4b4df875
+- a509d9ab
+- 2af4af3e
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-9399680
+    url: https://www.pexels.com/photo/woman-in-white-t-shirt-and-blue-denim-shorts-sitting-on-brown-wooden-bench-9399680/
+    creator: Thirdman
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.55
+    explored: null
+  2:
+    id: pexels-9508235
+    url: https://www.pexels.com/photo/a-woman-n-white-printed-long-sleeves-wearing-black-hat-while-looking-afar-9508235/
+    creator: Kseniia Kolomyts
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      full-bleed: 0.609
+    explored: null
+  3:
+    id: pexels-9589960
+    url: https://www.pexels.com/photo/a-beautiful-woman-with-her-hand-on-her-chin-9589960/
+    creator: Trarete
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      full-bleed: 0.748
+      editor-canvas: 0.679
+    explored: null
+  4:
+    id: pexels-9589962
+    url: https://www.pexels.com/photo/young-blond-woman-posing-on-yellow-background-9589962/
+    creator: Trarete
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      full-bleed: 0.577
+    explored: null
+  5:
+    id: pexels-38413118
+    url: https://www.pexels.com/photo/stylish-man-in-sunglasses-with-dramatic-lighting-38413118/
+    creator: Jonathan Goncalves
+    platform: Pexels
+    score: 0.749
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.767
+      cinematic-still: 0.749
+      outcome-tile: 0.733
+    explored: null
+  6:
+    id: pexels-13667562
+    url: https://www.pexels.com/photo/eye-of-man-in-shadow-13667562/
+    creator: GURYAN
+    platform: Pexels
+    score: 0.748
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.748
+      outcome-tile: 0.733
+      vs-two-up: 0.21
+    explored: null
+  7:
+    id: pexels-30434789
+    url: https://www.pexels.com/photo/woman-with-vintage-camera-outdoors-in-sunlight-30434789/
+    creator: Beyzanur K.
+    platform: Pexels
+    score: 0.748
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.748
+      outcome-tile: 0.733
+    explored: null
+  8:
+    id: pexels-6224521
+    url: https://www.pexels.com/photo/happy-woman-holding-a-pineapple-6224521/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.746
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: graphic-collage
+    family_scores:
+      graphic-collage: 0.776
+      full-bleed: 0.77
+      cinematic-still: 0.746
+    explored: null
+  9:
+    id: pexels-12824260
+    url: https://www.pexels.com/photo/person-leaning-on-orange-wall-12824260/
+    creator: Deni Priyo
+    platform: Pexels
+    score: 0.744
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.744
+      outcome-tile: 0.675
+      full-bleed: 0.66
+    explored: null
+  10:
+    id: pexels-4453707
+    url: https://www.pexels.com/photo/a-portrait-of-a-beautiful-woman-4453707/
+    creator: Nataliya Vaitkevich
+    platform: Pexels
+    score: 0.744
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.744
+      outcome-tile: 0.733
+    explored: null
+  11:
+    id: pexels-24235275
+    url: https://www.pexels.com/photo/redhead-woman-in-dim-light-24235275/
+    creator: Ferhat Tenşık
+    platform: Pexels
+    score: 0.741
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.741
+      outcome-tile: 0.733
+      before-after: 0.255
+    explored: null
+  12:
+    id: pexels-10381555
+    url: https://www.pexels.com/photo/a-woman-in-brown-turtleneck-shirt-10381555/
+    creator: Natalie Birdy
+    platform: Pexels
+    score: 0.738
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.738
+      outcome-tile: 0.733
+      before-after: 0.33
+    explored: null

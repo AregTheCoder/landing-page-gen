@@ -1,0 +1,22 @@
+1:
+  chrome: [prompt-panel, button, tile, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel with model picker beside a hand with red nails holding a red phone
+  family_hint: prompt-card
+  confidence: 0.7
+  ground: black
+  before_after: false
+2:
+  chrome: [selection-handles, brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  description: batch of flower vase photos each under a crop grid with corner selection handles
+  family_hint: editor-canvas
+  confidence: 0.5
+  ground: light-grey
+  before_after: false

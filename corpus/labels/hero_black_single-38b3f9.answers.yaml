@@ -1,0 +1,106 @@
+1:
+  chrome: [mockup-card, chip, button]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: scattered promo template cards of a sneaker with Order Now labels
+  family_hint: mockup-card
+  confidence: 0.45
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  description: a white upload icon tile centred on black
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  description: a Start Creating button centred on black
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a lone sparkler glowing in darkness
+  family_hint: cinematic-still
+  confidence: 0.5
+5:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a man photo with a Remove brush stroke erasing part of the image
+  family_hint: before-after
+  confidence: 0.5
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in pink fur amid a ruined city with three crop tiles below
+  family_hint: dark-composite
+  confidence: 0.5
+7:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  description: book cover template cards with titles on black
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: mixed
+  description: a phone editor mockup with a person cutout and holographic hearts
+  family_hint: other
+  confidence: 0.35
+9:
+  chrome: [mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: stacked certificate template cards on black
+  family_hint: template-mockup
+  confidence: 0.7
+10:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: brand and portfolio template cards with product photos
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: [tile, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a jam jar product photo with a text tool tile and a sticker panel
+  family_hint: template-mockup
+  confidence: 0.5
+12:
+  chrome: [mockup-card, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a purple monthly tasks timeline template with a Templates chip
+  family_hint: template-mockup
+  confidence: 0.65

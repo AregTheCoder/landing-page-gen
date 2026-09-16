@@ -9,7 +9,7 @@ family from that row, writes `> style: <family>[/<ground>]` into
 
 Where the families come from: every distinct generated-role asset in the
 corpus is described once by `lp-corpus attrs` (ground, layout, chrome,
-text, mockup, subject, finish; the values are the vocabulary below), the
+text, mockup, subject, art_style; the values are the vocabulary below), the
 rule table in `corpus/taxonomy.py` turns those attributes into a family
 and a ground variant, and `lp-corpus taxonomy` writes the cross-tab and
 contact sheets that the counts here cite. Counts are distinct assets
@@ -91,7 +91,7 @@ Tagging attributes (`lp-corpus attrs`, values exactly as `attrs.FIELDS`):
 - **text_in_image**: none | labels-only | headline | body
 - **ui_mockup**: none | editor-canvas | app-card | prompt-ui | product-card | browser-window | phone-frame
 - **subject**: person | product | scene | food | animal | abstract | typography | illustration | object | multiple
-- **finish**: photo | 3d | flat-illustration | collage | screenshot | mixed
+- **art_style**: photo | 3d-render | flat-vector | painterly-illustration | anime-cartoon | collage | typography | ui-screenshot | mixed
 
 ## Slot classes
 
@@ -147,7 +147,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Template:** lp-compose: dark-composite (1:1; variants reference-thumbs, model-picker, two-up). The `/light` ground needs a `ground:` override in the compose spec that does not exist yet; until then brief `/light` slots as the black default and say so in the report.
 **Chrome (lp-compose):** near-black tiles (`#1c1c1e`, a step lighter than the card so their edges read) with white line icons (sparkle, crop), one dark chip with a short white label. The chip text is per page: the resolution on tool pages (4K, 2K, 1080p), the output format on vector pages (SVG); set it in the compose spec with `chrome: {chip: {text: "SVG"}}`. The `model-picker` list card: blank grey rows with neutral discs, the active row lighter with a white check and, optionally, the page's own model short name (`chrome: {list: {active_text: "Recraft V4"}}`).
 **Panels (worker):** A `photo` (generate 3:4; 9:16 under `model-picker`): one editorial photograph of what the tool makes, a product, a person or a scene filling the frame, subject in the centre two thirds; sharp, saturated, natural or clean studio light; no border. Under `reference-thumbs` and `model-picker` also `thumb-a` and `thumb-b` (generate 1:1 and 4:3 respectively, `gemini-3-pro-image` like every panel): two smaller pictures in the same finish and palette as `photo` with different subjects, the references the copy says the model locks onto or the other outputs it was chosen among. Under `two-up` also `photo-b` (generate 9:16): a second output of the same style on its own ground.
-**Palette:** photo colours natural and saturated; chrome is black and white only.
+**Palette:** photo colours natural and saturated; chrome is black, white and one magenta accent tile (the page's active tool, in 8/13 corpus assets). The column sits on the LEFT and the main panel is usually a designed card, not an edge-to-edge photo (2026-09-15 audit; research/template-audit/dark-composite.md).
 **Text:** chrome text only: the chip label (4K, 2K, 1080p) is drawn by `lp-compose`. The photo carries no text unless `> text:` names a string (rare: a product's own printed name).
 **Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos; competitor model names or marks in the list card.
 **Examples:** f746795b (ai-models--seedream-4 S06-m1; on 24 ai-models pages), 4eeca13c (ai-models--recraft-v4-styles S07-m1), 0794e437 (compare-models--imagen-4-5-fast-vs-flux-2-pro S06-m1).
@@ -157,7 +157,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Use:** feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change background; the headline says before/after, fix, improve, transform.
 **Slots:** callout-1:1 (n=…), hero-1:1 (n=…).
 **Signature:** before_after=true; layout=stacked, two-up or column-main; chrome=pill; finish=photo (n=…).
-**Ground:** black (default) | none: two 1:1 panels side by side with no ground, the hero pair on tool pages (n=…).
+**Ground:** transparent (the compose export carries alpha; the page section supplies the surround — every corpus composite). The modal real layout is a WIDE ~2.1:1 card (`variant: wide`), not the 1:1 stack (2026-09-15 audit; research/template-audit/before-after.md).
 **Grid:** 1:1 (480): left column 600 wide with `before` 600x630 on top, `after` 600x630 below and an icon tile 600x280 at the bottom, `result` 970x1600 on the right showing the after image large; 16:9 (hero): before left, after right, a pill bottom-left of each, not templated; hero pair: two 1:1 panels, pills bottom-left, not templated.
 **Template:** lp-compose: before-after (1:1). The hero pair is briefed as `full-bleed` of the after panel until templated.
 **Chrome (lp-compose):** translucent dark pills "Before" and "After" bottom-left of the two small panels; a tile with the enlarge, crop or sparkle icon below them.
@@ -172,7 +172,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Use:** feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size, a platform format (Story, Reel, post) or says resize, crop, fit.
 **Slots:** callout-1:1 (n=…).
 **Signature:** chrome=brackets, size-label, tile; layout=column-main or two-up; ground=white or photo-full-bleed; finish=photo (n=…).
-**Ground:** white (default) | transparent: the rounded corners show the page (n=…).
+**Ground:** black (default; 10/13 in-family assets, all crop-image pages) | white (rare). The source panel is dimmed under the brackets and the top-left mark is a bare white icon, not a filled tile (2026-09-15 audit; research/template-audit/crop-frame.md).
 **Grid:** 1:1 (480): left column 780 wide with a wide icon tile 780x360 on top and the `source` photo 780x1200 below, brackets over its centre; `result` 780x1600 on the right shows the framed region enlarged; 16:9 (hero): source left, result right, brackets on the source, not templated.
 **Template:** lp-compose: crop-frame (1:1).
 **Chrome (lp-compose):** white bracket corners with mid-edge ticks on the source panel, a label under them (x2, 1080 x 1920 px, Story), a black tile with the enlarge or crop icon.
@@ -187,7 +187,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Use:** feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the headline says remove, cut out, transparent, sticker, batch, isolate.
 **Slots:** callout-1:1 (n=…).
 **Signature:** ground=checkerboard or black; chrome=badge, button, tile; layout=column-main or split; finish=photo (n=…).
-**Ground:** black (default) | checker: the checkerboard fills the ground instead of two panels (n=…).
+**Ground:** transparent (the compose export carries alpha; the page supplies black/white). Checker tone is dark on batch/sticker pages, light on background-remover pages (light-tone rendering is a deferred knob). Real checker panels are before/after splits — deferred, see research/template-audit/cutout-checkerboard.md.
 **Grid:** 1:1 (480): left column 510 wide with two checkerboard panels 510x780 stacked, each with a magenta badge top-right; `result` 1040x1290 on the right; a dark button 1010x190 under it; 16:9 (hero): checkerboard panels in a row, the result on the right, not templated.
 **Template:** lp-compose: cutout-checkerboard (1:1).
 **Chrome (lp-compose):** dark-grey checkerboard under the cutouts, magenta check badges, a solid dark button with a short generic label (Add to bag, Download, Apply to all).
@@ -202,7 +202,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Use:** feature-callout, use-case-grid and gallery tiles for template, poster, flyer, invitation, social-post, font and logo generators; the headline says template, design, customize, layout, brand.
 **Slots:** callout-1:1 (n=…), gallery-1:1 (n=…).
 **Signature:** chrome=mockup-card, tile, swatch; text_in_image=headline; layout=column-main or overlay; finish=photo or mixed (n=…).
-**Ground:** white (default, with tool tiles) | black: black ground with a magenta tile, a gradient swatch and a checkerboard cutout beside the card, the poster-maker look (n=…) | gradient: pink-to-purple, no tiles (n=…).
+**Ground:** transparent (the compose export carries alpha; the page supplies white/black — 12/14 assets). /black is the same artwork on a dark page (a fill override), not a separate drawing. The tile column is 3 MIXED tiles (one magenta), not 4 uniform black; the `photo` panel is the finished card design (the model renders the headline inside it — never blank bars). 2026-09-15 audit; research/template-audit/template-mockup.md.
 **Grid:** 1:1 (480): a column of four black icon tiles 260x260 on the left; one template card 860x1140 on the right with a headline box in its top third and the `photo` panel 740x660 below it; 16:9 (hero): two or three template cards side by side, flat, no perspective, not templated.
 **Template:** lp-compose: template-mockup (1:1, white). `/black` and `/gradient` are briefed as the white default until the ground override, the swatch and the checkerboard cutout exist as chrome; say so in the report.
 **Chrome (lp-compose):** the template card (solid `card.fill` colour), four black icon tiles (sparkle, crop, enlarge, check); the headline outline box exists in the template but is omitted (`omit: [headline]`) because the model renders the headline inside the photo panel; keep it, with blank bars, only when `> text:` is `none`. Corpus chrome not yet drawn: a magenta icon tile, a gradient swatch tile, a checkerboard cutout panel.

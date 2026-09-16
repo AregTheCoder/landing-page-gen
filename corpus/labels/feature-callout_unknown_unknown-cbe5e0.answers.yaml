@@ -1,0 +1,144 @@
+1:
+  chrome: [swatch, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: typography
+  description: black and white quote poster of a musician with a swatch strip and tiles
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: light-grey
+  layout: column-main
+  panel_count: 1
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: day one quote poster on a water photo beside small card thumbnails
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 3
+3:
+  chrome: [swatch, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: pink thank you card with a red car illustration and a swatch strip
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: light-grey
+  layout: column-main
+  panel_count: 1
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: get well soon floral card beside small greeting card thumbnails
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: light-grey
+  layout: column-main
+  panel_count: 4
+5:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: product
+  art_style: photo
+  description: gold lamp product photo and a frosty deals sale social post mockup
+  family_hint: template-mockup
+  confidence: 0.5
+  ground: white
+  layout: two-up
+  panel_count: 2
+6:
+  chrome: [tile, swatch]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: flower graphic cutout and a woman wearing the printed t-shirt with swatches
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: light-grey
+  layout: two-up
+  panel_count: 2
+7:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: animal
+  art_style: mixed
+  description: seafood menu poster with a crab illustration beside small menu thumbnails
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 4
+8:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: 2025 calendar template with a heart gradient beside small calendar thumbnails
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 4
+9:
+  chrome: [tile, swatch, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: we are growing social post with a woman a flower cutout and swatches
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: light-grey
+  layout: column-main
+  panel_count: 2
+10:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: flat-vector
+  description: pet shop flyer with a dog illustration font tile and swatch strip
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: two-up
+  panel_count: 2
+11:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  description: joyful birthday card with a blue balloon dog font tile and swatches
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: black
+  layout: two-up
+  panel_count: 2
+12:
+  chrome: [swatch, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: green holiday card with a tree font tile and a swatch strip
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: light-grey
+  layout: column-main
+  panel_count: 1

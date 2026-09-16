@@ -1,0 +1,81 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: t-shirt mockup with a green logo, a checkerboard cutout and a social post
+  family_hint: template-mockup
+  confidence: 0.45
+2:
+  chrome: [badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: ceramic pitcher photo on stacked cards with a check badge and 50 photos chip
+  family_hint: template-mockup
+  confidence: 0.35
+3:
+  chrome: [selection-handles]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: Travel Timeline document taped to a grid with selection handles
+  family_hint: template-mockup
+  confidence: 0.4
+4:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: Bon Voyage travel poster with a column of postcard thumbnails
+  family_hint: template-mockup
+  confidence: 0.55
+5:
+  chrome: [mockup-card, tile]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: typography
+  art_style: mixed
+  description: floral wedding invitation design with template thumbnails in an editor
+  family_hint: template-mockup
+  confidence: 0.5
+6:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: scene
+  art_style: photo
+  description: Daisy Days flower bouquet social post mockup
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [mockup-card, chip, button]
+  text_in_image: body
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: tote bag shop listing with price, rating and an Add to basket button
+  family_hint: mockup-card
+  confidence: 0.6
+8:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: product
+  art_style: photo
+  description: sunscreen reapply quiz cards on pink gradient with a social post
+  family_hint: template-mockup
+  confidence: 0.35
+9:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: Holly Jolly Pillow shop listing with a BUY button and cart icon
+  family_hint: mockup-card
+  confidence: 0.6

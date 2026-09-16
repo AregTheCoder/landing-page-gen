@@ -1,0 +1,108 @@
+1:
+  chrome: [pill, adjust-panel]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a floral bouquet with a GIF pill and a frames per second control strip below
+  family_hint: panel-overlay
+  confidence: 0.3
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a collage grid of embroidered ornaments and a man in patterned outfits with layout tiles
+  family_hint: graphic-collage
+  confidence: 0.4
+3:
+  chrome: [pill, slider, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a corgi lying in daisies with a GIF toggle and a playback slider
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two skateboarder videos labelled Hailuo 3 and Kling V3 with a prompt caption and model chips
+  family_hint: vs-two-up
+  confidence: 0.7
+5:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a tennis player mid swing with a Grok Imagine chip and a 4K tile
+  family_hint: cinematic-still
+  confidence: 0.4
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: painterly-illustration
+  description: a green line drawing of a kitchen interior over blue with brush and effect tiles
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [badge, button]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: green and navy caps with daisy patches on a checkerboard with check badges and an Add to bag button
+  family_hint: cutout-checkerboard
+  confidence: 0.65
+8:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two men labelled WAN 2.7 and Kling 3.0 with avatar chips and a 4K 60 fps tile
+  family_hint: vs-two-up
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a worried man in a suit on a rooftop in a cinematic frame
+  family_hint: cinematic-still
+  confidence: 0.5
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a skincare tube on wood with a fig and a minimal product prompt caption
+  family_hint: prompt-card
+  confidence: 0.4
+11:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a black and white portrait of a man in a jacket with an After pill
+  family_hint: before-after
+  confidence: 0.55
+12:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman with an iced drink with a cinematic prompt caption and Veo 4 chips
+  family_hint: prompt-card
+  confidence: 0.45

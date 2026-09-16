@@ -1,0 +1,108 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man running by a lake in two panels with a dark tool tile
+  family_hint: full-bleed
+  confidence: 0.3
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person in an orange beanie against crinkled plastic with a tool tile and audio waveform
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: [chip, play-button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: two fawns in red 3d glasses at a cinema in two frames with a prompt caption and Flux 3 chips
+  family_hint: prompt-card
+  confidence: 0.6
+4:
+  chrome: [pill, tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: GOOD THINGS gradient poster shown Before and After with a font list card and a T tile
+  family_hint: template-mockup
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: quadrant of drawing styles, a dog sketch, a pink doodle and a line face merging into a photo
+  family_hint: other
+  confidence: 0.3
+6:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman beside a column of clothing reference thumbnails and a 50 plus references chip
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a colourfully painted vase on yellow with a Before pill
+  family_hint: before-after
+  confidence: 0.6
+8:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: three women in green streetwear with graffiti holding a soccer ball, an Ideogram logo and 2K chip
+  family_hint: dark-composite
+  confidence: 0.4
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: ceramic moka espresso pots in a column of panels with a dark tool tile
+  family_hint: dark-composite
+  confidence: 0.4
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: posterized purple and cream pop-art portraits of a woman with a tool tile
+  family_hint: graphic-collage
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: flowers in blue and orange shopping bags on pink with a checkerboard extend border
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+12:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: blue and pink sneakers close-up beside a column of dark tool tiles
+  family_hint: dark-composite
+  confidence: 0.5

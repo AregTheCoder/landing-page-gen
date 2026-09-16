@@ -1,0 +1,12 @@
+1: {keep: true, subject: person, note: "golden-hour backlit avenue; unified warm grade; wider frame than most"}
+2: {keep: true, subject: person, note: "magenta/cyan neon key; saturated; single subject"}
+3: {keep: true, subject: person, note: "textbook teal-orange split across the face"}
+4: {keep: true, subject: person, note: "green/orange split profile; unified dark grade"}
+5: {keep: false, subject: food, best_family: outcome-tile, note: "top-down flat lay; flat studio light; no cinematic grade"}
+6: {keep: true, subject: person, note: "black veil with saturated orange on black; bold complementary studio colour"}
+7: {keep: true, subject: person, note: "single red key in darkness; dark but deliberate"}
+8: {keep: true, subject: person, note: "warm red wall; unified saturated grade"}
+9: {keep: false, subject: person, best_family: full-bleed, note: "soft ambient light; muted grade; no deliberate coloured key"}
+10: {keep: true, subject: person, note: "hard warm light band across face; dark surround"}
+11: {keep: true, subject: person, note: "blue key with hand shadow; low key but coloured"}
+12: {keep: true, subject: person, note: "teal grade with red rim; clean film-still read"}

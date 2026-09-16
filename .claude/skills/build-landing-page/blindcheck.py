@@ -1,6 +1,6 @@
 """Manager's blindness check of a run, before any worker is spawned.
 
-    uv run python .claude/skills/build-landing-page/blindcheck.py runs/<run>
+    uv run python .claude/skills/build-landing-page/blindcheck.py runs/<run> [Sxx]
 
 Reads slots.json for the page's own asset identifiers (the 8-hex uuid prefix
 of each src, as attrs.asset_id names it, and the 8-hex hash suffix of each
@@ -8,7 +8,12 @@ local file name), greps every sections/*/brief.md and sections/*/examples/*.md
 for them, and flags a brief frontmatter line (snapshot:, source:) that points a
 worker at the original. Prints one line per problem; exit 0 when the run is
 blind. `similar --exclude <page>` alone is not enough: a block shared
-site-wide (the tutorial grid) shows the page's own images on other pages."""
+site-wide (the tutorial grid) shows the page's own images on other pages.
+
+Pass one section id (Sxx) to check only that section, so the manager can clear
+and spawn a worker the moment its brief is written without waiting for the rest.
+The page-wide id set is read from slots.json either way, so a single-section
+check still catches this page's own images that leaked into that one brief."""
 import json
 import re
 import sys
@@ -31,14 +36,18 @@ def identifiers(slots):
     return ids
 
 
-def check(run):
+def check(run, section=None):
     run = Path(run)
     slots_path = run / "slots.json"
     if not slots_path.exists():
         return ["slots.json missing"]
     ids = identifiers(json.loads(slots_path.read_text())["slots"])
     problems = []
-    for sec in sorted((run / "sections").glob("S*")) if (run / "sections").exists() else []:
+    if section is not None:
+        secs = [run / "sections" / section] if (run / "sections" / section).exists() else []
+    else:
+        secs = sorted((run / "sections").glob("S*")) if (run / "sections").exists() else []
+    for sec in secs:
         for f in [sec / "brief.md", *sorted(sec.glob("examples/*.md"))]:
             if not f.exists():
                 continue
@@ -53,14 +62,16 @@ def check(run):
 
 
 def main(argv):
-    if len(argv) != 1:
+    if len(argv) not in (1, 2):
         print(__doc__)
         return 2
-    problems = check(argv[0])
+    run, section = argv[0], (argv[1] if len(argv) == 2 else None)
+    problems = check(run, section)
     for p in problems:
         print(p)
     if not problems:
-        print(f"{argv[0]}: blind (no original asset id or snapshot pointer in briefs and examples)")
+        scope = f"{run} {section}" if section else run
+        print(f"{scope}: blind (no original asset id or snapshot pointer in briefs and examples)")
     return 1 if problems else 0
 
 

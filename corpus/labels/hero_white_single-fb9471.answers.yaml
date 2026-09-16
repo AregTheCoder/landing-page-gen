@@ -1,0 +1,8 @@
+1:
+  chrome: [swatch, tile, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  art_style: mixed
+  description: a graphic designer resume template for Annie Carter with color swatches and font tiles
+  family_hint: template-mockup
+  confidence: 0.6

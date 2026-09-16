@@ -1,0 +1,9 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: taped before and after portrait prints showing a skin retouch on a womans face
+  family_hint: before-after
+  confidence: 0.85

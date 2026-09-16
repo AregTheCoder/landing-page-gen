@@ -16,7 +16,7 @@ from test_corpus import HERO1, fake_download_factory, hero_render, make_page
 HERO2 = HERO1.replace("hero1", "hero2")
 VIDEO = "https://cdn-cms-uploads.picsart.com/cms-uploads/style.webm"
 DARK_LIGHT = {"ground": "light-grey", "layout": "column-main", "panel_count": 1, "chrome": ["tile", "chip"],
-              "text_in_image": "labels-only", "ui_mockup": "none", "subject": "product", "finish": "photo",
+              "text_in_image": "labels-only", "ui_mockup": "none", "subject": "product", "art_style": "photo",
               "before_after": False, "description": "a product photo beside two tool tiles", "family_hint": "dark-composite",
               "confidence": 0.8}
 
@@ -50,11 +50,11 @@ def test_vocabulary_covers_every_field_and_the_rules_are_total():
         assert isinstance(values, tuple) or values in ("integer", "number", "boolean", "string"), name
         assert definition and label.check(name, next(iter(values)) if isinstance(values, tuple) else 1)[1] is None
     assert set(attrs.ENUMS["family_hint"]) == set(db.STYLES) | {"other"}
-    # every ground x layout x finish combination has an answer or is honestly unresolved
+    # every ground x layout x art_style combination has an answer or is honestly unresolved
     for g in attrs.ENUMS["ground"]:
         for lay in attrs.ENUMS["layout"]:
-            for fin in attrs.ENUMS["finish"]:
-                fam, variant = taxonomy.family_of({"ground": g, "layout": lay, "finish": fin, "chrome": [], "type": "hero"})
+            for art in attrs.ENUMS["art_style"]:
+                fam, variant = taxonomy.family_of({"ground": g, "layout": lay, "art_style": art, "chrome": [], "type": "hero"})
                 assert fam is None or fam in db.STYLES
 
 
@@ -107,12 +107,12 @@ def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypa
     assert saved[VIDEO]["kind"] == "video" and saved[VIDEO]["local"].endswith(".png")
     # a pass writes only what it measured, so a labelling merge that lands
     # while it runs survives its final save, and --force keeps the answers
-    labelled = dict(mapping[HERO1], subject="person", finish="photo", labelled=["finish", "subject"], source="sheet")
+    labelled = dict(mapping[HERO1], subject="person", art_style="photo", labelled=["art_style", "subject"], source="sheet")
     attrs.save({**attrs.load(yml), HERO1: labelled, "https://cdn.x/hand-written.png": {"ground": "white"}}, yml)
     mapping, stats = attrs.run(con, path=yml, frames_dir=frames, grabber=FakeGrabber(), force=True)
     assert stats["measured"] == 5 and "https://cdn.x/hand-written.png" in attrs.load(yml)
     again = attrs.load(yml)[HERO1]
-    assert again["subject"] == "person" and again["labelled"] == ["finish", "subject"] and again["source"] == "sheet"
+    assert again["subject"] == "person" and again["labelled"] == ["art_style", "subject"] and again["source"] == "sheet"
     assert again["ground"] == "solid-colour", "the pixel fields are measured again"
     # the sheet answers complete the record; the rule table then names a family
     for src in saved:
@@ -224,7 +224,7 @@ def test_sheets_group_the_pending_assets_and_labels_merge_the_answers(tmp_path):
     assert "chrome (list, any of tile" in index.read_text()
 
     answers = {1: {k: v for k, v in DARK_LIGHT.items() if k in sheets.SEMANTIC},
-               2: {"finish": "nope", "subject": "person"},
+               2: {"art_style": "nope", "subject": "person"},
                3: {"chrome": "tile, chip"},
                9: {"chrome": ["telephone"]},
                99: {"subject": "person"}}
@@ -232,13 +232,13 @@ def test_sheets_group_the_pending_assets_and_labels_merge_the_answers(tmp_path):
     merged, stats = label.ingest(mapping, tmp_path / "labels", log=lambda m: None)
     assert stats["answered"] == 1 and stats["sheets"] == 3 and stats["cells"] == 3
     one = merged["https://cdn.x/00000000-aaaa.png"]
-    assert one["source"] == "sheet" and one["sheet"] == first["name"] and one["finish"] == "photo"
+    assert one["source"] == "sheet" and one["sheet"] == first["name"] and one["art_style"] == "photo"
     assert one["labelled"] == sorted(sheets.SEMANTIC) and one["ground"] == "black", "measured fields survive"
     assert taxonomy.family_of(one) == ("dark-composite", None), "black is the family default ground"
     two = merged["https://cdn.x/00000001-aaaa.png"]
-    assert two["subject"] == "person" and "finish" not in two, "a value outside the enum is dropped, not written"
+    assert two["subject"] == "person" and "art_style" not in two, "a value outside the enum is dropped, not written"
     assert merged["https://cdn.x/00000002-aaaa.png"]["chrome"] == ["chip", "tile"], "a comma list is a chrome list"
-    assert any("finish: 'nope'" in e for e in stats["errors"])
+    assert any("art_style: 'nope'" in e for e in stats["errors"])
     assert any("chrome: telephone" in e for e in stats["errors"])
     assert any("cell 99" in e for e in stats["errors"])
     cov = label.coverage(merged)
@@ -259,35 +259,35 @@ def test_rules_table_and_role_fix():
     cases = [
         ({"before_after": True, "ground": "black"}, ("before-after", None)),
         ({"chrome": ["brackets", "tile"], "ground": "white"}, ("crop-frame", None)),
-        ({"ground": "checkerboard", "finish": "photo"}, ("cutout-checkerboard", "checker")),
+        ({"ground": "checkerboard", "art_style": "photo"}, ("cutout-checkerboard", "checker")),
         ({"chrome": ["prompt-panel"], "ground": "black"}, ("prompt-card", None)),
         ({"layout": "two-up", "chrome": ["vs-badge", "pill"], "ground": "light-grey"}, ("vs-two-up", None)),
         ({"ui_mockup": "app-card", "ground": "black", "layout": "split"}, ("mockup-card", None)),
         ({"chrome": ["mockup-card", "tile"], "text_in_image": "headline", "ground": "black"}, ("template-mockup", "black")),
         ({"ui_mockup": "editor-canvas", "type": "link-grid", "ground": "white"}, ("editor-canvas", None)),
-        ({"chrome": ["adjust-panel", "chip", "slider"], "ground": "photo-full-bleed", "layout": "overlay", "finish": "photo",
+        ({"chrome": ["adjust-panel", "chip", "slider"], "ground": "photo-full-bleed", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", None)),
-        ({"chrome": ["adjust-panel", "slider"], "ground": "white", "layout": "overlay", "finish": "photo",
+        ({"chrome": ["adjust-panel", "slider"], "ground": "white", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", "white")),
-        ({"chrome": ["pill", "badge"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "finish": "photo",
+        ({"chrome": ["pill", "badge"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("panel-overlay", None)),
-        ({"chrome": ["pill"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "finish": "photo",
+        ({"chrome": ["pill"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("full-bleed", None)),
-        ({"chrome": ["slider", "tile"], "ground": "black", "layout": "column-main", "finish": "photo", "type": "feature-callout"},
+        ({"chrome": ["slider", "tile"], "ground": "black", "layout": "column-main", "art_style": "photo", "type": "feature-callout"},
          ("dark-composite", None)),  # a slider alone is not the panel: only overlay layouts or adjust-panel say panel-overlay
         ({"type": "link-grid", "chrome": ["chip"], "ground": "light-grey", "layout": "stacked"}, ("model-card", None)),
         (DARK_LIGHT, ("dark-composite", "light")),
         ({"ground": "photo-full-bleed", "aspect_class": "9:16", "type": "gallery", "panel_count": 1}, ("cinematic-still", None)),
-        ({"finish": "collage", "ground": "solid-colour"}, ("graphic-collage", None)),
+        ({"art_style": "collage", "ground": "solid-colour"}, ("graphic-collage", None)),
         ({"type": "gallery", "ground": "white", "size": "tile", "panel_count": 1}, ("outcome-tile", None)),
         ({"ground": "photo-full-bleed", "panel_count": 1, "type": "hero", "aspect_class": "1:1"}, ("full-bleed", None)),
         ({"ground": "gradient", "layout": "grid", "panel_count": 6}, (None, None)),
     ]
     for rec, expected in cases:
         assert taxonomy.family_of(rec) == expected, rec
-    assert taxonomy.role_fix({"role": "creative", "finish": "screenshot"}) == "ui-screenshot"
-    assert taxonomy.role_fix({"role": "creative", "ui_mockup": "app-card", "finish": "photo"}) is None
-    assert taxonomy.role_fix({"role": "ui-screenshot", "finish": "photo", "ui_mockup": "none"}) == "creative"
+    assert taxonomy.role_fix({"role": "creative", "art_style": "ui-screenshot"}) == "ui-screenshot"
+    assert taxonomy.role_fix({"role": "creative", "ui_mockup": "app-card", "art_style": "photo"}) is None
+    assert taxonomy.role_fix({"role": "ui-screenshot", "art_style": "photo", "ui_mockup": "none"}) == "creative"
     assert taxonomy.style_label("dark-composite", "light") == "dark-composite/light"
 
 
@@ -345,7 +345,11 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
 def test_styles_derive_keeps_manual_entries():
     existing = {"a": {"style": "full-bleed", "confidence": 1.0, "page": "x", "slot": "S01-m1"},
                 "b": {"style": "crop-frame", "source": "rules", "page": "y", "slot": "S02-m1"}}
-    derived = styles.derive({"a": DARK_LIGHT, "b": DARK_LIGHT, "c": {"ground": "gradient", "layout": "grid"}}, existing)
+    # 'd' resolves to a family from pixels alone (no chrome answered) -> provisional
+    unlabelled = {"ground": "photo-full-bleed", "panel_count": 1, "type": "hero"}
+    derived = styles.derive({"a": DARK_LIGHT, "b": DARK_LIGHT, "c": {"ground": "gradient", "layout": "grid"}, "d": unlabelled}, existing)
     assert derived["a"]["style"] == "full-bleed", "legacy entries without a source count as manual"
     assert derived["b"] == {"style": "dark-composite", "variant": "light", "confidence": 0.8, "page": None, "slot": None, "source": "rules"}
     assert "c" not in derived, "unresolved assets get no style entry"
+    assert derived["d"]["style"] == "full-bleed" and derived["d"]["provisional"] is True, "a chrome-unanswered tag is provisional"
+    assert "provisional" not in derived["b"], "a chrome-answered tag is trusted, no provisional flag"

@@ -1,0 +1,108 @@
+1:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait results of a woman with flowers, VS badge, Recraft V4 vs Midjourney V7 pills
+  family_hint: vs-two-up
+  confidence: 0.85
+2:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait results of a woman with flowers, VS badge, Recraft V4 vs Midjourney V7 pills
+  family_hint: vs-two-up
+  confidence: 0.85
+3:
+  chrome: [chip, tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  before_after: false
+  description: three small labelled input image cards and a logo tile beside one main person-and-bag result
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: [chip, tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  before_after: false
+  description: three small labelled input image cards and a logo tile beside one main person-and-bag result
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  before_after: false
+  description: two talking-head video frames beside a white script card and a language-flags tile
+  family_hint: prompt-card
+  confidence: 0.35
+6:
+  chrome: [chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  before_after: false
+  description: two talking-head video frames beside a white script card and a language-flags tile
+  family_hint: prompt-card
+  confidence: 0.35
+7:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait results of a man in a denim cap, VS badge, Flux 2 Pro vs Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.85
+8:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait results of a man in a denim cap, VS badge, Flux 2 Pro vs Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.85
+9:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait scene results of women, VS badge, Seedance 2.0 vs Kling 3.0 pills
+  family_hint: vs-two-up
+  confidence: 0.85
+10:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  before_after: false
+  description: two portrait scene results of women, VS badge, Seedance 2.0 vs Kling 3.0 pills
+  family_hint: vs-two-up
+  confidence: 0.85
+11:
+  chrome: [mockup-card, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: scene
+  before_after: false
+  description: a select-voice UI card and audio waveform over a coffee-machine photo
+  family_hint: mockup-card
+  confidence: 0.3
+12:
+  chrome: [mockup-card, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: scene
+  before_after: false
+  description: a select-voice UI card and audio waveform over a coffee-machine photo
+  family_hint: mockup-card
+  confidence: 0.3

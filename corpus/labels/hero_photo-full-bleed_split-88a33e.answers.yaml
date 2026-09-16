@@ -1,0 +1,100 @@
+1:
+  chrome: [tile, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: hand photo split by a slider revealing a transparent checkerboard side
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+2:
+  chrome: [tile, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: portrait with sunglasses split by a before after enhancement slider
+  family_hint: before-after
+  confidence: 0.5
+3:
+  chrome: [tile, play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: hands holding a green lollipop across two panels with editor tiles
+  family_hint: full-bleed
+  confidence: 0.3
+4:
+  chrome: [tile, play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  before_after: false
+  description: reference thumbnails of a person and hamster beside animated outputs
+  family_hint: prompt-card
+  confidence: 0.3
+5:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two video model cards Runway Gen 4 and Veo compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.6
+6:
+  chrome: [pill, vs-badge, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two portraits with grills compared Nano Banana 2 versus Flux 2 Pro
+  family_hint: vs-two-up
+  confidence: 0.9
+7:
+  chrome: [pill, vs-badge, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two women eating burgers compared Dall-e 3 versus Midjourney
+  family_hint: vs-two-up
+  confidence: 0.9
+8:
+  chrome: [pill, vs-badge, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two people holding giant flowers compared Recraft V4 versus Midjourney
+  family_hint: vs-two-up
+  confidence: 0.9
+9:
+  chrome: [pill, vs-badge, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two sunglasses portraits compared Recraft V4 versus Ideogram 3.0 Flash
+  family_hint: vs-two-up
+  confidence: 0.9
+10:
+  chrome: [pill, vs-badge, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two denim cap portraits compared Flux 2 Pro versus Midjourney
+  family_hint: vs-two-up
+  confidence: 0.9

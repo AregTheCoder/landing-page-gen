@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, model-logo, play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black model logo tile beside portrait photos on an ai model card
+  family_hint: model-card
+  confidence: 0.6
+2:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: illustration
+  art_style: 3d-render
+  description: a dark prompt card with a generate button beside a 3d boy character
+  family_hint: prompt-card
+  confidence: 0.8
+3:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black model logo tile beside a woman in a field and a city street
+  family_hint: model-card
+  confidence: 0.6
+4:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black model logo tile beside a woman in a field and a city street
+  family_hint: model-card
+  confidence: 0.6
+5:
+  chrome: [tile, model-logo, play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black icon tile beside a woman in pink and a destroyed city street
+  family_hint: model-card
+  confidence: 0.5
+6:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a black model logo tile beside a street walker and a runner silhouette
+  family_hint: model-card
+  confidence: 0.6
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  description: a hair salon ad prompt card beside a designed boring hair social post
+  family_hint: prompt-card
+  confidence: 0.5
+8:
+  chrome: [tile, play-button]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: black video tool tiles beside a woman holding a hairbrush with a caption
+  family_hint: model-card
+  confidence: 0.4
+9:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black model logo tile beside a camera product and a selfie photo
+  family_hint: model-card
+  confidence: 0.6
+10:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a black model logo tile beside a camera product and a selfie photo
+  family_hint: model-card
+  confidence: 0.6
+11:
+  chrome: [tile, model-logo, play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a black model logo tile beside flying supplement bottles and tennis balls
+  family_hint: model-card
+  confidence: 0.55
+12:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a petal sound concert poster with a flowered landscape and icon tiles
+  family_hint: template-mockup
+  confidence: 0.6

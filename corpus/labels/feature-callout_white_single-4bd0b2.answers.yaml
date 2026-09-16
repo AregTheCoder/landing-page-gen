@@ -1,0 +1,108 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: stacked magazine cover posters of a person in Korean localization variants
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white planet line icon
+  family_hint: other
+  confidence: 0.3
+3:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: mixed
+  description: a prompt card beside an Italian film festival poster
+  family_hint: template-mockup
+  confidence: 0.45
+4:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: a prompt card beside a Let It Flow gradient poster
+  family_hint: template-mockup
+  confidence: 0.45
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+7:
+  chrome: [prompt-panel, button, mockup-card, swatch]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a coffee brand kit with prompt, color palette, logo tiles and a Cups cup photo
+  family_hint: template-mockup
+  confidence: 0.45
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman holding a cup in a vertical portrait
+  family_hint: full-bleed
+  confidence: 0.5
+10:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: a prompt card beside a Thirty Years of Excellence anniversary poster
+  family_hint: template-mockup
+  confidence: 0.45
+11:
+  chrome: [mockup-card, play-button, tile, button]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: food
+  art_style: mixed
+  description: a Pastry of the Month ad card with a croissant and a shop online button
+  family_hint: mockup-card
+  confidence: 0.45
+12:
+  chrome: [mockup-card, swatch]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: a blum brand identity kit with cards, color palette, logos and a portrait
+  family_hint: template-mockup
+  confidence: 0.5

@@ -1,0 +1,144 @@
+1:
+  chrome: [tile, selection-handles, chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: mixed
+  description: cookie social post on an editor canvas with format tabs and a selected sticker
+  family_hint: editor-canvas
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+2:
+  chrome: [chip, badge, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: two bucket hat product cards with prices and a shop link bar
+  family_hint: mockup-card
+  confidence: 0.6
+  ground: white
+  layout: two-up
+  panel_count: 2
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: uni days campus collage banner with students and photo cutouts
+  family_hint: template-mockup
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 2
+4:
+  chrome: [chip, play-button, mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: talking head video still with a progress bar and caption cards
+  family_hint: full-bleed
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+5:
+  chrome: [mockup-card, button, brackets]
+  text_in_image: headline
+  ui_mockup: browser-window
+  subject: product
+  art_style: photo
+  description: lipstick cutout and a spring sale shop browser mockup with thumbnails
+  family_hint: mockup-card
+  confidence: 0.5
+  ground: white
+  layout: column-main
+  panel_count: 3
+6:
+  chrome: [tile, swatch]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: architecture conference schedule card with a font tile and swatch strip
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: light-grey
+  layout: column-main
+  panel_count: 1
+7:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: hands holding a product with a fifty percent off poster and black tool tiles
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: black
+  layout: column-main
+  panel_count: 2
+8:
+  chrome: [tile, mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: make a change youtube thumbnail below a row of black editor tiles
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: black
+  layout: column-main
+  panel_count: 1
+9:
+  chrome: [selection-handles, tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: serum bottle on a rainbow scene with a crop grid overlay and an ai tile
+  family_hint: crop-frame
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: overlay
+  panel_count: 2
+10:
+  chrome: [size-label, pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: manicure story video with a back to school sticker and a size label
+  family_hint: crop-frame
+  confidence: 0.4
+  ground: photo-full-bleed
+  layout: single
+  panel_count: 1
+11:
+  chrome: [mockup-card, chip, tile]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: stacked portrait style cards with social icons and style labels
+  family_hint: mockup-card
+  confidence: 0.4
+  ground: light-grey
+  layout: overlay
+  panel_count: 3
+12:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: valentine invitation card and a person holding it over a red curtain
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: light-grey
+  layout: two-up
+  panel_count: 2

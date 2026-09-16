@@ -1,0 +1,10 @@
+1:
+  chrome: [tile, badge, play-button, chip]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two photos of people at a gallery with an add-image tile and a play button
+  family_hint: editor-canvas
+  confidence: 0.4

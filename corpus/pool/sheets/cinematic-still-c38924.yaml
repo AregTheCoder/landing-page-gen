@@ -1,0 +1,189 @@
+sheet: cinematic-still-c38924
+family: cinematic-still
+answers: cinematic-still-c38924.answers.yaml
+anchors:
+- 4b4a4a54
+- a509d9ab
+- d1102444
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-15792394
+    url: https://www.pexels.com/photo/young-man-in-a-velvet-blouse-and-orange-sunglasses-15792394/
+    creator: Nino  Sanger
+    platform: Pexels
+    score: 0.574
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.574
+      before-after: 0.266
+    explored: null
+  2:
+    id: pexels-19491829
+    url: https://www.pexels.com/photo/a-woman-in-a-pink-corset-sitting-on-a-bed-with-a-can-of-soda-19491829/
+    creator: Karina Rymarchuk
+    platform: Pexels
+    score: 0.572
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.572
+      graphic-collage: 0.23
+    explored: null
+  3:
+    id: pexels-34015479
+    url: https://www.pexels.com/photo/vibrant-colored-candy-in-glass-jar-reflection-34015479/
+    creator: Eterna  Media
+    platform: Pexels
+    score: 0.572
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.572
+      outcome-tile: 0.554
+      graphic-collage: 0.179
+    explored: null
+  4:
+    id: pexels-17488505
+    url: https://www.pexels.com/photo/bearded-brunette-in-tshirt-17488505/
+    creator: Daniel Pratt
+    platform: Pexels
+    score: 0.567
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.567
+      graphic-collage: 0.111
+    explored: null
+  5:
+    id: pexels-27583999
+    url: https://www.pexels.com/photo/a-man-sitting-in-the-dark-with-smoke-coming-out-of-his-mouth-27583999/
+    creator: Manish Jangid
+    platform: Pexels
+    score: 0.567
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.567
+      full-bleed: 0.517
+    explored: null
+  6:
+    id: pexels-29845130
+    url: https://www.pexels.com/photo/young-woman-in-sunlit-forest-portrait-29845130/
+    creator: Prayatna Maharjan
+    platform: Pexels
+    score: 0.567
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.567
+      graphic-collage: 0.325
+    explored: null
+  7:
+    id: pexels-18899427
+    url: https://www.pexels.com/photo/young-woman-with-red-hair-wearing-orange-blouse-posing-on-a-bridge-18899427/
+    creator: Cihan Karacayir
+    platform: Pexels
+    score: 0.562
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.767
+      outcome-tile: 0.733
+      cinematic-still: 0.562
+    explored: null
+  8:
+    id: pexels-13452789
+    url: https://www.pexels.com/photo/beautiful-girl-posing-in-black-dress-13452789/
+    creator: Breno Cardoso
+    platform: Pexels
+    score: 0.561
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.561
+      graphic-collage: 0.242
+    explored: null
+  9:
+    id: pexels-36991328
+    url: https://www.pexels.com/photo/dramatic-portrait-with-red-backlighting-36991328/
+    creator: Daniil Kondrashin
+    platform: Pexels
+    score: 0.561
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.561
+      before-after: 0.331
+    explored: null
+  10:
+    id: pexels-6698319
+    url: https://www.pexels.com/photo/a-young-woman-in-a-red-turtleneck-sweater-sitting-on-a-bed-6698319/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.561
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.561
+      graphic-collage: 0.398
+    explored: null
+  11:
+    id: pexels-34742150
+    url: https://www.pexels.com/photo/moody-portrait-in-dramatic-lighting-34742150/
+    creator: Sebastiaan Stam
+    platform: Pexels
+    score: 0.557
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.887
+      cinematic-still: 0.557
+      graphic-collage: 0.163
+    explored: null
+  12:
+    id: pexels-20100636
+    url: https://www.pexels.com/photo/a-person-standing-outdoors-at-sunset-20100636/
+    creator: terence b
+    platform: Pexels
+    score: 0.554
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.554
+      full-bleed: 0.494
+    explored: null

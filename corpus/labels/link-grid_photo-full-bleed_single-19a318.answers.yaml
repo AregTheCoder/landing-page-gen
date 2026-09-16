@@ -1,0 +1,108 @@
+1:
+  chrome: [selection-handles, brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: seated person in denim on a canvas with crop brackets and a rule-of-thirds grid
+  family_hint: editor-canvas
+  confidence: 0.5
+2:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: seated person in denim on a canvas with selection handles
+  family_hint: editor-canvas
+  confidence: 0.5
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: collage of made-up beauty faces with a large white ai wordmark
+  family_hint: graphic-collage
+  confidence: 0.5
+4:
+  chrome: [badge, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: sneaker shown transparent then on white with numbered badges and a slider
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man portrait with blue neon concentric line effect
+  family_hint: full-bleed
+  confidence: 0.6
+6:
+  chrome: [mockup-card, swatch]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: t-shirt mockups with a Y23 logo pattern colour swatches and a grid
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [play-button, mockup-card, badge]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in an orange room with floating cutout thumbnails and a play button
+  family_hint: full-bleed
+  confidence: 0.4
+8:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: scene
+  art_style: photo
+  description: palm tree on pink clouds with selection handles for adding a shadow
+  family_hint: editor-canvas
+  confidence: 0.4
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: circular cutouts of a woman with one transparent checkerboard disc on gradient
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+10:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  description: two white sneaker panels on different backgrounds with selection handles
+  family_hint: editor-canvas
+  confidence: 0.4
+11:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: serum brand ad card with a headline prompt panel and a generate button
+  family_hint: prompt-card
+  confidence: 0.5
+12:
+  chrome: [selection-handles, button]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: food
+  art_style: photo
+  description: cake photo with The Sweet Life script text a selection box and an AI Writer button
+  family_hint: editor-canvas
+  confidence: 0.5

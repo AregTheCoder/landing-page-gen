@@ -1,0 +1,133 @@
+1:
+  chrome: [chip, slider]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a video caption editor with a woman in red and a playback slider
+  family_hint: editor-canvas
+  confidence: 0.55
+  layout: single
+  panel_count: 1
+2:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: stacked business card designs with a red Maggs name card
+  family_hint: template-mockup
+  confidence: 0.7
+  layout: stacked
+  panel_count: 3
+3:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a Flavor Feast food flyer template with a ramen bowl over other design cards
+  family_hint: template-mockup
+  confidence: 0.7
+  layout: stacked
+  panel_count: 3
+4:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a 90s theme party invitation template beside an illustrated card and a tool tile
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: column-main
+  panel_count: 2
+5:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a 90s theme party invitation template beside an illustrated card and a tool tile
+  family_hint: template-mockup
+  confidence: 0.75
+  layout: column-main
+  panel_count: 2
+6:
+  chrome: [chip, slider]
+  text_in_image: body
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a voiceover script editor with a woman in pink and a playback slider
+  family_hint: editor-canvas
+  confidence: 0.55
+  layout: single
+  panel_count: 1
+7:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a giant woman in pink fur in a collapsing city with three detail chips below
+  family_hint: model-card
+  confidence: 0.5
+  layout: stacked
+  panel_count: 1
+8:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a giant woman in pink fur in a collapsing city with three detail chips below
+  family_hint: model-card
+  confidence: 0.5
+  layout: stacked
+  panel_count: 1
+9:
+  chrome: [chip, play-button]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a man running up a dune with a motivational caption and a film strip of frames
+  family_hint: editor-canvas
+  confidence: 0.5
+  layout: stacked
+  panel_count: 1
+10:
+  chrome: [chip, play-button]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a man running up a dune with a motivational caption and a film strip of frames
+  family_hint: editor-canvas
+  confidence: 0.5
+  layout: stacked
+  panel_count: 1
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a photo edit prompt panel replacing a sweater beside park photos and a result
+  family_hint: prompt-card
+  confidence: 0.6
+  layout: grid
+  panel_count: 4
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: 3d-render
+  description: a 3d night sailboat scene inset over a purple gridded ground
+  family_hint: other
+  confidence: 0.4
+  ground: gradient
+  layout: overlay
+  panel_count: 2

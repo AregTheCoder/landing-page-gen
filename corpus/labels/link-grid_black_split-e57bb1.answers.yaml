@@ -1,0 +1,10 @@
+1:
+  art_style: 3d-render
+  before_after: false
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  family_hint: dark-composite
+  confidence: 0.5
+  description: 3d cartoon boy against sky with a column of reference thumbnails and tool tiles

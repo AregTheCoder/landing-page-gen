@@ -1,0 +1,27 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a Discover the Wild safari brochure with elephants text and round photos
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: [prompt-panel, button, play-button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: mixed
+  description: a Coastal summer prompt card with Generate button beside a coastal clip
+  family_hint: prompt-card
+  confidence: 0.8
+3:
+  chrome: [prompt-panel, slider, play-button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a new bouquet prompt card with a 5x slider beside a woman holding flowers
+  family_hint: prompt-card
+  confidence: 0.75

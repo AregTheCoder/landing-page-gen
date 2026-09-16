@@ -1,0 +1,108 @@
+1:
+  chrome: [vs-badge, model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: two model result panels with a VS badge and On toggle chips
+  family_hint: vs-two-up
+  confidence: 0.7
+2:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman leaping in orange outfit against sky with an After pill
+  family_hint: before-after
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in pink dress floating against a sunset sky with flying objects
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: coding monitor on a desk in a dark room
+  family_hint: full-bleed
+  confidence: 0.8
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman in a lavender fleece jacket
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  description: cute 3d monkey in a stylized rocky garden
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: [arrow, brackets]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: animal
+  art_style: photo
+  description: dog with sunflower on checkerboard with expand arrows and a dashed crop box
+  family_hint: crop-frame
+  confidence: 0.5
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: pink handbag over a ukiyo-e wave and Mount Fuji print
+  family_hint: full-bleed
+  confidence: 0.5
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman taking a street selfie with a Before pill
+  family_hint: before-after
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: dusk mountain landscape reflected in a still lake
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: patterned socks on coloured mockup cards with editor tool tiles
+  family_hint: template-mockup
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: steampunk woman in a brass diving helmet
+  family_hint: full-bleed
+  confidence: 0.7

@@ -1,0 +1,189 @@
+sheet: cinematic-still-4911b4
+family: cinematic-still
+answers: cinematic-still-4911b4.answers.yaml
+anchors:
+- a509d9ab
+- 4b4df875
+- 379118c8
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-12442352
+    url: https://www.pexels.com/photo/a-woman-in-black-coat-12442352/
+    creator: Ernest   Ghazaryan
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.504
+    explored: null
+  2:
+    id: pexels-12817682
+    url: https://www.pexels.com/photo/a-young-woman-in-a-trendy-outfit-12817682/
+    creator: Jace Oner
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.536
+    explored: null
+  3:
+    id: pexels-13306757
+    url: https://www.pexels.com/photo/black-and-white-photo-of-woman-s-face-13306757/
+    creator: ἐμμανυελ  
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.374
+    explored: null
+  4:
+    id: pexels-17453352
+    url: https://www.pexels.com/photo/brunette-woman-in-black-jacket-posing-under-fans-on-ceiling-17453352/
+    creator: Chetan Jha
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      graphic-collage: 0.319
+    explored: null
+  5:
+    id: pexels-20138801
+    url: https://www.pexels.com/photo/woman-with-red-hair-in-blue-shirt-20138801/
+    creator: Esra Erdem
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.42
+    explored: null
+  6:
+    id: pexels-28517487
+    url: https://www.pexels.com/photo/portrait-of-young-woman-with-soft-lighting-28517487/
+    creator: aaerux studio
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.493
+    explored: null
+  7:
+    id: pexels-31419693
+    url: https://www.pexels.com/photo/casual-portrait-in-urban-setting-31419693/
+    creator: Ian Findley
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-32982414
+    url: https://www.pexels.com/photo/contemplative-woman-with-modern-style-and-tattoos-32982414/
+    creator: Alireza Heidarpour
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.399
+    explored: null
+  9:
+    id: pexels-38178735
+    url: https://www.pexels.com/photo/moody-black-and-white-portrait-of-a-woman-38178735/
+    creator: Uday Veeru
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.589
+    explored: null
+  10:
+    id: pexels-3893187
+    url: https://www.pexels.com/photo/photo-of-woman-holding-her-face-3893187/
+    creator: Youssef Hodroj
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.713
+    explored: null
+  11:
+    id: pexels-39396020
+    url: https://www.pexels.com/photo/stylish-woman-in-retro-fashion-with-sunglasses-39396020/
+    creator: Mahdi Bafande
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      graphic-collage: 0.532
+    explored: null
+  12:
+    id: pexels-6500633
+    url: https://www.pexels.com/photo/grayscale-photo-of-a-pretty-woman-6500633/
+    creator: Alexander Krivitskiy
+    platform: Pexels
+    score: 1.0
+    aspect_class: '9:16'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 1.0
+      outcome-tile: 0.887
+      before-after: 0.592
+    explored: null

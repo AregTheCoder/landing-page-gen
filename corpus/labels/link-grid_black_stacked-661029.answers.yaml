@@ -1,0 +1,45 @@
+1:
+  art_style: photo
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  family_hint: prompt-card
+  confidence: 0.5
+  description: high-fashion floral beauty portrait above a prompt caption with a model logo
+2:
+  art_style: photo
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  family_hint: prompt-card
+  confidence: 0.5
+  description: product panels including an emerald suede bag above a prompt caption with a model logo
+3:
+  art_style: photo
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  family_hint: prompt-card
+  confidence: 0.5
+  description: fisheye diner photo of a woman eating cereal above a prompt caption chip
+4:
+  art_style: photo
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: scene
+  family_hint: dark-composite
+  confidence: 0.4
+  description: surreal flower garden panels behind an ai wordmark with a prompt chip and layers
+5:
+  art_style: photo
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  family_hint: prompt-card
+  confidence: 0.5
+  description: panels of a woman holding giant flowers in a field above a prompt caption with a model logo

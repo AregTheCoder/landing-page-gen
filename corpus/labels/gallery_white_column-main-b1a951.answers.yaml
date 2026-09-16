@@ -1,0 +1,27 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: mixed
+  description: a flat-vector teacher illustration with how-to-teach-online headline
+  family_hint: template-mockup
+  confidence: 0.6
+2:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: collage
+  description: a Greek travel diary template with a four-photo grid and stamps
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a soft rendered bouquet of flowers in a frosted vase
+  family_hint: other
+  confidence: 0.3

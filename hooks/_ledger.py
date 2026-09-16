@@ -20,6 +20,16 @@ DEFAULT_MODELS = {
     "picsart_vectorize": "recraft-vectorize",
 }
 
+# Flat-rate edit models. picsart_preflight is generate-only and returns
+# credits: null for these, so they can never carry a preflight quote; their
+# price is fixed and known (tool-map.md), and the guard uses it directly.
+FIXED_PRICE = {
+    "picsart-sod-v8-2": 0,       # remove_bg / cutout
+    "recraftv3-replace-bg": 2,   # change_bg / background
+    "picsart-enhance": 2,        # enhance / upscale
+    "topaz-upscale-image": 3,    # enhance, faces
+}
+
 
 def current_run():
     """<repo>/runs/current, located from this file: CLAUDE_PROJECT_DIR points
@@ -57,8 +67,26 @@ def last_quote(rows, model):
     return None
 
 
+def quote_for(rows, model):
+    """Credits for a paid call: a flat-rate edit model's fixed price, or the
+    last preflight quote for a generate model (None when it was not
+    preflighted)."""
+    if model in FIXED_PRICE:
+        return FIXED_PRICE[model]
+    return last_quote(rows, model)
+
+
+def row_cost(row):
+    if row.get("tool") not in PAID_TOOLS:
+        return 0
+    model = row.get("model")
+    if model in FIXED_PRICE:
+        return FIXED_PRICE[model]
+    return row.get("quoted_credits") or 0
+
+
 def spent(rows):
-    return sum(row.get("quoted_credits") or 0 for row in rows if row.get("tool") in PAID_TOOLS)
+    return sum(row_cost(row) for row in rows)
 
 
 def budget(run):

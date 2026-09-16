@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a small figure before a huge glowing screen in a futuristic library
+  family_hint: cinematic-still
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a promo banner announcing a model with three photos of a woman with coffee
+  family_hint: full-bleed
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: flat-vector
+  description: a colorful psychedelic illustration of a person with a laptop
+  family_hint: full-bleed
+  confidence: 0.5
+4:
+  chrome: [tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a repeated portrait strip with a coming-soon caption panel and audio waveform
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [mockup-card, model-logo]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a social post of a smiling woman with face cream and a brand logo
+  family_hint: template-mockup
+  confidence: 0.45
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a person in a white tee holding red flowers on a plain light ground
+  family_hint: full-bleed
+  confidence: 0.5
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a real-estate flyer template with a styled room interior and address text
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: [selection-handles, cursor]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: 3d-render
+  description: a white sneaker on a pedestal with clouds on the editor canvas with handles
+  family_hint: editor-canvas
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a portrait of a man in a cap with a light streak and creativity slogan
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: an electro pop party event flyer template with a crowd and date text
+  family_hint: template-mockup
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a pink duotone effect with a leaf and cutout shapes
+  family_hint: graphic-collage
+  confidence: 0.5
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in a pink duotone effect with a leaf and cutout shapes
+  family_hint: graphic-collage
+  confidence: 0.5

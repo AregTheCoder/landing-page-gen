@@ -1,0 +1,189 @@
+sheet: cinematic-still-d8c155
+family: cinematic-still
+answers: cinematic-still-d8c155.answers.yaml
+anchors:
+- d1102444
+- a509d9ab
+- 5697681d
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-20318960
+    url: https://www.pexels.com/photo/young-woman-in-a-pink-blouse-and-with-pink-eye-makeup-lying-on-a-bed-with-pink-bedding-20318960/
+    creator: Annika Rose
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.611
+    explored: null
+  2:
+    id: pexels-24601690
+    url: https://www.pexels.com/photo/portrait-of-woman-in-pink-light-24601690/
+    creator: Yusuf Çelik
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  3:
+    id: pexels-24809720
+    url: https://www.pexels.com/photo/woman-in-white-blouse-on-meadow-24809720/
+    creator: Nina Fiedler
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.564
+    explored: null
+  4:
+    id: pexels-27528815
+    url: https://www.pexels.com/photo/a-woman-in-a-pink-dress-laying-on-a-bed-27528815/
+    creator: Annika Rose
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  5:
+    id: pexels-2872078
+    url: https://www.pexels.com/photo/woman-wearing-an-orange-button-up-shirt-raising-her-arms-above-her-head-2872078/
+    creator: Ariel Prajatama
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      graphic-collage: 0.544
+    explored: null
+  6:
+    id: pexels-29391844
+    url: https://www.pexels.com/photo/trendy-woman-posing-with-neon-lights-at-night-29391844/
+    creator: Amir Abbaspoor
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      before-after: 0.496
+    explored: null
+  7:
+    id: pexels-29391856
+    url: https://www.pexels.com/photo/stylish-portrait-of-woman-in-neon-pink-hoodie-29391856/
+    creator: Amir Abbaspoor
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+      full-bleed: 0.52
+    explored: null
+  8:
+    id: pexels-29391877
+    url: https://www.pexels.com/photo/young-woman-in-stylish-neon-lighting-portrait-29391877/
+    creator: Amir Abbaspoor
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  9:
+    id: pexels-29391878
+    url: https://www.pexels.com/photo/elegant-female-portrait-with-neon-lighting-29391878/
+    creator: Amir Abbaspoor
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null
+  10:
+    id: pexels-29653805
+    url: https://www.pexels.com/photo/elegant-portrait-of-a-woman-in-vibrant-attire-29653805/
+    creator: BULE
+    platform: Pexels
+    score: 0.75
+    aspect_class: '4:5'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+      graphic-collage: 0.517
+    explored: null
+  11:
+    id: pexels-29736313
+    url: https://www.pexels.com/photo/dramatic-portrait-in-vibrant-lighting-29736313/
+    creator: rasul lotfi
+    platform: Pexels
+    score: 0.75
+    aspect_class: '3:4'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.797
+      cinematic-still: 0.75
+      outcome-tile: 0.675
+    explored: null
+  12:
+    id: pexels-29736314
+    url: https://www.pexels.com/photo/moody-portrait-with-dramatic-lighting-effects-29736314/
+    creator: rasul lotfi
+    platform: Pexels
+    score: 0.75
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: full-bleed
+    family_scores:
+      full-bleed: 0.77
+      cinematic-still: 0.75
+      outcome-tile: 0.733
+    explored: null

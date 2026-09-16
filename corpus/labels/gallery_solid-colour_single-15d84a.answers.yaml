@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an Emily's Birthday Bash invitation with a pumpkin illustration on brown
+  family_hint: template-mockup
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: bold white Study Smart Rest Well slogan lettering on a blue ground
+  family_hint: template-mockup
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: a Giving Thanks card with a pumpkin pie photo on a checkered blue ground
+  family_hint: template-mockup
+  confidence: 0.55
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: an embossed-leaf Thanksgiving card with two dining photos
+  family_hint: template-mockup
+  confidence: 0.55
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a Thanks for Being My Mom card with a photo of two women hugging
+  family_hint: template-mockup
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: an Olivia Is Turning 18 invitation with pumpkins on a striped ground
+  family_hint: template-mockup
+  confidence: 0.55
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Jack's Birthday Party invitation with a line-drawn pumpkin and wavy border
+  family_hint: template-mockup
+  confidence: 0.55
+8:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a Christmas Brunch Menu card with a red bow on a plaid ground
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a Hand Made DIY promo with pottery photos on a dark teal ground
+  family_hint: template-mockup
+  confidence: 0.55
+10:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a Christmas Brunch Menu list in a wreath frame on a dark green ground
+  family_hint: template-mockup
+  confidence: 0.5
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink Keep Learning motivational quote in bold lettering on blue
+  family_hint: template-mockup
+  confidence: 0.4
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a Back Packs Up To 30% Off sale banner with a backpack illustration
+  family_hint: template-mockup
+  confidence: 0.55

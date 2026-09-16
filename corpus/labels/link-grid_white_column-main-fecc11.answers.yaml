@@ -1,0 +1,120 @@
+1:
+  art_style: photo
+  before_after: false
+  chrome: [tile, play-button, slider]
+  confidence: 0.45
+  description: person in blue mask and pink fur video still with a tool tile and before/after slider
+  family_hint: editor-canvas
+  subject: person
+  text_in_image: none
+  ui_mockup: editor-canvas
+2:
+  art_style: photo
+  before_after: false
+  chrome: [tile, play-button, slider]
+  confidence: 0.45
+  description: person in blue mask and pink fur video still with a tool tile and before/after slider
+  family_hint: editor-canvas
+  subject: person
+  text_in_image: none
+  ui_mockup: editor-canvas
+3:
+  art_style: mixed
+  before_after: false
+  chrome: [prompt-panel, button, badge]
+  confidence: 0.55
+  description: prompt phone panel beside a Wear the Wild cap poster on desert dunes
+  family_hint: prompt-card
+  subject: product
+  text_in_image: headline
+  ui_mockup: prompt-ui
+4:
+  art_style: photo
+  before_after: false
+  chrome: [prompt-panel, button, tile]
+  confidence: 0.7
+  description: prompt card with a Generate button beside a photo of a dog at a laptop
+  family_hint: prompt-card
+  subject: animal
+  text_in_image: none
+  ui_mockup: prompt-ui
+5:
+  art_style: photo
+  before_after: false
+  chrome: [prompt-panel, button, tile]
+  confidence: 0.7
+  description: prompt card with a Generate button beside a photo of a dog at a laptop
+  family_hint: prompt-card
+  subject: animal
+  text_in_image: none
+  ui_mockup: prompt-ui
+6:
+  art_style: mixed
+  before_after: false
+  chrome: [tile]
+  confidence: 0.4
+  description: hands wearing jewelry with a Buy 3 Get 30% Off promo headline beside a tool tile
+  family_hint: template-mockup
+  subject: product
+  text_in_image: headline
+  ui_mockup: none
+7:
+  art_style: mixed
+  before_after: false
+  chrome: [tile, play-button, brackets, button]
+  confidence: 0.5
+  description: lipstick product with 50% off text and crop brackets, text-tool tiles alongside
+  family_hint: editor-canvas
+  subject: product
+  text_in_image: headline
+  ui_mockup: editor-canvas
+8:
+  art_style: 3d
+  before_after: false
+  chrome: [chip, model-logo]
+  confidence: 0.7
+  description: large purple 3D flower render with a model mark and two small flower crop chips
+  family_hint: model-card
+  subject: illustration
+  text_in_image: none
+  ui_mockup: none
+9:
+  art_style: mixed
+  before_after: false
+  chrome: [button]
+  confidence: 0.5
+  description: Cupcake Bliss brand template with a cupcake, product variations and a Create more button
+  family_hint: template-mockup
+  subject: food
+  text_in_image: headline
+  ui_mockup: none
+10:
+  art_style: photo
+  before_after: false
+  chrome: [tile]
+  confidence: 0.4
+  description: person in a Stay in Bloom floral tee beside a sticker cutout tile on checkerboard
+  family_hint: template-mockup
+  subject: person
+  text_in_image: headline
+  ui_mockup: none
+11:
+  art_style: mixed
+  before_after: false
+  chrome: [chip, tile, slider]
+  confidence: 0.5
+  description: Sportswear 50% Off poster of a person in a cap, with a poster-calendar chip and layout tile
+  family_hint: template-mockup
+  subject: person
+  text_in_image: headline
+  ui_mockup: none
+12:
+  art_style: mixed
+  before_after: false
+  chrome: [chip, tile, slider]
+  confidence: 0.5
+  description: Sportswear 50% Off poster of a person in a cap, with a poster-calendar chip and layout tile
+  family_hint: template-mockup
+  subject: person
+  text_in_image: headline
+  ui_mockup: none

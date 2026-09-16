@@ -153,6 +153,21 @@ def test_similar_prefers_style_then_falls_back(tmp_path, monkeypatch):
     assert "style: full-bleed, local: 1-storyboard-generator-S01-m1.png" in body and "style: untagged" in body
 
 
+def test_similar_reranks_verified_example_above_provisional(tmp_path):
+    import json
+    con = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"])
+    # both candidate pages are same-family full-bleed, but storyboard's chrome is
+    # answered (verified) and manga's is unanswered (a pixel-only provisional guess)
+    for slug, chrome in (("manga-maker", None), ("storyboard-generator", ["tile"])):
+        con.execute("""UPDATE media SET style = 'full-bleed', attrs = ? WHERE src = ? AND section_id IN
+                       (SELECT s.id FROM sections s JOIN pages p ON p.id = s.page_id WHERE p.slug = ?)""",
+                    (json.dumps({"chrome": chrome}), HERO1, slug))
+    con.commit()
+    q = "Comic Book Generator turn your story into a comic"
+    rows = similar.find_similar(con, "hero", q, k=2, exclude="comic-book-generator", style="full-bleed")
+    assert rows[0]["slug"] == "storyboard-generator", "the chrome-answered example outranks the provisional one"
+
+
 def test_styles_cli_derives_from_attrs_and_applies(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(media, "download", fake_download_factory([]))
     pages = tmp_path / "pages"
@@ -163,7 +178,7 @@ def test_styles_cli_derives_from_attrs_and_applies(tmp_path, monkeypatch, capsys
     hero2 = HERO1.replace("hero1", "hero2")
     attrs_yaml, styles_yaml = tmp_path / "attributes.yaml", tmp_path / "styles.yaml"
     base = {"ground": "light-grey", "layout": "column-main", "panel_count": 1, "chrome": ["tile", "chip"],
-            "text_in_image": "labels-only", "ui_mockup": "none", "subject": "product", "finish": "photo",
+            "text_in_image": "labels-only", "ui_mockup": "none", "subject": "product", "art_style": "photo",
             "before_after": False, "family_hint": "dark-composite", "confidence": 0.8, "source": "sheet",
             "page": "comic-book-generator", "slot": "S01-m1"}
     styles.save({HERO1: base, hero2: dict(base, before_after=True, slot="S01-m2")}, attrs_yaml)
@@ -203,3 +218,35 @@ def test_reference_files_name_families_and_carry_the_required_keys():
     doc = styles.DOC.read_text()
     for m in re.finditer(r"\*\*References:\*\* (corpus/references/([a-z-]+)\.yaml)", doc):
         assert (styles.DOC.parents[3] / m.group(1)).exists() and m.group(2) in db.STYLES, m.group(0)
+
+
+def test_pool_files_name_families_and_carry_the_required_fields():
+    """corpus/pool/<family>.yaml (written by `lp-corpus pool`) stays pinned to
+    db.STYLES; every entry carries a controlled licence key and a state, a
+    kept entry is always licensed and pooled, and no kept entry sits within
+    CORPUS_DUP of a corpus hash."""
+    import yaml
+    from landing_page_gen.corpus import phash, pool, stock
+    pool_dir = styles.DOC.parents[3] / "corpus" / "pool"
+    hashes = yaml.safe_load((pool_dir / "_hashes.yaml").read_text()) if (pool_dir / "_hashes.yaml").exists() else {}
+    required = ("url", "image", "creator", "platform", "licence", "phash", "score", "state")
+    for path in pool_dir.glob("*.yaml") if pool_dir.exists() else []:
+        if path.name.startswith("_"):
+            continue
+        assert path.stem in db.STYLES, path
+        d = yaml.safe_load(path.read_text())
+        assert d["family"] == path.stem, path
+        for eid, e in (d.get("entries") or {}).items():
+            assert all(k in e for k in required), (path, eid, [k for k in required if k not in e])
+            assert e["platform"] in stock.PLATFORM_LABELS.values() and e["state"] in pool.STATES, (path, eid)
+            assert stock.licence_key(e["licence"]) in stock.LICENCES, (path, eid, e["licence"])
+            assert stock.PLATFORM_HOSTS[e["platform"]] in e["url"], (path, eid)
+            for fam in (e.get("family_scores") or {}):
+                assert fam in db.STYLES, (path, eid, fam)
+            if e["state"] == "kept":
+                # an unknown licence is look-only: it never reaches the servable tier
+                assert stock.licence_key(e["licence"]) != "unknown", (path, eid)
+                assert e.get("tier", "pool") == "pool", (path, eid)
+                for src, rec in hashes.items():
+                    assert phash.hamming(e["phash"], rec["phash"]) > pool.CORPUS_DUP, \
+                        (path, eid, "kept entry duplicates corpus asset", src)

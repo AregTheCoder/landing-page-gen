@@ -1,0 +1,9 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a cream suit speaking on a talk show stage with an audience
+  family_hint: full-bleed
+  confidence: 0.7

@@ -1,0 +1,189 @@
+sheet: cinematic-still-09b32d
+family: cinematic-still
+answers: cinematic-still-09b32d.answers.yaml
+anchors:
+- '11337690'
+- 2745748e
+- c3aaa9b3
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-5900884
+    url: https://www.pexels.com/photo/close-up-shot-of-sushi-on-a-plate-5900884/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.399
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.399
+      graphic-collage: 0.218
+    explored: null
+  2:
+    id: pexels-932644
+    url: https://www.pexels.com/photo/orange-light-bulb-on-rock-932644/
+    creator: The Vee
+    platform: Pexels
+    score: 0.399
+    aspect_class: '4:5'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      full-bleed: 0.646
+      cinematic-still: 0.399
+    explored: null
+  3:
+    id: pexels-5070408
+    url: https://www.pexels.com/photo/a-blindfolded-woman-wearing-colorful-polo-5070408/
+    creator: Hunter Tober
+    platform: Pexels
+    score: 0.398
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.398
+      before-after: 0.264
+    explored: null
+  4:
+    id: pexels-14007410
+    url: https://www.pexels.com/photo/woman-in-heels-sitting-in-pink-bedroom-14007410/
+    creator: Adrian Calle
+    platform: Pexels
+    score: 0.397
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.471
+      cinematic-still: 0.397
+      cutout-checkerboard: 0.221
+    explored: null
+  5:
+    id: pexels-18215214
+    url: https://www.pexels.com/photo/woman-in-pink-suit-sitting-in-dark-room-18215214/
+    creator: Vanessa Pozos
+    platform: Pexels
+    score: 0.397
+    aspect_class: '3:4'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.6
+      cinematic-still: 0.397
+      vs-two-up: 0.083
+    explored: null
+  6:
+    id: pexels-31810370
+    url: https://www.pexels.com/photo/portrait-of-a-man-in-orange-hoodie-against-dark-background-31810370/
+    creator: Abdulkadir muhammad sani
+    platform: Pexels
+    score: 0.392
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.392
+      graphic-collage: 0.092
+    explored: null
+  7:
+    id: pexels-5469265
+    url: https://www.pexels.com/photo/gummy-worms-on-blue-studio-background-5469265/
+    creator: Polina Tankilevitch
+    platform: Pexels
+    score: 0.386
+    aspect_class: '2:3'
+    term: colorful food photography blue background
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.619
+      cinematic-still: 0.386
+      graphic-collage: 0.179
+    explored: null
+  8:
+    id: pexels-1776276
+    url: https://www.pexels.com/photo/tilt-shift-lens-photography-of-white-car-and-group-of-toy-people-1776276/
+    creator: Johannes Plenio
+    platform: Pexels
+    score: 0.383
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.641
+      cinematic-still: 0.383
+      full-bleed: 0.355
+    explored: null
+  9:
+    id: pexels-1522186
+    url: https://www.pexels.com/photo/blue-volkswagen-beetle-coupe-in-selective-focus-photography-1522186/
+    creator: Nubia Navarro (nubikini)
+    platform: Pexels
+    score: 0.381
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.381
+      outcome-tile: 0.323
+      graphic-collage: 0.179
+    explored: null
+  10:
+    id: pexels-6224316
+    url: https://www.pexels.com/photo/snow-fashion-man-love-6224316/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.379
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.441
+      cinematic-still: 0.379
+      graphic-collage: 0.254
+    explored: null
+  11:
+    id: pexels-6837626
+    url: https://www.pexels.com/photo/burnt-matchstick-surrounded-by-unburn-matchsticks-on-a-pink-surface-6837626/
+    creator: Nataliya Vaitkevich
+    platform: Pexels
+    score: 0.372
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.372
+      graphic-collage: 0.179
+    explored: null
+  12:
+    id: pexels-6473415
+    url: https://www.pexels.com/photo/woman-in-white-crew-neck-t-shirt-holding-a-balloon-filled-with-water-6473415/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.371
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: cinematic-still
+    family_scores:
+      cinematic-still: 0.371
+      outcome-tile: 0.305
+      graphic-collage: 0.179
+    explored: null

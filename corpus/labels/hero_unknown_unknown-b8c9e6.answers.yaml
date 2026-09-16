@@ -1,0 +1,144 @@
+1:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: a prompt panel and Generate button beside two editorial portrait photos
+  family_hint: prompt-card
+  confidence: 0.8
+  ground: photo-full-bleed
+  layout: two-up
+  panel_count: 2
+2:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a stacked merry christmas card template with a stylised tree
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: stacked
+  panel_count: 2
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an editors choice on google play award badge with laurel wreaths
+  family_hint: other
+  confidence: 0.5
+  ground: light-grey
+  layout: single
+  panel_count: 0
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a get well soon greeting card template with a purple bird holding a flower
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: stacked
+  panel_count: 2
+5:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: a twitter post template collage of photos and pop up store text
+  family_hint: template-mockup
+  confidence: 0.55
+  ground: white
+  layout: single
+  panel_count: 2
+6:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: an editors choice on app store award badge with an apple logo and laurels
+  family_hint: other
+  confidence: 0.5
+  ground: light-grey
+  layout: single
+  panel_count: 0
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a blue gift certificate template card reading style unleashed with a woman photo
+  family_hint: template-mockup
+  confidence: 0.7
+  ground: white
+  layout: stacked
+  panel_count: 2
+8:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a promo composite of a patterned mug in scenes reading buy one get two free
+  family_hint: template-mockup
+  confidence: 0.45
+  ground: solid-colour
+  layout: grid
+  panel_count: 3
+9:
+  chrome: [mockup-card, badge]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a teal ad card reading step into adventure with a sneaker on a rock
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: solid-colour
+  layout: single
+  panel_count: 1
+10:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: a stacked instagram post template reading new product launch with socks
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: stacked
+  panel_count: 2
+11:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: a blue quote poster template with an illustrated woman and a queen line
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: solid-colour
+  layout: stacked
+  panel_count: 2
+12:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: mixed
+  description: three t shirt mockups in white black and pink with printed designs
+  family_hint: template-mockup
+  confidence: 0.5
+  ground: white
+  layout: grid
+  panel_count: 3

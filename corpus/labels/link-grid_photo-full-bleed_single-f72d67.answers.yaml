@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: typography
+  art_style: photo
+  description: giant gold balloon lettering floating on water under a blue sky
+  family_hint: full-bleed
+  confidence: 0.55
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two side-by-side portraits of a woman in casual and witch outfits
+  family_hint: before-after
+  confidence: 0.35
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a man in a misty forest with an audio waveform player panel below
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a portrait of a woman with branch-like face makeup and silver jewelry
+  family_hint: full-bleed
+  confidence: 0.85
+5:
+  chrome: [model-logo, prompt-panel]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: three panels of a woman with a giant flower and a prompt caption
+  family_hint: prompt-card
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a macro photo of a bee on a purple lavender flower
+  family_hint: full-bleed
+  confidence: 0.9
+7:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: a collage of food and product design cards and social templates
+  family_hint: template-mockup
+  confidence: 0.5
+8:
+  chrome: [model-logo, prompt-panel]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: three panels of a woman with a giant flower and a prompt caption
+  family_hint: prompt-card
+  confidence: 0.55
+9:
+  chrome: [play-button, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a dark video-model showcase with thumbnails and play buttons named Kling
+  family_hint: dark-composite
+  confidence: 0.4
+10:
+  chrome: [vs-badge, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two model portraits of a woman in a headscarf compared with a VS badge
+  family_hint: vs-two-up
+  confidence: 0.85
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: photo
+  description: a Good Vibes Only neon sign glowing on a brick wall
+  family_hint: full-bleed
+  confidence: 0.55
+12:
+  chrome: [vs-badge, pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a man with gold grillz compared across two model pills
+  family_hint: vs-two-up
+  confidence: 0.85

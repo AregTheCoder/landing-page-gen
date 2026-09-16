@@ -1,0 +1,24 @@
+1:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  ground: solid-colour
+  layout: grid
+  panel_count: 3
+  description: three phone frames showing wallpaper art with lock screen clocks
+  family_hint: template-mockup
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  ground: gradient
+  layout: overlay
+  panel_count: 4
+  description: overlapping cards of AI character portraits on a blue ground
+  family_hint: graphic-collage
+  confidence: 0.5

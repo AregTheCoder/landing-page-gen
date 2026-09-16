@@ -1,0 +1,108 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: mixed
+  description: a prompt panel beside a bold flower poster design result
+  family_hint: prompt-card
+  confidence: 0.55
+2:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a body butter product photo beside a prompt panel and generate button
+  family_hint: prompt-card
+  confidence: 0.7
+3:
+  chrome: [prompt-panel, button, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a body butter product photo beside a prompt panel and generate button
+  family_hint: prompt-card
+  confidence: 0.7
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portrait panels of a woman with smiley rings and an image tile
+  family_hint: other
+  confidence: 0.3
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portrait panels of a woman with smiley rings and an image tile
+  family_hint: other
+  confidence: 0.3
+6:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt panel beside a floral basketball product ad card
+  family_hint: prompt-card
+  confidence: 0.6
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt panel beside a floral basketball product ad card
+  family_hint: prompt-card
+  confidence: 0.6
+8:
+  chrome: [selection-handles, chip]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: mixed
+  description: a bold style headline over a portrait on an editor canvas with handles
+  family_hint: editor-canvas
+  confidence: 0.5
+9:
+  chrome: [chip, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a fashion portrait with a column of small model thumbnail chips
+  family_hint: model-card
+  confidence: 0.4
+10:
+  chrome: [chip, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a fashion portrait with a column of small model thumbnail chips
+  family_hint: model-card
+  confidence: 0.4
+11:
+  chrome: [mockup-card, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a wedding invitation template shown flat and curled with a card tile
+  family_hint: template-mockup
+  confidence: 0.55
+12:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  description: a low poly geometric vase on pink with a play button
+  family_hint: full-bleed
+  confidence: 0.4

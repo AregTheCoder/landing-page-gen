@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: moody portrait of a woman in yellow sunglasses
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait of a woman with long curly hair
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: smiling woman with braids resting hands on her face
+  family_hint: full-bleed
+  confidence: 0.8
+4:
+  chrome: [play-button]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: felt-craft frog pouring coffee, a video still with play button
+  family_hint: full-bleed
+  confidence: 0.5
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a white blouse at an outdoor polo event
+  family_hint: full-bleed
+  confidence: 0.8
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a pink dress in a green armchair in a lavender field
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: comic-style detective in a hat in a neon alley
+  family_hint: full-bleed
+  confidence: 0.6
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person standing inside a subway car
+  family_hint: full-bleed
+  confidence: 0.8
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in red with translucent bubble butterfly elements
+  family_hint: full-bleed
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: dark gothic mansion at night in fog
+  family_hint: full-bleed
+  confidence: 0.7
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: young man holding a dalmatian puppy
+  family_hint: full-bleed
+  confidence: 0.8
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: perfume bottle on a lily pad beside a lotus flower
+  family_hint: full-bleed
+  confidence: 0.8

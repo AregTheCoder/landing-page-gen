@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman speaking into a microphone shown in a video player frame
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: [tile, mockup-card]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: object
+  art_style: photo
+  description: colorful vases on a pink surface with two black tool tiles below
+  family_hint: dark-composite
+  confidence: 0.35
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white transition line icon
+  family_hint: other
+  confidence: 0.3
+4:
+  chrome: [mockup-card, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: voiceover script panel with language options beside a skincare portrait with a title overlay
+  family_hint: mockup-card
+  confidence: 0.55
+5:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+6:
+  chrome: [tile, mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  description: tool tiles and a green sofa beside a new drop alert social card
+  family_hint: template-mockup
+  confidence: 0.4
+7:
+  chrome: [swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: a coffee brand moodboard of cup, cafe scene and color swatches
+  family_hint: template-mockup
+  confidence: 0.4
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a black rounded tile with a white upload line icon
+  family_hint: other
+  confidence: 0.3
+9:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  description: a magenta Start Creating pill button on white
+  family_hint: other
+  confidence: 0.3
+10:
+  chrome: [mockup-card, button, chip]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  description: a Hazy Hair poster beside a dark template format picker panel
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt card beside a kids lamp poster reading Light Up Little Dreams
+  family_hint: template-mockup
+  confidence: 0.45
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  description: a prompt card beside an Autumn Collection poster with a fuzzy heart purse
+  family_hint: template-mockup
+  confidence: 0.45

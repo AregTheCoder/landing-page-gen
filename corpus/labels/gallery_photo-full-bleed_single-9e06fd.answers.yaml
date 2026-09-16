@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: person with pink hair and sunglasses in blue satin on a red carpet
+  family_hint: full-bleed
+  confidence: 0.8
+2:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a white dress spinning on a dance floor
+  family_hint: full-bleed
+  confidence: 0.8
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in a blue hoodie and white sunglasses against a metallic wall
+  family_hint: full-bleed
+  confidence: 0.85
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: photoreal dinosaur standing in a green field beside a cottage
+  family_hint: full-bleed
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: vintage Tokyo travel poster with Mount Fuji, a train and blossoms
+  family_hint: full-bleed
+  confidence: 0.5
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: close-up of a car wheel and tyre
+  family_hint: full-bleed
+  confidence: 0.8
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: knight in full armour standing in a supermarket aisle
+  family_hint: full-bleed
+  confidence: 0.75
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  description: painted man holding a dalmatian puppy on a city street
+  family_hint: full-bleed
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: people jumping at an indoor trampoline park
+  family_hint: full-bleed
+  confidence: 0.8
+10:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman lying on a patterned rug with vinyl records
+  family_hint: full-bleed
+  confidence: 0.8
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man portrait against a rock wall with pink climbing roses
+  family_hint: full-bleed
+  confidence: 0.85
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man seated behind a large red bicycle wheel on blue
+  family_hint: full-bleed
+  confidence: 0.8

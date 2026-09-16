@@ -1,0 +1,9 @@
+1:
+  chrome: [prompt-panel, tile, badge]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a prompt panel describing an orange cap beside a Wear the Wild desert poster with a limited edition badge
+  family_hint: prompt-card
+  confidence: 0.55

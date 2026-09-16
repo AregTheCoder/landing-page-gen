@@ -1,0 +1,144 @@
+1:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: birthday card template with a main card beside small template thumbnails
+  family_hint: template-mockup
+  confidence: 0.75
+  ground: white
+  layout: column-main
+  panel_count: 4
+2:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  description: three photos each with a rule of thirds crop grid and corner handles
+  family_hint: crop-frame
+  confidence: 0.6
+  ground: white
+  layout: grid
+  panel_count: 3
+3:
+  chrome: [tile, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green journal book and a bookmark with a font tile and colour swatches
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: white
+  layout: column-main
+  panel_count: 2
+4:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: two avatar portraits with a prompt field and a magenta generate button
+  family_hint: prompt-card
+  confidence: 0.5
+  ground: photo-full-bleed
+  layout: two-up
+  panel_count: 2
+5:
+  chrome: [mockup-card, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: hands holding two business cards beside a name and profession table card
+  family_hint: mockup-card
+  confidence: 0.4
+  ground: black
+  layout: column-main
+  panel_count: 2
+6:
+  chrome: [tile, pill]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: manicure voucher poster of a hand beside black tool tiles
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: black
+  layout: column-main
+  panel_count: 1
+7:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: collage of red lips and lipstick with hearts and a crop grid over the face
+  family_hint: crop-frame
+  confidence: 0.35
+  ground: mixed
+  layout: overlay
+  panel_count: 2
+8:
+  chrome: [prompt-panel, tile, mockup-card]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: avatar thumbnail with a script prompt field and a body copy card
+  family_hint: prompt-card
+  confidence: 0.6
+  ground: white
+  layout: overlay
+  panel_count: 1
+9:
+  chrome: [tile, mockup-card, chip]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: mixed
+  description: youtube stretching video card below a row of black editor tiles
+  family_hint: template-mockup
+  confidence: 0.6
+  ground: black
+  layout: column-main
+  panel_count: 1
+10:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: summer necklace sale poster beside small product template thumbnails
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: column-main
+  panel_count: 4
+11:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: three comic panels of a woman warrior with a download icon
+  family_hint: full-bleed
+  confidence: 0.3
+  ground: photo-full-bleed
+  layout: grid
+  panel_count: 3
+12:
+  chrome: [swatch, tile, selection-handles]
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: sustainability event program poster with a plant sticker and swatch strip
+  family_hint: template-mockup
+  confidence: 0.65
+  ground: white
+  layout: column-main
+  panel_count: 2

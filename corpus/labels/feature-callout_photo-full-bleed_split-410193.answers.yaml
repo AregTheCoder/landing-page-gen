@@ -1,0 +1,120 @@
+1:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a man in silver sunglasses with model name pills
+  family_hint: vs-two-up
+  confidence: 0.65
+  before_after: false
+2:
+  chrome: [tile, adjust-panel, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a mans portrait with an eyebrows adjustment panel and slider
+  family_hint: panel-overlay
+  confidence: 0.4
+  before_after: false
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two athletic-woman photos with two model name chips
+  family_hint: vs-two-up
+  confidence: 0.65
+  before_after: false
+4:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: vintage cars on a coastal road with two video model chips
+  family_hint: vs-two-up
+  confidence: 0.6
+  before_after: false
+5:
+  chrome: [tile, brackets, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a walking man with a crop bracket labelled x2 and an enlarge tile
+  family_hint: crop-frame
+  confidence: 0.55
+  before_after: false
+6:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two women holding green skincare tubes with model name pills
+  family_hint: vs-two-up
+  confidence: 0.65
+  before_after: false
+7:
+  chrome: [tile, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: two heart-shaped cherry cakes with a 4x tile and an enhance tile
+  family_hint: before-after
+  confidence: 0.4
+  before_after: false
+8:
+  chrome: [pill, tile]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: before and after floral-sock legs beside a bus-stop billboard poster
+  family_hint: before-after
+  confidence: 0.5
+  before_after: true
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a walking man shown as a small crop enlarged with two tool tiles
+  family_hint: before-after
+  confidence: 0.35
+  before_after: false
+10:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: mixed
+  description: a spring-flower prompt panel beside a Special Offer 50 poster with a glass flower
+  family_hint: template-mockup
+  confidence: 0.4
+  before_after: false
+11:
+  chrome: [tile, selection-handles, size-label]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a boy cutout on checkerboard and a man cutout with editor handles and a size label
+  family_hint: editor-canvas
+  confidence: 0.4
+  before_after: false
+12:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two portraits of a woman in a Yass Queen bandana with an enhance tile
+  family_hint: dark-composite
+  confidence: 0.35
+  before_after: false

@@ -1,0 +1,108 @@
+1:
+  chrome: [brackets, tile]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: food
+  art_style: photo
+  description: ramen photo with crop brackets beside a Savory Specials menu poster and a tool tile
+  family_hint: crop-frame
+  confidence: 0.5
+2:
+  chrome: [badge, tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a cupcake cutout on a checkerboard ground with a column of thumbnails carrying magenta checks
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+3:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: three stacked landscape frames labelled Kling, Veo and Runway with model logos
+  family_hint: vs-two-up
+  confidence: 0.4
+4:
+  chrome: [pill, model-logo]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: two retro vibes typographic posters compared with Recraft and Midjourney pills
+  family_hint: vs-two-up
+  confidence: 0.7
+5:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: black card comparing a sunglasses box and a man in sunglasses labelled GPT Image and Flux with model tiles
+  family_hint: vs-two-up
+  confidence: 0.5
+6:
+  chrome: [tile, mockup-card]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: a Winky branded green tote bag mockup with a logo card and tool tiles
+  family_hint: template-mockup
+  confidence: 0.5
+7:
+  chrome: [model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: illustration
+  art_style: painterly-illustration
+  description: an engraved Italian Roma Trastevere postage stamp with a descriptive caption panel
+  family_hint: prompt-card
+  confidence: 0.4
+8:
+  chrome: [arrow, selection-handles]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman in denim on pink with checkerboard sides and expand arrows for extending the image
+  family_hint: crop-frame
+  confidence: 0.4
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: stacked pink cosmetic jars with strawberries and limes with a Before pill
+  family_hint: before-after
+  confidence: 0.6
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a blue mushroom lamp shown on several background swatches and a checkerboard cutout
+  family_hint: cutout-checkerboard
+  confidence: 0.4
+11:
+  chrome: [pill, tile, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: a made-up woman shown Before and After in a social post card with tool tiles
+  family_hint: mockup-card
+  confidence: 0.4
+12:
+  chrome: [pill, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two stacked frames of a woman with a swan float in a forest labelled Luma Ray and Kling
+  family_hint: vs-two-up
+  confidence: 0.5

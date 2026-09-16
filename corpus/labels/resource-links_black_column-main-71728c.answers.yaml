@@ -1,0 +1,20 @@
+1:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: a dark node graph with Automate Optimize and Grow pills connected by lines
+  family_hint: other
+  confidence: 0.3
+2:
+  chrome: [prompt-panel, tile, play-button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: mixed
+  before_after: false
+  description: a How to add subtitles prompt panel beside a vertical video of a presenter
+  family_hint: prompt-card
+  confidence: 0.6

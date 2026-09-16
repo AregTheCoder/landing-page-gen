@@ -1,0 +1,108 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: mixed
+  description: a cupcake ad prompt panel beside a new cupcake drop poster
+  family_hint: prompt-card
+  confidence: 0.6
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman portrait with a smiley ring and a tool tile
+  family_hint: editor-canvas
+  confidence: 0.4
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman portrait with a smiley ring and a tool tile
+  family_hint: editor-canvas
+  confidence: 0.4
+4:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: mixed
+  description: a cupcake ad prompt panel beside a new cupcake drop poster
+  family_hint: prompt-card
+  confidence: 0.6
+5:
+  chrome: [chip, tile]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: a woman photo with vintage filter thumbnails and an fx tile
+  family_hint: editor-canvas
+  confidence: 0.5
+6:
+  chrome: [chip]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman drinking from a mug with a talking and getting ready caption
+  family_hint: full-bleed
+  confidence: 0.4
+7:
+  chrome: [prompt-panel, button, tile, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: mixed
+  description: a body butter product photo with app tiles and a cinematic movement prompt panel
+  family_hint: prompt-card
+  confidence: 0.6
+8:
+  chrome: [mockup-card, swatch]
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a bloom farm logo banner design with color swatches
+  family_hint: template-mockup
+  confidence: 0.55
+9:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: painterly-illustration
+  description: a painterly flamingo heart scene over stacked cards
+  family_hint: template-mockup
+  confidence: 0.4
+10:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a pink cupcake photo split by a before and after slider
+  family_hint: before-after
+  confidence: 0.55
+11:
+  chrome: [slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a pink cupcake photo split by a before and after slider
+  family_hint: before-after
+  confidence: 0.55
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a pink dropper bottle on a coral gradient and transparent checkerboard split
+  family_hint: cutout-checkerboard
+  confidence: 0.55

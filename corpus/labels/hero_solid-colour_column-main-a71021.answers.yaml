@@ -1,0 +1,36 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: a chocolate chip cookie on a green plate against an olive textured ground
+  family_hint: full-bleed
+  confidence: 0.5
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a pink floral poster with a bouquet and a designed Bloom headline
+  family_hint: template-mockup
+  confidence: 0.45
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a purple Core Pilates poster with an athletic midsection photo and designed title
+  family_hint: template-mockup
+  confidence: 0.45
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: a notebook mockup with a tropical leaf pattern cover on a purple ground
+  family_hint: template-mockup
+  confidence: 0.4

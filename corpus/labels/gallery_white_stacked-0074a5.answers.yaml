@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a wedding day timeline template with times and faint florals
+  family_hint: template-mockup
+  confidence: 0.7
+2:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: collage
+  description: an autumn mood board template with a six-photo grid
+  family_hint: template-mockup
+  confidence: 0.6
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: mixed
+  description: a Travel to Dubai template with landmark photos and a date field
+  family_hint: template-mockup
+  confidence: 0.6
+4:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a birthday invitation template with script name and blue bow
+  family_hint: template-mockup
+  confidence: 0.7
+5:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: mixed
+  description: a 21st birthday poster with pink block and pouring drink line art
+  family_hint: template-mockup
+  confidence: 0.6
+6:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a photography workshop poster with a numbered black table
+  family_hint: template-mockup
+  confidence: 0.7
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: a product launch process flow template with large numbers
+  family_hint: template-mockup
+  confidence: 0.7
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a pink script quote poster about teachers on cream
+  family_hint: template-mockup
+  confidence: 0.7
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: a naughty or nice holiday card template with gift graphics
+  family_hint: template-mockup
+  confidence: 0.6
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: a thank you card template with a tilted couple photo on pink
+  family_hint: template-mockup
+  confidence: 0.6
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a science teacher resume template with small book illustration
+  family_hint: template-mockup
+  confidence: 0.7
+12:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  description: a lunch menu template with items and a fish illustration
+  family_hint: template-mockup
+  confidence: 0.7

@@ -1,0 +1,9 @@
+1:
+  chrome: [brackets, arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a chair photo inside a dashed expand frame with outward arrows on checkerboard
+  family_hint: crop-frame
+  confidence: 0.6

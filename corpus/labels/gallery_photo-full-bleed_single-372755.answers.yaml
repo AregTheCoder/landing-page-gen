@@ -1,0 +1,108 @@
+1:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: illustration
+  art_style: anime-cartoon
+  description: kids coloring book cover with cartoon fox and raccoon at a birthday party
+  family_hint: full-bleed
+  confidence: 0.4
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: raspberry cake slice on a red ground with a yellow starburst
+  family_hint: graphic-collage
+  confidence: 0.4
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: silver heart charm bracelet on a red ground with a yellow stripe
+  family_hint: graphic-collage
+  confidence: 0.4
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: flat-vector
+  description: purple cartoon monster stickers on a black checkerboard background
+  family_hint: graphic-collage
+  confidence: 0.45
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: woman in red posing over a purple ground with abstract shapes
+  family_hint: graphic-collage
+  confidence: 0.55
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: red sneakers displayed on colorful geometric pedestals
+  family_hint: graphic-collage
+  confidence: 0.35
+7:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: virtual graduation party invite with a photo grid of young men
+  family_hint: full-bleed
+  confidence: 0.35
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: colorful tropical pattern bookmark with a books are my best friends label
+  family_hint: full-bleed
+  confidence: 0.35
+9:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: mixed
+  description: album cover with a man in sunglasses and a yellow shirt and bold title
+  family_hint: full-bleed
+  confidence: 0.4
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: red gift certificate with high heels and a two hundred fifty dollar value
+  family_hint: full-bleed
+  confidence: 0.4
+11:
+  chrome: []
+  text_in_image: body
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  description: school report card template with a subjects and grading table
+  family_hint: full-bleed
+  confidence: 0.35
+12:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: travel diary card with a white greek hillside village photo
+  family_hint: full-bleed
+  confidence: 0.5

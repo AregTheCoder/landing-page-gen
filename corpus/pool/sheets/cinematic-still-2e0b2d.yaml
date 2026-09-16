@@ -1,0 +1,189 @@
+sheet: cinematic-still-2e0b2d
+family: cinematic-still
+answers: cinematic-still-2e0b2d.answers.yaml
+anchors:
+- 029d49e5
+- '84634617'
+- 20d3cfb3
+genre: 'Single-subject vertical frames that read like film stills: one person, dish or prop, centred or on a third, shallow depth. Light is deliberate and coloured (teal-orange or red-blue split, warm golden hour, fairy-light bedroom glow) or bold complementary studio colour (yellow food on blue seamless). The grade is unified and saturated, the finish glossy, no chrome or text.'
+cells:
+  1:
+    id: pexels-7630763
+    url: https://www.pexels.com/photo/a-baguette-on-a-brick-7630763/
+    creator: Marina Leonova
+    platform: Pexels
+    score: 0.504
+    aspect_class: '2:3'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.504
+      graphic-collage: 0.425
+    explored: null
+  2:
+    id: pexels-6698315
+    url: https://www.pexels.com/photo/a-woman-using-her-smartphone-in-bed-6698315/
+    creator: cottonbro studio
+    platform: Pexels
+    score: 0.502
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.502
+      graphic-collage: 0.492
+    explored: null
+  3:
+    id: pexels-16458433
+    url: https://www.pexels.com/photo/light-over-blurred-woman-16458433/
+    creator: David Lyutov
+    platform: Pexels
+    score: 0.5
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.5
+      graphic-collage: 0.179
+    explored: null
+  4:
+    id: pexels-6224485
+    url: https://www.pexels.com/photo/women-celebrating-christmas-in-the-bedroom-6224485/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.494
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      graphic-collage: 0.554
+      cinematic-still: 0.494
+    explored: null
+  5:
+    id: pexels-31753456
+    url: https://www.pexels.com/photo/young-woman-photographer-at-historic-location-31753456/
+    creator: Eyüpcan Timur
+    platform: Pexels
+    score: 0.49
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.49
+      graphic-collage: 0.43
+    explored: null
+  6:
+    id: pexels-27203521
+    url: https://www.pexels.com/photo/a-woman-with-dark-hair-and-blue-eyes-27203521/
+    creator: Juan Cordero
+    platform: Pexels
+    score: 0.488
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.488
+      graphic-collage: 0.144
+    explored: null
+  7:
+    id: pexels-12732985
+    url: https://www.pexels.com/photo/gray-rocks-near-the-bonsai-plant-12732985/
+    creator: Tetyana Kovyrina
+    platform: Pexels
+    score: 0.484
+    aspect_class: '3:4'
+    term: surreal miniature photography
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.675
+      cinematic-still: 0.484
+      full-bleed: 0.197
+    explored: null
+  8:
+    id: pexels-18385210
+    url: https://www.pexels.com/photo/man-behind-window-at-night-18385210/
+    creator: Caner Kökçü
+    platform: Pexels
+    score: 0.483
+    aspect_class: '2:3'
+    term: cinematic portrait vertical
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.658
+      cinematic-still: 0.483
+      full-bleed: 0.246
+    explored: null
+  9:
+    id: pexels-19945149
+    url: https://www.pexels.com/photo/topless-man-taking-pictures-with-camera-19945149/
+    creator: GURYAN
+    platform: Pexels
+    score: 0.483
+    aspect_class: '2:3'
+    term: teal orange portrait moody
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.483
+      graphic-collage: 0.144
+    explored: null
+  10:
+    id: pexels-6224499
+    url: https://www.pexels.com/photo/snow-fashion-love-art-6224499/
+    creator: RDNE Stock project
+    platform: Pexels
+    score: 0.483
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.628
+      cinematic-still: 0.483
+      graphic-collage: 0.459
+    explored: null
+  11:
+    id: pexels-18385529
+    url: https://www.pexels.com/photo/woman-in-pink-dress-posing-with-radio-18385529/
+    creator: Vika Glitter
+    platform: Pexels
+    score: 0.479
+    aspect_class: '2:3'
+    term: neon pink bedroom portrait
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.631
+      cinematic-still: 0.479
+      cutout-checkerboard: 0.18
+    explored: null
+  12:
+    id: pexels-37921707
+    url: https://www.pexels.com/photo/silhouette-of-man-at-sunset-by-the-sea-37921707/
+    creator: Abdalrhman Abdelbasst
+    platform: Pexels
+    score: 0.478
+    aspect_class: '2:3'
+    term: golden hour portrait film
+    searched_family: cinematic-still
+    best_family: outcome-tile
+    family_scores:
+      outcome-tile: 0.733
+      cinematic-still: 0.478
+      graphic-collage: 0.179
+    explored: null

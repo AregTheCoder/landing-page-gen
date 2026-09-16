@@ -1,0 +1,12 @@
+1: {keep: true, subject: person}
+2: {keep: false, note: "flat neutral window light, no coloured grade; boudoir snapshot"}
+3: {keep: true, subject: person, note: "magenta-teal split, neon tube carries no text"}
+4: {keep: true, subject: person}
+5: {keep: true, subject: person, note: "hazy golden-hour backlight, distinct look from the #7 cluster"}
+6: {keep: false, best_family: full-bleed, note: "wide environmental frame with sky, not a single-subject still"}
+7: {keep: true, subject: person, note: "best of the autumn-field shoot, tight and unified warm grade"}
+8: {keep: false, note: "near-duplicate of #7, wider and less unified"}
+9: {keep: false, note: "near-duplicate of #7"}
+10: {keep: false, note: "near-duplicate of #7"}
+11: {keep: true, subject: person, note: "teal-orange split, background neon is bokeh not text"}
+12: {keep: true, subject: person}

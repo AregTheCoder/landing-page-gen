@@ -1,0 +1,11 @@
+1:
+  chrome: [tile, mockup-card, button, chip]
+  text_in_image: headline
+  ui_mockup: product-card
+  subject: multiple
+  art_style: mixed
+  description: a lunch sale poster card beside a sneaker product card with an add to basket button on checkerboard
+  family_hint: template-mockup
+  confidence: 0.5
+  layout: overlay
+  panel_count: 2
