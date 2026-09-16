@@ -274,18 +274,59 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   (`lp-flow check`) before the first call and rendered (`lp-flow sheet`) as
   the node sheet a person could rebuild on the Flow canvas. (2026-09-10,
   Areg's decision after the Flow analysis)
-- Example, stock and widened images are read, never wired: no URL from
-  `examples/`, `corpus/references/` or `corpus/widened/` enters
-  `imageUrls`, `startFrame` or `image`. The only REF a board takes is what
-  the brief allows. Their licence is not ours and the corpus is the look's
-  spine, not its material. (2026-09-10)
-- The look-corpus has three tiers with three uses: Picsart's own pages
+- Example, stock, pool and widened images are read, never wired: no URL from
+  `examples/`, `corpus/references/`, `corpus/pool/` or `corpus/widened/`
+  enters `imageUrls`, `startFrame` or `image`. The only REF a board takes is
+  what the brief allows. Their licence is not ours (the pool's is known but
+  still not a generation input) and the corpus is the look's spine, not its
+  material. (2026-09-10)
+- The look-corpus has four tiers with four uses: Picsart's own pages
   (layout and chrome; `similar`), licensed stock references (the photo
-  genre; `## References`), and widened neighbours found by reverse image
-  search on the corpus images (`lp-corpus widen`; more views of the same
-  look, unknown licence, look only). A brief may carry all three; only the
-  first two are searched by words, the third by the pictures themselves.
-  (2026-09-10)
-- A reviewer spawn fits ~6 sections in its turn budget: split larger waves and write each review-1.md before touching the next section (showcase-1: the 12-section spawn read everything and wrote nothing).
+  genre; `## References`), the stock pool (kept Pexels/Unsplash photos,
+  deduped by perceptual hash, served rotated by `similar --pool --seed`),
+  and widened neighbours found by reverse image search on the corpus images
+  (`lp-corpus widen`; more views of the same look, unknown licence, look
+  only). A brief may carry all four; the last is searched by the pictures
+  themselves, the others by words. (2026-09-10, pool added 2026-09-10)
+- Pool variety comes from rotation, not volume: a brief keeps 2 corpus
+  examples and at most 2 pool images, and the `--seed <run>` shuffle is what
+  changes between runs. More images per brief cost more than they teach
+  (plan.md 2026-09-08). (2026-09-10)
+- Review is spawned per section (up to 3 that clear precheck together), the moment a worker passes precheck, not once for the whole wave at the end: review overlaps the running wave and no spawn approaches its turn limit. Supersedes the earlier reviewer-size caps (~4 sections in live-3, ~6 in showcase-1), which existed only because one spawn had to carry the whole wave (showcase-1: the 12-section spawn read everything and wrote nothing). (2026-09-11)
 - Check Picsart Drive headroom before a run with derivative families (before-after, cutout-checkerboard, crop-frame's change_bg route): enhance/remove_bg/change_bg have no saveToDrive:false, so a full Drive blocks every after/cutout panel (showcase-1 S05, S08).
 - An aspect the generate enum cannot quote (3:2) is generated at the nearest enum and delivered with a recorded centre-crop, never silently stretched (showcase-1 S12).
+- The flat-rate edit tools (remove_bg 0, change_bg 2, enhance 2, topaz 3) cannot be preflight-quoted (preflight is generate-only), so the credit guard prices them from a fixed table (`_ledger.FIXED_PRICE`) and allows them without a preflight, counting the fixed cost against the run cap. This unblocks a true Route 2 cutout in the `layered` pattern; a generate model still needs its preflight. (2026-09-11, pilot-layered blocker resolved)
+- `library/` is a derived, gitignored view of the corpus, rebuilt by `lp-corpus organise`; nothing in it is hand-edited (labels go through the sheets, everything else lives in attributes.yaml/styles.yaml/sections.md). Relabel -> regenerate -> an asset moves folder. (2026-09-14)
+- `structure` (taxonomy.structure_of) is computed on read, not stored; its `single-picture`/`measured` bucket over-collects composite cards with transparent corners until their chrome is labelled — read `structure_source` for the confidence. (2026-09-14)
+- Model-page galleries are reused under other models' headlines (7 pages), so a page-set alone can be ambiguous: a "made with X" headline is asset-level truth and a strict upgrade of the page set; two headlines conflict and the asset is `general`. Link-grid / tutorial-grid / resource-links thumbnails on model pages depict other pages and are never model evidence. (2026-09-14)
+- A family tag whose `chrome` is unanswered is `provisional` (`styles.derive`): it may be a composite the measurer read as full-bleed. `similar` re-ranks so a verified (chrome-answered) same-family example outranks a provisional one, and outranks a text-only BM25 hit — retrieval serves the closest CORRECTLY-built example, not the closest section copy. (2026-09-14)
+- Each corpus example in a brief now carries a `built:` field (its measured ground/layout/panels/chrome/art_style/structure) so the worker anchors on construction, not the 480px thumbnail; an example with no `built:` is unlabelled and its pixels are trusted less. (2026-09-14)
+- The bench→data loop is closed: `lp-corpus feedback <run>` reads a run's `[resemblance]` family-mismatch flags, and for each original whose family is provisional (chrome unanswered) queues it in `corpus/labels/_relabel_queue.yaml`; `sheets.build` lays those suspect originals out first. A finding fixes the data, not only a prose rule. (2026-09-14)
+- A slot's board is a PLANNED recipe, not a reactive one. Each family has a mandatory node pipeline in `picsart-workflows/recipes.md` (generate → i2i refine → the family's edit/compose → finishing enhance; + vectorize for a logo/mark), authored whole and preflighted before node 1. `lp-flow check` reads the board's `family:` line and fails a board that skips a planned node, so a lone-generate board no longer wires. Reactive depth ("add a refine only when a gate names a flaw") collapsed workflows to single generates whenever pass 1 looked acceptable (runs/page-logo-maker: 8 slots, ~1 paid node each). (2026-09-14)
+- Picsart Drive fills up and then `picsart_enhance`/`change_bg`/`remove_bg` 403 ("storage limit reached") with no `saveToDrive` override, which hard-blocks any recipe ending in enhance — and, for video slots, the whole i2v chain (the still→enhance→startFrame dependency). The working substitute is the identical `topaz-upscale-image` model via `picsart_generate` with `saveToDrive:false` (same engine and cost). No Drive deletion is needed. Two follow-ups: `lp-flow check`'s NODE_ENGINES should accept topaz-via-generate for the `enhance` kind (it currently flags "enhance node on picsart_generate"), and `_ledger.FIXED_PRICE` should price it on the generate path (preflight returns null there, so the ledger under-counts ~3 cr/upscale). (2026-09-15, live-5)
+- The 80-turn subagent cap is too low for a section with 8–10 tiles or for an async video slot; such workers stop mid-way ("stopped at its 80-turn limit"). When SendMessage is disabled the manager cannot resume them in place and must re-spawn — and a soft turn-limit checkpoint is NOT proof the agent is dead, so re-spawning a resume while the original is still running produces duplicate paid renders (live-5: ~190 of 902 credits was S06/S03 orphaned seedance-2.5 finals). Confirm death before re-spawning; shard multi-tile sections per-tile or raise the worker turn budget; and have video workers persist the async clip URL to workflow.yaml the instant `picsart_job_status` returns it, before download, so a turn-limit stop never orphans it. (2026-09-15, live-5)
+- On a character/persona-generator page, favour the photo families (cinematic-still, full-bleed) over the corpus's composite tags where the slot-class default allows: the composite tags (cutout-checkerboard, mockup-card, prompt-card) rest on unanswered/mismatched chrome and would fabricate UI the page's real creatives don't carry. live-5 overrode S05/S11 to full-bleed and briefed S10 as dark-composite; family match 0.90 (vs 0.61 on the composite-heavy live-2/3). (2026-09-15, live-5)
+- Compose templates must match a family's MODAL corpus layout, not one exemplar. A 2026-09-15 audit (research/template-audit/) of all six lp-compose templates vs their tagged corpus assets found every one was measured off a single hand-picked asset and generalised: dark-composite matched 0/13 (column on the wrong side, invented "4K" chip, missing magenta accent), template-mockup 1/14 (opaque-white ground vs transparent; 4 uniform tiles vs 3 mixed; blank headline bars that occur in 0/14), before-after encoded the rarest layout (1/20; modal is a wide 2.1:1 card), crop-frame the ground was black-not-white and the source is dimmed, cutout-checkerboard the ground is transparent-not-black. Four of six paint an opaque ground that is actually transparent (the page supplies the surround); the likely cause is an RGBA→RGB read making a transparent gutter look black. Standing rules now in research/template-audit/STANDARD.md: template the modal (≥10 sampled+viewed assets), measure ground from alpha, cite a living asset per chrome element, re-derive style-families Examples from styles.yaml, clean noisy tag populations before trusting counts. Corrected defaults + ground fixes are in families.py (each re-rendered and eyeballed); richer variants (crop-grid, /editor, partial-fill checker, compare-labels) are specified but deferred. (2026-09-15)
+- Evidence rot: several templates and style-families Examples lines were built on assets that were later re-tagged to other families (dark-composite's 4eeca13c/86f73fc9 → full-bleed; template-mockup's 21cdafd9 → dark-composite), and nothing re-checked the template when its evidence moved. A cited asset id that is no longer tagged its family should fail a test. (2026-09-15)
+- taxonomy.family_of over-fires on several families: ~half of crop-frame's 58 tags are pastatic designed-template mockups; 17 of before-after's are compare VS cards; 4/13 sampled cutout-checkerboard and 21/28 panel-overlay tags are other designs. Family counts are not trustworthy until a /label-corpus pass cleans these. (2026-09-15)
+
+- The pool ranker orders candidates by fidelity to the family's own
+  photography — the nearest cluster of its tagged corpus stills, gated by
+  aspect ratio — never by subject alone, and never by the family's chrome:
+  tiles, pills, panels and badges are drawn by `lp-compose` afterwards, so a
+  bare photograph is what a reviewer judges. Its auto-drop threshold is set
+  only from agent keep/drop answers, at ≥ 95% recall of what they kept, and
+  always with a 10% exploration slice so the threshold stays falsifiable.
+  CLIP is an optional extra (`uv sync --extra embed`); without it the
+  histogram ranker orders the sheets and nothing is auto-dropped. (2026-09-16)
+- Every pool entry carries a controlled licence key (`stock.LICENCES`) and
+  `attribution_required`; a candidate whose licence is not one of them never
+  enters the pool at all. A candidate is scored against all fifteen families
+  and lives in exactly one family yaml — the searched one unless it is gated
+  out or clearly beaten, and a reviewer's `best_family` moves it rather than
+  losing it. (2026-09-16)
+- Pool traffic is free-tier only (Pexels, Unsplash, Pixabay), cached and
+  capped in code: zero credits, zero spend. The `hooks/` guards see MCP tool
+  names only, so they cannot see, pace or ledger an `lp-corpus` HTTP call —
+  `apiclient`/`ledger` are that guard, and `--dry-run` is how a sweep is
+  costed before it is run. (2026-09-16)
