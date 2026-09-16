@@ -330,3 +330,16 @@ def test_sectionize_prefers_displayed_copy_over_zero_size_duplicate(tmp_path):
     hero = sectionize.sectionize_page(d, con, log=lambda m: None)[0]
     assert [m["src"] for m in hero["media"]] == [HERO1, HERO1.replace("hero1", "hero2")]
     assert (hero["media"][0]["width"], hero["media"][0]["height"]) == (300, 450)
+
+
+def test_frame_grabber_launches_chromium_lazily(monkeypatch):
+    """B4: entering the FrameGrabber context must not start Playwright; only a
+    grab() does. `similar` opens the context every run but rarely has a video."""
+    import sys
+    import types
+
+    fake = types.ModuleType("playwright.sync_api")
+    fake.sync_playwright = lambda *a, **k: (_ for _ in ()).throw(AssertionError("Chromium launched on enter"))
+    monkeypatch.setitem(sys.modules, "playwright.sync_api", fake)
+    with similar.FrameGrabber():
+        pass  # no grab -> no launch, no AssertionError
