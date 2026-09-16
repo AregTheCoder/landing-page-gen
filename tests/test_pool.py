@@ -881,3 +881,21 @@ def test_a_sheet_never_mixes_intake_modes_and_each_gets_its_own_prompt(tmp_path)
     layout = pool.prompt(FAMILY, refs, pool.LAYOUT)
     assert "watermarks are expected" in layout and "not duplicates" in layout
     assert "text-heavy" in pool.prompt(FAMILY, refs, pool.BARE)
+
+
+def test_limit_per_term_caps_admissions_not_pages(tmp_path):
+    """The cap used to be checked after a whole page was admitted, so a limit
+    of 3 against an 80-result page let all 80 in. Every surplus candidate is a
+    sheet cell paid for in review tokens."""
+    write_corpus_hashes(tmp_path, noise_image("far-away"))
+    payload = {"photos": [{"id": i, "url": f"https://www.pexels.com/photo/p-{i}/",
+                           "src": {"original": f"https://images.pexels.com/photos/{i}/p.jpeg"},
+                           "photographer": f"P{i}", "width": 3000, "height": 2000}
+                          for i in range(1, stock.PER_PAGE["pexels"] + 1)]}
+    _, stats = pool.search(FAMILY, terms=["cup"], platforms=("pexels",), keys={"pexels": "k"},
+                           fetch=lambda u, headers=None: payload, download=any_download,
+                           to_png=similar.to_png, pool_dir=tmp_path, attrs_mapping={},
+                           styles_mapping={}, ranker_name="histogram", limit_per_term=3,
+                           max_per_creator=99, log=lambda m: None)
+    assert stats["raw"] == 3, f"admitted {stats['raw']} against a cap of 3"
+    assert stats["platforms"]["pexels"]["results"] == stock.PER_PAGE["pexels"], "the page still arrived whole"

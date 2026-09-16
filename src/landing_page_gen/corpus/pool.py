@@ -716,10 +716,23 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                 stats["searched"] += 1
                 pf["pages"] += 1
                 pf["results"] += len(photos)
-                n_new = sum(1 for ph in photos if admit(ph, platform, term))
+                # Admit up to the cap, not past it. Admitting the whole page first
+                # and checking after overshoots by the page size — 80 on Pexels,
+                # 200 on Pixabay — and every surplus candidate is a sheet cell
+                # paid for in review tokens.
+                room = max(limit_per_term - admitted[(platform, term)], 0)
+                n_new = considered = 0
+                for ph in photos:
+                    if n_new >= room:
+                        break
+                    considered += 1
+                    if admit(ph, platform, term):
+                        n_new += 1
                 admitted[(platform, term)] += n_new
+                # the yield floor judges the admit rate over what was actually
+                # looked at, so stopping at the cap never reads as a bad term
                 if (len(photos) < stock.PER_PAGE[platform] or admitted[(platform, term)] >= limit_per_term
-                        or n_new < YIELD_FLOOR * max(len(photos), 1)):
+                        or n_new < YIELD_FLOOR * max(considered, 1)):
                     done.add((platform, term))
     stats["raw"] = len(raw)
 
