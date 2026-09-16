@@ -79,6 +79,12 @@ END;
 CREATE TRIGGER IF NOT EXISTS sections_ad AFTER DELETE ON sections BEGIN
   INSERT INTO sections_fts(sections_fts, rowid, md, headline) VALUES ('delete', old.id, old.md, old.headline);
 END;
+-- attrs/styles apply and similar match by these keys; without the indexes each
+-- of the ~3300 per-src UPDATEs and every EXISTS clause scans the media table.
+CREATE INDEX IF NOT EXISTS media_src ON media(src);
+CREATE INDEX IF NOT EXISTS media_section ON media(section_id);
+CREATE INDEX IF NOT EXISTS sections_page ON sections(page_id);
+CREATE INDEX IF NOT EXISTS texts_section ON texts(section_id);
 """
 
 

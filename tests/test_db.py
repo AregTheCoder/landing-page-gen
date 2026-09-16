@@ -19,3 +19,14 @@ def test_schema_and_fts_roundtrip(tmp_path):
     assert [tuple(h) for h in hits] == [("S01", "hero")]
     assert "hero" in db.SECTION_TYPES
     assert set(db.GENERATED_ROLES) < set(db.MEDIA_ROLES)
+
+
+def test_indexes_exist_and_the_apply_update_seeks(tmp_path):
+    """B2: media(src) and media(section_id) are indexed, so attrs/styles apply
+    updates by src seek instead of scanning."""
+    con = db.connect(tmp_path / "corpus.db")
+    media_ix = {r["name"] for r in con.execute("PRAGMA index_list(media)")}
+    assert {"media_src", "media_section"} <= media_ix
+    plan = " ".join(r["detail"] for r in con.execute(
+        "EXPLAIN QUERY PLAN UPDATE media SET style=? WHERE src=?", ("full-bleed", "x")))
+    assert "media_src" in plan and "SCAN media" not in plan
