@@ -55,3 +55,23 @@ def test_build_and_find_rank_by_text_match_then_score(tmp_path):
     # hard filters: aspect + family + state
     assert poolindex.find(aspect="16:9", state=("pending",), pool_dir=tmp_path) == []
     assert poolindex.find(state=("kept",), pool_dir=tmp_path) == []
+
+
+def test_picks_for_matches_kept_entries_and_falls_back_without_an_index(tmp_path):
+    _write_pool(tmp_path, {
+        "pexels-1": _entry(state="kept", description="A single cupcake with pink frosting on a white plate.",
+                           image="img1", creator="C1"),
+        "pexels-2": _entry(state="kept", description="A yellow bottle on a white background.", score=0.9),
+        "pexels-3": _entry(state="pending", description="A cupcake tray, chocolate cupcakes.")})
+    # no index yet -> None so the caller uses the seeded shuffle
+    assert poolindex.picks_for("cupcake", "outcome-tile", 3, pool_dir=tmp_path) is None
+    poolindex.build(pool_dir=tmp_path, log=lambda m: None)
+    # a content query returns full kept entries (ready for write_examples), best first
+    picks = poolindex.picks_for("cupcake pink frosting plate", "outcome-tile", 2, pool_dir=tmp_path)
+    assert picks[0]["id"] == "pexels-1" and picks[0]["image"] == "img1" and picks[0]["creator"] == "C1"
+    assert all(p["state"] == "kept" for p in picks)   # the pending cupcake is never served
+    # exclude_asset drops an entry whose nearest/url carries the run's own id
+    _write_pool(tmp_path, {"pexels-1": _entry(state="kept", description="cupcake white plate",
+                                              nearest=["deadbeef"])})
+    poolindex.build(pool_dir=tmp_path, log=lambda m: None)
+    assert poolindex.picks_for("cupcake", "outcome-tile", 2, exclude_asset=["deadbeef"], pool_dir=tmp_path) is None

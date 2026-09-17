@@ -121,6 +121,32 @@ def build(pool_dir=_pool.POOL_DIR, log=print):
     return {"rows": rows, "with_description": with_desc}
 
 
+def picks_for(need, family, k, aspect=None, exclude_asset=(), pool_dir=_pool.POOL_DIR):
+    """Ranked *kept* pool entries for a slot, as full entries ready for
+    `pool.write_examples`, using the content index to match the slot's `need`.
+    Returns None when there is no index or no described-and-kept match, so the
+    caller can fall back to the seeded shuffle (`pool.pick`)."""
+    if not index_path(pool_dir).exists():
+        return None
+    rows = find(need=need, family=family, aspect=aspect, state=("kept",), k=k * 3, pool_dir=pool_dir)
+    if not rows:
+        return None
+    data = _pool.load(family, pool_dir)
+    excl = list(exclude_asset or [])
+    out = []
+    for r in rows:
+        e = data["entries"].get(r["id"])
+        if not e:
+            continue
+        blind = " ".join([e.get("url") or "", e.get("image") or "", *(e.get("nearest") or [])])
+        if any(i in blind for i in excl):
+            continue
+        out.append(dict(e, id=r["id"]))
+        if len(out) >= k:
+            break
+    return out or None
+
+
 def _fts_query(need):
     """A safe FTS5 MATCH string: quote each word as a prefix term, OR-joined so
     a partial hit still ranks. Punctuation is dropped."""

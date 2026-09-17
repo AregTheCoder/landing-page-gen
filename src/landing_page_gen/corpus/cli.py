@@ -397,7 +397,13 @@ def main(argv=None) -> int:
         if a.pool:
             if not fam:
                 p.error("--pool needs --style: the pool is stored per family")
-            picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect)
+            # content-match the slot's query against the described pool when an
+            # index exists; else fall back to the seeded shuffle
+            from . import poolindex
+            picks = poolindex.picks_for(a.query, fam, a.pool, aspect=a.pool_aspect,
+                                        exclude_asset=a.exclude_asset, pool_dir=pool.POOL_DIR)
+            if picks is None:
+                picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect)
             if not picks:
                 log(f"no kept pool entries for {fam}: run `lp-corpus pool search {fam}` and answer the sheets")
             pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
