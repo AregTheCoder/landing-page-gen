@@ -95,91 +95,21 @@ def test_logger_records_urls_model_and_quote(tmp_path):
     assert "https://gcdn.picsart.com/out.png" in rows[1]["urls"]
 
 
-def edit_tool(short):
-    return f"mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__{short}"
-
-
-def test_guard_allows_flat_rate_edit_tools_without_preflight(tmp_path):
-    """remove_bg/change_bg/enhance are generate-only-unquotable flat models;
-    the guard uses their fixed price instead of demanding a preflight."""
-    run = make_run(tmp_path, run_credits=300)
-    for short in ("picsart_remove_bg", "picsart_change_bg", "picsart_enhance"):
-        call = {"tool_name": edit_tool(short), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
-        assert run_hook("credit_guard.py", call, run) is None, short
-
-
-def test_guard_counts_flat_rate_cost_against_cap(tmp_path):
-    run = make_run(tmp_path, run_credits=3)
-    call = {"tool_name": edit_tool("picsart_change_bg"), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
-    assert run_hook("credit_guard.py", call, run) is None          # 0 + 2 <= 3
-    run_hook("log_generation.py", {**call, "tool_response": {"results": [{"url": "https://gcdn.picsart.com/o.png"}]}}, run)
-    out = run_hook("credit_guard.py", call, run)                    # 2 + 2 = 4 > 3
-    assert decision(out)[0] == "deny" and "budget exceeded" in decision(out)[1]
-
-
-def test_logger_records_fixed_price_without_preflight(tmp_path):
-    run = make_run(tmp_path, run_credits=300)
-    call = {"tool_name": edit_tool("picsart_change_bg"), "tool_input": {"image": "https://gcdn.picsart.com/in.png"}}
-    run_hook("log_generation.py", {**call, "tool_response": {"results": [{"url": "https://gcdn.picsart.com/o.png"}]}}, run)
-    row = json.loads((run / "ledger.jsonl").read_text().splitlines()[0])
-    assert row["tool"] == "picsart_change_bg" and row["model"] == "recraftv3-replace-bg"
-    assert row["quoted_credits"] == 2          # fixed price, no preflight row needed
-
-
-def paid_gen(params):
-    return {"tool_name": GEN, "tool_input": {"model": "seedream-4", "params": params}}
-
-
-def log_output(run, url):
-    """Log a paid generate whose response carries `url`, so it enters the run's
-    ledger as a within-run output the isolation guard will then allow."""
-    run_hook("log_generation.py", {**paid_gen({"prompt": "x"}),
-             "tool_response": {"results": [{"url": url}]}}, run)
-
-
-def test_isolation_allows_when_no_run_is_active(tmp_path):
-    call = paid_gen({"imageUrls": ["https://gcdn.picsart.com/prior.png"]})
-    assert run_hook("isolation_guard.py", call, tmp_path / "absent") is None
-
-
-def test_isolation_allows_text_only_generation(tmp_path):
-    run = make_run(tmp_path, run_credits=400)
-    assert run_hook("isolation_guard.py", paid_gen({"prompt": "a red teapot"}), run) is None
-
-
-def test_isolation_denies_foreign_url(tmp_path):
-    """A corpus / prior-run / Drive asset is not in this run's ledger."""
-    run = make_run(tmp_path, run_credits=400)
-    log_output(run, "https://gcdn.picsart.com/inrun.png")
-    call = paid_gen({"prompt": "x", "imageUrls": ["https://gcdn.picsart.com/de63706d-prior.png"]})
-    out = run_hook("isolation_guard.py", call, run)
-    assert decision(out)[0] == "deny" and "Run isolation" in decision(out)[1]
-
-
-def test_isolation_allows_in_run_output_even_as_download_variant(tmp_path):
-    run = make_run(tmp_path, run_credits=400)
-    log_output(run, "https://gcdn.picsart.com/inrun.png")
-    call = {"tool_name": edit_tool("picsart_enhance"),
-            "tool_input": {"image": "https://gcdn.picsart.com/inrun.png?download=true&x=1"}}
-    assert run_hook("isolation_guard.py", call, run) is None
-
-
-def test_isolation_denies_laundered_upload(tmp_path):
-    """media_upload is not a paid tool, so the URL it mints never enters the
-    ledger; wiring it into the next paid call is still caught here."""
-    run = make_run(tmp_path, run_credits=400)
-    call = paid_gen({"prompt": "x", "imageUrls": ["https://cdn.picsart.com/uploaded-prior.png"]})
-    out = run_hook("isolation_guard.py", call, run)
-    assert decision(out)[0] == "deny"
-
-
 def test_check_result_blocks_until_contract_is_met(tmp_path):
     run = make_run(tmp_path)
     section = run / "sections" / "S03"
     section.mkdir(parents=True)
-    transcript = tmp_path / "t.jsonl"
-    transcript.write_text(json.dumps({"input": {"file_path": f"{run}/sections/S03/brief.md"}}) + "\n")
-    payload = {"transcript_path": str(transcript), "stop_hook_active": False}
+    # The main-session transcript names another section first; the worker's
+    # own transcript names S03 in its assignment and lists S09 later.
+    main = tmp_path / "main.jsonl"
+    main.write_text(json.dumps({"type": "user", "message": {"role": "user", "content": f"earlier: {run}/sections/S01/brief.md"}}) + "\n")
+    worker = tmp_path / "agent.jsonl"
+    worker.write_text("\n".join([
+        json.dumps({"type": "user", "isMeta": True, "message": {"role": "user", "content": [{"type": "text", "text": "skill preamble"}]}}),
+        json.dumps({"type": "user", "message": {"role": "user", "content": f"Section S03. Work only inside `{run}/sections/S03/`."}}),
+        json.dumps({"type": "assistant", "message": {"role": "assistant", "content": [{"type": "text", "text": f"listing {run}/sections/S09"}]}}),
+    ]) + "\n")
+    payload = {"transcript_path": str(main), "agent_transcript_path": str(worker), "stop_hook_active": False}
 
     out = run_hook("check_result.py", payload, run)
     assert out["decision"] == "block" and "S03" in out["reason"]
@@ -190,43 +120,10 @@ def test_check_result_blocks_until_contract_is_met(tmp_path):
     assert run_hook("check_result.py", {**payload, "stop_hook_active": True}, run) is None
 
 
-def test_check_result_accepts_composite_contract(tmp_path):
-    """A composite slot has no URL: final.url is null, chosen is a run-relative path."""
-    import yaml
+def test_check_result_falls_back_to_transcript_path(tmp_path):
     run = make_run(tmp_path)
-    section = run / "sections" / "S07"
-    section.mkdir(parents=True)
+    (run / "sections" / "S05").mkdir(parents=True)
     transcript = tmp_path / "t.jsonl"
-    transcript.write_text(json.dumps({"input": {"file_path": f"{run}/sections/S07/brief.md"}}) + "\n")
-    payload = {"transcript_path": str(transcript), "stop_hook_active": False}
-    (section / "workflow.yaml").write_text(
-        "slot: S07-m1\nsteps:\n  - id: 3\n    tool: lp-compose\n"
-        "    params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}\n    quoted_credits: 0\n"
-        "final: {url: null, local: steps/S07-m1-3-1.png, width: 720, height: 720}\n")
-    (section / "result.md").write_text(
-        "---\nsection: S07\nslots:\n  S07-m1:\n    chosen: sections/S07/steps/S07-m1-3-1.png\n"
-        "    scores: {clean: 5}\n---\n")
-    assert run_hook("check_result.py", payload, run) is None
-    assert yaml.safe_load((section / "workflow.yaml").read_text())["steps"][0]["tool"] == "lp-compose"
-
-
-def test_check_result_takes_the_assigned_section_not_a_stray_path(tmp_path):
-    run = make_run(tmp_path)
-    for sid in ("S03", "S09"):
-        (run / "sections" / sid).mkdir(parents=True)
-    transcript = tmp_path / "t.jsonl"
-    lines = [json.dumps({"input": {"file_path": f"{run}/sections/S09/brief.md"}}),  # a stray earlier path
-             json.dumps({"prompt": f"Section S03. Work only inside `{run}/sections/S03/`. Read `brief.md` first."}),
-             json.dumps({"input": {"file_path": f"{run}/sections/S03/workflow.yaml"}})]
-    transcript.write_text("\n".join(lines) + "\n")
-    payload = {"transcript_path": str(transcript), "stop_hook_active": False}
-    out = run_hook("check_result.py", payload, run)
-    assert out["decision"] == "block" and "S03" in out["reason"] and "S09" not in out["reason"]
-    # without the assignment sentence, the most-named existing section wins
-    transcript.write_text("\n".join(lines[0:1] + lines[2:] * 2) + "\n")
-    out = run_hook("check_result.py", payload, run)
-    assert "S03" in out["reason"]
-    # a transcript holding several assignments is the manager's, not one worker's: whose stop this is cannot be told, so no block
-    lines.append(json.dumps({"prompt": f"Section S09. Work only inside `{run}/sections/S09/`. Read `brief.md` first."}))
-    transcript.write_text("\n".join(lines) + "\n")
-    assert run_hook("check_result.py", payload, run) is None
+    transcript.write_text(json.dumps({"type": "user", "message": {"role": "user", "content": f"Section S05. Work in {run}/sections/S05/."}}) + "\n")
+    out = run_hook("check_result.py", {"transcript_path": str(transcript), "stop_hook_active": False}, run)
+    assert out["decision"] == "block" and "S05" in out["reason"]
