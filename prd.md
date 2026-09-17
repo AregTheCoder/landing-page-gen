@@ -349,3 +349,11 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   DUMPER`, shared via `load_yaml`/`dump_yaml`) and index `media(src)` /
   `media(section_id)`: the two together take a maintenance command's YAML+DB
   cost from ~12s to under 1s. YAML stays the single committed form. (2026-09-16)
+- `pool search` is breadth-first with two early-stops (`deepen`'s keep-floor and
+  `YIELD_FLOOR`) that end a term after page 1 once its page-1 admittable photos
+  are already held — so once every family's curated terms are page-1-exhausted
+  the pool plateaus and neither `--pages` nor `--keep-floor` pulls anything new.
+  To grow it: `--deep` (opt-in; pages every term to full `--pages` depth, keeping
+  only the short-page and per-term-cap stops) and/or more `search_terms`. `--deep`
+  trades relevance for volume; the calibrated threshold and review still curate.
+  A term has ~5–7 real Pexels pages before it runs out. (2026-09-17)

@@ -670,7 +670,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
            attrs_mapping=None, styles_mapping=None, hashes=None, pages=1, min_width=MIN_WIDTH,
            keep_floor=KEEP_FLOOR, cal=None, explore=EXPLORE, use_threshold=True,
            max_per_creator=MAX_PER_CREATOR, ranker=None, ranker_name=None, run_id=None,
-           composition=BARE, references_dir=None, log=print):
+           composition=BARE, references_dir=None, deep=False, log=print):
     """Walk the terms breadth-first (every term sees page 1 before any sees
     page 2, so a spent budget still covers them all), admitting what the
     metadata alone cannot rule out, then hash, measure and rank each new
@@ -680,7 +680,14 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
     One platform's refusal stops that platform, never the others; a candidate
     below the calibrated threshold is dropped without ever costing a sheet
     cell, bar a deterministic exploration slice that keeps the threshold
-    honest. Returns (written paths, stats)."""
+    honest. Returns (written paths, stats).
+
+    With `deep`, every term is paged to the full `pages` depth: the keep-floor
+    and yield-floor early-stops are ignored, so a term whose page 1 is already
+    in the pool still reaches the new photos on pages 2..N. A term still stops
+    when the platform runs out (a short page) or the per-term cap is met. This
+    trades relevance for volume — the downstream threshold and review still
+    curate — so it is opt-in, off by default."""
     terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir, references_dir,
                                         composition)
     client = client or DirectFetcher(fetch)
@@ -738,7 +745,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
             for term in terms:
                 if (platform, term) in done:
                     continue
-                if page > 1 and not deepen(family, term, cal, ranker.name, keep_floor, pages):
+                if page > 1 and not deep and not deepen(family, term, cal, ranker.name, keep_floor, pages):
                     done.add((platform, term))
                     continue
                 try:
@@ -777,7 +784,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                 # the yield floor judges the admit rate over what was actually
                 # looked at, so stopping at the cap never reads as a bad term
                 if (len(photos) < stock.PER_PAGE[platform] or admitted[(platform, term)] >= limit_per_term
-                        or n_new < YIELD_FLOOR * max(considered, 1)):
+                        or (not deep and n_new < YIELD_FLOOR * max(considered, 1))):
                     done.add((platform, term))
     stats["raw"] = len(raw)
 

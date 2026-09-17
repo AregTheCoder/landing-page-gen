@@ -319,6 +319,40 @@ def test_search_deepens_only_terms_the_reviewers_keep(tmp_path):
     assert ("good", 2) in seen and ("bad", 2) not in seen, "a term reviewers drop gets no second page"
 
 
+def test_deep_pages_every_term_past_the_stale_and_keep_floor_stops(tmp_path):
+    write_corpus_hashes(tmp_path, noise_image("far-away"))
+    # seed the pool with page 1's ids, so page 1 is fully stale on the next run
+    pool.search(FAMILY, terms=["cup"], platforms=("pexels",), keys={"pexels": "k"},
+                fetch=lambda url, headers=None: pexels_page(1), download=any_download,
+                to_png=similar.to_png, pool_dir=tmp_path, attrs_mapping={}, styles_mapping={},
+                pages=1, limit_per_term=500, use_threshold=False, cal={}, log=lambda m: None)
+
+    seen = []
+
+    def fetch(url, headers=None):
+        page = int(query_of(url)["page"])
+        seen.append(page)
+        return pexels_page(page)  # page 1 all-known, pages 2..3 new
+
+    # a term reviewers drop (keep rate below the floor): its second page is gated off too
+    cal = {"rankers": {"histogram": {"terms": {FAMILY: {
+        "cup": {"n": 40, "kept": 1, "keep_rate": 0.03}}}}}}
+    common = dict(platforms=("pexels",), keys={"pexels": "k"}, fetch=fetch, download=any_download,
+                  to_png=similar.to_png, pool_dir=tmp_path, attrs_mapping={}, styles_mapping={},
+                  pages=3, limit_per_term=500, use_threshold=False, cal=cal,
+                  ranker_name="histogram", log=lambda m: None)
+
+    # default: the stale page 1 (and the low keep rate) end the term at page 1
+    seen.clear()
+    _, base = pool.search(FAMILY, terms=["cup"], **common)
+    assert seen == [1] and base["new"] == 0
+
+    # deep: every page to the depth is fetched, so the new photos deeper in come in
+    seen.clear()
+    _, got = pool.search(FAMILY, terms=["cup"], deep=True, **common)
+    assert seen == [1, 2, 3] and got["new"] == 160  # pages 2 and 3, 80 fresh ids each
+
+
 def test_prefilters_reject_on_metadata_without_downloading(tmp_path):
     write_corpus_hashes(tmp_path, noise_image("far-away"))
     attrs_mapping, styles_mapping = portrait_corpus()

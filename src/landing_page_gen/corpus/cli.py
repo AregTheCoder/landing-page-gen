@@ -85,10 +85,11 @@ def main(argv=None) -> int:
     w.add_argument("--out", type=Path, default=widen.WIDENED_DIR)
 
     pl = sub.add_parser("pool", help="Licensed stock pool per family: search -> sheets -> labels; served by `similar --pool`")
-    pl.add_argument("stage", choices=("search", "sheets", "labels", "embed", "calibrate", "quota"),
+    pl.add_argument("stage", choices=("search", "sheets", "labels", "embed", "calibrate", "quota", "index", "find"),
                     help="search = fetch, dedupe and rank new candidates; sheets = contact sheets of pending entries; "
                          "labels = merge the answers, keep or drop; embed = build the CLIP cache the clip ranker reads; "
-                         "calibrate = turn the answers into a threshold and per-term keep rates; quota = how much each family is owed")
+                         "calibrate = turn the answers into a threshold and per-term keep rates; quota = how much each family is owed; "
+                         "index = merge descriptions (--from) and rebuild the content index; find = rank images for a slot by --need x score")
     pl.add_argument("family", nargs="?", choices=db.STYLES, help="style family (labels without one merges every family)")
     pl.add_argument("--terms", action="append", default=[],
                     help="search term (repeatable; default: the family's corpus/references search_terms)")
@@ -111,6 +112,10 @@ def main(argv=None) -> int:
                     help=f"cap on one creator's shoot per term (default {pool.MAX_PER_CREATOR}); "
                          "raise it for template families, where a serial set is the point")
     pl.add_argument("--no-threshold", action="store_true", help="sheet everything: ignore the calibrated auto-drop")
+    pl.add_argument("--deep", action="store_true",
+                    help="page every term to the full --pages depth: ignore the keep-floor and "
+                         "yield-floor early-stops so a page-1-exhausted term still reaches new photos "
+                         "deeper in. Trades relevance for volume; the threshold and review still curate")
     pl.add_argument("--dry-run", action="store_true", help="print the planned requests per platform and make none")
     pl.add_argument("--refresh", action="store_true", help="bypass the response cache (Pixabay keeps its 24 h floor)")
     pl.add_argument("--max-requests", type=int, default=0, help="stop the run after this many API requests (0 = tier caps only)")
@@ -120,6 +125,12 @@ def main(argv=None) -> int:
     pl.add_argument("--write", action="store_true", help="pool calibrate: write _calibration.yaml instead of only printing it")
     pl.add_argument("--family-check", action="store_true", help="pool calibrate: also run the leave-one-out family agreement check (needs the clip cache)")
     pl.add_argument("--quota-base", type=int, default=pool.QUOTA_BASE, help="candidates per platform for the largest family")
+    pl.add_argument("--from", dest="from_jsonl", type=Path, help="pool index: merge descriptions from this {id, description} JSONL before rebuilding")
+    pl.add_argument("--need", help="pool find: the slot's content need, e.g. 'product on pink seamless, hard shadow'")
+    pl.add_argument("--aspect", help="pool find: restrict to one aspect_class, e.g. 3:4")
+    pl.add_argument("--state", action="append", choices=("pending", "kept", "dropped"),
+                    help="pool find: entry state(s) to search (repeatable; default kept)")
+    pl.add_argument("-k", type=int, default=10, help="pool find: how many results (default 10)")
     pl.add_argument("--out", type=Path, default=pool.POOL_DIR)
 
     st = sub.add_parser("styles", help="Derive corpus/styles.yaml from the attributes through the rule table, or mirror it into media.style")
@@ -308,7 +319,7 @@ def main(argv=None) -> int:
                     return 0
                 paths, stats = pool.search(a.family, limit_per_term=a.limit_per_term, explore=a.explore,
                                            use_threshold=not a.no_threshold, ranker_name=a.rank,
-                                           max_per_creator=a.max_per_creator,
+                                           max_per_creator=a.max_per_creator, deep=a.deep,
                                            run_id=run_id, log=log, **common)
                 for pf, st in stats["platforms"].items():
                     pre = st["prefiltered"]
@@ -328,6 +339,22 @@ def main(argv=None) -> int:
                 _, stats = pool.build_sheets(a.family, pool_dir=a.out, resheet=a.resheet,
                                              attrs_mapping=attrs.load(), styles_mapping=styles.load(), log=log)
                 print(f"{stats['sheets']} sheet(s) for {stats['pending']} pending entr(ies) -> {a.out}/sheets")
+            elif a.stage == "index":
+                from . import poolindex
+                if a.from_jsonl:
+                    m = poolindex.merge_descriptions(a.from_jsonl, pool_dir=a.out, log=log)
+                    print(f"descriptions: {m['set']} set from {m['ids']} id(s), {m['orphans']} with no pool entry")
+                stats = poolindex.build(pool_dir=a.out, log=log)
+            elif a.stage == "find":
+                from . import poolindex
+                rows = poolindex.find(need=a.need, family=a.family, aspect=a.aspect,
+                                      state=tuple(a.state) if a.state else ("kept",), k=a.k, pool_dir=a.out)
+                if not rows:
+                    print("no matches")
+                for r in rows:
+                    print(f"{r['id']:20} {r['family']:20} {r['aspect_class'] or '?':6} "
+                          f"score {r['score']:.3f}  {r['state']}")
+                    print(f"    {(r['description'] or '(no description yet)')[:160]}")
             else:
                 stats = pool.ingest_labels(a.family, pool_dir=a.out, log=log)
                 for err in stats["errors"]:

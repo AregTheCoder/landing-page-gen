@@ -33,6 +33,7 @@ corpus/widened/**/*.png
 corpus/pool/thumbs/
 corpus/pool/sheets/*.png
 corpus/pool/_api.sqlite*
+corpus/pool/_index.sqlite*
 corpus/pool/_embed/
 corpus/pages/*/*
 !corpus/pages/*/sections.md
