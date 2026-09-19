@@ -1,0 +1,144 @@
+1:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: diagonal split collage of a woman in sunglasses and a white jacket on black, Collage pill
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: three friends look down at the camera against blue sky, Blur pill, faces get pixelated
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: empty heart-shaped collage slots with plus marks on black, later filled with portraits
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: perfume bottle source photo with Generate video button beside a bottle in peach smoke
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: push-in
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two-row grid of UGC clips, young people eating ice cream in cars and parks
+  family_hint: other
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: pan
+6:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman blows a kiss in a cafe selfie, Blur pill, then emoji stickers cover faces
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: 3d-render
+  before_after: false
+  description: text-motion panel with font list and Generate Motion button beside chrome balloon letters DREAM BIG in sky
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  before_after: false
+  description: brown shirt product panel with presets beside a social clip of a blonde in a cap on a rooftop
+  family_hint: mockup-card
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+9:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: two empty collage slots with plus marks on black, later two blonde models on red and blue
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: three friends hold white mugs in a warm cafe, Blur pill, side faces blur out
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  before_after: false
+  description: brown shirt product panel with presets beside a social clip of a blonde in a cap on a rooftop
+  family_hint: mockup-card
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+12:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in a green tank top talks on a couch in a phone frame, Blur pill, face pixelates
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static

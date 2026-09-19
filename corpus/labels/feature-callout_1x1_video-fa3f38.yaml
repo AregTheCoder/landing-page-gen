@@ -1,0 +1,262 @@
+sheet: feature-callout_1x1_video-fa3f38
+group:
+  type: feature-callout
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- before_after
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_1x1_video-fa3f38.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ed7a95bd-ce05-4250-8905-ed8350f66445.webm
+    asset: ed7a95bd
+    page: add-text-to-video
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.13
+    motion: 0.1688
+    pace: fast
+    loop: false
+    loop_seam: 0.836
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ede0c7ee-dfde-4a60-8240-8bd8a403d6b7.webm
+    asset: ede0c7ee
+    page: ai-image-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.4
+    motion: 0.135
+    pace: fast
+    loop: false
+    loop_seam: 0.729
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f04b1d2b-5aca-47a1-ba77-f06c020c0b01.webm
+    asset: f04b1d2b
+    page: ai-models--wan-3-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.01
+    motion: 0.0488
+    pace: medium
+    loop: true
+    loop_seam: 0.921
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0b2c933-afa7-4212-a571-8f652df22328.webm
+    asset: f0b2c933
+    page: ai-models--happyhorse-1-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 8.0
+    motion: 0.031
+    pace: slow
+    loop: true
+    loop_seam: 0.957
+    camera: static
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm
+    asset: f31cc9a7
+    page: ai-models--kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 10
+    n_pages: 10
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.13
+    motion: 0.0463
+    pace: medium
+    loop: true
+    loop_seam: 0.942
+    camera: static
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f7808afd-52e0-4c49-8c50-2ff4ecd7901b.webm
+    asset: f7808afd
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    duration: 8.0
+    motion: 0.0109
+    pace: slow
+    loop: true
+    loop_seam: 0.977
+    camera: static
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f96e5d5a-c692-4e8e-b305-6200b62d1dd0.webm
+    asset: f96e5d5a
+    page: ai-models--flux-3
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.03
+    motion: 0.0157
+    pace: slow
+    loop: true
+    loop_seam: 0.969
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc6c83c1-b3e4-4edf-b0b8-ebe3f2ec2323.webm
+    asset: fc6c83c1
+    page: print--1-hour-photo
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.2631
+    pace: fast
+    loop: false
+    loop_seam: 0.774
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdac2539-ae58-4f8a-8949-7c2d79989424.webm
+    asset: fdac2539
+    page: ai-models--google-omni
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0289
+    pace: slow
+    loop: true
+    loop_seam: 0.937
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe5e78cb-2e5a-4b94-afe7-b364e3256600.webm
+    asset: fe5e78cb
+    page: add-music-to-video
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.33
+    motion: 0.068
+    pace: medium
+    loop: true
+    loop_seam: 0.968
+  11:
+    src: https://pcdn.picsart.com/cms-uploads/12db3575-dfa4-4f7c-b922-40d9252f602c.webm
+    asset: 12db3575
+    page: ai-models--gemini-omni-1-1-flash
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0852
+    pace: medium
+    loop: false
+    loop_seam: 0.861
+  12:
+    src: https://pcdn.picsart.com/cms-uploads/13d0bcbb-54af-45d0-8470-247ce734eee2.webm
+    asset: 13d0bcbb
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.97
+    motion: 0.0634
+    pace: medium
+    loop: false
+    loop_seam: 0.857

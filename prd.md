@@ -395,3 +395,9 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   the snapshot's poster. The corpus reads `data-lp-poster` into `media.poster`
   (406/607 clips ship one) and `attrs` prefers that designer poster over a
   grabbed frame. (2026-09-19)
+- `seedance-2.5` is priced per second at 720p: 7 credits/s (35, 70, 140, 210 for
+  5, 10, 20, 30 s), `endFrame` free, extend 25/75 for 5/15 s, mini draft 10 —
+  all preflighted 2026-09-19. A faithful slot therefore costs ~15 (still) + 10
+  (draft) + 7 × target; the default `video_slot` cap moves 60 → 120 so a 10 s
+  original does not stop every worker, and a ≤ 200 cr trial fits two ~10 s
+  slots, not a 30 s one (210 for the final alone). (2026-09-19)

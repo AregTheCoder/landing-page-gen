@@ -162,7 +162,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** collages, split screens, browser or app windows, pills or labels painted into the photo, watermarks, model logos; competitor model names or marks in the list card.
 **Examples:** f746795b (ai-models--seedream-4 S06-m1; on 24 ai-models pages), 4eeca13c (ai-models--recraft-v4-styles S07-m1), 0794e437 (compare-models--imagen-4-5-fast-vs-flux-2-pro S06-m1).
 **References:** corpus/references/dark-composite.yaml (9 examples; Marlon Schmeiski, Jonatan Galvis, Element Apothec, Shiny Diamond).
-**Motion:** 6 corpus clips; pace fast; 33 % loop; median 8.0 s.
+**Motion:** 9 corpus clips; camera static; pace fast; 33 % loop; median 7.8 s.
 
 ## before-after
 **Use:** feature-callout for editing tools: enhance, upscale, enlarge, sharpen, restore, retouch, replace, change background; the headline says before/after, fix, improve, transform.
@@ -178,7 +178,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** two different photos posing as a pair, arrows, split-screen wipes, sliders, labels or text in the panels.
 **Examples:** 69ed3f5c (image-enlarger S08-m1), 15c37bff (ai-image-enhancer S01-m1), f1fec5c1 (background-changer S07-m1).
 **References:** corpus/references/before-after.yaml (10 examples; John Diez, cottonbro studio, Hanna Auramenka, Karola G (Kaboompics)).
-**Motion:** 5 corpus clips; pace fast; 20 % loop; median 8.0 s.
+**Motion:** 11 corpus clips; transition; camera static; pace fast; 45 % loop; median 3.8 s.
 
 ## crop-frame
 **Use:** feature-callout for resize, crop, expand, aspect-ratio and social-size tools; the headline names a size, a platform format (Story, Reel, post) or says resize, crop, fit.
@@ -194,6 +194,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** brackets, rulers, handles or grids painted by the model; two unrelated photos; UI panels.
 **Examples:** 5f91c6aa (resize-image S07-m1), df6f0107 (resize-image S06-m1), cf837643 (image-upscale S05-m1).
 **References:** corpus/references/crop-frame.yaml (10 examples; Juan Sebastián González R., Breno Cardoso, Solomon Onyeagoro, Amar Preciado).
+**Motion:** 5 corpus clips; pace medium; 60 % loop; median 8.0 s.
 
 ## cutout-checkerboard
 **Use:** feature-callout for background removal, cutouts, stickers, batch editing, product photos and mockups; the headline says remove, cut out, transparent, sticker, batch, isolate.
@@ -239,7 +240,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** prompt text, buttons or cursors rendered by the model; screenshots of the product.
 **Examples:** 22f9b181 (ai-models--kling-v2-1 S01-m1; on 22 ai-models pages), 802fe719 (ai-models--qwen-image S08-m1), 6e1c292f (ai-models--flux-3 S09-m1, 2:1 strip).
 **References:** corpus/references/prompt-card.yaml (10 examples; DS stories, Ksenia Chernaya, Daria Liudnaya, Amy Lewis).
-**Motion:** 32 corpus clips; camera static; pace medium; 66 % loop; median 6.9 s.
+**Motion:** 42 corpus clips; ui-demo; camera static; pace medium; 60 % loop; median 7.0 s.
 
 ## full-bleed
 **Use:** heroes, gallery tiles, compare-models samples, tutorial and use-case photos, every video slot's stand-in, and any slot whose corpus examples are one uninterrupted picture.
@@ -255,7 +256,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** collages, split panels, borders, vignettes, logos, UI, text other than the brief's strings.
 **Examples:** 57793011 (compare-models--gpt-image-1-5-vs-midjourney S09-m1), a70e6579 (comic-book-generator S01-m1), e1bda861 (background-remover S09-m1, 4:3 use-case photo).
 **References:** corpus/references/full-bleed.yaml (10 examples; Karola G, Rada Aslanova, Nora Topicals, Weezy Mie).
-**Motion:** 165 corpus clips; camera static; pace fast; 24 % loop; median 8.0 s.
+**Motion:** 171 corpus clips; camera static; pace fast; 26 % loop; median 8.0 s.
 
 ## vs-two-up
 **Use:** hero and feature-callout on compare-models pages: two models' results side by side, each labelled; the headline names both models or says compare, versus, which is better.
@@ -271,6 +272,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** a VS badge or model names painted by the model; two unrelated subjects; logos inside the panels.
 **Examples:** 1ccc69c2 (compare-models--gpt-image-1-5-vs-flux-2-pro S01-m1, hero), 8632c15f (compare-models--gpt-image-1-5-vs-flux-2-pro S05-m1), 0897494e (compare-models--gpt-image-1-5-vs-flux-2-pro S06-m1).
 **References:** corpus/references/vs-two-up.yaml (10 examples; Tugrul Kurnaz, Ander Masó (Lord Ander M), Muneeb Malhotra, Christopher Welsch Leveroni).
+**Motion:** 5 corpus clips; camera static; pace slow; 60 % loop; median 7.9 s.
 
 ## mockup-card
 **Use:** feature-callout on tool pages when the result is shown in use: a profile card, a shop listing, a social post built from the photo next to it; the headline says profile, avatar, listing, product photo, e-commerce, social.
@@ -286,7 +288,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Never:** a real social network's logo or layout copied exactly, readable personal names, real prices with currency, UI painted by the model.
 **Examples:** 7a980105 (background-remover S08-m1, profile card), ec67a479 (background-remover S10-m1, product card); third from the tagging report.
 **References:** corpus/references/mockup-card.yaml (10 examples; Daniil Kondrashin, César O'Neill, Vitaly Gariev, Amin Naderloei).
-**Motion:** 8 corpus clips; pace slow; 75 % loop; median 6.7 s.
+**Motion:** 11 corpus clips; camera static; pace medium; 55 % loop; median 6.7 s.
 
 ## cinematic-still
 **Use:** 9:16 gallery tiles and hero carousels on ai-models and ai-tool pages: one filmic frame per tile, no chrome, part of a set that reads as one reel.

@@ -1,0 +1,61 @@
+sheet: link-grid_white_column-main-b5f7d6
+group:
+  type: link-grid
+  ground: white
+  layout: column-main
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_column-main-b5f7d6.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/3a2f62a9-4f5c-4056-80e9-6767dc0af06a.webp
+    asset: 3a2f62a9
+    page: ai-models--recraft-v4-styles-pro
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/408e7006-9b72-4c2c-960f-6d2df875555e.webp
+    asset: 408e7006
+    page: ai-models--recraft-v4-styles-pro
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/8388005a-df5e-4964-9e15-286757219ef1.webp
+    asset: 8388005a
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false

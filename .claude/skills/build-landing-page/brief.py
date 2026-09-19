@@ -212,8 +212,9 @@ def video_section(records, fam_block, fm, directive):
              f"- Draft: `{draft}`, 5 s, 720p, `generateAudio: false`, `async: true`, "
              f"`extra: {{startFrame: \"<step N passed>\"}}` where N is the finishing still node (also in `in:`). "
              f"Gate the motion on the strip before any final.",
-             f"- Final: `{final}`, same wiring, `duration:` = the target below. Preflight it and record the quote "
-             f"(above 5 s the price is not in tool-map.md). Above 30 s: a `{final}-video-extend` node per remaining stretch.",
+             f"- Final: `{final}`, same wiring, `duration:` = the target below (7 credits per second at 720p; "
+             f"`endFrame` is free). Preflight it and record the quote. Above 30 s: a `{final}-video-extend` node "
+             f"per remaining stretch (25 cr / 5 s, 75 / 15 s).",
              f"- Motion (what this family's corpus clips do): {motion}",
              f"- Loop: when the Motion line says the clips loop, add `extra.endFrame: \"<step N passed>\"` on the same still.",
              "- Target duration:"]

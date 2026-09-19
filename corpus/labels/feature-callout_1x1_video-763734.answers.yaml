@@ -1,0 +1,144 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Upload video button on pale blue gradient, then a dancer clip cycles through pink and red AI filters
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: leather toiletry bag on a wooden counter, on black; becomes a BUY product card, then a tile grid
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Start new project button on black, a prompt panel with bubbles, then a pink serum social post card
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Start Creating button on white, then a phone-framed portrait clip with size chips, then Download over the result
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on white, then a New arrival floral bag poster appears with a Download button
+  family_hint: template-mockup
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile inside an outlined card, then a gym vlog clip gains subtitles, then Download over it
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile, a breakdancer with a Remove video BG prompt panel, then the cutout on checkerboard with Download
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on black, then leopard boots on pedestals become a FALL-WINTER NEW DROP poster with Download
+  family_hint: template-mockup
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: black opening, a Generate Voiceover title, then a phone reel of a woman meditating with yellow captions
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: empty prompt bar on white, aspect and speed chips, then a desert disco-ball image over the filled prompt
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: typography
+  before_after: false
+  description: smoky cinematic TEXT MOTION lettering, cuts to petals drifting over a meadow, back to the title
+  family_hint: cinematic-still
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on white, then a neon cyberpunk samurai city render appears, Download button over it
+  family_hint: cinematic-still
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static

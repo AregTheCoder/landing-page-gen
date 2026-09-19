@@ -1,0 +1,126 @@
+1:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  layout: two-up
+  panel_count: 2
+  before_after: false
+  description: two vertical model clips side by side, young men bagging oranges in a grocery, model chips top-left
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  before_after: false
+  description: black upload-icon tile centred on a white card, unchanged across all three frames
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [pill]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: painterly-illustration
+  layout: column-main
+  panel_count: 3
+  before_after: false
+  description: start and end frame thumbnails beside a main panel, painted arch of clouds becoming sneakers held aloft in sunburst
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: transition
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  before_after: false
+  description: upload tile on white, then a field photo with retro Harmony lettering, then that post in a social frame with Download
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  layout: single
+  panel_count: 0
+  before_after: false
+  description: upload icon on black, then a vertical clip of a woman in pink with teal captions and a magenta Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  layout: single
+  panel_count: 1
+  before_after: false
+  description: vertical selfie clip on white of a woman holding a cream jar, ends dimmed with a Hurray title
+  family_hint: other
+  confidence: 0.4
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  layout: single
+  panel_count: 1
+  before_after: false
+  description: hand holding a pastry before Paris facades, gains script headline, then framed as a wall poster with picture tile
+  family_hint: template-mockup
+  confidence: 0.5
+  motion_kind: transition
+  camera: static
+8:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  layout: two-up
+  panel_count: 2
+  before_after: false
+  description: two Pixar-style campfire clips side by side, woman and man with mugs, model chips bottom-left
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+9:
+  chrome: [tile, prompt-panel, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: typography
+  art_style: typography
+  layout: stacked
+  panel_count: 1
+  before_after: false
+  description: kinetic typography on navy, a D morphing through REBUILD to BECOME, prompt bar with model logo below
+  family_hint: prompt-card
+  confidence: 0.75
+  motion_kind: transition
+  camera: static

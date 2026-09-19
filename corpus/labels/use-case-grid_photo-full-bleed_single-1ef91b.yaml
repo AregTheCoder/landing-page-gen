@@ -1,0 +1,46 @@
+sheet: use-case-grid_photo-full-bleed_single-1ef91b
+group:
+  type: use-case-grid
+  ground: photo-full-bleed
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_photo-full-bleed_single-1ef91b.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/b513ffb8-fa4d-4fe4-8b5e-99ffdcffafd7.png
+    asset: b513ffb8
+    page: watermark-maker
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/f949eb25-200e-4645-8432-d2160727c6e0.png
+    asset: f949eb25
+    page: watermark-maker
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

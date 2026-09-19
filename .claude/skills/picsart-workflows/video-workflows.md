@@ -24,9 +24,10 @@ when the slot is a video; see `flow-boards.md` for the template test.
    prompt, not the length: it stays at 5 s.
 3. final: `seedance-2.5`, same params, `duration: <target>` (below), 720p
    (1080p only if the slot is wider than 1300 px and the brief allows 90
-   credits). Preflight it: the quote above 5 s is not in `tool-map.md` yet —
-   record what preflight says in the node. Gate as above, plus the target
-   length (`picsart_media_probe_media`) and, for a loop, the seam.
+   credits). 7 credits per second at 720p (35 / 70 / 140 / 210 for 5 / 10 /
+   20 / 30 s; `endFrame` is free) — preflight it anyway and record the
+   quote in the node. Gate as above, plus the target length
+   (`picsart_media_probe_media`) and, for a loop, the seam.
 4. extend, only when the target is above 30 s: `seedance-2.5-video-extend`
    with `videoUrls: ["<step N passed>"]` (the final's node), `duration` = the
    remainder, `aspectRatio: adaptive`; 25 cr / 5 s, 75 / 15 s. Each pass is
@@ -43,9 +44,11 @@ The brief's `## Video` section names the **target duration**, taken from the
 slot's `> duration:` line (the original clip's length, rounded). The final
 matches it: one `seedance-2.5` call with `duration: <target>` up to 30 s, an
 extend pass beyond that. A 5 s clip in a 10 s slot is a `[duration]` flag in
-`lp-bench` and a `loop` score below 3 in review. When the quoted cost of the
-faithful length exceeds the section's advisory cap, stop and report the
-quote against the target instead of shipping a shorter clip silently.
+`lp-bench` and a `loop` score below 3 in review. Cost arithmetic for a slot:
+still chain ~13–15 + draft 10 + 7 × target seconds (a 10 s original ≈ 95, a
+30 s original ≈ 235). When the quoted cost of the faithful length exceeds
+the section's advisory cap, stop and report the quote against the target
+instead of shipping a shorter clip silently.
 
 ## Rules
 
@@ -63,8 +66,8 @@ quote against the target instead of shipping a shorter clip silently.
   brief's Motion line shows a high loop share, or the slot's own `> attrs:`
   says `loop=true`, wire `extra.endFrame: "<step N passed>"` to the same
   still as the startFrame on the final so the clip closes where it opened;
-  check the seam on the strip (last frame against first). Unquoted:
-  preflight it.
+  check the seam on the strip (last frame against first). It costs nothing
+  extra (quoted 2026-09-19).
 - Every `<step N passed>` in a video node names an earlier node that `in:`
   also lists; the still nodes for `startFrame`/`endFrame`, video nodes for
   `videoUrls`. A literal URL is refused by `lp-flow check`.

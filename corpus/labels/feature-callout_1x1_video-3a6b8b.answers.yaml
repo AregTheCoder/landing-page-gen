@@ -1,0 +1,132 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: upload tile on white, then a low-angle photo of a woman flips horizontally, magenta Download button
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: split Kling vs Runway, stacked clips of a woman arranging flowers beside a portrait among blooms, model chips
+  family_hint: vs-two-up
+  confidence: 0.8
+  motion_kind: cut-montage
+  camera: static
+3:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: brown cap on white tiles with COFFEE RUN lettering, later a Detect text chip and a social card
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in a red top glances back on a street, then turns cartoon and expands wider beside tool tiles
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: transition
+  camera: static
+6:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: man in a red beanie sipping a drink on yellow, small original beside a large copy that turns to checkerboard cutout
+  family_hint: cutout-checkerboard
+  confidence: 0.85
+  motion_kind: transition
+  camera: static
+7:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two-up Seedance vs Kling, stacked clips of a woman in a garden and a woman holding a whippet, model chips
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: cut-montage
+  camera: static
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: fisheye shot of a man in orange sunglasses sipping coffee, then a gradient swatch panel and a Hurray! overlay
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: smiling man in a suit on a checkerboard canvas with extend arrows, then the photo expands taller
+  family_hint: crop-frame
+  confidence: 0.55
+  motion_kind: transition
+  camera: static
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in a bucket hat on a beach with strangers behind, a remove-people panel wipes them away
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  before_after: false
+  description: photoreal hedgehog in a tweed waistcoat on a studio backdrop, column of reference thumbnails beside it
+  family_hint: dark-composite
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: Add Image chip on black, then a woman in pink fur and white shades plays chess before green walls
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: pull-back

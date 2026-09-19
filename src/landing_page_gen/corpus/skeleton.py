@@ -15,8 +15,9 @@ import yaml
 from . import db, sectionize
 
 DEFAULTS = {"image_model": "gemini-3-pro-image", "video_model": "seedance-2.5", "video_draft": "seedance-2.0-mini"}
-BUDGET = {"run_credits": 600, "image_slot": 40, "video_slot": 60,
-          "video_seconds": 30}  # the longest final a video slot ships; Seedance's `duration` ceiling
+BUDGET = {"run_credits": 600, "image_slot": 40,
+          "video_slot": 120,     # still ~15 + draft 10 + 7 cr/s final: a faithful 10 s clip is ~95
+          "video_seconds": 30}   # the longest final a video slot ships; Seedance's `duration` ceiling
 MAX_TEXTS = 40
 
 

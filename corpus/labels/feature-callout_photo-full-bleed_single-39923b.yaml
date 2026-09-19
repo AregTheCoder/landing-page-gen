@@ -1,0 +1,91 @@
+sheet: feature-callout_photo-full-bleed_single-39923b
+group:
+  type: feature-callout
+  ground: photo-full-bleed
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_photo-full-bleed_single-39923b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1dd368df-07cf-472d-943b-0d44cce42f6f.avif
+    asset: 1dd368df
+    page: ai-logo-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5fc08095-c4ea-43ec-8ab5-1712bc50c538.webp
+    asset: 5fc08095
+    page: face-editor
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ad88d71d-744b-45a2-890f-a1208db2daa8.avif
+    asset: ad88d71d
+    page: ai-logo-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/2bb06d59-c4f3-4963-8ab5-26326e4bb8be.png
+    asset: 2bb06d59
+    page: background-tools
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/7a691cf7-1cd4-49d3-b0c9-214ed6ac54f3.png
+    asset: 7a691cf7
+    page: packaging-design
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

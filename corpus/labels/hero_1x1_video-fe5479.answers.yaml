@@ -1,0 +1,132 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: upload tile, then a dark prompt panel with model picker and Generate, then a portrait with Download
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: collage tile on black, then a three-cell collage fills with a man and cupcake photos, Download button
+  family_hint: dark-composite
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: tool tile, then a Petal Sound event poster over flowered hills appears with a Download button
+  family_hint: template-mockup
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: upload tile, then an Own the bold red bag poster with Shop now, then dimmed with Download
+  family_hint: template-mockup
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: mixed
+  description: three cake thumbnails beside a pink panel where a cake ad plays through to the mmmelt logo
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: cut-montage
+  camera: static
+6:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: Create a wallpaper button, then a floral wallpaper card with headline, then shown on a phone in hand
+  family_hint: template-mockup
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: ACE deodorant tumbles among tennis balls in a blue sky, reference thumb and Grok tile beside
+  family_hint: dark-composite
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: tool tile, then a YouTube thumbnail of a smiling woman, then placed in a video card mockup
+  family_hint: mockup-card
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: upload tile, then a Buy 3 get 30% off poster of flower-ringed hands, flipped and dimmed with Download
+  family_hint: template-mockup
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: upload tile on black, then a woman in a cap with a bouquet under falling petals raises it, Download
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: Start Creating button, then a red beaded handbag whose red hearts become white lilies, Download
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: flat-vector
+  description: empty prompt box with Generate, then four Activewear Sale templates, a cursor picks one
+  family_hint: template-mockup
+  confidence: 0.65
+  motion_kind: ui-demo
+  camera: static
