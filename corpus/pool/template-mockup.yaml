@@ -1,15 +1,684 @@
 family: template-mockup
 entries:
+  pexels-10168201:
+    url: https://www.pexels.com/photo/red-and-green-christmas-background-10168201/
+    image: https://images.pexels.com/photos/10168201/pexels-photo-10168201.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5089
+    height: 3138
+    aspect_class: '16:10'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0d4d0c4ab2b33332
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.481
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a red color surface. On the surface there are leaves and white color paper.
+  pexels-10168344:
+    url: https://www.pexels.com/photo/red-and-christmas-tree-print-on-white-background-10168344/
+    image: https://images.pexels.com/photos/10168344/pexels-photo-10168344.jpeg
+    thumb: https://images.pexels.com/photos/10168344/pexels-photo-10168344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tamanna Rumee
+    creator_url: https://www.pexels.com/@tamanna-rumee-52377920
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 4e92bb6969329698
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.618
+    nearest:
+    - 2da8c26a
+    - 04b695ff
+    - 307dc471
+    - c491d842
+    - ba8c6b1a
+    - cf0d49e8
+    - ca8a7e13
+    - 1641935e
+    state: pending
+    family_scores:
+      template-mockup: 0.618
+      graphic-collage: 0.343
+      vs-two-up: 0.227
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a logo and some plants.
+  pexels-10168398:
+    url: https://www.pexels.com/photo/tree-illustration-on-green-background-10168398/
+    image: https://images.pexels.com/photos/10168398/pexels-photo-10168398.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0f131b4f0d0f0b07
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.425
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus bf618993 (hamming 8)
+    description: In this image we can see a white color object on the green color surface.
+  pexels-10168414:
+    url: https://www.pexels.com/photo/christmas-tree-paper-cutouts-10168414/
+    image: https://images.pexels.com/photos/10168414/pexels-photo-10168414.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 091b12471d16070d
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.321
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a green color background and there is a design.
+  pexels-10168415:
+    url: https://www.pexels.com/photo/white-christmas-tree-cutout-on-yellow-background-10168415/
+    image: https://images.pexels.com/photos/10168415/pexels-photo-10168415.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0313080e0e091201
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.343
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 41822344 (hamming 9)
+    description: In this image we can see a white color object on the yellow color surface.
+  pexels-10168418:
+    url: https://www.pexels.com/photo/christmas-tree-paper-cutouts-10168418/
+    image: https://images.pexels.com/photos/10168418/pexels-photo-10168418.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: a60666624f0999b5
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.52
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a yellow color surface. On the surface we can also see some design.
+  pexels-10168422:
+    url: https://www.pexels.com/photo/christmas-tree-paper-cutouts-10168422/
+    image: https://images.pexels.com/photos/10168422/pexels-photo-10168422.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0b1b16071d16170d
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.519
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a green color object.
+  pexels-10168424:
+    url: https://www.pexels.com/photo/paper-cutouts-on-green-surface-10168424/
+    image: https://images.pexels.com/photos/10168424/pexels-photo-10168424.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 272d2d0f7b4d5b1b
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.485
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 8f0040a2 (hamming 10)
+    description: In this image we can see a green color object.
+  pexels-10168425:
+    url: https://www.pexels.com/photo/paper-christmas-trees-on-yellow-background-10168425/
+    image: https://images.pexels.com/photos/10168425/pexels-photo-10168425.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 2c18383432132313
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.288
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a yellow color background with white color stars.
+  pexels-10168426:
+    url: https://www.pexels.com/photo/christmas-present-wrapping-10168426/
+    image: https://images.pexels.com/photos/10168426/pexels-photo-10168426.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 272765c95c4c581a
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.344
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a yellow color background with some design.
+  pexels-10168429:
+    url: https://www.pexels.com/photo/yellow-and-white-christmas-trees-cutout-10168429/
+    image: https://images.pexels.com/photos/10168429/pexels-photo-10168429.jpeg
+    thumb: https://images.pexels.com/photos/10168429/pexels-photo-10168429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Tamanna Rumee
+    creator_url: https://www.pexels.com/@tamanna-rumee-52377920
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0727675d4e491901
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.59
+    nearest:
+    - 04b695ff
+    - 2da8c26a
+    - 307dc471
+    - ca8a7e13
+    - ba8c6b1a
+    - 6d822292
+    - cf0d49e8
+    - c491d842
+    state: pending
+    family_scores:
+      template-mockup: 0.59
+      dark-composite: 0.304
+      graphic-collage: 0.286
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a yellow color background with some design.
+  pexels-10168431:
+    url: https://www.pexels.com/photo/white-cutouts-on-green-surface-10168431/
+    image: https://images.pexels.com/photos/10168431/pexels-photo-10168431.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5399
+    height: 3411
+    aspect_class: '16:10'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 030232180c161607
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.347
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a green color poster with some snowflakes.
+  pexels-10168433:
+    url: https://www.pexels.com/photo/paper-christmas-trees-on-yellow-background-10168433/
+    image: https://images.pexels.com/photos/10168433/pexels-photo-10168433.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 020333332d0f0d09
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.325
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a yellow color background with white color design.
+  pexels-10168441:
+    url: https://www.pexels.com/photo/paper-tree-on-green-background-10168441/
+    image: https://images.pexels.com/photos/10168441/pexels-photo-10168441.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 0d3361696971300f
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.661
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus f4b34e78 (hamming 8)
+    description: In this image we can see a logo.
+  pexels-10168444:
+    url: https://www.pexels.com/photo/a-white-christmas-tree-paper-cutout-surrounded-with-green-leaves-snowflakes-and-stars-10168444/
+    image: https://images.pexels.com/photos/10168444/pexels-photo-10168444.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3575
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 2869c88ccc944969
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.678
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 2e930360 (hamming 10)
+    description: In this image we can see a logo.
+  pexels-10269844:
+    url: https://www.pexels.com/photo/artistic-portrait-of-woman-10269844/
+    image: https://images.pexels.com/photos/10269844/pexels-photo-10269844.jpeg
+    thumb: https://images.pexels.com/photos/10269844/pexels-photo-10269844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexey Demidov
+    creator_url: https://www.pexels.com/@alexeydemidov
+    platform: Pexels
+    licence: pexels
+    width: 2371
+    height: 2371
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 988d868e060e8a9c
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.652
+    nearest:
+    - 5659a5d0
+    - 32e24b56
+    - ca8a7e13
+    - 55c91c8a
+    - 2da8c26a
+    - f57cb379
+    - 219070b9
+    - 6aac8086
+    state: pending
+    family_scores:
+      template-mockup: 0.652
+      crop-frame: 0.646
+      dark-composite: 0.564
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a screen. On the screen we can also see two persons.
+  pexels-11886245:
+    url: https://www.pexels.com/photo/road-sign-on-wall-background-11886245/
+    image: https://images.pexels.com/photos/11886245/pexels-photo-11886245.jpeg
+    thumb: https://images.pexels.com/photos/11886245/pexels-photo-11886245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jan van der Wolf
+    creator_url: https://www.pexels.com/@jan-van-der-wolf-11680885
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: colorful striped wall fashion
+    collected: '2026-09-17'
+    phash: 0707485a5a5c585b
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: light-grey
+      layout: grid
+      panel_count: 4
+      before_after: false
+    score: 0.32
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - f57cb379
+    - 55c91c8a
+    - 37ede1e7
+    - 64ecaed5
+    - c1113515
+    - d6886bb7
+    state: pending
+    family_scores:
+      template-mockup: 0.32
+      dark-composite: 0.266
+      before-after: 0.253
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a board on the wooden pole. In the background there is a wall.
+  pexels-12039607:
+    url: https://www.pexels.com/photo/a-paper-bag-and-a-pouch-bag-on-white-surface-12039607/
+    image: https://images.pexels.com/photos/12039607/pexels-photo-12039607.jpeg
+    thumb: https://images.pexels.com/photos/12039607/pexels-photo-12039607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: mockupbee
+    creator_url: https://www.pexels.com/@mockupbee-221716013
+    platform: Pexels
+    licence: pexels
+    width: 3000
+    height: 2000
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-17'
+    phash: 116c6ea44d12b468
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: grid
+      panel_count: 2
+      before_after: false
+    score: 0.444
+    nearest:
+    - '59200996'
+    - ba8c6b1a
+    - 58f3fded
+    - 37ede1e7
+    - ee6516f7
+    - ca8a7e13
+    - 91d0bb2b
+    - e1d10798
+    state: pending
+    family_scores:
+      template-mockup: 0.444
+      dark-composite: 0.372
+      mockup-card: 0.284
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    description: In this image we can see a white color pillow and a tag which is tied to the white color thread.
+  pexels-12227870:
+    url: https://www.pexels.com/photo/purple-flowers-on-yellow-paper-12227870/
+    image: https://images.pexels.com/photos/12227870/pexels-photo-12227870.jpeg
+    thumb: https://images.pexels.com/photos/12227870/pexels-photo-12227870.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: The 3 Dragons
+    creator_url: https://www.pexels.com/@the-3-dragons-5076876
+    platform: Pexels
+    licence: pexels
+    width: 5184
+    height: 3888
+    aspect_class: '4:3'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 070d3733971f5b5f
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.637
+    nearest:
+    - ba8c6b1a
+    - '92477904'
+    - 1641935e
+    - ca8a7e13
+    - d7577fb9
+    - 6d822292
+    - f57cb379
+    - 6aac8086
+    state: pending
+    family_scores:
+      template-mockup: 0.637
+      dark-composite: 0.6
+      cutout-checkerboard: 0.539
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a card with a flower on it.
+  pexels-13058125:
+    url: https://www.pexels.com/photo/multi-colored-graphic-glass-13058125/
+    image: https://images.pexels.com/photos/13058125/pexels-photo-13058125.jpeg
+    thumb: https://images.pexels.com/photos/13058125/pexels-photo-13058125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Steve A Johnson
+    creator_url: https://www.pexels.com/@steve
+    platform: Pexels
+    licence: pexels
+    width: 4800
+    height: 2700
+    aspect_class: '16:9'
+    term: diptych two panels side by side
+    collected: '2026-09-17'
+    phash: 3c3e3e0c0df1783f
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.64
+    nearest:
+    - ba8c6b1a
+    - 55c91c8a
+    - c1113515
+    - ca8a7e13
+    - 64ecaed5
+    - f57cb379
+    - Header-1
+    - 219070b9
+    state: pending
+    family_scores:
+      template-mockup: 0.64
+      dark-composite: 0.618
+      graphic-collage: 0.595
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image we can see an object.
+  pexels-13312399:
+    url: https://www.pexels.com/photo/graphics-made-from-colorful-paper-clippings-13312399/
+    image: https://images.pexels.com/photos/13312399/pexels-photo-13312399.jpeg
+    thumb: https://images.pexels.com/photos/13312399/pexels-photo-13312399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Steve A Johnson
+    creator_url: https://www.pexels.com/@steve
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 6000
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 303333397a7d64b3
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.887
+    nearest:
+    - ba8c6b1a
+    - 96b53d3d
+    - ca8a7e13
+    - 219070b9
+    - 25214cd1
+    - '92477904'
+    - 55c91c8a
+    - f57cb379
+    state: pending
+    family_scores:
+      template-mockup: 0.887
+      dark-composite: 0.85
+      crop-frame: 0.673
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a painting.
+  pexels-13312401:
+    url: https://www.pexels.com/photo/pieces-of-papers-pasting-on-surface-13312401/
+    image: https://images.pexels.com/photos/13312401/pexels-photo-13312401.jpeg
+    thumb: https://images.pexels.com/photos/13312401/pexels-photo-13312401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Steve A Johnson
+    creator_url: https://www.pexels.com/@steve
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 6000
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 43cf6662c9e16ecf
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.864
+    nearest:
+    - ca8a7e13
+    - f57cb379
+    - ba8c6b1a
+    - 37ede1e7
+    - 64ecaed5
+    - 2da8c26a
+    - 2108b5eb
+    - 58f3fded
+    state: pending
+    family_scores:
+      template-mockup: 0.864
+      dark-composite: 0.85
+      crop-frame: 0.785
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see an edited image.
+  pexels-14122051:
+    url: https://www.pexels.com/photo/white-wooden-photo-frame-on-white-wooden-table-14122051/
+    image: https://images.pexels.com/photos/14122051/pexels-photo-14122051.jpeg
+    thumb: https://images.pexels.com/photos/14122051/pexels-photo-14122051.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sonya Kovalski
+    creator_url: https://www.pexels.com/@sonya-kovalski-18648894
+    platform: Pexels
+    licence: pexels
+    width: 4032
+    height: 3024
+    aspect_class: '4:3'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 65acaa9dd6d8494f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.637
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - '92477904'
+    - 37ede1e7
+    - f57cb379
+    - 82a6a79f
+    - 5659a5d0
+    - 96b53d3d
+    state: pending
+    family_scores:
+      template-mockup: 0.637
+      dark-composite: 0.6
+      graphic-collage: 0.592
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a table. On the table there are papers and a cup with pencils.
   pexels-14433548:
     url: https://www.pexels.com/photo/gummy-bears-in-plastic-bottle-14433548/
     image: https://images.pexels.com/photos/14433548/pexels-photo-14433548.jpeg
-    thumb: https://images.pexels.com/photos/14433548/pexels-photo-14433548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Supplements On Demand
-    creator_url: https://www.pexels.com/@supliful
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3000
     height: 3750
     aspect_class: '4:5'
@@ -19,36 +688,99 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
-    features:
-      ground: mixed
-      before_after: false
     score: 0.045
-    nearest:
-    - f5570ae0
-    - ba8c6b1a
-    - '59200996'
-    - ee6516f7
-    - 493f7a4c
-    - 8724fbc2
-    - 5659a5d0
-    - e1442af0
     state: dropped
-    family_scores:
-      cinematic-still: 0.101
-      vs-two-up: 0.094
-      graphic-collage: 0.06
     best_family: cinematic-still
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a bottle with a black cap. Inside the bottle we can some food items.
+  pexels-17210067:
+    url: https://www.pexels.com/photo/locker-decorated-with-stickers-17210067/
+    image: https://images.pexels.com/photos/17210067/pexels-photo-17210067.jpeg
+    thumb: https://images.pexels.com/photos/17210067/pexels-photo-17210067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Squared one
+    creator_url: https://www.pexels.com/@squared-one-361277527
+    platform: Pexels
+    licence: pexels
+    width: 4096
+    height: 4096
+    aspect_class: '1:1'
+    term: product photo collage grid
+    collected: '2026-09-17'
+    phash: 679b9bb65bd9b5b7
+    ranker: clip
+    searched_family: dark-composite
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.82
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - 82a6a79f
+    - 49f3cb74
+    - f57cb379
+    - cbd69e03
+    - 5a9447cb
+    - 25214cd1
+    state: pending
+    family_scores:
+      template-mockup: 0.82
+      dark-composite: 0.649
+      graphic-collage: 0.63
+    best_family: template-mockup
+    moved_from: dark-composite
+    description: In this image we can see a white color object with some pictures and text on it.
+  pexels-18833778:
+    url: https://www.pexels.com/photo/text-printed-on-a-multicolored-background-18833778/
+    image: https://images.pexels.com/photos/18833778/pexels-photo-18833778.jpeg
+    creator: Ann H
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: f83f370480000000
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.29
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Ann H this pass
+    description: In this image we can see a poster with some text.
+  pexels-21956557:
+    url: https://www.pexels.com/photo/collage-with-question-21956557/
+    image: https://images.pexels.com/photos/21956557/pexels-photo-21956557.jpeg
+    creator: Allie
+    platform: Pexels
+    licence: pexels
+    width: 4032
+    height: 3024
+    aspect_class: '4:3'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: e109290b610d0f85
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    score: 0.607
+    state: dropped
+    best_family: template-mockup
+    moved_from: panel-overlay
+    drop: more than 3 from Allie this pass
+    description: In this image we can see a wooden surface. On the surface there are papers, snail, flower and a plant.
   pexels-23940099:
     url: https://www.pexels.com/photo/bioderma-gel-on-an-orange-background-23940099/
     image: https://images.pexels.com/photos/23940099/pexels-photo-23940099.jpeg
-    thumb: https://images.pexels.com/photos/23940099/pexels-photo-23940099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Kareena  Joseph
-    creator_url: https://www.pexels.com/@kareena-joseph-321161182
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3000
     height: 4000
     aspect_class: '3:4'
@@ -58,26 +790,213 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
-    features:
-      ground: mixed
-      before_after: false
     score: 0.012
-    nearest:
-    - c1113515
-    - 64ecaed5
-    - 55c91c8a
-    - fce475a3
-    - 5a9447cb
-    - ca8a7e13
-    - d6886bb7
-    - ba8c6b1a
     state: dropped
-    family_scores:
-      vs-two-up: 0.109
-      cinematic-still: 0.059
-      graphic-collage: 0.028
     best_family: vs-two-up
     drop: near-dup of corpus 7ec514d6 (hamming 10)
+    description: In this image we can see a bottle with some text on it placed on the surface.
+  pexels-23991028:
+    url: https://www.pexels.com/photo/colorful-pages-with-cutouts-23991028/
+    image: https://images.pexels.com/photos/23991028/pexels-photo-23991028.jpeg
+    thumb: https://images.pexels.com/photos/23991028/pexels-photo-23991028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Allie
+    creator_url: https://www.pexels.com/@alliefeeley
+    platform: Pexels
+    licence: pexels
+    width: 2048
+    height: 2048
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 9ece9c1d14456761
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.71
+    nearest:
+    - '92477904'
+    - ca8a7e13
+    - ba8c6b1a
+    - 6d822292
+    - 82a6a79f
+    - d7577fb9
+    - 5bc56a53
+    - 25214cd1
+    state: pending
+    family_scores:
+      template-mockup: 0.71
+      graphic-collage: 0.671
+      dark-composite: 0.485
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see some papers with some text and images.
+  pexels-2457284:
+    url: https://www.pexels.com/photo/yellow-black-and-purple-colored-papers-2457284/
+    image: https://images.pexels.com/photos/2457284/pexels-photo-2457284.jpeg
+    thumb: https://images.pexels.com/photos/2457284/pexels-photo-2457284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anni Roenkae
+    creator_url: https://www.pexels.com/@anniroenkae
+    platform: Pexels
+    licence: pexels
+    width: 5184
+    height: 3888
+    aspect_class: '4:3'
+    term: bust geometric shapes purple background
+    collected: '2026-09-17'
+    phash: ef771fbf77bedeec
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.629
+    nearest:
+    - ba8c6b1a
+    - 58f3fded
+    - 82a6a79f
+    - 37ede1e7
+    - ca8a7e13
+    - f57cb379
+    - 49f3cb74
+    - 219070b9
+    state: pending
+    family_scores:
+      template-mockup: 0.629
+      dark-composite: 0.598
+      panel-overlay: 0.486
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a yellow, purple and black color combination.
+  pexels-26194301:
+    url: https://www.pexels.com/photo/light-blue-abstract-with-acrylics-26194301/
+    image: https://images.pexels.com/photos/26194301/pexels-photo-26194301.jpeg
+    creator: Steve A Johnson
+    platform: Pexels
+    licence: pexels
+    width: 9633
+    height: 6349
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-17'
+    phash: c385e2f29e1a5ab0
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    score: 0.537
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: more than 3 from Steve A Johnson this pass
+    description: In this image we can see the ice.
+  pexels-2882519:
+    url: https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882519/
+    image: https://images.pexels.com/photos/2882519/pexels-photo-2882519.jpeg
+    creator: Miguel Á. Padriñán
+    platform: Pexels
+    licence: pexels
+    width: 3008
+    height: 2000
+    aspect_class: '3:2'
+    term: two panel before after comparison
+    collected: '2026-09-17'
+    phash: ffffff9fdfffffff
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    score: 0.51
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: near-dup of corpus 041c7d23 (hamming 3)
+    description: In this image we can see two buttons on the wall.
+  pexels-29022730:
+    url: https://www.pexels.com/photo/pink-facial-gel-with-heart-doodle-background-29022730/
+    image: https://images.pexels.com/photos/29022730/pexels-photo-29022730.jpeg
+    thumb: https://images.pexels.com/photos/29022730/pexels-photo-29022730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Laura  Beauty Designer | Brasil
+    creator_url: https://www.pexels.com/@itslauravillela
+    platform: Pexels
+    licence: pexels
+    width: 6240
+    height: 4160
+    aspect_class: '3:2'
+    term: beauty product pink seamless studio
+    collected: '2026-09-17'
+    phash: 923230e164e0e421
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.462
+    nearest:
+    - ca8a7e13
+    - 55c91c8a
+    - d6886bb7
+    - c1113515
+    - 64ecaed5
+    - 67c30159
+    - 6d822292
+    - e1d10798
+    state: pending
+    family_scores:
+      template-mockup: 0.462
+      mockup-card: 0.339
+      dark-composite: 0.327
+    best_family: template-mockup
+    moved_from: dark-composite
+    description: In this image we can see a tube of cream with some text on it. In the background, we can also see some heart symbols.
+  pexels-29279367:
+    url: https://www.pexels.com/photo/graph-paper-with-transparent-rulers-and-protractor-29279367/
+    image: https://images.pexels.com/photos/29279367/pexels-photo-29279367.jpeg
+    thumb: https://images.pexels.com/photos/29279367/pexels-photo-29279367.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Jef K
+    creator_url: https://www.pexels.com/@jef-k-1518692548
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: photo grid same subject different angles
+    collected: '2026-09-17'
+    phash: 3bba9a9299d8c841
+    ranker: clip
+    searched_family: dark-composite
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.228
+    nearest:
+    - 64ecaed5
+    - 58f3fded
+    - 219070b9
+    - 49f3cb74
+    - e1d10798
+    - dd373a18
+    - 37ede1e7
+    - 9d51b73c
+    state: pending
+    family_scores:
+      template-mockup: 0.228
+      before-after: 0.123
+      graphic-collage: 0.114
+    best_family: template-mockup
+    moved_from: dark-composite
+    description: In this image I can see a white color paper and on it I can also see few lines and numbers.
   pexels-29765798:
     url: https://www.pexels.com/photo/pink-aesthetic-workspace-with-tablet-and-cupcakes-29765798/
     image: https://images.pexels.com/photos/29765798/pexels-photo-29765798.jpeg
@@ -86,8 +1005,6 @@ entries:
     creator_url: https://www.pexels.com/@jillyjillystudio
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3500
     height: 3500
     aspect_class: '1:1'
@@ -118,6 +1035,28 @@ entries:
       graphic-collage: 0.833
       mockup-card: 0.831
     best_family: template-mockup
+    description: In this image we can see a table. On the table there is a cup with drink, camera, pen, paper, plate with eggs and a plant.
+  pexels-30650571:
+    url: https://www.pexels.com/photo/abstract-shadow-on-grid-patterned-wall-30650571/
+    image: https://images.pexels.com/photos/30650571/pexels-photo-30650571.jpeg
+    creator: Jan van der Wolf
+    platform: Pexels
+    licence: pexels
+    width: 4800
+    height: 3200
+    aspect_class: '3:2'
+    term: contact sheet photo grid
+    collected: '2026-09-17'
+    phash: '2727272626272727'
+    ranker: clip
+    searched_family: dark-composite
+    composition: layout
+    score: 0.369
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: near-dup of corpus 890107ba (hamming 6)
+    description: In this image we can see a building.
   pexels-30676121:
     url: https://www.pexels.com/photo/cbd-infused-luxury-candle-with-soft-glow-30676121/
     image: https://images.pexels.com/photos/30676121/pexels-photo-30676121.jpeg
@@ -126,8 +1065,6 @@ entries:
     creator_url: https://www.pexels.com/@gaeahealthco
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2748
     height: 2748
     aspect_class: '1:1'
@@ -157,6 +1094,28 @@ entries:
       before-after: 0.422
     best_family: template-mockup
     moved_from: graphic-collage
+    description: In this image we can see a candle with flame.
+  pexels-31744682:
+    url: https://www.pexels.com/photo/minimalist-abstract-composition-with-leaves-31744682/
+    image: https://images.pexels.com/photos/31744682/pexels-photo-31744682.jpeg
+    creator: Evie Shaffer
+    platform: Pexels
+    licence: pexels
+    width: 5815
+    height: 3882
+    aspect_class: '3:2'
+    term: abstract bottle collage flat color
+    collected: '2026-09-17'
+    phash: 0109323232323105
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.356
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 576304d5 (hamming 10)
+    description: In this image we can see a paper on which we can find a painting of a tree and a bird.
   pexels-3373737:
     url: https://www.pexels.com/photo/assorted-cosmetics-and-leher-pouch-3373737/
     image: https://images.pexels.com/photos/3373737/pexels-photo-3373737.jpeg
@@ -165,8 +1124,6 @@ entries:
     creator_url: https://www.pexels.com/@shiny-diamond
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3507
     height: 5260
     aspect_class: '2:3'
@@ -197,16 +1154,135 @@ entries:
       editor-canvas: 0.436
       template-mockup: 0.366
     best_family: graphic-collage
+    description: In this image we can see a yellow color surface. On the surface there are pens, pencils, bag and a ball.
+  pexels-33824542:
+    url: https://www.pexels.com/photo/bright-abstract-layers-in-vibrant-colors-33824542/
+    image: https://images.pexels.com/photos/33824542/pexels-photo-33824542.jpeg
+    creator: Landiva  Weber
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 7cf1e2c5c9e4e4e1
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.637
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Landiva  Weber this pass
+    description: In this image we can see a yellow color surface with pink color lines.
+  pexels-33934627:
+    url: https://www.pexels.com/photo/colorful-geometric-design-with-number-29-33934627/
+    image: https://images.pexels.com/photos/33934627/pexels-photo-33934627.jpeg
+    creator: Sóc Năng Động
+    platform: Pexels
+    licence: pexels
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: papercut collage dancer bright background
+    collected: '2026-09-17'
+    phash: 2a68681848e2f2b2
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.296
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Sóc Năng Động this pass
+    description: In this image we can see a poster with some text.
+  pexels-33934628:
+    url: https://www.pexels.com/photo/colorful-abstract-art-with-geometric-shapes-33934628/
+    image: https://images.pexels.com/photos/33934628/pexels-photo-33934628.jpeg
+    thumb: https://images.pexels.com/photos/33934628/pexels-photo-33934628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sóc Năng Động
+    creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+    platform: Pexels
+    licence: pexels
+    width: 7360
+    height: 4912
+    aspect_class: '3:2'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: e4e490b2a1f16b6c
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.258
+    nearest:
+    - 2da8c26a
+    - ba8c6b1a
+    - f57cb379
+    - 4c10cce3
+    - 04b695ff
+    - 32e24b56
+    - ca8a7e13
+    - 0268ce5e
+    state: pending
+    family_scores:
+      template-mockup: 0.258
+      crop-frame: 0.157
+      panel-overlay: 0.147
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a colorful object with some numbers.
+  pexels-34384393:
+    url: https://www.pexels.com/photo/colorful-urban-wall-with-eclectic-street-art-34384393/
+    image: https://images.pexels.com/photos/34384393/pexels-photo-34384393.jpeg
+    thumb: https://images.pexels.com/photos/34384393/pexels-photo-34384393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Mayara Caroline  Mombelli
+    creator_url: https://www.pexels.com/@mayaramombellifotografias
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 6929ad39bb56d64b
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.44
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - 2da8c26a
+    - cbd69e03
+    - f57cb379
+    - 82a6a79f
+    - 32e24b56
+    - 5659a5d0
+    state: pending
+    family_scores:
+      template-mockup: 0.44
+      dark-composite: 0.346
+      graphic-collage: 0.297
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a wall with windows. On the wall we can also see some posters with text and images.
   pexels-34534478:
     url: https://www.pexels.com/photo/colorful-ceramic-mugs-with-cartoon-characters-34534478/
     image: https://images.pexels.com/photos/34534478/pexels-photo-34534478.jpeg
-    thumb: https://images.pexels.com/photos/34534478/pexels-photo-34534478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Ferhan Altun
-    creator_url: https://www.pexels.com/@ferhan-altun-2157088545
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5184
     height: 3456
     aspect_class: '3:2'
@@ -216,28 +1292,499 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
+    score: 0.037
+    state: dropped
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image I can see number of ceramic cups. I can also see depiction of a cartoon character on this cup.
+  pexels-3550651:
+    url: https://www.pexels.com/photo/assorted-photos-mounted-on-white-wall-3550651/
+    image: https://images.pexels.com/photos/3550651/pexels-photo-3550651.jpeg
+    thumb: https://images.pexels.com/photos/3550651/pexels-photo-3550651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Athena Sandrini
+    creator_url: https://www.pexels.com/@athena
+    platform: Pexels
+    licence: pexels
+    width: 3600
+    height: 2400
+    aspect_class: '3:2'
+    term: two film frames side by side
+    collected: '2026-09-17'
+    phash: 5656329393931b33
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
     features:
       ground: photo-full-bleed
       layout: single
       panel_count: 1
       before_after: false
-    score: 0.037
+    score: 0.35
     nearest:
-    - 493f7a4c
-    - f23e87b1
+    - 2108b5eb
+    - ba8c6b1a
+    - ca8a7e13
+    - 5659a5d0
     - f57cb379
-    - ee6516f7
-    - 02d58934
-    - c1113515
-    - 25214cd1
-    - 0a059f15
-    state: dropped
+    - 55c91c8a
+    - 49f3cb74
+    - 9d51b73c
+    state: pending
     family_scores:
+      template-mockup: 0.35
+      graphic-collage: 0.342
+      editor-canvas: 0.309
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image I can see few frames attached to the wall.
+  pexels-37668647:
+    url: https://www.pexels.com/photo/close-up-of-stacked-multicolored-papers-37668647/
+    image: https://images.pexels.com/photos/37668647/pexels-photo-37668647.jpeg
+    creator: Sóc Năng Động
+    platform: Pexels
+    licence: pexels
+    width: 3600
+    height: 2400
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 09300190228831e3
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.329
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Sóc Năng Động this pass
+    description: In this image we can see a group of pencils.
+  pexels-3964576:
+    url: https://www.pexels.com/photo/posters-on-black-wall-3964576/
+    image: https://images.pexels.com/photos/3964576/pexels-photo-3964576.jpeg
+    thumb: https://images.pexels.com/photos/3964576/pexels-photo-3964576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ready made
+    creator_url: https://www.pexels.com/@readymade
+    platform: Pexels
+    licence: pexels
+    width: 4240
+    height: 2832
+    aspect_class: '3:2'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 65612127270bcd0f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.424
+    nearest:
+    - 2da8c26a
+    - c1113515
+    - 32e24b56
+    - 04b695ff
+    - ba8c6b1a
+    - ca8a7e13
+    - 37ede1e7
+    - 5659a5d0
+    state: pending
+    family_scores:
+      template-mockup: 0.424
+      graphic-collage: 0.172
       before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
-    best_family: before-after
-    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a board with some posters. On the left side of the image we have a pipe.
+  pexels-3964758:
+    url: https://www.pexels.com/photo/posters-on-black-wall-3964758/
+    image: https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg
+    thumb: https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ready made
+    creator_url: https://www.pexels.com/@readymade
+    platform: Pexels
+    licence: pexels
+    width: 4240
+    height: 2832
+    aspect_class: '3:2'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 25313307170f0f8f
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.355
+    nearest:
+    - c1113515
+    - 2da8c26a
+    - f57cb379
+    - 32e24b56
+    - ba8c6b1a
+    - ca8a7e13
+    - 64ecaed5
+    - 49f3cb74
+    state: pending
+    family_scores:
+      template-mockup: 0.355
+      graphic-collage: 0.2
+      cutout-checkerboard: 0.161
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see a board with some text and images attached to the wall. We can also see a fire extinguisher and a pipe. At the bottom we can also a red color object on the ground.
+  pexels-4088095:
+    url: https://www.pexels.com/photo/blue-wall-with-red-poster-4088095/
+    image: https://images.pexels.com/photos/4088095/pexels-photo-4088095.jpeg
+    creator: Elīna Arāja
+    platform: Pexels
+    licence: pexels
+    width: 6337
+    height: 3564
+    aspect_class: '16:9'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 04020c2c0c020400
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    score: 0.378
+    state: dropped
+    best_family: template-mockup
+    moved_from: panel-overlay
+    drop: near-dup of corpus 0717fc40 (hamming 9)
+    description: In this image we can see a sticker with some text on it.
+  pexels-4108517:
+    url: https://www.pexels.com/photo/white-wooden-photo-frame-on-white-table-4108517/
+    image: https://images.pexels.com/photos/4108517/pexels-photo-4108517.jpeg
+    thumb: https://images.pexels.com/photos/4108517/pexels-photo-4108517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Polina Zimmerman
+    creator_url: https://www.pexels.com/@polina-zimmerman
+    platform: Pexels
+    licence: pexels
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: instant photo framing mountain view
+    collected: '2026-09-17'
+    phash: 1353343c343c2d3f
+    ranker: clip
+    searched_family: crop-frame
+    composition: layout
+    features:
+      ground: light-grey
+      layout: column-main
+      panel_count: 2
+      before_after: false
+    score: 0.619
+    nearest:
+    - 49f3cb74
+    - ba8c6b1a
+    - ca8a7e13
+    - 25214cd1
+    - f57cb379
+    - 1641935e
+    - cbd69e03
+    - 5659a5d0
+    state: pending
+    family_scores:
+      template-mockup: 0.619
+      dark-composite: 0.57
+      graphic-collage: 0.521
+    best_family: template-mockup
+    moved_from: crop-frame
+    description: In this image we can see some photographs placed on the surface.
+  pexels-4252517:
+    url: https://www.pexels.com/photo/multiple-patterns-of-stripes-on-gray-surface-4252517/
+    image: https://images.pexels.com/photos/4252517/pexels-photo-4252517.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 5504
+    height: 8256
+    aspect_class: '2:3'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: e3f371f0f1f9f0f9
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.519
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see a white color paper.
+  pexels-4252523:
+    url: https://www.pexels.com/photo/multiple-patterns-of-stripes-on-gray-surface-4252523/
+    image: https://images.pexels.com/photos/4252523/pexels-photo-4252523.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: c366ec88193871c3
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.308
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see some papers on the surface.
+  pexels-4252895:
+    url: https://www.pexels.com/photo/multiple-overlay-patterns-of-a-colorful-design-4252895/
+    image: https://images.pexels.com/photos/4252895/pexels-photo-4252895.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 56060e2b9658d278
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.637
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see a colorful design.
+  pexels-4253052:
+    url: https://www.pexels.com/photo/multiple-overlay-patterns-of-a-purple-design-on-green-surface-4253052/
+    image: https://images.pexels.com/photos/4253052/pexels-photo-4253052.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: bust geometric shapes purple background
+    collected: '2026-09-17'
+    phash: 29a5d163868eb975
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.375
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see a green color surface.
+  pexels-4253053:
+    url: https://www.pexels.com/photo/multiple-overlay-patterns-of-a-dark-and-dull-colored-design-4253053/
+    image: https://images.pexels.com/photos/4253053/pexels-photo-4253053.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 12d2eaec74c4c9c9
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.637
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see some objects.
+  pexels-4253055:
+    url: https://www.pexels.com/photo/multiple-overlay-patterns-of-a-purple-design-on-green-surface-4253055/
+    image: https://images.pexels.com/photos/4253055/pexels-photo-4253055.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: bust geometric shapes purple background
+    collected: '2026-09-17'
+    phash: 6164541183abe3e5
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.442
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see a green color surface with some purple color blocks.
+  pexels-4253056:
+    url: https://www.pexels.com/photo/multiple-overlay-patterns-of-a-colorful-design-4253056/
+    image: https://images.pexels.com/photos/4253056/pexels-photo-4253056.jpeg
+    creator: Edward Jenner
+    platform: Pexels
+    licence: pexels
+    width: 8256
+    height: 5504
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 666363c3c3e68786
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.637
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Edward Jenner this pass
+    description: In this image we can see an object which looks like a cross.
+  pexels-4258836:
+    url: https://www.pexels.com/photo/a-close-up-shot-of-different-colored-papers-4258836/
+    image: https://images.pexels.com/photos/4258836/pexels-photo-4258836.jpeg
+    thumb: https://images.pexels.com/photos/4258836/pexels-photo-4258836.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrej Lišakov
+    creator_url: https://www.pexels.com/@lishakov
+    platform: Pexels
+    licence: pexels
+    width: 3733
+    height: 5600
+    aspect_class: '2:3'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 0b06262616266807
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.424
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - 37ede1e7
+    - 58f3fded
+    - 49f3cb74
+    - Business
+    - f57cb379
+    - d7577fb9
+    state: pending
+    family_scores:
+      template-mockup: 0.424
+      dark-composite: 0.409
+      graphic-collage: 0.29
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a paper on the red color surface.
+  pexels-4483128:
+    url: https://www.pexels.com/photo/photo-of-artwork-on-white-wall-4483128/
+    image: https://images.pexels.com/photos/4483128/pexels-photo-4483128.jpeg
+    thumb: https://images.pexels.com/photos/4483128/pexels-photo-4483128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anna Shvets
+    creator_url: https://www.pexels.com/@shvetsa
+    platform: Pexels
+    licence: pexels
+    width: 5830
+    height: 3887
+    aspect_class: '3:2'
+    term: abstract bottle collage flat color
+    collected: '2026-09-17'
+    phash: 24d0d9dad3cc4c51
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.377
+    nearest:
+    - 6d822292
+    - d7577fb9
+    - 5bc56a53
+    - '92477904'
+    - ba8c6b1a
+    - 82a6a79f
+    - 4c10cce3
+    - ca8a7e13
+    state: pending
+    family_scores:
+      template-mockup: 0.377
+      dark-composite: 0.293
+      vs-two-up: 0.098
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see some pictures on the white surface.
+  pexels-4498916:
+    url: https://www.pexels.com/photo/a-round-wall-clock-near-the-painting-and-books-on-the-table-4498916/
+    image: https://images.pexels.com/photos/4498916/pexels-photo-4498916.jpeg
+    thumb: https://images.pexels.com/photos/4498916/pexels-photo-4498916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Antoni Shkraba
+    creator_url: https://www.pexels.com/@shkrabaanthony
+    platform: Pexels
+    licence: pexels
+    width: 5656
+    height: 3771
+    aspect_class: '3:2'
+    term: diptych two panels side by side
+    collected: '2026-09-17'
+    phash: 1fe57677737666c9
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.24
+    nearest:
+    - 55c91c8a
+    - ba8c6b1a
+    - 4c10cce3
+    - ca8a7e13
+    - 6d822292
+    - '92477904'
+    - 26e549e8
+    - 0268ce5e
+    state: pending
+    family_scores:
+      template-mockup: 0.24
+      graphic-collage: 0.207
+      cutout-checkerboard: 0.198
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image we can see a clock and a painting on the wall. There are books on the table.
+  pexels-5040800:
+    url: https://www.pexels.com/photo/top-view-of-handmade-craft-paper-and-wood-5040800/
+    image: https://images.pexels.com/photos/5040800/pexels-photo-5040800.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: pexels
+    width: 5786
+    height: 3861
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 1fe1c6cacacac435
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.411
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from DS stories this pass
+    description: In this image we can see two card and a stone on the surface.
   pexels-5491845:
     url: https://www.pexels.com/photo/lipgloss-lying-on-pink-paper-next-to-photograph-of-friends-5491845/
     image: https://images.pexels.com/photos/5491845/pexels-photo-5491845.jpeg
@@ -246,8 +1793,6 @@ entries:
     creator_url: https://www.pexels.com/@boris-pavlikovsky
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6648
     height: 4432
     aspect_class: '3:2'
@@ -278,16 +1823,13 @@ entries:
       editor-canvas: 0.624
       dark-composite: 0.617
     best_family: graphic-collage
+    description: In this image we can see a photo of two women and there are some objects on the pink color surface.
   pexels-5492763:
     url: https://www.pexels.com/photo/still-life-with-pink-lip-gloss-and-a-photograph-5492763/
     image: https://images.pexels.com/photos/5492763/pexels-photo-5492763.jpeg
-    thumb: https://images.pexels.com/photos/5492763/pexels-photo-5492763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Boris Pavlikovsky
-    creator_url: https://www.pexels.com/@boris-pavlikovsky
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6644
     height: 4429
     aspect_class: '3:2'
@@ -297,28 +1839,11 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.637
-    nearest:
-    - ca8a7e13
-    - '59200996'
-    - 6d822292
-    - ba8c6b1a
-    - 541ef3fb
-    - 67c30159
-    - 55c91c8a
-    - f57cb379
     state: dropped
-    family_scores:
-      before-after: 0.723
-      graphic-collage: 0.714
-      editor-canvas: 0.7
     best_family: before-after
     drop: near-dup of corpus a11de2b2 (hamming 9)
+    description: In this image I can see a pink color surface on which I can also see few flowers, a pink and white color box, a bottle and a photo of a woman and a white color dress.
   pexels-5492767:
     url: https://www.pexels.com/photo/flatlay-photo-of-cosmetic-items-5492767/
     image: https://images.pexels.com/photos/5492767/pexels-photo-5492767.jpeg
@@ -327,8 +1852,6 @@ entries:
     creator_url: https://www.pexels.com/@boris-pavlikovsky
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6611
     height: 4407
     aspect_class: '3:2'
@@ -359,6 +1882,7 @@ entries:
       editor-canvas: 0.7
       before-after: 0.67
     best_family: graphic-collage
+    description: In this image I can see a pink color surface on which I can also see few nail polish, a photo frame, a plant and few other objects.
   pexels-5498339:
     url: https://www.pexels.com/photo/travel-sized-bottles-photograph-and-bag-of-dried-flowers-lying-on-yellow-paper-5498339/
     image: https://images.pexels.com/photos/5498339/pexels-photo-5498339.jpeg
@@ -367,8 +1891,6 @@ entries:
     creator_url: https://www.pexels.com/@boris-pavlikovsky
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6648
     height: 4432
     aspect_class: '3:2'
@@ -399,16 +1921,55 @@ entries:
       graphic-collage: 0.714
       editor-canvas: 0.7
     best_family: before-after
+    description: In this image we can see a photo of a vehicle, there are two bottles, a photo frame, a bag with flowers in it, also we can find some rings.
+  pexels-5583120:
+    url: https://www.pexels.com/photo/a-person-holding-white-picture-frame-5583120/
+    image: https://images.pexels.com/photos/5583120/pexels-photo-5583120.jpeg
+    creator: Polina Tankilevitch
+    platform: Pexels
+    licence: pexels
+    width: 3000
+    height: 2000
+    aspect_class: '3:2'
+    term: woman holding empty picture frame coloured backdrop
+    collected: '2026-09-17'
+    phash: 0030c8c9cac82549
+    ranker: clip
+    searched_family: crop-frame
+    composition: layout
+    score: 0.636
+    state: dropped
+    best_family: template-mockup
+    moved_from: crop-frame
+    drop: more than 3 from Polina Tankilevitch this pass
+    description: In this image we can see a person holding a photo frame.
+  pexels-5632322:
+    url: https://www.pexels.com/photo/beauty-products-on-sale-5632322/
+    image: https://images.pexels.com/photos/5632322/pexels-photo-5632322.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 6474
+    height: 4316
+    aspect_class: '3:2'
+    term: skincare bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 08041489c1692101
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    score: 0.63
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: more than 3 from https://kaboompics.com/ this pass
+    description: In this image I can see a box, a pen, a pink color paper and a pink and white color box. I can also see a blue color ribbon.
   pexels-5632324:
     url: https://www.pexels.com/photo/pink-and-white-beauty-products-5632324/
     image: https://images.pexels.com/photos/5632324/pexels-photo-5632324.jpeg
-    thumb: https://images.pexels.com/photos/5632324/pexels-photo-5632324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: https://kaboompics.com/
-    creator_url: https://www.pexels.com/@karola-g
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6474
     height: 4316
     aspect_class: '3:2'
@@ -418,36 +1979,530 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
-    features:
-      ground: mixed
-      before_after: false
     score: 0.609
-    nearest:
-    - ba8c6b1a
-    - eed87235
-    - a591037a
-    - 49f3cb74
-    - 0e9054a8
-    - fce475a3
-    - c6edc18b
-    - Business
     state: dropped
-    family_scores:
-      template-mockup: 0.609
-      dark-composite: 0.57
-      graphic-collage: 0.523
     best_family: template-mockup
     drop: more than 3 from https://kaboompics.com/ this pass
+    description: In this image we can see a pen, a paper with some text on it, a bottle and some objects on the surface.
+  pexels-5632332:
+    url: https://www.pexels.com/photo/present-beside-a-card-5632332/
+    image: https://images.pexels.com/photos/5632332/pexels-photo-5632332.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 4316
+    height: 6474
+    aspect_class: '2:3'
+    term: cosmetic bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 044313e3c2c1a5a6
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    score: 0.598
+    state: dropped
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    drop: more than 3 from https://kaboompics.com/ this pass
+    description: In this image we can see a gift box with a ribbon and a bottle on the surface. We can also see a card with some text on it.
+  pexels-5632335:
+    url: https://www.pexels.com/photo/flat-lay-of-beauty-products-5632335/
+    image: https://images.pexels.com/photos/5632335/pexels-photo-5632335.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 4316
+    height: 6474
+    aspect_class: '2:3'
+    term: cosmetic bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 07034da9b072d080
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    score: 0.465
+    state: dropped
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    drop: more than 3 from https://kaboompics.com/ this pass
+    description: In this image we can see a bottle, a paper, a pen and a cap on the surface.
+  pexels-5632347:
+    url: https://www.pexels.com/photo/present-beside-a-card-5632347/
+    image: https://images.pexels.com/photos/5632347/pexels-photo-5632347.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 6474
+    height: 4316
+    aspect_class: '3:2'
+    term: skincare bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 0000286965676901
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    score: 0.507
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: near-dup of corpus dff3943a (hamming 10)
+    description: In this image we can see a gift box with a black color ribbon and a bottle with a pink color cap. We can also see a card with some text on it.
+  pexels-5632350:
+    url: https://www.pexels.com/photo/pink-colored-beauty-products-on-sale-5632350/
+    image: https://images.pexels.com/photos/5632350/pexels-photo-5632350.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 6198
+    height: 4132
+    aspect_class: '3:2'
+    term: skincare bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 0006080880131200
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    score: 0.605
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: near-dup of corpus 041c7d23 (hamming 10)
+    description: In this image we can see a pink color bottle and a white color cap. We can also see a paper with some text on it.
+  pexels-5632372:
+    url: https://www.pexels.com/photo/beauty-products-on-sale-5632372/
+    image: https://images.pexels.com/photos/5632372/pexels-photo-5632372.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 4480
+    height: 6720
+    aspect_class: '2:3'
+    term: cosmetic bottle pastel seamless
+    collected: '2026-09-17'
+    phash: 0303000a39262605
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    score: 0.212
+    state: dropped
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    drop: more than 3 from https://kaboompics.com/ this pass
+    description: In this image we can see a paper with some text on it. We can also see a bottle and a cap on a surface.
+  pexels-5706018:
+    url: https://www.pexels.com/photo/close-up-of-paper-on-colored-background-5706018/
+    image: https://images.pexels.com/photos/5706018/pexels-photo-5706018.jpeg
+    creator: https://kaboompics.com/
+    platform: Pexels
+    licence: pexels
+    width: 6720
+    height: 4480
+    aspect_class: '3:2'
+    term: diptych two panel
+    collected: '2026-09-17'
+    phash: 0004269696480202
+    ranker: clip
+    searched_family: dark-composite
+    composition: layout
+    score: 0.513
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: near-dup of corpus 05d04dc5 (hamming 8)
+    description: In this image we can see two white color objects on the surface.
+  pexels-5767230:
+    url: https://www.pexels.com/photo/letter-cutouts-on-a-colorful-surface-5767230/
+    image: https://images.pexels.com/photos/5767230/pexels-photo-5767230.jpeg
+    creator: Thirdman
+    platform: Pexels
+    licence: pexels
+    width: 5743
+    height: 3829
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 3831072763c8d4c3
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.254
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Thirdman this pass
+    description: In this image we can see a poster with some text.
+  pexels-5926458:
+    url: https://www.pexels.com/photo/shopping-bags-on-the-floor-5926458/
+    image: https://images.pexels.com/photos/5926458/pexels-photo-5926458.jpeg
+    thumb: https://images.pexels.com/photos/5926458/pexels-photo-5926458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sora Shimazaki
+    creator_url: https://www.pexels.com/@sora-shimazaki
+    platform: Pexels
+    licence: pexels
+    width: 3740
+    height: 5610
+    aspect_class: '2:3'
+    term: bag product
+    collected: '2026-09-17'
+    phash: 07074c6054969607
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.308
+    nearest:
+    - c6edc18b
+    - a591037a
+    - 6cee1169
+    - eed87235
+    - 58f3fded
+    - 66e63c9c
+    - 9d51b73c
+    - e67f42df
+    state: pending
+    family_scores:
+      template-mockup: 0.308
+      graphic-collage: 0.299
+      cinematic-still: 0.215
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    description: In this image we can see two bags with text on it.
+  pexels-6205266:
+    url: https://www.pexels.com/photo/rectangles-on-blue-paint-6205266/
+    image: https://images.pexels.com/photos/6205266/pexels-photo-6205266.jpeg
+    creator: Steve A Johnson
+    platform: Pexels
+    licence: pexels
+    width: 4096
+    height: 2160
+    aspect_class: '2:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 625991121999c989
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    score: 0.64
+    state: dropped
+    best_family: template-mockup
+    moved_from: panel-overlay
+    drop: more than 3 from Steve A Johnson this pass
+    description: In this image we can see a painting.
+  pexels-6325565:
+    url: https://www.pexels.com/photo/cut-out-papers-on-white-background-6325565/
+    image: https://images.pexels.com/photos/6325565/pexels-photo-6325565.jpeg
+    thumb: https://images.pexels.com/photos/6325565/pexels-photo-6325565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marco Sebastian Mueller
+    creator_url: https://www.pexels.com/@msm8
+    platform: Pexels
+    licence: pexels
+    width: 2469
+    height: 2469
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: d4d4dc8dd7d0c4cc
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: solid-colour
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.386
+    nearest:
+    - 68a8682e
+    - 913b412f
+    - 0268ce5e
+    - 4c10cce3
+    - dd373a18
+    - a68edf30
+    - 307dc471
+    - 1641935e
+    state: pending
+    family_scores:
+      template-mockup: 0.386
+      graphic-collage: 0.262
+      mockup-card: 0.259
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see some text on the white surface.
+  pexels-6325566:
+    url: https://www.pexels.com/photo/close-up-shot-of-paper-cut-outs-on-a-blue-surface-6325566/
+    image: https://images.pexels.com/photos/6325566/pexels-photo-6325566.jpeg
+    creator: Marco Sebastian Mueller
+    platform: Pexels
+    licence: pexels
+    width: 2469
+    height: 2469
+    aspect_class: '1:1'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: d4d4dc8ed7d0c4cc
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.49
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of pool pexels-6325565 (hamming 2)
+    description: In this image we can see some text on the wall.
+  pexels-6325644:
+    url: https://www.pexels.com/photo/grayscale-photo-of-cut-out-papers-with-message-6325644/
+    image: https://images.pexels.com/photos/6325644/pexels-photo-6325644.jpeg
+    creator: Marco Sebastian Mueller
+    platform: Pexels
+    licence: pexels
+    width: 2992
+    height: 2992
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: c0c0d8f0f0d4d4d8
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    score: 0.418
+    state: dropped
+    best_family: template-mockup
+    moved_from: panel-overlay
+    drop: near-dup of corpus f17c10c5 (hamming 10)
+    description: In this image we can see some text on the white surface.
+  pexels-6325645:
+    url: https://www.pexels.com/photo/cut-out-papers-with-message-6325645/
+    image: https://images.pexels.com/photos/6325645/pexels-photo-6325645.jpeg
+    thumb: https://images.pexels.com/photos/6325645/pexels-photo-6325645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Marco Sebastian Mueller
+    creator_url: https://www.pexels.com/@msm8
+    platform: Pexels
+    licence: pexels
+    width: 2992
+    height: 2992
+    aspect_class: '1:1'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: c0c0daf0f8f4c4d8
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: light-grey
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.476
+    nearest:
+    - 68a8682e
+    - 913b412f
+    - 1641935e
+    - 318c3d2f
+    - 4c10cce3
+    - 2d8d9c5a
+    - 04b695ff
+    - d6886bb7
+    state: pending
+    family_scores:
+      template-mockup: 0.476
+      dark-composite: 0.432
+      graphic-collage: 0.322
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image we can see some text on the white surface.
+  pexels-6373691:
+    url: https://www.pexels.com/photo/blank-frame-on-wall-near-window-6373691/
+    image: https://images.pexels.com/photos/6373691/pexels-photo-6373691.jpeg
+    creator: Monstera Production
+    platform: Pexels
+    licence: pexels
+    width: 5621
+    height: 3748
+    aspect_class: '3:2'
+    term: diptych two panel
+    collected: '2026-09-17'
+    phash: 8393939393d3c3d3
+    ranker: clip
+    searched_family: dark-composite
+    composition: layout
+    score: 0.184
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: near-dup of corpus 0bea1c64 (hamming 10)
+    description: In this image I can see the white color wall, the window and the window blind.
+  pexels-6373783:
+    url: https://www.pexels.com/photo/faceless-person-walking-near-mock-up-placards-6373783/
+    image: https://images.pexels.com/photos/6373783/pexels-photo-6373783.jpeg
+    creator: Monstera Production
+    platform: Pexels
+    licence: pexels
+    width: 5760
+    height: 3840
+    aspect_class: '3:2'
+    term: two panel before after comparison
+    collected: '2026-09-17'
+    phash: 0d0f0c0d0d2d091e
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    score: 0.351
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: more than 3 from Monstera Production this pass
+    description: In this image we can see a person standing on the floor. We can also see some papers pasted on the wall. On the left side we can also a window.
+  pexels-6470:
+    url: https://www.pexels.com/photo/top-view-of-black-and-white-typography-sentences-6470/
+    image: https://images.pexels.com/photos/6470/black-and-white-creative-desk-pen.jpg
+    thumb: https://images.pexels.com/photos/6470/black-and-white-creative-desk-pen.jpg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Karolina Grabowska www.kaboompics.com
+    creator_url: https://www.pexels.com/@karola-g2
+    platform: Pexels
+    licence: pexels
+    width: 4104
+    height: 2736
+    aspect_class: '3:2'
+    term: collage portrait with text block
+    collected: '2026-09-17'
+    phash: 613978f15f1a8b4e
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.43
+    nearest:
+    - 82a6a79f
+    - ba8c6b1a
+    - 58f3fded
+    - 37ede1e7
+    - cbd69e03
+    - 49f3cb74
+    - 152daa9b
+    - Header-1
+    state: pending
+    family_scores:
+      template-mockup: 0.43
+      dark-composite: 0.272
+      vs-two-up: 0.14
+    best_family: template-mockup
+    moved_from: panel-overlay
+    description: In this image I can see few papers, a lollipop and a pen on the table.
+  pexels-6826261:
+    url: https://www.pexels.com/photo/white-empty-sheet-of-paper-and-blue-paper-cutouts-6826261/
+    image: https://images.pexels.com/photos/6826261/pexels-photo-6826261.jpeg
+    thumb: https://images.pexels.com/photos/6826261/pexels-photo-6826261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Daniel Enamorado
+    creator_url: https://www.pexels.com/@daniel-enamorado-27565477
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 639f979696d6e484
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.567
+    nearest:
+    - ba8c6b1a
+    - 1641935e
+    - Business
+    - ca8a7e13
+    - 49f3cb74
+    - 58f3fded
+    - 0a059f15
+    - 96b53d3d
+    state: pending
+    family_scores:
+      template-mockup: 0.567
+      graphic-collage: 0.431
+      editor-canvas: 0.381
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a paper and some papers on an orange surface.
+  pexels-6991809:
+    url: https://www.pexels.com/photo/a-green-blank-post-it-stuck-on-gray-surface-6991809/
+    image: https://images.pexels.com/photos/6991809/pexels-photo-6991809.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: pexels
+    width: 7239
+    height: 4826
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: fffff3f9c9b1b3de
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.367
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 9ab4e076 (hamming 9)
+    description: In this image we can see a green color post it note on the white color surface.
+  pexels-7120330:
+    url: https://www.pexels.com/photo/close-up-shot-of-an-abstract-painting-7120330/
+    image: https://images.pexels.com/photos/7120330/pexels-photo-7120330.png
+    thumb: https://images.pexels.com/photos/7120330/pexels-photo-7120330.png?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anni Roenkae
+    creator_url: https://www.pexels.com/@anniroenkae
+    platform: Pexels
+    licence: pexels
+    width: 2828
+    height: 2830
+    aspect_class: '1:1'
+    term: bust geometric shapes purple background
+    collected: '2026-09-17'
+    phash: e3c4e470199e974b
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.864
+    nearest:
+    - ba8c6b1a
+    - 55c91c8a
+    - 64ecaed5
+    - ca8a7e13
+    - 2da8c26a
+    - f57cb379
+    - 49f3cb74
+    - 219070b9
+    state: pending
+    family_scores:
+      template-mockup: 0.864
+      crop-frame: 0.816
+      dark-composite: 0.807
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: This is an edited image. In this image we can see buildings, sky and some other objects.
   pexels-7256109:
     url: https://www.pexels.com/photo/round-eyeshadow-containers-and-leaves-7256109/
     image: https://images.pexels.com/photos/7256109/pexels-photo-7256109.jpeg
-    thumb: https://images.pexels.com/photos/7256109/pexels-photo-7256109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: DS stories
-    creator_url: https://www.pexels.com/@ds-stories
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 8391
     height: 5594
     aspect_class: '3:2'
@@ -457,38 +2512,162 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
-    features:
-      ground: solid-colour
-      layout: stacked
-      panel_count: 2
-      before_after: false
     score: 0.199
-    nearest:
-    - Business
-    - 58f3fded
-    - 49f3cb74
-    - a591037a
-    - ba8c6b1a
-    - 37ede1e7
-    - '59200996'
-    - 64ecaed5
     state: dropped
-    family_scores:
-      graphic-collage: 0.268
-      dark-composite: 0.209
-      template-mockup: 0.199
     best_family: graphic-collage
     drop: near-dup of corpus 38851f36 (hamming 8)
+    description: In this image we can see some leaves and some coins on the surface.
+  pexels-7307723:
+    url: https://www.pexels.com/photo/close-up-of-geometrical-shapes-7307723/
+    image: https://images.pexels.com/photos/7307723/pexels-photo-7307723.jpeg
+    creator: KATRIN  BOLOVTSOVA
+    platform: Pexels
+    licence: pexels
+    width: 3562
+    height: 5343
+    aspect_class: '2:3'
+    term: portrait geometric shapes vibrant background studio
+    collected: '2026-09-17'
+    phash: 3f3f0f4f4d191317
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.424
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from KATRIN  BOLOVTSOVA this pass
+    description: In this image we can see a few objects on the surface.
+  pexels-7457656:
+    url: https://www.pexels.com/photo/colorful-papers-against-black-background-7457656/
+    image: https://images.pexels.com/photos/7457656/pexels-photo-7457656.jpeg
+    creator: Nothing Ahead
+    platform: Pexels
+    licence: pexels
+    width: 5929
+    height: 3744
+    aspect_class: '16:10'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: deee763a3b776beb
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.7
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 38851f36 (hamming 10)
+    description: In this image we can see a few papers on the surface.
+  pexels-7457657:
+    url: https://www.pexels.com/photo/close-up-shot-of-colored-papers-on-a-black-surface-7457657/
+    image: https://images.pexels.com/photos/7457657/pexels-photo-7457657.jpeg
+    thumb: https://images.pexels.com/photos/7457657/pexels-photo-7457657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Nothing Ahead
+    creator_url: https://www.pexels.com/@ian-panelo
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: dae57a3dd89a9a35
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.306
+    nearest:
+    - ba8c6b1a
+    - 49f3cb74
+    - a591037a
+    - 9d51b73c
+    - 37ede1e7
+    - c1113515
+    - ca8a7e13
+    - 64ecaed5
+    state: pending
+    family_scores:
+      template-mockup: 0.306
+      crop-frame: 0.271
+      dark-composite: 0.254
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a blue color paper.
+  pexels-7679915:
+    url: https://www.pexels.com/photo/colorful-hearts-in-different-sizes-7679915/
+    image: https://images.pexels.com/photos/7679915/pexels-photo-7679915.jpeg
+    creator: DS stories
+    platform: Pexels
+    licence: pexels
+    width: 8239
+    height: 5493
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: d7e3eed34b6ae5e1
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.45
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from DS stories this pass
+    description: In this image we can see four heart shaped stickers on the surface.
+  pexels-7755652:
+    url: https://www.pexels.com/photo/nail-color-samples-7755652/
+    image: https://images.pexels.com/photos/7755652/pexels-photo-7755652.jpeg
+    creator: RDNE Stock project
+    platform: Pexels
+    licence: pexels
+    width: 5928
+    height: 3952
+    aspect_class: '3:2'
+    term: nail polish bottle pastel background
+    collected: '2026-09-17'
+    phash: 1b0c2c585831b163
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    score: 0.427
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: more than 3 from RDNE Stock project this pass
+    description: In this image we can see a few objects with numbers on it.
+  pexels-7764088:
+    url: https://www.pexels.com/photo/a-person-holding-a-picture-frame-with-a-floral-design-7764088/
+    image: https://images.pexels.com/photos/7764088/pexels-photo-7764088.jpeg
+    creator: RDNE Stock project
+    platform: Pexels
+    licence: pexels
+    width: 6427
+    height: 4285
+    aspect_class: '3:2'
+    term: woman holding empty picture frame coloured backdrop
+    collected: '2026-09-17'
+    phash: 0709180b3335301c
+    ranker: clip
+    searched_family: crop-frame
+    composition: layout
+    score: 0.206
+    state: dropped
+    best_family: template-mockup
+    moved_from: crop-frame
+    drop: below calibrated threshold 0.221 (None, 2026-09-17)
+    description: In this image we can see a person's hand holding a gift bag.
   pexels-7764498:
     url: https://www.pexels.com/photo/ceramic-mug-and-a-gift-box-on-yellow-background-7764498/
     image: https://images.pexels.com/photos/7764498/pexels-photo-7764498.jpeg
-    thumb: https://images.pexels.com/photos/7764498/pexels-photo-7764498.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: RDNE Stock project
-    creator_url: https://www.pexels.com/@rdne
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4819
     height: 3213
     aspect_class: '3:2'
@@ -498,25 +2677,431 @@ entries:
     ranker: clip
     searched_family: template-mockup
     composition: bare
+    score: 0.036
+    state: dropped
+    best_family: graphic-collage
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a cup with some text on it and a toy on the surface.
+  pexels-7828122:
+    url: https://www.pexels.com/photo/geometric-shapes-and-clear-wine-glass-on-a-flat-surface-7828122/
+    image: https://images.pexels.com/photos/7828122/pexels-photo-7828122.jpeg
+    creator: Mikhail Nilov
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: bust geometric shapes purple background
+    collected: '2026-09-17'
+    phash: ffffffeff372f1ee
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.587
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: near-dup of corpus 041c7d23 (hamming 10)
+    description: In this image we can see a glass, a stone and a box on the surface.
+  pexels-7947954:
+    url: https://www.pexels.com/photo/various-graphs-on-a-tv-screen-7947954/
+    image: https://images.pexels.com/photos/7947954/pexels-photo-7947954.jpeg
+    thumb: https://images.pexels.com/photos/7947954/pexels-photo-7947954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: RDNE Stock project
+    creator_url: https://www.pexels.com/@rdne
+    platform: Pexels
+    licence: pexels
+    width: 5034
+    height: 3356
+    aspect_class: '3:2'
+    term: split screen comparison photo
+    collected: '2026-09-17'
+    phash: 873321212d2d2d84
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
     features:
-      ground: solid-colour
+      ground: photo-full-bleed
       layout: single
       panel_count: 1
       before_after: false
-    score: 0.036
+    score: 0.262
     nearest:
-    - 6d822292
-    - ba8c6b1a
-    - 26e549e8
-    - e21aa197
-    - ee6516f7
-    - e1d10798
-    - dbb7217a
-    - Business
-    state: dropped
+    - c1113515
+    - 64ecaed5
+    - 219070b9
+    - 913b412f
+    - 9d51b73c
+    - fe1b2295
+    - 2108b5eb
+    - 37ede1e7
+    state: pending
     family_scores:
-      graphic-collage: 0.121
+      template-mockup: 0.262
+      dark-composite: 0.229
+      panel-overlay: 0.183
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image we can see a monitor on the table. In the background there is a shelf and we can also see a frame and a butterfly hanging to the chain.
+  pexels-7951528:
+    url: https://www.pexels.com/photo/boards-full-with-graffiti-on-gray-floor-7951528/
+    image: https://images.pexels.com/photos/7951528/pexels-photo-7951528.jpeg
+    thumb: https://images.pexels.com/photos/7951528/pexels-photo-7951528.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Felicity Tai
+    creator_url: https://www.pexels.com/@felicity-tai
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: diptych two panels side by side
+    collected: '2026-09-17'
+    phash: f4664dcdcdcdca4e
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.317
+    nearest:
+    - ba8c6b1a
+    - ca8a7e13
+    - 6756514d
+    - 32e24b56
+    - f57cb379
+    - 2da8c26a
+    - 55c91c8a
+    - 96b53d3d
+    state: pending
+    family_scores:
+      template-mockup: 0.317
+      dark-composite: 0.295
+      vs-two-up: 0.193
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image we can see a wall with some paintings on it. We can also see a pipe and a board on the floor.
+  pexels-7953907:
+    url: https://www.pexels.com/photo/white-flowers-on-a-red-surface-7953907/
+    image: https://images.pexels.com/photos/7953907/pexels-photo-7953907.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: paper cutout figure on colored background
+    collected: '2026-09-17'
+    phash: 48a8d921d1719161
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    score: 0.382
+    state: dropped
+    best_family: template-mockup
+    moved_from: graphic-collage
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a red color cloth with white color design.
+  pexels-8015881:
+    url: https://www.pexels.com/photo/still-life-with-a-rose-quartz-face-roller-and-packaging-8015881/
+    image: https://images.pexels.com/photos/8015881/pexels-photo-8015881.jpeg
+    creator: Cup of  Couple
+    platform: Pexels
+    licence: pexels
+    width: 8192
+    height: 5464
+    aspect_class: '3:2'
+    term: product photography hard shadow single subject
+    collected: '2026-09-17'
+    phash: ffffbdcd9ebe9fff
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    score: 0.426
+    state: dropped
+    best_family: template-mockup
+    moved_from: vs-two-up
+    drop: near-dup of corpus 041c7d23 (hamming 9)
+    description: In this image we can see a glass, a bag and a box.
+  pexels-8478373:
+    url: https://www.pexels.com/photo/colored-papers-on-steel-shelves-8478373/
+    image: https://images.pexels.com/photos/8478373/pexels-photo-8478373.jpeg
+    thumb: https://images.pexels.com/photos/8478373/pexels-photo-8478373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Sergey  Meshkov
+    creator_url: https://www.pexels.com/@19x14
+    platform: Pexels
+    licence: pexels
+    width: 6719
+    height: 4002
+    aspect_class: '16:10'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 074e4e030f07330e
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.355
+    nearest:
+    - ba8c6b1a
+    - 49f3cb74
+    - 64ecaed5
+    - 82a6a79f
+    - 219070b9
+    - f57cb379
+    - cbd69e03
+    - 37ede1e7
+    state: pending
+    family_scores:
+      template-mockup: 0.355
+      panel-overlay: 0.327
+      vs-two-up: 0.251
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a few objects.
+  pexels-8559014:
+    url: https://www.pexels.com/photo/colored-papers-in-macro-shot-photography-8559014/
+    image: https://images.pexels.com/photos/8559014/pexels-photo-8559014.jpeg
+    thumb: https://images.pexels.com/photos/8559014/pexels-photo-8559014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: "Katie Rainbow \U0001F3F3️‍\U0001F308"
+    creator_url: https://www.pexels.com/@katierainbow
+    platform: Pexels
+    licence: pexels
+    width: 5616
+    height: 3744
+    aspect_class: '3:2'
+    term: single object layered colored paper
+    collected: '2026-09-17'
+    phash: 1f361d33cdfebfb7
+    ranker: clip
+    searched_family: graphic-collage
+    composition: layout
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.454
+    nearest:
+    - ba8c6b1a
+    - 49f3cb74
+    - 82a6a79f
+    - ca8a7e13
+    - a591037a
+    - f57cb379
+    - 96b53d3d
+    - 37ede1e7
+    state: pending
+    family_scores:
+      template-mockup: 0.454
+      dark-composite: 0.423
+      graphic-collage: 0.324
+    best_family: template-mockup
+    moved_from: graphic-collage
+    description: In this image we can see a few papers on the surface.
+  pexels-8793702:
+    url: https://www.pexels.com/photo/a-blue-floral-design-on-a-white-based-paper-8793702/
+    image: https://images.pexels.com/photos/8793702/pexels-photo-8793702.jpeg
+    creator: Tamanna Rumee
+    platform: Pexels
+    licence: pexels
+    width: 5184
+    height: 3456
+    aspect_class: '3:2'
+    term: same object repeated on flat colour background studio
+    collected: '2026-09-17'
+    phash: 5fa74b33b74f9dbb
+    ranker: clip
+    searched_family: outcome-tile
+    composition: layout
+    score: 0.202
+    state: dropped
+    best_family: template-mockup
+    moved_from: outcome-tile
+    drop: more than 3 from Tamanna Rumee this pass
+    description: In this image we can see a white and blue color design.
+  pexels-9096965:
+    url: https://www.pexels.com/photo/guitar-picks-on-cards-9096965/
+    image: https://images.pexels.com/photos/9096965/pexels-photo-9096965.jpeg
+    thumb: https://images.pexels.com/photos/9096965/pexels-photo-9096965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: ROMBO
+    creator_url: https://www.pexels.com/@rombo-1510555
+    platform: Pexels
+    licence: pexels
+    width: 2362
+    height: 2362
+    aspect_class: '1:1'
+    term: product on rock studio
+    collected: '2026-09-17'
+    phash: 00e281c0d274b132
+    ranker: clip
+    searched_family: vs-two-up
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.809
+    nearest:
+    - ba8c6b1a
+    - 49f3cb74
+    - 82a6a79f
+    - 37ede1e7
+    - 04b695ff
+    - '59200996'
+    - 55c91c8a
+    - 219070b9
+    state: pending
+    family_scores:
+      template-mockup: 0.809
+      dark-composite: 0.726
+      cutout-checkerboard: 0.538
+    best_family: template-mockup
+    moved_from: vs-two-up
+    description: In this image we can see some boxes and there is a white background.
+  pexels-9175709:
+    url: https://www.pexels.com/photo/close-up-shot-of-an-abstract-painting-9175709/
+    image: https://images.pexels.com/photos/9175709/pexels-photo-9175709.jpeg
+    thumb: https://images.pexels.com/photos/9175709/pexels-photo-9175709.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kseniya Lapteva
+    creator_url: https://www.pexels.com/@kseniya-lapteva-93670191
+    platform: Pexels
+    licence: pexels
+    width: 3335
+    height: 3324
+    aspect_class: '1:1'
+    term: lipstick pastel background
+    collected: '2026-09-17'
+    phash: 6666e46830b4da58
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.866
+    nearest:
+    - ba8c6b1a
+    - 55c91c8a
+    - ca8a7e13
+    - f57cb379
+    - 6d822292
+    - e1d10798
+    - d7577fb9
+    - 4c70579c
+    state: pending
+    family_scores:
+      template-mockup: 0.866
+      graphic-collage: 0.813
+      cutout-checkerboard: 0.794
+    best_family: template-mockup
+    moved_from: dark-composite
+    description: In this image we can see a painting of flowers.
+  pexels-9175759:
+    url: https://www.pexels.com/photo/close-up-shot-of-an-abstract-painting-9175759/
+    image: https://images.pexels.com/photos/9175759/pexels-photo-9175759.jpeg
+    creator: Kseniya Lapteva
+    platform: Pexels
+    licence: pexels
+    width: 4848
+    height: 3356
+    aspect_class: '3:2'
+    term: lipstick pastel background
+    collected: '2026-09-17'
+    phash: c518005bfaf30f22
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    score: 0.415
+    state: dropped
+    best_family: template-mockup
+    moved_from: dark-composite
+    drop: more than 3 from Kseniya Lapteva this pass
+    description: In this image we can see the painting.
+  pexels-9176211:
+    url: https://www.pexels.com/photo/abstract-painting-of-light-colors-mixing-9176211/
+    image: https://images.pexels.com/photos/9176211/pexels-photo-9176211.jpeg
+    thumb: https://images.pexels.com/photos/9176211/pexels-photo-9176211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Kseniya Lapteva
+    creator_url: https://www.pexels.com/@kseniya-lapteva-93670191
+    platform: Pexels
+    licence: pexels
+    width: 3343
+    height: 3314
+    aspect_class: '1:1'
+    term: lipstick pastel background
+    collected: '2026-09-17'
+    phash: 08088602020fc949
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: mixed
+      before_after: false
+    score: 0.855
+    nearest:
+    - ba8c6b1a
+    - 55c91c8a
+    - ca8a7e13
+    - 64ecaed5
+    - 49f3cb74
+    - e1d10798
+    - f57cb379
+    - 82a6a79f
+    state: pending
+    family_scores:
+      template-mockup: 0.855
+      dark-composite: 0.732
+      editor-canvas: 0.65
+    best_family: template-mockup
+    moved_from: dark-composite
+    description: In this image we can see the painting.
+  pexels-9878727:
+    url: https://www.pexels.com/photo/shining-plastic-bags-on-white-background-9878727/
+    image: https://images.pexels.com/photos/9878727/pexels-photo-9878727.jpeg
+    thumb: https://images.pexels.com/photos/9878727/pexels-photo-9878727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Brando.ltd
+    creator_url: https://www.pexels.com/@brando-ltd-120530945
+    platform: Pexels
+    licence: pexels
+    width: 5472
+    height: 3648
+    aspect_class: '3:2'
+    term: bag product
+    collected: '2026-09-17'
+    phash: 231d6360dcf8395b
+    ranker: clip
+    searched_family: cutout-checkerboard
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.243
+    nearest:
+    - 55c91c8a
+    - c1113515
+    - 04b695ff
+    - 1cec4b81
+    - 49f3cb74
+    - 219070b9
+    - a591037a
+    - f5570ae0
+    state: pending
+    family_scores:
+      template-mockup: 0.243
+      vs-two-up: 0.202
       panel-overlay: 0.084
-      editor-canvas: 0.078
-    best_family: graphic-collage
-    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    best_family: template-mockup
+    moved_from: cutout-checkerboard
+    description: In this image we can see two packets with some text on it.

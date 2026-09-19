@@ -3,13 +3,9 @@ entries:
   pexels-10046919:
     url: https://www.pexels.com/photo/a-reflection-of-a-man-wearing-a-suit-10046919/
     image: https://images.pexels.com/photos/10046919/pexels-photo-10046919.jpeg
-    thumb: https://images.pexels.com/photos/10046919/pexels-photo-10046919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: cottonbro studio
-    creator_url: https://www.pexels.com/@cottonbro
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4880
     height: 3253
     aspect_class: '3:2'
@@ -19,36 +15,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - 8789713b
-    - 22e1a38a
-    - c88d7a70
-    - 57b2ef08
-    - 18415fcb
-    - 25f071ed
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: more than 3 from cottonbro studio this pass
+    description: In this image I can see a person wearing blazer, shirt and pant is standing on the ground. I can also see the grass, a board and a statue. In the background I can few trees.
   pexels-10545004:
     url: https://www.pexels.com/photo/four-women-standing-on-green-grass-field-10545004/
     image: https://images.pexels.com/photos/10545004/pexels-photo-10545004.jpeg
-    thumb: https://images.pexels.com/photos/10545004/pexels-photo-10545004.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: cottonbro studio
-    creator_url: https://www.pexels.com/@cottonbro
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5559
     height: 3706
     aspect_class: '3:2'
@@ -58,36 +35,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - c88d7a70
-    - fdf44d95
-    - 57b2ef08
-    - 22e1a38a
-    - cfcfb357
-    - 8789713b
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: more than 3 from cottonbro studio this pass
+    description: In this image we can see four persons standing on the ground. In the background we can also see a group of trees, water, grass and the sky which looks cloudy.
   pexels-12998846:
     url: https://www.pexels.com/photo/a-woman-wearing-a-red-dress-12998846/
     image: https://images.pexels.com/photos/12998846/pexels-photo-12998846.jpeg
-    thumb: https://images.pexels.com/photos/12998846/pexels-photo-12998846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: 嵐 楓
-    creator_url: https://www.pexels.com/@262056625
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4492
     height: 2994
     aspect_class: '3:2'
@@ -97,26 +55,11 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - c3cbf8c8
-    - 18415fcb
-    - 8789713b
-    - fdf44d95
-    - c9d1e981
-    - cfed9542
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a woman standing on the ground. We can also see a building with a wall and the sky which looks cloudy.
   pexels-16229208:
     url: https://www.pexels.com/photo/woman-posing-in-a-red-costume-16229208/
     image: https://images.pexels.com/photos/16229208/pexels-photo-16229208.jpeg
@@ -125,8 +68,6 @@ entries:
     creator_url: https://www.pexels.com/@marjan-taghipour-306415692
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 9069
     height: 5566
     aspect_class: '16:10'
@@ -155,6 +96,7 @@ entries:
       graphic-collage: 0.29
       vs-two-up: 0.272
     best_family: before-after
+    description: In this image we can see a woman wearing red color dress is sitting on a red color object and holding a blue color cloth in her hands. In the background, we can also see a clear blue sky.
   pexels-17444164:
     url: https://www.pexels.com/photo/woman-standing-with-arms-raised-17444164/
     image: https://images.pexels.com/photos/17444164/pexels-photo-17444164.jpeg
@@ -163,8 +105,6 @@ entries:
     creator_url: https://www.pexels.com/@pollianna-bonnett-554370395
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4896
     height: 3264
     aspect_class: '3:2'
@@ -193,16 +133,51 @@ entries:
       model-card: 0.39
       vs-two-up: 0.378
     best_family: graphic-collage
+    description: In this image we can see a woman standing. In the background there is sky with clouds. On the right side there is a tree.
+  pexels-19506918:
+    url: https://www.pexels.com/photo/woman-in-a-black-outfit-sitting-and-holding-a-cake-19506918/
+    image: https://images.pexels.com/photos/19506918/pexels-photo-19506918.jpeg
+    thumb: https://images.pexels.com/photos/19506918/pexels-photo-19506918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Cristian Torres Torres
+    creator_url: https://www.pexels.com/@cristian-torres-torres-776564917
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 3750
+    aspect_class: '16:10'
+    term: model gloves holding product studio
+    collected: '2026-09-17'
+    phash: 354d496364e3f0d8
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: light-grey
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.301
+    nearest:
+    - 7e3e579f
+    - e8321a24
+    - 1d9e87da
+    - 8789713b
+    - 727a3ff5
+    - Header-3
+    state: pending
+    family_scores:
+      model-card: 0.301
+      editor-canvas: 0.275
+      vs-two-up: 0.267
+    best_family: model-card
+    moved_from: dark-composite
+    description: In this image I can see a woman is sitting on the floor and holding a cake. She is wearing black dress.
   pexels-27391170:
     url: https://www.pexels.com/photo/a-woman-in-a-bright-orange-dress-on-a-sandy-beach-27391170/
     image: https://images.pexels.com/photos/27391170/pexels-photo-27391170.jpeg
-    thumb: https://images.pexels.com/photos/27391170/pexels-photo-27391170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Vika Glitter
-    creator_url: https://www.pexels.com/@vika-glitter-392079
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6010
     height: 3925
     aspect_class: '3:2'
@@ -212,36 +187,55 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
+    score: 0.042
+    state: dropped
+    best_family: vs-two-up
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a woman wearing a dress. In the background, we can also see some plants, trees and the sky.
+  pexels-3004884:
+    url: https://www.pexels.com/photo/man-wearing-eyeglasses-with-gray-frame-3004884/
+    image: https://images.pexels.com/photos/3004884/pexels-photo-3004884.jpeg
+    thumb: https://images.pexels.com/photos/3004884/pexels-photo-3004884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Ali Pazani
+    creator_url: https://www.pexels.com/@alipazani
+    platform: Pexels
+    licence: pexels
+    width: 4898
+    height: 3264
+    aspect_class: '3:2'
+    term: neon portrait man magenta blue light
+    collected: '2026-09-17'
+    phash: 7270d8daf87879e6
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
     features:
       ground: photo-full-bleed
       layout: single
       panel_count: 1
       before_after: false
-    score: 0.042
+    score: 0.466
     nearest:
-    - fdf44d95
-    - c9d1e981
+    - 727a3ff5
+    - 553d11df
+    - 54f8c383
+    - Head
     - 8789713b
-    - c3cbf8c8
-    - 8388005a
-    - 40b37491
-    state: dropped
+    - 24093b6f
+    state: pending
     family_scores:
-      vs-two-up: 0.129
-      before-after: 0.123
-      graphic-collage: 0.114
-    best_family: vs-two-up
-    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+      model-card: 0.466
+      dark-composite: 0.462
+      before-after: 0.442
+    best_family: model-card
+    moved_from: panel-overlay
+    description: In this image I can see a person wearing t-shirt and spectacles. In the background I can also see few lights and the image is blurred.
   pexels-31305463:
     url: https://www.pexels.com/photo/elegant-woman-posing-in-vibrant-blue-gown-outdoors-31305463/
     image: https://images.pexels.com/photos/31305463/pexels-photo-31305463.jpeg
-    thumb: https://images.pexels.com/photos/31305463/pexels-photo-31305463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Vika Glitter
-    creator_url: https://www.pexels.com/@vika-glitter-392079
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6007
     height: 4000
     aspect_class: '3:2'
@@ -251,36 +245,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - c9d1e981
-    - c3cbf8c8
-    - 54f8c383
-    - 5beaeb7a
-    - 553d11df
-    - fdf44d95
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a woman standing on the stairs. In the background we can also see a building and the sky.
   pexels-31591255:
     url: https://www.pexels.com/photo/elegant-woman-in-lime-green-dress-against-stone-wall-31591255/
     image: https://images.pexels.com/photos/31591255/pexels-photo-31591255.jpeg
-    thumb: https://images.pexels.com/photos/31591255/pexels-photo-31591255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Walter Alejandro
-    creator_url: https://www.pexels.com/@walter-alejandro-228509595
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5668
     height: 3779
     aspect_class: '3:2'
@@ -290,36 +265,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - 8789713b
-    - e8321a24
-    - 1d9e87da
-    - 54f8c383
-    - c9d1e981
-    - e9a9f441
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: near-dup of corpus 99a0fda9 (hamming 10)
+    description: In this image we can see a woman standing. In the background there is a wall.
   pexels-3193713:
     url: https://www.pexels.com/photo/low-angle-shot-of-a-young-man-in-colorful-active-wear-sitting-on-top-of-a-pile-of-rubble-3193713/
     image: https://images.pexels.com/photos/3193713/pexels-photo-3193713.jpeg
-    thumb: https://images.pexels.com/photos/3193713/pexels-photo-3193713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Jermaine Ulinwa
-    creator_url: https://www.pexels.com/@roseleon
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5616
     height: 3744
     aspect_class: '3:2'
@@ -329,36 +285,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - c3cbf8c8
-    - 25f071ed
-    - 727a3ff5
-    - 57b2ef08
-    - c88d7a70
-    - d45cd106
     state: dropped
-    family_scores:
-      vs-two-up: 0.129
-      before-after: 0.123
-      graphic-collage: 0.114
     best_family: vs-two-up
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a person wearing goggles and sitting on the rocks. In the background we can also see the sky.
   pexels-32000676:
     url: https://www.pexels.com/photo/elegant-woman-in-lime-green-dress-at-historic-site-32000676/
     image: https://images.pexels.com/photos/32000676/pexels-photo-32000676.jpeg
-    thumb: https://images.pexels.com/photos/32000676/pexels-photo-32000676.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Erick Melgar
-    creator_url: https://www.pexels.com/@erick-melgar-2150397853
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5184
     height: 3456
     aspect_class: '3:2'
@@ -368,36 +305,17 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - 54f8c383
-    - c9d1e981
-    - 1d9e87da
-    - 7e3e579f
-    - c3cbf8c8
-    - 5beaeb7a
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a woman wearing green dress is sitting on the wall. In the background, we can also see some pillars and a wall.
   pexels-36036481:
     url: https://www.pexels.com/photo/artistic-portrait-of-a-young-woman-with-freckles-36036481/
     image: https://images.pexels.com/photos/36036481/pexels-photo-36036481.jpeg
-    thumb: https://images.pexels.com/photos/36036481/pexels-photo-36036481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: marcin wróblewski
-    creator_url: https://www.pexels.com/@resoflife
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2304
     height: 1792
     aspect_class: '5:4'
@@ -407,37 +325,56 @@ entries:
     ranker: clip
     searched_family: vs-two-up
     composition: bare
+    score: 0.782
+    state: dropped
+    best_family: model-card
+    moved_from: vs-two-up
+    drop: near-dup of corpus 36b35162 (hamming 9)
+    description: In this image we can see a woman.
+  pexels-37417585:
+    url: https://www.pexels.com/photo/futuristic-portrait-with-neon-lighting-in-studio-37417585/
+    image: https://images.pexels.com/photos/37417585/pexels-photo-37417585.jpeg
+    thumb: https://images.pexels.com/photos/37417585/pexels-photo-37417585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Husien Bisky
+    creator_url: https://www.pexels.com/@husien-bisky-620750755
+    platform: Pexels
+    licence: pexels
+    width: 3840
+    height: 2160
+    aspect_class: '16:9'
+    term: neon light portrait cyan magenta
+    collected: '2026-09-17'
+    phash: 989c1c8ecc4c2f95
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
     features:
       ground: photo-full-bleed
       layout: single
       panel_count: 1
       before_after: false
-    score: 0.782
+    score: 0.642
     nearest:
-    - 8388005a
     - 8789713b
     - cfed9542
     - Head
-    - e9a9f441
+    - 8388005a
     - 727a3ff5
-    state: dropped
+    - Header-3
+    state: pending
     family_scores:
-      model-card: 0.782
-      before-after: 0.663
-      vs-two-up: 0.569
+      model-card: 0.642
+      before-after: 0.64
+      cutout-checkerboard: 0.431
     best_family: model-card
-    moved_from: vs-two-up
-    drop: near-dup of corpus 36b35162 (hamming 9)
+    moved_from: panel-overlay
+    description: In this image we can see a woman holding a light.
   pexels-5119200:
     url: https://www.pexels.com/photo/man-in-black-coat-sitting-on-brown-rock-5119200/
     image: https://images.pexels.com/photos/5119200/pexels-photo-5119200.jpeg
-    thumb: https://images.pexels.com/photos/5119200/pexels-photo-5119200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: cottonbro studio
-    creator_url: https://www.pexels.com/@cottonbro
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6720
     height: 4480
     aspect_class: '3:2'
@@ -447,26 +384,91 @@ entries:
     ranker: clip
     searched_family: model-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.042
-    nearest:
-    - c3cbf8c8
-    - 9909d150
-    - 25f071ed
-    - 57b2ef08
-    - c88d7a70
-    - 8789713b
     state: dropped
-    family_scores:
-      vs-two-up: 0.134
-      before-after: 0.123
-      graphic-collage: 0.114
     best_family: vs-two-up
     drop: more than 3 from cottonbro studio this pass
+    description: In this image we can see a woman wearing a coat and black color shoes is walking on the sand. In the background, we can also see the sky.
+  pexels-5244568:
+    url: https://www.pexels.com/photo/a-natural-skin-care-product-based-on-charcoal-5244568/
+    image: https://images.pexels.com/photos/5244568/pexels-photo-5244568.jpeg
+    thumb: https://images.pexels.com/photos/5244568/pexels-photo-5244568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Anissa Mebarkia Thomsen
+    creator_url: https://www.pexels.com/@anissa-mebarkia-thomsen-2202064
+    platform: Pexels
+    licence: pexels
+    width: 4605
+    height: 3849
+    aspect_class: '5:4'
+    term: cosmetic jar white background product
+    collected: '2026-09-17'
+    phash: 1fc9c1e2e3fdbc1c
+    ranker: clip
+    searched_family: outcome-tile
+    composition: bare
+    features:
+      ground: white
+      layout: stacked
+      panel_count: 2
+      before_after: false
+    score: 0.307
+    nearest:
+    - 61299aea
+    - 54f8c383
+    - fdf44d95
+    - 0ba6a9fb
+    - c9d1e981
+    - 1d9e87da
+    state: pending
+    family_scores:
+      model-card: 0.307
+      vs-two-up: 0.3
+      editor-canvas: 0.288
+    best_family: model-card
+    moved_from: outcome-tile
+    description: In this image we can see a jar with some text on it and a spoon.
+  pexels-6835832:
+    url: https://www.pexels.com/photo/woman-in-fur-coat-holding-a-sunglasses-while-seriously-looking-at-the-camera-6835832/
+    image: https://images.pexels.com/photos/6835832/pexels-photo-6835832.jpeg
+    creator: Mikhail Nilov
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: neon light portrait cyan magenta
+    collected: '2026-09-17'
+    phash: 1f37b72711391949
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    score: 0.528
+    state: dropped
+    best_family: model-card
+    moved_from: panel-overlay
+    drop: more than 3 from Mikhail Nilov this pass
+    description: In this image we can see a woman wearing a jacket and holding a headset in her hand. In the background, we can also see a wall with some text.
+  pexels-6835949:
+    url: https://www.pexels.com/photo/a-woman-with-short-hair-wearing-fur-coat-6835949/
+    image: https://images.pexels.com/photos/6835949/pexels-photo-6835949.jpeg
+    creator: Mikhail Nilov
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 4000
+    aspect_class: '3:2'
+    term: neon light portrait cyan magenta
+    collected: '2026-09-17'
+    phash: 8e8e0f0f87860684
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    score: 0.325
+    state: dropped
+    best_family: model-card
+    moved_from: panel-overlay
+    drop: near-dup of corpus 3043909c (hamming 10)
+    description: In this image we can see a woman standing. In the background there are lights.
   pexels-8108480:
     url: https://www.pexels.com/photo/man-and-woman-looking-at-each-other-8108480/
     image: https://images.pexels.com/photos/8108480/pexels-photo-8108480.jpeg
@@ -475,8 +477,6 @@ entries:
     creator_url: https://www.pexels.com/@mikhail-nilov
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6000
     height: 4000
     aspect_class: '3:2'
@@ -506,3 +506,80 @@ entries:
       before-after: 0.276
     best_family: model-card
     moved_from: panel-overlay
+    description: In this image we can see two persons. In the background it is dark.
+  pexels-8721832:
+    url: https://www.pexels.com/photo/a-man-in-white-long-sleeve-shirt-8721832/
+    image: https://images.pexels.com/photos/8721832/pexels-photo-8721832.jpeg
+    thumb: https://images.pexels.com/photos/8721832/pexels-photo-8721832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Michelangelo Buonarroti
+    creator_url: https://www.pexels.com/@michelangelo-buonarroti
+    platform: Pexels
+    licence: pexels
+    width: 4200
+    height: 2800
+    aspect_class: '3:2'
+    term: man portrait blue gel light studio
+    collected: '2026-09-17'
+    phash: '1353125995963736'
+    ranker: clip
+    searched_family: panel-overlay
+    composition: bare
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.386
+    nearest:
+    - 8789713b
+    - 727a3ff5
+    - Head
+    - 8388005a
+    - Header-3
+    - 54f8c383
+    state: pending
+    family_scores:
+      model-card: 0.386
+      graphic-collage: 0.361
+      vs-two-up: 0.32
+    best_family: model-card
+    moved_from: panel-overlay
+    description: In this image we can see a person wearing goggles. In the background it is blue.
+  pexels-8817444:
+    url: https://www.pexels.com/photo/close-up-photo-of-a-woman-8817444/
+    image: https://images.pexels.com/photos/8817444/pexels-photo-8817444.jpeg
+    thumb: https://images.pexels.com/photos/8817444/pexels-photo-8817444.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Alexander Krivitskiy
+    creator_url: https://www.pexels.com/@krivitskiy
+    platform: Pexels
+    licence: pexels
+    width: 6000
+    height: 3823
+    aspect_class: '16:10'
+    term: fashion portrait pastel seamless gloss
+    collected: '2026-09-17'
+    phash: 8cccccd6d6c42432
+    ranker: clip
+    searched_family: dark-composite
+    composition: bare
+    features:
+      ground: photo-full-bleed
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.592
+    nearest:
+    - 8388005a
+    - cfed9542
+    - e8321a24
+    - 8789713b
+    - 5beaeb7a
+    - 553d11df
+    state: pending
+    family_scores:
+      model-card: 0.592
+      before-after: 0.578
+      vs-two-up: 0.457
+    best_family: model-card
+    moved_from: dark-composite
+    description: In this image we can see a girl.
