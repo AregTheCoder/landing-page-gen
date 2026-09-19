@@ -1,0 +1,37 @@
+sheet: use-case-grid_1x1_video-c9c69e
+group:
+  type: use-case-grid
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_1x1_video-c9c69e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b0f2d6ba-8dee-4501-94fc-68d17f1b5267.webm
+    asset: b0f2d6ba
+    page: ai-marketing-studio
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1231
+    pace: fast
+    loop: false
+    loop_seam: 0.887

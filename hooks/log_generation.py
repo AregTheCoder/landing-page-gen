@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""PostToolUse hook on Picsart preflight and paid tools. Appends one row per
-call to runs/current/ledger.jsonl: timestamp, tool, connector, model, params,
-every URL in the response, and the credits (quoted directly for preflight,
-taken from the last preflight of the same model for paid calls)."""
+"""PostToolUse hook on Picsart preflight, paid tools and job_status. Appends
+one row per call to runs/current/ledger.jsonl: timestamp, tool, connector,
+model, params, every URL in the response, and the credits (quoted directly for
+preflight, taken from the last preflight of the same model for paid calls).
+An async video generate returns no URL; the clip URL arrives in the
+`picsart_job_status` response, so that row is logged too (cost 0) and the
+isolation guard then lets a later extend/edit node wire the clip."""
 
 import datetime
 import json
@@ -32,7 +35,7 @@ def main():
         found = CREDITS_RE.search(response_text)
         credits = int(found.group(1)) if found else None
     else:
-        credits = L.quote_for(L.ledger_rows(run), model)
+        credits = L.quote_for(L.ledger_rows(run), model, tool)
 
     row = {
         "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),

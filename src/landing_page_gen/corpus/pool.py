@@ -670,7 +670,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
            attrs_mapping=None, styles_mapping=None, hashes=None, pages=1, min_width=MIN_WIDTH,
            keep_floor=KEEP_FLOOR, cal=None, explore=EXPLORE, use_threshold=True,
            max_per_creator=MAX_PER_CREATOR, ranker=None, ranker_name=None, run_id=None,
-           composition=BARE, references_dir=None, log=print):
+           composition=BARE, references_dir=None, deep=False, kind="image", log=print):
     """Walk the terms breadth-first (every term sees page 1 before any sees
     page 2, so a spent budget still covers them all), admitting what the
     metadata alone cannot rule out, then hash, measure and rank each new
@@ -680,9 +680,24 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
     One platform's refusal stops that platform, never the others; a candidate
     below the calibrated threshold is dropped without ever costing a sheet
     cell, bar a deterministic exploration slice that keeps the threshold
-    honest. Returns (written paths, stats)."""
+    honest. Returns (written paths, stats).
+
+    With `deep`, every term is paged to the full `pages` depth: the keep-floor
+    and yield-floor early-stops are ignored, so a term whose page 1 is already
+    in the pool still reaches the new photos on pages 2..N. A term still stops
+    when the platform runs out (a short page) or the per-term cap is met. This
+    trades relevance for volume — the downstream threshold and review still
+    curate — so it is opt-in, off by default.
+
+    `kind="video"` searches the platforms' video APIs instead: a clip's poster
+    frame is what gets hashed, measured and ranked, and the entry carries
+    `kind`, `video` (the mp4) and `duration` for `similar --pool --kind video`."""
     terms, api_keys, missing = _resolve(family, terms, platforms, keys, pool_dir, references_dir,
                                         composition)
+    searchers = stock.SEARCH if kind == "image" else stock.SEARCH_VIDEO
+    for pf in [p for p in api_keys if p not in searchers]:
+        log(f"  {pf}: no {kind} search; skipped")
+    api_keys = {p: k for p, k in api_keys.items() if p in searchers}
     client = client or DirectFetcher(fetch)
     ranker = ranker if ranker is not None else make_ranker(ranker_name, composition=composition, log=log)
     cal = calibration.load() if cal is None else cal
@@ -698,7 +713,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
     orient = orientation or auto
     for pf in missing:
         log(f"  {pf}: {stock.KEYS[pf]} not set; skipped")
-    stats = {"run_id": run_id, "family": family, "ranker": ranker.name, "searched": 0, "raw": 0,
+    stats = {"run_id": run_id, "family": family, "kind": kind, "ranker": ranker.name, "searched": 0, "raw": 0,
              "new": 0, "dropped": 0, "auto_dropped": 0, "moved": 0, "rate_limited": False,
              "orientation": orient, "skipped_platforms": missing,
              "dropped_by": {"corpus": 0, "pool": 0, "threshold": 0, "creator": 0},
@@ -738,13 +753,13 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
             for term in terms:
                 if (platform, term) in done:
                     continue
-                if page > 1 and not deepen(family, term, cal, ranker.name, keep_floor, pages):
+                if page > 1 and not deep and not deepen(family, term, cal, ranker.name, keep_floor, pages):
                     done.add((platform, term))
                     continue
                 try:
-                    photos = stock.SEARCH[platform](term, api_keys[platform], per_page=stock.PER_PAGE[platform],
-                                                    orientation=orient, page=page, min_width=min_width,
-                                                    fetch=client.fetch_for(platform))
+                    photos = searchers[platform](term, api_keys[platform], per_page=stock.PER_PAGE[platform],
+                                                 orientation=orient, page=page, min_width=min_width,
+                                                 fetch=client.fetch_for(platform))
                 except (apiclient.RateLimited, apiclient.BudgetExceeded,
                         apiclient.AuthError, apiclient.Unavailable) as exc:
                     reason = type(exc).__name__.lower()
@@ -777,7 +792,7 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                 # the yield floor judges the admit rate over what was actually
                 # looked at, so stopping at the cap never reads as a bad term
                 if (len(photos) < stock.PER_PAGE[platform] or admitted[(platform, term)] >= limit_per_term
-                        or n_new < YIELD_FLOOR * max(considered, 1)):
+                        or (not deep and n_new < YIELD_FLOOR * max(considered, 1))):
                     done.add((platform, term))
     stats["raw"] = len(raw)
 
@@ -833,6 +848,8 @@ def search(family, terms=None, platforms=stock.PLATFORMS, limit_per_term=30, ori
                  "term": ph["term"], "collected": today, "phash": h, "ranker": ranker.name,
                  "searched_family": family, "composition": composition,
                  "features": features, "score": sc, "nearest": nearest, "state": "pending"}
+        if ph.get("kind") == "video":
+            entry.update(kind="video", video=ph.get("video", ""), duration=ph.get("duration"))
         # Report only families we would actually act on. An indistinct family
         # (floored span) still scores high on anything — advertising it as
         # `best_family` on a sheet asks a reviewer to trust a judgement the
@@ -1167,17 +1184,20 @@ def ingest_labels(family=None, pool_dir=POOL_DIR, keys=None, fetch=stock.fetch_j
     return stats
 
 
-def pick(family, k, seed, exclude_asset=(), aspect_class=None, pool_dir=POOL_DIR):
-    """Up to k kept entries for a brief: aspect-filtered, blind to the run's
-    own assets (an excluded 8-hex id anywhere in the entry drops it), rotated
-    by a seeded shuffle — the same run always sees the same picks, the next
-    run different ones, with nothing written at read time."""
+def pick(family, k, seed, exclude_asset=(), aspect_class=None, pool_dir=POOL_DIR, kind=None):
+    """Up to k kept entries for a brief: aspect-filtered, of one `kind` when
+    asked (a video slot wants clips), blind to the run's own assets (an
+    excluded 8-hex id anywhere in the entry drops it), rotated by a seeded
+    shuffle — the same run always sees the same picks, the next run different
+    ones, with nothing written at read time."""
     ids = list(exclude_asset or [])
     out = []
     for eid, e in sorted(load(family, pool_dir)["entries"].items()):
         if e.get("state") != "kept" or e.get("tier", "pool") != "pool":
             continue
         if aspect_class and e.get("aspect_class") != aspect_class:
+            continue
+        if kind and e.get("kind", "image") != kind:
             continue
         text = " ".join([e.get("url") or "", e.get("image") or "", e.get("drop") or "",
                          *(e.get("nearest") or [])])
@@ -1188,11 +1208,13 @@ def pick(family, k, seed, exclude_asset=(), aspect_class=None, pool_dir=POOL_DIR
     return out[:k]
 
 
-def write_examples(picks, out_dir, download, to_png, pool_dir=POOL_DIR, log=print, start=1):
+def write_examples(picks, out_dir, download, to_png, pool_dir=POOL_DIR, log=print, start=1, grabber=None):
     """One `p<n>-pool.md` plus PNG per pick, beside the corpus excerpts: a
-    licensed look reference with its credit line. The frontmatter carries no
-    corpus asset id, hash, `nearest` list or snapshot/source key, so the
-    manager's blindness check stays clean by construction."""
+    licensed look reference with its credit line. A clip is written as its
+    first/middle/last 3-frame strip when a `grabber` is given (else its
+    poster). The frontmatter carries no corpus asset id, hash, `nearest`
+    list, clip URL or snapshot/source key, so the manager's blindness check
+    stays clean by construction."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
@@ -1200,8 +1222,12 @@ def write_examples(picks, out_dir, download, to_png, pool_dir=POOL_DIR, log=prin
         stem = f"p{n}-pool"
         dest = out_dir / f"{stem}.png"
         local = thumb_path(e["id"], pool_dir)
+        video = e.get("kind") == "video"
         try:
-            if local.exists():
+            if video and grabber is not None and e.get("video"):
+                from .similar import video_strip
+                video_strip(e["video"], dest, grabber, e.get("duration"))
+            elif local.exists():
                 shutil.copyfile(local, dest)
                 to_png(dest)
             else:
@@ -1214,16 +1240,22 @@ def write_examples(picks, out_dir, download, to_png, pool_dir=POOL_DIR, log=prin
         meta = stock.LICENCES[licence]
         required = e.get("attribution_required")
         required = meta["attribution_required"] if required is None else required
-        credit = f"Photo by {e['creator']} on {e['platform']} ({meta['label']}"
+        credit = f"{'Clip' if video else 'Photo'} by {e['creator']} on {e['platform']} ({meta['label']}"
         credit += "; attribution required)" if required else ")"
+        head = ["---", "origin: pool", f"platform: {e['platform']}", f"creator: {e['creator']!r}",
+                f"page: {e['url']}", f"licence: {licence}",
+                f"attribution_required: {str(bool(required)).lower()}", f"local: {dest.name}"]
+        if video:
+            head += ["kind: video", f"duration: {e.get('duration')}"]
+        what = ("A licensed stock clip matching this family's photography, shown as its first, middle and "
+                "last frame." if video else "A licensed stock photograph matching this family's photography.")
         md.write_text("\n".join([
-            "---", "origin: pool", f"platform: {e['platform']}", f"creator: {e['creator']!r}",
-            f"page: {e['url']}", f"licence: {licence}",
-            f"attribution_required: {str(bool(required)).lower()}", f"local: {dest.name}", "---", "",
-            f"A licensed stock photograph matching this family's photography. {credit}.",
-            "Look reference only: read it for finish, light, subject genre and framing. It is never",
-            "uploaded, passed as `imageUrls`, or injected; Picsart's chrome and ground still come",
-            "from the family block.", ""]))
+            *head, "---", "",
+            f"{what} {credit}.",
+            "Look reference only: read it for finish, light, subject genre and framing" +
+            (", and for how the clip moves (what changes across the three frames)." if video else "."),
+            "It is never uploaded, passed as `imageUrls`, or injected; Picsart's chrome and ground still",
+            "come from the family block.", ""]))
         written.append(md)
         log(f"  {md.name}: {e['creator']} on {e['platform']}")
     return written

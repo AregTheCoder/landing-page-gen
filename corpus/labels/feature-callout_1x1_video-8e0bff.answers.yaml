@@ -1,0 +1,144 @@
+1:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: three dark tool tiles with magenta icons, then an editor with a tiger photo and three variations
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: black upload tile on white, then a red Design Tips poster card flips and gets a Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: upload tile in a dropzone card, then a woman filmed outdoors gets subtitles and a Download pill
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: silver-haired woman in a chrome suit, reference panel with Download beside her generated sci-fi clip
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+5:
+  chrome: [arrow]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman lounging on colourful blocks between checkerboard strips with expand arrows, extended into a Design Talks poster
+  family_hint: crop-frame
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: two beach clips side by side, woman in a checked bucket hat holding a coconut, model chips top-left
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: upload tile on white, then a cosmetic tube with a fig on wood, placed into a social post card
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: group selfie of friends between checkerboard strips, extended into a wide Besties Day Vlog thumbnail
+  family_hint: crop-frame
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [prompt-panel, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: prompt panel typing Coffee cupping with Generate, then a dark-wood espresso invitation poster
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: canvas tote printed COOL GIRLS DO PILATES on a red sofa, then cut out onto a checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+  motion_kind: transition
+  camera: static
+11:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: magenta Start Creating button on white, then a woman on a pink chair with a doodle animation
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: dark image tile on black, then a prompt panel and a woman in a pink beanie on a New York street
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static

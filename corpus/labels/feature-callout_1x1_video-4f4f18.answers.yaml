@@ -1,0 +1,144 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  before_after: false
+  description: image-to-video empty state, a black upload tile centered on white ground
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  before_after: false
+  description: image-to-video empty state, a black upload tile centered on white ground
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  before_after: false
+  description: image-to-video empty state, a white upload tile centered on black ground
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: flat-vector
+  before_after: false
+  description: image-to-video empty state, a black upload tile centered on white ground
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [prompt-panel, chip, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: 3d-render
+  before_after: false
+  description: 3D koala sipping coffee in eucalyptus, prompt panel and Generate button below
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: man sitting talking about his vinyl collection, reference thumb and caption overlaid
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: unblur demo, opens on upload tile then reveals two people laughing with a slider and Download pill
+  family_hint: before-after
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in white by the sea, Kling vs Runway video panels labelled with model chips
+  family_hint: vs-two-up
+  confidence: 0.55
+  motion_kind: cut-montage
+  camera: static
+9:
+  chrome: [chip, mockup-card, button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: detox juice bottle on watermelon, AI writer panel then a finished Water Mellow Season social post
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: add-music demo, opens on a music-note tile, track and genre picker, then a bride video with waveform
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: remove-object demo, Start Creating button then a tool panel and a man in a lavender landscape with Download
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: ref-to-video, reference thumb and caption beside a fisheye video of a young man walking by an orange wall
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static

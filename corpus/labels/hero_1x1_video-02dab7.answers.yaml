@@ -1,0 +1,132 @@
+1:
+  chrome: [mockup-card, chip, button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: product
+  art_style: photo
+  description: input/output remix card turning a gemstone ring product photo into the ring worn on a hand
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [play-button]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: abstract
+  art_style: ui-screenshot
+  description: voiceover voice picker UI with Laura, Callum and Chris options each with a play button
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in black catsuit hanging from rigging over desert cliffs, WAN 3.0 tag and reference thumbs
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  description: blank white upload card with a black upload button, subtitle tool intro frame
+  family_hint: other
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [button, slider]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: background changer demo, dancing woman's backdrop swapped from transparent to galaxy via before/after slider
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  motion_kind: transition
+  camera: static
+6:
+  chrome: [play-button]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: forest portrait with a music track picker and equalizer panel overlaid, add-music demo
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: mixed
+  description: text-to-video prompt types a cupcake ad request beside the generated cupcake ad card
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [prompt-panel, button, model-logo, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: Sora text-to-video prompt for an overhead cinematic shot, duration picker, generated person on a rug
+  family_hint: prompt-card
+  confidence: 0.75
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: product-card
+  subject: product
+  art_style: 3d-render
+  description: opens on a blank upload frame, then a blue lipstick "50% off" ad poster with a magenta Download button
+  family_hint: template-mockup
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [brackets]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: green handbag placed into AI backgrounds, home interior with crop brackets, blue street, branded product card
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: cut-montage
+  camera: static
+11:
+  chrome: [model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: smiling woman by ocean waves with leaping dolphins, Gemini Omni x Picsart brand panel
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: golden retriever in a striped robe brushing teeth at a bathroom mirror, Hailuo 3 tag and reference thumbs
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static

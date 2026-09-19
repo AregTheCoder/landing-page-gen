@@ -183,7 +183,62 @@ def unsplash_track_download(download_location, key, fetch=fetch_json):
     fetch(download_location, headers={"Authorization": f"Client-ID {key}", "Accept-Version": "v1"})
 
 
+VIDEO_MIN_PX = 720  # the rendition a pool clip is read at: a 3-frame strip needs no more
+
+
+def _rendition(files, min_px=VIDEO_MIN_PX):
+    """The smallest rendition at least min_px wide, else the largest there is."""
+    wide = sorted((f for f in files if (f.get("width") or 0) >= min_px), key=lambda f: f.get("width") or 0)
+    if wide:
+        return wide[0]
+    return max(files, key=lambda f: f.get("width") or 0) if files else {}
+
+
+def pexels_video_search(term, key, per_page=30, orientation=None, page=1, min_width=0, fetch=fetch_json):
+    """https://api.pexels.com/videos/search, normalised to the pool shape plus
+    `kind: video`, `video` (the mp4 rendition) and `duration`; `image`/`thumb`
+    is the platform's poster, which stands in for the still downstream."""
+    q = {"query": term, "per_page": min(per_page, PER_PAGE["pexels"]), "page": max(1, int(page))}
+    if orientation:
+        q["orientation"] = "square" if orientation == "squarish" else orientation
+    data = fetch(f"https://api.pexels.com/videos/search?{urllib.parse.urlencode(q)}", headers={"Authorization": key})
+    out = []
+    for v in data.get("videos") or []:
+        user = v.get("user") or {}
+        files = [f for f in v.get("video_files") or [] if (f.get("file_type") or "").endswith("mp4")]
+        r = _rendition(files)
+        out.append({"id": f"pexels-v{v['id']}", "url": v.get("url", ""), "image": v.get("image", ""),
+                    "thumb": v.get("image", ""), "video": r.get("link", ""), "duration": v.get("duration"),
+                    "kind": "video", "creator": user.get("name", ""), "creator_url": user.get("url", ""),
+                    "platform": "Pexels", "licence": "pexels", "attribution_required": False,
+                    "width": v.get("width"), "height": v.get("height")})
+    return out
+
+
+def pixabay_video_search(term, key, per_page=200, orientation=None, page=1, min_width=0, fetch=fetch_json):
+    """https://pixabay.com/api/videos/, normalised like `pexels_video_search`.
+    Pixabay's video API has no orientation filter; the pool's aspect prefilter
+    does that work after."""
+    q = {"key": key, "q": term[:100], "safesearch": "true",
+         "per_page": min(max(per_page, 3), PER_PAGE["pixabay"]), "page": max(1, int(page))}
+    if min_width:
+        q["min_width"] = int(min_width)
+    data = fetch(f"https://pixabay.com/api/videos/?{urllib.parse.urlencode(q)}")
+    out = []
+    for h in data.get("hits") or []:
+        vids = h.get("videos") or {}
+        r = _rendition([dict(v, link=v.get("url")) for v in vids.values() if v.get("url")])
+        big = vids.get("large") or vids.get("medium") or {}
+        user, uid = h.get("user", ""), h.get("user_id", "")
+        out.append({"id": f"pixabay-v{h['id']}", "url": h.get("pageURL", ""), "image": r.get("thumbnail", ""),
+                    "thumb": r.get("thumbnail", ""), "video": r.get("link", ""), "duration": h.get("duration"),
+                    "kind": "video", "creator": user,
+                    "creator_url": f"https://pixabay.com/users/{user}-{uid}/" if uid else "",
+                    "platform": "Pixabay", "licence": "pixabay", "attribution_required": False,
+                    "width": big.get("width"), "height": big.get("height")})
+    return out
+
+
 SEARCH = {"pexels": pexels_search, "unsplash": unsplash_search, "pixabay": pixabay_search}
-# phase 2: Pexels /videos/search and Pixabay /api/videos/ hang here, with the
-# poster frame standing in for the still everywhere downstream.
-SEARCH_VIDEO = {}
+# `pool search --kind video`: Unsplash has no video API, so it is skipped there.
+SEARCH_VIDEO = {"pexels": pexels_video_search, "pixabay": pixabay_video_search}

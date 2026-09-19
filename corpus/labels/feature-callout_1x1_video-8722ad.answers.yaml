@@ -1,0 +1,132 @@
+1:
+  chrome: [model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: glossy die-cast toy biplane in peach and mint over blue sky, prompt caption overlay
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: camera-move
+  camera: push-in
+2:
+  chrome: [model-logo, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cowboy on horseback riding across golden prairie at sunset, prompt caption overlay
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+3:
+  chrome: [model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman lounging on pink vintage 1960s sedan in desert, white horse behind
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [chip, size-label, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in green satin suit and sunglasses posing by poolside at night
+  family_hint: full-bleed
+  confidence: 0.9
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome: [play-button, chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: concert crowd under arches with red smoke, music waveform and prompt overlay
+  family_hint: full-bleed
+  confidence: 0.75
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  description: montage of Pixar-style 3d cartoon kids skateboarding through a sunny town
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static
+7:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: montage of astronaut close-up and red Mars landscape shots
+  family_hint: full-bleed
+  confidence: 0.65
+  motion_kind: cut-montage
+  camera: push-in
+8:
+  chrome: [chip, size-label, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: white cake topped with orange on plate under sunny sky, start/end frame chips
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: camera-move
+  camera: push-in
+9:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in white leaping and running through a New York City street, aerial
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static
+10:
+  chrome: [model-logo, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: orange soda bottle dropping into a basketball hoop against blue sky, hands reaching
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+11:
+  chrome: [play-button, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: music-video montage of dancers and man in purple suit in whimsical mushroom set
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static
+12:
+  chrome: [tile, model-logo, chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: glossy 3d retro handheld game console rotating on pink ground
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static

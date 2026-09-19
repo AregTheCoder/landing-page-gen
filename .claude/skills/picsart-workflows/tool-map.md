@@ -18,7 +18,7 @@ day, audio off); re-quote before relying on them.
 | Cutout | `picsart_remove_bg` | `picsart-sod-v8-2` | `image`, `outputFormat: png` | 0 |
 | Upscale / enhance | `picsart_enhance` | `picsart-enhance` (`topaz-upscale-image` for faces) | `image`, `scaleFactor` 2 or 4 | 2 (topaz 3) |
 | Video draft | `picsart_generate` | `seedance-2.0-mini` | `duration` 5, `resolution` 720p, `generateAudio: false`, `async: true` | 10 |
-| Video final (default) | `picsart_generate` | `seedance-2.5` | `duration` 4–30, `resolution` 480p/720p/1080p, `aspectRatio` incl. `adaptive`, `generateAudio: false`, `extra.startFrame` / `extra.endFrame` / `imageUrls` ≤30 | 35 (5 s 720p), 90 (5 s 1080p) |
+| Video final (default) | `picsart_generate` | `seedance-2.5` | `duration` 4–30, `resolution` 480p/720p/1080p, `aspectRatio` incl. `adaptive`, `generateAudio: false`, `extra.startFrame` / `extra.endFrame` / `imageUrls` ≤30 | **7 per second at 720p**: 35 (5 s), 70 (10 s), 140 (20 s), 210 (30 s); `endFrame` adds nothing (quoted 2026-09-19); 90 (5 s 1080p) |
 | Video extend | `picsart_generate` | `seedance-2.5-video-extend` (`seedance-2.0-mini-video-extend` as draft) | `videoUrls` (≤10 clips), `prompt`, `duration` 4–30, `resolution`, `aspectRatio: adaptive`, `generateAudio: false` | 25 (5 s 720p), 75 (15 s 720p); mini 10 (5 s 720p) |
 | Video edit | `picsart_generate` | `seedance-2.5-video-edit` | `videoUrl`, `prompt`, optional `imageUrls` ≤30 refs, `resolution`, `generateAudio: false` | 30 (720p), 66 (1080p) |
 | Reframe video (paid model) | `picsart_generate` | `luma-ray-flash-2-reframe-video` (`luma-ray-2-reframe-video` for quality) | `videoUrl`, `aspectRatio` (16:9 9:16 1:1 4:3 3:4 21:9 9:21), `prompt` | 36 (flash), 99 (ray 2) |

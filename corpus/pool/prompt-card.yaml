@@ -3,13 +3,9 @@ entries:
   pexels-14012409:
     url: https://www.pexels.com/photo/flamingos-on-body-of-water-14012409/
     image: https://images.pexels.com/photos/14012409/pexels-photo-14012409.jpeg
-    thumb: https://images.pexels.com/photos/14012409/pexels-photo-14012409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Quang Nguyen Vinh
-    creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6860
     height: 4576
     aspect_class: '3:2'
@@ -19,28 +15,11 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - e30f27f2
-    - 0aee3bdc
-    - 4484fd93
-    - 531d8853
-    - a4976270
-    - 6ade1f1d
-    - 979c5f9c
-    - '71631159'
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see flamingos in the water.
   pexels-18174667:
     url: https://www.pexels.com/photo/two-standing-flamingos-18174667/
     image: https://images.pexels.com/photos/18174667/pexels-photo-18174667.jpeg
@@ -49,8 +28,6 @@ entries:
     creator_url: https://www.pexels.com/@jesus-mateos-704632565
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5184
     height: 3456
     aspect_class: '3:2'
@@ -82,16 +59,13 @@ entries:
       panel-overlay: 0.108
     best_family: before-after
     explored: true
+    description: In this image we can see two birds. In the background it is blur.
   pexels-207950:
     url: https://www.pexels.com/photo/two-yellow-mugs-tied-together-with-rope-207950/
     image: https://images.pexels.com/photos/207950/pexels-photo-207950.jpeg
-    thumb: https://images.pexels.com/photos/207950/pexels-photo-207950.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Pixabay
-    creator_url: https://www.pexels.com/@pixabay
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6000
     height: 4000
     aspect_class: '3:2'
@@ -101,28 +75,112 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
+    score: 0.067
+    state: dropped
+    best_family: before-after
+    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see two yellow color cups on the wooden surface.
+  pexels-27212302:
+    url: https://www.pexels.com/photo/crossover-technology-27212302/
+    image: https://images.pexels.com/photos/27212302/pexels-photo-27212302.jpeg
+    thumb: https://images.pexels.com/photos/27212302/pexels-photo-27212302.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Yosi Ariyanda
+    creator_url: https://www.pexels.com/@yosi-ariyanda-903002193
+    platform: Pexels
+    licence: pexels
+    width: 2992
+    height: 2992
+    aspect_class: '1:1'
+    term: split screen comparison photo
+    collected: '2026-09-17'
+    phash: 33367bd49233268c
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
     features:
       ground: photo-full-bleed
       layout: single
       panel_count: 1
       before_after: false
-    score: 0.067
+    score: 0.91
     nearest:
-    - 22f9b181
-    - a4976270
+    - f69463de
+    - '79190697'
+    - 3cb59a99
+    - 094ede42
+    - f5818d5f
+    - 0ec598b6
     - f2d9f9ac
-    - '02013450'
-    - b324b63e
-    - b5e0893f
-    - 0cda6c41
-    - f01022a0
-    state: dropped
+    - 6c40c418
+    state: pending
     family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
-    best_family: before-after
-    drop: below calibrated threshold 0.221 (None, 2026-09-16)
+      prompt-card: 0.91
+      dark-composite: 0.85
+      vs-two-up: 0.799
+    best_family: prompt-card
+    moved_from: vs-two-up
+    description: In this image we can see a table. On the table there are mobile phones, keyboard and a device.
+  pexels-28712459:
+    url: https://www.pexels.com/photo/two-smartphones-displaying-realme-and-xiaomi-interfaces-28712459/
+    image: https://images.pexels.com/photos/28712459/pexels-photo-28712459.jpeg
+    creator: Andrey Matveev
+    platform: Pexels
+    licence: pexels
+    width: 4000
+    height: 3000
+    aspect_class: '4:3'
+    term: split screen comparison photo
+    collected: '2026-09-17'
+    phash: d0a466b6939bdaa4
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    score: 0.384
+    state: dropped
+    best_family: prompt-card
+    moved_from: vs-two-up
+    drop: more than 3 from Andrey Matveev this pass
+    description: In this image we can see two mobile phones on the surface.
+  pexels-33453407:
+    url: https://www.pexels.com/photo/side-by-side-comparison-of-smartphone-screens-33453407/
+    image: https://images.pexels.com/photos/33453407/pexels-photo-33453407.jpeg
+    thumb: https://images.pexels.com/photos/33453407/pexels-photo-33453407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+    creator: Andrey Matveev
+    creator_url: https://www.pexels.com/@zeleboba
+    platform: Pexels
+    licence: pexels
+    width: 5824
+    height: 4368
+    aspect_class: '4:3'
+    term: diptych two panels side by side
+    collected: '2026-09-17'
+    phash: e8a4a6b6d2d3d2e4
+    ranker: clip
+    searched_family: vs-two-up
+    composition: layout
+    features:
+      ground: solid-colour
+      layout: single
+      panel_count: 1
+      before_after: false
+    score: 0.569
+    nearest:
+    - '79190697'
+    - f69463de
+    - 3cb59a99
+    - 2cc925c8
+    - f5818d5f
+    - 6c40c418
+    - 0aee3bdc
+    - d4b9cf35
+    state: pending
+    family_scores:
+      prompt-card: 0.569
+      dark-composite: 0.459
+      mockup-card: 0.399
+    best_family: prompt-card
+    moved_from: vs-two-up
+    description: In this image we can see two mobile phones with some text on it.
   pexels-33530060:
     url: https://www.pexels.com/photo/pair-of-flamingos-reflecting-in-tranquil-water-33530060/
     image: https://images.pexels.com/photos/33530060/pexels-photo-33530060.jpeg
@@ -131,8 +189,6 @@ entries:
     creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3964
     height: 3964
     aspect_class: '1:1'
@@ -163,16 +219,13 @@ entries:
       graphic-collage: 0.34
       crop-frame: 0.33
     best_family: before-after
+    description: In this image we can see two birds in the water.
   pexels-33563407:
     url: https://www.pexels.com/photo/elegant-flamingos-wading-in-tranquil-pond-33563407/
     image: https://images.pexels.com/photos/33563407/pexels-photo-33563407.jpeg
-    thumb: https://images.pexels.com/photos/33563407/pexels-photo-33563407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Guerrero De la Luz
-    creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5790
     height: 3860
     aspect_class: '3:2'
@@ -182,38 +235,17 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - '71631159'
-    - e30f27f2
-    - a4976270
-    - 531d8853
-    - 6ade1f1d
-    - 4484fd93
-    - 979c5f9c
-    - fac139f1
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see two birds standing in the water.
   pexels-34871486:
     url: https://www.pexels.com/photo/vibrant-flamingos-standing-near-rocky-background-34871486/
     image: https://images.pexels.com/photos/34871486/pexels-photo-34871486.jpeg
-    thumb: https://images.pexels.com/photos/34871486/pexels-photo-34871486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Becka H
-    creator_url: https://www.pexels.com/@diosajandy
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4496
     height: 3000
     aspect_class: '3:2'
@@ -223,38 +255,17 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - e30f27f2
-    - 0aee3bdc
-    - 7cebda74
-    - fac139f1
-    - '71631159'
-    - 4484fd93
-    - 979c5f9c
-    - 531d8853
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see two flamingos. In the background there is a rock.
   pexels-35729059:
     url: https://www.pexels.com/photo/close-up-of-two-interacting-flamingos-35729059/
     image: https://images.pexels.com/photos/35729059/pexels-photo-35729059.jpeg
-    thumb: https://images.pexels.com/photos/35729059/pexels-photo-35729059.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Optical Chemist
-    creator_url: https://www.pexels.com/@optical-chemist-340351297
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 8256
     height: 5504
     aspect_class: '3:2'
@@ -264,38 +275,17 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: black
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.068
-    nearest:
-    - 4484fd93
-    - 979c5f9c
-    - 7cebda74
-    - 531d8853
-    - 1d3251a6
-    - 0aee3bdc
-    - fca46557
-    - f01022a0
     state: dropped
-    family_scores:
-      vs-two-up: 0.125
-      crop-frame: 0.116
-      panel-overlay: 0.095
     best_family: vs-two-up
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see two birds. The background of the image is blurred.
   pexels-36499546:
     url: https://www.pexels.com/photo/blooming-magnolia-tree-against-clear-blue-sky-36499546/
     image: https://images.pexels.com/photos/36499546/pexels-photo-36499546.jpeg
-    thumb: https://images.pexels.com/photos/36499546/pexels-photo-36499546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Mario Vogt
-    creator_url: https://www.pexels.com/@mario-vogt-2627668
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6048
     height: 4032
     aspect_class: '3:2'
@@ -305,28 +295,11 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - 1d3251a6
-    - 4484fd93
-    - fac139f1
-    - 979c5f9c
-    - 0aee3bdc
-    - 3df4299d
-    - 034a35d6
-    - a4976270
     state: dropped
-    family_scores:
-      vs-two-up: 0.134
-      before-after: 0.123
-      graphic-collage: 0.114
     best_family: vs-two-up
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a tree with flowers. In the background there is sky.
   pexels-37817287:
     url: https://www.pexels.com/photo/pair-of-flamingos-in-natural-habitat-37817287/
     image: https://images.pexels.com/photos/37817287/pexels-photo-37817287.jpeg
@@ -335,8 +308,6 @@ entries:
     creator_url: https://www.pexels.com/@guerrero-de-la-luz-346901328
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2363
     height: 2363
     aspect_class: '1:1'
@@ -367,16 +338,13 @@ entries:
       graphic-collage: 0.34
       crop-frame: 0.33
     best_family: before-after
+    description: In this image we can see two birds in the water.
   pexels-38128934:
     url: https://www.pexels.com/photo/beautiful-pair-of-pink-flamingos-at-zoo-38128934/
     image: https://images.pexels.com/photos/38128934/pexels-photo-38128934.jpeg
-    thumb: https://images.pexels.com/photos/38128934/pexels-photo-38128934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Andreas Berget
-    creator_url: https://www.pexels.com/@fauske
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 5472
     height: 3648
     aspect_class: '3:2'
@@ -386,38 +354,17 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - 0aee3bdc
-    - e30f27f2
-    - 7cebda74
-    - 531d8853
-    - 4484fd93
-    - fac139f1
-    - 979c5f9c
-    - 548dbd95
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see two flamingos on the ground. In the background we can also see a plant.
   pexels-38478464:
     url: https://www.pexels.com/photo/close-up-of-two-pink-flamingos-in-heart-formation-38478464/
     image: https://images.pexels.com/photos/38478464/pexels-photo-38478464.jpeg
-    thumb: https://images.pexels.com/photos/38478464/pexels-photo-38478464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Dominik Rheinheimer
-    creator_url: https://www.pexels.com/@dominikrh
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6960
     height: 4640
     aspect_class: '3:2'
@@ -427,38 +374,38 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - 0aee3bdc
-    - e30f27f2
-    - 4484fd93
-    - 7cebda74
-    - 3df4299d
-    - fac139f1
-    - 531d8853
-    - 979c5f9c
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.118
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see there are three flamingos standing in the water.
+  pexels-39190583:
+    url: https://www.pexels.com/photo/young-professional-standing-in-creative-office-39190583/
+    image: https://images.pexels.com/photos/39190583/pexels-photo-39190583.jpeg
+    creator: Vitaly Gariev
+    platform: Pexels
+    licence: pexels
+    width: 3840
+    height: 2160
+    aspect_class: '16:9'
+    term: man in front of geometric colour wall
+    collected: '2026-09-17'
+    phash: 34315999cfcf8fab
+    ranker: clip
+    searched_family: panel-overlay
+    composition: layout
+    score: 0.481
+    state: dropped
+    best_family: prompt-card
+    moved_from: panel-overlay
+    drop: more than 3 from Vitaly Gariev this pass
+    description: In this image I can see a person wearing grey color jacket and white color t shirt is standing and smiling. In the background I can few other persons, a table, a plant in green color, a clock attached to the wall and the wall is in white, orange, blue and yellow color.
   pexels-7183439:
     url: https://www.pexels.com/photo/a-close-up-shot-of-a-pink-flower-about-to-bloom-7183439/
     image: https://images.pexels.com/photos/7183439/pexels-photo-7183439.jpeg
-    thumb: https://images.pexels.com/photos/7183439/pexels-photo-7183439.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Klumba Seven
-    creator_url: https://www.pexels.com/@klumba7
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3872
     height: 2592
     aspect_class: '3:2'
@@ -468,28 +415,11 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - 4484fd93
-    - 1d3251a6
-    - 034a35d6
-    - fca46557
-    - fc728ce2
-    - 6ade1f1d
-    - 0aee3bdc
-    - 7cebda74
     state: dropped
-    family_scores:
-      vs-two-up: 0.144
-      before-after: 0.123
-      graphic-collage: 0.114
     best_family: vs-two-up
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see a flower with water droplets on it. In the background, we can also see some plants.
   pexels-7267588:
     url: https://www.pexels.com/photo/medals-on-pedestal-on-pink-studio-background-7267588/
     image: https://images.pexels.com/photos/7267588/pexels-photo-7267588.jpeg
@@ -498,8 +428,6 @@ entries:
     creator_url: https://www.pexels.com/@ds-stories
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6216
     height: 4144
     aspect_class: '3:2'
@@ -531,16 +459,13 @@ entries:
       graphic-collage: 0.036
     best_family: vs-two-up
     explored: true
+    description: In this image we can see three golden color medals are placed on the white color blocks.
   pexels-7940623:
     url: https://www.pexels.com/photo/pink-flowers-with-green-leaves-7940623/
     image: https://images.pexels.com/photos/7940623/pexels-photo-7940623.jpeg
-    thumb: https://images.pexels.com/photos/7940623/pexels-photo-7940623.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
     creator: Anastasiia
-    creator_url: https://www.pexels.com/@anastasiia-3888101
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4272
     height: 2848
     aspect_class: '3:2'
@@ -550,25 +475,8 @@ entries:
     ranker: clip
     searched_family: prompt-card
     composition: bare
-    features:
-      ground: photo-full-bleed
-      layout: single
-      panel_count: 1
-      before_after: false
     score: 0.067
-    nearest:
-    - 4484fd93
-    - 034a35d6
-    - 1d3251a6
-    - 0aee3bdc
-    - 7258b3fb
-    - 3df4299d
-    - e30f27f2
-    - fca46557
     state: dropped
-    family_scores:
-      before-after: 0.123
-      graphic-collage: 0.114
-      panel-overlay: 0.108
     best_family: before-after
     drop: below calibrated threshold 0.221 (None, 2026-09-16)
+    description: In this image we can see flowers and leaves.

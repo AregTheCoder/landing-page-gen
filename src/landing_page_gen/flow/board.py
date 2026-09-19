@@ -48,6 +48,15 @@ RECIPES = {
     "cutout-checkerboard": [_IMG, frozenset({"cutout"}), frozenset({"compose"})],
 }
 
+# A video slot's recipe is its poster family's still recipe followed by the two
+# video nodes video-workflows.md plans: a draft on the mini tier, then the
+# final. `recipe_for` keys on the board's `kind:` (inferred for old records).
+_VIDEO = frozenset({"video"})
+VIDEO_TAIL = [_VIDEO, _VIDEO]
+VIDEO_DRAFT_HINT = "mini"   # seedance-2.0-mini (and its -video-extend) is the draft tier
+VIDEO_MAX_SECONDS = 30      # Seedance's `duration` ceiling; a longer target goes through extend
+REF_RE = re.compile(r"^<step (\d+) passed>$")
+
 # Human label for a recipe step-set, so `recipe_row` can render a brief's
 # recipe line from RECIPES itself instead of a hand-typed table that drifts.
 _STEP_LABEL = {
@@ -58,18 +67,33 @@ _STEP_LABEL = {
 }
 
 
-def recipe_row(family):
-    """The family's planned recipe as one line ("generate -> i2i refine ->
-    enhance"), rendered from RECIPES so it always matches what check() enforces.
-    None for a family with no recipe."""
+def recipe_for(family, kind="image"):
     recipe = RECIPES.get(family)
     if not recipe:
         return None
-    parts, imgs = [], 0
+    return recipe + VIDEO_TAIL if kind == "video" else recipe
+
+
+def board_kind(doc):
+    """`kind:` of the board; a record without one is a video board when it has a video node."""
+    return doc.get("kind") or ("video" if any(s["node"] == "video" for s in nodes(doc)) else "image")
+
+
+def recipe_row(family, kind="image"):
+    """The family's planned recipe as one line ("generate -> i2i refine ->
+    enhance"), rendered from RECIPES so it always matches what check() enforces.
+    None for a family with no recipe."""
+    recipe = recipe_for(family, kind)
+    if not recipe:
+        return None
+    parts, imgs, vids = [], 0, 0
     for step in recipe:
         if step == _IMG:
             parts.append("generate" if imgs == 0 else "i2i refine")
             imgs += 1
+        elif step == _VIDEO:
+            parts.append("video draft (mini)" if vids == 0 else "video final")
+            vids += 1
         else:
             parts.append(_STEP_LABEL.get(step, "/".join(sorted(step))))
     return " -> ".join(parts)
@@ -150,7 +174,7 @@ def recipe_problems(doc):
     generate where the plan calls for generate -> i2i refine -> finish) before
     it runs — enforced only when the board names a `family:` in RECIPES."""
     family = doc.get("family")
-    recipe = RECIPES.get(family)
+    recipe = recipe_for(family, board_kind(doc))
     if not recipe:
         return []
     slot = doc.get("slot", "?")
@@ -169,13 +193,62 @@ def recipe_problems(doc):
             continue
         if not any(avail.get(k, 0) > 0 for k in step):
             label = " or ".join(sorted(step))
-            problems.append(f"{slot}: {family} recipe plans a {label} node; board has none")
+            hint = " (a mini draft and a final, video-workflows.md)" if step == _VIDEO else ""
+            problems.append(f"{slot}: {family} recipe plans a {label} node{hint}; board has "
+                            f"{'too few' if step == _VIDEO else 'none'}")
         else:
             for k in step:
                 if avail.get(k, 0) > 0:
                     avail[k] -= 1
                     break
     return problems
+
+
+def video_problems(s, sid, seen, drafted):
+    """The video non-negotiables (video-workflows.md), checked on the yaml: audio
+    off, async, the still (or an earlier clip) wired by `<step N passed>` and
+    named in `in:`, nothing from outside the board, a mini draft before any
+    final, `duration` within Seedance's ceiling. `seen` maps earlier node ids
+    to their kinds; `drafted` says whether a mini video node came before."""
+    p = s.get("params") or {}
+    extra = p.get("extra") or {}
+    out = []
+    if p.get("generateAudio") is not False:
+        out.append(f"{sid}: video node without generateAudio: false")
+    if p.get("async") is not True:
+        out.append(f"{sid}: video node without async: true")
+    if p.get("imageUrls"):
+        out.append(f"{sid}: video node wires imageUrls; references are read for the look, never wired, "
+                   f"and the still enters through extra.startFrame")
+    if (p.get("duration") or 0) > VIDEO_MAX_SECONDS:
+        out.append(f"{sid}: duration {p['duration']} above Seedance's {VIDEO_MAX_SECONDS} s; "
+                   f"reach a longer target through an extend node")
+    if VIDEO_DRAFT_HINT not in (s.get("model") or "") and not drafted:
+        out.append(f"{sid}: {s.get('model')} before a {VIDEO_DRAFT_HINT} draft node; always draft first")
+    refs = {"extra.startFrame": extra.get("startFrame"), "extra.endFrame": extra.get("endFrame"),
+            "params.videoUrl": p.get("videoUrl")}
+    for i, u in enumerate(p.get("videoUrls") or []):
+        refs[f"params.videoUrls[{i}]"] = u
+    fed = False
+    for key, val in refs.items():
+        if not val:
+            continue
+        m = REF_RE.match(str(val))
+        if not m:
+            out.append(f"{sid}: {key} is a literal URL; write `<step N passed>` for the node that made it "
+                       f"(nothing from outside the board enters a video node)")
+            continue
+        n = int(m.group(1))
+        want_video = key.startswith("params.video")
+        if n not in seen or (seen[n] == "video") != want_video:
+            out.append(f"{sid}: {key} names node {n}, which is not an earlier {'video' if want_video else 'still'} node")
+        elif n not in s["in"]:
+            out.append(f"{sid}: {key} names node {n} but in: does not")
+        fed = True
+    if not fed:
+        out.append(f"{sid}: video node with no still (extra.startFrame) or clip (videoUrls) from an earlier node; "
+                   f"text-to-motion is not a recipe")
+    return out
 
 
 def check(doc):
@@ -193,7 +266,7 @@ def check(doc):
     steps = nodes(doc)
     if not steps:
         problems.append(f"{slot}: no nodes between START and END")
-    seen = set()
+    seen, drafted = {}, False
     for s in steps:
         sid = f"{slot} node {s.get('id')}"
         kind = s["node"]
@@ -220,8 +293,11 @@ def check(doc):
                 problems.append(f"{sid}: fed by node {up!r}, which is not an earlier node or start")
         if kind == "image" and s.get("model") != PRO_IMAGE and not (s.get("reason") or "").strip():
             problems.append(f"{sid}: image node on {s.get('model')} without a reason quoting the copy that names it")
+        if kind == "video":
+            problems += video_problems(s, sid, seen, drafted)
+            drafted = drafted or VIDEO_DRAFT_HINT in (s.get("model") or "")
         if s.get("id") is not None:
-            seen.add(s["id"])
+            seen[s["id"]] = kind
     if "final" not in doc:
         problems.append(f"{slot}: no END node (final:)")
     problems += recipe_problems(doc)

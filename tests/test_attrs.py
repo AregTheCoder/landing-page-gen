@@ -30,6 +30,10 @@ class FakeGrabber:
         Image.new("RGB", (16, 9), "green").save(png, format="PNG")
         return png
 
+    def grab_many(self, src, plan):
+        targets = plan(8.4) if callable(plan) else plan
+        return 8.4, [self.grab(src, png, at) for at, png in targets]
+
 
 def build(tmp_path, slugs, monkeypatch):
     monkeypatch.setattr(media, "download", fake_download_factory([]))
@@ -43,9 +47,10 @@ def build(tmp_path, slugs, monkeypatch):
 
 
 def test_vocabulary_covers_every_field_and_the_rules_are_total():
-    asked = set(sheets.SEMANTIC) | set(measure.FIELDS)
+    asked = set(sheets.SEMANTIC) | set(measure.FIELDS) | set(attrs.VIDEO_MEASURED) | set(attrs.VIDEO_SEMANTIC)
     assert asked == set(attrs.FIELDS), "every field is either measured or asked for on a sheet"
     assert set(measure.FIELDS) & set(sheets.SEMANTIC) == set(), "and never both"
+    assert set(attrs.VIDEO_MEASURED) & set(attrs.VIDEO_SEMANTIC) == {"camera"}, "camera: measured when it holds, else asked"
     for name, (values, definition) in attrs.FIELDS.items():
         assert isinstance(values, tuple) or values in ("integer", "number", "boolean", "string"), name
         assert definition and label.check(name, next(iter(values)) if isinstance(values, tuple) else 1)[1] is None
@@ -90,6 +95,25 @@ def test_picture_skips_svg_and_grabs_video_frames(tmp_path, monkeypatch):
     assert len(g.calls) == 1, "the frame is cached"
 
 
+def test_frame_for_prefers_the_designer_poster_and_force_refreshes(tmp_path):
+    clip = tmp_path / "pages" / "x" / "media" / "style-abcd1234.webm"
+    clip.parent.mkdir(parents=True)
+    clip.write_bytes(b"webm")
+    poster_url = "https://pastatic.picsart.com/cms-pastatic/style-poster.png"
+    Image.new("RGB", (1600, 900), "blue").save(clip.parent / media.local_name(poster_url))
+    rec = {"src": VIDEO, "local_path": str(clip), "poster": poster_url, "duration": 8.4}
+    frames, g = tmp_path / "frames", FakeGrabber()
+    png = attrs.frame_for(rec, frames, g)
+    assert png == frames / "style-abcd1234.png" and g.calls == [], "the poster stands in; nothing is grabbed"
+    with Image.open(png) as im:
+        assert im.size == (1280, 720), "downscaled like a grabbed frame, never larger"
+    (clip.parent / media.local_name(poster_url)).unlink()
+    assert attrs.frame_for(rec, frames, g) == png and g.calls == [], "cached"
+    attrs.frame_for(rec, frames, g, refresh=True)
+    assert g.calls == [(str(clip), 1.0)], "no poster on disk any more: --force grabs a real 1 s frame"
+    assert attrs.frame_for({"src": VIDEO, "local_path": str(clip)}, frames, g, refresh=True) == png and len(g.calls) == 2
+
+
 def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypatch):
     con, pages = build(tmp_path, ["comic-book-generator"], monkeypatch)
     yml, frames = tmp_path / "attributes.yaml", tmp_path / "frames"
@@ -105,6 +129,10 @@ def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypa
     assert rec["page"] == "comic-book-generator" and rec["n_rows"] == 1 and rec["type"] == "hero"
     assert not any(f in rec for f in sheets.SEMANTIC), "the pixels answer no semantic field"
     assert saved[VIDEO]["kind"] == "video" and saved[VIDEO]["local"].endswith(".png")
+    assert saved[VIDEO]["duration"] == 8.4 and "duration" not in rec, "a video record keeps its length"
+    video = saved[VIDEO]  # five identical green frames: nothing moves, the frame holds, it loops
+    assert video["pace"] == "still" and video["camera"] == "static" and video["loop"] is True and "pace" not in rec
+    assert (frames / "style-video-f0.png").exists() or any(p.name.endswith("-f4.png") for p in frames.iterdir())
     # a pass writes only what it measured, so a labelling merge that lands
     # while it runs survives its final save, and --force keeps the answers
     labelled = dict(mapping[HERO1], subject="person", art_style="photo", labelled=["art_style", "subject"], source="sheet")
@@ -344,6 +372,26 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
         assert False
     except ValueError:
         pass
+
+
+def test_similar_kind_prefers_clips_and_excerpts_them_as_strips(tmp_path, monkeypatch):
+    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker"], monkeypatch)
+    q = "A prompt becomes a picture"
+    # the fixture's feature-callout carries the video; the hero only images
+    rows = similar.find_similar(con, "feature-callout", q, k=1, exclude="comic-book-generator", kind="video")
+    assert rows and rows[0]["slug"] == "manga-maker"
+    assert similar.find_similar(con, "hero", q, k=1, exclude="comic-book-generator", kind="video") != [], \
+        "no hero has a clip: the kind pass falls through to images rather than returning nothing"
+    con.execute("UPDATE media SET attrs = ? WHERE kind = 'video'",
+                (json.dumps({"duration": 8.4, "pace": "slow", "loop": True, "camera": "static", "motion_kind": "subject-motion"}),))
+    con.commit()
+    out = tmp_path / "ex"
+    similar.write_examples(con, rows, out, log=lambda m: None, grabber=FakeGrabber(), kind="video")
+    md = next(out.glob("*.md")).read_text()
+    assert "kind: video" in md and "duration: 8.4s, pace: slow, loop: true, camera: static, motion_kind: subject-motion" in md
+    strip = next(out.glob("*.png"))
+    with Image.open(strip) as im:
+        assert im.width == 16 * 3 + 4 * 2 and im.height == 9, "first, middle and last frame side by side"
 
 
 def test_styles_derive_keeps_manual_entries():

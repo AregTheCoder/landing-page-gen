@@ -60,6 +60,30 @@ def test_cdn_url_unwraps_next_image_proxy():
         == ["tile", "card", "card", "panel", "wide", None]
 
 
+def test_sectionize_keeps_the_video_poster(tmp_path):
+    con = db.connect(tmp_path / "c.db")
+    d = make_page(tmp_path / "pages", "comic-book-generator", hero_render())
+    from bs4 import BeautifulSoup
+    poster = "https://pastatic.picsart.com/cms-pastatic/style-poster.png"
+
+    def set_poster(**attrs):
+        soup = BeautifulSoup((d / "page.html").read_text(), "html.parser")
+        video = soup.find("video")
+        for k in ("poster", "data-lp-poster"):
+            video.attrs.pop(k, None)
+        video.attrs.update(attrs)
+        (d / "page.html").write_text(str(soup))
+        con.execute("DELETE FROM media"); con.execute("DELETE FROM sections"); con.execute("DELETE FROM pages")
+        sectionize.sectionize_page(d, con, log=lambda m: None)
+        return {r["kind"]: r["poster"] for r in con.execute("SELECT kind, poster FROM media")}
+
+    localised = set_poster(**{"poster": "media/style-poster-1234abcd.png", "data-lp-poster": poster})
+    assert localised["video"] == poster and localised["image"] is None
+    # a poster still pointing at the site (snapshot not yet localised) is kept as served
+    assert set_poster(poster=poster)["video"] == poster
+    assert set_poster()["video"] is None
+
+
 def test_sectionize_types_roles_and_stamps(tmp_path):
     con = db.connect(tmp_path / "c.db")
     d = make_page(tmp_path / "pages", "comic-book-generator", hero_render())
@@ -123,6 +147,7 @@ def test_skeleton_and_slots_json(tmp_path):
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
     assert text.count("> device: TODO none | reference-thumbs") == 5, "one device line per generated-role slot, after text"
     assert text.count("> attrs: none (asset not measured") == 5, "an unmeasured slot says so instead of hiding it"
+    assert text.count("> duration:") == 1 and "> duration: 8  # original 8.4 s" in text, "the video slot names its target length"
     slots = json.loads((out.parent / "slots.json").read_text())
     assert slots["slots"]["S01-m1"]["selector"] == '[data-lp="S01-m1"]'
     assert slots["slots"]["S01-m1"]["style"] is None and slots["slots"]["S01-m1"]["attrs"] is None, "untagged slots say so"

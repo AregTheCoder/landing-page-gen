@@ -197,4 +197,7 @@ def coverage(mapping):
     out = {f: round(sum(1 for r in mapping.values() if r.get(f) is not None) / n, 3) for f in fields}
     out["complete"] = round(sum(1 for r in mapping.values()
                                 if all(r.get(f) is not None for f in fields)) / n, 3)
+    videos = [r for r in mapping.values() if r.get("kind") == "video"]
+    for f in attrs.VIDEO_SEMANTIC:  # over the videos only: an image never answers them
+        out[f] = round(sum(1 for r in videos if r.get(f) is not None) / (len(videos) or 1), 3)
     return out

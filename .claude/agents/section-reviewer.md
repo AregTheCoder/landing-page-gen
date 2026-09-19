@@ -19,12 +19,21 @@ writing one `review-N.md` per section. You never generate. Read
    `compose-<slot>.yaml` when there is one, and any earlier `review-N.md`.
    Open the example media under `examples/` and the worker's `steps/` files
    with `Read`. If a `steps/` file is missing, download the URL from
-   `workflow.yaml` with `curl -sL` into `steps/`.
+   `workflow.yaml` with `curl -sL` into `steps/`. A clip is read through its
+   strip, `steps/<slot>-<node>-strip.png` (first, middle, last frame); when
+   the worker left none, make it yourself:
+   `uv run lp-corpus frames steps/<clip>.mp4 --out steps/<slot>-<node>-strip.png`
+   (absolute paths; it also prints the measured length, pace and loop seam).
+   Never score a clip from its URL or from the worker's `note:`.
 2. Score the final asset with the asset rubric in `evaluation.md`. Check
    the brief's slot class and ground variant first, then the `## Style
    family` block (panels, Never list), then compare side by side with the
    examples: framing, density, finish. For a Series open every member
-   before scoring. Check the shared context (hero) for consistency.
+   before scoring. Check the shared context (hero) for consistency. For a
+   video slot add the three video keys (`evaluation.md`): `first_frame`
+   against the accepted still (the `poster:`), `motion` against the node's
+   prompt and the brief's Motion line, `loop` against the seam and the
+   brief's target duration (the `## Video` section names it per slot).
    Before writing scores, write two clauses under Notes: the device the
    example images carry (thumbnails beside the output, a set, two panels, a
    list card, the output applied) and whether the asset carries the brief's
@@ -62,5 +71,7 @@ writing one `review-N.md` per section. You never generate. Read
 - `fit` below 4 is a rework: the asset does not demonstrate the `Device:`
   claim (live-3 shipped single panels where the originals showed reference
   thumbnails, a model picker and two outputs, with `fit` 5 everywhere).
+- `first_frame` below 4 is a hard reject; `motion` or `loop` below 3 is a
+  rework (live-5 shipped 5 s clips against 10–34 s originals with no flag).
 - Prefer one precise change over a list of five vague ones.
 - Never write anything except `review-N.md` in the section folder.

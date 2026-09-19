@@ -1,0 +1,144 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: black upload-a-photo frame, then a hand holds a photo-printed mug, then a printed poster
+  family_hint: mockup-card
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: fisheye selfie of a pink-haired person in sunglasses swooping over a city rooftop
+  family_hint: full-bleed
+  confidence: 0.8
+  motion_kind: camera-move
+  camera: handheld
+3:
+  chrome: [chip, model-logo, tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  before_after: false
+  description: giant amber sunglasses reflecting a glass skyline over chrome, model chips below
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: camera-move
+  camera: push-in
+4:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: black start-creating frame, a magenta tool-tile grid, then a woman in a chair with a download button
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: black download tile, then a couple embracing, then the portrait dimmed with a magenta download button
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: cinematic astronaut dining by a window onto Mars, model chips below, compare-models sample
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome: [chip, model-logo, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  before_after: false
+  description: Pixar-style blue monster on a grassy mound and a man biking a city street, model chips below
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+8:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: true
+  description: black start frame, a prompt panel to change a sign, then an edited casino sign with download
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [mockup-card, play-button]
+  text_in_image: headline
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  before_after: false
+  description: a music-generator card with an electropop track beside a woman filming a summer reel
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [chip, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: a canvas tote bag with a red origami-bird print on grass, an audio waveform added below
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [mockup-card, slider]
+  text_in_image: headline
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: a video editor timeline, a man pointing up, an audio clip selected, then a yellow headline added
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [chip, model-logo, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: low-angle rooftop portrait of a man in green among skyscrapers, model chips and audio bar below
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static

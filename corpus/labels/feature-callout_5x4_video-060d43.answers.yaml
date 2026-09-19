@@ -1,0 +1,108 @@
+1:
+  chrome: [tile, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  before_after: false
+  description: tile column with street photos beside a vertical social video of a woman with an iced drink
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: two AI tool tiles and stills beside a cinematic barn scene with a vintage red car
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static
+3:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: three portrait clips arranged in a collage grid on black with a Collage chip over them
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: a man seated on a chair against a pink backdrop, a Blur chip over him
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: genre list card and two character portraits beside a Japanese fruit-shop street scene
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+6:
+  chrome: [tile, chip, prompt-panel]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: audio tile, mp3 chip, waveform and prompt card beside a woman in red talking into a mic
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: push-in
+7:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: audio and image tiles with a waveform row beside a blonde woman in a suit on a city street
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+8:
+  chrome: [tile, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: audio tile, waveform and Generate button beside a man in a red varsity jacket on red
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+9:
+  chrome: [tile, slider, button]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: audio tile, waveform, CFG slider and Generate button beside a woman in a side plank lifting a dumbbell
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static

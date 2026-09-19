@@ -1,0 +1,144 @@
+1:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: hooded man plays a handpan drum in a rainy forest, audio waveform bar below
+  family_hint: full-bleed
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: [mockup-card, badge]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: cosmetic tube on a green podium template card, headline fades in over purple ground
+  family_hint: template-mockup
+  confidence: 0.75
+  motion_kind: transition
+  camera: static
+3:
+  chrome: [tile, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: 3d-render
+  before_after: false
+  description: claw machine grabs a cosmetic tube against clouds, reference thumbs and model logo in left column
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [pill, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: perfume bottle with pink peonies under blue sky, Veo 3.1 model pill
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+5:
+  chrome: [prompt-panel, chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: prompt card beside a cinematic jungle explorer clip, Multi-shot and 16:9 chips
+  family_hint: prompt-card
+  confidence: 0.85
+  motion_kind: cut-montage
+  camera: static
+6:
+  chrome: [pill, play-button, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: grid of model clips labelled Kling 3.0 Omni, Veo 3.1 and Runway, tropical portrait first
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+7:
+  chrome: [prompt-panel, button]
+  text_in_image: none
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  before_after: false
+  description: blank prompt card with Generate button beside a dewy dandelion photo, prompt types in
+  family_hint: prompt-card
+  confidence: 0.85
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [prompt-panel, button, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: prompt card typing a hand-with-rings prompt, model picker with Sora checked, result appears
+  family_hint: prompt-card
+  confidence: 0.85
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [pill, play-button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: painterly-illustration
+  before_after: false
+  description: woman in pink dress with a giant swan in a painted garden, Luma Ray 2 and Kling 3.0 model pills
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+10:
+  chrome: [prompt-panel, chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: anime-cartoon
+  before_after: false
+  description: anime girl drinking matcha on a beach, prompt card with reference thumbs and WAN 2.7 chip
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: static
+11:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: object
+  art_style: photo
+  before_after: false
+  description: prompt card typing a workspace prompt beside a laptop-and-latte flat lay photo
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: black upload frame becomes a boucle chair ad with CLOUGY COMFORT headline and download button
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static

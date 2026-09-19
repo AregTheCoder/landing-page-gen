@@ -1,0 +1,31 @@
+sheet: hero_black_single-b48cc0
+group:
+  type: hero
+  ground: black
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_black_single-b48cc0.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/1602a6dd-d39b-4961-82f2-e6940c22a852.png
+    asset: 1602a6dd
+    page: png-logo-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

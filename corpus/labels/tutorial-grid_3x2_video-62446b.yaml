@@ -1,0 +1,33 @@
+sheet: tutorial-grid_3x2_video-62446b
+group:
+  type: tutorial-grid
+  ground: '3:2'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: tutorial-grid_3x2_video-62446b.answers.yaml
+cells:
+  1:
+    src: https://www.youtube.com/watch?v=YNoK_ScWeMM
+    asset: watch
+    page: ai-marketing-studio
+    slot: S12-m6
+    type: tutorial-grid
+    size: card
+    aspect_class: '3:2'
+    kind: video
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

@@ -1,0 +1,144 @@
+1:
+  chrome: [prompt-panel, button]
+  text_in_image: headline
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: prompt panel typing an Alps prompt beside a vertical winter-mountain clip titled Winter in the Alps
+  family_hint: prompt-card
+  confidence: 0.75
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: photo
+  before_after: false
+  description: video-editor tool-tile column beside a cloth bag on seaside rocks, headline Light as air appears later
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: two stacked cinematic clips compared, Kling 3.0 desert scene over a Seedance 2.5 astronaut shot
+  family_hint: vs-two-up
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [prompt-panel, chip, play-button, slider]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  before_after: false
+  description: music-player card with French lyrics and genre chips beside a person lying on a red heart cloud
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [prompt-panel, button, chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  before_after: false
+  description: prompt panel typing a cake-scene prompt beside a vertical clip of tiny workers on a pink cake
+  family_hint: prompt-card
+  confidence: 0.85
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [adjust-panel, badge, slider]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: cyberpunk man portrait with a language-dubbing panel and audio waveform laid over it
+  family_hint: panel-overlay
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: add-text-to-video demo, upload icon then a runner on dunes with headline Keep Moving Forward and a Download button
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [play-button, slider]
+  text_in_image: none
+  ui_mockup: none
+  subject: illustration
+  art_style: 3d-render
+  before_after: false
+  description: a knitted purple monster character picks flowers in a meadow, video scrubber along the bottom
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: push-in
+9:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: compared model clips of a woman floating in water with rubber ducks and a breaching orca, Seedance 2.0 and Runway Gen 4 chips
+  family_hint: vs-two-up
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  before_after: false
+  description: ai-gif of a black cat playing saxophone, then dropped as a GIF into a purple chat mockup
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [prompt-panel]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: cinematic fashion film of people in a surreal giant-mushroom meadow with a prompt caption panel
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: camera-move
+  camera: pull-back
+12:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  before_after: false
+  description: background-remover demo, upload icon then a cake cutout on checkerboard then a purple Too Sweet To Skip order card
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static

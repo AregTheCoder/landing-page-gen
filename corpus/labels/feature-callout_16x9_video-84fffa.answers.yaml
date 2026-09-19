@@ -1,0 +1,55 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: montage of skydiver over NYC skyline then aerial city, ending on Picsart logo card
+  family_hint: full-bleed
+  confidence: 0.8
+  motion_kind: cut-montage
+  camera: static
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  description: cinematic tribal warriors and creatures charging through golden sunlit dust, motion-blurred
+  family_hint: full-bleed
+  confidence: 0.75
+  motion_kind: camera-move
+  camera: push-in
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: story montage, worried man on rooftop then underwater game scene, ending on Picsart logo
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static
+4:
+  chrome: [tile, button]
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: ui-screenshot
+  description: Picsart Flow node board, New hoodie collection, connected image nodes of a person, Share button
+  family_hint: editor-canvas
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [tile, cursor]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: product
+  art_style: ui-screenshot
+  description: Flow editor canvas on black, image card of hand holding serum bottle, toolbar and cursor
+  family_hint: editor-canvas
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static

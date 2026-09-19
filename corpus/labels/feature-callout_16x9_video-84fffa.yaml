@@ -1,0 +1,104 @@
+sheet: feature-callout_16x9_video-84fffa
+group:
+  type: feature-callout
+  ground: '16:9'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_16x9_video-84fffa.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0accb81d-bd9c-4ad1-ace9-e102c7b2942e.webm
+    asset: 0accb81d
+    page: aura
+    slot: S07-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 53.98
+    motion: 0.2487
+    pace: fast
+    loop: false
+    loop_seam: 0.474
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1b8910f2-8bc3-4950-9a14-6e3a59ab8367.webm
+    asset: 1b8910f2
+    page: home
+    slot: S14-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 38.07
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4931b4ca-8d85-4ca3-968b-5aa0c2a76bc0.webm
+    asset: 4931b4ca
+    page: ai-story-generator
+    slot: S05-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 50.82
+    motion: 0.2246
+    pace: fast
+    loop: false
+    loop_seam: 0.485
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/600d53ae-8434-439b-ac47-0aa637fe1ee7.mp4
+    asset: 600d53ae
+    page: flow
+    slot: S08-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b6f634bb-c1a6-455a-a877-3960d96ed9f8.mp4
+    asset: b6f634bb
+    page: flow
+    slot: S05-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 2
+    before_after: false

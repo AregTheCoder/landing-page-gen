@@ -1,0 +1,94 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on white, then a desert-runner motivational poster with headline, then a Download button
+  family_hint: template-mockup
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Start Creating button on white, then a phone-framed clip with 1080 chips, then two women in a field with Download
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [model-logo, vs-badge, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: WAN 2.7 reference thumbs and result versus a Kling 3.0 white card with a cloud scene, VS badge between
+  family_hint: vs-two-up
+  confidence: 0.9
+  motion_kind: cut-montage
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: icon tile on black, then a printer tile, then a hand holding a butter-yellow invitation card on grass
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on black, then a Send to print button, then a person in a pink beanie and printed tee on red
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [tile, model-logo]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: giant woman in a pink star fur coat among ruined towers, model tile and two reference thumbs below
+  family_hint: dark-composite
+  confidence: 0.8
+  motion_kind: camera-move
+  camera: push-in
+7:
+  chrome: [prompt-panel, mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  before_after: false
+  description: meme card of a smiling sloth with coffee at a desk, caption on top, teal prompt bubble over a checker patch
+  family_hint: prompt-card
+  confidence: 0.7
+8:
+  chrome: [chip, model-logo, vs-badge]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: split compare, Seedance 2.0 alien under a UFO versus Veo 3.1 close-up of a frightened red-haired woman
+  family_hint: vs-two-up
+  confidence: 0.9
+  motion_kind: subject-motion
+  camera: static

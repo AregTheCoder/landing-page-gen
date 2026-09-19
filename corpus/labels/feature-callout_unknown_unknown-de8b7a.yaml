@@ -1,0 +1,31 @@
+sheet: feature-callout_unknown_unknown-de8b7a
+group:
+  type: feature-callout
+  ground: unknown
+  layout: unknown
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_unknown_unknown-de8b7a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4c424512-5d0f-476d-83e0-f0a0823d1d6a.avif
+    asset: 4c424512
+    page: ai-logo-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    before_after: false

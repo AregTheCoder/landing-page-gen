@@ -16,7 +16,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "mcp__.*__picsart_(generate|enhance|remove_bg|change_bg|vectorize)$",
+        "matcher": "mcp__.*__picsart_(generate|enhance|remove_bg|change_bg|vectorize|media_video_render|media_export|media_video_create)$",
         "hooks": [
           {
             "type": "command",
@@ -31,7 +31,7 @@
     ],
     "PostToolUse": [
       {
-        "matcher": "mcp__.*__picsart_(preflight|generate|enhance|remove_bg|change_bg|vectorize)$",
+        "matcher": "mcp__.*__picsart_(preflight|generate|enhance|remove_bg|change_bg|vectorize|job_status|media_video_render|media_export|media_video_create)$",
         "hooks": [
           {
             "type": "command",

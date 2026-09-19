@@ -1,0 +1,261 @@
+sheet: feature-callout_1x1_video-8e0bff
+group:
+  type: feature-callout
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- before_after
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_1x1_video-8e0bff.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c21d8c19-911f-44c3-9c27-5e4fff0eee1d.webm
+    asset: c21d8c19
+    page: variation-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+    duration: 71.22
+    motion: 0.1179
+    pace: fast
+    loop: false
+    loop_seam: 0.847
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c28169b0-94a8-42a6-96b9-3a729599bf9b.webm
+    asset: c28169b0
+    page: flip-video
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.46
+    motion: 0.0944
+    pace: medium
+    loop: false
+    loop_seam: 0.706
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c3a2fd90-aade-4331-8f77-d264241f1855.webm
+    asset: c3a2fd90
+    page: add-subtitles-to-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    duration: 15.05
+    motion: 0.11
+    pace: fast
+    loop: false
+    loop_seam: 0.647
+    camera: static
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c87dbde2-b0a9-4d5f-ab3c-2e9d0d4184a5.webm
+    asset: c87dbde2
+    page: persona
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.08
+    motion: 0.083
+    pace: medium
+    loop: true
+    loop_seam: 0.909
+    camera: static
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c958bace-e135-40bc-b50c-4f9be0cd5717.webm
+    asset: c958bace
+    page: ai-image-extender
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.83
+    motion: 0.2456
+    pace: fast
+    loop: false
+    loop_seam: 0.534
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cd425145-8099-4846-81f0-1aab866aa8ac.webm
+    asset: cd425145
+    page: compare-models--luma-ray-2-vs-kling-3-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 5.0
+    motion: 0.0808
+    pace: medium
+    loop: false
+    loop_seam: 0.87
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d67a036a-8a91-48c6-b118-f67722715a30.webm
+    asset: d67a036a
+    page: background-remover--green-screen
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    duration: 7.53
+    motion: 0.1361
+    pace: fast
+    loop: false
+    loop_seam: 0.625
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d7d30fac-1969-414a-8e94-657bf84c8ee6.webm
+    asset: d7d30fac
+    page: ai-image-extender
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.07
+    motion: 0.1759
+    pace: fast
+    loop: false
+    loop_seam: 0.668
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d8c6b11f-0dd7-456f-83e0-99ccef58b040.webm
+    asset: d8c6b11f
+    page: design--invitations
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    duration: 12.62
+    motion: 0.2133
+    pace: fast
+    loop: false
+    loop_seam: 0.543
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d954492c-0a40-4725-b820-402301d80e81.webm
+    asset: d954492c
+    page: background-remover--transparent-background-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    duration: 5.03
+    motion: 0.0735
+    pace: medium
+    loop: false
+    loop_seam: 0.823
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9d9c624-ebe4-464a-bd88-b1c85076ce6e.webm
+    asset: d9d9c624
+    page: ai-gif-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.93
+    motion: 0.1092
+    pace: fast
+    loop: false
+    loop_seam: 0.642
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/db8ca5f4-11bd-46a5-a7e8-04d03d29edfa.webm
+    asset: db8ca5f4
+    page: ai-photo-editing
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.83
+    motion: 0.2323
+    pace: fast
+    loop: false
+    loop_seam: 0.821

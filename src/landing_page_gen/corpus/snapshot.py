@@ -116,7 +116,11 @@ class Renderer:
         self._pw.stop()
 
     def render(self, url, png_path):
-        """Full-page screenshot plus the rendered geometry of every media node."""
+        """Full-page screenshot, the rendered geometry of every media node, the
+        hydrated DOM (the snapshot's HTML source now that the pages stream their
+        content as RSC script payloads, not server-rendered markup), and the
+        final URL (a client-side redirect to /not-found/ is how a dead route
+        shows up in the browser). Returns (geometry, html, final_url)."""
         ctx = self._browser.new_context(viewport=VIEWPORT, reduced_motion="reduce", user_agent=UA_BROWSER)
         try:
             page = ctx.new_page()
@@ -149,10 +153,12 @@ class Renderer:
             height = page.evaluate("document.body.scrollHeight")
         page.wait_for_timeout(800)
         geometry = page.evaluate(GEOMETRY_JS)
+        html = page.content()          # the hydrated DOM, fully scrolled and settled
+        final_url = page.url
         page.evaluate("window.scrollTo(0,0)")
         page.wait_for_timeout(500)
         page.screenshot(path=str(png_path), full_page=True)
-        return geometry
+        return geometry, html, final_url
 
 
 def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print, localise=True):
@@ -166,7 +172,14 @@ def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print, l
     out = Path(pages_dir) / slug
     out.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
-    raw = fetch_html(url)
+    # The pages stream their content as RSC script payloads with an all-but-empty
+    # server body, so the snapshot's HTML comes from the hydrated browser DOM when
+    # a renderer is given; urllib is the (RSC-blind) fallback for --no-render.
+    geometry = final_url = None
+    if renderer is not None:
+        geometry, raw, final_url = renderer.render(url, out / "page.png")
+    else:
+        raw = fetch_html(url)
     (out / "raw.html").write_text(raw)
     soup = reassemble(raw)
     title = soup.title.get_text(strip=True) if soup.title else ""
@@ -175,21 +188,23 @@ def save_page(url, pages_dir=PAGES_DIR, renderer=None, family=None, log=print, l
         "family": family or discover.classify(urllib.parse.urlsplit(url).path),
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
-    if soup.body is None or len(soup.body.get_text(strip=True)) < 200:
-        # Some paths serve the client-side app shell (title "Picsart", a few
-        # KB, no server-rendered text). Record it so fetch does not retry;
-        # no snapshot. Pages without <main> but with content are sectionized
-        # from <body>.
+    dead = bool(final_url) and "/not-found" in urllib.parse.urlsplit(final_url).path
+    if soup.body is None or len(soup.body.get_text(strip=True)) < 200 or dead:
+        # A shell: no real text in the markup (an app-shell path) or a dead route
+        # that client-redirects to /not-found/. Record it so fetch does not retry;
+        # no snapshot, and no misleading page.png of the not-found page.
         meta["shell"] = True
         (out / "meta.json").write_text(json.dumps(meta, indent=1))
-        log(f"skipped {slug}: app shell, no server-rendered text ({len(raw) // 1024} KB)")
+        why = "redirected to /not-found/" if dead else "no server-rendered text"
+        log(f"skipped {slug}: app shell, {why} ({len(raw) // 1024} KB)")
+        if renderer is not None:
+            (out / "page.png").unlink(missing_ok=True)
         return out
     snapshot_html(soup)
     if localise:
         meta["media"] = media.localise_html(soup, out / "media", log=log)
     (out / "page.html").write_text(str(soup))
-    if renderer is not None:
-        geometry = renderer.render(url, out / "page.png")
+    if geometry is not None:
         (out / "render.json").write_text(json.dumps(geometry, indent=1))
         meta["rendered"] = True
     (out / "meta.json").write_text(json.dumps(meta, indent=1))

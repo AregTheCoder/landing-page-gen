@@ -1,0 +1,132 @@
+1:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cinematic AI-video montage, girl in an ornate room first, Seedance model badge
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+2:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: Veo vs Kling multi-shot video comparison, arch, sneakers-on-hand and stone-face clips
+  family_hint: vs-two-up
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+3:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: upload tile opens, prompt recolours socks yellow and sandals orange, Download
+  family_hint: prompt-card
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: upload tile then woman reading on couch gets a Yuto Mori name caption added, Download
+  family_hint: full-bleed
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: 3d-render
+  description: prompt panel generates a Pixar-style travel-vlogger character across several scenes
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman on a running track edited in a video timeline, Hurray caption appears
+  family_hint: full-bleed
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: portrait fashion video beside black Instagram, TikTok, Facebook export tiles on cream ground
+  family_hint: full-bleed
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  description: upload tile then grid of lamp cutouts on dark checkerboard, Download
+  family_hint: cutout-checkerboard
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  description: Sora 2 cartoon monster beside Veo 3.1 astronaut, duration and credit chips
+  family_hint: vs-two-up
+  confidence: 0.75
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: upload tile then girl in a field with a Harmony script caption, shown as an Instagram post
+  family_hint: full-bleed
+  confidence: 0.3
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [model-logo, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: full-bleed fashion video of a woman by a Paris fence with a model-picker list and reference thumb
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [prompt-panel, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt "a man dances with a flamingo" generates a man dancing beside a giant pink flamingo
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static

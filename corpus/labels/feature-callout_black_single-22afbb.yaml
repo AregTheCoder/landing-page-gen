@@ -1,0 +1,31 @@
+sheet: feature-callout_black_single-22afbb
+group:
+  type: feature-callout
+  ground: black
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_single-22afbb.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/0cc719d2-f26f-48c4-9e14-c86b932867aa.avif
+    asset: 0cc719d2
+    page: ai-models--recraft-v4-styles-pro
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false

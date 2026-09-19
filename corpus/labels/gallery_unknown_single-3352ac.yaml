@@ -1,0 +1,185 @@
+sheet: gallery_unknown_single-3352ac
+group:
+  type: gallery
+  ground: unknown
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- ground
+- subject
+- text_in_image
+- ui_mockup
+answers: gallery_unknown_single-3352ac.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/041c7d23-c14e-4875-b038-cf196a2e5165.webp
+    asset: 041c7d23
+    page: ai-image-extender
+    slot: S02-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    layout: single
+    panel_count: 0
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1383c91a-6894-4a0c-9a46-3089011f69eb.webp
+    asset: 1383c91a
+    page: ad-maker
+    slot: S09-m6
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/16491b64-9be6-4048-a7db-8b7654a55def.png
+    asset: 16491b64
+    page: ai-video-avatar
+    slot: S02-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1b7381fb-4569-449d-ab96-39e88b8b9f33.webp
+    asset: 1b7381fb
+    page: ad-maker
+    slot: S09-m8
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d2b0270-51a6-4329-ab51-0841724ed9b1.webp
+    asset: 1d2b0270
+    page: ad-maker
+    slot: S09-m9
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6957048b-158c-4ef1-ae5c-7b2bffd4c297.webp
+    asset: 6957048b
+    page: ad-maker
+    slot: S09-m5
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/709fbb3c-d2fb-4897-bc5c-e12b958548ef.webp
+    asset: 709fbb3c
+    page: ad-maker
+    slot: S09-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7d4e9ae7-c8ab-4ec0-8ce1-94770e2cec08.webp
+    asset: 7d4e9ae7
+    page: ai-image-extender
+    slot: S02-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    layout: single
+    panel_count: 0
+    before_after: false
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7d6fa6ff-292a-4061-8924-72af14d5b5a4.webp
+    asset: 7d6fa6ff
+    page: ad-maker
+    slot: S09-m10
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+  10:
+    src: https://cdn130.picsart.com/47285095719821756583.png
+    asset: '47285095'
+    page: add-stickers-to-photos
+    slot: S07-m2
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: single
+    panel_count: 0
+    before_after: false
+  11:
+    src: https://cdn130.picsart.com/49796878310296543626.png
+    asset: '49796878'
+    page: add-stickers-to-photos
+    slot: S07-m5
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: single
+    panel_count: 0
+    before_after: false
+  12:
+    src: https://cdn130.picsart.com/63805377597830460503.png
+    asset: '63805377'
+    page: add-stickers-to-photos
+    slot: S07-m4
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: single
+    panel_count: 0
+    before_after: false

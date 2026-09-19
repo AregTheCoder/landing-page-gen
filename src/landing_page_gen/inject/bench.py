@@ -1,28 +1,34 @@
 """lp-bench: score a run's generated media against the originals they replaced.
 
-For every `dist/media/gen/<slot>.png` that lp-inject wrote, pair it with the
-original named in slots.json and measure both the same way the corpus does
-(`corpus.measure`): ground colour, lightness and saturation from the border
-ring, subject coverage and bounding box from the background mask, mean
+For every `dist/media/gen/<slot>.<png|mp4|webm>` that lp-inject wrote, pair it
+with the original named in slots.json and measure both the same way the corpus
+does (`corpus.measure`): ground colour, lightness and saturation from the
+border ring, subject coverage and bounding box from the background mask, mean
 picture saturation, the style family the rule table derives, and for
-composites the number of picture panels (a proxy for the device). Writes
-runs/<run>/benchmark.md: one row per slot, means per section and page, and a
-flag list keyed to the review rubric (resemblance, geometry, fit), so the
-report's "Against the original" rests on numbers before anyone opens an original."""
+composites the number of picture panels (a proxy for the device). A clip is
+measured on its first frame, plus its length and loop seam against the
+original's (`corpus.motion`). Writes runs/<run>/benchmark.md: one row per
+slot, means per section and page, and a flag list keyed to the review rubric
+(resemblance, geometry, fit, duration, loop), so the report's "Against the
+original" rests on numbers before anyone opens an original."""
 
 import argparse
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 import numpy as np
 from PIL import Image
 
-from ..corpus import attrs, measure, sectionize, taxonomy
+from ..corpus import attrs, measure, motion, sectionize, taxonomy
+from ..corpus.similar import FrameGrabber
 
 COVERAGE_DELTA = 0.25  # subject share of the picture; more than this and the crop or scale is off
 LIGHT_DELTA = 0.3      # ground lightness; more than this and the ground convention changed
 METRICS = ("coverage", "ground_l", "ground_sat", "pic_sat")
+VIDEO_SUFFIXES = (".mp4", ".webm")
+DURATION_BAND = (0.9, 1.1)  # generated / original length outside this is a [duration] flag
 PICTURE_DARK = 0.12    # lightness below which a pixel is the card, a gutter or a #1c1c1e tile
 PICTURE_LIGHT = 0.9    # lightness above which a low-spread pixel is white chrome or the page
 PICTURE_MIN_AREA = 0.02  # share of the picture a region needs to count as a panel
@@ -85,6 +91,13 @@ def stats(path):
             "pic_sat": round(pic_sat, 2), "pictures": pictures(path)}
 
 
+def video_stats(path, grabber, tmp):
+    """(duration, first frame path, motion fields) of a clip, its five sample
+    frames grabbed into `tmp`."""
+    duration, frames = motion.probe(path, grabber, tmp, Path(path).stem)
+    return duration, frames[0], motion.measure(frames)
+
+
 def family(fields, typ, aspect_class):
     return taxonomy.style_label(*taxonomy.family_of({**fields, "type": typ, "aspect_class": aspect_class})) or "unresolved"
 
@@ -92,6 +105,12 @@ def family(fields, typ, aspect_class):
 def flags(row):
     o, g, out = row["orig"], row["gen"], []
     tag = f"{row['slot']} ({row['type']})"
+    if row.get("video"):
+        v = row["video"]
+        if v["orig_s"] and v["gen_s"] and not DURATION_BAND[0] <= v["gen_s"] / v["orig_s"] <= DURATION_BAND[1]:
+            out.append(f"{tag}: duration {v['orig_s']:.1f} s -> {v['gen_s']:.1f} s [duration]")
+        if v["orig_loop"] and not v["gen_loop"]:
+            out.append(f"{tag}: loop seam {v['orig_seam']:.2f} -> {v['gen_seam']:.2f}, the original loops and this does not [loop]")
     if row["orig_family"] != row["gen_family"]:
         out.append(f"{tag}: family {row['orig_family']} -> {row['gen_family']} [resemblance]")
     if abs(g["coverage"] - o["coverage"]) > COVERAGE_DELTA:
@@ -123,23 +142,34 @@ def bench(run, attrs_path=attrs.ATTRIBUTES_YAML):
     meta = json.loads((run / "slots.json").read_text())
     known = attrs.load(attrs_path) if Path(attrs_path).exists() else {}
     rows, skipped = [], []
-    for gen in sorted((run / "dist" / "media" / "gen").glob("*.png")):
-        slot = gen.stem
-        if slot.endswith("-placeholder") or slot not in meta["slots"]:
-            continue
-        s = meta["slots"][slot]
-        typ = meta["sections"][slot.split("-")[0]]["type"]
-        cls = sectionize.aspect_class(*(s.get("size") or (None, None)))
-        orig = Path(s["local"]) if s.get("local") else None
-        if orig is None or not orig.exists() or orig.suffix == ".svg":
-            skipped.append(f"{slot}: original {'is svg' if orig and orig.suffix == '.svg' else 'missing'}")
-            continue
-        o, g = stats(orig), stats(gen)
-        rec = known.get(s.get("src")) or s.get("attrs")  # the corpus record may carry sheet answers the pixels cannot
-        sec = slot.split("-")[0]
-        rows.append({"slot": slot, "section": sec, "type": typ, "orig": o, "gen": g,
-                     "composite": (run / "sections" / sec / f"compose-{slot}.yaml").exists(),
-                     "orig_family": family(rec or o, typ, cls), "gen_family": family(g, typ, cls)})
+    files = sorted(p for p in (run / "dist" / "media" / "gen").iterdir() if p.suffix in (".png",) + VIDEO_SUFFIXES)
+    with FrameGrabber() as grabber, tempfile.TemporaryDirectory() as tmp:
+        for gen in files:
+            slot = gen.stem
+            if slot.endswith(("-placeholder", "-poster")) or slot not in meta["slots"]:
+                continue
+            s = meta["slots"][slot]
+            typ = meta["sections"][slot.split("-")[0]]["type"]
+            cls = sectionize.aspect_class(*(s.get("size") or (None, None)))
+            orig = Path(s["local"]) if s.get("local") else None
+            if orig is None or not orig.exists() or orig.suffix == ".svg":
+                skipped.append(f"{slot}: original {'is svg' if orig and orig.suffix == '.svg' else 'missing'}")
+                continue
+            video = None
+            if gen.suffix in VIDEO_SUFFIXES or orig.suffix in VIDEO_SUFFIXES:
+                # a clip is scored on its first frame, plus length and seam against the original's
+                o_s, o_first, o_m = video_stats(orig, grabber, Path(tmp) / "orig") if orig.suffix in VIDEO_SUFFIXES else (None, orig, {})
+                g_s, g_first, g_m = video_stats(gen, grabber, Path(tmp) / "gen") if gen.suffix in VIDEO_SUFFIXES else (None, gen, {})
+                video = {"orig_s": o_s, "gen_s": g_s, "orig_loop": o_m.get("loop"), "gen_loop": g_m.get("loop"),
+                         "orig_seam": o_m.get("loop_seam", 0.0), "gen_seam": g_m.get("loop_seam", 0.0),
+                         "orig_pace": o_m.get("pace"), "gen_pace": g_m.get("pace")}
+                orig, gen = o_first, g_first
+            o, g = stats(orig), stats(gen)
+            rec = known.get(s.get("src")) or s.get("attrs")  # the corpus record may carry sheet answers the pixels cannot
+            sec = slot.split("-")[0]
+            rows.append({"slot": slot, "section": sec, "type": typ, "orig": o, "gen": g, "video": video,
+                         "composite": (run / "sections" / sec / f"compose-{slot}.yaml").exists(),
+                         "orig_family": family(rec or o, typ, cls), "gen_family": family(g, typ, cls)})
     return {"rows": rows, "means": means(rows), "flags": [f for r in rows for f in flags(r)], "skipped": skipped}
 
 
@@ -163,6 +193,16 @@ def write_md(result, path):
     for key, m in result["means"].items():
         lines.append(f"| {key} | {m['n']} | {m['family_match']:.2f} | {m['d_coverage']:+.2f} | {m['d_ground_l']:+.2f} | "
                      f"{m['d_ground_sat']:+.2f} | {m['d_pic_sat']:+.2f} |")
+    videos = [r for r in result["rows"] if r.get("video")]
+    if videos:
+        fmt = lambda x, spec: (format(x, spec) if isinstance(x, (int, float)) else "?")  # noqa: E731
+        lines += ["", "## Video (first frame scored above; length and seam here)", "",
+                  "| slot | duration orig / gen | ratio | loop seam orig / gen | pace orig / gen |", "|---|---|---|---|---|"]
+        for r in videos:
+            v = r["video"]
+            ratio = v["gen_s"] / v["orig_s"] if v["orig_s"] and v["gen_s"] else None
+            lines.append(f"| {r['slot']} | {fmt(v['orig_s'], '.1f')} s / {fmt(v['gen_s'], '.1f')} s | {fmt(ratio, '.2f')} | "
+                         f"{fmt(v['orig_seam'], '.2f')} / {fmt(v['gen_seam'], '.2f')} | {v['orig_pace'] or '?'} / {v['gen_pace'] or '?'} |")
     lines += ["", "## Flags", ""] + ([f"- {f}" for f in result["flags"]] or ["- none"])
     if result["skipped"]:
         lines += ["", "## Skipped", ""] + [f"- {s}" for s in result["skipped"]]

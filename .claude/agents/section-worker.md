@@ -75,7 +75,16 @@ need is in that folder; everything you make goes there.
    three times per clip — `picsart_job_status`, one Bash `sleep` of the job's
    `progress.estimatedSecondsLeft` (clamped 45–540 s, with the Bash `timeout`
    set just above it), then `picsart_job_status` again. Do not busy-poll: a
-   sleep between checks is one turn, ten bare polls are ten. `compose` nodes
+   sleep between checks is one turn, ten bare polls are ten. The instant
+   `job_status` returns the clip URL, write it into the node's `outputs` in
+   `workflow.yaml` — before the download, before the gate: a turn-limit stop
+   must never orphan a paid clip (live-5 lost ~190 credits to re-generated
+   finals). On a resume, a video node that has a job handle and no URL is
+   polled, never re-generated. Gate a clip on its strip, never on the URL:
+   `curl` it to `steps/`, then
+   `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 --out steps/<slot>-<node>-strip.png`
+   and `Read` the strip (the reviewer reads the same file); the command
+   prints the measured length, pace and loop seam for the note. `compose` nodes
    run as `uv run lp-compose compose-<slot>.yaml --out steps/...`; they and
    `text` nodes cost nothing and need no preflight.
 6. `uv run lp-flow sheet workflow.yaml` writes `flow.md`: the board as the

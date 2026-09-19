@@ -349,3 +349,55 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   DUMPER`, shared via `load_yaml`/`dump_yaml`) and index `media(src)` /
   `media(section_id)`: the two together take a maintenance command's YAML+DB
   cost from ~12s to under 1s. YAML stays the single committed form. (2026-09-16)
+- `pool search` is breadth-first with two early-stops (`deepen`'s keep-floor and
+  `YIELD_FLOOR`) that end a term after page 1 once its page-1 admittable photos
+  are already held — so once every family's curated terms are page-1-exhausted
+  the pool plateaus and neither `--pages` nor `--keep-floor` pulls anything new.
+  To grow it: `--deep` (opt-in; pages every term to full `--pages` depth, keeping
+  only the short-page and per-term-cap stops) and/or more `search_terms`. `--deep`
+  trades relevance for volume; the calibrated threshold and review still curate.
+  A term has ~5–7 real Pexels pages before it runs out. (2026-09-17)
+- Playwright's `route.fulfill(path=)` serves a local clip without byte ranges, so
+  Chromium reports `seekable [0, 0]` and every `currentTime` seek snaps to 0:
+  the 286 "t=1 s" poster frames grabbed from local files were frame 0, and five
+  seeks in one load gave five copies of it (motion measured exactly 0.0 on real
+  clips). `similar._ranged_route` answers Range requests with 206 +
+  Content-Range; CDN URLs always seeked fine. A frame after a seek is read by
+  drawing the video onto a canvas and screenshotting the canvas (the element
+  screenshot repaints the previous frame; `toDataURL` is refused on a tainted
+  canvas). Measure a video's motion on frames, and check that the frames differ
+  before trusting a number. (2026-09-19)
+- A video is context only when its motion is: a poster frame tells a worker
+  the look and nothing about what moves. Every corpus clip now carries measured
+  `pace`, `loop`, `loop_seam`, `duration` (and `camera: static` when the frame
+  holds) plus sheet-labelled `motion_kind`/`camera`; briefs get clips as
+  first/middle/last strips (`similar --kind video`) and the family's
+  **Motion:** line; workers and reviewers gate a clip on its strip
+  (`lp-corpus frames`), never on the URL or the worker's `note:` (live-5's
+  reviews paraphrased the worker). (2026-09-19)
+- Duration is faithful to the original: live-5 shipped 5 s clips against
+  10–34 s originals and nothing flagged it. The skeleton's `> duration:` line
+  (the original's length) becomes the brief's target, `seedance-2.5` takes
+  `duration: <target>` up to 30 s (extend beyond), `precheck.py` flags a final
+  off the target, `lp-bench` flags `[duration]` outside 0.9–1.1 and `[loop]` when
+  the original loops and the clip does not (live-5 re-benched: 4 duration and 3
+  loop flags on 5 clips). Preflight `duration` > 5 s: its price is not in
+  tool-map.md yet. (2026-09-19)
+- `picsart_job_status` is hooked (PostToolUse): the clip URL an async generate
+  never returns lands in `ledger.jsonl` at cost 0, so the isolation guard can
+  admit an extend/edit node that wires it and `precheck.py` can require every
+  done video node's URL to be in a job_status row and name extra seedance rows
+  beyond the board's nodes (the orphaned finals). Workers write the URL into the
+  node's `outputs` the instant it arrives, before the download. (2026-09-19)
+- A generated video ships with its poster: `result.md` carries `poster:` (the
+  accepted still) and `duration_s:`, `lp-inject` fits the poster like an image,
+  sets it and writes `muted autoplay loop playsinline` instead of only dropping
+  the snapshot's poster. The corpus reads `data-lp-poster` into `media.poster`
+  (406/607 clips ship one) and `attrs` prefers that designer poster over a
+  grabbed frame. (2026-09-19)
+- `seedance-2.5` is priced per second at 720p: 7 credits/s (35, 70, 140, 210 for
+  5, 10, 20, 30 s), `endFrame` free, extend 25/75 for 5/15 s, mini draft 10 —
+  all preflighted 2026-09-19. A faithful slot therefore costs ~15 (still) + 10
+  (draft) + 7 × target; the default `video_slot` cap moves 60 → 120 so a 10 s
+  original does not stop every worker, and a ≤ 200 cr trial fits two ~10 s
+  slots, not a 30 s one (210 for the final alone). (2026-09-19)

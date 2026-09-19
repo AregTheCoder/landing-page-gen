@@ -23,12 +23,20 @@ SEMANTIC = ("chrome", "text_in_image", "ui_mockup", "subject", "art_style", "des
             "family_hint", "confidence")
 
 
+def semantic_for(rec):
+    """What a labeller answers for this asset: the semantic fields, and for a
+    video its motion kind and — when the frames did not settle it — its camera."""
+    if rec.get("kind") != "video":
+        return list(SEMANTIC)
+    return list(SEMANTIC) + [f for f in attrs.VIDEO_SEMANTIC if rec.get(f) is None or f == "motion_kind"]
+
+
 def fields_for(rec):
     """The fields this asset's cell has to answer: the semantic ones, plus any
     measurable field the pixel pass left empty — and `before_after` whenever a
     divider was found but not centred enough to call it, since that answer
     decides the first rule in the table."""
-    out = list(SEMANTIC) + [f for f in measure.FIELDS if rec.get(f) is None]
+    out = semantic_for(rec) + [f for f in measure.FIELDS if rec.get(f) is None]
     if rec.get("seam") and not rec.get("before_after") and "before_after" not in out:
         out.append("before_after")
     return out
@@ -41,7 +49,7 @@ def pending(mapping, skip_resolved=False, priority=None):
     have a fallback answer."""
     priority = priority or set()
     out = [(src, rec) for src, rec in mapping.items()
-           if any(rec.get(f) is None for f in SEMANTIC) and rec.get("local")]
+           if any(rec.get(f) is None for f in semantic_for(rec)) and rec.get("local")]
     if skip_resolved:
         out = [(src, rec) for src, rec in out if taxonomy.family_of(rec)[0] is None]
     out.sort(key=lambda kv: (kv[0] not in priority, taxonomy.family_of(kv[1])[0] is not None, group_key(kv[1]), kv[0]))
@@ -50,8 +58,24 @@ def pending(mapping, skip_resolved=False, priority=None):
 
 def group_key(rec):
     """(type, ground, layout) with a name for the fields the pixels left open:
-    an asset whose ground the file cannot say is a cutout the page grounds."""
+    an asset whose ground the file cannot say is a cutout the page grounds.
+    Videos sheet apart, by (type, aspect, video): their cells are 3-frame strips."""
+    if rec.get("kind") == "video":
+        return (str(rec.get("type") or "unknown"), str(rec.get("aspect_class") or "unknown"), "video")
     return tuple(str(rec.get(k) or "unknown") for k in ("type", "ground", "layout"))
+
+
+def strip_for(rec, frames_dir=attrs.FRAMES_DIR):
+    """A video's 3-frame strip beside its cached frames, built from them when
+    missing; the poster frame when the samples were never grabbed."""
+    from . import motion
+    frames = motion.frame_paths(frames_dir, attrs.frame_stem(rec))
+    if not all(p.exists() for p in frames):
+        return rec.get("local")
+    out = Path(frames_dir) / f"{attrs.frame_stem(rec)}-strip.png"
+    if not out.exists():
+        motion.strip(frames, out)
+    return str(out)
 
 
 def sheet_name(key, srcs):
@@ -67,6 +91,8 @@ def cell(src, rec):
     out = {"src": src, "asset": attrs.asset_id(src)}
     out.update({k: rec.get(k) for k in keep})
     out.update({f: rec.get(f) for f in measure.FIELDS if rec.get(f) is not None})
+    if rec.get("kind") == "video":
+        out.update({f: rec.get(f) for f in attrs.VIDEO_MEASURED if rec.get(f) is not None})
     return out
 
 
@@ -97,7 +123,8 @@ def build(mapping, out_dir=LABELS_DIR, per_sheet=PER_SHEET, thumb=THUMB, columns
             chunk = items[i:i + per_sheet]
             name = sheet_name(key, [src for src, _ in chunk])
             png = out_dir / f"{name}.png"
-            taxonomy.contact_sheet(chunk, png, per_cell=per_sheet, thumb=thumb, columns=columns,
+            shown = [(src, {**rec, "local": strip_for(rec)} if rec.get("kind") == "video" else rec) for src, rec in chunk]
+            taxonomy.contact_sheet(shown, png, per_cell=per_sheet, thumb=thumb, columns=columns,
                                    caption=lambda n, src, rec: f"#{n + 1} {attrs.asset_id(src)} {rec.get('size') or ''}")
             fields = sorted({f for _, rec in chunk for f in fields_for(rec)})
             manifest = {"sheet": name, "group": dict(zip(("type", "ground", "layout"), key)),
@@ -121,9 +148,11 @@ def prompt():
              "Answer only what the manifest's `fields` list asks for, and only from what you can see.",
              "A cell sitting on flat mid-grey is a transparent cutout: the page supplies its ground,",
              "so answer `ground` for what is baked into the picture, not for the grey.",
+             "A cell that is three frames side by side is a video (first, middle, last frame): answer",
+             "the picture fields for the first frame and `motion_kind`/`camera` for what changes across them.",
              "",
              "Fields:"]
-    for name in SEMANTIC + measure.FIELDS:
+    for name in SEMANTIC + measure.FIELDS + attrs.VIDEO_SEMANTIC:
         values, definition = attrs.FIELDS[name]
         shape = f"list, any of {', '.join(values)}" if name == "chrome" else \
             f"one of {', '.join(values)}" if isinstance(values, tuple) else values

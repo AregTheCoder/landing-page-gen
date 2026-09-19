@@ -8,8 +8,6 @@ entries:
     creator_url: https://www.pexels.com/@vladimir-konoplev-155326297
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3569
     height: 5325
     aspect_class: '2:3'
@@ -42,6 +40,7 @@ entries:
     subject: person
     note: pale hazy golden-hour lifestyle frame
     moved_from: cinematic-still
+    description: In this image we can see a woman wearing blue color shirt and spectacles is sitting on the ground. In the background, we can also see some plants, trees and the sky.
   pexels-12501798:
     url: https://www.pexels.com/photo/photo-of-a-fresh-fruits-composition-12501798/
     image: https://images.pexels.com/photos/12501798/pexels-photo-12501798.jpeg
@@ -50,8 +49,6 @@ entries:
     creator_url: https://www.pexels.com/@boryslav
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2848
     height: 4288
     aspect_class: '2:3'
@@ -83,16 +80,15 @@ entries:
     best_family: outcome-tile
     note: busy dark table spread
     moved_from: cinematic-still
+    description: In this image we can see a bowl with strawberries, cherries, lemon slices, blueberries, cherubs, a glass and a wooden object on the surface.
   pexels-14782258:
     url: https://www.pexels.com/photo/chocolate-cookies-on-blue-background-14782258/
     image: https://images.pexels.com/photos/14782258/pexels-photo-14782258.jpeg
     thumb: https://images.pexels.com/photos/14782258/pexels-photo-14782258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
-    creator: Paul Uchechukwu 🇳🇬
+    creator: "Paul Uchechukwu \U0001F1F3\U0001F1EC"
     creator_url: https://www.pexels.com/@paul-uchechukwu-246994638
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3456
     height: 4608
     aspect_class: '3:4'
@@ -124,6 +120,7 @@ entries:
     best_family: outcome-tile
     note: scattered flat-lay pattern on cyan
     moved_from: cinematic-still
+    description: In this image we can see cookies on the blue surface.
   pexels-17378959:
     url: https://www.pexels.com/photo/blonde-woman-sitting-on-meadow-17378959/
     image: https://images.pexels.com/photos/17378959/pexels-photo-17378959.jpeg
@@ -132,8 +129,6 @@ entries:
     creator_url: https://www.pexels.com/@jean-daniel
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3919
     height: 5878
     aspect_class: '2:3'
@@ -165,6 +160,7 @@ entries:
     best_family: graphic-collage
     note: washed pastel golden hour, blown sky, no unified grade
     moved_from: cinematic-still
+    description: In this image we can see a woman sitting on the ground. We can also see some plants with flowers, a group of trees and the sky which looks cloudy.
   pexels-17756835:
     url: https://www.pexels.com/photo/woman-touching-her-face-17756835/
     image: https://images.pexels.com/photos/17756835/pexels-photo-17756835.jpeg
@@ -173,8 +169,6 @@ entries:
     creator_url: https://www.pexels.com/@peg1997
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3802
     height: 4753
     aspect_class: '4:5'
@@ -206,6 +200,7 @@ entries:
     best_family: full-bleed
     note: neutral beauty headshot, no coloured cinematic light
     moved_from: cinematic-still
+    description: In this image we can see a woman.
   pexels-18896757:
     url: https://www.pexels.com/photo/man-in-black-t-shirt-with-camera-in-hands-18896757/
     image: https://images.pexels.com/photos/18896757/pexels-photo-18896757.jpeg
@@ -214,8 +209,6 @@ entries:
     creator_url: https://www.pexels.com/@tubiderler
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2161
     height: 3224
     aspect_class: '2:3'
@@ -247,6 +240,7 @@ entries:
     best_family: outcome-tile
     note: documentary field portrait
     moved_from: cinematic-still
+    description: In this image I can see a person standing and holding a camera. In the background I can a tower, trees and the sky.
   pexels-20100636:
     url: https://www.pexels.com/photo/a-person-standing-outdoors-at-sunset-20100636/
     image: https://images.pexels.com/photos/20100636/pexels-photo-20100636.jpeg
@@ -255,8 +249,6 @@ entries:
     creator_url: https://www.pexels.com/@terence-b-774980713
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3334
     height: 5000
     aspect_class: '2:3'
@@ -289,6 +281,7 @@ entries:
     subject: person
     note: washed faded backlight
     moved_from: cinematic-still
+    description: In this image we can see a person wearing a bag. In the background there are trees and sky.
   pexels-24809720:
     url: https://www.pexels.com/photo/woman-in-white-blouse-on-meadow-24809720/
     image: https://images.pexels.com/photos/24809720/pexels-photo-24809720.jpeg
@@ -297,8 +290,6 @@ entries:
     creator_url: https://www.pexels.com/@nina-fiedler-894772640
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4160
     height: 6240
     aspect_class: '2:3'
@@ -330,6 +321,7 @@ entries:
     best_family: cinematic-still
     note: golden hour but matte and desaturated; face turned away
     moved_from: cinematic-still
+    description: In this image we can see a woman standing. In the background there are trees and sky.
   pexels-30434789:
     url: https://www.pexels.com/photo/woman-with-vintage-camera-outdoors-in-sunlight-30434789/
     image: https://images.pexels.com/photos/30434789/pexels-photo-30434789.jpeg
@@ -338,8 +330,6 @@ entries:
     creator_url: https://www.pexels.com/@thefullonmonet
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4667
     height: 7000
     aspect_class: '2:3'
@@ -371,6 +361,7 @@ entries:
     best_family: full-bleed
     note: flat daylight documentary snapshot, no cinematic grade
     moved_from: cinematic-still
+    description: In this image I can see a woman is holding a camera.
   pexels-30669378:
     url: https://www.pexels.com/photo/ethereal-autumn-portrait-in-brevard-field-30669378/
     image: https://images.pexels.com/photos/30669378/pexels-photo-30669378.jpeg
@@ -379,8 +370,6 @@ entries:
     creator_url: https://www.pexels.com/@prolificpeople
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2880
     height: 4320
     aspect_class: '2:3'
@@ -412,6 +401,7 @@ entries:
     best_family: graphic-collage
     note: wide environmental frame with sky, not a single-subject still
     moved_from: cinematic-still
+    description: In this image we can see a woman standing on the ground. We can also see some plants, the hills and the sky which looks cloudy.
   pexels-35098699:
     url: https://www.pexels.com/photo/photographer-capturing-a-sunset-in-duisburg-35098699/
     image: https://images.pexels.com/photos/35098699/pexels-photo-35098699.jpeg
@@ -420,8 +410,6 @@ entries:
     creator_url: https://www.pexels.com/@turkogluenes
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4267
     height: 6400
     aspect_class: '2:3'
@@ -453,6 +441,7 @@ entries:
     best_family: full-bleed
     note: face hidden behind camera; documentary industrial scene, but a good teal-orange sky
     moved_from: cinematic-still
+    description: In this image I can see a woman is standing and holding a camera. In the background I can also see a fence, a building and the sky.
   pexels-36700962:
     url: https://www.pexels.com/photo/young-woman-with-flowers-in-soft-portrait-36700962/
     image: https://images.pexels.com/photos/36700962/pexels-photo-36700962.png
@@ -461,8 +450,6 @@ entries:
     creator_url: https://www.pexels.com/@anh-nguyen-517648218
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2000
     height: 3000
     aspect_class: '2:3'
@@ -493,6 +480,7 @@ entries:
     subject: person
     note: soft ambient light; muted grade; no deliberate coloured key
     moved_from: cinematic-still
+    description: In this image we can see a woman. On the right side of the image we have flowers.
   pexels-39320166:
     url: https://www.pexels.com/photo/refreshing-ceviche-dish-on-a-yellow-background-39320166/
     image: https://images.pexels.com/photos/39320166/pexels-photo-39320166.jpeg
@@ -501,8 +489,6 @@ entries:
     creator_url: https://www.pexels.com/@cesar-o-neill-26650613
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4000
     height: 5810
     aspect_class: '2:3'
@@ -535,6 +521,7 @@ entries:
     subject: food
     note: overhead plate on yellow
     moved_from: cinematic-still
+    description: In this image we can see a plate with food on the yellow color surface.
   pexels-4835500:
     url: https://www.pexels.com/photo/blue-and-white-snake-on-brown-rock-4835500/
     image: https://images.pexels.com/photos/4835500/pexels-photo-4835500.jpeg
@@ -543,8 +530,6 @@ entries:
     creator_url: https://www.pexels.com/@raul-romagnoli-2193562
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3456
     height: 5184
     aspect_class: '2:3'
@@ -576,6 +561,7 @@ entries:
     best_family: cinematic-still
     note: documentary wildlife frame
     moved_from: cinematic-still
+    description: In this image we can see a blue color snake on the rock.
   pexels-6279564:
     url: https://www.pexels.com/photo/a-woman-lying-on-the-couch-6279564/
     image: https://images.pexels.com/photos/6279564/pexels-photo-6279564.jpeg
@@ -584,8 +570,6 @@ entries:
     creator_url: https://www.pexels.com/@olha-ruskykh
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2435
     height: 3652
     aspect_class: '2:3'
@@ -618,6 +602,7 @@ entries:
     subject: person
     note: flat even light
     moved_from: cinematic-still
+    description: In this image I can see a woman is lying on the couch. She is wearing green color dress. In the background I can also see the wall.
   pexels-6698308:
     url: https://www.pexels.com/photo/a-woman-wearing-a-turtleneck-sweater-listening-to-music-6698308/
     image: https://images.pexels.com/photos/6698308/pexels-photo-6698308.jpeg
@@ -626,8 +611,6 @@ entries:
     creator_url: https://www.pexels.com/@cottonbro
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 3746
     height: 5619
     aspect_class: '2:3'
@@ -659,6 +642,7 @@ entries:
     best_family: cinematic-still
     note: wide bedroom scene
     moved_from: cinematic-still
+    description: In this image we can see a girl sitting on the bed and holding an object. In the background we can find a frame, curtain, wall, and a light.
   pexels-8089669:
     url: https://www.pexels.com/photo/bearded-man-staring-at-the-woman-8089669/
     image: https://images.pexels.com/photos/8089669/pexels-photo-8089669.jpeg
@@ -667,8 +651,6 @@ entries:
     creator_url: https://www.pexels.com/@ron-lach
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 4160
     height: 6240
     aspect_class: '2:3'
@@ -700,6 +682,7 @@ entries:
     best_family: cinematic-still
     note: two subjects, not a single-subject frame
     moved_from: cinematic-still
+    description: In this image we can see a man and a woman standing. In the background there is a light.
   pexels-8647550:
     url: https://www.pexels.com/photo/drone-shot-of-a-woman-in-a-white-dress-lying-on-a-road-8647550/
     image: https://images.pexels.com/photos/8647550/pexels-photo-8647550.jpeg
@@ -708,8 +691,6 @@ entries:
     creator_url: https://www.pexels.com/@maxim-kovalev-77351469
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2970
     height: 3962
     aspect_class: '3:4'
@@ -741,6 +722,7 @@ entries:
     best_family: outcome-tile
     note: top-down aerial
     moved_from: cinematic-still
+    description: In this image we can see a woman is jumping on the water and holding a rope. Here we can also see a flag. In the background, we can find few trees.
   pexels-9046047:
     url: https://www.pexels.com/photo/close-up-shot-of-spoons-with-chocolate-9046047/
     image: https://images.pexels.com/photos/9046047/pexels-photo-9046047.jpeg
@@ -749,8 +731,6 @@ entries:
     creator_url: https://www.pexels.com/@helloaesthe
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6000
     height: 8000
     aspect_class: '3:4'
@@ -783,6 +763,7 @@ entries:
     subject: food
     note: overhead flat-lay of drizzle
     moved_from: cinematic-still
+    description: In this image there are two spoons and a metal object on the floor.
   pexels-9119219:
     url: https://www.pexels.com/photo/person-holding-a-violin-on-grass-field-9119219/
     image: https://images.pexels.com/photos/9119219/pexels-photo-9119219.jpeg
@@ -791,8 +772,6 @@ entries:
     creator_url: https://www.pexels.com/@zafer-erdogan-49915050
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 6336
     height: 9504
     aspect_class: '2:3'
@@ -825,6 +804,7 @@ entries:
     subject: object
     note: muted scenic frame
     moved_from: cinematic-still
+    description: In this image I can see a person standing and holding a musical instrument. I can also see grass, trees and sky.
   pexels-9508235:
     url: https://www.pexels.com/photo/a-woman-n-white-printed-long-sleeves-wearing-black-hat-while-looking-afar-9508235/
     image: https://images.pexels.com/photos/9508235/pexels-photo-9508235.jpeg
@@ -833,8 +813,6 @@ entries:
     creator_url: https://www.pexels.com/@kseniia-kolomyts-105649428
     platform: Pexels
     licence: pexels
-    attribution_required: false
-    tier: pool
     width: 2410
     height: 3213
     aspect_class: '3:4'
@@ -866,3 +844,4 @@ entries:
     best_family: cinematic-still
     note: washed backlit golden hour, blown white sky, no saturated grade
     moved_from: cinematic-still
+    description: In this image we can see a woman. In the background there is sky.

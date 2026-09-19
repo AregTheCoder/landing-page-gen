@@ -1,0 +1,132 @@
+1:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: upload tile on white, then a man at a podcast mic gets subtitles and a Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: three reference thumbs beside a woman in pink knit and white sunglasses at a chessboard, WAN 2.7 chip
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: man in white tee on a stone pier by turquoise water with two boats, before object removal
+  family_hint: before-after
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: dark tool rail of five icons beside a portrait of a platinum-blonde woman who starts to smile
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: object
+  art_style: photo
+  before_after: false
+  description: pink photo of flower bouquets in blue and orange paper bags on a dark checkerboard canvas awaiting extension
+  family_hint: crop-frame
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  before_after: false
+  description: iced matcha latte in a cup labelled matcha tea on a stone counter, then cut out and placed on a poster
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  motion_kind: transition
+  camera: static
+7:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: two model result panels labelled WAN 2.7 and Kling 3.0 on black with Free, 10 seconds and credit chips
+  family_hint: vs-two-up
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: portrait clip of a man in a shearling jacket crossing a neon-lit night street, trimmed on a filmstrip bar
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [prompt-panel, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: video of a woman sipping matcha in a sunlit concrete gym above its cinematic prompt and setting chips
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: camera-move
+  camera: pull-back
+10:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: Barista Club poster card with a hand holding iced coffee on black, then cafe-interior variants with tool tiles
+  family_hint: template-mockup
+  confidence: 0.7
+  motion_kind: transition
+  camera: static
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  before_after: false
+  description: pink peony in a flower shop on white, then a prompt card and a social post mockup with new backgrounds
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static

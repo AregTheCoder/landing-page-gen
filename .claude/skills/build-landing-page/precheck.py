@@ -8,7 +8,10 @@ exit 1 otherwise. Catches what a review round used to catch for free: a paid
 step without a preflight, `count` above 1, a gate without an observation,
 credits.spent off the ledger, a final file that is not on disk, a compose
 spec whose `variant:` contradicts the brief's `> device:` line, a Flow board
-that does not wire (`lp-flow check`)."""
+that does not wire (`lp-flow check`), a final clip off the brief's target
+duration, a clip URL that never passed through `picsart_job_status` (so the
+ledger cannot own it), and extra video renders beyond the board's nodes (the
+orphaned finals that cost live-5 ~190 credits)."""
 import json
 import re
 import sys
@@ -20,11 +23,55 @@ from landing_page_gen.compose.families import FAMILIES
 from landing_page_gen.flow import board
 
 PAID = {"picsart_generate", "picsart_enhance", "picsart_remove_bg", "picsart_change_bg", "picsart_vectorize"}
+DURATION_TOLERANCE = 1  # seconds a final clip may sit off the brief's target
+TARGET_RE = re.compile(r"^\s*- (S\d+-m\d+): \*\*(\d+) s\*\*", re.M)
 
 
 def prompt_of(row):
     p = row.get("params") or {}
     return (p.get("prompt") or (p.get("params") or {}).get("prompt") or "").strip()
+
+
+def video_targets(folder):
+    """{slot: target seconds} from the brief's `## Video` section."""
+    brief = folder / "brief.md"
+    return {s: int(t) for s, t in TARGET_RE.findall(brief.read_text())} if brief.exists() else {}
+
+
+def video_problems(doc, steps, rows, targets):
+    """The video half of a record: the final's `duration` against the brief's
+    target, every done clip's URL in a job_status row, and no more paid video
+    rows for a prompt than the board has nodes for it."""
+    slot = doc.get("slot", "?")
+    out = []
+    videos = [s for s in steps if s["node"] == "video"]
+    if not videos:
+        return out
+    job_urls = {u.split("?")[0] for r in rows if r.get("tool") == "picsart_job_status" for u in r.get("urls") or []}
+    target = targets.get(slot)
+    for s in videos:
+        sid_ = f"{slot} step {s.get('id')}"
+        params = s.get("params") or {}
+        final = board.VIDEO_DRAFT_HINT not in (s.get("model") or "")
+        if final and target and s.get("status") == "done" and abs((params.get("duration") or 0) - target) > DURATION_TOLERANCE:
+            out.append(f"{sid_}: duration {params.get('duration')} but the brief's target is {target} s")
+        if s.get("status") == "done" and rows:
+            urls = [u for u in (s.get("outputs") or []) if str(u).startswith("http")]
+            if not urls:
+                out.append(f"{sid_}: done video node with no clip URL in outputs (write it the instant job_status returns it)")
+            for u in urls:
+                if str(u).split("?")[0] not in job_urls:
+                    out.append(f"{sid_}: clip {u} is in no picsart_job_status ledger row; poll through job_status so the ledger owns it")
+    by_key = {}
+    for s in videos:
+        key = (s.get("model"), ((s.get("params") or {}).get("prompt") or "").strip())
+        by_key[key] = by_key.get(key, 0) + 1
+    for (model, prompt), n_nodes in by_key.items():
+        n_rows = sum(1 for r in rows if r.get("tool") in PAID and r.get("model") == model and prompt_of(r) == prompt)
+        if n_rows > n_nodes:
+            out.append(f"{slot}: {n_rows - n_nodes} extra {model} ledger row(s) for the prompt {prompt[:40]!r}: orphaned "
+                       f"render(s) beyond the board's {n_nodes} node(s); annotate them so the slot total is auditable")
+    return out
 
 
 def check(run, sid):
@@ -43,9 +90,11 @@ def check(run, sid):
     for r in rows:
         if r.get("tool") in PAID:
             spent_by_prompt[prompt_of(r)] = spent_by_prompt.get(prompt_of(r), 0) + (r.get("quoted_credits") or 0)
+    targets = video_targets(folder)
     for d in docs:
         slot = d.get("slot", "?")
         problems += board.check(d)
+        problems += video_problems(d, board.nodes(d), rows, targets)
         prompts = set()  # a failed step re-run with the same prompt is two steps but one set of ledger rows
         for st in d.get("steps") or []:
             sid_ = f"{slot} step {st.get('id')}"

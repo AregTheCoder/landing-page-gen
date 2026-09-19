@@ -53,12 +53,19 @@ uv run lp-corpus similar --type hero --style full-bleed --query "<headline and b
     --exclude ai-image-generator --exclude-asset <8hex> -k 3 --out runs/<run>/sections/S01/examples
 uv run lp-corpus widen template-mockup [--exact] [--limit 5]  # reverse-image neighbours of the family's assets -> corpus/widened/<family>.yaml (SERPAPI_KEY or GOOGLE_VISION_API_KEY)
 uv run lp-corpus similar ... --style template-mockup --widen 2  # + two neighbours in examples/ as w<n>-widened.md, look only
-uv run lp-corpus pool search full-bleed [--pages 2] [--dry-run]  # Pexels/Unsplash/Pixabay by the family's search_terms, metered and cached, pHash-deduped vs corpus+pool, ranked -> corpus/pool/<family>.yaml (PEXELS_API_KEY, UNSPLASH_ACCESS_KEY, PIXABAY_API_KEY; a missing key skips that platform)
+uv run lp-corpus pool search full-bleed [--pages 2] [--deep] [--dry-run]  # Pexels/Unsplash/Pixabay by the family's search_terms, metered and cached, pHash-deduped vs corpus+pool, ranked -> corpus/pool/<family>.yaml (PEXELS_API_KEY, UNSPLASH_ACCESS_KEY, PIXABAY_API_KEY; a missing key skips that platform). --deep pages every term to full --pages depth (ignores the page-1 yield/keep-floor stops): volume over relevance, the threshold+review still curate
 uv run lp-corpus pool quota                                # how many candidates each family is owed, inversely to the corpus it already has
 uv run lp-corpus pool embed [--describe] [--refresh]       # build the CLIP cache the clip ranker reads (needs `uv sync --extra embed`)
 uv run lp-corpus pool sheets full-bleed && uv run lp-corpus pool labels  # keep/drop from contact sheets (/review-pool), like the label sheets
 uv run lp-corpus pool calibrate full-bleed --write [--family-check]  # answers -> auto-drop threshold at 95% recall + per-term keep rates
-uv run lp-corpus similar ... --style full-bleed --pool 2 --seed <run>  # + two kept licensed images as p<n>-pool.md, rotated per run
+uv run lp-corpus pool index [--from descriptions.jsonl]     # merge a {id, description} JSONL into the entry yamls, then (re)build corpus/pool/_index.sqlite (FTS5 over description+subject, gitignored). Descriptions come from an offline local vision model (no API/spend)
+uv run lp-corpus pool find --need "product on pink seamless, hard shadow" --family full-bleed --aspect 3:4 --state kept -k 5  # rank pool images by text match (bm25) x visual score: the manager's "get the correct image" query
+uv run lp-corpus similar ... --style full-bleed --pool 2 --seed <run>  # + two kept licensed images as p<n>-pool.md; content-matched to the --query via _index.sqlite when it exists, else rotated per run
+uv run lp-corpus frames <clip.mp4|url> --out strip.png      # a clip's first/middle/last frames side by side + its measured length, pace, loop seam (the worker's and reviewer's video gate; no ffmpeg, Chromium via Playwright)
+uv run lp-corpus motion [--limit N] [--force]                # measure pace/loop/camera-when-static on the video records still lacking them -> attributes.yaml, media.attrs (attrs --force --kinds video re-grabs posters + frames too)
+uv run lp-corpus motion --summary [--write-doc]              # per family, what its labelled clips do; --write-doc sets each family's **Motion:** line in style-families.md
+uv run lp-corpus similar ... --kind video                    # prefer sections with clips and excerpt them as 3-frame strips (what brief.py asks for a video slot)
+uv run lp-corpus pool search full-bleed --kind video [...]   # Pexels/Pixabay VIDEO search into the same pool (poster hashed/ranked/sheeted); served by `similar --pool N --kind video` as strips
 uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
 uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
 uv run lp-flow templates --family template-mockup --device applied-mockup   # gallery templates that fit, from corpus/flow-templates.yaml
@@ -113,7 +120,14 @@ the served URL is kept on each element as `data-lp-src`.
   labels (Before/After pills, size labels, chips) come from `lp-compose`,
   never from a model. Every generated slot has a style family
   (`picsart-workflows/style-families.md`).
-- Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.
+- Video: the board is `kind: video` (still recipe + mini draft + final, enforced
+  by `lp-flow check`), draft on `seedance-2.0-mini`, final on `seedance-2.5`
+  at the slot's `> duration:` target (faithful to the original, capped by
+  `budget.video_seconds`), audio off, a `poster:` and `duration_s:` in
+  `result.md`. Clips are judged on their 3-frame strip (`lp-corpus frames`),
+  never on the URL or the worker's note. MP Scene renders
+  (`picsart_media_video_render|export|video_create`) are denied by the credit
+  guard until `hooks/_ledger.RENDER_PRICE` carries a measured price.
 - Attributes are measured, then labelled from the sheets: `attrs` writes only
   what the pixels settle, `sheets` asks for the rest, `labels` validates
   against the enums and drops anything outside them. Never hand-edit

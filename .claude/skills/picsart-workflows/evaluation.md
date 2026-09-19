@@ -19,6 +19,19 @@ self-eval, then reviewer), and on the board itself (reviewer).
 Accept: no score below 3, `fit` >= 4, `clean` = 5 and `text` = 5. Otherwise
 rework with the lowest key named first.
 
+### Video keys (a video slot adds these three; scored on the strip, never on the URL)
+
+The worker writes `steps/<slot>-<node>-strip.png` (first, middle, last frame,
+`uv run lp-corpus frames <clip> --out <strip>`) at every video gate; the
+reviewer reads the same file and regenerates it with that command when it is
+missing. `picsart_media_probe_media` gives the length and fps.
+
+| Key | Question |
+|---|---|
+| first_frame | Is the strip's first frame the accepted still (same subject, framing, palette, no re-render)? A clip that opens on a different picture is a 1. (below 4 is a hard reject: the poster and the clip would disagree) |
+| motion | Does what changes across the strip match the node's prompt and the family's **Motion:** line (kind, camera, pace), with no morphing, no added or lost elements, no animated typography? (below 3 is a rework) |
+| loop | Does the last frame return to the first (a seam a muted autoplay loop hides), and is the measured length within 1 s of the brief's target duration? A 5 s clip in a 10 s slot is a 2 regardless of seam. (below 3 is a rework) |
+
 ## Workflow rubric, score 1–5 each
 
 | Key | Question |
@@ -38,6 +51,7 @@ style: before-after
 verdict: accept | rework | block
 round: 1
 scores: {fit: 4, resemblance: 3, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
+# a video slot: ..., legibility: 4, first_frame: 5, motion: 4, loop: 4}
 workflow_score: {justified: 4, gated: 5, quote_respected: 5, board: 5}
 best_candidate: https://...
 ---
