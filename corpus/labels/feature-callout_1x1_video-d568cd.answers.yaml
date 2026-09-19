@@ -1,0 +1,44 @@
+1:
+  art_style: photo
+  camera: static
+  chrome: [model-logo, chip]
+  confidence: 0.45
+  description: cinematic scene of a man running with his golden retriever in a mountain meadow, model/prompt caption card overlay
+  family_hint: prompt-card
+  motion_kind: subject-motion
+  subject: multiple
+  text_in_image: body
+  ui_mockup: none
+2:
+  art_style: 3d-render
+  camera: static
+  chrome: [chip, model-logo]
+  confidence: 0.6
+  description: glossy translucent 3D butterfly on black with a model-picker list panel on the left
+  family_hint: dark-composite
+  motion_kind: subject-motion
+  subject: animal
+  text_in_image: labels-only
+  ui_mockup: none
+3:
+  art_style: anime-cartoon
+  camera: static
+  chrome: [tile, chip, button]
+  confidence: 0.55
+  description: comic pop-art bikers montage on black with an upload tile and 15s, 3:4 chips in the left column
+  family_hint: dark-composite
+  motion_kind: cut-montage
+  subject: multiple
+  text_in_image: labels-only
+  ui_mockup: none
+4:
+  art_style: photo
+  camera: push-in
+  chrome: [chip, button]
+  confidence: 0.45
+  description: cinematic photo of a young man lowering sunglasses in a NYC taxi, reference-thumb generate bar below
+  family_hint: prompt-card
+  motion_kind: subject-motion
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none

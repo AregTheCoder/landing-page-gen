@@ -1,0 +1,11 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: film set b-roll, vintage cinema camera on tripod, crew working in smoky warm light
+  family_hint: full-bleed
+  confidence: 0.9
+  motion_kind: ambient
+  camera: static

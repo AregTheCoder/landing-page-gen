@@ -1,0 +1,132 @@
+1:
+  chrome: [brackets]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in green bucket hat frames a shot with his hands, blue sky, crop brackets on his face
+  family_hint: crop-frame
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: a hiker in an orange jacket walks a sunlit forest path, prompt caption and setting chips
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static
+3:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: editor UI demo on black, Start Creating button then tool panel then a portrait with Download
+  family_hint: dark-composite
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: a woman holds a giant denim high heel against a cloud sky, video-setting chips below
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome: [prompt-panel, button, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: prompt card with model list and Generate, phone frame plays a marmot POV selfie
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in pink tulle among bright flowers with white paper shapes, filmstrip timeline below
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: cut-montage
+  camera: static
+7:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: animal
+  art_style: 3d-render
+  description: 3D alien montage, green alien in a pod, a UFO beaming over a desert, glowing UFO interior
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: cut-montage
+  camera: static
+8:
+  chrome: [prompt-panel, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: silver-haired woman in a pink gown reclines on a green velvet sofa, prompt card and Audio chip
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ambient
+  camera: static
+9:
+  chrome: [chip]
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: burger photo then AI Writer prompt with Generate then a finished Instagram post, coral ground
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [prompt-panel, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt panel changes a walker's purple blazer to hot pink over a green field
+  family_hint: prompt-card
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in a blue jacket and pink tights strides through a city, model-name chips
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: compare-models video grid, a woman on a rooftop and a climber by rock pillars, Kling and Wan chips
+  family_hint: vs-two-up
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static

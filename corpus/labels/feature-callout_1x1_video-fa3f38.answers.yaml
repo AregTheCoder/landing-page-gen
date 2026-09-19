@@ -1,0 +1,144 @@
+1:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: 3d-render
+  before_after: false
+  description: black upload frame, then a 3D red-blob bag template with animated "Own the bold" title and Download
+  family_hint: template-mockup
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [prompt-panel, button, mockup-card]
+  text_in_image: none
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: empty prompt box with Generate, then a black-and-white jazz-club scene in a social post
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [chip, model-logo, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: astronaut on a road by a traffic light, reference thumbs and a Veo/Kling/WAN model list overlaid
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [prompt-panel, chip, model-logo, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: young man on grass raising an iced-coffee cup, prompt panel with Audio toggle and model list
+  family_hint: prompt-card
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome: [chip, button, mockup-card]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: multiple
+  art_style: mixed
+  before_after: false
+  description: photo of a woman reference beside a 3D fox character in a puffer jacket, size chip and Generate
+  family_hint: prompt-card
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: two labelled cinematic night panels, Seedance 2.5 street car and Kling 3.0 person by headlights
+  family_hint: vs-two-up
+  confidence: 0.7
+  motion_kind: ambient
+  camera: static
+7:
+  chrome: [prompt-panel, chip, play-button, slider]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: cinematic sunset warrior with a glowing katana, prompt card with Flux 3 chip and a video scrubber
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static
+8:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: red "1 Hour Photo" title card, then a printed photo mug and a hand of prints on checkerboard
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+9:
+  chrome: [tile, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  before_after: false
+  description: professor teaching kinematics at a blackboard, small reference thumbs and a sparkle generate tile
+  family_hint: prompt-card
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome: [mockup-card, button, slider]
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: person
+  art_style: photo
+  before_after: false
+  description: BLUEKNOT social post of a person from behind, an audio waveform track shown for adding music
+  family_hint: mockup-card
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [prompt-panel, tile, chip]
+  text_in_image: body
+  ui_mockup: none
+  subject: abstract
+  art_style: painterly-illustration
+  before_after: false
+  description: dark-field illustration of glass diatoms on black, a central star form morphing, caption card below
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [prompt-panel, chip, tile]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: cinematic night scene of a young man on a grassy hilltop under a crescent moon, prompt caption card
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
