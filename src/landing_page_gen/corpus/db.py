@@ -94,7 +94,7 @@ def connect(path: Path) -> sqlite3.Connection:
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
     cols = {r["name"] for r in con.execute("PRAGMA table_info(media)")}
-    for col in ("style", "attrs"):  # corpora indexed before styles / attributes existed
+    for col in ("style", "attrs", "poster"):  # corpora indexed before styles / attributes / the video poster existed
         if col not in cols:
             con.execute(f"ALTER TABLE media ADD COLUMN {col} TEXT")
     return con

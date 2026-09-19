@@ -1,0 +1,95 @@
+sheet: feature-callout_16x9_video-4f26e1
+group:
+  type: feature-callout
+  ground: '16:9'
+  layout: video
+fields:
+- art_style
+- before_after
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_16x9_video-4f26e1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d22f0c9-fc67-44d8-82a2-d1925cfcbdff.webm
+    asset: 1d22f0c9
+    page: persona
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 33.74
+    motion: 0.2361
+    pace: fast
+    loop: true
+    loop_seam: 0.909
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/60a7ee95-3619-4efd-be43-0d15050f3edf.mp4
+    asset: 60a7ee95
+    page: ai-assistant
+    slot: S02-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 78.6
+    motion: 0.1531
+    pace: fast
+    loop: true
+    loop_seam: 0.972
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b43b79bc-5be8-4b5c-9dc2-484fee161201.mp4
+    asset: b43b79bc
+    page: flow
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 34.8
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf.mp4
+    asset: c9bfc805
+    page: ad-maker
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 30.0
+    motion: 0.286
+    pace: fast
+    loop: true
+    loop_seam: 0.995

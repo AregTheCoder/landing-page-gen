@@ -78,12 +78,13 @@ notes: ''
 
 - t1 h2: Watch it move
 
-{_slot("S03-m1", kind="video", src_id="eeeeeeee", local_id="ffffffff", aspect="9:16")}
+{_slot("S03-m1", kind="video", src_id="eeeeeeee", local_id="ffffffff", aspect="9:16").replace("natural: 600x600", "natural: 600x600\nduration_s: 33.74")}
 > annotation: slow push in on the subject.
 > style: full-bleed
 > attrs: ground=photo-full-bleed
 > text: none
 > device: none: single subject
+> duration: 34  # original 33.74 s
 """
 
 
@@ -149,9 +150,39 @@ def test_stands_in_for_fallback_uses_the_named_family(tmp_path, brief):
     assert '"50% OFF"' in text and '"Buy now"' in text and "call-to-action" in text
 
 
-def test_video_slot_is_briefed_as_its_poster_family(tmp_path, brief):
+def test_video_slot_is_briefed_as_its_poster_family_with_a_video_section(tmp_path, brief, monkeypatch):
     run = build_run(tmp_path)
+    calls = []
+    monkeypatch.setattr(brief.subprocess, "run",
+                        lambda cmd, **k: (calls.append(cmd), type("R", (), {"stdout": "ok", "stderr": ""})())[1])
     assert brief.main([str(run), "S03"]) == 0
     text = (run / "sections" / "S03" / "brief.md").read_text()
     assert "## Style family: full-bleed" in text
     assert "kind: video" in text  # the section block keeps the slot's kind
+    assert "`kind: video`" in text and board.recipe_row("full-bleed", "video") in text
+    video = text.split("## Video\n")[1].split("## Text in image")[0]
+    assert "seedance-2.0-mini" in video and "seedance-2.5" in video and "generateAudio: false" in video
+    # faithful to the original (34 s asked) but capped by budget.video_seconds (30 by default)
+    assert "S03-m1: **30 s** (original 33.74 s; capped at budget.video_seconds 30" in video
+    assert "Motion (what this family's corpus clips do):" in video and "poster:" in video and "duration_s:" in video
+    similar_cmd = next(c for c in calls if "similar" in c)
+    assert similar_cmd[similar_cmd.index("--kind") + 1] == "video"
+    # an image section asks for no kind and gets no Video section
+    calls.clear()
+    assert brief.main([str(run), "S01"]) == 0
+    assert "--kind" not in next(c for c in calls if "similar" in c)
+    assert "## Video" not in (run / "sections" / "S01" / "brief.md").read_text()
+
+
+def test_section_block_keeps_a_hyphenated_type(brief):
+    text = "## S05 feature-callout\n\n- t1 h2: x\n\n## S06 how-it-works\n\n- t1 h2: y\n"
+    assert brief.section_block(text, "S05")[1] == "feature-callout", "`\\w+` cut this to 'feature' and similar refused it"
+    assert brief.section_block(text, "S06") == ("## S06 how-it-works\n\n- t1 h2: y", "how-it-works")
+
+
+def test_target_duration_follows_the_directive_then_the_original_then_the_cap(brief):
+    assert brief.target_duration({"duration_s": 8.4}, None, 30) == (8, "original 8.4 s")
+    assert brief.target_duration({"duration_s": 8.4}, "12  # manager override", 30)[0] == 12
+    assert brief.target_duration({}, None, 30) == (5, "no original length; 5 s default")
+    assert brief.target_duration({"duration_s": 33.74}, "34", 30)[0] == 30
+    assert brief.target_duration({"duration_s": 2.5}, None, 30)[0] == 4, "Seedance's floor"

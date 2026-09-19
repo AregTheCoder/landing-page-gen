@@ -210,6 +210,15 @@ def local_src(el):
     return src if src.startswith("media/") else None
 
 
+def poster_url(el):
+    """A video's poster as the site served it (kept in data-lp-poster once
+    media.py localised it); None for an image or a poster-less video."""
+    if el.name != "video":
+        return None
+    served = el.get("data-lp-poster") or el.get("poster") or ""
+    return cdn_url(served) if served and not served.startswith("media/") else None
+
+
 def media_role(el, kind, alt, w, h, section_type, root):
     """Roles are a first guess for the hand-edited skeleton. Order matters:
     size before words (a 40px "logo" is an icon, a 480px "logo" is the
@@ -351,6 +360,7 @@ def build_section(root, idx, sid, geo):
                 "nat_height": g["nat_h"] if g else _int(el.get("height")),
                 "duration": g["duration"] if g else None,
                 "local": local_src(el),
+                "poster": poster_url(el),
             })
     links = [a.get("href") or "" for a in root.find_all("a", href=True)]
     buttons = [b for b in root.find_all("button") if not is_hidden(b)]
@@ -459,11 +469,11 @@ def sectionize_page(page_dir, con, log=print):
             "INSERT INTO texts(section_id, tid, tag, text, href, selector) VALUES (?,?,?,?,?,?)",
             [(section_id, t["tid"], t["tag"], t["text"], t["href"], f'[data-lp-t="{t["tid"]}"]') for t in s["texts"]])
         con.executemany(
-            "INSERT INTO media(section_id, slot_id, kind, role, src, alt, width, height, aspect, nat_width, nat_height, duration, local_path, selector) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO media(section_id, slot_id, kind, role, src, alt, width, height, aspect, nat_width, nat_height, duration, local_path, selector, poster) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             [(section_id, m["slot_id"], m["kind"], m["role"], m["src"], m["alt"], m["width"], m["height"], m["aspect"],
               m["nat_width"], m["nat_height"], m["duration"], str(page_dir / m["local"]) if m["local"] else None,
-              f'[data-lp="{m["slot_id"]}"]') for m in s["media"]])
+              f'[data-lp="{m["slot_id"]}"]', m.get("poster")) for m in s["media"]])
     con.commit()
     log(f"{slug}: {len(sections)} sections, {sum(s['media_count'] for s in sections)} media")
     for s in sections:

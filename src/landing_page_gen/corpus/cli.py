@@ -68,6 +68,9 @@ def main(argv=None) -> int:
                     help="skip sections showing this source asset: the 8-hex uuid prefix of its src (attrs.asset_id) "
                          "or the 8-hex hash of its local file name; repeatable, one per slot of the page")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
+    sm.add_argument("--kind", choices=("image", "video"),
+                    help="prefer sections with media of this kind and write that media first (a video slot wants clips: "
+                         "a clip is excerpted as a first/middle/last 3-frame strip)")
     sm.add_argument("--widen", type=int, default=0, metavar="N",
                     help="add N reverse-image neighbours of the --style family from corpus/widened/ as look references")
     sm.add_argument("--pool", type=int, default=0, metavar="N",
@@ -116,6 +119,9 @@ def main(argv=None) -> int:
                     help="page every term to the full --pages depth: ignore the keep-floor and "
                          "yield-floor early-stops so a page-1-exhausted term still reaches new photos "
                          "deeper in. Trades relevance for volume; the threshold and review still curate")
+    pl.add_argument("--kind", choices=("image", "video"), default="image",
+                    help="pool search: photos (default) or clips (Pexels and Pixabay video APIs; the poster frame is "
+                         "what gets hashed, ranked and sheeted; served by `similar --pool N --kind video` as strips)")
     pl.add_argument("--dry-run", action="store_true", help="print the planned requests per platform and make none")
     pl.add_argument("--refresh", action="store_true", help="bypass the response cache (Pixabay keeps its 24 h floor)")
     pl.add_argument("--max-requests", type=int, default=0, help="stop the run after this many API requests (0 = tier caps only)")
@@ -150,6 +156,20 @@ def main(argv=None) -> int:
     at.add_argument("--no-video", action="store_true")
     at.add_argument("--dry-run", action="store_true", help="count candidates only; measure nothing")
     at.add_argument("--apply-only", action="store_true", help="mirror the yaml into the DB through the rule table")
+
+    fr = sub.add_parser("frames", help="Grab a clip's sampled frames and write its 3-frame strip (first, middle, last) -> --out; prints the measured motion fields")
+    fr.add_argument("video", help="a local clip or a URL")
+    fr.add_argument("--out", type=Path, required=True, help="the strip PNG")
+    fr.add_argument("--keep-frames", action="store_true", help="leave the five sampled frames beside the strip")
+
+    mo = sub.add_parser("motion", help="Measure the motion fields (pace, loop, camera when it holds) of the video records that lack them -> attributes.yaml, media.attrs; --summary per family, --write-doc sets the **Motion:** lines")
+    mo.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    mo.add_argument("--frames", type=Path, default=attrs.FRAMES_DIR)
+    mo.add_argument("--limit", type=int)
+    mo.add_argument("--force", action="store_true", help="re-measure videos that already have motion fields")
+    mo.add_argument("--summary", action="store_true", help="print what each family's labelled clips do and stop")
+    mo.add_argument("--write-doc", action="store_true", help="with --summary: set each family block's **Motion:** line")
+    mo.add_argument("--doc", type=Path, default=styles.DOC)
 
     sh = sub.add_parser("sheets", help="Lay the assets that still need semantic fields on numbered contact sheets -> corpus/labels/")
     sh.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
@@ -203,6 +223,10 @@ def main(argv=None) -> int:
         return cmd_styles(a)
     if a.cmd == "attrs":
         return cmd_attrs(a)
+    if a.cmd == "frames":
+        return cmd_frames(a)
+    if a.cmd == "motion":
+        return cmd_motion(a)
     if a.cmd == "sheets":
         return cmd_sheets(a)
     if a.cmd == "labels":
@@ -319,7 +343,7 @@ def main(argv=None) -> int:
                     return 0
                 paths, stats = pool.search(a.family, limit_per_term=a.limit_per_term, explore=a.explore,
                                            use_threshold=not a.no_threshold, ranker_name=a.rank,
-                                           max_per_creator=a.max_per_creator, deep=a.deep,
+                                           max_per_creator=a.max_per_creator, deep=a.deep, kind=a.kind,
                                            run_id=run_id, log=log, **common)
                 for pf, st in stats["platforms"].items():
                     pre = st["prefiltered"]
@@ -380,34 +404,37 @@ def main(argv=None) -> int:
         if bad:
             p.error(f"unknown attribute(s) {', '.join(sorted(bad))}; one of {', '.join(attrs.FIELDS)}")
         rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media,
-                                    style=a.style, attrs=attr_filter or None, exclude_asset=a.exclude_asset)
+                                    style=a.style, attrs=attr_filter or None, exclude_asset=a.exclude_asset, kind=a.kind)
         if not rows:
             log(f"no {a.type} sections in the corpus" + (" with generated-role media" if not a.any_media else ""))
             return 1
-        with similar.FrameGrabber() as grabber:
-            similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example)
         fam = similar.split_style(a.style)[0]
-        if a.widen:
-            if not fam:
-                p.error("--widen needs --style: neighbours are stored per family")
-            picks = widen.pick(fam, a.widen, exclude_asset=a.exclude_asset)
-            if not picks:
-                log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
-            widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
-        if a.pool:
-            if not fam:
-                p.error("--pool needs --style: the pool is stored per family")
-            # content-match the slot's query against the described pool when an
-            # index exists; else fall back to the seeded shuffle
-            from . import poolindex
-            picks = poolindex.picks_for(a.query, fam, a.pool, aspect=a.pool_aspect,
-                                        exclude_asset=a.exclude_asset, pool_dir=pool.POOL_DIR)
-            if picks is None:
-                picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect)
-            if not picks:
-                log(f"no kept pool entries for {fam}: run `lp-corpus pool search {fam}` and answer the sheets")
-            pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
-                                start=len(rows) + 1 + a.widen)
+        if (a.widen or a.pool) and not fam:
+            p.error("--widen and --pool need --style: neighbours and the pool are stored per family")
+        with similar.FrameGrabber() as grabber:
+            similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example, kind=a.kind)
+            if a.widen:
+                picks = widen.pick(fam, a.widen, exclude_asset=a.exclude_asset)
+                if not picks:
+                    log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
+                widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
+            if a.pool:
+                # content-match the slot's query against the described pool when an
+                # index exists (photos only); else fall back to the seeded shuffle.
+                # A video slot takes kept clips, served as 3-frame strips.
+                picks = None
+                if a.kind != "video":
+                    from . import poolindex
+                    picks = poolindex.picks_for(a.query, fam, a.pool, aspect=a.pool_aspect,
+                                                exclude_asset=a.exclude_asset, pool_dir=pool.POOL_DIR)
+                if picks is None:
+                    picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect,
+                                      kind=a.kind)
+                if not picks:
+                    log(f"no kept pool {a.kind or 'image'} entries for {fam}: run `lp-corpus pool search {fam}"
+                        f"{' --kind video' if a.kind == 'video' else ''}` and answer the sheets")
+                pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
+                                    start=len(rows) + 1 + a.widen, grabber=grabber)
         tagged = sum(1 for r in rows if con.execute(
             "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0
         print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")
@@ -565,6 +592,50 @@ def cmd_attrs(a):
     for page, slot, reason in stats["skipped"][:20]:
         print(f"  skipped {page} {slot}: {reason}")
     print(f"next: lp-corpus sheets  ({len(sheets.pending(mapping))} assets need the semantic fields)")
+    return 0
+
+
+def cmd_frames(a):
+    import tempfile
+    from . import motion
+    src = a.video if a.video.startswith(("http://", "https://")) else Path(a.video).resolve()
+    if isinstance(src, Path) and not src.exists():
+        log(f"frames: {src} not found")
+        return 1
+    with tempfile.TemporaryDirectory() as tmp:
+        frames_dir = a.out.parent if a.keep_frames else Path(tmp)
+        with similar.FrameGrabber() as g:
+            duration, paths = motion.probe(src, g, frames_dir, a.out.stem)
+        fields = motion.measure(paths)
+        motion.strip(paths, a.out)
+    print(f"{a.out}: {f'{duration:.2f}' if duration else '?'} s; "
+          + " ".join(f"{k}={v}" for k, v in fields.items()))
+    return 0
+
+
+def cmd_motion(a):
+    from . import motion
+    mapping = attrs.load(a.attrs)
+    if a.summary or a.write_doc:
+        summ = motion.summary(mapping)
+        for fam, s in summ.items():
+            print(f"  {fam:20} {motion.motion_line(fam, s)[len('**Motion:** '):]}")
+        if a.write_doc:
+            written = motion.write_doc(summ, a.doc)
+            print(f"motion: **Motion:** line set for {len(written)} families -> {a.doc}")
+        return 0
+    con = db.connect(a.db)
+    clips = {r["src"]: r["local_path"] for r in con.execute(
+        "SELECT DISTINCT src, local_path FROM media WHERE kind = 'video' AND local_path IS NOT NULL")}
+    changed, stats = attrs.backfill_motion(mapping, clips, frames_dir=a.frames, limit=a.limit, force=a.force, log=log)
+    n = 0
+    if changed:
+        mapping = attrs.merge_save(changed, a.attrs)
+        n = attrs.apply(con, mapping)
+    print(f"motion: {stats['measured']}/{stats['todo']} videos measured, {len(stats['skipped'])} skipped, "
+          f"{n} media rows touched -> {a.attrs}")
+    for src in stats["skipped"][:10]:
+        print(f"  skipped {src}")
     return 0
 
 

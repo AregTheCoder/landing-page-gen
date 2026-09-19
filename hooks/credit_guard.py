@@ -37,8 +37,12 @@ def main():
              "preflight quote and move on.")
 
     rows = L.ledger_rows(run)
+    short = L.short_tool(tool)
     model = L.model_of(tool, data.get("tool_input", {}))
-    quote = L.quote_for(rows, model)
+    quote = L.quote_for(rows, model, short)
+    if quote is None and short in L.RENDER_TOOLS:
+        deny(f"{short} is an MP Scene render with no measured price yet. Outside a run: render once, "
+             f"read the picsart_credits delta, write it into hooks/_ledger.RENDER_PRICE, then retry.")
     if quote is None:
         deny(f"No preflight quote for model {model!r} in this run. Call picsart_preflight "
              f"with the same model and params first.")

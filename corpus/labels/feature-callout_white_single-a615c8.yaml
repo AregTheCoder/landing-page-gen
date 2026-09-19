@@ -1,0 +1,121 @@
+sheet: feature-callout_white_single-a615c8
+group:
+  type: feature-callout
+  ground: white
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_white_single-a615c8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e52e7df1-7a99-457c-82da-75c93cde7d92.webp
+    asset: e52e7df1
+    page: brand-kit-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/3e1bccb3-5085-46eb-9a9f-b75314180d8e.png
+    asset: 3e1bccb3
+    page: brand-identity-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/5f3c7799-67ea-436a-8680-be451591f670.png
+    asset: 5f3c7799
+    page: png-logo-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/7e048761-e836-4799-8cc7-64defe051952.png
+    asset: 7e048761
+    page: png-logo-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png
+    asset: 8561e8a4
+    page: png-logo-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/946febf9-c714-4f6b-ba0d-56497504060b.png
+    asset: 946febf9
+    page: png-logo-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/bff59f10-2680-4b5c-a2cb-6867645d9a7a.png
+    asset: bff59f10
+    page: png-logo-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

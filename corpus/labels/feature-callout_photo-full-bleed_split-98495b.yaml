@@ -1,0 +1,92 @@
+sheet: feature-callout_photo-full-bleed_split-98495b
+group:
+  type: feature-callout
+  ground: photo-full-bleed
+  layout: split
+fields:
+- art_style
+- before_after
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_photo-full-bleed_split-98495b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9a903c68-e66a-4b63-ae4a-ebab3398abea.avif
+    asset: 9a903c68
+    page: ai-models--gpt-2
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b2d07389-f262-40f5-bb72-b3015d4b7b07.avif
+    asset: b2d07389
+    page: ai-design-generator
+    slot: S08-m4
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b5566a41-5bc5-494b-abf2-893833c930b0.avif
+    asset: b5566a41
+    page: ai-models--flux-kontext-max
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ee32a7c1-3d97-4c6f-ae04-9c6186efa5b1.avif
+    asset: ee32a7c1
+    page: ai-design-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/3d65a628-c41d-4d5d-813c-0c7b2c8820dc.avif
+    asset: 3d65a628
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false

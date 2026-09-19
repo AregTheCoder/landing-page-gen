@@ -11,7 +11,13 @@ from pathlib import Path
 PAID_TOOLS = (
     "picsart_generate", "picsart_enhance", "picsart_remove_bg",
     "picsart_change_bg", "picsart_vectorize",
+    "picsart_media_video_render", "picsart_media_export", "picsart_media_video_create",
 )
+# MP Scene renders (the `motion` node's engines): paid per render, no preflight,
+# and no price known yet. The guard denies them until a measured price lands in
+# RENDER_PRICE (read one render's picsart_credits delta, then write it here).
+RENDER_TOOLS = ("picsart_media_video_render", "picsart_media_export", "picsart_media_video_create")
+RENDER_PRICE = {}
 SPEND_CONNECTOR = "mcp__b05f6314"
 DEFAULT_MODELS = {
     "picsart_enhance": "picsart-enhance",
@@ -67,18 +73,23 @@ def last_quote(rows, model):
     return None
 
 
-def quote_for(rows, model):
-    """Credits for a paid call: a flat-rate edit model's fixed price, or the
-    last preflight quote for a generate model (None when it was not
-    preflighted)."""
+def quote_for(rows, model, tool=None):
+    """Credits for a paid call: a flat-rate edit model's fixed price, an MP Scene
+    render's measured price, or the last preflight quote for a generate model
+    (None when it was not preflighted, or the render is not priced yet)."""
+    if tool in RENDER_TOOLS:
+        return RENDER_PRICE.get(tool)
     if model in FIXED_PRICE:
         return FIXED_PRICE[model]
     return last_quote(rows, model)
 
 
 def row_cost(row):
-    if row.get("tool") not in PAID_TOOLS:
+    tool = row.get("tool")
+    if tool not in PAID_TOOLS:
         return 0
+    if tool in RENDER_TOOLS:
+        return RENDER_PRICE.get(tool, 0)
     model = row.get("model")
     if model in FIXED_PRICE:
         return FIXED_PRICE[model]

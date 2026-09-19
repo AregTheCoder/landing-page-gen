@@ -42,7 +42,11 @@ page's families are covered.
    (link-grid thumbnails resolve there); list them in the report with the
    family name and skip. Sections with no remaining slots get no worker.
    Video slots take the family of their poster frame and are briefed as
-   that family's main panel; compose is skipped for video.
+   that family's main panel; compose is skipped for video. Their
+   `> duration:` line is the original clip's length: keep it (the final
+   matches it, `budget.video_seconds` capping) or override it with a
+   number; `brief.py` turns it into the brief's `## Video` section and
+   asks `similar` for clips (`--kind video`, excerpted as 3-frame strips).
 4. A `> style:` is yours to decide when it reads TODO, and also when its
    `> attrs:` line says `chrome=unanswered` and the slot's row in the
    `## Slot classes` table lists any chrome family (dark-composite,

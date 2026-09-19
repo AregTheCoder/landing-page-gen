@@ -29,6 +29,17 @@ slots:
     credits: 17
     scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
     workflow_score: {justified: 5, gated: 5, quote_respected: 5, board: 5}
+  S03-m2:                           # a video slot adds two keys
+    chosen: https://.../clip.mp4    # the final clip URL from picsart_job_status
+    local: steps/S03-m2-5-1.mp4
+    poster: steps/S03-m2-3-1.png    # the accepted still (the startFrame); lp-inject ships it as the <video poster>
+    duration_s: 10                  # the clip's measured length (probe_media); the brief names the target
+    pattern: still-to-motion
+    board: blank
+    nodes: 5
+    credits: 90
+    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4, first_frame: 5, motion: 4, loop: 4}
+    workflow_score: {justified: 5, gated: 5, quote_respected: 5, board: 5}
 status: done | blocked
 ---
 

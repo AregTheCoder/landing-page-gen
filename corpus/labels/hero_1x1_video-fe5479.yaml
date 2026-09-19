@@ -1,0 +1,260 @@
+sheet: hero_1x1_video-fe5479
+group:
+  type: hero
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_1x1_video-fe5479.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/871b4ccf-9d8d-41b5-927b-c7a32b9f86be.webm
+    asset: 871b4ccf
+    page: ai-models--sora-2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    duration: 7.17
+    motion: 0.1752
+    pace: fast
+    loop: false
+    loop_seam: 0.639
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/89bcf94c-9a62-42c1-afdd-acd39fee3b8d.webm
+    asset: 89bcf94c
+    page: collage-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.57
+    motion: 0.2758
+    pace: fast
+    loop: false
+    loop_seam: 0.634
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/99df3bd1-df8d-430b-a5ec-860bbd80cf3d.webm
+    asset: 99df3bd1
+    page: design--posters
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.01
+    motion: 0.1581
+    pace: fast
+    loop: false
+    loop_seam: 0.585
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm
+    asset: a1892296
+    page: ai-models--flux-video-upscale
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 7
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.15
+    motion: 0.1753
+    pace: fast
+    loop: false
+    loop_seam: 0.538
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a38c6975-e40a-4409-9297-64e8cc0ff6ab.webm
+    asset: a38c6975
+    page: instagram-video-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.9
+    motion: 0.0201
+    pace: slow
+    loop: true
+    loop_seam: 0.992
+    camera: static
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a43829d4-fb27-4458-b7d2-c7cdd9e78b7a.webm
+    asset: a43829d4
+    page: design--wallpapers
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1986
+    pace: fast
+    loop: false
+    loop_seam: 0.674
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm
+    asset: a7561669
+    page: ai-models--grok-imagine-1-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.97
+    motion: 0.0388
+    pace: slow
+    loop: true
+    loop_seam: 0.921
+    camera: static
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a8f3faaf-be58-454c-8c60-4355a2b8dfcc.webm
+    asset: a8f3faaf
+    page: design--youtube-thumbnails
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 13.4
+    motion: 0.1166
+    pace: fast
+    loop: false
+    loop_seam: 0.799
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac93b48e-da18-452f-87de-58c717e0ec44.webm
+    asset: ac93b48e
+    page: flip-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.23
+    motion: 0.0925
+    pace: medium
+    loop: false
+    loop_seam: 0.719
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bdc00d0f-8e7c-4279-ad7a-804a1b254354.webm
+    asset: bdc00d0f
+    page: image-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.8
+    motion: 0.0946
+    pace: medium
+    loop: true
+    loop_seam: 0.903
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c2476feb-3776-4ffb-bad5-f5ceef9298f0.webm
+    asset: c2476feb
+    page: ai-replace
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 12.93
+    motion: 0.3574
+    pace: fast
+    loop: false
+    loop_seam: 0.782
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c5417411-8198-46ce-9f41-a63c4c61fd82.webm
+    asset: c5417411
+    page: ai-template-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 12.03
+    motion: 0.1583
+    pace: fast
+    loop: false
+    loop_seam: 0.838

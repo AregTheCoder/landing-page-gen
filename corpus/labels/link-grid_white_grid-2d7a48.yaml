@@ -1,0 +1,106 @@
+sheet: link-grid_white_grid-2d7a48
+group:
+  type: link-grid
+  ground: white
+  layout: grid
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_grid-2d7a48.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp
+    asset: 22f2e909
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp?type=webp&to=min&r=640
+    asset: 22f2e909
+    page: compare-models
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp
+    asset: 87d69495
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 11
+    n_pages: 11
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp?type=webp&to=min&r=640
+    asset: 87d69495
+    page: compare-models
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp
+    asset: bcda3031
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bcda3031-8a2b-4909-8c3e-2f0f7e30a0f7.webp?type=webp&to=min&r=640
+    asset: bcda3031
+    page: compare-models
+    slot: S02-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false

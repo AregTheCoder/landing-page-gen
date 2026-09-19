@@ -99,6 +99,61 @@ def test_recipe_only_enforced_when_family_is_known():
                         "final": {"url": "u"}}) == []               # no family -> not enforced
 
 
+def video_node(i, model, upstream, **params):
+    p = {"prompt": PROMPT, "aspectRatio": "1:1", "resolution": "720p", "duration": 5,
+         "generateAudio": False, "async": True, "extra": {"startFrame": f"<step {upstream} passed>"}}
+    p.update(params)
+    return {"id": i, "node": "video", "in": [upstream], "tool": "picsart_generate", "model": model,
+            "params": p, "quoted_credits": 10, "gate": "first frame equals the still", "status": "done"}
+
+
+def video_board():
+    """full-bleed still recipe then the two planned video nodes: mini draft, final."""
+    doc = board_of("full-bleed", ["image", "image", "enhance"])
+    doc["kind"] = "video"
+    doc["steps"] += [video_node(4, "seedance-2.0-mini", 3), video_node(5, "seedance-2.5", 3)]
+    return doc
+
+
+def test_video_recipe_is_the_still_recipe_plus_draft_and_final():
+    assert board.recipe_row("full-bleed", "video") == "generate -> i2i refine -> enhance -> video draft (mini) -> video final"
+    assert board.recipe_row("full-bleed") == "generate -> i2i refine -> enhance"
+    assert board.check(video_board()) == []
+    shallow = video_board()
+    shallow["steps"].pop()  # final missing
+    assert any("plans a video node (a mini draft and a final" in p for p in board.check(shallow))
+    # a record without kind: is a video board when it has a video node
+    doc = video_board()
+    doc.pop("kind")
+    assert board.board_kind(doc) == "video" and board.check(doc) == []
+
+
+def test_video_node_non_negotiables_are_checked_on_the_yaml():
+    def problems(**over):
+        doc = video_board()
+        doc["steps"][4]["params"].update(over)
+        return board.check(doc)
+    assert any("generateAudio: false" in p for p in problems(generateAudio=True))
+    assert any("async: true" in p for p in problems(**{"async": False}))
+    assert any("wires imageUrls" in p for p in problems(imageUrls=["https://x/ref.png"]))
+    assert any("above Seedance's 30 s" in p for p in problems(duration=45))
+    assert any("literal URL" in p for p in problems(extra={"startFrame": "https://x/3.png"}))
+    assert any("not an earlier still node" in p for p in problems(extra={"startFrame": "<step 4 passed>"}))
+    assert any("but in: does not" in p for p in problems(extra={"startFrame": "<step 2 passed>"}))
+    assert any("text-to-motion is not a recipe" in p for p in problems(extra={}))
+    # the final before any mini draft
+    doc = video_board()
+    doc["steps"][3]["model"] = "seedance-2.5"
+    assert any("before a mini draft node" in p for p in board.check(doc))
+    # an extend node takes the earlier clip by reference, and a loop closes on the still
+    doc = video_board()
+    doc["steps"][4]["params"]["extra"]["endFrame"] = "<step 3 passed>"
+    doc["steps"].append(video_node(6, "seedance-2.5-video-extend", 5, extra={}, videoUrls=["<step 5 passed>"]))
+    assert board.check(doc) == []
+    doc["steps"][5]["params"]["videoUrls"] = ["<step 3 passed>"]
+    assert any("not an earlier video node" in p for p in board.check(doc))
+
+
 def test_image_node_off_the_pro_model_needs_a_reason():
     doc = blank_board()
     doc["steps"][0]["model"] = "gemini-3.1-flash-image"

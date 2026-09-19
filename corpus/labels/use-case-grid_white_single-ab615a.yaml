@@ -1,0 +1,31 @@
+sheet: use-case-grid_white_single-ab615a
+group:
+  type: use-case-grid
+  ground: white
+  layout: single
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_white_single-ab615a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18f65df9-9484-4b10-ba74-2e0e6e07be7e.avif
+    asset: 18f65df9
+    page: ai-logo-generator
+    slot: S07-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false

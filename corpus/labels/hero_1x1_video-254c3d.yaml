@@ -1,0 +1,176 @@
+sheet: hero_1x1_video-254c3d
+group:
+  type: hero
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- before_after
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_1x1_video-254c3d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm
+    asset: cbe50cb4
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.25
+    motion: 0.1318
+    pace: fast
+    loop: false
+    loop_seam: 0.585
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf0bb5c6-1b04-4499-bcb9-400ca541859f.webm
+    asset: cf0bb5c6
+    page: ai-models--seedance-1-pro-fast
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.57
+    motion: 0.1461
+    pace: fast
+    loop: false
+    loop_seam: 0.633
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d987f9c0-5edb-4c01-af87-6e899b092608.webm
+    asset: d987f9c0
+    page: compare-models--wan-2-7-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 10.0
+    motion: 0.0311
+    pace: slow
+    loop: true
+    loop_seam: 0.989
+    camera: static
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e0ae15f4-ae29-4c60-bae7-251d0bb90e36.webm
+    asset: e0ae15f4
+    page: print--invitations
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.3
+    motion: 0.2389
+    pace: fast
+    loop: false
+    loop_seam: 0.66
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e495aa5d-3680-44b1-8ed4-a2d4817ae8d9.webm
+    asset: e495aa5d
+    page: print
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.42
+    motion: 0.1176
+    pace: fast
+    loop: false
+    loop_seam: 0.741
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd9fd0f8-2318-4e28-8788-4380bf89c64e.webm
+    asset: fd9fd0f8
+    page: ai-models--happyhorse-1-1
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.17
+    motion: 0.0925
+    pace: medium
+    loop: true
+    loop_seam: 0.913
+    camera: static
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/ac0b7030-099b-4a93-92cf-b92aa3557ce4.psd
+    asset: ac0b7030
+    page: ai-content-generator--meme-text
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/182f18d1-db15-43d0-bb3c-c1a4a34873cf.webm
+    asset: 182f18d1
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.93
+    motion: 0.1405
+    pace: fast
+    loop: false
+    loop_seam: 0.817

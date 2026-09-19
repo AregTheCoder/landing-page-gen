@@ -1,0 +1,31 @@
+sheet: use-case-grid_unknown_unknown-d70d16
+group:
+  type: use-case-grid
+  ground: unknown
+  layout: unknown
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- ground
+- layout
+- panel_count
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_unknown_unknown-d70d16.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/4494bd31-94da-4f87-8f02-c8dd0c468d59.avif
+    asset: 4494bd31
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    before_after: false

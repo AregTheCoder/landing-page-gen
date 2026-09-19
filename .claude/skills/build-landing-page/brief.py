@@ -36,8 +36,9 @@ import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
 
 SLOT_RE = re.compile(r"^```slot\n(.*?)\n```", re.M | re.S)
-SECTION_HEAD_RE = re.compile(r"^## (S\d+) (\w+)", re.M)
-DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device): (.*)$", re.M)
+SECTION_HEAD_RE = re.compile(r"^## (S\d+) ([\w-]+)", re.M)  # types are hyphenated: feature-callout, how-it-works
+DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device|duration): (.*)$", re.M)
+MOTION_LINE_RE = re.compile(r"^\*\*Motion:\*\* (.+)$", re.M)
 N_PLACEHOLDER = re.compile(r" \(n=…\)")
 STANDS_IN = re.compile(r"none;\s*brief as ([a-z0-9-]+)", re.I)
 
@@ -162,11 +163,13 @@ def flow_board(family, device, headline):
                  "--device", device or "none", "--query", headline])
 
 
-def run_similar(run, sxx, section_type, family, page, exclude_ids, query, pool, seed, widen):
+def run_similar(run, sxx, section_type, family, page, exclude_ids, query, pool, seed, widen, kind=None):
     out_dir = run / "sections" / sxx / "examples"
     cmd = ["uv", "run", "lp-corpus", "similar", "--type", section_type,
            "--style", family, "--query", query, "--exclude", page, "-k", "2",
            "--out", str(out_dir)]
+    if kind:
+        cmd += ["--kind", kind]  # a video slot's examples are clips, excerpted as 3-frame strips
     for i in exclude_ids:
         cmd += ["--exclude-asset", i]
     if pool:
@@ -177,6 +180,54 @@ def run_similar(run, sxx, section_type, family, page, exclude_ids, query, pool, 
     excerpts = sorted(out_dir.glob("*.md")) if out_dir.exists() else []
     body = "\n\n".join(f"### {p.name}\n\n{p.read_text().strip()}" for p in excerpts)
     return body or note
+
+
+def target_duration(record, directive, cap):
+    """(target seconds, note): the `> duration:` line's leading number, else the
+    slot's own duration_s rounded, else 5; never above budget.video_seconds."""
+    m = re.match(r"\s*(\d+(?:\.\d+)?)", directive or "")
+    original = record.get("duration_s")
+    wanted = round(float(m.group(1))) if m else (round(original) if original else 5)
+    wanted = max(4, wanted)
+    if cap and wanted > cap:
+        return cap, f"original {original} s; capped at budget.video_seconds {cap}: note the shortfall in result.md"
+    return wanted, f"original {original} s" if original else "no original length; 5 s default"
+
+
+def video_section(records, fam_block, fm, directive):
+    """The `## Video` paragraph of a video slot's brief: the still-to-motion
+    recipe on the run's models, the target duration per slot (faithful to the
+    original, `> duration:` overriding, budget.video_seconds capping), the
+    family's **Motion:** line and the result keys, per video-workflows.md."""
+    defaults, budget = fm.get("defaults") or {}, fm.get("budget") or {}
+    draft, final = defaults.get("video_draft", "seedance-2.0-mini"), defaults.get("video_model", "seedance-2.5")
+    cap = budget.get("video_seconds", 30)
+    m = MOTION_LINE_RE.search(fam_block)
+    motion = m.group(1) if m else ("no **Motion:** line for this family yet: prompt slow, subtle subject motion on "
+                                   "a static camera and make it loop")
+    lines = [f"**VIDEO slot.** The board is `kind: video`; `lp-flow check` enforces the still recipe plus the two video "
+             f"nodes and every rule in `video-workflows.md`.",
+             "",
+             f"- Still: the family recipe above produces the accepted still. It is the `poster:` and the `startFrame`.",
+             f"- Draft: `{draft}`, 5 s, 720p, `generateAudio: false`, `async: true`, "
+             f"`extra: {{startFrame: \"<step N passed>\"}}` where N is the finishing still node (also in `in:`). "
+             f"Gate the motion on the strip before any final.",
+             f"- Final: `{final}`, same wiring, `duration:` = the target below. Preflight it and record the quote "
+             f"(above 5 s the price is not in tool-map.md). Above 30 s: a `{final}-video-extend` node per remaining stretch.",
+             f"- Motion (what this family's corpus clips do): {motion}",
+             f"- Loop: when the Motion line says the clips loop, add `extra.endFrame: \"<step N passed>\"` on the same still.",
+             "- Target duration:"]
+    for s in records:
+        if s.get("kind") != "video":
+            continue
+        target, note = target_duration(s, directive, cap)
+        lines.append(f"  - {s['id']}: **{target} s** ({note})")
+    lines += ["- After each clip: `curl` it to `steps/`, then `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 "
+              "--out steps/<slot>-<node>-strip.png` and `Read` the strip; `picsart_media_probe_media` gives the length. "
+              "Write the clip URL into the node's `outputs` the instant `job_status` returns it.",
+              "- `result.md`: `chosen:` is the final clip URL, plus `poster:` (the accepted still) and `duration_s:` (measured); "
+              "scores add `first_frame`, `motion`, `loop`."]
+    return "\n".join(lines)
 
 
 def headline_and_body(block):
@@ -207,7 +258,9 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
 
     dry = "yes" if (fm.get("budget") or {}).get("dry_run") or _dry(run) else "no"
     budget = (fm.get("budget") or {})
-    cap = budget.get("video_slot" if section_type_is_video(records) else "image_slot", 40)
+    is_video = section_type_is_video(records)
+    kind = "video" if is_video else "image"
+    cap = budget.get("video_slot" if is_video else "image_slot", 40)
 
     parts = []
     parts.append(f"# Brief: {sxx} {section_type}\n")
@@ -226,16 +279,19 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
     parts.append(f"Device: {d.get('device', 'none')}\n")
     parts.append("## Flow board\n")
     parts.append(flow_board(family, device, query) + "\n")
-    parts.append(f"**Planned recipe (mandatory).** Write `family: {family}` on the board and author "
-                 f"the whole recipe up front:\n\n{board.recipe_row(family)}\n\n"
+    parts.append(f"**Planned recipe (mandatory).** Write `family: {family}`" + (" and `kind: video`" if is_video else "")
+                 + f" on the board and author the whole recipe up front:\n\n{board.recipe_row(family, kind)}\n\n"
                  "`lp-flow check` reads `family:` and fails a board that skips a planned node.\n")
+    if is_video:
+        parts.append("## Video\n")
+        parts.append(video_section(records, fam_block, fm, d.get("duration")) + "\n")
     parts.append("## Text in image\n")
     parts.append(text_in_image(d.get("text", "none"), records, section_type) + "\n")
     parts.append("## Slots to produce\n")
     parts.append(slots_table(records, section_type, family + (f"/{ground}" if ground != "default" else ""), device) + "\n")
     parts.append("## Examples from the corpus (same section type)\n")
     parts.append(run_similar(run, sxx, section_type, family, fm.get("page", ""),
-                             exclude_ids, query, pool, seed, widen) + "\n")
+                             exclude_ids, query, pool, seed, widen, kind if is_video else None) + "\n")
     parts.append("## References\n")
     parts.append(references_section(family, cls) + "\n")
     parts.append("Build the photo prompt from this genre; the section copy gives the subject matter.\n")

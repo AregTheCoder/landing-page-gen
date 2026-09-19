@@ -1,0 +1,31 @@
+sheet: link-grid_white_stacked-e47b43
+group:
+  type: link-grid
+  ground: white
+  layout: stacked
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: link-grid_white_stacked-e47b43.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif
+    asset: 5a44d378
+    page: ai-models--dall-e-3
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false

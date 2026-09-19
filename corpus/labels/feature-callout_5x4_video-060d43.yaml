@@ -1,0 +1,190 @@
+sheet: feature-callout_5x4_video-060d43
+group:
+  type: feature-callout
+  ground: '5:4'
+  layout: video
+fields:
+- art_style
+- before_after
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_5x4_video-060d43.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9f9cbd6b-aa59-436b-a39d-09bc31b51bce.webm
+    asset: 9f9cbd6b
+    page: ai-marketing-studio
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0864
+    pace: medium
+    loop: false
+    loop_seam: 0.897
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b490808d-ef8f-4305-9ca6-0cb3dcf0efd1.webm
+    asset: b490808d
+    page: ai-microdrama-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0784
+    pace: medium
+    loop: false
+    loop_seam: 0.807
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b6df7382-8afb-4bbe-9ad8-390e805cfffd.webm
+    asset: b6df7382
+    page: video-studio--video-collage
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    motion: 0.1294
+    pace: fast
+    loop: false
+    loop_seam: 0.72
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e17d25b8-2102-47ea-923e-08bf1a6c9ce4.webm
+    asset: e17d25b8
+    page: video-studio--face-blur
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    motion: 0.092
+    pace: medium
+    loop: false
+    loop_seam: 0.815
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f741aed5-eaeb-4157-9a65-a02a3dccec32.webm
+    asset: f741aed5
+    page: ai-microdrama-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0842
+    pace: medium
+    loop: false
+    loop_seam: 0.874
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/1194069b-7b28-46d2-9f99-5d41e8b9f5f9.webm
+    asset: 1194069b
+    page: audio-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.058
+    pace: medium
+    loop: false
+    loop_seam: 0.884
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/35f70126-3b02-4bc0-9c16-4cd3e9c4a95d.webm
+    asset: 35f70126
+    page: audio-to-video
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.1414
+    pace: fast
+    loop: false
+    loop_seam: 0.888
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/d608ae6a-af4b-44ef-824f-a4925e836cc5.webm
+    asset: d608ae6a
+    page: audio-to-video
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0795
+    pace: medium
+    loop: false
+    loop_seam: 0.898
+  9:
+    src: https://pcdn.picsart.com/cms-uploads/e6060d09-afec-43be-93d1-42272c1a295c.webm
+    asset: e6060d09
+    page: audio-to-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 2
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0608
+    pace: medium
+    loop: false
+    loop_seam: 0.89

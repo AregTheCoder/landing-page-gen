@@ -1,6 +1,7 @@
 """lp-bench pairs each generated crop with the original it replaced, measures
 both alike, and flags what the review rubric would."""
 import json
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
@@ -44,6 +45,38 @@ def test_flags_fire_on_a_pale_small_tile_and_stay_quiet_on_a_faithful_photo(tmp_
     assert "\n| S03-m1 |" in text and "\n| S09-m1 |" in text and "S09-m2" not in text, "one table row per scored slot"
     assert "## Means" in text and "\n| S03 |" in text and "\n| page |" in text
     assert "## Flags" in text and text.index("## Flags") < text.index("S03-m1 (gallery): subject coverage")
+
+
+def test_video_slots_are_scored_on_first_frame_length_and_seam(tmp_path, monkeypatch):
+    run, orig = tmp_path / "run", tmp_path / "orig"
+    gen = run / "dist" / "media" / "gen"
+    gen.mkdir(parents=True)
+    orig.mkdir()
+    photo = (np.random.default_rng(5).uniform(0.4, 1.0, size=(196, 196, 3)) * 255).astype("uint8")
+    (orig / "clip.webm").write_bytes(b"webm")
+    (gen / "S06-m1.mp4").write_bytes(b"mp4")
+    (gen / "S06-m1-poster.png").write_bytes(b"")  # lp-inject's poster copy is not a slot
+    fake = {"clip": (10.1, {"pace": "slow", "loop": True, "loop_seam": 0.95}),
+            "S06-m1": (5.0, {"pace": "slow", "loop": False, "loop_seam": 0.6})}
+
+    def video_stats(path, grabber, tmp):
+        first = Path(tmp) / f"{path.stem}-f0.png"
+        first.parent.mkdir(parents=True, exist_ok=True)
+        Image.fromarray(photo).save(first)
+        duration, fields = fake[path.stem]
+        return duration, first, fields
+    monkeypatch.setattr(bench, "video_stats", video_stats)
+    slots = {"page": "p", "sections": {"S06": {"type": "feature-callout"}}, "slots": {
+        "S06-m1": {"src": "https://cdn/v.webm", "local": str(orig / "clip.webm"), "size": [539, 539]}}}
+    (run / "slots.json").write_text(json.dumps(slots))
+    result = bench.bench(run, tmp_path / "none.yaml")
+    assert [r["slot"] for r in result["rows"]] == ["S06-m1"]
+    assert any(f.startswith("S06-m1 (feature-callout): duration 10.1 s -> 5.0 s") and f.endswith("[duration]") for f in result["flags"])
+    assert any("the original loops and this does not [loop]" in f for f in result["flags"])
+    assert not [f for f in result["flags"] if "[resemblance]" in f or "[geometry]" in f], "same first frame: the picture metrics stay quiet"
+    bench.write_md(result, run / "benchmark.md")
+    text = (run / "benchmark.md").read_text()
+    assert "## Video" in text and "| S06-m1 | 10.1 s / 5.0 s | 0.50 | 0.95 / 0.60 | slow / slow |" in text
 
 
 def card(path, panels):

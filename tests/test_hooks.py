@@ -95,6 +95,48 @@ def test_logger_records_urls_model_and_quote(tmp_path):
     assert "https://gcdn.picsart.com/out.png" in rows[1]["urls"]
 
 
+def test_job_status_row_carries_the_clip_url_and_unlocks_it(tmp_path):
+    """An async video generate returns no URL; the clip arrives via
+    picsart_job_status. Logged at cost 0, it lets a later extend node wire it."""
+    run = make_run(tmp_path, run_credits=300)
+    preflight(run, "seedance-2.5", 35)
+    clip = "https://gcdn.picsart.com/editing-temp/clip.mp4"
+    extend = {"tool_name": GEN, "tool_input": {"model": "seedance-2.5-video-extend", "params": {"videoUrls": [clip]}}}
+    assert decision(run_hook("isolation_guard.py", extend, run))[0] == "deny", "not in the run yet"
+    run_hook("log_generation.py", {
+        "tool_name": "mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_job_status",
+        "tool_input": {"jobId": "job-1"},
+        "tool_response": {"status": "completed", "results": [{"url": clip}]},
+    }, run)
+    rows = [json.loads(l) for l in (run / "ledger.jsonl").read_text().splitlines()]
+    assert rows[-1]["tool"] == "picsart_job_status" and clip in rows[-1]["urls"]
+    assert run_hook("isolation_guard.py", extend, run) is None
+    # the credit guard's spend is untouched by the job_status row
+    out = run_hook("credit_guard.py", {"tool_name": GEN, "tool_input": {"model": "seedance-2.5", "prompt": "x"}}, run)
+    assert out is None  # 0 spent + 35 <= 300
+
+
+def test_mp_scene_render_is_denied_until_priced_then_counted(tmp_path, monkeypatch):
+    run = make_run(tmp_path, run_credits=20)
+    render = {"tool_name": "mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_video_render",
+              "tool_input": {"scene": {"width": 720}}}
+    out = run_hook("credit_guard.py", render, run)
+    assert decision(out)[0] == "deny" and "no measured price" in decision(out)[1]
+    # a measured price makes it an ordinary paid call: allowed, logged, counted toward the cap
+    ledger = HOOKS / "_ledger.py"
+    original = ledger.read_text()
+    ledger.write_text(original.replace("RENDER_PRICE = {}", 'RENDER_PRICE = {"picsart_media_video_render": 15}'))
+    try:
+        assert run_hook("credit_guard.py", render, run) is None
+        run_hook("log_generation.py", {**render, "tool_response": {"url": "https://gcdn.picsart.com/r.mp4"}}, run)
+        rows = [json.loads(l) for l in (run / "ledger.jsonl").read_text().splitlines()]
+        assert rows[-1]["tool"] == "picsart_media_video_render" and rows[-1]["quoted_credits"] == 15
+        out = run_hook("credit_guard.py", render, run)
+        assert decision(out)[0] == "deny" and "budget exceeded" in decision(out)[1], "15 spent + 15 > 20"
+    finally:
+        ledger.write_text(original)
+
+
 def test_check_result_blocks_until_contract_is_met(tmp_path):
     run = make_run(tmp_path)
     section = run / "sections" / "S03"

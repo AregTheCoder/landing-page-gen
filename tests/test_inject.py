@@ -54,6 +54,27 @@ def test_inject_fills_placeholders_keeps_and_rewrites_text(tmp_path):
     assert soup.select_one('[data-lp-t="S01-t2"]').get_text(" ", strip=True).startswith("Turn your story"), "unchanged text left alone"
 
 
+def test_inject_ships_a_video_with_its_poster_and_playback_attributes(tmp_path):
+    run = build_run(tmp_path)
+    clip, still = tmp_path / "clip.mp4", tmp_path / "still.png"
+    clip.write_bytes(b"\x00\x00\x00\x18ftypmp42 not a real clip")
+    Image.new("RGB", (1280, 1280), "blue").save(still)       # the accepted 1:1 still of a 16:9 slot
+    md = (run / "skeleton.md").read_text()
+    md = md.replace("id: S02-m1\nkind: video\n", f"id: S02-m1\nkind: video\nchosen: {clip}\nposter: {still}\nduration_s: 8\n", 1)
+    (run / "page.md").write_text(md)
+
+    report = inject.inject(run, log=lambda m: None, localise_css_assets=False)
+    assert report["filled"] == ["S02-m1"]
+    from bs4 import BeautifulSoup
+    video = BeautifulSoup((run / "dist" / "index.html").read_text(), "html.parser").select_one('[data-lp="S02-m1"]')
+    assert video.name == "video" and video["src"] == "media/gen/S02-m1.mp4"
+    assert (run / "dist" / "media" / "gen" / "S02-m1.mp4").read_bytes() == clip.read_bytes(), "the clip is copied as it is"
+    assert video["poster"] == "media/gen/S02-m1-poster.png"
+    assert Image.open(run / "dist" / "media" / "gen" / "S02-m1-poster.png").size == (640, 360), "the poster is fitted like an image"
+    for attr in ("muted", "autoplay", "loop", "playsinline"):
+        assert video.has_attr(attr)
+
+
 def test_looks_like_html_detects_a_stale_chunk():
     # A stale, redeployed chunk serves the app-shell HTML with a 200 — must not
     # be saved as CSS (the live-5 formatting bug).
