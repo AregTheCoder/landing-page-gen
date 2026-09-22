@@ -21,6 +21,9 @@ COLUMNS = 4
 # what a sheet always asks for: the fields no pixel statistic can settle
 SEMANTIC = ("chrome", "text_in_image", "ui_mockup", "subject", "art_style", "description",
             "family_hint", "confidence")
+# asked only on a composition sheet (the layered-chrome campaign), never on a
+# first-pass sheet; kept apart so `fields_for` stays a first-pass question.
+COMPOSITION = ("chrome_items",)
 
 
 def semantic_for(rec):

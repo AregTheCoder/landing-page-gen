@@ -87,7 +87,8 @@ Tagging attributes (`lp-corpus attrs`, values exactly as `attrs.FIELDS`):
 
 - **ground**: black | white | light-grey | solid-colour | gradient | photo-full-bleed | checkerboard | mixed
 - **layout**: single | two-up | split | column-main | grid | stacked | overlay
-- **chrome**: tile | pill | chip | brackets | badge | button | prompt-panel | mockup-card | model-logo | vs-badge | play-button | cursor | selection-handles | slider | arrow | size-label | swatch | adjust-panel
+- **chrome**: tile | pill | chip | brackets | badge | button | prompt-panel | mockup-card | model-logo | vs-badge | play-button | cursor | selection-handles | slider | arrow | size-label | swatch | adjust-panel | option-list | tab-row | waveform | timeline | dropdown | step-chip | toggle | volume | colour-picker | progress | loupe | crop-grid
+- **chrome_items**: the same chrome as a list with geometry — each entry a kind (from the chrome vocabulary above) plus its placement (overlay on a picture, or beside it), an optional anchor, count, state (active/on/value) and text; the plain `chrome` field is the set of the kinds present.
 - **text_in_image**: none | labels-only | headline | body
 - **ui_mockup**: none | editor-canvas | app-card | prompt-ui | product-card | browser-window | phone-frame
 - **subject**: person | product | scene | food | animal | abstract | typography | illustration | object | multiple

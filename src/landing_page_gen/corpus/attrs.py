@@ -31,6 +31,25 @@ FRAME_DEADLINE = 25  # seconds per video before Chromium is assumed hung
 POSTER_SUFFIXES = (".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif")
 FRAME_CHUNK = 8      # videos per child process
 
+# Every chrome kind the corpus can carry. The first 18 are the original bag;
+# the rest name recurring layered controls the bag could not distinguish
+# (mined from the descriptions: option lists, tab rows, waveforms, timelines,
+# dropdowns, step chips, toggles) plus a few the catalogue anticipates
+# (volume, colour-picker, progress, loupe, crop-grid). `slider` still stands for
+# both an adjustment track and a before/after handle; slice B splits it into
+# `adjust-slider` and `compare-handle` together with the taxonomy rules that
+# read them. `chrome_items` (below) carries the same kinds with geometry.
+CHROME_KINDS = (
+    "tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
+    "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch",
+    "adjust-panel", "option-list", "tab-row", "waveform", "timeline", "dropdown", "step-chip", "toggle",
+    "volume", "colour-picker", "progress", "loupe", "crop-grid",
+)
+# Where a chrome item sits, and the vocab `chrome_items` states are validated against.
+CHROME_PLACEMENTS = ("overlay", "beside")
+CHROME_ANCHORS = ("tl", "tr", "bl", "br", "top", "bottom", "left", "right", "centre")
+CHROME_STATE_KEYS = ("active", "on", "value")
+
 # field -> (enum values, or a JSON type name; one-line definition the model reads)
 FIELDS = {
     "ground": (("black", "white", "light-grey", "solid-colour", "gradient", "photo-full-bleed", "checkerboard", "mixed"),
@@ -40,9 +59,7 @@ FIELDS = {
                "column-main = a narrow column of small items beside one main panel; grid = 3+ equal cells; "
                "stacked = panels one above the other; overlay = a card or cutout laid over a picture or ground"),
     "panel_count": ("integer", "number of rounded picture areas (photos, renders, cutouts), 0 to 8; chrome does not count"),
-    "chrome": (("tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
-                "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch",
-                "adjust-panel"),
+    "chrome": (CHROME_KINDS,
                "every non-photo element present: tile = black square with a white line icon; pill = rounded label over a "
                "photo; chip = small dark or white label; brackets = white L corners marking a crop; badge = small "
                "coloured square with a check; button = solid rounded call-to-action; prompt-panel = dark card with "
@@ -50,7 +67,18 @@ FIELDS = {
                "model-logo = a third-party model mark; vs-badge = a round VS mark; play-button = a triangle over a "
                "still; cursor and selection-handles = editor furniture; slider = a labelled track with a knob (an adjustment "
                "control) or a before/after handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
-               "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values)"),
+               "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values); "
+               "option-list = a list of choices with one highlighted (a model or style picker); tab-row = a row of tabs, "
+               "one active; waveform = an audio waveform strip; timeline = a video scrubber or timeline; dropdown = a "
+               "closed menu control; step-chip = a numbered step marker (1, 2, 3); toggle = an on/off switch; volume = a "
+               "speaker icon with a level; colour-picker = a colour wheel or eyedropper with a hex; progress = a loading "
+               "bar or 'Generating…' state; loupe = a magnified detail inset; crop-grid = a 3x3 rule-of-thirds crop grid"),
+    "chrome_items": ("items",
+                     "the same chrome as a list, one entry per element, each {kind (from the chrome vocabulary), "
+                     "placement: overlay (drawn on a picture) | beside (on the ground next to it), optional anchor "
+                     "(tl tr bl br top bottom left right centre), optional count (>=1), optional state {active, on, "
+                     "value}, optional text (<=40 chars, `|`-joined when count>1)}; the plain `chrome` bag is the set "
+                     "of the kinds here"),
     "text_in_image": (("none", "labels-only", "headline", "body"),
                       "none; labels-only = only short labels on chrome; headline = a designed headline or slogan "
                       "inside a picture or card; body = sentences of readable text"),

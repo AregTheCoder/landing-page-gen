@@ -47,13 +47,17 @@ def build(tmp_path, slugs, monkeypatch):
 
 
 def test_vocabulary_covers_every_field_and_the_rules_are_total():
-    asked = set(sheets.SEMANTIC) | set(measure.FIELDS) | set(attrs.VIDEO_MEASURED) | set(attrs.VIDEO_SEMANTIC)
+    asked = (set(sheets.SEMANTIC) | set(sheets.COMPOSITION) | set(measure.FIELDS)
+             | set(attrs.VIDEO_MEASURED) | set(attrs.VIDEO_SEMANTIC))
     assert asked == set(attrs.FIELDS), "every field is either measured or asked for on a sheet"
     assert set(measure.FIELDS) & set(sheets.SEMANTIC) == set(), "and never both"
     assert set(attrs.VIDEO_MEASURED) & set(attrs.VIDEO_SEMANTIC) == {"camera"}, "camera: measured when it holds, else asked"
+    sample = {"integer": 1, "number": 1, "boolean": True, "string": "x",
+              "items": [{"kind": attrs.CHROME_KINDS[0], "placement": "beside"}]}
     for name, (values, definition) in attrs.FIELDS.items():
-        assert isinstance(values, tuple) or values in ("integer", "number", "boolean", "string"), name
-        assert definition and label.check(name, next(iter(values)) if isinstance(values, tuple) else 1)[1] is None
+        assert isinstance(values, tuple) or values in sample, name
+        good = next(iter(values)) if isinstance(values, tuple) else sample[values]
+        assert definition and label.check(name, good)[1] is None
     assert set(attrs.ENUMS["family_hint"]) == set(db.STYLES) | {"other"}
     # every ground x layout x art_style combination has an answer or is honestly unresolved
     for g in attrs.ENUMS["ground"]:
@@ -432,3 +436,55 @@ def test_checkpoints_append_a_partial_delta_not_a_full_resave(tmp_path, monkeypa
     assert stats["measured"] == 5, "the seeded record is not re-measured (not a corpus row)"
     assert seed in attrs.load(yml), "the seeded record survives the final save"
     assert not partial.exists()
+
+
+# --- chrome_items schema (layered-template overhaul, slice A) --------------
+
+def test_chrome_items_kinds_pin_the_chrome_enum():
+    assert set(attrs.FIELDS["chrome"][0]) == set(attrs.CHROME_KINDS)
+    assert attrs.FIELDS["chrome_items"][0] == "items"
+
+
+def test_chrome_items_validation_normalises_and_rejects():
+    ok, err = label.check("chrome_items", [{"kind": "option-list", "placement": "beside",
+                                            "anchor": "left", "count": 2, "state": {"active": 1}, "text": "Seedance"}])
+    assert err is None
+    assert ok == [{"kind": "option-list", "placement": "beside", "anchor": "left",
+                   "count": 2, "state": {"active": 1}, "text": "Seedance"}]
+    assert label.check("chrome_items", [{"kind": "tile", "placement": "beside", "count": 1}])[0] == \
+        [{"kind": "tile", "placement": "beside"}], "defaults normalised out"
+    for bad in ([{"kind": "telephone", "placement": "beside"}],
+                [{"kind": "tile", "placement": "under"}],
+                [{"kind": "tile", "placement": "beside", "anchor": "nowhere"}],
+                [{"kind": "tile", "placement": "beside", "count": 0}],
+                [{"kind": "tile", "placement": "beside", "state": {"zoom": 2}}],
+                [{"kind": "tile", "placement": "beside", "text": "x" * 41}],
+                [{"placement": "beside"}], "not-a-list"):
+        assert label.check("chrome_items", bad)[1] is not None, bad
+
+
+def test_cell_answer_reconciles_bag_and_items():
+    clean, errors = label.cell_answer({"chrome_items": [{"kind": "tile", "placement": "beside"},
+                                                        {"kind": "chip", "placement": "overlay"}]})
+    assert clean["chrome"] == ["chip", "tile"] and not errors
+    clean, errors = label.cell_answer({"chrome": ["tile"],
+                                       "chrome_items": [{"kind": "chip", "placement": "overlay"}]})
+    assert "chrome_items" not in clean and any("!=" in e for e in errors)
+
+
+def test_derive_items_fills_only_the_unambiguous_cases():
+    stats = {"derived": 0}
+    empty = {"chrome": []}
+    label.derive_items(empty, stats)
+    assert empty["chrome_items"] == []
+    beside = {"chrome": ["tile"]}
+    label.derive_items(beside, stats)
+    assert beside["chrome_items"] == [{"kind": "tile", "placement": "beside"}]
+    overlay = {"chrome": ["adjust-panel"]}
+    label.derive_items(overlay, stats)
+    assert overlay["chrome_items"] == [{"kind": "adjust-panel", "placement": "overlay"}]
+    for rec in ({"chrome": ["slider"]}, {"chrome": ["chip"]}, {"chrome": ["tile", "chip"]}, {}):
+        label.derive_items(rec, stats)
+        assert rec.get("chrome_items") is None
+    assert "labelled" not in beside, "a derived item is not an answered one"
+    assert stats["derived"] == 3

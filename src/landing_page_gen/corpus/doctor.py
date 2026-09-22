@@ -130,6 +130,41 @@ def _labels_in_enum(mapping):
     return out
 
 
+def _chrome_items(mapping):
+    """chrome_items must validate, its kinds must equal the plain `chrome` bag,
+    and a chrome-answered asset still missing its items is the campaign backlog."""
+    out = []
+    off_enum = 0
+    off_example = None
+    drift = 0
+    drift_example = None
+    pending = 0
+    for src, rec in mapping.items():
+        items = rec.get("chrome_items")
+        if items is not None:
+            _, err = label.check("chrome_items", items)
+            if err:
+                off_enum += 1
+                off_example = off_example or f"{attrs.asset_id(src)} {err}"
+                continue
+            bag = set(rec.get("chrome") or [])
+            if {it["kind"] for it in items} != bag:
+                drift += 1
+                drift_example = drift_example or attrs.asset_id(src)
+        elif rec.get("chrome"):  # a non-empty answered bag with no items yet
+            pending += 1
+    if off_enum:
+        out.append(Finding(ERROR, "chrome-items-off-enum",
+                           f"{off_enum} asset(s) have a chrome_items entry outside the vocabulary, e.g. {off_example}"))
+    if drift:
+        out.append(Finding(ERROR, "chrome-bag-drift",
+                           f"{drift} asset(s) whose chrome_items kinds != the chrome bag, e.g. {drift_example}"))
+    if pending:
+        out.append(Finding(WARN, "chrome-items-pending",
+                           f"{pending} chrome-answered asset(s) still await a labelled composition (chrome_items)"))
+    return out
+
+
 def _orphans(con, mapping):
     db_srcs = {r["src"] for r in con.execute("SELECT DISTINCT src FROM media")}
     orphans = [src for src in mapping if src not in db_srcs]
@@ -173,6 +208,7 @@ def run(db_path=DB_PATH, pages_dir=PAGES_DIR, pool_dir=POOL_DIR,
     findings += _styles_synced(mapping, tags)
     findings += _db_mirror(con, tags)
     findings += _labels_in_enum(mapping)
+    findings += _chrome_items(mapping)
     findings += _orphans(con, mapping)
     findings += _pool(pool_dir)
     return findings

@@ -18,9 +18,20 @@ from pathlib import Path
 
 import yaml
 
+from ..compose.families import FAMILIES as _COMPOSE_FAMILIES
+
 PRO_IMAGE = "gemini-3-pro-image"
 BOARDS = ("blank", "template")
-TEMPLATES_YAML = Path("corpus/flow-templates.yaml")
+# Absolute so `find_templates`/`load_templates` resolve the catalogue whatever
+# the cwd (a hook or a Bash `cd` used to silently read `[]`).
+TEMPLATES_YAML = Path(__file__).resolve().parents[3] / "corpus" / "flow-templates.yaml"
+
+
+def composable(family):
+    """Whether `lp-compose` can draw this family's chrome (it has a template).
+    A family with a `compose` recipe step that is NOT composable yet finishes
+    on an `enhance` upscale instead, until slice B registers its preset."""
+    return family in _COMPOSE_FAMILIES
 
 # Planned, mandatory recipe per family. A board is authored WHOLE from this
 # recipe up front — every planned node is laid down and run, not grown
@@ -46,6 +57,17 @@ RECIPES = {
     "crop-frame":          [_IMG, _IMG, frozenset({"compose"})],
     "before-after":        [_IMG, frozenset({"enhance", "background", "cutout"}), frozenset({"compose"})],
     "cutout-checkerboard": [_IMG, frozenset({"cutout"}), frozenset({"compose"})],
+}
+# A `compose` step only stands for a family `lp-compose` can actually draw.
+# prompt-card, mockup-card and vs-two-up carry a `compose` step here but have no
+# template yet (`Template: none; brief as X`), so demanding one would make every
+# such board un-wireable. Until slice B registers their presets they finish on an
+# `enhance` upscale instead; `composable()` flips them back automatically.
+_COMPOSE = frozenset({"compose"})
+_ENHANCE = frozenset({"enhance"})
+RECIPES = {
+    fam: [(_ENHANCE if step == _COMPOSE and not composable(fam) else step) for step in recipe]
+    for fam, recipe in RECIPES.items()
 }
 
 # A video slot's recipe is its poster family's still recipe followed by the two

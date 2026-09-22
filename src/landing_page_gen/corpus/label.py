@@ -107,6 +107,8 @@ def check(field, value):
             return None, "chrome must be a list"
         bad = [v for v in value if v not in spec]
         return (None, f"chrome: {', '.join(bad)}") if bad else (sorted(set(value)), None)
+    if field == "chrome_items":
+        return _check_items(value)
     if isinstance(spec, tuple):
         return (value, None) if value in spec else (None, f"{field}: {value!r}")
     if spec == "integer":
@@ -124,6 +126,77 @@ def check(field, value):
     return str(value), None
 
 
+def _check_items(value):
+    """(clean chrome_items, error). A list of {kind, placement, anchor?, count?,
+    state?, text?}; the whole field is dropped on any bad item (a guess about
+    layered geometry costs more than a gap), and defaults are normalised out."""
+    if not isinstance(value, list):
+        return None, "chrome_items must be a list"
+    clean = []
+    for i, it in enumerate(value):
+        if not isinstance(it, dict):
+            return None, f"chrome_items[{i}]: not a mapping"
+        kind = it.get("kind")
+        if kind not in attrs.CHROME_KINDS:
+            return None, f"chrome_items[{i}]: kind {kind!r}"
+        placement = it.get("placement")
+        if placement not in attrs.CHROME_PLACEMENTS:
+            return None, f"chrome_items[{i}]: placement {placement!r}"
+        item = {"kind": kind, "placement": placement}
+        anchor = it.get("anchor")
+        if anchor is not None:
+            if anchor not in attrs.CHROME_ANCHORS:
+                return None, f"chrome_items[{i}]: anchor {anchor!r}"
+            item["anchor"] = anchor
+        count = it.get("count", 1)
+        if isinstance(count, bool) or not isinstance(count, int) or count < 1:
+            return None, f"chrome_items[{i}]: count {count!r}"
+        if count != 1:
+            item["count"] = count
+        state = it.get("state")
+        if state is not None:
+            if not isinstance(state, dict) or any(k not in attrs.CHROME_STATE_KEYS for k in state):
+                return None, f"chrome_items[{i}]: state {state!r}"
+            if state:
+                item["state"] = dict(state)
+        text = it.get("text")
+        if text is not None:
+            if not isinstance(text, str) or len(text) > 40:
+                return None, f"chrome_items[{i}]: text"
+            item["text"] = text
+        clean.append(item)
+    return clean, None
+
+
+# Single-kind assets whose one chrome element's placement is unambiguous, so a
+# coarse `chrome_items` can be derived without a labeller looking. `slider`
+# (adjustment vs before/after handle) and a lone chip/button (placement depends
+# on the picture) and every multi-chrome asset are left for the campaign.
+_BESIDE_ALWAYS = {"tile", "prompt-panel", "mockup-card", "swatch", "model-logo", "vs-badge", "size-label"}
+_OVERLAY_ALWAYS = {"pill", "brackets", "badge", "play-button", "cursor", "selection-handles", "adjust-panel", "arrow"}
+
+
+def derive_items(rec, stats):
+    """Fill `chrome_items` from `chrome` where it is unambiguous, in place;
+    idempotent, and never marks the field `labelled` (a derived item is not an
+    answered one). Leaves it absent when a labeller must look."""
+    if rec.get("chrome_items") is not None:
+        return
+    chrome = rec.get("chrome")
+    if chrome is None:
+        return  # never-labelled: no bag to derive from
+    if chrome == []:
+        rec["chrome_items"] = []
+        stats["derived"] = stats.get("derived", 0) + 1
+        return
+    if len(chrome) == 1:
+        k = chrome[0]
+        placement = "beside" if k in _BESIDE_ALWAYS else "overlay" if k in _OVERLAY_ALWAYS else None
+        if placement:
+            rec["chrome_items"] = [{"kind": k, "placement": placement}]
+            stats["derived"] = stats.get("derived", 0) + 1
+
+
 def cell_answer(answer):
     """(clean fields, errors) for one cell's block."""
     clean, errors = {}, []
@@ -135,13 +208,22 @@ def cell_answer(answer):
             errors.append(err)
         else:
             clean[field] = ok
+    # the bag and the items must agree: derive the bag from the items, or drop
+    # the items when a hand-answered bag contradicts them.
+    if "chrome_items" in clean:
+        kinds = sorted({it["kind"] for it in clean["chrome_items"]})
+        if "chrome" in clean and sorted(set(clean["chrome"])) != kinds:
+            del clean["chrome_items"]
+            errors.append("chrome_items kinds != chrome")
+        else:
+            clean["chrome"] = kinds
     return clean, errors
 
 
 def ingest(mapping, out_dir=sheets.LABELS_DIR, log=print):
     """Merge every answered sheet into the mapping in place. Returns
     (mapping, stats)."""
-    stats = {"sheets": 0, "answered": 0, "cells": 0, "unknown": 0, "migrated": 0, "errors": []}
+    stats = {"sheets": 0, "answered": 0, "cells": 0, "unknown": 0, "migrated": 0, "derived": 0, "errors": []}
     today = datetime.date.today().isoformat()
     migrate_files(out_dir, stats)
     for rec in mapping.values():
@@ -186,6 +268,9 @@ def ingest(mapping, out_dir=sheets.LABELS_DIR, log=print):
             rec["sheet"] = man.get("sheet", man_path.stem)
             rec["at"] = today
             stats["cells"] += 1
+    # derive the coarse chrome_items last, so a bag answered this run is covered too
+    for rec in mapping.values():
+        derive_items(rec, stats)
     return mapping, stats
 
 
