@@ -291,6 +291,52 @@ def test_sheets_group_the_pending_assets_and_labels_merge_the_answers(tmp_path):
     assert stats["cells"] == 3, "re-ingesting the same answers is idempotent"
 
 
+def test_composition_sheets_group_by_chrome_combo_and_prefill_the_bag(tmp_path):
+    png = tmp_path / "a.png"
+    Image.new("RGB", (40, 30), "red").save(png)
+    base = {"ground": "black", "layout": "column-main", "panel_count": 2, "before_after": False,
+            "source": "sheet", "type": "feature-callout", "slot": "S06-m1", "size": "card",
+            "aspect_class": "1:1", "kind": "image", "role": "creative", "page_family": "tool",
+            "n_rows": 1, "n_pages": 1, "local": str(png)}
+    mapping = {}
+    for i in range(5):  # the common combo: chrome answered, chrome_items not yet human-labelled
+        mapping[f"https://cdn.x/{i:08x}-aaaa.png"] = dict(base, page=f"p{i}", chrome=["tile", "chip"], labelled=["chrome"])
+    for i in range(5, 7):  # a rarer single-kind combo
+        mapping[f"https://cdn.x/{i:08x}-aaaa.png"] = dict(base, page=f"p{i}", chrome=["pill"], labelled=["chrome"])
+    # excluded: empty bag (nothing to place)
+    mapping["https://cdn.x/ffffff01-bbbb.png"] = dict(base, page="pe1", chrome=[], labelled=["chrome"])
+    # excluded: chrome_items already human-labelled
+    mapping["https://cdn.x/ffffff02-bbbb.png"] = dict(base, page="pe2", chrome=["tile", "chip"],
+        chrome_items=[{"kind": "tile", "placement": "beside"}, {"kind": "chip", "placement": "overlay"}],
+        labelled=["chrome", "chrome_items"])
+    # excluded: chrome never answered at all
+    mapping["https://cdn.x/ffffff03-bbbb.png"] = dict(base, page="pe3")
+
+    built, stats = sheets.build(mapping, tmp_path / "labels", per_sheet=12, thumb=80, columns=4, composition=True)
+    assert stats["pending"] == 7 and stats["sheets"] == 2, "only chrome-answered, items-unlabelled assets"
+    assert built[0]["cells"] == 5 and built[0]["group"] == ("feature-callout", "chip+tile"), "most common combo first"
+    assert built[1]["cells"] == 2 and built[1]["group"] == ("feature-callout", "pill")
+    man = yaml.safe_load((tmp_path / "labels" / f"{built[0]['name']}.yaml").read_text())
+    assert man["fields"] == ["chrome_items"], "the campaign asks only chrome_items"
+    assert man["group"] == {"type": "feature-callout", "chrome": "chip+tile"}
+    assert man["cells"][1]["chrome"] == ["tile", "chip"], "the bag is pre-filled so the labeller only places it"
+    assert "chrome_items:" in sheets.prompt(composition=True) and "placement" in sheets.prompt(composition=True)
+    idx = sheets.write_index(built, tmp_path / "labels", stats, composition=True)
+    assert "| type | chrome | answered |" in (tmp_path / "labels" / "index.md").read_text()
+    assert "Place the chrome" in idx.read_text()
+
+    # a placed answer ingests cleanly: chrome_items becomes labelled, the bag stays the sorted set of kinds
+    answers = {1: {"chrome_items": [{"kind": "tile", "placement": "beside", "count": 2},
+                                    {"kind": "chip", "placement": "overlay", "anchor": "tr", "text": "4K"}]}}
+    (tmp_path / "labels" / man["answers"]).write_text(yaml.safe_dump(answers))
+    merged, _ = label.ingest(mapping, tmp_path / "labels", log=lambda m: None)
+    one = merged[man["cells"][1]["src"]]
+    assert "chrome_items" in one["labelled"] and len(one["chrome_items"]) == 2
+    assert one["chrome"] == ["chip", "tile"], "the bag is derived from the placed kinds"
+    again, stats = sheets.build(merged, tmp_path / "labels", per_sheet=12, thumb=80, columns=4, composition=True)
+    assert stats["pending"] == 6 and again[0]["cells"] == 4, "the freshly-placed cell drops out"
+
+
 def test_rules_table_and_role_fix():
     cases = [
         ({"before_after": True, "ground": "black"}, ("before-after", None)),

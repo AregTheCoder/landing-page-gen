@@ -180,6 +180,10 @@ def main(argv=None) -> int:
     sh.add_argument("--limit", type=int, help="write at most this many sheets (a trial pass)")
     sh.add_argument("--skip-resolved", action="store_true",
                     help="leave out assets the measured fields alone already place in a family")
+    sh.add_argument("--composition", action="store_true",
+                    help="the layered-chrome campaign: lay assets whose chrome bag is answered but whose "
+                         "chrome_items are not yet labelled, grouped by chrome combo (most common first), "
+                         "the bag pre-filled, for a labeller to place")
 
     lb = sub.add_parser("labels", help="Merge every <sheet>.answers.yaml into corpus/attributes.yaml, media.attrs, media.style")
     lb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
@@ -645,9 +649,10 @@ def cmd_sheets(a):
         log(f"sheets: {a.attrs} is empty; run `lp-corpus attrs` first")
         return 1
     built, stats = sheets.build(mapping, a.out, per_sheet=a.per_sheet, thumb=a.thumb, columns=a.columns,
-                                limit=a.limit, skip_resolved=a.skip_resolved)
-    index = sheets.write_index(built, a.out, stats)
-    print(f"sheets: {stats['pending']} assets pending in {stats['groups']} groups -> {stats['sheets']} sheets "
+                                limit=a.limit, skip_resolved=a.skip_resolved, composition=a.composition)
+    index = sheets.write_index(built, a.out, stats, composition=a.composition)
+    kind = "composition " if a.composition else ""
+    print(f"sheets: {stats['pending']} {kind}assets pending in {stats['groups']} groups -> {stats['sheets']} sheets "
           f"({stats['answered']} already answered) in {a.out}; prompt in {index}")
     return 0
 
