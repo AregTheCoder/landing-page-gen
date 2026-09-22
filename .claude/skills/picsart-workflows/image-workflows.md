@@ -139,7 +139,7 @@ Board: START → one `image` node per panel (an `enhance`/`background`/
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
 3. build the compose spec from the plan — never hand-author the item list:
-   `uv run lp-compose spec-from-plan composition-<slot>.yaml --image
+   `uv run lp-compose --spec-from-plan composition-<slot>.yaml --image
    <panel>=steps/<slot>-<node>-1.png ... --out compose-<slot>.yaml`. You add
    only the panel image paths; the family, preset, ground and every chrome
    item come from the plan verbatim (never add, drop, relabel or restate an

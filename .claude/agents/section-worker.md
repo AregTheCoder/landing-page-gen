@@ -33,7 +33,7 @@ need is in that folder; everything you make goes there.
    compose spec is not hand-authored: for a composite slot the manager has
    written `composition-<slot>.yaml` (the panels and chrome items) and a
    `## Panels and keep-clear` table; you generate those panels and build the
-   spec with `lp-compose spec-from-plan` (step 5), adding only image paths.
+   spec with `lp-compose --spec-from-plan` (step 5), adding only image paths.
    Never run `lp-compose --describe`; the brief carries the panels.
 2. Decide the board. Read the brief's `## Flow board` line: the manager
    already ran `lp-flow templates` for your family and device, and the
@@ -89,7 +89,7 @@ need is in that folder; everything you make goes there.
    `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 --out steps/<slot>-<node>-strip.png`
    and `Read` the strip (the reviewer reads the same file); the command
    prints the measured length, pace and loop seam for the note. For a composite slot,
-   first build the spec from the plan — `uv run lp-compose spec-from-plan
+   first build the spec from the plan — `uv run lp-compose --spec-from-plan
    composition-<slot>.yaml --image <panel>=steps/... --out compose-<slot>.yaml`
    (only image paths added; every chrome item comes from the plan verbatim) —
    then the `compose` node runs `uv run lp-compose compose-<slot>.yaml --out

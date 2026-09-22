@@ -62,6 +62,7 @@ SECTION_HEAD_RE = re.compile(r"^## (S\d+) ([\w-]+)", re.M)  # types are hyphenat
 DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device|duration): (.*)$", re.M)
 MOTION_LINE_RE = re.compile(r"^\*\*Motion:\*\* (.+)$", re.M)
 N_PLACEHOLDER = re.compile(r" \(n=…\)")
+EXAMPLES_LINE_RE = re.compile(r"^\*\*Examples:\*\* .*$\n?", re.M)  # corpus asset ids; must not reach a blind worker
 STANDS_IN = re.compile(r"none;\s*brief as ([a-z0-9-]+)", re.I)
 
 
@@ -123,7 +124,12 @@ def family_block(family):
         sm = STANDS_IN.search(tm.group(1))
         if sm and sm.group(1) in blocks:
             stands_in, block = family, blocks[sm.group(1)]
-    return N_PLACEHOLDER.sub("", block), stands_in
+    # drop the block's **Examples:** line: it lists the family's corpus asset
+    # ids, which must not reach a worker (blindcheck refuses a brief that names
+    # the page's own ids) — the worker's examples come from the `## Examples`
+    # (similar) section, never this line.
+    block = EXAMPLES_LINE_RE.sub("", N_PLACEHOLDER.sub("", block)).rstrip()
+    return block, stands_in
 
 
 def signature_checklist(block):
@@ -334,8 +340,8 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
             plan.write_plan(run / "sections" / sxx / fname, cp)
             names.append(fname)
         parts.append(f"A composition plan is written per slot ({', '.join(names)}). Generate the panels above, "
-                     f"then `uv run lp-compose spec-from-plan <plan> --image <panel>=<path> ...` to make the "
-                     f"compose spec; add only image paths.\n")
+                     f"then `uv run lp-compose --spec-from-plan <plan> --image <panel>=<path> ... --out compose-<slot>.yaml` "
+                     f"to make the compose spec; add only image paths.\n")
     parts.append("## Examples from the corpus (same section type)\n")
     parts.append(run_similar(run, sxx, section_type, family, fm.get("page", ""),
                              exclude_ids, query, pool, seed, widen, kind if is_video else None) + "\n")

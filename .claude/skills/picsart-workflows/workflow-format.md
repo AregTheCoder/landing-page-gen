@@ -116,7 +116,7 @@ spec — it never hand-authors the item list:
     node: compose
     in: [1, 2]
     tool: lp-compose
-    # first: uv run lp-compose spec-from-plan composition-S07-m1.yaml \
+    # first: uv run lp-compose --spec-from-plan composition-S07-m1.yaml \
     #          --image photo=steps/S07-m1-1-1.png --image thumb-a=steps/S07-m1-2-1.png \
     #          --out compose-S07-m1.yaml   (adds only image paths; items come from the plan)
     params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}

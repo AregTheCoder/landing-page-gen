@@ -407,7 +407,7 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   fixed template per family: the manager writes `composition-<slot>.yaml` (the
   panels — ratio + keep-clear — and the chrome items with their manager-decided
   labels); the worker generates the panels, builds the compose spec with
-  `lp-compose spec-from-plan` (adding only image paths), and renders it.
+  `lp-compose --spec-from-plan` (adding only image paths), and renders it.
   Chrome labels are a closed manager set the plan carries and precheck enforces
   ("no string twice"); the subject must stay out of each panel's keep-clear
   region. (2026-09-22, layered overhaul)
