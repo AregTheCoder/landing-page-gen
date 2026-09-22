@@ -90,7 +90,7 @@ notes: ''
 
 - t1 h2: Slide to adjust
 
-{_slot("S04-m1", src_id="99999999", local_id="88888888", aspect="4:3")}
+{_slot("S04-m1", src_id="99999999", local_id="88888888", aspect="4:3").replace("size: 300x300", "size: 480x360")}
 > annotation: a portrait, the tool panel over the lower right.
 > style: panel-overlay
 > attrs: ground=photo-full-bleed
@@ -208,3 +208,11 @@ def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
     kc = text.split("## Panels and keep-clear")[1]
     assert "panel [0.425" in kc, "the adjust panel's keep-clear region, computed not guessed"
     assert "(see below)" in text.split("## Panels")[0], "the slots table points at the panel breakdown"
+    # the machine-readable composition plan is written per slot
+    import yaml as _yaml
+    plan_path = run / "sections" / "S04" / "composition-S04-m1.yaml"
+    assert plan_path.exists() and "composition-S04-m1.yaml" in text
+    cp = _yaml.safe_load(plan_path.read_text())
+    assert cp["family"] == "panel-overlay" and cp["size"] == "480x360"
+    assert cp["derived_from"]["style"] == "panel-overlay"
+    assert any(p["panel"] == "photo" and p["keep_clear"] for p in cp["panels"])

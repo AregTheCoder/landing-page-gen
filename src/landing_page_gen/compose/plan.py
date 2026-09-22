@@ -83,6 +83,27 @@ def contract(family, preset=None, size=None):
     return out
 
 
+def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None):
+    """Assemble a composition plan: the panels (ratios + keep-clear) the worker
+    generates and the chrome items the preset draws, tagged with what it was
+    derived from (so a later edit to the skeleton can be caught as stale). The
+    manager may hand-edit the result; `to_spec` turns it into a compose spec."""
+    # the panel ratios and keep-clear fractions do not depend on the render
+    # size, so use the family's own frame; `size` is recorded for the compose step
+    plan = {"slot": slot, "family": family, "size": size,
+            "panels": contract(family, preset),
+            "items": [dict(it) for it in cli.template(family, preset)["chrome"]]}
+    for key, val in (("preset", preset), ("ground", ground), ("derived_from", derived_from)):
+        if val:
+            plan[key] = val
+    return plan
+
+
+def write_plan(path, plan):
+    """Write a composition plan to YAML, item/panel order preserved."""
+    Path(path).write_text(yaml.safe_dump(plan, sort_keys=False, allow_unicode=True))
+
+
 def validate(plan):
     """Problems that would stop a plan from rendering; empty when it is sound."""
     problems = []

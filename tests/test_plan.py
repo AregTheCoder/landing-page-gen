@@ -2,6 +2,7 @@
 and the plan -> compose-spec step."""
 
 import pytest
+from PIL import Image
 
 from landing_page_gen.compose import cli, plan
 
@@ -49,3 +50,22 @@ def test_to_spec_carries_the_plan_verbatim_plus_images():
 def test_keepclear_cli(capsys):
     assert cli.main(["--keepclear", "panel-overlay"]) == 0
     assert "panel" in capsys.readouterr().out
+
+
+def test_build_then_spec_from_plan_round_trips(tmp_path):
+    p = plan.build("dark-composite", "720x720", preset="model-picker",
+                   slot="S07-m1", derived_from={"style": "dark-composite", "device": "model-picker"})
+    assert p["family"] == "dark-composite" and p["preset"] == "model-picker" and p["size"] == "720x720"
+    assert {panel["panel"] for panel in p["panels"]} == {"photo", "thumb-a", "thumb-b"}
+    assert p["derived_from"]["device"] == "model-picker" and plan.validate(p) == []
+    # the plan renders through spec-from-plan + the compose CLI
+    plan.write_plan(tmp_path / "plan.yaml", p)
+    steps = tmp_path / "steps"
+    steps.mkdir()
+    for n in ("photo", "thumb-a", "thumb-b"):
+        Image.new("RGB", (400, 400), "red").save(steps / f"{n}.png")
+    out_spec = tmp_path / "compose-S07-m1.yaml"
+    assert cli.main(["--spec-from-plan", str(tmp_path / "plan.yaml"), "--out", str(out_spec)]
+                    + [f"--image={n}=steps/{n}.png" for n in ("photo", "thumb-a", "thumb-b")]) == 0
+    png = tmp_path / "out.png"
+    assert cli.main([str(out_spec), "--out", str(png)]) == 0 and png.exists()

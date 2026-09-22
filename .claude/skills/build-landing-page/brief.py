@@ -318,6 +318,24 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
     composition = composition_section(family, device)
     if composition:
         parts.append(composition)
+        # write one composition-<slot>.yaml per composable slot: the machine
+        # contract the worker renders (spec-from-plan) and precheck/review read
+        preset = _preset(family, device)
+        derived = {"style": d.get("style"), "device": d.get("device"), "text": d.get("text", "none")}
+        (run / "sections" / sxx).mkdir(parents=True, exist_ok=True)
+        names = []
+        for s in records:
+            cp = plan.build(family, s.get("size"), preset=preset,
+                            ground=(ground if ground != "default" else None), slot=s["id"], derived_from=derived)
+            probs = plan.validate(cp)
+            if probs:
+                raise SystemExit(f"brief.py: {sxx} composition plan for {s['id']}: {'; '.join(probs)}")
+            fname = f"composition-{s['id']}.yaml"
+            plan.write_plan(run / "sections" / sxx / fname, cp)
+            names.append(fname)
+        parts.append(f"A composition plan is written per slot ({', '.join(names)}). Generate the panels above, "
+                     f"then `uv run lp-compose spec-from-plan <plan> --image <panel>=<path> ...` to make the "
+                     f"compose spec; add only image paths.\n")
     parts.append("## Examples from the corpus (same section type)\n")
     parts.append(run_similar(run, sxx, section_type, family, fm.get("page", ""),
                              exclude_ids, query, pool, seed, widen, kind if is_video else None) + "\n")

@@ -259,6 +259,8 @@ def main(argv=None) -> int:
     p.add_argument("--describe", metavar="FAMILY", help="print a family's panels and the ratio to generate each at")
     p.add_argument("--keepclear", metavar="FAMILY", help="print the region each panel must keep clear of its subject")
     p.add_argument("--preset", help="a preset/variant of the family, for --keepclear")
+    p.add_argument("--spec-from-plan", metavar="PLAN", type=Path, help="build a compose spec from a composition plan")
+    p.add_argument("--image", action="append", default=[], metavar="PANEL=PATH", help="a panel image, for --spec-from-plan")
     a = p.parse_args(argv)
     if a.describe:
         print(describe(a.describe))
@@ -267,6 +269,16 @@ def main(argv=None) -> int:
         from . import plan  # lazy: plan imports cli
         size = parse_size(a.spec) if a.spec else None  # optional WxH passed positionally
         print(yaml.safe_dump(plan.keep_clear(a.keepclear, a.preset, size), sort_keys=True).rstrip())
+        return 0
+    if a.spec_from_plan:
+        from . import plan  # lazy
+        if not a.out:
+            p.error("--spec-from-plan needs --out")
+        images = dict(kv.split("=", 1) for kv in a.image)
+        spec = plan.to_spec(yaml.safe_load(a.spec_from_plan.read_text()) or {}, images)
+        a.out.parent.mkdir(parents=True, exist_ok=True)
+        a.out.write_text(yaml.safe_dump(spec, sort_keys=False, allow_unicode=True))
+        print(f"{a.out}: spec from {a.spec_from_plan.name} ({len(images)} panel image(s))")
         return 0
     if not a.spec or not a.out:
         p.error("a spec and --out are required unless --describe is given")
