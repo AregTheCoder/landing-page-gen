@@ -118,34 +118,37 @@ dark-composite, before-after, crop-frame, cutout-checkerboard and
 template-mockup; direct or anchored for full-bleed; series for
 cinematic-still, graphic-collage, outcome-tile and any slot the brief marks
 as a Series; fallback families take the pattern of the family they are
-briefed as. The worker generates the photographic panels only;
-`lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
-<family>` prints the panels and the `aspectRatio` to generate each at.
+briefed as. The worker generates the photographic panels only; `lp-compose` draws ground,
+panels and chrome from the manager's composition plan. Do not run `--describe`:
+the brief's `## Panels and keep-clear` table already lists every panel, the
+ratio to generate it at, and the region each carries an overlay in, and the
+manager has written `composition-<slot>.yaml` with the chrome items.
 Board: START → one `image` node per panel (an `enhance`/`background`/
 `cutout` node for a derived panel) → `compose` with `in:` every panel node
 → END.
-1. one `picsart_generate` per distinct panel that `uv run lp-compose
-   --describe <family>` lists for the brief's `Device:` variant (the plain
-   template when the device is `none` or annotation-carried), `count: 1`, at
-   its ratio, hero in `imageUrls` when anchored; thumbnails (`thumb-a`,
-   `thumb-b`) on `gemini-3-pro-image` like every panel; the prompt describes
-   the photograph only → gate: photo content only, subject inside the panel's
-   crop, nothing from the family's **Never** list, thumbnails in the same
-   finish and palette as the main panel.
+1. one `picsart_generate` per row of the brief's `## Panels and keep-clear`
+   table, `count: 1`, at the row's ratio, hero in `imageUrls` when anchored;
+   thumbnails (`thumb-a`, `thumb-b`) on `gemini-3-pro-image` like every panel;
+   the prompt describes the photograph only and keeps the subject clear of the
+   row's keep-clear region (an overlay sits there) → gate: photo content only,
+   subject inside the panel's crop and out of its keep-clear region, nothing
+   from the family's **Never** list, thumbnails in the same finish and palette
+   as the main panel.
 2. before/after pairs are one photo: the after is `picsart_enhance`,
    `picsart_change_bg` or `picsart_remove_bg` (free; placed `fit: contain`)
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
-3. write `compose-<slot>.yaml` (family, `variant:` exactly as the brief's
-   `Device:` names it when the family draws that device, `size` = the
-   slot's natural size, one image per panel with an anchor; `omit:` any
-   chrome item whose text the model rendered instead, e.g. `omit:
-   [headline]` for `template-mockup`), run `uv run lp-compose
-   compose-<slot>.yaml --out steps/<slot>-<step>-1.png`, `Read` it → gate:
-   panels unstretched, each subject inside its panel, the device's panels
-   and chrome present (thumbnails, list card, second panel), chrome legible
-   at 480 px, chrome text only the family's labels, no string appearing
-   twice (once in the panel, once as chrome). Costs nothing, no preflight.
+3. build the compose spec from the plan — never hand-author the item list:
+   `uv run lp-compose spec-from-plan composition-<slot>.yaml --image
+   <panel>=steps/<slot>-<node>-1.png ... --out compose-<slot>.yaml`. You add
+   only the panel image paths; the family, preset, ground and every chrome
+   item come from the plan verbatim (never add, drop, relabel or restate an
+   item — precheck diffs the spec against the plan). Then render and read it:
+   `uv run lp-compose compose-<slot>.yaml --out steps/<slot>-<step>-1.png`,
+   `Read` it → gate: every plan item present, placed and labelled as the plan
+   says; panels unstretched; each subject inside its panel; chrome legible at
+   480 px; no string appearing twice (once in the panel, once as chrome).
+   Costs nothing, no preflight.
 
 ## Prompt rules
 

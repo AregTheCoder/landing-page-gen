@@ -30,7 +30,11 @@ need is in that folder; everything you make goes there.
    chosen among models, the output applied); each prompt still describes one
    panel, and the `## Slots to produce` table lists every panel of the
    device, thumbnails included, every one on `gemini-3-pro-image`. Your
-   compose spec carries `variant: <device>` exactly as the brief names it.
+   compose spec is not hand-authored: for a composite slot the manager has
+   written `composition-<slot>.yaml` (the panels and chrome items) and a
+   `## Panels and keep-clear` table; you generate those panels and build the
+   spec with `lp-compose spec-from-plan` (step 5), adding only image paths.
+   Never run `lp-compose --describe`; the brief carries the panels.
 2. Decide the board. Read the brief's `## Flow board` line: the manager
    already ran `lp-flow templates` for your family and device, and the
    brief's `## Flow board` states the three template tests (fits, covers every
@@ -84,14 +88,20 @@ need is in that folder; everything you make goes there.
    `curl` it to `steps/`, then
    `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 --out steps/<slot>-<node>-strip.png`
    and `Read` the strip (the reviewer reads the same file); the command
-   prints the measured length, pace and loop seam for the note. `compose` nodes
-   run as `uv run lp-compose compose-<slot>.yaml --out steps/...`; they and
-   `text` nodes cost nothing and need no preflight.
+   prints the measured length, pace and loop seam for the note. For a composite slot,
+   first build the spec from the plan — `uv run lp-compose spec-from-plan
+   composition-<slot>.yaml --image <panel>=steps/... --out compose-<slot>.yaml`
+   (only image paths added; every chrome item comes from the plan verbatim) —
+   then the `compose` node runs `uv run lp-compose compose-<slot>.yaml --out
+   steps/...`. Gate it against the plan (every item present, placed and
+   labelled as the plan says, nothing twice). `compose` and `text` nodes cost
+   nothing and need no preflight.
 6. `uv run lp-flow sheet workflow.yaml` writes `flow.md`: the board as the
    node sheet a person would rebuild on the Flow canvas. Score the final
    asset on the full rubric. Write `result.md` per the output contract in
-   the brief: the frontmatter (with `board:` per slot), the rationale in at
-   most six lines, one line per alternative. Then stop.
+   the brief: the frontmatter (with `board:` per slot, and `plan:`/`compose:`
+   and a `composition` score on a composite), the rationale in at most six
+   lines, one line per alternative. Then stop.
 
 ## When the manager sends "Rework: re-run from node N"
 

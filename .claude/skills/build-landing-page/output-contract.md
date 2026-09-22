@@ -8,7 +8,8 @@ brief.md            written by the manager, read-only
 examples/           corpus excerpts and media, read-only
 workflow.yaml       one Flow board per slot (--- separated), see picsart-workflows/workflow-format.md
 flow.md             the boards as node sheets (`uv run lp-flow sheet workflow.yaml`), what a person would rebuild on the Flow canvas
-compose-<slot>.yaml the lp-compose spec of a composite slot: family, size, one image per panel
+composition-<slot>.yaml the composition plan of a composite slot, written by the manager, read-only: the panels (ratio + keep-clear) and the chrome items
+compose-<slot>.yaml the lp-compose spec, made by the worker with `lp-compose spec-from-plan composition-<slot>.yaml --image <panel>=<path> ... --out compose-<slot>.yaml` (only panel images added; every item comes from the plan)
 steps/              every downloaded intermediate and final asset, named <slot>-<step>-<n>.<ext>
 result.md           frontmatter + prose, format below
 review-N.md         written by the reviewer, one per round
@@ -25,9 +26,11 @@ slots:
     local: steps/S03-m1-4-1.png
     pattern: anchored
     board: blank                    # or "template: <title>"
+    plan: composition-S03-m1.yaml   # composite slots only: the plan the compose spec was built from
+    compose: compose-S03-m1.yaml    # composite slots only: the spec spec-from-plan wrote
     nodes: 4
     credits: 17
-    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
+    scores: {fit: 4, composition: 5, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
     workflow_score: {justified: 5, gated: 5, quote_respected: 5, board: 5}
   S03-m2:                           # a video slot adds two keys
     chosen: https://.../clip.mp4    # the final clip URL from picsart_job_status

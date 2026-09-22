@@ -106,16 +106,22 @@ A video node carries the video non-negotiables explicitly:
 ```
 
 A compose node (composite recipe) is local and free; it is fed by every
-panel node it places:
+panel node it places. The manager writes the composition plan
+(`composition-<slot>.yaml`: panels + chrome items); the worker turns it into
+the spec with `spec-from-plan` (adding only panel images) and renders that
+spec — it never hand-authors the item list:
 
 ```yaml
   - id: 3
     node: compose
     in: [1, 2]
     tool: lp-compose
+    # first: uv run lp-compose spec-from-plan composition-S07-m1.yaml \
+    #          --image photo=steps/S07-m1-1-1.png --image thumb-a=steps/S07-m1-2-1.png \
+    #          --out compose-S07-m1.yaml   (adds only image paths; items come from the plan)
     params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}
     quoted_credits: 0
-    gate: "panels unstretched, subject inside each panel, pills legible at 480 px"
+    gate: "every plan item present, placed and labelled as the plan says; panels unstretched; subject inside each panel; chrome legible at 480 px; no string twice"
     status: pending
     outputs: []              # the local path when done
     passed: null
