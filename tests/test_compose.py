@@ -182,3 +182,33 @@ def test_panel_overlay_fills_the_slot_at_two_aspects_and_tilts(tmp_path):
     with pytest.raises(SystemExit, match="720x720 is not 4:3 or 5:4"):
         cli.load_spec(write_spec(tmp_path, "panel-overlay", size="720x720"))
     assert cli.main(["--describe", "panel-overlay"]) == 0
+
+
+def test_layer_order_and_top_split(tmp_path):
+    """A card on the default `card` layer draws under the panel; lifted to
+    `overlay` it draws over it; on `top` it is composited after the tilt."""
+    steps = tmp_path / "steps"
+    steps.mkdir()
+    img = steps / "p.png"
+    Image.new("RGB", (400, 400), "red").save(img)
+
+    def layout(card_layer, tilt=0):
+        return {"size": (200, 200), "out": (100, 100), "scale": 200 / 1600 * cli.SS, "radius": 0,
+                "ground": {"fill": (0, 0, 0)}, "tilt": tilt,
+                "panels": {"photo": {"rect": (0, 0, 200, 200), "fit": "cover", "anchor": "center",
+                                     "under": None, "image": img}},
+                "chrome": [{"id": "c", "kind": "card", "rect": (40, 40, 160, 160), "fill": (0, 0, 255),
+                            "layer": card_layer}]}
+
+    assert cli.compose(layout("card"))[0].getpixel((50, 50))[:3] == (255, 0, 0), "card under the panel"
+    assert cli.compose(layout("overlay"))[0].getpixel((50, 50))[:3] == (0, 0, 255), "overlay over the panel"
+    assert cli.compose(layout("top"))[0].getpixel((50, 50))[:3] == (0, 0, 255), "top composited after the tilt"
+
+
+def test_unknown_chrome_kind_names_the_registry(tmp_path):
+    layout = {"size": (100, 100), "out": (100, 100), "scale": 0.125, "radius": 0,
+              "ground": {"fill": None}, "tilt": 0, "panels": {},
+              "chrome": [{"id": "x", "kind": "telephone"}]}
+    with pytest.raises(SystemExit) as e:
+        cli.compose(layout)
+    assert "unknown chrome kind" in str(e.value) and "telephone" in str(e.value)
