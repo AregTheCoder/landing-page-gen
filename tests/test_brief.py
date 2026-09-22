@@ -85,6 +85,17 @@ notes: ''
 > text: none
 > device: none: single subject
 > duration: 34  # original 33.74 s
+
+## S04 callout
+
+- t1 h2: Slide to adjust
+
+{_slot("S04-m1", src_id="99999999", local_id="88888888", aspect="4:3")}
+> annotation: a portrait, the tool panel over the lower right.
+> style: panel-overlay
+> attrs: ground=photo-full-bleed
+> text: none
+> device: none: adjustment panel over the photo
 """
 
 
@@ -95,7 +106,7 @@ def build_run(tmp_path):
     slots = {"snapshot": "corpus/pages/testpage/page.html", "source": "https://example.com/testpage/",
              "slots": {}}
     for sid, sc, lc in [("S01-m1", "aaaaaaaa", "bbbbbbbb"), ("S02-m1", "cccccccc", "dddddddd"),
-                        ("S03-m1", "eeeeeeee", "ffffffff")]:
+                        ("S03-m1", "eeeeeeee", "ffffffff"), ("S04-m1", "99999999", "88888888")]:
         slots["slots"][sid] = {"src": f"https://cdn.example.com/{sc}-1111-2222-3333-444444444444.avif",
                                "local": f"x/{sc}-1111-2222-3333-444444444444-{lc}.avif"}
     (run / "slots.json").write_text(json.dumps(slots))
@@ -186,3 +197,14 @@ def test_target_duration_follows_the_directive_then_the_original_then_the_cap(br
     assert brief.target_duration({}, None, 30) == (5, "no original length; 5 s default")
     assert brief.target_duration({"duration_s": 33.74}, "34", 30)[0] == 30
     assert brief.target_duration({"duration_s": 2.5}, None, 30)[0] == 4, "Seedance's floor"
+
+
+def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
+    run = build_run(tmp_path)
+    assert brief.main([str(run), "S04"]) == 0
+    text = (run / "sections" / "S04" / "brief.md").read_text()
+    assert "## Panels and keep-clear" in text
+    assert "| photo | 4:3 |" in text, "the real panel and its generate ratio, not '1 panel'"
+    kc = text.split("## Panels and keep-clear")[1]
+    assert "panel [0.425" in kc, "the adjust panel's keep-clear region, computed not guessed"
+    assert "(see below)" in text.split("## Panels")[0], "the slots table points at the panel breakdown"

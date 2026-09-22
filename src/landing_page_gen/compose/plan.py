@@ -64,6 +64,25 @@ def keep_clear(family, preset=None, size=None):
     return out
 
 
+def contract(family, preset=None, size=None):
+    """The worker's panel contract for a preset: each panel with the ratio to
+    generate it at, its fit, whether it is optional, and the keep-clear regions
+    an overlay covers it with. What the brief hands the worker so it stops
+    guessing '1 panel'."""
+    tmpl, (w, h) = _rect_size(family, preset, size)
+    kc = keep_clear(family, preset, (w, h))
+    out = []
+    for name, p in tmpl["panels"].items():
+        if p["rect"] is None:
+            ratio = families.nearest_ratio(w, h)  # fills the slot
+        else:
+            x0, y0, x1, y1 = p["rect"]
+            ratio = families.nearest_ratio(x1 - x0, y1 - y0)
+        out.append({"panel": name, "ratio": ratio, "fit": p.get("fit", "cover"),
+                    "keep_clear": kc.get(name, [])})
+    return out
+
+
 def validate(plan):
     """Problems that would stop a plan from rendering; empty when it is sound."""
     problems = []
