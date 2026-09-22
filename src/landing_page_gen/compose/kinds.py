@@ -69,7 +69,13 @@ def _brackets(canvas, it, ctx):
     fx0, fy0, fx1, fy1 = it["frac"]
     w, h = x1 - x0, y1 - y0
     return draw.brackets(canvas, (x0 + w * fx0, y0 + h * fy0, x0 + w * fx1, y0 + h * fy1), it.get("label", ""),
-                         ctx.font("brackets"), max(1, round(10 * ctx.s)))
+                         ctx.font("brackets"), max(1, round(10 * ctx.s)), grid=it.get("grid", False))
+
+
+def _crop_badge(canvas, it, ctx):
+    """A black (or `fill`) disc carrying a white line icon, the crop tool's
+    round badge on the seam of the crop-grid cards."""
+    return draw.disc_icon(canvas, it["rect"], it.get("icon", "crop"), tuple(it.get("fill") or (0, 0, 0)))
 
 
 def _badge(canvas, it, ctx):
@@ -154,6 +160,7 @@ KINDS = {
     "pill": Kind(_pill, text=True),
     "label": Kind(_label, text=True),
     "brackets": Kind(_brackets),
+    "crop-badge": Kind(_crop_badge),
     "badge": Kind(_badge),
     "headline": Kind(_headline, text=True),
     "adjust-panel": Kind(_adjust_panel, text=True),

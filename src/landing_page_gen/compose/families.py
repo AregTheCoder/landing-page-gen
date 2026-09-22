@@ -76,6 +76,34 @@ FAMILIES = {
             {"id": "icon", "kind": "icon", "rect": (232, 100, 552, 264), "icon": "enlarge"},
             {"id": "brackets", "kind": "brackets", "at": "source", "frac": (0.30, 0.22, 0.70, 0.66), "label": "x2"},
         ],
+        "variants": {
+            # The crop-image namesake signature (4c0b8b9b S01 hero, c78690a2 S05,
+            # d93605b1 S06, 24e4540f S09): two overlapping rounded photo cards on a
+            # TRANSPARENT ground (measured from alpha: 0.23-0.41 alpha-0 gutters, not
+            # black), the back card under a rule-of-thirds crop grid, the front card
+            # the clean result, a black circular crop badge on the seam, and a dark
+            # rounded ratio/size label. Fills STANDARD.md's deferred `crop-grid`.
+            "crop-grid": {
+                "ground": {"fill": None},
+                "panels": {
+                    "source": {"rect": (600, 110, 1510, 1120)},   # back, gridded
+                    "result": {"rect": (90, 560, 850, 1470)},     # front, clean, overlaps the corner
+                },
+                "chrome": [
+                    # the existing brackets PLUS interior thirds lines (grid: True); inset
+                    # to the back card's outer ~65% so the front card does not cross it
+                    # (639e11c1 interior lines at 1/3, 2/3; c78690a2 frame 613-1463 x 233-1075)
+                    {"id": "grid", "kind": "brackets", "at": "source",
+                     "frac": (0.30, 0.09, 0.95, 0.90), "grid": True},
+                    # black disc + white crop glyph, d~260 on the seam
+                    # (4c0b8b9b d278 @ (230,508); c78690a2 d256 left edge)
+                    {"id": "crop-badge", "kind": "crop-badge",
+                     "rect": (470, 430, 730, 690), "icon": "crop"},
+                    # dark rounded ratio/size label bottom-right (c78690a2 card 496x404 @ (1100,884))
+                    {"id": "ratio", "kind": "label", "rect": (1090, 900, 1560, 1300), "text": "1:1"},
+                ],
+            },
+        },
     },
     "cutout-checkerboard": {
         # Ground is transparent (alpha-0 gutters on every 1:1 asset; the page

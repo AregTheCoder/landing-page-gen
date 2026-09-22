@@ -136,3 +136,14 @@ def test_composition_flags_a_chrome_kind_the_spec_never_draws(tmp_path):
     bench.write_md(result, run / "benchmark.md")
     assert "| chrome orig -> gen |" in (run / "benchmark.md").read_text()
     assert "| option-list+tile -> option-list |" in (run / "benchmark.md").read_text()
+
+
+def test_every_compose_kind_maps_to_a_corpus_chrome_kind():
+    """A compose kind bench cannot map is silently dropped from the chrome
+    comparison, so KINDS and COMPOSE_KIND must not drift; every target is a
+    corpus kind (attrs.CHROME_KINDS) or None for text-only chrome."""
+    from landing_page_gen.compose import kinds
+    from landing_page_gen.corpus import attrs
+    assert set(kinds.KINDS) <= set(bench.COMPOSE_KIND), set(kinds.KINDS) - set(bench.COMPOSE_KIND)
+    assert {v for v in bench.COMPOSE_KIND.values() if v} <= set(attrs.CHROME_KINDS)
+    assert not set(kinds.MODEL_KINDS) & set(kinds.KINDS), "model-rendered kinds are never compose-drawn"

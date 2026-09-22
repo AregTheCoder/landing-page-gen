@@ -3,6 +3,7 @@ hashes:
   before-after+omit: 74c77509545bf7815ebfc5dd7d048c4901d49ae64ce27dcaa25c72bcf1c339fa
   before-after/stacked-square: f12379bf1023d22ee27f71ab673d0d0d5747bda09b0f5772bdac3272ef896879
   crop-frame: 1f3a3fe4a4b9075ab5b712b8ccbbc80754f8b78cbaf39bafbd453a94b4b4a7bb
+  crop-frame/crop-grid: 758227f19374152e9ef1be5032d04a67de75ab5ccf0c094ab93d296e2cd13b3e
   cutout-checkerboard: 519158f56aa157e6628d0df0b63ce8e848fcac9e93e996000e871506f77f1db3
   dark-composite: 5374d0b82af3aff32b089fb20abbfb0e38487783df92d868b0d5df227e8c65d7
   dark-composite/model-picker: 5bcf09a783f1637f42561ebcbd40fef462a098e7637a8c5f41aab887fa111821

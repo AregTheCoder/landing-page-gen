@@ -309,3 +309,24 @@ def test_mockup_card_preset_draws_the_card_right_of_the_photo(tmp_path):
     assert set(drawn) == {"post"}
     assert out_rect(layout_, "photo")[2] < drawn["post"][0], "the mock card sits right of the source photo"
     assert im.mode == "RGB"
+
+
+def test_crop_grid_variant_draws_thirds_grid_badge_and_ratio(tmp_path):
+    spec = _variant_spec(tmp_path, "crop-frame", "crop-grid")  # source red, result blue
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert set(drawn) == {"grid", "crop-badge", "ratio"} and im.mode == "RGBA"
+    assert im.getpixel((2, 2))[3] == 0, "transparent ground (alpha-measured), not the family's black"
+    gx0, gy0, gx1, gy1 = drawn["grid"]
+    third_x, mid_y = gx0 + (gx1 - gx0) / 3, round(gy0 + (gy1 - gy0) / 2)
+    assert max(min(im.getpixel((x, mid_y))[:3]) for x in range(int(third_x) - 2, int(third_x) + 3)) > 200, \
+        "a white interior line at the first third"
+    assert im.getpixel((int(third_x) + 12, mid_y))[:3] == (255, 0, 0), "the source shows between the lines"
+    assert gx0 > out_rect(layout_, "result")[2], "the grid is inset clear of the front card"
+    bx0, by0, bx1, by1 = drawn["crop-badge"]
+    assert im.getpixel((round(bx0 + 6), round((by0 + by1) / 2)))[:3] == (0, 0, 0), "black disc"
+    assert any(min(im.getpixel((x, y))[:3]) > 230 for x in range(round(bx0), round(bx1), 2)
+               for y in range(round(by0), round(by1), 2)), "a white crop glyph"
+    rx0, ry0, rx1, ry1 = out_rect(layout_, "result")
+    sx0, sy0, sx1, sy1 = out_rect(layout_, "source")
+    assert im.getpixel((round((sx0 + rx1) / 2), round((sy1 + ry0) / 2) + 20))[:3] == (0, 0, 255), "the front card covers the overlap"

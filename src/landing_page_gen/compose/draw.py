@@ -195,9 +195,10 @@ def label(canvas, rect, text, radius, fnt, fill=(28, 28, 28, 255)):
     return box_text(canvas, rect, text, fill, WHITE, radius, fnt)
 
 
-def brackets(canvas, rect, text, fnt, stroke, colour=WHITE):
+def brackets(canvas, rect, text, fnt, stroke, colour=WHITE, grid=False):
     """Four L corners plus a tick at each edge midpoint, the label centred
-    below; the crop-selection mark of the crop-frame family."""
+    below; the crop-selection mark of the crop-frame family. `grid` adds the
+    interior rule-of-thirds lines (the crop-grid variant)."""
     x0, y0, x1, y1 = rect
     arm = min(x1 - x0, y1 - y0) * 0.14
     d = ImageDraw.Draw(canvas)
@@ -210,7 +211,24 @@ def brackets(canvas, rect, text, fnt, stroke, colour=WHITE):
         d.line([a, b], fill=colour, width=stroke)
     if text:
         d.text((mx, y1 + arm * 1.2), text, font=fnt, fill=colour, anchor="ma")
+    if grid:
+        thin = max(1, round(stroke * 0.6))
+        for f in (1 / 3, 2 / 3):
+            gx, gy = x0 + (x1 - x0) * f, y0 + (y1 - y0) * f
+            d.line([(gx, y0), (gx, y1)], fill=colour, width=thin)
+            d.line([(x0, gy), (x1, gy)], fill=colour, width=thin)
     return rect
+
+
+def disc_icon(canvas, rect, name, fill=(0, 0, 0)):
+    """A filled circle carrying a white line icon (the crop-tool badge)."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    ImageDraw.Draw(layer).ellipse((x0, y0, x1, y1), fill=tuple(fill) + (255,))
+    inset = (x1 - x0) * 0.30
+    icon(layer, (x0 + inset, y0 + inset, x1 - inset, y1 - inset), name)
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
 
 
 def badge(canvas, rect, radius):
