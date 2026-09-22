@@ -330,3 +330,21 @@ def test_crop_grid_variant_draws_thirds_grid_badge_and_ratio(tmp_path):
     rx0, ry0, rx1, ry1 = out_rect(layout_, "result")
     sx0, sy0, sx1, sy1 = out_rect(layout_, "source")
     assert im.getpixel((round((sx0 + rx1) / 2), round((sy1 + ry0) / 2) + 20))[:3] == (0, 0, 255), "the front card covers the overlap"
+
+
+def test_palette_card_variant_draws_the_swatch_stripe_beside_the_card(tmp_path):
+    colours = [[12, 12, 14], [228, 40, 40], [245, 245, 245], [120, 120, 126]]
+    spec = _variant_spec(tmp_path, "template-mockup", "palette-card", chrome={"swatch": {"colours": colours}})
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert set(drawn) == {"card", "swatch", "tile-accent", "tile-tool"} and im.getpixel((2, 2))[3] == 0
+    x0, y0, x1, y1 = drawn["swatch"]
+    assert x1 < out_rect(layout_, "photo")[0], "the stripe sits in the column left of the card"
+    cx, band = round((x0 + x1) / 2), (y1 - y0) / 4
+    assert [list(im.getpixel((cx, round(y0 + band * (i + 0.5))))[:3]) for i in range(4)] == colours, "four equal bands, in order"
+    assert im.getpixel((round(x0) + 1, round(y0) + 1))[3] < 255, "the outer corners are rounded"
+    ax0, ay0, ax1, _ = drawn["tile-accent"]
+    assert ay0 > y1 and im.getpixel((round(ax0) + 8, round(ay0) + 30))[:3] == (225, 30, 224), "magenta accent under the stripe"
+    row = draw.ground((400, 100), {"fill": None})
+    draw.swatch_stripe(row, (0, 0, 400, 100), [(255, 0, 0), (0, 0, 255)], 0, "row", gap=20)
+    assert row.getpixel((100, 50))[:3] == (255, 0, 0) and row.getpixel((200, 50))[3] == 0 and row.getpixel((300, 50))[:3] == (0, 0, 255)

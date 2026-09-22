@@ -161,6 +161,29 @@ def tile(canvas, rect, name, radius, fill=(0, 0, 0, 255)):
     return rect
 
 
+def swatch_stripe(canvas, rect, colours, radius, direction="column", gap=0):
+    """A rounded tile split into len(colours) equal cells of solid colour; only
+    the OUTER corners are rounded, interior edges butt flush. `direction`
+    stacks the cells down a column (modal) or along a row; `gap` (px) inserts
+    transparent gutters, else cells touch. Generalises tile(name=None), the
+    single flat swatch, to N palette cells."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    n = max(1, len(colours))
+    W, H = x1 - x0, y1 - y0
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    horizontal = direction == "row"
+    span = W if horizontal else H
+    step = (span - gap * (n - 1)) / n
+    for i, c in enumerate(colours):
+        off = i * (step + gap)
+        cell = (off, 0, off + step, H) if horizontal else (0, off, W, off + step)
+        d.rectangle([round(v) for v in cell], fill=tuple(c) + (255,))
+    layer.putalpha(ImageChops.multiply(layer.getchannel("A"), rounded_mask((W, H), radius)))
+    canvas.alpha_composite(layer, (x0, y0))
+    return (x0, y0, x1, y1)
+
+
 def box_text(canvas, rect, text, fill, colour, radius, fnt):
     """Rounded box filling rect with the text centred; the base of pills,
     labels and buttons. Alpha-composited so translucent fills work."""

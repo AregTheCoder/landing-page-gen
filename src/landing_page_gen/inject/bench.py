@@ -42,7 +42,7 @@ PICTURE_MIN_SAT = 0.15   # mean saturation a region needs to count as a picture,
 # corpus kind bench compares against; text-only chrome (manager strings drawn on
 # a transparent fill) has no corpus kind and maps to nothing.
 COMPOSE_KIND = {
-    "tile": "tile", "icon": "tile", "label": "chip", "pill": "pill", "tool-pill": "pill",
+    "tile": "tile", "swatch": "swatch", "icon": "tile", "label": "chip", "pill": "pill", "tool-pill": "pill",
     "brackets": "brackets", "crop-badge": "tile", "badge": "badge", "card": "mockup-card", "profile-card": "mockup-card",
     "list-panel": "option-list", "adjust-panel": "adjust-panel", "round-badge": "vs-badge",
     "text": None, "headline": None, "divider": None,

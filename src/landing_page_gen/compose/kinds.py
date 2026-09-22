@@ -49,6 +49,14 @@ def _tile(canvas, it, ctx):
     return draw.tile(canvas, it["rect"], it.get("icon"), ctx.r, fill=fill)
 
 
+def _swatch(canvas, it, ctx):
+    """A palette stripe: N solid cells in one rounded tile; `colours` come from
+    the section copy (a flat grey cell when none is given)."""
+    cols = it.get("colours") or [(90, 90, 96)]
+    return draw.swatch_stripe(canvas, it["rect"], cols, ctx.r, it.get("direction", "column"),
+                              round(it.get("gap", 0) * ctx.s))
+
+
 def _icon(canvas, it, ctx):
     return draw.icon(canvas, it["rect"], it["icon"])
 
@@ -156,6 +164,7 @@ UI_WORDS = frozenset({"slider", "pill", "toolbar", "dropdown", "checkbox",
 KINDS = {
     "card": Kind(_card, layer="card"),
     "tile": Kind(_tile),
+    "swatch": Kind(_swatch),
     "icon": Kind(_icon),
     "pill": Kind(_pill, text=True),
     "label": Kind(_label, text=True),

@@ -134,9 +134,9 @@ FAMILIES = {
         # it (never blank bars, which appear in 0/14). Left column is 3 MIXED
         # tiles (one magenta accent, not 4 uniform black): geometry from
         # c3461329, b2749949. /black is the same artwork exported on a dark page
-        # (a fill override, not a separate drawing). The selection-frame chrome,
-        # swatch-stripe tile and /editor exploded view are deferred (new
-        # primitives; see STANDARD.md).
+        # (a fill override, not a separate drawing). The swatch stripe is the
+        # `palette-card` variant; the selection-frame chrome and /editor
+        # exploded view are deferred (new primitives; see STANDARD.md).
         "aspect": (1, 1),
         "ground": {"fill": None},
         "radius": 40,
@@ -149,6 +149,24 @@ FAMILIES = {
             {"id": "tile-2", "kind": "tile", "rect": (152, 560, 532, 940), "icon": "crop", "fill": (0, 0, 0)},
             {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
         ],
+        "variants": {
+            # measured small-tile modal (8 S08 cards; 6 byte-identical): swatch stripe
+            # on top, magenta accent + black tool tile below, beside the finished card.
+            # Evidence: 861c2971, 8031c225, f57cb379, 56f038cf, 517b85da, 80694dc4,
+            # d5d56eb0, ba57eaf9. Colours come from the section copy (spec override).
+            "palette-card": {
+                "panels": {
+                    "photo": {"rect": (532, 300, 1307, 1299)},   # the card interior
+                },
+                "chrome": [
+                    {"id": "card", "kind": "card", "rect": (532, 300, 1307, 1299), "fill": (43, 20, 90)},
+                    {"id": "swatch", "kind": "swatch", "rect": (290, 292, 481, 843),
+                     "colours": [[0, 0, 0], [228, 40, 40], [245, 245, 245]]},  # placeholder; manager overrides
+                    {"id": "tile-accent", "kind": "tile", "rect": (290, 884, 481, 1075), "icon": "sparkle", "fill": MAGENTA},
+                    {"id": "tile-tool", "kind": "tile", "rect": (290, 1114, 481, 1305), "icon": "crop", "fill": (16, 16, 16)},
+                ],
+            },
+        },
     },
     "dark-composite": {
         "aspect": (1, 1),
