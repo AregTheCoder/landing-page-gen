@@ -300,3 +300,12 @@ def test_vs_two_up_preset_puts_the_badge_on_the_seam(tmp_path):
     bx0, _, bx1, _ = drawn["vs"]
     assert lx1 < (bx0 + bx1) / 2 < rx0 + (out_rect(layout_, "right")[2] - rx0), "VS badge sits over the seam"
     assert im.mode == "RGB", "light-grey ground flattens to RGB"
+
+
+def test_mockup_card_preset_draws_the_card_right_of_the_photo(tmp_path):
+    spec = _variant_spec(tmp_path, "mockup-card", None)
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert set(drawn) == {"post"}
+    assert out_rect(layout_, "photo")[2] < drawn["post"][0], "the mock card sits right of the source photo"
+    assert im.mode == "RGB"

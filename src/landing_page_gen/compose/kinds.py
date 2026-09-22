@@ -121,6 +121,12 @@ def _round_badge(canvas, it, ctx):
     return draw.round_badge(canvas, it["rect"], it.get("text", ""), fill, colour, ctx.font(it.get("font", "tool-pill"), 700))
 
 
+def _profile_card(canvas, it, ctx):
+    """A mock profile/social card (avatar, name, image well, caption bars).
+    `fill` is an RGB triple; `draw.card` adds the alpha."""
+    return draw.profile_card(canvas, it["rect"], tuple(it.get("fill") or (30, 30, 32)), ctx.r)
+
+
 KINDS = {
     "card": Kind(_card, layer="card"),
     "tile": Kind(_tile),
@@ -135,4 +141,5 @@ KINDS = {
     "list-panel": Kind(_list_panel, text=True),
     "text": Kind(_text, text=True),
     "round-badge": Kind(_round_badge, text=True),
+    "profile-card": Kind(_profile_card),
 }

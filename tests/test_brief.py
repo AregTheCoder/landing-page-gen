@@ -69,7 +69,7 @@ notes: ''
 
 {_slot("S02-m1", src_id="cccccccc", local_id="dddddddd")}
 > annotation: a product on a dark card.
-> style: mockup-card
+> style: outcome-tile
 > attrs: ground=dark-composite
 > text: "50% OFF" | "Buy now"
 > device: none: single subject
@@ -143,9 +143,9 @@ def test_stands_in_for_fallback_uses_the_named_family(tmp_path, brief):
     run = build_run(tmp_path)
     assert brief.main([str(run), "S02"]) == 0
     text = (run / "sections" / "S02" / "brief.md").read_text()
-    assert "Stands in for: mockup-card" in text
-    dark, _ = brief.family_block("dark-composite")
-    assert dark in text  # the fallback family's block, not prompt-card's
+    assert "Stands in for: outcome-tile" in text
+    full, _ = brief.family_block("full-bleed")
+    assert full in text  # the fallback family's block (full-bleed), not outcome-tile's
     # the two text strings become a table
     assert '"50% OFF"' in text and '"Buy now"' in text and "call-to-action" in text
 

@@ -235,6 +235,32 @@ def round_badge(canvas, rect, text, fill, colour, fnt):
     return (x0, y0, x1, y1)
 
 
+def profile_card(canvas, rect, fill, radius):
+    """A mock social/profile card: a rounded card with a round avatar and a
+    name beside it, an image well, and blank caption bars — all placeholder
+    chrome (never a real network's layout, name or logo)."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    card(canvas, rect, fill, radius)
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    w, h = x1 - x0, y1 - y0
+    pad = round(w * 0.10)
+    av = round(w * 0.26)
+    disc, bar, lite = (74, 74, 80, 255), (60, 60, 66, 255), (96, 96, 104, 255)
+    d.ellipse((x0 + pad, y0 + pad, x0 + pad + av, y0 + pad + av), fill=disc)  # avatar
+    nx = x0 + pad + av + round(w * 0.06)
+    d.rounded_rectangle((nx, y0 + pad + round(av * 0.22), x1 - pad, y0 + pad + round(av * 0.42)), radius=12, fill=lite)  # name
+    d.rounded_rectangle((nx, y0 + pad + round(av * 0.55), x0 + pad + av + round(w * 0.30), y0 + pad + round(av * 0.72)), radius=12, fill=bar)  # handle
+    well_top, well_bot = y0 + pad + av + round(h * 0.05), y0 + round(h * 0.62)
+    d.rounded_rectangle((x0 + pad, well_top, x1 - pad, well_bot), radius=round(w * 0.04), fill=bar)  # image well
+    cy, bh, gap = well_bot + round(h * 0.05), round(h * 0.04), round(h * 0.03)
+    for i, frac in enumerate((1.0, 0.85, 0.5)):  # caption bars
+        yy = cy + i * (bh + gap)
+        d.rounded_rectangle((x0 + pad, yy, x0 + pad + round((w - 2 * pad) * frac), yy + bh), radius=round(bh * 0.5), fill=lite if i == 0 else bar)
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
 def headline(canvas, rect, text, px, stroke, radius, colour=WHITE):
     """The template card's headline area: a thin rounded outline with the
     text in caps sized to fit, or two blank bars when there is no text."""

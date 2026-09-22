@@ -227,6 +227,20 @@ FAMILIES = {
             {"id": "vs", "kind": "round-badge", "rect": (712, 712, 888, 888), "text": "VS"},
         ],
     },
+    # the result shown "in use": the source photo on the left, a mock profile /
+    # social card built from it on the right (7a980105 background-remover S08).
+    # The card is placeholder chrome — never a real network's layout or names.
+    "mockup-card": {
+        "aspect": (1, 1),
+        "ground": {"fill": BLACK},
+        "radius": 40,
+        "panels": {
+            "photo": {"rect": (80, 120, 760, 1480)},
+        },
+        "chrome": [
+            {"id": "post", "kind": "profile-card", "rect": (820, 120, 1520, 1480), "fill": (30, 30, 32)},
+        ],
+    },
 }
 
 

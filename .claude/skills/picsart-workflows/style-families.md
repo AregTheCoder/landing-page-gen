@@ -281,7 +281,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Signature:** ui_mockup=app-card or product-card; layout=split or two-up; chrome=mockup-card, chip, button, badge; ground=black; finish=photo (n=…).
 **Ground:** black (default) | white (n=…).
 **Grid:** 1:1 (480): the source photo panel 760x1600 on the left; a rounded card 760x1400 on the right (dark profile card with a round avatar crop of the same subject and text bars, or a white product card with the cutout, a price chip and an order button); glyph chips bottom-left; not templated.
-**Template:** none; brief as dark-composite with the photo as `photo`; the card is chrome for a later template (avatar circle, text bars, price chip, button).
+**Template:** lp-compose: mockup-card (1:1); the source photo is the `photo` panel, the profile card beside it is drawn chrome (avatar, name, image well, blank caption bars). The white product-card variant (cutout, price chip, order button) arrives later.
 **Chrome (lp-compose):** not templated: the card, its avatar circle or product cutout well, blank text bars, one chip (a price, a follower count), one button (ORDER, Follow), glyph chips.
 **Panels (worker):** A `photo` (generate 3:4): one person or product in an environment, front-on, head or product in the centre third so the avatar crop works. B `cutout`: A through `picsart_remove_bg` (free) for the product card variant.
 **Palette:** photo natural; card dark grey or white; one accent (blue check, magenta badge).
