@@ -1,15 +1,22 @@
 1:
-  chrome: [tile, button, play-button, chip]
+  chrome:
+  - tile
+  - button
+  - play-button
+  - chip
   text_in_image: labels-only
   ui_mockup: prompt-ui
   subject: person
   art_style: photo
-  description: video generation UI with first and last frame thumbnails and a Generate button
+  description: video generation UI with first and last frame thumbnails and a Generate
+    button
   family_hint: prompt-card
   confidence: 0.6
   before_after: false
 2:
-  chrome: [button, chip]
+  chrome:
+  - button
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: object
@@ -19,7 +26,9 @@
   confidence: 0.4
   before_after: false
 3:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: headline
   ui_mockup: app-card
   subject: illustration
@@ -29,7 +38,9 @@
   confidence: 0.7
   before_after: false
 4:
-  chrome: [mockup-card, play-button]
+  chrome:
+  - mockup-card
+  - play-button
   text_in_image: headline
   ui_mockup: app-card
   subject: person
@@ -39,7 +50,9 @@
   confidence: 0.4
   before_after: false
 5:
-  chrome: [tile, chip]
+  chrome:
+  - tile
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -49,7 +62,8 @@
   confidence: 0.3
   before_after: false
 6:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -59,22 +73,31 @@
   confidence: 0.4
   before_after: false
 7:
-  chrome: [tile, mockup-card, button]
+  chrome:
+  - tile
+  - mockup-card
+  - button
   text_in_image: headline
   ui_mockup: app-card
   subject: person
   art_style: photo
-  description: editor icon tiles beside a social post of a home outfit with reaction icons
+  description: editor icon tiles beside a social post of a home outfit with reaction
+    icons
   family_hint: mockup-card
   confidence: 0.6
   before_after: false
 8:
-  chrome: [prompt-panel, button, model-logo, tile]
+  chrome:
+  - prompt-panel
+  - button
+  - model-logo
+  - tile
   text_in_image: labels-only
   ui_mockup: prompt-ui
   subject: product
   art_style: photo
-  description: prompt panel with Sora model logo beside a photo of hands holding iced matcha
+  description: prompt panel with Sora model logo beside a photo of hands holding iced
+    matcha
   family_hint: prompt-card
   confidence: 0.8
   before_after: false

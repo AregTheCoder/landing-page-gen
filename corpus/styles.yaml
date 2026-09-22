@@ -2457,15 +2457,15 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/02c147ba-69a2-40ea-8683-b55abe25
   slot: S07-m3
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp:
-  style: editor-canvas
-  variant: null
+  style: before-after
+  variant: white
   confidence: 0.45
   page: ai-models--google-omni
   slot: S12-m6
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp?type=webp&to=min&r=640:
-  style: editor-canvas
-  variant: null
+  style: before-after
+  variant: white
   confidence: 0.45
   page: ai-design-tools
   slot: S04-m4
@@ -2702,7 +2702,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0a44cf69-38ff-4ab8-8c41-840b6631
   slot: S03-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f1ee1.webp:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.6
   page: image-enlarger
@@ -3036,6 +3036,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/11847327-80d3-4c99-bb8a-6a1e4801
   confidence: 0.3
   page: ai-models--async-flash-v1
   slot: S04-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/120e92ec-a945-4bdc-9bdf-500e019340d0.png:
+  style: before-after
+  variant: null
+  confidence: 0.55
+  page: ai-photo-editing
+  slot: S01-m2
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/120ec35a-d36c-4ced-afab-2303b6a86750.avif:
   style: before-after
@@ -3765,6 +3772,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/23038214-7595-418f-9e2a-d604cff6
   confidence: 0.5
   page: ai-photo-editing
   slot: S09-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/2326523b-93f9-4bf2-958f-d93162507c67.avif:
+  style: before-after
+  variant: null
+  confidence: 0.65
+  page: ai-image-enhancer
+  slot: S14-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/239c9729-d861-4138-ae9b-4a7247773add.webp:
   style: mockup-card
@@ -4530,7 +4544,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db
   slot: S01-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f81aa.webp:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.7
   page: image-enlarger
@@ -4830,6 +4844,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3ce169dd-d3f0-44fe-8572-44047739
   confidence: 0.7
   page: ai-models--gpt-image-1-5
   slot: S03-m3
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/3d6ae2e3-7548-4f84-ad36-60d8c5d9ed04.avif:
+  style: before-after
+  variant: null
+  confidence: 0.65
+  page: ai-image-enhancer
+  slot: S14-m6
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/3dba0d37-fdb2-4038-a29f-0055a0007f2f.webm:
   style: full-bleed
@@ -5510,6 +5531,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4ec3ed2f-4913-47a9-b67c-c60cd63d
   page: ai-models--grok-imagine
   slot: S12-m9
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/4ec5ee3b-0428-4060-88c5-3b3bac96cd23.webp?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: ai-design-tools
+  slot: S06-m6
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4eeca13c-c557-4579-ba17-e4cfd90a76ec.avif:
   style: full-bleed
   variant: null
@@ -5979,6 +6007,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5af7b465-8058-4a22-8099-9675c146
   page: document-maker
   slot: S10-m18
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/5b47254a-89a4-4475-9e0a-1a3f9f305fc7.avif:
+  style: before-after
+  variant: null
+  confidence: 0.65
+  page: ai-image-enhancer
+  slot: S14-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5b5b63a0-2c1a-4602-9975-b704b02be26a.avif:
   style: full-bleed
   variant: null
@@ -6275,7 +6310,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/63283d1d-e123-4317-82ab-45d48c0e
   slot: S09-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d706f0b.avif:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.45
   page: brighten-images
@@ -6708,6 +6743,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6e6b07d9-6e17-4c8d-a467-7f2a9079
   page: text-to-video-ai
   slot: S09-m2
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/6ec2a885-74f9-409f-83e7-378199261a97.webp?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: image-tools
+  slot: S02-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6ecf9805-026f-4e35-84bb-51967ca195d4.webp:
   style: template-mockup
   variant: mixed
@@ -6896,6 +6938,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/73cf7cc6-60c6-45ec-8eca-998c86f8
   confidence: 0.4
   page: text-editor
   slot: S04-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/73dd7c9f-0f7e-44d8-8d22-3a50474e2c43.avif:
+  style: before-after
+  variant: null
+  confidence: 0.8
+  page: ai-image-enhancer
+  slot: S14-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/753d7697-35ce-4c4b-a6dc-e09bd6c3b979.webp:
   style: full-bleed
@@ -7549,7 +7598,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8632c15f-e963-483d-b9e0-a4236c4e
   slot: S05-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/8665b544-e34d-47a0-9765-a471c783ec4b.avif:
-  style: mockup-card
+  style: before-after
   variant: null
   confidence: 0.4
   page: hd-photo-converter
@@ -8732,7 +8781,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a7c397b2-771b-4bee-9f75-71e0ae48
   slot: S02-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/a7d64fef-c260-4cc5-b67d-56c10e4d3942.avif:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.45
   page: hd-photo-converter
@@ -8877,6 +8926,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/abe33831-3e5e-454b-9390-e085bebc
   confidence: 0.8
   page: home
   slot: S02-m6
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ac50198a-ef75-401c-980b-7dc29703f385.avif:
+  style: before-after
+  variant: null
+  confidence: 0.4
+  page: ai-story-generator
+  slot: S12-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ac5aa2a5-f623-44a5-b4f4-32471a194c41.webm:
   style: full-bleed
@@ -9202,7 +9258,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de271
   slot: S06-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/b572f707-195d-4ce0-b1b9-d5a8b23c85cb.avif:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.4
   page: hd-photo-converter
@@ -10012,6 +10068,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ca46fe7f-250b-402d-b667-88a29796
   confidence: 0.5
   page: ai-models--sora
   slot: S07-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/ca668ef4-69c8-4d32-8869-c541807edd79.webp?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.8
+  page: ai-design-tools
+  slot: S07-m8
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/ca787233-bea0-4fb3-92ae-3f6c1c3af080.avif:
   style: cinematic-still
@@ -11645,7 +11708,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/f584f8d2-9e46-4134-80c4-5805e11a
   slot: S05-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/f5b045e5-c9c4-43b7-8dad-7c547febf9df.avif:
-  style: mockup-card
+  style: before-after
   variant: null
   confidence: 0.4
   page: hd-photo-converter
@@ -12907,7 +12970,7 @@ https://cdn140.picsart.com/15842904208848290037.png:
   slot: S12-m7
   source: rules
 https://cdn140.picsart.com/17169716074950588894.png:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.6
   page: red-eye-remover
@@ -13701,6 +13764,20 @@ https://pastatic.picsart.com/cms-pastatic/0436f336-ca26-4492-b0ef-db971418fa11.p
   page: meme-generator
   slot: S07-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png:
+  style: before-after
+  variant: white
+  confidence: 0.55
+  page: brighten-images
+  slot: S10-m5
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.55
+  page: ai-design-tools
+  slot: S07-m3
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/04b695ff-5694-44b1-8eb1-73004f92cf9f.png:
   style: template-mockup
   variant: null
@@ -13799,6 +13876,20 @@ https://pastatic.picsart.com/cms-pastatic/0bfe6b2a-90fc-4c7c-a3df-9cb3f7785858.p
   confidence: 0.4
   page: storyboard-maker
   slot: S07-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: brighten-images
+  slot: S10-m8
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: ai-design-tools
+  slot: S07-m2
   source: rules
 https://pastatic.picsart.com/cms-pastatic/0cda6c41-8faf-4d4a-b12d-cda79108ce61.png:
   style: prompt-card
@@ -14124,7 +14215,7 @@ https://pastatic.picsart.com/cms-pastatic/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68.p
   slot: S17-m3
   source: rules
 https://pastatic.picsart.com/cms-pastatic/251b1a73-32a3-4c7a-93df-bacb40c22533.png:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.7
   page: ai-photo-editing
@@ -14138,7 +14229,7 @@ https://pastatic.picsart.com/cms-pastatic/2628ed8d-03f2-4150-9d61-9af4c51873e5.p
   slot: S07-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/2631a718-ad61-4f27-afed-9bc52863f26a.png:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.6
   page: add-shadow-to-image
@@ -14236,6 +14327,13 @@ https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.p
   confidence: 0.35
   page: packaging-design
   slot: S07-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/2ea3c608-f7b2-4df9-87cb-b1994efbbb97.png:
+  style: before-after
+  variant: null
+  confidence: 0.65
+  page: add-shadow-to-image
+  slot: S11-m5
   source: rules
 https://pastatic.picsart.com/cms-pastatic/2fd282a1-7ae9-4c3b-be64-2a62b37447c2.png:
   style: full-bleed
@@ -14407,14 +14505,14 @@ https://pastatic.picsart.com/cms-pastatic/3d05cded-106b-49c6-b92f-cedf79ebba52.p
   slot: S06-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.6
   page: ai-content-generator
   slot: S09-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png?type=webp&r=548&to=min:
-  style: full-bleed
+  style: before-after
   variant: null
   confidence: 0.6
   page: draw
@@ -14433,6 +14531,13 @@ https://pastatic.picsart.com/cms-pastatic/3fa3a8e0-ab54-4bf5-86d2-bafeeead6cba.p
   confidence: 0.6
   page: background-tools
   slot: S08-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.png:
+  style: before-after
+  variant: white
+  confidence: 0.4
+  page: image-enlarger
+  slot: S13-m8
   source: rules
 https://pastatic.picsart.com/cms-pastatic/40bd8a93-8b81-4ba0-926a-37e1073d26f9.png:
   style: template-mockup
@@ -14483,6 +14588,13 @@ https://pastatic.picsart.com/cms-pastatic/44660752-4381-44fa-bb75-c1602efbdcc8.p
   page: ai-filters
   slot: S11-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.png:
+  style: before-after
+  variant: white
+  confidence: 0.4
+  page: meme-generator
+  slot: S10-m4
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/487789d7-c9ca-48f4-91eb-0acd97e9688e.png:
   style: full-bleed
   variant: null
@@ -14531,6 +14643,13 @@ https://pastatic.picsart.com/cms-pastatic/4ae5947f-eac7-4d99-a806-0ed5833d6538.p
   confidence: 0.45
   page: svg-editor
   slot: S05-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.png:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: ai-video-filters
+  slot: S04-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/4c10cce3-43b2-455c-af56-2cefcae7c341.png:
   style: template-mockup
@@ -14664,6 +14783,20 @@ https://pastatic.picsart.com/cms-pastatic/56f038cf-bdbb-4b69-9a71-736cf9053105.p
   confidence: 0.7
   page: thank-you-card-maker
   slot: S08-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png:
+  style: before-after
+  variant: white
+  confidence: 0.45
+  page: ai-design-generator
+  slot: S11-m4
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png?type=webp&to=min&r=-1:
+  style: before-after
+  variant: white
+  confidence: 0.45
+  page: ai-poster-generator
+  slot: S13-m6
   source: rules
 https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png:
   style: template-mockup
@@ -15116,6 +15249,13 @@ https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.p
   page: brand-identity-generator
   slot: S10-m3
   source: rules
+https://pastatic.picsart.com/cms-pastatic/7ebc18ee-0a25-48c3-b5db-56462564a376.png:
+  style: before-after
+  variant: white
+  confidence: 0.5
+  page: photo-effects
+  slot: S13-m4
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/7ec514d6-8d0c-4235-92dc-43c4ef354021.png:
   style: cutout-checkerboard
   variant: white
@@ -15402,6 +15542,13 @@ https://pastatic.picsart.com/cms-pastatic/9d5b9950-5ec0-4bd4-ac5f-ffac837510c1.p
   confidence: 0.3
   page: ai-filters
   slot: S06-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/9ddde272-54d5-45b0-94bd-9cafd9ae64d3.png:
+  style: before-after
+  variant: white
+  confidence: 0.6
+  page: ai-background
+  slot: S12-m8
   source: rules
 https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png:
   style: crop-frame
@@ -15735,7 +15882,7 @@ https://pastatic.picsart.com/cms-pastatic/bbc37648-4f1e-4f72-8a0a-a8f7d5430328.p
   slot: S08-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/bbde53af-8025-4b56-9acb-6516494723af.png?type=webp&to=min&r=640:
-  style: cutout-checkerboard
+  style: before-after
   variant: white
   confidence: 0.5
   page: image-tools
@@ -15775,6 +15922,13 @@ https://pastatic.picsart.com/cms-pastatic/bec9a01c-5c4f-49eb-a54d-7c58868579f9.p
   confidence: 0.5
   page: ai-sticker-maker
   slot: S12-m7
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.png:
+  style: before-after
+  variant: null
+  confidence: 0.45
+  page: ai-content-generator
+  slot: S09-m3
   source: rules
 https://pastatic.picsart.com/cms-pastatic/bf7f9b65-05a4-44dd-b8f9-667ce57f7b51.png:
   style: crop-frame
@@ -16119,6 +16273,13 @@ https://pastatic.picsart.com/cms-pastatic/dedd4d22-5e90-4f02-841f-15e436ef9603.p
   page: ai-video-filters
   slot: S06-m1
   source: rules
+https://pastatic.picsart.com/cms-pastatic/def32357-93f6-42f9-9963-fed368dd1d65.png:
+  style: before-after
+  variant: null
+  confidence: 0.55
+  page: add-shadow-to-image
+  slot: S11-m2
+  source: rules
 https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png:
   style: template-mockup
   variant: null
@@ -16237,6 +16398,13 @@ https://pastatic.picsart.com/cms-pastatic/e67f42df-9478-4b5a-80da-8fa492b1b7f0.p
   confidence: 0.65
   page: coupon-maker
   slot: S07-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/e6859da6-0b51-438d-8ebc-153c92001781.png?type=webp&to=min&r=640:
+  style: before-after
+  variant: white
+  confidence: 0.5
+  page: image-tools
+  slot: S05-m3
   source: rules
 https://pastatic.picsart.com/cms-pastatic/e6f595e1-9c88-4d54-938c-ba6c25c37c26.png:
   style: template-mockup
@@ -16421,7 +16589,7 @@ https://pastatic.picsart.com/cms-pastatic/f71cbbc1-ecc5-42ca-aa80-79156bc16d13.p
   slot: S17-m2
   source: rules
 https://pastatic.picsart.com/cms-pastatic/f76d7601-d94d-4032-8d4f-44902e7d83cc.png:
-  style: cutout-checkerboard
+  style: before-after
   variant: null
   confidence: 0.6
   page: background-tools

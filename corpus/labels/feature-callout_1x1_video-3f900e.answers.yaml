@@ -1,47 +1,57 @@
 1:
-  chrome: [prompt-panel, model-logo, chip]
+  chrome:
+  - prompt-panel
+  - model-logo
+  - chip
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
   art_style: photo
   before_after: false
-  description: fashion model in orange coat on red rock, prompt text and model list in a dark column
+  description: fashion model in orange coat on red rock, prompt text and model list
+    in a dark column
   family_hint: prompt-card
   confidence: 0.8
   motion_kind: ambient
   camera: static
 2:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: a magenta Start Creating button on white, then a tool panel and a portrait with Download
+  description: a magenta Start Creating button on white, then a tool panel and a portrait
+    with Download
   family_hint: other
   confidence: 0.7
   motion_kind: ui-demo
   camera: static
 3:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: Start Creating button on white, then a phone clip with play button and a Download result
+  description: Start Creating button on white, then a phone clip with play button
+    and a Download result
   family_hint: other
   confidence: 0.7
   motion_kind: ui-demo
   camera: static
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: a black icon tile on white, then a prompt panel and a Lost in Orbit thumbnail card
+  description: a black icon tile on white, then a prompt panel and a Lost in Orbit
+    thumbnail card
   family_hint: other
   confidence: 0.6
   motion_kind: ui-demo
@@ -53,19 +63,22 @@
   subject: person
   art_style: photo
   before_after: false
-  description: a portrait video card of a man in a suit on white, a magenta trim timeline appears
+  description: a portrait video card of a man in a suit on white, a magenta trim timeline
+    appears
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 6:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: an upload tile in an outlined card, then a phone clip of a woman with subtitles and Download
+  description: an upload tile in an outlined card, then a phone clip of a woman with
+    subtitles and Download
   family_hint: other
   confidence: 0.6
   motion_kind: ui-demo
@@ -77,13 +90,15 @@
   subject: person
   art_style: photo
   before_after: false
-  description: a boy rides a red bike through an autumn park, a Fixed checklist panel slides in
+  description: a boy rides a red bike through an autumn park, a Fixed checklist panel
+    slides in
   family_hint: full-bleed
   confidence: 0.6
   motion_kind: transition
   camera: static
 8:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -95,37 +110,44 @@
   motion_kind: transition
   camera: static
 9:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: a black icon tile on white, then a prompt panel and a blue Panel Cup poster with Download
+  description: a black icon tile on white, then a prompt panel and a blue Panel Cup
+    poster with Download
   family_hint: other
   confidence: 0.6
   motion_kind: ui-demo
   camera: static
 10:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: abstract
   art_style: ui-screenshot
   before_after: false
-  description: Start Creating button on white, then a woman with a pink bag as the Subway sign is removed
+  description: Start Creating button on white, then a woman with a pink bag as the
+    Subway sign is removed
   family_hint: other
   confidence: 0.7
   motion_kind: ui-demo
   camera: static
 11:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: food
   art_style: photo
   before_after: false
-  description: Kling 3.0 and Runway Gen 4 dessert clips side by side on black with duration chips
+  description: Kling 3.0 and Runway Gen 4 dessert clips side by side on black with
+    duration chips
   family_hint: vs-two-up
   confidence: 0.85
   motion_kind: subject-motion
@@ -137,7 +159,8 @@
   subject: person
   art_style: photo
   before_after: false
-  description: a man in a red sweater sits in an armchair on blue as birds fly, Hurray text appears
+  description: a man in a red sweater sits in an armchair on blue as birds fly, Hurray
+    text appears
   family_hint: full-bleed
   confidence: 0.5
   motion_kind: subject-motion

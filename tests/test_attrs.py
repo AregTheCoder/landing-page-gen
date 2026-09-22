@@ -301,16 +301,18 @@ def test_rules_table_and_role_fix():
         ({"ui_mockup": "app-card", "ground": "black", "layout": "split"}, ("mockup-card", None)),
         ({"chrome": ["mockup-card", "tile"], "text_in_image": "headline", "ground": "black"}, ("template-mockup", "black")),
         ({"ui_mockup": "editor-canvas", "type": "link-grid", "ground": "white"}, ("editor-canvas", None)),
-        ({"chrome": ["adjust-panel", "chip", "slider"], "ground": "photo-full-bleed", "layout": "overlay", "art_style": "photo",
+        ({"chrome": ["adjust-panel", "chip", "adjust-slider"], "ground": "photo-full-bleed", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", None)),
-        ({"chrome": ["adjust-panel", "slider"], "ground": "white", "layout": "overlay", "art_style": "photo",
+        ({"chrome": ["adjust-panel", "adjust-slider"], "ground": "white", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", "white")),
+        ({"chrome": ["compare-handle"], "ground": "photo-full-bleed", "layout": "single", "art_style": "photo",
+          "type": "feature-callout"}, ("before-after", None)),  # a before/after handle, flag unmeasured
         ({"chrome": ["pill", "badge"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("panel-overlay", None)),
         ({"chrome": ["pill"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("full-bleed", None)),
-        ({"chrome": ["slider", "tile"], "ground": "black", "layout": "column-main", "art_style": "photo", "type": "feature-callout"},
-         ("dark-composite", None)),  # a slider alone is not the panel: only overlay layouts or adjust-panel say panel-overlay
+        ({"chrome": ["adjust-slider", "tile"], "ground": "black", "layout": "column-main", "art_style": "photo", "type": "feature-callout"},
+         ("dark-composite", None)),  # an adjust-slider off an overlay layout is not the panel: the tile column says dark-composite
         ({"type": "link-grid", "chrome": ["chip"], "ground": "light-grey", "layout": "stacked"}, ("model-card", None)),
         (DARK_LIGHT, ("dark-composite", "light")),
         ({"ground": "photo-full-bleed", "aspect_class": "9:16", "type": "gallery", "panel_count": 1}, ("cinematic-still", None)),
@@ -480,11 +482,20 @@ def test_derive_items_fills_only_the_unambiguous_cases():
     beside = {"chrome": ["tile"]}
     label.derive_items(beside, stats)
     assert beside["chrome_items"] == [{"kind": "tile", "placement": "beside"}]
-    overlay = {"chrome": ["adjust-panel"]}
-    label.derive_items(overlay, stats)
-    assert overlay["chrome_items"] == [{"kind": "adjust-panel", "placement": "overlay"}]
-    for rec in ({"chrome": ["slider"]}, {"chrome": ["chip"]}, {"chrome": ["tile", "chip"]}, {}):
+    for kind in ("adjust-panel", "compare-handle"):
+        rec = {"chrome": [kind]}
+        label.derive_items(rec, stats)
+        assert rec["chrome_items"] == [{"kind": kind, "placement": "overlay"}]
+    for rec in ({"chrome": ["chip"]}, {"chrome": ["tile", "chip"]}, {}):
         label.derive_items(rec, stats)
         assert rec.get("chrome_items") is None
     assert "labelled" not in beside, "a derived item is not an answered one"
-    assert stats["derived"] == 3
+    assert stats["derived"] == 4  # empty, tile (beside), adjust-panel + compare-handle (overlay)
+
+
+def test_split_slider_maps_by_before_after_and_description():
+    assert label._split_slider(["slider", "tile"], before_after=True) == ["compare-handle", "tile"]
+    assert label._split_slider(["slider"], description="before/after reveal sweep") == ["compare-handle"]
+    assert label._split_slider(["slider"], description="hue saturation adjustment") == ["adjust-slider"]
+    assert label._split_slider(["slider"]) == ["adjust-slider"]  # no signal -> the tool track
+    assert label._split_slider(["tile"]) == ["tile"], "nothing to do without slider"

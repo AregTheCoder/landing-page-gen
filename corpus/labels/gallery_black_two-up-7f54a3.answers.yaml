@@ -1,5 +1,6 @@
 1:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: body
   ui_mockup: none
   subject: multiple
@@ -8,16 +9,23 @@
   family_hint: template-mockup
   confidence: 0.7
 2:
-  chrome: [prompt-panel, button, play-button]
+  chrome:
+  - prompt-panel
+  - button
+  - play-button
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: scene
   art_style: mixed
-  description: a Coastal summer prompt card with Generate button beside a coastal clip
+  description: a Coastal summer prompt card with Generate button beside a coastal
+    clip
   family_hint: prompt-card
   confidence: 0.8
 3:
-  chrome: [prompt-panel, slider, play-button]
+  chrome:
+  - adjust-slider
+  - play-button
+  - prompt-panel
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: person

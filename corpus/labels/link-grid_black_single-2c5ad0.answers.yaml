@@ -1,5 +1,8 @@
 1:
-  chrome: [button, play-button, selection-handles]
+  chrome:
+  - button
+  - play-button
+  - selection-handles
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -8,7 +11,9 @@
   family_hint: editor-canvas
   confidence: 0.55
 2:
-  chrome: [button, selection-handles]
+  chrome:
+  - button
+  - selection-handles
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -17,7 +22,9 @@
   family_hint: editor-canvas
   confidence: 0.5
 3:
-  chrome: [model-logo, chip]
+  chrome:
+  - model-logo
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -26,7 +33,9 @@
   family_hint: prompt-card
   confidence: 0.45
 4:
-  chrome: [model-logo, chip]
+  chrome:
+  - model-logo
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -35,7 +44,8 @@
   family_hint: prompt-card
   confidence: 0.45
 5:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: object
@@ -44,7 +54,10 @@
   family_hint: before-after
   confidence: 0.65
 6:
-  chrome: [button, play-button, selection-handles]
+  chrome:
+  - button
+  - play-button
+  - selection-handles
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -53,7 +66,10 @@
   family_hint: editor-canvas
   confidence: 0.55
 7:
-  chrome: [button, play-button, selection-handles]
+  chrome:
+  - button
+  - play-button
+  - selection-handles
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -62,25 +78,34 @@
   family_hint: editor-canvas
   confidence: 0.55
 8:
-  chrome: [mockup-card, tile, swatch]
+  chrome:
+  - mockup-card
+  - tile
+  - swatch
   text_in_image: labels-only
   ui_mockup: product-card
   subject: product
   art_style: mixed
-  description: a beauty brand mockup collage with femme cards and a product bottle on black
+  description: a beauty brand mockup collage with femme cards and a product bottle
+    on black
   family_hint: template-mockup
   confidence: 0.45
 9:
-  chrome: [slider, button]
+  chrome:
+  - adjust-slider
+  - button
   text_in_image: none
   ui_mockup: phone-frame
   subject: scene
   art_style: photo
-  description: stacked phone frames of a neon city street with a colour slider and fx button
+  description: stacked phone frames of a neon city street with a colour slider and
+    fx button
   family_hint: editor-canvas
   confidence: 0.4
 10:
-  chrome: [adjust-panel, badge]
+  chrome:
+  - adjust-panel
+  - badge
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: food
@@ -89,7 +114,8 @@
   family_hint: editor-canvas
   confidence: 0.5
 11:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -98,7 +124,8 @@
   family_hint: template-mockup
   confidence: 0.55
 12:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person

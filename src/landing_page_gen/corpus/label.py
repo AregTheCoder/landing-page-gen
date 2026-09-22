@@ -7,6 +7,7 @@ answer that names a value outside an enum is reported and dropped, never
 written: the rule table in `taxonomy` assumes the vocabulary holds."""
 
 import datetime
+import re
 from pathlib import Path
 
 import yaml
@@ -14,6 +15,20 @@ import yaml
 from . import attrs, measure, sheets, styles
 
 ANSWER_SUFFIX = ".answers.yaml"
+
+# The old `slider` value split into two kinds. A before/after divider becomes a
+# `compare-handle`, a tool track an `adjust-slider`; the record's before_after
+# flag or its description settles which. Rewritten in place, idempotently, in
+# both the stored records and the answers files.
+_SLIDER_COMPARE = re.compile(r"before|after|divider|handle|split|wipe|reveal", re.I)
+
+
+def _split_slider(chrome, before_after=False, description=None):
+    """`chrome` with any `slider` replaced by compare-handle or adjust-slider."""
+    if "slider" not in (chrome or []):
+        return chrome
+    target = "compare-handle" if (before_after or (description and _SLIDER_COMPARE.search(description))) else "adjust-slider"
+    return sorted({target if c == "slider" else c for c in chrome})
 
 # Fields whose vocabulary was renamed. `ingest` rewrites any record, answers
 # file or manifest that still names the old field, idempotently, so a stray
@@ -51,6 +66,12 @@ def migrate_record(rec, stats):
             lab = rec.get("labelled")
             if lab:
                 rec["labelled"] = sorted({new_field if f == old_field else f for f in lab})
+    chrome = rec.get("chrome")
+    if chrome and "slider" in chrome:
+        rec["chrome"] = _split_slider(chrome, rec.get("before_after"), rec.get("description"))
+        rec.pop("chrome_items", None)  # re-derived from the split kind
+        stats["migrated"] += 1
+        changed = True
     return changed
 
 
@@ -83,6 +104,12 @@ def migrate_files(out_dir, stats):
                     mapped = _map_value(old_field, answer.pop(old_field), stats, f"{path.name} cell {cell}")
                     if mapped is not None:
                         answer[new_field] = mapped
+            ch = answer.get("chrome")
+            if ch is not None:
+                lst = [v.strip() for v in ch.split(",")] if isinstance(ch, str) else list(ch)
+                if "slider" in lst:
+                    answer["chrome"] = _split_slider(lst, description=answer.get("description"))
+                    touched = True
         if touched:
             path.write_text(_lead_comments(raw) + styles.dump_yaml(data, sort_keys=False, allow_unicode=True))
             stats["migrated"] += 1
@@ -169,11 +196,12 @@ def _check_items(value):
 
 
 # Single-kind assets whose one chrome element's placement is unambiguous, so a
-# coarse `chrome_items` can be derived without a labeller looking. `slider`
-# (adjustment vs before/after handle) and a lone chip/button (placement depends
-# on the picture) and every multi-chrome asset are left for the campaign.
+# coarse `chrome_items` can be derived without a labeller looking. A lone
+# chip/button (placement depends on the picture) and every multi-chrome asset
+# are left for the campaign.
 _BESIDE_ALWAYS = {"tile", "prompt-panel", "mockup-card", "swatch", "model-logo", "vs-badge", "size-label"}
-_OVERLAY_ALWAYS = {"pill", "brackets", "badge", "play-button", "cursor", "selection-handles", "adjust-panel", "arrow"}
+_OVERLAY_ALWAYS = {"pill", "brackets", "badge", "play-button", "cursor", "selection-handles", "adjust-panel",
+                   "arrow", "adjust-slider", "compare-handle"}
 
 
 def derive_items(rec, stats):

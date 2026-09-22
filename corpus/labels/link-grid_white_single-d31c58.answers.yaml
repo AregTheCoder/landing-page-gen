@@ -1,5 +1,6 @@
 1:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -8,7 +9,8 @@
   family_hint: before-after
   confidence: 0.5
 2:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
@@ -17,25 +19,30 @@
   family_hint: template-mockup
   confidence: 0.6
 3:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: app-card
   subject: food
   art_style: mixed
-  description: cake photo with a script headline and a small AI writer suggestion card
+  description: cake photo with a script headline and a small AI writer suggestion
+    card
   family_hint: template-mockup
   confidence: 0.45
 4:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: app-card
   subject: food
   art_style: mixed
-  description: cake photo with a script headline and a small AI writer suggestion card
+  description: cake photo with a script headline and a small AI writer suggestion
+    card
   family_hint: template-mockup
   confidence: 0.45
 5:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -44,7 +51,8 @@
   family_hint: template-mockup
   confidence: 0.6
 6:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -53,7 +61,8 @@
   family_hint: template-mockup
   confidence: 0.55
 7:
-  chrome: [play-button]
+  chrome:
+  - play-button
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -62,7 +71,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.5
 8:
-  chrome: [play-button]
+  chrome:
+  - play-button
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -71,7 +81,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.5
 9:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple

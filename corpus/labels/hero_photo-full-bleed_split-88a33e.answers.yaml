@@ -1,5 +1,7 @@
 1:
-  chrome: [tile, slider]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -9,7 +11,9 @@
   family_hint: cutout-checkerboard
   confidence: 0.5
 2:
-  chrome: [tile, slider]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -19,7 +23,9 @@
   family_hint: before-after
   confidence: 0.5
 3:
-  chrome: [tile, play-button]
+  chrome:
+  - tile
+  - play-button
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -29,7 +35,9 @@
   family_hint: full-bleed
   confidence: 0.3
 4:
-  chrome: [tile, play-button]
+  chrome:
+  - tile
+  - play-button
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -39,7 +47,10 @@
   family_hint: prompt-card
   confidence: 0.3
 5:
-  chrome: [model-logo, vs-badge, chip]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -49,7 +60,10 @@
   family_hint: vs-two-up
   confidence: 0.6
 6:
-  chrome: [pill, vs-badge, model-logo]
+  chrome:
+  - pill
+  - vs-badge
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -59,7 +73,10 @@
   family_hint: vs-two-up
   confidence: 0.9
 7:
-  chrome: [pill, vs-badge, model-logo]
+  chrome:
+  - pill
+  - vs-badge
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -69,7 +86,10 @@
   family_hint: vs-two-up
   confidence: 0.9
 8:
-  chrome: [pill, vs-badge, model-logo]
+  chrome:
+  - pill
+  - vs-badge
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -79,7 +99,10 @@
   family_hint: vs-two-up
   confidence: 0.9
 9:
-  chrome: [pill, vs-badge, model-logo]
+  chrome:
+  - pill
+  - vs-badge
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -89,7 +112,10 @@
   family_hint: vs-two-up
   confidence: 0.9
 10:
-  chrome: [pill, vs-badge, model-logo]
+  chrome:
+  - pill
+  - vs-badge
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person

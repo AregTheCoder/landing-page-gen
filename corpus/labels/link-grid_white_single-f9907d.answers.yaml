@@ -1,5 +1,6 @@
 1:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -8,7 +9,9 @@
   family_hint: template-mockup
   confidence: 0.4
 2:
-  chrome: [swatch, chip]
+  chrome:
+  - swatch
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: typography
@@ -17,7 +20,9 @@
   family_hint: template-mockup
   confidence: 0.6
 3:
-  chrome: [swatch, chip]
+  chrome:
+  - swatch
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: typography
@@ -26,7 +31,9 @@
   family_hint: template-mockup
   confidence: 0.6
 4:
-  chrome: [tile, slider]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -35,7 +42,9 @@
   family_hint: before-after
   confidence: 0.6
 5:
-  chrome: [tile, slider]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -44,7 +53,8 @@
   family_hint: before-after
   confidence: 0.6
 6:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -53,7 +63,8 @@
   family_hint: template-mockup
   confidence: 0.4
 7:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
@@ -89,7 +100,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.55
 11:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
@@ -98,7 +110,9 @@
   family_hint: template-mockup
   confidence: 0.7
 12:
-  chrome: [mockup-card, chip]
+  chrome:
+  - mockup-card
+  - chip
   text_in_image: headline
   ui_mockup: app-card
   subject: multiple

@@ -1,119 +1,140 @@
 1:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: black image-to-video tile, small still and large clip of a basketball player dribbling on a court, white ground
+  description: black image-to-video tile, small still and large clip of a basketball
+    player dribbling on a court, white ground
   family_hint: dark-composite
   confidence: 0.6
   motion_kind: subject-motion
   camera: static
 2:
-  chrome: [prompt-panel]
+  chrome:
+  - prompt-panel
   text_in_image: none
   ui_mockup: prompt-ui
   subject: animal
   art_style: photo
   before_after: false
-  description: empty dark prompt panel on black, then a giant ginger cat floats over Sydney harbour with prompt chip and model list
+  description: empty dark prompt panel on black, then a giant ginger cat floats over
+    Sydney harbour with prompt chip and model list
   family_hint: prompt-card
   confidence: 0.7
   motion_kind: ui-demo
   camera: static
 3:
-  chrome: [model-logo]
+  chrome:
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: object
   art_style: photo
   before_after: false
-  description: marble statue in pink heart sunglasses takes a phone selfie, Sora mark bottom-left, rounded card on black
+  description: marble statue in pink heart sunglasses takes a phone selfie, Sora mark
+    bottom-left, rounded card on black
   family_hint: full-bleed
   confidence: 0.6
   motion_kind: subject-motion
   camera: static
 4:
-  chrome: [pill, model-logo]
+  chrome:
+  - pill
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: split compare, three stacked Kling 3.0 astronaut shots beside one tall Veo 3.1 astronaut walking on pink dunes
+  description: split compare, three stacked Kling 3.0 astronaut shots beside one tall
+    Veo 3.1 astronaut walking on pink dunes
   family_hint: vs-two-up
   confidence: 0.7
   motion_kind: subject-motion
   camera: static
 5:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: editor-canvas
   subject: product
   art_style: photo
   before_after: false
-  description: perfume bottle on beige with branch shadow over a dark checkerboard, side arrows extend it to a wide result
+  description: perfume bottle on beige with branch shadow over a dark checkerboard,
+    side arrows extend it to a wide result
   family_hint: crop-frame
   confidence: 0.6
   motion_kind: ui-demo
   camera: static
 6:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: legs in grey socks and white sneakers walk toward camera on a park path, dark Export bar below, black ground
+  description: legs in grey socks and white sneakers walk toward camera on a park
+    path, dark Export bar below, black ground
   family_hint: full-bleed
   confidence: 0.4
   motion_kind: subject-motion
   camera: static
 7:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: product
   art_style: photo
   before_after: false
-  description: Upload PSD button on white, then a handbag-in-clouds poster card with an Export JPG label and a layers panel
+  description: Upload PSD button on white, then a handbag-in-clouds poster card with
+    an Export JPG label and a layers panel
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 8:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: podcast video player card of a blonde woman at a microphone, then a magenta filmstrip trim, then a vertical Welcome clip
+  description: podcast video player card of a blonde woman at a microphone, then a
+    magenta filmstrip trim, then a vertical Welcome clip
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 9:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: magenta Start Creating button on white, then a living-room clip with play button and 1080 chips, then a cropped portrait with Download
+  description: magenta Start Creating button on white, then a living-room clip with
+    play button and 1080 chips, then a cropped portrait with Download
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 10:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: magenta Start Creating button on white, then a red brush erases a fruit bowl from a clip of a woman on a couch, Download
+  description: magenta Start Creating button on white, then a red brush erases a fruit
+    bowl from a clip of a woman on a couch, Download
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
@@ -125,19 +146,22 @@
   subject: product
   art_style: photo
   before_after: false
-  description: white tote bag printed Cool Girls Do Pilates with doodles on a red sofa, zooms in, eraser tile appears
+  description: white tote bag printed Cool Girls Do Pilates with doodles on a red
+    sofa, zooms in, eraser tile appears
   family_hint: full-bleed
   confidence: 0.6
   motion_kind: ui-demo
   camera: push-in
 12:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: black upload tile on white, then a laughing man in a yellow beanie on blue, then on a dark ground with Download
+  description: black upload tile on white, then a laughing man in a yellow beanie
+    on blue, then on a dark ground with Download
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo

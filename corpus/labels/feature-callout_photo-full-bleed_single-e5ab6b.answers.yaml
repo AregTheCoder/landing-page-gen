@@ -1,5 +1,8 @@
 1:
-  chrome: [adjust-panel, slider, chip]
+  chrome:
+  - adjust-panel
+  - adjust-slider
+  - chip
   text_in_image: labels-only
   ui_mockup: phone-frame
   subject: multiple
@@ -8,7 +11,9 @@
   family_hint: panel-overlay
   confidence: 0.4
 2:
-  chrome: [chip, adjust-panel]
+  chrome:
+  - chip
+  - adjust-panel
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: scene
@@ -17,7 +22,11 @@
   family_hint: editor-canvas
   confidence: 0.4
 3:
-  chrome: [mockup-card, swatch, badge, tile]
+  chrome:
+  - mockup-card
+  - swatch
+  - badge
+  - tile
   text_in_image: headline
   ui_mockup: product-card
   subject: object
@@ -26,7 +35,8 @@
   family_hint: template-mockup
   confidence: 0.5
 4:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -35,7 +45,9 @@
   family_hint: before-after
   confidence: 0.4
 5:
-  chrome: [selection-handles, cursor]
+  chrome:
+  - selection-handles
+  - cursor
   text_in_image: body
   ui_mockup: editor-canvas
   subject: illustration
@@ -44,16 +56,20 @@
   family_hint: editor-canvas
   confidence: 0.4
 6:
-  chrome: [tile, chip]
+  chrome:
+  - tile
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: product
   art_style: photo
-  description: iced coffee cups on checkerboard and beach with a marine-themed packaging label
+  description: iced coffee cups on checkerboard and beach with a marine-themed packaging
+    label
   family_hint: cutout-checkerboard
   confidence: 0.35
 7:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -62,7 +78,9 @@
   family_hint: dark-composite
   confidence: 0.3
 8:
-  chrome: [selection-handles, chip]
+  chrome:
+  - selection-handles
+  - chip
   text_in_image: body
   ui_mockup: editor-canvas
   subject: typography
@@ -71,7 +89,8 @@
   family_hint: editor-canvas
   confidence: 0.4
 9:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -80,7 +99,9 @@
   family_hint: full-bleed
   confidence: 0.3
 10:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: labels-only
   ui_mockup: app-card
   subject: person
@@ -89,7 +110,8 @@
   family_hint: mockup-card
   confidence: 0.5
 11:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -98,7 +120,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.5
 12:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person

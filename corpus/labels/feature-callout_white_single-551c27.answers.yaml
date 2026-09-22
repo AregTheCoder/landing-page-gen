@@ -1,14 +1,18 @@
 1:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: none
   ui_mockup: editor-canvas
   subject: scene
   art_style: mixed
-  description: a palm logo watermark card over a striped lounge photo with a checkerboard corner
+  description: a palm logo watermark card over a striped lounge photo with a checkerboard
+    corner
   family_hint: template-mockup
   confidence: 0.35
 2:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -17,7 +21,8 @@
   family_hint: template-mockup
   confidence: 0.5
 3:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: labels-only
   ui_mockup: none
   subject: illustration
@@ -26,7 +31,9 @@
   family_hint: other
   confidence: 0.35
 4:
-  chrome: [adjust-panel, slider]
+  chrome:
+  - adjust-panel
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: food
@@ -35,7 +42,9 @@
   family_hint: panel-overlay
   confidence: 0.45
 5:
-  chrome: [chip, size-label]
+  chrome:
+  - chip
+  - size-label
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -44,7 +53,9 @@
   family_hint: crop-frame
   confidence: 0.35
 6:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: body
   ui_mockup: none
   subject: typography
@@ -53,7 +64,9 @@
   family_hint: template-mockup
   confidence: 0.4
 7:
-  chrome: [mockup-card, badge]
+  chrome:
+  - mockup-card
+  - badge
   text_in_image: headline
   ui_mockup: app-card
   subject: illustration
@@ -62,43 +75,57 @@
   family_hint: mockup-card
   confidence: 0.4
 8:
-  chrome: [mockup-card, tile, brackets]
+  chrome:
+  - mockup-card
+  - tile
+  - brackets
   text_in_image: none
   ui_mockup: editor-canvas
   subject: multiple
   art_style: photo
-  description: embroidery photo panels with a selected frame, a checkerboard cutout and an AI tile
+  description: embroidery photo panels with a selected frame, a checkerboard cutout
+    and an AI tile
   family_hint: cutout-checkerboard
   confidence: 0.35
 9:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: body
   ui_mockup: none
   subject: typography
   art_style: mixed
-  description: an Indigo Hart web developer resume with dark education and skills cards
+  description: an Indigo Hart web developer resume with dark education and skills
+    cards
   family_hint: template-mockup
   confidence: 0.45
 10:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: body
   ui_mockup: app-card
   subject: person
   art_style: mixed
-  description: a template picker beside an Employee of the Month certificate for Marcus Neal
+  description: a template picker beside an Employee of the Month certificate for Marcus
+    Neal
   family_hint: template-mockup
   confidence: 0.45
 11:
-  chrome: [mockup-card, badge]
+  chrome:
+  - mockup-card
+  - badge
   text_in_image: headline
   ui_mockup: product-card
   subject: food
   art_style: mixed
-  description: a Crust artisan bakery brand card set with bread photos and social icons
+  description: a Crust artisan bakery brand card set with bread photos and social
+    icons
   family_hint: template-mockup
   confidence: 0.4
 12:
-  chrome: [tile, mockup-card]
+  chrome:
+  - tile
+  - mockup-card
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: scene

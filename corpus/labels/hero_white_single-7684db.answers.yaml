@@ -1,88 +1,117 @@
 1:
-  chrome: [tile, play-button, slider]
+  chrome:
+  - adjust-slider
+  - play-button
+  - tile
   text_in_image: headline
   ui_mockup: app-card
   subject: product
   art_style: mixed
-  description: a social story mockup of pottery with a free shipping headline and editor tiles
+  description: a social story mockup of pottery with a free shipping headline and
+    editor tiles
   family_hint: mockup-card
   confidence: 0.45
 2:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: a single black tile with a white upload icon
   family_hint: other
   confidence: 0.3
 3:
-  chrome: [prompt-panel, button, mockup-card]
+  chrome:
+  - prompt-panel
+  - button
+  - mockup-card
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: person
   art_style: mixed
-  description: a prompt panel with Generate ads beside a hair salon poster with a pink-haired model
+  description: a prompt panel with Generate ads beside a hair salon poster with a
+    pink-haired model
   family_hint: prompt-card
   confidence: 0.55
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: a single black tile with a white upload icon
   family_hint: other
   confidence: 0.3
 5:
-  chrome: [tile, arrow]
+  chrome:
+  - tile
+  - arrow
   text_in_image: headline
   ui_mockup: app-card
   subject: multiple
   art_style: mixed
-  description: a two-panel social carousel of people shopping with a bold slogan and an add-image tile
+  description: a two-panel social carousel of people shopping with a bold slogan and
+    an add-image tile
   family_hint: mockup-card
   confidence: 0.4
 6:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   description: a pink Start Creating pill button on white
   family_hint: other
   confidence: 0.3
 7:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: product
   art_style: mixed
-  description: a prompt panel generating a floral basketball beside a Play Bold Bloom Brighter poster
+  description: a prompt panel generating a floral basketball beside a Play Bold Bloom
+    Brighter poster
   family_hint: prompt-card
   confidence: 0.55
 8:
-  chrome: [chip, mockup-card]
+  chrome:
+  - chip
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
   art_style: mixed
-  description: a FROSTi winter wear brand logo with a shopping bag mockup and product thumbnails
+  description: a FROSTi winter wear brand logo with a shopping bag mockup and product
+    thumbnails
   family_hint: template-mockup
   confidence: 0.5
 9:
-  chrome: [swatch, mockup-card, chip]
+  chrome:
+  - swatch
+  - mockup-card
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: mixed
-  description: a MUGSY coffee brand identity board with logos, color palette, fonts and coffee photos
+  description: a MUGSY coffee brand identity board with logos, color palette, fonts
+    and coffee photos
   family_hint: template-mockup
   confidence: 0.55
 10:
-  chrome: [mockup-card, swatch, tile]
+  chrome:
+  - mockup-card
+  - swatch
+  - tile
   text_in_image: body
   ui_mockup: phone-frame
   art_style: mixed
-  description: a blue tablet quiz mockup titled This or That Technology Edition with stickers and color swatches
+  description: a blue tablet quiz mockup titled This or That Technology Edition with
+    stickers and color swatches
   family_hint: template-mockup
   confidence: 0.45
 11:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -91,11 +120,15 @@
   family_hint: template-mockup
   confidence: 0.5
 12:
-  chrome: [tile, swatch, mockup-card]
+  chrome:
+  - tile
+  - swatch
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: product
   art_style: mixed
-  description: a yellow Gliss cosmetics ad with a bold headline, product photos, logo and a color palette
+  description: a yellow Gliss cosmetics ad with a bold headline, product photos, logo
+    and a color palette
   family_hint: template-mockup
   confidence: 0.55

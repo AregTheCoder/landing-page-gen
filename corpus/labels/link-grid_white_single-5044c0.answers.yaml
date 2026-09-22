@@ -1,5 +1,7 @@
 1:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: food
@@ -8,7 +10,8 @@
   family_hint: prompt-card
   confidence: 0.6
 2:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -17,7 +20,8 @@
   family_hint: editor-canvas
   confidence: 0.4
 3:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -26,7 +30,9 @@
   family_hint: editor-canvas
   confidence: 0.4
 4:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: food
@@ -35,7 +41,9 @@
   family_hint: prompt-card
   confidence: 0.6
 5:
-  chrome: [chip, tile]
+  chrome:
+  - chip
+  - tile
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -44,7 +52,8 @@
   family_hint: editor-canvas
   confidence: 0.5
 6:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -53,16 +62,23 @@
   family_hint: full-bleed
   confidence: 0.4
 7:
-  chrome: [prompt-panel, button, tile, model-logo]
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  - model-logo
   text_in_image: body
   ui_mockup: prompt-ui
   subject: product
   art_style: mixed
-  description: a body butter product photo with app tiles and a cinematic movement prompt panel
+  description: a body butter product photo with app tiles and a cinematic movement
+    prompt panel
   family_hint: prompt-card
   confidence: 0.6
 8:
-  chrome: [mockup-card, swatch]
+  chrome:
+  - mockup-card
+  - swatch
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -71,7 +87,8 @@
   family_hint: template-mockup
   confidence: 0.55
 9:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: none
   ui_mockup: none
   subject: animal
@@ -80,7 +97,8 @@
   family_hint: template-mockup
   confidence: 0.4
 10:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -89,7 +107,8 @@
   family_hint: before-after
   confidence: 0.55
 11:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -103,6 +122,7 @@
   ui_mockup: none
   subject: product
   art_style: photo
-  description: a pink dropper bottle on a coral gradient and transparent checkerboard split
+  description: a pink dropper bottle on a coral gradient and transparent checkerboard
+    split
   family_hint: cutout-checkerboard
   confidence: 0.55

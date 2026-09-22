@@ -1,10 +1,14 @@
 1:
-  chrome: [tile, chip, model-logo]
+  chrome:
+  - tile
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: product
   art_style: 3d-render
-  description: a 3d claw machine holding a skincare tube with a variant thumbnail column
+  description: a 3d claw machine holding a skincare tube with a variant thumbnail
+    column
   family_hint: other
   confidence: 0.35
 2:
@@ -17,12 +21,16 @@
   family_hint: other
   confidence: 0.3
 3:
-  chrome: [badge, button, mockup-card]
+  chrome:
+  - badge
+  - button
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: product-card
   subject: food
   art_style: photo
-  description: an iced macchiato product card with Order Now button and a checked thumbnail column
+  description: an iced macchiato product card with Order Now button and a checked
+    thumbnail column
   family_hint: mockup-card
   confidence: 0.6
 4:
@@ -35,16 +43,22 @@
   family_hint: full-bleed
   confidence: 0.7
 5:
-  chrome: [tile, slider]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: scene
   art_style: photo
-  description: a striped beach umbrella scene with a before-after slider thumb and HD tile
+  description: a striped beach umbrella scene with a before-after slider thumb and
+    HD tile
   family_hint: before-after
   confidence: 0.4
 6:
-  chrome: [prompt-panel, button, tile]
+  chrome:
+  - prompt-panel
+  - button
+  - tile
   text_in_image: body
   ui_mockup: prompt-ui
   subject: illustration
@@ -53,7 +67,8 @@
   family_hint: prompt-card
   confidence: 0.55
 7:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -62,7 +77,10 @@
   family_hint: crop-frame
   confidence: 0.4
 8:
-  chrome: [chip, model-logo, tile]
+  chrome:
+  - chip
+  - model-logo
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -71,7 +89,9 @@
   family_hint: vs-two-up
   confidence: 0.7
 9:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -80,16 +100,21 @@
   family_hint: vs-two-up
   confidence: 0.7
 10:
-  chrome: [prompt-panel, chip, button]
+  chrome:
+  - prompt-panel
+  - chip
+  - button
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: multiple
   art_style: mixed
-  description: a manga-style Eclipse Arc movie poster with a prompt and generation controls
+  description: a manga-style Eclipse Arc movie poster with a prompt and generation
+    controls
   family_hint: prompt-card
   confidence: 0.5
 11:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: app-card
   subject: product
@@ -98,11 +123,13 @@
   family_hint: mockup-card
   confidence: 0.55
 12:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: headline
   ui_mockup: none
   subject: multiple
   art_style: mixed
-  description: a red rose and vinyl record with a green Blush album cover and font tiles
+  description: a red rose and vinyl record with a green Blush album cover and font
+    tiles
   family_hint: template-mockup
   confidence: 0.55

@@ -13806,8 +13806,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233e
   local: corpus/pages/ai-models--google-omni/media/02dd5012-6e30-4b69-afb3-da96233ea389-73459efe.webp
   art_style: photo
   chrome:
+  - compare-handle
   - play-button
-  - slider
   - tile
   confidence: 0.45
   description: person in blue mask and pink fur video still with a tool tile and before/after slider
@@ -13846,8 +13846,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233e
   local: corpus/pages/ai-design-tools/media/02dd5012-6e30-4b69-afb3-da96233ea389-b3727c48.webp
   art_style: photo
   chrome:
+  - compare-handle
   - play-button
-  - slider
   - tile
   confidence: 0.45
   description: person in blue mask and pink fur video still with a tool tile and before/after slider
@@ -14604,8 +14604,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/06bfdecd-129a-4b8c-8c36-25aefba3
   role: creative
   local: corpus/pages/aura/media/06bfdecd-129a-4b8c-8c36-25aefba32efe-fd5a866a.png
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: body
   ui_mockup: none
   subject: multiple
@@ -14951,8 +14951,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/07b301e3-2328-403d-9130-8c59f5f9
   role: creative
   local: corpus/frames/07b301e3.png
   chrome:
+  - adjust-slider
   - chip
-  - slider
   - tile
   text_in_image: labels-only
   ui_mockup: none
@@ -15552,8 +15552,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f
   role: creative
   local: corpus/pages/image-enlarger/media/0a547321-9bb9-4e67-8387-0868fd3f1ee1-2014e83d.webp
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -17759,7 +17759,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/120e92ec-a945-4bdc-9bdf-500e0193
   role: creative
   local: corpus/pages/ai-photo-editing/media/120e92ec-a945-4bdc-9bdf-500e019340d0-ba655e84.png
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: none
   ui_mockup: none
@@ -22745,7 +22745,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/2326523b-93f9-4bf2-958f-d9316250
   role: creative
   local: corpus/pages/ai-image-enhancer/media/2326523b-93f9-4bf2-958f-d93162507c67-3b1048fa.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: object
@@ -22763,6 +22763,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/2326523b-93f9-4bf2-958f-d9316250
   - text_in_image
   - ui_mockup
   sheet: gallery_black_single-f3c0b2
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/2386671f-7e15-40e8-9bdb-3333161fcc7f.avif:
   ground: mixed
   before_after: false
@@ -24019,7 +24022,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/266573a7-b86a-4ca5-9524-75f63bbe
   local: corpus/frames/266573a7-b86a-4ca5-9524-75f63bbeca6d-42360fc7.png
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   description: dark motion options panel with slide selected and a time slider
@@ -26854,7 +26857,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/303e844a-33c7-4588-834a-a6d592b5
   role: creative
   local: corpus/pages/ai-photo-editing/media/303e844a-33c7-4588-834a-a6d592b5b37e-9714e686.png
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: none
   ui_mockup: none
@@ -28129,8 +28132,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f
   role: creative
   local: corpus/pages/image-enlarger/media/344e094b-b447-4901-b931-955ee41f81aa-aa09bffc.webp
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -30273,7 +30276,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3d6ae2e3-7548-4f84-ad36-60d8c5d9
   role: creative
   local: corpus/pages/ai-image-enhancer/media/3d6ae2e3-7548-4f84-ad36-60d8c5d9ed04-7e0cf451.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: scene
@@ -30291,6 +30294,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3d6ae2e3-7548-4f84-ad36-60d8c5d9
   - text_in_image
   - ui_mockup
   sheet: gallery_black_single-f3c0b2
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/3dba0d37-fdb2-4038-a29f-0055a0007f2f.webm:
   ground: photo-full-bleed
   layout: single
@@ -30409,9 +30415,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3de0eaec-56b4-439c-a6c1-9b50681c
   role: creative
   local: corpus/pages/animation-maker/media/3de0eaec-56b4-439c-a6c1-9b50681c7fba-b4d90ee5.webp
   chrome:
+  - adjust-slider
   - button
   - prompt-panel
-  - slider
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
@@ -31824,9 +31830,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/42dbbee8-9436-47f4-91f7-c300fac4
   role: creative
   local: corpus/frames/42dbbee8-9436-47f4-91f7-c300fac40535-bccf7b98.png
   chrome:
+  - adjust-slider
   - chip
   - pill
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: animal
@@ -34829,7 +34835,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4e30ac1a-101a-4f04-8754-ddb02002
   local: corpus/pages/face-editor/media/4e30ac1a-101a-4f04-8754-ddb020023d45-409baaa9.webp
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   - tile
   text_in_image: labels-only
   ui_mockup: none
@@ -34990,7 +34996,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4ec5ee3b-0428-4060-88c5-3b3bac96
   role: thumbnail
   local: corpus/pages/ai-design-tools/media/4ec5ee3b-0428-4060-88c5-3b3bac96cd23-8885c963.webp
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -35008,6 +35014,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4ec5ee3b-0428-4060-88c5-3b3bac96
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-50fd6e
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/4eeca13c-c557-4579-ba17-e4cfd90a76ec.avif:
   ground: photo-full-bleed
   layout: single
@@ -38249,7 +38258,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5b47254a-89a4-4475-9e0a-1a3f9f30
   role: creative
   local: corpus/pages/ai-image-enhancer/media/5b47254a-89a4-4475-9e0a-1a3f9f305fc7-1c9cafd4.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -38267,6 +38276,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/5b47254a-89a4-4475-9e0a-1a3f9f30
   - text_in_image
   - ui_mockup
   sheet: gallery_black_single-f3c0b2
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/5b5b63a0-2c1a-4602-9975-b704b02be26a.avif:
   ground: photo-full-bleed
   layout: single
@@ -39342,7 +39354,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/608dc92c-bfff-4a83-b2c4-04127b35
   role: creative
   local: corpus/pages/ai-image-enhancer/media/608dc92c-bfff-4a83-b2c4-04127b352b23-4ba27fda.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -39360,6 +39372,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/608dc92c-bfff-4a83-b2c4-04127b35
   - text_in_image
   - ui_mockup
   sheet: gallery_black_single-22903f
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp:
   ground: white
   layout: column-main
@@ -39380,8 +39395,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1b
   local: corpus/pages/ai-product-image-generator/media/609c7793-6c4c-4046-ac42-5eb41c1bf823-1537c3a4.webp
   art_style: mixed
   chrome:
+  - adjust-slider
   - chip
-  - slider
   - tile
   confidence: 0.5
   description: Sportswear 50% Off poster of a person in a cap, with a poster-calendar chip and layout tile
@@ -39420,8 +39435,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1b
   local: corpus/pages/ai-design-tools/media/609c7793-6c4c-4046-ac42-5eb41c1bf823-4331bcf8.webp
   art_style: mixed
   chrome:
+  - adjust-slider
   - chip
-  - slider
   - tile
   confidence: 0.5
   description: Sportswear 50% Off poster of a person in a cap, with a poster-calendar chip and layout tile
@@ -40157,7 +40172,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d70
   role: creative
   local: corpus/pages/brighten-images/media/634048df-c946-4a99-9a04-d83d9d706f0b-68161685.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -40181,6 +40196,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d70
   - text_in_image
   - ui_mockup
   sheet: hero_unknown_unknown-c96e27
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/63525a28-01d5-4509-bd72-933f35195c41.avif:
   ground: photo-full-bleed
   layout: single
@@ -41069,7 +41087,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/66dc581c-40de-40b9-8d7f-95162e8f
   role: creative
   local: corpus/frames/66dc581c.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -41091,6 +41109,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/66dc581c-40de-40b9-8d7f-95162e8f
   - text_in_image
   - ui_mockup
   sheet: feature-callout_5x4_video-4fff18
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/66e63c9c-6a39-475b-b2ce-2a9ae1d1d648.webp:
   before_after: false
   source: sheet
@@ -43520,7 +43541,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6ec2a885-74f9-409f-83e7-37819926
   role: thumbnail
   local: corpus/pages/image-tools/media/6ec2a885-74f9-409f-83e7-378199261a97-6e580c5c.webp
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -43538,6 +43559,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6ec2a885-74f9-409f-83e7-37819926
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-50fd6e
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/6ec7cbfc-6fcb-4598-9562-89fc85993fb2.webp:
   ground: white
   layout: single
@@ -44951,8 +44975,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/73dd7c9f-0f7e-44d8-8d22-3a50474e
   role: creative
   local: corpus/pages/ai-image-enhancer/media/73dd7c9f-0f7e-44d8-8d22-3a50474e2c43-b018c2a5.avif
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -47524,7 +47548,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/7f7d71de-e494-47d5-9a4b-aa1eeced
   role: creative
   local: corpus/pages/ai-image-enhancer/media/7f7d71de-e494-47d5-9a4b-aa1eeced0ee9-d9b02a43.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -47542,6 +47566,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/7f7d71de-e494-47d5-9a4b-aa1eeced
   - text_in_image
   - ui_mockup
   sheet: gallery_black_single-22903f
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/7f7fa360-d8ae-4b30-b772-1023af715724.webp?type=webp&to=min&r=400:
   ground: photo-full-bleed
   layout: single
@@ -49327,8 +49354,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8665b544-e34d-47a0-9765-a471c783
   role: creative
   local: corpus/pages/hd-photo-converter/media/8665b544-e34d-47a0-9765-a471c783ec4b-f790bc5b.avif
   chrome:
+  - compare-handle
   - mockup-card
-  - slider
   text_in_image: headline
   ui_mockup: app-card
   subject: food
@@ -49575,8 +49602,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee97
   role: creative
   local: corpus/pages/ai-models--qwen-2-pro/media/870464b8-5d03-49e6-b10d-e4a5ee978e58-a398e0f6.webp
   chrome:
+  - adjust-slider
   - chip
-  - slider
   text_in_image: body
   ui_mockup: none
   subject: person
@@ -49614,8 +49641,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee97
   role: thumbnail
   local: corpus/pages/video-models/media/870464b8-5d03-49e6-b10d-e4a5ee978e58-639a9948.webp
   chrome:
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -50907,8 +50934,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/8a843f55-e989-45e0-a1e2-d314d645
   role: creative
   local: corpus/frames/8a843f55-e989-45e0-a1e2-d314d64515db-b61cddc1.png
   chrome:
+  - adjust-slider
   - play-button
-  - slider
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -56769,8 +56796,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962
   role: thumbnail
   local: corpus/pages/ai-models--flux-3/media/a5c54cd3-69a2-465c-9c8d-5520a962148b-c03e2d90.webp
   chrome:
+  - adjust-slider
   - chip
-  - slider
   text_in_image: body
   ui_mockup: editor-canvas
   subject: person
@@ -57274,7 +57301,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a7d64fef-c260-4cc5-b67d-56c10e4d
   role: creative
   local: corpus/pages/hd-photo-converter/media/a7d64fef-c260-4cc5-b67d-56c10e4d3942-ec1130df.avif
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: labels-only
   ui_mockup: none
@@ -58263,7 +58290,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ac50198a-ef75-401c-980b-7dc29703
   role: creative
   local: corpus/pages/ai-story-generator/media/ac50198a-ef75-401c-980b-7dc29703f385-f80017bb.avif
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -58282,6 +58309,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ac50198a-ef75-401c-980b-7dc29703
   - text_in_image
   - ui_mockup
   sheet: use-case-grid_photo-full-bleed_split-94fbd5
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/ac5aa2a5-f623-44a5-b4f4-32471a194c41.webm:
   ground: photo-full-bleed
   layout: single
@@ -58349,8 +58379,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ac74a6d8-5655-495a-b72e-705adcf8
   role: creative
   local: corpus/pages/ai-models--seedance-1-pro/media/ac74a6d8-5655-495a-b72e-705adcf871ac-f75fef0b.webp
   chrome:
+  - adjust-slider
   - play-button
-  - slider
   - tile
   text_in_image: headline
   ui_mockup: app-card
@@ -59566,8 +59596,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b22d092f-67f0-4647-a1b1-904cce98
   role: creative
   local: corpus/frames/b22d092f-67f0-4647-a1b1-904cce981cd1-34e5bfe4.png
   chrome:
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -60447,7 +60477,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/b572f707-195d-4ce0-b1b9-d5a8b23c
   role: creative
   local: corpus/pages/hd-photo-converter/media/b572f707-195d-4ce0-b1b9-d5a8b23c85cb-2d35b3a9.avif
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: labels-only
   ui_mockup: none
@@ -62446,9 +62476,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/bcfdd1ac-555d-4ebd-94a8-0321bb58
   role: creative
   local: corpus/pages/text-to-video-ai/media/bcfdd1ac-555d-4ebd-94a8-0321bb586d99-99cd9479.webp
   chrome:
+  - adjust-slider
   - play-button
   - prompt-panel
-  - slider
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: person
@@ -65518,8 +65548,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/ca668ef4-69c8-4d32-8869-c541807e
   role: thumbnail
   local: corpus/pages/ai-design-tools/media/ca668ef4-69c8-4d32-8869-c541807edd79-bfddb04a.webp
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -73189,8 +73219,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/e695bcb8-30d8-4197-99f1-fee9f65d
   art_style: photo
   camera: static
   chrome:
+  - adjust-slider
   - pill
-  - slider
   confidence: 0.6
   description: video-speed tool, crowd queuing at a modern cafe counter, speed slider and audio toggle
   family_hint: full-bleed
@@ -75057,7 +75087,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a9
   role: thumbnail
   local: corpus/pages/photo-editor/media/efee1128-13a8-4263-982a-992db2a94ed2-ede60693.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -75076,6 +75106,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a9
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_split-cfe78e
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a94ed2.png?type=webp&to=min&r=400:
   ground: photo-full-bleed
   layout: split
@@ -75098,7 +75131,7 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a9
   role: creative
   local: corpus/pages/aura/media/efee1128-13a8-4263-982a-992db2a94ed2-826ee5e9.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -75117,6 +75150,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a9
   - text_in_image
   - ui_mockup
   sheet: gallery_photo-full-bleed_split-e73616
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn-cms-uploads.picsart.com/cms-uploads/efeedce5-ecd8-456d-a908-033bea8d052a.png?type=webp&to=min&r=800:
   ground: photo-full-bleed
   layout: single
@@ -76585,8 +76621,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/f5b045e5-c9c4-43b7-8dad-7c547feb
   local: corpus/pages/hd-photo-converter/media/f5b045e5-c9c4-43b7-8dad-7c547febf9df-28ca4993.avif
   chrome:
   - button
+  - compare-handle
   - mockup-card
-  - slider
   text_in_image: labels-only
   ui_mockup: product-card
   subject: object
@@ -76948,8 +76984,8 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/f6c1de3b-6ec7-4369-b360-12bb8dfb
   art_style: photo
   camera: static
   chrome:
+  - adjust-slider
   - chip
-  - slider
   confidence: 0.6
   description: video-speed tool, hands baking with milk, eggs and apples, 2x speed slider and duration stats
   family_hint: full-bleed
@@ -77784,9 +77820,9 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/f96e5d5a-c692-4e8e-b305-6200b62d
   role: creative
   local: corpus/frames/f96e5d5a-c692-4e8e-b305-6200b62d1dd0-feb8e354.png
   chrome:
+  - adjust-slider
   - chip
   - play-button
-  - slider
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
@@ -84884,8 +84920,8 @@ https://cdn140.picsart.com/12481028616582094390.png:
   panel_count: 1
   chrome:
   - adjust-panel
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -85002,7 +85038,7 @@ https://cdn140.picsart.com/17169716074950588894.png:
   role: creative
   local: corpus/pages/red-eye-remover/media/17169716074950588894-4138fc7b.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -85020,6 +85056,9 @@ https://cdn140.picsart.com/17169716074950588894.png:
   - text_in_image
   - ui_mockup
   sheet: use-case-grid_photo-full-bleed_single-18d399
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn140.picsart.com/18910633441796797381.jpg:
   ground: photo-full-bleed
   layout: split
@@ -85042,7 +85081,7 @@ https://cdn140.picsart.com/18910633441796797381.jpg:
   role: thumbnail
   local: corpus/pages/photo-effects/media/18910633441796797381-4ea164ec.jpg
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -85061,6 +85100,9 @@ https://cdn140.picsart.com/18910633441796797381.jpg:
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_split-b6864a
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn140.picsart.com/18910633441796797381.jpg?type=webp&to=min&r=640:
   ground: photo-full-bleed
   layout: split
@@ -85083,7 +85125,7 @@ https://cdn140.picsart.com/18910633441796797381.jpg?type=webp&to=min&r=640:
   role: thumbnail
   local: corpus/pages/image-tools/media/18910633441796797381-1ae72ad7.jpg
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -85101,6 +85143,9 @@ https://cdn140.picsart.com/18910633441796797381.jpg?type=webp&to=min&r=640:
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_split-5dc0f1
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://cdn140.picsart.com/19524248449069363964.png:
   ground: photo-full-bleed
   layout: single
@@ -85195,7 +85240,7 @@ https://cdn140.picsart.com/27148736718296704773.png:
   local: corpus/pages/hsl-color/media/27148736718296704773-0c9be8c4.png
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -85495,8 +85540,8 @@ https://cdn140.picsart.com/48790089278770695789.png:
   local: corpus/pages/hsl-color/media/48790089278770695789-da31e929.png
   chrome:
   - adjust-panel
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -85669,7 +85714,7 @@ https://cdn140.picsart.com/61572740028595691367.png:
   panel_count: 1
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -89436,7 +89481,7 @@ https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.p
   role: thumbnail
   local: corpus/pages/brighten-images/media/044be218-92d7-45f6-b518-d92495f0ee45-58a41303.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -89454,6 +89499,9 @@ https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-5044c0
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.png?type=webp&to=min&r=640:
   ground: white
   layout: single
@@ -89473,7 +89521,7 @@ https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.p
   role: thumbnail
   local: corpus/pages/ai-design-tools/media/044be218-92d7-45f6-b518-d92495f0ee45-2ab208cf.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -89491,6 +89539,9 @@ https://pastatic.picsart.com/cms-pastatic/044be218-92d7-45f6-b518-d92495f0ee45.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-5044c0
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/04b695ff-5694-44b1-8eb1-73004f92cf9f.png:
   before_after: false
   source: sheet
@@ -90113,7 +90164,7 @@ https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.p
   role: thumbnail
   local: corpus/pages/brighten-images/media/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad-8ad97bb4.png
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: none
   ui_mockup: none
@@ -90151,7 +90202,7 @@ https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.p
   role: thumbnail
   local: corpus/pages/ai-design-tools/media/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad-872d4c15.png
   chrome:
-  - slider
+  - compare-handle
   - tile
   text_in_image: none
   ui_mockup: none
@@ -90383,8 +90434,8 @@ https://pastatic.picsart.com/cms-pastatic/0e6fd8bb-8651-49f9-bbdc-6b8cca7a7283.p
   local: corpus/pages/ai-filters/media/0e6fd8bb-8651-49f9-bbdc-6b8cca7a7283-ea5e7303.png
   chrome:
   - adjust-panel
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: phone-frame
   subject: multiple
@@ -91589,7 +91640,7 @@ https://pastatic.picsart.com/cms-pastatic/1d8867c2-877c-4d50-b37e-25d0ba4a4173.p
   local: corpus/pages/watermark-photos/media/1d8867c2-877c-4d50-b37e-25d0ba4a4173-3de1f222.png
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   - tile
   text_in_image: labels-only
   ui_mockup: editor-canvas
@@ -91664,8 +91715,8 @@ https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.p
   role: creative
   local: corpus/pages/brand-identity-generator/media/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9-5794192a.png
   chrome:
+  - adjust-slider
   - mockup-card
-  - slider
   - swatch
   text_in_image: headline
   ui_mockup: none
@@ -92103,9 +92154,9 @@ https://pastatic.picsart.com/cms-pastatic/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68.p
   role: thumbnail
   local: corpus/pages/background-remover/media/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68-92b4824a.png
   chrome:
+  - adjust-slider
   - chip
   - mockup-card
-  - slider
   text_in_image: labels-only
   ui_mockup: app-card
   subject: person
@@ -92146,7 +92197,7 @@ https://pastatic.picsart.com/cms-pastatic/251b1a73-32a3-4c7a-93df-bacb40c22533.p
   role: thumbnail
   local: corpus/pages/ai-photo-editing/media/251b1a73-32a3-4c7a-93df-bacb40c22533-d68c8056.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -92164,6 +92215,9 @@ https://pastatic.picsart.com/cms-pastatic/251b1a73-32a3-4c7a-93df-bacb40c22533.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_single-226750
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/2628ed8d-03f2-4150-9d61-9af4c51873e5.png:
   before_after: false
   source: sheet
@@ -92224,7 +92278,7 @@ https://pastatic.picsart.com/cms-pastatic/2631a718-ad61-4f27-afed-9bc52863f26a.p
   role: thumbnail
   local: corpus/pages/add-shadow-to-image/media/2631a718-ad61-4f27-afed-9bc52863f26a-b76169c6.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -92242,6 +92296,9 @@ https://pastatic.picsart.com/cms-pastatic/2631a718-ad61-4f27-afed-9bc52863f26a.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_single-226750
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/26e48ec2-9c9c-4e85-aa6d-3f0548c1c1c0.png:
   ground: white
   layout: single
@@ -92795,7 +92852,7 @@ https://pastatic.picsart.com/cms-pastatic/2ea3c608-f7b2-4df9-87cb-b1994efbbb97.p
   role: thumbnail
   local: corpus/pages/add-shadow-to-image/media/2ea3c608-f7b2-4df9-87cb-b1994efbbb97-b3c68055.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: object
@@ -92813,6 +92870,9 @@ https://pastatic.picsart.com/cms-pastatic/2ea3c608-f7b2-4df9-87cb-b1994efbbb97.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_black_single-2c5ad0
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/2fd282a1-7ae9-4c3b-be64-2a62b37447c2.png:
   ground: photo-full-bleed
   layout: single
@@ -93938,7 +93998,7 @@ https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.p
   local: corpus/pages/ai-content-generator/media/3d6dc29e-f572-4926-8c78-29199699ddb8-d31813ff.png
   chrome:
   - button
-  - slider
+  - compare-handle
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -93976,7 +94036,7 @@ https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.p
   local: corpus/pages/draw/media/3d6dc29e-f572-4926-8c78-29199699ddb8-195040ef.png
   chrome:
   - button
-  - slider
+  - compare-handle
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -94111,7 +94171,7 @@ https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.p
   role: thumbnail
   local: corpus/pages/image-enlarger/media/3fd01741-f7c3-4eaa-94c3-51fb72737114-d941670e.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -94129,6 +94189,9 @@ https://pastatic.picsart.com/cms-pastatic/3fd01741-f7c3-4eaa-94c3-51fb72737114.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-fbdde3
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/40bd8a93-8b81-4ba0-926a-37e1073d26f9.png:
   ground: white
   layout: single
@@ -94263,8 +94326,8 @@ https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.p
   local: corpus/pages/video-background-remover/media/4371bbdc-814f-4ff2-b75f-c278083a7662-e1872963.png
   chrome:
   - adjust-panel
+  - adjust-slider
   - chip
-  - slider
   - swatch
   text_in_image: labels-only
   ui_mockup: none
@@ -94421,7 +94484,7 @@ https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.p
   role: thumbnail
   local: corpus/pages/meme-generator/media/45cc9c35-338a-4e3b-9b00-1682328506f1-37139ad9.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -94439,6 +94502,9 @@ https://pastatic.picsart.com/cms-pastatic/45cc9c35-338a-4e3b-9b00-1682328506f1.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-f7c600
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/487789d7-c9ca-48f4-91eb-0acd97e9688e.png:
   ground: photo-full-bleed
   layout: single
@@ -94775,7 +94841,7 @@ https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.p
   role: creative
   local: corpus/pages/ai-video-filters/media/4b5ae618-24bf-4c8f-9485-513cf7eec37c-d9ef89f4.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -94793,6 +94859,9 @@ https://pastatic.picsart.com/cms-pastatic/4b5ae618-24bf-4c8f-9485-513cf7eec37c.p
   - text_in_image
   - ui_mockup
   sheet: how-it-works_white_single-d1fed2
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/4c10cce3-43b2-455c-af56-2cefcae7c341.png:
   before_after: false
   source: sheet
@@ -95236,9 +95305,9 @@ https://pastatic.picsart.com/cms-pastatic/506be643-ce46-42a3-9071-265194c50d95.p
   role: creative
   local: corpus/pages/background-tools/media/506be643-ce46-42a3-9071-265194c50d95-f0f46262.png
   chrome:
+  - adjust-slider
   - button
   - mockup-card
-  - slider
   text_in_image: labels-only
   ui_mockup: app-card
   subject: person
@@ -95750,7 +95819,7 @@ https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.p
   role: thumbnail
   local: corpus/pages/ai-design-generator/media/57614e21-2abd-4828-93be-c65dd870a686-bf6c4755.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -95768,6 +95837,9 @@ https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-f7c600
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.png?type=webp&to=min&r=-1:
   ground: white
   layout: single
@@ -95787,7 +95859,7 @@ https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.p
   role: thumbnail
   local: corpus/pages/ai-poster-generator/media/57614e21-2abd-4828-93be-c65dd870a686-7431e0cf.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -95805,6 +95877,9 @@ https://pastatic.picsart.com/cms-pastatic/57614e21-2abd-4828-93be-c65dd870a686.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-f7c600
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png:
   before_after: false
   source: sheet
@@ -95905,7 +95980,7 @@ https://pastatic.picsart.com/cms-pastatic/5770afcd-8847-44e2-abfe-be27bf531511.p
   role: thumbnail
   local: corpus/pages/background-remover/media/5770afcd-8847-44e2-abfe-be27bf531511-7a63c6fb.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: none
   ui_mockup: editor-canvas
   subject: multiple
@@ -95923,6 +95998,9 @@ https://pastatic.picsart.com/cms-pastatic/5770afcd-8847-44e2-abfe-be27bf531511.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_single-226750
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/57dcf388-b47f-4e55-8771-a131767cbc6b.png:
   ground: mixed
   before_after: false
@@ -95940,8 +96018,8 @@ https://pastatic.picsart.com/cms-pastatic/57dcf388-b47f-4e55-8771-a131767cbc6b.p
   role: creative
   local: corpus/pages/packaging-design/media/57dcf388-b47f-4e55-8771-a131767cbc6b-f0e70a8d.png
   chrome:
+  - adjust-slider
   - chip
-  - slider
   text_in_image: labels-only
   ui_mockup: product-card
   subject: animal
@@ -96465,7 +96543,7 @@ https://pastatic.picsart.com/cms-pastatic/5ca3870e-e919-44e7-a047-8ce298c92731.p
   role: thumbnail
   local: corpus/pages/face-editor/media/5ca3870e-e919-44e7-a047-8ce298c92731-215b7a53.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -96483,6 +96561,9 @@ https://pastatic.picsart.com/cms-pastatic/5ca3870e-e919-44e7-a047-8ce298c92731.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-f7c600
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/5cf12242-55b3-438a-9544-1cdcbaa04694.png:
   ground: white
   layout: single
@@ -97420,8 +97501,8 @@ https://pastatic.picsart.com/cms-pastatic/68b8f004-50e1-4147-9aa5-304934e264d2.p
   role: thumbnail
   local: corpus/pages/background-remover/media/68b8f004-50e1-4147-9aa5-304934e264d2-03a448e8.png
   chrome:
+  - adjust-slider
   - badge
-  - slider
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -98932,7 +99013,7 @@ https://pastatic.picsart.com/cms-pastatic/7ebc18ee-0a25-48c3-b5db-56462564a376.p
   role: thumbnail
   local: corpus/pages/photo-effects/media/7ebc18ee-0a25-48c3-b5db-56462564a376-cd12dbc1.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -98950,6 +99031,9 @@ https://pastatic.picsart.com/cms-pastatic/7ebc18ee-0a25-48c3-b5db-56462564a376.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-b1d6dc
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/7ec514d6-8d0c-4235-92dc-43c4ef354021.png:
   ground: white
   layout: column-main
@@ -99517,7 +99601,7 @@ https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.p
   role: creative
   local: corpus/pages/background-tools/media/84c3fe25-9684-43e9-9fd2-19b067ad2823-1bbd7f72.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: none
   ui_mockup: browser-window
   subject: product
@@ -99539,6 +99623,9 @@ https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.p
   - text_in_image
   - ui_mockup
   sheet: feature-callout_mixed_unknown-237fb8
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/8561e8a4-0ada-43ce-ab06-8cad4d99fa16.png:
   ground: white
   layout: single
@@ -99814,8 +99901,8 @@ https://pastatic.picsart.com/cms-pastatic/89382c9a-5342-4bdf-aff6-d32fee001f55.j
   role: thumbnail
   local: corpus/pages/ai-image-enhancer/media/89382c9a-5342-4bdf-aff6-d32fee001f55-32b88ea4.jpg
   chrome:
+  - compare-handle
   - pill
-  - slider
   text_in_image: none
   ui_mockup: none
   subject: scene
@@ -100081,8 +100168,8 @@ https://pastatic.picsart.com/cms-pastatic/8c82161a-f4f8-494c-a57a-f5ab6b0f50be.p
   role: thumbnail
   local: corpus/pages/watermark-photos/media/8c82161a-f4f8-494c-a57a-f5ab6b0f50be-8293a0c8.png
   chrome:
+  - adjust-slider
   - button
-  - slider
   text_in_image: none
   ui_mockup: phone-frame
   subject: scene
@@ -100194,8 +100281,8 @@ https://pastatic.picsart.com/cms-pastatic/8f1651b8-25d1-452e-84e5-0e3aa4a20f22.p
   role: creative
   local: corpus/pages/add-shadow-to-image/media/8f1651b8-25d1-452e-84e5-0e3aa4a20f22-b35263f9.png
   chrome:
+  - adjust-slider
   - selection-handles
-  - slider
   - tile
   text_in_image: labels-only
   ui_mockup: editor-canvas
@@ -100987,7 +101074,7 @@ https://pastatic.picsart.com/cms-pastatic/9a29fc3f-947e-4ef9-b6ac-8824bd27de58.p
   local: corpus/pages/brighten-images/media/9a29fc3f-947e-4ef9-b6ac-8824bd27de58-c3d8a4c8.png
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: food
@@ -101140,7 +101227,7 @@ https://pastatic.picsart.com/cms-pastatic/9be1bcb6-b4c5-4414-afb6-55bbd734ec10.p
   role: thumbnail
   local: corpus/pages/draw/media/9be1bcb6-b4c5-4414-afb6-55bbd734ec10-e37d4b29.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: animal
@@ -101159,6 +101246,9 @@ https://pastatic.picsart.com/cms-pastatic/9be1bcb6-b4c5-4414-afb6-55bbd734ec10.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_split-cfe78e
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/9c04c8a3-14d9-4953-b941-a3fb2da29430.png:
   ground: white
   layout: single
@@ -101370,7 +101460,7 @@ https://pastatic.picsart.com/cms-pastatic/9ddde272-54d5-45b0-94bd-9cafd9ae64d3.p
   role: thumbnail
   local: corpus/pages/ai-background/media/9ddde272-54d5-45b0-94bd-9cafd9ae64d3-ca79d2d9.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -101388,6 +101478,9 @@ https://pastatic.picsart.com/cms-pastatic/9ddde272-54d5-45b0-94bd-9cafd9ae64d3.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-016534
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png:
   ground: black
   layout: single
@@ -102462,7 +102555,7 @@ https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.p
   role: thumbnail
   local: corpus/pages/ai-sticker-maker/media/acf65550-0b4a-4317-8490-8d1a908c1b6c-b96fe973.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -102480,6 +102573,9 @@ https://pastatic.picsart.com/cms-pastatic/acf65550-0b4a-4317-8490-8d1a908c1b6c.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_split-5dc0f1
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/ad52b812-d7f0-42ef-934b-9948c8d095e5.png:
   ground: white
   layout: column-main
@@ -103674,7 +103770,7 @@ https://pastatic.picsart.com/cms-pastatic/ba26c799-dc5c-4a0e-82c0-28fdda25d078.p
   role: thumbnail
   local: corpus/pages/background-tools/media/ba26c799-dc5c-4a0e-82c0-28fdda25d078-3acb54eb.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -103692,6 +103788,9 @@ https://pastatic.picsart.com/cms-pastatic/ba26c799-dc5c-4a0e-82c0-28fdda25d078.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_photo-full-bleed_single-6a4b86
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/ba8c6b1a-e154-4cb2-93cb-fbb2af9d73c6.png:
   ground: photo-full-bleed
   layout: single
@@ -104022,7 +104121,7 @@ https://pastatic.picsart.com/cms-pastatic/bbde53af-8025-4b56-9acb-6516494723af.p
   local: corpus/pages/image-tools/media/bbde53af-8025-4b56-9acb-6516494723af-40752ee9.png
   chrome:
   - badge
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -104371,7 +104470,7 @@ https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.p
   local: corpus/pages/ai-content-generator/media/bf789f0d-1ba7-489e-94b0-029b56ba2e8a-5207dc4d.png
   art_style: photo
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -104388,6 +104487,9 @@ https://pastatic.picsart.com/cms-pastatic/bf789f0d-1ba7-489e-94b0-029b56ba2e8a.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_black_column-main-fe8df7
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/bf7f9b65-05a4-44dd-b8f9-667ce57f7b51.png:
   ground: white
   layout: single
@@ -104541,7 +104643,7 @@ https://pastatic.picsart.com/cms-pastatic/c249a42e-e203-43ce-bdc2-78d2c3003f82.p
   local: corpus/pages/image-style-transfer/media/c249a42e-e203-43ce-bdc2-78d2c3003f82-0994bfa6.png
   chrome:
   - adjust-panel
-  - slider
+  - adjust-slider
   - tile
   text_in_image: labels-only
   ui_mockup: none
@@ -105671,9 +105773,9 @@ https://pastatic.picsart.com/cms-pastatic/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb.p
   local: corpus/pages/image-style-transfer/media/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb-16a523a7.png
   chrome:
   - adjust-panel
+  - compare-handle
   - cursor
   - selection-handles
-  - slider
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: animal
@@ -106539,7 +106641,7 @@ https://pastatic.picsart.com/cms-pastatic/def32357-93f6-42f9-9963-fed368dd1d65.p
   role: thumbnail
   local: corpus/pages/add-shadow-to-image/media/def32357-93f6-42f9-9963-fed368dd1d65-d926e4f6.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -106557,6 +106659,9 @@ https://pastatic.picsart.com/cms-pastatic/def32357-93f6-42f9-9963-fed368dd1d65.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_black_single-2c5ad0
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/def7593d-cc69-4480-8e96-0da00c4beb67.png:
   before_after: false
   source: sheet
@@ -107362,7 +107467,7 @@ https://pastatic.picsart.com/cms-pastatic/e6859da6-0b51-438d-8ebc-153c92001781.p
   role: thumbnail
   local: corpus/pages/image-tools/media/e6859da6-0b51-438d-8ebc-153c92001781-e512715d.png
   chrome:
-  - slider
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -107380,6 +107485,9 @@ https://pastatic.picsart.com/cms-pastatic/e6859da6-0b51-438d-8ebc-153c92001781.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_white_single-d31c58
+  chrome_items:
+  - kind: compare-handle
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/e6f595e1-9c88-4d54-938c-ba6c25c37c26.png:
   ground: white
   layout: single
@@ -108460,7 +108568,7 @@ https://pastatic.picsart.com/cms-pastatic/f71cbbc1-ecc5-42ca-aa80-79156bc16d13.p
   role: thumbnail
   local: corpus/pages/background-remover/media/f71cbbc1-ecc5-42ca-aa80-79156bc16d13-40df7d02.png
   chrome:
-  - slider
+  - adjust-slider
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: person
@@ -108482,6 +108590,9 @@ https://pastatic.picsart.com/cms-pastatic/f71cbbc1-ecc5-42ca-aa80-79156bc16d13.p
   - text_in_image
   - ui_mockup
   sheet: link-grid_mixed_unknown-b59811
+  chrome_items:
+  - kind: adjust-slider
+    placement: overlay
 https://pastatic.picsart.com/cms-pastatic/f76d7601-d94d-4032-8d4f-44902e7d83cc.png:
   ground: black
   layout: single
@@ -108502,8 +108613,8 @@ https://pastatic.picsart.com/cms-pastatic/f76d7601-d94d-4032-8d4f-44902e7d83cc.p
   local: corpus/pages/background-tools/media/f76d7601-d94d-4032-8d4f-44902e7d83cc-193ba4ec.png
   chrome:
   - badge
+  - compare-handle
   - selection-handles
-  - slider
   - swatch
   text_in_image: none
   ui_mockup: none
@@ -110352,8 +110463,8 @@ https://pcdn.picsart.com/cms-uploads/4326e534-92b7-4219-8db9-194d6eaf68e1.webm:
   role: creative
   local: corpus/frames/4326e534-92b7-4219-8db9-194d6eaf68e1-1807da99.png
   chrome:
+  - adjust-slider
   - play-button
-  - slider
   - vs-badge
   text_in_image: labels-only
   ui_mockup: none
@@ -113245,8 +113356,8 @@ https://pcdn.picsart.com/cms-uploads/e6060d09-afec-43be-93d1-42272c1a295c.webm:
   role: creative
   local: corpus/frames/e6060d09.png
   chrome:
+  - adjust-slider
   - button
-  - slider
   - tile
   text_in_image: labels-only
   ui_mockup: prompt-ui

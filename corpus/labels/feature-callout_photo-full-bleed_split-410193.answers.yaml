@@ -1,5 +1,7 @@
 1:
-  chrome: [pill, model-logo]
+  chrome:
+  - pill
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -9,7 +11,10 @@
   confidence: 0.65
   before_after: false
 2:
-  chrome: [tile, adjust-panel, slider]
+  chrome:
+  - adjust-panel
+  - adjust-slider
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -19,7 +24,9 @@
   confidence: 0.4
   before_after: false
 3:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -29,7 +36,9 @@
   confidence: 0.65
   before_after: false
 4:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: scene
@@ -39,7 +48,10 @@
   confidence: 0.6
   before_after: false
 5:
-  chrome: [tile, brackets, size-label]
+  chrome:
+  - tile
+  - brackets
+  - size-label
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -49,7 +61,9 @@
   confidence: 0.55
   before_after: false
 6:
-  chrome: [pill, model-logo]
+  chrome:
+  - pill
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -59,7 +73,9 @@
   confidence: 0.65
   before_after: false
 7:
-  chrome: [tile, size-label]
+  chrome:
+  - tile
+  - size-label
   text_in_image: labels-only
   ui_mockup: none
   subject: food
@@ -69,7 +85,9 @@
   confidence: 0.4
   before_after: false
 8:
-  chrome: [pill, tile]
+  chrome:
+  - pill
+  - tile
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -79,7 +97,8 @@
   confidence: 0.5
   before_after: true
 9:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -89,27 +108,36 @@
   confidence: 0.35
   before_after: false
 10:
-  chrome: [prompt-panel, button, mockup-card]
+  chrome:
+  - prompt-panel
+  - button
+  - mockup-card
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: object
   art_style: mixed
-  description: a spring-flower prompt panel beside a Special Offer 50 poster with a glass flower
+  description: a spring-flower prompt panel beside a Special Offer 50 poster with
+    a glass flower
   family_hint: template-mockup
   confidence: 0.4
   before_after: false
 11:
-  chrome: [tile, selection-handles, size-label]
+  chrome:
+  - tile
+  - selection-handles
+  - size-label
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
   art_style: photo
-  description: a boy cutout on checkerboard and a man cutout with editor handles and a size label
+  description: a boy cutout on checkerboard and a man cutout with editor handles and
+    a size label
   family_hint: editor-canvas
   confidence: 0.4
   before_after: false
 12:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person

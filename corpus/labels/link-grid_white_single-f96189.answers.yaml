@@ -35,7 +35,9 @@
   family_hint: cutout-checkerboard
   confidence: 0.7
 5:
-  chrome: [badge, slider]
+  chrome:
+  - badge
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -53,7 +55,8 @@
   family_hint: graphic-collage
   confidence: 0.5
 7:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -62,7 +65,8 @@
   family_hint: template-mockup
   confidence: 0.7
 8:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -71,7 +75,9 @@
   family_hint: template-mockup
   confidence: 0.7
 9:
-  chrome: [mockup-card, brackets]
+  chrome:
+  - mockup-card
+  - brackets
   text_in_image: headline
   ui_mockup: app-card
   subject: food
@@ -80,7 +86,9 @@
   family_hint: mockup-card
   confidence: 0.5
 10:
-  chrome: [chip, mockup-card]
+  chrome:
+  - chip
+  - mockup-card
   text_in_image: body
   ui_mockup: app-card
   subject: typography

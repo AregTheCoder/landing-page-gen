@@ -1,5 +1,6 @@
 1:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -31,7 +32,8 @@
   ui_mockup: none
   subject: product
   art_style: photo
-  description: a hand holding green sunglasses over a teal and transparent checkerboard split
+  description: a hand holding green sunglasses over a teal and transparent checkerboard
+    split
   family_hint: cutout-checkerboard
   confidence: 0.7
 5:
@@ -53,7 +55,8 @@
   family_hint: full-bleed
   confidence: 0.6
 7:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -62,7 +65,8 @@
   family_hint: template-mockup
   confidence: 0.7
 8:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -71,16 +75,20 @@
   family_hint: template-mockup
   confidence: 0.7
 9:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
   art_style: photo
-  description: a blue product bag on a green and transparent checkerboard split with a slider
+  description: a blue product bag on a green and transparent checkerboard split with
+    a slider
   family_hint: cutout-checkerboard
   confidence: 0.6
 10:
-  chrome: [selection-handles, mockup-card]
+  chrome:
+  - selection-handles
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: typography

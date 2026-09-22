@@ -1,10 +1,13 @@
 1:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: multiple
   art_style: mixed
-  description: prompt panel with generate button beside red jelly renders and a sky poster
+  description: prompt panel with generate button beside red jelly renders and a sky
+    poster
   family_hint: prompt-card
   confidence: 0.65
 2:
@@ -17,14 +20,17 @@
   family_hint: full-bleed
   confidence: 0.4
 3:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: black upload button tile on white
   family_hint: other
   confidence: 0.4
 4:
-  chrome: [tile, play-button]
+  chrome:
+  - tile
+  - play-button
   text_in_image: labels-only
   ui_mockup: app-card
   subject: multiple
@@ -33,14 +39,18 @@
   family_hint: template-mockup
   confidence: 0.45
 5:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: black upload button tile on near-empty white
   family_hint: other
   confidence: 0.4
 6:
-  chrome: [tile, badge, play-button]
+  chrome:
+  - tile
+  - badge
+  - play-button
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -49,7 +59,9 @@
   family_hint: template-mockup
   confidence: 0.5
 7:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: typography
@@ -58,14 +70,17 @@
   family_hint: prompt-card
   confidence: 0.65
 8:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: black upload button tile on white
   family_hint: other
   confidence: 0.4
 9:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -74,14 +89,16 @@
   family_hint: template-mockup
   confidence: 0.55
 10:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   description: black upload button tile on white
   family_hint: other
   confidence: 0.4
 11:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -90,7 +107,9 @@
   family_hint: template-mockup
   confidence: 0.45
 12:
-  chrome: [adjust-panel, slider]
+  chrome:
+  - adjust-panel
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   description: dark motion options panel with slide selected and a time slider

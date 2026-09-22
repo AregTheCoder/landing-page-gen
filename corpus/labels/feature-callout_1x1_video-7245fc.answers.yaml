@@ -1,83 +1,99 @@
 1:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: magenta Start Creating button on white, then grey-haired woman on a sofa with a Download pill
+  description: magenta Start Creating button on white, then grey-haired woman on a
+    sofa with a Download pill
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 2:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: black upload tile on white, then a man in sunglasses selfie clip lands in a phone social feed with Download
+  description: black upload tile on white, then a man in sunglasses selfie clip lands
+    in a phone social feed with Download
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 3:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: Start Creating button on white, then a woman on an orange sofa waves a brush, ends in a phone feed with Download
+  description: Start Creating button on white, then a woman on an orange sofa waves
+    a brush, ends in a phone feed with Download
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: white upload tile on black, a Send to print button, then a woman in a pink beanie and printed tee on red
+  description: white upload tile on black, a Send to print button, then a woman in
+    a pink beanie and printed tee on red
   family_hint: other
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 5:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: product
   art_style: photo
   before_after: false
-  description: upload tile on white, a striped ceramic mug on pink, then the mug in a shop product card with Order button
+  description: upload tile on white, a striped ceramic mug on pink, then the mug in
+    a shop product card with Order button
   family_hint: mockup-card
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 6:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: photo
   before_after: false
-  description: split two-up, Sora 2 man on a rug with records beside Veo 3.1 woman in pink suit among giant mushrooms
+  description: split two-up, Sora 2 man on a rug with records beside Veo 3.1 woman
+    in pink suit among giant mushrooms
   family_hint: vs-two-up
   confidence: 0.85
   motion_kind: cut-montage
   camera: static
 7:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: photo
   before_after: false
-  description: split two-up, Sora 2 man on a rug with records beside Veo 3.1 woman in pink suit among giant mushrooms
+  description: split two-up, Sora 2 man on a rug with records beside Veo 3.1 woman
+    in pink suit among giant mushrooms
   family_hint: vs-two-up
   confidence: 0.85
   motion_kind: cut-montage
@@ -89,55 +105,64 @@
   subject: food
   art_style: photo
   before_after: false
-  description: chocolate poured on a heart cake, then a prompt box types and a voice-over panel with waveform appears
+  description: chocolate poured on a heart cake, then a prompt box types and a voice-over
+    panel with waveform appears
   family_hint: full-bleed
   confidence: 0.5
   motion_kind: ui-demo
   camera: static
 9:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: headline
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: fitness poster of a woman on an exercise ball with headline, beside a column of three dark tool tiles
+  description: fitness poster of a woman on an exercise ball with headline, beside
+    a column of three dark tool tiles
   family_hint: template-mockup
   confidence: 0.55
   motion_kind: ambient
   camera: static
 10:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: true
-  description: before-after slider sweeps across a woman with lilac hair, revealing retouched makeup
+  description: before-after slider sweeps across a woman with lilac hair, revealing
+    retouched makeup
   family_hint: before-after
   confidence: 0.9
   motion_kind: transition
   camera: static
 11:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: true
-  description: before-after slider sweeps across a young man in a white beanie, clearing his skin
+  description: before-after slider sweeps across a young man in a white beanie, clearing
+    his skin
   family_hint: before-after
   confidence: 0.9
   motion_kind: transition
   camera: static
 12:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
   art_style: photo
   before_after: false
-  description: man in blue sunglasses card on lime gradient with crop icon, then blob shapes and Shop Now text build an ad
+  description: man in blue sunglasses card on lime gradient with crop icon, then blob
+    shapes and Shop Now text build an ad
   family_hint: editor-canvas
   confidence: 0.5
   motion_kind: ui-demo

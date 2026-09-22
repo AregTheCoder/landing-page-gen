@@ -35,15 +35,15 @@ FRAME_CHUNK = 8      # videos per child process
 # the rest name recurring layered controls the bag could not distinguish
 # (mined from the descriptions: option lists, tab rows, waveforms, timelines,
 # dropdowns, step chips, toggles) plus a few the catalogue anticipates
-# (volume, colour-picker, progress, loupe, crop-grid). `slider` still stands for
-# both an adjustment track and a before/after handle; slice B splits it into
-# `adjust-slider` and `compare-handle` together with the taxonomy rules that
-# read them. `chrome_items` (below) carries the same kinds with geometry.
+# (volume, colour-picker, progress, loupe, crop-grid). The old `slider` is split
+# into `adjust-slider` (a tool track with a knob) and `compare-handle` (a
+# before/after divider) — `label.migrate` rewrites existing data. `chrome_items`
+# (below) carries the same kinds with geometry.
 CHROME_KINDS = (
     "tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
-    "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch",
+    "vs-badge", "play-button", "cursor", "selection-handles", "arrow", "size-label", "swatch",
     "adjust-panel", "option-list", "tab-row", "waveform", "timeline", "dropdown", "step-chip", "toggle",
-    "volume", "colour-picker", "progress", "loupe", "crop-grid",
+    "volume", "colour-picker", "progress", "loupe", "crop-grid", "adjust-slider", "compare-handle",
 )
 # Where a chrome item sits, and the vocab `chrome_items` states are validated against.
 CHROME_PLACEMENTS = ("overlay", "beside")
@@ -65,8 +65,8 @@ FIELDS = {
                "coloured square with a check; button = solid rounded call-to-action; prompt-panel = dark card with "
                "prompt text and a Generate button; mockup-card = a fake app, profile, product or template card; "
                "model-logo = a third-party model mark; vs-badge = a round VS mark; play-button = a triangle over a "
-               "still; cursor and selection-handles = editor furniture; slider = a labelled track with a knob (an adjustment "
-               "control) or a before/after handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
+               "still; cursor and selection-handles = editor furniture; adjust-slider = a labelled track with a knob (a "
+               "tool control); compare-handle = a before/after divider handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
                "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values); "
                "option-list = a list of choices with one highlighted (a model or style picker); tab-row = a row of tabs, "
                "one active; waveform = an audio waveform strip; timeline = a video scrubber or timeline; dropdown = a "

@@ -1,71 +1,88 @@
 1:
-  chrome: [tile, chip, slider]
+  chrome:
+  - adjust-slider
+  - chip
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: woman crossing a city street in a video panel beside an upload tile, 0.5x chip and speed slider
+  description: woman crossing a city street in a video panel beside an upload tile,
+    0.5x chip and speed slider
   family_hint: dark-composite
   confidence: 0.75
   motion_kind: subject-motion
   camera: static
 2:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: editor-canvas
   subject: abstract
   art_style: flat-vector
   before_after: false
-  description: empty dark collage layout with plus placeholders and a row of layout picker icons
+  description: empty dark collage layout with plus placeholders and a row of layout
+    picker icons
   family_hint: dark-composite
   confidence: 0.55
   motion_kind: ui-demo
   camera: static
 3:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: four men at a bar table on red stools with a Choose from device button over the photo
+  description: four men at a bar table on red stools with a Choose from device button
+    over the photo
   family_hint: dark-composite
   confidence: 0.6
   motion_kind: ui-demo
   camera: static
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: woman in headphones holding flowers, a merge icon tile, clip thumbnail and plus tile in a dark column
+  description: woman in headphones holding flowers, a merge icon tile, clip thumbnail
+    and plus tile in a dark column
   family_hint: dark-composite
   confidence: 0.7
   motion_kind: ui-demo
   camera: static
 5:
-  chrome: [tile, chip, prompt-panel]
+  chrome:
+  - tile
+  - chip
+  - prompt-panel
   text_in_image: body
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: false
-  description: woman holding a sunscreen tube beside a music tile, mp3 chip, waveform row and a caption sentence card
+  description: woman holding a sunscreen tube beside a music tile, mp3 chip, waveform
+    row and a caption sentence card
   family_hint: prompt-card
   confidence: 0.55
   motion_kind: cut-montage
   camera: static
 6:
-  chrome: [chip, size-label]
+  chrome:
+  - chip
+  - size-label
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
   before_after: true
-  description: smiling couple in white on a bed, small source thumbnail under a 4x chip beside the large upscaled panel
+  description: smiling couple in white on a bed, small source thumbnail under a 4x
+    chip beside the large upscaled panel
   family_hint: dark-composite
   confidence: 0.6
   motion_kind: subject-motion

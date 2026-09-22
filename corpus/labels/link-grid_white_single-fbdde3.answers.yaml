@@ -1,5 +1,6 @@
 1:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -8,7 +9,8 @@
   family_hint: template-mockup
   confidence: 0.6
 2:
-  chrome: [selection-handles]
+  chrome:
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -71,7 +73,8 @@
   family_hint: graphic-collage
   confidence: 0.6
 9:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: editor-canvas
   subject: product
@@ -80,7 +83,8 @@
   family_hint: crop-frame
   confidence: 0.4
 10:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: editor-canvas
   subject: product
@@ -89,16 +93,19 @@
   family_hint: crop-frame
   confidence: 0.4
 11:
-  chrome: [swatch]
+  chrome:
+  - swatch
   text_in_image: headline
   ui_mockup: phone-frame
   subject: multiple
   art_style: mixed
-  description: a blue phone frame showing a this or that quiz template with color swatches
+  description: a blue phone frame showing a this or that quiz template with color
+    swatches
   family_hint: template-mockup
   confidence: 0.5
 12:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food

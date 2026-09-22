@@ -1,5 +1,6 @@
 1:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: phone-frame
   subject: multiple
@@ -8,7 +9,9 @@
   family_hint: template-mockup
   confidence: 0.55
 2:
-  chrome: [pill, slider]
+  chrome:
+  - compare-handle
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -22,16 +25,20 @@
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a person with a backpack on rocks with a red selection mask over the background
+  description: a person with a backpack on rocks with a red selection mask over the
+    background
   family_hint: full-bleed
   confidence: 0.4
 4:
-  chrome: [button, badge]
+  chrome:
+  - button
+  - badge
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a model in a creativity bucket hat with social buttons and a 50 percent off badge
+  description: a model in a creativity bucket hat with social buttons and a 50 percent
+    off badge
   family_hint: mockup-card
   confidence: 0.4
 5:
@@ -44,7 +51,9 @@
   family_hint: full-bleed
   confidence: 0.4
 6:
-  chrome: [cursor, mockup-card]
+  chrome:
+  - cursor
+  - mockup-card
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -62,12 +71,15 @@
   family_hint: full-bleed
   confidence: 0.85
 8:
-  chrome: [tile, chip]
+  chrome:
+  - tile
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: mixed
-  description: an AI art tile and abstract panels beside a framed print over a blue table
+  description: an AI art tile and abstract panels beside a framed print over a blue
+    table
   family_hint: template-mockup
   confidence: 0.4
 9:

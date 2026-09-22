@@ -48,9 +48,11 @@ def family_of(rec):
     fam = None
     if rec.get("before_after"):
         fam = "before-after"
-    elif "adjust-panel" in ch or ("slider" in ch and lay == "overlay") or (
+    elif "adjust-panel" in ch or ("adjust-slider" in ch and lay == "overlay") or (
             typ == "hero" and {"pill", "badge"} <= ch and g == "photo-full-bleed" and panels <= 1):
         fam = "panel-overlay"  # the tool panel over a photo; on heroes the tool badge + label pill stand in for it
+    elif "compare-handle" in ch:
+        fam = "before-after"  # a before/after divider handle, even when the flag was not measured
     elif ch & {"brackets", "size-label"}:
         fam = "crop-frame"
     elif g == "checkerboard" or ("badge" in ch and art == "photo"):
@@ -84,7 +86,7 @@ def family_of(rec):
     elif typ == "gallery" and g in ("white", "checkerboard") and panels <= 1 and txt not in ("headline", "body"):
         fam = "outcome-tile"
     elif (txt in ("headline", "body") and g in _FLAT and ui == "none"
-          and not ch & {"tile", "model-logo", "play-button", "prompt-panel", "slider"}):
+          and not ch & {"tile", "model-logo", "play-button", "prompt-panel", "adjust-slider", "compare-handle"}):
         # a designed card carrying a headline on a flat ground, no tool chrome: the
         # template-maker galleries the layout rules leave unresolved (206 assets)
         fam = "template-mockup"

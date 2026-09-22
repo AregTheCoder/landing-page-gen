@@ -1,32 +1,45 @@
 1:
-  chrome: [selection-handles, mockup-card, button, cursor]
+  chrome:
+  - selection-handles
+  - mockup-card
+  - button
+  - cursor
   text_in_image: labels-only
   ui_mockup: app-card
   subject: food
   art_style: mixed
-  description: a chat mockup with a burger sticker and reply buttons with selection handles
+  description: a chat mockup with a burger sticker and reply buttons with selection
+    handles
   family_hint: mockup-card
   confidence: 0.4
 2:
-  chrome: [tile, mockup-card, button]
+  chrome:
+  - tile
+  - mockup-card
+  - button
   text_in_image: headline
   ui_mockup: app-card
   subject: typography
   art_style: mixed
-  description: a CREAM social post mockup with an ice cream and coffee cup and a More Tools tile
+  description: a CREAM social post mockup with an ice cream and coffee cup and a More
+    Tools tile
   family_hint: template-mockup
   confidence: 0.4
 3:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: body
   ui_mockup: product-card
   subject: typography
   art_style: mixed
-  description: an Employee of the Month certificate with a font search panel listing typefaces
+  description: an Employee of the Month certificate with a font search panel listing
+    typefaces
   family_hint: template-mockup
   confidence: 0.5
 4:
-  chrome: [chip, mockup-card]
+  chrome:
+  - chip
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -35,7 +48,9 @@
   family_hint: template-mockup
   confidence: 0.4
 5:
-  chrome: [chip, mockup-card]
+  chrome:
+  - chip
+  - mockup-card
   text_in_image: headline
   ui_mockup: product-card
   subject: product
@@ -44,65 +59,89 @@
   family_hint: template-mockup
   confidence: 0.5
 6:
-  chrome: [slider, tile, selection-handles]
+  chrome:
+  - adjust-slider
+  - selection-handles
+  - tile
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
   art_style: photo
-  description: a woman under a neon arch with a Shadow toggle, an Elements tile and a checkerboard corner
+  description: a woman under a neon arch with a Shadow toggle, an Elements tile and
+    a checkerboard corner
   family_hint: editor-canvas
   confidence: 0.4
 7:
-  chrome: [button, tile, mockup-card]
+  chrome:
+  - button
+  - tile
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: scene
   art_style: photo
-  description: a pink desert photo card with a signature watermark and a Remove BG button over checkerboard
+  description: a pink desert photo card with a signature watermark and a Remove BG
+    button over checkerboard
   family_hint: cutout-checkerboard
   confidence: 0.4
 8:
-  chrome: [chip, swatch]
+  chrome:
+  - chip
+  - swatch
   text_in_image: headline
   ui_mockup: none
   subject: typography
   art_style: typography
-  description: pink 3d balloon lettering reading LOVELY DAY with a Balloon Dreams style chip
+  description: pink 3d balloon lettering reading LOVELY DAY with a Balloon Dreams
+    style chip
   family_hint: template-mockup
   confidence: 0.4
 9:
-  chrome: [tile, play-button]
+  chrome:
+  - tile
+  - play-button
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a woman shown as a transparent cutout and on a pink background with a video scrubber
+  description: a woman shown as a transparent cutout and on a pink background with
+    a video scrubber
   family_hint: cutout-checkerboard
   confidence: 0.6
 10:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: none
   ui_mockup: app-card
   subject: person
   art_style: mixed
-  description: a woman in a van shown as a photo and an anime filtered version in a social card
+  description: a woman in a van shown as a photo and an anime filtered version in
+    a social card
   family_hint: mockup-card
   confidence: 0.3
 11:
-  chrome: [mockup-card, chip]
+  chrome:
+  - mockup-card
+  - chip
   text_in_image: headline
   ui_mockup: prompt-ui
   subject: illustration
   art_style: mixed
-  description: a SWEETLAND candy-land sticker card on checkerboard with a caption panel held in a hand
+  description: a SWEETLAND candy-land sticker card on checkerboard with a caption
+    panel held in a hand
   family_hint: cutout-checkerboard
   confidence: 0.4
 12:
-  chrome: [tile, mockup-card, chip]
+  chrome:
+  - tile
+  - mockup-card
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: person
   art_style: mixed
-  description: a woman with curved keep smiling lettering and a font style panel with Aa tiles
+  description: a woman with curved keep smiling lettering and a font style panel with
+    Aa tiles
   family_hint: template-mockup
   confidence: 0.4

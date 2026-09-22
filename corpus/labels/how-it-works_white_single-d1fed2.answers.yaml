@@ -8,7 +8,8 @@
   family_hint: template-mockup
   confidence: 0.4
 2:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -17,16 +18,20 @@
   family_hint: template-mockup
   confidence: 0.55
 3:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: food
   art_style: mixed
-  description: a fruit still life split between photo and Van Gogh painterly style with a slider
+  description: a fruit still life split between photo and Van Gogh painterly style
+    with a slider
   family_hint: before-after
   confidence: 0.6
 4:
-  chrome: [button, chip]
+  chrome:
+  - button
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person

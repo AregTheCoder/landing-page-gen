@@ -1,5 +1,8 @@
 1:
-  chrome: [mockup-card, tile, chip]
+  chrome:
+  - mockup-card
+  - tile
+  - chip
   text_in_image: body
   ui_mockup: none
   subject: person
@@ -8,7 +11,9 @@
   family_hint: template-mockup
   confidence: 0.5
 2:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: headline
   ui_mockup: phone-frame
   subject: multiple
@@ -17,7 +22,8 @@
   family_hint: template-mockup
   confidence: 0.4
 3:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: browser-window
   subject: typography
@@ -26,7 +32,9 @@
   family_hint: template-mockup
   confidence: 0.4
 4:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: headline
   ui_mockup: browser-window
   subject: multiple
@@ -35,7 +43,10 @@
   family_hint: template-mockup
   confidence: 0.4
 5:
-  chrome: [adjust-panel, slider, tile]
+  chrome:
+  - adjust-panel
+  - adjust-slider
+  - tile
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -44,7 +55,10 @@
   family_hint: editor-canvas
   confidence: 0.5
 6:
-  chrome: [slider, swatch, mockup-card]
+  chrome:
+  - adjust-slider
+  - mockup-card
+  - swatch
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -53,7 +67,9 @@
   family_hint: template-mockup
   confidence: 0.5
 7:
-  chrome: [button, mockup-card]
+  chrome:
+  - button
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: product
@@ -62,7 +78,10 @@
   family_hint: template-mockup
   confidence: 0.45
 8:
-  chrome: [swatch, tile, mockup-card]
+  chrome:
+  - swatch
+  - tile
+  - mockup-card
   text_in_image: body
   ui_mockup: none
   subject: person
@@ -71,7 +90,8 @@
   family_hint: template-mockup
   confidence: 0.5
 9:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: object
@@ -80,7 +100,9 @@
   family_hint: template-mockup
   confidence: 0.4
 10:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: labels-only
   ui_mockup: app-card
   subject: multiple
@@ -89,7 +111,10 @@
   family_hint: template-mockup
   confidence: 0.4
 11:
-  chrome: [selection-handles, cursor, tile]
+  chrome:
+  - selection-handles
+  - cursor
+  - tile
   text_in_image: none
   ui_mockup: editor-canvas
   subject: object
@@ -98,7 +123,10 @@
   family_hint: editor-canvas
   confidence: 0.5
 12:
-  chrome: [chip, size-label, mockup-card]
+  chrome:
+  - chip
+  - size-label
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: product
