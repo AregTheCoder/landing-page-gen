@@ -86,16 +86,27 @@ def check(run, sid):
     ledger_path = Path(run) / "ledger.jsonl"
     rows = [json.loads(l) for l in ledger_path.read_text().splitlines() if l.strip()] if ledger_path.exists() else []
     quotes = {(r["model"], prompt_of(r)) for r in rows if r.get("tool") == "picsart_preflight"}
-    spent_by_prompt = {}
+    # credits are owned by the URL a paid call produced, so a reworked node that
+    # re-ran the same prompt is not double-counted against the kept output. Rows
+    # with no URL (a failed/uncharged call, an old record) fall back to a
+    # per-prompt bucket, which is the pre-URL behaviour.
+    spent_by_url, spent_by_prompt = {}, {}
     for r in rows:
-        if r.get("tool") in PAID:
+        if r.get("tool") not in PAID:
+            continue
+        urls = r.get("urls") or []
+        if urls:
+            for u in urls:
+                spent_by_url[u] = r.get("quoted_credits") or 0
+        else:
             spent_by_prompt[prompt_of(r)] = spent_by_prompt.get(prompt_of(r), 0) + (r.get("quoted_credits") or 0)
     targets = video_targets(folder)
     for d in docs:
         slot = d.get("slot", "?")
         problems += board.check(d)
+        problems += compose_wiring_problems(d, folder)
         problems += video_problems(d, board.nodes(d), rows, targets)
-        prompts = set()  # a failed step re-run with the same prompt is two steps but one set of ledger rows
+        prompts, urls = set(), set()  # reconcile by the URLs a board's steps produced, else by prompt
         for st in d.get("steps") or []:
             sid_ = f"{slot} step {st.get('id')}"
             params = st.get("params") or {}
@@ -108,14 +119,17 @@ def check(run, sid):
                 if st.get("quoted_credits") is None:
                     problems.append(f"{sid_}: quoted_credits missing")
                 prompts.add(prompt)
+                urls.update(st.get("outputs") or [])
             if st.get("status") == "done" and not (st.get("note") or "").strip():
                 problems.append(f"{sid_}: done without a gate observation in note")
             if not (st.get("gate") or "").strip():
                 problems.append(f"{sid_}: gate empty")
         credits = d.get("credits") or {}
-        ledger_sum = sum(spent_by_prompt.get(pr, 0) for pr in prompts)
+        # URLs the board kept (exact), plus a fallback for prompts whose rows had no URL
+        prompts_without_url = {pr for pr in prompts if pr not in {prompt_of(r) for r in rows if (r.get("urls") and r.get("tool") in PAID)}}
+        ledger_sum = sum(spent_by_url.get(u, 0) for u in urls) + sum(spent_by_prompt.get(pr, 0) for pr in prompts_without_url)
         if credits.get("spent") is not None and credits["spent"] != ledger_sum:
-            problems.append(f"{slot}: credits.spent {credits['spent']} != ledger {ledger_sum} for its prompts")
+            problems.append(f"{slot}: credits.spent {credits['spent']} != ledger {ledger_sum} for its outputs")
         final = d.get("final") or {}
         if final.get("local") and not (folder / final["local"]).exists():
             problems.append(f"{slot}: final.local {final['local']} not on disk")
@@ -145,6 +159,36 @@ def device_problems(folder):
         variant = spec.get("preset") or spec.get("variant")
         if (device in variants and variant != device) or (variant and variant != device):
             out.append(f"{spec_path.name}: compose variant {variant or 'none'} but brief device {device or 'none'}")
+    return out
+
+
+def compose_wiring_problems(doc, folder):
+    """A compose node, once rendered, must name a spec that exists, agree with
+    the board's family, and be fed (`in:`) by every node whose step file is one
+    of its panel images."""
+    out = []
+    slot = doc.get("slot", "?")
+    steps = doc.get("steps") or []
+    for st in steps:
+        if (st.get("node") or board.infer_node(st)) != "compose":
+            continue
+        spec_name = (st.get("params") or {}).get("spec")
+        if not spec_name:
+            out.append(f"{slot}: compose node {st.get('id')} has no params.spec")
+            continue
+        spec_path = folder / spec_name
+        if not spec_path.exists():
+            if st.get("status") == "done":
+                out.append(f"{slot}: compose spec {spec_name} not on disk though the node ran")
+            continue  # planned/skipped: the worker writes it during the run
+        spec = yaml.safe_load(spec_path.read_text()) or {}
+        if spec.get("family") and doc.get("family") and spec["family"] != doc["family"]:
+            out.append(f"{slot}: compose spec family {spec['family']!r} != board family {doc['family']!r}")
+        ins = set(st.get("in") or board.infer_in(st, steps))
+        for p in (spec.get("panels") or {}).values():
+            m = re.search(r"-(\d+)-\d+\.\w+$", (p or {}).get("image") or "")  # steps/<slot>-<node>-<n>.<ext>
+            if m and int(m.group(1)) not in ins:
+                out.append(f"{slot}: compose node {st.get('id')} is not fed by node {m.group(1)} (panel {p['image']})")
     return out
 
 

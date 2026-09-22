@@ -138,3 +138,36 @@ def test_composition_spec_must_match_its_plan(tmp_path):
     # a hand-written spec with no plan is allowed
     (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
     assert precheck.composition_problems(sec) == []
+
+
+def test_credits_reconcile_by_url_not_prompt(tmp_path):
+    run = make_run(tmp_path)  # step already: quoted 5, credits.spent 5, done
+    # two paid rows with the SAME prompt but different output urls (a reworked node)
+    rows = [
+        {"tool": "picsart_preflight", "model": "gemini-3-pro-image",
+         "params": {"model": "gemini-3-pro-image", "params": {"prompt": PROMPT}}, "quoted_credits": 5},
+        {"tool": "picsart_generate", "model": "gemini-3-pro-image", "params": {"prompt": PROMPT},
+         "urls": ["u-old"], "quoted_credits": 5},
+        {"tool": "picsart_generate", "model": "gemini-3-pro-image", "params": {"prompt": PROMPT},
+         "urls": ["u-final"], "quoted_credits": 5}]
+    (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
+    # the board kept only the final url as its step output; spent stays 5
+    wf = run / "sections" / "S03" / "workflow.yaml"
+    wf.write_text(wf.read_text().replace("    status: done\n", "    status: done\n    outputs: [u-final]\n"))
+    assert precheck.check(run, "S03") == [], "only the kept output is counted, not both same-prompt rows"
+
+
+def test_compose_node_wiring_against_its_spec(tmp_path):
+    (tmp_path / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\nsize: 720x720\n"
+        "panels: {photo: {image: steps/S03-m1-1-1.png}, thumb-a: {image: steps/S03-m1-2-1.png}}\n")
+    doc = {"slot": "S03-m1", "family": "dark-composite", "steps": [
+        {"id": 1, "node": "image", "in": ["start"]},
+        {"id": 2, "node": "image", "in": [1]},
+        {"id": 3, "node": "compose", "in": [1, 2], "status": "done", "params": {"spec": "compose-S03-m1.yaml"}}]}
+    assert precheck.compose_wiring_problems(doc, tmp_path) == []
+    doc["steps"][2]["in"] = [1]  # not fed by panel node 2
+    assert any("not fed by node 2" in p for p in precheck.compose_wiring_problems(doc, tmp_path))
+    doc["steps"][2]["in"] = [1, 2]
+    (tmp_path / "compose-S03-m1.yaml").write_text("family: prompt-card\nsize: 720x720\npanels: {}\n")
+    assert any("!= board family" in p for p in precheck.compose_wiring_problems(doc, tmp_path))
