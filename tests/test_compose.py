@@ -5,7 +5,7 @@ import pytest
 import yaml
 from PIL import Image
 
-from landing_page_gen.compose import cli, draw
+from landing_page_gen.compose import cli, draw, layout
 from landing_page_gen.compose.families import FAMILIES, RATIOS, nearest_ratio
 
 
@@ -212,3 +212,70 @@ def test_unknown_chrome_kind_names_the_registry(tmp_path):
     with pytest.raises(SystemExit) as e:
         cli.compose(layout)
     assert "unknown chrome kind" in str(e.value) and "telephone" in str(e.value)
+
+
+# --- Wave 4: spec grammar + placement -----------------------------------------
+
+def _variant_spec(tmp_path, family, preset, **extra):
+    """A spec whose panels cover the preset (not just the base family)."""
+    steps = tmp_path / "steps"
+    steps.mkdir(parents=True, exist_ok=True)
+    tmpl = cli.template(family, preset)
+    for i, name in enumerate(tmpl["panels"]):
+        Image.new("RGB", (400, 400), ("red", "blue", "green")[i % 3]).save(steps / f"{name}.png")
+    spec = tmp_path / "s.yaml"
+    body = {"family": family, "preset": preset, "size": "720x720",
+            "panels": {n: {"image": f"steps/{n}.png"} for n in tmpl["panels"]}, **extra}
+    spec.write_text(yaml.safe_dump(body))
+    return spec
+
+
+def test_preset_is_an_alias_for_variant(tmp_path):
+    spec = _variant_spec(tmp_path, "dark-composite", "model-picker")
+    ids = {c["id"] for c in cli.resolve(cli.load_spec(spec))["chrome"]}
+    assert "list" in ids, "preset: selects the device variant exactly like variant:"
+
+
+def test_optional_panel_is_dropped(tmp_path):
+    steps = tmp_path / "steps"
+    steps.mkdir()
+    Image.new("RGB", (400, 400), "red").save(steps / "photo.png")
+    spec = tmp_path / "s.yaml"
+    spec.write_text(yaml.safe_dump({"family": "dark-composite", "preset": "model-picker", "size": "720x720",
+                                    "panels": {"photo": {"image": "steps/photo.png"},
+                                               "thumb-a": {"optional": True}, "thumb-b": {"optional": True}}}))
+    assert set(cli.resolve(cli.load_spec(spec))["panels"]) == {"photo"}, "optional panels with no image are skipped"
+
+
+def test_ground_word_overrides_the_family_fill(tmp_path):
+    black = _variant_spec(tmp_path / "a", "template-mockup", None, ground="black")
+    assert cli.resolve(cli.load_spec(black))["ground"] == {"fill": (0, 0, 0)}
+    clear = _variant_spec(tmp_path / "b", "dark-composite", None, ground="transparent")
+    assert cli.resolve(cli.load_spec(clear))["ground"] == {"fill": None}
+
+
+def test_list_form_adds_a_placed_item_and_keeps_the_family(tmp_path):
+    spec = _variant_spec(tmp_path, "dark-composite", None, chrome=[
+        {"id": "note", "kind": "label", "text": "NEW",
+         "place": {"of": "canvas", "anchor": "br", "w": 200, "h": 80, "inset": 40}}])
+    out = tmp_path / "steps" / "o.png"
+    assert cli.main([str(spec), "--out", str(out)]) == 0
+    _, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))
+    assert {"tile-1", "tile-2", "tile-3"} <= set(drawn), "the family's own chrome still draws"
+    x0, y0, x1, y1 = drawn["note"]
+    assert x0 > 360 and y0 > 360 and x1 <= 720 and y1 <= 720, "the added label sits bottom-right"
+
+
+def test_unknown_override_id_warns_instead_of_silent_noop(tmp_path, capsys):
+    spec = _variant_spec(tmp_path, "dark-composite", None, chrome={"chip": {"text": "1080p"}})
+    cli.resolve(cli.load_spec(spec))
+    assert "chrome 'chip' is not in dark-composite" in capsys.readouterr().err
+
+
+def test_layout_place_math_and_repeat():
+    boxes = {"canvas": (0, 0, 1600, 1200)}
+    assert layout.to_rect({"of": "canvas", "anchor": "br", "w": 400, "h": 300, "inset": 40}, boxes) == (1160, 860, 1560, 1160)
+    assert layout.to_rect({"of": "canvas", "anchor": "tl", "w": "25%", "h": 0.5}, boxes) == (0, 0, 400, 600)
+    reps = layout.expand_repeat({"id": "t", "kind": "tile", "rect": (0, 0, 300, 1000), "repeat": 3, "dir": "column", "gap": 50})
+    assert [x["id"] for x in reps] == ["t-1", "t-2", "t-3"]
+    assert reps[0]["rect"] == (0, 0, 300, 300) and reps[2]["rect"] == (0, 700, 300, 1000)

@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 from PIL import Image
 
-from . import draw, kinds
+from . import draw, kinds, layout
 from .families import FAMILIES, REF, aspect_label, nearest_ratio
 from .kinds import CHECKER_CELL, FONT_PX  # noqa: F401  (single source; re-exported for back-compat)
 
@@ -43,6 +43,49 @@ def template(fam, variant=None):
     return {**{k: v for k, v in f.items() if k != "variants"}, **variants[variant]}
 
 
+def _preset(spec):
+    return spec.get("preset") or spec.get("variant")
+
+
+_GROUND_WORDS = {"black": (0, 0, 0), "white": (255, 255, 255), "light": (242, 242, 244)}
+
+
+def _ground(base, word):
+    """The family ground, or a spec override: a colour word (black/white/light),
+    transparent/none, a mapping, or `tilted`/None which leaves the ground be."""
+    if word in (None, "tilted"):
+        return base
+    if isinstance(word, dict):
+        return word
+    if word in ("transparent", "none"):
+        return {"fill": None}
+    if word in _GROUND_WORDS:
+        return {"fill": _GROUND_WORDS[word]}
+    sys.exit(f"lp-compose: ground {word!r} is not black/white/light/transparent/tilted or a mapping")
+
+
+def _chrome_entries(spec):
+    """Chrome spec as {id: entry}: the mapping form (overrides by id) and the
+    list form (each carries an id; a new id with a `kind` ADDS an item) unify."""
+    ch = spec.get("chrome")
+    if not ch:
+        return {}
+    if isinstance(ch, dict):
+        return {k: {"id": k, **(v or {})} for k, v in ch.items()}
+    entries = {}
+    for e in ch:
+        if not isinstance(e, dict) or "id" not in e:
+            sys.exit("lp-compose: each chrome list entry needs an id (and a kind to add a new item)")
+        entries[e["id"]] = e
+    return entries
+
+
+def _panel_required(o):
+    """A family panel may be dropped only when the spec marks it optional and
+    gives no image (a preset panel a slot does not need)."""
+    return not (o.get("optional") and not o.get("image"))
+
+
 def load_spec(path):
     path = Path(path)
     if not path.exists():
@@ -51,14 +94,17 @@ def load_spec(path):
     fam = spec.get("family")
     if fam not in FAMILIES:
         sys.exit(f"lp-compose: unknown family {fam!r}; one of {', '.join(FAMILIES)}")
-    family = template(fam, spec.get("variant"))
+    family = template(fam, _preset(spec))
     w, h = parse_size(spec.get("size"))
     aspects = family.get("aspects") or (family["aspect"],)
     if not any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in aspects):
         sys.exit(f"lp-compose: size {w}x{h} is not {' or '.join(f'{a}:{b}' for a, b in aspects)} like {fam}")
     panels = spec.get("panels") or {}
     for name in family["panels"]:
-        img = (panels.get(name) or {}).get("image")
+        o = panels.get(name) or {}
+        if not _panel_required(o):
+            continue
+        img = o.get("image")
         if not img:
             sys.exit(f"lp-compose: panel {name!r} has no image")
         if not (path.parent / img).exists():
@@ -68,29 +114,53 @@ def load_spec(path):
 
 
 def resolve(spec):
-    """Scale the family to the spec size (supersampled), merge chrome
-    overrides by id, drop omitted items."""
-    family = template(spec["family"], spec.get("variant"))
+    """Scale the family to the spec size (supersampled): panels and chrome from
+    the family/preset, merged with the spec's overrides by id, plus any items
+    the spec adds; `place:` anchors and `repeat:` expands before scaling."""
+    family = template(spec["family"], _preset(spec))
     w, h = spec["_size"]
     s = w / REF * SS
     rect = lambda r: tuple(round(v * s) for v in r)  # noqa: E731
     panels = {}
     for name, p in family["panels"].items():
         o = (spec.get("panels") or {}).get(name) or {}
+        if not _panel_required(o):
+            continue
         panels[name] = {"rect": rect(p["rect"]) if p["rect"] else (0, 0, w * SS, h * SS), "fit": o.get("fit", p.get("fit", "cover")),
                         "anchor": o.get("anchor", "center"), "under": p.get("under"), "dim": o.get("dim", p.get("dim")),
                         "image": spec["_dir"] / o["image"]}
-    overrides, omit = spec.get("chrome") or {}, set(spec.get("omit") or [])
+    # REF-frame boxes a `place:` can anchor to: the canvas and every family panel
+    ref_h = round(REF * h / w)
+    boxes = {"canvas": (0, 0, REF, ref_h)}
+    for name, p in family["panels"].items():
+        boxes[name] = tuple(p["rect"]) if p["rect"] else (0, 0, REF, ref_h)
+
+    def finish(it):
+        it = dict(it)
+        if "place" in it and "rect" not in it:
+            it["rect"] = layout.to_rect(it.pop("place"), boxes)
+        out = layout.expand_repeat(it)
+        for x in out:
+            if "rect" in x:
+                x["rect"] = rect(x["rect"])
+        return out
+
+    entries, omit = _chrome_entries(spec), set(spec.get("omit") or [])
+    fam_ids = {item["id"] for item in family["chrome"]}
     chrome = []
     for item in family["chrome"]:
         if item["id"] in omit:
             continue
-        it = {**item, **(overrides.get(item["id"]) or {})}
-        if "rect" in it:
-            it["rect"] = rect(it["rect"])
-        chrome.append(it)
+        chrome += finish({**item, **{k: v for k, v in entries.get(item["id"], {}).items() if k != "id"}})
+    for eid, e in entries.items():  # list-form additions: a new id with a kind
+        if eid in fam_ids:
+            continue
+        if "kind" not in e:
+            print(f"lp-compose: chrome {eid!r} is not in {spec['family']}; add `kind:` to draw it", file=sys.stderr)
+            continue
+        chrome += finish(e)
     tilt = spec.get("tilt") or (10 if spec.get("ground") == "tilted" else 0)
-    return {"size": (w * SS, h * SS), "out": (w, h), "scale": s, "ground": family["ground"],
+    return {"size": (w * SS, h * SS), "out": (w, h), "scale": s, "ground": _ground(family["ground"], spec.get("ground")),
             "radius": round(family["radius"] * s), "panels": panels, "chrome": chrome, "tilt": tilt}
 
 
