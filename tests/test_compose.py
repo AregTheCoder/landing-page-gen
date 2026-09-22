@@ -279,3 +279,12 @@ def test_layout_place_math_and_repeat():
     reps = layout.expand_repeat({"id": "t", "kind": "tile", "rect": (0, 0, 300, 1000), "repeat": 3, "dir": "column", "gap": 50})
     assert [x["id"] for x in reps] == ["t-1", "t-2", "t-3"]
     assert reps[0]["rect"] == (0, 0, 300, 300) and reps[2]["rect"] == (0, 700, 300, 1000)
+
+
+def test_prompt_card_preset_draws_card_left_of_result(tmp_path):
+    spec = _variant_spec(tmp_path, "prompt-card", None, chrome={"prompt-text": {"text": "a red fox"}})
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert set(drawn) == {"prompt", "prompt-text", "generate"}
+    assert drawn["prompt"][2] < out_rect(layout_, "result")[0], "the dark prompt column sits left of the result"
+    assert im.mode == "RGB", "black ground flattens to RGB"

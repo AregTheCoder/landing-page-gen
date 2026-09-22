@@ -101,6 +101,15 @@ def _list_panel(canvas, it, ctx):
                            ctx.font("list-row", 700), ctx.r)
 
 
+def _text(canvas, it, ctx):
+    """Free text on a transparent fill — a label bound to no chrome box, e.g. a
+    prompt sentence or a compare-label. Centred in its rect at the given font."""
+    colour = tuple(it.get("colour") or (255, 255, 255))
+    if len(colour) == 3:
+        colour += (255,)
+    return draw.box_text(canvas, it["rect"], it.get("text", ""), (0, 0, 0, 0), colour, 0, ctx.font(it.get("font", "panel-label")))
+
+
 KINDS = {
     "card": Kind(_card, layer="card"),
     "tile": Kind(_tile),
@@ -113,4 +122,5 @@ KINDS = {
     "adjust-panel": Kind(_adjust_panel, text=True),
     "tool-pill": Kind(_tool_pill, text=True),
     "list-panel": Kind(_list_panel, text=True),
+    "text": Kind(_text, text=True),
 }

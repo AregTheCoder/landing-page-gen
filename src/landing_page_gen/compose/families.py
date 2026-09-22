@@ -196,6 +196,23 @@ FAMILIES = {
             {"id": "tool-pill", "kind": "tool-pill", "rect": (1080, 120, 1520, 620), "text": "HSL", "icon": "wheel"},
         ],
     },
+    # "type a prompt, get this": a dark prompt column with a Generate button on
+    # the left, the result photo on the right (22f9b181 ai-models--kling-v2-1,
+    # 802fe719 ai-models--qwen-image). The prompt sentence is chrome text the
+    # manager fills; the result carries none.
+    "prompt-card": {
+        "aspect": (1, 1),
+        "ground": {"fill": BLACK},
+        "radius": 40,
+        "panels": {
+            "result": {"rect": (700, 100, 1500, 1500)},
+        },
+        "chrome": [
+            {"id": "prompt", "kind": "card", "rect": (100, 100, 620, 1500), "fill": (30, 30, 32)},
+            {"id": "prompt-text", "kind": "text", "rect": (160, 200, 560, 640), "text": ""},
+            {"id": "generate", "kind": "pill", "rect": (160, 1320, 560, 1440), "text": "Generate", "style": "solid-light"},
+        ],
+    },
 }
 
 

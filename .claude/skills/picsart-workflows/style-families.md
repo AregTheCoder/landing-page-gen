@@ -233,7 +233,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Signature:** chrome=prompt-panel, button, tile, play-button; ui_mockup=prompt-ui; layout=two-up or column-main; ground=black (n=…).
 **Ground:** black (default) | light: light grey on ai-models use-case strips (n=…).
 **Grid:** 1:1 (480): a dark text card with the prompt and a "Generate" button on the left or top, the result photo on the right, model tiles under the card; 16:9 (hero): prompt card in the left third, result in the other two thirds; 2:1 (use-case strip 879x418): prompt panel left half, result thumbnail right half with a play triangle when the result is a clip.
-**Template:** none; brief as dark-composite (1:1, the result as `photo`) or as full-bleed (2:1, the result alone). The text card, button and tiles are all chrome for a later template.
+**Template:** lp-compose: prompt-card (1:1); the result photo is the `result` panel, the prompt sentence (chrome `text`, from `> text:`) and the "Generate" button are drawn chrome. 16:9 heroes and the 2:1 use-case strip are briefed as full-bleed until they are templated.
 **Chrome (lp-compose):** not templated: the prompt card with its sentence, the "Generate" button, model tiles, the play triangle.
 **Panels (worker):** A `result` (generate 3:4 or 1:1): the image the prompt describes, editorial finish, one subject.
 **Palette:** black and white chrome; result colours natural.
