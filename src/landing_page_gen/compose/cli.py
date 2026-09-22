@@ -257,9 +257,16 @@ def main(argv=None) -> int:
     p.add_argument("spec", nargs="?", type=Path, help="compose-<slot>.yaml")
     p.add_argument("--out", type=Path, help="output PNG (required with a spec)")
     p.add_argument("--describe", metavar="FAMILY", help="print a family's panels and the ratio to generate each at")
+    p.add_argument("--keepclear", metavar="FAMILY", help="print the region each panel must keep clear of its subject")
+    p.add_argument("--preset", help="a preset/variant of the family, for --keepclear")
     a = p.parse_args(argv)
     if a.describe:
         print(describe(a.describe))
+        return 0
+    if a.keepclear:
+        from . import plan  # lazy: plan imports cli
+        size = parse_size(a.spec) if a.spec else None  # optional WxH passed positionally
+        print(yaml.safe_dump(plan.keep_clear(a.keepclear, a.preset, size), sort_keys=True).rstrip())
         return 0
     if not a.spec or not a.out:
         p.error("a spec and --out are required unless --describe is given")
