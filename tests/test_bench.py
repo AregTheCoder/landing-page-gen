@@ -109,3 +109,30 @@ def test_pictures_counts_panels_and_flags_a_composite_that_lost_its_device(tmp_p
     assert not [f for f in result["flags"] if "pictures" in f and f.startswith("S04")], "no compose spec, so the proxy stays quiet"
     bench.write_md(result, run / "benchmark.md")
     assert "| pictures |" in (run / "benchmark.md").read_text() and "| 3 / 1 |" in (run / "benchmark.md").read_text()
+
+
+def test_composition_flags_a_chrome_kind_the_spec_never_draws(tmp_path):
+    run, orig = tmp_path / "run", tmp_path / "orig"
+    gen = run / "dist" / "media" / "gen"
+    gen.mkdir(parents=True)
+    orig.mkdir()
+    card(orig / "s07.png", [(0.44, 0, 1, 1), (0, 0.42, 0.42, 0.70), (0, 0.72, 0.42, 1)])  # model-picker modal
+    card(gen / "S07-m1.png", [(0, 0, 0.56, 1)])
+    (run / "sections" / "S07").mkdir(parents=True)
+    # a model-picker spec draws the list-panel (option-list) but no tile
+    (run / "sections" / "S07" / "compose-S07-m1.yaml").write_text("family: dark-composite\nvariant: model-picker\nsize: 480x480\n")
+    slots = {"page": "p", "sections": {"S07": {"type": "feature-callout"}}, "slots": {
+        "S07-m1": {"src": "https://cdn/a.avif", "local": str(orig / "s07.png"), "size": [480, 480],
+                   "attrs": {"chrome": ["option-list", "tile"],
+                             "chrome_items": [{"kind": "option-list", "placement": "beside", "state": {"active": 1}},
+                                              {"kind": "tile", "placement": "beside", "count": 2}],
+                             "labelled": ["chrome_items"]}}}}
+    (run / "slots.json").write_text(json.dumps(slots))
+    result = bench.bench(run, tmp_path / "none.yaml")
+    row = result["rows"][0]
+    assert row["composition"] == {"orig": ["option-list", "tile"], "gen": ["option-list"], "missing": ["tile"], "extra": []}
+    assert any(f.startswith("S07-m1 (feature-callout): chrome") and "missing tile [composition]" in f for f in result["flags"])
+    assert not [f for f in result["flags"] if "[fit]" in f], "the labelled composition supersedes the pictures proxy"
+    bench.write_md(result, run / "benchmark.md")
+    assert "| chrome orig -> gen |" in (run / "benchmark.md").read_text()
+    assert "| option-list+tile -> option-list |" in (run / "benchmark.md").read_text()

@@ -19,8 +19,11 @@ import tempfile
 from pathlib import Path
 
 import numpy as np
+import yaml
 from PIL import Image
 
+from ..compose import cli as compose_cli
+from ..compose.families import FAMILIES
 from ..corpus import attrs, measure, motion, sectionize, taxonomy
 from ..corpus.similar import FrameGrabber
 
@@ -33,6 +36,35 @@ PICTURE_DARK = 0.12    # lightness below which a pixel is the card, a gutter or 
 PICTURE_LIGHT = 0.9    # lightness above which a low-spread pixel is white chrome or the page
 PICTURE_MIN_AREA = 0.02  # share of the picture a region needs to count as a panel
 PICTURE_MIN_SAT = 0.15   # mean saturation a region needs to count as a picture, not a chip
+
+# A compose chrome kind is a rendering primitive; the corpus labels the same
+# element under one of `attrs.CHROME_KINDS`. This maps each drawable kind to the
+# corpus kind bench compares against; text-only chrome (manager strings drawn on
+# a transparent fill) has no corpus kind and maps to nothing.
+COMPOSE_KIND = {
+    "tile": "tile", "icon": "tile", "label": "chip", "pill": "pill", "tool-pill": "pill",
+    "brackets": "brackets", "badge": "badge", "card": "mockup-card", "profile-card": "mockup-card",
+    "list-panel": "option-list", "adjust-panel": "adjust-panel", "round-badge": "vs-badge",
+    "text": None, "headline": None, "divider": None,
+}
+
+
+def drawn_kinds(spec_path):
+    """The set of corpus chrome kinds a compose spec draws: the family/preset
+    template chrome minus omitted ids plus list-form additions, each compose
+    kind mapped through COMPOSE_KIND (text/headline/divider draw no corpus
+    chrome). Reads the spec only — no panel images needed."""
+    spec = yaml.safe_load(Path(spec_path).read_text()) or {}
+    if spec.get("family") not in FAMILIES:
+        return set()
+    template = compose_cli.template(spec["family"], compose_cli._preset(spec))
+    entries = compose_cli._chrome_entries(spec)
+    omit = set(spec.get("omit") or [])
+    fam_ids = {item["id"] for item in template["chrome"]}
+    kinds = {entries.get(item["id"], {}).get("kind", item["kind"])
+             for item in template["chrome"] if item["id"] not in omit}
+    kinds |= {e["kind"] for eid, e in entries.items() if eid not in fam_ids and "kind" in e}
+    return {COMPOSE_KIND.get(k) for k in kinds} - {None}
 
 
 def pictures(path):
@@ -119,7 +151,12 @@ def flags(row):
         out.append(f"{tag}: ground lightness {o['ground_l']:.2f} -> {g['ground_l']:.2f} [resemblance]")
     if o["ground_sat"] > measure.SAT and g["ground_sat"] < measure.SAT:
         out.append(f"{tag}: ground saturation {o['ground_sat']:.2f} -> {g['ground_sat']:.2f}, below SAT {measure.SAT} [resemblance]")
-    if row.get("composite") and o["pictures"] >= 2 and g["pictures"] < o["pictures"]:
+    if row.get("composition"):
+        c = row["composition"]
+        if c["missing"]:
+            out.append(f"{tag}: chrome {'+'.join(c['orig'])} -> {'+'.join(c['gen']) or 'none'}, "
+                       f"missing {'+'.join(c['missing'])} [composition]")
+    elif row.get("composite") and o["pictures"] >= 2 and g["pictures"] < o["pictures"]:
         out.append(f"{tag}: pictures {o['pictures']} -> {g['pictures']}, the original's device has more panels [fit]")
     return out
 
@@ -167,9 +204,19 @@ def bench(run, attrs_path=attrs.ATTRIBUTES_YAML):
             o, g = stats(orig), stats(gen)
             rec = known.get(s.get("src")) or s.get("attrs")  # the corpus record may carry sheet answers the pixels cannot
             sec = slot.split("-")[0]
-            rows.append({"slot": slot, "section": sec, "type": typ, "orig": o, "gen": g, "video": video,
-                         "composite": (run / "sections" / sec / f"compose-{slot}.yaml").exists(),
-                         "orig_family": family(rec or o, typ, cls), "gen_family": family(g, typ, cls)})
+            spec_path = run / "sections" / sec / f"compose-{slot}.yaml"
+            row = {"slot": slot, "section": sec, "type": typ, "orig": o, "gen": g, "video": video,
+                   "composite": spec_path.exists(),
+                   "orig_family": family(rec or o, typ, cls), "gen_family": family(g, typ, cls)}
+            if row["composite"] and rec and "chrome_items" in (rec.get("labelled") or []):
+                # ground truth of what the modal drew (labelled corpus items) vs
+                # what the spec draws; kinds only in this batch (placement/count
+                # /state/text follow), so the pixel `pictures` proxy stands down
+                orig_kinds = {it["kind"] for it in (rec.get("chrome_items") or [])}
+                gen_kinds = drawn_kinds(spec_path)
+                row["composition"] = {"orig": sorted(orig_kinds), "gen": sorted(gen_kinds),
+                                      "missing": sorted(orig_kinds - gen_kinds), "extra": sorted(gen_kinds - orig_kinds)}
+            rows.append(row)
     return {"rows": rows, "means": means(rows), "flags": [f for r in rows for f in flags(r)], "skipped": skipped}
 
 
@@ -180,14 +227,18 @@ def write_md(result, path):
              "the frame this is the border's colour, not a judgement of the whole); coverage = share of pixels farther "
              f"than BG_TOL from that ground; L = ground lightness; sat = ground channel spread (SAT {measure.SAT}); "
              "pic sat = mean HSV saturation; pictures = coloured regions large enough to be a panel (a device "
-             "proxy, flagged on composites only). Values are original / generated.", "",
-             "| slot | section | family orig -> gen | match | ground L | ground sat | coverage | bbox h | pic sat | pictures |",
-             "|---|---|---|---|---|---|---|---|---|---|"]
+             "proxy, flagged on composites only); chrome = the corpus kinds the original's labelled composition "
+             "carried vs the kinds the compose spec draws (dash when the original has no labelled chrome_items, "
+             "where the pictures proxy stands in). Values are original / generated.", "",
+             "| slot | section | family orig -> gen | match | ground L | ground sat | coverage | bbox h | pic sat | pictures | chrome orig -> gen |",
+             "|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in result["rows"]:
+        c = r.get("composition")
+        chrome = f"{'+'.join(c['orig']) or 'none'} -> {'+'.join(c['gen']) or 'none'}" if c else "—"
         lines.append(f"| {r['slot']} | {r['section']} {r['type']} | {r['orig_family']} -> {r['gen_family']} | "
                      f"{'yes' if r['orig_family'] == r['gen_family'] else 'no'} | {pair(r, 'ground_l')} | {pair(r, 'ground_sat')} | "
                      f"{pair(r, 'coverage')} | {pair(r, 'bbox_h')} | {pair(r, 'pic_sat')} | "
-                     f"{r['orig']['pictures']} / {r['gen']['pictures']} |")
+                     f"{r['orig']['pictures']} / {r['gen']['pictures']} | {chrome} |")
     lines += ["", "## Means (generated minus original)", "",
               "| group | n | family match | d coverage | d ground L | d ground sat | d pic sat |", "|---|---|---|---|---|---|---|"]
     for key, m in result["means"].items():
