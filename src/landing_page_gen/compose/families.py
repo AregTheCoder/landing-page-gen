@@ -11,7 +11,7 @@ RATIOS = ("1:1", "16:9", "9:16", "3:4", "4:3", "2:3", "21:9")  # gemini-3-pro-im
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
-MAGENTA = (181, 23, 170)
+MAGENTA = (225, 30, 224)  # Picsart accent #e01ee0 (was (181,23,170), an off measurement)
 CHECKER = ((58, 58, 60), (42, 42, 44))
 
 # panels: name -> rect (x0, y0, x1, y1), optional fit ("cover" | "contain") and
