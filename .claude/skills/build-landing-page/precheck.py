@@ -127,6 +127,7 @@ def check(run, sid):
     if not (folder / "flow.md").exists():
         problems.append("flow.md missing (uv run lp-flow sheet workflow.yaml)")
     problems += device_problems(folder)
+    problems += composition_problems(folder)
     return problems
 
 
@@ -141,9 +142,31 @@ def device_problems(folder):
     for spec_path in sorted(folder.glob("compose-*.yaml")):
         spec = yaml.safe_load(spec_path.read_text()) or {}
         variants = (FAMILIES.get(spec.get("family")) or {}).get("variants") or {}
-        variant = spec.get("variant")
+        variant = spec.get("preset") or spec.get("variant")
         if (device in variants and variant != device) or (variant and variant != device):
             out.append(f"{spec_path.name}: compose variant {variant or 'none'} but brief device {device or 'none'}")
+    return out
+
+
+def composition_problems(folder):
+    """A compose spec built from a plan must still match it: the worker adds
+    image paths, it does not re-plan. A spec that names a plan (`plan:`) must
+    find it and agree on family and preset."""
+    out = []
+    for spec_path in sorted(folder.glob("compose-*.yaml")):
+        spec = yaml.safe_load(spec_path.read_text()) or {}
+        plan_name = spec.get("plan")
+        if not plan_name:  # a hand-written spec with no plan is allowed
+            continue
+        plan_path = folder / plan_name
+        if not plan_path.exists():
+            out.append(f"{spec_path.name}: names plan {plan_name}, which is missing")
+            continue
+        cp = yaml.safe_load(plan_path.read_text()) or {}
+        if spec.get("family") != cp.get("family"):
+            out.append(f"{spec_path.name}: family {spec.get('family')!r} != plan {cp.get('family')!r}")
+        if (spec.get("preset") or spec.get("variant")) != cp.get("preset"):
+            out.append(f"{spec_path.name}: preset {spec.get('preset') or spec.get('variant')!r} != plan {cp.get('preset')!r}")
     return out
 
 

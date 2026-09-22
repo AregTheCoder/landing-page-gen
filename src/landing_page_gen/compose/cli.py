@@ -276,6 +276,7 @@ def main(argv=None) -> int:
             p.error("--spec-from-plan needs --out")
         images = dict(kv.split("=", 1) for kv in a.image)
         spec = plan.to_spec(yaml.safe_load(a.spec_from_plan.read_text()) or {}, images)
+        spec["plan"] = a.spec_from_plan.name  # so precheck can pair the spec with its plan
         a.out.parent.mkdir(parents=True, exist_ok=True)
         a.out.write_text(yaml.safe_dump(spec, sort_keys=False, allow_unicode=True))
         print(f"{a.out}: spec from {a.spec_from_plan.name} ({len(images)} panel image(s))")

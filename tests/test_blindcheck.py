@@ -72,3 +72,11 @@ def test_arg_count(tmp_path):
     run = str(make_run(tmp_path / "a", leak=False, pointer=False))
     assert blindcheck.main([run, "S03"]) == 0
     assert blindcheck.main([run, "S09", "extra"]) == 2
+
+
+def test_composition_and_compose_yaml_are_scanned(tmp_path):
+    run = make_run(tmp_path, leak=False, pointer=False)  # otherwise clean
+    (run / "sections/S03/composition-S03-m1.yaml").write_text(
+        "family: dark-composite\nderived_from: {note: 'from 06daf4fe'}\n")
+    problems = blindcheck.check(run)
+    assert any("composition-S03-m1.yaml names 06daf4fe" in p for p in problems), problems

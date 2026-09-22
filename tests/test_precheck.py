@@ -118,3 +118,23 @@ def test_cli_exit_codes(tmp_path, capsys):
     assert precheck.main([str(run), "S03"]) == 0 and "clean record" in capsys.readouterr().out
     assert precheck.main([str(make_run(tmp_path / "b", count=2)), "S03"]) == 1
     assert precheck.check(tmp_path / "nowhere", "S03") == ["S03: workflow.yaml missing"]
+
+
+def test_composition_spec_must_match_its_plan(tmp_path):
+    sec = tmp_path / "sections" / "S03"
+    sec.mkdir(parents=True)
+    (sec / "composition-S03-m1.yaml").write_text("family: dark-composite\npreset: model-picker\nsize: 720x720\n")
+    # a spec built from the plan (spec-from-plan records `plan:`) agrees -> clean
+    (sec / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\npreset: model-picker\nsize: 720x720\nplan: composition-S03-m1.yaml\n")
+    assert precheck.composition_problems(sec) == []
+    # a spec that re-planned (wrong preset) is caught
+    (sec / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\npreset: two-up\nsize: 720x720\nplan: composition-S03-m1.yaml\n")
+    assert any("preset" in p for p in precheck.composition_problems(sec))
+    # a missing plan is caught
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nplan: composition-gone.yaml\n")
+    assert any("missing" in p for p in precheck.composition_problems(sec))
+    # a hand-written spec with no plan is allowed
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
+    assert precheck.composition_problems(sec) == []
