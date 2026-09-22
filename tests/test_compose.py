@@ -348,3 +348,33 @@ def test_palette_card_variant_draws_the_swatch_stripe_beside_the_card(tmp_path):
     row = draw.ground((400, 100), {"fill": None})
     draw.swatch_stripe(row, (0, 0, 400, 100), [(255, 0, 0), (0, 0, 255)], 0, "row", gap=20)
     assert row.getpixel((100, 50))[:3] == (255, 0, 0) and row.getpixel((200, 50))[3] == 0 and row.getpixel((300, 50))[:3] == (0, 0, 255)
+
+
+@pytest.mark.parametrize("family,panel", [("template-mockup", "photo"), ("cutout-checkerboard", "cutout-a")])
+def test_selection_frame_variant_draws_a_square_cornered_box_with_handles(tmp_path, family, panel):
+    spec = _variant_spec(tmp_path, family, "selection-frame")
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert "select" in drawn and {c["id"] for c in cli.template(family, None)["chrome"]} <= set(drawn), \
+        "the family chrome stays; the frame is added"
+    x0, y0, x1, y1 = (round(v) for v in drawn["select"])
+    px0, py0, px1, py1 = out_rect(layout_, panel)
+    assert px0 <= x0 < x1 <= px1 and py0 <= y0 < y1 <= py1, "the frame sits on its panel"
+    assert max(min(im.getpixel((x0 + dx, y0 + dy))[:3]) for dx in (0, 1) for dy in (0, 1)) > 200, \
+        "a sharp (square) white corner, unlike a rounded card"
+    assert min(im.getpixel(((x0 + x1) // 2, y0 + 6))[:3]) > 200, "a disc handle at the top midpoint"
+    assert min(im.getpixel((x0 + 10, (y0 + y1) // 2 + 30))[:3]) < 200, "the frame is an outline, not a fill"
+    if family == "cutout-checkerboard":  # X / rotate / resize discs float just outside three corners
+        tl = im.getpixel((x0 - 27, y0 - 27))[:3]
+        assert min(tl) > 200 or max(tl) < 60, "a tool disc (white, or its dark glyph) outside the top-left corner"
+        bx0, _, _, by1 = drawn["badge-a"]
+        assert y0 - 45 > by1, "the tool discs clear the magenta badge"
+
+
+def test_selection_frame_dashed_and_grid():
+    im = draw.ground((400, 400), {"fill": (0, 0, 0)})
+    draw.selection_frame(im, (50, 50, 350, 350), stroke=6, handle=10, dashed=True, grid=True, handles=())
+    top = [min(im.getpixel((x, 50))[:3]) > 200 for x in range(60, 340)]
+    assert any(top) and not all(top), "a dashed edge has gaps"
+    assert min(im.getpixel((150, 200))[:3]) > 200 and min(im.getpixel((200, 250))[:3]) > 200, "thirds lines at x=150, y=250"
+    assert "close" in draw.ICONS and "arc" in draw.ICONS["rotate"]

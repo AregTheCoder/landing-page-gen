@@ -5,6 +5,7 @@ hashes:
   crop-frame: 1f3a3fe4a4b9075ab5b712b8ccbbc80754f8b78cbaf39bafbd453a94b4b4a7bb
   crop-frame/crop-grid: 758227f19374152e9ef1be5032d04a67de75ab5ccf0c094ab93d296e2cd13b3e
   cutout-checkerboard: 519158f56aa157e6628d0df0b63ce8e848fcac9e93e996000e871506f77f1db3
+  cutout-checkerboard/selection-frame: ebfff70b5a0132a42309c75b5dc864c21b33402c9882fddc36ea380b3d95dfb0
   dark-composite: 5374d0b82af3aff32b089fb20abbfb0e38487783df92d868b0d5df227e8c65d7
   dark-composite/model-picker: 5bcf09a783f1637f42561ebcbd40fef462a098e7637a8c5f41aab887fa111821
   dark-composite/model-picker+active_text: 0cf8f805b8049d02372f7ae49059220172ca7fc716c2af1a975322b5bdec998a
@@ -17,6 +18,7 @@ hashes:
   prompt-card: 2c24c0385deb8bad96a2aafb59e5ffef14950541ac22d802d08caf1fe8cdf0b5
   template-mockup: b7ceda1bf8c7cf72ebe38ffa6e0519d8907348696f730c4098ebd76246125a57
   template-mockup/palette-card: bfcb7e6f268259b02528ed2d1db4e5f5d4e0909bf69da0efd0c26778052d9d38
+  template-mockup/selection-frame: 07fd9c8899ddd142f5281f58c299bffcb4906b95174d60189a76d6067ca89660
   vs-two-up: 4d997f9b382dcb98d75433a22158573b9c68e0411420d1b388b3423200fa3659
 stamp:
   manrope_sha1: c44909e751e226f188c3112e011617e6d2ce2408

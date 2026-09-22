@@ -2,6 +2,7 @@
 on the (supersampled) canvas; scaling from reference pixels is cli's job.
 Shapes return the rect they covered so callers can report and test them."""
 
+import math
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw, ImageFont
@@ -26,6 +27,8 @@ ICONS = {
     "sparkle": {"polygon": [(12, 2), (14.2, 9.8), (22, 12), (14.2, 14.2), (12, 22), (9.8, 14.2), (2, 12), (9.8, 9.8)]},
     "wheel": {"circles": [(9, 9.5, 5), (15, 9.5, 5), (12, 14.5, 5)]},  # three overlapping rings, the HSL mark
     "chevron": {"lines": [[(7, 14), (12, 9), (17, 14)]]},
+    "close": {"lines": [[(7, 7), (17, 17)], [(17, 7), (7, 17)]]},  # selection-frame tool discs
+    "rotate": {"arc": (5, 5, 19, 19, 40, 320), "lines": [[(19, 7), (19, 12), (14, 12)]]},
 }
 # the eight hue chips of the adjustment panel: red, orange, yellow, green, turquoise, blue, purple, pink
 HUES = ((235, 64, 52), (245, 140, 30), (250, 215, 40), (70, 190, 90), (60, 205, 210), (70, 90, 235), (150, 70, 220), (235, 70, 170))
@@ -139,6 +142,9 @@ def icon(canvas, rect, name, colour=WHITE):
     if "rounded" in spec:
         a, b, c, e = spec["rounded"]
         d.rounded_rectangle((*pt((a, b)), *pt((c, e))), radius=3 * u, outline=colour, width=stroke)
+    if "arc" in spec:
+        a, b, c, e, start, end = spec["arc"]
+        d.arc((*pt((a, b)), *pt((c, e))), start, end, fill=colour, width=stroke)
     for line in spec.get("lines", []):
         pts = [pt(p) for p in line]
         d.line(pts, fill=colour, width=stroke, joint="curve")
@@ -241,6 +247,59 @@ def brackets(canvas, rect, text, fnt, stroke, colour=WHITE, grid=False):
             d.line([(gx, y0), (gx, y1)], fill=colour, width=thin)
             d.line([(x0, gy), (x1, gy)], fill=colour, width=thin)
     return rect
+
+
+def selection_frame(canvas, rect, colour=WHITE, stroke=6, handle=20, dashed=False,
+                    grid=False, handles=("top", "bottom", "left", "right"), tools=()):
+    """The editor transform/selection box: a thin, square-cornered rectangle over
+    a subject with filled disc handles at the named positions (edge midpoints
+    top/bottom/left/right and/or corners tl/tr/bl/br), an optional 3x3
+    rule-of-thirds grid inside, and optional round tool discs (an icon in a
+    filled disc of the opposite tone) floating just outside named corners.
+    Solid by default; `dashed` gives the extend/crop guide. `colour` is white
+    over dark/photographic grounds, dark over light ones. Editor furniture: it
+    marks a selection and carries no text."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    edges = [((x0, y0), (x1, y0)), ((x1, y0), (x1, y1)), ((x1, y1), (x0, y1)), ((x0, y1), (x0, y0))]
+    if dashed:
+        dash = max(2, stroke * 3)
+        for (ax, ay), (bx, by) in edges:
+            n = max(1, round(math.hypot(bx - ax, by - ay) / (dash * 2)))
+            for i in range(n):
+                t0, t1 = i / n, (i + 0.5) / n
+                d.line([(ax + (bx - ax) * t0, ay + (by - ay) * t0),
+                        (ax + (bx - ax) * t1, ay + (by - ay) * t1)], fill=colour, width=stroke)
+    else:
+        for a, b in edges:
+            d.line([a, b], fill=colour, width=stroke)
+    if grid:
+        gw = max(1, round(stroke * 0.6))
+        for k in (1 / 3, 2 / 3):
+            d.line([(x0 + (x1 - x0) * k, y0), (x0 + (x1 - x0) * k, y1)], fill=colour, width=gw)
+            d.line([(x0, y0 + (y1 - y0) * k), (x1, y0 + (y1 - y0) * k)], fill=colour, width=gw)
+    pos = {"top": ((x0 + x1) / 2, y0), "bottom": ((x0 + x1) / 2, y1),
+           "left": (x0, (y0 + y1) / 2), "right": (x1, (y0 + y1) / 2),
+           "tl": (x0, y0), "tr": (x1, y0), "bl": (x0, y1), "br": (x1, y1)}
+    for name in handles:
+        cx, cy = pos[name]
+        d.ellipse((cx - handle, cy - handle, cx + handle, cy + handle), fill=colour)
+    canvas.alpha_composite(layer)
+    if tools:  # tool discs, opposite tone, just outside the corner
+        tdia = handle * 4
+        opp = (24, 24, 26, 255) if tuple(colour) == WHITE else WHITE
+        for corner, name in tools:
+            cx, cy = pos[corner]
+            off = tdia * 0.75
+            cx += -off if corner[1] == "l" else off
+            cy += -off if corner[0] == "t" else off
+            disc = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+            ImageDraw.Draw(disc).ellipse((cx - tdia / 2, cy - tdia / 2, cx + tdia / 2, cy + tdia / 2), fill=colour)
+            ins = tdia * 0.28
+            icon(disc, (cx - tdia / 2 + ins, cy - tdia / 2 + ins, cx + tdia / 2 - ins, cy + tdia / 2 - ins), name, opp)
+            canvas.alpha_composite(disc)
+    return (x0, y0, x1, y1)
 
 
 def disc_icon(canvas, rect, name, fill=(0, 0, 0)):

@@ -126,6 +126,25 @@ FAMILIES = {
             {"id": "badge-b", "kind": "badge", "at": "cutout-b", "corner": "tr"},
             {"id": "button", "kind": "pill", "rect": (545, 1390, 1600, 1600), "text": "Add to bag", "style": "solid-dark"},
         ],
+        "variants": {
+            # the editor transform box over the first cutout (17a18112 meme-generator
+            # S10, 361c2368 ai-image-extender S05, 16410f3b whatsapp-sticker-maker S05,
+            # 1fa729f4 background-tools S13): white square-cornered frame, disc
+            # handles at the edge midpoints, X / rotate / resize tool discs outside
+            # the corners. Frame 6 px, handles d40 at REF (972da313, native 1600).
+            # frac is inset from the proposal's 0.16-0.84 so the tool discs (100 px
+            # past each corner) stay on the 513-wide panel and clear of badge-a.
+            "selection-frame": {
+                "chrome": [
+                    {"id": "badge-a", "kind": "badge", "at": "cutout-a", "corner": "tr"},
+                    {"id": "badge-b", "kind": "badge", "at": "cutout-b", "corner": "tr"},
+                    {"id": "button", "kind": "pill", "rect": (545, 1390, 1600, 1600), "text": "Add to bag", "style": "solid-dark"},
+                    {"id": "select", "kind": "selection-frame", "at": "cutout-a",
+                     "frac": (0.24, 0.30, 0.76, 0.70), "colour": [255, 255, 255],
+                     "tools": [["tl", "close"], ["tr", "rotate"], ["br", "enlarge"]]},
+                ],
+            },
+        },
     },
     "template-mockup": {
         # Ground is transparent (12/14 corpus assets; the page supplies
@@ -135,8 +154,8 @@ FAMILIES = {
         # tiles (one magenta accent, not 4 uniform black): geometry from
         # c3461329, b2749949. /black is the same artwork exported on a dark page
         # (a fill override, not a separate drawing). The swatch stripe is the
-        # `palette-card` variant; the selection-frame chrome and /editor
-        # exploded view are deferred (new primitives; see STANDARD.md).
+        # `palette-card` variant and the selection box the `selection-frame`
+        # variant; the /editor exploded view is deferred (see STANDARD.md).
         "aspect": (1, 1),
         "ground": {"fill": None},
         "radius": 40,
@@ -164,6 +183,21 @@ FAMILIES = {
                      "colours": [[0, 0, 0], [228, 40, 40], [245, 245, 245]]},  # placeholder; manager overrides
                     {"id": "tile-accent", "kind": "tile", "rect": (290, 884, 481, 1075), "icon": "sparkle", "fill": MAGENTA},
                     {"id": "tile-tool", "kind": "tile", "rect": (290, 1114, 481, 1305), "icon": "crop", "fill": (16, 16, 16)},
+                ],
+            },
+            # the editor selection box over the card's focal graphic (972da313
+            # card-maker S01: a 391 px square frame, 6 px stroke, d40 midpoint
+            # handles; 87194d0d, 168e63a1). The graphic moves per generated card,
+            # so the composition plan re-places `select.rect` per slot; this rect
+            # is the measured upper-right default.
+            "selection-frame": {
+                "chrome": [
+                    {"id": "card", "kind": "card", "rect": (556, 152, 1444, 1448), "fill": (43, 20, 90)},
+                    {"id": "tile-1", "kind": "tile", "rect": (152, 152, 532, 532), "icon": "sparkle", "fill": MAGENTA},
+                    {"id": "tile-2", "kind": "tile", "rect": (152, 560, 532, 940), "icon": "crop", "fill": (0, 0, 0)},
+                    {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
+                    {"id": "select", "kind": "selection-frame", "rect": (980, 250, 1370, 640),
+                     "colour": [255, 255, 255], "handles": ["top", "bottom", "left", "right"]},
                 ],
             },
         },

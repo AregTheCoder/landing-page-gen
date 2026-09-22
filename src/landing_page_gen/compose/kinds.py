@@ -86,6 +86,26 @@ def _crop_badge(canvas, it, ctx):
     return draw.disc_icon(canvas, it["rect"], it.get("icon", "crop"), tuple(it.get("fill") or (0, 0, 0)))
 
 
+def _selection_frame(canvas, it, ctx):
+    """The editor transform box over one subject: anchored to a panel by
+    `at` + `frac` (like brackets) or placed by `rect`; drawn on the overlay
+    layer so it sits over the panels and the other chrome."""
+    if "at" in it:
+        x0, y0, x1, y1 = ctx.panels[it["at"]]["rect"]
+        fx0, fy0, fx1, fy1 = it.get("frac", (0.0, 0.0, 1.0, 1.0))
+        w, h = x1 - x0, y1 - y0
+        rect = (x0 + w * fx0, y0 + h * fy0, x0 + w * fx1, y0 + h * fy1)
+    else:
+        rect = it["rect"]
+    colour = tuple(it.get("colour") or (255, 255, 255))
+    if len(colour) == 3:
+        colour += (255,)
+    return draw.selection_frame(canvas, rect, colour, stroke=max(1, round(6 * ctx.s)), handle=round(20 * ctx.s),
+                                dashed=it.get("dashed", False), grid=it.get("grid", False),
+                                handles=tuple(it.get("handles", ("top", "bottom", "left", "right"))),
+                                tools=tuple(tuple(t) for t in it.get("tools", ())))
+
+
 def _badge(canvas, it, ctx):
     px0, py0, px1, py1 = ctx.panels[it["at"]]["rect"]
     size, inset = round(90 * ctx.s), round(24 * ctx.s)
@@ -170,6 +190,7 @@ KINDS = {
     "label": Kind(_label, text=True),
     "brackets": Kind(_brackets),
     "crop-badge": Kind(_crop_badge),
+    "selection-frame": Kind(_selection_frame, layer="overlay"),
     "badge": Kind(_badge),
     "headline": Kind(_headline, text=True),
     "adjust-panel": Kind(_adjust_panel, text=True),
