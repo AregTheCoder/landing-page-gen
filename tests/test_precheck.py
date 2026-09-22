@@ -67,6 +67,11 @@ def test_compose_variant_must_match_the_brief_device(tmp_path):
     assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant reference-thumbs but brief device icon-set"]
     (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
     assert precheck.check(run, "S03") == [], "icon-set is carried by the annotation, so the plain template is right"
+    (sec / "brief.md").write_text("# Brief\n\n> device: none: single demonstration\n")
+    (sec / "compose-S03-m1.yaml").write_text("family: before-after\nvariant: stacked-square\nsize: 720x720\n")
+    assert precheck.check(run, "S03") == [], "a 1:1 slot's size selects stacked-square; the brief need not name it"
+    (sec / "compose-S03-m1.yaml").write_text("family: before-after\nvariant: stacked-square\nsize: 720x343\n")
+    assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant stacked-square but brief device none"]
 
 
 CLIP = "https://gcdn.picsart.com/editing-temp/final.mp4"

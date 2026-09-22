@@ -21,6 +21,7 @@ from pathlib import Path
 
 import yaml
 
+from landing_page_gen.compose import cli as compose_cli
 from landing_page_gen.compose.families import FAMILIES
 from landing_page_gen.flow import board
 
@@ -151,7 +152,9 @@ def check(run, sid):
 def device_problems(folder):
     """The brief's `> device: <id>: ...` against each compose spec's `variant:`:
     when the family draws that device as a variant, the spec must name it,
-    and a spec must not name a variant the brief did not ask for."""
+    and a spec must not name a variant the brief did not ask for — except the
+    one its size selects when the default's aspect does not fit
+    (`compose.cli.preset_for_size`, e.g. before-after `stacked-square` at 1:1)."""
     brief = folder / "brief.md"
     m = re.search(r"^> device: ([a-z-]+)", brief.read_text(), re.M) if brief.exists() else None
     device = m.group(1) if m else None
@@ -160,7 +163,8 @@ def device_problems(folder):
         spec = yaml.safe_load(spec_path.read_text()) or {}
         variants = (FAMILIES.get(spec.get("family")) or {}).get("variants") or {}
         variant = spec.get("preset") or spec.get("variant")
-        if (device in variants and variant != device) or (variant and variant != device):
+        fitted = None if device in variants else compose_cli.preset_for_size(spec.get("family"), spec.get("size"))
+        if (device in variants and variant != device) or (variant and variant not in (device, fitted)):
             out.append(f"{spec_path.name}: compose variant {variant or 'none'} but brief device {device or 'none'}")
     return out
 

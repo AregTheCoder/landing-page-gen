@@ -34,16 +34,18 @@ REFERENCES_DIR = REPO / "corpus" / "references"
 sys.path.insert(0, str(HERE))
 import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
-from landing_page_gen.compose import plan  # noqa: E402
+from landing_page_gen.compose import cli as compose_cli, plan  # noqa: E402
 from landing_page_gen.compose.families import FAMILIES  # noqa: E402
 
 
-def _preset(family, device):
-    """The compose preset a device selects for this family, or None."""
-    return device if device in (FAMILIES.get(family, {}).get("variants") or {}) else None
+def _preset(family, device, size=None):
+    """The compose preset a device selects for this family, else the variant
+    whose aspect the slot size has when the default's does not, or None."""
+    preset = device if device in (FAMILIES.get(family, {}).get("variants") or {}) else None
+    return compose_cli.preset_for_size(family, size, preset)
 
 
-def composition_section(family, device):
+def composition_section(family, device, size=None):
     """For a composable family, the panels the worker generates (with the ratio
     and fit) and the keep-clear region each carries — so it stops guessing."""
     if not board.composable(family):
@@ -52,7 +54,7 @@ def composition_section(family, device):
             "Generate one panel per row at the ratio given; keep the subject out of any keep-clear "
             "region (an overlay sits there). The chrome is composited by lp-compose, never by a model.", "",
             "| panel | generate at | fit | keep clear (fractions of the panel) |", "|---|---|---|---|"]
-    for p in plan.contract(family, _preset(family, device)):
+    for p in plan.contract(family, _preset(family, device, size)):
         kc = "; ".join(f"{r['item']} {r['frac']}" for r in p["keep_clear"]) or "—"
         rows.append(f"| {p['panel']} | {p['ratio']} | {p['fit']} | {kc} |")
     return "\n".join(rows) + "\n"
@@ -169,7 +171,8 @@ def slot_class(section_type, record):
 
 def slots_table(records, section_type, family, device):
     fam = family.split("/")[0]
-    n = len(plan.contract(fam, _preset(fam, device))) if board.composable(fam) else 1
+    size = records[0].get("size") if records else None
+    n = len(plan.contract(fam, _preset(fam, device, size))) if board.composable(fam) else 1
     panels = f"{n} panel{'s' if n != 1 else ''} (see below)" if board.composable(fam) else "1 panel"
     rows = ["| slot | kind | role | size | natural | class | family | panels |",
             "|---|---|---|---|---|---|---|---|"]
@@ -321,7 +324,7 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
     parts.append(text_in_image(d.get("text", "none"), records, section_type) + "\n")
     parts.append("## Slots to produce\n")
     parts.append(slots_table(records, section_type, family + (f"/{ground}" if ground != "default" else ""), device) + "\n")
-    composition = composition_section(family, device)
+    composition = composition_section(family, device, records[0].get("size") if records else None)
     if composition:
         parts.append(composition)
         # write one composition-<slot>.yaml per composable slot: the machine

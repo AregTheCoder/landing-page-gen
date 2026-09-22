@@ -98,3 +98,28 @@ def test_build_then_spec_from_plan_round_trips(tmp_path):
                     + [f"--image={n}=steps/{n}.png" for n in ("photo", "thumb-a", "thumb-b")]) == 0
     png = tmp_path / "out.png"
     assert cli.main([str(out_spec), "--out", str(png)]) == 0 and png.exists()
+
+
+@pytest.mark.parametrize("size,preset,panels", [
+    ("480x480", "stacked-square", {"before", "after", "result"}),  # 1:1 slot: the default's 21:10 does not fit
+    ("720x343", None, {"before", "result"}),                      # 21:10 slot: the default wide card
+])
+def test_slot_size_selects_the_variant_whose_aspect_fits(tmp_path, size, preset, panels):
+    """The brief's `> device:` picks a preset; with none, a slot whose size the
+    family default cannot render falls to the variant that can — so a 1:1
+    before-after slot composes as `stacked-square`, not a rejected 21:10 card."""
+    assert cli.preset_for_size("before-after", size) == preset
+    assert cli.preset_for_size("before-after", size, "stacked-square") == "stacked-square", "an explicit preset wins"
+    p = plan.build("before-after", size, slot="S07-m1")
+    assert p.get("preset") == preset and {x["panel"] for x in p["panels"]} == panels
+    assert plan.validate(p) == []
+    plan.write_plan(tmp_path / "plan.yaml", p)
+    (tmp_path / "steps").mkdir()
+    for n in panels:
+        Image.new("RGB", (400, 400), "red").save(tmp_path / "steps" / f"{n}.png")
+    spec = tmp_path / "compose-S07-m1.yaml"
+    assert cli.main(["--spec-from-plan", str(tmp_path / "plan.yaml"), "--out", str(spec)]
+                    + [f"--image={n}=steps/{n}.png" for n in sorted(panels)]) == 0
+    png = tmp_path / "out.png"
+    assert cli.main([str(spec), "--out", str(png)]) == 0
+    assert Image.open(png).size == tuple(int(v) for v in size.split("x"))

@@ -47,6 +47,24 @@ def _preset(spec):
     return spec.get("preset") or spec.get("variant")
 
 
+def fits(tmpl, w, h):
+    """Whether a WxH size has one of the template's aspects (2 % tolerance)."""
+    return any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in tmpl.get("aspects") or (tmpl["aspect"],))
+
+
+def preset_for_size(fam, size, preset=None):
+    """The preset to render `fam` at a slot `size` (WxH): the one asked for,
+    else the default (None) when its aspect fits, else the first variant whose
+    aspect does — a 1:1 before-after slot gets `stacked-square`. The brief's
+    `> device:` picks a preset; this only fills in when the device does not."""
+    if preset or not size or fam not in FAMILIES:
+        return preset
+    w, h = parse_size(size) if isinstance(size, str) else size
+    if fits(FAMILIES[fam], w, h):
+        return None
+    return next((v for v in FAMILIES[fam].get("variants") or {} if fits(template(fam, v), w, h)), None)
+
+
 _GROUND_WORDS = {"black": (0, 0, 0), "white": (255, 255, 255), "light": (242, 242, 244)}
 
 
@@ -97,7 +115,7 @@ def load_spec(path):
     family = template(fam, _preset(spec))
     w, h = parse_size(spec.get("size"))
     aspects = family.get("aspects") or (family["aspect"],)
-    if not any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in aspects):
+    if not fits(family, w, h):
         sys.exit(f"lp-compose: size {w}x{h} is not {' or '.join(f'{a}:{b}' for a, b in aspects)} like {fam}")
     panels = spec.get("panels") or {}
     for name in family["panels"]:

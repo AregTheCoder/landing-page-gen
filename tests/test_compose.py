@@ -14,7 +14,7 @@ def write_spec(tmp_path, family="before-after", size="720x720", **extra):
     steps.mkdir(exist_ok=True)
     Image.new("RGB", (400, 800), "red").save(steps / "a.png")
     Image.new("RGB", (400, 800), "blue").save(steps / "b.png")
-    panels = {name: {"image": f"steps/{'ab'[i % 2]}.png"} for i, name in enumerate(FAMILIES[family]["panels"])}
+    panels = {name: {"image": f"steps/{'ab'[i % 2]}.png"} for i, name in enumerate(cli.template(family, extra.get("variant"))["panels"])}
     path = tmp_path / "compose.yaml"
     path.write_text(yaml.safe_dump({"slot": "S07-m1", "family": family, "size": size, "panels": panels, **extra}))
     return path
@@ -32,7 +32,7 @@ def out_rect(layout, name):
 
 
 def test_compose_before_after_geometry_ground_and_pill(tmp_path):
-    spec = write_spec(tmp_path)
+    spec = write_spec(tmp_path, variant="stacked-square")
     out = tmp_path / "steps" / "S07-m1-3-1.png"
     assert cli.main([str(spec), "--out", str(out)]) == 0
     im = Image.open(out)
@@ -117,7 +117,7 @@ def test_describe_names_the_variants(capsys):
 
 
 def test_omit_and_override(tmp_path):
-    spec = write_spec(tmp_path, omit=["tile"], chrome={"before-pill": {"text": "Original", "style": "solid-light"}})
+    spec = write_spec(tmp_path, size="720x343", omit=["tile"], chrome={"before-pill": {"text": "Original", "style": "solid-light"}})
     _, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))
     assert "tile" not in drawn and "before-pill" in drawn
 
@@ -143,7 +143,7 @@ def test_describe_lists_panels_and_generate_ratios(capsys):
 
 
 def test_spec_errors_name_the_problem(tmp_path):
-    spec = write_spec(tmp_path)
+    spec = write_spec(tmp_path, variant="stacked-square")
     with pytest.raises(SystemExit, match="unknown family 'nope'"):
         cli.load_spec(rewrite(spec, family="nope"))
     with pytest.raises(SystemExit, match="1280x720 is not 1:1"):

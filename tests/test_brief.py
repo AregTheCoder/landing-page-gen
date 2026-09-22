@@ -216,3 +216,13 @@ def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
     assert cp["family"] == "panel-overlay" and cp["size"] == "480x360"
     assert cp["derived_from"]["style"] == "panel-overlay"
     assert any(p["panel"] == "photo" and p["keep_clear"] for p in cp["panels"])
+
+
+def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
+    # before-after's default is the wide 21:10 card; a 1:1 slot with no device
+    # is briefed (panels table, slot count, composition plan) as stacked-square
+    assert brief._preset("before-after", "none", "480x480") == "stacked-square"
+    assert brief._preset("before-after", "none", "720x343") is None
+    assert brief._preset("dark-composite", "model-picker", "480x480") == "model-picker", "the device still wins"
+    rows = brief.composition_section("before-after", "none", "480x480")
+    assert "| after |" in rows and "| after |" not in brief.composition_section("before-after", "none", "720x343")

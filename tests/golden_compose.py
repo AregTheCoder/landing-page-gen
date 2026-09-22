@@ -48,7 +48,7 @@ def cases():
     yield {"name": "panel-overlay+omit+tilted", "family": "panel-overlay", "variant": None,
            "size": _size(4, 3), "extra": {"omit": ["tool-pill"], "ground": "tilted"}}
     yield {"name": "before-after+omit", "family": "before-after", "variant": None,
-           "size": _size(1, 1), "extra": {"omit": ["tile"]}}
+           "size": _size(21, 10), "extra": {"omit": ["tile"]}}
 
 
 def render_sha(tmp_path, case):

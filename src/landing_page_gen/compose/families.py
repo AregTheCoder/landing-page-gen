@@ -19,38 +19,43 @@ CHECKER = ((58, 58, 60), (42, 42, 44))
 # a spec overrides an item by id and drops one with `omit`.
 FAMILIES = {
     "before-after": {
-        # Ground is transparent on every corpus composite (alpha-0 gutters); the
-        # page section supplies the surround. The 1:1 stacked pair is the rare
-        # form (1/20) but is what a callout-1:1 slot needs, so it stays the
-        # default; the modal WIDE card (14/20, e.g. 08385997 ai-image-enhancer
-        # S09, c5715e9b image-upscale S07) is the `wide` variant for 2:1 slots.
-        "aspect": (1, 1),
-        "ground": {"fill": None},
+        # Ground is transparent on every corpus composite (alpha-0 gutters and
+        # margin, measured 15/15; the page section supplies the surround). The
+        # MODAL card is the WIDE ~2.1:1 layout — 11 of 15 genuine before+result+
+        # tile composites, 16 of 21 by aspect (e.g. 08385997 ai-image-enhancer
+        # S09, c5715e9b image-upscale S07, f223c881 video-enhancer S10). Native
+        # 1060x504 scaled x1.5094 to REF width: margin 16->24, gutter 8->12.
+        # before + icon tile left, result right, solid-dark pills, "After" on the
+        # RESULT. The rare 1:1 stacked pair (1/21 for this exact geometry;
+        # 69ed3f5c image-enlarger S08) is `variant: stacked-square`.
+        "aspect": (21, 10),                         # 1060x504 = 2.103:1
+        "ground": {"fill": None},                   # transparent — all composites
         "radius": 40,
         "panels": {
-            "before": {"rect": (0, 0, 604, 632)},
-            "after": {"rect": (0, 664, 604, 1296)},
-            "result": {"rect": (636, 0, 1600, 1600)},
+            "before": {"rect": (24, 24, 610, 519)},   # 388x328 native
+            "result": {"rect": (622, 24, 1576, 737)}, # 632x472 native
         },
         "chrome": [
-            {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "translucent"},
-            {"id": "after-pill", "kind": "pill", "at": "after", "corner": "bl", "text": "After", "style": "translucent"},
-            {"id": "tile", "kind": "tile", "rect": (0, 1328, 604, 1600), "icon": "enlarge"},
+            {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "solid-dark"},
+            {"id": "after-pill", "kind": "pill", "at": "result", "corner": "bl", "text": "After", "style": "solid-dark"},
+            {"id": "tile", "kind": "tile", "rect": (24, 531, 610, 737), "icon": "enlarge"},
         ],
         "variants": {
-            # modal wide card, 1060x504 native scaled to 1600 wide (08385997,
-            # c5715e9b): before + icon tile left, result right, solid-dark pills,
-            # "After" on the RESULT. For 21:10 (callout-2:1) slots.
-            "wide": {
-                "aspect": (21, 10),
+            # the 1:1 stacked pair, measured from 69ed3f5c (image-enlarger S08):
+            # before + after stacked left with a tile below, result (often an
+            # applied mockup of the after image) right. The former default; for
+            # callout-1:1 slots. Translucent pills (69ed3f5c, bcc56313).
+            "stacked-square": {
+                "aspect": (1, 1),
                 "panels": {
-                    "before": {"rect": (24, 24, 610, 519)},
-                    "result": {"rect": (622, 24, 1576, 737)},
+                    "before": {"rect": (0, 0, 604, 632)},
+                    "after": {"rect": (0, 664, 604, 1296)},
+                    "result": {"rect": (636, 0, 1600, 1600)},
                 },
                 "chrome": [
-                    {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "solid-dark"},
-                    {"id": "after-pill", "kind": "pill", "at": "result", "corner": "bl", "text": "After", "style": "solid-dark"},
-                    {"id": "tile", "kind": "tile", "rect": (24, 531, 610, 737), "icon": "enlarge"},
+                    {"id": "before-pill", "kind": "pill", "at": "before", "corner": "bl", "text": "Before", "style": "translucent"},
+                    {"id": "after-pill", "kind": "pill", "at": "after", "corner": "bl", "text": "After", "style": "translucent"},
+                    {"id": "tile", "kind": "tile", "rect": (0, 1328, 604, 1600), "icon": "enlarge"},
                 ],
             },
         },
