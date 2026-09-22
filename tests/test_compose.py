@@ -288,3 +288,15 @@ def test_prompt_card_preset_draws_card_left_of_result(tmp_path):
     assert set(drawn) == {"prompt", "prompt-text", "generate"}
     assert drawn["prompt"][2] < out_rect(layout_, "result")[0], "the dark prompt column sits left of the result"
     assert im.mode == "RGB", "black ground flattens to RGB"
+
+
+def test_vs_two_up_preset_puts_the_badge_on_the_seam(tmp_path):
+    spec = _variant_spec(tmp_path, "vs-two-up", None)
+    layout_ = cli.resolve(cli.load_spec(spec))
+    im, drawn = cli.compose(layout_)
+    assert set(drawn) == {"vs"}
+    lx0, lx1 = out_rect(layout_, "left")[0], out_rect(layout_, "left")[2]
+    rx0 = out_rect(layout_, "right")[0]
+    bx0, _, bx1, _ = drawn["vs"]
+    assert lx1 < (bx0 + bx1) / 2 < rx0 + (out_rect(layout_, "right")[2] - rx0), "VS badge sits over the seam"
+    assert im.mode == "RGB", "light-grey ground flattens to RGB"

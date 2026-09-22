@@ -222,6 +222,19 @@ def badge(canvas, rect, radius):
     return rect
 
 
+def round_badge(canvas, rect, text, fill, colour, fnt):
+    """A filled circle with centred text — a VS mark on a seam, or the disc a
+    play button sits in. Alpha-composited so it reads over either panel."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    d.ellipse((x0, y0, x1, y1), fill=fill)
+    if text:
+        d.text(((x0 + x1) / 2, (y0 + y1) / 2), text, font=fnt, fill=colour, anchor="mm")
+    canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
 def headline(canvas, rect, text, px, stroke, radius, colour=WHITE):
     """The template card's headline area: a thin rounded outline with the
     text in caps sized to fit, or two blank bars when there is no text."""

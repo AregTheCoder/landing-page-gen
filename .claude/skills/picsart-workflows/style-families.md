@@ -265,7 +265,7 @@ them `full-bleed` and lost the tool panel in every slot).
 **Signature:** layout=two-up; chrome=model-logo, pill, chip, vs-badge; ground=light-grey; finish=photo; text=labels-only (n=…).
 **Ground:** light-grey (default) | white (n=…) | black (n=…).
 **Grid:** 1:1 (480): two panels side by side, each 760x1400 with a model pill bottom-left and one or two size chips under it, gutter 40; the hero adds a white round VS badge over the seam and one panel black, one white; not templated.
-**Template:** none; brief as dark-composite/light with model A's result as `photo`; the second panel, pills, chips and the VS badge arrive with the template.
+**Template:** lp-compose: vs-two-up (1:1); two result panels (`left`, `right`) with a white round VS badge on the seam. Model pills and size chips arrive with a later variant.
 **Chrome (lp-compose):** not templated: model pills (logo + name), size and ratio chips (1024x1024, 1x1, 2k), the VS badge.
 **Panels (worker):** A `left` and B `right` (generate 3:4 or 1:1): the same prompt rendered twice with two different finishes, one subject each, the subject in the centre two thirds so the pill corner stays clear. Typography stress tests (a product with printed text) are common here; the printed word is picture text and must be in `> text:`.
 **Palette:** results natural; chrome black, white and the models' own marks.

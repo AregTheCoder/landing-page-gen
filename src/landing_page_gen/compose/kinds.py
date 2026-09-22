@@ -110,6 +110,17 @@ def _text(canvas, it, ctx):
     return draw.box_text(canvas, it["rect"], it.get("text", ""), (0, 0, 0, 0), colour, 0, ctx.font(it.get("font", "panel-label")))
 
 
+def _round_badge(canvas, it, ctx):
+    """A filled circle with centred text — the VS mark on a two-up seam."""
+    fill = tuple(it.get("fill") or (255, 255, 255))
+    if len(fill) == 3:
+        fill += (255,)
+    colour = tuple(it.get("colour") or (28, 28, 28))
+    if len(colour) == 3:
+        colour += (255,)
+    return draw.round_badge(canvas, it["rect"], it.get("text", ""), fill, colour, ctx.font(it.get("font", "tool-pill"), 700))
+
+
 KINDS = {
     "card": Kind(_card, layer="card"),
     "tile": Kind(_tile),
@@ -123,4 +134,5 @@ KINDS = {
     "tool-pill": Kind(_tool_pill, text=True),
     "list-panel": Kind(_list_panel, text=True),
     "text": Kind(_text, text=True),
+    "round-badge": Kind(_round_badge, text=True),
 }

@@ -213,6 +213,20 @@ FAMILIES = {
             {"id": "generate", "kind": "pill", "rect": (160, 1320, 560, 1440), "text": "Generate", "style": "solid-light"},
         ],
     },
+    # two outputs of one prompt, side by side, a round VS mark on the seam
+    # (compare-models cards). Model pills and size chips are a later variant.
+    "vs-two-up": {
+        "aspect": (1, 1),
+        "ground": {"fill": (242, 242, 244)},
+        "radius": 40,
+        "panels": {
+            "left": {"rect": (40, 40, 780, 1440)},
+            "right": {"rect": (820, 40, 1560, 1440)},
+        },
+        "chrome": [
+            {"id": "vs", "kind": "round-badge", "rect": (712, 712, 888, 888), "text": "VS"},
+        ],
+    },
 }
 
 
