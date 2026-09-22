@@ -120,17 +120,40 @@ def validate(plan):
         if not cid or cid in seen:
             problems.append(f"item id {cid!r} missing or repeated")
         seen.add(cid)
-        if kind and kind not in kinds.KINDS:
+        rendered_by = it.get("rendered_by", "compose")
+        if rendered_by not in ("compose", "model"):
+            problems.append(f"item {cid!r}: rendered_by {rendered_by!r} (compose or model)")
+        elif rendered_by == "model":
+            # the hybrid exception (kinds.MODEL_KINDS): a model-rendered item must
+            # be a hybrid kind, carry a reason, and never a string
+            if kind not in kinds.MODEL_KINDS:
+                problems.append(f"item {cid!r}: kind {kind!r} cannot be rendered_by: model "
+                                f"(compose draws it; only {', '.join(sorted(kinds.MODEL_KINDS))} are hybrid)")
+            if not (it.get("reason") or "").strip():
+                problems.append(f"item {cid!r}: rendered_by: model needs a reason")
+            if it.get("text"):
+                problems.append(f"item {cid!r}: a model-rendered item carries no text (strings are never model-rendered)")
+        elif kind in kinds.MODEL_KINDS:
+            problems.append(f"item {cid!r}: kind {kind!r} is hybrid-only; set rendered_by: model with a reason")
+        elif kind and kind not in kinds.KINDS:
             problems.append(f"item {cid!r}: kind {kind!r} is not drawable")
     return problems
 
 
 def to_spec(plan, images):
     """A compose spec (dict) from a plan and a {panel: image path} map. The
-    worker adds only the image paths; every item comes from the plan verbatim."""
+    worker adds only the image paths; every item comes from the plan verbatim,
+    except that `rendered_by: model` items are dropped — a worker's generate/edit
+    node paints those, lp-compose never draws them (and could not: their kinds
+    are not in the registry)."""
     spec = {"slot": plan.get("slot"), "family": plan["family"], "size": plan["size"],
             "panels": {name: {"image": images[name]} for name in images}}
     for key in ("preset", "ground", "items", "omit"):
-        if plan.get(key) is not None:
-            spec["chrome" if key == "items" else key] = plan[key]
+        val = plan.get(key)
+        if val is None:
+            continue
+        if key == "items":
+            spec["chrome"] = [it for it in val if it.get("rendered_by") != "model"]
+        else:
+            spec[key] = val
     return spec

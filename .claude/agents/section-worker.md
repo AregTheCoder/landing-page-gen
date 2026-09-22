@@ -123,7 +123,10 @@ frontmatter, and stop.
   recipe and examples are in your own brief and `examples/`. Never call
   `picsart_credits`. The only text a model renders is
   the brief's `## Text in image` strings, quoted verbatim; never logos or
-  UI; chrome comes from `lp-compose` only.
+  UI; chrome comes from `lp-compose` only — the one exception is a plan item
+  the manager marked `rendered_by: model` (a brush-mask, applied-mockup or
+  face-box), which you paint in one node tagged `chrome_item:` with a `reason:`
+  (image-workflows.md); you never mark an item hybrid yourself.
 - A template is a node shape, not a look or a model list: its pictures are
   not your references, its models are replaced by ours where they differ,
   and it never moves a node off `gemini-3-pro-image`.

@@ -157,6 +157,31 @@ def test_credits_reconcile_by_url_not_prompt(tmp_path):
     assert precheck.check(run, "S03") == [], "only the kept output is counted, not both same-prompt rows"
 
 
+def test_hybrid_item_must_be_paired_with_its_node(tmp_path):
+    sec = tmp_path / "sections" / "S05"
+    sec.mkdir(parents=True)
+    (sec / "composition-S05-m1.yaml").write_text(
+        "family: template-mockup\nsize: 720x720\nitems:\n"
+        "  - {id: card, kind: card}\n"
+        "  - {id: mark, kind: applied-mockup, rendered_by: model, reason: bespoke mark on the tote}\n")
+    # a workflow whose edit node claims the hybrid item and names it -> clean
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n"
+        "  - {id: 1, node: image, in: [start], params: {prompt: a tote bag}}\n"
+        "  - {id: 2, node: edit, in: [1], chrome_item: mark, reason: paint the mark,\n"
+        "     params: {prompt: 'apply the mark (applied-mockup) onto the tote'}}\n")
+    assert precheck.hybrid_problems(sec) == []
+    # drop the claiming node: the hybrid item is now unrendered
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n  - {id: 1, node: image, in: [start], params: {prompt: a tote bag}}\n")
+    assert any("has no node with chrome_item: mark" in p for p in precheck.hybrid_problems(sec))
+    # a node claiming an item the plan does not mark model-rendered
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n"
+        "  - {id: 1, node: edit, in: [start], chrome_item: card, reason: x, params: {prompt: card}}\n")
+    assert any("is not a rendered_by: model item" in p for p in precheck.hybrid_problems(sec))
+
+
 def test_compose_node_wiring_against_its_spec(tmp_path):
     (tmp_path / "compose-S03-m1.yaml").write_text(
         "family: dark-composite\nsize: 720x720\n"

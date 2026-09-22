@@ -18,6 +18,7 @@ from pathlib import Path
 
 import yaml
 
+from ..compose import kinds as _kinds
 from ..compose.families import FAMILIES as _COMPOSE_FAMILIES
 
 PRO_IMAGE = "gemini-3-pro-image"
@@ -273,6 +274,28 @@ def video_problems(s, sid, seen, drafted):
     return out
 
 
+def hybrid_node_problems(s, sid, kind):
+    """The hybrid model-step gate (image-workflows.md, prd.md). A node that
+    renders a plan's hybrid chrome item carries `chrome_item: <id>` and must be a
+    generate/edit node with a reason; a generate/edit node that names interface
+    furniture in its prompt (kinds.UI_WORDS) but claims no chrome_item is
+    smuggling chrome the model must not draw — lp-compose draws chrome."""
+    out = []
+    item = s.get("chrome_item")
+    if item:
+        if kind not in ("image", "edit"):
+            out.append(f"{sid}: chrome_item {item!r} on a {kind} node; a model-rendered item is painted in an image or edit node")
+        if not (s.get("reason") or "").strip():
+            out.append(f"{sid}: chrome_item {item!r} without a reason (why this chrome must be model-rendered, not composed)")
+    elif kind in ("image", "edit"):
+        prompt = (s.get("params") or {}).get("prompt") or ""
+        hit = sorted(w for w in _kinds.UI_WORDS if re.search(rf"\b{re.escape(w)}\b", prompt, re.I))
+        if hit:
+            out.append(f"{sid}: prompt names UI ({', '.join(hit)}) but the node has no chrome_item; chrome is drawn by "
+                       f"lp-compose. For a hybrid item, mark the plan item rendered_by: model and set chrome_item here")
+    return out
+
+
 def check(doc):
     """Problems with one slot's board; empty when it wires."""
     slot = doc.get("slot", "?")
@@ -318,6 +341,7 @@ def check(doc):
         if kind == "video":
             problems += video_problems(s, sid, seen, drafted)
             drafted = drafted or VIDEO_DRAFT_HINT in (s.get("model") or "")
+        problems += hybrid_node_problems(s, sid, kind)
         if s.get("id") is not None:
             seen[s["id"]] = kind
     if "final" not in doc:

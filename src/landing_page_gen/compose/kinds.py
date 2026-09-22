@@ -127,6 +127,26 @@ def _profile_card(canvas, it, ctx):
     return draw.profile_card(canvas, it["rect"], tuple(it.get("fill") or (30, 30, 32)), ctx.r)
 
 
+# Hybrid chrome — kinds too organic or bespoke to template, so a plan item may
+# mark them `rendered_by: model` and a worker paints them inside a generate/edit
+# node instead of lp-compose drawing them. Disjoint from KINDS by construction:
+# compose never draws these, and the gate refuses `rendered_by: model` on any
+# kind that IS in KINDS. This is the only relaxation of prd's "chrome is drawn
+# by lp-compose, never a model" rule (image-workflows.md, prd.md).
+MODEL_KINDS = {
+    "brush-mask": "a painted or masked region with an organic outline (B12)",
+    "applied-mockup": "the page's own mark applied on a sign, packaging or screen (B17)",
+    "face-box": "a face/subject detection box WITH keypoints; a plain box is selection-frame (B15)",
+}
+
+# Words that name interface furniture. A generate/edit node whose prompt carries
+# one but has no `chrome_item:` is smuggling chrome the model must not render
+# (prompt rules forbid it); `flow.check` lints for these. Kept conservative to
+# avoid photographic false positives ("frame", "screen printing" are excluded).
+UI_WORDS = frozenset({"slider", "pill", "toolbar", "dropdown", "checkbox",
+                      "scrollbar", "tooltip", "navbar", "sidebar", "toggle"})
+
+
 KINDS = {
     "card": Kind(_card, layer="card"),
     "tile": Kind(_tile),

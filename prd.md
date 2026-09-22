@@ -79,9 +79,11 @@ taught it.
   life where the family is a flat composite is a `resemblance` 1.
   (runs/trial-1 S07)
 - Composite slots: the worker generates the photographic panels only;
-  ground, panels and chrome come from `lp-compose` with the family template,
-  so `clean` is scored on the panels and chrome text is limited to the
-  family's labels (Before, After, x2, 4K, a size). (runs/trial-1 S07)
+  ground, panels and chrome come from `lp-compose` through the slot's
+  composition plan (`composition-<slot>.yaml`), so `clean` is scored on the
+  panels and chrome text is limited to the plan's labels (Before, After, x2,
+  4K, a size — the manager's strings). (runs/trial-1 S07; plan as the contract
+  2026-09-22)
 - `similar --exclude <page>` is not enough for a blind trial: sibling pages of one
   CMS block share the source image. Grep the brief for the source asset id and
   swap those examples out by hand. (runs/trial-3 S09)
@@ -401,3 +403,22 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   (draft) + 7 × target; the default `video_slot` cap moves 60 → 120 so a 10 s
   original does not stop every worker, and a ≤ 200 cr trial fits two ~10 s
   slots, not a 30 s one (210 for the final alone). (2026-09-19)
+- A composite is assembled per context from a **composition plan**, not one
+  fixed template per family: the manager writes `composition-<slot>.yaml` (the
+  panels — ratio + keep-clear — and the chrome items with their manager-decided
+  labels); the worker generates the panels, builds the compose spec with
+  `lp-compose spec-from-plan` (adding only image paths), and renders it.
+  Chrome labels are a closed manager set the plan carries and precheck enforces
+  ("no string twice"); the subject must stay out of each panel's keep-clear
+  region. (2026-09-22, layered overhaul)
+- **The hybrid exception.** "Chrome is drawn by lp-compose, never a model" is
+  relaxed only for a `kinds.MODEL_KINDS` item (brush-mask, applied-mockup,
+  face-box — organic or bespoke, undrawable by compose): the manager marks the
+  plan item `rendered_by: model` with a `reason`, the worker renders it in one
+  gated generate/edit node carrying `chrome_item: <id>` whose prompt names that
+  item and nothing else, `lp-compose` drops the item (never draws it),
+  `lp-flow check` pairs node↔item and lints any un-tagged generate/edit prompt
+  that names UI (`kinds.UI_WORDS`), `precheck.hybrid_problems` pairs across the
+  files, and the reviewer scores it under `composition` (painted, organic,
+  matching its reason, no text) and `clean`. A model item never carries a
+  string — text is still never model-invented. (2026-09-22, layered overhaul)

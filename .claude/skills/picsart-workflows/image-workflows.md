@@ -150,6 +150,15 @@ Board: START → one `image` node per panel (an `enhance`/`background`/
    480 px; no string appearing twice (once in the panel, once as chrome).
    Costs nothing, no preflight.
 
+**Hybrid item (rare).** When the plan marks a chrome item `rendered_by: model`
+— a `brush-mask`, `applied-mockup` or `face-box`, chrome too organic or bespoke
+for `lp-compose` — render it inside one generate/edit node carrying
+`chrome_item: <id>` and a `reason:`; the prompt names that item and nothing
+else UI (the compose node then draws every other item, skipping this one). This
+is the only case a model touches chrome; you never mark an item hybrid yourself
+(the manager does, in the plan), and a model item never carries text. Gate:
+the item is painted, matches its reason, no text, nothing else changed.
+
 ## Prompt rules
 
 - Subject, setting, light, finish, camera, in that order. One sentence each.

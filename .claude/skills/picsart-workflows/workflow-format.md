@@ -129,6 +129,30 @@ spec — it never hand-authors the item list:
 final: {url: null, local: steps/S07-m1-3-1.png, width: 720, height: 720}
 ```
 
+A **hybrid** chrome item — one the composition plan marks `rendered_by: model`
+because it is too organic or bespoke for `lp-compose` to draw (a brushed mask,
+the page's mark applied on packaging, a face box with keypoints) — is painted
+inside its own generate/edit node, which carries `chrome_item:` naming the plan
+item and a `reason:`. The prompt mentions that item and nothing else UI; the
+compose node then draws every OTHER item (compose skips the model item):
+
+```yaml
+  - id: 2
+    node: edit
+    in: [1]
+    tool: picsart_generate
+    model: picsart-qwen-image-edit
+    chrome_item: mark              # the plan item this node renders (rendered_by: model)
+    reason: "the page's mark on the tote is a bespoke placement, not templatable"
+    params: {prompt: "apply the mark (applied-mockup) onto the tote, nothing else changed", imageUrls: ["<step 1 passed>"]}
+    quoted_credits: 4
+    gate: "the mark sits on the tote, matches its reason, no text, nothing else changed"
+    status: pending
+    outputs: []
+    passed: null
+    note: ""
+```
+
 A text node is the worker's own writing, no call: it holds a prompt or a
 string set that several image nodes share (a Series envelope), so the shared
 words exist once on the board.
@@ -155,6 +179,11 @@ words exist once on the board.
 - `node:` is the kind Flow would give the step; `tool:` is the engine it
   runs on (`tool-map.md`, "Flow nodes"). `lp-flow check` refuses a kind on
   the wrong engine (an `edit` node on `picsart_enhance`).
+- `chrome_item:` marks a generate/edit node that paints a hybrid plan item
+  (`rendered_by: model`); it needs a `reason:` and its prompt names that item.
+  `lp-flow check` lints a generate/edit node that has NO `chrome_item` but
+  whose prompt names UI (`slider`, `toolbar`, `dropdown`, …): chrome is
+  `lp-compose`'s, never a model's, unless the plan marks it hybrid.
 - `board: blank` is the default. `board: template` needs `template.title`,
   `template.url` and `template.adapted`; a template never overrides the
   model rule, the text rule or the family's **Never** list (`flow-boards.md`).

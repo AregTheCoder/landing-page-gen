@@ -162,6 +162,24 @@ def test_image_node_off_the_pro_model_needs_a_reason():
     assert board.check(doc) == []
 
 
+def test_hybrid_chrome_item_and_ui_word_gate():
+    # a plain edit node whose prompt names UI furniture, with no chrome_item, is smuggling chrome
+    doc = blank_board()
+    doc["steps"][1]["params"]["prompt"] = "add a translucent slider over the photo"
+    assert any("prompt names UI (slider)" in p for p in board.check(doc))
+    # claim it as a hybrid item on a generate/edit node with a reason: clean
+    doc["steps"][1]["chrome_item"] = "mask"
+    doc["steps"][1]["reason"] = "the brushed selection region is organic, not templatable"
+    assert board.check(doc) == []
+    # chrome_item without a reason, or on a non-image/edit node, both fail
+    doc["steps"][1].pop("reason")
+    assert any("without a reason" in p for p in board.check(doc))
+    doc2 = board_of("full-bleed", ["image", "image", "enhance"])
+    doc2["steps"][2]["chrome_item"] = "mark"
+    doc2["steps"][2]["reason"] = "applied on packaging"
+    assert any("chrome_item 'mark' on a enhance node" in p for p in board.check(doc2))
+
+
 def test_legacy_record_is_inferred():
     doc = blank_board()
     for s in doc["steps"]:

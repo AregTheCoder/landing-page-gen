@@ -10,8 +10,10 @@ credits.spent off the ledger, a final file that is not on disk, a compose
 spec whose `variant:` contradicts the brief's `> device:` line, a Flow board
 that does not wire (`lp-flow check`), a final clip off the brief's target
 duration, a clip URL that never passed through `picsart_job_status` (so the
-ledger cannot own it), and extra video renders beyond the board's nodes (the
-orphaned finals that cost live-5 ~190 credits)."""
+ledger cannot own it), extra video renders beyond the board's nodes (the
+orphaned finals that cost live-5 ~190 credits), and a hybrid `rendered_by:
+model` plan item that no node claims (or a node that claims one the plan does
+not mark)."""
 import json
 import re
 import sys
@@ -142,6 +144,7 @@ def check(run, sid):
         problems.append("flow.md missing (uv run lp-flow sheet workflow.yaml)")
     problems += device_problems(folder)
     problems += composition_problems(folder)
+    problems += hybrid_problems(folder)
     return problems
 
 
@@ -211,6 +214,44 @@ def composition_problems(folder):
             out.append(f"{spec_path.name}: family {spec.get('family')!r} != plan {cp.get('family')!r}")
         if (spec.get("preset") or spec.get("variant")) != cp.get("preset"):
             out.append(f"{spec_path.name}: preset {spec.get('preset') or spec.get('variant')!r} != plan {cp.get('preset')!r}")
+    return out
+
+
+def hybrid_problems(folder):
+    """Pair a plan's `rendered_by: model` items with the workflow nodes that
+    render them (the hybrid gate): each hybrid item needs exactly one node
+    carrying its `chrome_item:`, each such node must name a hybrid item that the
+    plan marks model-rendered, and the node's prompt must mention that item (by
+    id or kind). board.check already enforces the node shape; this is the
+    cross-file half, which needs the composition plan."""
+    out = []
+    wf_path = folder / "workflow.yaml"
+    if not wf_path.exists():
+        return out
+    for d in (x for x in yaml.safe_load_all(wf_path.read_text()) if x):
+        slot = d.get("slot", "?")
+        plan_path = folder / f"composition-{slot}.yaml"
+        cp = (yaml.safe_load(plan_path.read_text()) or {}) if plan_path.exists() else {}
+        model_items = {it["id"]: it for it in (cp.get("items") or []) if it.get("rendered_by") == "model" and it.get("id")}
+        claimed = {}
+        for st in d.get("steps") or []:
+            item = st.get("chrome_item")
+            if not item:
+                continue
+            claimed[item] = claimed.get(item, 0) + 1
+            if item not in model_items:
+                out.append(f"{slot} step {st.get('id')}: chrome_item {item!r} is not a rendered_by: model item in composition-{slot}.yaml")
+                continue
+            prompt = ((st.get("params") or {}).get("prompt") or "").lower()
+            kind = (model_items[item].get("kind") or "").lower()
+            if item.lower() not in prompt and (not kind or kind not in prompt):
+                out.append(f"{slot} step {st.get('id')}: prompt does not mention the hybrid item {item!r} ({kind or 'no kind'}) it renders")
+        for iid in model_items:
+            n = claimed.get(iid, 0)
+            if n == 0:
+                out.append(f"{slot}: hybrid item {iid!r} (rendered_by: model) has no node with chrome_item: {iid}")
+            elif n > 1:
+                out.append(f"{slot}: hybrid item {iid!r} is claimed by {n} nodes; exactly one node renders it")
     return out
 
 

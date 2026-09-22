@@ -47,6 +47,35 @@ def test_to_spec_carries_the_plan_verbatim_plus_images():
     assert spec["chrome"] == [{"id": "list", "active_text": "Seedance 2.5"}] and spec["omit"] == ["tile-3"]
 
 
+def test_validate_hybrid_rule():
+    base = {"family": "template-mockup"}
+    # a well-formed hybrid item: a MODEL_KIND, rendered_by model, with a reason, no text
+    ok = {**base, "items": [{"id": "mark", "kind": "applied-mockup", "rendered_by": "model",
+                             "reason": "the page mark on the tote is bespoke"}]}
+    assert plan.validate(ok) == []
+    # rendered_by: model on a compose-able kind is refused
+    on_compose = {**base, "items": [{"id": "t", "kind": "tile", "rendered_by": "model", "reason": "x"}]}
+    assert any("cannot be rendered_by: model" in p for p in plan.validate(on_compose))
+    # a MODEL_KIND left as compose is refused (it must be model-rendered)
+    as_compose = {**base, "items": [{"id": "m", "kind": "brush-mask"}]}
+    assert any("hybrid-only" in p for p in plan.validate(as_compose))
+    # a model item needs a reason and carries no text
+    no_reason = {**base, "items": [{"id": "m", "kind": "face-box", "rendered_by": "model"}]}
+    assert any("needs a reason" in p for p in plan.validate(no_reason))
+    with_text = {**base, "items": [{"id": "m", "kind": "brush-mask", "rendered_by": "model",
+                                    "reason": "organic", "text": "erase"}]}
+    assert any("carries no text" in p for p in plan.validate(with_text))
+
+
+def test_to_spec_drops_model_rendered_items():
+    p = {"slot": "S05-m1", "family": "template-mockup", "size": "720x720",
+         "items": [{"id": "card", "kind": "card"},
+                   {"id": "mark", "kind": "applied-mockup", "rendered_by": "model", "reason": "bespoke mark"}]}
+    spec = plan.to_spec(p, {"photo": "steps/p.png"})
+    # the composed chrome keeps the card; the model item is painted by the worker's node, not compose
+    assert spec["chrome"] == [{"id": "card", "kind": "card"}]
+
+
 def test_keepclear_cli(capsys):
     assert cli.main(["--keepclear", "panel-overlay"]) == 0
     assert "panel" in capsys.readouterr().out
