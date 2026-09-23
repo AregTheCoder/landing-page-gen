@@ -288,7 +288,7 @@ def headline_and_body(block):
     return " ".join(texts[:2]).strip()[:300]
 
 
-def assemble(run, sxx, pool=0, seed=None, widen=0):
+def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
     run = Path(run)
     skeleton = (run / "skeleton.md").read_text()
     fm, _ = read_frontmatter(skeleton)
@@ -363,11 +363,20 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
             if chrome.startswith("TODO") and slots:
                 raise SystemExit(f"brief.py: {sxx} has no resolved `> chrome:` line yet; {family} "
                                  f"{cp.get('preset') or 'default'} draws: {', '.join(n for n, _ in slots)}")
+            fname = f"composition-{s['id']}.yaml"
+            path = run / "sections" / sxx / fname
+            kept = None if replan or not path.exists() else (yaml.safe_load(path.read_text()) or {})
+            if kept is not None:
+                source = ("family", "size", "derived_from")
+                if {k: kept.get(k) for k in source} != {k: cp.get(k) for k in source}:
+                    raise SystemExit(f"brief.py: {sxx}: {fname} was built from other skeleton lines or another slot "
+                                     "size; re-run with --replan to rebuild it (hand edits to it are dropped)")
+                cp = kept  # the manager's hand edits (a moved select.rect, a checker tone, panel state) survive
             probs = plan.validate(cp)
             if probs:
                 raise SystemExit(f"brief.py: {sxx} composition plan for {s['id']}: {'; '.join(probs)}")
-            fname = f"composition-{s['id']}.yaml"
-            plan.write_plan(run / "sections" / sxx / fname, cp)
+            if kept is None:
+                plan.write_plan(path, cp)
             names.append(fname)
         parts.append(f"A composition plan is written per slot ({', '.join(names)}). Generate the panels above, "
                      f"then `uv run lp-compose --spec-from-plan <plan> --image <panel>=<path> ... --out compose-<slot>.yaml` "
@@ -420,9 +429,11 @@ def main(argv=None):
     p.add_argument("--pool", type=int, default=0)
     p.add_argument("--seed")
     p.add_argument("--widen", type=int, default=0)
+    p.add_argument("--replan", action="store_true",
+                   help="rebuild the section's composition plans even when they exist (drops hand edits)")
     a = p.parse_args(argv)
 
-    text = assemble(a.run, a.section, pool=a.pool, seed=a.seed, widen=a.widen)
+    text = assemble(a.run, a.section, pool=a.pool, seed=a.seed, widen=a.widen, replan=a.replan)
     dest = Path(a.run) / "sections" / a.section / "brief.md"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(text)

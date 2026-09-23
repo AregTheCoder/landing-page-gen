@@ -146,8 +146,9 @@ page's families are covered.
    off the end keeps the layout's own (Before, After, VS, Generate), and `none`
    keeps them all. `brief.py` writes the strings into every composition plan
    it builds, and refuses a TODO on a layout that draws page strings and a
-   string on both lines. Never hand-edit a label in `composition-<slot>.yaml`:
-   the next `brief.py` run rewrites the plan. List the strings under "Manager
+   string on both lines. To change a string, edit the `> chrome:` line and
+   re-run `brief.py --replan`; never a label in `composition-<slot>.yaml`,
+   which must match the line it was built from. List the strings under "Manager
    decisions".
 
 ## 2. Write one brief per section
@@ -159,7 +160,7 @@ example excerpts or the references yourself:
 
 ```
 uv run python .claude/skills/build-landing-page/brief.py <run> <Sxx> \
-    [--pool N --seed <run>] [--widen N]
+    [--pool N --seed <run>] [--widen N] [--replan]
 ```
 
 `brief.py` fills `brief-template.md` from the skeleton and the corpus: the
@@ -172,7 +173,11 @@ drift from `lp-flow check`), `lp-flow templates`, `similar -k 2` with the
 page's own asset ids excluded (from `slots.json`, so no `exclude_ids.txt`),
 the references genre and terms, `shared-context.md`, the budget and the output
 contract. It runs `blindcheck.py` for that section and refuses to write on a
-hit — fix the hit (exclude the id, or delete the example) and re-run. It also
+hit — fix the hit (exclude the id, or delete the example) and re-run. A
+slot's composition plan is written once: a re-run keeps it, with your hand
+edits (a moved `select.rect`, a checker tone, panel state), and refuses one
+whose skeleton lines or slot size changed since it was built; `--replan`
+rebuilds it, dropping those edits. It also
 refuses a composition plan `lp-compose` could not render, such as a slot size
 no layout of the family fits: set `> device:` to the layout the message says
 fits (`none` for the default), or restyle the slot, then re-run.

@@ -427,6 +427,12 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   found 5 of 8 tiles sans-only (the tile echoes the card's own fonts) and 4
   midpoint handles on every frame. That reversed the font decision: two
   Manrope weights, no bundled serif. (2026-09-23, layered overhaul)
+- `brief.py` writes a slot's composition plan once. A re-run keeps it, hand
+  edits included (a moved `select.rect`, a checker tone, a panel's chips),
+  and refuses a plan whose family, slot size or skeleton lines changed since
+  it was built; `--replan` rebuilds it. It used to rewrite every plan, so
+  any edit the skeleton cannot carry was lost on the next run.
+  (2026-09-23, layered overhaul)
 - **The hybrid exception.** "Chrome is drawn by lp-compose, never a model" is
   relaxed only for a `kinds.MODEL_KINDS` item (brush-mask, applied-mockup,
   face-box — organic or bespoke, undrawable by compose): the manager marks the

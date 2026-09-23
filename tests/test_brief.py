@@ -248,6 +248,26 @@ def test_brief_refuses_an_unresolved_or_doubled_chrome_line(tmp_path, brief, lin
         brief.main([str(run), "S04"])
 
 
+def test_a_hand_edited_plan_survives_a_re_run_and_a_changed_line_needs_replan(tmp_path, brief):
+    import yaml as _yaml
+    run = build_run(tmp_path)
+    (run / "skeleton.md").write_text(_with_chrome('"Curves"'))
+    assert brief.main([str(run), "S04"]) == 0
+    path = run / "sections" / "S04" / "composition-S04-m1.yaml"
+    cp = _yaml.safe_load(path.read_text())
+    next(it for it in cp["items"] if it["id"] == "panel")["chips"] = 0  # the manager drops the hue chips for Curves
+    path.write_text(_yaml.safe_dump(cp, sort_keys=False))
+    assert brief.main([str(run), "S04"]) == 0
+    panel = next(it for it in _yaml.safe_load(path.read_text())["items"] if it["id"] == "panel")
+    assert panel["chips"] == 0, "a re-run keeps the hand-edited plan (it used to rewrite it)"
+    (run / "skeleton.md").write_text(_with_chrome('"Levels"'))
+    with pytest.raises(SystemExit, match="--replan"):
+        brief.main([str(run), "S04"])
+    assert brief.main([str(run), "S04", "--replan"]) == 0
+    panel = next(it for it in _yaml.safe_load(path.read_text())["items"] if it["id"] == "panel")
+    assert panel["title"] == "Levels" and panel["chips"] == 8, "--replan rebuilds from the new line"
+
+
 def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
     # before-after's default is the wide 21:10 card; a 1:1 slot with no device
     # is briefed (panels table, slot count, composition plan) as stacked-square
