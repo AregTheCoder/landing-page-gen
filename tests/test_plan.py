@@ -54,6 +54,19 @@ def test_validate_catches_bad_family_preset_and_kind():
     assert any("repeated" in p for p in dup)
 
 
+def test_validate_refuses_a_size_no_layout_fits(tmp_path):
+    # a 342x282 before-after slot fits neither the 21:10 card nor the 1:1 stack: the plan
+    # used to pass, the worker paid for the panels, and lp-compose exited at render
+    p = plan.build("before-after", "342x282", slot="S07-m1")
+    assert any("342x282" in e and "no before-after layout fits it" in e for e in plan.validate(p))
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {})))
+    with pytest.raises(SystemExit, match="342x282"):
+        cli.load_spec(tmp_path / "s.yaml")
+    # a preset named for the wrong shape says which layout does fit
+    wrong = plan.build("before-after", "720x343", preset="stacked-square", slot="S07-m1")
+    assert any("the default fits it" in e for e in plan.validate(wrong))
+
+
 def test_to_spec_carries_the_plan_verbatim_plus_images():
     p = {"slot": "S07-m1", "family": "dark-composite", "preset": "model-picker", "size": "720x720",
          "items": [{"id": "list", "active_text": "Seedance 2.5"}], "omit": ["tile-3"]}

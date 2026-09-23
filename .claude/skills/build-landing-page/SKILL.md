@@ -150,7 +150,10 @@ drift from `lp-flow check`), `lp-flow templates`, `similar -k 2` with the
 page's own asset ids excluded (from `slots.json`, so no `exclude_ids.txt`),
 the references genre and terms, `shared-context.md`, the budget and the output
 contract. It runs `blindcheck.py` for that section and refuses to write on a
-hit — fix the hit (exclude the id, or delete the example) and re-run.
+hit — fix the hit (exclude the id, or delete the example) and re-run. It also
+refuses a composition plan `lp-compose` could not render, such as a slot size
+no layout of the family fits: set `> device:` to the layout the message says
+fits (`none` for the default), or restyle the slot, then re-run.
 
 Pass `--pool 2 --seed <run>` when the family has kept pool entries
 (`corpus/pool/<family>.yaml`); pass `--widen 2` (after `uv run lp-corpus widen

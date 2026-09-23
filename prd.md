@@ -442,7 +442,12 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   never a size the worker writes into its spec. A variant that is not selected
   by size (crop-grid, palette-card, selection-frame) is reachable only through
   `> device:`, so it must be named in the skeleton's device list and in
-  SKILL.md step 7's cue words. (2026-09-22, layered overhaul)
+  SKILL.md step 7's cue words. (2026-09-22, layered overhaul) A size that no
+  layout of the family fits fails `plan.validate`, so `brief.py` stops before
+  a worker is spawned; the plan used to pass and `lp-compose` refused the size
+  only after the panels were paid for. Real case: the 879x418 prompt-card slot
+  of recraft-v4-styles-pro-vector (S08-m1), which the 1:1 prompt-card cannot
+  draw. (2026-09-23, layered overhaul)
 - Composition labelling: validate a sample of answers with the loader ingest
   uses before scaling a campaign — YAML 1.1 reads a bare `on:` key as `true`,
   which dropped every toggle-state cell until `_check_items` recovered it.

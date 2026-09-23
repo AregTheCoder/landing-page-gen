@@ -136,6 +136,17 @@ def validate(plan):
     preset = plan.get("preset")
     if preset and preset not in (families.FAMILIES[fam].get("variants") or {}):
         problems.append(f"{fam} has no preset {preset!r}")
+    elif plan.get("size"):
+        # the aspect check lp-compose makes at render, made before the panels are paid for
+        size = plan["size"]
+        w, h = cli.parse_size(size) if isinstance(size, str) else size
+        tmpl = cli.template(fam, preset)
+        if not cli.fits(tmpl, w, h):
+            aspects = " or ".join(f"{a}:{b}" for a, b in tmpl.get("aspects") or (tmpl["aspect"],))
+            fitting = [v or "the default" for v in (None, *(families.FAMILIES[fam].get("variants") or {}))
+                       if cli.fits(cli.template(fam, v), w, h)]
+            problems.append(f"size {w}x{h} is not {aspects} like {fam}" + (f" preset {preset!r}" if preset else "")
+                            + (f": {' or '.join(fitting)} fits it" if fitting else f": no {fam} layout fits it"))
     if not cli.ground_renderable(plan.get("ground")):
         problems.append(f"ground {plan['ground']!r} cannot be drawn: use black, white, light, transparent, "
                         f"tilted or a mapping such as {{fill: [r, g, b]}}")
