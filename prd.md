@@ -422,3 +422,31 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   files, and the reviewer scores it under `composition` (painted, organic,
   matching its reason, no text) and `clean`. A model item never carries a
   string — text is still never model-invented. (2026-09-22, layered overhaul)
+- A keep-clear region is chrome drawn ABOVE a panel that would hide its
+  subject. Chrome under the panel (a template card) and chrome that frames the
+  subject (brackets, the crop grid, a selection box) are not keep-clear — the
+  subject belongs inside them (`compose.plan.hides_subject`). Counting every
+  overlap told workers to keep the subject out of the regions meant to frame
+  it, and on the template-mockup default out of the whole photo panel.
+  (2026-09-22, layered overhaul)
+- A style ground is drawn only when it names a colour `lp-compose` can draw
+  (black, white, light). `colour`, `mixed`, `gradient` and `checker` name no
+  colour: the plan keeps them as `ground_variant` and draws the family ground,
+  and a manager who knows the colour sets `ground: {fill: [r, g, b]}`. Passing
+  the word through made `lp-compose` exit after the panels had been paid for.
+  (2026-09-22, layered overhaul)
+- A compose preset follows each slot's own size: when the default's aspect
+  does not fit, the variant whose aspect does is used (before-after: the wide
+  21:10 card is the default, `stacked-square` serves 1:1). The brief's tables,
+  the slot's composition plan and precheck all read the slot's real size —
+  never a size the worker writes into its spec. A variant that is not selected
+  by size (crop-grid, palette-card, selection-frame) is reachable only through
+  `> device:`, so it must be named in the skeleton's device list and in
+  SKILL.md step 7's cue words. (2026-09-22, layered overhaul)
+- Composition labelling: validate a sample of answers with the loader ingest
+  uses before scaling a campaign — YAML 1.1 reads a bare `on:` key as `true`,
+  which dropped every toggle-state cell until `_check_items` recovered it.
+  Labelling agents write any crops to their own work directory (generic names
+  in the shared sheet folder raced across 16 agents). The adversarial verify
+  pass is worth its cost: it corrected 188 of the 1,467 labelled cells.
+  (2026-09-23, layered overhaul)
