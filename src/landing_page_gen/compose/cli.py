@@ -17,7 +17,7 @@ import yaml
 from PIL import Image
 
 from . import draw, kinds, layout
-from .families import FAMILIES, LABELS, REF, aspect_label, nearest_ratio
+from .families import FAMILIES, LABELS, PRESET_BY_SECTION, REF, aspect_label, nearest_ratio
 from .kinds import CHECKER_CELL, FONT_PX  # noqa: F401  (single source; re-exported for back-compat)
 
 SS = 2  # supersample: Pillow draws shapes without antialiasing
@@ -52,13 +52,18 @@ def fits(tmpl, w, h):
     return any(abs((w / h) / (fw / fh) - 1) <= 0.02 for fw, fh in tmpl.get("aspects") or (tmpl["aspect"],))
 
 
-def preset_for_size(fam, size, preset=None):
+def preset_for_size(fam, size, preset=None, section=None):
     """The preset to render `fam` at a slot `size` (WxH): the one asked for,
-    else the default (None) when its aspect fits, else the first variant whose
-    aspect does — a 1:1 before-after slot gets `stacked-square`. The brief's
+    else the one its section type selects (the panel-overlay hero), else the
+    default (None) when its aspect fits, else the first variant whose aspect
+    does — a 1:1 before-after slot gets `stacked-square`. The brief's
     `> device:` picks a preset; this only fills in when the device does not."""
-    if preset or not size or fam not in FAMILIES:
+    if preset or fam not in FAMILIES:
         return preset
+    if (PRESET_BY_SECTION.get(fam) or {}).get(section):
+        return PRESET_BY_SECTION[fam][section]
+    if not size:
+        return None
     w, h = parse_size(size) if isinstance(size, str) else size
     if fits(FAMILIES[fam], w, h):
         return None

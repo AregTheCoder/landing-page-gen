@@ -116,7 +116,7 @@ def apply_labels(items, family, preset, labels):
                 it[field] = labels[i]
 
 
-def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None, labels=None):
+def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None, labels=None, section=None):
     """Assemble a composition plan: the panels (ratios + keep-clear) the worker
     generates and the chrome items the preset draws, carrying the manager's
     `labels` (the skeleton's `> chrome:` strings), tagged with what it was
@@ -125,7 +125,7 @@ def build(family, size, *, preset=None, ground=None, slot=None, derived_from=Non
     # the panel ratios and keep-clear fractions do not depend on the render
     # size, so use the family's own frame; `size` is recorded for the compose step
     # and, when no preset is asked for, picks the variant whose aspect it has
-    preset = cli.preset_for_size(family, size, preset)
+    preset = cli.preset_for_size(family, size, preset, section)
     plan = {"slot": slot, "family": family, "size": size,
             "panels": contract(family, preset),
             "items": [dict(it) for it in cli.template(family, preset)["chrome"]]}

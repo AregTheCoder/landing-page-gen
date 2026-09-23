@@ -232,7 +232,7 @@ def test_chrome_line_labels_every_plan(tmp_path, brief):
     assert brief.main([str(run), "S04"]) == 0
     cp = _yaml.safe_load((run / "sections" / "S04" / "composition-S04-m1.yaml").read_text())
     items = {it["id"]: it for it in cp["items"]}
-    assert items["panel"]["title"] == items["tool-pill"]["text"] == "Curves"
+    assert items["panel"]["title"] == "Curves" and "tool-pill" not in items, "a callout is a card: the panel alone"
     assert [s[0] for s in items["panel"]["sliders"]] == ["Shadows", "Midtones", "Highlights"]
     assert cp["derived_from"]["chrome"].startswith('"Curves"'), "the skeleton line is recorded, so a stale plan shows"
 

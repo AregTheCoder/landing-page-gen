@@ -39,14 +39,15 @@ from landing_page_gen.compose.families import FAMILIES, LABELS  # noqa: E402
 from landing_page_gen.corpus.db import GENERATED_ROLES  # noqa: E402
 
 
-def _preset(family, device, size=None):
-    """The compose preset a device selects for this family, else the variant
-    whose aspect the slot size has when the default's does not, or None."""
+def _preset(family, device, size=None, section=None):
+    """The compose preset a device selects for this family, else the one the
+    section type selects, else the variant whose aspect the slot size has when
+    the default's does not, or None."""
     preset = device if device in (FAMILIES.get(family, {}).get("variants") or {}) else None
-    return compose_cli.preset_for_size(family, size, preset)
+    return compose_cli.preset_for_size(family, size, preset, section)
 
 
-def composition_section(family, device, size=None, sizes=None):
+def composition_section(family, device, size=None, sizes=None, section=None):
     """For a composable family, the panels the worker generates (with the ratio
     and fit) and the keep-clear region each carries — so it stops guessing.
     `sizes` is [(slot id, size)] for the section: slots whose sizes select
@@ -56,7 +57,7 @@ def composition_section(family, device, size=None, sizes=None):
         return ""
     groups = {}  # preset -> the slot ids it serves, in section order
     for sid, sz in (sizes or [(None, size)]):
-        groups.setdefault(_preset(family, device, sz), []).append(sid)
+        groups.setdefault(_preset(family, device, sz, section), []).append(sid)
     rows = ["## Panels and keep-clear", "",
             "Generate one panel per row at the ratio given; keep the subject out of any keep-clear "
             "region (an overlay sits there). The chrome is composited by lp-compose, never by a model.", ""]
@@ -205,7 +206,7 @@ def slots_table(records, section_type, family, device):
         elif not composed(s):
             panels = "kept from source"
         else:
-            n = len(plan.contract(fam, _preset(fam, device, s.get("size"))))
+            n = len(plan.contract(fam, _preset(fam, device, s.get("size"), section_type)))
             panels = f"{n} panel{'s' if n != 1 else ''} (see below)"
         cls = slot_class(section_type, s)
         rows.append(f"| {s['id']} | {s.get('kind')} | {s.get('role')} | {s.get('size')} | "
@@ -355,7 +356,8 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
     parts.append("## Slots to produce\n")
     parts.append(slots_table(records, section_type, family + (f"/{ground}" if ground != "default" else ""), device) + "\n")
     to_compose = [s for s in records if composed(s)]
-    composition = composition_section(family, device, sizes=[(s["id"], s.get("size")) for s in to_compose]) if to_compose else ""
+    composition = composition_section(family, device, sizes=[(s["id"], s.get("size")) for s in to_compose],
+                                      section=section_type) if to_compose else ""
     if composition:
         parts.append(composition)
         # write one composition-<slot>.yaml per composable slot: the machine
@@ -371,7 +373,7 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
         (run / "sections" / sxx).mkdir(parents=True, exist_ok=True)
         names = []
         for s in to_compose:
-            cp = plan.build(family, s.get("size"), preset=preset, labels=labels or None,
+            cp = plan.build(family, s.get("size"), preset=preset, labels=labels or None, section=section_type,
                             ground=(ground if ground != "default" else None), slot=s["id"], derived_from=derived)
             slots = LABELS.get((family, cp.get("preset")))
             if chrome.startswith("TODO") and slots:

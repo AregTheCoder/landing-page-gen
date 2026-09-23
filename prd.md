@@ -427,6 +427,12 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   found 5 of 8 tiles sans-only (the tile echoes the card's own fonts) and 4
   midpoint handles on every frame. That reversed the font decision: two
   Manrope weights, no bundled serif. (2026-09-23, layered overhaul)
+- No panel-overlay slot draws both the adjust panel and the tool pill: they
+  overlap, and no corpus slot shows both. Cards are the template's default;
+  a hero section gets `variant: hero` (the pill alone) from its section type
+  (`families.PRESET_BY_SECTION`), the one preset chosen neither by `> device:`
+  nor by size. The template used to draw both, and every plan-built card
+  inherited the overlap. (2026-09-23, layered overhaul)
 - `brief.py` writes a slot's composition plan once. A re-run keeps it, hand
   edits included (a moved `select.rect`, a checker tone, a panel's chips),
   and refuses a plan whose family, slot size or skeleton lines changed since

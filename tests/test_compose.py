@@ -173,7 +173,7 @@ def test_panel_overlay_fills_the_slot_at_two_aspects_and_tilts(tmp_path):
     assert sum(max(p) < 60 for p in px) > len(px) * 0.5, "dark panel"
     assert any(p[0] > 200 and p[1] < 120 for p in px), "a hue chip or the knob shows"
     assert im.getpixel((1, 1))[3] == 0, "transparent ground keeps the rounded corners"
-    hero = write_spec(tmp_path, "panel-overlay", size="550x440", omit=["panel"])
+    hero = write_spec(tmp_path, "panel-overlay", size="550x440", variant="hero")
     im, drawn = cli.compose(cli.resolve(cli.load_spec(hero)))
     assert im.size == (550, 440) and set(drawn) == {"tool-pill"}
     x0, y0, x1, y1 = (int(v) for v in drawn["tool-pill"])

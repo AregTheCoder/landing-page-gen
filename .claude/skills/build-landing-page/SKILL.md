@@ -134,8 +134,8 @@ page's families are covered.
 8. A `> chrome:` still reading TODO is decided after step 7, for a slot whose
    family `lp-compose` draws. `uv run lp-compose --describe <family>` lists,
    under each layout, the page strings it draws in order: the model-picker's
-   active row; the adjust panel's tool name (the tool pill repeats it) and
-   three sliders; the crop frame's label (x2, a size) or the crop-grid ratio;
+   active row; the adjust panel's tool name and three sliders (a hero's tool
+   pill takes the tool name alone); the crop frame's label (x2, a size) or the crop-grid ratio;
    the resolution chip; a prompt and its button; the palette's colours. Take
    each from this section's copy and nothing else
    (the tool's short name, the page's own model short name, a ratio or format

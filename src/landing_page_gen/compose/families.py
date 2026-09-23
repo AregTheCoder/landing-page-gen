@@ -289,11 +289,11 @@ FAMILIES = {
         },
     },
     # A photo filling the slot with the tool's dark adjustment panel laid over
-    # its lower right (hsl-color S03) and, on heroes, a round tool badge with a
-    # label pill top right (hsl-color S01). Panel rect `None` means the whole
-    # canvas at whichever of `aspects` the spec's size has; the spec omits
-    # `tool-pill` on cards and `panel` on the hero, and `ground: tilted` stacks
-    # the card over a plain one on the page's white (S03-m2, S03-m4).
+    # its lower right (hsl-color S03); the hero is `variant: hero`, a round tool
+    # badge with a label pill top right instead (hsl-color S01). No slot draws
+    # both: they overlap. Panel rect `None` means the whole canvas at whichever
+    # of `aspects` the spec's size has; `ground: tilted` stacks the card over a
+    # plain one on the page's white (S03-m2, S03-m4).
     "panel-overlay": {
         "aspect": (4, 3),
         "aspects": ((4, 3), (5, 4)),
@@ -305,8 +305,14 @@ FAMILIES = {
         "chrome": [
             {"id": "panel", "kind": "adjust-panel", "rect": (680, 300, 1490, 900), "title": "HSL", "chips": 8, "active": 1,
              "sliders": [["Hue", 28], ["Saturation", -26], ["Lightness", 30]]},
-            {"id": "tool-pill", "kind": "tool-pill", "rect": (1080, 120, 1520, 620), "text": "HSL", "icon": "wheel"},
         ],
+        "variants": {
+            "hero": {  # chosen by the section type (PRESET_BY_SECTION), never by `> device:`
+                "chrome": [
+                    {"id": "tool-pill", "kind": "tool-pill", "rect": (1080, 120, 1520, 620), "text": "HSL", "icon": "wheel"},
+                ],
+            },
+        },
     },
     # "type a prompt, get this": a dark prompt column with a Generate button on
     # the left, the result photo on the right (22f9b181 ai-models--kling-v2-1,
@@ -355,6 +361,11 @@ FAMILIES = {
     },
 }
 
+# The preset a section type selects when `> device:` names none: the
+# panel-overlay hero carries the tool pill, never the adjust panel (runs/layered-1:
+# the hero omitted the panel by hand, its 9 cards the pill).
+PRESET_BY_SECTION = {"panel-overlay": {"hero": "hero"}}
+
 _BEFORE_AFTER = [("before label", ("before-pill.text",)), ("after label", ("after-pill.text",))]
 
 # The strings a preset draws that the page decides, in the skeleton's `> chrome:`
@@ -370,8 +381,9 @@ LABELS = {
     ("cutout-checkerboard", "selection-frame"): [("button", ("button.text",))],
     ("dark-composite", "reference-thumbs"): [("chip", ("chip.text",))],
     ("dark-composite", "model-picker"): [("active row", ("list.active_text",))],
-    ("panel-overlay", None): [("tool name", ("panel.title", "tool-pill.text")), ("slider 1", ("panel.sliders.0",)),
+    ("panel-overlay", None): [("tool name", ("panel.title",)), ("slider 1", ("panel.sliders.0",)),
                               ("slider 2", ("panel.sliders.1",)), ("slider 3", ("panel.sliders.2",))],
+    ("panel-overlay", "hero"): [("tool name", ("tool-pill.text",))],
     ("prompt-card", None): [("prompt", ("prompt-text.text",)), ("button", ("generate.text",))],
     ("template-mockup", "palette-card"): [("colours (hex, any number)", ("swatch.colours",))],
     ("template-mockup", "editor"): [("colours (hex, any number)", ("swatch.colours",))],

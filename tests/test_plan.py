@@ -73,7 +73,7 @@ def test_labels_fill_the_preset_slots_in_order_and_never_touch_the_template(tmp_
     before = copy.deepcopy(families.FAMILIES)
     p = plan.build("panel-overlay", "480x360", labels=["Curves", "Shadows", "Midtones", "Highlights"])
     items = {it["id"]: it for it in p["items"]}
-    assert items["panel"]["title"] == items["tool-pill"]["text"] == "Curves", "the tool pill repeats the tool name"
+    assert items["panel"]["title"] == "Curves" and "tool-pill" not in items, "a card has no tool pill to overlap"
     assert [s[0] for s in items["panel"]["sliders"]] == ["Shadows", "Midtones", "Highlights"]
     assert p["labels"] == ["Curves", "Shadows", "Midtones", "Highlights"] and plan.validate(p) == []
     short = {it["id"]: it for it in plan.build("panel-overlay", "480x360", labels=["Curves"])["items"]}
@@ -86,7 +86,7 @@ def test_labels_fill_the_preset_slots_in_order_and_never_touch_the_template(tmp_
     Image.new("RGB", (400, 300), "red").save(tmp_path / "p.png")
     (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "p.png"})))
     _, drawn = cli.compose(cli.resolve(cli.load_spec(tmp_path / "s.yaml")))
-    assert {"panel", "tool-pill"} <= set(drawn)
+    assert set(drawn) == {"panel"}
 
 
 def test_validate_refuses_labels_the_layout_cannot_draw():
@@ -105,6 +105,19 @@ def test_every_text_field_a_preset_draws_is_a_label_slot():
                 drawn |= {f"{it['id']}.{k}" for k in ("text", "label", "title", "active_text", "colours") if k in it}
                 drawn |= {f"{it['id']}.sliders.{i}" for i in range(len(it.get("sliders") or []))}
             assert drawn == {t for _, ts in families.LABELS.get((fam, preset), []) for t in ts}, (fam, preset)
+
+
+def test_panel_overlay_cards_draw_the_panel_and_the_hero_the_pill_never_both():
+    # the template used to draw both, and the pill covered the panel's first slider row;
+    # no corpus slot shows both: the hero carries the pill, the cards the panel
+    card = plan.build("panel-overlay", "541x406", slot="S03-m1", section="use-case-grid")
+    hero = plan.build("panel-overlay", "800x600", slot="S01-m1", section="hero", labels=["Curves"])
+    assert "preset" not in card and [it["id"] for it in card["items"]] == ["panel"]
+    assert hero["preset"] == "hero" and [(it["id"], it["text"]) for it in hero["items"]] == [("tool-pill", "Curves")]
+    assert {r["item"] for r in card["panels"][0]["keep_clear"]} == {"panel"}, "keep-clear follows what is drawn"
+    assert {r["item"] for r in hero["panels"][0]["keep_clear"]} == {"tool-pill"}
+    assert plan.build("dark-composite", "480x480", preset="model-picker", section="hero")["preset"] == "model-picker", \
+        "the device still wins over the section"
 
 
 def test_to_spec_carries_the_plan_verbatim_plus_images():
