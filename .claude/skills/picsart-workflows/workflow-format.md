@@ -31,6 +31,7 @@ steps:                            # the nodes, in wiring order
       aspectRatio: "16:9"
       resolution: 2K
       count: 1
+      saveToDrive: false          # always: Drive auto-save 403s as a fake policy block
       imageUrls: ["https://.../hero.png"]
     quoted_credits: 5
     gate: "product centred, \"50% OFF\" spelt exactly and no other text, palette matches hero"

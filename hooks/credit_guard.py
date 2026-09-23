@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """PreToolUse hook on paid Picsart tools. Denies, with a reason the agent
 sees, when: the call is on the wrong connector; the active run is a dry run;
-no preflight quote exists for the model; or the run credit cap would be
-exceeded. With no active run (`runs/current` absent) it allows everything."""
+no preflight quote exists for the model; the run credit cap would be
+exceeded; or a generate leaves Drive auto-save on. With no active run (`runs/current` absent) it allows everything."""
 
 import json
 import sys
@@ -51,6 +51,11 @@ def main():
     if cap is not None and used + quote > cap:
         deny(f"Run budget exceeded: {used} spent + {quote} quoted > {cap} cap. "
              f"Stop and report to the manager.")
+    if short == "picsart_generate" and data.get("tool_input", {}).get("saveToDrive") is not False:
+        deny("Pass saveToDrive: false on picsart_generate. The Drive auto-save fails on this account and "
+             "Picsart reports it as HTTP 403 'content may violate usage policies', whatever the prompt "
+             "(runs/composition-1: the same call passed with false, 403d without). The run keeps every "
+             "URL in ledger.jsonl, so nothing needs Drive.")
 
 
 if __name__ == "__main__":

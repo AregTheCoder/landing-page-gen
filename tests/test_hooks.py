@@ -60,9 +60,20 @@ def test_guard_denies_dry_run(tmp_path):
     assert "Dry run" in decision(out)[1]
 
 
+def test_guard_denies_a_generate_that_saves_to_drive(tmp_path):
+    # Drive auto-save came back as a 403 'content policy' block on any prompt (composition-1)
+    run = make_run(tmp_path, run_credits=300)
+    preflight(run, "gemini-3-pro-image", 5)
+    call = {"tool_name": GEN, "tool_input": {"model": "gemini-3-pro-image", "prompt": "x"}}
+    out = run_hook("credit_guard.py", call, run)
+    assert decision(out)[0] == "deny" and "saveToDrive: false" in decision(out)[1]
+    call["tool_input"]["saveToDrive"] = False
+    assert run_hook("credit_guard.py", call, run) is None
+
+
 def test_guard_requires_preflight_then_enforces_cap(tmp_path):
     run = make_run(tmp_path, run_credits=12)
-    call = {"tool_name": GEN, "tool_input": {"model": "gemini-3-pro-image", "prompt": "x"}}
+    call = {"tool_name": GEN, "tool_input": {"model": "gemini-3-pro-image", "prompt": "x", "saveToDrive": False}}
 
     out = run_hook("credit_guard.py", call, run)
     assert "No preflight quote" in decision(out)[1]
@@ -112,7 +123,7 @@ def test_job_status_row_carries_the_clip_url_and_unlocks_it(tmp_path):
     assert rows[-1]["tool"] == "picsart_job_status" and clip in rows[-1]["urls"]
     assert run_hook("isolation_guard.py", extend, run) is None
     # the credit guard's spend is untouched by the job_status row
-    out = run_hook("credit_guard.py", {"tool_name": GEN, "tool_input": {"model": "seedance-2.5", "prompt": "x"}}, run)
+    out = run_hook("credit_guard.py", {"tool_name": GEN, "tool_input": {"model": "seedance-2.5", "prompt": "x", "saveToDrive": False}}, run)
     assert out is None  # 0 spent + 35 <= 300
 
 

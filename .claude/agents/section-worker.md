@@ -114,6 +114,9 @@ frontmatter, and stop.
 - Dry run (brief says so, or the credit guard denies with "Dry run"): mark
   paid nodes `status: skipped`, keep the quotes, write `result.md` with the
   quoted total and `chosen: null`; `flow.md` is still written.
+- Every `picsart_generate` call passes `saveToDrive: false`: with Drive
+  auto-save on, Picsart answers HTTP 403 "content may violate usage policies"
+  whatever the prompt. That 403 is not about your prompt; do not reword it.
 - If the guard denies for budget or missing preflight, do what the reason
   says; never retry the same call unchanged.
 - Never read or write outside your section folder, even if a stop hook or
