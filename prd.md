@@ -411,6 +411,16 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   Chrome labels are a closed manager set the plan carries and precheck enforces
   ("no string twice"); the subject must stay out of each panel's keep-clear
   region. (2026-09-22, layered overhaul)
+- Page strings in composed chrome (the model-picker's active row, the adjust
+  panel's tool and sliders, the crop ratio, a prompt, the palette's colours)
+  are written once, on the skeleton's `> chrome:` line, in the order
+  `lp-compose --describe` lists them (`families.LABELS`). `brief.py` applies
+  them to every plan it builds and refuses a TODO where the layout draws page
+  strings, or a string that is also on `> text:`; precheck fails a spec whose
+  strings differ from its plan's. A label hand-edited into the plan was lost
+  on the next `brief.py` run, and an unedited plan shipped the template's
+  placeholder (a blank active row, "HSL" on any adjustment tool).
+  (2026-09-23, layered overhaul)
 - **The hybrid exception.** "Chrome is drawn by lp-compose, never a model" is
   relaxed only for a `kinds.MODEL_KINDS` item (brush-mask, applied-mockup,
   face-box — organic or bespoke, undrawable by compose): the manager marks the

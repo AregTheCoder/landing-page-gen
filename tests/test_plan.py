@@ -1,11 +1,13 @@
 """The composition plan: keep-clear regions from a preset, plan validation,
 and the plan -> compose-spec step."""
 
+import copy
+
 import pytest
 import yaml
 from PIL import Image
 
-from landing_page_gen.compose import cli, plan
+from landing_page_gen.compose import cli, families, plan
 
 
 def test_keep_clear_reports_overlay_regions_only():
@@ -65,6 +67,44 @@ def test_validate_refuses_a_size_no_layout_fits(tmp_path):
     # a preset named for the wrong shape says which layout does fit
     wrong = plan.build("before-after", "720x343", preset="stacked-square", slot="S07-m1")
     assert any("the default fits it" in e for e in plan.validate(wrong))
+
+
+def test_labels_fill_the_preset_slots_in_order_and_never_touch_the_template(tmp_path):
+    before = copy.deepcopy(families.FAMILIES)
+    p = plan.build("panel-overlay", "480x360", labels=["Curves", "Shadows", "Midtones", "Highlights"])
+    items = {it["id"]: it for it in p["items"]}
+    assert items["panel"]["title"] == items["tool-pill"]["text"] == "Curves", "the tool pill repeats the tool name"
+    assert [s[0] for s in items["panel"]["sliders"]] == ["Shadows", "Midtones", "Highlights"]
+    assert p["labels"] == ["Curves", "Shadows", "Midtones", "Highlights"] and plan.validate(p) == []
+    short = {it["id"]: it for it in plan.build("panel-overlay", "480x360", labels=["Curves"])["items"]}
+    assert [s[0] for s in short["panel"]["sliders"]] == ["Hue", "Saturation", "Lightness"], "a slot left off keeps the template's"
+    swatch = next(it for it in plan.build("template-mockup", "800x800", preset="palette-card",
+                                          labels=["#e01ee0", "#000000", "white", "#f5d90a"])["items"] if it["id"] == "swatch")
+    assert swatch["colours"] == ["#e01ee0", "#000000", "white", "#f5d90a"], "the colours slot takes every remaining string"
+    assert families.FAMILIES == before, "the family template is never written through"
+    # the labelled plan renders
+    Image.new("RGB", (400, 300), "red").save(tmp_path / "p.png")
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "p.png"})))
+    _, drawn = cli.compose(cli.resolve(cli.load_spec(tmp_path / "s.yaml")))
+    assert {"panel", "tool-pill"} <= set(drawn)
+
+
+def test_validate_refuses_labels_the_layout_cannot_draw():
+    two = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Seedance 2.5", "Kling"])
+    assert any("draws 1 page string(s) (active row)" in e for e in plan.validate(two))
+    assert any("must be none" in e for e in plan.validate(plan.build("dark-composite", "720x720", labels=["4K"])))
+
+
+def test_every_text_field_a_preset_draws_is_a_label_slot():
+    # a text field with no `> chrome:` slot is a placeholder no skeleton line can change
+    # (crop-frame's bracket label was one); a slot naming a field that is gone fills nothing
+    for fam, f in families.FAMILIES.items():
+        for preset in (None, *(f.get("variants") or {})):
+            drawn = set()
+            for it in cli.template(fam, preset)["chrome"]:
+                drawn |= {f"{it['id']}.{k}" for k in ("text", "label", "title", "active_text", "colours") if k in it}
+                drawn |= {f"{it['id']}.sliders.{i}" for i in range(len(it.get("sliders") or []))}
+            assert drawn == {t for _, ts in families.LABELS.get((fam, preset), []) for t in ts}, (fam, preset)
 
 
 def test_to_spec_carries_the_plan_verbatim_plus_images():

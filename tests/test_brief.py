@@ -5,6 +5,7 @@ and a video slot."""
 
 import importlib.util
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -216,6 +217,35 @@ def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
     assert cp["family"] == "panel-overlay" and cp["size"] == "480x360"
     assert cp["derived_from"]["style"] == "panel-overlay"
     assert any(p["panel"] == "photo" and p["keep_clear"] for p in cp["panels"])
+
+
+def _with_chrome(line, text="none"):
+    """The fixture skeleton with S04 (panel-overlay) carrying a `> chrome:` line."""
+    return SKELETON.replace("> text: none\n> device: none: adjustment panel over the photo",
+                            f"> text: {text}\n> device: none: adjustment panel over the photo\n> chrome: {line}")
+
+
+def test_chrome_line_labels_every_plan(tmp_path, brief):
+    import yaml as _yaml
+    run = build_run(tmp_path)
+    (run / "skeleton.md").write_text(_with_chrome('"Curves" | "Shadows" | "Midtones" | "Highlights"'))
+    assert brief.main([str(run), "S04"]) == 0
+    cp = _yaml.safe_load((run / "sections" / "S04" / "composition-S04-m1.yaml").read_text())
+    items = {it["id"]: it for it in cp["items"]}
+    assert items["panel"]["title"] == items["tool-pill"]["text"] == "Curves"
+    assert [s[0] for s in items["panel"]["sliders"]] == ["Shadows", "Midtones", "Highlights"]
+    assert cp["derived_from"]["chrome"].startswith('"Curves"'), "the skeleton line is recorded, so a stale plan shows"
+
+
+@pytest.mark.parametrize("line,text,match", [
+    ("TODO the page strings", "none", "no resolved `> chrome:` line yet; panel-overlay default draws: tool name"),
+    ('"Curves"', '"Curves"', "on both `> text:` and `> chrome:`"),
+])
+def test_brief_refuses_an_unresolved_or_doubled_chrome_line(tmp_path, brief, line, text, match):
+    run = build_run(tmp_path)
+    (run / "skeleton.md").write_text(_with_chrome(line, text))
+    with pytest.raises(SystemExit, match=re.escape(match)):
+        brief.main([str(run), "S04"])
 
 
 def test_preset_falls_to_the_variant_the_slot_size_fits(brief):

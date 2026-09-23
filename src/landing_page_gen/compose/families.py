@@ -328,6 +328,28 @@ FAMILIES = {
     },
 }
 
+_BEFORE_AFTER = [("before label", ("before-pill.text",)), ("after label", ("after-pill.text",))]
+
+# The strings a preset draws that the page decides, in the skeleton's `> chrome:`
+# order: (slot, the item fields its string fills). `sliders.N` is slider N's name;
+# `colours` takes every remaining string. A slot the line leaves out keeps the
+# template's string. test_plan pins every text field a preset draws to a slot here.
+LABELS = {
+    ("before-after", None): _BEFORE_AFTER,
+    ("before-after", "stacked-square"): _BEFORE_AFTER,
+    ("crop-frame", None): [("frame label", ("brackets.label",))],
+    ("crop-frame", "crop-grid"): [("ratio", ("ratio.text",))],
+    ("cutout-checkerboard", None): [("button", ("button.text",))],
+    ("cutout-checkerboard", "selection-frame"): [("button", ("button.text",))],
+    ("dark-composite", "reference-thumbs"): [("chip", ("chip.text",))],
+    ("dark-composite", "model-picker"): [("active row", ("list.active_text",))],
+    ("panel-overlay", None): [("tool name", ("panel.title", "tool-pill.text")), ("slider 1", ("panel.sliders.0",)),
+                              ("slider 2", ("panel.sliders.1",)), ("slider 3", ("panel.sliders.2",))],
+    ("prompt-card", None): [("prompt", ("prompt-text.text",)), ("button", ("generate.text",))],
+    ("template-mockup", "palette-card"): [("colours (hex, any number)", ("swatch.colours",))],
+    ("vs-two-up", None): [("badge", ("vs.text",))],
+}
+
 
 def ratio_value(r):
     a, b = r.split(":")

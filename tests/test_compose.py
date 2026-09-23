@@ -114,6 +114,9 @@ def test_describe_names_the_variants(capsys):
     out = capsys.readouterr().out
     assert "variant reference-thumbs" in out and "panel thumb-a" in out and "list (list-panel, text)" in out
     assert "variant two-up" in out and "panel photo-b" in out and "generate at 9:16" in out
+    # the manager reads each layout's `> chrome:` slots here, in order
+    model_picker = out.split("variant model-picker")[1].split("variant two-up")[0]
+    assert "page strings, in `> chrome:` order: active row" in model_picker
 
 
 def test_omit_and_override(tmp_path):

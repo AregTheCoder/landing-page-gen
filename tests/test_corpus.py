@@ -146,6 +146,7 @@ def test_skeleton_and_slots_json(tmp_path):
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
     assert text.count("> device: TODO none | reference-thumbs") == 5, "one device line per generated-role slot, after text"
+    assert text.count("> chrome: TODO the page strings") == 5, "one chrome line per generated-role slot, after device"
     assert text.count("> attrs: none (asset not measured") == 5, "an unmeasured slot says so instead of hiding it"
     assert text.count("> duration:") == 1 and "> duration: 8  # original 8.4 s" in text, "the video slot names its target length"
     slots = json.loads((out.parent / "slots.json").read_text())

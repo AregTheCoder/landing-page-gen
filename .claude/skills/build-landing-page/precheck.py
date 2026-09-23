@@ -145,6 +145,7 @@ def check(run, sid):
         problems.append("flow.md missing (uv run lp-flow sheet workflow.yaml)")
     problems += device_problems(folder)
     problems += composition_problems(folder)
+    problems += label_problems(folder)
     problems += hybrid_problems(folder)
     return problems
 
@@ -235,6 +236,31 @@ def composition_problems(folder):
             out.append(f"{spec_path.name}: family {spec.get('family')!r} != plan {cp.get('family')!r}")
         if (spec.get("preset") or spec.get("variant")) != cp.get("preset"):
             out.append(f"{spec_path.name}: preset {spec.get('preset') or spec.get('variant')!r} != plan {cp.get('preset')!r}")
+    return out
+
+
+TEXT_FIELDS = ("text", "label", "title", "active_text", "sliders", "colours")
+
+
+def label_problems(folder):
+    """The strings a compose spec draws are its plan's, exactly (the plan carries
+    the manager's `> chrome:` strings): the worker adds image paths and never
+    relabels, drops or adds a string. An item the spec leaves out would draw the
+    template's string, so it counts as a relabel too."""
+    out = []
+    for spec_path in sorted(folder.glob("compose-*.yaml")):
+        spec = yaml.safe_load(spec_path.read_text()) or {}
+        plan_path = folder / (spec.get("plan") or "")
+        if not spec.get("plan") or not plan_path.exists():
+            continue  # no plan to hold it to; composition_problems reports a missing one
+        cp = yaml.safe_load(plan_path.read_text()) or {}
+        planned = {it.get("id"): it for it in cp.get("items") or [] if it.get("rendered_by") != "model"}
+        drawn = compose_cli._chrome_entries(spec)
+        for cid in [*planned, *(c for c in drawn if c not in planned)]:
+            want, got = planned.get(cid) or {}, drawn.get(cid) or {}
+            for key in TEXT_FIELDS:
+                if (key in want or key in got) and want.get(key) != got.get(key):
+                    out.append(f"{spec_path.name}: {cid} {key} is {got.get(key)!r}, the plan's is {want.get(key)!r}")
     return out
 
 

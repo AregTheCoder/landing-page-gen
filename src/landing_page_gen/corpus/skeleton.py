@@ -2,8 +2,8 @@
 
 skeleton.md is what the manager skill parses: YAML frontmatter, one
 `## Sxx type` block per section with every text node as `- tN tag: text`,
-one fenced `slot` block per media node, and `> annotation:`, `> style:`, `> attrs:` and `> text:`
-lines per generated-role slot for the human to fill in (`> attrs:` says what the style rests on:
+one fenced `slot` block per media node, and `> annotation:`, `> style:`, `> attrs:`, `> text:`,
+`> device:` and `> chrome:` lines per generated-role slot for the human to fill in (`> attrs:` says what the style rests on:
 the measured fields, whether chrome was ever answered, confidence and source). slots.json maps ids
 back to the snapshot stamps for lp-inject and carries style and attrs per slot."""
 
@@ -93,6 +93,8 @@ def render_skeleton(page, sections):
                 lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup | "
                              "crop-grid | palette-card | selection-frame, "
                              "then a colon and the claim this picture demonstrates")
+                lines.append('> chrome: TODO the page strings its layout draws (`lp-compose --describe <family>` '
+                             'lists them), e.g. "Seedance 2.5", or none')
                 if m["kind"] == "video":  # the target length: faithful to the original, capped by budget.video_seconds
                     lines.append(f"> duration: {round(m['duration'])}  # original {m['duration']} s" if m["duration"]
                                  else "> duration: TODO seconds (the original's length is unknown)")

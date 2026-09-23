@@ -36,7 +36,7 @@ page's families are covered.
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:`, `> style:`, `> attrs:`, `> text:` and `> device:` lines. Slots with
+   blocks and `> annotation:`, `> style:`, `> attrs:`, `> text:`, `> device:` and `> chrome:` lines. Slots with
    role `ui-screenshot`, `icon` or `decorative` are kept from source, and so
    is any slot whose family's **Template** line says `kept-from-source`
    (link-grid thumbnails resolve there); list them in the report with the
@@ -119,14 +119,32 @@ page's families are covered.
    named only when the slot is that family: on a `crop-frame` slot, rule of
    thirds, grid, straighten, compose the shot, or examples showing a 3x3 grid
    -> `crop-grid`; on a `template-mockup` slot, palette, colours, brand kit,
-   colour scheme -> `palette-card` (write the page's colours into the plan's
-   `swatch.colours`, hex or RGB); on a `template-mockup` or
+   colour scheme -> `palette-card` (the page's colours go on the `> chrome:`
+   line, step 8); on a `template-mockup` or
    `cutout-checkerboard` slot, select, move, resize, drag, arrange, transform an
    element -> `selection-frame` (move `select.rect` in the plan onto the
    element when its default spot misses it). Never name `stacked-square`:
    a 1:1 before-after slot gets it from its size. The model-picker list card carries blank rows and the
-   page's own model short name on the active row (`chrome: {list:
-   {active_text: "Recraft V4"}}`), never a competitor's name or mark.
+   page's own model short name on the active row (`> chrome: "Recraft V4"`,
+   step 8), never a competitor's name or mark.
+8. A `> chrome:` still reading TODO is decided after step 7, for a slot whose
+   family `lp-compose` draws. `uv run lp-compose --describe <family>` lists,
+   under each layout, the page strings it draws in order: the model-picker's
+   active row; the adjust panel's tool name (the tool pill repeats it) and
+   three sliders; the crop frame's label (x2, a size) or the crop-grid ratio;
+   the resolution chip; a prompt and its button; the palette's colours. Take
+   each from this section's copy and nothing else
+   (the tool's short name, the page's own model short name, a ratio or format
+   the copy names, the page's colours as hex); never a competitor's name,
+   never the HTML copy beside the image, never a string on the `> text:` line.
+   Write them in that order, e.g.
+   `> chrome: "Curves" | "Shadows" | "Midtones" | "Highlights"`; a string left
+   off the end keeps the layout's own (Before, After, VS, Generate), and `none`
+   keeps them all. `brief.py` writes the strings into every composition plan
+   it builds, and refuses a TODO on a layout that draws page strings and a
+   string on both lines. Never hand-edit a label in `composition-<slot>.yaml`:
+   the next `brief.py` run rewrites the plan. List the strings under "Manager
+   decisions".
 
 ## 2. Write one brief per section
 

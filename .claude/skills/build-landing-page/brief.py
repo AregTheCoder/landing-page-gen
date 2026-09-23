@@ -35,7 +35,7 @@ sys.path.insert(0, str(HERE))
 import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
 from landing_page_gen.compose import cli as compose_cli, plan  # noqa: E402
-from landing_page_gen.compose.families import FAMILIES  # noqa: E402
+from landing_page_gen.compose.families import FAMILIES, LABELS  # noqa: E402
 
 
 def _preset(family, device, size=None):
@@ -70,7 +70,7 @@ def composition_section(family, device, size=None, sizes=None):
 
 SLOT_RE = re.compile(r"^```slot\n(.*?)\n```", re.M | re.S)
 SECTION_HEAD_RE = re.compile(r"^## (S\d+) ([\w-]+)", re.M)  # types are hyphenated: feature-callout, how-it-works
-DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device|duration): (.*)$", re.M)
+DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device|duration|chrome): (.*)$", re.M)
 MOTION_LINE_RE = re.compile(r"^\*\*Motion:\*\* (.+)$", re.M)
 N_PLACEHOLDER = re.compile(r" \(n=…\)")
 EXAMPLES_LINE_RE = re.compile(r"^\*\*Examples:\*\* .*$\n?", re.M)  # corpus asset ids; must not reach a blind worker
@@ -107,6 +107,14 @@ def strip_asset_lines(block):
 def slot_records(block):
     """The slot dicts of a section, in order (from the skeleton fences)."""
     return [yaml.safe_load(b) for b in SLOT_RE.findall(block)]
+
+
+def line_strings(line):
+    """The quoted strings of a `> text:` or `> chrome:` line, in order; none for
+    `none`, a TODO or no line."""
+    if not line or line.strip().lower() == "none" or line.startswith("TODO"):
+        return []
+    return [s.strip().strip('"') for s in line.split("|")]
 
 
 def directives(block):
@@ -339,12 +347,22 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
         # write one composition-<slot>.yaml per composable slot: the machine
         # contract the worker renders (spec-from-plan) and precheck/review read
         preset = _preset(family, device)
-        derived = {"style": d.get("style"), "device": d.get("device"), "text": d.get("text", "none")}
+        chrome = d.get("chrome", "none")
+        labels = line_strings(chrome)
+        twice = sorted(set(labels) & set(line_strings(d.get("text", "none"))))
+        if twice:
+            raise SystemExit(f"brief.py: {sxx}: {', '.join(map(repr, twice))} is on both `> text:` and `> chrome:`; "
+                             "a string is drawn once, by the model or by the chrome")
+        derived = {"style": d.get("style"), "device": d.get("device"), "text": d.get("text", "none"), "chrome": chrome}
         (run / "sections" / sxx).mkdir(parents=True, exist_ok=True)
         names = []
         for s in records:
-            cp = plan.build(family, s.get("size"), preset=preset,
+            cp = plan.build(family, s.get("size"), preset=preset, labels=labels or None,
                             ground=(ground if ground != "default" else None), slot=s["id"], derived_from=derived)
+            slots = LABELS.get((family, cp.get("preset")))
+            if chrome.startswith("TODO") and slots:
+                raise SystemExit(f"brief.py: {sxx} has no resolved `> chrome:` line yet; {family} "
+                                 f"{cp.get('preset') or 'default'} draws: {', '.join(n for n, _ in slots)}")
             probs = plan.validate(cp)
             if probs:
                 raise SystemExit(f"brief.py: {sxx} composition plan for {s['id']}: {'; '.join(probs)}")

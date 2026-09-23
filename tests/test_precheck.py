@@ -151,6 +151,29 @@ def test_composition_spec_must_match_its_plan(tmp_path):
     assert precheck.composition_problems(sec) == []
 
 
+def test_spec_strings_must_be_the_plans(tmp_path):
+    import yaml
+
+    from landing_page_gen.compose import plan
+    sec = tmp_path / "sections" / "S03"
+    sec.mkdir(parents=True)
+    cp = plan.build("dark-composite", "720x720", preset="model-picker", slot="S03-m1", labels=["Seedance 2.5"])
+    plan.write_plan(sec / "composition-S03-m1.yaml", cp)
+
+    def spec_with(chrome):
+        spec = {**plan.to_spec(cp, {"photo": "steps/p.png"}), "plan": "composition-S03-m1.yaml", "chrome": chrome}
+        (sec / "compose-S03-m1.yaml").write_text(yaml.safe_dump(spec, sort_keys=False))
+        return precheck.label_problems(sec)
+
+    faithful = plan.to_spec(cp, {})["chrome"]
+    assert spec_with(faithful) == [], "spec-from-plan copies every string"
+    relabelled = [{**it, "active_text": "Seedance Pro"} if it["id"] == "list" else it for it in faithful]
+    assert any("'Seedance Pro', the plan's is 'Seedance 2.5'" in p for p in spec_with(relabelled))
+    assert any("list active_text is None" in p for p in spec_with([])), "a dropped item draws the template's string"
+    added = faithful + [{"id": "extra", "kind": "label", "rect": [0, 0, 10, 10], "text": "NEW"}]
+    assert any("extra text is 'NEW'" in p for p in spec_with(added))
+
+
 def test_credits_reconcile_by_url_not_prompt(tmp_path):
     run = make_run(tmp_path)  # step already: quoted 5, credits.spent 5, done
     # two paid rows with the SAME prompt but different output urls (a reworked node)

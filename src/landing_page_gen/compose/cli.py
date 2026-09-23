@@ -17,7 +17,7 @@ import yaml
 from PIL import Image
 
 from . import draw, kinds, layout
-from .families import FAMILIES, REF, aspect_label, nearest_ratio
+from .families import FAMILIES, LABELS, REF, aspect_label, nearest_ratio
 from .kinds import CHECKER_CELL, FONT_PX  # noqa: F401  (single source; re-exported for back-compat)
 
 SS = 2  # supersample: Pillow draws shapes without antialiasing
@@ -251,7 +251,7 @@ def describe(fam):
     aspects = " or ".join(f"{a}:{b}" for a, b in (f.get("aspects") or (f["aspect"],)))
     text_kinds = {k for k, v in kinds.KINDS.items() if v.text}
 
-    def geometry(t, indent="  "):
+    def geometry(t, preset=None, indent="  "):
         out = []
         for name, p in t["panels"].items():
             if p["rect"] is None:
@@ -265,6 +265,8 @@ def describe(fam):
         out.append(f"{indent}chrome: " + ", ".join(
             f"{c['id']} ({c['kind']}{', text' if c['kind'] in text_kinds or c.get('label') or c.get('active_text') else ''})"
             for c in t["chrome"]))
+        if LABELS.get((fam, preset)):
+            out.append(f"{indent}page strings, in `> chrome:` order: " + ", ".join(n for n, _ in LABELS[(fam, preset)]))
         return out
 
     lines = [f"{fam}: aspect {aspects}, ground {ground}, geometry at {REF} px"] + geometry(f)
@@ -273,7 +275,7 @@ def describe(fam):
         lines.append("  `ground: tilted` in the spec stacks the card over a plain one at 10 degrees; `tilt: <deg>` sets the angle")
     for name in f.get("variants") or {}:
         lines.append(f"  variant {name} (`variant: {name}` in the spec; the brief's `> device:`):")
-        lines += geometry(template(fam, name), indent="    ")
+        lines += geometry(template(fam, name), name, indent="    ")
     return "\n".join(lines)
 
 

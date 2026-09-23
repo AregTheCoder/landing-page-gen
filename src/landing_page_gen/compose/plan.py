@@ -98,9 +98,28 @@ def contract(family, preset=None, size=None):
     return out
 
 
-def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None):
+def apply_labels(items, family, preset, labels):
+    """Write the manager's `> chrome:` strings into the fields each slot of
+    `families.LABELS` fills, in order. Copies what it changes, so the family
+    template is never touched."""
+    by_id = {it["id"]: it for it in items}
+    for i, (_, targets) in enumerate(families.LABELS.get((family, preset), [])[:len(labels)]):
+        for target in targets:
+            cid, field, *n = target.split(".")
+            it = by_id[cid]
+            if field == "colours":
+                it["colours"] = list(labels[i:])
+            elif field == "sliders":
+                it["sliders"] = [list(s) for s in it["sliders"]]
+                it["sliders"][int(n[0])][0] = labels[i]
+            else:
+                it[field] = labels[i]
+
+
+def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None, labels=None):
     """Assemble a composition plan: the panels (ratios + keep-clear) the worker
-    generates and the chrome items the preset draws, tagged with what it was
+    generates and the chrome items the preset draws, carrying the manager's
+    `labels` (the skeleton's `> chrome:` strings), tagged with what it was
     derived from (so a later edit to the skeleton can be caught as stale). The
     manager may hand-edit the result; `to_spec` turns it into a compose spec."""
     # the panel ratios and keep-clear fractions do not depend on the render
@@ -110,9 +129,11 @@ def build(family, size, *, preset=None, ground=None, slot=None, derived_from=Non
     plan = {"slot": slot, "family": family, "size": size,
             "panels": contract(family, preset),
             "items": [dict(it) for it in cli.template(family, preset)["chrome"]]}
-    for key, val in (("preset", preset), ("ground", ground), ("derived_from", derived_from)):
+    for key, val in (("preset", preset), ("ground", ground), ("labels", labels), ("derived_from", derived_from)):
         if val:
             plan[key] = val
+    if labels:
+        apply_labels(plan["items"], family, preset, labels)
     if ground and not cli.ground_renderable(ground):
         # a corpus variant with no colour to draw (colour, mixed, gradient, checker):
         # keep it on record and let lp-compose draw the family ground — the family
@@ -147,6 +168,15 @@ def validate(plan):
                        if cli.fits(cli.template(fam, v), w, h)]
             problems.append(f"size {w}x{h} is not {aspects} like {fam}" + (f" preset {preset!r}" if preset else "")
                             + (f": {' or '.join(fitting)} fits it" if fitting else f": no {fam} layout fits it"))
+    labels = plan.get("labels") or []
+    if labels and (not preset or preset in (families.FAMILIES[fam].get("variants") or {})):
+        slots = families.LABELS.get((fam, preset), [])
+        name = fam + (f" preset {preset!r}" if preset else "")
+        if not slots:
+            problems.append(f"{name} draws no page strings: its `> chrome:` line must be none")
+        elif len(labels) > len(slots) and not any(t.endswith(".colours") for t in slots[-1][1]):
+            problems.append(f"{name} draws {len(slots)} page string(s) ({', '.join(n for n, _ in slots)}); "
+                            f"`> chrome:` gives {len(labels)}")
     if not cli.ground_renderable(plan.get("ground")):
         problems.append(f"ground {plan['ground']!r} cannot be drawn: use black, white, light, transparent, "
                         f"tilted or a mapping such as {{fill: [r, g, b]}}")
