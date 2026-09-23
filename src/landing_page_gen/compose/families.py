@@ -188,7 +188,7 @@ FAMILIES = {
             # the editor selection box over the card's focal graphic (972da313
             # card-maker S01: a 391 px square frame, 6 px stroke, d40 midpoint
             # handles; 87194d0d, 168e63a1). The graphic moves per generated card,
-            # so the composition plan re-places `select.rect` per slot; this rect
+            # so the manager moves `select.rect` in the slot's plan (an explicit rect wins); this rect
             # is the measured upper-right default.
             "selection-frame": {
                 "chrome": [

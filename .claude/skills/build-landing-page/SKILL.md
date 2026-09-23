@@ -115,7 +115,16 @@ page's families are covered.
    (`uv run lp-compose --describe dark-composite` lists their panels);
    `icon-set` and `applied-mockup` are written into the `photo` annotation
    itself (a 3x3 grid of matching icons; the mark on a sign) and use the
-   plain template. The model-picker list card carries blank rows and the
+   plain template. Three devices are compose variants of one family each and are
+   named only when the slot is that family: on a `crop-frame` slot, rule of
+   thirds, grid, straighten, compose the shot, or examples showing a 3x3 grid
+   -> `crop-grid`; on a `template-mockup` slot, palette, colours, brand kit,
+   colour scheme -> `palette-card` (write the page's colours into the plan's
+   `swatch.colours`, hex or RGB); on a `template-mockup` or
+   `cutout-checkerboard` slot, select, move, resize, drag, arrange, transform an
+   element -> `selection-frame` (move `select.rect` in the plan onto the
+   element when its default spot misses it). Never name `stacked-square`:
+   a 1:1 before-after slot gets it from its size. The model-picker list card carries blank rows and the
    page's own model short name on the active row (`chrome: {list:
    {active_text: "Recraft V4"}}`), never a competitor's name or mark.
 

@@ -90,7 +90,8 @@ def render_skeleton(page, sections):
                 lines.append(f"> style: {style or 'TODO one of ' + ' | '.join(db.STYLES)}")
                 lines.append(f"> attrs: {attrs_line(at)}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
-                lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup, "
+                lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup | "
+                             "crop-grid | palette-card | selection-frame, "
                              "then a colon and the claim this picture demonstrates")
                 if m["kind"] == "video":  # the target length: faithful to the original, capped by budget.video_seconds
                     lines.append(f"> duration: {round(m['duration'])}  # original {m['duration']} s" if m["duration"]
