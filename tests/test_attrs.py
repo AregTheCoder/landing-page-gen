@@ -511,6 +511,17 @@ def test_chrome_items_validation_normalises_and_rejects():
         assert label.check("chrome_items", bad)[1] is not None, bad
 
 
+def test_chrome_items_state_on_survives_yaml_1_1():
+    # the campaign prompt says `state: {on: true}`; YAML 1.1 loads the bare key `on` as True
+    items = styles.load_yaml("- {kind: toggle, placement: overlay, state: {on: true}}\n")
+    assert items[0]["state"] == {True: True}, "the loader really does this"
+    ok, err = label.check("chrome_items", items)
+    assert err is None and ok == [{"kind": "toggle", "placement": "overlay", "state": {"on": True}}]
+    assert styles.load_yaml(styles.dump_yaml(ok)) == ok, "stored with 'on' quoted, so it round-trips"
+    assert label.check("chrome_items", [{"kind": "toggle", "placement": "overlay", "state": {False: True}}])[1], \
+        "only the `on` key is recovered; other boolean keys are still rejected"
+
+
 def test_cell_answer_reconciles_bag_and_items():
     clean, errors = label.cell_answer({"chrome_items": [{"kind": "tile", "placement": "beside"},
                                                         {"kind": "chip", "placement": "overlay"}]})

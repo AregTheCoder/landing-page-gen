@@ -181,6 +181,10 @@ def _check_items(value):
         if count != 1:
             item["count"] = count
         state = it.get("state")
+        if isinstance(state, dict) and True in state and "on" not in state:
+            # YAML 1.1 reads a bare `on:` key as the boolean True, so `{on: true}`
+            # arrives as {True: True}; `on` is the vocabulary's only such key
+            state = {("on" if k is True else k): v for k, v in state.items()}
         if state is not None:
             if not isinstance(state, dict) or any(k not in attrs.CHROME_STATE_KEYS for k in state):
                 return None, f"chrome_items[{i}]: state {state!r}"
