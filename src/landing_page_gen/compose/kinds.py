@@ -13,6 +13,8 @@ is how an adjustment panel can stay level over a tilted card."""
 from dataclasses import dataclass
 from typing import Callable
 
+from PIL import ImageColor
+
 from . import draw
 
 LAYERS = {"ground": 0, "card": 10, "panel": 20, "chrome": 30, "overlay": 40, "top": 50}
@@ -38,6 +40,7 @@ class Kind:
     draw: Callable          # (canvas, item, ctx) -> box (rect at SS pixels)
     layer: str = "chrome"
     text: bool = False      # carries a manager-decided string (for --describe)
+    frames: bool = False    # marks where the subject goes (brackets, a selection box): not a keep-clear zone
 
 
 def _card(canvas, it, ctx):
@@ -49,10 +52,20 @@ def _tile(canvas, it, ctx):
     return draw.tile(canvas, it["rect"], it.get("icon"), ctx.r, fill=fill)
 
 
+def rgb(c):
+    """An RGB triple from a colour a plan may carry: '#e01ee0', a CSS colour
+    name, or an RGB/RGBA list. Raises ValueError on anything else."""
+    if isinstance(c, str):
+        return ImageColor.getrgb(c)[:3]
+    if not isinstance(c, (list, tuple)) or len(c) not in (3, 4):
+        raise ValueError(f"colour {c!r}")
+    return tuple(int(v) for v in c[:3])
+
+
 def _swatch(canvas, it, ctx):
     """A palette stripe: N solid cells in one rounded tile; `colours` come from
     the section copy (a flat grey cell when none is given)."""
-    cols = it.get("colours") or [(90, 90, 96)]
+    cols = [rgb(c) for c in (it.get("colours") or [(90, 90, 96)])]
     return draw.swatch_stripe(canvas, it["rect"], cols, ctx.r, it.get("direction", "column"),
                               round(it.get("gap", 0) * ctx.s))
 
@@ -88,9 +101,10 @@ def _crop_badge(canvas, it, ctx):
 
 def _selection_frame(canvas, it, ctx):
     """The editor transform box over one subject: anchored to a panel by
-    `at` + `frac` (like brackets) or placed by `rect`; drawn on the overlay
+    `at` + `frac` (like brackets) or placed by `rect` — an explicit `rect` wins,
+    so a plan can move an anchored box onto the subject; drawn on the overlay
     layer so it sits over the panels and the other chrome."""
-    if "at" in it:
+    if "at" in it and "rect" not in it:
         x0, y0, x1, y1 = ctx.panels[it["at"]]["rect"]
         fx0, fy0, fx1, fy1 = it.get("frac", (0.0, 0.0, 1.0, 1.0))
         w, h = x1 - x0, y1 - y0
@@ -188,9 +202,9 @@ KINDS = {
     "icon": Kind(_icon),
     "pill": Kind(_pill, text=True),
     "label": Kind(_label, text=True),
-    "brackets": Kind(_brackets),
+    "brackets": Kind(_brackets, frames=True),
     "crop-badge": Kind(_crop_badge),
-    "selection-frame": Kind(_selection_frame, layer="overlay"),
+    "selection-frame": Kind(_selection_frame, layer="overlay", frames=True),
     "badge": Kind(_badge),
     "headline": Kind(_headline, text=True),
     "adjust-panel": Kind(_adjust_panel, text=True),

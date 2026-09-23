@@ -2,6 +2,7 @@
 and the plan -> compose-spec step."""
 
 import pytest
+import yaml
 from PIL import Image
 
 from landing_page_gen.compose import cli, plan
@@ -20,6 +21,21 @@ def test_keep_clear_reports_overlay_regions_only():
     # beside-chrome families have nothing over the panel
     assert plan.keep_clear("dark-composite") == {}
     assert plan.keep_clear("prompt-card") == {}
+
+
+def test_keep_clear_skips_chrome_under_the_panel_and_chrome_that_frames_the_subject():
+    # template-mockup's card sits UNDER the photo (card layer): it hides nothing, so the
+    # worker must not be told to keep the subject out of the whole panel (it used to be)
+    assert plan.keep_clear("template-mockup") == {}
+    assert plan.keep_clear("template-mockup", "palette-card") == {}
+    # brackets, the crop grid and a selection box mark where the subject GOES
+    assert plan.keep_clear("crop-frame") == {}
+    assert plan.keep_clear("template-mockup", "selection-frame") == {}
+    sel = plan.keep_clear("cutout-checkerboard", "selection-frame")
+    assert {r["item"] for rs in sel.values() for r in rs} == {"badge-a", "badge-b"}, "the check badges still cover a corner"
+    grid = plan.keep_clear("crop-frame", "crop-grid")
+    items = {r["item"] for rs in grid.values() for r in rs}
+    assert "grid" not in items and {"crop-badge", "ratio"} <= items, "badge and ratio label sit over the panels"
 
 
 def test_keep_clear_scales_with_size():
@@ -79,6 +95,55 @@ def test_to_spec_drops_model_rendered_items():
 def test_keepclear_cli(capsys):
     assert cli.main(["--keepclear", "panel-overlay"]) == 0
     assert "panel" in capsys.readouterr().out
+    # a 1:1 size picks the before-after variant it fits, as plan.build does (it used to exit)
+    assert cli.main(["--keepclear", "before-after", "480x480"]) == 0
+    assert "after-pill" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("ground", ["colour", "mixed", "gradient", "checker"])
+def test_a_ground_variant_compose_cannot_draw_falls_back_to_the_family_ground(tmp_path, ground):
+    # a slot styled template-mockup/colour used to reach lp-compose as ground: colour and exit
+    # AFTER the panels were generated; the plan keeps the variant on record and draws the default
+    p = plan.build("template-mockup", "480x480", ground=ground, slot="S01-m1")
+    assert "ground" not in p and p["ground_variant"] == ground and plan.validate(p) == []
+    Image.new("RGB", (400, 400), "red").save(tmp_path / "p.png")
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "p.png"})))
+    cli.compose(cli.resolve(cli.load_spec(tmp_path / "s.yaml")))
+    assert plan.build("template-mockup", "480x480", ground="black")["ground"] == "black", "a drawable word passes through"
+    assert any("cannot be drawn" in e for e in plan.validate({"family": "template-mockup", "ground": ground})), \
+        "a hand-written undrawable ground is caught before any credit is spent"
+
+
+def test_validate_rejects_a_colour_the_renderer_cannot_draw():
+    ok = {"family": "template-mockup", "preset": "palette-card",
+          "items": [{"id": "swatch", "kind": "swatch", "colours": ["#e01ee0", "black", [242, 242, 244], [1, 2, 3, 255]]}]}
+    assert plan.validate(ok) == []
+    bad = {"family": "template-mockup", "items": [{"id": "swatch", "kind": "swatch", "colours": ["#e01ee0", "not-a-colour"]}]}
+    assert any("not-a-colour" in e for e in plan.validate(bad))
+
+
+def test_hex_swatch_colours_and_a_moved_selection_box_render(tmp_path):
+    # the manager may write hex colours and move an anchored selection box by rect in the plan
+    for fam, preset, over in (("template-mockup", "palette-card", {"id": "swatch", "colours": ["#e01ee0", "#000000"]}),
+                              ("cutout-checkerboard", "selection-frame", {"id": "select", "rect": [40, 40, 300, 300]})):
+        p = plan.build(fam, "800x800", preset=preset, slot="S01-m1")
+        for it in p["items"]:
+            if it["id"] == over["id"]:
+                it.update(over)
+        assert plan.validate(p) == []
+        steps = tmp_path / fam / "steps"
+        steps.mkdir(parents=True)
+        images = {}
+        for panel in p["panels"]:
+            Image.new("RGB", (400, 400), "red").save(steps / f"{panel['panel']}.png")
+            images[panel["panel"]] = f"steps/{panel['panel']}.png"
+        spec = plan.to_spec(p, images)
+        path = tmp_path / fam / "s.yaml"
+        path.write_text(yaml.safe_dump(spec))
+        _, drawn = cli.compose(cli.resolve(cli.load_spec(path)))
+        if over["id"] == "select":
+            x0, y0, x1, y1 = drawn["select"]
+            assert (round(x0), round(y0)) == (20, 20), "an explicit rect wins over the template's panel anchor"
 
 
 def test_build_then_spec_from_plan_round_trips(tmp_path):

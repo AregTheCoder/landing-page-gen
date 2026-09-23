@@ -45,18 +45,27 @@ def _preset(family, device, size=None):
     return compose_cli.preset_for_size(family, size, preset)
 
 
-def composition_section(family, device, size=None):
+def composition_section(family, device, size=None, sizes=None):
     """For a composable family, the panels the worker generates (with the ratio
-    and fit) and the keep-clear region each carries — so it stops guessing."""
+    and fit) and the keep-clear region each carries — so it stops guessing.
+    `sizes` is [(slot id, size)] for the section: slots whose sizes select
+    different presets (a 1:1 and a 21:10 before-after slot) each get their own
+    table, so the brief never contradicts the per-slot composition plans."""
     if not board.composable(family):
         return ""
+    groups = {}  # preset -> the slot ids it serves, in section order
+    for sid, sz in (sizes or [(None, size)]):
+        groups.setdefault(_preset(family, device, sz), []).append(sid)
     rows = ["## Panels and keep-clear", "",
             "Generate one panel per row at the ratio given; keep the subject out of any keep-clear "
-            "region (an overlay sits there). The chrome is composited by lp-compose, never by a model.", "",
-            "| panel | generate at | fit | keep clear (fractions of the panel) |", "|---|---|---|---|"]
-    for p in plan.contract(family, _preset(family, device, size)):
-        kc = "; ".join(f"{r['item']} {r['frac']}" for r in p["keep_clear"]) or "—"
-        rows.append(f"| {p['panel']} | {p['ratio']} | {p['fit']} | {kc} |")
+            "region (an overlay sits there). The chrome is composited by lp-compose, never by a model.", ""]
+    for i, (preset, sids) in enumerate(groups.items()):
+        if len(groups) > 1:
+            rows += ([""] if i else []) + [f"Slots {', '.join(sids)} ({preset or 'default'} layout):", ""]
+        rows += ["| panel | generate at | fit | keep clear (fractions of the panel) |", "|---|---|---|---|"]
+        for p in plan.contract(family, preset):
+            kc = "; ".join(f"{r['item']} {r['frac']}" for r in p["keep_clear"]) or "—"
+            rows.append(f"| {p['panel']} | {p['ratio']} | {p['fit']} | {kc} |")
     return "\n".join(rows) + "\n"
 
 SLOT_RE = re.compile(r"^```slot\n(.*?)\n```", re.M | re.S)
@@ -171,12 +180,12 @@ def slot_class(section_type, record):
 
 def slots_table(records, section_type, family, device):
     fam = family.split("/")[0]
-    size = records[0].get("size") if records else None
-    n = len(plan.contract(fam, _preset(fam, device, size))) if board.composable(fam) else 1
-    panels = f"{n} panel{'s' if n != 1 else ''} (see below)" if board.composable(fam) else "1 panel"
     rows = ["| slot | kind | role | size | natural | class | family | panels |",
             "|---|---|---|---|---|---|---|---|"]
     for s in records:
+        # each slot's own size picks its preset, so its panel count is its own
+        n = len(plan.contract(fam, _preset(fam, device, s.get("size")))) if board.composable(fam) else 1
+        panels = f"{n} panel{'s' if n != 1 else ''} (see below)" if board.composable(fam) else "1 panel"
         cls = slot_class(section_type, s)
         rows.append(f"| {s['id']} | {s.get('kind')} | {s.get('role')} | {s.get('size')} | "
                     f"{s.get('natural', '')} | {cls} | {family} | {panels} |")
@@ -324,7 +333,7 @@ def assemble(run, sxx, pool=0, seed=None, widen=0):
     parts.append(text_in_image(d.get("text", "none"), records, section_type) + "\n")
     parts.append("## Slots to produce\n")
     parts.append(slots_table(records, section_type, family + (f"/{ground}" if ground != "default" else ""), device) + "\n")
-    composition = composition_section(family, device, records[0].get("size") if records else None)
+    composition = composition_section(family, device, sizes=[(s["id"], s.get("size")) for s in records])
     if composition:
         parts.append(composition)
         # write one composition-<slot>.yaml per composable slot: the machine

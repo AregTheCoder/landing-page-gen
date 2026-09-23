@@ -163,10 +163,27 @@ def device_problems(folder):
         spec = yaml.safe_load(spec_path.read_text()) or {}
         variants = (FAMILIES.get(spec.get("family")) or {}).get("variants") or {}
         variant = spec.get("preset") or spec.get("variant")
-        fitted = None if device in variants else compose_cli.preset_for_size(spec.get("family"), spec.get("size"))
+        slot_size = _slot_size(folder, spec_path.stem[len("compose-"):])  # never the spec's own size: the worker writes that
+        fitted = None if device in variants else compose_cli.preset_for_size(spec.get("family"), slot_size)
         if (device in variants and variant != device) or (variant and variant not in (device, fitted)):
             out.append(f"{spec_path.name}: compose variant {variant or 'none'} but brief device {device or 'none'}")
     return out
+
+
+def _slot_size(folder, slot):
+    """A slot's real size, from what the manager wrote: its composition plan,
+    else the run's slots.json; None when neither says."""
+    plan_path = folder / f"composition-{slot}.yaml"
+    if plan_path.exists():
+        size = (yaml.safe_load(plan_path.read_text()) or {}).get("size")
+        if size:
+            return size
+    slots_path = folder.parent.parent / "slots.json"
+    if slots_path.exists():
+        size = ((json.loads(slots_path.read_text()).get("slots") or {}).get(slot) or {}).get("size")
+        if size:
+            return tuple(size)
+    return None
 
 
 def compose_wiring_problems(doc, folder):

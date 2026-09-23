@@ -226,3 +226,14 @@ def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
     assert brief._preset("dark-composite", "model-picker", "480x480") == "model-picker", "the device still wins"
     rows = brief.composition_section("before-after", "none", "480x480")
     assert "| after |" in rows and "| after |" not in brief.composition_section("before-after", "none", "720x343")
+    # a section whose slots need different presets: each slot counts its own panels and
+    # each preset gets its own table, so the brief agrees with the per-slot plans
+    records = [{"id": "S07-m1", "size": "720x343"}, {"id": "S07-m2", "size": "480x480"}]
+    table = brief.slots_table(records, "feature-callout", "before-after", "none")
+    assert "| S07-m1 |" in table and "2 panels" in table.split("| S07-m2 |")[0]
+    assert "3 panels" in table.split("| S07-m2 |")[1], "the 1:1 slot's stacked-square has before, after, result"
+    mixed = brief.composition_section("before-after", "none", sizes=[(r["id"], r["size"]) for r in records])
+    assert "Slots S07-m1 (default layout):" in mixed and "Slots S07-m2 (stacked-square layout):" in mixed
+    assert mixed.count("| panel | generate at |") == 2 and "| after |" in mixed.split("S07-m2")[1]
+    same = brief.composition_section("before-after", "none", sizes=[("S07-m1", "720x343"), ("S07-m3", "879x418")])
+    assert same == brief.composition_section("before-after", "none", "720x343"), "one preset: the one-table brief, unchanged"

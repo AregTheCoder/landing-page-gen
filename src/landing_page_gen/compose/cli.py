@@ -68,6 +68,13 @@ def preset_for_size(fam, size, preset=None):
 _GROUND_WORDS = {"black": (0, 0, 0), "white": (255, 255, 255), "light": (242, 242, 244)}
 
 
+def ground_renderable(word):
+    """Whether a spec `ground:` is one `_ground` can draw. The corpus's other
+    ground variants (colour, mixed, gradient, checker) name no colour, so they
+    cannot be drawn from the word alone."""
+    return word is None or isinstance(word, dict) or word in ("tilted", "transparent", "none") or word in _GROUND_WORDS
+
+
 def _ground(base, word):
     """The family ground, or a spec override: a colour word (black/white/light),
     transparent/none, a mapping, or `tilted`/None which leaves the ground be."""
@@ -286,7 +293,8 @@ def main(argv=None) -> int:
     if a.keepclear:
         from . import plan  # lazy: plan imports cli
         size = parse_size(a.spec) if a.spec else None  # optional WxH passed positionally
-        print(yaml.safe_dump(plan.keep_clear(a.keepclear, a.preset, size), sort_keys=True).rstrip())
+        preset = preset_for_size(a.keepclear, size, a.preset)  # a 1:1 before-after size -> stacked-square
+        print(yaml.safe_dump(plan.keep_clear(a.keepclear, preset, size), sort_keys=True).rstrip())
         return 0
     if a.spec_from_plan:
         from . import plan  # lazy

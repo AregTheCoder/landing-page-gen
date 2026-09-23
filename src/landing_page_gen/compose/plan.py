@@ -2,7 +2,8 @@
 draws, and the geometry a worker needs before it generates.
 
 `keep_clear` is the load-bearing piece: for a preset, it reports the region of
-each panel that an overlay chrome item covers, so the brief can tell the worker
+each panel that chrome drawn over it would hide (not chrome under the panel,
+not chrome that frames the subject), so the brief can tell the worker
 "put no subject here" and the panel-node gate can enforce it. It is computed by
 rendering the preset once with placeholder panels and reading the drawn rects
 `compose()` already returns — no real image, no new geometry. `to_spec` turns a
@@ -31,10 +32,21 @@ def _rect_size(family, preset, size):
     return tmpl, (families.REF, round(families.REF * fh / fw))
 
 
+def hides_subject(item):
+    """Whether a chrome item can cover a panel's subject: only chrome drawn
+    ABOVE the panels (a card on the `card` layer sits under the photo), and not
+    chrome that frames the subject (brackets, the crop grid, a selection box —
+    the subject belongs inside those, so they are not no-subject zones)."""
+    kind = kinds.KINDS[item["kind"]]
+    layer = item.get("layer") or kind.layer
+    return kinds.LAYERS[layer] > kinds.LAYERS["panel"] and not kind.frames
+
+
 def keep_clear(family, preset=None, size=None):
     """{panel name: [{item, rect (output px), frac (of the panel)}]} — the
-    overlay chrome covering each panel. Panels with nothing over them are
-    omitted. Rendered with placeholder panels; the geometry is the real one."""
+    chrome drawn over each panel that would hide a subject there (see
+    `hides_subject`). Panels with nothing over them are omitted. Rendered with
+    placeholder panels; the geometry is the real one."""
     tmpl, (w, h) = _rect_size(family, preset, size)
     with tempfile.TemporaryDirectory() as d:
         d = Path(d)
@@ -47,12 +59,15 @@ def keep_clear(family, preset=None, size=None):
         (d / "s.yaml").write_text(yaml.safe_dump(spec))
         layout = cli.resolve(cli.load_spec(d / "s.yaml"))
         _, drawn = cli.compose(layout)
+    items = {it["id"]: it for it in layout["chrome"]}
     out = {}
     for name, p in layout["panels"].items():
         px0, py0, px1, py1 = (v / cli.SS for v in p["rect"])
         pw, ph = px1 - px0, py1 - py0
         regions = []
         for cid, (cx0, cy0, cx1, cy1) in drawn.items():
+            if not hides_subject(items[cid]):
+                continue
             ix0, iy0, ix1, iy1 = max(px0, cx0), max(py0, cy0), min(px1, cx1), min(py1, cy1)
             if ix1 > ix0 and iy1 > iy0 and (ix1 - ix0) * (iy1 - iy0) > MIN_OVERLAP * pw * ph:
                 regions.append({"item": cid,
@@ -98,6 +113,11 @@ def build(family, size, *, preset=None, ground=None, slot=None, derived_from=Non
     for key, val in (("preset", preset), ("ground", ground), ("derived_from", derived_from)):
         if val:
             plan[key] = val
+    if ground and not cli.ground_renderable(ground):
+        # a corpus variant with no colour to draw (colour, mixed, gradient, checker):
+        # keep it on record and let lp-compose draw the family ground — the family
+        # docs brief these as the default. The manager may set `ground: {fill: [r, g, b]}`.
+        plan["ground_variant"] = plan.pop("ground")
     return plan
 
 
@@ -116,6 +136,9 @@ def validate(plan):
     preset = plan.get("preset")
     if preset and preset not in (families.FAMILIES[fam].get("variants") or {}):
         problems.append(f"{fam} has no preset {preset!r}")
+    if not cli.ground_renderable(plan.get("ground")):
+        problems.append(f"ground {plan['ground']!r} cannot be drawn: use black, white, light, transparent, "
+                        f"tilted or a mapping such as {{fill: [r, g, b]}}")
     seen = set()
     for it in plan.get("items") or []:
         cid, kind = it.get("id"), it.get("kind")
@@ -139,6 +162,11 @@ def validate(plan):
             problems.append(f"item {cid!r}: kind {kind!r} is hybrid-only; set rendered_by: model with a reason")
         elif kind and kind not in kinds.KINDS:
             problems.append(f"item {cid!r}: kind {kind!r} is not drawable")
+        for c in it.get("colours") or []:  # hex/CSS names are fine; anything else would crash the render
+            try:
+                kinds.rgb(c)
+            except ValueError:
+                problems.append(f"item {cid!r}: colour {c!r} is not '#rrggbb', a colour name or an RGB list")
     return problems
 
 
