@@ -268,6 +268,21 @@ def test_a_hand_edited_plan_survives_a_re_run_and_a_changed_line_needs_replan(tm
     assert panel["title"] == "Levels" and panel["chips"] == 8, "--replan rebuilds from the new line"
 
 
+def test_only_generated_stills_get_a_composition_plan(tmp_path, brief):
+    # an icon kept from source in a composable section used to get a plan too, which the
+    # size check then refused (42x48 fits no layout), stopping the whole brief
+    run = build_run(tmp_path)
+    icon = _slot("S04-m2", src_id="77777777", local_id="66666666").replace("role: creative", "role: icon") \
+        .replace("size: 300x300", "size: 42x48")
+    (run / "skeleton.md").write_text(SKELETON.replace("> device: none: adjustment panel over the photo\n",
+                                                      "> device: none: adjustment panel over the photo\n\n" + icon + "\n"))
+    assert brief.main([str(run), "S04"]) == 0
+    sec = run / "sections" / "S04"
+    assert [p.name for p in sec.glob("composition-*.yaml")] == ["composition-S04-m1.yaml"]
+    assert "| S04-m2 | image | icon | 42x48 |" in (sec / "brief.md").read_text()
+    assert "kept from source" in (sec / "brief.md").read_text().split("| S04-m2 |")[1].split("\n")[0]
+
+
 def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
     # before-after's default is the wide 21:10 card; a 1:1 slot with no device
     # is briefed (panels table, slot count, composition plan) as stacked-square
@@ -278,7 +293,7 @@ def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
     assert "| after |" in rows and "| after |" not in brief.composition_section("before-after", "none", "720x343")
     # a section whose slots need different presets: each slot counts its own panels and
     # each preset gets its own table, so the brief agrees with the per-slot plans
-    records = [{"id": "S07-m1", "size": "720x343"}, {"id": "S07-m2", "size": "480x480"}]
+    records = [{"id": "S07-m1", "size": "720x343", "role": "creative"}, {"id": "S07-m2", "size": "480x480", "role": "creative"}]
     table = brief.slots_table(records, "feature-callout", "before-after", "none")
     assert "| S07-m1 |" in table and "2 panels" in table.split("| S07-m2 |")[0]
     assert "3 panels" in table.split("| S07-m2 |")[1], "the 1:1 slot's stacked-square has before, after, result"

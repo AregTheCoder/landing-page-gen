@@ -36,6 +36,7 @@ import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
 from landing_page_gen.compose import cli as compose_cli, plan  # noqa: E402
 from landing_page_gen.compose.families import FAMILIES, LABELS  # noqa: E402
+from landing_page_gen.corpus.db import GENERATED_ROLES  # noqa: E402
 
 
 def _preset(family, device, size=None):
@@ -186,14 +187,26 @@ def slot_class(section_type, record):
     return f"{section_type}-{aspect}" if aspect else section_type
 
 
+def composed(s):
+    """A slot lp-compose draws: a generated still. Kept-from-source roles
+    (icons, screenshots) are never generated, and a video slot is briefed as its
+    family's main panel with no compose step."""
+    return s.get("role") in GENERATED_ROLES and s.get("kind") != "video"
+
+
 def slots_table(records, section_type, family, device):
     fam = family.split("/")[0]
     rows = ["| slot | kind | role | size | natural | class | family | panels |",
             "|---|---|---|---|---|---|---|---|"]
     for s in records:
         # each slot's own size picks its preset, so its panel count is its own
-        n = len(plan.contract(fam, _preset(fam, device, s.get("size")))) if board.composable(fam) else 1
-        panels = f"{n} panel{'s' if n != 1 else ''} (see below)" if board.composable(fam) else "1 panel"
+        if not board.composable(fam) or s.get("kind") == "video":
+            panels = "1 panel"
+        elif not composed(s):
+            panels = "kept from source"
+        else:
+            n = len(plan.contract(fam, _preset(fam, device, s.get("size"))))
+            panels = f"{n} panel{'s' if n != 1 else ''} (see below)"
         cls = slot_class(section_type, s)
         rows.append(f"| {s['id']} | {s.get('kind')} | {s.get('role')} | {s.get('size')} | "
                     f"{s.get('natural', '')} | {cls} | {family} | {panels} |")
@@ -341,7 +354,8 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
     parts.append(text_in_image(d.get("text", "none"), records, section_type) + "\n")
     parts.append("## Slots to produce\n")
     parts.append(slots_table(records, section_type, family + (f"/{ground}" if ground != "default" else ""), device) + "\n")
-    composition = composition_section(family, device, sizes=[(s["id"], s.get("size")) for s in records])
+    to_compose = [s for s in records if composed(s)]
+    composition = composition_section(family, device, sizes=[(s["id"], s.get("size")) for s in to_compose]) if to_compose else ""
     if composition:
         parts.append(composition)
         # write one composition-<slot>.yaml per composable slot: the machine
@@ -356,7 +370,7 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
         derived = {"style": d.get("style"), "device": d.get("device"), "text": d.get("text", "none"), "chrome": chrome}
         (run / "sections" / sxx).mkdir(parents=True, exist_ok=True)
         names = []
-        for s in records:
+        for s in to_compose:
             cp = plan.build(family, s.get("size"), preset=preset, labels=labels or None,
                             ground=(ground if ground != "default" else None), slot=s["id"], derived_from=derived)
             slots = LABELS.get((family, cp.get("preset")))
