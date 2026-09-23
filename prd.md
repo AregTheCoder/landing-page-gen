@@ -421,6 +421,12 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   on the next `brief.py` run, and an unedited plan shipped the template's
   placeholder (a blank active row, "HSL" on any adjustment tool).
   (2026-09-23, layered overhaul)
+- Before building a preset from a research proposal, view its exemplars and
+  recount its modal claims. Preset 05's proposal said all 8 type tiles pair a
+  serif or script "Aa" with a sans and every frame has 8 handles; viewing
+  found 5 of 8 tiles sans-only (the tile echoes the card's own fonts) and 4
+  midpoint handles on every frame. That reversed the font decision: two
+  Manrope weights, no bundled serif. (2026-09-23, layered overhaul)
 - **The hybrid exception.** "Chrome is drawn by lp-compose, never a model" is
   relaxed only for a `kinds.MODEL_KINDS` item (brush-mask, applied-mockup,
   face-box — organic or bespoke, undrawable by compose): the manager marks the

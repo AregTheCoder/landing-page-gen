@@ -91,14 +91,25 @@ def fit(im, size, mode="cover", anchor="center"):
     return r.crop((x, y, x + w, y + h))
 
 
-def checkerboard(size, cell):
-    im = Image.new("RGBA", size, CHECKER[0] + (255,))
+def checkerboard(size, cell, tones=CHECKER):
+    a, b = (tuple(t) + (255,) * (4 - len(t)) for t in tones)  # RGB or RGBA; the light editor pair is translucent
+    im = Image.new("RGBA", size, a)
     d = ImageDraw.Draw(im)
     for y in range(0, size[1], cell):
         for x in range(0, size[0], cell):
             if ((x // cell) + (y // cell)) % 2:
-                d.rectangle((x, y, x + cell - 1, y + cell - 1), fill=CHECKER[1] + (255,))
+                d.rectangle((x, y, x + cell - 1, y + cell - 1), fill=b)
     return im
+
+
+def checker_tile(canvas, rect, radius, tones, cell):
+    """A rounded checkerboard tile: the transparency an editor shows behind a
+    cut-out element."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    layer = checkerboard((x1 - x0, y1 - y0), cell, tones)
+    layer.putalpha(ImageChops.multiply(layer.getchannel("A"), rounded_mask(layer.size, radius)))
+    canvas.alpha_composite(layer, (x0, y0))
+    return (x0, y0, x1, y1)
 
 
 def panel(canvas, im, rect, radius, mode="cover", anchor="center", under=None, cell=100):
@@ -218,6 +229,17 @@ def pill_at(canvas, panel_rect, corner, text, style, fnt, pad, inset):
     y0 = py0 + inset if corner[0] == "t" else py1 - inset - h
     fill, colour = STYLES[style]
     return box_text(canvas, (x0, y0, x0 + w, y0 + h), text, fill, colour, h / 2, fnt)
+
+
+def type_tile(canvas, rect, radius, fill, colour, fonts, text="Aa"):
+    """A rounded tile with two type specimens side by side (the left in
+    fonts[0], the right in fonts[1]): an editor's font pairing."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    d = ImageDraw.Draw(canvas)
+    d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=fill)
+    for fx, fnt in zip((0.31, 0.71), fonts):  # the specimens' centres, measured on the corpus tiles
+        d.text((x0 + (x1 - x0) * fx, (y0 + y1) / 2), text, font=fnt, fill=colour, anchor="mm")
+    return (x0, y0, x1, y1)
 
 
 def label(canvas, rect, text, radius, fnt, fill=(28, 28, 28, 255)):

@@ -13,6 +13,9 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 MAGENTA = (225, 30, 224)  # Picsart accent #e01ee0 (was (181,23,170), an off measurement)
 CHECKER = ((58, 58, 60), (42, 42, 44))
+# the finer checker of the template-mockup /editor tile, measured: light (5/8, a
+# translucent grey/white pair, c491d842, a591037a, d4507d92) and dark (219070b9)
+EDITOR_CHECKER = {"light": ((167, 167, 171, 64), (255, 255, 255, 64)), "dark": ((65, 64, 66), (35, 31, 32))}
 
 # panels: name -> rect (x0, y0, x1, y1), optional fit ("cover" | "contain") and
 # under ("checkerboard"). chrome: drawn after the panels except kind "card";
@@ -154,8 +157,8 @@ FAMILIES = {
         # tiles (one magenta accent, not 4 uniform black): geometry from
         # c3461329, b2749949. /black is the same artwork exported on a dark page
         # (a fill override, not a separate drawing). The swatch stripe is the
-        # `palette-card` variant and the selection box the `selection-frame`
-        # variant; the /editor exploded view is deferred (see STANDARD.md).
+        # `palette-card` variant, the selection box the `selection-frame`
+        # variant and the exploded editor canvas the `editor` variant.
         "aspect": (1, 1),
         "ground": {"fill": None},
         "radius": 40,
@@ -198,6 +201,30 @@ FAMILIES = {
                     {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
                     {"id": "select", "kind": "selection-frame", "rect": (980, 250, 1370, 640),
                      "colour": [255, 255, 255], "handles": ["top", "bottom", "left", "right"]},
+                ],
+            },
+            # the exploded editor canvas of the card/poster/menu maker callouts (8
+            # S06-m1 slots: 219070b9 calendar, c491d842 christmas-card, a591037a
+            # coupon, d4507d92 birthday-card, 6aac8086 facebook-post, cf38e144
+            # quote-poster, fc4bbe40 menu, 0a059f15 gift-certificate). The finished
+            # card is `photo`; one of its motifs, background removed, is the square
+            # `cutout` panel (trimmed to its pixels) on a checker tile, framed by a
+            # 3 px selection box with 4 midpoint handles; a type tile sits under it
+            # and a swatch bar spans the foot. Light checker + black frame is the
+            # modal (5/8); dark is `checker.tone: dark` with a white frame (3/8).
+            "editor": {
+                "panels": {
+                    "photo": {"rect": (720, 264, 1336, 1072)},   # the finished card design
+                    "cutout": {"rect": (300, 310, 652, 662), "fit": "contain", "trim": True},
+                },
+                "chrome": [
+                    {"id": "card", "kind": "card", "rect": (720, 264, 1336, 1072), "fill": (43, 20, 90)},
+                    {"id": "checker", "kind": "checker", "rect": (264, 264, 688, 856)},
+                    {"id": "select", "kind": "selection-frame", "at": "cutout", "frac": (-0.04, -0.04, 1.04, 1.04),
+                     "colour": [0, 0, 0], "stroke": 3, "handle": 6},
+                    {"id": "type", "kind": "type-tile", "rect": (264, 888, 688, 1072)},
+                    {"id": "swatch", "kind": "swatch", "rect": (264, 1100, 1336, 1336), "direction": "row",
+                     "colours": [[0, 0, 0], [17, 138, 178], [255, 210, 0], [255, 88, 36]]},  # placeholder; `> chrome:` sets the page's
                 ],
             },
         },
@@ -347,6 +374,7 @@ LABELS = {
                               ("slider 2", ("panel.sliders.1",)), ("slider 3", ("panel.sliders.2",))],
     ("prompt-card", None): [("prompt", ("prompt-text.text",)), ("button", ("generate.text",))],
     ("template-mockup", "palette-card"): [("colours (hex, any number)", ("swatch.colours",))],
+    ("template-mockup", "editor"): [("colours (hex, any number)", ("swatch.colours",))],
     ("vs-two-up", None): [("badge", ("vs.text",))],
 }
 

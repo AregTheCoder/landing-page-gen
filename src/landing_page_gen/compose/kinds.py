@@ -16,11 +16,13 @@ from typing import Callable
 from PIL import ImageColor
 
 from . import draw
+from .families import EDITOR_CHECKER
 
 LAYERS = {"ground": 0, "card": 10, "panel": 20, "chrome": 30, "overlay": 40, "top": 50}
 CHECKER_CELL = 100
 FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96,
-           "panel-title": 44, "panel-label": 34, "tool-pill": 64, "list-row": 48}  # at REF
+           "panel-title": 44, "panel-label": 34, "tool-pill": 64, "list-row": 48,
+           "type-specimen": 112}  # at REF
 
 
 @dataclass
@@ -114,10 +116,28 @@ def _selection_frame(canvas, it, ctx):
     colour = tuple(it.get("colour") or (255, 255, 255))
     if len(colour) == 3:
         colour += (255,)
-    return draw.selection_frame(canvas, rect, colour, stroke=max(1, round(6 * ctx.s)), handle=round(20 * ctx.s),
+    return draw.selection_frame(canvas, rect, colour, stroke=max(1, round(it.get("stroke", 6) * ctx.s)),
+                                handle=round(it.get("handle", 20) * ctx.s),
                                 dashed=it.get("dashed", False), grid=it.get("grid", False),
                                 handles=tuple(it.get("handles", ("top", "bottom", "left", "right"))),
                                 tools=tuple(tuple(t) for t in it.get("tools", ())))
+
+
+def _checker(canvas, it, ctx):
+    """A rounded checkerboard tile, the transparency behind a cut-out element
+    (template-mockup /editor): `tone` light (the modal) or dark."""
+    return draw.checker_tile(canvas, it["rect"], ctx.r, EDITOR_CHECKER[it.get("tone", "light")],
+                             max(1, round(it.get("cell", 22) * ctx.s)))
+
+
+def _type_tile(canvas, it, ctx):
+    """The editor's font-pairing tile: two "Aa" on a black tile in two sans
+    weights, as 5 of the 8 corpus tiles are (the other three echo a serif,
+    script or display face of the card, which compose cannot know)."""
+    fill = tuple(it.get("fill") or (0, 0, 0)) + (255,)
+    colour = tuple(it.get("colour") or (255, 255, 255)) + (255,)
+    return draw.type_tile(canvas, it["rect"], ctx.r, fill, colour,
+                          (ctx.font("type-specimen", 800), ctx.font("type-specimen", 400)))
 
 
 def _badge(canvas, it, ctx):
@@ -213,4 +233,6 @@ KINDS = {
     "text": Kind(_text, text=True),
     "round-badge": Kind(_round_badge, text=True),
     "profile-card": Kind(_profile_card),
+    "checker": Kind(_checker, layer="card"),
+    "type-tile": Kind(_type_tile),
 }

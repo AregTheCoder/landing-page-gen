@@ -153,7 +153,7 @@ def resolve(spec):
             continue
         panels[name] = {"rect": rect(p["rect"]) if p["rect"] else (0, 0, w * SS, h * SS), "fit": o.get("fit", p.get("fit", "cover")),
                         "anchor": o.get("anchor", "center"), "under": p.get("under"), "dim": o.get("dim", p.get("dim")),
-                        "image": spec["_dir"] / o["image"]}
+                        "trim": p.get("trim"), "image": spec["_dir"] / o["image"]}
     # REF-frame boxes a `place:` can anchor to: the canvas and every family panel
     ref_h = round(REF * h / w)
     boxes = {"canvas": (0, 0, REF, ref_h)}
@@ -191,6 +191,9 @@ def resolve(spec):
 
 def _draw_panel(canvas, p, ctx):
     with Image.open(p["image"]) as im:
+        if p.get("trim"):  # a cut-out fitted by its visible pixels, so a frame around the panel hugs it
+            im = im.convert("RGBA")
+            im = im.crop(im.getchannel("A").getbbox() or (0, 0, *im.size))
         draw.panel(canvas, im, p["rect"], ctx.r, p["fit"], p["anchor"], p["under"], round(kinds.CHECKER_CELL * ctx.s))
     if p.get("dim"):
         draw.dim(canvas, p["rect"], ctx.r, p["dim"])

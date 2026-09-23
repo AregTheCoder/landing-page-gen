@@ -91,7 +91,7 @@ def render_skeleton(page, sections):
                 lines.append(f"> attrs: {attrs_line(at)}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
                 lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup | "
-                             "crop-grid | palette-card | selection-frame, "
+                             "crop-grid | palette-card | selection-frame | editor, "
                              "then a colon and the claim this picture demonstrates")
                 lines.append('> chrome: TODO the page strings its layout draws (`lp-compose --describe <family>` '
                              'lists them), e.g. "Seedance 2.5", or none')

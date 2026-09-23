@@ -381,3 +381,29 @@ def test_selection_frame_dashed_and_grid():
     assert any(top) and not all(top), "a dashed edge has gaps"
     assert min(im.getpixel((150, 200))[:3]) > 200 and min(im.getpixel((200, 250))[:3]) > 200, "thirds lines at x=150, y=250"
     assert "close" in draw.ICONS and "arc" in draw.ICONS["rotate"]
+
+
+def test_editor_trims_the_cutout_so_its_frame_hugs_the_motif(tmp_path):
+    # template-mockup /editor: the worker's cut-out motif keeps its wide transparent
+    # margins (remove_bg returns the whole canvas); the panel trims it to its pixels, so
+    # the selection box anchored to the panel frames the motif, not empty checker
+    from landing_page_gen.compose import plan
+    (tmp_path / "steps").mkdir()
+    Image.new("RGB", (616, 808), (43, 20, 90)).save(tmp_path / "steps" / "card.png")
+    motif = Image.new("RGBA", (1000, 1000), (0, 0, 0, 0))
+    motif.paste((225, 30, 224, 255), (400, 380, 600, 620))  # a 200x240 motif in a 1000px canvas
+    motif.save(tmp_path / "steps" / "motif.png")
+    p = plan.build("template-mockup", "800x800", preset="editor", slot="S06-m1")
+    assert [x["panel"] for x in p["panels"]] == ["photo", "cutout"] and plan.validate(p) == []
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "steps/card.png", "cutout": "steps/motif.png"})))
+    lay = cli.resolve(cli.load_spec(tmp_path / "s.yaml"))
+    img, drawn = cli.compose(lay)
+    x0, y0, x1, y1 = (v / cli.SS for v in lay["panels"]["cutout"]["rect"])
+    rgb = img.convert("RGB")
+    ys = [y for x in range(int(x0), int(x1)) for y in range(int(y0) - 4, int(y1) + 4)
+          if (lambda c: abs(c[0] - 225) < 10 and c[1] < 60 and abs(c[2] - 224) < 10)(rgb.getpixel((x, y)))]
+    assert ys and max(ys) - min(ys) >= 0.95 * (y1 - y0) - 2, "contain fills the panel's height once trimmed"
+    fx0, fy0, fx1, fy1 = drawn["select"]  # drawn boxes are in output pixels
+    assert x0 - 20 < fx0 < x0 and y0 - 20 < fy0 < y0 and x1 < fx1 < x1 + 20 and y1 < fy1 < y1 + 20, \
+        "the frame sits just outside the panel"
+    assert img.getpixel((round(drawn["checker"][0]) + 4, round(y1 + 20)))[3] < 128, "the light checker is translucent"
