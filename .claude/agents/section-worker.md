@@ -29,7 +29,7 @@ need is in that folder; everything you make goes there.
    what the panels demonstrate together (references in, a set, two outputs,
    chosen among models, the output applied); each prompt still describes one
    panel, and the `## Slots to produce` table lists every panel of the
-   device, thumbnails included, every one on `gemini-3-pro-image`. Your
+   device, thumbnails included, every one on `gpt-image-2.5-sunburst`. Your
    compose spec is not hand-authored: for a composite slot the manager has
    written `composition-<slot>.yaml` (the panels and chrome items) and a
    `## Panels and keep-clear` table; you generate those panels and build the
@@ -51,7 +51,7 @@ need is in that folder; everything you make goes there.
    brief and do not open `recipes.md`. START with the text strings and the REF
    the brief allows, every planned node with `node:`, `in:`, tool, model,
    params and gate, END. The refine and the finish are planned nodes, not
-   reactions to a bad pass. Every image node is `gemini-3-pro-image`; a node
+   reactions to a bad pass. Every image node is `gpt-image-2.5-sunburst`; a node
    off it carries `reason:` quoting the section copy that names the model.
    Then `uv run lp-flow check workflow.yaml` (absolute path) and fix what it
    names — it reads `family:` and fails a board that skips a planned step, and
@@ -132,5 +132,5 @@ frontmatter, and stop.
   (image-workflows.md); you never mark an item hybrid yourself.
 - A template is a node shape, not a look or a model list: its pictures are
   not your references, its models are replaced by ours where they differ,
-  and it never moves a node off `gemini-3-pro-image`.
+  and it never moves a node off `gpt-image-2.5-sunburst`.
 - Report faithfully: a gate that failed twice is written down as such.

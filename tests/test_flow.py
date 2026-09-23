@@ -13,7 +13,7 @@ def blank_board(**over):
         "slot": "S03-m1", "kind": "image", "board": "blank", "pattern": "anchored",
         "start": {"inputs": [{"id": "ref-hero", "kind": "ref", "url": "https://x/hero.png"}], "text": []},
         "steps": [
-            {"id": 1, "node": "image", "in": ["start"], "tool": "picsart_generate", "model": "gemini-3-pro-image",
+            {"id": 1, "node": "image", "in": ["start"], "tool": "picsart_generate", "model": "gpt-image-2.5-sunburst",
              "params": {"prompt": PROMPT, "aspectRatio": "4:3", "count": 1}, "quoted_credits": 5,
              "gate": "one cup, centred", "status": "done", "note": "one cup", "outputs": ["https://x/1.png"], "passed": "https://x/1.png"},
             {"id": 2, "node": "edit", "in": [1], "tool": "picsart_generate", "model": "picsart-qwen-image-edit",
@@ -51,7 +51,7 @@ def test_enhance_via_generate_is_accepted_only_for_upscale_models():
     en = doc["steps"][2]
     en["tool"], en["model"] = "picsart_generate", "topaz-upscale-image"  # Drive-403 workaround
     assert board.check(doc) == []
-    en["model"] = "gemini-3-pro-image"  # a plain generate is NOT an enhance
+    en["model"] = "gpt-image-2.5-sunburst"  # a plain generate is NOT an enhance
     problems = board.check(doc)
     assert any("enhance node on picsart_generate" in p for p in problems)
     # the message names the workaround, so a worker need not read board.py source
@@ -65,7 +65,7 @@ def board_of(family, kinds):
     for i, k in enumerate(kinds, 1):
         tool = next(iter(board.NODE_ENGINES[k]), None)
         steps.append({"id": i, "node": k, "in": ["start"] if i == 1 else [i - 1],
-                      "tool": tool, "model": "gemini-3-pro-image" if k == "image" else None,
+                      "tool": tool, "model": "gpt-image-2.5-sunburst" if k == "image" else None,
                       "params": {"prompt": PROMPT} if k == "image" else {}, "quoted_credits": 5,
                       "gate": "ok", "status": "done"})
     return {"slot": "S01-m1", "board": "blank", "family": family, "steps": steps,
@@ -196,7 +196,7 @@ def test_legacy_record_is_inferred():
 def test_sheet_renders_graph_and_node_rows(tmp_path):
     text = board.sheet([blank_board()])
     assert "flowchart LR" in text and "start --> n1" in text and "n1 --> n2" in text and "n2 --> end_" in text
-    assert "| 1 | image | picsart_generate | gemini-3-pro-image | start |" in text
+    assert "| 1 | image | picsart_generate | gpt-image-2.5-sunburst | start |" in text
     assert "| 2 | edit | picsart_generate | picsart-qwen-image-edit | 1 |" in text
     wf = tmp_path / "workflow.yaml"
     wf.write_text(yaml.safe_dump(blank_board()))

@@ -90,21 +90,26 @@ def test_labels_fill_the_preset_slots_in_order_and_never_touch_the_template(tmp_
 
 
 def test_validate_refuses_labels_the_layout_cannot_draw():
-    two = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Seedance 2.5", "Kling"])
-    assert any("draws 1 page string(s) (active row)" in e for e in plan.validate(two))
+    two = plan.build("panel-overlay", "800x600", preset="hero", labels=["HSL", "Hue"])
+    assert any("draws 1 page string(s) (tool name)" in e for e in plan.validate(two))
     assert any("must be none" in e for e in plan.validate(plan.build("dark-composite", "720x720", labels=["4K"])))
 
 
 def test_every_text_field_a_preset_draws_is_a_label_slot():
     # a text field with no `> chrome:` slot is a placeholder no skeleton line can change
-    # (crop-frame's bracket label was one); a slot naming a field that is gone fills nothing
+    # (crop-frame's bracket label was one); a slot naming a field that is gone fills nothing.
+    # Colours taken from a panel (`{from: photo}`) need no slot, but may have one (a page hex override);
+    # a chip left blank in the template (items[N].text == "") is a page string.
     for fam, f in families.FAMILIES.items():
         for preset in (None, *(f.get("variants") or {})):
-            drawn = set()
+            drawn, derived = set(), set()
             for it in cli.template(fam, preset)["chrome"]:
-                drawn |= {f"{it['id']}.{k}" for k in ("text", "label", "title", "active_text", "colours") if k in it}
+                drawn |= {f"{it['id']}.{k}" for k in ("text", "label", "title", "active_text", "colours", "rows_text", "name", "caption", "model")
+                          if k in it and not isinstance(it[k], dict)}
+                derived |= {f"{it['id']}.colours" for k in ("colours",) if isinstance(it.get(k), dict)}
                 drawn |= {f"{it['id']}.sliders.{i}" for i in range(len(it.get("sliders") or []))}
-            assert drawn == {t for _, ts in families.LABELS.get((fam, preset), []) for t in ts}, (fam, preset)
+                drawn |= {f"{it['id']}.items.{i}" for i, x in enumerate(it.get("items") or []) if x.get("text") == ""}
+            assert drawn == {t for _, ts in families.LABELS.get((fam, preset), []) for t in ts} - derived, (fam, preset)
 
 
 def test_panel_overlay_cards_draw_the_panel_and_the_hero_the_pill_never_both():
@@ -213,7 +218,7 @@ def test_hex_swatch_colours_and_a_moved_selection_box_render(tmp_path):
 
 
 def test_build_then_spec_from_plan_round_trips(tmp_path):
-    p = plan.build("dark-composite", "720x720", preset="model-picker",
+    p = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Recraft V4"],
                    slot="S07-m1", derived_from={"style": "dark-composite", "device": "model-picker"})
     assert p["family"] == "dark-composite" and p["preset"] == "model-picker" and p["size"] == "720x720"
     assert {panel["panel"] for panel in p["panels"]} == {"photo", "thumb-a", "thumb-b"}
@@ -254,3 +259,34 @@ def test_slot_size_selects_the_variant_whose_aspect_fits(tmp_path, size, preset,
     png = tmp_path / "out.png"
     assert cli.main([str(spec), "--out", str(png)]) == 0
     assert Image.open(png).size == tuple(int(v) for v in size.split("x"))
+
+
+def test_a_picker_names_the_page_model_among_same_kind_peers_and_is_never_blank():
+    blank = plan.build("dark-composite", "720x720", preset="model-picker")
+    assert any("active_text is empty" in e for e in plan.validate(blank)), "composition-1's grey rows"
+    p = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Recraft V4 Styles Pro"])
+    rows = next(it for it in p["items"] if it["id"] == "list")["rows_text"]
+    assert len(rows) == 3 and not any(r.startswith("Recraft") for r in rows), "peers from other makers"
+    assert plan.validate(p) == []
+    video = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Veo 3.1"])
+    assert "Sora 2" in next(it for it in video["items"] if it["id"] == "list")["rows_text"], "a video model's peers are video models"
+    named = plan.build("dark-composite", "720x720", preset="model-picker", labels=["Recraft V4", "Flux 2 Pro"])
+    assert next(it for it in named["items"] if it["id"] == "list")["rows_text"][0] == "Flux 2 Pro", "a named row is kept"
+
+
+def test_blank_chrome_is_refused_and_derived_chrome_renders_from_the_panel(tmp_path):
+    tile = {"id": "t", "kind": "tile", "rect": [0, 0, 10, 10]}
+    assert plan.blank_chrome(tile) and not plan.blank_chrome({**tile, "icon": "crop"})
+    assert plan.blank_chrome({"id": "p", "kind": "profile-card", "rect": [0, 0, 10, 10], "name": "a", "caption": "b"})
+    bad = plan.build("template-mockup", "720x720")
+    bad["items"][-1]["colours"] = {"from": "ghost"}
+    assert any("from panel 'ghost'" in e for e in plan.validate(bad))
+    # the swatch takes the photo's own colours at render
+    p = plan.build("template-mockup", "720x720")
+    im = Image.new("RGB", (400, 400), (230, 40, 40))
+    im.paste((20, 60, 200), (0, 0, 200, 400))
+    im.save(tmp_path / "p.png")
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "p.png"})))
+    layout = cli.resolve(cli.load_spec(tmp_path / "s.yaml"))
+    swatch = next(it for it in layout["chrome"] if it["id"] == "swatch")
+    assert {tuple(c) for c in swatch["colours"]} >= {(230, 40, 40), (20, 60, 200)}

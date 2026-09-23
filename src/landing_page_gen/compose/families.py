@@ -7,7 +7,7 @@ the panel images; the family supplies the layout and the chrome."""
 import math
 
 REF = 1600
-RATIOS = ("1:1", "16:9", "9:16", "3:4", "4:3", "2:3", "21:9")  # gemini-3-pro-image
+RATIOS = ("1:1", "3:2", "2:3", "16:9", "9:16", "4:3", "3:4")  # gpt-image-2.5-sunburst (no 21:9: wide panels generate at 16:9 and crop)
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -169,7 +169,7 @@ FAMILIES = {
             {"id": "card", "kind": "card", "rect": (556, 152, 1444, 1448), "fill": (43, 20, 90)},
             {"id": "tile-1", "kind": "tile", "rect": (152, 152, 532, 532), "icon": "sparkle", "fill": MAGENTA},
             {"id": "tile-2", "kind": "tile", "rect": (152, 560, 532, 940), "icon": "crop", "fill": (0, 0, 0)},
-            {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
+            {"id": "swatch", "kind": "swatch", "rect": (152, 968, 532, 1348), "colours": {"from": "photo", "n": 3}},
         ],
         "variants": {
             # measured small-tile modal (8 S08 cards; 6 byte-identical): swatch stripe
@@ -183,7 +183,7 @@ FAMILIES = {
                 "chrome": [
                     {"id": "card", "kind": "card", "rect": (532, 300, 1307, 1299), "fill": (43, 20, 90)},
                     {"id": "swatch", "kind": "swatch", "rect": (290, 292, 481, 843),
-                     "colours": [[0, 0, 0], [228, 40, 40], [245, 245, 245]]},  # placeholder; manager overrides
+                     "colours": {"from": "photo", "n": 3}},  # the card's palette; `> chrome:` hex colours override
                     {"id": "tile-accent", "kind": "tile", "rect": (290, 884, 481, 1075), "icon": "sparkle", "fill": MAGENTA},
                     {"id": "tile-tool", "kind": "tile", "rect": (290, 1114, 481, 1305), "icon": "crop", "fill": (16, 16, 16)},
                 ],
@@ -198,7 +198,7 @@ FAMILIES = {
                     {"id": "card", "kind": "card", "rect": (556, 152, 1444, 1448), "fill": (43, 20, 90)},
                     {"id": "tile-1", "kind": "tile", "rect": (152, 152, 532, 532), "icon": "sparkle", "fill": MAGENTA},
                     {"id": "tile-2", "kind": "tile", "rect": (152, 560, 532, 940), "icon": "crop", "fill": (0, 0, 0)},
-                    {"id": "swatch", "kind": "tile", "rect": (152, 968, 532, 1348), "fill": (90, 90, 96)},
+                    {"id": "swatch", "kind": "swatch", "rect": (152, 968, 532, 1348), "colours": {"from": "photo", "n": 3}},
                     {"id": "select", "kind": "selection-frame", "rect": (980, 250, 1370, 640),
                      "colour": [255, 255, 255], "handles": ["top", "bottom", "left", "right"]},
                 ],
@@ -224,7 +224,7 @@ FAMILIES = {
                      "colour": [0, 0, 0], "stroke": 3, "handle": 6},
                     {"id": "type", "kind": "type-tile", "rect": (264, 888, 688, 1072)},
                     {"id": "swatch", "kind": "swatch", "rect": (264, 1100, 1336, 1336), "direction": "row",
-                     "colours": [[0, 0, 0], [17, 138, 178], [255, 210, 0], [255, 88, 36]]},  # placeholder; `> chrome:` sets the page's
+                     "colours": {"from": "photo", "n": 4}},  # the card's palette; `> chrome:` hex colours override
                 ],
             },
         },
@@ -241,11 +241,11 @@ FAMILIES = {
             # card sits right, inset 150. Evidence: 21cdafd9, 8031c225, d5d56eb0,
             # f57c774f, bd014004. tile-1 = a tool glyph (#1c1c1e); tile-2 = the
             # page's ACTIVE tool, a MAGENTA accent (8/13 assets carry one); tile-3
-            # = a flat colour-swatch tile. No "4K" chip — a resolution/format chip
+            # = a colour-swatch tile in the photo's own palette. No "4K" chip — a resolution/format chip
             # is in 0/13 of the current population (opt-in via `chrome: {chip}`).
             {"id": "tile-1", "kind": "tile", "rect": (150, 150, 530, 530), "icon": "sparkle", "fill": (28, 28, 30)},
             {"id": "tile-2", "kind": "tile", "rect": (150, 570, 530, 950), "icon": "crop", "fill": MAGENTA},
-            {"id": "tile-3", "kind": "tile", "rect": (150, 990, 530, 1450), "fill": (90, 90, 96)},
+            {"id": "tile-3", "kind": "swatch", "rect": (150, 990, 530, 1450), "colours": {"from": "photo", "n": 3}},
         ],
         # Devices (`variant:` in the spec; `> device:` in the skeleton): the panel
         # arrangement that tells the section's story. A key a variant omits is
@@ -265,7 +265,8 @@ FAMILIES = {
                     {"id": "chip", "kind": "label", "rect": (0, 420, 375, 560), "text": "4K"},
                 ],
             },
-            # chosen over other models: a dark list card (blank rows, one highlighted) above two thumbnails, the output right
+            # chosen over other models: a dark list card (the page's model highlighted among
+            # same-kind siblings, each with its maker mark) above two thumbnails, the output right
             "model-picker": {
                 "panels": {
                     "photo": {"rect": (700, 0, 1600, 1600)},
@@ -273,7 +274,8 @@ FAMILIES = {
                     "thumb-b": {"rect": (0, 1147, 667, 1600)},
                 },
                 "chrome": [
-                    {"id": "list", "kind": "list-panel", "rect": (0, 72, 667, 576), "rows": 4, "active": 1, "active_text": ""},
+                    {"id": "list", "kind": "list-panel", "rect": (0, 72, 667, 576), "rows": 4, "active": 1, "active_text": "",
+                     "rows_text": []},  # `> chrome:` names the page's model; plan.build fills the siblings
                 ],
             },
             # two outputs of one style side by side: panel-a top left with the mark tile under it, panel-b right
@@ -327,9 +329,97 @@ FAMILIES = {
         },
         "chrome": [
             {"id": "prompt", "kind": "card", "rect": (100, 100, 620, 1500), "fill": (30, 30, 32)},
-            {"id": "prompt-text", "kind": "text", "rect": (160, 200, 560, 640), "text": ""},
+            {"id": "prompt-text", "kind": "text", "rect": (160, 200, 560, 1260), "text": "", "wrap": True, "font": "pill"},
             {"id": "generate", "kind": "pill", "rect": (160, 1320, 560, 1440), "text": "Generate", "style": "solid-light"},
         ],
+        # The model-page language (measured on ai-models--gpt-image-2-5-sunburst,
+        # 2026-09-23): the prompt that made the picture in a dark card fading to an
+        # ellipsis, the model's mark in a tile, the output dominant, black ground,
+        # 32 px corners. One variant per original; `> chrome:` gives the prompt
+        # (the real generation prompt's opening) and the model.
+        "variants": {
+            # S03 04-2a8d68c7: mark tile, prompt card and a detail crop of the output
+            # stacked left, the output right
+            "column": {
+                "radius": 32,
+                "panels": {
+                    "photo": {"rect": (584, 0, 1600, 1600)},
+                    "detail": {"rect": (0, 1166, 550, 1600), "detail_of": "photo", "frac": (0.30, 0.52, 0.78, 0.74)},
+                },
+                "chrome": [
+                    {"id": "mark", "kind": "mark-tile", "rect": (0, 0, 550, 430), "model": ""},
+                    {"id": "prompt", "kind": "prompt-text", "rect": (0, 470, 550, 1130), "text": "", "pad": 44, "font": "prompt-md"},
+                ],
+            },
+            # S01 04aabc52 (hero): the output between two cropped neighbours, the mark
+            # tile and a wide prompt card beneath
+            "strip": {
+                "radius": 32,
+                "panels": {
+                    "peek-a": {"rect": (0, 0, 316, 1248), "anchor": "right"},
+                    "photo": {"rect": (350, 0, 1250, 1248)},
+                    "peek-b": {"rect": (1282, 0, 1600, 1248), "anchor": "left"},
+                },
+                "chrome": [
+                    {"id": "mark", "kind": "mark-tile", "rect": (0, 1282, 316, 1600), "model": "", "scale": 0.56},
+                    {"id": "prompt", "kind": "prompt-text", "rect": (350, 1282, 1600, 1600), "text": "", "pad": 60, "font": "prompt-md"},
+                ],
+            },
+            # S04 9a903c68: the design left, the design applied right, the prompt as
+            # its caption
+            "caption": {
+                "radius": 32,
+                "panels": {
+                    "photo": {"rect": (0, 0, 665, 1600)},
+                    "applied": {"rect": (700, 0, 1600, 1250)},
+                },
+                "chrome": [
+                    {"id": "prompt", "kind": "prompt-text", "rect": (700, 1282, 1600, 1600), "text": "", "pad": 60, "font": "prompt-md"},
+                ],
+            },
+            # S05 bd1f5ad3: the output above a prompt card that carries the
+            # generator's settings chips (model, ratio, count, quality, Enrich)
+            "toolbar": {
+                "radius": 32,
+                "panels": {
+                    "photo": {"rect": (0, 0, 1600, 1120)},
+                },
+                "chrome": [
+                    {"id": "prompt", "kind": "prompt-text", "rect": (0, 1080, 1600, 1600), "text": "", "pad": 56, "max_lines": 3, "font": "prompt-md"},
+                    {"id": "toolbar", "kind": "chip-bar", "rect": (56, 1456, 1544, 1544), "group": False, "items": [
+                        {"text": "", "mark": True, "caret": True}, {"text": "4:3", "caret": True},
+                        {"text": "1 image", "caret": True}, {"text": "high", "caret": True}, {"text": "Enrich", "accent": True}]},
+                ],
+            },
+            # S06 a6439ac4: the output above the generator's quality and ratio bars,
+            # the settings it was made with lifted (the chips are the model's own
+            # options, so the bar never shows a setting it does not have)
+            "settings": {
+                "radius": 32,
+                "panels": {
+                    "photo": {"rect": (0, 0, 1600, 1360)},
+                },
+                "chrome": [
+                    {"id": "quality", "kind": "chip-bar", "rect": (0, 1400, 665, 1600), "font": "chip-lg",
+                     "items": [{"text": "high", "active": True}, {"text": "max"}]},
+                    {"id": "ratios", "kind": "chip-bar", "rect": (700, 1400, 1600, 1600), "font": "chip-lg",
+                     "items": [{"text": "1:1"}, {"text": "4:3", "active": True}, {"text": "3:4"}, {"text": "16:9"}, {"text": "2:3"}]},
+                ],
+            },
+            # S07 298b8931 (use-case, 1060x504): prompt card over the mark tile left,
+            # the output right
+            "wide": {
+                "aspect": (21, 10),
+                "radius": 32,
+                "panels": {
+                    "photo": {"rect": (728, 24, 1576, 737)},
+                },
+                "chrome": [
+                    {"id": "prompt", "kind": "prompt-text", "rect": (24, 24, 710, 516), "text": "", "font": "prompt-sm", "pad": 48},
+                    {"id": "mark", "kind": "mark-tile", "rect": (24, 532, 710, 737), "model": "", "scale": 0.62},
+                ],
+            },
+        },
     },
     # two outputs of one prompt, side by side, a round VS mark on the seam
     # (compare-models cards). Model pills and size chips are a later variant.
@@ -347,7 +437,8 @@ FAMILIES = {
     },
     # the result shown "in use": the source photo on the left, a mock profile /
     # social card built from it on the right (7a980105 background-remover S08).
-    # The card is placeholder chrome — never a real network's layout or names.
+    # The card is generic chrome — never a real network's layout — carrying the
+    # photo, and the account name and caption the page's `> chrome:` gives.
     "mockup-card": {
         "aspect": (1, 1),
         "ground": {"fill": BLACK},
@@ -356,7 +447,8 @@ FAMILIES = {
             "photo": {"rect": (80, 120, 760, 1480)},
         },
         "chrome": [
-            {"id": "post", "kind": "profile-card", "rect": (820, 120, 1520, 1480), "fill": (30, 30, 32)},
+            {"id": "post", "kind": "profile-card", "rect": (820, 120, 1520, 1480), "fill": (30, 30, 32), "image": {"from": "photo"},
+             "name": "", "caption": ""},
         ],
     },
 }
@@ -380,14 +472,21 @@ LABELS = {
     ("cutout-checkerboard", None): [("button", ("button.text",))],
     ("cutout-checkerboard", "selection-frame"): [("button", ("button.text",))],
     ("dark-composite", "reference-thumbs"): [("chip", ("chip.text",))],
-    ("dark-composite", "model-picker"): [("active row", ("list.active_text",))],
+    ("dark-composite", "model-picker"): [("active row", ("list.active_text",)), ("other rows", ("list.rows_text",))],
     ("panel-overlay", None): [("tool name", ("panel.title",)), ("slider 1", ("panel.sliders.0",)),
                               ("slider 2", ("panel.sliders.1",)), ("slider 3", ("panel.sliders.2",))],
     ("panel-overlay", "hero"): [("tool name", ("tool-pill.text",))],
     ("prompt-card", None): [("prompt", ("prompt-text.text",)), ("button", ("generate.text",))],
+    ("prompt-card", "column"): [("prompt", ("prompt.text",)), ("model", ("mark.model",))],
+    ("prompt-card", "strip"): [("prompt", ("prompt.text",)), ("model", ("mark.model",))],
+    ("prompt-card", "caption"): [("prompt", ("prompt.text",))],
+    ("prompt-card", "toolbar"): [("prompt", ("prompt.text",)), ("model", ("toolbar.items.0",))],
+    ("prompt-card", "settings"): [],
+    ("prompt-card", "wide"): [("prompt", ("prompt.text",)), ("model", ("mark.model",))],
     ("template-mockup", "palette-card"): [("colours (hex, any number)", ("swatch.colours",))],
     ("template-mockup", "editor"): [("colours (hex, any number)", ("swatch.colours",))],
     ("vs-two-up", None): [("badge", ("vs.text",))],
+    ("mockup-card", None): [("account name", ("post.name",)), ("caption", ("post.caption",))],
 }
 
 

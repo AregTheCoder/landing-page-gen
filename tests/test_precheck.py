@@ -19,7 +19,7 @@ def make_run(tmp_path, count=1, spent=5, with_preflight=True, final_exists=True,
     if final_exists:
         (sec / "steps" / "S03-m1-1-1.png").write_bytes(b"x")
     (sec / "workflow.yaml").write_text(
-        "slot: S03-m1\nsteps:\n  - id: 1\n    tool: picsart_generate\n    model: gemini-3-pro-image\n"
+        "slot: S03-m1\nsteps:\n  - id: 1\n    tool: picsart_generate\n    model: gpt-image-2.5-sunburst\n"
         f"    params: {{prompt: '{PROMPT}', aspectRatio: '4:3', count: {count}}}\n    quoted_credits: 5\n"
         f"    gate: 'one cup, centred'\n    status: done\n    note: '{note}'\n"
         f"final: {{url: x, local: steps/S03-m1-1-1.png}}\ncredits: {{quoted: 5, spent: {spent}}}\n")
@@ -27,10 +27,10 @@ def make_run(tmp_path, count=1, spent=5, with_preflight=True, final_exists=True,
     (sec / "flow.md").write_text("# Flow board\n")
     rows = []
     if with_preflight:
-        rows.append({"tool": "picsart_preflight", "model": "gemini-3-pro-image",
-                     "params": {"model": "gemini-3-pro-image", "params": {"prompt": PROMPT}}, "quoted_credits": 5})
-    rows.append({"tool": "picsart_generate", "model": "gemini-3-pro-image",
-                 "params": {"model": "gemini-3-pro-image", "prompt": PROMPT}, "quoted_credits": 5})
+        rows.append({"tool": "picsart_preflight", "model": "gpt-image-2.5-sunburst",
+                     "params": {"model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT}}, "quoted_credits": 5})
+    rows.append({"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst",
+                 "params": {"model": "gpt-image-2.5-sunburst", "prompt": PROMPT}, "quoted_credits": 5})
     (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
     return run
 
@@ -49,7 +49,7 @@ def test_every_paperwork_problem_is_named(tmp_path):
 def test_a_failed_step_rerun_with_the_same_prompt_counts_its_ledger_rows_once(tmp_path):
     run = make_run(tmp_path)
     wf = run / "sections" / "S03" / "workflow.yaml"
-    wf.write_text(wf.read_text().replace("steps:\n", "steps:\n  - id: 0\n    tool: picsart_generate\n    model: gemini-3-pro-image\n"
+    wf.write_text(wf.read_text().replace("steps:\n", "steps:\n  - id: 0\n    tool: picsart_generate\n    model: gpt-image-2.5-sunburst\n"
                                          f"    params: {{prompt: '{PROMPT}', aspectRatio: '4:3', count: 1}}\n    quoted_credits: 5\n"
                                          "    gate: 'one cup, centred'\n    status: failed\n    note: 'failure_space_limit_reached, not charged'\n"))
     assert precheck.check(run, "S03") == [], "the ledger holds one paid row for this prompt and the record says 5"
@@ -178,11 +178,11 @@ def test_credits_reconcile_by_url_not_prompt(tmp_path):
     run = make_run(tmp_path)  # step already: quoted 5, credits.spent 5, done
     # two paid rows with the SAME prompt but different output urls (a reworked node)
     rows = [
-        {"tool": "picsart_preflight", "model": "gemini-3-pro-image",
-         "params": {"model": "gemini-3-pro-image", "params": {"prompt": PROMPT}}, "quoted_credits": 5},
-        {"tool": "picsart_generate", "model": "gemini-3-pro-image", "params": {"prompt": PROMPT},
+        {"tool": "picsart_preflight", "model": "gpt-image-2.5-sunburst",
+         "params": {"model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT}}, "quoted_credits": 5},
+        {"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT},
          "urls": ["u-old"], "quoted_credits": 5},
-        {"tool": "picsart_generate", "model": "gemini-3-pro-image", "params": {"prompt": PROMPT},
+        {"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT},
          "urls": ["u-final"], "quoted_credits": 5}]
     (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
     # the board kept only the final url as its step output; spent stays 5

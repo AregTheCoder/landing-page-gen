@@ -34,7 +34,7 @@ that it wires, then execute. Read only the companion you need:
   check` reads `family:` and fails a board that skips a planned step.
 - Paid calls only through the `b05f6314` tools, only after
   `picsart_preflight` on the same model. The credit guard denies otherwise.
-- Every image node is `gemini-3-pro-image` (Nano Banana Pro); a video node
+- Every image node is `gpt-image-2.5-sunburst` (GPT Image 2.5 Sunburst); a video node
   is `seedance-2.5` with `seedance-2.0-mini` as draft. The one exception is
   truthfulness: an image whose section copy explicitly names the model that
   generated it is made with that model, the copy quoted in the node's

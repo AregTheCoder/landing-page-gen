@@ -21,7 +21,7 @@ import yaml
 from ..compose import kinds as _kinds
 from ..compose.families import FAMILIES as _COMPOSE_FAMILIES
 
-PRO_IMAGE = "gemini-3-pro-image"
+PRO_IMAGE = "gpt-image-2.5-sunburst"  # the default image model (was gemini-3-pro-image until 2026-09-23)
 BOARDS = ("blank", "template")
 # Absolute so `find_templates`/`load_templates` resolve the catalogue whatever
 # the cwd (a hook or a Bash `cd` used to silently read `[]`).
@@ -296,8 +296,53 @@ def hybrid_node_problems(s, sid, kind):
     return out
 
 
-def check(doc):
-    """Problems with one slot's board; empty when it wires."""
+# nodes whose output is a model's picture (a cutout, an upscale, a frame grab or
+# the compose step keep the picture's authorship; these make a new one)
+GENERATIVE = ("image", "edit", "background", "video")
+
+
+def attribution_problems(doc, required):
+    """An image a page presents as a model's output must be that model's
+    (`models.made_by`, written to the section's made-by.yaml). For each
+    attributed panel, the node that makes it (`panel: <name>`) and every
+    generative node upstream of it must run the required model; for a slot with
+    no composite ('*'), every generative node must. A required model of "no: ..."
+    is a slot that cannot be generated truthfully at all."""
+    slot = doc.get("slot", "?")
+    steps = nodes(doc)
+    by_id = {s.get("id"): s for s in steps}
+    out = []
+
+    def lineage(s, seen=None):
+        seen = seen if seen is not None else set()
+        if s.get("id") in seen:
+            return []
+        seen.add(s.get("id"))
+        return [s] + [x for up in s["in"] if up in by_id for x in lineage(by_id[up], seen)]
+
+    for panel, req in (required or {}).items():
+        model, because = req.get("model") or "", req.get("because", "")
+        if model.startswith("no:"):
+            out.append(f"{slot}: {panel} cannot be generated truthfully ({model[3:].strip()}); {because}")
+            continue
+        if panel == "*":
+            chain = steps
+        else:
+            makers = [s for s in steps if s.get("panel") == panel]
+            if not makers:
+                out.append(f"{slot}: no node marks `panel: {panel}`, which must be {model}'s output ({because})")
+                continue
+            chain = [x for m in makers for x in lineage(m)]
+        for s in chain:
+            if s["node"] in GENERATIVE and s.get("model") != model:
+                out.append(f"{slot} node {s.get('id')}: {s['node']} on {s.get('model')}, but {panel if panel != '*' else 'the slot'} "
+                           f"must be {model}'s output ({because})")
+    return out
+
+
+def check(doc, required=None):
+    """Problems with one slot's board; empty when it wires. `required` is the
+    slot's entry of made-by.yaml (see `attribution_problems`)."""
     slot = doc.get("slot", "?")
     problems = []
     board = doc.get("board", "blank")
@@ -336,7 +381,8 @@ def check(doc):
         for up in s["in"]:
             if up != "start" and up not in seen:
                 problems.append(f"{sid}: fed by node {up!r}, which is not an earlier node or start")
-        if kind == "image" and s.get("model") != PRO_IMAGE and not (s.get("reason") or "").strip():
+        attributed = s.get("model") in {r.get("model") for r in (required or {}).values()}
+        if kind == "image" and s.get("model") != PRO_IMAGE and not attributed and not (s.get("reason") or "").strip():
             problems.append(f"{sid}: image node on {s.get('model')} without a reason quoting the copy that names it")
         if kind == "video":
             problems += video_problems(s, sid, seen, drafted)
@@ -347,12 +393,20 @@ def check(doc):
     if "final" not in doc:
         problems.append(f"{slot}: no END node (final:)")
     problems += recipe_problems(doc)
+    problems += attribution_problems(doc, required)
     return problems
+
+
+def made_by_file(folder):
+    """The section's made-by.yaml ({slot: {panel: {model, because}}}), or {}."""
+    path = Path(folder) / "made-by.yaml"
+    return (yaml.safe_load(path.read_text()) or {}) if path.exists() else {}
 
 
 def check_file(path):
     docs = [d for d in yaml.safe_load_all(Path(path).read_text()) if d]
-    return [p for d in docs for p in check(d)]
+    required = made_by_file(Path(path).parent)
+    return [p for d in docs for p in check(d, required.get(d.get("slot")))]
 
 
 def _short(text, n=90):

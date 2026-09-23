@@ -10,9 +10,9 @@ day, audio off); re-quote before relying on them.
 
 | Step | Tool | Model | Key params | Credits |
 |---|---|---|---|---|
-| Generate image (default) | `picsart_generate` | `gemini-3-pro-image` | `prompt`, `aspectRatio` (1:1 16:9 9:16 3:4 4:3 2:3 21:9), `resolution` 1K/2K/4K, `count` 1/2/4/6/8/10, `imageUrls` ≤14 | 5 (1K/2K), 8 (4K), per image |
+| Generate image (default) | `picsart_generate` | `gpt-image-2.5-sunburst` | `prompt`, `aspectRatio` (1:1 3:2 2:3 16:9 9:16 4:3 3:4), `quality` low/medium/high/xhigh/max (default high), `background` opaque/transparent, `count` 1, `imageUrls` ≤16, `saveToDrive: false` | 1 (medium), 2 (high), 7 (max), per image (preflight 2026-09-23) |
 | Only when the image's own page copy names this model as its source | `picsart_generate` | `gemini-3.1-flash-image` | same; adds 4:5 5:4 3:2 ratios | 3 |
-| Refine with references (i2i) | `picsart_generate` | `gemini-3-pro-image` | `imageUrls: [<hero or previous step>]` + prompt describing the change | 5 |
+| Refine with references (i2i) | `picsart_generate` | `gpt-image-2.5-sunburst` | `imageUrls: [<hero or previous step>]` + prompt describing the change | 2 (high) |
 | Targeted edit | `picsart_generate` | `picsart-qwen-image-edit` | `imageUrls: [<input>]`, `prompt` ("remove X", "swap Y", "restyle Z") | 4 |
 | Replace background | `picsart_change_bg` | `recraftv3-replace-bg` | `image`, `prompt` for the new backdrop | 2 |
 | Cutout | `picsart_remove_bg` | `picsart-sod-v8-2` | `image`, `outputFormat: png` | 0 |
@@ -45,9 +45,9 @@ The `node:` a step carries in `workflow.yaml` and the engine it runs on
 `picsart_model_catalog` (ids, ratios), `picsart_job_status` (async video),
 `picsart_credits` (balance; manager only).
 
-## Nano Banana Pro ratio map
+## GPT Image 2.5 Sunburst ratio map
 
-Slot aspect → generate at: 16:9→16:9, 4:3→4:3, 3:2→16:9 (crop), 4:5→3:4
-(crop), 5:4→4:3 (crop), 1:1→1:1, 9:16→9:16, 2:3→2:3, 21:9→21:9,
-anything wider than 21:9→21:9 (crop). Cropping happens in `lp-inject`; leave
+Slot aspect → generate at: 16:9→16:9, 4:3→4:3, 3:2→3:2, 4:5→3:4
+(crop), 5:4→4:3 (crop), 1:1→1:1, 9:16→9:16, 2:3→2:3, 21:9 and anything
+wider→16:9 (crop). There is no 21:9: leave extra margin top and bottom. Cropping happens in `lp-inject`; leave
 safe margin around the subject when the slot is a crop.

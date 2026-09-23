@@ -17,7 +17,7 @@ from pathlib import Path
 import yaml
 from PIL import Image
 
-from . import cli, families, kinds
+from . import cli, families, kinds, models
 
 # an overlapping chrome rect only counts as keep-clear when it covers a
 # meaningful share of the panel (a hairline pill on the edge is not a no-go zone)
@@ -88,6 +88,8 @@ def contract(family, preset=None, size=None):
     kc = keep_clear(family, preset, (w, h))
     out = []
     for name, p in tmpl["panels"].items():
+        if p.get("detail_of"):  # cropped from another panel by lp-compose, never generated
+            continue
         if p["rect"] is None:
             ratio = families.nearest_ratio(w, h)  # fills the slot
         else:
@@ -107,13 +109,31 @@ def apply_labels(items, family, preset, labels):
         for target in targets:
             cid, field, *n = target.split(".")
             it = by_id[cid]
-            if field == "colours":
-                it["colours"] = list(labels[i:])
+            if field in ("colours", "rows_text"):  # takes every remaining string
+                it[field] = list(labels[i:])
+            elif field == "items":
+                it["items"] = [dict(x) for x in it["items"]]
+                it["items"][int(n[0])]["text"] = labels[i]
             elif field == "sliders":
                 it["sliders"] = [list(s) for s in it["sliders"]]
                 it["sliders"][int(n[0])][0] = labels[i]
             else:
                 it[field] = labels[i]
+
+
+def fill_picker_rows(items):
+    """Complete a model picker's other rows from the model catalogue: once the
+    page's model is named, the rows `> chrome:` leaves open get same-kind
+    models from other makers (the originals list the page's model among its
+    peers, never blank rows)."""
+    for it in items:
+        if it.get("kind") != "list-panel" or not str(it.get("active_text") or "").strip():
+            continue
+        rows = list(it.get("rows_text") or [])
+        need = it.get("rows", 4) - 1 - len(rows)
+        if need > 0:
+            extra = [n for n in models.siblings(it["active_text"], need + len(rows)) if n not in rows]
+            it["rows_text"] = rows + extra[:need]
 
 
 def build(family, size, *, preset=None, ground=None, slot=None, derived_from=None, labels=None, section=None):
@@ -134,6 +154,7 @@ def build(family, size, *, preset=None, ground=None, slot=None, derived_from=Non
             plan[key] = val
     if labels:
         apply_labels(plan["items"], family, preset, labels)
+    fill_picker_rows(plan["items"])
     if ground and not cli.ground_renderable(ground):
         # a corpus variant with no colour to draw (colour, mixed, gradient, checker):
         # keep it on record and let lp-compose draw the family ground — the family
@@ -174,12 +195,14 @@ def validate(plan):
         name = fam + (f" preset {preset!r}" if preset else "")
         if not slots:
             problems.append(f"{name} draws no page strings: its `> chrome:` line must be none")
-        elif len(labels) > len(slots) and not any(t.endswith(".colours") for t in slots[-1][1]):
+        elif len(labels) > len(slots) and not any(t.endswith((".colours", ".rows_text")) for t in slots[-1][1]):
             problems.append(f"{name} draws {len(slots)} page string(s) ({', '.join(n for n, _ in slots)}); "
                             f"`> chrome:` gives {len(labels)}")
     if not cli.ground_renderable(plan.get("ground")):
         problems.append(f"ground {plan['ground']!r} cannot be drawn: use black, white, light, transparent, "
                         f"tilted or a mapping such as {{fill: [r, g, b]}}")
+    known = not preset or preset in (families.FAMILIES[fam].get("variants") or {})
+    panel_names = cli.template(fam, preset)["panels"] if known else None
     seen = set()
     for it in plan.get("items") or []:
         cid, kind = it.get("id"), it.get("kind")
@@ -203,12 +226,53 @@ def validate(plan):
             problems.append(f"item {cid!r}: kind {kind!r} is hybrid-only; set rendered_by: model with a reason")
         elif kind and kind not in kinds.KINDS:
             problems.append(f"item {cid!r}: kind {kind!r} is not drawable")
-        for c in it.get("colours") or []:  # hex/CSS names are fine; anything else would crash the render
-            try:
-                kinds.rgb(c)
-            except ValueError:
-                problems.append(f"item {cid!r}: colour {c!r} is not '#rrggbb', a colour name or an RGB list")
+        for key in ("colours", "fill", "image"):
+            v = it.get(key)
+            if isinstance(v, dict) and panel_names is not None and v.get("from") not in panel_names:
+                problems.append(f"item {cid!r}: {key} from panel {v.get('from')!r}, which {fam} does not have")
+        if not isinstance(it.get("colours"), dict):
+            for c in it.get("colours") or []:  # hex/CSS names are fine; anything else would crash the render
+                try:
+                    kinds.rgb(c)
+                except ValueError:
+                    problems.append(f"item {cid!r}: colour {c!r} is not '#rrggbb', a colour name or an RGB list")
+        if rendered_by == "compose":
+            problems += [f"item {cid!r}: {p}" for p in blank_chrome(it)]
     return problems
+
+
+# the string fields each text kind draws, all of which must be filled
+_TEXT_FIELDS = {"pill": ("text",), "label": ("text",), "text": ("text",), "round-badge": ("text",),
+                "tool-pill": ("text",), "headline": ("text",), "adjust-panel": ("title",),
+                "list-panel": ("active_text",), "profile-card": ("name", "caption"), "prompt-text": ("text",)}
+
+
+def blank_chrome(it):
+    """What an item would draw with nothing in it: an empty string, a tile with
+    no icon, a swatch with no colours, a list row with no model, a mockup card
+    with no picture. Blank placeholder chrome reads as an unfinished mockup
+    (composition-1's picker rows, the grey swatch tile), so every piece must be
+    tied to a source: the page (`> chrome:`), a panel (`{from: <panel>}`), or
+    the template's own icon."""
+    kind = it.get("kind")
+    out = [f"{f} is empty: give it with the skeleton's `> chrome:` line"
+           for f in _TEXT_FIELDS.get(kind, ()) if not str(it.get(f) or "").strip()]
+    if kind == "tile" and not it.get("icon"):
+        out.append("an empty tile: give it an icon, or make it a swatch with colours from a panel")
+    if kind == "swatch" and not it.get("colours"):
+        out.append("a swatch with no colours: `colours: {from: <panel>}` or `> chrome:` hex colours")
+    if kind == "list-panel":
+        others = it.get("rows_text") or []
+        if len(others) < it.get("rows", 4) - 1 or not all(str(r).strip() for r in others):
+            out.append(f"{it.get('rows', 4) - 1} other rows need model names (`rows_text`, from `> chrome:` "
+                       "or the model catalogue)")
+    if kind == "mark-tile" and not it.get("model"):
+        out.append("a mark tile with no model: name the model (or maker) whose mark it carries")
+    if kind == "chip-bar" and not all(str(x.get("text") or "").strip() for x in it.get("items") or [{}]):
+        out.append("a chip with no text")
+    if kind == "profile-card" and not it.get("image"):
+        out.append("a mockup card with an empty image well: `image: {from: <panel>}`")
+    return out
 
 
 def to_spec(plan, images):

@@ -91,6 +91,36 @@ def fit(im, size, mode="cover", anchor="center"):
     return r.crop((x, y, x + w, y + h))
 
 
+def palette(im, n):
+    """The `n` colours a swatch should show for an image: its opaque pixels
+    quantised, each colour scored by its share times its saturation (a small
+    vivid accent beats a large dull wall), near-duplicates dropped, returned
+    dark to light like the corpus swatch stripes. Fewer than `n` when the image
+    has fewer distinct colours."""
+    im = im.convert("RGBA")
+    im.thumbnail((160, 160))
+    data = im.get_flattened_data() if hasattr(im, "get_flattened_data") else im.getdata()
+    px = [p[:3] for p in data if p[3] >= 128] or [(128, 128, 128)]
+    strip = Image.new("RGB", (len(px), 1))
+    strip.putdata(px)
+    q = strip.quantize(16, method=Image.Quantize.MEDIANCUT)
+    pal = q.getpalette()[:48]
+    counts = sorted(q.getcolors(), reverse=True)
+
+    def sat(c):
+        return (max(c) - min(c)) / 255
+
+    scored = sorted(((cnt * (0.25 + sat(c)), c) for cnt, i in counts for c in [tuple(pal[3 * i:3 * i + 3])]),
+                    reverse=True)
+    picked = []
+    for _, c in scored:
+        if all(sum((a - b) ** 2 for a, b in zip(c, p)) > 45 ** 2 for p in picked):
+            picked.append(c)
+        if len(picked) == n:
+            break
+    return sorted(picked, key=lambda c: 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2])
+
+
 def checkerboard(size, cell, tones=CHECKER):
     a, b = (tuple(t) + (255,) * (4 - len(t)) for t in tones)  # RGB or RGBA; the light editor pair is translucent
     im = Image.new("RGBA", size, a)
@@ -211,6 +241,140 @@ def box_text(canvas, rect, text, fill, colour, radius, fnt):
     if text:
         d.text(((x0 + x1) / 2, (y0 + y1) / 2), text, font=fnt, fill=colour, anchor="mm")
     canvas.alpha_composite(layer)
+    return (x0, y0, x1, y1)
+
+
+def wrapped_text(canvas, rect, text, colour, fnt, leading=1.3):
+    """Text set left-aligned from the top of rect, wrapped on words to its
+    width; a last line that would overflow the height ends in an ellipsis."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    d = ImageDraw.Draw(canvas)
+    lines, line = [], ""
+    for word in str(text).split():
+        trial = f"{line} {word}".strip()
+        if line and d.textlength(trial, font=fnt) > x1 - x0:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    step = fnt.size * leading
+    fit = max(1, int((y1 - y0) // step))
+    if len(lines) > fit:
+        lines = lines[:fit]
+        while lines[-1] and d.textlength(lines[-1] + "…", font=fnt) > x1 - x0:
+            lines[-1] = lines[-1].rsplit(" ", 1)[0] if " " in lines[-1] else lines[-1][:-1]
+        lines[-1] += "…"
+    for i, ln in enumerate(lines):
+        d.text((x0, y0 + i * step), ln, font=fnt, fill=colour)
+    return (x0, y0, x1, y1)
+
+
+def prompt_card(canvas, rect, text, fnt, radius, pad, fill=(30, 30, 32, 255), leading=1.28, max_lines=None):
+    """The prompt card of the model pages (ai-models--gpt-image-2-5-sunburst
+    S01, S03, S04, S07): a dark rounded card, the prompt wrapped from its top
+    left, the first third of the lines white and the rest fading to grey, the
+    last line cut with an ellipsis when the prompt runs past the card."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    card(canvas, (x0, y0, x1, y1), fill[:3], radius)
+    d = ImageDraw.Draw(canvas)
+    width, height = x1 - x0 - 2 * pad, y1 - y0 - 2 * pad
+    lines, line = [], ""
+    for word in str(text).split():
+        trial = f"{line} {word}".strip()
+        if line and d.textlength(trial, font=fnt) > width:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    step = fnt.size * leading
+    fit = max(1, int((height + step - fnt.size) // step))
+    fit = min(fit, max_lines) if max_lines else fit
+    if len(lines) > fit:
+        lines = lines[:fit]
+        while lines[-1] and d.textlength(lines[-1] + "...", font=fnt) > width:
+            lines[-1] = lines[-1].rsplit(" ", 1)[0] if " " in lines[-1] else lines[-1][:-1]
+        lines[-1] += "..."
+    bright = max(1, -(-len(lines) // 3))
+    for i, ln in enumerate(lines):
+        k = 0 if i < bright else (i - bright + 1) / max(1, len(lines) - bright)
+        v = round(250 - 135 * k)
+        d.text((x0 + pad, y0 + pad + i * step), ln, font=fnt, fill=(v, v, v + 2, 255))
+    return (x0, y0, x1, y1)
+
+
+def mark_tile(canvas, rect, mark, radius, fill=(30, 30, 32, 255), scale=0.46):
+    """A dark tile carrying a maker's mark (white on transparent), centred and
+    sized to `scale` of the tile's shorter side; a lettered disc when the mark
+    is unknown is the caller's job (it passes None and gets an empty tile)."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    card(canvas, (x0, y0, x1, y1), fill[:3], radius)
+    if mark is not None:
+        side = round(min(x1 - x0, y1 - y0) * scale)
+        m = mark.resize((side, side), Image.LANCZOS)
+        canvas.alpha_composite(m, ((x0 + x1 - side) // 2, (y0 + y1 - side) // 2))
+    return (x0, y0, x1, y1)
+
+
+def chip_bar(canvas, rect, items, fnt, radius, group=True, marks=None):
+    """A row of settings chips (the generator toolbar of S05, the resolution and
+    ratio bar of S06): `items` are {text, active, accent, caret, mark}; with
+    `group` the row sits on one dark rounded bar and only the active chip is
+    lifted, else every chip is its own rounded pill. Chip widths follow their
+    text; the row is spread across the rect."""
+    x0, y0, x1, y1 = (round(v) for v in rect)
+    h = y1 - y0
+    d = ImageDraw.Draw(canvas)
+    if group:
+        card(canvas, (x0, y0, x1, y1), (30, 30, 32), radius)
+    marks = marks or {}
+    padx, gap = round(h * (0.2 if group else 0.34)), round(h * (0.08 if group else 0.22))
+    widths = []
+    for it in items:
+        w = d.textlength(it.get("text", ""), font=fnt) + 2 * padx
+        if it.get("caret"):
+            w += h * 0.42
+        if it.get("mark"):
+            w += h * 0.58
+        widths.append(w)
+    spare = (x1 - x0) - sum(widths) - gap * (len(items) + 1)
+    extra = spare / len(items) if group and spare > 0 else 0
+    cx = x0 + gap if group else x0
+    ih = h * (0.66 if group else 1.0)
+    iy0 = y0 + (h - ih) / 2
+    for it, base in zip(items, widths):
+        w = base + extra
+        fill = None
+        if it.get("accent"):
+            fill = (62, 32, 96, 255)
+        elif it.get("active"):
+            fill = (62, 62, 66, 255)
+        elif not group:
+            fill = (40, 40, 44, 255)
+        if fill:
+            d.rounded_rectangle((cx, iy0, cx + w, iy0 + ih), radius=radius * 0.7, fill=fill)
+        ink = (205, 170, 255, 255) if it.get("accent") else ((245, 245, 247, 255) if it.get("active") else (190, 190, 196, 255))
+        tx = cx + (w - (base - 2 * padx)) / 2 if group else cx + padx
+        cy = iy0 + ih / 2
+        key = it.get("text") if it.get("mark") is True else it.get("mark")
+        mark = marks.get(key) if it.get("mark") else None
+        if it.get("mark"):
+            ms = round(ih * 0.5)
+            d.rounded_rectangle((tx, cy - ms / 2, tx + ms, cy + ms / 2), radius=ms * 0.25, fill=(58, 170, 120, 255))
+            if mark is not None:
+                g = mark.resize((round(ms * 0.7), round(ms * 0.7)), Image.LANCZOS)
+                canvas.alpha_composite(g, (round(tx + ms * 0.15), round(cy - ms * 0.35)))
+                d = ImageDraw.Draw(canvas)
+            tx += h * 0.58
+        d.text((tx, cy), it.get("text", ""), font=fnt, fill=ink, anchor="lm")
+        if it.get("caret"):
+            cw = h * 0.16
+            ex = tx + d.textlength(it.get("text", ""), font=fnt) + h * 0.2
+            d.line([(ex, cy - cw * 0.35), (ex + cw / 2, cy + cw * 0.35), (ex + cw, cy - cw * 0.35)], fill=ink, width=max(1, round(h * 0.03)))
+        cx += w + gap
     return (x0, y0, x1, y1)
 
 
@@ -357,10 +521,12 @@ def round_badge(canvas, rect, text, fill, colour, fnt):
     return (x0, y0, x1, y1)
 
 
-def profile_card(canvas, rect, fill, radius):
+def profile_card(canvas, rect, fill, radius, image=None, name="", caption="", fonts=None):
     """A mock social/profile card: a rounded card with a round avatar and a
     name beside it, an image well, and blank caption bars — all placeholder
-    chrome (never a real network's layout, name or logo)."""
+    chrome (never a real network's layout, name or logo). With `image` (the
+    photo the card is built from) the well shows it and the avatar is its
+    centre crop, so the card reads as that photo in use."""
     x0, y0, x1, y1 = (round(v) for v in rect)
     card(canvas, rect, fill, radius)
     layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
@@ -371,15 +537,28 @@ def profile_card(canvas, rect, fill, radius):
     disc, bar, lite = (74, 74, 80, 255), (60, 60, 66, 255), (96, 96, 104, 255)
     d.ellipse((x0 + pad, y0 + pad, x0 + pad + av, y0 + pad + av), fill=disc)  # avatar
     nx = x0 + pad + av + round(w * 0.06)
-    d.rounded_rectangle((nx, y0 + pad + round(av * 0.22), x1 - pad, y0 + pad + round(av * 0.42)), radius=12, fill=lite)  # name
-    d.rounded_rectangle((nx, y0 + pad + round(av * 0.55), x0 + pad + av + round(w * 0.30), y0 + pad + round(av * 0.72)), radius=12, fill=bar)  # handle
+    if name and fonts:
+        d.text((nx, y0 + pad + av / 2), name, font=fonts[0], fill=WHITE, anchor="lm")
+    else:
+        d.rounded_rectangle((nx, y0 + pad + round(av * 0.22), x1 - pad, y0 + pad + round(av * 0.42)), radius=12, fill=lite)  # name
+        d.rounded_rectangle((nx, y0 + pad + round(av * 0.55), x0 + pad + av + round(w * 0.30), y0 + pad + round(av * 0.72)), radius=12, fill=bar)  # handle
     well_top, well_bot = y0 + pad + av + round(h * 0.05), y0 + round(h * 0.62)
     d.rounded_rectangle((x0 + pad, well_top, x1 - pad, well_bot), radius=round(w * 0.04), fill=bar)  # image well
     cy, bh, gap = well_bot + round(h * 0.05), round(h * 0.04), round(h * 0.03)
-    for i, frac in enumerate((1.0, 0.85, 0.5)):  # caption bars
-        yy = cy + i * (bh + gap)
-        d.rounded_rectangle((x0 + pad, yy, x0 + pad + round((w - 2 * pad) * frac), yy + bh), radius=round(bh * 0.5), fill=lite if i == 0 else bar)
+    if not (caption and fonts):
+        for i, frac in enumerate((1.0, 0.85, 0.5)):  # caption bars
+            yy = cy + i * (bh + gap)
+            d.rounded_rectangle((x0 + pad, yy, x0 + pad + round((w - 2 * pad) * frac), yy + bh), radius=round(bh * 0.5), fill=lite if i == 0 else bar)
     canvas.alpha_composite(layer)
+    if caption and fonts:
+        wrapped_text(canvas, (x0 + pad, cy, x1 - pad, y1 - pad), caption, (225, 225, 230, 255), fonts[1])
+    if image is not None:
+        panel(canvas, image, (x0 + pad, well_top, x1 - pad, well_bot), round(w * 0.04))
+        face = fit(image, (av, av)).convert("RGBA")
+        mask = Image.new("L", (av, av), 0)
+        ImageDraw.Draw(mask).ellipse((0, 0, av - 1, av - 1), fill=255)
+        face.putalpha(ImageChops.multiply(face.getchannel("A"), mask))
+        canvas.alpha_composite(face, (x0 + pad, y0 + pad))
     return (x0, y0, x1, y1)
 
 
@@ -490,11 +669,13 @@ def tool_pill(canvas, rect, text, icon_name, fnt):
     return (x0, y0, x1, y1)
 
 
-def list_panel(canvas, rect, rows, active, text, fnt, radius):
-    """The model-picker list card: a dark card with one row per entry, each a
-    neutral disc and a blank grey bar; the active row is lighter and carries
-    a white check and, when `text` is given, the page's own model name. No
-    other row ever carries a word: competitor names and marks stay out."""
+def list_panel(canvas, rect, rows, active, text, fnt, radius, others=(), marks=None):
+    """The model-picker list card: a dark card with one row per model, each a
+    maker mark (or a disc with the name's initial) and the model's name; the
+    active row, the page's own model, is lighter and carries a white check.
+    `others` names the other rows in order (the picker's same-kind siblings);
+    `marks` maps a name to its white mark. A row with no name draws a blank
+    grey bar, which `plan.blank_chrome` refuses before a run."""
     x0, y0, x1, y1 = (round(v) for v in rect)
     w, h = x1 - x0, y1 - y0
     layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
@@ -502,17 +683,31 @@ def list_panel(canvas, rect, rows, active, text, fnt, radius):
     d.rounded_rectangle((x0, y0, x1, y1), radius=radius, fill=(30, 30, 32, 255))
     rh = h / max(1, rows)
     pad = w * 0.07
+    names = iter(others or ())
+    marks = marks or {}
     for i in range(rows):
         ry0, ry1 = y0 + rh * i, y0 + rh * (i + 1)
         cy = (ry0 + ry1) / 2
         is_active = i == active
+        name = text if is_active else next(names, "")
+        ink = WHITE if is_active else (205, 205, 210, 255)
         if is_active:
             d.rounded_rectangle((x0 + pad * 0.4, ry0 + rh * 0.08, x1 - pad * 0.4, ry1 - rh * 0.08), radius=radius * 0.5, fill=(54, 54, 58, 255))
         dia = rh * 0.38
-        d.ellipse((x0 + pad, cy - dia / 2, x0 + pad + dia, cy + dia / 2), fill=WHITE if is_active else (120, 120, 126, 255))
+        mx0 = round(x0 + pad)
+        mark = marks.get(name) if name else None
+        if mark is not None:
+            m = mark.resize((round(dia * 1.15), round(dia * 1.15)), Image.LANCZOS)
+            if not is_active:
+                m.putalpha(m.getchannel("A").point(lambda a: round(a * 0.8)))
+            layer.alpha_composite(m, (mx0, round(cy - m.height / 2)))
+        else:
+            d.ellipse((mx0, cy - dia / 2, mx0 + dia, cy + dia / 2), fill=WHITE if is_active else (120, 120, 126, 255))
+            if name:
+                d.text((mx0 + dia / 2, cy), name[0].upper(), font=font(dia * 0.62, 800), fill=(30, 30, 32, 255), anchor="mm")
         bx0 = x0 + pad + dia * 1.6
-        if is_active and text:
-            d.text((bx0, cy), text, font=fnt, fill=WHITE, anchor="lm")
+        if name:
+            d.text((bx0, cy), name, font=fnt, fill=ink, anchor="lm")
         else:
             bh = rh * 0.18
             bw = (w - pad * 2 - dia * 1.6) * (0.55 if not is_active else 0.5)

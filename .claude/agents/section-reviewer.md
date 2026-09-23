@@ -48,7 +48,7 @@ writing one `review-N.md` per section. You never generate. Read
    rows, so you do not grep the ledger yourself. Then `board`
    (`evaluation.md`): the board reads as a Flow a person could rebuild,
    `in:` wiring is true to the placeholders, START carries only the REF the
-   brief allows, every image node is `gemini-3-pro-image` or quotes the
+   brief allows, every image node is `gpt-image-2.5-sunburst` or quotes the
    copy that names another; a template board names its source and what it
    adapted and moved no invariant. A compose or text node quotes 0; you
    never re-run it.

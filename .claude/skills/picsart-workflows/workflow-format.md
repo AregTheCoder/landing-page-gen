@@ -15,7 +15,7 @@ board: blank                      # blank (default) | template
 template: null                    # board: template only, see below
 pattern: anchored                 # the board recipe from image-workflows.md
 target: {size: 1440x810, aspect: "16:9", generate_ratio: "16:9"}
-models: {primary: gemini-3-pro-image, reason: default}
+models: {primary: gpt-image-2.5-sunburst, reason: default}
 start:                            # START: what enters the board
   inputs:
     - {id: ref-hero, kind: ref, url: "https://.../hero.png", use: "light and palette only"}
@@ -25,17 +25,18 @@ steps:                            # the nodes, in wiring order
     node: image                   # Flow node kind: text | ref | image | edit | cutout | background | enhance | video | motion | compose
     in: [start]                   # the nodes this one takes its input from (start, or earlier ids)
     tool: picsart_generate
-    model: gemini-3-pro-image
+    model: gpt-image-2.5-sunburst
     params:
       prompt: "..., the headline \"50% OFF\" in bold white capitals across the top third, no other text, no logos or watermarks"
       aspectRatio: "16:9"
-      resolution: 2K
+      quality: high               # high (2 cr) by default; max (7 cr) only where the copy claims detail (same pixels)
       count: 1
       saveToDrive: false          # always: Drive auto-save 403s as a fake policy block
       imageUrls: ["https://.../hero.png"]
     quoted_credits: 5
     gate: "product centred, \"50% OFF\" spelt exactly and no other text, palette matches hero"
-    reason: ""                    # what this node varies or why it exists; required on any image node off gemini-3-pro-image
+    reason: ""                    # what this node varies or why it exists; required on any image node off gpt-image-2.5-sunburst
+    panel: null                   # the composition panel (or null) this node's output becomes; required on a panel made-by.yaml attributes
     status: pending               # pending | done | failed | skipped (dry run)
     outputs: []                   # URLs, filled after the call
     passed: null                  # URL that passed the gate, or null

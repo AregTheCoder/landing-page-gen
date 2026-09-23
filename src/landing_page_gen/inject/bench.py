@@ -45,6 +45,7 @@ COMPOSE_KIND = {
     "tile": "tile", "swatch": "swatch", "icon": "tile", "label": "chip", "pill": "pill", "tool-pill": "pill",
     "brackets": "brackets", "crop-badge": "tile", "selection-frame": "selection-handles", "badge": "badge", "card": "mockup-card", "profile-card": "mockup-card",
     "list-panel": "option-list", "adjust-panel": "adjust-panel", "round-badge": "vs-badge", "type-tile": "tile",
+    "mark-tile": "model-logo", "chip-bar": "chip", "prompt-text": "prompt-panel",
     "text": None, "headline": None, "divider": None, "checker": None,  # the corpus records a checkerboard as a ground, not chrome
 }
 

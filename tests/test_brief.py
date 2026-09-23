@@ -42,7 +42,7 @@ snapshot: corpus/pages/testpage/page.html
 brand: Picsart
 audience: ''
 defaults:
-  image_model: gemini-3-pro-image
+  image_model: gpt-image-2.5-sunburst
 budget:
   run_credits: 200
   image_slot: 40
@@ -214,7 +214,8 @@ def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
     plan_path = run / "sections" / "S04" / "composition-S04-m1.yaml"
     assert plan_path.exists() and "composition-S04-m1.yaml" in text
     cp = _yaml.safe_load(plan_path.read_text())
-    assert cp["family"] == "panel-overlay" and cp["size"] == "480x360"
+    assert cp["family"] == "panel-overlay" and cp["size"] == "600x450", \
+        "composed at the source's resolution (natural 600x600), in the 480x360 box's shape"
     assert cp["derived_from"]["style"] == "panel-overlay"
     assert any(p["panel"] == "photo" and p["keep_clear"] for p in cp["panels"])
 
@@ -266,6 +267,13 @@ def test_a_hand_edited_plan_survives_a_re_run_and_a_changed_line_needs_replan(tm
     assert brief.main([str(run), "S04", "--replan"]) == 0
     panel = next(it for it in _yaml.safe_load(path.read_text())["items"] if it["id"] == "panel")
     assert panel["title"] == "Levels" and panel["chips"] == 8, "--replan rebuilds from the new line"
+
+
+def test_render_size_is_the_display_box_at_the_source_resolution(brief):
+    assert brief.render_size({"size": "480x480", "natural": "720x720"}) == "720x720"
+    assert brief.render_size({"size": "294x196", "natural": "512x288"}) == "432x288", "object-fit crop keeps the box's shape"
+    assert brief.render_size({"size": "480x480", "natural": "320x320"}) == "480x480", "never below the display box"
+    assert brief.render_size({"size": "480x480"}) == "480x480"
 
 
 def test_only_generated_stills_get_a_composition_plan(tmp_path, brief):

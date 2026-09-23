@@ -104,9 +104,10 @@ def check(run, sid):
         else:
             spent_by_prompt[prompt_of(r)] = spent_by_prompt.get(prompt_of(r), 0) + (r.get("quoted_credits") or 0)
     targets = video_targets(folder)
+    required = board.made_by_file(folder)
     for d in docs:
         slot = d.get("slot", "?")
-        problems += board.check(d)
+        problems += board.check(d, required.get(slot))
         problems += compose_wiring_problems(d, folder)
         problems += video_problems(d, board.nodes(d), rows, targets)
         prompts, urls = set(), set()  # reconcile by the URLs a board's steps produced, else by prompt

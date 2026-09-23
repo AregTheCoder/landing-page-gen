@@ -17,7 +17,7 @@ shallow board does not wire, so the manager's `precheck.py` rejects it.
 ## The recipes
 
 Each row is the minimum planned pipeline (START and END omitted). "generate" and
-"refine" are both `image` nodes on `gemini-3-pro-image`; "refine" is an i2i node
+"refine" are both `image` nodes on `gpt-image-2.5-sunburst`; "refine" is an i2i node
 fed the base pass with the base in `imageUrls` and a prompt describing only the
 improvement (tighter subject, fuller frame, cleaner light).
 

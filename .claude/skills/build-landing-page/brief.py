@@ -38,7 +38,7 @@ PRIOR_BASIS_RE = re.compile(r"basis (\S+) n=(\d+)")
 sys.path.insert(0, str(HERE))
 import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
-from landing_page_gen.compose import cli as compose_cli, plan  # noqa: E402
+from landing_page_gen.compose import cli as compose_cli, models, plan  # noqa: E402
 from landing_page_gen.compose.families import FAMILIES, LABELS  # noqa: E402
 from landing_page_gen.corpus import grammar  # noqa: E402
 from landing_page_gen.corpus.db import GENERATED_ROLES  # noqa: E402
@@ -210,6 +210,19 @@ def composed(s):
     (icons, screenshots) are never generated, and a video slot is briefed as its
     family's main panel with no compose step."""
     return s.get("role") in GENERATED_ROLES and s.get("kind") != "video"
+
+
+def render_size(s):
+    """The size a slot is composed at: its display box scaled up to the source
+    image's resolution (a 480x480 box showing a 720x720 image renders at 720,
+    not soft at 480). The display aspect is kept, since the page crops a
+    natural image of another shape with object-fit; never below the display."""
+    size, natural = s.get("size"), s.get("natural")
+    if not size or not natural:
+        return size
+    (w, h), (nw, nh) = compose_cli.parse_size(size), compose_cli.parse_size(natural)
+    k = max(1, min(nw / w, nh / h))
+    return f"{round(w * k)}x{round(h * k)}"
 
 
 def slots_table(records, section_type, family, device):
@@ -444,8 +457,9 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
         derived = {"style": d.get("style"), "device": d.get("device"), "text": d.get("text", "none"), "chrome": chrome}
         (run / "sections" / sxx).mkdir(parents=True, exist_ok=True)
         names = []
+        plans = {}
         for s in to_compose:
-            cp = plan.build(family, s.get("size"), preset=preset, labels=labels or None, section=section_type,
+            cp = plan.build(family, render_size(s), preset=preset, labels=labels or None, section=section_type,
                             ground=(ground if ground != "default" else None), slot=s["id"], derived_from=derived)
             slots = LABELS.get((family, cp.get("preset")))
             if chrome.startswith("TODO") and slots:
@@ -466,9 +480,13 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
             if kept is None:
                 plan.write_plan(path, cp)
             names.append(fname)
+            plans[s["id"]] = cp
         parts.append(f"A composition plan is written per slot ({', '.join(names)}). Generate the panels above, "
                      f"then `uv run lp-compose --spec-from-plan <plan> --image <panel>=<path> ... --out compose-<slot>.yaml` "
                      f"to make the compose spec; add only image paths.\n")
+    attribution = model_attribution(run, sxx, records, fm, locals().get("plans") or {})
+    if attribution:
+        parts.append(attribution)
     parts.append("## Examples from the corpus (same section type)\n")
     parts.append(run_similar(run, sxx, section_type, family, fm.get("page", ""),
                              exclude_ids, query, pool, seed, widen, kind if is_video else None) + "\n")
@@ -485,6 +503,47 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
     parts.append("See output-contract.md.\n")
     parts.append((HERE / "output-contract.md").read_text().strip() + "\n")
     return "\n".join(parts)
+
+
+def source_page(record, fm):
+    """The corpus page a slot comes from: its `local:` path, else the run's page."""
+    m = re.match(r"corpus/pages/([^/]+)/", str(record.get("local") or ""))
+    return m.group(1) if m else fm.get("page", "")
+
+
+def model_attribution(run, sxx, records, fm, plans):
+    """Write made-by.yaml for the section — the model each generated panel must
+    come from because its page or its chrome presents it as that model's output
+    (`compose.models.made_by`) — and brief it. Stops when a panel cannot be
+    generated truthfully (a model the connector lacks, or an unmapped slug)."""
+    required = {}
+    for s in records:
+        if s.get("role") not in GENERATED_ROLES:
+            continue
+        cp = plans.get(s["id"])
+        req = models.made_by(source_page(s, fm), cp and cp["family"], cp and cp.get("preset"),
+                             (cp or {}).get("items") or (), [p["panel"] for p in cp["panels"]] if cp else ["*"])
+        if req:
+            required[s["id"]] = req
+    path = run / "sections" / sxx / "made-by.yaml"
+    if not required:
+        if path.exists():
+            path.unlink()
+        return ""
+    bad = [f"{sid} {p}: {r['model'][3:].strip()}" for sid, req in required.items()
+           for p, r in req.items() if r["model"].startswith("no:")]
+    if bad:
+        raise SystemExit(f"brief.py: {sxx} cannot be generated truthfully: " + "; ".join(bad)
+                         + ". Keep the original asset for this slot or drop the attribution (the page, the picker's model).")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(yaml.safe_dump(required, sort_keys=False))
+    rows = ["## Model attribution", "",
+            "This page presents these pictures as a named model's output, so they are made on that model "
+            "(`made-by.yaml`; `lp-flow check` refuses any generate, edit or background node upstream of them on "
+            "another model, refine passes included). Mark each panel's final node `panel: <name>`.", "",
+            "| slot | panel | model | because |", "|---|---|---|---|"]
+    rows += [f"| {sid} | {p} | `{r['model']}` | {r['because']} |" for sid, req in required.items() for p, r in req.items()]
+    return "\n".join(rows) + "\n"
 
 
 def section_type_is_video(records):

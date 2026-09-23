@@ -130,7 +130,9 @@ def load_spec(path):
     if not fits(family, w, h):
         sys.exit(f"lp-compose: size {w}x{h} is not {' or '.join(f'{a}:{b}' for a, b in aspects)} like {fam}")
     panels = spec.get("panels") or {}
-    for name in family["panels"]:
+    for name, fp in family["panels"].items():
+        if fp.get("detail_of"):  # cropped from another panel at render, never supplied
+            continue
         o = panels.get(name) or {}
         if not _panel_required(o):
             continue
@@ -141,6 +143,27 @@ def load_spec(path):
             sys.exit(f"lp-compose: panel {name!r}: {img} not found")
     spec["_dir"], spec["_size"] = path.parent, (w, h)
     return spec
+
+
+def derive(it, panels):
+    """Fill an item's `{from: <panel>}` values from that panel's image, so chrome
+    shows the slot's own content: `colours` its palette (`n` cells), `fill` its
+    most saturated colour, `image` the image itself. An explicit value (a
+    `> chrome:` hex list) is never a mapping, so it always wins."""
+    for key in ("colours", "fill", "image"):
+        v = it.get(key)
+        if not (isinstance(v, dict) and "from" in v):
+            continue
+        if v["from"] not in panels:
+            sys.exit(f"lp-compose: chrome {it['id']!r} takes its {key} from panel {v['from']!r}, which has no image")
+        path = panels[v["from"]]["image"]
+        if key == "image":
+            it[key] = path
+            continue
+        with Image.open(path) as im:
+            cols = draw.palette(im, v.get("n", 3) if key == "colours" else 6)
+        it[key] = [list(c) for c in cols] if key == "colours" else \
+            list(max(cols, key=lambda c: max(c) - min(c)))
 
 
 def resolve(spec):
@@ -154,11 +177,19 @@ def resolve(spec):
     panels = {}
     for name, p in family["panels"].items():
         o = (spec.get("panels") or {}).get(name) or {}
-        if not _panel_required(o):
+        crop = None
+        if p.get("detail_of"):
+            # a detail crop of another panel (the S03 lips of the portrait): the
+            # same picture, so no generation and no authorship of its own
+            src = (spec.get("panels") or {}).get(p["detail_of"]) or {}
+            if not src.get("image"):
+                continue
+            o, crop = {**src, **o}, o.get("frac", p["frac"])
+        elif not _panel_required(o):
             continue
         panels[name] = {"rect": rect(p["rect"]) if p["rect"] else (0, 0, w * SS, h * SS), "fit": o.get("fit", p.get("fit", "cover")),
-                        "anchor": o.get("anchor", "center"), "under": p.get("under"), "dim": o.get("dim", p.get("dim")),
-                        "trim": p.get("trim"), "image": spec["_dir"] / o["image"]}
+                        "anchor": o.get("anchor", p.get("anchor", "center")), "under": p.get("under"), "dim": o.get("dim", p.get("dim")),
+                        "trim": p.get("trim"), "crop": crop, "image": spec["_dir"] / o["image"]}
     # REF-frame boxes a `place:` can anchor to: the canvas and every family panel
     ref_h = round(REF * h / w)
     boxes = {"canvas": (0, 0, REF, ref_h)}
@@ -189,6 +220,8 @@ def resolve(spec):
             print(f"lp-compose: chrome {eid!r} is not in {spec['family']}; add `kind:` to draw it", file=sys.stderr)
             continue
         chrome += finish(e)
+    for it in chrome:
+        derive(it, panels)
     tilt = spec.get("tilt") or (10 if spec.get("ground") == "tilted" else 0)
     return {"size": (w * SS, h * SS), "out": (w, h), "scale": s, "ground": _ground(family["ground"], spec.get("ground")),
             "radius": round(family["radius"] * s), "panels": panels, "chrome": chrome, "tilt": tilt}
@@ -196,6 +229,9 @@ def resolve(spec):
 
 def _draw_panel(canvas, p, ctx):
     with Image.open(p["image"]) as im:
+        if p.get("crop"):
+            fx0, fy0, fx1, fy1 = p["crop"]
+            im = im.crop((round(im.width * fx0), round(im.height * fy0), round(im.width * fx1), round(im.height * fy1)))
         if p.get("trim"):  # a cut-out fitted by its visible pixels, so a frame around the panel hugs it
             im = im.convert("RGBA")
             im = im.crop(im.getchannel("A").getbbox() or (0, 0, *im.size))
@@ -296,7 +332,13 @@ def main(argv=None) -> int:
     p.add_argument("--preset", help="a preset/variant of the family, for --keepclear")
     p.add_argument("--spec-from-plan", metavar="PLAN", type=Path, help="build a compose spec from a composition plan")
     p.add_argument("--image", action="append", default=[], metavar="PANEL=PATH", help="a panel image, for --spec-from-plan")
+    p.add_argument("--extract-logos", action="store_true", help="re-key the model-picker maker marks from their corpus crops")
     a = p.parse_args(argv)
+    if a.extract_logos:
+        from . import models
+        for f in models.extract_logos(Path.cwd()):
+            print(f)
+        return 0
     if a.describe:
         print(describe(a.describe))
         return 0

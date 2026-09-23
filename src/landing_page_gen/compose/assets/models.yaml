@@ -1,0 +1,210 @@
+# The models Picsart hosts, as the model-picker list names them (the corpus's
+# ai-models--* page titles), in the order a picker fills its other rows: the
+# page's own model is the active row, the rest are same-kind siblings from
+# other makers, those with a mark first. `logo` names a maker mark in logos/;
+# `id` is the model on the b05f6314 connector.
+#
+# Each mark is cropped from a corpus composite that shows it white on a dark
+# tile (source + box, reference pixels) and keyed to white-on-transparent by
+# `lp-compose --extract-logos`; the picker draws it beside the name as the
+# originals do (a3502ec3 recraft-v4-styles-pro-vector S07, 4eeca13c recraft-v4-1
+# S07). A model with no mark gets a disc with its initial.
+logos:
+  openai:
+    src: corpus/pages/ai-models--gpt-image-1/media/01328a85-1ef4-4291-bda6-b247ea4a0134-60707f42.avif
+    box: [60, 60, 450, 450]
+  recraft:
+    src: corpus/pages/ai-models--recraft-v4-1/media/4eeca13c-c557-4579-ba17-e4cfd90a76ec-a81fb75e.avif
+    box: [40, 450, 335, 740]
+  gemini:
+    src: corpus/pages/ai-models--recraft-v4-1/media/4eeca13c-c557-4579-ba17-e4cfd90a76ec-a81fb75e.avif
+    box: [40, 860, 335, 1150]
+  bfl:
+    src: corpus/pages/ai-models--recraft-v4-1/media/4eeca13c-c557-4579-ba17-e4cfd90a76ec-a81fb75e.avif
+    box: [40, 40, 335, 335]
+  ideogram:
+    src: corpus/pages/ai-models--recraft-v4-1/media/4eeca13c-c557-4579-ba17-e4cfd90a76ec-a81fb75e.avif
+    box: [40, 1265, 335, 1560]
+  seed:
+    src: corpus/pages/ai-models/media/22f9b181-cc90-4c98-a686-924284ddf7e5-a84dbcc5.webp
+    box: [85, 388, 138, 435]
+  xai:
+    src: corpus/pages/ai-models--grok-imagine/media/537bdb6c-e205-4bf7-baf4-0ba678b70264-206e179a.avif
+    box: [100, 1300, 420, 1570]
+models:
+  # image
+  - {name: Nano Banana Pro, kind: image, logo: gemini, id: gemini-3-pro-image}
+  - {name: GPT Image 1.5, kind: image, logo: openai, id: gpt-image-1.5}
+  - {name: GPT Image 2.5 Sunburst, kind: image, logo: openai, id: gpt-image-2.5-sunburst}
+  - {name: Seedream 5.0 Pro, kind: image, logo: seed, id: seedream-5.0-pro}
+  - {name: Flux 2 Pro, kind: image, logo: bfl, id: flux-2-pro}
+  - {name: Recraft V4, kind: image, logo: recraft, id: recraftv4}
+  - {name: Ideogram 3.0, kind: image, logo: ideogram, id: ideogram-v3}
+  - {name: Grok Imagine, kind: image, logo: xai, id: grok-imagine-image}
+  - {name: Imagen 4.0, kind: image, maker: google}  # not on the connector
+  - {name: Qwen 3.0 Pro, kind: image, maker: alibaba, id: qwen-image-3.0-pro}
+  - {name: Kling 3.0 Image, kind: image, maker: kling, id: kling-3.0-image}
+  - {name: Midjourney V7, kind: image, maker: midjourney}  # not on the connector
+  # video
+  - {name: Sora 2, kind: video, logo: openai, id: sora-2}
+  - {name: Seedance 2.0, kind: video, logo: seed, id: seedance-2.0}
+  - {name: Grok Imagine 1.5, kind: video, logo: xai, id: grok-imagine-video-1.5}
+  - {name: Veo 3.1, kind: video, maker: google, id: veo-3.1}
+  - {name: Kling 3.0, kind: video, maker: kling, id: kling-v3}
+  - {name: Runway Gen 4.5, kind: video, maker: runway, id: runway-gen4.5}
+  - {name: Luma Ray 3.2, kind: video, maker: luma, id: luma-ray-3.2}
+  - {name: MiniMax H3, kind: video, maker: minimax, id: minimax-h3}
+  - {name: Wan 3.0, kind: video, maker: alibaba, id: wan-3.0-video}
+  - {name: PixVerse V6, kind: video, maker: pixverse, id: pixverse-v6}
+
+# Attribution (models.made_by): an image a page presents as a model's output is
+# generated on that model. `connector` is the connector's model ids
+# (picsart_model_catalog, 2026-09-23); a model-page slug (ai-models--<x>, the
+# sides of compare-models--<a>-vs-<b>) is its id with punctuation dropped, else
+# `slugs` names it. A slug in `unavailable` is a model Picsart pages advertise
+# that the connector cannot run: its images cannot be generated truthfully.
+# `audio` pages' pictures are illustrations, not model output. A slug in none of
+# these (ambiguous: `kling`, `sora`, `pixverse` name several ids) stops the brief
+# until it is added here.
+connector:
+  image:
+    - gemini-3.1-flash-image
+    - picsart-sana-sprint-v1
+    - kling-3.0-image
+    - kling-o1-image
+    - hunyuan-v3
+    - luma-uni-1
+    - luma-uni-1-max
+    - seedream-5.0-pro
+    - seedream-5.0-lite
+    - seedream-4.7
+    - seedream-4.5
+    - grok-imagine-image
+    - grok-imagine-image-quality
+    - grok-imagine-image-2.0
+    - runway-gen4-ref
+    - flux-2-pro
+    - flux-2-max
+    - flux-2-flex
+    - flux-kontext-max
+    - flux-kontext-pro
+    - gemini-3.1-flash-lite-image
+    - gemini-3-pro-image
+    - gemini-2.5-flash-image
+    - gpt-image-2.5-sunburst
+    - gpt-image-2.5-flare
+    - gpt-image-2
+    - gpt-image-1.5
+    - ideogram-v4
+    - ideogram-p-image
+    - ideogram-v3
+    - ideogram-character
+    - qwen-image-2-pro
+    - qwen-image-3.0-pro
+    - recraftv4_1
+    - recraftv4_1_pro
+    - recraftv4_1_utility
+    - recraftv4_1_utility_pro
+    - recraftv4_1_vector
+    - recraftv4_1_pro_vector
+    - recraftv4_1_utility_vector
+    - recraftv4_1_utility_pro_vector
+    - recraftv4
+    - recraftv3
+    - recraftv4_pro
+    - recraftv4_vector
+    - recraftv4_pro_vector
+    - recraftv4_styles
+    - recraftv4_styles_vector
+    - recraftv4_styles_pro
+    - recraftv4_styles_pro_vector
+    - recraftv3_vector
+    - recraft-explore
+    - picsart-flux-2-klein
+    - muse-image-1.0
+  video:
+    - seedance-2.5
+    - seedance-2.0
+    - seedance-2.0-fast
+    - seedance-2.0-mini
+    - seedance-2.0-mini-video-edit
+    - seedance-2.0-mini-video-extend
+    - kling-v3-turbo
+    - kling-video-o1
+    - grok-imagine-video-1.5
+    - flux-video-edit
+    - happyhorse-1.0-r2v
+    - kling-v3
+    - kling-v2-6
+    - kling-v3-omni
+    - ltx-2.3-a2v
+    - hailuo-2.3
+    - minimax-h3
+    - minimax-h3-max
+    - minimax-h3-max-turbo
+    - wan-2.7-t2v
+    - wan-3.0-video
+    - wan-3.0-video-prime
+    - luma-ray-2
+    - luma-ray-3.2
+    - luma-ray-3.2-edit
+    - luma-ray-3.2-reframe-video
+    - sora-2
+    - sora-2-pro
+    - grok-imagine-video
+    - veo-3.1
+    - veo-3.1-fast
+    - runway-gen4.5
+    - runway-aleph2
+    - flux-3-video
+    - flux-video-upscale
+    - gemini-omni-1.1-flash-preview
+    - gemini-omni-flash-preview
+    - topaz-upscale-video
+    - happyhorse-1.0-t2v
+    - happyhorse-1.1-t2v
+    - happyhorse-1.1-r2v
+    - pixverse-v6
+    - pixverse-v6-image
+    - pixverse-v6-fusion
+    - pixverse-c1
+    - pixverse-c1-image
+    - pixverse-c1-fusion
+slugs:
+  nano-banana-pro: gemini-3-pro-image
+  nano-banana-2: gemini-3.1-flash-image
+  nano-banana-2-lite: gemini-3.1-flash-lite-image
+  gemini-2-5-flash: gemini-2.5-flash-image
+  flux-2-klein-4b: picsart-flux-2-klein
+  gpt-2: gpt-image-2
+  gpt-image-2-0: gpt-image-2
+  grok-imagine: grok-imagine-image
+  grok-imagine-1-0: grok-imagine-video
+  grok-imagine-1-5: grok-imagine-video-1.5
+  hunyuan: hunyuan-v3
+  ideogram-4-0: ideogram-v4
+  qwen-2-pro: qwen-image-2-pro
+  runway-gen4-image: runway-gen4-ref
+  gemini-omni-1-1-flash: gemini-omni-1.1-flash-preview
+  google-omni: gemini-omni-flash-preview
+  hailuo-3: minimax-h3
+  happyhorse-1-0: happyhorse-1.0-t2v
+  happyhorse-1-1: happyhorse-1.1-t2v
+  happyhorse-1-1-ref-to-video: happyhorse-1.1-r2v
+  kling-2-6: kling-v2-6
+  kling-3-0: kling-v3
+  kling-3-0-omni: kling-v3-omni
+  kling-o1-video: kling-video-o1
+  ltx-2-3-audio-to-video: ltx-2.3-a2v
+  minimax-h3-max-camera-controls: minimax-h3-max
+  minimax-h3-max-ref-to-video: minimax-h3-max
+  runway-aleph-2-0: runway-aleph2
+  seedance-2: seedance-2.0
+  topaz-video-upscale: topaz-upscale-video
+  wan-2-7: wan-2.7-t2v
+  wan-3-0: wan-3.0-video
+  wan-3-0-prime: wan-3.0-video-prime
+unavailable: [midjourney, dall-e-3, reve, gpt-image-1, flux-pro, flux-pro-ultra, imagen-4-0, imagen-4-0-ultra,
+              imagen-4-5-fast, ideogram-v2a, ideogram-v2a-turbo, ideogram-3-0-flash, kling-v1-5, kling-v2, kling-v2-1,
+              kling-v2-new, seedream-4-0, seedance-1-pro, seedance-1-pro-fast, wan-2-6, pika-frames, runway-gen-4, veo-3]
+audio: [async-flash-v1, elevenlabs-music-v2, lyria-3, lyria-3-5, minimax-music-v3, minimax-music-3]

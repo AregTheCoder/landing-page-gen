@@ -13,16 +13,16 @@ is how an adjustment panel can stay level over a tilted card."""
 from dataclasses import dataclass
 from typing import Callable
 
-from PIL import ImageColor
+from PIL import Image, ImageColor
 
-from . import draw
+from . import draw, models
 from .families import EDITOR_CHECKER
 
 LAYERS = {"ground": 0, "card": 10, "panel": 20, "chrome": 30, "overlay": 40, "top": 50}
 CHECKER_CELL = 100
 FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96,
            "panel-title": 44, "panel-label": 34, "tool-pill": 64, "list-row": 48,
-           "type-specimen": 112}  # at REF
+           "type-specimen": 112, "prompt": 72, "prompt-md": 62, "prompt-sm": 52, "chip": 44, "chip-lg": 46}  # at REF
 
 
 @dataclass
@@ -165,8 +165,12 @@ def _tool_pill(canvas, it, ctx):
 
 
 def _list_panel(canvas, it, ctx):
+    """The model picker: `active_text` is the page's model, `rows_text` the other
+    rows; each name's maker mark comes from the model catalogue."""
+    names = [it.get("active_text", ""), *(it.get("rows_text") or [])]
+    marks = {n: m for n in names if n and (m := models.logo(n)) is not None}
     return draw.list_panel(canvas, it["rect"], it.get("rows", 4), it.get("active", 0), it.get("active_text", ""),
-                           ctx.font("list-row", 700), ctx.r)
+                           ctx.font("list-row", 700), ctx.r, others=it.get("rows_text") or (), marks=marks)
 
 
 def _text(canvas, it, ctx):
@@ -175,7 +179,10 @@ def _text(canvas, it, ctx):
     colour = tuple(it.get("colour") or (255, 255, 255))
     if len(colour) == 3:
         colour += (255,)
-    return draw.box_text(canvas, it["rect"], it.get("text", ""), (0, 0, 0, 0), colour, 0, ctx.font(it.get("font", "panel-label")))
+    fnt = ctx.font(it.get("font", "panel-label"))
+    if it.get("wrap"):  # a sentence (the prompt) set in its column, not one centred line
+        return draw.wrapped_text(canvas, it["rect"], it.get("text", ""), colour, fnt)
+    return draw.box_text(canvas, it["rect"], it.get("text", ""), (0, 0, 0, 0), colour, 0, fnt)
 
 
 def _round_badge(canvas, it, ctx):
@@ -191,8 +198,35 @@ def _round_badge(canvas, it, ctx):
 
 def _profile_card(canvas, it, ctx):
     """A mock profile/social card (avatar, name, image well, caption bars).
-    `fill` is an RGB triple; `draw.card` adds the alpha."""
-    return draw.profile_card(canvas, it["rect"], tuple(it.get("fill") or (30, 30, 32)), ctx.r)
+    `fill` is an RGB triple; `draw.card` adds the alpha. `image` (resolved from
+    `{from: <panel>}`) fills the well and the avatar."""
+    fill = tuple(it.get("fill") or (30, 30, 32))
+    words = dict(name=it.get("name", ""), caption=it.get("caption", ""),
+                 fonts=(ctx.font("list-row", 700), ctx.font("pill", 500)))
+    if not it.get("image"):
+        return draw.profile_card(canvas, it["rect"], fill, ctx.r, **words)
+    with Image.open(it["image"]) as im:
+        return draw.profile_card(canvas, it["rect"], fill, ctx.r, image=im.convert("RGBA"), **words)
+
+
+def _prompt_text(canvas, it, ctx):
+    """The model pages' prompt card: the prompt that made the picture, fading
+    to an ellipsis (draw.prompt_card)."""
+    return draw.prompt_card(canvas, it["rect"], it.get("text", ""), ctx.font(it.get("font", "prompt"), 500),
+                            ctx.r, round(it.get("pad", 56) * ctx.s), max_lines=it.get("max_lines"))
+
+
+def _mark_tile(canvas, it, ctx):
+    """A tile with the maker's mark of `model` (a model name or maker key)."""
+    return draw.mark_tile(canvas, it["rect"], models.mark(it.get("model")), ctx.r, scale=it.get("scale", 0.46))
+
+
+def _chip_bar(canvas, it, ctx):
+    """Settings chips: the generator toolbar or the resolution/ratio bar."""
+    keys = [i["text"] if i.get("mark") is True else i.get("mark") for i in it.get("items") or [] if i.get("mark")]
+    marks = {k: m for k in keys if k and (m := models.mark(k)) is not None}
+    return draw.chip_bar(canvas, it["rect"], it.get("items") or [], ctx.font(it.get("font", "chip"), 500), ctx.r,
+                         group=it.get("group", True), marks=marks)
 
 
 # Hybrid chrome — kinds too organic or bespoke to template, so a plan item may
@@ -235,4 +269,7 @@ KINDS = {
     "profile-card": Kind(_profile_card),
     "checker": Kind(_checker, layer="card"),
     "type-tile": Kind(_type_tile),
+    "prompt-text": Kind(_prompt_text, text=True),
+    "mark-tile": Kind(_mark_tile),
+    "chip-bar": Kind(_chip_bar, text=True),
 }
