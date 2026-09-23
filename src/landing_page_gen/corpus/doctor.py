@@ -14,7 +14,9 @@ Checks:
 - `media.style` mirrors `styles.yaml` (the apply/mirror step was run);
 - every stored label value is inside its enum (`attrs.FIELDS` via `label.check`);
 - no attributes entry points at a src the DB no longer has;
-- every pool entry carries the required fields, a known licence, and its family.
+- every pool entry carries the required fields, a known licence, and its family;
+- `grammar.yaml` was built from the corpus as it is now, and `page-grammar.md`
+  is exactly what `lp-corpus grammar --write-doc` renders from it.
 """
 
 from __future__ import annotations
@@ -23,7 +25,7 @@ import json
 from collections import namedtuple
 from pathlib import Path
 
-from . import attrs, db, label, sheets, stock, styles, taxonomy
+from . import attrs, db, grammar, label, sheets, stock, styles, taxonomy
 
 Finding = namedtuple("Finding", "level code message")
 ERROR, WARN = "ERROR", "WARN"
@@ -194,11 +196,26 @@ def _pool(pool_dir):
     return out
 
 
+def _grammar(con, grammar_path, doc_path):
+    g = grammar.load(grammar_path) if grammar_path else None
+    if g is None:
+        return [Finding(WARN, "grammar-missing", "no corpus/grammar/grammar.yaml: run `lp-corpus grammar --write-doc`")] \
+            if grammar_path else []
+    out = []
+    if g["source"]["hash"] != grammar.source_hash(con):
+        out.append(Finding(WARN, "grammar-stale", "grammar.yaml predates the current sections/slots/attributes: "
+                                                  "re-run `lp-corpus grammar --write-doc`"))
+    if doc_path and Path(doc_path).exists() and Path(doc_path).read_text() != grammar.render_doc(g):
+        out.append(Finding(ERROR, "grammar-doc", f"{doc_path} differs from what grammar.yaml renders "
+                                                 "(hand-edited or not re-written): run `lp-corpus grammar --write-doc`"))
+    return out
+
+
 DB_PATH = Path("corpus/corpus.db")
 
 
 def run(db_path=DB_PATH, pages_dir=PAGES_DIR, pool_dir=POOL_DIR,
-        attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML):
+        attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML, grammar_path=None, grammar_doc=None):
     con = db.connect(Path(db_path))
     mapping = attrs.load(attrs_path)
     tags = styles.load(styles_path)
@@ -211,6 +228,7 @@ def run(db_path=DB_PATH, pages_dir=PAGES_DIR, pool_dir=POOL_DIR,
     findings += _chrome_items(mapping)
     findings += _orphans(con, mapping)
     findings += _pool(pool_dir)
+    findings += _grammar(con, grammar_path, grammar_doc)
     return findings
 
 

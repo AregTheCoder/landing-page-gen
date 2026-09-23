@@ -2,9 +2,10 @@
 
 skeleton.md is what the manager skill parses: YAML frontmatter, one
 `## Sxx type` block per section with every text node as `- tN tag: text`,
-one fenced `slot` block per media node, and `> annotation:`, `> style:`, `> attrs:`, `> text:`,
+one fenced `slot` block per media node, and `> annotation:`, `> style:`, `> attrs:`, `> prior:`, `> text:`,
 `> device:` and `> chrome:` lines per generated-role slot for the human to fill in (`> attrs:` says what the style rests on:
-the measured fields, whether chrome was ever answered, confidence and source). slots.json maps ids
+the measured fields, whether chrome was ever answered, confidence and source; `> prior:` is what the page grammar,
+corpus/grammar/grammar.yaml, expects of a slot in this context: advice, never an override). slots.json maps ids
 back to the snapshot stamps for lp-inject and carries style and attrs per slot."""
 
 import json
@@ -12,7 +13,7 @@ from pathlib import Path
 
 import yaml
 
-from . import db, sectionize
+from . import db, grammar, sectionize
 
 DEFAULTS = {"image_model": "gemini-3-pro-image", "video_model": "seedance-2.5", "video_draft": "seedance-2.0-mini"}
 BUDGET = {"run_credits": 600, "image_slot": 40,
@@ -34,9 +35,16 @@ def load_page(con, slug):
     return page, out
 
 
-def render_skeleton(page, sections):
+def render_skeleton(page, sections, g=None, page_family=None):
+    """`g` is the loaded page grammar (None: no `> prior:` lines)."""
+    rows, srows = {}, {}
+    if g and page_family:
+        r, sr = grammar.page_rows(page["slug"], page_family, sections, dedupe=False)
+        rows = {x["slot"]: x for x in r}
+        srows = {x["sid"]: x for x in sr}
     fm = {
         "page": page["slug"],
+        **({"page_family": page_family} if page_family else {}),
         "source": page["url"],
         "snapshot": page["html_path"],
         "brand": "Picsart",
@@ -58,6 +66,11 @@ def render_skeleton(page, sections):
             tid = t["tid"].split("-", 1)[1]
             link = f" -> {t['href']}" if t["href"] else ""
             lines.append(f"- {tid} {t['tag']}: {t['text']}{link}")
+        if g and s["sid"] in srows and not srows[s["sid"]]["media"]:
+            note = grammar.section_prior_line(g, srows[s["sid"]])
+            if note:
+                lines.append("")
+                lines.append(f"> prior: {note}")
         for m in media:
             slot = {"id": m["slot_id"], "kind": m["kind"], "role": m["role"]}
             if m["width"] and m["height"]:
@@ -89,6 +102,9 @@ def render_skeleton(page, sections):
                 style = f"{m['style']}/{variant}" if m["style"] and variant else m["style"]
                 lines.append(f"> style: {style or 'TODO one of ' + ' | '.join(db.STYLES)}")
                 lines.append(f"> attrs: {attrs_line(at)}")
+                pl = grammar.prior_line(g, rows[m["slot_id"]]) if g and m["slot_id"] in rows else None
+                if pl:
+                    lines.append(f"> prior: {pl}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
                 lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup | "
                              "crop-grid | palette-card | selection-frame | editor, "
@@ -128,11 +144,13 @@ def slots_json(page, sections):
     }
 
 
-def write_skeleton(con, slug, out_path):
+def write_skeleton(con, slug, out_path, g=None):
+    """`g`: the loaded page grammar for the `> prior:` lines (the CLI passes
+    corpus/grammar/grammar.yaml; None writes none)."""
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     page, sections = load_page(con, slug)
-    out_path.write_text(render_skeleton(page, sections))
+    out_path.write_text(render_skeleton(page, sections, g, grammar.page_families(con).get(slug)))
     (out_path.parent / "slots.json").write_text(json.dumps(slots_json(page, sections), indent=1))
     n_gen = sum(1 for _, _, media in sections for m in media if m["role"] in db.GENERATED_ROLES)
     n_all = sum(len(media) for _, _, media in sections)

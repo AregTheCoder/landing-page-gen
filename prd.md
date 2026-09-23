@@ -151,6 +151,16 @@ taught it.
   the hero URL is an optional `imageUrls` for a Series that has not yet
   rendered. (runs/live-1: 7 idle minutes between waves; runs/trial-4 and
   trial-5 landed the look without an image anchor)
+- The page grammar advises; the original decides. A slot keeps the source
+  page's image-or-video and its length; `> prior:` (what slots in this
+  context usually are, from `lp-corpus grammar`) fills one TODO, a video's
+  length when the original's is unknown (held-out error 3.6 s vs 5.2 s for
+  the flat 5 s), and a `# unusual:` note gets a one-line keep decision in the
+  report, never a switch. The family prior is a shortlist, not a pick (top-1
+  34 % vs 33 % for always the commonest family), and the context rules
+  describe the corpus but do not forecast a slot: blended into the video
+  share they doubled its held-out Brier. Count evidence in page clusters: one
+  CMS template on 60 sibling pages is one example. (2026-09-23, page grammar)
 
 ## Non-goals
 

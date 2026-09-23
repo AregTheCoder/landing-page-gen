@@ -64,6 +64,7 @@ uv run lp-corpus similar ... --style full-bleed --pool 2 --seed <run>  # + two k
 uv run lp-corpus frames <clip.mp4|url> --out strip.png      # a clip's first/middle/last frames side by side + its measured length, pace, loop seam (the worker's and reviewer's video gate; no ffmpeg, Chromium via Playwright)
 uv run lp-corpus motion [--limit N] [--force]                # measure pace/loop/camera-when-static on the video records still lacking them -> attributes.yaml, media.attrs (attrs --force --kinds video re-grabs posters + frames too)
 uv run lp-corpus motion --summary [--write-doc]              # per family, what its labelled clips do; --write-doc sets each family's **Motion:** line in style-families.md
+uv run lp-corpus grammar [--write-doc]                       # page grammar: section order, when image vs video, clip length, motifs, copy themes, context -> decision rules -> corpus/grammar/ (+ picsart-workflows/page-grammar.md); skeleton's `> prior:` lines read it
 uv run lp-corpus similar ... --kind video                    # prefer sections with clips and excerpt them as 3-frame strips (what brief.py asks for a video slot)
 uv run lp-corpus pool search full-bleed --kind video [...]   # Pexels/Pixabay VIDEO search into the same pool (poster hashed/ranked/sheeted); served by `similar --pool N --kind video` as strips
 uv run lp-compose --describe before-after                # panels of a style family and their generate ratios

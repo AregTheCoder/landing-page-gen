@@ -30,12 +30,17 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 STYLE_FAMILIES = REPO / ".claude" / "skills" / "picsart-workflows" / "style-families.md"
 REFERENCES_DIR = REPO / "corpus" / "references"
+GRAMMAR_YAML = REPO / "corpus" / "grammar" / "grammar.yaml"
+PRIOR_LENGTH_RE = re.compile(r"length (\d+(?:\.\d+)?) s")
+PRIOR_MOTION_RE = re.compile(r"motion ([^·]+?) ·")
+PRIOR_BASIS_RE = re.compile(r"basis (\S+) n=(\d+)")
 
 sys.path.insert(0, str(HERE))
 import blindcheck  # noqa: E402
 from landing_page_gen.flow import board  # noqa: E402
 from landing_page_gen.compose import cli as compose_cli, plan  # noqa: E402
 from landing_page_gen.compose.families import FAMILIES, LABELS  # noqa: E402
+from landing_page_gen.corpus import grammar  # noqa: E402
 from landing_page_gen.corpus.db import GENERATED_ROLES  # noqa: E402
 
 
@@ -72,7 +77,7 @@ def composition_section(family, device, size=None, sizes=None, section=None):
 
 SLOT_RE = re.compile(r"^```slot\n(.*?)\n```", re.M | re.S)
 SECTION_HEAD_RE = re.compile(r"^## (S\d+) ([\w-]+)", re.M)  # types are hyphenated: feature-callout, how-it-works
-DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|text|device|duration|chrome): (.*)$", re.M)
+DIRECTIVE_RE = re.compile(r"^> (annotation|style|attrs|prior|text|device|duration|chrome): (.*)$", re.M)
 MOTION_LINE_RE = re.compile(r"^\*\*Motion:\*\* (.+)$", re.M)
 N_PLACEHOLDER = re.compile(r" \(n=…\)")
 EXAMPLES_LINE_RE = re.compile(r"^\*\*Examples:\*\* .*$\n?", re.M)  # corpus asset ids; must not reach a blind worker
@@ -117,6 +122,18 @@ def line_strings(line):
     if not line or line.strip().lower() == "none" or line.startswith("TODO"):
         return []
     return [s.strip().strip('"') for s in line.split("|")]
+
+
+def slot_priors(block):
+    """{slot id: its `> prior:` line}, the page-grammar advice under each slot
+    fence (the manager's `# unusual:` note stripped)."""
+    out = {}
+    for m in re.finditer(r"^```slot\n(.*?)\n```(.*?)(?=^```slot|\Z)", block, re.M | re.S):
+        rec = yaml.safe_load(m.group(1)) or {}
+        p = re.search(r"^> prior: (.*)$", m.group(2), re.M)
+        if p and rec.get("id"):
+            out[rec["id"]] = p.group(1).split("  # unusual:")[0].strip()
+    return out
 
 
 def directives(block):
@@ -247,19 +264,29 @@ def run_similar(run, sxx, section_type, family, page, exclude_ids, query, pool, 
     return body or note
 
 
-def target_duration(record, directive, cap):
+def target_duration(record, directive, cap, prior=None):
     """(target seconds, note): the `> duration:` line's leading number, else the
-    slot's own duration_s rounded, else 5; never above budget.video_seconds."""
+    slot's own duration_s rounded, else the page grammar's median length for a
+    slot in this context (the `> prior:` line), else 5; never above
+    budget.video_seconds."""
     m = re.match(r"\s*(\d+(?:\.\d+)?)", directive or "")
     original = record.get("duration_s")
-    wanted = round(float(m.group(1))) if m else (round(original) if original else 5)
+    pm = PRIOR_LENGTH_RE.search(prior or "")
+    if m or original:
+        wanted, why = round(float(m.group(1))) if m else round(original), None
+    elif pm:
+        basis = PRIOR_BASIS_RE.search(prior)
+        wanted, why = round(float(pm.group(1))), ("no original length; the page grammar's median for "
+                                                  f"{basis.group(1) if basis else 'this context'}")
+    else:
+        wanted, why = 5, "no original length; 5 s default"
     wanted = max(4, wanted)
     if cap and wanted > cap:
         return cap, f"original {original} s; capped at budget.video_seconds {cap}: note the shortfall in result.md"
-    return wanted, f"original {original} s" if original else "no original length; 5 s default"
+    return wanted, why or f"original {original} s"
 
 
-def video_section(records, fam_block, fm, directive):
+def video_section(records, fam_block, fm, directive, priors=None):
     """The `## Video` paragraph of a video slot's brief: the still-to-motion
     recipe on the run's models, the target duration per slot (faithful to the
     original, `> duration:` overriding, budget.video_seconds capping), the
@@ -267,8 +294,13 @@ def video_section(records, fam_block, fm, directive):
     defaults, budget = fm.get("defaults") or {}, fm.get("budget") or {}
     draft, final = defaults.get("video_draft", "seedance-2.0-mini"), defaults.get("video_model", "seedance-2.5")
     cap = budget.get("video_seconds", 30)
+    priors = priors or {}
     m = MOTION_LINE_RE.search(fam_block)
-    motion = m.group(1) if m else ("no **Motion:** line for this family yet: prompt slow, subtle subject motion on "
+    pm = next((PRIOR_MOTION_RE.search(priors.get(s["id"], "") + " ·") for s in records if s.get("kind") == "video"
+               and PRIOR_MOTION_RE.search(priors.get(s["id"], "") + " ·")), None)
+    motion = m.group(1) if m else (f"no **Motion:** line for this family yet; corpus clips in this section context: "
+                                   f"{pm.group(1).strip()}" if pm else
+                                   "no **Motion:** line for this family yet: prompt slow, subtle subject motion on "
                                    "a static camera and make it loop")
     lines = [f"**VIDEO slot.** The board is `kind: video`; `lp-flow check` enforces the still recipe plus the two video "
              f"nodes and every rule in `video-workflows.md`.",
@@ -286,7 +318,7 @@ def video_section(records, fam_block, fm, directive):
     for s in records:
         if s.get("kind") != "video":
             continue
-        target, note = target_duration(s, directive, cap)
+        target, note = target_duration(s, directive, cap, priors.get(s["id"]))
         lines.append(f"  - {s['id']}: **{target} s** ({note})")
     lines += ["- After each clip: `curl` it to `steps/`, then `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 "
               "--out steps/<slot>-<node>-strip.png` and `Read` the strip; `picsart_media_probe_media` gives the length. "
@@ -294,6 +326,41 @@ def video_section(records, fam_block, fm, directive):
               "- `result.md`: `chosen:` is the final clip URL, plus `poster:` (the accepted still) and `duration_s:` (measured); "
               "scores add `first_frame`, `motion`, `loop`."]
     return "\n".join(lines)
+
+
+def placement_section(skeleton, sxx, section_type, fm, priors, g=None):
+    """`## Where this section sits`: the page family, the neighbours, the
+    family's typical order, each slot's `> prior:` line and the copy themes the
+    headline shares with the corpus, from the page grammar. Empty without one."""
+    g = g if g is not None else grammar.load(GRAMMAR_YAML)
+    fam = fm.get("page_family")
+    if not g or not fam:
+        return ""
+    heads = [(h.group(1), h.group(2)) for h in SECTION_HEAD_RE.finditer(skeleton)]
+    i = [sid for sid, _ in heads].index(sxx)
+    prev = f"after {heads[i - 1][1]} ({heads[i - 1][0]})" if i else "first on the page"
+    nxt = f"before {heads[i + 1][1]} ({heads[i + 1][0]})" if i + 1 < len(heads) else "last on the page"
+    lines = [f"Page family: {fam}. {sxx} is section {i + 1} of {len(heads)}, {prev}, {nxt}."]
+    seq = (g["sequences"].get(fam) or {}).get("canonical") or []
+    if seq:
+        lines.append(f"A typical {fam} page: " + " → ".join(
+            (f"**{t}**" if t == section_type else t) + (f" ×{c}" if c > 1 else "") for t, c, _ in seq) + ".")
+    if priors:
+        lines.append("What slots in this context usually are (the page grammar; advice: the original's image-or-video "
+                     "and length stand, the family is the `> style:` above):")
+        lines += [f"- {sid}: {p}" for sid, p in priors.items()]
+    head = re.search(r"^- t\d+ h\d: (.+)$", block_of(skeleton, sxx), re.M)
+    have = set(grammar.terms(head.group(1))) if head else set()
+    shared = [t for t in ((g["themes"].get(section_type) or {}).get("terms") or []) if t[0] in have]
+    if shared:
+        lines.append("Copy themes this headline shares with the corpus's " + section_type + " sections: " + ", ".join(
+            f"“{term}” ({n} sections; video {round(v * 100)} %{', mostly ' + st if st else ''})"
+            for term, n, v, st in shared) + ".")
+    return "\n".join(lines)
+
+
+def block_of(skeleton, sxx):
+    return section_block(skeleton, sxx)[0]
 
 
 def headline_and_body(block):
@@ -335,7 +402,12 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
     parts.append(yaml.safe_dump({k: fm.get(k) for k in ("page", "brand", "audience", "defaults", "budget", "notes") if k in fm},
                                 sort_keys=False, allow_unicode=True).rstrip() + "\n")
     parts.append("## Section (verbatim from skeleton.md)\n")
-    parts.append(strip_asset_lines(block) + "\n")
+    parts.append(re.sub(r"^> prior: .*\n?", "", strip_asset_lines(block), flags=re.M) + "\n")  # shown below
+    priors = slot_priors(block)
+    placement = placement_section(skeleton, sxx, section_type, fm, priors)
+    if placement:
+        parts.append("## Where this section sits\n")
+        parts.append(placement + "\n")
     parts.append(f"## Style family: {family}" + (f"/{ground}" if ground != "default" else "") + "\n")
     parts.append(fam_block + "\n")
     parts.append("Signature checklist (the block's **Signature** line):\n" + signature_checklist(fam_block) + "\n")
@@ -350,7 +422,7 @@ def assemble(run, sxx, pool=0, seed=None, widen=0, replan=False):
                  "`lp-flow check` reads `family:` and fails a board that skips a planned node.\n")
     if is_video:
         parts.append("## Video\n")
-        parts.append(video_section(records, fam_block, fm, d.get("duration")) + "\n")
+        parts.append(video_section(records, fam_block, fm, d.get("duration"), priors) + "\n")
     parts.append("## Text in image\n")
     parts.append(text_in_image(d.get("text", "none"), records, section_type) + "\n")
     parts.append("## Slots to produce\n")

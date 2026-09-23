@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import apiclient, attrs, calibration, db, discover, doctor, embed, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
+from . import apiclient, attrs, calibration, db, discover, doctor, embed, grammar, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -208,6 +208,12 @@ def main(argv=None) -> int:
     fb.add_argument("run", type=Path, help="runs/<run> with benchmark.md and slots.json")
     fb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
 
+    gr = sub.add_parser("grammar", help="Learn the page grammar (section order, when image vs video, length, motifs, copy themes, context -> decision rules) -> corpus/grammar/grammar.yaml + report.md; --write-doc renders page-grammar.md")
+    gr.add_argument("--min-support", type=int, default=grammar.MIN_SUPPORT, help="slots a rule or prior needs (default 10)")
+    gr.add_argument("--out", type=Path, default=grammar.GRAMMAR_DIR)
+    gr.add_argument("--write-doc", action="store_true", help="also render the readable rules")
+    gr.add_argument("--doc", type=Path, default=grammar.DOC)
+
     sub.add_parser("doctor", help="Verify the corpus conforms to the metastructure (snapshots indexed, assets measured, styles synced, labels in-enum, pool well-formed); exits non-zero on an ERROR")
 
     a = p.parse_args(argv)
@@ -231,6 +237,8 @@ def main(argv=None) -> int:
         return cmd_frames(a)
     if a.cmd == "motion":
         return cmd_motion(a)
+    if a.cmd == "grammar":
+        return cmd_grammar(a)
     if a.cmd == "sheets":
         return cmd_sheets(a)
     if a.cmd == "labels":
@@ -242,7 +250,7 @@ def main(argv=None) -> int:
     if a.cmd == "feedback":
         return cmd_feedback(a)
     if a.cmd == "doctor":
-        return doctor.report(doctor.run(a.db))
+        return doctor.report(doctor.run(a.db, grammar_path=grammar.GRAMMAR_YAML, grammar_doc=grammar.DOC))
     if a.cmd == "widen":
         try:
             path, searched, added = widen.widen(a.family, styles.load(), backend=a.backend, limit=a.limit,
@@ -394,7 +402,10 @@ def main(argv=None) -> int:
         return 0
     if a.cmd == "skeleton":
         con = db.connect(a.db)
-        out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
+        g = grammar.load()
+        if g is None:
+            log("skeleton: no corpus/grammar/grammar.yaml, so no `> prior:` lines; run `lp-corpus grammar --write-doc`")
+        out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out, g)
         print(f"{out}: {n_sections} sections, {n_all} slots ({n_gen} to generate); slots.json alongside")
         return 0
     if a.cmd == "similar":
@@ -640,6 +651,20 @@ def cmd_motion(a):
           f"{n} media rows touched -> {a.attrs}")
     for src in stats["skipped"][:10]:
         print(f"  skipped {src}")
+    return 0
+
+
+def cmd_grammar(a):
+    con = db.connect(a.db)
+    g, rows, rules = grammar.build(con, min_support=a.min_support)
+    path = grammar.save(g, a.out / "grammar.yaml")
+    (a.out / "report.md").write_text(grammar.render_report(g, rows, rules))
+    src = g["source"]
+    print(f"grammar: {src['slots']} slots ({src['videos']} videos) on {src['pages']} pages, "
+          f"{sum(len(r) for r in rules.values())} rules -> {path}, {a.out / 'report.md'}")
+    if a.write_doc:
+        a.doc.write_text(grammar.render_doc(g))
+        print(f"grammar: readable rules -> {a.doc}")
     return 0
 
 

@@ -36,7 +36,18 @@ page's families are covered.
 2. `picsart_credits` on the `b05f6314` connector; record the balance in
    `<run>/report.md` under "Start".
 3. Parse the skeleton: frontmatter, each `## Sxx type` block, its `slot`
-   blocks and `> annotation:`, `> style:`, `> attrs:`, `> text:`, `> device:` and `> chrome:` lines. Slots with
+   blocks and `> annotation:`, `> style:`, `> attrs:`, `> prior:`, `> text:`, `> device:` and `> chrome:` lines.
+   `> prior:` is the page grammar (`picsart-workflows/page-grammar.md`,
+   built by `lp-corpus grammar --write-doc`; `doctor` warns when it is stale):
+   what slots in this context usually are — video share, the family shares,
+   and for a video the motion and median length. It advises; the original's
+   image-or-video and length stand. Only the length is measured to beat a
+   default (see the doc's trust paragraph); the family shares are a
+   shortlist, no better than the slot-class table at picking one.
+   A prior ending `# unusual:` means the original breaks a well-supported
+   pattern: keep it (never switch a slot between image and video) and write
+   one line under "Manager decisions" saying why it holds on this page. A
+   section-level `> prior: no generated media here` gets no slot. Slots with
    role `ui-screenshot`, `icon` or `decorative` are kept from source, and so
    is any slot whose family's **Template** line says `kept-from-source`
    (link-grid thumbnails resolve there); list them in the report with the
@@ -45,7 +56,8 @@ page's families are covered.
    that family's main panel; compose is skipped for video. Their
    `> duration:` line is the original clip's length: keep it (the final
    matches it, `budget.video_seconds` capping) or override it with a
-   number; `brief.py` turns it into the brief's `## Video` section and
+   number. A TODO duration (the original's length unknown) is left for
+   `brief.py`, which takes the prior's median length; `brief.py` turns it into the brief's `## Video` section and
    asks `similar` for clips (`--kind video`, excerpted as 3-frame strips).
 4. A `> style:` is yours to decide when it reads TODO, and also when its
    `> attrs:` line says `chrome=unanswered` and the slot's row in the
