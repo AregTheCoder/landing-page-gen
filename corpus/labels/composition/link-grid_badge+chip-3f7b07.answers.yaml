@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: left, text: "Great vibes, worth it!"}
+    - {kind: chip, placement: overlay, anchor: tr, text: Best creative experience!}
+    - {kind: chip, placement: overlay, anchor: br, text: 10/10 recommended}
+    - {kind: badge, placement: overlay, count: 3}

@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Jazz}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Jazz}
+4:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+5:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+6:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+7:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Rock}
+8:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Rock}
+9:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: House}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Hip-Hop}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: Country}

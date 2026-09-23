@@ -1,0 +1,37 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Image}
+    - {kind: chip, placement: overlay, anchor: bl, text: Reference Video}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Matte Glam}
+6:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: br, text: '15:52'}
+7:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+8:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: br, text: '4:29'}
+9:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: PDF}
+10:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Aa|Aa}
+11:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Aa|Aa}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, text: "'Flamingo in a lake, forest around'"}

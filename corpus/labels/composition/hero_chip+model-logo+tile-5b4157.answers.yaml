@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Start Frame|End Frame}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left, text: Flux 2 Klein 4B}
+    - {kind: chip, placement: beside, anchor: left, text: "3:5"}
+    - {kind: tile, placement: beside, anchor: left}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, text: SVG}
+    - {kind: tile, placement: beside, anchor: left, count: 2}

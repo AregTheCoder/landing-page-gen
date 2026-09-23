@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl, text: Post}
+    - {kind: size-label, placement: beside, anchor: bl, text: 1080 x 1080 px}

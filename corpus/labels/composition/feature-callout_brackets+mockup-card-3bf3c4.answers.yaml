@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: beside, anchor: br}
+    - {kind: mockup-card, placement: beside, anchor: bottom, count: 3, state: {active: 3}}
+2:
+  chrome_items:
+    - {kind: brackets, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}

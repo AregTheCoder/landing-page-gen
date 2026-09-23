@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+    - {kind: play-button, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+    - {kind: play-button, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: top, text: Anime}
+    - {kind: play-button, placement: overlay, anchor: centre}

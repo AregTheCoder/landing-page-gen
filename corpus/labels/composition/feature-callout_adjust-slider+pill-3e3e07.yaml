@@ -1,0 +1,31 @@
+sheet: feature-callout_adjust-slider+pill-3e3e07
+group:
+  type: feature-callout
+  chrome: adjust-slider+pill
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+pill-3e3e07.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e695bcb8-30d8-4197-99f1-fee9f65d7450.webm
+    asset: e695bcb8
+    page: video-studio--video-speed
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0489
+    pace: medium
+    loop: false
+    loop_seam: 0.894
+    camera: static
+    chrome:
+    - adjust-slider
+    - pill

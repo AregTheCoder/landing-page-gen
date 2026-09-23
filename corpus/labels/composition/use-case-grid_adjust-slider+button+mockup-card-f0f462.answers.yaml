@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br, text: paradise_store}
+    - {kind: mockup-card, placement: beside, anchor: bl, text: $110}
+    - {kind: button, placement: beside, anchor: bl, text: BUY}
+    - {kind: adjust-slider, placement: overlay, anchor: centre}

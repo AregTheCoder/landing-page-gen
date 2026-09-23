@@ -1,0 +1,258 @@
+sheet: feature-callout_chip+model-logo-b2bf8e
+group:
+  type: feature-callout
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo-b2bf8e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0d62073-6bc2-47cb-a611-c69d8a032c13.avif
+    asset: f0d62073
+    page: ai-models--recraft-v4-pro
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f1025f68-88ff-4e9f-9b17-a93946360343.webm
+    asset: f1025f68
+    page: compare-models--kling-vs-runway
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    duration: 8.0
+    motion: 0.0307
+    pace: slow
+    loop: true
+    loop_seam: 0.957
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5cb9116-d621-4b19-b12f-64e7a816f55a.avif
+    asset: f5cb9116
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f746795b-097c-44a8-9ed3-eb8791caee02.webp
+    asset: f746795b
+    page: ai-models--flux-2-flex
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 28
+    n_pages: 28
+    layout: grid
+    panel_count: 5
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fa62c50f-ded1-4468-82b5-7758509e7e63.avif
+    asset: fa62c50f
+    page: ai-models--imagen-4-0-ultra
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc72f021-3378-4f61-bace-adc327bdde6e.avif
+    asset: fc72f021
+    page: ai-models--gpt-image-1
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/08a123dd-3cfa-414c-bf07-a3b8e0f041e6.avif
+    asset: 08a123dd
+    page: ai-models--recraft-v4-styles
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/38c90bc5-3395-4c2e-b473-51d1b8cb3100.webm
+    asset: 38c90bc5
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.9
+    motion: 0.0459
+    pace: medium
+    loop: false
+    loop_seam: 0.893
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  9:
+    src: https://pcdn.picsart.com/cms-uploads/46bb8816-c39c-4b36-97b1-8a829f7c55fa.webm
+    asset: 46bb8816
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    duration: 7.9
+    motion: 0.1022
+    pace: fast
+    loop: false
+    loop_seam: 0.831
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  10:
+    src: https://pcdn.picsart.com/cms-uploads/6e7d98a6-2747-445b-ba57-8fcc815df18a.webm
+    asset: 6e7d98a6
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.1654
+    pace: fast
+    loop: false
+    loop_seam: 0.774
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  11:
+    src: https://pcdn.picsart.com/cms-uploads/723843a2-af9f-4632-95ea-8620d7b9e503.webm
+    asset: 723843a2
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.9
+    motion: 0.1301
+    pace: fast
+    loop: false
+    loop_seam: 0.768
+    camera: push-in
+    chrome:
+    - chip
+    - model-logo
+  12:
+    src: https://pcdn.picsart.com/cms-uploads/7e8bd717-82fb-4b7d-825a-23bd2829bf76.webm
+    asset: 7e8bd717
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1482
+    pace: fast
+    loop: false
+    loop_seam: 0.777
+    camera: static
+    chrome:
+    - chip
+    - model-logo

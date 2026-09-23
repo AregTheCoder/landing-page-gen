@@ -1,0 +1,26 @@
+sheet: link-grid_adjust-slider+badge-03a448
+group:
+  type: link-grid
+  chrome: adjust-slider+badge
+fields:
+- chrome_items
+answers: link-grid_adjust-slider+badge-03a448.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/68b8f004-50e1-4147-9aa5-304934e264d2.png
+    asset: 68b8f004
+    page: background-remover
+    slot: S17-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - badge

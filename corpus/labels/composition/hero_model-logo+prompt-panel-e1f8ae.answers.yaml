@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: prompt-panel, placement: beside, anchor: bottom, text: "A dreamy, high-fashion beauty portrait"}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: prompt-panel, placement: beside, anchor: bottom, text: Portrait of a stylish young woman}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: prompt-panel, placement: beside, anchor: bottom, text: High-fashion beauty portrait of a}

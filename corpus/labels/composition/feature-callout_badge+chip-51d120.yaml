@@ -1,0 +1,44 @@
+sheet: feature-callout_badge+chip-51d120
+group:
+  type: feature-callout
+  chrome: badge+chip
+fields:
+- chrome_items
+answers: feature-callout_badge+chip-51d120.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/7ec514d6-8d0c-4235-92dc-43c4ef354021.png
+    asset: 7ec514d6
+    page: product-ad-maker
+    slot: S05-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - chip
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/c684d451-7461-41cd-a63f-9d0886e3db61.png
+    asset: c684d451
+    page: ai-video-filters
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - chip

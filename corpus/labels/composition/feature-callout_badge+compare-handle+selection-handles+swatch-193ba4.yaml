@@ -1,0 +1,28 @@
+sheet: feature-callout_badge+compare-handle+selection-handles+swatch-193ba4
+group:
+  type: feature-callout
+  chrome: badge+compare-handle+selection-handles+swatch
+fields:
+- chrome_items
+answers: feature-callout_badge+compare-handle+selection-handles+swatch-193ba4.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/f76d7601-d94d-4032-8d4f-44902e7d83cc.png
+    asset: f76d7601
+    page: background-tools
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - compare-handle
+    - selection-handles
+    - swatch

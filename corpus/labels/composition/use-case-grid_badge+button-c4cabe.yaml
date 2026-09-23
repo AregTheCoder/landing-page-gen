@@ -1,0 +1,26 @@
+sheet: use-case-grid_badge+button-c4cabe
+group:
+  type: use-case-grid
+  chrome: badge+button
+fields:
+- chrome_items
+answers: use-case-grid_badge+button-c4cabe.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/40a224bf-ef1c-4cd8-882a-3812f1f5506a.avif
+    asset: 40a224bf
+    page: photo-editor
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - button

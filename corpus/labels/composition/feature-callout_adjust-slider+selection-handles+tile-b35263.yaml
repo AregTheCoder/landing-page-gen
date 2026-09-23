@@ -1,0 +1,27 @@
+sheet: feature-callout_adjust-slider+selection-handles+tile-b35263
+group:
+  type: feature-callout
+  chrome: adjust-slider+selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+selection-handles+tile-b35263.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/8f1651b8-25d1-452e-84e5-0e3aa4a20f22.png
+    asset: 8f1651b8
+    page: add-shadow-to-image
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - selection-handles
+    - tile

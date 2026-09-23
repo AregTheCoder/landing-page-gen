@@ -1,0 +1,27 @@
+sheet: link-grid_button+play-button+prompt-panel-e8cfde
+group:
+  type: link-grid
+  chrome: button+play-button+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_button+play-button+prompt-panel-e8cfde.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0888c645-ef3a-4d3f-b290-2f5e42b8f966.png
+    asset: 0888c645
+    page: ai-video-filters
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - prompt-panel

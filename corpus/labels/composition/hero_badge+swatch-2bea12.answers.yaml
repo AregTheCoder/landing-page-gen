@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: centre}
+    - {kind: badge, placement: overlay, anchor: centre}

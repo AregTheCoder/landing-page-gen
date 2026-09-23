@@ -1,0 +1,25 @@
+sheet: gallery_play-button-57b8b4
+group:
+  type: gallery
+  chrome: play-button
+fields:
+- chrome_items
+answers: gallery_play-button-57b8b4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5f2eead-a664-4c49-83a9-68e515637294.png?type=webp&to=min&r=400
+    asset: a5f2eead
+    page: aura
+    slot: S08-m6
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button

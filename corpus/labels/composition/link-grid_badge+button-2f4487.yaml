@@ -1,0 +1,44 @@
+sheet: link-grid_badge+button-2f4487
+group:
+  type: link-grid
+  chrome: badge+button
+fields:
+- chrome_items
+answers: link-grid_badge+button-2f4487.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/8c1972df-3b33-447a-95a8-3b564f69128b.png
+    asset: 8c1972df
+    page: ai-image-extender
+    slot: S15-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/8c1972df-3b33-447a-95a8-3b564f69128b.png?type=webp&to=min&r=640
+    asset: 8c1972df
+    page: image-tools
+    slot: S06-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button

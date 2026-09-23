@@ -1,0 +1,126 @@
+sheet: feature-callout_button+tile-cf09d8
+group:
+  type: feature-callout
+  chrome: button+tile
+fields:
+- chrome_items
+answers: feature-callout_button+tile-cf09d8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/221eedfd-ba5f-47f5-8595-854db10f05f9.webm
+    asset: 221eedfd
+    page: ai-marketing-studio
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.074
+    pace: medium
+    loop: true
+    loop_seam: 0.932
+    camera: push-in
+    chrome:
+    - button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7a90b246-ef40-46af-b10d-f2e028cfe52c.webp
+    asset: 7a90b246
+    page: sticker-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c72ffedb-ad88-469e-86c6-5c53f55a8881.webp
+    asset: c72ffedb
+    page: animation-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/5a1a17dc-4097-4479-b54e-8eefe501b141.png
+    asset: 5a1a17dc
+    page: whatsapp-sticker-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - tile
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/c1b34851-10c1-4eb4-9b8d-b2dedeb55184.avif
+    asset: c1b34851
+    page: ai-models--recraft-v4-styles
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - button
+    - tile
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/d608ae6a-af4b-44ef-824f-a4925e836cc5.webm
+    asset: d608ae6a
+    page: audio-to-video
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0795
+    pace: medium
+    loop: false
+    loop_seam: 0.898
+    camera: static
+    chrome:
+    - button
+    - tile

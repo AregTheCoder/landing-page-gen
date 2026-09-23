@@ -1,0 +1,26 @@
+sheet: link-grid_mockup-card+size-label-7d9136
+group:
+  type: link-grid
+  chrome: mockup-card+size-label
+fields:
+- chrome_items
+answers: link-grid_mockup-card+size-label-7d9136.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b618ca32-c389-4c4b-87c7-b66061da3faa.png?type=webp&to=min&r=640
+    asset: b618ca32
+    page: content-creation-tools
+    slot: S06-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - size-label

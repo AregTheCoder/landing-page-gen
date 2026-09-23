@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl}
+    - {kind: size-label, placement: beside, anchor: tl, text: 4x}

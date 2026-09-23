@@ -1,0 +1,107 @@
+sheet: feature-callout_chip+prompt-panel+tile-66d008
+group:
+  type: feature-callout
+  chrome: chip+prompt-panel+tile
+fields:
+- chrome_items
+answers: feature-callout_chip+prompt-panel+tile-66d008.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/1194069b-7b28-46d2-9f99-5d41e8b9f5f9.webm
+    asset: 1194069b
+    page: audio-to-video
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.058
+    pace: medium
+    loop: false
+    loop_seam: 0.884
+    camera: push-in
+    chrome:
+    - chip
+    - prompt-panel
+    - tile
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/12db3575-dfa4-4f7c-b922-40d9252f602c.webm
+    asset: 12db3575
+    page: ai-models--gemini-omni-1-1-flash
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0852
+    pace: medium
+    loop: false
+    loop_seam: 0.861
+    camera: static
+    chrome:
+    - chip
+    - prompt-panel
+    - tile
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/13d0bcbb-54af-45d0-8470-247ce734eee2.webm
+    asset: 13d0bcbb
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.97
+    motion: 0.0634
+    pace: medium
+    loop: false
+    loop_seam: 0.857
+    camera: static
+    chrome:
+    - chip
+    - prompt-panel
+    - tile
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/9d92c142-3ce4-48e7-87b3-ba6a5041f13d.webm
+    asset: 9d92c142
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0563
+    pace: medium
+    loop: false
+    loop_seam: 0.883
+    camera: static
+    chrome:
+    - chip
+    - prompt-panel
+    - tile

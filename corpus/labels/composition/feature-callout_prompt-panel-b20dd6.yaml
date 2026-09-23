@@ -1,0 +1,41 @@
+sheet: feature-callout_prompt-panel-b20dd6
+group:
+  type: feature-callout
+  chrome: prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_prompt-panel-b20dd6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dd9a2585-9da3-42ed-b0eb-a9a7ce265ca0.webp
+    asset: dd9a2585
+    page: youtube-thumbnail-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 1
+    before_after: false
+    chrome:
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff776a63-b6ee-47c8-8989-916dc3229562.webp
+    asset: ff776a63
+    page: text-to-ad-generator
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - prompt-panel

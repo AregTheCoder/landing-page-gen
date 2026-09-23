@@ -1,0 +1,98 @@
+sheet: feature-callout_play-button+tile-989809
+group:
+  type: feature-callout
+  chrome: play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_play-button+tile-989809.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0d8aafba-8e7a-4832-8745-e796810895c4.webp
+    asset: 0d8aafba
+    page: instagram-video-maker
+    slot: S10-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a2f80a36-3b02-42b4-bb38-a8c7483d8f51.webp
+    asset: a2f80a36
+    page: instagram-video-maker
+    slot: S10-m4
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc7b7887-ed27-41d8-981e-e62c1440411b.webp
+    asset: fc7b7887
+    page: animation-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/9ab4e076-0e0c-4270-a7b7-7295754af7e7.png
+    asset: 9ab4e076
+    page: video-background-remover
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+    - tile
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/ff3d677f-559b-4089-90cc-d40887474d17.png
+    asset: ff3d677f
+    page: video-background-remover
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    chrome:
+    - play-button
+    - tile

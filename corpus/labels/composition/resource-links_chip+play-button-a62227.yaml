@@ -1,0 +1,44 @@
+sheet: resource-links_chip+play-button-a62227
+group:
+  type: resource-links
+  chrome: chip+play-button
+fields:
+- chrome_items
+answers: resource-links_chip+play-button-a62227.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a53c71af-7ed8-4fb3-8a2f-52ba078b78c5.webp
+    asset: a53c71af
+    page: ai-models--seedance-2-5
+    slot: S10-m1
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ba2275f4-1e1a-471e-8b2c-205db34cb006.png
+    asset: ba2275f4
+    page: video-editor
+    slot: S12-m2
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button

@@ -1,0 +1,24 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl}

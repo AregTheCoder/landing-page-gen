@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: compare-handle, placement: overlay, anchor: bl}
+    - {kind: play-button, placement: overlay, anchor: right}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: compare-handle, placement: overlay, anchor: bl}
+    - {kind: play-button, placement: overlay, anchor: right}

@@ -1,0 +1,49 @@
+sheet: feature-callout_arrow+tile-11630e
+group:
+  type: feature-callout
+  chrome: arrow+tile
+fields:
+- chrome_items
+answers: feature-callout_arrow+tile-11630e.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/5a031d60-9311-4ee8-95e4-e602fb0a9300.png
+    asset: 5a031d60
+    page: video-background-remover
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - arrow
+    - tile
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/bb219384-23f1-45e8-ab26-3ea9a0c9ac34.webm
+    asset: bb219384
+    page: ai-video-upscaler
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1479
+    pace: fast
+    loop: false
+    loop_seam: 0.748
+    camera: pull-back
+    chrome:
+    - arrow
+    - tile

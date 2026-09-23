@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: play-button, placement: overlay, anchor: tl}
+    - {kind: button, placement: beside, anchor: bl}
+    - {kind: brackets, placement: overlay, anchor: tr}

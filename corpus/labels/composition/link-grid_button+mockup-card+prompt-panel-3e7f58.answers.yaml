@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: centre, text: Approve & Start}
+    - {kind: button, placement: beside, anchor: br, text: View on Store}
+    - {kind: mockup-card, placement: beside, anchor: right, text: Published to your store!}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: prompt-panel, placement: overlay, anchor: br, text: Quote about a pizza shop}
+    - {kind: button, placement: overlay, anchor: br, text: Generate}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, text: skeen.company}
+    - {kind: prompt-panel, placement: overlay, anchor: br, text: Facial serum that makes your skin glow.}
+    - {kind: button, placement: overlay, anchor: br, text: Generate}

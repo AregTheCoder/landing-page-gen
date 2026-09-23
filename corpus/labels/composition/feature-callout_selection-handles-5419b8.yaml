@@ -1,0 +1,82 @@
+sheet: feature-callout_selection-handles-5419b8
+group:
+  type: feature-callout
+  chrome: selection-handles
+fields:
+- chrome_items
+answers: feature-callout_selection-handles-5419b8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/050b2c1d-b701-47ed-af06-0e79361c2368.webm
+    asset: 050b2c1d
+    page: ai-image-extender
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.37
+    motion: 0.0776
+    pace: medium
+    loop: false
+    loop_seam: 0.794
+    camera: static
+    chrome:
+    - selection-handles
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/35fd07a1-ec1c-4d27-a625-8fab1cb9fdc5.avif
+    asset: 35fd07a1
+    page: batch-photo-editor
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - selection-handles
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6082f48b-e642-4739-8577-ab27b4e794ea.avif
+    asset: 6082f48b
+    page: crop-image
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/7f78f079-c5bf-4a5e-afd4-b56687194d0d.png
+    asset: 7f78f079
+    page: timeline-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles

@@ -1,0 +1,76 @@
+sheet: gallery_button-f3a041
+group:
+  type: gallery
+  chrome: button
+fields:
+- chrome_items
+answers: gallery_button-f3a041.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/22132c34-6c54-4a4a-aa41-5874d5dc32e2.png
+    asset: 22132c34
+    page: greeting-card-maker
+    slot: S04-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - button
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/8e3b2250-2cce-419b-81d7-95547162cb83.png
+    asset: 8e3b2250
+    page: coupon-maker
+    slot: S05-m2
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+    chrome:
+    - button
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/ba6ea146-3b1d-4d57-bde3-fc0d32375f2a.png
+    asset: ba6ea146
+    page: instagram-post-creator
+    slot: S04-m6
+    type: gallery
+    size: tile
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 8
+    before_after: false
+    chrome:
+    - button
+  4:
+    src: https://cdn-basic-content-api.picsart.io/p/bc3648b3-8f1c-4556-87b7-1a1d79e2762c.png
+    asset: bc3648b3
+    page: coupon-maker
+    slot: S05-m4
+    type: gallery
+    size: tile
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button

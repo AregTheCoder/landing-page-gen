@@ -1,0 +1,74 @@
+sheet: hero_button+prompt-panel-cbcf9b
+group:
+  type: hero
+  chrome: button+prompt-panel
+fields:
+- chrome_items
+answers: hero_button+prompt-panel-cbcf9b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/32cd4027-13c7-467f-ae11-a1dab69ec453.webm
+    asset: 32cd4027
+    page: text-to-video-ai
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.0
+    motion: 0.0054
+    pace: still
+    loop: true
+    loop_seam: 0.982
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/38851f36-95fd-4cd2-85b9-694484f640f4.webm
+    asset: 38851f36
+    page: ai-models--sora
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.67
+    motion: 0.0989
+    pace: medium
+    loop: false
+    loop_seam: 0.799
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff8ac657-9599-450d-96f3-c25284f1b642.webp
+    asset: ff8ac657
+    page: gpt-image-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel

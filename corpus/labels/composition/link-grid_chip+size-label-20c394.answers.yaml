@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 1920|1080}
+    - {kind: size-label, placement: beside, anchor: bottom, count: 2, text: 1920|1080}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 1920|1080}
+    - {kind: size-label, placement: beside, anchor: bottom, count: 2, text: 1920|1080}

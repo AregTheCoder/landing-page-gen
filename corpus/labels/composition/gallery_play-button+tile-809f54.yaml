@@ -1,0 +1,26 @@
+sheet: gallery_play-button+tile-809f54
+group:
+  type: gallery
+  chrome: play-button+tile
+fields:
+- chrome_items
+answers: gallery_play-button+tile-809f54.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9851745a-b0ed-44ed-a430-4468a2dab598.webp
+    asset: 9851745a
+    page: text-to-video-ai
+    slot: S09-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+    - tile

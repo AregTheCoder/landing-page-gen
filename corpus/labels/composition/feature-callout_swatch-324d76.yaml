@@ -1,0 +1,25 @@
+sheet: feature-callout_swatch-324d76
+group:
+  type: feature-callout
+  chrome: swatch
+fields:
+- chrome_items
+answers: feature-callout_swatch-324d76.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/33bb57f2-81f2-4a61-b69f-088db7f712e7.webp
+    asset: 33bb57f2
+    page: gpt-image-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr}
+    - {kind: pill, placement: overlay, anchor: right, text: HSL}

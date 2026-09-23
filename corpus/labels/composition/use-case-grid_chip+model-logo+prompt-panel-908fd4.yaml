@@ -1,0 +1,27 @@
+sheet: use-case-grid_chip+model-logo+prompt-panel-908fd4
+group:
+  type: use-case-grid
+  chrome: chip+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_chip+model-logo+prompt-panel-908fd4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/51ce3cd4-6298-4160-9528-30929d88f710.avif
+    asset: 51ce3cd4
+    page: ai-models--async-flash-v1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel

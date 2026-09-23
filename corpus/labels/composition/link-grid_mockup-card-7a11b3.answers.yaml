@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 6}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 4}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 2}}

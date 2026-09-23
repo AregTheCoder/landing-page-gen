@@ -1,0 +1,46 @@
+sheet: feature-callout_badge+chip+mockup-card-6a3d08
+group:
+  type: feature-callout
+  chrome: badge+chip+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_badge+chip+mockup-card-6a3d08.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/024b8aa7-f648-439c-b59b-869996f6c81d.webp
+    asset: 024b8aa7
+    page: variation-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - chip
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/96f4a4c6-56d6-427c-9364-20ac491ca00e.png
+    asset: 96f4a4c6
+    page: ai-filters
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - chip
+    - mockup-card

@@ -1,0 +1,46 @@
+sheet: feature-callout_chip+play-button+tile-08abfc
+group:
+  type: feature-callout
+  chrome: chip+play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_chip+play-button+tile-08abfc.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5c9a9f54-e0cb-454f-838b-1ba2c445c44f.webp
+    asset: 5c9a9f54
+    page: ai-models--seedance-1-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/67d86043-206b-4e00-b42b-801f8c68e9fb.avif
+    asset: 67d86043
+    page: ai-design-generator
+    slot: S08-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+    - tile

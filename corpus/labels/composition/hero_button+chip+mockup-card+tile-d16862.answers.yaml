@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+    - {kind: button, placement: overlay, anchor: br, text: ADD TO BASKET}
+    - {kind: chip, placement: overlay, anchor: bottom, text: $70}
+    - {kind: tile, placement: overlay, anchor: left}
+    - {kind: tile, placement: overlay, anchor: right}

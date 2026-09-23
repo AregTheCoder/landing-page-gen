@@ -1,0 +1,25 @@
+sheet: how-it-works_tile-8e0620
+group:
+  type: how-it-works
+  chrome: tile
+fields:
+- chrome_items
+answers: how-it-works_tile-8e0620.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6cfcb1a3-61af-47ff-9178-a7639c0065f9.webp
+    asset: 6cfcb1a3
+    page: text-editor
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - tile

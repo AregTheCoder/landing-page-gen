@@ -1,0 +1,44 @@
+sheet: how-it-works_button+chip-b8d1bd
+group:
+  type: how-it-works
+  chrome: button+chip
+fields:
+- chrome_items
+answers: how-it-works_button+chip-b8d1bd.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdd6dde8-dfa5-4f6e-8719-e9236e81bb0b.webp
+    asset: fdd6dde8
+    page: variation-generator
+    slot: S03-m1
+    type: how-it-works
+    size: card
+    aspect_class: '2:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - chip
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/95a24b16-f78d-4646-8d37-6586ff32c554.png
+    asset: 95a24b16
+    page: ai-filters
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip

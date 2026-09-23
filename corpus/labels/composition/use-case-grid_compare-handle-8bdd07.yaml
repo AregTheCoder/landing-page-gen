@@ -1,0 +1,42 @@
+sheet: use-case-grid_compare-handle-8bdd07
+group:
+  type: use-case-grid
+  chrome: compare-handle
+fields:
+- chrome_items
+answers: use-case-grid_compare-handle-8bdd07.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac50198a-ef75-401c-980b-7dc29703f385.avif
+    asset: ac50198a
+    page: ai-story-generator
+    slot: S12-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - compare-handle
+  2:
+    src: https://cdn140.picsart.com/17169716074950588894.png
+    asset: '17169716'
+    page: red-eye-remover
+    slot: S02-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle

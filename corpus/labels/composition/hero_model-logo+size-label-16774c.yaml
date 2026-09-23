@@ -1,0 +1,32 @@
+sheet: hero_model-logo+size-label-16774c
+group:
+  type: hero
+  chrome: model-logo+size-label
+fields:
+- chrome_items
+answers: hero_model-logo+size-label-16774c.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/1dff5f7b-2ca6-443d-a55f-14f76ec14b6b.webm
+    asset: 1dff5f7b
+    page: ai-models--minimax-h3-max
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0513
+    pace: medium
+    loop: true
+    loop_seam: 0.921
+    camera: static
+    chrome:
+    - model-logo
+    - size-label

@@ -1,0 +1,32 @@
+sheet: feature-callout_adjust-panel+pill-571884
+group:
+  type: feature-callout
+  chrome: adjust-panel+pill
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+pill-571884.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4152c4fc-e528-422e-b30a-cb466ca80c23.webm
+    asset: 4152c4fc
+    page: video-to-gif
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 3.97
+    motion: 0.0359
+    pace: slow
+    loop: true
+    loop_seam: 0.945
+    camera: static
+    chrome:
+    - adjust-panel
+    - pill

@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: chip, placement: beside, anchor: bl, text: Abstract}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: chip, placement: beside, anchor: bl, text: Golden Hour}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 4, state: {active: 3}}
+    - {kind: chip, placement: beside, anchor: left, count: 4, text: Square|Portrait|Post|Pinterest Pin}

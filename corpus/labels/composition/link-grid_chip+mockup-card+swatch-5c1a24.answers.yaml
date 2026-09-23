@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: tr, count: 3, text: Aa|Aa|Aa}
+    - {kind: swatch, placement: overlay, anchor: bl, count: 3}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: tr, text: Logos}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: Color palette}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: Fonts}
+    - {kind: swatch, placement: overlay, anchor: left, count: 3}
+    - {kind: chip, placement: overlay, anchor: br, count: 2, text: Aa|Aa}

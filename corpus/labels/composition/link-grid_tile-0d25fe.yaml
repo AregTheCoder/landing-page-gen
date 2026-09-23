@@ -1,0 +1,212 @@
+sheet: link-grid_tile-0d25fe
+group:
+  type: link-grid
+  chrome: tile
+fields:
+- chrome_items
+answers: link-grid_tile-0d25fe.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp
+    asset: b54783a7
+    page: ai-models--hunyuan
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b54783a7-b787-46b5-b1bd-492de2715ea0.webp?type=webp&to=min&r=640
+    asset: b54783a7
+    page: ai-design-tools
+    slot: S06-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b762ed92-a845-462f-8191-a482c8581a4c.webp?type=webp&to=min&r=640
+    asset: b762ed92
+    page: ai-design-tools
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bd014004-e8b5-4f23-bf04-ccf846be1019.webp
+    asset: bd014004
+    page: ai-models--flux-3
+    slot: S13-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d636148e-c5fd-46d5-bb9d-ac898296ebf2.webp
+    asset: d636148e
+    page: video-to-gif
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d636148e-c5fd-46d5-bb9d-ac898296ebf2.webp?type=webp&to=min&r=640
+    asset: d636148e
+    page: ai-design-tools
+    slot: S07-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ef5b2298-ec84-4404-a613-f4cd95840ced.webp
+    asset: ef5b2298
+    page: flip-video
+    slot: S11-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd3856d2-2314-4b6c-89ec-817fea7c7ef9.webp?type=webp&to=min&r=640
+    asset: fd3856d2
+    page: design
+    slot: S03-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/39054659-1221-45ae-921d-47d05a0278fa.png
+    asset: '39054659'
+    page: ai-design-generator
+    slot: S11-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/4ca61aa5-1eab-4321-824d-145fa77e5e43.jpg
+    asset: 4ca61aa5
+    page: ai-background
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png
+    asset: 77c3b11c
+    page: brand-identity-generator
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/77c3b11c-a1e6-4135-811b-cb64f8203b10.png?type=webp&to=min&r=640
+    asset: 77c3b11c
+    page: design
+    slot: S07-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile

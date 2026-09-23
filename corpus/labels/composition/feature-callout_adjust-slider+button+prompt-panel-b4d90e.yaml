@@ -1,0 +1,27 @@
+sheet: feature-callout_adjust-slider+button+prompt-panel-b4d90e
+group:
+  type: feature-callout
+  chrome: adjust-slider+button+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+button+prompt-panel-b4d90e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3de0eaec-56b4-439c-a6c1-9b50681c7fba.webp
+    asset: 3de0eaec
+    page: animation-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - button
+    - prompt-panel

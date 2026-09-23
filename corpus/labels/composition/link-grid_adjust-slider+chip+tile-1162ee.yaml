@@ -1,0 +1,46 @@
+sheet: link-grid_adjust-slider+chip+tile-1162ee
+group:
+  type: link-grid
+  chrome: adjust-slider+chip+tile
+fields:
+- chrome_items
+answers: link-grid_adjust-slider+chip+tile-1162ee.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp
+    asset: 609c7793
+    page: ai-product-image-generator
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/609c7793-6c4c-4046-ac42-5eb41c1bf823.webp?type=webp&to=min&r=640
+    asset: 609c7793
+    page: ai-design-tools
+    slot: S02-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip
+    - tile

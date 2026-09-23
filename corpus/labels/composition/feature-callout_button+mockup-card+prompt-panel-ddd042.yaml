@@ -1,0 +1,84 @@
+sheet: feature-callout_button+mockup-card+prompt-panel-ddd042
+group:
+  type: feature-callout
+  chrome: button+mockup-card+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+prompt-panel-ddd042.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/465fff4d-644b-4746-ba7a-91764160bb89.webp
+    asset: 465fff4d
+    page: text-to-ad-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7258b3fb-3b40-4908-ae85-acaa441d258c.avif
+    asset: 7258b3fb
+    page: ai-design-generator
+    slot: S08-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/be8708d4-bafe-454f-847e-fd81b4949bff.webp
+    asset: be8708d4
+    page: ai-video-avatar
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dae3bcef-aab8-4561-a2ec-7e496541586b.avif
+    asset: dae3bcef
+    page: ai-design-generator
+    slot: S08-m6
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel

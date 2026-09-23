@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: "A surreal, realistic fisheye video of a"}
+    - {kind: size-label, placement: beside, anchor: left, text: "9:16 | 1080p"}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: bl}

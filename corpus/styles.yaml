@@ -2967,6 +2967,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/105e49d0-4b3e-49cf-aaf7-f5105ff1
   page: home
   slot: S07-m8
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/105ec557-f094-4364-bb0d-01bf0cca5dc5.webp:
+  style: dark-composite
+  variant: white
+  confidence: 0.55
+  page: design-localization
+  slot: S08-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm:
   style: prompt-card
   variant: null
@@ -4845,6 +4852,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3ce169dd-d3f0-44fe-8572-44047739
   page: ai-models--gpt-image-1-5
   slot: S03-m3
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm:
+  style: dark-composite
+  variant: null
+  confidence: 0.5
+  page: ai-models--kling-3-0
+  slot: S07-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/3d6ae2e3-7548-4f84-ad36-60d8c5d9ed04.avif:
   style: before-after
   variant: null
@@ -4886,6 +4900,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74
   confidence: 0.8
   page: ai-design-tools
   slot: S02-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/3df432c6-ff44-4f51-8136-e04dcf2bfe98.webp:
+  style: dark-composite
+  variant: white
+  confidence: 0.6
+  page: brand-kit-generator
+  slot: S01-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/3dfd3166-3597-41f1-bb66-917b51226d24.webm:
   style: prompt-card
@@ -5096,6 +5117,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/4418775b-f398-43f5-ac05-ecb5156c
   confidence: 0.95
   page: compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
   slot: S02-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/44491331-56bc-4ade-a7a7-6f1930088374.webm:
+  style: dark-composite
+  variant: null
+  confidence: 0.4
+  page: ai-models--kling-3-0
+  slot: S01-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/4484fd93-9d48-4dc5-b022-79cef255c467.webp:
   style: prompt-card
@@ -5810,6 +5838,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/55a4e949-818f-4e72-9677-1bc193a5
   confidence: 0.8
   page: video-to-gif
   slot: S02-m7
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/567b8866-e922-4731-8cee-02ac79270c2b.webp:
+  style: dark-composite
+  variant: white
+  confidence: 0.6
+  page: brand-kit-generator
+  slot: S04-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/5697681d-0855-4e6a-ba9f-134f90903280.jpeg?type=webp&to=min&r=400:
   style: cinematic-still
@@ -6588,6 +6623,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/6a7ee9bd-cd7e-42c2-9744-db7cb404
   confidence: 0.3
   page: ai-models--flux-3
   slot: S06-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/6abca0d5-9249-4917-b216-bb928d22ae10.webm:
+  style: dark-composite
+  variant: null
+  confidence: 0.4
+  page: ai-models--kling
+  slot: S01-m1
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/6ad95f76-8b7e-4bb5-9f5b-3d50ab89dd1e.avif:
   style: full-bleed
@@ -7646,13 +7688,6 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee97
   page: video-models
   slot: S03-m3
   source: rules
-https://cdn-cms-uploads.picsart.com/cms-uploads/87121e97-93c2-43ca-88ce-32ddc8fd3044.webm:
-  style: dark-composite
-  variant: mixed
-  confidence: 0.5
-  page: video-ad-maker
-  slot: S08-m1
-  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/871b4ccf-9d8d-41b5-927b-c7a32b9f86be.webm:
   style: dark-composite
   variant: null
@@ -8304,12 +8339,26 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/97c0eeeb-8b0a-4aae-9f9d-be2831ed
   page: ai-models--sora-2
   slot: S04-m1
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/9851745a-b0ed-44ed-a430-4468a2dab598.webp:
+  style: dark-composite
+  variant: null
+  confidence: 0.5
+  page: text-to-video-ai
+  slot: S09-m4
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif:
   style: cutout-checkerboard
   variant: null
   confidence: 0.4
   page: batch-photo-editor
   slot: S08-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/9868e28a-8ebd-4f3b-8973-aa567279ec31.webp?type=webp&to=min&r=640:
+  style: dark-composite
+  variant: white
+  confidence: 0.8
+  page: ai-design-tools
+  slot: S04-m6
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/9871a1ec-8cdc-445d-a76b-eec5e0445758.webp:
   style: prompt-card
@@ -8766,6 +8815,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a6a93ab7-5a3d-4841-a29f-ec0332b5
   page: persona
   slot: S02-m6
   source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/a7561669-3dae-4ab6-a1d1-97c1eeb40d97.webm:
+  style: dark-composite
+  variant: null
+  confidence: 0.4
+  page: ai-models--grok-imagine-1-0
+  slot: S01-m1
+  source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/a79dfb9e-1998-43eb-981f-4baad4ded099.webm:
   style: vs-two-up
   variant: mixed
@@ -8821,6 +8877,13 @@ https://cdn-cms-uploads.picsart.com/cms-uploads/a89c4513-fb96-4a23-97ef-f3230d64
   confidence: 0.45
   page: ai-models--flux-kontext-max
   slot: S05-m1
+  source: rules
+https://cdn-cms-uploads.picsart.com/cms-uploads/a8b31f78-7402-4431-9268-548a71f6ce7d.webp?type=webp&to=min&r=640:
+  style: dark-composite
+  variant: white
+  confidence: 0.55
+  page: design
+  slot: S04-m5
   source: rules
 https://cdn-cms-uploads.picsart.com/cms-uploads/a8f3faaf-be58-454c-8c60-4355a2b8dfcc.webm:
   style: dark-composite
@@ -14679,13 +14742,6 @@ https://pastatic.picsart.com/cms-pastatic/4c797ce5-cfc0-4a71-85ae-890c88056d3a.p
   page: ai-sticker-maker
   slot: S12-m1
   source: rules
-https://pastatic.picsart.com/cms-pastatic/4ca61aa5-1eab-4321-824d-145fa77e5e43.jpg:
-  style: dark-composite
-  variant: white
-  confidence: 0.7
-  page: ai-background
-  slot: S12-m2
-  source: rules
 https://pastatic.picsart.com/cms-pastatic/4e50ee88-d129-4a60-99aa-8077ad249c80.png:
   style: full-bleed
   variant: null
@@ -14903,6 +14959,13 @@ https://pastatic.picsart.com/cms-pastatic/60cf4283-ebab-4a67-b121-2bc6df15d348.p
   confidence: 0.3
   page: ai-sticker-maker
   slot: S10-m1
+  source: rules
+https://pastatic.picsart.com/cms-pastatic/60eb80c9-ebd8-43b8-b913-4652e06c54fa.png:
+  style: dark-composite
+  variant: light
+  confidence: 0.6
+  page: t-shirt-maker
+  slot: S06-m1
   source: rules
 https://pastatic.picsart.com/cms-pastatic/6171adfe-b849-4aca-9016-1f90fc3843d6.png:
   style: template-mockup

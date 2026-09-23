@@ -1,0 +1,58 @@
+sheet: feature-callout_play-button-f02ca2
+group:
+  type: feature-callout
+  chrome: play-button
+fields:
+- chrome_items
+answers: feature-callout_play-button-f02ca2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/29481b4c-3cd3-42ef-87d3-b317f54e546d.avif
+    asset: 29481b4c
+    page: album-cover-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0117422-45c3-4399-885b-8a40095699e9.webp
+    asset: f0117422
+    page: ai-video-avatar
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - play-button
+  3:
+    src: https://cdn140.picsart.com/28433458737789537458.jpg
+    asset: '28433458'
+    page: resize-video
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - play-button

@@ -1,0 +1,62 @@
+sheet: use-case-grid_chip+tile-ffac09
+group:
+  type: use-case-grid
+  chrome: chip+tile
+fields:
+- chrome_items
+answers: use-case-grid_chip+tile-ffac09.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6985cfaa-3e86-4839-88d7-3cd69c9a6103.avif
+    asset: 6985cfaa
+    page: ai-art-generator
+    slot: S10-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8891ed84-f7f0-4cf9-ae27-97151ef0a9b1.avif
+    asset: 8891ed84
+    page: video-studio
+    slot: S07-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e247e30d-4159-47d6-8011-60d43983ec00.webp
+    asset: e247e30d
+    page: resize-image
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile

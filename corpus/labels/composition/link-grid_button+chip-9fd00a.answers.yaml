@@ -1,0 +1,21 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bl, count: 3}
+    - {kind: chip, placement: beside, anchor: bottom, count: 5, text: 2.02s|2.00s|1.56s|5.56s|3.46s}
+    - {kind: chip, placement: beside, anchor: right, text: '00:08:20'}
+2:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: bl, text: 20+ styles}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Star}
+    - {kind: button, placement: beside, anchor: br}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Star}
+    - {kind: button, placement: beside, anchor: br}
+5:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: left}
+    - {kind: chip, placement: overlay, anchor: left, text: AI Avatar}

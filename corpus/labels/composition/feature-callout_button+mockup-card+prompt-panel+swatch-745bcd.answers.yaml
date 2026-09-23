@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: "cups, coffeeshop and bakery"}
+    - {kind: button, placement: beside, anchor: left, text: Generate logo}
+    - {kind: mockup-card, placement: beside, anchor: left, text: Color palette}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+    - {kind: swatch, placement: beside, anchor: left, count: 3}

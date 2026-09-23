@@ -1,0 +1,27 @@
+sheet: resource-links_play-button+prompt-panel+tile-d74bb7
+group:
+  type: resource-links
+  chrome: play-button+prompt-panel+tile
+fields:
+- chrome_items
+answers: resource-links_play-button+prompt-panel+tile-d74bb7.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d4b9cf35-fb5f-4966-bef7-d772dad9d502.avif
+    asset: d4b9cf35
+    page: video-editor
+    slot: S12-m3
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - play-button
+    - prompt-panel
+    - tile

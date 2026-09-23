@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: prompt-panel, placement: beside, anchor: br}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: prompt-panel, placement: beside, anchor: br}

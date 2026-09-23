@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, text: "1,3x"}
+    - {kind: size-label, placement: beside, anchor: br, text: 2700x2160 60 fps 9s}
+2:
+  chrome_items:
+    - {kind: size-label, placement: beside, anchor: bl, count: 2, state: {active: 2}, text: 2K|4K}
+    - {kind: chip, placement: beside, anchor: br, count: 5, state: {active: 2}, text: "3:1|3:4|16:9|2:3|1:3"}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tl, text: x2}
+    - {kind: size-label, placement: overlay, anchor: right, count: 3, state: {active: 1}, text: JPG|PNG|PDF}

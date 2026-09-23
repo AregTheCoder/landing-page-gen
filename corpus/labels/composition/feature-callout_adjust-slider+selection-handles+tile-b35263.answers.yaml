@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: tl, state: {on: true}, text: Shadow}
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: bl}

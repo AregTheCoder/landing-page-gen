@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br, text: "Embrace the unknown,"}
+    - {kind: tile, placement: overlay, anchor: left, count: 3, state: {active: 1}, text: "Aa|Aa|Aa"}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bottom, text: "Holiday themes"}
+    - {kind: tile, placement: overlay, anchor: right, text: "kick mates"}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, text: "SALE & STAY"}
+    - {kind: tile, placement: beside, anchor: bottom, count: 3, state: {active: 1}}

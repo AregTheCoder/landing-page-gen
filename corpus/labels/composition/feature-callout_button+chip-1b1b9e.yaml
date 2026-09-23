@@ -1,0 +1,146 @@
+sheet: feature-callout_button+chip-1b1b9e
+group:
+  type: feature-callout
+  chrome: button+chip
+fields:
+- chrome_items
+answers: feature-callout_button+chip-1b1b9e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d0d70f9-5328-4f19-a2c7-abc848f31251.avif
+    asset: 1d0d70f9
+    page: compare-models--seedance-2-vs-kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2a1d3d3b-1ee3-4a3f-99dc-25668698feff.webm
+    asset: 2a1d3d3b
+    page: video-to-gif
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1976
+    pace: fast
+    loop: false
+    loop_seam: 0.798
+    camera: static
+    chrome:
+    - button
+    - chip
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/43f52279-c4b3-40ee-9dd0-7ef386b3d314.png
+    asset: 43f52279
+    page: ai-text-font-style
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/518504d9-2d70-43d3-9ef3-de62810bce3c.png
+    asset: 518504d9
+    page: pdf-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/55a2d9c4-a02b-411c-b8ab-5efa1471a603.png
+    asset: 55a2d9c4
+    page: ai-text-font-style
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/895ac1f6-f688-4db5-bcda-2e1533a59b4c.png
+    asset: 895ac1f6
+    page: quote-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/fc9d3c9a-992e-4777-875f-55b696a088e2.webm
+    asset: fc9d3c9a
+    page: ai-models--gemini-omni-1-1-flash
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1132
+    pace: fast
+    loop: false
+    loop_seam: 0.826
+    camera: push-in
+    chrome:
+    - button
+    - chip

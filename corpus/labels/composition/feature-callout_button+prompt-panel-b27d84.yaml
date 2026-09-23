@@ -1,0 +1,115 @@
+sheet: feature-callout_button+prompt-panel-b27d84
+group:
+  type: feature-callout
+  chrome: button+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+prompt-panel-b27d84.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ef38e52b-4cea-41c8-84f0-f4452f06e71b.webp
+    asset: ef38e52b
+    page: wallpaper-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f04fb5fe-aca4-4d33-b0ef-df40e5c150a6.webp
+    asset: f04fb5fe
+    page: ai-poster-generator
+    slot: S10-m6
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd6a7346-7ec8-4b05-b060-987c3039cd28.webp
+    asset: fd6a7346
+    page: ai-models--flux-2-flex
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 27
+    n_pages: 26
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd767bc1-b77f-4291-a725-b595887e1a60.webp
+    asset: fd767bc1
+    page: ai-poster-generator
+    slot: S10-m5
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/0aee3bdc-d7ca-47f6-982f-09f69dc07d1e.png
+    asset: 0aee3bdc
+    page: packaging-design
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/a0c8e733-7529-4f9c-8aa0-f9127c54bde1.png
+    asset: a0c8e733
+    page: ai-video-filters
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel

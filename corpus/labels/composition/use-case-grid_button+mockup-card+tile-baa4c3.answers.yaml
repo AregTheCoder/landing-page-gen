@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: mockup-card, placement: overlay}
+    - {kind: button, placement: overlay, anchor: right, count: 4, text: 65K|Dislike|411|Share}

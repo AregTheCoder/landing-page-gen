@@ -1,0 +1,27 @@
+sheet: how-it-works_chip+model-logo+prompt-panel-4daa49
+group:
+  type: how-it-works
+  chrome: chip+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: how-it-works_chip+model-logo+prompt-panel-4daa49.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afeaa6bf-84e5-412b-a78b-fc6caefbc92e.avif
+    asset: afeaa6bf
+    page: ai-video-generator
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel

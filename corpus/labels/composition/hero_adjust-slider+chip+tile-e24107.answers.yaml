@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, text: 0.5x}
+    - {kind: adjust-slider, placement: beside, anchor: bottom}

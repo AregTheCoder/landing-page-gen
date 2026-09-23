@@ -1,0 +1,48 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: tl, count: 2}
+    - {kind: pill, placement: overlay, anchor: tl, count: 2, text: Recraft V4|Midjourney V7}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Wan 2.7|Kling 3.0}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Ideogram 3.0 Flash|Flux 2 Pro}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Kling 3.0|Runway Gen 4}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Dall-e 3|Midjourney}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bottom, count: 2}
+    - {kind: pill, placement: overlay, anchor: bottom, count: 2, text: Nano Banana 2|Flux 2 Pro}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Seedance 2.0|Kling 3.0}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: GPT Image 1.5|Midjourney V7}
+9:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Runway Gen 4|Veo 3.1}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 3}
+    - {kind: pill, placement: overlay, anchor: bl, count: 3, text: Kling 3.0 Omni|Veo 3.1|Runway Gen 4}
+11:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Recraft V4|Midjourney V7}
+12:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Flux 2 Pro|Midjourney}

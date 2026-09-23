@@ -1,0 +1,25 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: tl}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, text: Runway Aleph 2.0}
+    - {kind: tile, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}

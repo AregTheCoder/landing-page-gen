@@ -1,0 +1,20 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: rise & shine}
+    - {kind: button, placement: beside, anchor: br, text: Shop the Drop}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: Layers}
+    - {kind: tile, placement: beside, anchor: right, count: 3}
+    - {kind: button, placement: beside, anchor: br, text: Export JPG}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right, text: plump}
+    - {kind: button, placement: beside, anchor: bottom, count: 4}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right, text: plump}
+    - {kind: button, placement: beside, anchor: bottom, count: 4}

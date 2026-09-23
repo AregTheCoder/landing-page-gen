@@ -1,0 +1,98 @@
+sheet: use-case-grid_button+prompt-panel-c1c907
+group:
+  type: use-case-grid
+  chrome: button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_button+prompt-panel-c1c907.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b7a5efc-0346-47fc-b017-1ce46c610f35.webp
+    asset: 0b7a5efc
+    page: ai-models--flux-2-flex
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 21
+    n_pages: 21
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4484fd93-9d48-4dc5-b022-79cef255c467.webp
+    asset: 4484fd93
+    page: ai-assistant
+    slot: S15-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4857a276-0417-4aa9-9324-7b783bf87822.webp
+    asset: 4857a276
+    page: ai-models--pika-frames
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a90b63ab-64e4-4b4f-a541-cdec37abc167.webp
+    asset: a90b63ab
+    page: ai-models--kling-v2-new
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bbf3ba50-8036-4eaa-996f-012081e53891.webp
+    asset: bbf3ba50
+    page: ai-voice-generator
+    slot: S10-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel

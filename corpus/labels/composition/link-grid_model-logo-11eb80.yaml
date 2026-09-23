@@ -1,0 +1,42 @@
+sheet: link-grid_model-logo-11eb80
+group:
+  type: link-grid
+  chrome: model-logo
+fields:
+- chrome_items
+answers: link-grid_model-logo-11eb80.answers.yaml
+cells:
+  1:
+    src: https://cdnblog.picsart.com/2026/02/CR6772_Picsart_NanoBanana2_750x450.png
+    asset: CR6772_P
+    page: ai-models--nano-banana-2
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/b7f9f272-f217-411f-bf0d-fa0167387b2b.png
+    asset: b7f9f272
+    page: ai-filters
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo

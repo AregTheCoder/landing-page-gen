@@ -1,0 +1,48 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: tl, text: Generate}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Vivid and nostalgic retro blue hairstyle}
+    - {kind: button, placement: beside, anchor: tl, text: Generate}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Make similar}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Mirror cube in desert}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+7:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+8:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+9:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Coffee shop ad}
+    - {kind: button, placement: beside, anchor: br, text: Generate}
+10:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tr}
+    - {kind: button, placement: beside, anchor: tr, text: Generate}
+11:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre}
+    - {kind: button, placement: beside, anchor: centre, text: Generate}
+12:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

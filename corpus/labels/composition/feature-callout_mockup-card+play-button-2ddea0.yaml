@@ -1,0 +1,26 @@
+sheet: feature-callout_mockup-card+play-button-2ddea0
+group:
+  type: feature-callout
+  chrome: mockup-card+play-button
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+play-button-2ddea0.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e393bb2f-ee17-4d81-bc06-83343096438e.webp
+    asset: e393bb2f
+    page: ai-voice-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button

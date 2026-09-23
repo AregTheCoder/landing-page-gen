@@ -1,0 +1,46 @@
+sheet: link-grid_chip+model-logo+selection-handles-2d272a
+group:
+  type: link-grid
+  chrome: chip+model-logo+selection-handles
+fields:
+- chrome_items
+answers: link-grid_chip+model-logo+selection-handles-2d272a.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png
+    asset: ee7ad2e6
+    page: ai-filters
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - selection-handles
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/ee7ad2e6-c1c1-4867-8221-7920dd45da6c.png?type=webp&r=548&to=min
+    asset: ee7ad2e6
+    page: draw
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - selection-handles

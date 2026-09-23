@@ -1,0 +1,27 @@
+sheet: link-grid_chip+pill+tile-a8411b
+group:
+  type: link-grid
+  chrome: chip+pill+tile
+fields:
+- chrome_items
+answers: link-grid_chip+pill+tile-a8411b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/011fb16f-2be5-45cb-84bc-73cf452a28fd.webp?type=webp&to=min&r=640
+    asset: 011fb16f
+    page: content-creation-tools
+    slot: S06-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - pill
+    - tile

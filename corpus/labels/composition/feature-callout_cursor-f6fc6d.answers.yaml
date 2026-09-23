@@ -1,0 +1,9 @@
+1:
+  chrome_items:
+    - {kind: cursor, placement: beside, anchor: br}
+2:
+  chrome_items:
+    - {kind: cursor, placement: overlay, anchor: centre}
+3:
+  chrome_items:
+    - {kind: cursor, placement: overlay}

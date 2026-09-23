@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: model-logo, placement: beside, anchor: bl, text: Kling V3}
+    - {kind: chip, placement: beside, anchor: br, state: {value: 5}, text: Duration 5 seconds}

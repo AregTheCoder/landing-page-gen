@@ -1,0 +1,18 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+3:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+4:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+6:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+7:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}

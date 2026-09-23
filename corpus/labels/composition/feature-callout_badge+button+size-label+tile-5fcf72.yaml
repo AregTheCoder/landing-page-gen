@@ -1,0 +1,28 @@
+sheet: feature-callout_badge+button+size-label+tile-5fcf72
+group:
+  type: feature-callout
+  chrome: badge+button+size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+button+size-label+tile-5fcf72.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc1a07de-2f79-4188-b7ea-ffe8b53ba2ec.avif
+    asset: fc1a07de
+    page: image-upscale
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - size-label
+    - tile

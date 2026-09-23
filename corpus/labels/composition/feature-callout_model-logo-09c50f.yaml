@@ -1,0 +1,111 @@
+sheet: feature-callout_model-logo-09c50f
+group:
+  type: feature-callout
+  chrome: model-logo
+fields:
+- chrome_items
+answers: feature-callout_model-logo-09c50f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/244e7d0f-7308-436d-9de7-1af0eb343fd5.webm
+    asset: 244e7d0f
+    page: ai-models--sora
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.0
+    motion: 0.0607
+    pace: medium
+    loop: false
+    loop_seam: 0.88
+    camera: static
+    chrome:
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/457ec01e-429d-4d6b-ba7a-2ac3d5e40a77.avif
+    asset: 457ec01e
+    page: ai-models--gpt-image-1
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c7311ec5-acb7-4e57-94e0-704ef42e7f34.webp
+    asset: c7311ec5
+    page: ai-models--imagen-4-0-ultra
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/1fc8d8ad-3372-48f6-8a3f-f4b8488fdb36.webm
+    asset: 1fc8d8ad
+    page: ai-models--minimax-h3-max
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0923
+    pace: medium
+    loop: false
+    loop_seam: 0.849
+    camera: push-in
+    chrome:
+    - model-logo
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/41345fd9-f4d8-42d6-90c7-e6a4b8171540.webm
+    asset: 41345fd9
+    page: ai-models--wan-3-0-prime
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.0606
+    pace: medium
+    loop: false
+    loop_seam: 0.886
+    camera: static
+    chrome:
+    - model-logo

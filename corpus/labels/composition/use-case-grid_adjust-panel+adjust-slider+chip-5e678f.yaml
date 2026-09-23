@@ -1,0 +1,46 @@
+sheet: use-case-grid_adjust-panel+adjust-slider+chip-5e678f
+group:
+  type: use-case-grid
+  chrome: adjust-panel+adjust-slider+chip
+fields:
+- chrome_items
+answers: use-case-grid_adjust-panel+adjust-slider+chip-5e678f.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/12481028616582094390.png
+    asset: '12481028'
+    page: hsl-color
+    slot: S03-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - chip
+  2:
+    src: https://cdn140.picsart.com/48790089278770695789.png
+    asset: '48790089'
+    page: hsl-color
+    slot: S03-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - chip

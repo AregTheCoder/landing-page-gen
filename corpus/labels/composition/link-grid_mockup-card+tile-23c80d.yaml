@@ -1,0 +1,204 @@
+sheet: link-grid_mockup-card+tile-23c80d
+group:
+  type: link-grid
+  chrome: mockup-card+tile
+fields:
+- chrome_items
+answers: link-grid_mockup-card+tile-23c80d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02c147ba-69a2-40ea-8683-b55abe25112a.webp?type=webp&to=min&r=640
+    asset: 02c147ba
+    page: content-creation-tools
+    slot: S07-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/71e9ad23-ad10-4de2-beda-5cc524b121b8.webp
+    asset: 71e9ad23
+    page: ai-models--grok-imagine-1-0
+    slot: S11-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/90563a6f-452f-4c3e-93e0-19f2ecf69989.webp?type=webp&to=min&r=640
+    asset: 90563a6f
+    page: design
+    slot: S05-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/91f970ee-a026-4a9b-968d-ede6c2865021.webp
+    asset: 91f970ee
+    page: ai-models--grok-imagine-1-0
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/97a68b5d-b647-45ce-b851-d1a6aa247ca7.avif
+    asset: 97a68b5d
+    page: video-editor
+    slot: S15-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp
+    asset: 9e0a38de
+    page: ai-models--dall-e-3
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e0a38de-ab11-4fdb-8871-1b223d100ab4.webp?type=webp&to=min&r=1200&q=90&type=webp&to=min&r=640
+    asset: 9e0a38de
+    page: ai-models
+    slot: S02-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp
+    asset: abb45bdc
+    page: add-music-to-video
+    slot: S15-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/abb45bdc-e5f5-4580-84b2-890d2582fe08.webp?type=webp&to=min&r=640
+    asset: abb45bdc
+    page: ai-design-tools
+    slot: S05-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 6
+    n_pages: 5
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9aa2404-eb9c-4a7a-bd78-1b139a0a53c0.webp?type=webp&to=min&r=640
+    asset: d9aa2404
+    page: design
+    slot: S04-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  11:
+    src: https://cdnblog.picsart.com/2023/07/Header-1.png?to=max&r=700&type=webp
+    asset: Header-1
+    page: card-maker
+    slot: S10-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile

@@ -1,0 +1,27 @@
+sheet: link-grid_chip+selection-handles+size-label-60de6b
+group:
+  type: link-grid
+  chrome: chip+selection-handles+size-label
+fields:
+- chrome_items
+answers: link-grid_chip+selection-handles+size-label-60de6b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6c64e373-6ff1-43e0-bb6d-f353ab6af56e.webp?type=webp&to=min&r=640
+    asset: 6c64e373
+    page: content-creation-tools
+    slot: S02-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - selection-handles
+    - size-label

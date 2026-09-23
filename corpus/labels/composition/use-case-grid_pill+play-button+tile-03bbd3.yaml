@@ -1,0 +1,27 @@
+sheet: use-case-grid_pill+play-button+tile-03bbd3
+group:
+  type: use-case-grid
+  chrome: pill+play-button+tile
+fields:
+- chrome_items
+answers: use-case-grid_pill+play-button+tile-03bbd3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f223c881-0393-4d49-a26a-b171bb6ccd83.webp
+    asset: f223c881
+    page: video-enhancer
+    slot: S10-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - play-button
+    - tile

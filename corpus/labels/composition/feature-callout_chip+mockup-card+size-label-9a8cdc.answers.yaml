@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 2}
+    - {kind: chip, placement: overlay, anchor: left, count: 2, state: {active: 1}, text: Instagram Story|Facebook Ad}
+    - {kind: size-label, placement: overlay, anchor: left, count: 2, text: 1080x1920|1080x1080}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: Facebook post}
+    - {kind: size-label, placement: overlay, anchor: tr, text: 1200 x 630 px}
+    - {kind: mockup-card, placement: beside, anchor: br}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 3}
+    - {kind: chip, placement: overlay, anchor: left, count: 3}
+    - {kind: size-label, placement: overlay, anchor: left, count: 3, text: 1080x1080|1200x628|1000x1500}

@@ -1,0 +1,44 @@
+sheet: feature-callout_brackets+selection-handles-f4824a
+group:
+  type: feature-callout
+  chrome: brackets+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_brackets+selection-handles-f4824a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b95353fc-7b53-4ee4-9103-0cfc539d5c3b.avif
+    asset: b95353fc
+    page: batch-photo-editor
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - selection-handles
+  2:
+    src: https://cdn140.picsart.com/01359979707299665270.png
+    asset: 01359979
+    page: rotate-image
+    slot: S02-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - selection-handles

@@ -1,0 +1,27 @@
+sheet: gallery_button+play-button+prompt-panel-f253c4
+group:
+  type: gallery
+  chrome: button+play-button+prompt-panel
+fields:
+- chrome_items
+answers: gallery_button+play-button+prompt-panel-f253c4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/60bbbd6d-8c3f-46b0-9013-41704fccee17.webp
+    asset: 60bbbd6d
+    page: text-to-video-ai
+    slot: S09-m1
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - prompt-panel

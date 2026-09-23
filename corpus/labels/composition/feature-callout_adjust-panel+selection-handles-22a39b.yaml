@@ -1,0 +1,26 @@
+sheet: feature-callout_adjust-panel+selection-handles-22a39b
+group:
+  type: feature-callout
+  chrome: adjust-panel+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+selection-handles-22a39b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/548e38c0-d268-41b1-bbd0-9f3a0874d7bd.webp
+    asset: 548e38c0
+    page: face-editor
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - selection-handles

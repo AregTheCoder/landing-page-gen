@@ -1,0 +1,98 @@
+sheet: link-grid_button+chip-9fd00a
+group:
+  type: link-grid
+  chrome: button+chip
+fields:
+- chrome_items
+answers: link-grid_button+chip-9fd00a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0208b13c-33e4-4465-a7a5-82c83722a198.png?type=webp&to=min&r=640
+    asset: 0208b13c
+    page: video-tools
+    slot: S02-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/149c0940-1df7-409a-a7f6-d8e8485ebb2e.webp
+    asset: 149c0940
+    page: add-subtitles-to-video
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5818d5f-4228-4606-9520-d6a869fbc8df.webp
+    asset: f5818d5f
+    page: motivation-poster-maker
+    slot: S14-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5818d5f-4228-4606-9520-d6a869fbc8df.webp?type=webp&to=min&r=640
+    asset: f5818d5f
+    page: content-creation-tools
+    slot: S07-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/e9a9f441-148b-47fe-aded-0b030c24b1f6.png
+    asset: e9a9f441
+    page: draw
+    slot: S10-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip

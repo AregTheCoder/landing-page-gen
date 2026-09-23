@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: top}
+    - {kind: pill, placement: overlay, anchor: left, count: 2, text: Before|After}

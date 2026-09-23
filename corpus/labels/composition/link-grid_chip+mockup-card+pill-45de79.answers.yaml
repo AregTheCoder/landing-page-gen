@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: chip, placement: beside, anchor: br, count: 4}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: chip, placement: beside, anchor: br, count: 4}

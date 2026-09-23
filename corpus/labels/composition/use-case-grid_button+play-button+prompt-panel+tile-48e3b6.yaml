@@ -1,0 +1,28 @@
+sheet: use-case-grid_button+play-button+prompt-panel+tile-48e3b6
+group:
+  type: use-case-grid
+  chrome: button+play-button+prompt-panel+tile
+fields:
+- chrome_items
+answers: use-case-grid_button+play-button+prompt-panel+tile-48e3b6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6e1c292f-9d97-422f-8d32-83057c34811b.avif
+    asset: 6e1c292f
+    page: ai-models--flux-3
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button
+    - play-button
+    - prompt-panel
+    - tile

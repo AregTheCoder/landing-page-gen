@@ -1,0 +1,50 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: noah}
+    - {kind: tile, placement: beside, anchor: tl, text: Ai}
+    - {kind: tile, placement: beside, anchor: bl, text: ab}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, state: {active: 1}, text: Casey Morgan}
+    - {kind: tile, placement: beside, anchor: tl}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: timeless chick}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: tl}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: POTTERY CLASSES}
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: SUMMER Shimmer}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}

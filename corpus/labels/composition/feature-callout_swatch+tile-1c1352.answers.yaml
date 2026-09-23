@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+3:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: left, text: Aa Bb}

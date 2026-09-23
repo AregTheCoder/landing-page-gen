@@ -1,0 +1,27 @@
+sheet: link-grid_pill+play-button+tile-762928
+group:
+  type: link-grid
+  chrome: pill+play-button+tile
+fields:
+- chrome_items
+answers: link-grid_pill+play-button+tile-762928.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9868e28a-8ebd-4f3b-8973-aa567279ec31.webp?type=webp&to=min&r=640
+    asset: 9868e28a
+    page: ai-design-tools
+    slot: S04-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+    - play-button
+    - tile

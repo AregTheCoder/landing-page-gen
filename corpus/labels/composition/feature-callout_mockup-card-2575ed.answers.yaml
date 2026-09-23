@@ -1,0 +1,33 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: "oh, hey"}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 6}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 2}}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 1}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, text: "Lina|Sogo|Mani"}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br, text: "Mith&Mith"}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 2}}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}

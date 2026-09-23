@@ -1,0 +1,27 @@
+sheet: link-grid_badge+mockup-card+play-button-c1a1a1
+group:
+  type: link-grid
+  chrome: badge+mockup-card+play-button
+fields:
+- chrome_items
+answers: link-grid_badge+mockup-card+play-button-c1a1a1.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/70aef1eb-6792-4a59-ab2d-14bf495ffa5a.png
+    asset: 70aef1eb
+    page: video-ad-maker
+    slot: S11-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+    - play-button

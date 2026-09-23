@@ -1,0 +1,17 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: button, placement: beside, anchor: bottom, count: 4}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br, text: Out of office t-shirt}
+    - {kind: button, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: button, placement: beside, anchor: left, text: Buy now}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+    - {kind: button, placement: beside, anchor: br, text: BUY}
+    - {kind: button, placement: overlay, anchor: tr}

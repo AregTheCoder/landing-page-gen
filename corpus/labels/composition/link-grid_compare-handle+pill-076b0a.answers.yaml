@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+2:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: pill, placement: overlay, anchor: tl, text: before}
+    - {kind: pill, placement: overlay, anchor: tr, text: after}

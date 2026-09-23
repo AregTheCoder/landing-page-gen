@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, count: 2, text: Google|Picsart}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: br}

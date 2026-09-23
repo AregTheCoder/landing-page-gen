@@ -1,0 +1,14 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, count: 4}
+2:
+  chrome_items:
+    - {kind: arrow, placement: beside, count: 4}
+3:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: left}
+    - {kind: arrow, placement: beside, anchor: right}
+4:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: left}
+    - {kind: arrow, placement: beside, anchor: right}

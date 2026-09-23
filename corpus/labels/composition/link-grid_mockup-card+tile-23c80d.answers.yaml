@@ -1,0 +1,44 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, text: LUSH GLOW}
+    - {kind: tile, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: bottom, count: 3}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: AMELIE + JUAN}
+    - {kind: tile, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, text: Number of variations}
+    - {kind: tile, placement: beside, anchor: right, count: 2}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: "'90s Theme Party"}
+    - {kind: tile, placement: beside, anchor: bl}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: "'90s Theme Party"}
+    - {kind: tile, placement: beside, anchor: bl}
+8:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+9:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: THE ART OF MAKING}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: MICHAEL DAVISON}
+    - {kind: tile, placement: overlay, anchor: br, text: Fonts}

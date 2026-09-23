@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: 2025 October}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: DISCOVER THE WILD}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: GIVING THANKS}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: Change Jumper To Pink}

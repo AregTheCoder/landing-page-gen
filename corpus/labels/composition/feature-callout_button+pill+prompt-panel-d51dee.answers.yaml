@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: "Hand bag placed on a minimal pastel"}
+    - {kind: pill, placement: overlay, anchor: right, text: "$120"}
+    - {kind: button, placement: overlay, anchor: bottom, text: ADD TO CART}

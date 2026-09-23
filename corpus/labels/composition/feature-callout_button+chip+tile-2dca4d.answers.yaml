@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre, count: 2}
+    - {kind: button, placement: overlay, anchor: tr}
+    - {kind: chip, placement: overlay, anchor: tr, text: AI Enhance}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre, count: 3}
+    - {kind: chip, placement: overlay, count: 3, text: 1|2|3}
+    - {kind: button, placement: overlay, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, text: Remove BG}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+    - {kind: button, placement: beside, anchor: left, count: 2}
+    - {kind: chip, placement: beside, anchor: left, count: 2, text: '15s|3:4'}

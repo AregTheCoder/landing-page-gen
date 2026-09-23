@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: tl}
+    - {kind: size-label, placement: beside, anchor: bl, text: Story 1080 x 1920 px}

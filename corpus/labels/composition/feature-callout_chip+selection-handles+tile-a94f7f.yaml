@@ -1,0 +1,27 @@
+sheet: feature-callout_chip+selection-handles+tile-a94f7f
+group:
+  type: feature-callout
+  chrome: chip+selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_chip+selection-handles+tile-a94f7f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0188182b-5624-45e9-9361-3f6cd46c12a2.avif
+    asset: 0188182b
+    page: crop-image
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - selection-handles
+    - tile

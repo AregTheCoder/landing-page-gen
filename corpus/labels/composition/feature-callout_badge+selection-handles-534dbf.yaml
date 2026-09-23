@@ -1,0 +1,25 @@
+sheet: feature-callout_badge+selection-handles-534dbf
+group:
+  type: feature-callout
+  chrome: badge+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_badge+selection-handles-534dbf.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/98672563-3417-4219-ac98-50e06cf53362.avif
+    asset: '98672563'
+    page: batch-photo-editor
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - badge
+    - selection-handles

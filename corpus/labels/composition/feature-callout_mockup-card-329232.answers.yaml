@@ -1,0 +1,40 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: mockup-card, placement: beside, anchor: tr}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: Grazie!}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: mockup-card, placement: overlay, anchor: right, state: {active: 3}, text: Helvetica Regular}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 6}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: mockup-card, placement: overlay, anchor: tr, count: 3, state: {active: 1}}

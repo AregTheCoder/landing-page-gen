@@ -1,0 +1,26 @@
+sheet: link-grid_mockup-card+prompt-panel-d76981
+group:
+  type: link-grid
+  chrome: mockup-card+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_mockup-card+prompt-panel-d76981.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/e352cb12-a1bc-48e3-80b5-d2aecac33391.png?type=webp&to=min&r=640
+    asset: e352cb12
+    page: content-creation-tools
+    slot: S04-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - prompt-panel

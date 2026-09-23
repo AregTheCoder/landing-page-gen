@@ -1,0 +1,46 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: tl, count: 2}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: tl, count: 2}
+3:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Dall-e 3|Midjourney}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+4:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+5:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: top, text: Nano Banana 2}
+    - {kind: model-logo, placement: beside, anchor: top}
+    - {kind: pill, placement: beside, anchor: bottom, text: Flux 2 Pro}
+    - {kind: model-logo, placement: beside, anchor: bottom}
+6:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Dall-e 3|Midjourney}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+7:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: tl, count: 2}
+8:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Runway Gen 4|Veo 3.1}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+9:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Recraft V4|Ideogram 3.0 Flash}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+10:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: tl, count: 2}
+11:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: top, count: 2, text: Seedance 2.5|Kling 3.0}
+    - {kind: model-logo, placement: beside, anchor: top, count: 2}

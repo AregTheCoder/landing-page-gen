@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 4}
+    - {kind: tile, placement: beside, anchor: right, count: 3}

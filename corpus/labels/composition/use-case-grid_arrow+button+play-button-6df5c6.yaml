@@ -1,0 +1,46 @@
+sheet: use-case-grid_arrow+button+play-button-6df5c6
+group:
+  type: use-case-grid
+  chrome: arrow+button+play-button
+fields:
+- chrome_items
+answers: use-case-grid_arrow+button+play-button-6df5c6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d3251a6-c9dc-422e-933f-09f3b1916899.webp
+    asset: 1d3251a6
+    page: ai-models--kling-3-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 7
+    n_pages: 7
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - arrow
+    - button
+    - play-button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9871a1ec-8cdc-445d-a76b-eec5e0445758.webp
+    asset: 9871a1ec
+    page: ai-models--sora-2
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - arrow
+    - button
+    - play-button

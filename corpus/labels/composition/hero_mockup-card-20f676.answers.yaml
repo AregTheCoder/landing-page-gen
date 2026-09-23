@@ -1,0 +1,28 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: tr, text: SiPPi}
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 1}}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, count: 3, state: {active: 1}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, count: 3, state: {active: 1}}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, count: 3, state: {active: 1}}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}

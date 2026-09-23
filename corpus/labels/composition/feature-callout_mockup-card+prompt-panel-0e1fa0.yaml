@@ -1,0 +1,50 @@
+sheet: feature-callout_mockup-card+prompt-panel-0e1fa0
+group:
+  type: feature-callout
+  chrome: mockup-card+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+prompt-panel-0e1fa0.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b46c11f-8a3a-458e-b012-97fc34d2f829.webm
+    asset: 0b46c11f
+    page: ai-models--minimax-h3-max-ref-to-video
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 8
+    n_pages: 8
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.07
+    motion: 0.033
+    pace: slow
+    loop: true
+    loop_seam: 0.968
+    camera: static
+    chrome:
+    - mockup-card
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ade9ed71-7c13-4a3b-85ee-78a48a278e61.avif
+    asset: ade9ed71
+    page: persona
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - prompt-panel

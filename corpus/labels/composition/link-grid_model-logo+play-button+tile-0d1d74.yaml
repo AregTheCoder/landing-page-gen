@@ -1,0 +1,84 @@
+sheet: link-grid_model-logo+play-button+tile-0d1d74
+group:
+  type: link-grid
+  chrome: model-logo+play-button+tile
+fields:
+- chrome_items
+answers: link-grid_model-logo+play-button+tile-0d1d74.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1794ea79-a0f3-40ef-9c08-e6370ee5d618.webp
+    asset: 1794ea79
+    page: ai-models--async-flash-v1
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 44
+    n_pages: 44
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - play-button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/303f1819-62a2-46a1-aeee-e0163ce4b8c8.webp
+    asset: 303f1819
+    page: ai-models--kling-3-0-omni
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - play-button
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/62f736f4-9350-4185-979e-95de1c8f9fb6.webp
+    asset: 62f736f4
+    page: compare-models--kling-vs-runway
+    slot: S11-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - play-button
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc94b953-656d-42c8-9ee8-0a6c17e4043a.webp
+    asset: fc94b953
+    page: ai-models--async-flash-v1
+    slot: S12-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - play-button
+    - tile

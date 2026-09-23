@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tl}
+    - {kind: cursor, placement: overlay, anchor: br}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: right}

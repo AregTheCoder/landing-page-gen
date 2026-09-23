@@ -1,0 +1,25 @@
+sheet: link-grid_cursor-56a4d2
+group:
+  type: link-grid
+  chrome: cursor
+fields:
+- chrome_items
+answers: link-grid_cursor-56a4d2.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/56277461050794907876.png?type=webp&to=min&r=640
+    asset: '56277461'
+    page: content-creation-tools
+    slot: S05-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor

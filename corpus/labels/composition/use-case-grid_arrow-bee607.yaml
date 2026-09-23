@@ -1,0 +1,25 @@
+sheet: use-case-grid_arrow-bee607
+group:
+  type: use-case-grid
+  chrome: arrow
+fields:
+- chrome_items
+answers: use-case-grid_arrow-bee607.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1fa421aa-7b45-47bd-9410-1d1d97aed76a.webp
+    asset: 1fa421aa
+    page: ai-assistant
+    slot: S15-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+    chrome:
+    - arrow

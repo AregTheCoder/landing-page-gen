@@ -1,0 +1,26 @@
+sheet: feature-callout_compare-handle+mockup-card-f790bc
+group:
+  type: feature-callout
+  chrome: compare-handle+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_compare-handle+mockup-card-f790bc.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8665b544-e34d-47a0-9765-a471c783ec4b.avif
+    asset: 8665b544
+    page: hd-photo-converter
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - mockup-card

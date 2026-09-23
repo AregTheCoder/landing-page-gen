@@ -1,0 +1,25 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: top}
+    - {kind: chip, placement: beside, anchor: tr, count: 2, text: WAN 2.7|16x9}
+    - {kind: model-logo, placement: beside, anchor: tr, text: WAN 2.7}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: DALL-E 3|1536x1024}
+    - {kind: model-logo, placement: beside, anchor: bottom, text: DALL-E 3}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: bl, count: 4, state: {active: 2}}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 4, state: {active: 2}}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, state: {on: true}, text: "On"}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 5, state: {active: 3}}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2, text: MiniMax H3|Seedance 2.5}

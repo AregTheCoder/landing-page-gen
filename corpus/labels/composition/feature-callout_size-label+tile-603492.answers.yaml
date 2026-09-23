@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: size-label, placement: beside, anchor: left, count: 2, state: {active: 2}, text: "16:9|9:16"}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: size-label, placement: beside, anchor: left, text: 4x}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+3:
+  chrome_items:
+    - {kind: size-label, placement: beside, anchor: top, text: "16:9"}
+    - {kind: tile, placement: beside, anchor: top, count: 3}

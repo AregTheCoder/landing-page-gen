@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 3}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}

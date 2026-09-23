@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, text: Amour Bakes}
+    - {kind: mockup-card, placement: beside, anchor: br, text: Static ad spread}
+    - {kind: model-logo, placement: beside, anchor: top, text: AMOUR}
+    - {kind: chip, placement: beside, anchor: top, text: Active for 5d}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Seedance 2.5|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: mockup-card, placement: overlay, anchor: right}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 2}
+    - {kind: chip, placement: beside, anchor: left, count: 4, state: {active: 3}, text: Veo 3.1|Kling 3.0|WAN 3.0|Seedance 2.5}
+    - {kind: model-logo, placement: beside, anchor: left, count: 4}

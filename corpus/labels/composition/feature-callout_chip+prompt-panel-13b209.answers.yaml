@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Epic jungle adventure at golden hour}
+    - {kind: chip, placement: beside, anchor: tl, count: 2, text: Multi-shot|16x9}

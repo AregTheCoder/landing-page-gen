@@ -1,0 +1,109 @@
+sheet: feature-callout_chip+model-logo+pill-19f03a
+group:
+  type: feature-callout
+  chrome: chip+model-logo+pill
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+pill-19f03a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3bf2ffee-46c4-4bcd-8baf-69b5a4848eb8.webm
+    asset: 3bf2ffee
+    page: compare-models--wan-2-7-vs-kling-3-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 4.92
+    motion: 0.1514
+    pace: fast
+    loop: false
+    loop_seam: 0.846
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a03ad87c-6379-4378-b446-7672e5fb2b5f.avif
+    asset: a03ad87c
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+    - pill
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bc1424ed-c046-4db0-9dd9-42b874136bfb.avif
+    asset: bc1424ed
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+    - pill
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c9c92c32-4650-41cb-9900-8913ee8190b1.avif
+    asset: c9c92c32
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+    - pill
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0619567-4a20-43d1-9932-029ce553d4f0.avif
+    asset: f0619567
+    page: compare-models--ideogram-3-0-flash-vs-flux-2-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+    - pill

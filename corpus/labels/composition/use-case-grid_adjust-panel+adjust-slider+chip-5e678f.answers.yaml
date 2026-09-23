@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: left, text: HSL}
+    - {kind: chip, placement: overlay, anchor: left, count: 8, state: {active: 2}}
+    - {kind: adjust-slider, placement: overlay, anchor: left, state: {value: 28}, text: Hue}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: right, text: HSL}
+    - {kind: chip, placement: overlay, anchor: right, count: 8, state: {active: 2}}
+    - {kind: adjust-slider, placement: overlay, anchor: right, state: {value: 28}, text: Hue}
+    - {kind: adjust-slider, placement: overlay, anchor: right, state: {value: -26}, text: Saturation}
+    - {kind: adjust-slider, placement: overlay, anchor: right, state: {value: 30}, text: Lightness}

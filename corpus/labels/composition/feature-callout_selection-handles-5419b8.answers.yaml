@@ -1,0 +1,9 @@
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, count: 3}
+3:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+4:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: br}

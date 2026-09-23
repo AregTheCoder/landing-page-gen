@@ -1,0 +1,26 @@
+sheet: feature-callout_brackets+size-label-d8369c
+group:
+  type: feature-callout
+  chrome: brackets+size-label
+fields:
+- chrome_items
+answers: feature-callout_brackets+size-label-d8369c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/df6f0107-d913-4e53-b1da-3770241d1220.webp
+    asset: df6f0107
+    page: resize-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - size-label

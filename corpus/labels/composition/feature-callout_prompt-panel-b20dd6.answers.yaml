@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: top}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}

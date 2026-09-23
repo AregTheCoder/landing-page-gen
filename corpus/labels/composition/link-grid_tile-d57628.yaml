@@ -1,0 +1,212 @@
+sheet: link-grid_tile-d57628
+group:
+  type: link-grid
+  chrome: tile
+fields:
+- chrome_items
+answers: link-grid_tile-d57628.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/14b48618-d30d-4db7-9b46-15dd6aabfdb7.webp
+    asset: 14b48618
+    page: add-text-to-video
+    slot: S14-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1f9ea0e7-68aa-429d-a458-b353c7eb1a23.webp?type=webp&to=min&r=640
+    asset: 1f9ea0e7
+    page: content-creation-tools
+    slot: S02-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3062ad35-61ae-46bc-951e-3da0741776d4.webp?type=webp&to=min&r=640
+    asset: 3062ad35
+    page: video-tools
+    slot: S02-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/464e0bea-b934-4378-8966-7e784235b8c6.webp?type=webp&to=min&r=640
+    asset: 464e0bea
+    page: design
+    slot: S03-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp
+    asset: 7050565e
+    page: collage-maker
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7050565e-7d78-4ddb-9a78-edb7cbcc7a05.webp?type=webp&to=min&r=640
+    asset: 7050565e
+    page: ai-design-tools
+    slot: S06-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp
+    asset: 75fad5fd
+    page: add-subtitles-to-video
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 14
+    n_pages: 14
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/75fad5fd-5dd7-4018-b870-561b632defc7.webp?type=webp&to=min&r=400
+    asset: 75fad5fd
+    page: ai-art-generator
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8cbfbb5d-4da8-4d16-bb0a-4b391379bfe3.avif
+    asset: 8cbfbb5d
+    page: ai-design-tools
+    slot: S05-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/95dfaff8-b42d-4c00-94b9-b5ccb508d251.webp
+    asset: 95dfaff8
+    page: ai-models--flux-2-max
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 16
+    n_pages: 16
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a80f238f-b6ac-4e1c-ba07-64c46a13ad5f.webp
+    asset: a80f238f
+    page: image-enlarger
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a80f238f-b6ac-4e1c-ba07-64c46a13ad5f.webp?type=webp&to=min&r=640
+    asset: a80f238f
+    page: ai-design-tools
+    slot: S07-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile

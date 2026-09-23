@@ -1,0 +1,26 @@
+sheet: gallery_chip+play-button-271df6
+group:
+  type: gallery
+  chrome: chip+play-button
+fields:
+- chrome_items
+answers: gallery_chip+play-button-271df6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e6a73635-43cf-4dd8-a2bb-2b782b5b086c.webp
+    asset: e6a73635
+    page: text-to-video-ai
+    slot: S09-m6
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - play-button

@@ -1,0 +1,26 @@
+sheet: link-grid_badge+compare-handle-40752e
+group:
+  type: link-grid
+  chrome: badge+compare-handle
+fields:
+- chrome_items
+answers: link-grid_badge+compare-handle-40752e.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/bbde53af-8025-4b56-9acb-6516494723af.png?type=webp&to=min&r=640
+    asset: bbde53af
+    page: image-tools
+    slot: S06-m8
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - compare-handle

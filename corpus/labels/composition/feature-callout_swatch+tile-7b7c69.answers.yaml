@@ -1,0 +1,49 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: br, count: 2}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: swatch, placement: beside, anchor: br}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: swatch, placement: beside, anchor: left}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, text: Aa}
+    - {kind: swatch, placement: beside, anchor: bottom}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tr, count: 3}
+    - {kind: swatch, placement: beside, anchor: right, count: 6, text: Colors/Gradients}
+    - {kind: tile, placement: beside, anchor: br, count: 5, text: Backgrounds}
+6:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+7:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, text: Aa Aa}
+    - {kind: swatch, placement: beside, anchor: bottom}
+9:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, text: Aa Bb}
+    - {kind: swatch, placement: beside, anchor: bottom}
+10:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, text: Aa}
+    - {kind: swatch, placement: beside, anchor: bottom}
+11:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+12:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}

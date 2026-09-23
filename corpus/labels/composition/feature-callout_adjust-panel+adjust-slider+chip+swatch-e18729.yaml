@@ -1,0 +1,28 @@
+sheet: feature-callout_adjust-panel+adjust-slider+chip+swatch-e18729
+group:
+  type: feature-callout
+  chrome: adjust-panel+adjust-slider+chip+swatch
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+adjust-slider+chip+swatch-e18729.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/4371bbdc-814f-4ff2-b75f-c278083a7662.png
+    asset: 4371bbdc
+    page: video-background-remover
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - chip
+    - swatch

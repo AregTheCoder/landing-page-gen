@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, count: 3, state: {active: 3}}
+    - {kind: adjust-slider, placement: beside, anchor: bl, state: {value: 1}, text: 1x}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, state: {on: true}, text: "On"}
+    - {kind: adjust-slider, placement: beside, anchor: br}
+3:
+  chrome_items:
+    - {kind: adjust-slider, placement: beside, anchor: bottom, state: {value: 2}, text: 0.25x|0.5x|1x|2x|4x}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3}
+4:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: tr, text: fx}

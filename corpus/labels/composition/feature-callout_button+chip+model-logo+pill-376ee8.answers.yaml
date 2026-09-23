@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2, text: Runway Gen 4|Veo 3.1}
+    - {kind: button, placement: beside, anchor: bl, text: Upload audio}
+    - {kind: pill, placement: beside, anchor: bottom, state: {on: true}, text: "Audio: On"}
+    - {kind: chip, placement: beside, anchor: br, text: 4K}

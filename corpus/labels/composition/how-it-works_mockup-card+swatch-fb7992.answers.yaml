@@ -1,0 +1,11 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 2, text: "Bloom?|Aa"}
+    - {kind: mockup-card, placement: beside, anchor: right, text: "Bloom?"}
+    - {kind: swatch, placement: beside, anchor: left, count: 3}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: centre, text: "Color palette"}
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: "Brand font"}
+    - {kind: swatch, placement: beside, anchor: centre, count: 4}

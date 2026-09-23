@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Man in a white tee sits inside a giant}
+    - {kind: size-label, placement: beside, anchor: left, text: 9x16 | 1080p}
+    - {kind: chip, placement: beside, anchor: bl, count: 6, state: {active: 1}}

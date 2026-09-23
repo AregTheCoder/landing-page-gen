@@ -1,0 +1,38 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+7:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: tile, placement: beside, anchor: bottom, text: NEW CONVERSATIONS COMING SOON.}
+    - {kind: tile, placement: beside, anchor: br}
+8:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+9:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tr}
+10:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+11:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tl}
+12:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tl}

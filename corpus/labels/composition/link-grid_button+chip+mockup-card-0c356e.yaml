@@ -1,0 +1,65 @@
+sheet: link-grid_button+chip+mockup-card-0c356e
+group:
+  type: link-grid
+  chrome: button+chip+mockup-card
+fields:
+- chrome_items
+answers: link-grid_button+chip+mockup-card-0c356e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png
+    asset: 1734675f
+    page: image-enlarger
+    slot: S13-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1734675f-293c-4bf2-88d3-54ff51828646.png?type=webp&to=min&r=640
+    asset: 1734675f
+    page: ai-design-tools
+    slot: S02-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9aa257c-109b-4f66-b627-5dc1f662f26a.webp?type=webp&to=min&r=640
+    asset: d9aa257c
+    page: content-creation-tools
+    slot: S07-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card

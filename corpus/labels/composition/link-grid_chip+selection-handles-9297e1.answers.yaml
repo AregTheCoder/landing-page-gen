@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: top}
+    - {kind: chip, placement: overlay, anchor: br}
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: bl, count: 3, state: {active: 1}, text: Aa|Aa|Aa}

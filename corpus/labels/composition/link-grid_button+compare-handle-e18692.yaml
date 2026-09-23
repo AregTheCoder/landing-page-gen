@@ -1,0 +1,44 @@
+sheet: link-grid_button+compare-handle-e18692
+group:
+  type: link-grid
+  chrome: button+compare-handle
+fields:
+- chrome_items
+answers: link-grid_button+compare-handle-e18692.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png
+    asset: 3d6dc29e
+    page: ai-content-generator
+    slot: S09-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - compare-handle
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/3d6dc29e-f572-4926-8c78-29199699ddb8.png?type=webp&r=548&to=min
+    asset: 3d6dc29e
+    page: draw
+    slot: S10-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - compare-handle

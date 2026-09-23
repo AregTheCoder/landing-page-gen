@@ -1,0 +1,27 @@
+sheet: hero_brackets+selection-handles+tile-584f92
+group:
+  type: hero
+  chrome: brackets+selection-handles+tile
+fields:
+- chrome_items
+answers: hero_brackets+selection-handles+tile-584f92.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/9e4e068f-1d36-47a4-b398-422ebbd49100.png
+    asset: 9e4e068f
+    page: ai-models--flux-2-max
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - selection-handles
+    - tile

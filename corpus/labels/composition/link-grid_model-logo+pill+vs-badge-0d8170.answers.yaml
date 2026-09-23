@@ -1,0 +1,10 @@
+3:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: GPT Image 1.5|Imagen 4.0 Ultra}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+4:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Nano Banana 2|Flux 2 Pro}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}

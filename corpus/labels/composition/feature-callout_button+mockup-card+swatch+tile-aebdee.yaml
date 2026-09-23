@@ -1,0 +1,28 @@
+sheet: feature-callout_button+mockup-card+swatch+tile-aebdee
+group:
+  type: feature-callout
+  chrome: button+mockup-card+swatch+tile
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+swatch+tile-aebdee.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/e675b4bf-31b7-4e0d-8608-3282a9fd040b.png
+    asset: e675b4bf
+    page: facebook-post-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: split
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - swatch
+    - tile

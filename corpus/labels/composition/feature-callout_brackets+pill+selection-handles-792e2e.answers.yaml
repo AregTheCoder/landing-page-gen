@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: br}
+    - {kind: pill, placement: overlay, anchor: bottom, text: +50 photos}
+    - {kind: selection-handles, placement: overlay, anchor: br}

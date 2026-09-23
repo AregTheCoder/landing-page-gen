@@ -1,0 +1,45 @@
+sheet: feature-callout_badge+mockup-card+tile-4ec1a4
+group:
+  type: feature-callout
+  chrome: badge+mockup-card+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+mockup-card+tile-4ec1a4.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7a980105-ce5a-4735-a476-a1c1c0f18d26.avif
+    asset: 7a980105
+    page: background-remover
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac7e8ae2-cab8-451a-8445-e16f33760503.webp
+    asset: ac7e8ae2
+    page: invitation-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+    - tile

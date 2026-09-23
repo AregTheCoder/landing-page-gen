@@ -1,0 +1,29 @@
+sheet: use-case-grid_button+chip+model-logo+play-button+prompt-panel-ed59af
+group:
+  type: use-case-grid
+  chrome: button+chip+model-logo+play-button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_button+chip+model-logo+play-button+prompt-panel-ed59af.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4dd48450-728e-4b15-a832-e64e989f056e.webp
+    asset: 4dd48450
+    page: ai-models--seedance-1-pro
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - play-button
+    - prompt-panel

@@ -1,0 +1,80 @@
+sheet: use-case-grid_chip+model-logo-61c098
+group:
+  type: use-case-grid
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: use-case-grid_chip+model-logo-61c098.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4c0fad35-bfc0-47d6-803b-8bd4b317329f.avif
+    asset: 4c0fad35
+    page: ai-models--gpt-image-1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e531de78-41d6-481d-a043-d3d70044313e.avif
+    asset: e531de78
+    page: ai-video-generator
+    slot: S10-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e6fe5f30-6182-43ad-98b6-fe38ea22edc0.avif
+    asset: e6fe5f30
+    page: ai-models--runway-aleph-2-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f2fb27ec-09e1-4074-a845-29995c9d59d7.avif
+    asset: f2fb27ec
+    page: ai-models--recraft-v4-1
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo

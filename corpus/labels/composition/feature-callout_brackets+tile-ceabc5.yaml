@@ -1,0 +1,26 @@
+sheet: feature-callout_brackets+tile-ceabc5
+group:
+  type: feature-callout
+  chrome: brackets+tile
+fields:
+- chrome_items
+answers: feature-callout_brackets+tile-ceabc5.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bef623e5-df4c-452f-bf7c-00e049a757a0.avif
+    asset: bef623e5
+    page: crop-image
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - tile

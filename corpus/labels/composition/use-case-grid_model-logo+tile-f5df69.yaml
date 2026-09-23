@@ -1,0 +1,26 @@
+sheet: use-case-grid_model-logo+tile-f5df69
+group:
+  type: use-case-grid
+  chrome: model-logo+tile
+fields:
+- chrome_items
+answers: use-case-grid_model-logo+tile-f5df69.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/768fcebb-55c2-42af-8651-f38269c57803.avif
+    asset: 768fcebb
+    page: ai-models--hailuo-3
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - model-logo
+    - tile

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: centre}
+    - {kind: size-label, placement: overlay, anchor: bottom, text: "1080 1080"}

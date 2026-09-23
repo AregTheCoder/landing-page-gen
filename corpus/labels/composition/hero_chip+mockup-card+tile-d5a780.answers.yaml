@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: coffee_shop}
+    - {kind: tile, placement: beside, anchor: left, count: 3, state: {active: 1}}
+    - {kind: chip, placement: overlay, anchor: right, text: Elements}

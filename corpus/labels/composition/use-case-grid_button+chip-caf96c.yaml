@@ -1,0 +1,44 @@
+sheet: use-case-grid_button+chip-caf96c
+group:
+  type: use-case-grid
+  chrome: button+chip
+fields:
+- chrome_items
+answers: use-case-grid_button+chip-caf96c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/684bc550-bc66-4044-801f-35f01c204f8b.webp
+    asset: 684bc550
+    page: video-to-gif
+    slot: S10-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/8bcd2a6e-5498-470f-bdc4-e3ed707acc81.jpg
+    asset: 8bcd2a6e
+    page: ai-sticker-maker
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip

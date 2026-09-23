@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, count: 2}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br}

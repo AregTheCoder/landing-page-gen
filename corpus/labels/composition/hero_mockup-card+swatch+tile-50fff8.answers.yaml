@@ -1,0 +1,21 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: left, count: 4}
+    - {kind: swatch, placement: beside, anchor: left, count: 3}
+2:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr, text: Aa}
+    - {kind: mockup-card, placement: overlay, anchor: left}
+    - {kind: swatch, placement: overlay, anchor: br, count: 3, state: {active: 2}}
+3:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: Logos}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: Color palette}
+    - {kind: swatch, placement: overlay, anchor: br, count: 3}
+4:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr, count: 3, text: Aa|Aa|Aa}
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: swatch, placement: overlay, anchor: bl, count: 3}

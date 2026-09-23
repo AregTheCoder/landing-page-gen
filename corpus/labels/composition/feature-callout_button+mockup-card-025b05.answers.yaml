@@ -1,0 +1,53 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3}
+    - {kind: mockup-card, placement: beside, anchor: top}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: button, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: overlay, anchor: bl}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: button, placement: beside, anchor: br, text: BUY}
+    - {kind: button, placement: overlay, anchor: top}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, count: 2}
+    - {kind: button, placement: beside, anchor: bottom, count: 2, text: Open to|Add section}
+    - {kind: button, placement: beside, anchor: br}
+    - {kind: button, placement: overlay, anchor: br, count: 2}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 2}
+    - {kind: button, placement: beside, anchor: bl, count: 2}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: button, placement: overlay, anchor: bottom}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: beside, anchor: br, text: Buy}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: right}
+    - {kind: button, placement: overlay, anchor: tr, text: Export}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: button, placement: overlay, anchor: tr}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+    - {kind: button, placement: beside, anchor: bottom, count: 4}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: right}
+    - {kind: button, placement: beside, anchor: bottom, count: 4}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: button, placement: beside, anchor: bottom, text: ADD TO CART}

@@ -1,0 +1,62 @@
+sheet: feature-callout_pill+tile-910132
+group:
+  type: feature-callout
+  chrome: pill+tile
+fields:
+- chrome_items
+answers: feature-callout_pill+tile-910132.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5ab810ca-dd64-40e6-86dd-356c205a4b4f.webp
+    asset: 5ab810ca
+    page: motivation-poster-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/69ed3f5c-1922-48de-9092-56b5bbfeda39.webp
+    asset: 69ed3f5c
+    page: image-enlarger
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bcc56313-d4c2-46ec-9775-da3e7ec18eb4.webp
+    asset: bcc56313
+    page: photo-effects
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - tile

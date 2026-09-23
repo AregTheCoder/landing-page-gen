@@ -1,0 +1,44 @@
+sheet: feature-callout_brackets+mockup-card-3bf3c4
+group:
+  type: feature-callout
+  chrome: brackets+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_brackets+mockup-card-3bf3c4.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/d4a58bb1-ce7a-4c55-8a12-65096fce1ddd.png
+    asset: d4a58bb1
+    page: scene-maker
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    chrome:
+    - brackets
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/eadb151d-2ba8-4282-aafb-90b1a6922da9.png
+    asset: eadb151d
+    page: instagram-post-creator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - brackets
+    - mockup-card

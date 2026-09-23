@@ -1,0 +1,27 @@
+sheet: link-grid_adjust-slider+chip+mockup-card-92b482
+group:
+  type: link-grid
+  chrome: adjust-slider+chip+mockup-card
+fields:
+- chrome_items
+answers: link-grid_adjust-slider+chip+mockup-card-92b482.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/245b27b0-dc0e-4f06-acbe-53d3c1aa5e68.png
+    asset: 245b27b0
+    page: background-remover
+    slot: S17-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip
+    - mockup-card

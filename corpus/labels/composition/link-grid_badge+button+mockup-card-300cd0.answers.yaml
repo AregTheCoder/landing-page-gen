@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tl, count: 3}
+    - {kind: mockup-card, placement: overlay, anchor: centre, state: {active: 4}}
+    - {kind: button, placement: overlay, anchor: centre, text: Resize}

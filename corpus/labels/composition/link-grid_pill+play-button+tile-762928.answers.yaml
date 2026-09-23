@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: bl}

@@ -1,0 +1,5 @@
+2:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: tl}
+    - {kind: button, placement: beside, anchor: tr}
+    - {kind: mockup-card, placement: beside, anchor: br}

@@ -1,0 +1,103 @@
+sheet: link-grid_chip+model-logo+tile-b5062d
+group:
+  type: link-grid
+  chrome: chip+model-logo+tile
+fields:
+- chrome_items
+answers: link-grid_chip+model-logo+tile-b5062d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1c7454d0-61fd-4b19-8729-57b860b334e9.webp?type=webp&to=min&r=640
+    asset: 1c7454d0
+    page: ai-models
+    slot: S03-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp
+    asset: 87d69495
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 11
+    n_pages: 11
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87d69495-9565-4aec-b716-f7c849e66b1b.webp?type=webp&to=min&r=640
+    asset: 87d69495
+    page: compare-models
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9909d150-fc32-474d-b6a9-5174f2c2c52b.webp?type=webp&to=min&r=640
+    asset: 9909d150
+    page: video-models
+    slot: S04-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e7b5f7d2-bd5f-49a1-88d1-542fd30114f8.webp
+    asset: e7b5f7d2
+    page: ai-models--grok-imagine-1-0
+    slot: S11-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile

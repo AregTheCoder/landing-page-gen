@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, count: 3, state: {active: 3}}
+    - {kind: adjust-slider, placement: beside, anchor: bl, text: 1x}
+2:
+  chrome_items:
+    - {kind: adjust-slider, placement: beside, anchor: bl, text: 1x}
+    - {kind: chip, placement: beside, anchor: br, text: Voiceover script}

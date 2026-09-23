@@ -1,0 +1,42 @@
+sheet: link-grid_adjust-slider+chip-ccf5e6
+group:
+  type: link-grid
+  chrome: adjust-slider+chip
+fields:
+- chrome_items
+answers: link-grid_adjust-slider+chip-ccf5e6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp?type=webp&to=min&r=640
+    asset: 870464b8
+    page: video-models
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5c54cd3-69a2-465c-9c8d-5520a962148b.webp
+    asset: a5c54cd3
+    page: ai-models--flux-3
+    slot: S13-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip

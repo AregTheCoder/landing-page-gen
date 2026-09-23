@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Start frame|End frame"}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: "A continuous, slow cinematic camera"}

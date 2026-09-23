@@ -1,0 +1,33 @@
+sheet: feature-callout_chip+prompt-panel+size-label-b17d6d
+group:
+  type: feature-callout
+  chrome: chip+prompt-panel+size-label
+fields:
+- chrome_items
+answers: feature-callout_chip+prompt-panel+size-label-b17d6d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/221b0850-01d2-401f-a4d4-9d7b2117d238.webm
+    asset: 221b0850
+    page: ai-models--happyhorse-1-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.008
+    pace: still
+    loop: true
+    loop_seam: 0.985
+    camera: static
+    chrome:
+    - chip
+    - prompt-panel
+    - size-label

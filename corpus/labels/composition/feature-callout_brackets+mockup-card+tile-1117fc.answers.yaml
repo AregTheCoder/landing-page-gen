@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 4, state: {active: 3}}

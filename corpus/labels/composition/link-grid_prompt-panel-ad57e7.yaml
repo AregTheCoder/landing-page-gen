@@ -1,0 +1,25 @@
+sheet: link-grid_prompt-panel-ad57e7
+group:
+  type: link-grid
+  chrome: prompt-panel
+fields:
+- chrome_items
+answers: link-grid_prompt-panel-ad57e7.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/e30f27f2-fd82-4c75-a3eb-6134c8ba2408.png
+    asset: e30f27f2
+    page: design-localization
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - prompt-panel

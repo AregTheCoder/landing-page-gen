@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: beside, anchor: bottom, state: {value: 15}, text: Frames Per Second}
+    - {kind: pill, placement: overlay, anchor: bl}

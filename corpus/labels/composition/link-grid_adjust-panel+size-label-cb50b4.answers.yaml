@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl, text: Exact Size}
+    - {kind: size-label, placement: overlay, anchor: bl, count: 2, text: 1080|1920}

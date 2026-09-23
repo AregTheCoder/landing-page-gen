@@ -1,0 +1,196 @@
+sheet: hero_chip+model-logo+vs-badge-0b76af
+group:
+  type: hero
+  chrome: chip+model-logo+vs-badge
+fields:
+- chrome_items
+answers: hero_chip+model-logo+vs-badge-0b76af.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1310b66c-aa16-4b0f-a9b4-136b13cc3700.webm
+    asset: 1310b66c
+    page: compare-models--veo-3-1-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.92
+    motion: 0.0542
+    pace: medium
+    loop: true
+    loop_seam: 0.96
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1ccc69c2-9367-4e51-bc62-849b8f1e6bdb.avif
+    asset: 1ccc69c2
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/248e9875-46f8-4e94-bdb4-74329ed31688.webm
+    asset: 248e9875
+    page: compare-models--kling-vs-runway
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 5.8
+    motion: 0.0371
+    pace: slow
+    loop: true
+    loop_seam: 0.956
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/499a4414-f0b3-4034-b34c-86c65ae55d66.webm
+    asset: 499a4414
+    page: compare-models--sora-vs-veo
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 5.0
+    motion: 0.011
+    pace: slow
+    loop: true
+    loop_seam: 0.974
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6731d7b6-3317-49d4-be51-88214b52d368.webm
+    asset: 6731d7b6
+    page: compare-models--luma-ray-2-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.0631
+    pace: medium
+    loop: false
+    loop_seam: 0.883
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8dbcb09c-a2ae-49d6-a2d0-9fd1d75d6caf.webm
+    asset: 8dbcb09c
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0293
+    pace: slow
+    loop: true
+    loop_seam: 0.919
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e901b80b-381c-40a2-bef3-38bb8305abb6.avif
+    asset: e901b80b
+    page: compare-models--ideogram-3-0-flash-vs-flux-2-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/182f18d1-db15-43d0-bb3c-c1a4a34873cf.webm
+    asset: 182f18d1
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.93
+    motion: 0.1405
+    pace: fast
+    loop: false
+    loop_seam: 0.817
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - vs-badge

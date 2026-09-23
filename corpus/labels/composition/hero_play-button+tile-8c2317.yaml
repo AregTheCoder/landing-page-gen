@@ -1,0 +1,26 @@
+sheet: hero_play-button+tile-8c2317
+group:
+  type: hero
+  chrome: play-button+tile
+fields:
+- chrome_items
+answers: hero_play-button+tile-8c2317.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3e6f1364-0317-4878-bcfb-349ad6a86527.webp
+    asset: 3e6f1364
+    page: animation-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - play-button
+    - tile

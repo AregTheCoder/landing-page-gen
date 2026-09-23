@@ -1,0 +1,26 @@
+sheet: feature-callout_mockup-card+selection-handles-b35e3f
+group:
+  type: feature-callout
+  chrome: mockup-card+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+selection-handles-b35e3f.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/95704440111494284974.jpg
+    asset: '95704440'
+    page: rotate-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 8
+    before_after: false
+    chrome:
+    - mockup-card
+    - selection-handles

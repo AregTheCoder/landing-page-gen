@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: left}
+    - {kind: size-label, placement: beside, anchor: bl, count: 2, text: "9:16|1080p"}

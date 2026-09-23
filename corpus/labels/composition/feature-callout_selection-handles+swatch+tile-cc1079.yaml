@@ -1,0 +1,27 @@
+sheet: feature-callout_selection-handles+swatch+tile-cc1079
+group:
+  type: feature-callout
+  chrome: selection-handles+swatch+tile
+fields:
+- chrome_items
+answers: feature-callout_selection-handles+swatch+tile-cc1079.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6b9a19c4-4685-47bc-8497-dbe0d71c0f5c.webp
+    asset: 6b9a19c4
+    page: brochure-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+    - swatch
+    - tile

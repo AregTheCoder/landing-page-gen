@@ -1,0 +1,28 @@
+sheet: feature-callout_chip+model-logo+prompt-panel+size-label-c12a93
+group:
+  type: feature-callout
+  chrome: chip+model-logo+prompt-panel+size-label
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+prompt-panel+size-label-c12a93.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a16bd5ba-8c8e-40cd-b22e-a796f8abc4e5.webp
+    asset: a16bd5ba
+    page: ai-models--dall-e-3
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel
+    - size-label

@@ -1,0 +1,227 @@
+sheet: feature-callout_pill-29ca80
+group:
+  type: feature-callout
+  chrome: pill
+fields:
+- chrome_items
+answers: feature-callout_pill-29ca80.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/572c9ad5-fccc-474a-8430-967137324da5.webp
+    asset: 572c9ad5
+    page: image-enlarger
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/691741e9-cb64-4774-a0e1-0eb161b4fc55.webm
+    asset: 691741e9
+    page: video-studio--video-collage
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+    motion: 0.0852
+    pace: medium
+    loop: true
+    loop_seam: 0.941
+    camera: static
+    chrome:
+    - pill
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6b9bdf16-5198-44bd-b9e1-b6f6493d1b38.webp
+    asset: 6b9bdf16
+    page: photo-effects
+    slot: S09-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/70eb8b70-f9f6-4ba0-bec2-0748c23e8faa.avif
+    asset: 70eb8b70
+    page: ai-image-enhancer
+    slot: S12-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/73cf7cc6-60c6-45ec-8eca-998c86f8b6b1.webp
+    asset: 73cf7cc6
+    page: text-editor
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/89ec0cde-b961-4858-af70-ce6d7c0c1689.webm
+    asset: 89ec0cde
+    page: video-studio--face-blur
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0468
+    pace: medium
+    loop: false
+    loop_seam: 0.845
+    camera: static
+    chrome:
+    - pill
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8e26f7e7-577b-428b-aa57-8c1a6904b64c.webp
+    asset: 8e26f7e7
+    page: ai-replace
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/98265479-86e7-4983-a010-7e405174b083.avif
+    asset: '98265479'
+    page: background-changer
+    slot: S07-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - pill
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9ab0394d-d7f4-49f5-b75b-b8f14db1df0d.webp
+    asset: 9ab0394d
+    page: ai-replace
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e1fbd6c-97e2-4fea-b9ba-6df8e0f7cea0.webm
+    asset: 9e1fbd6c
+    page: video-studio--face-blur
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0932
+    pace: medium
+    loop: false
+    loop_seam: 0.875
+    camera: static
+    chrome:
+    - pill
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/aa3b21b4-379b-4e04-a523-a5bf22ce694a.avif
+    asset: aa3b21b4
+    page: background-changer
+    slot: S08-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afda9819-c7ef-4bb6-90d2-361d714d1d3f.webp
+    asset: afda9819
+    page: ai-replace
+    slot: S06-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - pill

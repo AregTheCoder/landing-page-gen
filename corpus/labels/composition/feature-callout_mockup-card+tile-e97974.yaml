@@ -1,0 +1,221 @@
+sheet: feature-callout_mockup-card+tile-e97974
+group:
+  type: feature-callout
+  chrome: mockup-card+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+tile-e97974.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0a059f15-375e-4bd0-a92a-e13ead8f5ce6.png
+    asset: 0a059f15
+    page: gift-certificate-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/114e2d74-2c92-4fa1-9c1b-94809435d975.png
+    asset: 114e2d74
+    page: quiz-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/2c7d11d9-8ab7-45c1-a997-8560e81da129.png
+    asset: 2c7d11d9
+    page: storyboard-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/3c5f212a-479c-4bd5-b8be-239e6d55ae39.png
+    asset: 3c5f212a
+    page: meme-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/82cdaa31-9f93-4c79-b04f-e4d7b841c787.png
+    asset: 82cdaa31
+    page: book-cover-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/85936259-8e69-412a-acd2-8cbffbcef86f.png
+    asset: '85936259'
+    page: ai-sticker-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/8d4e7241-9f68-4a0b-8010-55c59dacfa46.png
+    asset: 8d4e7241
+    page: watermark-photos
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/91d0bb2b-6a5b-4453-ad0f-e96ad49823a1.png
+    asset: 91d0bb2b
+    page: card-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/997e272b-8303-44cb-a542-73248807c9d3.png
+    asset: 997e272b
+    page: twitter-post-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/a9128172-d7a9-4495-851a-2920859c0770.png
+    asset: a9128172
+    page: quiz-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/bc3d7ce1-dd9d-4036-b43e-2d54b9eae83d.png
+    asset: bc3d7ce1
+    page: youtube-banner-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/cbbdbcc3-fb2e-4b3d-9e9a-e61174ffdc34.png
+    asset: cbbdbcc3
+    page: document-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile

@@ -1,0 +1,98 @@
+sheet: feature-callout_chip+play-button-d59a3e
+group:
+  type: feature-callout
+  chrome: chip+play-button
+fields:
+- chrome_items
+answers: feature-callout_chip+play-button-d59a3e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/23a79d15-5220-4903-b14e-d3ebc724a77e.webm
+    asset: 23a79d15
+    page: ai-models--elevenlabs-music-v2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.0
+    motion: 0.0876
+    pace: medium
+    loop: false
+    loop_seam: 0.863
+    camera: static
+    chrome:
+    - chip
+    - play-button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/304e98ad-1680-48a1-8bac-df48f9190df5.webm
+    asset: 304e98ad
+    page: ai-models--flux-3
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.03
+    motion: 0.0381
+    pace: slow
+    loop: true
+    loop_seam: 0.928
+    camera: static
+    chrome:
+    - chip
+    - play-button
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/531d8853-cd67-43ca-bbac-8df8f4d66e9d.avif
+    asset: 531d8853
+    page: home
+    slot: S18-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d91f3261-e765-47f2-98d8-fc4f3a7fdd5a.webm
+    asset: d91f3261
+    page: ai-models--hailuo-3
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.0
+    motion: 0.087
+    pace: medium
+    loop: false
+    loop_seam: 0.862
+    camera: static
+    chrome:
+    - chip
+    - play-button

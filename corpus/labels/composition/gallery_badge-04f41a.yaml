@@ -1,0 +1,42 @@
+sheet: gallery_badge-04f41a
+group:
+  type: gallery
+  chrome: badge
+fields:
+- chrome_items
+answers: gallery_badge-04f41a.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/69f7298b-93e1-4c68-85ae-4a7d7a0601fc.png
+    asset: 69f7298b
+    page: label-maker
+    slot: S06-m1
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    chrome:
+    - badge
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/9fa24072-f32d-497d-b811-9351061c365a.png
+    asset: 9fa24072
+    page: label-maker
+    slot: S06-m5
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge

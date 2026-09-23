@@ -1,0 +1,68 @@
+sheet: feature-callout_model-logo+tile-0f8329
+group:
+  type: feature-callout
+  chrome: model-logo+tile
+fields:
+- chrome_items
+answers: feature-callout_model-logo+tile-0f8329.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/588c0260-e801-40a9-a7b1-468648f7c859.avif
+    asset: 588c0260
+    page: ai-models--recraft-v4-styles
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/b977516a-d1e9-49a3-82c1-5c43f94ea81a.webm
+    asset: b977516a
+    page: ai-models--wan-3-0-prime
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.04
+    motion: 0.0944
+    pace: medium
+    loop: true
+    loop_seam: 0.963
+    camera: static
+    chrome:
+    - model-logo
+    - tile
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/ea801baa-1c4c-45b9-85dc-8f4ceec012dc.avif
+    asset: ea801baa
+    page: ai-models--recraft-v4-styles-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile

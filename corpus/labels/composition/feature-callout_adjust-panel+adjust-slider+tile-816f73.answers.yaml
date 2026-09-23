@@ -1,0 +1,11 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl, text: Eyebrows}
+    - {kind: tile, placement: overlay, anchor: bl, count: 5, state: {active: 3}}
+    - {kind: adjust-slider, placement: overlay, anchor: bl, state: {value: 30}, text: Intensity}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: tl, text: Position}
+    - {kind: tile, placement: overlay, anchor: tl, count: 3, state: {active: 1}}
+    - {kind: adjust-panel, placement: overlay, anchor: br}
+    - {kind: adjust-slider, placement: overlay, anchor: br, count: 2, text: Opacity|Size}

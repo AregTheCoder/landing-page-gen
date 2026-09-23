@@ -1,0 +1,26 @@
+sheet: link-grid_button+mockup-card-4ea2b8
+group:
+  type: link-grid
+  chrome: button+mockup-card
+fields:
+- chrome_items
+answers: link-grid_button+mockup-card-4ea2b8.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/6c54debf-ba12-417c-ac34-5f2f3c5c3b4d.png
+    asset: 6c54debf
+    page: youtube-thumbnail-maker
+    slot: S13-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card

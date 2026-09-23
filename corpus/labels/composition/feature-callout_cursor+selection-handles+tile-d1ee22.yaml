@@ -1,0 +1,27 @@
+sheet: feature-callout_cursor+selection-handles+tile-d1ee22
+group:
+  type: feature-callout
+  chrome: cursor+selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_cursor+selection-handles+tile-d1ee22.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/2d4a4641-5156-4d45-a0fc-82161fa729f4.jpg
+    asset: 2d4a4641
+    page: background-tools
+    slot: S13-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor
+    - selection-handles
+    - tile

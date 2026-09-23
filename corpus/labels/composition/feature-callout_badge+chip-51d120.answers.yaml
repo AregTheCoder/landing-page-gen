@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr}
+    - {kind: chip, placement: overlay, anchor: bottom, text: 50 photos}

@@ -1,0 +1,43 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, count: 3}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: "1080p | 15s"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "Image 1|Image 2|Image 3"}
+    - {kind: model-logo, placement: beside, anchor: br, text: "WAN 3.0"}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, text: "A female standing in a vibrant green"}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: "Hailuo 3"}
+    - {kind: chip, placement: beside, anchor: br, count: 2}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, count: 2}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: right, text: "Place these sunglasses on 26 cool"}
+    - {kind: chip, placement: beside, anchor: left, text: "Here are the results!"}
+    - {kind: chip, placement: overlay, anchor: bottom, text: "+25 Videos"}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: "Seedance 2.5"}
+    - {kind: chip, placement: beside, anchor: left, count: 3}
+8:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Runway Gen 4"}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+9:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, count: 3}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, text: "Realistic product photograph of a deep"}

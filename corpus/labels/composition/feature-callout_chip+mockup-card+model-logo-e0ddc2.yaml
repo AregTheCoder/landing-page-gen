@@ -1,0 +1,77 @@
+sheet: feature-callout_chip+mockup-card+model-logo-e0ddc2
+group:
+  type: feature-callout
+  chrome: chip+mockup-card+model-logo
+fields:
+- chrome_items
+answers: feature-callout_chip+mockup-card+model-logo-e0ddc2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9877e28a-d148-42c9-b942-2905eb5501f8.webp
+    asset: 9877e28a
+    page: ai-template-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e586d7a3-3df5-4275-9920-cb0d2da11345.webm
+    asset: e586d7a3
+    page: compare-models--seedance-2-5-vs-kling-3-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.7
+    motion: 0.1202
+    pace: fast
+    loop: false
+    loop_seam: 0.725
+    camera: static
+    chrome:
+    - chip
+    - mockup-card
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f04b1d2b-5aca-47a1-ba77-f06c020c0b01.webm
+    asset: f04b1d2b
+    page: ai-models--wan-3-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.01
+    motion: 0.0488
+    pace: medium
+    loop: true
+    loop_seam: 0.921
+    camera: static
+    chrome:
+    - chip
+    - mockup-card
+    - model-logo

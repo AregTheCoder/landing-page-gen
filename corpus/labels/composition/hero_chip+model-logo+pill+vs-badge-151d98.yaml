@@ -1,0 +1,28 @@
+sheet: hero_chip+model-logo+pill+vs-badge-151d98
+group:
+  type: hero
+  chrome: chip+model-logo+pill+vs-badge
+fields:
+- chrome_items
+answers: hero_chip+model-logo+pill+vs-badge-151d98.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e6044b29-c0f0-494b-b8b3-f41180fecf9a.avif
+    asset: e6044b29
+    page: compare-models--runway-gen-4-vs-veo-3
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - pill
+    - vs-badge

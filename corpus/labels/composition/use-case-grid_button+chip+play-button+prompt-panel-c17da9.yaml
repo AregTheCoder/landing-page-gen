@@ -1,0 +1,28 @@
+sheet: use-case-grid_button+chip+play-button+prompt-panel-c17da9
+group:
+  type: use-case-grid
+  chrome: button+chip+play-button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_button+chip+play-button+prompt-panel-c17da9.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/165c6f74-d6ed-43fe-9d78-91273b6eb16c.webp
+    asset: 165c6f74
+    page: ai-models--happyhorse-1-1
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - play-button
+    - prompt-panel

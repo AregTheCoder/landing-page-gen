@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl, text: HEX}
+    - {kind: swatch, placement: overlay, anchor: bl}
+    - {kind: mockup-card, placement: beside, anchor: centre}

@@ -1,0 +1,34 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: left}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: left}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: tr}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: tr}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: right, text: "A smooth, cinematic half-circle movement"}
+    - {kind: button, placement: beside, anchor: right, text: Generate}
+    - {kind: tile, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: right, text: Ai}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: right, text: "A smooth, cinematic half-circle movement"}
+    - {kind: button, placement: beside, anchor: right, text: Generate}
+    - {kind: tile, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: right, text: Ai}

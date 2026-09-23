@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: br, text: 50% OFF}
+    - {kind: button, placement: beside, anchor: bl, count: 3, state: {active: 3}, text: Youtube|TikTok|Instagram}

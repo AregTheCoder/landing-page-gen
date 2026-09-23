@@ -1,0 +1,59 @@
+sheet: link-grid_tile-aefecb
+group:
+  type: link-grid
+  chrome: tile
+fields:
+- chrome_items
+answers: link-grid_tile-aefecb.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/7c214cac-53f6-4006-9b7e-a3b4d3c40ec9.png
+    asset: 7c214cac
+    page: meme-generator
+    slot: S10-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/d9102cc5-979c-4821-9d23-f337339d4907.png
+    asset: d9102cc5
+    page: ai-sticker-maker
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/de048387-bcf7-436b-ae4d-bf5b1da7bb95.png
+    asset: de048387
+    page: packaging-design
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile

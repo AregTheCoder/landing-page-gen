@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, text: Number of variations}
+    - {kind: button, placement: beside, anchor: br, count: 2, state: {value: 3}, text: "-|+"}
+2:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: right, text: AI}
+    - {kind: chip, placement: overlay, anchor: br, text: AI Filters}

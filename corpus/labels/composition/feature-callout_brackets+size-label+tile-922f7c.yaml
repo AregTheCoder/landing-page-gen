@@ -1,0 +1,27 @@
+sheet: feature-callout_brackets+size-label+tile-922f7c
+group:
+  type: feature-callout
+  chrome: brackets+size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_brackets+size-label+tile-922f7c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5f91c6aa-29e9-4f00-b677-502a408de3cc.webp
+    asset: 5f91c6aa
+    page: resize-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - size-label
+    - tile

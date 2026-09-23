@@ -1,0 +1,44 @@
+sheet: gallery_compare-handle+pill-6048a5
+group:
+  type: gallery
+  chrome: compare-handle+pill
+fields:
+- chrome_items
+answers: gallery_compare-handle+pill-6048a5.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/06bfdecd-129a-4b8c-8c36-25aefba32efe.png?type=webp&to=min&r=400
+    asset: 06bfdecd
+    page: aura
+    slot: S08-m1
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - compare-handle
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/73dd7c9f-0f7e-44d8-8d22-3a50474e2c43.avif
+    asset: 73dd7c9f
+    page: ai-image-enhancer
+    slot: S14-m5
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - pill

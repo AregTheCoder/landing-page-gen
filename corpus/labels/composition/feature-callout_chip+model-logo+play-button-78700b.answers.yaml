@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bl, text: 2 models}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: play-button, placement: beside, anchor: bottom}

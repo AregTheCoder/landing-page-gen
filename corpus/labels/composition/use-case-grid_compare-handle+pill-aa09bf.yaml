@@ -1,0 +1,26 @@
+sheet: use-case-grid_compare-handle+pill-aa09bf
+group:
+  type: use-case-grid
+  chrome: compare-handle+pill
+fields:
+- chrome_items
+answers: use-case-grid_compare-handle+pill-aa09bf.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/344e094b-b447-4901-b931-955ee41f81aa.webp
+    asset: 344e094b
+    page: image-enlarger
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - pill

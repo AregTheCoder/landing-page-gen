@@ -1,0 +1,26 @@
+sheet: feature-callout_button+model-logo+prompt-panel-07f81f
+group:
+  type: feature-callout
+  chrome: button+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+model-logo+prompt-panel-07f81f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/71631159-cc61-44b4-aa8c-d0dacecefad1.webp
+    asset: '71631159'
+    page: ai-models--flux-2-flex
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 27
+    n_pages: 27
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel

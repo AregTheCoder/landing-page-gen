@@ -1,0 +1,26 @@
+sheet: feature-callout_button+mockup-card+selection-handles-c6ca7b
+group:
+  type: feature-callout
+  chrome: button+mockup-card+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+selection-handles-c6ca7b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ee6516f7-67a3-4efb-82f9-9bf752dcbe95.webp
+    asset: ee6516f7
+    page: ai-background
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: overlay
+    panel_count: 4
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - selection-handles

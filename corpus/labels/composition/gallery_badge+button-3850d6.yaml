@@ -1,0 +1,26 @@
+sheet: gallery_badge+button-3850d6
+group:
+  type: gallery
+  chrome: badge+button
+fields:
+- chrome_items
+answers: gallery_badge+button-3850d6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21c52953-9a7c-44c7-afdf-fcc2bf0c9e74.png
+    asset: 21c52953
+    page: background-changer
+    slot: S13-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - badge
+    - button

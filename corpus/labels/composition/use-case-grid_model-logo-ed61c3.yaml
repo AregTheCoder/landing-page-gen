@@ -1,0 +1,42 @@
+sheet: use-case-grid_model-logo-ed61c3
+group:
+  type: use-case-grid
+  chrome: model-logo
+fields:
+- chrome_items
+answers: use-case-grid_model-logo-ed61c3.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/2b7a985a-f7ed-4ee4-8c18-bab27fd6bb2d.avif
+    asset: 2b7a985a
+    page: ai-models--recraft-v4-styles
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - model-logo
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/41c41e72-7fd3-4d70-b0a7-2d518f93f7fd.avif
+    asset: 41c41e72
+    page: ai-models--recraft-v4-styles-pro
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - model-logo

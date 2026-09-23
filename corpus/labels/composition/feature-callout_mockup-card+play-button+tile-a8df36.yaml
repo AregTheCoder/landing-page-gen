@@ -1,0 +1,27 @@
+sheet: feature-callout_mockup-card+play-button+tile-a8df36
+group:
+  type: feature-callout
+  chrome: mockup-card+play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+play-button+tile-a8df36.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/32aae896-5a34-4978-9317-c2620e138999.webp
+    asset: 32aae896
+    page: ai-models--seedance-1-pro
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button
+    - tile

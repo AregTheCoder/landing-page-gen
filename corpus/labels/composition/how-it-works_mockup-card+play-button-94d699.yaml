@@ -1,0 +1,26 @@
+sheet: how-it-works_mockup-card+play-button-94d699
+group:
+  type: how-it-works
+  chrome: mockup-card+play-button
+fields:
+- chrome_items
+answers: how-it-works_mockup-card+play-button-94d699.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f55eafd1-2a0a-43c2-8a5f-107cd214784d.webp
+    asset: f55eafd1
+    page: ai-voice-generator
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button

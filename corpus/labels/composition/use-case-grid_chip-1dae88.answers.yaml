@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Flux 2 Klein 4B}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: Historical}

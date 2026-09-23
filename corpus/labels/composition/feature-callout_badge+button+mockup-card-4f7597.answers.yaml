@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 4}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: beside, anchor: br, text: ORDER NOW}
+2:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: beside, anchor: br, text: Buy}

@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bl, text: Create more}
+2:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: left}

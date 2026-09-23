@@ -1,0 +1,46 @@
+sheet: feature-callout_adjust-panel+adjust-slider+tile-816f73
+group:
+  type: feature-callout
+  chrome: adjust-panel+adjust-slider+tile
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+adjust-slider+tile-816f73.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4e30ac1a-101a-4f04-8754-ddb020023d45.webp
+    asset: 4e30ac1a
+    page: face-editor
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/1d8867c2-877c-4d50-b37e-25d0ba4a4173.png
+    asset: 1d8867c2
+    page: watermark-photos
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - tile

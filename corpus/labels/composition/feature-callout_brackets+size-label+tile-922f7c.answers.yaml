@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: left}
+    - {kind: size-label, placement: overlay, anchor: left, text: x2}
+    - {kind: tile, placement: beside, anchor: tl}

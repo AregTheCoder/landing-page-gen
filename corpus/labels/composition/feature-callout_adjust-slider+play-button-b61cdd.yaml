@@ -1,0 +1,32 @@
+sheet: feature-callout_adjust-slider+play-button-b61cdd
+group:
+  type: feature-callout
+  chrome: adjust-slider+play-button
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+play-button-b61cdd.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8a843f55-e989-45e0-a1e2-d314d64515db.webm
+    asset: 8a843f55
+    page: ai-models--kling-2-6
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.1398
+    pace: fast
+    loop: false
+    loop_seam: 0.883
+    camera: push-in
+    chrome:
+    - adjust-slider
+    - play-button

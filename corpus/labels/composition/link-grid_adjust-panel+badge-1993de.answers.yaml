@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: centre, state: {active: 4}}
+    - {kind: badge, placement: overlay, anchor: tl, count: 3}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: centre, state: {active: 3}}
+    - {kind: badge, placement: overlay, anchor: tl, count: 2}

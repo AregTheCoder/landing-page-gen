@@ -1,0 +1,46 @@
+sheet: link-grid_compare-handle+play-button+tile-2f3934
+group:
+  type: link-grid
+  chrome: compare-handle+play-button+tile
+fields:
+- chrome_items
+answers: link-grid_compare-handle+play-button+tile-2f3934.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp
+    asset: 02dd5012
+    page: ai-models--google-omni
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 17
+    n_pages: 17
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - compare-handle
+    - play-button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02dd5012-6e30-4b69-afb3-da96233ea389.webp?type=webp&to=min&r=640
+    asset: 02dd5012
+    page: ai-design-tools
+    slot: S04-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - compare-handle
+    - play-button
+    - tile

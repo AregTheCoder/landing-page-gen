@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: right, text: Color palette}
+    - {kind: mockup-card, placement: overlay, anchor: bl, text: Fonts}
+    - {kind: swatch, placement: overlay, anchor: right, count: 3}
+    - {kind: button, placement: overlay, anchor: bottom, text: Shop Now}

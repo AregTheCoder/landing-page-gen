@@ -1,0 +1,104 @@
+sheet: feature-callout_badge-5d1aeb
+group:
+  type: feature-callout
+  chrome: badge
+fields:
+- chrome_items
+answers: feature-callout_badge-5d1aeb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/350d808a-b1d2-4e7d-a353-98fe105fd62a.webm
+    asset: 350d808a
+    page: video-studio--reverse-video
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.2817
+    pace: fast
+    loop: false
+    loop_seam: 0.743
+    camera: static
+    chrome:
+    - badge
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b24a2c08-10b1-43cd-b54e-99dda8407bd9.webm
+    asset: b24a2c08
+    page: video-ad-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.67
+    motion: 0.006
+    pace: still
+    loop: true
+    loop_seam: 0.987
+    camera: static
+    chrome:
+    - badge
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bafb40e8-e086-41bf-b7d3-4f8f566c0338.avif
+    asset: bafb40e8
+    page: batch-photo-editor
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - badge
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d092bcc1-f820-4084-8de1-41e82c478724.avif
+    asset: d092bcc1
+    page: ai-design-generator
+    slot: S08-m5
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/cacb5b34-9fca-4f6a-b88a-80d0cd71d837.png
+    asset: cacb5b34
+    page: background-tools
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - badge

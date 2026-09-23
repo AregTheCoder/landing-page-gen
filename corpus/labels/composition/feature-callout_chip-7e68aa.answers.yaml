@@ -1,0 +1,9 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: '"Wooden surface"'}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: right, text: Search for fonts...}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: clay|watercolor}

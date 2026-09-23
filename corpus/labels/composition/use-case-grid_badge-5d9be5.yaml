@@ -1,0 +1,25 @@
+sheet: use-case-grid_badge-5d9be5
+group:
+  type: use-case-grid
+  chrome: badge
+fields:
+- chrome_items
+answers: use-case-grid_badge-5d9be5.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/3fa3a8e0-ab54-4bf5-86d2-bafeeead6cba.png
+    asset: 3fa3a8e0
+    page: background-tools
+    slot: S08-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge

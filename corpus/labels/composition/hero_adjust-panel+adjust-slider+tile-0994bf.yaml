@@ -1,0 +1,27 @@
+sheet: hero_adjust-panel+adjust-slider+tile-0994bf
+group:
+  type: hero
+  chrome: adjust-panel+adjust-slider+tile
+fields:
+- chrome_items
+answers: hero_adjust-panel+adjust-slider+tile-0994bf.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/c249a42e-e203-43ce-bdc2-78d2c3003f82.png
+    asset: c249a42e
+    page: image-style-transfer
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - tile

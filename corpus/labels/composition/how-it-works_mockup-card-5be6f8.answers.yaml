@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: "FASHION & STYLE"}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: "Merry Christmas to You"}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: "GIFT CERTIFICATE"}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: "20% OFF ICE CREAM"}

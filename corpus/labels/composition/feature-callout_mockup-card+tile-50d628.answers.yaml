@@ -1,0 +1,53 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: plump}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: hair.style}
+    - {kind: tile, placement: beside, anchor: left}
+    - {kind: tile, placement: overlay, anchor: tr}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: tile, placement: beside, anchor: tr, count: 2}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+    - {kind: tile, placement: beside, anchor: tr, text: Winky}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: How I Study Efficiently}
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+    - {kind: tile, placement: beside, anchor: tr, text: Cormorant Infant}

@@ -1,0 +1,28 @@
+sheet: feature-callout_button+chip+model-logo+pill-376ee8
+group:
+  type: feature-callout
+  chrome: button+chip+model-logo+pill
+fields:
+- chrome_items
+answers: feature-callout_button+chip+model-logo+pill-376ee8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6612e61a-e781-4a69-87e9-4dfe6917be04.avif
+    asset: 6612e61a
+    page: compare-models--runway-gen-4-vs-veo-3
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - pill

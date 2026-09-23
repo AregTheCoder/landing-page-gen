@@ -1,0 +1,127 @@
+sheet: feature-callout_chip+model-logo+prompt-panel-de131b
+group:
+  type: feature-callout
+  chrome: chip+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+prompt-panel-de131b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cbe253a3-f532-429b-8916-ab96f6fa3608.webm
+    asset: cbe253a3
+    page: ai-models--wan-2-7
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.97
+    motion: 0.0496
+    pace: medium
+    loop: true
+    loop_seam: 0.923
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d45d9e51-f8f5-45a3-ac9f-c35b1d02ef74.webp
+    asset: d45d9e51
+    page: ai-models--dall-e-3
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dcaf5650-9ec4-4450-86a1-b0481fa23289.webm
+    asset: dcaf5650
+    page: ai-models--flux-video-edit
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 10.0
+    motion: 0.0036
+    pace: still
+    loop: true
+    loop_seam: 0.993
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f0b2c933-afa7-4212-a571-8f652df22328.webm
+    asset: f0b2c933
+    page: ai-models--happyhorse-1-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 8.0
+    motion: 0.031
+    pace: slow
+    loop: true
+    loop_seam: 0.957
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/a134a65e-e0d2-4d69-9d46-b21b54e1c72f.webm
+    asset: a134a65e
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.1124
+    pace: fast
+    loop: true
+    loop_seam: 0.921
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - prompt-panel

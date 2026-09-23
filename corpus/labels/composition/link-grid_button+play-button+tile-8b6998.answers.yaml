@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: bl, count: 2, state: {active: 2}}
+    - {kind: button, placement: beside, anchor: bottom, text: Imapct}

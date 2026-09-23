@@ -1,0 +1,46 @@
+sheet: use-case-grid_button+play-button+prompt-panel-d795f1
+group:
+  type: use-case-grid
+  chrome: button+play-button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_button+play-button+prompt-panel-d795f1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/449a8ac5-22b1-40e0-af90-87e99815b0f5.webp
+    asset: 449a8ac5
+    page: ai-models--grok-imagine-1-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 10
+    n_pages: 10
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/45d4f5ad-b8f7-4466-ba61-1b142c186222.avif
+    asset: 45d4f5ad
+    page: ai-models--elevenlabs-music-v2
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - prompt-panel

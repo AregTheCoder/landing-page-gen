@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: right}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, text: BUNGEE}

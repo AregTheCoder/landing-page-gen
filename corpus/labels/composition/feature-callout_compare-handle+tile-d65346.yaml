@@ -1,0 +1,44 @@
+sheet: feature-callout_compare-handle+tile-d65346
+group:
+  type: feature-callout
+  chrome: compare-handle+tile
+fields:
+- chrome_items
+answers: feature-callout_compare-handle+tile-d65346.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a7d64fef-c260-4cc5-b67d-56c10e4d3942.avif
+    asset: a7d64fef
+    page: hd-photo-converter
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b572f707-195d-4ce0-b1b9-d5a8b23c85cb.avif
+    asset: b572f707
+    page: hd-photo-converter
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - tile

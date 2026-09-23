@@ -1,0 +1,64 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: TOTEALLY}
+    - {kind: swatch, placement: beside, anchor: bl, text: Color palette}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: br, text: coreflow}
+    - {kind: swatch, placement: beside, anchor: left}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: br, text: SUPER MATCHA}
+    - {kind: swatch, placement: beside, anchor: left}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: swatch, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: swatch, placement: beside, anchor: bottom}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, count: 2}
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: swatch, placement: beside, anchor: bottom}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: swatch, placement: overlay, anchor: left, count: 3, state: {active: 1}}
+    - {kind: tile, placement: overlay, anchor: right, count: 3, text: Aa|Aa|Aa}
+    - {kind: tile, placement: overlay, anchor: br}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: swatch, placement: beside, anchor: br}

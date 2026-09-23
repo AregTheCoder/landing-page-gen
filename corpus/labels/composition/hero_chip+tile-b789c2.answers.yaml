@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: top}
+    - {kind: chip, placement: beside, anchor: top}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br}

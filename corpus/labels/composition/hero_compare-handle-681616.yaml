@@ -1,0 +1,25 @@
+sheet: hero_compare-handle-681616
+group:
+  type: hero
+  chrome: compare-handle
+fields:
+- chrome_items
+answers: hero_compare-handle-681616.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/634048df-c946-4a99-9a04-d83d9d706f0b.avif
+    asset: 634048df
+    page: brighten-images
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle

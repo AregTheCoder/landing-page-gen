@@ -1,0 +1,230 @@
+sheet: feature-callout_button+mockup-card-025b05
+group:
+  type: feature-callout
+  chrome: button+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card-025b05.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2cc925c8-1e83-4c15-9871-c6473bdb8f98.webp
+    asset: 2cc925c8
+    page: ai-voice-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8e3c73fe-def2-45a9-be1a-340a06257927.avif
+    asset: 8e3c73fe
+    page: flip-image
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: checkerboard
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8f1f1e39-fd6c-4a7b-815b-c93095a65968.avif
+    asset: 8f1f1e39
+    page: flip-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d09760f3-10b8-4189-a5af-130ae2181e79.webp
+    asset: d09760f3
+    page: ai-background
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9fe72a6-75d3-47d3-99a0-15ab426c4fb6.webp
+    asset: d9fe72a6
+    page: text-to-ad-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe5e78cb-2e5a-4b94-afe7-b364e3256600.webm
+    asset: fe5e78cb
+    page: add-music-to-video
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.33
+    motion: 0.068
+    pace: medium
+    loop: true
+    loop_seam: 0.968
+    camera: static
+    chrome:
+    - button
+    - mockup-card
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/17ef0d19-e479-4b24-b16c-80e00cc496c4.png
+    asset: 17ef0d19
+    page: watermark-photos
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/1eba33d4-e061-4070-93b0-cd491c8b5735.png
+    asset: 1eba33d4
+    page: quote-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/30cc0835-e700-4f9d-bc75-99fd2ed8cd4b.png
+    asset: 30cc0835
+    page: brighten-images
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/34cc62c4-250c-4636-bc81-d106ad86ed5c.png
+    asset: 34cc62c4
+    page: image-style-transfer
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/5d64241c-8999-4485-96ed-5b9693c9e717.png
+    asset: 5d64241c
+    page: scene-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/79fc64ff-8a3b-43a4-9537-c3bb5d4a37a5.png
+    asset: 79fc64ff
+    page: book-cover-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card

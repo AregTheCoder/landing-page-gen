@@ -1,0 +1,46 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, text: Imagen 4}
+    - {kind: chip, placement: beside, anchor: br, text: 4K}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: top, text: "16:9"}
+    - {kind: tile, placement: beside, anchor: tr}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 6, state: {active: 4}}
+    - {kind: tile, placement: beside, anchor: bl, count: 3}
+    - {kind: tile, placement: beside, anchor: br}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+    - {kind: chip, placement: beside, anchor: bl, text: 50+ references}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, text: Grok Imagine}
+    - {kind: chip, placement: beside, anchor: br, text: 4K}
+6:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, text: Sansita One}
+7:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, text: 20s}
+    - {kind: tile, placement: beside, anchor: bl}
+8:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: bl, text: Star}
+    - {kind: tile, placement: beside, anchor: br}
+11:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl, state: {on: true}}
+    - {kind: chip, placement: overlay, anchor: tl, text: "1"}
+    - {kind: tile, placement: beside, anchor: left}
+12:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: bottom, text: "2"}
+    - {kind: tile, placement: beside, anchor: br}

@@ -1,0 +1,90 @@
+sheet: feature-callout_adjust-slider+chip-1e1128
+group:
+  type: feature-callout
+  chrome: adjust-slider+chip
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+chip-1e1128.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/870464b8-5d03-49e6-b10d-e4a5ee978e58.webp
+    asset: 870464b8
+    page: ai-models--qwen-2-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b22d092f-67f0-4647-a1b1-904cce981cd1.webm
+    asset: b22d092f
+    page: ai-models--google-omni
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0577
+    pace: medium
+    loop: true
+    loop_seam: 0.955
+    camera: static
+    chrome:
+    - adjust-slider
+    - chip
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f6c1de3b-6ec7-4369-b360-12bb8dfbef4e.webm
+    asset: f6c1de3b
+    page: video-studio--video-speed
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0647
+    pace: medium
+    loop: true
+    loop_seam: 0.907
+    camera: static
+    chrome:
+    - adjust-slider
+    - chip
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/57dcf388-b47f-4e55-8771-a131767cbc6b.png
+    asset: 57dcf388
+    page: packaging-design
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - chip

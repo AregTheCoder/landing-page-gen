@@ -1,0 +1,122 @@
+sheet: link-grid_button+prompt-panel+tile-3680ac
+group:
+  type: link-grid
+  chrome: button+prompt-panel+tile
+fields:
+- chrome_items
+answers: link-grid_button+prompt-panel+tile-3680ac.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp
+    asset: 229febb9
+    page: video-to-gif
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229febb9-6871-4896-ad2f-9c912331d9b0.webp?type=webp&to=min&r=640
+    asset: 229febb9
+    page: video-tools
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp?type=webp&to=min&r=400
+    asset: 3df4299d
+    page: ai-art-generator
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp?type=webp&to=min&r=640
+    asset: 3df4299d
+    page: ai-design-tools
+    slot: S02-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp
+    asset: 75daaba0
+    page: add-subtitles-to-video
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 21
+    n_pages: 21
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/75daaba0-36f0-480c-944a-3127d7c129e3.webp?type=webp&to=min&r=640
+    asset: 75daaba0
+    page: ai-design-tools
+    slot: S04-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile

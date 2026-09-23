@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+    - {kind: adjust-panel, placement: overlay, anchor: right}
+    - {kind: badge, placement: overlay, anchor: right, count: 2, state: {on: true}}

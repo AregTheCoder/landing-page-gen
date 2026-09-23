@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tr, text: Seedance 2.0}
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: prompt-panel, placement: beside, anchor: left, text: Prompt}
+    - {kind: tile, placement: beside, anchor: tl}

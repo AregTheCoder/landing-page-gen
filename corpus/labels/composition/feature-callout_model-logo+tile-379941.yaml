@@ -1,0 +1,230 @@
+sheet: feature-callout_model-logo+tile-379941
+group:
+  type: feature-callout
+  chrome: model-logo+tile
+fields:
+- chrome_items
+answers: feature-callout_model-logo+tile-379941.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/01328a85-1ef4-4291-bda6-b247ea4a0134.avif
+    asset: 01328a85
+    page: ai-models--gpt-image-1
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3d48f750-f563-41d7-9a77-70a98b4e8816.webm
+    asset: 3d48f750
+    page: ai-models--kling-3-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 10
+    n_pages: 10
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.9
+    motion: 0.0166
+    pace: slow
+    loop: true
+    loop_seam: 0.985
+    camera: static
+    chrome:
+    - model-logo
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3efe7c6f-3873-4f63-912b-e47dad5b9dd1.avif
+    asset: 3efe7c6f
+    page: ai-models--recraft-v4-1
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4eeca13c-c557-4579-ba17-e4cfd90a76ec.avif
+    asset: 4eeca13c
+    page: ai-models--recraft-v4-1
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/66ce99d7-5d44-4b5a-a5dd-ce08ef0cb662.avif
+    asset: 66ce99d7
+    page: ai-models--recraft-v4-pro
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/77ba13b2-dcea-4cf8-9af7-087991816762.avif
+    asset: 77ba13b2
+    page: ai-models--runway-aleph-2-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/802fe719-1eaa-4035-859a-4f77827b7aff.avif
+    asset: 802fe719
+    page: ai-models--flux-kontext-max
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/859caf7c-1ad2-44f7-9cfe-e24924552d79.avif
+    asset: 859caf7c
+    page: ai-models--recraft-v4-1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8919c8d0-eb9c-43bd-9531-4b97a608be3a.avif
+    asset: 8919c8d0
+    page: ai-models--gpt-image-1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9aa919f1-e9dd-435e-9eef-733e4152d039.avif
+    asset: 9aa919f1
+    page: ai-models--runway-aleph-2-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cff03553-646c-4ec9-9321-939d3444f176.avif
+    asset: cff03553
+    page: ai-models--flux-2-klein-4b
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f8c12ac4-bc94-4ad8-9f81-749424ee6383.avif
+    asset: f8c12ac4
+    page: ai-models--ideogram-4-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - tile

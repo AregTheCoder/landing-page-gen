@@ -1,0 +1,27 @@
+sheet: link-grid_badge+button+prompt-panel-052644
+group:
+  type: link-grid
+  chrome: badge+button+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_badge+button+prompt-panel-052644.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ec241f2-d79f-4d48-ac0a-28905131959c.webp?type=webp&to=min&r=640
+    asset: 0ec241f2
+    page: ai-design-tools
+    slot: S02-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - prompt-panel

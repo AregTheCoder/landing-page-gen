@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, text: HOT}
+    - {kind: badge, placement: overlay, anchor: tr, state: {"on": true}}
+    - {kind: chip, placement: overlay, anchor: bottom, count: 3, text: RETRO|GLOSSY|POP}

@@ -1,0 +1,42 @@
+sheet: use-case-grid_pill-dd3f5b
+group:
+  type: use-case-grid
+  chrome: pill
+fields:
+- chrome_items
+answers: use-case-grid_pill-dd3f5b.answers.yaml
+cells:
+  1:
+    src: https://cdn130.picsart.com/54964550287710715013.png
+    asset: '54964550'
+    page: red-eye-remover
+    slot: S02-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+  2:
+    src: https://cdn140.picsart.com/91443790414859242662.png
+    asset: '91443790'
+    page: red-eye-remover
+    slot: S02-m3
+    type: use-case-grid
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill

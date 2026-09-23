@@ -1,0 +1,21 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, text: mp3}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Influencer discussing the latest}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tl, text: 4k}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Microscopic view of diatom arrangements}
+    - {kind: tile, placement: beside, anchor: br}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Sound_of_crickets.mp3}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Cinematic movie shot of a young man}
+    - {kind: tile, placement: beside, anchor: br}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Raindrops tap on the coffee shop glass}
+    - {kind: chip, placement: beside, anchor: left, count: 3, text: Jazz-Pop|Acoustic|Bossa nova}
+    - {kind: chip, placement: overlay, anchor: bl, text: ElevenLabs Music v2}
+    - {kind: tile, placement: beside, anchor: bl}

@@ -1,0 +1,44 @@
+sheet: feature-callout_model-logo+prompt-panel-50ff95
+group:
+  type: feature-callout
+  chrome: model-logo+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_model-logo+prompt-panel-50ff95.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2a8d68c7-5656-490b-ac11-dd1d07d52b52.avif
+    asset: 2a8d68c7
+    page: ai-models--gpt-2
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7198b603-ac45-4322-99af-3b6c49b7c600.webp
+    asset: 7198b603
+    page: ai-models--dall-e-3
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel

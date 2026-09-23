@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: badge, placement: overlay, anchor: tr, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right, text: SakuraAtelier}
+    - {kind: play-button, placement: overlay, anchor: centre}

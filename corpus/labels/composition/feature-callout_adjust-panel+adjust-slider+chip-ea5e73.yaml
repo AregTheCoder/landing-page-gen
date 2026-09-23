@@ -1,0 +1,27 @@
+sheet: feature-callout_adjust-panel+adjust-slider+chip-ea5e73
+group:
+  type: feature-callout
+  chrome: adjust-panel+adjust-slider+chip
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+adjust-slider+chip-ea5e73.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0e6fd8bb-8651-49f9-bbdc-6b8cca7a7283.png
+    asset: 0e6fd8bb
+    page: ai-filters
+    slot: S12-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - adjust-slider
+    - chip

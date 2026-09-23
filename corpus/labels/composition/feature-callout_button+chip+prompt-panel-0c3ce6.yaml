@@ -1,0 +1,264 @@
+sheet: feature-callout_button+chip+prompt-panel-0c3ce6
+group:
+  type: feature-callout
+  chrome: button+chip+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+chip+prompt-panel-0c3ce6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/015dcbcd-d75e-4ca5-bcf7-d4e830f97af4.webm
+    asset: 015dcbcd
+    page: ai-story-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    duration: 6.87
+    motion: 0.0495
+    pace: medium
+    loop: true
+    loop_seam: 0.918
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/12fd41b9-12f6-473d-b1f4-7084dd28b117.webm
+    asset: 12fd41b9
+    page: ai-models--grok-imagine-1-0
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.0
+    motion: 0.0303
+    pace: slow
+    loop: true
+    loop_seam: 0.945
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39277e2a-14d1-41f5-816a-c7727864a58a.webm
+    asset: 39277e2a
+    page: text-motion
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0331
+    pace: slow
+    loop: true
+    loop_seam: 0.97
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87615014-6fca-497e-88cb-e3e5f0138de9.webm
+    asset: '87615014'
+    page: ai-models--elevenlabs-music-v2
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 6.0
+    motion: 0.0162
+    pace: slow
+    loop: true
+    loop_seam: 0.986
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a2f18ebb-5ba7-495a-ad47-62a36f07cbb4.webm
+    asset: a2f18ebb
+    page: ai-models--elevenlabs-music-v2
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 6.0
+    motion: 0.07
+    pace: medium
+    loop: false
+    loop_seam: 0.852
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bd1f5ad3-985d-44dc-80db-0eea0cca187d.avif
+    asset: bd1f5ad3
+    page: ai-models--gpt-2
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e911ce9b-e14a-440e-b9d3-fb24ecbdc758.webm
+    asset: e911ce9b
+    page: ai-story-generator
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.97
+    motion: 0.0414
+    pace: medium
+    loop: true
+    loop_seam: 0.927
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/548dbd95-9988-44ab-83ee-aaed49a5a712.png
+    asset: 548dbd95
+    page: ai-content-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/72f87ca9-43fe-4610-b0f2-15c8a5db5145.png
+    asset: 72f87ca9
+    page: whatsapp-sticker-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  10:
+    src: https://pcdn.picsart.com/cms-uploads/ac90a9ec-53f2-4c9a-aedf-567cb9836d3c.webm
+    asset: ac90a9ec
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0392
+    pace: slow
+    loop: true
+    loop_seam: 0.929
+    camera: static
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  11:
+    src: https://pcdn.picsart.com/cms-uploads/ec2cf633-f29e-450e-a382-b385dfb74458.webm
+    asset: ec2cf633
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.01
+    motion: 0.0687
+    pace: medium
+    loop: false
+    loop_seam: 0.882
+    camera: orbit
+    chrome:
+    - button
+    - chip
+    - prompt-panel

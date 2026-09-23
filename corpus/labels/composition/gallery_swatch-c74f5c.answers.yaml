@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: tl, count: 4}
+2:
+  chrome_items:
+    - {kind: swatch, placement: beside, anchor: bottom, count: 3, state: {active: 3}}

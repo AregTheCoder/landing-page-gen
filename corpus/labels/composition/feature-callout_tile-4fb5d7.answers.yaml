@@ -1,0 +1,34 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+6:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2, state: {active: 2}}
+7:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+9:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: top, text: Your text}
+    - {kind: tile, placement: beside, anchor: bottom, count: 4, text: KEEP GOING|keep going|keep going|KEEP GOING}
+10:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+11:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+12:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}

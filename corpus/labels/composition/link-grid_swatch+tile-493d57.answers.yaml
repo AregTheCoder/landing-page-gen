@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 5}
+    - {kind: swatch, placement: beside, anchor: left, count: 3}

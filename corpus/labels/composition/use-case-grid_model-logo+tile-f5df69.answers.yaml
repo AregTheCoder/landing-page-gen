@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: bl}

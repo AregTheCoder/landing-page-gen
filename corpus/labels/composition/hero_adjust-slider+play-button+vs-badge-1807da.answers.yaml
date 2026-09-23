@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: play-button, placement: overlay, anchor: tl}
+    - {kind: play-button, placement: beside, anchor: bottom, count: 2}
+    - {kind: adjust-slider, placement: beside, anchor: bottom, count: 2}

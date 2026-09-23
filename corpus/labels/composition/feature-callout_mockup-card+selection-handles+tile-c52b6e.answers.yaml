@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: left, count: 3, state: {active: 2}, text: "Text|Text|Text"}

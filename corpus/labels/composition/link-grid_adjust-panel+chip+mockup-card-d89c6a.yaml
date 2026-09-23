@@ -1,0 +1,27 @@
+sheet: link-grid_adjust-panel+chip+mockup-card-d89c6a
+group:
+  type: link-grid
+  chrome: adjust-panel+chip+mockup-card
+fields:
+- chrome_items
+answers: link-grid_adjust-panel+chip+mockup-card-d89c6a.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/b75f99e0-1503-4a1d-87be-91c3a9cdef5f.png?type=webp&to=min&r=640
+    asset: b75f99e0
+    page: content-creation-tools
+    slot: S05-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - chip
+    - mockup-card

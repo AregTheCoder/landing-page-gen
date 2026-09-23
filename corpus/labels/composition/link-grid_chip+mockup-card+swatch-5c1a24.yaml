@@ -1,0 +1,46 @@
+sheet: link-grid_chip+mockup-card+swatch-5c1a24
+group:
+  type: link-grid
+  chrome: chip+mockup-card+swatch
+fields:
+- chrome_items
+answers: link-grid_chip+mockup-card+swatch-5c1a24.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/28bb43d3-ddcf-4975-a6df-17968503b899.png
+    asset: 28bb43d3
+    page: ai-font-generator
+    slot: S11-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+    - swatch
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/dc9cebbf-88d1-4603-85dd-2dbf50a9e43c.png
+    asset: dc9cebbf
+    page: ai-assets-generator
+    slot: S10-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+    - swatch

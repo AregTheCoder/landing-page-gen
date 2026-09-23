@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tl}
+    - {kind: badge, placement: overlay, anchor: tr}
+    - {kind: pill, placement: beside, anchor: centre}

@@ -1,0 +1,25 @@
+sheet: use-case-grid_button-373e20
+group:
+  type: use-case-grid
+  chrome: button
+fields:
+- chrome_items
+answers: use-case-grid_button-373e20.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/bf5fbebe-7aca-4d9f-a84f-65ea5991dd74.png
+    asset: bf5fbebe
+    page: image-style-transfer
+    slot: S09-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button

@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: overlay, anchor: bottom, count: 2, text: Crochet Bucket Hat|Stitched Bucket Hat}
+    - {kind: chip, placement: overlay, anchor: tr, count: 2, text: $28|$28}
+2:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tl}
+    - {kind: chip, placement: overlay, anchor: tl, text: AI}
+    - {kind: mockup-card, placement: beside, anchor: tl}

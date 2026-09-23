@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: model-logo, placement: beside, anchor: left, text: Sora}
+    - {kind: tile, placement: beside, anchor: bl}

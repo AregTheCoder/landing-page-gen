@@ -1,0 +1,224 @@
+sheet: link-grid_chip+model-logo-55635f
+group:
+  type: link-grid
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: link-grid_chip+model-logo-55635f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/287d248c-3dbd-4132-8dd8-138d9ce9e5e9.webp
+    asset: 287d248c
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S10-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4167925f-59ee-462f-a212-453f8fa8436a.webp
+    asset: 4167925f
+    page: ai-models--recraft-v4-styles-pro
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/57b2ef08-c555-4cfe-84b8-eed5c1964a22.webp
+    asset: 57b2ef08
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6adeac96-9e9e-48b2-a5b6-6b8473e68183.webp?type=webp&to=min&r=640
+    asset: 6adeac96
+    page: compare-models
+    slot: S03-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8789713b-2c13-440d-bd7e-f2133503d6e4.webp
+    asset: 8789713b
+    page: ai-models--seedream-5-0-pro
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8789713b-2c13-440d-bd7e-f2133503d6e4.webp?type=webp&to=min&r=640
+    asset: 8789713b
+    page: image-models
+    slot: S03-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/acb239e1-bfe6-4c32-afa0-dba57f9ce739.webp?type=webp&to=min&r=640
+    asset: acb239e1
+    page: compare-models
+    slot: S02-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bf618993-841d-4b57-ae30-0f491fe97eb2.webp
+    asset: bf618993
+    page: ai-models--dall-e-3
+    slot: S12-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdf44d95-a1c2-42ef-ab13-45b5195f5aec.webp
+    asset: fdf44d95
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  10:
+    src: https://cdnblog.picsart.com/2026/04/Head.webp
+    asset: Head
+    page: ai-models--seedream-4-5
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png
+    asset: 1e1c5d7a
+    page: ai-content-generator
+    slot: S09-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/1e1c5d7a-c2d3-4b7f-bbe1-469d8e4e4ea4.png?type=webp&r=1280&to=min
+    asset: 1e1c5d7a
+    page: ai-video-filters
+    slot: S12-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo

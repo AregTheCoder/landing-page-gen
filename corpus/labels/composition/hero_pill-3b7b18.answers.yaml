@@ -1,0 +1,37 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+3:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+4:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+5:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+6:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+7:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+8:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+9:
+  chrome_items:
+    - {kind: pill, placement: beside, anchor: bl, count: 4, state: {active: 1}, text: Pop|Funk|Jazz|Electronic}
+    - {kind: pill, placement: beside, anchor: bl, count: 3, text: Cinematic|Hip Hop|Deep House}
+10:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+11:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, text: Remove}
+12:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: left, text: '"Liquid form shape"'}

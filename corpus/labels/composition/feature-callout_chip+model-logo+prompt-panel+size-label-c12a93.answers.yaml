@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bl, count: 2, text: DALL-E 3|1536x1024}
+    - {kind: model-logo, placement: beside, anchor: bl, text: DALL-E 3}
+    - {kind: size-label, placement: beside, anchor: bottom, text: 1536x1024}

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: "Sunglasses rotation, bold and surreal"}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: adjust-slider, placement: beside, anchor: bl, state: {value: 1}, text: 1x}

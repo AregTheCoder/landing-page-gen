@@ -1,0 +1,67 @@
+sheet: feature-callout_size-label+tile-603492
+group:
+  type: feature-callout
+  chrome: size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_size-label+tile-603492.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0636dbd7-7041-4189-95b2-db8f4b06997e.avif
+    asset: 0636dbd7
+    page: ai-models--ideogram-4-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - size-label
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/63e561f8-74a9-4cd3-99c8-3e3114e65f74.webp
+    asset: 63e561f8
+    page: image-enlarger
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - size-label
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5289bd1-7c86-4083-8396-278754d388f4.webm
+    asset: a5289bd1
+    page: ai-marketing-studio
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1638
+    pace: fast
+    loop: false
+    loop_seam: 0.832
+    camera: static
+    chrome:
+    - size-label
+    - tile

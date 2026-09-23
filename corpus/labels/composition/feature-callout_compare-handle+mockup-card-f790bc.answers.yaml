@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: compare-handle, placement: overlay, anchor: right, count: 3}

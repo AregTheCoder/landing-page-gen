@@ -1,0 +1,27 @@
+sheet: use-case-grid_pill+prompt-panel+tile-79209e
+group:
+  type: use-case-grid
+  chrome: pill+prompt-panel+tile
+fields:
+- chrome_items
+answers: use-case-grid_pill+prompt-panel+tile-79209e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dad15a71-8397-471a-9f28-8001c8e9cd9c.avif
+    asset: dad15a71
+    page: ai-models--google-omni
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - prompt-panel
+    - tile

@@ -1,0 +1,27 @@
+sheet: use-case-grid_button+mockup-card+tile-baa4c3
+group:
+  type: use-case-grid
+  chrome: button+mockup-card+tile
+fields:
+- chrome_items
+answers: use-case-grid_button+mockup-card+tile-baa4c3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b21a711b-186b-445c-b004-764cc3d733e9.avif
+    asset: b21a711b
+    page: video-editor
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile

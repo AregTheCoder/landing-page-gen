@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: adjust-slider, placement: beside, anchor: left, text: CFG Scale}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

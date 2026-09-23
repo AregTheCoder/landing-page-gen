@@ -1,0 +1,42 @@
+sheet: resource-links_chip-a36766
+group:
+  type: resource-links
+  chrome: chip
+fields:
+- chrome_items
+answers: resource-links_chip-a36766.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/20b6391a-4e06-4048-8506-d8efa22409d3.avif
+    asset: 20b6391a
+    page: ai-image-generator
+    slot: S13-m3
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b476daea-7716-4982-ad7a-edfd6c347d0c.webp
+    asset: b476daea
+    page: flow
+    slot: S11-m2
+    type: resource-links
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 8
+    before_after: false
+    chrome:
+    - chip

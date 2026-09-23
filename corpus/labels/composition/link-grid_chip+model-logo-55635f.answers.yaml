@@ -1,0 +1,40 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Recraft V4|Ideogram 3.0 Flash}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom}
+    - {kind: model-logo, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: GPT Image 1.5|Imagen 4.0 Ultra}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+5:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+6:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+7:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Luma Ray 2|Kling 3.0}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+8:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom}
+    - {kind: model-logo, placement: beside, anchor: bl}
+9:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom}
+    - {kind: model-logo, placement: beside, anchor: bl}
+10:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Nano Banana|Seedream}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}

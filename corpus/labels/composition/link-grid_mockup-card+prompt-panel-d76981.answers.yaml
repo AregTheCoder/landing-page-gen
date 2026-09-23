@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: prompt-panel, placement: overlay, anchor: bl, text: Quote about a pizza shop}

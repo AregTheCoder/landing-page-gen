@@ -1,0 +1,44 @@
+sheet: link-grid_model-logo+prompt-panel-eca830
+group:
+  type: link-grid
+  chrome: model-logo+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_model-logo+prompt-panel-eca830.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1abb9e86-4060-4a0d-ac43-b801aeaa04f9.webp
+    asset: 1abb9e86
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22c8db45-92c0-412e-b3af-bed75f2ed165.webp
+    asset: 22c8db45
+    page: ai-models--gpt-image-1
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: cursor, placement: overlay}
+    - {kind: tile, placement: beside, anchor: bl}

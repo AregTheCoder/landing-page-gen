@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Nano Banana}
+    - {kind: chip, placement: beside, anchor: bottom, text: Nano Banana Pro}
+    - {kind: chip, placement: beside, anchor: br, text: Nano Banana 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: centre, count: 4, text: Automate|Optimize|Grow|...}

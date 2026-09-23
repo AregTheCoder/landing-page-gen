@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl, state: {active: 2}, text: Stickers}
+    - {kind: tile, placement: overlay, anchor: tr}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl, state: {active: 2}, text: Stickers}
+    - {kind: tile, placement: overlay, anchor: tr}

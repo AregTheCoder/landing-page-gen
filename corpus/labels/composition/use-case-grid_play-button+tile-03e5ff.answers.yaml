@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre, count: 3, state: {active: 1}}
+    - {kind: play-button, placement: overlay, anchor: centre}

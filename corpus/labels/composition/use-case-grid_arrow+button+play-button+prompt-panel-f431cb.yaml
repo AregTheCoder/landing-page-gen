@@ -1,0 +1,28 @@
+sheet: use-case-grid_arrow+button+play-button+prompt-panel-f431cb
+group:
+  type: use-case-grid
+  chrome: arrow+button+play-button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_arrow+button+play-button+prompt-panel-f431cb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fca46557-b000-49a5-a12a-ae7e22d9925c.webp
+    asset: fca46557
+    page: ai-models--kling
+    slot: S04-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - arrow
+    - button
+    - play-button
+    - prompt-panel

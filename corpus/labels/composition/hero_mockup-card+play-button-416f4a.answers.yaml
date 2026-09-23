@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, text: Laura|Callum|Chris}
+    - {kind: play-button, placement: overlay, anchor: left, count: 3}

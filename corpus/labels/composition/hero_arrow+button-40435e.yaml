@@ -1,0 +1,26 @@
+sheet: hero_arrow+button-40435e
+group:
+  type: hero
+  chrome: arrow+button
+fields:
+- chrome_items
+answers: hero_arrow+button-40435e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ed4551e8-72d9-417e-8763-3f72e86cb3d0.png
+    asset: ed4551e8
+    page: ai-image-extender
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - arrow
+    - button

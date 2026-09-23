@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 2}
+    - {kind: button, placement: beside, anchor: br, text: ADD TO BAG}
+2:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 3}
+    - {kind: button, placement: overlay, anchor: bottom, text: BUY}

@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: beside, anchor: bottom}
+2:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: bottom}

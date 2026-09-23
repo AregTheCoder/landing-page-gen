@@ -1,0 +1,43 @@
+sheet: link-grid_badge+mockup-card-151c6b
+group:
+  type: link-grid
+  chrome: badge+mockup-card
+fields:
+- chrome_items
+answers: link-grid_badge+mockup-card-151c6b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8b06c0c1-9edd-49d1-b8db-78dbaeeda680.webp?type=webp&to=min&r=640
+    asset: 8b06c0c1
+    page: design
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/db734582-46c9-4581-92f1-c726c3aa538b.webp
+    asset: db734582
+    page: variation-generator
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card

@@ -1,0 +1,27 @@
+sheet: feature-callout_button+play-button+tile-635996
+group:
+  type: feature-callout
+  chrome: button+play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_button+play-button+tile-635996.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c9d3bf7b-827b-477a-809a-e4d970ffaf69.webp
+    asset: c9d3bf7b
+    page: instagram-video-maker
+    slot: S10-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - tile

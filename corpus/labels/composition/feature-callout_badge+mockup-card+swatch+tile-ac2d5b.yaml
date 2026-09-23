@@ -1,0 +1,28 @@
+sheet: feature-callout_badge+mockup-card+swatch+tile-ac2d5b
+group:
+  type: feature-callout
+  chrome: badge+mockup-card+swatch+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+mockup-card+swatch+tile-ac2d5b.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/10abe8ee-6361-41d6-9ef1-703350dedc57.png
+    asset: 10abe8ee
+    page: packaging-design
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+    - swatch
+    - tile

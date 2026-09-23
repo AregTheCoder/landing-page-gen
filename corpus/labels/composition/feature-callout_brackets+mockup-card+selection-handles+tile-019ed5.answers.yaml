@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: tr}
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+    - {kind: tile, placement: overlay, anchor: left, text: Templates}

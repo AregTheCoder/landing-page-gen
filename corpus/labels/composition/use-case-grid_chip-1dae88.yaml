@@ -1,0 +1,42 @@
+sheet: use-case-grid_chip-1dae88
+group:
+  type: use-case-grid
+  chrome: chip
+fields:
+- chrome_items
+answers: use-case-grid_chip-1dae88.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bb63a74c-c746-424c-9bdd-c50d1ce613ff.avif
+    asset: bb63a74c
+    page: ai-models--flux-2-klein-4b
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c06664da-4def-47da-858c-c311252d2f12.avif
+    asset: c06664da
+    page: ai-retouch
+    slot: S12-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip

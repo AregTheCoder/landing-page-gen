@@ -1,0 +1,195 @@
+sheet: link-grid_selection-handles-e0e1ce
+group:
+  type: link-grid
+  chrome: selection-handles
+fields:
+- chrome_items
+answers: link-grid_selection-handles-e0e1ce.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png
+    asset: 133128a4
+    page: ai-content-generator
+    slot: S09-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/133128a4-a158-4d07-ad54-806b6da0f832.png?type=webp&r=548&to=min?type=webp&r=548&to=min
+    asset: 133128a4
+    page: remove-object-from-photo
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/19ef9fad-f3a7-4fc0-ba0b-c0a94846ff18.png?type=webp&r=548&to=min
+    asset: 19ef9fad
+    page: photo-editor
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/1d3ef5b7-2213-4332-a325-ac556d979db2.png
+    asset: 1d3ef5b7
+    page: social-media-ad-maker
+    slot: S10-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/639e11c1-aea6-472f-948e-c7692554308c.png?type=webp&r=548&to=min?type=webp&r=548&to=min
+    asset: 639e11c1
+    page: photo-editor
+    slot: S17-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/6d00f179-4a85-4ca4-909f-d71517a18112.png
+    asset: 6d00f179
+    page: meme-generator
+    slot: S10-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/7fd68d60-df94-4b1e-9813-3f4ad25c897b.png
+    asset: 7fd68d60
+    page: add-shadow-to-image
+    slot: S11-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: true
+    chrome:
+    - selection-handles
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/86c853b4-870c-4ec9-b986-2481f08ac76c.png
+    asset: 86c853b4
+    page: ai-logo-generator
+    slot: S11-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 16
+    n_pages: 16
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/90966f39-d25c-4cc9-aa3e-f9c4ac34efcc.png
+    asset: 90966f39
+    page: collage-maker
+    slot: S16-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/927193e3-4dda-4366-a0d7-3c3538ef3b78.png
+    asset: 927193e3
+    page: add-shadow-to-image
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/a6b02f5d-acc8-4c8d-a876-c185ddde11b6.png
+    asset: a6b02f5d
+    page: ai-filters
+    slot: S13-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles

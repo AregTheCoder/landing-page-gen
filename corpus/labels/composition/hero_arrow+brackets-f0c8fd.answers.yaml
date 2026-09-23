@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: centre, count: 3}
+    - {kind: brackets, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: centre, count: 4}
+    - {kind: brackets, placement: overlay, anchor: centre}

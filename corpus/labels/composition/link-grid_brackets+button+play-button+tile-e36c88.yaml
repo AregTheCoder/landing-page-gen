@@ -1,0 +1,28 @@
+sheet: link-grid_brackets+button+play-button+tile-e36c88
+group:
+  type: link-grid
+  chrome: brackets+button+play-button+tile
+fields:
+- chrome_items
+answers: link-grid_brackets+button+play-button+tile-e36c88.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/38d2100f-3c43-425d-98a0-7f6e85a3ece0.avif
+    asset: 38d2100f
+    page: compare-models--kling-vs-runway
+    slot: S11-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - button
+    - play-button
+    - tile

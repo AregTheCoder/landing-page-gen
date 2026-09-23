@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: left}
+    - {kind: badge, placement: overlay, anchor: tl, count: 2, text: 1|2}

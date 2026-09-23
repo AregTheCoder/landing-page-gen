@@ -1,0 +1,116 @@
+sheet: hero_chip+mockup-card-ced20d
+group:
+  type: hero
+  chrome: chip+mockup-card
+fields:
+- chrome_items
+answers: hero_chip+mockup-card-ced20d.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0d5406a5-f85b-439f-8772-397e71202a10.png
+    asset: 0d5406a5
+    page: ai-assets-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/11283356-68c8-4335-a620-499d1172d191.png
+    asset: '11283356'
+    page: book-cover-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/179cd866-3c29-4c51-b11c-b3f90e9a86ed.png
+    asset: 179cd866
+    page: watermark-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/37ede1e7-842e-4909-bd58-fa12945e3162.png
+    asset: 37ede1e7
+    page: pdf-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/7d7f1d9d-d7c1-4a7f-b36b-4e079ef2333a.png
+    asset: 7d7f1d9d
+    page: timeline-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/e1442af0-5746-4924-9fe0-880e32e83569.png
+    asset: e1442af0
+    page: storyboard-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card

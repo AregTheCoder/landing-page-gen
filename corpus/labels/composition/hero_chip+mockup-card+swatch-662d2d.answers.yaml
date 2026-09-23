@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: right, count: 2, text: "Color palette|Fonts"}
+    - {kind: swatch, placement: overlay, anchor: tr, count: 2}
+    - {kind: chip, placement: overlay, anchor: br, count: 2, text: "Aa|Aa"}

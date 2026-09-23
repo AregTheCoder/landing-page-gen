@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tr, count: 2, text: Flux 3|20s}
+    - {kind: adjust-slider, placement: overlay, anchor: bottom, text: 0:00/0:20}
+    - {kind: play-button, placement: overlay, anchor: bottom}

@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, text: Nanobanana}
+    - {kind: model-logo, placement: beside, anchor: left}
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: mockup-card, placement: beside, anchor: right}

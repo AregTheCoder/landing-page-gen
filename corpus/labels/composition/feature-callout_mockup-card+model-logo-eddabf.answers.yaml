@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: model-logo, placement: overlay, anchor: tr}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5}
+    - {kind: model-logo, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: Pump-kin spice}
+    - {kind: model-logo, placement: overlay, anchor: tr}
