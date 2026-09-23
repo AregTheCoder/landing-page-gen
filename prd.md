@@ -433,6 +433,13 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   (`families.PRESET_BY_SECTION`), the one preset chosen neither by `> device:`
   nor by size. The template used to draw both, and every plan-built card
   inherited the overlap. (2026-09-23, layered overhaul)
+- Every paid `picsart_generate` passes `saveToDrive: false`: with Drive auto-save
+  on, Picsart answers HTTP 403 "content may violate usage policies" whatever the
+  prompt (the same call passed with the flag and 403d without it). That was the
+  live-6/live-7 "intermittent account block". `remove_bg`, `enhance` and
+  `change_bg` have no such flag and still 403; run their model through
+  `picsart_generate` instead (`picsart-sod-v8-2` for a cutout, free).
+  (runs/composition-1, 2026-09-23)
 - `brief.py` writes a slot's composition plan once. A re-run keeps it, hand
   edits included (a moved `select.rect`, a checker tone, a panel's chips),
   and refuses a plan whose family, slot size or skeleton lines changed since
