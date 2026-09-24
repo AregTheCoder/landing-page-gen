@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: br, text: 2x}
+    - {kind: pill, placement: overlay, anchor: bl, text: GIF}

@@ -1,0 +1,48 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left, count: 5, state: {active: 3}}
+    - {kind: tile, placement: beside, anchor: left}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left, count: 4, state: {active: 2}}
+    - {kind: tile, placement: beside, anchor: left, count: 4, state: {active: 2}}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: left, count: 3}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: top, count: 3}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+9:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, text: Runway Aleph 2.0}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+11:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, text: Flux 2 Klein 4B}
+    - {kind: tile, placement: beside, anchor: top, count: 3}
+12:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: Ideogram}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2, text: Ideogram|2K}

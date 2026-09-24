@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: play-button, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: play-button, placement: overlay, anchor: centre, count: 2}

@@ -1,0 +1,42 @@
+sheet: gallery_swatch-c74f5c
+group:
+  type: gallery
+  chrome: swatch
+fields:
+- chrome_items
+answers: gallery_swatch-c74f5c.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/6faf73c8-07da-41a2-93a7-639089d77935.png
+    asset: 6faf73c8
+    page: collage-maker
+    slot: S15-m2
+    type: gallery
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a82f6eef-4d04-445c-9f50-21dfa9feac34.png
+    asset: a82f6eef
+    page: background-changer
+    slot: S13-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch

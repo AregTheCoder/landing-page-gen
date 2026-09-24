@@ -1,0 +1,27 @@
+sheet: how-it-works_badge+chip+pill-c617d6
+group:
+  type: how-it-works
+  chrome: badge+chip+pill
+fields:
+- chrome_items
+answers: how-it-works_badge+chip+pill-c617d6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/644754eb-cc96-46ce-a529-bfef5a83e5ae.avif
+    asset: 644754eb
+    page: persona
+    slot: S05-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+    chrome:
+    - badge
+    - chip
+    - pill

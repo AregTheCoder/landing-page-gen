@@ -1,0 +1,165 @@
+1:
+  chrome:
+  - tile
+  - chip
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: animal
+  art_style: 3d-render
+  description: 3D Pixar-style fluffy dog in sunlit park, camera pushes in, video editor
+    timeline below
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: camera-move
+  camera: push-in
+2:
+  chrome:
+  - mockup-card
+  - button
+  - chip
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: scene
+  art_style: photo
+  description: real-estate video ad card, house photo and $330,000 price building
+    up on blue gradient
+  family_hint: mockup-card
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome:
+  - prompt-panel
+  - chip
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: man in white tee sits inside a giant transparent bubble in an office,
+    prompt panel overlay
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: ambient
+  camera: static
+4:
+  chrome:
+  - button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: background-remover demo on black; Start Creating button, then tool
+    tile panel, then man in sunglasses with Download
+  family_hint: dark-composite
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome:
+  - chip
+  - play-button
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man plays trumpet in ornate red-draped room, music-generation player
+    with genre chips and waveform
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: dynamic wide-lens urban clip of a person among skyscrapers, filmstrip
+    of shots
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: camera-move
+  camera: handheld
+7:
+  chrome:
+  - chip
+  - model-logo
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cinematic jazz-club singer at The Blue Note, camera pushes in, model-control
+    chips below
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: camera-move
+  camera: push-in
+8:
+  chrome:
+  - chip
+  - model-logo
+  - play-button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: female athlete running on track, Veo 3.1 vs Kling 3.0 two-up comparison
+  family_hint: vs-two-up
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: pan
+9:
+  chrome:
+  - adjust-panel
+  - adjust-slider
+  - mockup-card
+  text_in_image: headline
+  ui_mockup: phone-frame
+  subject: multiple
+  art_style: mixed
+  description: instagram video template maker, phone-frame cards (schedule, crossfit,
+    stretching) with animation control panel
+  family_hint: template-mockup
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome:
+  - tile
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man on yellow chair in a green field, tool tiles at left, camera pushes
+    in
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: push-in
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in beige blazer smiles by a sunlit train window, autumn scenery
+    passing
+  family_hint: full-bleed
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: push-in
+12:
+  chrome:
+  - chip
+  - tile
+  - button
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: person in silver puffer walking a neon night street, video-to-gif editor
+    timeline below
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static

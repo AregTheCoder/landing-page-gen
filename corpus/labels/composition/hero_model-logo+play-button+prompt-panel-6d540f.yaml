@@ -1,0 +1,33 @@
+sheet: hero_model-logo+play-button+prompt-panel-6d540f
+group:
+  type: hero
+  chrome: model-logo+play-button+prompt-panel
+fields:
+- chrome_items
+answers: hero_model-logo+play-button+prompt-panel-6d540f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d999923c-1d4f-4fae-93e7-c9ed6aeeff4e.webm
+    asset: d999923c
+    page: ai-models--flux-3
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0522
+    pace: medium
+    loop: true
+    loop_seam: 0.951
+    camera: static
+    chrome:
+    - model-logo
+    - play-button
+    - prompt-panel

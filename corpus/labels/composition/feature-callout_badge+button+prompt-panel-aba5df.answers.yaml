@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: beside, anchor: tl, count: 4}
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

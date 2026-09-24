@@ -1,0 +1,28 @@
+sheet: link-grid_brackets+mockup-card+play-button+tile-21359e
+group:
+  type: link-grid
+  chrome: brackets+mockup-card+play-button+tile
+fields:
+- chrome_items
+answers: link-grid_brackets+mockup-card+play-button+tile-21359e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7baf8638-c197-48d2-bba6-e9b68d6fbe54.webp?type=webp&to=min&r=640
+    asset: 7baf8638
+    page: ai-design-tools
+    slot: S05-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 4
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - mockup-card
+    - play-button
+    - tile

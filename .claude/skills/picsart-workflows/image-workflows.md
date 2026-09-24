@@ -37,7 +37,7 @@ both clean: depth of iteration, not a pile of elements.
 Board (planned whole): START → `image` generate → `image` i2i refine →
 `enhance` → END; add a `vectorize` node when the subject is a logo/mark
 (`recipes.md`).
-1. generate `gemini-3-pro-image`, `count: 1`, 1K, nearest ratio → gate. The
+1. generate `gpt-image-2.5-sunburst`, `count: 1`, `quality: high`, nearest ratio → gate. The
    prompt names the stock genre from the brief's `## References` (subject,
    light, backdrop, colour, framing) and keeps clear the area a chrome item
    will cover.
@@ -69,7 +69,7 @@ Board: START → `image` → `cutout` → (`background`) → (`enhance`) → END
 **series**: galleries and tutorial-card thumbnails that must look like a
 set. Board: START → `text` (the envelope) → one `image` node per member,
 each `in: [envelope]` → END; the cross-slot gate is written on the envelope
-node before the first call and scored after the last. `gemini-3-pro-image`
+node before the first call and scored after the last. `gpt-image-2.5-sunburst`
 like every other finished slot — a gallery of finished cards is finished
 work, not drafts. One prompt template on the text node with a slot-specific
 subject phrase per member, hero as reference, `count: 1` per member (render
@@ -118,34 +118,62 @@ dark-composite, before-after, crop-frame, cutout-checkerboard and
 template-mockup; direct or anchored for full-bleed; series for
 cinematic-still, graphic-collage, outcome-tile and any slot the brief marks
 as a Series; fallback families take the pattern of the family they are
-briefed as. The worker generates the photographic panels only;
-`lp-compose` draws ground, panels and chrome. `uv run lp-compose --describe
-<family>` prints the panels and the `aspectRatio` to generate each at.
+briefed as. The worker generates the photographic panels only; `lp-compose` draws ground,
+panels and chrome from the manager's composition plan. Do not run `--describe`:
+the brief's `## Panels and keep-clear` table already lists every panel, the
+ratio to generate it at, and the region each carries an overlay in, and the
+manager has written `composition-<slot>.yaml` with the chrome items.
 Board: START → one `image` node per panel (an `enhance`/`background`/
 `cutout` node for a derived panel) → `compose` with `in:` every panel node
 → END.
-1. one `picsart_generate` per distinct panel that `uv run lp-compose
-   --describe <family>` lists for the brief's `Device:` variant (the plain
-   template when the device is `none` or annotation-carried), `count: 1`, at
-   its ratio, hero in `imageUrls` when anchored; thumbnails (`thumb-a`,
-   `thumb-b`) on `gemini-3-pro-image` like every panel; the prompt describes
-   the photograph only → gate: photo content only, subject inside the panel's
-   crop, nothing from the family's **Never** list, thumbnails in the same
-   finish and palette as the main panel.
+1. one `picsart_generate` per row of the brief's `## Panels and keep-clear`
+   table, `count: 1`, at the row's ratio, hero in `imageUrls` when anchored;
+   thumbnails (`thumb-a`, `thumb-b`) on `gpt-image-2.5-sunburst` like every panel;
+   the prompt describes the photograph only and keeps the subject clear of the
+   row's keep-clear region (an overlay sits there) → gate: photo content only,
+   subject inside the panel's crop and out of its keep-clear region, nothing
+   from the family's **Never** list, thumbnails in the same finish and palette
+   as the main panel.
 2. before/after pairs are one photo: the after is `picsart_enhance`,
    `picsart_change_bg` or `picsart_remove_bg` (free; placed `fit: contain`)
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
-3. write `compose-<slot>.yaml` (family, `variant:` exactly as the brief's
-   `Device:` names it when the family draws that device, `size` = the
-   slot's natural size, one image per panel with an anchor; `omit:` any
-   chrome item whose text the model rendered instead, e.g. `omit:
-   [headline]` for `template-mockup`), run `uv run lp-compose
-   compose-<slot>.yaml --out steps/<slot>-<step>-1.png`, `Read` it → gate:
-   panels unstretched, each subject inside its panel, the device's panels
-   and chrome present (thumbnails, list card, second panel), chrome legible
-   at 480 px, chrome text only the family's labels, no string appearing
-   twice (once in the panel, once as chrome). Costs nothing, no preflight.
+3. fill the skeleton and build the compose spec — never hand-author the item
+   list: pick one bank block per slot in `blocks-<slot>.yaml` (`blocks.md`;
+   before any paid call) and `uv run lp-compose --check-blocks
+   composition-<slot>.yaml blocks-<slot>.yaml`, then `uv run lp-compose
+   --spec-from-plan composition-<slot>.yaml --blocks blocks-<slot>.yaml
+   --image <panel>=steps/<slot>-<node>-1.png ... --out compose-<slot>.yaml`.
+   You add only the panel image paths; the family, preset, ground and every
+   chrome item come from the plan and your picks (never add, drop or edit an
+   item in the spec — precheck diffs it against the picks). Then render and
+   read it: `uv run lp-compose compose-<slot>.yaml --out
+   steps/<slot>-<step>-1.png`, `Read` it → gate: every picked block present,
+   in its slot, saying what the pick gave it; panels unstretched; each subject
+   inside its panel; chrome legible at 480 px; no string appearing twice (once
+   in the panel, once as chrome). Costs nothing, no preflight.
+
+**Every block has a meaning, and a place only where it belongs.** A template
+is a skeleton: its background (ground and fixed surfaces, never generated),
+its panels (the only place a model's pixels go) and its slots, each taking
+one block of the categories it accepts in its shape. The blocks live in the
+bank (`compose/assets/blocks.yaml`), each with its category (state-label,
+tool, attribution, comparison, spec, action, statement, derived, context,
+editor), what it means and *when* it belongs. The brief lists each slot's
+candidates — the blocks whose category, shape and hard context (the page's
+own tool, the generating model's mark, two states for a Before/After, copy
+strings) pass here — and you choose by the soft context: a candidate goes in
+only when its *When* is true of this section, with a `because:`. An optional
+slot nothing belongs in stays empty. `blocks.md` has the rules.
+
+**Hybrid item (rare).** When the plan marks a chrome item `rendered_by: model`
+— a `brush-mask`, `applied-mockup` or `face-box`, chrome too organic or bespoke
+for `lp-compose` — render it inside one generate/edit node carrying
+`chrome_item: <id>` and a `reason:`; the prompt names that item and nothing
+else UI (the compose node then draws every other item, skipping this one). This
+is the only case a model touches chrome; you never mark an item hybrid yourself
+(the manager does, in the plan), and a model item never carries text. Gate:
+the item is painted, matches its reason, no text, nothing else changed.
 
 ## Prompt rules
 
@@ -165,22 +193,26 @@ Board: START → one `image` node per panel (an `enhance`/`background`/
 - End with ", no other text, no logos or watermarks". Never ask a model for
   UI, buttons, screens, pills or frames; when the family has chrome,
   `lp-compose` draws it.
-- The generation model is `gemini-3-pro-image` for **every image** — finished
+- The generation model is `gpt-image-2.5-sunburst` for **every image** — finished
   slot or composite thumbnail, with or without text. It is not negotiable to
   save credits: a cheaper per-call price, a short string, or a gallery of many
   tiles is never a reason to leave it. The one and only exception is
-  truthfulness. When the section copy tied to the image explicitly states the
-  image was generated by a specific named model — a model-showcase or
-  compare-models page whose text says the picture was made with `<model>` —
-  generate that one image with the model the copy names, so the demonstration
-  is honest. Absent such copy, use the pro model; `gemini-3.1-flash-image`
-  (and any other non-pro model) is otherwise banned in the run. When you match
-  a named model, quote the exact copy that names it in the step's `reason`; a
-  non-pro model without that quoted copy fails its own gate. Do not switch to
+  truthfulness: a picture the page presents as a named model's output is made
+  on that model. The brief's `## Model attribution` table (`made-by.yaml`)
+  names it per panel — every picture on an `ai-models--<x>` page is x's; the
+  two sides of a `compare-models--<a>-vs-<b>` vs-two-up are a's and b's; a
+  model picker's panels are its ticked model's. Mark each such panel's final
+  node `panel: <name>`; `lp-flow check` refuses any generate, edit or
+  background node upstream of it on another model (a Nano Banana refine pass
+  over a Recraft render makes it not Recraft's). A video model's page is
+  illustrated by frames of its clips. When the section copy itself says a
+  picture was made with `<model>` and no table covers it, generate it on that
+  model and quote the copy in the step's `reason`. Otherwise use the pro
+  model; any other model (Nano Banana included) is banned. Do not switch to
   a text-specialist model unless the brief says so.
-- Resolution: 1K by default (1200 px covers every card and tile); 2K when the
-  slot's natural width is over 1000 px; 4K only over 2500 px. `count: 1`
-  always on `gemini-3-pro-image` (a second candidate is a second call).
+- Quality: `high` by default (2 cr); `max` (7 cr) only where the copy claims
+  detail or fidelity. Both return 1024 px on the short side (1024x1536 at 2:3,
+  1536x1024 at 3:2), so `max` buys detail, never pixels. `count: 1` always on `gpt-image-2.5-sunburst` (a second candidate is a second call).
 - Faces and hands are the artefact hotspots. Prefer compositions that do not
   depend on them unless the examples do.
 
@@ -214,7 +246,7 @@ slot in its step `reason`.
 The recipe (`recipes.md`) is laid down whole before the first call, not grown
 as gates fire. The standard pipeline for an image slot:
 
-1. **generate** `image` node, `gemini-3-pro-image`, `count: 1` → gate.
+1. **generate** `image` node, `gpt-image-2.5-sunburst`, `count: 1` → gate.
 2. **i2i refine** (planned, always present): an `image` node `in:` the pass,
    the pass in `imageUrls`, a prompt describing only the improvement (tighter
    or fuller subject, cleaner light, fixed crop) → gate. Name in its `reason`

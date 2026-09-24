@@ -1,0 +1,37 @@
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: FPS 30}
+    - {kind: mockup-card, placement: beside, anchor: bottom, count: 2}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, count: 2, text: Product page|Generated ad}
+    - {kind: mockup-card, placement: beside, anchor: bottom}
+4:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Image|Reference Video}
+    - {kind: mockup-card, placement: beside, anchor: left, count: 2}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl, text: Genre}
+    - {kind: chip, placement: beside, anchor: bl, count: 3, state: {active: 1}, text: Teen Drama|Action|High Fantasy}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, count: 2}
+    - {kind: chip, placement: beside, anchor: right, text: Make it low poly isometric}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: set design}
+    - {kind: chip, placement: beside, anchor: left, count: 3, text: Aa|Aa|Aa}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: chip, placement: overlay, anchor: tr}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: right, count: 3, state: {active: 1}, text: PDF|JPG|PNG}
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: br, text: AI}
+    - {kind: chip, placement: beside, anchor: br, text: AI Filters}

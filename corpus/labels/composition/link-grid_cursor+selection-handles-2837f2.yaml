@@ -1,0 +1,26 @@
+sheet: link-grid_cursor+selection-handles-2837f2
+group:
+  type: link-grid
+  chrome: cursor+selection-handles
+fields:
+- chrome_items
+answers: link-grid_cursor+selection-handles-2837f2.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/01359979707299665270.png?type=webp&to=min&r=640
+    asset: 01359979
+    page: image-tools
+    slot: S04-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor
+    - selection-handles

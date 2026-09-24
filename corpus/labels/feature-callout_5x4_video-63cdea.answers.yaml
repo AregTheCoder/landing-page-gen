@@ -1,0 +1,33 @@
+1:
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman eating a burger by a diner window, low-res inset and 4x upscale chip
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: blonde woman in a GLOW tee sitting on the floor, low-res inset and 4x upscale chip
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+3:
+  chrome: [tile, arrow]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man on a city rooftop at golden-hour sunset, cinematic reel with an upscale tile
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: cut-montage
+  camera: pull-back

@@ -1,0 +1,26 @@
+sheet: link-grid_play-button+tile-f2c270
+group:
+  type: link-grid
+  chrome: play-button+tile
+fields:
+- chrome_items
+answers: link-grid_play-button+tile-f2c270.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cb3cadb0-9fbd-4789-b09e-411dbe940c1c.webp?type=webp&to=min&r=640
+    asset: cb3cadb0
+    page: video-tools
+    slot: S02-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - play-button
+    - tile

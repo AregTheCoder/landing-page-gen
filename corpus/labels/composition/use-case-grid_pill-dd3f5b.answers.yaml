@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: BEFORE|AFTER}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: BEFORE|AFTER}

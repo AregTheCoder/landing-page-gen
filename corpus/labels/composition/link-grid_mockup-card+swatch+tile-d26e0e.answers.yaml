@@ -1,0 +1,10 @@
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+    - {kind: swatch, placement: overlay, anchor: bl, count: 3}
+    - {kind: tile, placement: overlay, anchor: tr, count: 3, text: "Aa|Aa|Aa"}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+    - {kind: swatch, placement: overlay, anchor: right, count: 3}
+    - {kind: tile, placement: overlay, anchor: tr}

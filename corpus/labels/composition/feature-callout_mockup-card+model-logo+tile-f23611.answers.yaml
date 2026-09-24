@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: model-logo, placement: overlay, anchor: tr}
+    - {kind: tile, placement: overlay, anchor: bl, count: 3, text: Aa|AA|Aa}

@@ -1,0 +1,284 @@
+sheet: hero_tile-e0ddcd
+group:
+  type: hero
+  chrome: tile
+fields:
+- chrome_items
+answers: hero_tile-e0ddcd.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/89bcf94c-9a62-42c1-afdd-acd39fee3b8d.webm
+    asset: 89bcf94c
+    page: collage-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.57
+    motion: 0.2758
+    pace: fast
+    loop: false
+    loop_seam: 0.634
+    camera: static
+    chrome:
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/918a194d-0b6e-4d37-87a7-0d3aa72e9c6d.webm
+    asset: 918a194d
+    page: video-studio--merge-videos
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 10.53
+    motion: 0.0983
+    pace: medium
+    loop: false
+    loop_seam: 0.757
+    camera: static
+    chrome:
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/99df3bd1-df8d-430b-a5ec-860bbd80cf3d.webm
+    asset: 99df3bd1
+    page: design--posters
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.01
+    motion: 0.1581
+    pace: fast
+    loop: false
+    loop_seam: 0.585
+    camera: static
+    chrome:
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a1892296-53ab-4b3c-907e-d46e4509f6a9.webm
+    asset: a1892296
+    page: ai-models--flux-video-upscale
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 7
+    n_pages: 6
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.15
+    motion: 0.1753
+    pace: fast
+    loop: false
+    loop_seam: 0.538
+    camera: static
+    chrome:
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a38c6975-e40a-4409-9297-64e8cc0ff6ab.webm
+    asset: a38c6975
+    page: instagram-video-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.9
+    motion: 0.0201
+    pace: slow
+    loop: true
+    loop_seam: 0.992
+    camera: static
+    chrome:
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a8f3faaf-be58-454c-8c60-4355a2b8dfcc.webm
+    asset: a8f3faaf
+    page: design--youtube-thumbnails
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 13.4
+    motion: 0.1166
+    pace: fast
+    loop: false
+    loop_seam: 0.799
+    camera: static
+    chrome:
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ac93b48e-da18-452f-87de-58c717e0ec44.webm
+    asset: ac93b48e
+    page: flip-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.23
+    motion: 0.0925
+    pace: medium
+    loop: false
+    loop_seam: 0.719
+    camera: static
+    chrome:
+    - tile
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bdc00d0f-8e7c-4279-ad7a-804a1b254354.webm
+    asset: bdc00d0f
+    page: image-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.8
+    motion: 0.0946
+    pace: medium
+    loop: true
+    loop_seam: 0.903
+    camera: static
+    chrome:
+    - tile
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cbe50cb4-573a-4fa9-b741-9e0a682a4c03.webm
+    asset: cbe50cb4
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.25
+    motion: 0.1318
+    pace: fast
+    loop: false
+    loop_seam: 0.585
+    camera: static
+    chrome:
+    - tile
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e0ae15f4-ae29-4c60-bae7-251d0bb90e36.webm
+    asset: e0ae15f4
+    page: print--invitations
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.3
+    motion: 0.2389
+    pace: fast
+    loop: false
+    loop_seam: 0.66
+    camera: static
+    chrome:
+    - tile
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e495aa5d-3680-44b1-8ed4-a2d4817ae8d9.webm
+    asset: e495aa5d
+    page: print
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.42
+    motion: 0.1176
+    pace: fast
+    loop: false
+    loop_seam: 0.741
+    camera: static
+    chrome:
+    - tile
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd9fd0f8-2318-4e28-8788-4380bf89c64e.webm
+    asset: fd9fd0f8
+    page: ai-models--happyhorse-1-1
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.17
+    motion: 0.0925
+    pace: medium
+    loop: true
+    loop_seam: 0.913
+    camera: push-in
+    chrome:
+    - tile

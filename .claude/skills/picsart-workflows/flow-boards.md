@@ -31,13 +31,13 @@ the corpus anchor.
 | START | `start:` | — | — | the brief's text strings, REF inputs (hero URL from shared context), the family's panels |
 | Text | `text` | none | — | a prompt envelope or string set the worker writes once and other nodes share |
 | Reference | `ref` (in `start.inputs`) | none | — | a URL that enters as `imageUrls` or `startFrame`; never a widened or stock image |
-| Image | `image` | `picsart_generate` | `gemini-3-pro-image` | generate a panel; also i2i refine with the pass in `imageUrls` |
+| Image | `image` | `picsart_generate` | `gpt-image-2.5-sunburst` | generate a panel; also i2i refine with the pass in `imageUrls` |
 | Image (edit) | `edit` | `picsart_generate` | `picsart-qwen-image-edit` | targeted change of one thing |
 | Image (cutout) | `cutout` | `picsart_remove_bg` | `picsart-sod-v8-2` | transparent PNG of the subject |
 | Image (background) | `background` | `picsart_change_bg` | `recraftv3-replace-bg` | new backdrop behind a cutout |
 | Image (enhance) | `enhance` | `picsart_enhance` | `picsart-enhance` / `topaz-upscale-image` | upscale |
 | Video | `video` | `picsart_generate` | `seedance-2.5` (`seedance-2.0-mini` draft) | still to motion, extend, edit |
-| Motion | `motion` | `picsart_media_*` | — | MP Scene compose and render (0 credits measured 2026-09-10) |
+| Motion | `motion` | `picsart_media_*`, or `lp-compose` | — | MP Scene compose and render (0 credits measured 2026-09-10); on `lp-compose` the templated callout clip of a `kind: timeline` board (`timeline: motion-<slot>.yaml`, 0 cr) |
 | Compose | `compose` | `lp-compose` | — | the family's chrome and ground around the panels; Flow has no node for Picsart's own card chrome, this is ours |
 | END | `final:` | — | — | the slot's asset at the slot's size |
 
@@ -61,7 +61,7 @@ Use a template when, and only when, all three hold:
 2. its `shape` covers every panel the brief's `## Slots to produce` lists
    (a single-still template does not fit a `reference-thumbs` composite);
 3. copying it changes nothing an invariant pins: the model rule (every image
-   node on `gemini-3-pro-image` unless the copy names another), the text
+   node on `gpt-image-2.5-sunburst` unless the attribution table or the copy names another), the text
    rule, the family's **Panels** and **Never** lines, the ratio map.
 
 Then `board: template` with `title`, `url`, `shape` and `adapted` (one
@@ -78,8 +78,11 @@ tests, `lp-flow templates` prints "start from a blank board" and you do.
   widened neighbours are read, never wired: they are look references and
   their licence is not ours.
 - **One model per node**, written on the node. Every image node is
-  `gemini-3-pro-image`; a non-pro model needs `reason:` quoting the section
-  copy that names it (`image-workflows.md`, "Prompt rules").
+  `gpt-image-2.5-sunburst`, except a panel the brief's `## Model attribution`
+  table assigns to a model: its node carries `panel: <name>` and it and every
+  generative node upstream run that model (`lp-flow check` enforces it). Any
+  other model needs `reason:` quoting the section copy that names it
+  (`image-workflows.md`, "Prompt rules").
 - **A gate on every node** and a preflight quote on every paid one, before
   the first call. `lp-flow check` before you run; the manager's `precheck.py`
   runs it again.

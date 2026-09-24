@@ -1,0 +1,29 @@
+sheet: feature-callout_badge+button+chip+mockup-card+tile-7b03c6
+group:
+  type: feature-callout
+  chrome: badge+button+chip+mockup-card+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+button+chip+mockup-card+tile-7b03c6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ec67a479-54dd-4b68-9e8c-81871f1e0a35.avif
+    asset: ec67a479
+    page: background-remover
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - chip
+    - mockup-card
+    - tile

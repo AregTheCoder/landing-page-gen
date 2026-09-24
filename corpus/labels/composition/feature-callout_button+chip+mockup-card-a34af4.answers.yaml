@@ -1,0 +1,20 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, count: 5, text: Laura|Callum|Chris|Alice|Jessica}
+    - {kind: button, placement: beside, anchor: left, count: 5}
+    - {kind: mockup-card, placement: beside, anchor: right}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: button, placement: beside, anchor: br, text: Buy}
+    - {kind: chip, placement: overlay, anchor: left, text: "“Lilac silk”"}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: button, placement: overlay, anchor: br}
+    - {kind: chip, placement: beside, anchor: br, text: Templates}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+    - {kind: chip, placement: beside, anchor: bottom, text: 50% off}
+    - {kind: button, placement: beside, anchor: bottom, text: Add to basket}

@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: pill, placement: overlay, anchor: bottom}
+2:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: pill, placement: overlay, anchor: tr, text: 50 photos}

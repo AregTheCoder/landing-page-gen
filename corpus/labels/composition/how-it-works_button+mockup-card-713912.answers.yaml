@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre}
+    - {kind: button, placement: overlay, text: LEARN MORE}

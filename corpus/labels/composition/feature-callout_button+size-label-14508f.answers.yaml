@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: size-label, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

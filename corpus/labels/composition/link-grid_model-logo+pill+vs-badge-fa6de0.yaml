@@ -1,0 +1,236 @@
+sheet: link-grid_model-logo+pill+vs-badge-fa6de0
+group:
+  type: link-grid
+  chrome: model-logo+pill+vs-badge
+fields:
+- chrome_items
+answers: link-grid_model-logo+pill+vs-badge-fa6de0.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp
+    asset: 22f2e909
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f2e909-5f7c-4533-892a-6119456ada3f.webp?type=webp&to=min&r=640
+    asset: 22f2e909
+    page: compare-models
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp
+    asset: 288da9d2
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/288da9d2-eca6-41cb-8c1e-734a0678b8ac.webp?type=webp&to=min&r=640
+    asset: 288da9d2
+    page: compare-models
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2adc1808-ac7d-4243-8b87-ebb39c93ffc2.webp
+    asset: 2adc1808
+    page: compare-models--imagen-4-0-ultra-vs-gpt-image-1-5
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/40b37491-90c0-4b90-b1b8-0da38836b4c2.webp
+    asset: 40b37491
+    page: ai-models--happyhorse-1-1-ref-to-video
+    slot: S12-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/40b37491-90c0-4b90-b1b8-0da38836b4c2.webp?type=webp&to=min&r=640
+    asset: 40b37491
+    page: video-models
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/50dfc510-7085-4350-9e82-1f4b0990db4f.webp
+    asset: 50dfc510
+    page: flip-video
+    slot: S11-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/50dfc510-7085-4350-9e82-1f4b0990db4f.webp?type=webp&to=min&r=640
+    asset: 50dfc510
+    page: ai-design-tools
+    slot: S05-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/553d11df-3f1d-4cc4-a800-4095512b258b.webp
+    asset: 553d11df
+    page: ai-models--ideogram-4-0
+    slot: S12-m9
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp
+    asset: 558fd9db
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S10-m10
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/558fd9db-6923-4c0a-b294-4be80a20aeb1.webp?type=webp&to=min&r=640
+    asset: 558fd9db
+    page: ai-models
+    slot: S05-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge

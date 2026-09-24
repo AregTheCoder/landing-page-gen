@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: GIF}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: br, text: GIF}

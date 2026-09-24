@@ -1,0 +1,50 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2, text: "AA|Aa"}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 4}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl, count: 3}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: "Aa Aa"}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 3}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: swatch, placement: beside, anchor: br, count: 3}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: swatch, placement: beside, anchor: br, count: 4}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: "Aa Aa"}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 4}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: "Aa Bb"}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 3}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: "Aa Aa"}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 4}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl, count: 4}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}

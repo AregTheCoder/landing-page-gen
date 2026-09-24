@@ -1,0 +1,48 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Add white lilies near the bag}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+7:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate ads}
+8:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+9:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+10:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+11:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+12:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

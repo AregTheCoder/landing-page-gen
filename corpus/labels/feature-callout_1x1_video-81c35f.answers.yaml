@@ -1,0 +1,132 @@
+1:
+  chrome: [chip, model-logo, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in linen on a beach, two model outputs compared, 4K 60fps labels
+  family_hint: model-card
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  description: object-removal demo; opens on Start Creating, tool panel, then grocery photo result
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: couple laughing in a cafe; object removed via masked brush across frames
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: [tile]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: background-remover demo; upload tile, checkerboard cutout of woman, then new background and Download
+  family_hint: cutout-checkerboard
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in maroon hoodie walks a cliff path; background person removed via mask
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  description: white sports car drives through an architectural interior, model outputs with caption
+  family_hint: model-card
+  confidence: 0.5
+  motion_kind: camera-move
+  camera: push-in
+7:
+  chrome: [chip, model-logo]
+  text_in_image: body
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cinematic detective scene from a prompt, book reference thumbnail and model logo
+  family_hint: model-card
+  confidence: 0.4
+  motion_kind: cut-montage
+  camera: static
+8:
+  chrome: [chip, size-label]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman on a red phone in an office as papers fly around her, cinematic
+  family_hint: cinematic-still
+  confidence: 0.5
+  motion_kind: camera-move
+  camera: push-in
+9:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: object-removal demo; opens on Start Creating, masks an object, then Download
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [mockup-card, button, chip]
+  text_in_image: body
+  ui_mockup: app-card
+  subject: person
+  art_style: photo
+  description: app mockup card, woman in pink dress in a shop, Animate button and caption
+  family_hint: mockup-card
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [size-label]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: hands typing on a mechanical keyboard, meme caption, GIF export sizes bar
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: [chip, mockup-card]
+  text_in_image: body
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  description: sunscreen bottle product page beside a generated cinematic ad on a mountain, with prompt
+  family_hint: mockup-card
+  confidence: 0.4
+  motion_kind: ambient
+  camera: static

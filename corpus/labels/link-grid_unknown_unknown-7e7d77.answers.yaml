@@ -1,5 +1,7 @@
 1:
-  chrome: [chip, slider]
+  chrome:
+  - adjust-slider
+  - chip
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -10,7 +12,8 @@
   layout: single
   panel_count: 1
 2:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: body
   ui_mockup: none
   subject: typography
@@ -21,40 +24,51 @@
   layout: stacked
   panel_count: 3
 3:
-  chrome: [mockup-card, badge]
+  chrome:
+  - mockup-card
+  - badge
   text_in_image: headline
   ui_mockup: none
   subject: food
   art_style: mixed
-  description: a Flavor Feast food flyer template with a ramen bowl over other design cards
+  description: a Flavor Feast food flyer template with a ramen bowl over other design
+    cards
   family_hint: template-mockup
   confidence: 0.7
   layout: stacked
   panel_count: 3
 4:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: headline
   ui_mockup: none
   subject: illustration
   art_style: flat-vector
-  description: a 90s theme party invitation template beside an illustrated card and a tool tile
+  description: a 90s theme party invitation template beside an illustrated card and
+    a tool tile
   family_hint: template-mockup
   confidence: 0.75
   layout: column-main
   panel_count: 2
 5:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: headline
   ui_mockup: none
   subject: illustration
   art_style: flat-vector
-  description: a 90s theme party invitation template beside an illustrated card and a tool tile
+  description: a 90s theme party invitation template beside an illustrated card and
+    a tool tile
   family_hint: template-mockup
   confidence: 0.75
   layout: column-main
   panel_count: 2
 6:
-  chrome: [chip, slider]
+  chrome:
+  - adjust-slider
+  - chip
   text_in_image: body
   ui_mockup: editor-canvas
   subject: person
@@ -65,56 +79,69 @@
   layout: single
   panel_count: 1
 7:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a giant woman in pink fur in a collapsing city with three detail chips below
+  description: a giant woman in pink fur in a collapsing city with three detail chips
+    below
   family_hint: model-card
   confidence: 0.5
   layout: stacked
   panel_count: 1
 8:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a giant woman in pink fur in a collapsing city with three detail chips below
+  description: a giant woman in pink fur in a collapsing city with three detail chips
+    below
   family_hint: model-card
   confidence: 0.5
   layout: stacked
   panel_count: 1
 9:
-  chrome: [chip, play-button]
+  chrome:
+  - chip
+  - play-button
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: person
   art_style: mixed
-  description: a man running up a dune with a motivational caption and a film strip of frames
+  description: a man running up a dune with a motivational caption and a film strip
+    of frames
   family_hint: editor-canvas
   confidence: 0.5
   layout: stacked
   panel_count: 1
 10:
-  chrome: [chip, play-button]
+  chrome:
+  - chip
+  - play-button
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: person
   art_style: mixed
-  description: a man running up a dune with a motivational caption and a film strip of frames
+  description: a man running up a dune with a motivational caption and a film strip
+    of frames
   family_hint: editor-canvas
   confidence: 0.5
   layout: stacked
   panel_count: 1
 11:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
   art_style: mixed
-  description: a photo edit prompt panel replacing a sweater beside park photos and a result
+  description: a photo edit prompt panel replacing a sweater beside park photos and
+    a result
   family_hint: prompt-card
   confidence: 0.6
   layout: grid

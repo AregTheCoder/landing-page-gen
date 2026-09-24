@@ -1,0 +1,150 @@
+sheet: feature-callout_button+prompt-panel+tile-cd9146
+group:
+  type: feature-callout
+  chrome: button+prompt-panel+tile
+fields:
+- chrome_items
+answers: feature-callout_button+prompt-panel+tile-cd9146.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/79190697-0386-4097-89a2-90e188cb3037.webp
+    asset: '79190697'
+    page: wallpaper-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9e4495cf-85ec-4b1f-b938-4425b7f30aec.webm
+    asset: 9e4495cf
+    page: text-motion
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.14
+    pace: fast
+    loop: true
+    loop_seam: 0.972
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9ff2ebbb-81ae-44e4-83cd-23d583c252ca.avif
+    asset: 9ff2ebbb
+    page: ai-photo-editing
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b5e0893f-43b8-46a8-b6b9-323e024a581e.webp
+    asset: b5e0893f
+    page: sticker-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cb844cb9-5ee5-4f65-b552-f7a24c1f82e1.webm
+    asset: cb844cb9
+    page: text-motion
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0561
+    pace: medium
+    loop: false
+    loop_seam: 0.892
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e0fa3c09-dc9b-4fbe-b702-7edceb743234.webp
+    asset: e0fa3c09
+    page: invitation-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc728ce2-88dc-4d22-afe5-61b18ace1d0f.webp
+    asset: fc728ce2
+    page: ai-product-image-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile

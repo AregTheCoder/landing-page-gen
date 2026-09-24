@@ -1,0 +1,27 @@
+sheet: feature-callout_mockup-card+model-logo+tile-f23611
+group:
+  type: feature-callout
+  chrome: mockup-card+model-logo+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+model-logo+tile-f23611.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/f5570ae0-1798-490b-a298-baa048b795dc.png
+    asset: f5570ae0
+    page: label-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - model-logo
+    - tile

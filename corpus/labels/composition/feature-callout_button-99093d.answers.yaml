@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+2:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+3:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+4:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bottom, text: Export}
+5:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Upload PSD}
+6:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+7:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre}
+8:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+9:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+10:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: tr}
+11:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}
+12:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: Start Creating}

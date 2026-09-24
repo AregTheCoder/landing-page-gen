@@ -1,0 +1,28 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bottom, count: 2}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 20|5}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: GIF}
+    - {kind: button, placement: beside, anchor: bottom, count: 2}
+3:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: tl}
+    - {kind: chip, placement: overlay, anchor: tl, text: More Tools}
+4:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: tr}
+    - {kind: chip, placement: overlay, anchor: br, state: {active: 3}, text: PDF}
+5:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: bl, text: More Tools}
+6:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Click.Create.Master.Inspire}
+    - {kind: button, placement: overlay, anchor: bl, text: Add to canvas}
+7:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 3}
+    - {kind: button, placement: beside, anchor: br}

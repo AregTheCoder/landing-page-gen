@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, count: 2, state: {active: 2}}
+    - {kind: size-label, placement: beside, anchor: left, count: 2, text: 16:9|9:16}
+    - {kind: tile, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, count: 2, state: {active: 2}}
+    - {kind: size-label, placement: beside, anchor: left, count: 2, text: 16:9|9:16}
+    - {kind: tile, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 2, text: Start frame|End frame}
+    - {kind: size-label, placement: beside, anchor: bottom, count: 2, text: 4k|16:9}
+    - {kind: tile, placement: beside, anchor: br}

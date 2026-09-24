@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3}
+    - {kind: play-button, placement: beside, anchor: tl, count: 3, text: Summer Vibe|Bright Oceans|Monday Evening}

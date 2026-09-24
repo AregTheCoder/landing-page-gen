@@ -1,0 +1,49 @@
+sheet: hero_brackets-542d8e
+group:
+  type: hero
+  chrome: brackets
+fields:
+- chrome_items
+answers: hero_brackets-542d8e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/454c3916-bef6-4a5d-8ecb-11df42225d73.webm
+    asset: 454c3916
+    page: ai-background
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 11.2
+    motion: 0.1842
+    pace: fast
+    loop: false
+    loop_seam: 0.883
+    camera: static
+    chrome:
+    - brackets
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dc8a029e-4872-4ef0-8fcf-426502fd77b7.webm
+    asset: dc8a029e
+    page: resize-image
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    camera: static
+    chrome:
+    - brackets

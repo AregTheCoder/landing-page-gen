@@ -1,0 +1,54 @@
+sheet: feature-callout_chip+model-logo+pill+size-label-6bfc51
+group:
+  type: feature-callout
+  chrome: chip+model-logo+pill+size-label
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+pill+size-label-6bfc51.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02e5c476-4054-425f-8dee-8c6f6981c6d9.webm
+    asset: 02e5c476
+    page: compare-models--kling-vs-runway
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 4.0
+    motion: 0.0612
+    pace: medium
+    loop: false
+    loop_seam: 0.892
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - pill
+    - size-label
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8632c15f-e963-483d-b9e0-a4236c4e02ce.avif
+    asset: 8632c15f
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - chip
+    - model-logo
+    - pill
+    - size-label

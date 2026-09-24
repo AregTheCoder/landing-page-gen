@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: MiniMax H3 Max}
+    - {kind: size-label, placement: beside, anchor: br, text: 768p}

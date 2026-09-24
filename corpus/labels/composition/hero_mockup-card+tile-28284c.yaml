@@ -1,0 +1,86 @@
+sheet: hero_mockup-card+tile-28284c
+group:
+  type: hero
+  chrome: mockup-card+tile
+fields:
+- chrome_items
+answers: hero_mockup-card+tile-28284c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c98dbf41-756c-4224-b16b-6ea77c57d3ba.webm
+    asset: c98dbf41
+    page: ai-marketing-studio--ugc-ads
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1286
+    pace: fast
+    loop: false
+    loop_seam: 0.875
+    camera: static
+    chrome:
+    - mockup-card
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/4face0e2-85b2-4878-a153-a253f88d1ecc.png
+    asset: 4face0e2
+    page: quote-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/576304d5-37dc-4387-8785-541e685f985a.png
+    asset: 576304d5
+    page: label-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/e21aa197-cb6a-4f36-a59e-fcca70e6b34b.png
+    asset: e21aa197
+    page: whatsapp-sticker-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile

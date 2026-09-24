@@ -1,0 +1,248 @@
+sheet: feature-callout_model-logo+pill-2475d3
+group:
+  type: feature-callout
+  chrome: model-logo+pill
+fields:
+- chrome_items
+answers: feature-callout_model-logo+pill-2475d3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/94af3bb1-e27f-4c63-a8de-c78698b69ee7.avif
+    asset: 94af3bb1
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/99f1e8c9-6b89-4354-a602-dde17247d5f1.webm
+    asset: 99f1e8c9
+    page: compare-models--wan-2-7-vs-kling-3-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.0
+    motion: 0.0795
+    pace: medium
+    loop: false
+    loop_seam: 0.8
+    camera: static
+    chrome:
+    - model-logo
+    - pill
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a434e2d2-fb85-4e54-b0e1-416f4b5ce127.avif
+    asset: a434e2d2
+    page: compare-models--ideogram-3-0-flash-vs-flux-2-pro
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a79dfb9e-1998-43eb-981f-4baad4ded099.webm
+    asset: a79dfb9e
+    page: compare-models--kling-vs-runway
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 3.8
+    motion: 0.139
+    pace: fast
+    loop: false
+    loop_seam: 0.796
+    camera: static
+    chrome:
+    - model-logo
+    - pill
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/aa1725f5-384f-4728-b6cc-8a350672cc7f.avif
+    asset: aa1725f5
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - model-logo
+    - pill
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ad530266-8664-4a0e-bab6-8a6315c79dd9.avif
+    asset: ad530266
+    page: compare-models--nano-banana-2-vs-flux-2-pro
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b4f726ca-5e04-4f33-a920-016977d33fac.webm
+    asset: b4f726ca
+    page: compare-models--seedance-2-vs-kling-3-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 4.0
+    motion: 0.1078
+    pace: fast
+    loop: false
+    loop_seam: 0.827
+    camera: static
+    chrome:
+    - model-logo
+    - pill
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b9f1a949-8585-4b04-8c10-813aa051dbc8.webp
+    asset: b9f1a949
+    page: compare-models--gpt-image-1-5-vs-midjourney
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bbc0f909-707b-4e8a-885b-867f9c8b921a.avif
+    asset: bbc0f909
+    page: compare-models--runway-gen-4-vs-veo-3
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c15c10e5-908b-46b2-9e17-816740ce4693.webm
+    asset: c15c10e5
+    page: ai-models--kling-3-0-omni
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.1167
+    pace: fast
+    loop: false
+    loop_seam: 0.854
+    camera: static
+    chrome:
+    - model-logo
+    - pill
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c2b972f4-ae2a-4849-84f3-bd735cdb0eae.avif
+    asset: c2b972f4
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c8e0d99a-9941-4685-a751-f5d9ddf2eac3.avif
+    asset: c8e0d99a
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill

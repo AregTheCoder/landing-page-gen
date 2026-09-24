@@ -1,0 +1,27 @@
+sheet: link-grid_chip+model-logo+swatch-0d130f
+group:
+  type: link-grid
+  chrome: chip+model-logo+swatch
+fields:
+- chrome_items
+answers: link-grid_chip+model-logo+swatch-0d130f.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/3a2f62a9-4f5c-4056-80e9-6767dc0af06a.webp
+    asset: 3a2f62a9
+    page: ai-models--recraft-v4-styles-pro
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - swatch

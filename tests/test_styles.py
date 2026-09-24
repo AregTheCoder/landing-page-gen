@@ -9,17 +9,18 @@ from PIL import Image
 
 from landing_page_gen.compose.families import FAMILIES
 from landing_page_gen.corpus import attrs, cli, db, media, sectionize, similar, skeleton, styles
-from test_corpus import HERO1, fake_download_factory, hero_render, make_page
+from test_corpus import HERO1, fake_download_factory, hero_render, make_page, own_pictures
 
 KEYS = ("**Use:**", "**Slots:**", "**Signature:**", "**Ground:**", "**Grid:**", "**Template:**", "**Chrome (lp-compose):**",
         "**Panels (worker):**", "**Palette:**", "**Text:**", "**Never:**", "**Examples:**")
 ASSET_ID = re.compile(r"\b[0-9a-f]{8}\b")
 
 
-def build(tmp_path, slugs):
+def build(tmp_path, slugs, own=()):
     con = db.connect(tmp_path / "c.db")
     for slug in slugs:
-        sectionize.sectionize_page(make_page(tmp_path / "pages", slug, hero_render()), con, log=lambda m: None)
+        d = make_page(tmp_path / "pages", slug, hero_render())
+        sectionize.sectionize_page(own_pictures(d, slug) if slug in own else d, con, log=lambda m: None)
     return con
 
 
@@ -133,7 +134,7 @@ def test_apply_survives_reindex_and_skeleton_shows_style(tmp_path):
 
 
 def test_similar_prefers_style_then_falls_back(tmp_path, monkeypatch):
-    con = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"])
+    con = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"], own=["manga-maker"])
     con.execute("""UPDATE media SET style = 'full-bleed' WHERE src = ? AND section_id IN
                    (SELECT s.id FROM sections s JOIN pages p ON p.id = s.page_id WHERE p.slug = 'storyboard-generator')""", (HERO1,))
     con.commit()

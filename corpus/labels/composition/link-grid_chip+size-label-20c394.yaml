@@ -1,0 +1,44 @@
+sheet: link-grid_chip+size-label-20c394
+group:
+  type: link-grid
+  chrome: chip+size-label
+fields:
+- chrome_items
+answers: link-grid_chip+size-label-20c394.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0016b432-a78b-4ff5-83d4-a5edb9e9824f.png
+    asset: 0016b432
+    page: ai-font-generator
+    slot: S11-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - chip
+    - size-label
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/d6c2f547-5702-4ea4-8753-6cc197bda911.png
+    asset: d6c2f547
+    page: background-tools
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - chip
+    - size-label

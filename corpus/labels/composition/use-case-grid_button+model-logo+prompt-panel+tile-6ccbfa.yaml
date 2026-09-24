@@ -1,0 +1,28 @@
+sheet: use-case-grid_button+model-logo+prompt-panel+tile-6ccbfa
+group:
+  type: use-case-grid
+  chrome: button+model-logo+prompt-panel+tile
+fields:
+- chrome_items
+answers: use-case-grid_button+model-logo+prompt-panel+tile-6ccbfa.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f01022a0-6703-4df8-a068-ec25d0dce4a0.webp
+    asset: f01022a0
+    page: ai-models--sora
+    slot: S04-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel
+    - tile

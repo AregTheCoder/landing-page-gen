@@ -1,0 +1,4 @@
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl, state: {active: 2}, text: The set}
+    - {kind: prompt-panel, placement: beside, anchor: br}

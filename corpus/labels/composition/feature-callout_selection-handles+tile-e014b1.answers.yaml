@@ -1,0 +1,13 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: bl}
+    - {kind: tile, placement: overlay, anchor: right}
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: bottom, text: Helvetica}
+3:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: br}
+    - {kind: tile, placement: overlay, anchor: tl, text: Templates}

@@ -1,0 +1,26 @@
+sheet: feature-callout_badge+tile-b9d4c1
+group:
+  type: feature-callout
+  chrome: badge+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+tile-b9d4c1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c1276496-9670-4cef-b711-e77e11fc6369.avif
+    asset: c1276496
+    page: batch-photo-editor
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - tile

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+    - {kind: swatch, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: br, text: Aa Aa}

@@ -138,3 +138,53 @@ def test_finish_is_gone_and_migration_maps_into_the_enum():
     assert "art_style" in sheets.SEMANTIC and "finish" not in sheets.SEMANTIC
     mapped = set(label.RENAMED["finish"][1].values())
     assert mapped <= set(attrs.ENUMS["art_style"]), "every migrated value is a real art_style"
+
+
+# --- Part D: composition_of / device_of and the rule edits (layered overhaul) ---
+
+def test_family_rule_edits_use_the_new_fields():
+    # rule 6: a compare card measured as `split` with model-logo + pill is vs-two-up
+    assert taxonomy.family_of({"chrome": ["model-logo", "pill"], "layout": "split",
+                               "type": "feature-callout", "ground": "photo-full-bleed"})[0] == "vs-two-up"
+    # but not on a link-grid (those are model cards / thumbnails)
+    assert taxonomy.family_of({"chrome": ["model-logo", "pill"], "layout": "split",
+                               "type": "link-grid", "ground": "white"})[0] != "vs-two-up"
+    # rule 11b: a labelled beside tile on a flat single card is dark-composite...
+    assert taxonomy.family_of({"chrome": ["tile"], "chrome_items": [{"kind": "tile", "placement": "beside"}],
+                               "layout": "single", "ground": "black", "panel_count": 1, "type": "feature-callout"})[0] == "dark-composite"
+    # ...but a bare `tile` in the bag with no labelled placement does not over-fire
+    assert taxonomy.family_of({"chrome": ["tile"], "layout": "single", "ground": "black",
+                               "panel_count": 1, "type": "feature-callout"})[0] != "dark-composite"
+    # the late rule: a headline card on a flat ground with no tool chrome is template-mockup
+    assert taxonomy.family_of({"chrome": [], "chrome_items": [], "text_in_image": "headline",
+                               "ground": "solid-colour", "ui_mockup": "none", "layout": "single",
+                               "type": "gallery", "panel_count": 1})[0] == "template-mockup"
+    # a gallery headline card no longer mis-resolves to outcome-tile
+    assert taxonomy.family_of({"text_in_image": "headline", "ground": "white", "layout": "stacked",
+                               "type": "gallery", "panel_count": 1, "chrome": [], "chrome_items": []})[0] == "template-mockup"
+
+
+def test_composition_of():
+    assert taxonomy.composition_of({})[0] is None
+    assert taxonomy.composition_of({"chrome_items": []}) == ("plain", "plain", "derived")
+    beside = {"chrome_items": [{"kind": "tile", "placement": "beside"}]}
+    assert taxonomy.composition_of(beside) == ("beside", "beside:tile", "derived")
+    over = {"chrome_items": [{"kind": "adjust-panel", "placement": "overlay"}]}
+    assert taxonomy.composition_of(over)[0] == "overlaid"
+    layered = {"labelled": ["chrome_items"], "chrome_items": [
+        {"kind": "option-list", "placement": "beside"},
+        {"kind": "tile", "placement": "beside", "count": 2},
+        {"kind": "chip", "placement": "overlay"}]}
+    comp, key, source = taxonomy.composition_of(layered)
+    assert comp == "layered" and key == "beside:option-list+tile*2/overlay:chip" and source == "labelled"
+
+
+def test_device_of():
+    assert taxonomy.device_of({"chrome_items": [
+        {"kind": "option-list", "placement": "beside", "state": {"active": 1}}]}) == "model-picker"
+    assert taxonomy.device_of({"panel_count": 3, "chrome_items": [
+        {"kind": "tile", "placement": "beside"}]}) == "reference-thumbs"
+    assert taxonomy.device_of({"panel_count": 2, "chrome_items": []}) == "two-up"
+    assert taxonomy.device_of({"art_style": "photo", "ui_mockup": "none", "chrome_items": [
+        {"kind": "mockup-card", "placement": "beside"}]}) == "applied-mockup"
+    assert taxonomy.device_of({}) == "none"

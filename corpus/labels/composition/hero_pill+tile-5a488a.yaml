@@ -1,0 +1,26 @@
+sheet: hero_pill+tile-5a488a
+group:
+  type: hero
+  chrome: pill+tile
+fields:
+- chrome_items
+answers: hero_pill+tile-5a488a.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/96d42443-9234-4743-bb17-3c2a319d8ec3.png
+    asset: 96d42443
+    page: ai-sticker-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+    - tile

@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: arber.vintage}
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: selection-handles, placement: overlay, anchor: centre}

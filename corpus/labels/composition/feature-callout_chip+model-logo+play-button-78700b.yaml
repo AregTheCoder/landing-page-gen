@@ -1,0 +1,58 @@
+sheet: feature-callout_chip+model-logo+play-button-78700b
+group:
+  type: feature-callout
+  chrome: chip+model-logo+play-button
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+play-button-78700b.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/577b0d39-ffdc-43aa-9e8c-dcd4c856e001.webm
+    asset: 577b0d39
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0567
+    pace: medium
+    loop: false
+    loop_seam: 0.842
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - play-button
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/85882507-6ef1-41e0-ad99-a685037952ac.webm
+    asset: '85882507'
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.1
+    motion: 0.161
+    pace: fast
+    loop: false
+    loop_seam: 0.86
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - play-button

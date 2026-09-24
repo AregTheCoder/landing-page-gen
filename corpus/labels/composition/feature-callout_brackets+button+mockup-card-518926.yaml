@@ -1,0 +1,46 @@
+sheet: feature-callout_brackets+button+mockup-card-518926
+group:
+  type: feature-callout
+  chrome: brackets+button+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_brackets+button+mockup-card-518926.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/15abe5ad-8e67-4d05-a3cf-aa840373cbfe.webp
+    asset: 15abe5ad
+    page: ai-background
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - brackets
+    - button
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d93605b1-f35b-412e-bc17-fdbb44a4600a.avif
+    asset: d93605b1
+    page: crop-image
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - brackets
+    - button
+    - mockup-card

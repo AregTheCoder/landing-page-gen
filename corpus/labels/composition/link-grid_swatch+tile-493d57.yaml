@@ -1,0 +1,26 @@
+sheet: link-grid_swatch+tile-493d57
+group:
+  type: link-grid
+  chrome: swatch+tile
+fields:
+- chrome_items
+answers: link-grid_swatch+tile-493d57.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a8b31f78-7402-4431-9268-548a71f6ce7d.webp?type=webp&to=min&r=640
+    asset: a8b31f78
+    page: design
+    slot: S04-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile

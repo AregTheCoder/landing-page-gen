@@ -1,0 +1,103 @@
+sheet: hero_model-logo+pill+vs-badge-e4012e
+group:
+  type: hero
+  chrome: model-logo+pill+vs-badge
+fields:
+- chrome_items
+answers: hero_model-logo+pill+vs-badge-e4012e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0445e9fd-ed1a-42be-abf4-95ac6618b1cc.avif
+    asset: 0445e9fd
+    page: compare-models--nano-banana-2-vs-flux-2-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/17a4193e-2862-4b15-aa52-3f6c78fcb82a.avif
+    asset: 17a4193e
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/42c2618b-d6b7-496c-973a-5da761fa9fb9.avif
+    asset: 42c2618b
+    page: compare-models--recraft-v4-vs-midjourney
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a64e65b8-c4cd-4ed6-815a-cff15b14f57c.avif
+    asset: a64e65b8
+    page: compare-models--recraft-v4-vs-ideogram-3-0-flash
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c2b8b586-ce8a-4ab9-b42e-fcc41e7377f6.avif
+    asset: c2b8b586
+    page: compare-models--flux-2-pro-vs-midjourney
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge

@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: "Approve & Start"}
+    - {kind: button, placement: beside, anchor: br, text: "View on Store"}
+    - {kind: chip, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "Deep House|Electronic|Pop|Hip Hop"}
+    - {kind: button, placement: beside, anchor: bl}
+    - {kind: button, placement: overlay, anchor: bottom}

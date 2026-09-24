@@ -1,0 +1,26 @@
+sheet: feature-callout_cursor+tile-cf03bb
+group:
+  type: feature-callout
+  chrome: cursor+tile
+fields:
+- chrome_items
+answers: feature-callout_cursor+tile-cf03bb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b1482f9a-3cfa-45e2-a23b-eff12e9210c8.avif
+    asset: b1482f9a
+    page: remove-object-from-photo
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor
+    - tile

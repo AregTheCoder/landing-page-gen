@@ -1,0 +1,42 @@
+sheet: use-case-grid_tile-51a858
+group:
+  type: use-case-grid
+  chrome: tile
+fields:
+- chrome_items
+answers: use-case-grid_tile-51a858.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25de333f-97c6-47dd-821f-f50e15aeda45.avif
+    asset: 25de333f
+    page: ai-models--kling-3-0-omni
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f57c774f-f1c6-4ddf-854f-682fb1a48587.webp
+    asset: f57c774f
+    page: collage-maker
+    slot: S10-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    chrome:
+    - tile

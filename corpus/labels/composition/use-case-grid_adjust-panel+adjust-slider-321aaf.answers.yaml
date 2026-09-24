@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: br, text: HSL}
+    - {kind: adjust-slider, placement: overlay, anchor: br, state: {value: 43}, text: Saturation}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bottom, text: HSL}
+    - {kind: adjust-slider, placement: overlay, anchor: bottom, state: {value: 30}, text: Lightness}

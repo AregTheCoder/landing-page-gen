@@ -1,0 +1,128 @@
+sheet: hero_chip-925e73
+group:
+  type: hero
+  chrome: chip
+fields:
+- chrome_items
+answers: hero_chip-925e73.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/24093b6f-1605-42a5-9f16-e51595f73359.webp
+    asset: 24093b6f
+    page: ai-models--qwen-2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/35b5e9f3-ea8d-4d36-ab46-bee5d4c81619.png
+    asset: 35b5e9f3
+    page: meme-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - chip
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/35f88210-ff71-4b9a-ae17-501b16579a9c.webm
+    asset: 35f88210
+    page: video-background-remover
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.75
+    motion: 0.06
+    pace: medium
+    loop: true
+    loop_seam: 0.92
+    camera: static
+    chrome:
+    - chip
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6a2d7c88-efb3-4ed5-a44c-895d79002c5d.webm
+    asset: 6a2d7c88
+    page: ai-models--wan-2-7
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.97
+    motion: 0.1329
+    pace: fast
+    loop: false
+    loop_seam: 0.805
+    camera: static
+    chrome:
+    - chip
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/83b2e3d3-06de-46b3-b1f6-7be311c1b930.webm
+    asset: 83b2e3d3
+    page: video-ad-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.03
+    motion: 0.053
+    pace: medium
+    loop: true
+    loop_seam: 1.0
+    camera: static
+    chrome:
+    - chip
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cb73d459-7461-4b2e-a9cc-039708276924.webp
+    asset: cb73d459
+    page: virtual-try-on-clothes
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - chip

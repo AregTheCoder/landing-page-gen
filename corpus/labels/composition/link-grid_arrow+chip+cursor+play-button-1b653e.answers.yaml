@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: left}
+    - {kind: cursor, placement: beside, anchor: right}
+    - {kind: cursor, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: right, text: Love it!}
+    - {kind: play-button, placement: overlay, anchor: centre}

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: play-button, placement: overlay, anchor: centre}

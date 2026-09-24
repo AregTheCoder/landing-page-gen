@@ -1,0 +1,28 @@
+sheet: link-grid_chip+model-logo+tile+vs-badge-a0e3b3
+group:
+  type: link-grid
+  chrome: chip+model-logo+tile+vs-badge
+fields:
+- chrome_items
+answers: link-grid_chip+model-logo+tile+vs-badge-a0e3b3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cfcfb357-0b12-47f5-8e78-e4e65168c6db.webp?type=webp&to=min&r=640
+    asset: cfcfb357
+    page: compare-models
+    slot: S02-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+    - vs-badge

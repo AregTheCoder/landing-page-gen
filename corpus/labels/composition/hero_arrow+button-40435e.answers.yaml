@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: left}
+    - {kind: button, placement: overlay, anchor: tr}

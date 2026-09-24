@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: br, count: 3, state: {active: 2}}
+3:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: bl}
+4:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: bl}
+5:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: bl}
+6:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: bl, count: 3}

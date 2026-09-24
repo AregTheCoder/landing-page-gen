@@ -1,0 +1,9 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: fx}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, count: 2, text: Aa|Aa}

@@ -1,0 +1,284 @@
+sheet: feature-callout_button-f5a94b
+group:
+  type: feature-callout
+  chrome: button
+fields:
+- chrome_items
+answers: feature-callout_button-f5a94b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/81c40024-91f3-4ddb-8260-9476aec6f5ff.webm
+    asset: 81c40024
+    page: text-to-video-ai
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.43
+    motion: 0.0251
+    pace: slow
+    loop: true
+    loop_seam: 0.955
+    camera: static
+    chrome:
+    - button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/88acfa64-e3f5-425a-86ad-968126383bc4.webm
+    asset: 88acfa64
+    page: ai-video-filters
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.9
+    motion: 0.1151
+    pace: fast
+    loop: false
+    loop_seam: 0.748
+    camera: static
+    chrome:
+    - button
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/896831e1-d7d7-4261-9987-3a13aecad57d.webm
+    asset: 896831e1
+    page: add-text-to-video
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.23
+    motion: 0.1798
+    pace: fast
+    loop: false
+    loop_seam: 0.772
+    camera: static
+    chrome:
+    - button
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8988a91f-b7fa-4fa5-8347-b22ab21e4a9d.webm
+    asset: 8988a91f
+    page: ai-content-generator
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.03
+    motion: 0.0764
+    pace: medium
+    loop: false
+    loop_seam: 0.785
+    camera: static
+    chrome:
+    - button
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8c4ba4d3-8de0-4a59-a850-6149e8baa908.webm
+    asset: 8c4ba4d3
+    page: ai-models--seedance-1-pro-fast
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.1
+    motion: 0.1064
+    pace: fast
+    loop: false
+    loop_seam: 0.777
+    camera: static
+    chrome:
+    - button
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/92e48aaf-8dd4-4e05-9723-537b07c2ac42.webm
+    asset: 92e48aaf
+    page: background-remover--png-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.43
+    motion: 0.2819
+    pace: fast
+    loop: false
+    loop_seam: 0.822
+    camera: static
+    chrome:
+    - button
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/939c003d-ee5c-47e8-8d57-cc39d95f542e.webm
+    asset: 939c003d
+    page: print--1-hour-photo
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.5
+    motion: 0.2717
+    pace: fast
+    loop: false
+    loop_seam: 0.737
+    camera: static
+    chrome:
+    - button
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/96af8011-3a73-49b8-9353-bccec84311ed.webm
+    asset: 96af8011
+    page: remove-object-from-photo
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.2
+    motion: 0.2223
+    pace: fast
+    loop: false
+    loop_seam: 0.815
+    camera: static
+    chrome:
+    - button
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/9f906cde-c283-4db6-8a6b-db69013ec4f7.webm
+    asset: 9f906cde
+    page: remove-object-from-photo--edit-text-in-image
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    duration: 12.47
+    motion: 0.2236
+    pace: fast
+    loop: false
+    loop_seam: 0.818
+    camera: static
+    chrome:
+    - button
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c182c604-fad7-44de-bcc4-09a37006c4b3.webm
+    asset: c182c604
+    page: ai-video-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.83
+    motion: 0.1753
+    pace: fast
+    loop: false
+    loop_seam: 0.595
+    camera: pull-back
+    chrome:
+    - button
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c5e70dfc-af4d-4acd-b54c-80889c1b63ae.webm
+    asset: c5e70dfc
+    page: text-to-video-ai
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.73
+    motion: 0.0114
+    pace: slow
+    loop: true
+    loop_seam: 0.973
+    camera: static
+    chrome:
+    - button
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c87dbde2-b0a9-4d5f-ab3c-2e9d0d4184a5.webm
+    asset: c87dbde2
+    page: persona
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.08
+    motion: 0.083
+    pace: medium
+    loop: true
+    loop_seam: 0.909
+    camera: static
+    chrome:
+    - button

@@ -1,0 +1,71 @@
+sheet: hero_chip+model-logo+tile-5b4157
+group:
+  type: hero
+  chrome: chip+model-logo+tile
+fields:
+- chrome_items
+answers: hero_chip+model-logo+tile-5b4157.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6abca0d5-9249-4917-b216-bb928d22ae10.webm
+    asset: 6abca0d5
+    page: ai-models--kling
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.9
+    motion: 0.0635
+    pace: medium
+    loop: true
+    loop_seam: 0.91
+    camera: pull-back
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/77ab8453-45fa-42d1-a792-960a85696316.avif
+    asset: 77ab8453
+    page: ai-models--flux-2-klein-4b
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/86f73fc9-6ff2-49a9-adf7-e74b44a246c1.avif
+    asset: 86f73fc9
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - tile

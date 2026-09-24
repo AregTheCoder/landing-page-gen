@@ -1,0 +1,27 @@
+sheet: link-grid_mockup-card+play-button+prompt-panel-528874
+group:
+  type: link-grid
+  chrome: mockup-card+play-button+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_mockup-card+play-button+prompt-panel-528874.answers.yaml
+cells:
+  1:
+    src: https://cdnblog.picsart.com/2023/07/Hero-banner-1600x1000-1.png
+    asset: Hero-ban
+    page: ai-photo-editing
+    slot: S17-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button
+    - prompt-panel

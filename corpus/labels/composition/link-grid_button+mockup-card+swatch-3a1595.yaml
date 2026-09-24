@@ -1,0 +1,27 @@
+sheet: link-grid_button+mockup-card+swatch-3a1595
+group:
+  type: link-grid
+  chrome: button+mockup-card+swatch
+fields:
+- chrome_items
+answers: link-grid_button+mockup-card+swatch-3a1595.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1dc978f6-adb7-4837-b789-19c2d65e9b71.webp?type=webp&to=min&r=640
+    asset: 1dc978f6
+    page: image-tools
+    slot: S07-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - swatch

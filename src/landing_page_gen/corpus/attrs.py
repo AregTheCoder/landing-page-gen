@@ -12,12 +12,14 @@ role fixes into the media table after every re-index."""
 import datetime
 import json
 import multiprocessing
+import shutil
 from pathlib import Path
 
 import yaml
 
 from . import db, measure, media, sectionize, styles, taxonomy
-from .similar import FrameGrabber
+from . import motion
+from .similar import FrameGrabber, to_png
 
 ATTRIBUTES_YAML = Path("corpus/attributes.yaml")
 FRAMES_DIR = Path("corpus/frames")
@@ -26,7 +28,31 @@ CHECKPOINT = 100
 # in one piece, and a 188 MB clip takes the browser down with it
 MAX_LOCAL_VIDEO = 32 * 1024 * 1024
 FRAME_DEADLINE = 25  # seconds per video before Chromium is assumed hung
+POSTER_SUFFIXES = (".png", ".jpg", ".jpeg", ".webp", ".avif", ".gif")
 FRAME_CHUNK = 8      # videos per child process
+
+# Every chrome kind the corpus can carry. The first 18 are the original bag;
+# the rest name recurring layered controls the bag could not distinguish
+# (mined from the descriptions: option lists, tab rows, waveforms, timelines,
+# dropdowns, step chips, toggles) plus a few the catalogue anticipates
+# (volume, colour-picker, progress, loupe, crop-grid). The old `slider` is split
+# into `adjust-slider` (a tool track with a knob) and `compare-handle` (a
+# before/after divider) — `label.migrate` rewrites existing data. `chrome_items`
+# (below) carries the same kinds with geometry.
+CHROME_KINDS = (
+    "tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
+    "vs-badge", "play-button", "cursor", "selection-handles", "arrow", "size-label", "swatch",
+    "adjust-panel", "option-list", "tab-row", "waveform", "timeline", "dropdown", "step-chip", "toggle",
+    "volume", "colour-picker", "progress", "loupe", "crop-grid", "adjust-slider", "compare-handle",
+)
+# Where a chrome item sits, and the vocab `chrome_items` states are validated against.
+CHROME_PLACEMENTS = ("overlay", "beside")
+CHROME_ANCHORS = ("tl", "tr", "bl", "br", "top", "bottom", "left", "right", "centre")
+CHROME_STATE_KEYS = ("active", "on", "value")
+# the Picsart tool a tile or icon shows (compose/assets/roles.yaml `tools:`, pinned by tests/test_roles.py),
+# the one purpose a tile's kind and text leave open
+CHROME_TOOLS = ("enhance", "upscale", "remove-bg", "change-bg", "vectorize", "edit", "generate", "crop", "adjust",
+                "video", "video-enhance", "voice", "calculator", "other", "music")
 
 # field -> (enum values, or a JSON type name; one-line definition the model reads)
 FIELDS = {
@@ -37,17 +63,27 @@ FIELDS = {
                "column-main = a narrow column of small items beside one main panel; grid = 3+ equal cells; "
                "stacked = panels one above the other; overlay = a card or cutout laid over a picture or ground"),
     "panel_count": ("integer", "number of rounded picture areas (photos, renders, cutouts), 0 to 8; chrome does not count"),
-    "chrome": (("tile", "pill", "chip", "brackets", "badge", "button", "prompt-panel", "mockup-card", "model-logo",
-                "vs-badge", "play-button", "cursor", "selection-handles", "slider", "arrow", "size-label", "swatch",
-                "adjust-panel"),
+    "chrome": (CHROME_KINDS,
                "every non-photo element present: tile = black square with a white line icon; pill = rounded label over a "
                "photo; chip = small dark or white label; brackets = white L corners marking a crop; badge = small "
                "coloured square with a check; button = solid rounded call-to-action; prompt-panel = dark card with "
                "prompt text and a Generate button; mockup-card = a fake app, profile, product or template card; "
                "model-logo = a third-party model mark; vs-badge = a round VS mark; play-button = a triangle over a "
-               "still; cursor and selection-handles = editor furniture; slider = a labelled track with a knob (an adjustment "
-               "control) or a before/after handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
-               "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values)"),
+               "still; cursor and selection-handles = editor furniture; adjust-slider = a labelled track with a knob (a "
+               "tool control); compare-handle = a before/after divider handle; arrow; size-label = a pixel size or format string; swatch = a colour or "
+               "gradient sample tile; adjust-panel = a dark rounded tool panel laid over the photo (chip row, sliders, values); "
+               "option-list = a list of choices with one highlighted (a model or style picker); tab-row = a row of tabs, "
+               "one active; waveform = an audio waveform strip; timeline = a video scrubber or timeline; dropdown = a "
+               "closed menu control; step-chip = a numbered step marker (1, 2, 3); toggle = an on/off switch; volume = a "
+               "speaker icon with a level; colour-picker = a colour wheel or eyedropper with a hex; progress = a loading "
+               "bar or 'Generating…' state; loupe = a magnified detail inset; crop-grid = a 3x3 rule-of-thirds crop grid"),
+    "chrome_items": ("items",
+                     "the same chrome as a list, one entry per element, each {kind (from the chrome vocabulary), "
+                     "placement: overlay (drawn on a picture) | beside (on the ground next to it), optional anchor "
+                     "(tl tr bl br top bottom left right centre), optional count (>=1), optional state {active, on, "
+                     "value}, optional text (<=40 chars, `|`-joined when count>1), optional tool (a tile or icon: the "
+                     "Picsart tool its glyph shows)}; the plain `chrome` bag is the set "
+                     "of the kinds here"),
     "text_in_image": (("none", "labels-only", "headline", "body"),
                       "none; labels-only = only short labels on chrome; headline = a designed headline or slogan "
                       "inside a picture or card; body = sentences of readable text"),
@@ -68,13 +104,31 @@ FIELDS = {
     "description": ("string", "one line, at most 20 words, what a designer would call this image"),
     "family_hint": (tuple(db.STYLES) + ("other",), "your best guess at the style family described below, or other"),
     "confidence": ("number", "0 to 1, how sure you are of the family hint"),
+    # video only; measured by `motion` from five sampled frames, except the two the sheets ask
+    "duration": ("number", "seconds, the clip's length"),
+    "motion": ("number", "0 to 1, how much the picture changes between sampled frames"),
+    "pace": (("still", "slow", "medium", "fast"), "how fast the clip moves overall"),
+    "loop": ("boolean", "true when the last frame returns to the first"),
+    "loop_seam": ("number", "0 to 1, similarity of the last frame to the first"),
+    "camera": (("static", "push-in", "pull-back", "pan", "tilt", "orbit", "handheld"),
+               "what the camera does across the clip: static = the frame holds and only the subject moves; "
+               "push-in / pull-back = zoom toward or away; pan = sideways sweep; tilt = up or down; "
+               "orbit = the camera circles the subject; handheld = small irregular drift"),
+    "motion_kind": (("subject-motion", "camera-move", "ui-demo", "cut-montage", "transition", "ambient"),
+                    "what kind of clip it is: subject-motion = one scene, the subject moves (a blink, a turn, "
+                    "hair, cloth); camera-move = one scene, the camera is the motion; ui-demo = a product "
+                    "interface being used (cursor, panels, sliders); cut-montage = several shots cut together; "
+                    "transition = one picture becomes another (wipe, morph, before-to-after); ambient = a "
+                    "near-still scene with light, particles or water drifting"),
 }
 ENUMS = {k: v[0] for k, v in FIELDS.items() if isinstance(v[0], tuple)}
+VIDEO_MEASURED = ("duration",) + motion.FIELDS
+VIDEO_SEMANTIC = ("motion_kind", "camera")   # asked on a video's sheet; `camera` only when the pixels left it open
 
 
 MEASURED = measure.FIELDS
 PROVENANCE = ("source", "labelled", "sheet", "at", "page", "slot", "type", "page_family", "kind", "size",
-              "aspect_class", "n_rows", "n_pages", "role", "local", "seam")
+              "aspect_class", "n_rows", "n_pages", "role", "local", "seam", "duration")
 
 
 def load(path=ATTRIBUTES_YAML):
@@ -137,6 +191,7 @@ def candidates(con, mapping, roles=db.GENERATED_ROLES, kinds=("image", "video"),
             "src": src, "local_path": best["local_path"], "kind": best["kind"], "role": best["role"], "alt": best["alt"],
             "slot": best["slot_id"], "page": best["slug"], "page_family": best["page_family"], "type": best["type"],
             "width": best["width"], "height": best["height"], "aspect": best["aspect"], "duration": best["duration"],
+            "poster": best["poster"],
             "aspect_class": sectionize.aspect_class(best["width"], best["height"]),
             "size": sectionize.size_class(best["width"], best["height"]) or "card",
             "n_rows": len(rec["rows"]), "n_pages": len(rec["pages"]), "types": sorted(rec["types"]),
@@ -151,20 +206,61 @@ def asset_id(src):
     return stem[:8]
 
 
-def frame_for(rec, frames_dir, grabber):
-    """The poster frame of a video, grabbed once and cached."""
-    frames_dir = Path(frames_dir)
-    frames_dir.mkdir(parents=True, exist_ok=True)
+def frame_stem(rec):
+    """How a video's cached frames are named: its local file's stem, else its asset id."""
+    local = rec.get("local_path") or rec.get("local")
+    return Path(local).stem if local else asset_id(rec["src"])
+
+
+def video_source(rec):
+    """The local clip when it is there and small enough to route to Chromium, else the CDN URL."""
     local = rec.get("local_path")
     path = Path(local) if local else None
     usable = path is not None and path.exists() and path.stat().st_size <= MAX_LOCAL_VIDEO
-    src = path if usable else rec["src"]
-    png = frames_dir / f"{Path(local).stem if local else asset_id(rec['src'])}.png"
-    if not png.exists():
-        if grabber is None:
-            raise RuntimeError("frame not cached; run the pass again")
-        grabber.grab(src, png, at=1.0)
+    return path if usable else rec["src"]
+
+
+def local_poster(rec):
+    """The snapshot's copy of the video's designer poster, when the page shipped
+    one and `media` downloaded it beside the clip; else None."""
+    if not rec.get("poster") or not rec.get("local_path"):
+        return None
+    path = Path(rec["local_path"]).parent / media.local_name(rec["poster"])
+    # wan-3-0's pages point `poster` at a second webm; only a picture is a poster
+    return path if path.exists() and path.suffix.lower() in POSTER_SUFFIXES else None
+
+
+def frame_for(rec, frames_dir, grabber, refresh=False):
+    """The poster frame of a video, cached once: the page's own poster when the
+    snapshot has it (the frame a designer chose), else a still grabbed at 1 s.
+    `refresh` rebuilds a cached frame (a re-measure)."""
+    frames_dir = Path(frames_dir)
+    frames_dir.mkdir(parents=True, exist_ok=True)
+    png = frames_dir / f"{frame_stem(rec)}.png"
+    if png.exists() and not refresh:
+        return png
+    poster = local_poster(rec)
+    if poster is not None:
+        tmp = png.with_name(f"{png.stem}-poster{poster.suffix.lower()}")
+        shutil.copyfile(poster, tmp)
+        to_png(tmp, max_px=1280).rename(png)  # re-encoded by content: posters arrive as AVIF/WebP too
+        return png
+    if grabber is None:
+        raise RuntimeError("frame not cached; run the pass again")
+    grabber.grab(video_source(rec), png, at=1.0)
     return png
+
+
+def motion_for(rec, frames_dir, grabber):
+    """The measured motion fields of a video from its five cached sample frames
+    (grabbed when missing). {} when the frames are not there and cannot be got."""
+    stem = frame_stem(rec)
+    paths = motion.frame_paths(frames_dir, stem)
+    if not all(p.exists() for p in paths):
+        if grabber is None:
+            return {}
+        motion.probe(video_source(rec), grabber, frames_dir, stem, rec.get("duration"))
+    return motion.measure(paths)
 
 
 def picture(rec, frames_dir=FRAMES_DIR, grabber=None):
@@ -192,18 +288,19 @@ def picture(rec, frames_dir=FRAMES_DIR, grabber=None):
     return path, str(path)
 
 
-def grab_chunk(videos, frames_dir):
-    """Cache a few videos' frames in one browser. Runs in a child process;
-    every argument has to stay picklable."""
+def grab_chunk(videos, frames_dir, refresh=False):
+    """Cache a few videos' frames (the poster and the five motion samples) in
+    one browser. Runs in a child process; every argument has to stay picklable."""
     with FrameGrabber() as g:
         for rec in videos:
             try:
-                frame_for(rec, frames_dir, g)
+                frame_for(rec, frames_dir, g, refresh)
+                motion_for(rec, frames_dir, g)
             except Exception as exc:
                 print(f"  frame {rec['page']} {rec['slot']}: {exc!r}", flush=True)
 
 
-def grab_frames(videos, frames_dir, grabber=None, log=print, deadline=FRAME_DEADLINE, chunk=FRAME_CHUNK):
+def grab_frames(videos, frames_dir, grabber=None, log=print, deadline=FRAME_DEADLINE, chunk=FRAME_CHUNK, refresh=False):
     """Cache one poster frame per video. Serially, in child processes of a few
     videos each: Playwright is not thread safe, and one clip in a few hundred
     hangs Chromium in a way no in-process timeout can interrupt, so the child
@@ -213,14 +310,15 @@ def grab_frames(videos, frames_dir, grabber=None, log=print, deadline=FRAME_DEAD
     if grabber is not None:
         for rec in videos:
             try:
-                frame_for(rec, frames_dir, grabber)
+                frame_for(rec, frames_dir, grabber, refresh)
+                motion_for(rec, frames_dir, grabber)
             except Exception as exc:
                 log(f"  frame {rec['page']} {rec['slot']}: {exc!r}")
         return
     ctx = multiprocessing.get_context("spawn")
     for i in range(0, len(videos), chunk):
         part = videos[i:i + chunk]
-        proc = ctx.Process(target=grab_chunk, args=(part, str(frames_dir)))
+        proc = ctx.Process(target=grab_chunk, args=(part, str(frames_dir), refresh))
         proc.start()
         proc.join(deadline * len(part))
         if proc.is_alive():
@@ -233,6 +331,8 @@ def grab_frames(videos, frames_dir, grabber=None, log=print, deadline=FRAME_DEAD
 def record(rec, data, shown, source="measured"):
     """The yaml value: the measured (or answered) fields plus provenance."""
     out = dict(data)
+    if rec["kind"] == "video" and rec.get("duration"):
+        out["duration"] = rec["duration"]  # a video's length is a fact of the asset, like its size
     out.update({"source": source, "at": datetime.date.today().isoformat(),
                 "page": rec["page"], "slot": rec["slot"], "type": rec["type"], "page_family": rec["page_family"],
                 "kind": rec["kind"], "size": rec["size"], "aspect_class": rec["aspect_class"],
@@ -276,13 +376,15 @@ def run(con, limit=None, force=False, roles=None, kinds=("image", "video"), type
         return mapping, stats
     videos = [r for r in todo if r["kind"] == "video"]
     if videos:
-        grab_frames(videos, frames_dir, grabber, log)
+        grab_frames(videos, frames_dir, grabber, log, refresh=force)  # --force also rebuilds the poster frames
     for i, rec in enumerate(todo, 1):
         path_or_none, shown = picture(rec, frames_dir, None)
         data = None
         if path_or_none is not None:
             try:
                 data = measure.measure(path_or_none, rec.get("alt"))
+                if rec["kind"] == "video":
+                    data.update(motion_for(rec, frames_dir, None))  # frames were cached by grab_frames
             except Exception as exc:  # one unreadable file must not stop the pass
                 shown = f"measure: {exc!r}"
         if data is None:
@@ -305,6 +407,27 @@ def run(con, limit=None, force=False, roles=None, kinds=("image", "video"), type
     return mapping, stats
 
 
+def backfill_motion(mapping, clips, frames_dir=FRAMES_DIR, grabber=None, limit=None, force=False, log=print,
+                    deadline=FRAME_DEADLINE, chunk=FRAME_CHUNK):
+    """Measure the motion fields of the video records that lack them (the
+    poster-only records of earlier passes), grabbing the sample frames the way
+    `run` does. `clips` maps src -> the snapshot's local clip (from the DB; a
+    yaml record's `local` is its poster PNG). Returns (records changed, stats)."""
+    todo = [(src, rec) for src, rec in mapping.items()
+            if rec.get("kind") == "video" and (force or rec.get("pace") is None)][:limit]
+    videos = [{**rec, "src": src, "local_path": clips.get(src)} for src, rec in todo]
+    grab_frames(videos, frames_dir, grabber, log, deadline, chunk)
+    changed, skipped = {}, []
+    for (src, rec), v in zip(todo, videos):
+        fields = motion_for(v, frames_dir, None)
+        if fields:
+            rec.update(fields)
+            changed[src] = rec
+        else:
+            skipped.append(src)
+    return changed, {"todo": len(todo), "measured": len(changed), "skipped": skipped}
+
+
 def apply(con, mapping):
     """Mirror attributes into media.attrs (JSON, with the derived variant),
     the derived family into media.style and role fixes into media.role, for
@@ -314,6 +437,9 @@ def apply(con, mapping):
         style, variant = taxonomy.family_of(rec)
         fields = {k: rec.get(k) for k in FIELDS if k in rec}
         fields["variant"] = variant
+        comp, comp_key, _ = taxonomy.composition_of(rec)
+        fields["composition"] = comp
+        fields["composition_key"] = comp_key
         fields["source"] = rec.get("source")  # measured | sheet: the skeleton's `> attrs:` line shows it
         con.execute("UPDATE media SET attrs = ?, style = ? WHERE src = ?", (json.dumps(fields), style, src))
         role = taxonomy.role_fix(rec)

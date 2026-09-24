@@ -1,0 +1,113 @@
+sheet: feature-callout_chip+size-label-ac4a3b
+group:
+  type: feature-callout
+  chrome: chip+size-label
+fields:
+- chrome_items
+answers: feature-callout_chip+size-label-ac4a3b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/076c3b32-9d2d-4ed2-acd8-76c17d579c55.webm
+    asset: 076c3b32
+    page: video-studio--video-speed
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0744
+    pace: medium
+    loop: true
+    loop_seam: 0.908
+    camera: static
+    chrome:
+    - chip
+    - size-label
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a6439ac4-c803-4339-be4a-f96469e3c736.avif
+    asset: a6439ac4
+    page: ai-models--gpt-2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - size-label
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/a17cb6cd-61cf-4469-b066-07140633fe96.png
+    asset: a17cb6cd
+    page: brighten-images
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - size-label
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/2a97f141-2612-49b4-8a49-efef03a4e3fe.webm
+    asset: 2a97f141
+    page: ai-video-upscaler
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1231
+    pace: fast
+    loop: false
+    loop_seam: 0.827
+    camera: static
+    chrome:
+    - chip
+    - size-label
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/aafb4ab1-4002-40a5-8eff-c414a2381b7c.webm
+    asset: aafb4ab1
+    page: ai-video-upscaler
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.2159
+    pace: fast
+    loop: false
+    loop_seam: 0.775
+    camera: static
+    chrome:
+    - chip
+    - size-label

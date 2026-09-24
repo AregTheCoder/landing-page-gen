@@ -1,0 +1,34 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: INDIGO HART WEB DEVELOPER}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: EDUCATION}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: COMPETENCIES}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: EXCLUSIVE GIVEAWAY}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 6}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+    - {kind: mockup-card, placement: beside, anchor: right, text: Thank You}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+    - {kind: mockup-card, placement: beside, anchor: right, text: The Three Loafs}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: "Ski & Snowboard"}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: THANKSGIVING BINGO CHALLENGE}
+    - {kind: mockup-card, placement: beside, anchor: left, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right, count: 2}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: Creative Writing Class}

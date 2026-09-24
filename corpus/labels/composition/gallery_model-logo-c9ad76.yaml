@@ -1,0 +1,120 @@
+sheet: gallery_model-logo-c9ad76
+group:
+  type: gallery
+  chrome: model-logo
+fields:
+- chrome_items
+answers: gallery_model-logo-c9ad76.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2a0afc16-37c6-4bc4-bce2-16870f021228.webp
+    asset: 2a0afc16
+    page: ad-maker
+    slot: S09-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d4dd441b-2db7-432d-80b2-b56f7b8d65f4.webp
+    asset: d4dd441b
+    page: ai-image-extender
+    slot: S02-m2
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d4f982aa-b920-427a-9449-18b71e12b860.webp
+    asset: d4f982aa
+    page: ad-maker
+    slot: S09-m3
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d9e6a6e9-da49-42a4-8c85-0d1ac7dff763.webp
+    asset: d9e6a6e9
+    page: ad-maker
+    slot: S09-m1
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dff3943a-43d6-4768-90a6-08a96545ecf7.webp
+    asset: dff3943a
+    page: ai-image-extender
+    slot: S02-m4
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e79e82fe-5f5f-4fb5-8cc6-2e8db842131e.webp
+    asset: e79e82fe
+    page: ad-maker
+    slot: S09-m7
+    type: gallery
+    size: tile
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo
+  7:
+    src: https://cdn130.picsart.com/09802469177636365765.png
+    asset: 09802469
+    page: add-stickers-to-photos
+    slot: S07-m1
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    layout: single
+    panel_count: 0
+    before_after: false
+    chrome:
+    - model-logo

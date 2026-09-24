@@ -1,0 +1,26 @@
+sheet: feature-callout_compare-handle+pill-2014e8
+group:
+  type: feature-callout
+  chrome: compare-handle+pill
+fields:
+- chrome_items
+answers: feature-callout_compare-handle+pill-2014e8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0a547321-9bb9-4e67-8387-0868fd3f1ee1.webp
+    asset: 0a547321
+    page: image-enlarger
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - pill

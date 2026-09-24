@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl}
+    - {kind: adjust-slider, placement: overlay, anchor: bl, count: 3, text: Saturation|Brightness|Contrast}
+    - {kind: chip, placement: overlay, anchor: centre, count: 3, text: NOISE|PLRD|HDR}

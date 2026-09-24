@@ -1,0 +1,28 @@
+sheet: feature-callout_button+mockup-card+play-button+tile-36ae16
+group:
+  type: feature-callout
+  chrome: button+mockup-card+play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+play-button+tile-36ae16.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0bca7cf8-f5ed-4b6f-93bf-beb9d7473dde.png
+    asset: 0bca7cf8
+    page: social-media-ad-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - play-button
+    - tile

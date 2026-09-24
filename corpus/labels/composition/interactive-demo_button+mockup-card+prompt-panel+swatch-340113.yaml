@@ -1,0 +1,28 @@
+sheet: interactive-demo_button+mockup-card+prompt-panel+swatch-340113
+group:
+  type: interactive-demo
+  chrome: button+mockup-card+prompt-panel+swatch
+fields:
+- chrome_items
+answers: interactive-demo_button+mockup-card+prompt-panel+swatch-340113.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39884e5e-010c-4afe-bd8e-3154d79c54f5.png
+    asset: 39884e5e
+    page: ad-maker
+    slot: S04-m1
+    type: interactive-demo
+    size: card
+    aspect_class: '4:3'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+    - swatch

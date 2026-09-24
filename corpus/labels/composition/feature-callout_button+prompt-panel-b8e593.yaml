@@ -1,0 +1,247 @@
+sheet: feature-callout_button+prompt-panel-b8e593
+group:
+  type: feature-callout
+  chrome: button+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+prompt-panel-b8e593.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/081fcfeb-e376-43d6-b306-01b388bc3d98.webp
+    asset: 081fcfeb
+    page: gpt-image-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0f69dc29-436f-4321-8163-55959c4aa501.webp
+    asset: 0f69dc29
+    page: ai-poster-generator
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/155f1332-eaaa-47b4-9462-71beda3a5161.avif
+    asset: 155f1332
+    page: ai-photo-editing
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1a7926b5-1692-4d1b-b266-9819ca86c993.webm
+    asset: 1a7926b5
+    page: ai-marketing-studio--ugc-ads
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1401
+    pace: fast
+    loop: false
+    loop_seam: 0.863
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/23038214-7595-418f-9e2a-d604cff69e6b.avif
+    asset: '23038214'
+    page: ai-photo-editing
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3a3af4d7-f0c3-4040-a2d3-a68694b55e1a.webp
+    asset: 3a3af4d7
+    page: ai-poster-generator
+    slot: S10-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3e840630-d86c-4265-9c04-9471bd3eb013.avif
+    asset: 3e840630
+    page: ai-design-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3ef1c177-5306-47e2-a873-6863add7b839.webp
+    asset: 3ef1c177
+    page: ai-template-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/45cd0723-6d6c-48f4-b24a-507665603213.webp
+    asset: 45cd0723
+    page: ai-video-avatar
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6a358662-aa7d-469f-b00d-8104119570ef.webm
+    asset: 6a358662
+    page: ai-models--async-flash-v1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 8
+    n_pages: 8
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.93
+    motion: 0.0608
+    pace: medium
+    loop: true
+    loop_seam: 0.918
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6d6d8822-df0d-4636-b369-21ed5a45c4e3.webm
+    asset: 6d6d8822
+    page: sticker-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.5
+    motion: 0.1344
+    pace: fast
+    loop: false
+    loop_seam: 0.676
+    camera: static
+    chrome:
+    - button
+    - prompt-panel
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/71d5e50f-93db-4744-8bb0-35ba88bbba36.webm
+    asset: 71d5e50f
+    page: ai-models--async-flash-v1
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 7
+    n_pages: 7
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.93
+    motion: 0.0757
+    pace: medium
+    loop: false
+    loop_seam: 0.899
+    camera: static
+    chrome:
+    - button
+    - prompt-panel

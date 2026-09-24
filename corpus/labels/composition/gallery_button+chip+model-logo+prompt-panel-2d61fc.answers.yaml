@@ -1,0 +1,6 @@
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: model-logo, placement: beside, anchor: bl, text: Luma}
+    - {kind: chip, placement: beside, anchor: right, count: 5, state: {active: 2}}

@@ -1,0 +1,32 @@
+sheet: feature-callout_button+size-label-14508f
+group:
+  type: feature-callout
+  chrome: button+size-label
+fields:
+- chrome_items
+answers: feature-callout_button+size-label-14508f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f31cc9a7-83f4-4b02-ae5f-8de536ee6066.webm
+    asset: f31cc9a7
+    page: ai-models--kling-3-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 10
+    n_pages: 10
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.13
+    motion: 0.0463
+    pace: medium
+    loop: true
+    loop_seam: 0.942
+    camera: static
+    chrome:
+    - button
+    - size-label

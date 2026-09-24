@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+3:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: bottom}
+4:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: bottom}
+5:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+6:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+7:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+8:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+9:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+10:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+11:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+12:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}

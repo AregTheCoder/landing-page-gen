@@ -1,0 +1,26 @@
+sheet: link-grid_mockup-card+model-logo-98d822
+group:
+  type: link-grid
+  chrome: mockup-card+model-logo
+fields:
+- chrome_items
+answers: link-grid_mockup-card+model-logo-98d822.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fd0a6faa-8e95-407f-8419-69784d73c63d.avif
+    asset: fd0a6faa
+    page: ai-design-tools
+    slot: S02-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - model-logo

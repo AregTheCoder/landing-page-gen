@@ -58,3 +58,21 @@ def test_doctor_flags_a_snapshot_that_was_never_indexed(tmp_path, monkeypatch):
     (pages / "orphan-page" / "sections.md").write_text("## S01 hero\n")
     found = _run(tmp_path, pages, attrs_yaml, styles_yaml)
     assert any(f.code == "snapshot-not-indexed" for f in errors(found))
+
+
+def test_doctor_flags_chrome_items_off_enum_and_bag_drift(tmp_path, monkeypatch):
+    con, pages = build(tmp_path, ["comic-book-generator"], monkeypatch)
+    attrs_yaml, styles_yaml, frames = tmp_path / "attributes.yaml", tmp_path / "styles.yaml", tmp_path / "frames"
+    mapping, _ = attrs.run(con, path=attrs_yaml, frames_dir=frames, grabber=FakeGrabber())
+    _derive_and_apply(con, mapping, styles_yaml)
+    src = next(iter(mapping))
+
+    # chrome_items kinds disagree with the plain chrome bag
+    attrs.save({**mapping, src: {**mapping[src], "chrome": ["tile"],
+                                 "chrome_items": [{"kind": "chip", "placement": "overlay"}]}}, attrs_yaml)
+    assert any(f.code == "chrome-bag-drift" for f in errors(_run(tmp_path, pages, attrs_yaml, styles_yaml)))
+
+    # a chrome_items entry outside the vocabulary
+    attrs.save({**mapping, src: {**mapping[src], "chrome": ["tile"],
+                                 "chrome_items": [{"kind": "telephone", "placement": "beside"}]}}, attrs_yaml)
+    assert any(f.code == "chrome-items-off-enum" for f in errors(_run(tmp_path, pages, attrs_yaml, styles_yaml)))

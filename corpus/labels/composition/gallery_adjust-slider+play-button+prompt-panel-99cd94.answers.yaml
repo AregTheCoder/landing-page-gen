@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: Reveal of a new bouquet}
+    - {kind: adjust-slider, placement: beside, anchor: bl, state: {value: 5}, text: 5x}
+    - {kind: play-button, placement: overlay, anchor: centre}

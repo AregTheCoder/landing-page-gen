@@ -1,0 +1,154 @@
+1:
+  chrome:
+  - mockup-card
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: pastel green brand template panels with a Sakura Atelier label, a floral
+    phone card fades in
+  family_hint: template-mockup
+  confidence: 0.7
+  motion_kind: transition
+  camera: static
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: couple posing on a city street as a rounded photo card on black, then
+    hands hold the printed strip
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+3:
+  chrome:
+  - prompt-panel
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: empty dark prompt box on black, then a vertical clip of sunglasses
+    and espresso with prompt and duration cards
+  family_hint: prompt-card
+  confidence: 0.85
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome:
+  - chip
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: square photo card of a woman in a sunlit yoga pose on a gold gradient,
+    a wellness headline animates in
+  family_hint: template-mockup
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome:
+  - chip
+  - model-logo
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  before_after: false
+  description: split two-up of a vintage green car on a coastal road, Sora 2 and Veo
+    3.1 chips below
+  family_hint: vs-two-up
+  confidence: 0.9
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: []
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: two offset panels on black, a pink woven bag in a bird nest and on
+    a shoulder, Seedance vs Runway labels
+  family_hint: vs-two-up
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome:
+  - compare-handle
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: portrait of a young man in denim, a white slider wipes across to the
+    retouched outfit
+  family_hint: before-after
+  confidence: 0.85
+  motion_kind: transition
+  camera: static
+8:
+  chrome:
+  - adjust-slider
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  before_after: false
+  description: chocolate pouring onto a heart cake with a slider, then a voice card
+    and a dark tool panel beside the photo
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome:
+  - badge
+  - button
+  text_in_image: labels-only
+  ui_mockup: product-card
+  subject: product
+  art_style: photo
+  before_after: false
+  description: striped pastel vase thumbnails beside a main panel with BUY on pink,
+    rearranging into a shop card
+  family_hint: mockup-card
+  confidence: 0.6
+  motion_kind: transition
+  camera: static
+11:
+  chrome:
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: Image and Reference Video thumbnails beside a main panel of a red-haired
+    woman dancing a mirror selfie, on black
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in a fruit-print apron holding oranges and a juice bottle against
+    an orange curtain, cuts to the label
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: cut-montage
+  camera: static

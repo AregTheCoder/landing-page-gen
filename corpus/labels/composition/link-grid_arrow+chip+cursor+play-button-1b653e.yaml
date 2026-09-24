@@ -1,0 +1,28 @@
+sheet: link-grid_arrow+chip+cursor+play-button-1b653e
+group:
+  type: link-grid
+  chrome: arrow+chip+cursor+play-button
+fields:
+- chrome_items
+answers: link-grid_arrow+chip+cursor+play-button-1b653e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf4224b1-a78d-4419-8b3a-4a8bf35d5d5e.png
+    asset: cf4224b1
+    page: home
+    slot: S16-m5
+    type: link-grid
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - arrow
+    - chip
+    - cursor
+    - play-button

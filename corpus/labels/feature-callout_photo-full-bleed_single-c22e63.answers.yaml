@@ -26,16 +26,21 @@
   family_hint: full-bleed
   confidence: 0.85
 4:
-  chrome: [tile, model-logo]
+  chrome:
+  - tile
+  - model-logo
   text_in_image: headline
   ui_mockup: none
   subject: typography
   art_style: 3d-render
-  description: chrome liquid Bloom lettering over a pink flower with a logo tile and a cutout tile
+  description: chrome liquid Bloom lettering over a pink flower with a logo tile and
+    a cutout tile
   family_hint: dark-composite
   confidence: 0.4
 5:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -53,7 +58,9 @@
   family_hint: full-bleed
   confidence: 0.8
 7:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: multiple
@@ -71,7 +78,9 @@
   family_hint: full-bleed
   confidence: 0.7
 9:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: body
   ui_mockup: none
   subject: person
@@ -80,7 +89,9 @@
   family_hint: dark-composite
   confidence: 0.5
 10:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -89,7 +100,9 @@
   family_hint: vs-two-up
   confidence: 0.6
 11:
-  chrome: [tile, model-logo]
+  chrome:
+  - tile
+  - model-logo
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -98,11 +111,14 @@
   family_hint: dark-composite
   confidence: 0.4
 12:
-  chrome: [slider, mockup-card]
+  chrome:
+  - compare-handle
+  - mockup-card
   text_in_image: headline
   ui_mockup: app-card
   subject: food
   art_style: photo
-  description: a Sweet Escape cupcake poster with social icons and before-after slider thumbnails
+  description: a Sweet Escape cupcake poster with social icons and before-after slider
+    thumbnails
   family_hint: before-after
   confidence: 0.4

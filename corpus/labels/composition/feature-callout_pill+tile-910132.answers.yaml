@@ -1,0 +1,13 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: centre, count: 3, text: VOUCHER|VOUCHER|VOUCHER}
+    - {kind: pill, placement: beside, anchor: left, text: VOUCHER}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}
+    - {kind: tile, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}
+    - {kind: tile, placement: beside, anchor: bl}

@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+    - {kind: swatch, placement: overlay, anchor: left, count: 3}
+    - {kind: tile, placement: overlay, anchor: left}
+    - {kind: button, placement: overlay, anchor: br, text: Templates}

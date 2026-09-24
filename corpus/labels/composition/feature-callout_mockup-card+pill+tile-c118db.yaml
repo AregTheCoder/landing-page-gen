@@ -1,0 +1,46 @@
+sheet: feature-callout_mockup-card+pill+tile-c118db
+group:
+  type: feature-callout
+  chrome: mockup-card+pill+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+pill+tile-c118db.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/318c3d2f-edfb-4352-864f-d5db5d20b576.webp
+    asset: 318c3d2f
+    page: wallpaper-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - pill
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c9cfc94b-e408-47b2-a22d-863fea0e5713.avif
+    asset: c9cfc94b
+    page: background-changer
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - pill
+    - tile

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: overlay, anchor: tl, text: "'Me jumping out from a dumpster fire'"}
+    - {kind: button, placement: overlay, anchor: tl, text: Generate}

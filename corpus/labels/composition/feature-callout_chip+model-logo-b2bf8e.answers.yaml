@@ -1,0 +1,49 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 4}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "Image|Recraft V4.1 Pro|4:3|1 Image"}
+    - {kind: model-logo, placement: beside, anchor: bottom}
+3:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Recraft V4|Midjourney V7"}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "Nanobanana|4K"}
+    - {kind: model-logo, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: bl, count: 5, state: {active: 1}}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 5}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "GPT Image 1|1 image|3:4"}
+7:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 4, state: {active: 2}}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 4}
+8:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: br}
+9:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Veo 3.1"}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: br, text: "30s"}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Veo 3.1"}
+    - {kind: chip, placement: overlay, anchor: br, count: 2}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Veo 3.1"}
+    - {kind: chip, placement: overlay, anchor: br}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}

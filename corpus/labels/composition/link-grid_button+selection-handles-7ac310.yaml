@@ -1,0 +1,44 @@
+sheet: link-grid_button+selection-handles-7ac310
+group:
+  type: link-grid
+  chrome: button+selection-handles
+fields:
+- chrome_items
+answers: link-grid_button+selection-handles-7ac310.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f8b7e8f3-b4b0-44a8-a38c-5fbd60530da1.avif
+    asset: f8b7e8f3
+    page: compare-models--kling-vs-runway
+    slot: S11-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - selection-handles
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/aa157e8a-f40c-4f90-99c6-bb541b857371.png
+    asset: aa157e8a
+    page: ai-sticker-maker
+    slot: S12-m11
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - selection-handles

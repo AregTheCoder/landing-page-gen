@@ -1,0 +1,27 @@
+sheet: link-grid_badge+button+mockup-card-300cd0
+group:
+  type: link-grid
+  chrome: badge+button+mockup-card
+fields:
+- chrome_items
+answers: link-grid_badge+button+mockup-card-300cd0.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/68ac744f-6716-4407-b0cc-6eb538e11aa5.png
+    asset: 68ac744f
+    page: ai-image-extender
+    slot: S15-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - mockup-card

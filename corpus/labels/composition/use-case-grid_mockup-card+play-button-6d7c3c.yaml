@@ -1,0 +1,26 @@
+sheet: use-case-grid_mockup-card+play-button-6d7c3c
+group:
+  type: use-case-grid
+  chrome: mockup-card+play-button
+fields:
+- chrome_items
+answers: use-case-grid_mockup-card+play-button-6d7c3c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8787dc19-1d3e-47a0-80b0-7af054cca1ad.avif
+    asset: 8787dc19
+    page: add-music-to-video
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button

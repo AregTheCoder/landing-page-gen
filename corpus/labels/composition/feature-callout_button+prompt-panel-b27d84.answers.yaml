@@ -1,0 +1,24 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: button, placement: beside, anchor: bottom, text: Generate}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: overlay, anchor: tr}
+    - {kind: button, placement: overlay, anchor: tr, text: Generate}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: overlay, anchor: br, text: '"Anime style, Miyazaki vibes"'}
+    - {kind: button, placement: overlay, anchor: br, text: Generate}

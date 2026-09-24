@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tr}
+    - {kind: button, placement: beside, anchor: tr, text: "Generate"}
+    - {kind: tile, placement: beside, anchor: bl, count: 4, state: {active: 1}}

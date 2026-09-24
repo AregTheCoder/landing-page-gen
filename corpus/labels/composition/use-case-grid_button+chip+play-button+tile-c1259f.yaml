@@ -1,0 +1,28 @@
+sheet: use-case-grid_button+chip+play-button+tile-c1259f
+group:
+  type: use-case-grid
+  chrome: button+chip+play-button+tile
+fields:
+- chrome_items
+answers: use-case-grid_button+chip+play-button+tile-c1259f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3cb59a99-e35e-4568-8f1a-651866802cc7.webp
+    asset: 3cb59a99
+    page: ai-models--wan-2-7
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - play-button
+    - tile

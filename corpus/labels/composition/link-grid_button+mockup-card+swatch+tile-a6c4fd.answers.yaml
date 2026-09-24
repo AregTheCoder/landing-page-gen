@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: swatch, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: overlay, anchor: bottom, text: SHOP NOW}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: swatch, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: overlay, anchor: bottom, text: SHOP NOW}

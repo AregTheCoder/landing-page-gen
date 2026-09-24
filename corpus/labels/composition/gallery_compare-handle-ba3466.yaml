@@ -1,0 +1,110 @@
+sheet: gallery_compare-handle-ba3466
+group:
+  type: gallery
+  chrome: compare-handle
+fields:
+- chrome_items
+answers: gallery_compare-handle-ba3466.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2326523b-93f9-4bf2-958f-d93162507c67.avif
+    asset: 2326523b
+    page: ai-image-enhancer
+    slot: S14-m1
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3d6ae2e3-7548-4f84-ad36-60d8c5d9ed04.avif
+    asset: 3d6ae2e3
+    page: ai-image-enhancer
+    slot: S14-m6
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5b47254a-89a4-4475-9e0a-1a3f9f305fc7.avif
+    asset: 5b47254a
+    page: ai-image-enhancer
+    slot: S14-m4
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/608dc92c-bfff-4a83-b2c4-04127b352b23.avif
+    asset: 608dc92c
+    page: ai-image-enhancer
+    slot: S14-m3
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - compare-handle
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f7d71de-e494-47d5-9a4b-aa1eeced0ee9.avif
+    asset: 7f7d71de
+    page: ai-image-enhancer
+    slot: S14-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - compare-handle
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/efee1128-13a8-4263-982a-992db2a94ed2.png?type=webp&to=min&r=400
+    asset: efee1128
+    page: aura
+    slot: S08-m2
+    type: gallery
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - compare-handle

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: left, text: Sticker}
+    - {kind: tile, placement: overlay, anchor: right, count: 3}

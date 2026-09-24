@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: "Number of variations"}
+    - {kind: chip, placement: beside, anchor: br, state: {value: 3}, text: "3"}
+    - {kind: button, placement: beside, anchor: br, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: chip, placement: beside, anchor: br}
+    - {kind: button, placement: beside, anchor: br}

@@ -1,0 +1,27 @@
+sheet: feature-callout_mockup-card+selection-handles+tile-c52b6e
+group:
+  type: feature-callout
+  chrome: mockup-card+selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+selection-handles+tile-c52b6e.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/eaba84e3-5147-41da-ae48-e6bfd70ee75c.png
+    asset: eaba84e3
+    page: watermark-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - selection-handles
+    - tile

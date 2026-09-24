@@ -1,0 +1,24 @@
+# The probe set `lp-compose --probe` redraws after every template or reader change: each family's
+# default, the hand-made variants a run leans on, the S11 compare card and two-up, and one induced
+# layout per family (the middle of its sorted names, fixed so probes compare run to run).
+- before-after
+- before-after/compare-slider
+- dark-composite
+- dark-composite/bento
+- mockup-card
+- panel-overlay
+- prompt-card
+- prompt-card/column
+- template-mockup
+- template-mockup/editor
+- cutout-checkerboard
+- crop-frame
+- before-after/m-56db0c
+- dark-composite/m-f473d4
+- mockup-card/m-9885f0
+- vs-two-up/m-7a7d47
+- template-mockup/m-72d28a
+- prompt-card/m-7db897
+- cutout-checkerboard/m-a111c0
+- crop-frame/m-b365b2
+- dark-composite/m-7ef6f7

@@ -1,0 +1,26 @@
+sheet: hero_brackets+button-8a8683
+group:
+  type: hero
+  chrome: brackets+button
+fields:
+- chrome_items
+answers: hero_brackets+button-8a8683.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4c0b8b9b-c908-4477-8a1a-375fa06c1fe6.avif
+    asset: 4c0b8b9b
+    page: crop-image
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - button

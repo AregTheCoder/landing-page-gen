@@ -1,0 +1,84 @@
+sheet: link-grid_model-logo+pill+vs-badge-0d8170
+group:
+  type: link-grid
+  chrome: model-logo+pill+vs-badge
+fields:
+- chrome_items
+answers: link-grid_model-logo+pill+vs-badge-0d8170.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/65ba628b-e257-4bce-8c6f-0380f74fd64a.webp
+    asset: 65ba628b
+    page: video-to-gif
+    slot: S13-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/65ba628b-e257-4bce-8c6f-0380f74fd64a.webp?type=webp&to=min&r=640
+    asset: 65ba628b
+    page: video-tools
+    slot: S02-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6adeac96-9e9e-48b2-a5b6-6b8473e68183.webp
+    asset: 6adeac96
+    page: compare-models--luma-ray-2-vs-kling-3-0
+    slot: S12-m6
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b288c697-66d7-4711-8477-fd73133420e2.avif
+    asset: b288c697
+    page: compare-models--runway-gen-4-vs-veo-3
+    slot: S11-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - pill
+    - vs-badge

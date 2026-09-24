@@ -1,0 +1,168 @@
+1:
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: food
+  art_style: photo
+  description: cupcake result beside a prompt panel and Generate button, ingredients
+    separating across frames
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome:
+  - tile
+  - chip
+  - play-button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in green jacket leaning in a city, reference thumbnails and audio
+    track sidebar
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+3:
+  chrome:
+  - model-logo
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in white dress with a spinning pinwheel, split Luma Ray 2 vs
+    Kling 3.0
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome:
+  - model-logo
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: a cat DJ with headphones and orange glasses at turntables, Luma Ray
+    2 over Kling 3.0
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome:
+  - compare-handle
+  - pill
+  - tile
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hands toasting iced coffee cups against sky, before/after enhance slider
+  family_hint: before-after
+  confidence: 0.75
+  motion_kind: transition
+  camera: static
+6:
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: prompt box and Generate button producing a close-up of a woman holding
+    a pink flower
+  family_hint: prompt-card
+  confidence: 0.8
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome:
+  - model-logo
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: people inside a red car at night, Seedance 2.5 over Kling 3.0 model
+    comparison
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static
+8:
+  chrome:
+  - cursor
+  text_in_image: headline
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: hands holding matcha cups, background becomes blue sky with "Pure focus
+    in every cup" headline
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: transition
+  camera: static
+9:
+  chrome:
+  - cursor
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: a beige cap on beach sand, a brush removes the driftwood to clean the
+    sand
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome:
+  - tile
+  - chip
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: woman relaxing with headphones on an orange couch, generation controls
+    and prompt beside her
+  family_hint: prompt-card
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+11:
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: scene
+  art_style: painterly-illustration
+  description: prompt box and Generate button with a grid of fantasy landscape results
+    and style picker
+  family_hint: prompt-card
+  confidence: 0.75
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome:
+  - model-logo
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: blonde woman with white sunglasses at a graffiti skatepark, Seedance
+    2.0 vs Runway Gen 4
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static

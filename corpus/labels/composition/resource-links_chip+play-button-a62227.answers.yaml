@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: centre, count: 2, text: ByteDance|Picsart}
+    - {kind: play-button, placement: overlay, anchor: centre, count: 5}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: centre, count: 2, text: Wan 2.7|Picsart}
+    - {kind: play-button, placement: overlay, anchor: centre, count: 5}

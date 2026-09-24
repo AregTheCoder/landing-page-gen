@@ -1,0 +1,28 @@
+sheet: link-grid_button+mockup-card+model-logo+prompt-panel-eceee0
+group:
+  type: link-grid
+  chrome: button+mockup-card+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_button+mockup-card+model-logo+prompt-panel-eceee0.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8297fefc-d80d-4b8d-a38e-359fc26714fd.webp?type=webp&to=min&r=640
+    asset: 8297fefc
+    page: ai-models
+    slot: S03-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - model-logo
+    - prompt-panel

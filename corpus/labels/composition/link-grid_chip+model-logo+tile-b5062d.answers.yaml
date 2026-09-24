@@ -1,0 +1,25 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Start Frame|End Frame}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Flux 2 Pro|Midjourney}
+    - {kind: chip, placement: overlay, anchor: centre, text: VS}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Flux 2 Pro|Midjourney}
+    - {kind: chip, placement: overlay, anchor: centre, text: VS}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: tl, text: Runway Aleph 2.0}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: tl, text: Flux 2 Klein 4B}

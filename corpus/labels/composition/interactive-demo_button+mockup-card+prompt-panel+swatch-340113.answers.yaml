@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate brief}
+    - {kind: mockup-card, placement: beside, anchor: bl, text: Brand kit}
+    - {kind: swatch, placement: beside, anchor: bl, count: 3}

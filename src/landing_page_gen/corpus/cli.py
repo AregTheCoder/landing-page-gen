@@ -6,7 +6,7 @@ from pathlib import Path
 
 import yaml
 
-from . import apiclient, attrs, calibration, db, discover, doctor, embed, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
+from . import apiclient, attrs, calibration, db, discover, doctor, embed, grammar, label, ledger, library, media, pool, sectionize, sheets, similar, skeleton, snapshot, stock, styles, taxonomy, widen
 
 DEFAULT_DB = Path("corpus/corpus.db")
 PAGES_YAML = Path("corpus/pages.yaml")
@@ -68,6 +68,9 @@ def main(argv=None) -> int:
                     help="skip sections showing this source asset: the 8-hex uuid prefix of its src (attrs.asset_id) "
                          "or the 8-hex hash of its local file name; repeatable, one per slot of the page")
     sm.add_argument("--any-media", action="store_true", help="also return sections without creative/thumbnail media")
+    sm.add_argument("--kind", choices=("image", "video"),
+                    help="prefer sections with media of this kind and write that media first (a video slot wants clips: "
+                         "a clip is excerpted as a first/middle/last 3-frame strip)")
     sm.add_argument("--widen", type=int, default=0, metavar="N",
                     help="add N reverse-image neighbours of the --style family from corpus/widened/ as look references")
     sm.add_argument("--pool", type=int, default=0, metavar="N",
@@ -116,6 +119,9 @@ def main(argv=None) -> int:
                     help="page every term to the full --pages depth: ignore the keep-floor and "
                          "yield-floor early-stops so a page-1-exhausted term still reaches new photos "
                          "deeper in. Trades relevance for volume; the threshold and review still curate")
+    pl.add_argument("--kind", choices=("image", "video"), default="image",
+                    help="pool search: photos (default) or clips (Pexels and Pixabay video APIs; the poster frame is "
+                         "what gets hashed, ranked and sheeted; served by `similar --pool N --kind video` as strips)")
     pl.add_argument("--dry-run", action="store_true", help="print the planned requests per platform and make none")
     pl.add_argument("--refresh", action="store_true", help="bypass the response cache (Pixabay keeps its 24 h floor)")
     pl.add_argument("--max-requests", type=int, default=0, help="stop the run after this many API requests (0 = tier caps only)")
@@ -151,6 +157,20 @@ def main(argv=None) -> int:
     at.add_argument("--dry-run", action="store_true", help="count candidates only; measure nothing")
     at.add_argument("--apply-only", action="store_true", help="mirror the yaml into the DB through the rule table")
 
+    fr = sub.add_parser("frames", help="Grab a clip's sampled frames and write its 3-frame strip (first, middle, last) -> --out; prints the measured motion fields")
+    fr.add_argument("video", help="a local clip or a URL")
+    fr.add_argument("--out", type=Path, required=True, help="the strip PNG")
+    fr.add_argument("--keep-frames", action="store_true", help="leave the five sampled frames beside the strip")
+
+    mo = sub.add_parser("motion", help="Measure the motion fields (pace, loop, camera when it holds) of the video records that lack them -> attributes.yaml, media.attrs; --summary per family, --write-doc sets the **Motion:** lines")
+    mo.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    mo.add_argument("--frames", type=Path, default=attrs.FRAMES_DIR)
+    mo.add_argument("--limit", type=int)
+    mo.add_argument("--force", action="store_true", help="re-measure videos that already have motion fields")
+    mo.add_argument("--summary", action="store_true", help="print what each family's labelled clips do and stop")
+    mo.add_argument("--write-doc", action="store_true", help="with --summary: set each family block's **Motion:** line")
+    mo.add_argument("--doc", type=Path, default=styles.DOC)
+
     sh = sub.add_parser("sheets", help="Lay the assets that still need semantic fields on numbered contact sheets -> corpus/labels/")
     sh.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
     sh.add_argument("--out", type=Path, default=sheets.LABELS_DIR)
@@ -160,6 +180,10 @@ def main(argv=None) -> int:
     sh.add_argument("--limit", type=int, help="write at most this many sheets (a trial pass)")
     sh.add_argument("--skip-resolved", action="store_true",
                     help="leave out assets the measured fields alone already place in a family")
+    sh.add_argument("--composition", action="store_true",
+                    help="the layered-chrome campaign: lay assets whose chrome bag is answered but whose "
+                         "chrome_items are not yet labelled, grouped by chrome combo (most common first), "
+                         "the bag pre-filled, for a labeller to place")
 
     lb = sub.add_parser("labels", help="Merge every <sheet>.answers.yaml into corpus/attributes.yaml, media.attrs, media.style")
     lb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
@@ -184,6 +208,26 @@ def main(argv=None) -> int:
     fb.add_argument("run", type=Path, help="runs/<run> with benchmark.md and slots.json")
     fb.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
 
+    gr = sub.add_parser("grammar", help="Learn the page grammar (section order, when image vs video, length, motifs, copy themes, context -> decision rules) -> corpus/grammar/grammar.yaml + report.md; --write-doc renders page-grammar.md")
+    gr.add_argument("--min-support", type=int, default=grammar.MIN_SUPPORT, help="slots a rule or prior needs (default 10)")
+    gr.add_argument("--out", type=Path, default=grammar.GRAMMAR_DIR)
+    gr.add_argument("--write-doc", action="store_true", help="also render the readable rules")
+    gr.add_argument("--doc", type=Path, default=grammar.DOC)
+
+    ro = sub.add_parser("roles", help="Give every labelled chrome block its role (what it means: tool, attribution, state-label, spec...) and set the counts beside each compose zone -> corpus/roles/report.md")
+    ro.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    ro.add_argument("--out", type=Path, default=Path("corpus/roles"))
+
+    rd = sub.add_parser("read", help="Read every distinct local image: its OCR lines (macOS Vision, on-device) and its layout (ground, cards, pictures, what sits in each) -> corpus/readings/<id>.json")
+    rd.add_argument("--limit", type=int)
+    rd.add_argument("--force", action="store_true", help="re-read assets that already have a reading")
+    rd.add_argument("--page", action="append", help="only this page slug (repeatable)")
+
+    sb = sub.add_parser("storyboard", help="Read every local clip as a storyboard: the states it holds still in (keyframes read with OCR + layout) and the transitions between them -> corpus/storyboards/<id>/")
+    sb.add_argument("--limit", type=int)
+    sb.add_argument("--force", action="store_true", help="rebuild clips that already have a storyboard")
+    sb.add_argument("--page", action="append", help="only this page slug (repeatable)")
+
     sub.add_parser("doctor", help="Verify the corpus conforms to the metastructure (snapshots indexed, assets measured, styles synced, labels in-enum, pool well-formed); exits non-zero on an ERROR")
 
     a = p.parse_args(argv)
@@ -203,6 +247,18 @@ def main(argv=None) -> int:
         return cmd_styles(a)
     if a.cmd == "attrs":
         return cmd_attrs(a)
+    if a.cmd == "frames":
+        return cmd_frames(a)
+    if a.cmd == "motion":
+        return cmd_motion(a)
+    if a.cmd == "grammar":
+        return cmd_grammar(a)
+    if a.cmd == "read":
+        return cmd_read(a)
+    if a.cmd == "storyboard":
+        return cmd_storyboard(a)
+    if a.cmd == "roles":
+        return cmd_roles(a)
     if a.cmd == "sheets":
         return cmd_sheets(a)
     if a.cmd == "labels":
@@ -214,7 +270,7 @@ def main(argv=None) -> int:
     if a.cmd == "feedback":
         return cmd_feedback(a)
     if a.cmd == "doctor":
-        return doctor.report(doctor.run(a.db))
+        return doctor.report(doctor.run(a.db, grammar_path=grammar.GRAMMAR_YAML, grammar_doc=grammar.DOC))
     if a.cmd == "widen":
         try:
             path, searched, added = widen.widen(a.family, styles.load(), backend=a.backend, limit=a.limit,
@@ -319,7 +375,7 @@ def main(argv=None) -> int:
                     return 0
                 paths, stats = pool.search(a.family, limit_per_term=a.limit_per_term, explore=a.explore,
                                            use_threshold=not a.no_threshold, ranker_name=a.rank,
-                                           max_per_creator=a.max_per_creator, deep=a.deep,
+                                           max_per_creator=a.max_per_creator, deep=a.deep, kind=a.kind,
                                            run_id=run_id, log=log, **common)
                 for pf, st in stats["platforms"].items():
                     pre = st["prefiltered"]
@@ -366,7 +422,10 @@ def main(argv=None) -> int:
         return 0
     if a.cmd == "skeleton":
         con = db.connect(a.db)
-        out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out)
+        g = grammar.load()
+        if g is None:
+            log("skeleton: no corpus/grammar/grammar.yaml, so no `> prior:` lines; run `lp-corpus grammar --write-doc`")
+        out, n_sections, n_gen, n_all = skeleton.write_skeleton(con, a.slug, a.out, g)
         print(f"{out}: {n_sections} sections, {n_all} slots ({n_gen} to generate); slots.json alongside")
         return 0
     if a.cmd == "similar":
@@ -380,34 +439,37 @@ def main(argv=None) -> int:
         if bad:
             p.error(f"unknown attribute(s) {', '.join(sorted(bad))}; one of {', '.join(attrs.FIELDS)}")
         rows = similar.find_similar(con, a.type, a.query, k=a.k, exclude=a.exclude, need_media=not a.any_media,
-                                    style=a.style, attrs=attr_filter or None, exclude_asset=a.exclude_asset)
+                                    style=a.style, attrs=attr_filter or None, exclude_asset=a.exclude_asset, kind=a.kind)
         if not rows:
             log(f"no {a.type} sections in the corpus" + (" with generated-role media" if not a.any_media else ""))
             return 1
-        with similar.FrameGrabber() as grabber:
-            similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example)
         fam = similar.split_style(a.style)[0]
-        if a.widen:
-            if not fam:
-                p.error("--widen needs --style: neighbours are stored per family")
-            picks = widen.pick(fam, a.widen, exclude_asset=a.exclude_asset)
-            if not picks:
-                log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
-            widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
-        if a.pool:
-            if not fam:
-                p.error("--pool needs --style: the pool is stored per family")
-            # content-match the slot's query against the described pool when an
-            # index exists; else fall back to the seeded shuffle
-            from . import poolindex
-            picks = poolindex.picks_for(a.query, fam, a.pool, aspect=a.pool_aspect,
-                                        exclude_asset=a.exclude_asset, pool_dir=pool.POOL_DIR)
-            if picks is None:
-                picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect)
-            if not picks:
-                log(f"no kept pool entries for {fam}: run `lp-corpus pool search {fam}` and answer the sheets")
-            pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
-                                start=len(rows) + 1 + a.widen)
+        if (a.widen or a.pool) and not fam:
+            p.error("--widen and --pool need --style: neighbours and the pool are stored per family")
+        with similar.FrameGrabber() as grabber:
+            similar.write_examples(con, rows, a.out, log=log, grabber=grabber, max_media=a.media_per_example, kind=a.kind)
+            if a.widen:
+                picks = widen.pick(fam, a.widen, exclude_asset=a.exclude_asset)
+                if not picks:
+                    log(f"no widened neighbours for {fam}: run `lp-corpus widen {fam}` first")
+                widen.write_examples(picks, a.out, media.download, similar.to_png, log=log, start=len(rows) + 1)
+            if a.pool:
+                # content-match the slot's query against the described pool when an
+                # index exists (photos only); else fall back to the seeded shuffle.
+                # A video slot takes kept clips, served as 3-frame strips.
+                picks = None
+                if a.kind != "video":
+                    from . import poolindex
+                    picks = poolindex.picks_for(a.query, fam, a.pool, aspect=a.pool_aspect,
+                                                exclude_asset=a.exclude_asset, pool_dir=pool.POOL_DIR)
+                if picks is None:
+                    picks = pool.pick(fam, a.pool, a.seed, exclude_asset=a.exclude_asset, aspect_class=a.pool_aspect,
+                                      kind=a.kind)
+                if not picks:
+                    log(f"no kept pool {a.kind or 'image'} entries for {fam}: run `lp-corpus pool search {fam}"
+                        f"{' --kind video' if a.kind == 'video' else ''}` and answer the sheets")
+                pool.write_examples(picks, a.out, media.download, similar.to_png, log=log,
+                                    start=len(rows) + 1 + a.widen, grabber=grabber)
         tagged = sum(1 for r in rows if con.execute(
             "SELECT 1 FROM media WHERE section_id = ? AND style = ?", (r["id"], fam)).fetchone()) if fam else 0
         print(f"{len(rows)} {a.type} example(s)" + (f", {tagged} tagged {a.style}" if a.style else "") + f" -> {a.out}")
@@ -568,15 +630,99 @@ def cmd_attrs(a):
     return 0
 
 
+def cmd_frames(a):
+    import tempfile
+    from . import motion
+    src = a.video if a.video.startswith(("http://", "https://")) else Path(a.video).resolve()
+    if isinstance(src, Path) and not src.exists():
+        log(f"frames: {src} not found")
+        return 1
+    with tempfile.TemporaryDirectory() as tmp:
+        frames_dir = a.out.parent if a.keep_frames else Path(tmp)
+        with similar.FrameGrabber() as g:
+            duration, paths = motion.probe(src, g, frames_dir, a.out.stem)
+        fields = motion.measure(paths)
+        motion.strip(paths, a.out)
+    print(f"{a.out}: {f'{duration:.2f}' if duration else '?'} s; "
+          + " ".join(f"{k}={v}" for k, v in fields.items()))
+    return 0
+
+
+def cmd_motion(a):
+    from . import motion
+    mapping = attrs.load(a.attrs)
+    if a.summary or a.write_doc:
+        summ = motion.summary(mapping)
+        for fam, s in summ.items():
+            print(f"  {fam:20} {motion.motion_line(fam, s)[len('**Motion:** '):]}")
+        if a.write_doc:
+            written = motion.write_doc(summ, a.doc)
+            print(f"motion: **Motion:** line set for {len(written)} families -> {a.doc}")
+        return 0
+    con = db.connect(a.db)
+    clips = {r["src"]: r["local_path"] for r in con.execute(
+        "SELECT DISTINCT src, local_path FROM media WHERE kind = 'video' AND local_path IS NOT NULL")}
+    changed, stats = attrs.backfill_motion(mapping, clips, frames_dir=a.frames, limit=a.limit, force=a.force, log=log)
+    n = 0
+    if changed:
+        mapping = attrs.merge_save(changed, a.attrs)
+        n = attrs.apply(con, mapping)
+    print(f"motion: {stats['measured']}/{stats['todo']} videos measured, {len(stats['skipped'])} skipped, "
+          f"{n} media rows touched -> {a.attrs}")
+    for src in stats["skipped"][:10]:
+        print(f"  skipped {src}")
+    return 0
+
+
+def cmd_read(a):
+    from . import readings
+    with db.connect(a.db) as con:
+        n = readings.run(con, limit=a.limit, force=a.force, pages=set(a.page or []) or None)
+    print(f"read: {n['read']} read, {n['kept']} kept, of {n['targets']} images -> {readings.STORE}/")
+    return 0
+
+
+def cmd_storyboard(a):
+    from . import storyboard
+    with db.connect(a.db) as con:
+        n = storyboard.run(con, limit=a.limit, force=a.force, pages=set(a.page or []) or None)
+    print(f"storyboard: {n['built']} built, {n['kept']} kept, of {n['targets']} clips -> {storyboard.STORE}/")
+    return 0
+
+
+def cmd_roles(a):
+    from . import roles
+    text, n = roles.report(attrs.load(a.attrs), styles.load())
+    a.out.mkdir(parents=True, exist_ok=True)
+    (a.out / "report.md").write_text(text)
+    print(f"roles: {n['blocks']} blocks on {n['assets']} assets, {n['residual']} residual -> {a.out / 'report.md'}")
+    return 0
+
+
+def cmd_grammar(a):
+    con = db.connect(a.db)
+    g, rows, rules = grammar.build(con, min_support=a.min_support)
+    path = grammar.save(g, a.out / "grammar.yaml")
+    (a.out / "report.md").write_text(grammar.render_report(g, rows, rules))
+    src = g["source"]
+    print(f"grammar: {src['slots']} slots ({src['videos']} videos) on {src['pages']} pages, "
+          f"{sum(len(r) for r in rules.values())} rules -> {path}, {a.out / 'report.md'}")
+    if a.write_doc:
+        a.doc.write_text(grammar.render_doc(g))
+        print(f"grammar: readable rules -> {a.doc}")
+    return 0
+
+
 def cmd_sheets(a):
     mapping = attrs.load(a.attrs)
     if not mapping:
         log(f"sheets: {a.attrs} is empty; run `lp-corpus attrs` first")
         return 1
     built, stats = sheets.build(mapping, a.out, per_sheet=a.per_sheet, thumb=a.thumb, columns=a.columns,
-                                limit=a.limit, skip_resolved=a.skip_resolved)
-    index = sheets.write_index(built, a.out, stats)
-    print(f"sheets: {stats['pending']} assets pending in {stats['groups']} groups -> {stats['sheets']} sheets "
+                                limit=a.limit, skip_resolved=a.skip_resolved, composition=a.composition)
+    index = sheets.write_index(built, a.out, stats, composition=a.composition)
+    kind = "composition " if a.composition else ""
+    print(f"sheets: {stats['pending']} {kind}assets pending in {stats['groups']} groups -> {stats['sheets']} sheets "
           f"({stats['answered']} already answered) in {a.out}; prompt in {index}")
     return 0
 

@@ -1,0 +1,45 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Veo 3.1|Sora 2}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, text: Imagen 4}
+    - {kind: chip, placement: beside, anchor: br, text: 4K}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Recraft V4|Midjourney V7}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Native SVG support|Not available}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: right, count: 4, text: 4K|60fps|720p|30fps}
+    - {kind: model-logo, placement: beside, anchor: right, count: 2}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Kling 3.0|Runway Gen-4}
+5:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Recraft V4|Ideogram 3.0 Flash}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, count: 6}
+7:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Seedance 2.0|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Veo 3.1|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Image}
+    - {kind: model-logo, placement: beside, anchor: left, count: 4, state: {active: 3}, text: Veo 3.1|Kling 3.0|Hailuo 3|Seedance 2.0}
+11:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Imagen 4 Ultra|GPT Image 1.5}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Google|OpenAI}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: GPT Image 1.5|Midjourney V7}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}

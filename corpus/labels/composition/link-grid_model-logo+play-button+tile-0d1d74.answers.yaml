@@ -1,0 +1,20 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: play-button, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Kling 3.0 Omni}
+    - {kind: tile, placement: beside, count: 5}
+    - {kind: play-button, placement: overlay, anchor: centre, count: 5}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: play-button, placement: overlay, anchor: centre}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: play-button, placement: overlay, anchor: centre}

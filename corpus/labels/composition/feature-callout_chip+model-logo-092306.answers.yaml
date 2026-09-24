@@ -1,0 +1,42 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, count: 2, text: Runway Gen 4|Veo 3.1}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Dall-e 3|Midjourney}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 6, state: {active: 3}, text: "21:9|16:9|4:3|1:1|3:4|9:16"}
+    - {kind: model-logo, placement: beside, anchor: br}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: Ideogram}
+    - {kind: chip, placement: beside, anchor: br, text: 2K}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, count: 2, text: WAN 2.7|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: Free|10 seconds|50}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Hailuo 3|Kling V3}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "3:4 15s|2 models"}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Seedance 2.5|Kling V3}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "1080p 9:16 15s|2 models"}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: GPT Image 1.5|Flux 2 Pro}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Sora 2|Veo 3.1}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+12:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 2K|4k}

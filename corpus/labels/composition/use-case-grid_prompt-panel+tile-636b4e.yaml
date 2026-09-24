@@ -1,0 +1,62 @@
+sheet: use-case-grid_prompt-panel+tile-636b4e
+group:
+  type: use-case-grid
+  chrome: prompt-panel+tile
+fields:
+- chrome_items
+answers: use-case-grid_prompt-panel+tile-636b4e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5acfd40b-5caf-4e9c-a407-d94eaa6808b6.avif
+    asset: 5acfd40b
+    page: ai-models--imagen-4-0
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - prompt-panel
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/85677966-3331-46ed-be1c-1daead8be21c.avif
+    asset: '85677966'
+    page: ai-models--grok-imagine
+    slot: S06-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - prompt-panel
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/979c5f9c-ae5e-4757-81a3-2fbaa55420e2.avif
+    asset: 979c5f9c
+    page: ai-models--seedance-2-5
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - prompt-panel
+    - tile

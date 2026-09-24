@@ -1,0 +1,27 @@
+sheet: hero_button+prompt-panel+tile-620c13
+group:
+  type: hero
+  chrome: button+prompt-panel+tile
+fields:
+- chrome_items
+answers: hero_button+prompt-panel+tile-620c13.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp
+    asset: 22f9b181
+    page: ai-models--flux-2-flex
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 53
+    n_pages: 45
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile

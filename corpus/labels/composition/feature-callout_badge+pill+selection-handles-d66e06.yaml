@@ -1,0 +1,27 @@
+sheet: feature-callout_badge+pill+selection-handles-d66e06
+group:
+  type: feature-callout
+  chrome: badge+pill+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_badge+pill+selection-handles-d66e06.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/3c143ee1-0aae-4012-aea8-b8afbc439e86.png
+    asset: 3c143ee1
+    page: ai-sticker-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - badge
+    - pill
+    - selection-handles

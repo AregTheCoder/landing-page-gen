@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: tile, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}

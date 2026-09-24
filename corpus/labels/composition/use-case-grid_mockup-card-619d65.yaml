@@ -1,0 +1,42 @@
+sheet: use-case-grid_mockup-card-619d65
+group:
+  type: use-case-grid
+  chrome: mockup-card
+fields:
+- chrome_items
+answers: use-case-grid_mockup-card-619d65.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25214cd1-3043-4105-95c3-22f981278f20.png?type=webp&to=min&r=600
+    asset: 25214cd1
+    page: home
+    slot: S13-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/fd372e2f-1212-4608-b9c2-06382034afc2.png
+    asset: fd372e2f
+    page: background-tools
+    slot: S11-m2
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card

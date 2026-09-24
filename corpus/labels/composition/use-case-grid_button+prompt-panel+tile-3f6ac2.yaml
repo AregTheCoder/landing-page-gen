@@ -1,0 +1,65 @@
+sheet: use-case-grid_button+prompt-panel+tile-3f6ac2
+group:
+  type: use-case-grid
+  chrome: button+prompt-panel+tile
+fields:
+- chrome_items
+answers: use-case-grid_button+prompt-panel+tile-3f6ac2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2c990e97-c51f-4d19-be93-6cb7c2f21620.webp
+    asset: 2c990e97
+    page: remove-object-from-video
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5bb50e97-f7c8-455e-8395-aaac71ba66da.webp
+    asset: 5bb50e97
+    page: ai-replace
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button
+    - prompt-panel
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/afd1585a-6e10-47a8-bc58-90010c6870a6.avif
+    asset: afd1585a
+    page: ai-image-generator
+    slot: S09-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+    - tile

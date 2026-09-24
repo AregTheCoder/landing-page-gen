@@ -48,7 +48,8 @@ def check(run, section=None):
     else:
         secs = sorted((run / "sections").glob("S*")) if (run / "sections").exists() else []
     for sec in secs:
-        for f in [sec / "brief.md", *sorted(sec.glob("examples/*.md"))]:
+        for f in [sec / "brief.md", *sorted(sec.glob("examples/*.md")),
+                  *sorted(sec.glob("composition-*.yaml")), *sorted(sec.glob("compose-*.yaml"))]:
             if not f.exists():
                 continue
             text = f.read_text()

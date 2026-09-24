@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: button, placement: beside, anchor: top, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: bl, text: Make similar}
+4:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+    - {kind: button, placement: overlay, anchor: right, text: Remove BG}
+    - {kind: mockup-card, placement: overlay, anchor: bl}

@@ -44,7 +44,8 @@
   family_hint: full-bleed
   confidence: 0.45
 6:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: object
@@ -53,7 +54,8 @@
   family_hint: before-after
   confidence: 0.65
 7:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -62,7 +64,8 @@
   family_hint: cinematic-still
   confidence: 0.45
 8:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: scene
@@ -80,7 +83,8 @@
   family_hint: outcome-tile
   confidence: 0.4
 10:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -98,7 +102,11 @@
   family_hint: outcome-tile
   confidence: 0.35
 12:
-  chrome: [prompt-panel, button, chip, model-logo]
+  chrome:
+  - prompt-panel
+  - button
+  - chip
+  - model-logo
   text_in_image: body
   ui_mockup: prompt-ui
   subject: typography

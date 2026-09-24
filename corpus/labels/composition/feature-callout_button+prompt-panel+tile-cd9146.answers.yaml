@@ -1,0 +1,32 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Glowing star within a soft spiral galaxy}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: button, placement: beside, anchor: bl, text: Show more results}
+    - {kind: tile, placement: beside, anchor: left, count: 1}
+    - {kind: tile, placement: beside, anchor: bl, count: 4, state: {active: 4}}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: CR}
+    - {kind: button, placement: beside, anchor: bl, text: Generate Motion}
+    - {kind: tile, placement: beside, anchor: br, count: 4, state: {active: 2}}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Realistic rock with flowers}
+    - {kind: button, placement: beside, anchor: tl, text: Generate}
+    - {kind: tile, placement: beside, anchor: br, count: 2}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Hand-drawn black ink coffee themed}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Ma}
+    - {kind: button, placement: beside, anchor: bl, text: Generate Motion}
+    - {kind: tile, placement: beside, anchor: br, count: 4, state: {active: 1}}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Moody black-and-white jazz saxophonist}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: bl, count: 3}

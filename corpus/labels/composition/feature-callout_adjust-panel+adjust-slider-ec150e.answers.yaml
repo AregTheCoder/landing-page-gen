@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: beside, anchor: left, state: {active: 4}}
+    - {kind: adjust-slider, placement: beside, anchor: bl, state: {value: 6.33}, text: 6.33s}
+2:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: bl}
+    - {kind: adjust-slider, placement: overlay, anchor: bl, count: 4, text: Brightness|Contrast|Highlights|Shadows}

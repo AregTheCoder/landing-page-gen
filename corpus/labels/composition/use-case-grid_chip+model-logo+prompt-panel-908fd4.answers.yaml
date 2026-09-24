@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: model-logo, placement: beside, anchor: bl, text: Lyria 3}
+    - {kind: chip, placement: beside, anchor: right, count: 8, state: {active: 5}}

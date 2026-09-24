@@ -1,14 +1,19 @@
 1:
-  chrome: [pill, tile, play-button]
+  chrome:
+  - pill
+  - tile
+  - play-button
   text_in_image: labels-only
   ui_mockup: none
   subject: food
   art_style: photo
-  description: before and after iced coffee panels with labelled pills and a sparkle tile
+  description: before and after iced coffee panels with labelled pills and a sparkle
+    tile
   family_hint: before-after
   confidence: 0.8
 2:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -17,7 +22,8 @@
   family_hint: crop-frame
   confidence: 0.4
 3:
-  chrome: [arrow]
+  chrome:
+  - arrow
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -26,7 +32,8 @@
   family_hint: crop-frame
   confidence: 0.4
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -35,7 +42,8 @@
   family_hint: before-after
   confidence: 0.45
 5:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -44,7 +52,9 @@
   family_hint: before-after
   confidence: 0.45
 6:
-  chrome: [tile, swatch]
+  chrome:
+  - tile
+  - swatch
   text_in_image: labels-only
   ui_mockup: none
   subject: illustration
@@ -53,7 +63,8 @@
   family_hint: template-mockup
   confidence: 0.55
 7:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -62,7 +73,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.7
 8:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -71,7 +83,9 @@
   family_hint: cutout-checkerboard
   confidence: 0.7
 9:
-  chrome: [mockup-card, size-label]
+  chrome:
+  - mockup-card
+  - size-label
   text_in_image: labels-only
   ui_mockup: app-card
   subject: person
@@ -80,7 +94,9 @@
   family_hint: mockup-card
   confidence: 0.6
 10:
-  chrome: [pill, slider]
+  chrome:
+  - compare-handle
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -89,7 +105,9 @@
   family_hint: before-after
   confidence: 0.8
 11:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: food
@@ -98,7 +116,9 @@
   family_hint: prompt-card
   confidence: 0.8
 12:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: food

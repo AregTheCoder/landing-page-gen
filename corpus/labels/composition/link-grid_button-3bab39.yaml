@@ -1,0 +1,42 @@
+sheet: link-grid_button-3bab39
+group:
+  type: link-grid
+  chrome: button
+fields:
+- chrome_items
+answers: link-grid_button-3bab39.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/417917f0-159c-42ad-9f01-05c3ff66355a.webp
+    asset: 417917f0
+    page: ai-product-image-generator
+    slot: S11-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5c49db20-5b2c-4809-91ee-254b324f0ea6.webp?type=webp&to=min&r=640
+    asset: 5c49db20
+    page: ai-design-tools
+    slot: S03-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: true
+    chrome:
+    - button

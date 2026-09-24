@@ -1,0 +1,33 @@
+sheet: feature-callout_adjust-slider+chip+pill-bccf7b
+group:
+  type: feature-callout
+  chrome: adjust-slider+chip+pill
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+chip+pill-bccf7b.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/42dbbee8-9436-47f4-91f7-c300fac40535.webm
+    asset: 42dbbee8
+    page: video-to-gif
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.73
+    motion: 0.1347
+    pace: fast
+    loop: false
+    loop_seam: 0.819
+    camera: static
+    chrome:
+    - adjust-slider
+    - chip
+    - pill

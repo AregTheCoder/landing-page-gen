@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: size-label, placement: beside, anchor: bl, text: 9x16}

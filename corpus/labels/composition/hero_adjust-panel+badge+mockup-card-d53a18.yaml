@@ -1,0 +1,27 @@
+sheet: hero_adjust-panel+badge+mockup-card-d53a18
+group:
+  type: hero
+  chrome: adjust-panel+badge+mockup-card
+fields:
+- chrome_items
+answers: hero_adjust-panel+badge+mockup-card-d53a18.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2a6c2e04-0903-4e1d-97fa-68877fe198e5.webp
+    asset: 2a6c2e04
+    page: design-localization
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - badge
+    - mockup-card

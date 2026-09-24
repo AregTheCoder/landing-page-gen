@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: left}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: size-label, placement: beside, anchor: bl, text: 1080x1350}
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+    - {kind: tile, placement: overlay, anchor: tl}
+    - {kind: size-label, placement: overlay, anchor: br, text: Pinterest 1000 x 1500 px}

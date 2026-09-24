@@ -1,0 +1,68 @@
+sheet: link-grid_button+model-logo+prompt-panel+tile-eb4113
+group:
+  type: link-grid
+  chrome: button+model-logo+prompt-panel+tile
+fields:
+- chrome_items
+answers: link-grid_button+model-logo+prompt-panel+tile-eb4113.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/22f9b181-cc90-4c98-a686-924284ddf7e5.webp?type=webp&to=min&r=640
+    asset: 22f9b181
+    page: ai-models
+    slot: S02-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/33859b48-55f7-481c-9ac5-a7a1bc09c0db.avif
+    asset: 33859b48
+    page: ai-models--async-flash-v1
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 37
+    n_pages: 37
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/eabb45af-35b4-4c24-b17e-e1c8dda69c59.avif
+    asset: eabb45af
+    page: video-editor
+    slot: S15-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel
+    - tile

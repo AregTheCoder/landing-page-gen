@@ -1,0 +1,26 @@
+sheet: link-grid_badge+chip-3f7b07
+group:
+  type: link-grid
+  chrome: badge+chip
+fields:
+- chrome_items
+answers: link-grid_badge+chip-3f7b07.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/61299aea-b09e-4a44-936b-8cdf9cd34fa8.webp
+    asset: 61299aea
+    page: ai-models--kling-v2-new
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - chip

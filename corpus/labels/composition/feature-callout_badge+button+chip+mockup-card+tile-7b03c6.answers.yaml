@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, text: 50 photos}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: button, placement: beside, anchor: br, text: ORDER}

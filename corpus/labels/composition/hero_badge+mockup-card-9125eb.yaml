@@ -1,0 +1,62 @@
+sheet: hero_badge+mockup-card-9125eb
+group:
+  type: hero
+  chrome: badge+mockup-card
+fields:
+- chrome_items
+answers: hero_badge+mockup-card-9125eb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b86ba28-dc68-4402-85df-4cbcd5e87420.webp
+    asset: 0b86ba28
+    page: brochure-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/49d88aeb-12af-4b54-93ee-8a9185cb9946.png
+    asset: 49d88aeb
+    page: ad-maker
+    slot: S01-m3
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/b262ccd9-133c-4d5c-9bd5-42486d968e20.png
+    asset: b262ccd9
+    page: ad-maker
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: gradient
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card

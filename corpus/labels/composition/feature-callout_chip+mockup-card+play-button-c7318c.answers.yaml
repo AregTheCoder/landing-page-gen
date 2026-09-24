@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: br, text: '0:14'}
+    - {kind: mockup-card, placement: beside, anchor: bottom, state: {active: 1}}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, count: 3, state: {active: 1}, text: George|River|Eric}
+    - {kind: play-button, placement: beside, anchor: top, count: 3}
+    - {kind: chip, placement: beside, anchor: top, count: 3}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: overlay, anchor: left}
+    - {kind: play-button, placement: overlay, anchor: left}
+    - {kind: chip, placement: overlay, anchor: tr}

@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: top}
+    - {kind: button, placement: beside, anchor: centre, text: Generate}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2, state: {active: 2}}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: top, text: "Replace concrete floor with grass."}
+    - {kind: button, placement: beside, anchor: centre, text: Generate}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: tile, placement: beside, anchor: bl}

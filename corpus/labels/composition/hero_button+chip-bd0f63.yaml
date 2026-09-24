@@ -1,0 +1,50 @@
+sheet: hero_button+chip-bd0f63
+group:
+  type: hero
+  chrome: button+chip
+fields:
+- chrome_items
+answers: hero_button+chip-bd0f63.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/997f7fca-e05d-4c7b-82a1-764617256742.avif
+    asset: 997f7fca
+    page: ai-agents
+    slot: S01-m23
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d315d510-1697-42af-b723-10a39b840ec6.webm
+    asset: d315d510
+    page: ai-models--elevenlabs-music-v2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.0
+    motion: 0.0738
+    pace: medium
+    loop: true
+    loop_seam: 0.932
+    camera: static
+    chrome:
+    - button
+    - chip

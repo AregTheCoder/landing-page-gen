@@ -1,0 +1,20 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: play-button, placement: overlay, anchor: centre}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+    - {kind: play-button, placement: overlay, anchor: centre}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: play-button, placement: overlay, anchor: centre}
+4:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+    - {kind: play-button, placement: overlay, anchor: bl}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3, state: {active: 2}}
+    - {kind: play-button, placement: overlay, anchor: br}

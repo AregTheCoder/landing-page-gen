@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr}
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: right}
+    - {kind: tile, placement: beside, anchor: bl}

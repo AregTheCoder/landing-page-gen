@@ -77,6 +77,74 @@ def test_stock_clients_normalise_and_need_keys(monkeypatch):
         assert "PEXELS_API_KEY" in str(exc)
 
 
+def pexels_video_payload(ids):
+    return {"videos": [{
+        "id": i, "url": f"https://www.pexels.com/video/x-{i}/", "image": f"https://images.pexels.com/{i}/poster.jpeg",
+        "duration": 8, "width": 1920, "height": 1080,
+        "user": {"name": f"Maker {i}", "url": f"https://www.pexels.com/@m{i}"},
+        "video_files": [{"file_type": "video/mp4", "width": 640, "height": 360, "link": f"https://videos.pexels.com/{i}/sd.mp4"},
+                        {"file_type": "video/mp4", "width": 1280, "height": 720, "link": f"https://videos.pexels.com/{i}/hd.mp4"},
+                        {"file_type": "video/mp4", "width": 1920, "height": 1080, "link": f"https://videos.pexels.com/{i}/fhd.mp4"}]}
+        for i in ids]}
+
+
+def test_video_clients_normalise_to_the_pool_shape():
+    v = stock.pexels_video_search("cup", "k", fetch=lambda u, headers=None: pexels_video_payload([7]))[0]
+    assert v["id"] == "pexels-v7" and v["kind"] == "video" and v["duration"] == 8 and v["platform"] == "Pexels"
+    assert v["video"] == "https://videos.pexels.com/7/hd.mp4", "the smallest rendition at least 720 px wide"
+    assert v["image"] == v["thumb"] == "https://images.pexels.com/7/poster.jpeg", "the poster stands in for the still"
+    urls = []
+    stock.pexels_video_search("cup", "k", page=2, fetch=lambda u, headers=None: urls.append(u) or {})
+    assert urls[0].startswith("https://api.pexels.com/videos/search?") and "page=2" in urls[0]
+    hit = {"id": 5, "pageURL": "https://pixabay.com/videos/cup-5/", "duration": 12, "user": "Bo", "user_id": 3,
+           "videos": {"large": {"url": "https://cdn.pixabay.com/5_large.mp4", "width": 1920, "height": 1080, "thumbnail": "https://cdn.pixabay.com/5_large.jpg"},
+                      "medium": {"url": "https://cdn.pixabay.com/5_medium.mp4", "width": 1280, "height": 720, "thumbnail": "https://cdn.pixabay.com/5_medium.jpg"},
+                      "small": {"url": "https://cdn.pixabay.com/5_small.mp4", "width": 640, "height": 360, "thumbnail": "https://cdn.pixabay.com/5_small.jpg"}}}
+    p = stock.pixabay_video_search("cup", "SECRET", fetch=lambda u, headers=None: {"hits": [hit]})[0]
+    assert p["id"] == "pixabay-v5" and p["kind"] == "video" and p["duration"] == 12
+    assert p["video"] == "https://cdn.pixabay.com/5_medium.mp4" and p["image"] == "https://cdn.pixabay.com/5_medium.jpg"
+    assert (p["width"], p["height"]) == (1920, 1080), "the clip's own size, from its largest rendition"
+    assert set(stock.SEARCH_VIDEO) == {"pexels", "pixabay"}, "Unsplash has no video API"
+
+
+def test_search_kind_video_writes_clip_entries_and_serves_strips(tmp_path):
+    write_corpus_hashes(tmp_path, noise_image("corpus-photo"))
+    fetch = lambda u, headers=None: pexels_video_payload([1])  # noqa: E731
+    paths, stats = run_search(tmp_path, fetch, kind="video")
+    e = yaml.safe_load(paths[0].read_text())["entries"]["pexels-v1"]
+    assert stats["kind"] == "video" and e["kind"] == "video" and e["state"] == "pending"
+    assert e["video"] == "https://videos.pexels.com/1/hd.mp4" and e["duration"] == 8 and e["phash"], "hashed on the poster"
+    # a platform with no video API is skipped, not an error
+    _, st = pool.search(FAMILY, terms=["cup"], platforms=("pexels", "unsplash"), keys={"pexels": "k", "unsplash": "u"},
+                        fetch=fetch, download=fake_download, to_png=similar.to_png, pool_dir=tmp_path,
+                        attrs_mapping={}, styles_mapping={}, ranker_name="histogram", kind="video", log=lambda m: None)
+    assert set(st["platforms"]) == {"pexels"}
+    # served only when asked for by kind, and as a strip when a grabber is there
+    data = pool.load(FAMILY, tmp_path)
+    data["entries"]["pexels-v1"]["state"] = "kept"
+    pool.save(data, tmp_path)
+    assert pool.pick(FAMILY, 3, "s", pool_dir=tmp_path, kind="image") == []
+    picks = pool.pick(FAMILY, 3, "s", pool_dir=tmp_path, kind="video")
+    assert [p["id"] for p in picks] == ["pexels-v1"]
+
+    class Grabber:
+        def grab_many(self, src, plan):
+            assert src == "https://videos.pexels.com/1/hd.mp4"
+            targets = plan(8.0) if callable(plan) else plan
+            out = []
+            for (_, png), colour in zip(targets, ("red", "red", "green", "blue", "blue")):
+                Image.new("RGB", (16, 9), colour).save(png)
+                out.append(png)
+            return 8.0, out
+    written = pool.write_examples(picks, tmp_path / "ex", fake_download, similar.to_png, pool_dir=tmp_path,
+                                  log=lambda m: None, grabber=Grabber())
+    body = written[0].read_text()
+    assert "kind: video" in body and "duration: 8" in body and "Clip by Maker 1 on Pexels" in body
+    assert "videos.pexels.com" not in body, "the clip URL never reaches a brief"
+    with Image.open(tmp_path / "ex" / "p1-pool.png") as im:
+        assert im.size == (16 * 3 + 4 * 2, 9), "first, middle and last frame"
+
+
 def test_pixabay_parses_and_keeps_its_key_out_of_the_url_we_log():
     urls = []
 

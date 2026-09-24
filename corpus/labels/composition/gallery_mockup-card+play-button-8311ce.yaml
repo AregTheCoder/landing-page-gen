@@ -1,0 +1,26 @@
+sheet: gallery_mockup-card+play-button-8311ce
+group:
+  type: gallery
+  chrome: mockup-card+play-button
+fields:
+- chrome_items
+answers: gallery_mockup-card+play-button-8311ce.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b144ee02-5d94-43c3-8005-48b7094e3017.webp
+    asset: b144ee02
+    page: text-to-video-ai
+    slot: S09-m3
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - play-button

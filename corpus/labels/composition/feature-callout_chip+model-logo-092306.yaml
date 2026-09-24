@@ -1,0 +1,272 @@
+sheet: feature-callout_chip+model-logo-092306
+group:
+  type: feature-callout
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo-092306.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/020cb13e-8745-41e9-afd4-4934b0d98c3f.avif
+    asset: 020cb13e
+    page: compare-models--runway-gen-4-vs-veo-3
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ea6b7bb-fe69-4b6f-b7d6-1ac75a619306.avif
+    asset: 0ea6b7bb
+    page: compare-models--dall-e-3-vs-midjourney
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/10ff9a18-d826-4e35-9225-8a8be5788444.webm
+    asset: 10ff9a18
+    page: ai-models--kling-3-0-omni
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.0
+    motion: 0.1104
+    pace: fast
+    loop: false
+    loop_seam: 0.872
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25ceca51-d022-45b2-a32d-047bbf204ad8.webm
+    asset: 25ceca51
+    page: ai-models--minimax-h3-max-camera-controls
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.05
+    motion: 0.105
+    pace: fast
+    loop: false
+    loop_seam: 0.881
+    camera: push-in
+    chrome:
+    - chip
+    - model-logo
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/37c67046-a263-4cdc-b442-4901a2717a90.avif
+    asset: 37c67046
+    page: ai-models--ideogram-4-0
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/41c52162-d2a1-464f-bcc4-f59782719904.webm
+    asset: 41c52162
+    page: compare-models--wan-2-7-vs-kling-3-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    duration: 5.0
+    motion: 0.045
+    pace: medium
+    loop: true
+    loop_seam: 0.959
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/44133646-3e99-4aa9-8cbc-eb51790a583a.webm
+    asset: '44133646'
+    page: ai-models--hailuo-3
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.04
+    motion: 0.1486
+    pace: fast
+    loop: false
+    loop_seam: 0.86
+    camera: handheld
+    chrome:
+    - chip
+    - model-logo
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/52ef5577-d0cb-492f-96af-688e765484b4.webm
+    asset: 52ef5577
+    page: ai-models--ltx-2-3-audio-to-video
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.5
+    motion: 0.1738
+    pace: fast
+    loop: false
+    loop_seam: 0.837
+    camera: push-in
+    chrome:
+    - chip
+    - model-logo
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/54bf56eb-48e8-4740-bbb4-7259ce71dace.webm
+    asset: 54bf56eb
+    page: ai-models--wan-3-0
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 3.21
+    motion: 0.0272
+    pace: slow
+    loop: true
+    loop_seam: 0.938
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/57793011-1bc9-4365-8e39-4d469817dc17.avif
+    asset: '57793011'
+    page: compare-models--gpt-image-1-5-vs-flux-2-pro
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5c68e8a1-59e5-49d5-835f-f78de0dbb540.webm
+    asset: 5c68e8a1
+    page: compare-models--sora-vs-veo
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 5.0
+    motion: 0.0865
+    pace: medium
+    loop: false
+    loop_seam: 0.898
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5ec5bf49-41b7-423c-9b41-c029ced37a5a.webm
+    asset: 5ec5bf49
+    page: compare-models--seedance-2-vs-kling-3-0
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.04
+    motion: 0.0615
+    pace: medium
+    loop: true
+    loop_seam: 0.91
+    camera: push-in
+    chrome:
+    - chip
+    - model-logo

@@ -14,7 +14,9 @@ Checks:
 - `media.style` mirrors `styles.yaml` (the apply/mirror step was run);
 - every stored label value is inside its enum (`attrs.FIELDS` via `label.check`);
 - no attributes entry points at a src the DB no longer has;
-- every pool entry carries the required fields, a known licence, and its family.
+- every pool entry carries the required fields, a known licence, and its family;
+- `grammar.yaml` was built from the corpus as it is now, and `page-grammar.md`
+  is exactly what `lp-corpus grammar --write-doc` renders from it.
 """
 
 from __future__ import annotations
@@ -23,7 +25,7 @@ import json
 from collections import namedtuple
 from pathlib import Path
 
-from . import attrs, db, label, sheets, stock, styles, taxonomy
+from . import attrs, db, grammar, label, sheets, stock, styles, taxonomy
 
 Finding = namedtuple("Finding", "level code message")
 ERROR, WARN = "ERROR", "WARN"
@@ -130,6 +132,41 @@ def _labels_in_enum(mapping):
     return out
 
 
+def _chrome_items(mapping):
+    """chrome_items must validate, its kinds must equal the plain `chrome` bag,
+    and a chrome-answered asset still missing its items is the campaign backlog."""
+    out = []
+    off_enum = 0
+    off_example = None
+    drift = 0
+    drift_example = None
+    pending = 0
+    for src, rec in mapping.items():
+        items = rec.get("chrome_items")
+        if items is not None:
+            _, err = label.check("chrome_items", items)
+            if err:
+                off_enum += 1
+                off_example = off_example or f"{attrs.asset_id(src)} {err}"
+                continue
+            bag = set(rec.get("chrome") or [])
+            if {it["kind"] for it in items} != bag:
+                drift += 1
+                drift_example = drift_example or attrs.asset_id(src)
+        elif rec.get("chrome"):  # a non-empty answered bag with no items yet
+            pending += 1
+    if off_enum:
+        out.append(Finding(ERROR, "chrome-items-off-enum",
+                           f"{off_enum} asset(s) have a chrome_items entry outside the vocabulary, e.g. {off_example}"))
+    if drift:
+        out.append(Finding(ERROR, "chrome-bag-drift",
+                           f"{drift} asset(s) whose chrome_items kinds != the chrome bag, e.g. {drift_example}"))
+    if pending:
+        out.append(Finding(WARN, "chrome-items-pending",
+                           f"{pending} chrome-answered asset(s) still await a labelled composition (chrome_items)"))
+    return out
+
+
 def _orphans(con, mapping):
     db_srcs = {r["src"] for r in con.execute("SELECT DISTINCT src FROM media")}
     orphans = [src for src in mapping if src not in db_srcs]
@@ -159,11 +196,26 @@ def _pool(pool_dir):
     return out
 
 
+def _grammar(con, grammar_path, doc_path):
+    g = grammar.load(grammar_path) if grammar_path else None
+    if g is None:
+        return [Finding(WARN, "grammar-missing", "no corpus/grammar/grammar.yaml: run `lp-corpus grammar --write-doc`")] \
+            if grammar_path else []
+    out = []
+    if g["source"]["hash"] != grammar.source_hash(con):
+        out.append(Finding(WARN, "grammar-stale", "grammar.yaml predates the current sections/slots/attributes: "
+                                                  "re-run `lp-corpus grammar --write-doc`"))
+    if doc_path and Path(doc_path).exists() and Path(doc_path).read_text() != grammar.render_doc(g):
+        out.append(Finding(ERROR, "grammar-doc", f"{doc_path} differs from what grammar.yaml renders "
+                                                 "(hand-edited or not re-written): run `lp-corpus grammar --write-doc`"))
+    return out
+
+
 DB_PATH = Path("corpus/corpus.db")
 
 
 def run(db_path=DB_PATH, pages_dir=PAGES_DIR, pool_dir=POOL_DIR,
-        attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML):
+        attrs_path=attrs.ATTRIBUTES_YAML, styles_path=styles.STYLES_YAML, grammar_path=None, grammar_doc=None):
     con = db.connect(Path(db_path))
     mapping = attrs.load(attrs_path)
     tags = styles.load(styles_path)
@@ -173,8 +225,10 @@ def run(db_path=DB_PATH, pages_dir=PAGES_DIR, pool_dir=POOL_DIR,
     findings += _styles_synced(mapping, tags)
     findings += _db_mirror(con, tags)
     findings += _labels_in_enum(mapping)
+    findings += _chrome_items(mapping)
     findings += _orphans(con, mapping)
     findings += _pool(pool_dir)
+    findings += _grammar(con, grammar_path, grammar_doc)
     return findings
 
 

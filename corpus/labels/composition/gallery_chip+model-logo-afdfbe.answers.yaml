@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: top, text: Picsart}
+    - {kind: model-logo, placement: beside, anchor: top, text: MiniMax H3}

@@ -1,0 +1,25 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "MiniMax H3|Seedance 2.5"}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Veo 3.1"}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl, count: 4, state: {active: 2}}
+    - {kind: model-logo, placement: beside, anchor: tl, count: 4}
+4:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: "Seedance 2.0|Veo 3.1"}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+5:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "Gemini Omni 1.1 Flash|Veo 3.1"}
+    - {kind: chip, placement: overlay, anchor: bl, state: {on: true}, text: "Audio: On"}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+6:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 5, state: {active: 3}}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 5}

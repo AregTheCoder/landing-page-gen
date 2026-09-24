@@ -1,0 +1,25 @@
+sheet: resource-links_button-0a00ef
+group:
+  type: resource-links
+  chrome: button
+fields:
+- chrome_items
+answers: resource-links_button-0a00ef.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d0b15ba-d839-4e90-bf3d-5712960a357f.jpg
+    asset: 1d0b15ba
+    page: video-editor
+    slot: S12-m1
+    type: resource-links
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button

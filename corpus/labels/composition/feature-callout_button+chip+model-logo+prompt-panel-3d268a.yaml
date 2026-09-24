@@ -1,0 +1,60 @@
+sheet: feature-callout_button+chip+model-logo+prompt-panel-3d268a
+group:
+  type: feature-callout
+  chrome: button+chip+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+chip+model-logo+prompt-panel-3d268a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/108a2d8f-fb39-4fc6-b4b9-6d0752a6074b.webm
+    asset: 108a2d8f
+    page: ai-models--happyhorse-1-1
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 7
+    n_pages: 7
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.03
+    motion: 0.0438
+    pace: medium
+    loop: true
+    loop_seam: 0.942
+    camera: static
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3dfd3166-3597-41f1-bb66-917b51226d24.webm
+    asset: 3dfd3166
+    page: ai-models--kling
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.97
+    motion: 0.0809
+    pace: medium
+    loop: false
+    loop_seam: 0.875
+    camera: static
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - prompt-panel

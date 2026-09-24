@@ -1,0 +1,50 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Kling 3.0|Seedance 2.5}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: GPT Image 1.5|Imagen 4.0 Ultra}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Runway Gen 4}
+    - {kind: chip, placement: beside, anchor: bottom, count: 6}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Seedance 2.5|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, state: {"on": true}, text: "On"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: 30s|15s|4K|60 fps}
+5:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 5, text: Recraft V4|3:4|4 Images|Raster|Enrich}
+    - {kind: model-logo, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Runway Gen 4|Veo 3.1}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+7:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Seedance 2.5|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+8:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Veo 3.1|Kling 3.0}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+9:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 2, text: Nano Banana 2|Flux 2 Pro}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: Veo 3.1|Kling 3.0}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: 30|15 seconds|75}
+11:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: bl, count: 5, state: {active: 1}}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 5}
+12:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Runway Gen 4}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 2K|4K}

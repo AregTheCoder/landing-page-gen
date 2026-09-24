@@ -1,0 +1,17 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: tile, placement: beside, anchor: tr}
+    - {kind: tile, placement: beside, anchor: br, text: Aa}
+3:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+    - {kind: mockup-card, placement: overlay, anchor: bl, state: {active: 2}, text: Stickers}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, text: Emily}
+    - {kind: tile, placement: overlay, anchor: right, count: 2}

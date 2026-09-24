@@ -1,0 +1,134 @@
+sheet: link-grid_model-logo+tile-309be6
+group:
+  type: link-grid
+  chrome: model-logo+tile
+fields:
+- chrome_items
+answers: link-grid_model-logo+tile-309be6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp
+    asset: 3cf35baa
+    page: ai-models--flux-2-flex
+    slot: S11-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 28
+    n_pages: 28
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3cf35baa-2e25-4715-9a50-eb380c2c6294.webp?type=webp&to=min&r=640
+    asset: 3cf35baa
+    page: ai-models
+    slot: S03-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp
+    asset: 548b38f1
+    page: ai-models--dall-e-3
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/548b38f1-6008-4354-9972-f18276ecf4a7.webp?type=webp&to=min&r=640
+    asset: 548b38f1
+    page: ai-models
+    slot: S02-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a3c3ca6d-d82c-4bc0-b975-9fdf9cc6fd24.webp
+    asset: a3c3ca6d
+    page: ai-models--async-flash-v1
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 16
+    n_pages: 16
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f85d92c0-4b9d-40a9-ac3a-3425c71994a5.webp
+    asset: f85d92c0
+    page: ai-models--dall-e-3
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f85d92c0-4b9d-40a9-ac3a-3425c71994a5.webp?type=webp&to=min&r=640
+    asset: f85d92c0
+    page: image-models
+    slot: S03-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - model-logo
+    - tile

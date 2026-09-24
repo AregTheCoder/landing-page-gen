@@ -15,7 +15,7 @@ board: blank                      # blank (default) | template
 template: null                    # board: template only, see below
 pattern: anchored                 # the board recipe from image-workflows.md
 target: {size: 1440x810, aspect: "16:9", generate_ratio: "16:9"}
-models: {primary: gemini-3-pro-image, reason: default}
+models: {primary: gpt-image-2.5-sunburst, reason: default}
 start:                            # START: what enters the board
   inputs:
     - {id: ref-hero, kind: ref, url: "https://.../hero.png", use: "light and palette only"}
@@ -25,16 +25,18 @@ steps:                            # the nodes, in wiring order
     node: image                   # Flow node kind: text | ref | image | edit | cutout | background | enhance | video | motion | compose
     in: [start]                   # the nodes this one takes its input from (start, or earlier ids)
     tool: picsart_generate
-    model: gemini-3-pro-image
+    model: gpt-image-2.5-sunburst
     params:
       prompt: "..., the headline \"50% OFF\" in bold white capitals across the top third, no other text, no logos or watermarks"
       aspectRatio: "16:9"
-      resolution: 2K
+      quality: high               # high (2 cr) by default; max (7 cr) only where the copy claims detail (same pixels)
       count: 1
+      saveToDrive: false          # always: Drive auto-save 403s as a fake policy block
       imageUrls: ["https://.../hero.png"]
     quoted_credits: 5
     gate: "product centred, \"50% OFF\" spelt exactly and no other text, palette matches hero"
-    reason: ""                    # what this node varies or why it exists; required on any image node off gemini-3-pro-image
+    reason: ""                    # what this node varies or why it exists; required on any image node off gpt-image-2.5-sunburst
+    panel: null                   # the composition panel (or null) this node's output becomes; required on a panel made-by.yaml attributes
     status: pending               # pending | done | failed | skipped (dry run)
     outputs: []                   # URLs, filled after the call
     passed: null                  # URL that passed the gate, or null
@@ -106,21 +108,53 @@ A video node carries the video non-negotiables explicitly:
 ```
 
 A compose node (composite recipe) is local and free; it is fed by every
-panel node it places:
+panel node it places. The manager writes the composition plan
+(`composition-<slot>.yaml`: the layout's skeleton, its panels and its slots
+with their candidate blocks); the worker picks a block per slot in
+`blocks-<slot>.yaml` (`blocks.md`), turns plan + picks into the spec with
+`spec-from-plan --blocks` (adding only panel images) and renders that spec —
+it never hand-authors the item list:
 
 ```yaml
   - id: 3
     node: compose
     in: [1, 2]
     tool: lp-compose
+    # first: uv run lp-compose --spec-from-plan composition-S07-m1.yaml --blocks blocks-S07-m1.yaml \
+    #          --image photo=steps/S07-m1-1-1.png --image thumb-a=steps/S07-m1-2-1.png \
+    #          --out compose-S07-m1.yaml   (adds only image paths; items are the picked blocks)
     params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}
     quoted_credits: 0
-    gate: "panels unstretched, subject inside each panel, pills legible at 480 px"
+    gate: "every picked block present, in its slot, saying what the pick gave it; panels unstretched; subject inside each panel; chrome legible at 480 px; no string twice"
     status: pending
     outputs: []              # the local path when done
     passed: null
     note: ""
 final: {url: null, local: steps/S07-m1-3-1.png, width: 720, height: 720}
+```
+
+A **hybrid** chrome item — one the composition plan marks `rendered_by: model`
+because it is too organic or bespoke for `lp-compose` to draw (a brushed mask,
+the page's mark applied on packaging, a face box with keypoints) — is painted
+inside its own generate/edit node, which carries `chrome_item:` naming the plan
+item and a `reason:`. The prompt mentions that item and nothing else UI; the
+compose node then draws every OTHER item (compose skips the model item):
+
+```yaml
+  - id: 2
+    node: edit
+    in: [1]
+    tool: picsart_generate
+    model: picsart-qwen-image-edit
+    chrome_item: mark              # the plan item this node renders (rendered_by: model)
+    reason: "the page's mark on the tote is a bespoke placement, not templatable"
+    params: {prompt: "apply the mark (applied-mockup) onto the tote, nothing else changed", imageUrls: ["<step 1 passed>"]}
+    quoted_credits: 4
+    gate: "the mark sits on the tote, matches its reason, no text, nothing else changed"
+    status: pending
+    outputs: []
+    passed: null
+    note: ""
 ```
 
 A text node is the worker's own writing, no call: it holds a prompt or a
@@ -149,6 +183,11 @@ words exist once on the board.
 - `node:` is the kind Flow would give the step; `tool:` is the engine it
   runs on (`tool-map.md`, "Flow nodes"). `lp-flow check` refuses a kind on
   the wrong engine (an `edit` node on `picsart_enhance`).
+- `chrome_item:` marks a generate/edit node that paints a hybrid plan item
+  (`rendered_by: model`); it needs a `reason:` and its prompt names that item.
+  `lp-flow check` lints a generate/edit node that has NO `chrome_item` but
+  whose prompt names UI (`slider`, `toolbar`, `dropdown`, …): chrome is
+  `lp-compose`'s, never a model's, unless the plan marks it hybrid.
 - `board: blank` is the default. `board: template` needs `template.title`,
   `template.url` and `template.adapted`; a template never overrides the
   model rule, the text rule or the family's **Never** list (`flow-boards.md`).

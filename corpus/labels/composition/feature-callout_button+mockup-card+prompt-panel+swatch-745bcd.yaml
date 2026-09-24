@@ -1,0 +1,28 @@
+sheet: feature-callout_button+mockup-card+prompt-panel+swatch-745bcd
+group:
+  type: feature-callout
+  chrome: button+mockup-card+prompt-panel+swatch
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+prompt-panel+swatch-745bcd.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f69463de-b738-4fd4-96c0-82cc9989dbe3.webp
+    asset: f69463de
+    page: brand-kit-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+    - swatch

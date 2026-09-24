@@ -1,0 +1,62 @@
+sheet: link-grid_chip+swatch-88fc76
+group:
+  type: link-grid
+  chrome: chip+swatch
+fields:
+- chrome_items
+answers: link-grid_chip+swatch-88fc76.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0ba6a9fb-d030-43ea-a562-aaf647befec7.png
+    asset: 0ba6a9fb
+    page: ai-assets-generator
+    slot: S10-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - swatch
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/0ba6a9fb-d030-43ea-a562-aaf647befec7.png?type=webp&to=min&r=640
+    asset: 0ba6a9fb
+    page: design
+    slot: S07-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - swatch
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/7e3e579f-3bfa-445c-aa33-d2650ecfdf17.png
+    asset: 7e3e579f
+    page: brand-identity-generator
+    slot: S10-m3
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - swatch

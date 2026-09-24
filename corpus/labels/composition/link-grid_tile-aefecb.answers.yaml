@@ -1,0 +1,9 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: right, count: 2}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}

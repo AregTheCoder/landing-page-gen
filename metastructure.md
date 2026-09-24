@@ -108,6 +108,23 @@ the file that connects a corpus asset to the vocabulary in the
 Gallery Flow boards keyed by family/device, offered to a worker by
 `lp-flow templates` when one fits.
 
+### 1.6 Page grammar — `corpus/grammar/`
+
+`lp-corpus grammar` derives what the pages do where from `corpus.db` alone
+(sections, slots, `media.style`, `media.attrs`): one context row per
+generated-role slot (immediate: section type, size, aspect, headline words,
+copy cues, sibling media; wider: page family, with a family-less sub-page
+taking its parent's, position band, neighbouring section types, other videos
+on the page) against the decisions the original made (image or video, length,
+family, subject, art style, motion). `grammar.yaml` holds the section order per
+page family, the backoff priors (`type|pfam|size` → `type|pfam` → `type` →
+`*`), the context → decision rules with support and lift, motifs, copy themes
+and clip lengths; it carries no asset ids, because `brief.py` reads it.
+`report.md` adds example slots per rule. `--write-doc` renders
+`.claude/skills/picsart-workflows/page-grammar.md` from the yaml. All three are
+derived: re-run after `sectionize`, `labels` or `styles`, never hand-edit.
+`skeleton` writes each slot's `> prior:` line from it.
+
 ---
 
 ## 2. Library — `library/`
@@ -210,7 +227,8 @@ Never wired into a node; they widen what a family's photography can look like.
 - **The corpus is verifiable.** `lp-corpus doctor` is the machine check of this
   document: every snapshot indexed, every generated asset measured, `styles.yaml`
   derived from `attributes.yaml` and mirrored into `media.style`, every label
-  inside its enum, the pool well-formed. Run it after a scrape (and in CI); an
+  inside its enum, the pool well-formed, the page grammar built from the corpus
+  as it is and its doc rendered from it. Run it after a scrape (and in CI); an
   ERROR means a stage was skipped or a source hand-edited, and it exits non-zero.
   A new page conforms to this format by passing through the full pipeline and
   clearing `doctor` — that is the intake contract.

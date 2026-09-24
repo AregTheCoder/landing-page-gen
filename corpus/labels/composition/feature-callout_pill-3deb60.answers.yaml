@@ -1,0 +1,24 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+2:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+3:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+4:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: br, text: After}
+5:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+6:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+7:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}
+8:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, text: Before}

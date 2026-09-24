@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: button, placement: overlay, anchor: centre, text: Download}

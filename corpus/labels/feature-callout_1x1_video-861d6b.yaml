@@ -1,0 +1,257 @@
+sheet: feature-callout_1x1_video-861d6b
+group:
+  type: feature-callout
+  ground: '1:1'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_1x1_video-861d6b.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/88a278dc-8cfd-44e8-a4f1-bf6bb3b209e3.webm
+    asset: 88a278dc
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0612
+    pace: medium
+    loop: true
+    loop_seam: 0.956
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/9a207e71-e338-49de-839f-42db5717f83b.webm
+    asset: 9a207e71
+    page: ai-models--topaz-video-upscale
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.64
+    motion: 0.093
+    pace: medium
+    loop: false
+    loop_seam: 0.841
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/9a2ab912-3d32-48f5-8d35-55894b61aca9.webm
+    asset: 9a2ab912
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.9
+    motion: 0.1677
+    pace: fast
+    loop: false
+    loop_seam: 0.808
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/9d92c142-3ce4-48e7-87b3-ba6a5041f13d.webm
+    asset: 9d92c142
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0563
+    pace: medium
+    loop: false
+    loop_seam: 0.883
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/a134a65e-e0d2-4d69-9d46-b21b54e1c72f.webm
+    asset: a134a65e
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.1124
+    pace: fast
+    loop: true
+    loop_seam: 0.921
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/ac90a9ec-53f2-4c9a-aedf-567cb9836d3c.webm
+    asset: ac90a9ec
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0392
+    pace: slow
+    loop: true
+    loop_seam: 0.929
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/b950e4d6-0983-4286-b560-8ad332c203f6.webm
+    asset: b950e4d6
+    page: ai-models--topaz-video-upscale
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.08
+    motion: 0.2076
+    pace: fast
+    loop: false
+    loop_seam: 0.753
+  8:
+    src: https://pcdn.picsart.com/cms-uploads/b977516a-d1e9-49a3-82c1-5c43f94ea81a.webm
+    asset: b977516a
+    page: ai-models--wan-3-0-prime
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.04
+    motion: 0.0944
+    pace: medium
+    loop: true
+    loop_seam: 0.963
+  9:
+    src: https://pcdn.picsart.com/cms-uploads/cd345e82-4544-4842-9d78-0d97f1bc4c9c.webm
+    asset: cd345e82
+    page: ai-models--topaz-video-upscale
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.04
+    motion: 0.2043
+    pace: fast
+    loop: false
+    loop_seam: 0.784
+  10:
+    src: https://pcdn.picsart.com/cms-uploads/cf385074-fd5d-4c5c-b3df-e8406e000da2.webm
+    asset: cf385074
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.1964
+    pace: fast
+    loop: false
+    loop_seam: 0.871
+  11:
+    src: https://pcdn.picsart.com/cms-uploads/e66c174f-93fb-4859-88ba-e03749226dc6.webm
+    asset: e66c174f
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0804
+    pace: medium
+    loop: false
+    loop_seam: 0.861
+  12:
+    src: https://pcdn.picsart.com/cms-uploads/ec2cf633-f29e-450e-a382-b385dfb74458.webm
+    asset: ec2cf633
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.01
+    motion: 0.0687
+    pace: medium
+    loop: false
+    loop_seam: 0.882

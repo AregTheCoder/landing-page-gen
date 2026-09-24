@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: "High-fashion editorial photo of two"}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 4, state: {active: 2}}

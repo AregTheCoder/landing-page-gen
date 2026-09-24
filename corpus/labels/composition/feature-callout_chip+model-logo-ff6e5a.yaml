@@ -1,0 +1,145 @@
+sheet: feature-callout_chip+model-logo-ff6e5a
+group:
+  type: feature-callout
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo-ff6e5a.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/88a278dc-8cfd-44e8-a4f1-bf6bb3b209e3.webm
+    asset: 88a278dc
+    page: compare-models--minimax-h3-vs-seedance-2-5
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0612
+    pace: medium
+    loop: true
+    loop_seam: 0.956
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/9a2ab912-3d32-48f5-8d35-55894b61aca9.webm
+    asset: 9a2ab912
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.9
+    motion: 0.1677
+    pace: fast
+    loop: false
+    loop_seam: 0.808
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://pcdn.picsart.com/cms-uploads/a3502ec3-cfed-45f4-8f3d-6ae643df6603.avif
+    asset: a3502ec3
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/e66c174f-93fb-4859-88ba-e03749226dc6.webm
+    asset: e66c174f
+    page: compare-models--seedance-2-0-vs-veo-3-1
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0804
+    pace: medium
+    loop: false
+    loop_seam: 0.861
+    camera: push-in
+    chrome:
+    - chip
+    - model-logo
+  5:
+    src: https://pcdn.picsart.com/cms-uploads/eff22a9d-953a-40f1-99ac-68d8087d8047.webm
+    asset: eff22a9d
+    page: ai-models--gemini-omni-1-1-flash
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0438
+    pace: medium
+    loop: true
+    loop_seam: 0.928
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  6:
+    src: https://pcdn.picsart.com/cms-uploads/f13eee24-5b1c-41ce-938f-a2bac517d85e.webm
+    asset: f13eee24
+    page: ai-models--minimax-h3-max
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.57
+    motion: 0.0421
+    pace: medium
+    loop: true
+    loop_seam: 0.985
+    camera: static
+    chrome:
+    - chip
+    - model-logo

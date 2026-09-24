@@ -1,0 +1,44 @@
+sheet: use-case-grid_button+mockup-card-c97d8a
+group:
+  type: use-case-grid
+  chrome: button+mockup-card
+fields:
+- chrome_items
+answers: use-case-grid_button+mockup-card-c97d8a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/327f0a90-14dd-45c9-be23-5cf1152fcf12.avif
+    asset: 327f0a90
+    page: persona
+    slot: S11-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6c468bfc-7bf8-45c8-a53f-994caedfebc0.webp
+    asset: 6c468bfc
+    page: invitation-maker
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card

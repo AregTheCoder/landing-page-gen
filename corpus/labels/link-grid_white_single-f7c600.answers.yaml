@@ -1,5 +1,6 @@
 1:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: typography
@@ -8,7 +9,8 @@
   family_hint: template-mockup
   confidence: 0.4
 2:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -17,7 +19,8 @@
   family_hint: before-after
   confidence: 0.4
 3:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -35,7 +38,8 @@
   family_hint: cutout-checkerboard
   confidence: 0.7
 5:
-  chrome: [swatch]
+  chrome:
+  - swatch
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -44,7 +48,9 @@
   family_hint: cutout-checkerboard
   confidence: 0.35
 6:
-  chrome: [brackets, selection-handles]
+  chrome:
+  - brackets
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: food
@@ -53,7 +59,9 @@
   family_hint: editor-canvas
   confidence: 0.45
 7:
-  chrome: [brackets, selection-handles]
+  chrome:
+  - brackets
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: food
@@ -62,7 +70,8 @@
   family_hint: editor-canvas
   confidence: 0.45
 8:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -71,7 +80,8 @@
   family_hint: before-after
   confidence: 0.45
 9:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -89,7 +99,8 @@
   family_hint: full-bleed
   confidence: 0.5
 11:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -98,7 +109,8 @@
   family_hint: before-after
   confidence: 0.4
 12:
-  chrome: [play-button]
+  chrome:
+  - play-button
   text_in_image: none
   ui_mockup: none
   subject: object

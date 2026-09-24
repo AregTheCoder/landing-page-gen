@@ -1,0 +1,25 @@
+sheet: feature-callout_pill+play-button-34229a
+group:
+  type: feature-callout
+  chrome: pill+play-button
+fields:
+- chrome_items
+answers: feature-callout_pill+play-button-34229a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e51eac79-2c44-41ba-80d3-8d219c980eaf.webp
+    asset: e51eac79
+    page: comic-book-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    chrome:
+    - pill
+    - play-button

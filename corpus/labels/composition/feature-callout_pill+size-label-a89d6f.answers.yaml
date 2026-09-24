@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: tl, text: 20% OFF BACK TO SCHOOL}
+    - {kind: size-label, placement: overlay, anchor: br, text: Instagram story 1000 x 1500 px}

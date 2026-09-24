@@ -1,0 +1,11 @@
+1:
+  chrome: [tile, chip, button, pill]
+  text_in_image: body
+  ui_mockup: browser-window
+  subject: multiple
+  art_style: ui-screenshot
+  description: Picsart app dashboard with size picker, tool library and AI effects thumbnail gallery
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static

@@ -1,0 +1,28 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, state: {active: 2}, text: 20|40|80}
+5:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: centre, text: Collage}
+7:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl, text: Flux 2 Pro}
+    - {kind: chip, placement: beside, anchor: right, text: Midjourney}
+9:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: centre, text: Blur}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: left, count: 2, text: Start Frame|End Frame}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: centre, text: AI}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tl, text: AI}

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl, text: Wan 3.0 Prime}
+    - {kind: size-label, placement: beside, anchor: br, text: 1080p}

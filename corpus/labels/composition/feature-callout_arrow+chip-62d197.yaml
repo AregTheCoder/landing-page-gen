@@ -1,0 +1,26 @@
+sheet: feature-callout_arrow+chip-62d197
+group:
+  type: feature-callout
+  chrome: arrow+chip
+fields:
+- chrome_items
+answers: feature-callout_arrow+chip-62d197.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/db96688b-19f8-48f3-a6ed-b345bd30241f.avif
+    asset: db96688b
+    page: flip-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - arrow
+    - chip

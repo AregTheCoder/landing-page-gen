@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: 30% OFF COUPON}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, state: {active: 2}}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: top, text: spark}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5, state: {active: 3}}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 6}

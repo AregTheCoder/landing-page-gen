@@ -1,0 +1,25 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: top, count: 4}
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: br, text: "58:39"}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl}
+    - {kind: tile, placement: beside, anchor: tr, count: 2}
+    - {kind: chip, placement: overlay, anchor: bottom, count: 2, text: "Neon Colors|Portrait"}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: top, count: 4}
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: br, text: "15:24"}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bottom}
+    - {kind: tile, placement: beside, anchor: right}
+    - {kind: chip, placement: overlay, anchor: right, text: PDF}
+6:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: right, count: 3, state: {active: 2}, text: "Aa|Aa|Aa"}
+    - {kind: chip, placement: overlay, anchor: tl, text: Text}
+    - {kind: mockup-card, placement: overlay, anchor: bl}

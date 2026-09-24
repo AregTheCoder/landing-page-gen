@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: left}
+    - {kind: model-logo, placement: beside, anchor: tr, text: ai}
+    - {kind: chip, placement: overlay, anchor: bottom}
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: left}
+    - {kind: model-logo, placement: beside, anchor: tr, text: ai}
+    - {kind: chip, placement: overlay, anchor: bottom}

@@ -79,9 +79,11 @@ taught it.
   life where the family is a flat composite is a `resemblance` 1.
   (runs/trial-1 S07)
 - Composite slots: the worker generates the photographic panels only;
-  ground, panels and chrome come from `lp-compose` with the family template,
-  so `clean` is scored on the panels and chrome text is limited to the
-  family's labels (Before, After, x2, 4K, a size). (runs/trial-1 S07)
+  ground, panels and chrome come from `lp-compose` through the slot's
+  composition plan (`composition-<slot>.yaml`), so `clean` is scored on the
+  panels and chrome text is limited to the plan's labels (Before, After, x2,
+  4K, a size — the manager's strings). (runs/trial-1 S07; plan as the contract
+  2026-09-22)
 - `similar --exclude <page>` is not enough for a blind trial: sibling pages of one
   CMS block share the source image. Grep the brief for the source asset id and
   swap those examples out by hand. (runs/trial-3 S09)
@@ -149,6 +151,66 @@ taught it.
   the hero URL is an optional `imageUrls` for a Series that has not yet
   rendered. (runs/live-1: 7 idle minutes between waves; runs/trial-4 and
   trial-5 landed the look without an image anchor)
+- The page grammar advises; the original decides. A slot keeps the source
+  page's image-or-video and its length; `> prior:` (what slots in this
+  context usually are, from `lp-corpus grammar`) fills one TODO, a video's
+  length when the original's is unknown (held-out error 3.6 s vs 5.2 s for
+  the flat 5 s), and a `# unusual:` note gets a one-line keep decision in the
+  report, never a switch. The family prior is a shortlist, not a pick (top-1
+  34 % vs 33 % for always the commonest family), and the context rules
+  describe the corpus but do not forecast a slot: blended into the video
+  share they doubled its held-out Brier. Count evidence in page clusters: one
+  CMS template on 60 sibling pages is one example. (2026-09-23, page grammar)
+- A section with several slots is briefed per slot, each from its own
+  original: one exemplar's layout given to six tiles made two-up cards of
+  tiles that are compare cards and full-bleed photos on the live page. A
+  cover crop anchors on the subject; a centre crop cut two heads that the
+  worker's own gate passed. (2026-09-24, random-2 S11)
+- A picture is solid: on a transparent sheet, a figure that a 4 px erosion
+  wipes out (lettering, a line sticker, a wordmark, a waveform) is strokes and
+  never a panel. The "2024" sticker became a two-panel layout a worker then
+  built on, its pictures shrunk to a strip. (2026-09-24, qa-live S05)
+- A tool's own operation is a device: a page that stretches or extends a
+  photo is shown narrow beside wide (crop-frame `stretch`, from the stretcher
+  page's original), never on a crop layout whose result is narrower than its
+  source. (2026-09-24, qa-live S05)
+- A layout is checked against the slot's own original before anything is
+  spent: panel count, boxes (a compare card is one box, not two panels), the
+  share of the canvas the pictures fill and the aspect. The random-2 S11
+  brief and the qa-live S05 sticker layout both fail it. (2026-09-24)
+- A cover crop keeps its subject: plans crop scenes with `anchor: subject`
+  (faces, then people, then the salient object, macOS Vision), and a face any
+  crop still cuts is a `verify:` fault. (2026-09-24, random-2 S11 heads)
+- A composite is benched as the family its compose spec drew; its pixels alone
+  read a compare card as `unresolved` (S11 family match 0.17 -> 0.67).
+  (2026-09-24)
+- A still a model page attributes to a video model is a frame of that model's
+  clip; the brief says so and the clip is quoted before anything else. A
+  still from an image model there is a false claim, and `lp-flow check` only
+  catches it after the spend. (2026-09-24, qa-live-2 S06)
+- On a model page only the result is the model's: a prompt card's reference
+  inputs (the clip and photo a user brings) are made on any model; its result
+  panel (the largest) is the model's own output, for a video model a frame of
+  a real clip of it. (Areg, 2026-09-24: "the honest option")
+- A frame for a panel comes from a clip made at the panel's shape: a
+  near-square panel cut from a 9:16 frame lost the mug the card was about.
+  (2026-09-24, qa-live-2 S06)
+- Blind means blind to the original's content, not only its file: a blind
+  worker gets context (copy, geometry, the page grammar, other pages'
+  examples) and proposes the slot itself; nothing the manager read off the
+  original reaches it. (Areg, 2026-09-24)
+- A slot's measured padding never pushes its words off a short card: every
+  text card clamps pad to a quarter of its size. (2026-09-24, qa-live-2 S06)
+- A failed paid call is logged at its quote (`failed: true`,
+  PostToolUseFailure) for the record; neither the cap nor precheck counts it,
+  and the balance check settles whether it charged. Twice a 403'd enhance
+  cost nothing, and counting it blocked the re-run (blind-1-1). (2026-09-24)
+- A preflight quotes the exact call that runs: same model, same prompt. A
+  draft or a placeholder prompt is not a quote (precheck flags it).
+  (2026-09-24, qa-live-3)
+- Examples are distinct pictures: sibling pages share one CMS asset, so the
+  same picture reached through two pages is one example. (2026-09-24,
+  qa-live-3)
 
 ## Non-goals
 
@@ -239,6 +301,12 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
 - A `saveToDrive: false` re-run is a new preflight as well as a new step: the
   params differ by that flag, and a re-run that reuses its parent's quote has
   no row of its own. (runs/trial-6 S01, review 1 record note)
+- A paid call is priced by the preflight of its own model and prompt, never
+  by the model's latest quote: parallel workers share a model at different
+  prices (1 cr medium, 2 cr high), and 28 of 35 generates were logged at
+  another worker's quote (ledger 68 cr, balance moved 44). Reconcile a run's
+  ledger against `picsart_credits`, not against itself. (runs/random-2,
+  `hooks/_ledger.last_quote`)
 - On a template/card-maker page (birthday-card, greeting-card, invitation), the
   gallery originals are designed card thumbnails and the callouts show finished
   cards, not photographs: brief the gallery as `full-bleed` with a per-tile
@@ -248,11 +316,16 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   an object on a surface (8 of 15 tiles, runs/live-4 S05 first round; all three
   callout first attempts read as printed-card/book-cover mockups).
 - Every image is `gemini-3-pro-image` — finished slot, gallery tile, and
-  composite thumbnail alike. The only exception is truthfulness: when the
-  section copy tied to the image explicitly says the picture was generated by
-  a specific named model (a model-showcase or compare page), generate that one
-  image with the model the copy names and quote that copy in the step; absent
-  such copy, pro model always. A cheaper price, a short string, or many tiles
+  composite thumbnail alike. The only exception is truthfulness: a picture
+  the page or its chrome presents as a named model's output is made on that
+  model — every picture of an ai-models page, each side of a compare-models
+  vs-two-up, a model picker's panels — enforced from the brief's
+  `made-by.yaml` by `lp-flow check` down the whole node lineage. composition-1
+  (2026-09-23) made its "Recraft V4" picker card and its GPT Image 1.5 vs Flux 2
+  Pro comparison entirely on Nano Banana Pro because the old exception waited
+  for copy saying "made with X". A model the connector lacks (Midjourney,
+  DALL-E 3, Imagen) stops the brief: its pictures cannot be generated honestly.
+  Absent attribution, pro model always. A cheaper price, a short string, or many tiles
   is never a reason — live-4 ran 15 finished gallery tiles on flash under a
   clause meant for composite thumbnails, and a model-less `series` pattern.
 - Corpus examples are the spine, not a stencil: hold the invariants (finish,
@@ -357,3 +430,269 @@ Default run cap 600 credits, enforced by hook. Per-slot caps are advisory
   only the short-page and per-term-cap stops) and/or more `search_terms`. `--deep`
   trades relevance for volume; the calibrated threshold and review still curate.
   A term has ~5–7 real Pexels pages before it runs out. (2026-09-17)
+- Playwright's `route.fulfill(path=)` serves a local clip without byte ranges, so
+  Chromium reports `seekable [0, 0]` and every `currentTime` seek snaps to 0:
+  the 286 "t=1 s" poster frames grabbed from local files were frame 0, and five
+  seeks in one load gave five copies of it (motion measured exactly 0.0 on real
+  clips). `similar._ranged_route` answers Range requests with 206 +
+  Content-Range; CDN URLs always seeked fine. A frame after a seek is read by
+  drawing the video onto a canvas and screenshotting the canvas (the element
+  screenshot repaints the previous frame; `toDataURL` is refused on a tainted
+  canvas). Measure a video's motion on frames, and check that the frames differ
+  before trusting a number. (2026-09-19)
+- A video is context only when its motion is: a poster frame tells a worker
+  the look and nothing about what moves. Every corpus clip now carries measured
+  `pace`, `loop`, `loop_seam`, `duration` (and `camera: static` when the frame
+  holds) plus sheet-labelled `motion_kind`/`camera`; briefs get clips as
+  first/middle/last strips (`similar --kind video`) and the family's
+  **Motion:** line; workers and reviewers gate a clip on its strip
+  (`lp-corpus frames`), never on the URL or the worker's `note:` (live-5's
+  reviews paraphrased the worker). (2026-09-19)
+- Duration is faithful to the original: live-5 shipped 5 s clips against
+  10–34 s originals and nothing flagged it. The skeleton's `> duration:` line
+  (the original's length) becomes the brief's target, `seedance-2.5` takes
+  `duration: <target>` up to 30 s (extend beyond), `precheck.py` flags a final
+  off the target, `lp-bench` flags `[duration]` outside 0.9–1.1 and `[loop]` when
+  the original loops and the clip does not (live-5 re-benched: 4 duration and 3
+  loop flags on 5 clips). Preflight `duration` > 5 s: its price is not in
+  tool-map.md yet. (2026-09-19)
+- `picsart_job_status` is hooked (PostToolUse): the clip URL an async generate
+  never returns lands in `ledger.jsonl` at cost 0, so the isolation guard can
+  admit an extend/edit node that wires it and `precheck.py` can require every
+  done video node's URL to be in a job_status row and name extra seedance rows
+  beyond the board's nodes (the orphaned finals). Workers write the URL into the
+  node's `outputs` the instant it arrives, before the download. (2026-09-19)
+- A generated video ships with its poster: `result.md` carries `poster:` (the
+  accepted still) and `duration_s:`, `lp-inject` fits the poster like an image,
+  sets it and writes `muted autoplay loop playsinline` instead of only dropping
+  the snapshot's poster. The corpus reads `data-lp-poster` into `media.poster`
+  (406/607 clips ship one) and `attrs` prefers that designer poster over a
+  grabbed frame. (2026-09-19)
+- `seedance-2.5` is priced per second at 720p: 7 credits/s (35, 70, 140, 210 for
+  5, 10, 20, 30 s), `endFrame` free, extend 25/75 for 5/15 s, mini draft 10 —
+  all preflighted 2026-09-19. A faithful slot therefore costs ~15 (still) + 10
+  (draft) + 7 × target; the default `video_slot` cap moves 60 → 120 so a 10 s
+  original does not stop every worker, and a ≤ 200 cr trial fits two ~10 s
+  slots, not a 30 s one (210 for the final alone). (2026-09-19)
+- A composite is assembled per context from a **composition plan**, not one
+  fixed template per family: the manager writes `composition-<slot>.yaml` (the
+  panels — ratio + keep-clear — and the chrome items with their manager-decided
+  labels); the worker generates the panels, builds the compose spec with
+  `lp-compose --spec-from-plan` (adding only image paths), and renders it.
+  Chrome labels are a closed manager set the plan carries and precheck enforces
+  ("no string twice"); the subject must stay out of each panel's keep-clear
+  region. (2026-09-22, layered overhaul)
+- Page strings in composed chrome (the model-picker's active row, the adjust
+  panel's tool and sliders, the crop ratio, a prompt, the palette's colours)
+  are written once, on the skeleton's `> chrome:` line, in the order
+  `lp-compose --describe` lists them (`families.LABELS`). `brief.py` applies
+  them to every plan it builds and refuses a TODO where the layout draws page
+  strings, or a string that is also on `> text:`; precheck fails a spec whose
+  strings differ from its plan's. A label hand-edited into the plan was lost
+  on the next `brief.py` run, and an unedited plan shipped the template's
+  placeholder (a blank active row, "HSL" on any adjustment tool).
+  (2026-09-23, layered overhaul)
+- Before building a preset from a research proposal, view its exemplars and
+  recount its modal claims. Preset 05's proposal said all 8 type tiles pair a
+  serif or script "Aa" with a sans and every frame has 8 handles; viewing
+  found 5 of 8 tiles sans-only (the tile echoes the card's own fonts) and 4
+  midpoint handles on every frame. That reversed the font decision: two
+  Manrope weights, no bundled serif. (2026-09-23, layered overhaul)
+- No panel-overlay slot draws both the adjust panel and the tool pill: they
+  overlap, and no corpus slot shows both. Cards are the template's default;
+  a hero section gets `variant: hero` (the pill alone) from its section type
+  (`families.PRESET_BY_SECTION`), the one preset chosen neither by `> device:`
+  nor by size. The template used to draw both, and every plan-built card
+  inherited the overlap. (2026-09-23, layered overhaul)
+- Every paid `picsart_generate` passes `saveToDrive: false`: with Drive auto-save
+  on, Picsart answers HTTP 403 "content may violate usage policies" whatever the
+  prompt (the same call passed with the flag and 403d without it). That was the
+  live-6/live-7 "intermittent account block". `remove_bg`, `enhance` and
+  `change_bg` have no such flag and still 403; run their model through
+  `picsart_generate` instead (`picsart-sod-v8-2` for a cutout, free).
+  (runs/composition-1, 2026-09-23)
+- `brief.py` writes a slot's composition plan once. A re-run keeps it, hand
+  edits included (a moved `select.rect`, a checker tone, a panel's chips),
+  and refuses a plan whose family, slot size or skeleton lines changed since
+  it was built; `--replan` rebuilds it. It used to rewrite every plan, so
+  any edit the skeleton cannot carry was lost on the next run.
+  (2026-09-23, layered overhaul)
+- **The hybrid exception.** "Chrome is drawn by lp-compose, never a model" is
+  relaxed only for a `kinds.MODEL_KINDS` item (brush-mask, applied-mockup,
+  face-box — organic or bespoke, undrawable by compose): the manager marks the
+  plan item `rendered_by: model` with a `reason`, the worker renders it in one
+  gated generate/edit node carrying `chrome_item: <id>` whose prompt names that
+  item and nothing else, `lp-compose` drops the item (never draws it),
+  `lp-flow check` pairs node↔item and lints any un-tagged generate/edit prompt
+  that names UI (`kinds.UI_WORDS`), `precheck.hybrid_problems` pairs across the
+  files, and the reviewer scores it under `composition` (painted, organic,
+  matching its reason, no text) and `clean`. A model item never carries a
+  string — text is still never model-invented. (2026-09-22, layered overhaul)
+- A keep-clear region is chrome drawn ABOVE a panel that would hide its
+  subject. Chrome under the panel (a template card) and chrome that frames the
+  subject (brackets, the crop grid, a selection box) are not keep-clear — the
+  subject belongs inside them (`compose.plan.hides_subject`). Counting every
+  overlap told workers to keep the subject out of the regions meant to frame
+  it, and on the template-mockup default out of the whole photo panel.
+  (2026-09-22, layered overhaul)
+- A style ground is drawn only when it names a colour `lp-compose` can draw
+  (black, white, light). `colour`, `mixed`, `gradient` and `checker` name no
+  colour: the plan keeps them as `ground_variant` and draws the family ground,
+  and a manager who knows the colour sets `ground: {fill: [r, g, b]}`. Passing
+  the word through made `lp-compose` exit after the panels had been paid for.
+  (2026-09-22, layered overhaul)
+- A compose preset follows each slot's own size: when the default's aspect
+  does not fit, the variant whose aspect does is used (before-after: the wide
+  21:10 card is the default, `stacked-square` serves 1:1). The brief's tables,
+  the slot's composition plan and precheck all read the slot's real size —
+  never a size the worker writes into its spec. A variant that is not selected
+  by size (crop-grid, palette-card, selection-frame) is reachable only through
+  `> device:`, so it must be named in the skeleton's device list and in
+  SKILL.md step 7's cue words. (2026-09-22, layered overhaul) A size that no
+  layout of the family fits fails `plan.validate`, so `brief.py` stops before
+  a worker is spawned; the plan used to pass and `lp-compose` refused the size
+  only after the panels were paid for. Real case: the 879x418 prompt-card slot
+  of recraft-v4-styles-pro-vector (S08-m1), which the 1:1 prompt-card cannot
+  draw. (2026-09-23, layered overhaul) The plan's size is the display box
+  scaled up to the source image's resolution, keeping the box's aspect
+  (`brief.render_size`: 480x480 showing a 720x720 image composes at 720), never
+  below the box. Plans at the display size made composition-1's reviewers
+  flag soft composites. (2026-09-23, layered overhaul)
+- Composition labelling: validate a sample of answers with the loader ingest
+  uses before scaling a campaign — YAML 1.1 reads a bare `on:` key as `true`,
+  which dropped every toggle-state cell until `_check_items` recovered it.
+  Labelling agents write any crops to their own work directory (generic names
+  in the shared sheet folder raced across 16 agents). The adversarial verify
+  pass is worth its cost: it corrected 188 of the 1,467 labelled cells.
+  (2026-09-23, layered overhaul)
+- The default image model is `gpt-image-2.5-sunburst` (Areg, 2026-09-23; was
+  `gemini-3-pro-image`). It has no `resolution`: `quality` high (2 cr) or max
+  (7 cr) both return 1024 px on the short side, so max buys detail, not
+  pixels; there is no 21:9 (wide panels generate at 16:9 and crop). Run it with
+  `async: true` and poll: an i2i pass takes about a minute. Its refines are
+  precise: "remove the small text below the illustration" removed exactly that
+  and nothing else, and a one-element edit held the label and the light
+  (runs/gpt25-1 S04). The run ledger priced its max calls at the model's last
+  preflight (2) instead of 7, so the run cap undercounts: fix 2 (a preflight
+  per model AND params) is not optional. (runs/gpt25-1)
+- Every compose block has a purpose, and the purpose is checked. A tool
+  tile shows the page's own tool, a maker mark binds its model (made-by.yaml),
+  and a spec chip says only what the tool and the copy promise. The templates'
+  defaults (a crop tile, a sparkle, "4K") were placeholders that claimed
+  things the page did not. (2026-09-23, block roles)
+- A template is a skeleton and never a filled-in picture: a background
+  (ground + fixed surfaces, drawn by lp-compose, never generated), panels (the
+  only place a model's pixels go) and slots (a shape and the categories it
+  accepts). Every piece of chrome is a bank block (`compose/assets/blocks.yaml`)
+  that fills a slot only if its category is accepted, it fits the slot's
+  shape, its hard context holds on the page (checked in code), and the worker
+  judges its soft context is this section's, with a `because:` the reviewer
+  checks. Filling slots from page facts alone put a sparkle, a crop tile and a
+  palette on a calculator page's ad card; the original was a formula card,
+  the channels the copy names and the page's calculator. (Areg, 2026-09-24,
+  runs/random-1 S04)
+- A layout is chosen for the blocks the page can fill, not the other way
+  round: a required slot with no honest candidate is refused at brief time
+  (`brief.py` names the layouts that can be filled), and a worker whose
+  candidates all fail the section's context reports the slot blocked instead
+  of borrowing one. An empty optional slot draws nothing. (2026-09-24)
+- A block's text is about the picture beside it, never another picture's.
+  Labels are page copy, but an example (a calculator's numbers, an
+  adjustment's values) is the worker's own, worked through for the picture it
+  made, and a line that would read the same beside any picture stays out. A
+  template's exemplar records carry no page words or numbers: a worker that
+  read the code copied the original's formula, platforms and $70 / $500 /
+  7.14 verbatim beside a sneaker. Workers never read `src/`, `tests/` or
+  `corpus/`. (Areg, 2026-09-24, runs/random-1 S04 round 3)
+- A before/after on an enhancer, upscale or restoration page is one picture:
+  generate the After, and lp-compose degrades it into the Before with the
+  page's own fault. Two generations never align, and a heavily degraded input
+  enhanced back varies. (Areg, 2026-09-23)
+- The enhancer callout clips are compositions changing state on a static
+  camera, not generated motion (the four ai-image-enhancer callouts share one
+  grammar: hero card, compare-handle sweep, bento). They render locally
+  (`kind: timeline`, 0 cr) with exact strings. A clip's chrome is labelled
+  on its poster frame, where a callout shows none, so the preset is the
+  manager's pick from the strip. (2026-09-23, block roles)
+- The four-point sparkle is Gemini's symbol, not a "generate" glyph. A
+  generated picture whose composite highlights its model carries the mark of
+  the model that actually made it (GPT Image 2.5 Sunburst gets the OpenAI
+  mark), and that mark binds the model in made-by.yaml. A Gemini sparkle over
+  a picture made on another model is refused. (Areg, 2026-09-23, runs/random-1)
+- Type is set from static font weights, never a variable font's axis. The
+  variable Manrope keeps its composite glyphs' parts at their 200-weight
+  offsets, so a 600-weight ÷ printed as + (its lower dot ran into the bar);
+  `fontbuild.py` instances every weight lp-compose uses and re-seats the
+  composites that drift (÷, ť, Ţ, ΐ), and a string with a character the font
+  has no glyph for is refused before it prints boxes. (Areg, 2026-09-24,
+  runs/random-1 S04: "you have not even been able to accurately generate the
+  division sign")
+- A composite is read back after it is drawn: on-device OCR (macOS Vision)
+  must find every string a block sets, inside the block, symbols and numbers
+  exactly (÷ is not +, 7.14 is not 7.1). The ROAS formula reads "Revenue +
+  Ad Spend" at 720 px and "Revenue ÷ Ad Spend" at 1600, so a slot composes at
+  its source's real resolution: the local original's pixels, not the
+  natural size of whichever srcset variant the fetch loaded. (2026-09-24)
+- A template is checked against the picture it was measured from: its
+  replica (the original's own pixels in the panels, its own words in the
+  blocks) is read like the original and compared region by region and line
+  by line. Several hand-made templates did not redraw their own source (the
+  dark-composite default, two-up and the prompt-card default describe other
+  layouts), and the bento's list drew dots where the original has logos.
+  (2026-09-24, `lp-compose --replica`)
+- Templates are induced from what the corpus shows, not drawn from memory:
+  every composite is read (OCR lines, and a pixel layout of its ground, cards,
+  pictures, fields, icons and plates) and each reading becomes a skeleton
+  whose slots keep the measured fill, radius, inset and type (the size and
+  weight at which Manrope sets the original's string to the same width and
+  ink). The words stay in the reading, never the template. A design's own
+  typography (a menu, an invitation) is the picture's, not chrome; a plate
+  over a photo is a pill only when it is an interface colour, wider than
+  tall, UI-sized and bounded. (2026-09-24, `lp-compose --induce`)
+- What the replica pass taught the inducer (1,052 layouts redrawn):
+  - An original with 12+ lines at a median height under 2 % of the image is
+    a document (résumé, menu, flyer, checklist), wherever the reader cut its
+    regions; its text is the picture's (18 of the 20 worst replicas).
+  - A layout's aspect stays within 1 % of its original's; snapping 1.445 to
+    3:2 stretched 184 replicas.
+  - A flat card keeps its own measured corner. A photo's corner is read
+    against its own pixels, where a dark corner merges with a dark ground
+    (9 and 196 on one tile pair), so a layout's panels share their median.
+  - A tile's icon is named against the corpus's own glyphs as well as the
+    drawn ones (`assets/icons`, mined from its tiles). It stands for a tool
+    only where `roles.yaml` lists it as that tool's glyph; the Picsart mark
+    is not a tool. (2026-09-24, `p2all` replica summary)
+- A callout clip is a storyboard before it is a template: sampled densely,
+  its holds are its states (keyframes read as layouts), what happens between
+  two holds is a typed transition (cut, crossfade, fade, wipe, slide,
+  appear, vanish), and an intro or outro that never holds still is a state
+  too. Most product clips are transparent video shown over a dark section.
+  Its choreography (each element followed from state to state by its look)
+  is replayed from its own keyframes and scored against its own samples;
+  the worst moments are what is not yet understood. (2026-09-24,
+  `lp-corpus storyboard`, `lp-compose --learn-clips`)
+- A compare card is one picture: its Before is the After degraded by
+  lp-compose, whatever the page's tool, so a divider or handle never sits
+  between two different photos. (2026-09-24, blind-1-3)
+- Every Picsart tool without a `saveToDrive` flag (`picsart_enhance`,
+  `picsart_remove_bg`) is run through `picsart_generate` on its model with
+  `saveToDrive: false`. (2026-09-24, blind-1-4)
+- Picsart's images are standalone generations only where it showcases many
+  options side by side (a scrolling gallery of characters, styles, subjects;
+  a hero carousel) and on tutorial thumbnails; a single hero, callout,
+  how-it-works, use-case or link card is layered (91-99 %), and a maker page's
+  gallery is finished designs with set type. The brief states the allowed
+  modes and refuses a family outside them. (2026-09-24, corpus/genmode.py,
+  blind-1)
+- A tutorial thumbnail shows what its own card teaches, in the art style the
+  card names; every brief names the card each image sits in. (2026-09-24,
+  blind-1-5 drew a photo for the illustrations card)
+- The manager's procedure is enforced, not advised: no report, no review, a
+  kept-from-source slot or a family outside the mode stops `lp-inject`.
+  (2026-09-24, blind-1)
+- A composite's layout is its device: a proposal names the layout whose
+  panels and slots show what it proposes, from a menu of the layouts that fit
+  the slot's size, and a layout renders only in its own family. (2026-09-24,
+  blind-2: three plans fell back to a default that could not show the device)
+- Type in a measured slot shrinks to fit it; OCR reads text that ran past its
+  box, so read-back cannot catch overflow. (2026-09-24, blind-2-1, blind-2-3)

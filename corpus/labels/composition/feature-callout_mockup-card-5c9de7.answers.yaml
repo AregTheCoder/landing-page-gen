@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, state: {active: 1}, text: Romance}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: John Smith}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, text: twinkl}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br, text: NEW COLLECTION}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, text: Best For Elysia}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 1}}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br, state: {active: 3}, text: Search for fonts...}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2, text: DOLL|POSTER}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}

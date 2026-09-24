@@ -1,0 +1,31 @@
+sheet: use-case-grid_white_stacked-db5de3
+group:
+  type: use-case-grid
+  ground: white
+  layout: stacked
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: use-case-grid_white_stacked-db5de3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7723e7b2-59a9-42d1-9416-fc50060b9dd5.avif
+    asset: 7723e7b2
+    page: ai-logo-generator
+    slot: S07-m1
+    type: use-case-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false

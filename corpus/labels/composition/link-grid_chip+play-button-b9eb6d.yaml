@@ -1,0 +1,60 @@
+sheet: link-grid_chip+play-button-b9eb6d
+group:
+  type: link-grid
+  chrome: chip+play-button
+fields:
+- chrome_items
+answers: link-grid_chip+play-button-b9eb6d.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp
+    asset: e2a6880f
+    page: ai-models--flux-3
+    slot: S13-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 13
+    n_pages: 13
+    layout: stacked
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e2a6880f-4752-43b8-907b-e388725ab15d.webp?type=webp&to=min&r=640
+    asset: e2a6880f
+    page: ai-models
+    slot: S03-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 3
+    n_pages: 2
+    layout: stacked
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/5beaeb7a-582d-4f2a-81cc-54dbb60f8451.png
+    asset: 5beaeb7a
+    page: ai-filters
+    slot: S13-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - play-button

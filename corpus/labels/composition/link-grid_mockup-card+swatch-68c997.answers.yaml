@@ -1,0 +1,17 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: swatch, placement: overlay, anchor: tr, count: 3, state: {active: 3}}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+    - {kind: swatch, placement: beside, anchor: right, count: 4}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: swatch, placement: beside, anchor: right, count: 3}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: swatch, placement: beside, anchor: right, count: 3}

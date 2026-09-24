@@ -1,0 +1,212 @@
+sheet: link-grid_mockup-card-7a11b3
+group:
+  type: link-grid
+  chrome: mockup-card
+fields:
+- chrome_items
+answers: link-grid_mockup-card-7a11b3.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/9d51b73c-3e0d-4957-99d2-52724c5735e4.png?type=webp&to=min&r=640
+    asset: 9d51b73c
+    page: design
+    slot: S06-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/a12402ea-d6ce-4759-b600-34e9d27e8218.png?type=webp&to=min&r=640
+    asset: a12402ea
+    page: content-creation-tools
+    slot: S05-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 5
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/a6429959-034f-4aab-ba78-4c1d669d47cb.png
+    asset: a6429959
+    page: meme-generator
+    slot: S10-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/a68edf30-c1f2-4de0-9aec-34e8f2c304f7.png?type=webp&to=min&r=640
+    asset: a68edf30
+    page: design
+    slot: S05-m6
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/a77a140c-7e27-4a07-ad8a-ad5a133afab5.png
+    asset: a77a140c
+    page: add-text-to-video
+    slot: S14-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/a77a140c-7e27-4a07-ad8a-ad5a133afab5.png?type=webp&to=min&r=640
+    asset: a77a140c
+    page: content-creation-tools
+    slot: S02-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/b21475a6-3169-47d5-ac3f-18a27e24aff9.png?type=webp&to=min&r=640
+    asset: b21475a6
+    page: design
+    slot: S02-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/b8b2c09b-1790-461b-aa46-2820d1c73765.png
+    asset: b8b2c09b
+    page: whatsapp-sticker-maker
+    slot: S10-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/bb1f0bb5-6857-4f53-8d07-d9bed836ef34.png
+    asset: bb1f0bb5
+    page: packaging-design
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/bd7d13f4-859b-4a35-ab19-e97c47b56722.png
+    asset: bd7d13f4
+    page: youtube-thumbnail-maker
+    slot: S13-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/bd7d13f4-859b-4a35-ab19-e97c47b56722.png?type=webp&to=min&r=640
+    asset: bd7d13f4
+    page: design
+    slot: S03-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/c6edc18b-180b-4222-96c7-546db77e6be5.png
+    asset: c6edc18b
+    page: packaging-design
+    slot: S12-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card

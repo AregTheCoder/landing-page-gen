@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: beside, anchor: bottom, state: {value: 0.7}}
+    - {kind: pill, placement: overlay, anchor: tr, state: {on: true}, text: Audio}

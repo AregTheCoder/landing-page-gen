@@ -1,0 +1,84 @@
+sheet: link-grid_mockup-card+swatch+tile-d26e0e
+group:
+  type: link-grid
+  chrome: mockup-card+swatch+tile
+fields:
+- chrome_items
+answers: link-grid_mockup-card+swatch+tile-d26e0e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png
+    asset: 18256ca7
+    page: add-subtitles-to-video
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif
+    asset: 5a44d378
+    page: ai-models--dall-e-3
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/28bb43d3-ddcf-4975-a6df-17968503b899.png?type=webp&to=min&r=640
+    asset: 28bb43d3
+    page: design
+    slot: S06-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/7b30901f-239e-4c60-8e43-28a383388306.png?type=webp&to=min&r=-1
+    asset: 7b30901f
+    page: resume-maker
+    slot: S12-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+    - tile

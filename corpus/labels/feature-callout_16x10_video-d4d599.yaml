@@ -1,0 +1,33 @@
+sheet: feature-callout_16x10_video-d4d599
+group:
+  type: feature-callout
+  ground: '16:10'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_16x10_video-d4d599.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8a38d4e1-307e-4761-a7a7-de5879211a4c.webm
+    asset: 8a38d4e1
+    page: comic-book-generator
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:10'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false

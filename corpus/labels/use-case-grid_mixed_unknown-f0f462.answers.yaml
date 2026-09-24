@@ -1,10 +1,14 @@
 1:
-  chrome: [mockup-card, button, slider]
+  chrome:
+  - adjust-slider
+  - button
+  - mockup-card
   text_in_image: labels-only
   ui_mockup: app-card
   subject: person
   art_style: photo
-  description: a cap cutout with a social post and a product listing card over a pink gradient
+  description: a cap cutout with a social post and a product listing card over a pink
+    gradient
   family_hint: mockup-card
   confidence: 0.55
   layout: overlay

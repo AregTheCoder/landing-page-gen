@@ -1,0 +1,31 @@
+sheet: feature-callout_black_column-main-15d953
+group:
+  type: feature-callout
+  ground: black
+  layout: column-main
+fields:
+- art_style
+- chrome
+- confidence
+- description
+- family_hint
+- subject
+- text_in_image
+- ui_mockup
+answers: feature-callout_black_column-main-15d953.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cd6ee760-0788-4923-8ed3-ea7399f47c6a.avif
+    asset: cd6ee760
+    page: ai-logo-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false

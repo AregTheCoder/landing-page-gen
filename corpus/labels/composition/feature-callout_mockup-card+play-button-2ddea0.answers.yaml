@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 3, state: {active: 2}, text: River|Sarah|George}
+    - {kind: play-button, placement: beside, anchor: left, count: 3}
+    - {kind: play-button, placement: overlay, anchor: centre}

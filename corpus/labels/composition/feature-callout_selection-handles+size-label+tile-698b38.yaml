@@ -1,0 +1,46 @@
+sheet: feature-callout_selection-handles+size-label+tile-698b38
+group:
+  type: feature-callout
+  chrome: selection-handles+size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_selection-handles+size-label+tile-698b38.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/738d1d58-5b9f-47a9-8797-20bf947668c7.avif
+    asset: 738d1d58
+    page: photo-editor
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+    - size-label
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c78690a2-0fac-49a1-8192-f158f8e54c02.avif
+    asset: c78690a2
+    page: crop-image
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+    - size-label
+    - tile

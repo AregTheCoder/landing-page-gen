@@ -1,0 +1,71 @@
+sheet: hero_button+chip+mockup-card-6fe44f
+group:
+  type: hero
+  chrome: button+chip+mockup-card
+fields:
+- chrome_items
+answers: hero_button+chip+mockup-card-6fe44f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1be936d3-084e-414d-b416-1d32f6a307fa.webp
+    asset: 1be936d3
+    page: variation-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4a097de9-0f81-4b66-a712-cde19cc868c6.webp
+    asset: 4a097de9
+    page: ai-video-avatar
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/aaedb0a2-2b07-4c59-a305-f73ed832be5e.webm
+    asset: aaedb0a2
+    page: ai-agents
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.03
+    motion: 0.0102
+    pace: slow
+    loop: true
+    loop_seam: 0.986
+    camera: static
+    chrome:
+    - button
+    - chip
+    - mockup-card

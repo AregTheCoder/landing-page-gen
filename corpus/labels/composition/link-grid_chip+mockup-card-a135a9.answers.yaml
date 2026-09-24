@@ -1,0 +1,44 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, state: {active: 1}, text: Select voice}
+    - {kind: chip, placement: beside, anchor: tr}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, state: {active: 1}, text: Select voice}
+    - {kind: chip, placement: beside, anchor: tr}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 2}
+    - {kind: chip, placement: overlay, anchor: tr, text: Aa}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, count: 2}
+    - {kind: chip, placement: overlay, anchor: tr, text: PDF}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: top, text: Instagram post for coffee shop}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl}
+    - {kind: chip, placement: overlay, anchor: tr}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 4}
+    - {kind: chip, placement: overlay, anchor: right, text: NEW TRACK}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, count: 4}
+    - {kind: chip, placement: overlay, anchor: right, text: NEW TRACK}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: br, text: Aa}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: chip, placement: overlay, anchor: right, text: Templates}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: chip, placement: overlay, anchor: tl, text: Templates}

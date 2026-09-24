@@ -19,7 +19,7 @@ def make_run(tmp_path, count=1, spent=5, with_preflight=True, final_exists=True,
     if final_exists:
         (sec / "steps" / "S03-m1-1-1.png").write_bytes(b"x")
     (sec / "workflow.yaml").write_text(
-        "slot: S03-m1\nsteps:\n  - id: 1\n    tool: picsart_generate\n    model: gemini-3-pro-image\n"
+        "slot: S03-m1\nsteps:\n  - id: 1\n    tool: picsart_generate\n    model: gpt-image-2.5-sunburst\n"
         f"    params: {{prompt: '{PROMPT}', aspectRatio: '4:3', count: {count}}}\n    quoted_credits: 5\n"
         f"    gate: 'one cup, centred'\n    status: done\n    note: '{note}'\n"
         f"final: {{url: x, local: steps/S03-m1-1-1.png}}\ncredits: {{quoted: 5, spent: {spent}}}\n")
@@ -27,10 +27,10 @@ def make_run(tmp_path, count=1, spent=5, with_preflight=True, final_exists=True,
     (sec / "flow.md").write_text("# Flow board\n")
     rows = []
     if with_preflight:
-        rows.append({"tool": "picsart_preflight", "model": "gemini-3-pro-image",
-                     "params": {"model": "gemini-3-pro-image", "params": {"prompt": PROMPT}}, "quoted_credits": 5})
-    rows.append({"tool": "picsart_generate", "model": "gemini-3-pro-image",
-                 "params": {"model": "gemini-3-pro-image", "prompt": PROMPT}, "quoted_credits": 5})
+        rows.append({"tool": "picsart_preflight", "model": "gpt-image-2.5-sunburst",
+                     "params": {"model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT}}, "quoted_credits": 5})
+    rows.append({"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst",
+                 "params": {"model": "gpt-image-2.5-sunburst", "prompt": PROMPT}, "quoted_credits": 5})
     (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
     return run
 
@@ -49,10 +49,18 @@ def test_every_paperwork_problem_is_named(tmp_path):
 def test_a_failed_step_rerun_with_the_same_prompt_counts_its_ledger_rows_once(tmp_path):
     run = make_run(tmp_path)
     wf = run / "sections" / "S03" / "workflow.yaml"
-    wf.write_text(wf.read_text().replace("steps:\n", "steps:\n  - id: 0\n    tool: picsart_generate\n    model: gemini-3-pro-image\n"
+    wf.write_text(wf.read_text().replace("steps:\n", "steps:\n  - id: 0\n    tool: picsart_generate\n    model: gpt-image-2.5-sunburst\n"
                                          f"    params: {{prompt: '{PROMPT}', aspectRatio: '4:3', count: 1}}\n    quoted_credits: 5\n"
                                          "    gate: 'one cup, centred'\n    status: failed\n    note: 'failure_space_limit_reached, not charged'\n"))
     assert precheck.check(run, "S03") == [], "the ledger holds one paid row for this prompt and the record says 5"
+
+
+def test_a_failed_call_the_hook_logged_is_not_spend_the_record_owes(tmp_path):
+    run = make_run(tmp_path)
+    with (run / "ledger.jsonl").open("a") as fh:  # PostToolUseFailure: logged at its quote, no output
+        fh.write(json.dumps({"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "failed": True, "urls": [],
+                             "params": {"model": "gpt-image-2.5-sunburst", "prompt": PROMPT}, "quoted_credits": 5}) + "\n")
+    assert precheck.check(run, "S03") == []
 
 
 def test_compose_variant_must_match_the_brief_device(tmp_path):
@@ -67,6 +75,61 @@ def test_compose_variant_must_match_the_brief_device(tmp_path):
     assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant reference-thumbs but brief device icon-set"]
     (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
     assert precheck.check(run, "S03") == [], "icon-set is carried by the annotation, so the plain template is right"
+    (sec / "brief.md").write_text("# Brief\n\n> device: none: single demonstration\n")
+    (sec / "compose-S03-m1.yaml").write_text("family: before-after\nvariant: stacked-square\nsize: 720x720\n")
+    (run / "slots.json").write_text(json.dumps({"slots": {"S03-m1": {"size": [480, 480]}}}))
+    assert precheck.check(run, "S03") == [], "a 1:1 slot's size selects stacked-square; the brief need not name it"
+    # the exemption follows the SLOT's size, not the size the worker wrote into the spec
+    (run / "slots.json").write_text(json.dumps({"slots": {"S03-m1": {"size": [879, 418]}}}))
+    (sec / "compose-S03-m1.yaml").write_text("family: before-after\nvariant: stacked-square\nsize: 1600x1600\n")
+    assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant stacked-square but brief device none"], \
+        "a wide slot's spec may not pick the 1:1 variant by writing a square size"
+    (sec / "compose-S03-m1.yaml").write_text("family: before-after\nvariant: stacked-square\nsize: 720x343\n")
+    assert precheck.check(run, "S03") == ["compose-S03-m1.yaml: compose variant stacked-square but brief device none"]
+
+
+CLIP = "https://gcdn.picsart.com/editing-temp/final.mp4"
+DRAFT = "https://gcdn.picsart.com/editing-temp/draft.mp4"
+MOTION = "the subject blinks, camera holds, no other text, no logos or watermarks"
+
+
+def video_run(tmp_path, duration=10, job_rows=True, extra_final=False):
+    run = make_run(tmp_path)
+    sec = run / "sections" / "S03"
+    (sec / "steps" / "S03-m1-3-1.mp4").write_bytes(b"x")
+    node = ("  - id: {i}\n    node: video\n    in: [1]\n    tool: picsart_generate\n    model: {model}\n"
+            "    params: {{prompt: '" + MOTION + "', aspectRatio: '1:1', resolution: 720p, duration: {dur}, "
+            "generateAudio: false, async: true, extra: {{startFrame: '<step 1 passed>'}}}}\n"
+            "    quoted_credits: {q}\n    gate: 'first frame equals the still'\n    status: done\n    note: 'steady'\n"
+            "    outputs: ['{url}']\n")
+    wf = sec / "workflow.yaml"
+    text = wf.read_text().replace("slot: S03-m1\n", "slot: S03-m1\nkind: video\n")
+    text = text.replace("final:", node.format(i=2, model="seedance-2.0-mini", dur=5, q=10, url=DRAFT)
+                        + node.format(i=3, model="seedance-2.5", dur=duration, q=35, url=CLIP) + "final:")
+    text = text.replace("final: {url: x, local: steps/S03-m1-1-1.png}", "final: {url: " + CLIP + ", local: steps/S03-m1-3-1.mp4}")
+    text = text.replace("credits: {quoted: 5, spent: 5}", "credits: {quoted: 50, spent: 50}")
+    wf.write_text(text)
+    (sec / "brief.md").write_text("# Brief\n\n## Video\n\n- Target duration:\n  - S03-m1: **10 s** (original 9.8 s)\n\n## Text in image\n")
+    rows = [json.loads(l) for l in (run / "ledger.jsonl").read_text().splitlines()]
+    for model, q, url in (("seedance-2.0-mini", 10, DRAFT), ("seedance-2.5", 35, CLIP)):
+        rows.append({"tool": "picsart_preflight", "model": model, "params": {"model": model, "params": {"prompt": MOTION}}, "quoted_credits": q})
+        rows.append({"tool": "picsart_generate", "model": model, "params": {"model": model, "params": {"prompt": MOTION}}, "quoted_credits": q, "urls": []})
+        if job_rows:
+            rows.append({"tool": "picsart_job_status", "model": None, "params": {"jobId": "j"}, "urls": [url], "quoted_credits": None})
+    if extra_final:
+        rows.append({"tool": "picsart_generate", "model": "seedance-2.5", "params": {"model": "seedance-2.5", "params": {"prompt": MOTION}}, "quoted_credits": 35, "urls": []})
+    (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
+    return run
+
+
+def test_video_record_is_checked_for_target_duration_job_rows_and_orphans(tmp_path):
+    assert precheck.check(video_run(tmp_path), "S03") == []
+    short = "\n".join(precheck.check(video_run(tmp_path / "short", duration=5), "S03"))
+    assert "step 3: duration 5 but the brief's target is 10 s" in short and "step 2" not in short, "the draft stays at 5 s"
+    unowned = "\n".join(precheck.check(video_run(tmp_path / "unowned", job_rows=False), "S03"))
+    assert f"clip {CLIP} is in no picsart_job_status ledger row" in unowned
+    orphan = "\n".join(precheck.check(video_run(tmp_path / "orphan", extra_final=True), "S03"))
+    assert "1 extra seedance-2.5 ledger row(s)" in orphan and "credits.spent 50 != ledger 85" in orphan
 
 
 def test_cli_exit_codes(tmp_path, capsys):
@@ -74,3 +137,137 @@ def test_cli_exit_codes(tmp_path, capsys):
     assert precheck.main([str(run), "S03"]) == 0 and "clean record" in capsys.readouterr().out
     assert precheck.main([str(make_run(tmp_path / "b", count=2)), "S03"]) == 1
     assert precheck.check(tmp_path / "nowhere", "S03") == ["S03: workflow.yaml missing"]
+
+
+def test_composition_spec_must_match_its_plan(tmp_path):
+    sec = tmp_path / "sections" / "S03"
+    sec.mkdir(parents=True)
+    (sec / "composition-S03-m1.yaml").write_text("family: dark-composite\npreset: model-picker\nsize: 720x720\n")
+    # a spec built from the plan (spec-from-plan records `plan:`) agrees -> clean
+    (sec / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\npreset: model-picker\nsize: 720x720\nplan: composition-S03-m1.yaml\n")
+    assert precheck.composition_problems(sec) == []
+    # a spec that re-planned (wrong preset) is caught
+    (sec / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\npreset: two-up\nsize: 720x720\nplan: composition-S03-m1.yaml\n")
+    assert any("preset" in p for p in precheck.composition_problems(sec))
+    # a missing plan is caught
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nplan: composition-gone.yaml\n")
+    assert any("missing" in p for p in precheck.composition_problems(sec))
+    # a hand-written spec with no plan is allowed
+    (sec / "compose-S03-m1.yaml").write_text("family: dark-composite\nsize: 720x720\n")
+    assert precheck.composition_problems(sec) == []
+
+
+def test_spec_chrome_must_be_the_plans_picked_blocks(tmp_path):
+    import yaml
+
+    from landing_page_gen.compose import plan, roles
+    sec = tmp_path / "sections" / "S03"
+    sec.mkdir(parents=True)
+    facts = roles.facts_for("ai-image-generator", "Pick a model", labels=["Seedance 2.5"],
+                            generator="GPT Image 2.5 Sunburst")
+    cp = plan.build("dark-composite", "720x720", preset="model-picker", slot="S03-m1", facts=facts)
+    plan.write_plan(sec / "composition-S03-m1.yaml", cp)
+    picks = {"fills": [{"slot": "list", "block": "model-picker", "because": "the section is about choosing"}]}
+    (sec / "blocks-S03-m1.yaml").write_text(yaml.safe_dump(picks))
+
+    def spec_with(chrome, blocks="blocks-S03-m1.yaml"):
+        spec = {**plan.to_spec(cp, {"photo": "steps/p.png"}), "plan": "composition-S03-m1.yaml", "chrome": chrome}
+        if blocks:
+            spec["blocks"] = blocks
+        (sec / "compose-S03-m1.yaml").write_text(yaml.safe_dump(spec, sort_keys=False))
+        return precheck.block_problems(sec)
+
+    faithful = plan.to_spec(cp, {}, picks)["chrome"]
+    assert spec_with(faithful) == [], "spec-from-plan --blocks draws exactly the picks"
+    relabelled = [{**it, "active_text": "Seedance 2.5"} if it["id"] == "list" else it for it in faithful]
+    assert any("chrome list is edited" in p for p in spec_with(relabelled))
+    assert any("chrome list is missing" in p for p in spec_with([])), "a dropped block is caught"
+    added = faithful + [{"id": "extra", "kind": "label", "rect": [0, 0, 10, 10], "text": "NEW"}]
+    assert any("chrome extra is not a picked block" in p for p in spec_with(added))
+    (sec / "blocks-S03-m1.yaml").unlink()
+    assert any("no blocks-S03-m1.yaml" in p for p in spec_with(faithful))
+    (sec / "blocks-S03-m1.yaml").write_text(yaml.safe_dump({"fills": [{"slot": "list", "block": "palette", "because": "x"}]}))
+    assert any("is a derived block; the slot takes attribution" in p for p in spec_with(faithful))
+
+
+def test_a_prompt_block_is_the_opening_of_the_prompt_that_made_the_picture(tmp_path):
+    import yaml
+
+    from landing_page_gen.compose import plan, roles
+    sec = tmp_path / "sections" / "S05"
+    sec.mkdir(parents=True)
+    cp = plan.build("prompt-card", "720x720", preset="caption", slot="S05-m1",
+                    facts=roles.facts_for("ai-image-generator", "Type a prompt", generator="GPT Image 2.5 Sunburst"))
+    plan.write_plan(sec / "composition-S05-m1.yaml", cp)
+    (sec / "workflow.yaml").write_text(yaml.safe_dump({"slot": "S05-m1", "steps": [
+        {"id": 1, "tool": "picsart_generate", "params": {"prompt": "A ceramic teapot on linen, soft window light"}}]}))
+    for text, ok in (("A ceramic teapot on linen…", True), ("A glass teapot", False)):
+        picks = {"fills": [{"slot": "prompt", "block": "prompt-card", "text": text, "because": "the prompt"}]}
+        (sec / "blocks-S05-m1.yaml").write_text(yaml.safe_dump(picks, allow_unicode=True))
+        spec = {**plan.to_spec(cp, {"photo": "p.png", "applied": "a.png"}, picks), "plan": "composition-S05-m1.yaml",
+                "blocks": "blocks-S05-m1.yaml"}
+        (sec / "compose-S05-m1.yaml").write_text(yaml.safe_dump(spec, allow_unicode=True))
+        assert (precheck.block_problems(sec) == []) is ok, text
+
+
+def test_credits_reconcile_by_url_not_prompt(tmp_path):
+    run = make_run(tmp_path)  # step already: quoted 5, credits.spent 5, done
+    # two paid rows with the SAME prompt but different output urls (a reworked node)
+    rows = [
+        {"tool": "picsart_preflight", "model": "gpt-image-2.5-sunburst",
+         "params": {"model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT}}, "quoted_credits": 5},
+        {"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT},
+         "urls": ["u-old"], "quoted_credits": 5},
+        {"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "params": {"prompt": PROMPT},
+         "urls": ["u-final"], "quoted_credits": 5}]
+    (run / "ledger.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
+    # the board kept only the final url as its step output; spent stays 5
+    wf = run / "sections" / "S03" / "workflow.yaml"
+    wf.write_text(wf.read_text().replace("    status: done\n", "    status: done\n    outputs: [u-final]\n"))
+    assert precheck.check(run, "S03") == [], "only the kept output is counted, not both same-prompt rows"
+
+
+def test_hybrid_item_must_be_paired_with_its_node(tmp_path):
+    sec = tmp_path / "sections" / "S05"
+    sec.mkdir(parents=True)
+    (sec / "composition-S05-m1.yaml").write_text(
+        "family: template-mockup\nsize: 720x720\nitems:\n"
+        "  - {id: card, kind: card}\n"
+        "  - {id: mark, kind: applied-mockup, rendered_by: model, reason: bespoke mark on the tote}\n")
+    # a workflow whose edit node claims the hybrid item and names it -> clean
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n"
+        "  - {id: 1, node: image, in: [start], params: {prompt: a tote bag}}\n"
+        "  - {id: 2, node: edit, in: [1], chrome_item: mark, reason: paint the mark,\n"
+        "     params: {prompt: 'apply the mark (applied-mockup) onto the tote'}}\n")
+    assert precheck.hybrid_problems(sec) == []
+    # drop the claiming node: the hybrid item is now unrendered
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n  - {id: 1, node: image, in: [start], params: {prompt: a tote bag}}\n")
+    assert any("has no node with chrome_item: mark" in p for p in precheck.hybrid_problems(sec))
+    # a node claiming an item the plan does not mark model-rendered
+    (sec / "workflow.yaml").write_text(
+        "slot: S05-m1\nsteps:\n"
+        "  - {id: 1, node: edit, in: [start], chrome_item: card, reason: x, params: {prompt: card}}\n")
+    assert any("is not a rendered_by: model item" in p for p in precheck.hybrid_problems(sec))
+
+
+def test_compose_node_wiring_against_its_spec(tmp_path):
+    (tmp_path / "compose-S03-m1.yaml").write_text(
+        "family: dark-composite\nsize: 720x720\n"
+        "panels: {photo: {image: steps/S03-m1-1-1.png}, thumb-a: {image: steps/S03-m1-2-1.png}}\n")
+    doc = {"slot": "S03-m1", "family": "dark-composite", "steps": [
+        {"id": 1, "node": "image", "in": ["start"]},
+        {"id": 2, "node": "image", "in": [1]},
+        {"id": 3, "node": "compose", "in": [1, 2], "status": "done", "params": {"spec": "compose-S03-m1.yaml"}}]}
+    assert precheck.compose_wiring_problems(doc, tmp_path) == []
+    doc["steps"][2]["in"] = [1]  # not fed by panel node 2
+    assert any("not fed by node 2" in p for p in precheck.compose_wiring_problems(doc, tmp_path))
+    doc["steps"][2]["superseded"] = True  # it rendered an earlier spec, rewritten in place since
+    assert precheck.compose_wiring_problems(doc, tmp_path) == []
+    doc["steps"][2].pop("superseded")
+    doc["steps"][2]["in"] = [1, 2]
+    (tmp_path / "compose-S03-m1.yaml").write_text("family: prompt-card\nsize: 720x720\npanels: {}\n")
+    assert any("!= board family" in p for p in precheck.compose_wiring_problems(doc, tmp_path))

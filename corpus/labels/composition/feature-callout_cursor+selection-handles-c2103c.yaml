@@ -1,0 +1,26 @@
+sheet: feature-callout_cursor+selection-handles-c2103c
+group:
+  type: feature-callout
+  chrome: cursor+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_cursor+selection-handles-c2103c.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/234929a2-4d37-4f5a-bd22-d81bfa8cc52f.png
+    asset: 234929a2
+    page: pdf-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor
+    - selection-handles

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: top}
+    - {kind: size-label, placement: beside, anchor: tr, text: 1024 x 1024}

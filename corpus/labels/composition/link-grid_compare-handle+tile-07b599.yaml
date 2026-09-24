@@ -1,0 +1,44 @@
+sheet: link-grid_compare-handle+tile-07b599
+group:
+  type: link-grid
+  chrome: compare-handle+tile
+fields:
+- chrome_items
+answers: link-grid_compare-handle+tile-07b599.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png
+    asset: 0c0ac04c
+    page: brighten-images
+    slot: S10-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 5
+    n_pages: 5
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/0c0ac04c-03d0-4b73-af1c-33c2e9f61cad.png?type=webp&to=min&r=640
+    asset: 0c0ac04c
+    page: ai-design-tools
+    slot: S07-m2
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - compare-handle
+    - tile

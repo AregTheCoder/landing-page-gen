@@ -1,5 +1,7 @@
 1:
-  chrome: [slider, pill]
+  chrome:
+  - compare-handle
+  - pill
   text_in_image: body
   ui_mockup: none
   subject: multiple
@@ -9,7 +11,8 @@
   confidence: 0.6
   before_after: true
 2:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -44,7 +47,8 @@
   ui_mockup: none
   subject: person
   art_style: mixed
-  description: a black-and-white photographer business card with film-strip border and name
+  description: a black-and-white photographer business card with film-strip border
+    and name
   family_hint: template-mockup
   confidence: 0.55
   before_after: false
@@ -64,7 +68,8 @@
   ui_mockup: none
   subject: typography
   art_style: mixed
-  description: a Thanksgiving menu design with starters and dishes beside a pumpkin photo
+  description: a Thanksgiving menu design with starters and dishes beside a pumpkin
+    photo
   family_hint: template-mockup
   confidence: 0.6
   before_after: false
@@ -74,7 +79,8 @@
   ui_mockup: none
   subject: typography
   art_style: mixed
-  description: an Order Fulfillment Process document with numbered steps and teal graphics
+  description: an Order Fulfillment Process document with numbered steps and teal
+    graphics
   family_hint: template-mockup
   confidence: 0.6
   before_after: false

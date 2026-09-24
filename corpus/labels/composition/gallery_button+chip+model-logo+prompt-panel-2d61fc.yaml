@@ -1,0 +1,48 @@
+sheet: gallery_button+chip+model-logo+prompt-panel-2d61fc
+group:
+  type: gallery
+  chrome: button+chip+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: gallery_button+chip+model-logo+prompt-panel-2d61fc.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/60f1d44c-cf5a-4d5c-971a-68502992f9f4.jpg?type=webp&to=min&r=400
+    asset: 60f1d44c
+    page: home
+    slot: S06-m7
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6e6b07d9-6e17-4c8d-a467-7f2a90794488.webp
+    asset: 6e6b07d9
+    page: text-to-video-ai
+    slot: S09-m2
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - model-logo
+    - prompt-panel

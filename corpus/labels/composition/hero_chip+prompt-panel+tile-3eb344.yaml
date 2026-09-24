@@ -1,0 +1,33 @@
+sheet: hero_chip+prompt-panel+tile-3eb344
+group:
+  type: hero
+  chrome: chip+prompt-panel+tile
+fields:
+- chrome_items
+answers: hero_chip+prompt-panel+tile-3eb344.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/07977f92-c756-4909-93ae-d830061c2217.webm
+    asset: 07977f92
+    page: audio-to-video
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 7.0
+    motion: 0.095
+    pace: medium
+    loop: true
+    loop_seam: 0.944
+    camera: static
+    chrome:
+    - chip
+    - prompt-panel
+    - tile

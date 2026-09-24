@@ -22,6 +22,18 @@ VARIANT_NAME = {"light-grey": "light", "white": "white", "black": "black", "grad
                 "solid-colour": "colour", "checkerboard": "checker", "mixed": "mixed"}
 
 
+# Non-photographic grounds a designed card can sit on (photo-full-bleed,
+# gradient and checkerboard are not "flat cards").
+_FLAT = ("black", "white", "light-grey", "solid-colour", "mixed")
+
+
+def _placed_labelled(rec, kind, placement):
+    """True only when chrome_items is present and an entry matches — no fallback
+    to bag membership, so a rule gated on this fires only on a real placement."""
+    items = rec.get("chrome_items")
+    return bool(items) and any(it.get("kind") == kind and it.get("placement") == placement for it in items)
+
+
 def family_of(rec):
     """(family, variant) for one attribute record; (None, None) when no rule
     fits. Order matters: the most specific signature wins."""
@@ -36,16 +48,21 @@ def family_of(rec):
     fam = None
     if rec.get("before_after"):
         fam = "before-after"
-    elif "adjust-panel" in ch or ("slider" in ch and lay == "overlay") or (
+    elif "adjust-panel" in ch or ("adjust-slider" in ch and lay == "overlay") or (
             typ == "hero" and {"pill", "badge"} <= ch and g == "photo-full-bleed" and panels <= 1):
         fam = "panel-overlay"  # the tool panel over a photo; on heroes the tool badge + label pill stand in for it
+    elif "compare-handle" in ch:
+        fam = "before-after"  # a before/after divider handle, even when the flag was not measured
     elif ch & {"brackets", "size-label"}:
         fam = "crop-frame"
     elif g == "checkerboard" or ("badge" in ch and art == "photo"):
         fam = "cutout-checkerboard"
     elif "prompt-panel" in ch or ui == "prompt-ui":
         fam = "prompt-card"
-    elif lay == "two-up" and ch & {"vs-badge", "model-logo"}:
+    elif ch & {"vs-badge", "model-logo"} and (lay == "two-up" or (
+            ch & {"pill", "vs-badge"} and lay in ("split", "stacked", "grid") and typ != "link-grid")):
+        # the compare-page cards are two outputs side by side with a model mark and a pill;
+        # the measurer often reads them as `split`, not `two-up`, so accept those grounds too
         fam = "vs-two-up"
     elif ui in ("app-card", "product-card"):
         fam = "mockup-card"
@@ -57,18 +74,82 @@ def family_of(rec):
         fam = "model-card"
     elif lay in ("column-main", "split") and ch & {"tile", "chip"} and g in ("black", "light-grey", "white"):
         fam = "dark-composite"
+    elif (_placed_labelled(rec, "tile", "beside") and g in _FLAT and panels >= 1
+          and lay in ("single", "stacked", "two-up", "grid") and txt not in ("headline", "body")):
+        # a tool tile beside the photo on a flat card that the layout heuristics missed;
+        # gated on a *labelled* beside placement so a bare `tile` in the bag cannot over-fire
+        fam = "dark-composite"
     elif g == "photo-full-bleed" and rec.get("aspect_class") == "9:16" and typ in ("gallery", "hero"):
         fam = "cinematic-still"
     elif art == "collage":
         fam = "graphic-collage"
-    elif typ == "gallery" and g in ("white", "checkerboard") and panels <= 1:
+    elif typ == "gallery" and g in ("white", "checkerboard") and panels <= 1 and txt not in ("headline", "body"):
         fam = "outcome-tile"
+    elif (txt in ("headline", "body") and g in _FLAT and ui == "none"
+          and not ch & {"tile", "model-logo", "play-button", "prompt-panel", "adjust-slider", "compare-handle"}):
+        # a designed card carrying a headline on a flat ground, no tool chrome: the
+        # template-maker galleries the layout rules leave unresolved (206 assets)
+        fam = "template-mockup"
     elif g == "photo-full-bleed" and panels <= 1:
         fam = "full-bleed"
     if fam is None:
         return None, None
     variant = VARIANT_NAME.get(g) if g and g != DEFAULT_GROUND[fam] and fam not in ("full-bleed", "cinematic-still") else None
     return fam, variant
+
+
+# --- composition: how the chrome is laid out, computed on read ---------------
+COMPOSITIONS = ("plain", "beside", "overlaid", "layered")
+
+
+def _group_key(items):
+    c = Counter()
+    for it in items:
+        c[it["kind"]] += it.get("count", 1)
+    return "+".join(f"{k}*{c[k]}" if c[k] > 1 else k for k in sorted(c))
+
+
+def composition_of(rec):
+    """(composition | None, key | None, source) from chrome_items: plain (no
+    chrome), beside (all beside the picture), overlaid (all on it), layered
+    (both). key canonicalises the kinds by placement, e.g.
+    'beside:option-list+tile*2/overlay:chip'. source is 'labelled' when the
+    items were answered, 'derived' when only inferred, None when absent."""
+    items = rec.get("chrome_items")
+    source = ("labelled" if "chrome_items" in (rec.get("labelled") or [])
+              else "derived" if items is not None else None)
+    if items is None:
+        return None, None, source
+    if not items:
+        return "plain", "plain", source
+    beside = [it for it in items if it["placement"] == "beside"]
+    overlay = [it for it in items if it["placement"] == "overlay"]
+    comp = "layered" if beside and overlay else "overlaid" if overlay else "beside"
+    segs = ([f"beside:{_group_key(beside)}"] if beside else []) + ([f"overlay:{_group_key(overlay)}"] if overlay else [])
+    return comp, "/".join(segs), source
+
+
+def device_of(rec):
+    """The device a composite demonstrates, derived from chrome_items (total,
+    never stored): a model/option picker, reference thumbnails, two outputs, an
+    applied mockup, an icon set, or none."""
+    items = rec.get("chrome_items") or []
+    kinds = {it["kind"] for it in items}
+    handle = "compare-handle" in kinds
+    for it in items:
+        if it["kind"] == "option-list" and it["placement"] == "beside" and (it.get("state") or {}).get("active") is not None:
+            return "model-picker"
+    panels = rec.get("panel_count") or 0
+    if panels >= 3 and any(it["kind"] in ("tile", "chip") and it["placement"] == "beside" for it in items) and not handle:
+        return "reference-thumbs"
+    if panels == 2 and not handle and "vs-badge" not in kinds:
+        return "two-up"
+    if "mockup-card" in kinds and (rec.get("ui_mockup") or "none") == "none" and rec.get("art_style") == "photo":
+        return "applied-mockup"
+    if any(it["kind"] == "tile" and (it.get("count") or 1) >= 4 for it in items) or (
+            rec.get("art_style") == "flat-vector" and rec.get("layout") == "grid"):
+        return "icon-set"
+    return "none"
 
 
 def role_fix(rec):

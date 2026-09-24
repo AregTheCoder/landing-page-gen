@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: bottom, count: 7, text: "30|%|25|%|50|75|60"}
+2:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: centre, count: 7, text: "30|%|25|50|%|75|60"}

@@ -1,0 +1,33 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}
+    - {kind: chip, placement: beside, anchor: br}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Kling 3.0}
+    - {kind: chip, placement: overlay, anchor: centre, text: VS}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Kling 3.0}
+    - {kind: chip, placement: overlay, anchor: centre, text: VS}
+5:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: left, count: 3, text: Polaroid Cool|Silver Screen|Old Money}
+    - {kind: chip, placement: overlay, anchor: bottom, text: '1972'}
+    - {kind: tile, placement: beside, anchor: br}
+6:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tl, count: 3}
+    - {kind: tile, placement: overlay, anchor: br, count: 3}
+    - {kind: chip, placement: overlay, anchor: tr, count: 2, text: Cyberpunk|Hyperrealism}
+    - {kind: chip, placement: overlay, anchor: top, text: Metallic spheres in futuristic winter}
+7:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: centre}
+    - {kind: chip, placement: overlay, anchor: bottom, text: AI Image}
+    - {kind: tile, placement: overlay, anchor: bottom}
+8:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+    - {kind: chip, placement: overlay, anchor: bottom, text: Vintage}

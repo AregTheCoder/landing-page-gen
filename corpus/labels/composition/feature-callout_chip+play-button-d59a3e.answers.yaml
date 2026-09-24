@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 5, state: {active: 2}, text: "Electronic|Jazz|Lo-fi|Pop|Hip Hop"}
+    - {kind: play-button, placement: beside, anchor: bottom}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tr, count: 2, text: "Flux 3|20s"}
+    - {kind: play-button, placement: overlay, anchor: bottom}
+3:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bl, count: 2, text: "1080p 9:16 15s|2 models"}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: "9+ references"}
+    - {kind: play-button, placement: beside, anchor: bottom}

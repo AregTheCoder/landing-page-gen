@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: overlay, anchor: left}
+    - {kind: arrow, placement: overlay, anchor: right}
+    - {kind: selection-handles, placement: overlay, anchor: centre}

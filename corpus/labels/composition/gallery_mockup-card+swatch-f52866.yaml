@@ -1,0 +1,26 @@
+sheet: gallery_mockup-card+swatch-f52866
+group:
+  type: gallery
+  chrome: mockup-card+swatch
+fields:
+- chrome_items
+answers: gallery_mockup-card+swatch-f52866.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c2f8b6ab-4261-4119-8246-3f1e8fd2ea30.png
+    asset: c2f8b6ab
+    page: background-changer
+    slot: S13-m5
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch

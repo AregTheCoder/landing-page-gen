@@ -1,0 +1,54 @@
+# The page vocabulary chrome blocks are checked against (compose/bank.py): the
+# Picsart tools a block can stand for, the makers' glyphs, and which tool each
+# page is about. The blocks themselves and their categories are in blocks.yaml.
+
+# Each Picsart capability a block can stand for: the icon a `tool` block draws
+# for it, and the spec strings that are honest for it (a `spec` block on this
+# tool's page may say only these, or a string in the copy). `glyphs` are the
+# corpus's own icons for the tool (assets/icons, learned from its tiles): a
+# measured tile showing one is this tool's tile.
+tools:
+  enhance:      {picsart: picsart_enhance, model: picsart-enhance, icon: enhance, specs: [x2, x4, 2x, 4x, HD, 4K]}
+  upscale:      {picsart: picsart_enhance, model: topaz-upscale-image, icon: enlarge, specs: [x2, x4, 2x, 4x, HD, 4K, 8K]}
+  remove-bg:    {picsart: picsart_remove_bg, model: picsart-sod-v8-2, icon: cutout, specs: [PNG], glyphs: [remove-bg]}
+  change-bg:    {picsart: picsart_change_bg, model: recraftv3-replace-bg, icon: image, specs: []}
+  vectorize:    {picsart: picsart_vectorize, model: recraft-vectorize, icon: pen, specs: [SVG]}
+  edit:         {picsart: picsart_generate, model: picsart-qwen-image-edit, icon: brush, specs: [], glyphs: [edit-image, retouch]}
+  generate:     {picsart: picsart_generate, model: gpt-image-2.5-sunburst, icon: wand, specs: [], glyphs: [text-to-image, ai-art]}
+  crop:         {picsart: lp-inject, model: null, icon: crop, specs: ["1:1", "4:5", "9:16", "16:9", "3:4", "4:3"], glyphs: [crop-bold]}
+  adjust:       {picsart: lp-compose, model: null, icon: wheel, specs: []}
+  video:        {picsart: picsart_generate, model: seedance-2.5, icon: play, specs: [GIF, MP4, 720p, 1080p], glyphs: [clapper, text-video]}
+  video-enhance: {picsart: picsart_generate, model: seedance-2.5-video-edit, icon: enhance, specs: [HD, 4K, 1080p, 60 FPS]}
+  voice:        {picsart: null, model: null, icon: mic, specs: []}
+  calculator:   {picsart: null, model: null, icon: calc, specs: []}
+  music:        {picsart: null, model: null, icon: music, specs: []}
+
+# Glyphs that are a maker's symbol, not a tool: a block drawing one claims that
+# maker's model made the picture, so it must be the generator's own mark
+# (fill.fill swaps in the generating model's mark; binding_problems refuses a
+# mismatch). The template "sparkle" tiles are the Gemini symbol.
+marks:
+  sparkle: gemini
+
+# Page slug (a regex on the corpus slug) -> the tool the page is about, and
+# for before/after pages how the Before is made from the generated After
+# (`compose/degrade.py`). First match wins.
+pages:
+  - {match: '^ai-image-enhancer--unblur', tool: enhance, degrade: blur}
+  - {match: '^ai-image-enhancer--sharpen', tool: enhance, degrade: blur}
+  - {match: '^ai-image-enhancer--denoise', tool: enhance, degrade: noise}
+  - {match: '^ai-image-enhancer--unpixelate', tool: enhance, degrade: pixelate}
+  - {match: '^ai-image-enhancer--photo-restoration', tool: enhance, degrade: scratches}
+  - {match: '^(ai-image-enhancer|ai-enhance|hd-photo-converter|batch-photo-editor--image-enhancer)', tool: enhance, degrade: blur}
+  - {match: '^(image-upscale|image-enlarger)', tool: upscale, degrade: pixelate}
+  - {match: '^(video-enhancer|ai-video-upscaler|ai-models--.*video-upscale)', tool: video-enhance, degrade: lowlight}
+  - {match: '^(background-remover|video-background-remover)', tool: remove-bg}
+  - {match: '^background-changer', tool: change-bg}
+  - {match: '^(svg-editor|vectorize|image-to-svg)', tool: vectorize}
+  - {match: '^(remove-object|ai-replace|ai-image-editor)', tool: edit}
+  - {match: '^(crop-image|resize-image|rotate-image)', tool: crop}
+  - {match: '^(hsl-color|photo-effects|color-)', tool: adjust}
+  - {match: '^(ai-image-generator|ai-art-generator|ai-models--|compare-models--|ai-template-generator)', tool: generate}
+  - {match: '^(image-to-video|text-to-video|video-)', tool: video}
+  - {match: 'calculator$', tool: calculator}
+  - {match: '^add-music', tool: music}

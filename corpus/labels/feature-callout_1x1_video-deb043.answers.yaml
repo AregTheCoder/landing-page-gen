@@ -1,0 +1,132 @@
+1:
+  art_style: photo
+  camera: push-in
+  chrome: [model-logo, chip]
+  confidence: 0.8
+  description: a marmot in a bubble-filled alpine meadow, model pills Seedance vs Kling and a 2K chip
+  family_hint: full-bleed
+  motion_kind: camera-move
+  subject: animal
+  text_in_image: labels-only
+  ui_mockup: none
+2:
+  art_style: photo
+  camera: static
+  chrome: []
+  confidence: 0.7
+  description: a selfie of two women becomes printed photos held in a hand
+  family_hint: full-bleed
+  motion_kind: transition
+  subject: person
+  text_in_image: none
+  ui_mockup: none
+3:
+  art_style: photo
+  camera: static
+  chrome: [model-logo, chip]
+  confidence: 0.75
+  description: compare reel, a track sprinter and two women talking, Veo vs Sora model pills
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+4:
+  art_style: mixed
+  camera: static
+  chrome: [mockup-card, chip]
+  confidence: 0.7
+  description: an AI ad template assembling a One-Day Barista Workshop social post with a coffee photo
+  family_hint: template-mockup
+  motion_kind: ui-demo
+  subject: food
+  text_in_image: headline
+  ui_mockup: none
+5:
+  art_style: photo
+  camera: static
+  chrome: []
+  confidence: 0.8
+  description: a woman in sunglasses drinks a canned beverage outdoors, subtle looping motion
+  family_hint: full-bleed
+  motion_kind: subject-motion
+  subject: person
+  text_in_image: none
+  ui_mockup: none
+6:
+  art_style: photo
+  camera: static
+  chrome: [model-logo, chip]
+  confidence: 0.8
+  description: cinematic astronaut in a spaceship, Kling vs Runway with 4K and 720p resolution chips
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+7:
+  art_style: photo
+  camera: static
+  chrome: [model-logo, chip]
+  confidence: 0.75
+  description: surreal reel, a giant teal croc on pink desert and a man walking a dog in the city, model chips
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: multiple
+  text_in_image: labels-only
+  ui_mockup: none
+8:
+  art_style: photo
+  camera: static
+  chrome: [prompt-panel, button, chip]
+  confidence: 0.8
+  description: a persona prompt card with trait chips and Generate beside a cinematic drive-in scene of a man
+  family_hint: prompt-card
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: body
+  ui_mockup: prompt-ui
+9:
+  art_style: photo
+  camera: static
+  chrome: [prompt-panel, button]
+  confidence: 0.75
+  description: prompt card generating a surreal giant orange cat scene with a girl in yellow, Generate button
+  family_hint: prompt-card
+  motion_kind: cut-montage
+  subject: animal
+  text_in_image: body
+  ui_mockup: prompt-ui
+10:
+  art_style: photo
+  camera: static
+  chrome: [model-logo, chip]
+  confidence: 0.75
+  description: a woman holds a mirror on a turquoise beach, config card with flux logo, 20s and a caption
+  family_hint: prompt-card
+  motion_kind: subject-motion
+  subject: person
+  text_in_image: body
+  ui_mockup: prompt-ui
+11:
+  art_style: mixed
+  camera: static
+  chrome: [prompt-panel, button]
+  confidence: 0.65
+  description: sticker-maker UI generating a walking into my era text sticker over a person walking
+  family_hint: prompt-card
+  motion_kind: ui-demo
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+12:
+  art_style: photo
+  camera: static
+  chrome: [prompt-panel, button, chip]
+  confidence: 0.75
+  description: prompt card with a fisheye-glass caption and Generate beside a tropical beach clip of a woman drinking
+  family_hint: prompt-card
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: body
+  ui_mockup: prompt-ui

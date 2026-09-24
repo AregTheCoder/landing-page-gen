@@ -1,0 +1,28 @@
+sheet: hero_button+chip+mockup-card+tile-d16862
+group:
+  type: hero
+  chrome: button+chip+mockup-card+tile
+fields:
+- chrome_items
+answers: hero_button+chip+mockup-card+tile-d16862.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/74803928-588c-436f-a745-8c5842b0926a.png
+    asset: '74803928'
+    page: background-tools
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+    - tile

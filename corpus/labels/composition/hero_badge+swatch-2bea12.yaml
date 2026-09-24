@@ -1,0 +1,26 @@
+sheet: hero_badge+swatch-2bea12
+group:
+  type: hero
+  chrome: badge+swatch
+fields:
+- chrome_items
+answers: hero_badge+swatch-2bea12.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ad9d863b-c78a-446a-b5a7-1916905cd740.webp
+    asset: ad9d863b
+    page: remove-object-from-photo
+    slot: S01-m3
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - swatch

@@ -1,0 +1,24 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: model-logo, placement: beside, anchor: tl, count: 4, state: {active: 1}}
+    - {kind: chip, placement: beside, anchor: left, count: 2, state: {active: 2}, text: 16:9|9:16}
+    - {kind: size-label, placement: beside, anchor: bl, text: 2K}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: model-logo, placement: beside, anchor: tl, count: 4, state: {active: 1}}
+    - {kind: chip, placement: beside, anchor: left, count: 2, state: {active: 2}, text: 16:9|9:16}
+    - {kind: size-label, placement: beside, anchor: bl, text: 4K}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: model-logo, placement: beside, anchor: tl, count: 4, state: {active: 1}}
+    - {kind: chip, placement: beside, anchor: left, count: 2, state: {active: 2}, text: 16:9|9:16}
+    - {kind: size-label, placement: beside, anchor: bl, text: 4K}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 4}
+    - {kind: model-logo, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, text: 15s}
+    - {kind: size-label, placement: beside, anchor: bl, text: 768p}

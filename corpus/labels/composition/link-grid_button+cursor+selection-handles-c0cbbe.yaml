@@ -1,0 +1,27 @@
+sheet: link-grid_button+cursor+selection-handles-c0cbbe
+group:
+  type: link-grid
+  chrome: button+cursor+selection-handles
+fields:
+- chrome_items
+answers: link-grid_button+cursor+selection-handles-c0cbbe.answers.yaml
+cells:
+  1:
+    src: https://cdn140.picsart.com/76440186535545692262.png
+    asset: '76440186'
+    page: video-ad-maker
+    slot: S11-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - cursor
+    - selection-handles

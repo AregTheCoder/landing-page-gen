@@ -1,0 +1,143 @@
+sheet: feature-callout_chip+tile-9dc06e
+group:
+  type: feature-callout
+  chrome: chip+tile
+fields:
+- chrome_items
+answers: feature-callout_chip+tile-9dc06e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c7f6c621-7629-4776-9832-0b6f61a5988e.webm
+    asset: c7f6c621
+    page: video-studio--merge-videos
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.2413
+    pace: fast
+    loop: false
+    loop_seam: 0.689
+    camera: static
+    chrome:
+    - chip
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ea4a0d75-8ee1-4f00-9976-70ab5ff3cd11.avif
+    asset: ea4a0d75
+    page: ai-art-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f1d38456-2f38-418e-81aa-64fe70ca9a08.webp
+    asset: f1d38456
+    page: photo-effects
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe50b495-9744-4423-a87a-ede455017dc0.webp
+    asset: fe50b495
+    page: variation-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ff61788c-fadc-408c-b611-81964ad17fb1.avif
+    asset: ff61788c
+    page: ai-models--grok-imagine
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/2e6d6f9e-f534-47a4-9cf1-43f559a270c2.png
+    asset: 2e6d6f9e
+    page: packaging-design
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile
+  7:
+    src: https://pcdn.picsart.com/cms-uploads/0593c400-c22c-4d6e-b139-a9a317d080b6.webm
+    asset: 0593c400
+    page: ai-video-upscaler
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0182
+    pace: slow
+    loop: true
+    loop_seam: 0.957
+    camera: static
+    chrome:
+    - chip
+    - tile

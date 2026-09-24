@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bl}
+    - {kind: cursor, placement: overlay, anchor: bl}

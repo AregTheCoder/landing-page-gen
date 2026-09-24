@@ -1,0 +1,44 @@
+sheet: use-case-grid_pill+tile-f552ba
+group:
+  type: use-case-grid
+  chrome: pill+tile
+fields:
+- chrome_items
+answers: use-case-grid_pill+tile-f552ba.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/08385997-a884-4c37-a987-fbbd1b2e35fc.avif
+    asset: 08385997
+    page: ai-image-enhancer
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c5715e9b-5f24-4c78-92e4-b539c82d29ed.avif
+    asset: c5715e9b
+    page: image-upscale
+    slot: S07-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - pill
+    - tile

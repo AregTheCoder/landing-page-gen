@@ -1,0 +1,27 @@
+sheet: feature-callout_mockup-card+prompt-panel+tile-3f8320
+group:
+  type: feature-callout
+  chrome: mockup-card+prompt-panel+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+prompt-panel+tile-3f8320.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/61107c70-4698-4284-ba0e-0fc97e6b11f9.webp
+    asset: 61107c70
+    page: ai-video-avatar
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - prompt-panel
+    - tile

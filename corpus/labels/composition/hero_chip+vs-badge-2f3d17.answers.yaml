@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Seedance 2.0|Kling 3.0}

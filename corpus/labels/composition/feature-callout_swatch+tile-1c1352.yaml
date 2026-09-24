@@ -1,0 +1,62 @@
+sheet: feature-callout_swatch+tile-1c1352
+group:
+  type: feature-callout
+  chrome: swatch+tile
+fields:
+- chrome_items
+answers: feature-callout_swatch+tile-1c1352.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/d5d56eb0-01cc-4ed1-a605-de87ce135413.png
+    asset: d5d56eb0
+    page: menu-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/dfd22ac3-b1c8-445d-b51e-0b9e61956bcf.png
+    asset: dfd22ac3
+    page: twitter-post-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/ec6aebfc-ff91-47b9-bf24-981f5ae7f0b8.png
+    asset: ec6aebfc
+    page: thank-you-card-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile

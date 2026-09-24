@@ -1,0 +1,144 @@
+1:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload button on black, then a floral bouquet poster upscales and lands in a social post card
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on black, then a vertical clip of a woman with a flower hat gets a trim slider and GIF export tiles
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: vertical clip card of a woman in a black tee in an alley on white, then a timeline and animated text
+  family_hint: editor-canvas
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome: []
+  text_in_image: headline
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: croissant in a striped Thank You bag by the sea, the lettering is selected and replaced with a brand name
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: [prompt-panel]
+  text_in_image: labels-only
+  ui_mockup: prompt-ui
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: prompt box on white, a matcha cup product shot appears, then sits in a social post card
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome: [chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: laughing woman in a busy cap on black with an fx Effects chip, then monochrome and an effects thumbnail column
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome: [tile, chip]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in lime knit in a giant-flower meadow, loop tile and start/end frame chips below, camera widens to a dog
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: camera-move
+  camera: pull-back
+8:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: upload tile on black, a prompt card swaps a green screen behind an orange armchair for a living room
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Upload PSD button on white, then a Floral Workshop poster with a layers panel and PNG export
+  family_hint: template-mockup
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: [button]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: ui-screenshot
+  before_after: false
+  description: Upload image button on white, then a girl in pink on a sky becomes a sticker cutout with tool tiles
+  family_hint: cutout-checkerboard
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: [mockup-card, chip]
+  text_in_image: labels-only
+  ui_mockup: app-card
+  subject: multiple
+  art_style: mixed
+  before_after: false
+  description: scattered ad template cards on black, one highlighted in pink as the deck shuffles
+  family_hint: mockup-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome: [tile]
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: 3d-render
+  before_after: false
+  description: 3D boy in a green hoodie and a hamster on a meadow, reference clips and mic tiles in a side column
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static

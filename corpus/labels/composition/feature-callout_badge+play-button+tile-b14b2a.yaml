@@ -1,0 +1,65 @@
+sheet: feature-callout_badge+play-button+tile-b14b2a
+group:
+  type: feature-callout
+  chrome: badge+play-button+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+play-button+tile-b14b2a.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0eee34d8-dc36-458c-81f7-86f288d7263e.webp
+    asset: 0eee34d8
+    page: instagram-video-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - play-button
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/a5bb6bea-55e4-4279-8cf9-b0d0665cc319.webp
+    asset: a5bb6bea
+    page: ai-models--seedance-1-pro
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - play-button
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b9739c0f-aadc-498c-998d-fedd6110da02.webp
+    asset: b9739c0f
+    page: slideshow-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - play-button
+    - tile

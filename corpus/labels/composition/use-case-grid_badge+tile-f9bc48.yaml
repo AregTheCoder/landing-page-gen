@@ -1,0 +1,26 @@
+sheet: use-case-grid_badge+tile-f9bc48
+group:
+  type: use-case-grid
+  chrome: badge+tile
+fields:
+- chrome_items
+answers: use-case-grid_badge+tile-f9bc48.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/50393c49-c6ef-4ddc-adb3-773c0d2c423c.avif
+    asset: 50393c49
+    page: background-changer
+    slot: S09-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: checkerboard
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - tile

@@ -1,0 +1,32 @@
+sheet: hero_arrow+tile-54b9bf
+group:
+  type: hero
+  chrome: arrow+tile
+fields:
+- chrome_items
+answers: hero_arrow+tile-54b9bf.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cc4b5193-baff-4324-bb4e-c9a9c2c31dd7.webm
+    asset: cc4b5193
+    page: slideshow-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 13.04
+    motion: 0.086
+    pace: medium
+    loop: false
+    loop_seam: 0.815
+    camera: static
+    chrome:
+    - arrow
+    - tile

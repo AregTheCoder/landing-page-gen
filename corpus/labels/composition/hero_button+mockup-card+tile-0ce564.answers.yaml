@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: bl, text: "Shroomy table lamp"}
+    - {kind: button, placement: beside, anchor: bl, text: "BUY"}
+    - {kind: tile, placement: overlay, anchor: tl}
+    - {kind: tile, placement: overlay, anchor: tr}

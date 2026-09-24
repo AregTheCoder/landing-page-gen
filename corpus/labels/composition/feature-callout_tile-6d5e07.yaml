@@ -1,0 +1,232 @@
+sheet: feature-callout_tile-6d5e07
+group:
+  type: feature-callout
+  chrome: tile
+fields:
+- chrome_items
+answers: feature-callout_tile-6d5e07.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5f928a7-43e9-4273-8341-db083d3fa851.webm
+    asset: f5f928a7
+    page: image-to-video
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 0
+    before_after: false
+    duration: 7.97
+    camera: static
+    chrome:
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f7b93c0c-7add-4bad-b32c-186069b4fc40.webm
+    asset: f7b93c0c
+    page: ai-models--flux-video-upscale
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 5
+    n_pages: 5
+    ground: black
+    layout: single
+    panel_count: 0
+    before_after: false
+    duration: 15.99
+    motion: 0.1913
+    pace: fast
+    loop: false
+    loop_seam: 0.511
+    camera: static
+    chrome:
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f8e7d093-bdbc-40fe-9949-9021b553331b.webm
+    asset: f8e7d093
+    page: add-text-to-video
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 0
+    before_after: false
+    duration: 11.24
+    motion: 0.0652
+    pace: medium
+    loop: true
+    loop_seam: 0.915
+    camera: static
+    chrome:
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f92ec76b-21d7-49a1-b409-bb813ca8b5be.webp
+    asset: f92ec76b
+    page: draw
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fc6f4401-fcf9-4d90-a4b1-ca69665c58b9.avif
+    asset: fc6f4401
+    page: collage-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - tile
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fdac2539-ae58-4f8a-8949-7c2d79989424.webm
+    asset: fdac2539
+    page: ai-models--google-omni
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.0289
+    pace: slow
+    loop: true
+    loop_seam: 0.937
+    camera: static
+    chrome:
+    - tile
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/36b90f33-f9f8-4286-8065-d5d935932c65.png
+    asset: 36b90f33
+    page: video-background-remover
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/3895b6d1-b636-4079-b09e-3b42adf3417e.png
+    asset: 3895b6d1
+    page: image-style-transfer
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/487789d7-c9ca-48f4-91eb-0acd97e9688e.png
+    asset: 487789d7
+    page: image-style-transfer
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/cb0ee83e-adb4-4cba-8e3e-86469d408ce5.png
+    asset: cb0ee83e
+    page: meme-generator
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/e325c363-3d41-4793-a3e3-4cc791671237.png
+    asset: e325c363
+    page: meme-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile
+  12:
+    src: https://pcdn.picsart.com/cms-uploads/2277ef85-3705-451e-836f-6320fd6f23eb.avif
+    asset: 2277ef85
+    page: ai-models--recraft-v4-styles-pro-vector
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile

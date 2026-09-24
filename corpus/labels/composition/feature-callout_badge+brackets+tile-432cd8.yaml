@@ -1,0 +1,27 @@
+sheet: feature-callout_badge+brackets+tile-432cd8
+group:
+  type: feature-callout
+  chrome: badge+brackets+tile
+fields:
+- chrome_items
+answers: feature-callout_badge+brackets+tile-432cd8.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/328f7e5d-5f9e-4b23-b6a2-0f48e6e6fc86.png
+    asset: 328f7e5d
+    page: add-shadow-to-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - brackets
+    - tile

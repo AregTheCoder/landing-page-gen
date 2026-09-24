@@ -1,0 +1,26 @@
+sheet: link-grid_brackets+size-label-900898
+group:
+  type: link-grid
+  chrome: brackets+size-label
+fields:
+- chrome_items
+answers: link-grid_brackets+size-label-900898.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/d009e3c0-dbcc-4a71-9854-f4c6ed474968.png
+    asset: d009e3c0
+    page: ai-image-extender
+    slot: S15-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - size-label

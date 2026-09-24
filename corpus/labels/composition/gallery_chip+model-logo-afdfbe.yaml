@@ -1,0 +1,26 @@
+sheet: gallery_chip+model-logo-afdfbe
+group:
+  type: gallery
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: gallery_chip+model-logo-afdfbe.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/d5740086-a033-49f3-925e-4075be799cf1.avif
+    asset: d5740086
+    page: home
+    slot: S03-m1
+    type: gallery
+    size: panel
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - chip
+    - model-logo

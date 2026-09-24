@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre}
+    - {kind: button, placement: overlay, anchor: br, text: SHOP NOW}
+    - {kind: swatch, placement: beside, anchor: bl, count: 5}
+    - {kind: tile, placement: beside, anchor: br, count: 2}

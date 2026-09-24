@@ -1,0 +1,46 @@
+sheet: hero_button+chip+prompt-panel-b9439c
+group:
+  type: hero
+  chrome: button+chip+prompt-panel
+fields:
+- chrome_items
+answers: hero_button+chip+prompt-panel-b9439c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp
+    asset: 6c40c418
+    page: ai-models--flux-kontext-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 14
+    n_pages: 13
+    ground: photo-full-bleed
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fac139f1-0aae-4888-99f2-8fdf603c8900.webp
+    asset: fac139f1
+    page: ai-models--nano-banana-2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 9
+    n_pages: 9
+    ground: photo-full-bleed
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel

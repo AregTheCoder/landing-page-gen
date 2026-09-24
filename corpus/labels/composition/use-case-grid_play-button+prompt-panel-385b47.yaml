@@ -1,0 +1,26 @@
+sheet: use-case-grid_play-button+prompt-panel-385b47
+group:
+  type: use-case-grid
+  chrome: play-button+prompt-panel
+fields:
+- chrome_items
+answers: use-case-grid_play-button+prompt-panel-385b47.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f2d9f9ac-2442-4062-b504-ab89765fed98.avif
+    asset: f2d9f9ac
+    page: ai-models--lyria-3
+    slot: S05-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - play-button
+    - prompt-panel

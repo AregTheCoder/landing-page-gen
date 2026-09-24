@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: prompt-panel, placement: beside, anchor: left, text: "Retro spin, glossy red nails"}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: button, placement: beside, anchor: bl, count: 2, state: {active: 2}, text: "Runway|Luma"}
+    - {kind: play-button, placement: overlay, anchor: centre}

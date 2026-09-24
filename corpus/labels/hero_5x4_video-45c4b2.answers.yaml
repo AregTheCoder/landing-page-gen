@@ -1,0 +1,33 @@
+1:
+  art_style: photo
+  camera: static
+  chrome: [tile, mockup-card, chip]
+  confidence: 0.4
+  description: cinematic scene of a smiling woman beside a cast/character reference column, storyboard generator
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+2:
+  art_style: photo
+  camera: static
+  chrome: [tile]
+  confidence: 0.4
+  description: portrait video card on black, a loading gauge, then the result reappears, reverse-video demo
+  family_hint: dark-composite
+  motion_kind: ui-demo
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+3:
+  art_style: photo
+  camera: static
+  chrome: [tile, mockup-card]
+  confidence: 0.5
+  description: UGC ad of a woman on a yacht beside a product reference column, marketing studio
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: none
+  ui_mockup: none

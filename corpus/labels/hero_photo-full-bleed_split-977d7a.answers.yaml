@@ -1,15 +1,20 @@
 1:
-  chrome: [slider, tile]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: split of a ringed hand photo and its checkerboard transparent cutout with a slider
+  description: split of a ringed hand photo and its checkerboard transparent cutout
+    with a slider
   family_hint: cutout-checkerboard
   confidence: 0.55
   before_after: false
 2:
-  chrome: [slider, tile]
+  chrome:
+  - compare-handle
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -19,27 +24,36 @@
   confidence: 0.4
   before_after: true
 3:
-  chrome: [tile, play-button]
+  chrome:
+  - tile
+  - play-button
   text_in_image: none
   ui_mockup: none
   subject: multiple
   art_style: photo
-  description: animation maker split with input photo tiles and a play button over a result
+  description: animation maker split with input photo tiles and a play button over
+    a result
   family_hint: dark-composite
   confidence: 0.3
   before_after: false
 4:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: multiple
   art_style: mixed
-  description: omni model split with photo and audio input tiles beside animated output frames
+  description: omni model split with photo and audio input tiles beside animated output
+    frames
   family_hint: dark-composite
   confidence: 0.3
   before_after: false
 5:
-  chrome: [model-logo, vs-badge, chip, pill]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: person

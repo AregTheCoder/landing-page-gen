@@ -1,17 +1,21 @@
 1:
-  chrome: [mockup-card, badge]
+  chrome:
+  - mockup-card
+  - badge
   text_in_image: headline
   ui_mockup: none
   subject: food
   art_style: mixed
-  description: a blue brochure template card reading flavor feast with a noodle bowl photo
+  description: a blue brochure template card reading flavor feast with a noodle bowl
+    photo
   family_hint: template-mockup
   confidence: 0.65
   ground: white
   layout: stacked
   panel_count: 2
 2:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
@@ -23,7 +27,10 @@
   layout: stacked
   panel_count: 2
 3:
-  chrome: [mockup-card, button, chip]
+  chrome:
+  - mockup-card
+  - button
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: food
@@ -35,19 +42,26 @@
   layout: column-main
   panel_count: 3
 4:
-  chrome: [model-logo, vs-badge, chip]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: product
   art_style: photo
-  description: two model result cards of a yellow handbag GPT Image versus Flux 2 Pro with VS
+  description: two model result cards of a yellow handbag GPT Image versus Flux 2
+    Pro with VS
   family_hint: vs-two-up
   confidence: 0.9
   ground: mixed
   layout: two-up
   panel_count: 2
 5:
-  chrome: [prompt-panel, button, tile]
+  chrome:
+  - prompt-panel
+  - button
+  - tile
   text_in_image: body
   ui_mockup: prompt-ui
   subject: product
@@ -59,7 +73,8 @@
   layout: column-main
   panel_count: 2
 6:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: body
   ui_mockup: none
   subject: person
@@ -71,7 +86,10 @@
   layout: two-up
   panel_count: 2
 7:
-  chrome: [mockup-card, chip, button]
+  chrome:
+  - mockup-card
+  - chip
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
@@ -83,19 +101,22 @@
   layout: split
   panel_count: 1
 8:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: person
   art_style: mixed
-  description: a stacked comedy flyer template reading jake knows no limits with a man photo
+  description: a stacked comedy flyer template reading jake knows no limits with a
+    man photo
   family_hint: template-mockup
   confidence: 0.65
   ground: light-grey
   layout: stacked
   panel_count: 2
 9:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -107,7 +128,10 @@
   layout: single
   panel_count: 1
 10:
-  chrome: [prompt-panel, button, chip]
+  chrome:
+  - prompt-panel
+  - button
+  - chip
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
@@ -119,7 +143,8 @@
   layout: column-main
   panel_count: 2
 11:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
@@ -131,12 +156,16 @@
   layout: grid
   panel_count: 3
 12:
-  chrome: [model-logo, vs-badge, chip]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
-  description: two model result cards of a woman in a scarf Ideogram versus Flux 2 Pro with VS
+  description: two model result cards of a woman in a scarf Ideogram versus Flux 2
+    Pro with VS
   family_hint: vs-two-up
   confidence: 0.9
   ground: mixed

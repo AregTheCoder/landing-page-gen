@@ -1,0 +1,26 @@
+sheet: feature-callout_pill+size-label-a89d6f
+group:
+  type: feature-callout
+  chrome: pill+size-label
+fields:
+- chrome_items
+answers: feature-callout_pill+size-label-a89d6f.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/25329b09-3d26-4dac-9718-1e364b5a2300.avif
+    asset: 25329b09
+    page: crop-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+    - size-label

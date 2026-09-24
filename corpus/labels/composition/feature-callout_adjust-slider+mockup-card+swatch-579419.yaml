@@ -1,0 +1,27 @@
+sheet: feature-callout_adjust-slider+mockup-card+swatch-579419
+group:
+  type: feature-callout
+  chrome: adjust-slider+mockup-card+swatch
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+mockup-card+swatch-579419.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/1dd0a7d5-6fe4-4f71-92eb-36c3fa8abad9.png
+    asset: 1dd0a7d5
+    page: brand-identity-generator
+    slot: S08-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - mockup-card
+    - swatch

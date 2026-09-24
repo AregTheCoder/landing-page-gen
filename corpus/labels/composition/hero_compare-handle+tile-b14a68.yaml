@@ -1,0 +1,44 @@
+sheet: hero_compare-handle+tile-b14a68
+group:
+  type: hero
+  chrome: compare-handle+tile
+fields:
+- chrome_items
+answers: hero_compare-handle+tile-b14a68.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/120e92ec-a945-4bdc-9bdf-500e019340d0.png
+    asset: 120e92ec
+    page: ai-photo-editing
+    slot: S01-m2
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - compare-handle
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/303e844a-33c7-4588-834a-a6d592b5b37e.png
+    asset: 303e844a
+    page: ai-photo-editing
+    slot: S01-m1
+    type: hero
+    size: tile
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - compare-handle
+    - tile

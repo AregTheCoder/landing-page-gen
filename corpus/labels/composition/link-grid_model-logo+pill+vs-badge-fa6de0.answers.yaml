@@ -1,0 +1,35 @@
+1:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Recraft V4|Midjourney V7}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+2:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Recraft V4|Midjourney V7}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+3:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: GPT Image 1.5|Midjourney V7}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+4:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: GPT Image 1.5|Midjourney V7}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+5:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Dall-e 3|Midjourney}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+11:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Nano Banana 2|Flux 2 Pro}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+12:
+  chrome_items:
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Nano Banana 2|Flux 2 Pro}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}

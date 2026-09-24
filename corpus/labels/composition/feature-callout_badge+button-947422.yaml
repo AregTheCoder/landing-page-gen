@@ -1,0 +1,50 @@
+sheet: feature-callout_badge+button-947422
+group:
+  type: feature-callout
+  chrome: badge+button
+fields:
+- chrome_items
+answers: feature-callout_badge+button-947422.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4604e99a-38c6-400e-a629-afd092c3c741.avif
+    asset: 4604e99a
+    page: batch-photo-editor
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - button
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/62bff16b-ce11-4378-832c-3cdf56a4e93b.webm
+    asset: 62bff16b
+    page: ai-image-enhancer--unpixelate-image
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.43
+    motion: 0.1298
+    pace: fast
+    loop: false
+    loop_seam: 0.748
+    camera: static
+    chrome:
+    - badge
+    - button

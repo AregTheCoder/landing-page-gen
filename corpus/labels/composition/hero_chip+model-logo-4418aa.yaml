@@ -1,0 +1,224 @@
+sheet: hero_chip+model-logo-4418aa
+group:
+  type: hero
+  chrome: chip+model-logo
+fields:
+- chrome_items
+answers: hero_chip+model-logo-4418aa.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/07a043cc-506a-4788-985c-8fcd45acd4e8.png
+    asset: 07a043cc
+    page: ai-models--imagen-4-0-ultra
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18cab6df-a379-4478-a80c-450d1d1af3c0.webm
+    asset: 18cab6df
+    page: ai-models--wan-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.01
+    motion: 0.1059
+    pace: fast
+    loop: false
+    loop_seam: 0.829
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3417a8c9-6873-4392-bde4-c6b6d3db63d8.avif
+    asset: 3417a8c9
+    page: ai-models--flux-kontext-max
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 14
+    n_pages: 14
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/50d38386-1a62-4138-9474-1abc51d0fb51.webm
+    asset: 50d38386
+    page: ai-models--hailuo-3
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 7.05
+    motion: 0.0981
+    pace: medium
+    loop: false
+    loop_seam: 0.884
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/64668807-2857-4fdc-85bb-7f14b48fc3aa.webm
+    asset: '64668807'
+    page: ai-models--happyhorse-1-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.0246
+    pace: slow
+    loop: true
+    loop_seam: 0.953
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/77de9c99-22d1-4aff-af3e-1143c35fd7ad.webm
+    asset: 77de9c99
+    page: ai-agents
+    slot: S01-m21
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    duration: 5.03
+    motion: 0.0095
+    pace: still
+    loop: true
+    loop_seam: 0.987
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/923eb4bf-2fdd-451c-8be4-f42ae3d479fc.webm
+    asset: 923eb4bf
+    page: ai-models--ltx-2-3-audio-to-video
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 3
+    n_pages: 3
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 3.25
+    motion: 0.0673
+    pace: medium
+    loop: false
+    loop_seam: 0.867
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d5292893-1141-4ffd-be18-5ab95c908fb8.webm
+    asset: d5292893
+    page: compare-models--seedance-2-vs-runway-gen-4
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1143
+    pace: fast
+    loop: false
+    loop_seam: 0.829
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dfbeb6b2-f7f1-442b-af08-94d49b4c3ea8.webp
+    asset: dfbeb6b2
+    page: ai-models--dall-e-3
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e4933f5c-4af1-4026-a195-48bebc2b5431.avif
+    asset: e4933f5c
+    page: ai-models--recraft-v4-pro
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - model-logo

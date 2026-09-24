@@ -1,0 +1,62 @@
+sheet: hero_model-logo+prompt-panel-e1f8ae
+group:
+  type: hero
+  chrome: model-logo+prompt-panel
+fields:
+- chrome_items
+answers: hero_model-logo+prompt-panel-e1f8ae.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/04aabc52-42a2-4b6b-8508-5f4517a52302.avif
+    asset: 04aabc52
+    page: ai-models--gpt-2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/537bdb6c-e205-4bf7-baf4-0ba678b70264.avif
+    asset: 537bdb6c
+    page: ai-models--grok-imagine
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8ab90d6f-fa9e-4976-a783-e86f27dae70a.avif
+    asset: 8ab90d6f
+    page: ai-models--ideogram-4-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - prompt-panel

@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: A product}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre, text: Overhead cinemat}
+    - {kind: button, placement: beside, anchor: centre, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: tl, text: Generate}

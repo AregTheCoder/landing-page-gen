@@ -1,0 +1,66 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Veo 3.1|Kling 3.0"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, state: {on: true}, text: "Audio: On|Multi-Shot: On"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Veo 3.1|Kling 3.0"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, state: {on: true}, text: "Audio: On|Multi-Shot: On"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: "Seedance 2.0|Runway Gen 4"}
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2, text: "Seedance 2.0|Runway Gen 4"}
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Sora 2|Veo 3.1"}
+    - {kind: chip, placement: beside, anchor: bottom, state: {on: true}, text: "Audio: On"}
+    - {kind: chip, placement: beside, anchor: bottom, text: "4K 60 fps"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Sora 2|Veo 3.1"}
+    - {kind: chip, placement: beside, anchor: bottom, state: {on: true}, text: "Audio: On"}
+    - {kind: chip, placement: beside, anchor: bottom, text: "4K 60 fps"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Ideogram 3.0 Flash|Flux 2 Pro"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "Realistic|1x1|2k|1x1"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "WAN 2.7|Kling 3.0"}
+    - {kind: chip, placement: beside, anchor: bottom, state: {on: true}, text: "Multi-Shot: On"}
+    - {kind: chip, placement: beside, anchor: bottom, text: "4K 60 fps"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Runway Gen 4|Veo 3.1"}
+    - {kind: chip, placement: beside, anchor: bottom, state: {on: true}, text: "Audio: On"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "Upload audio|FPS: 120|4K"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+9:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Runway Gen 4|Veo 3.1"}
+    - {kind: chip, placement: beside, anchor: bottom, state: {on: true}, text: "Audio: On"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "Upload audio|FPS: 120|4K"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "Kling 3.0|Runway"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, state: {on: true}, text: "Multi-Shot: On|Audio: On"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+11:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "GPT Image 1.5|Flux 2 Pro"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "1024x1024|1x1|2k|1x1"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+12:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: "GPT Image 1.5|Flux 2 Pro"}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "1024x1024|1x1|2k|1x1"}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}

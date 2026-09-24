@@ -1,0 +1,144 @@
+sheet: feature-callout_pill-3deb60
+group:
+  type: feature-callout
+  chrome: pill
+fields:
+- chrome_items
+answers: feature-callout_pill-3deb60.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c97d5a69-1832-42ff-ab38-c9538ed7dbdf.webp
+    asset: c97d5a69
+    page: ai-replace
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf837643-3288-47d7-80aa-2208f1a36b16.avif
+    asset: cf837643
+    page: image-upscale
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dcfc5417-8f7e-4a9b-af9d-162a92a8b333.webp
+    asset: dcfc5417
+    page: text-editor
+    slot: S04-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e0a2d78a-9f0b-4b64-aa5e-5e22f277d13e.avif
+    asset: e0a2d78a
+    page: ai-image-enhancer
+    slot: S08-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ed134b94-4db2-4451-bc18-07a4d5ed4bf4.webp
+    asset: ed134b94
+    page: photo-effects
+    slot: S11-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f05f9c6c-eb68-48cb-8453-3203bf276497.avif
+    asset: f05f9c6c
+    page: image-upscale
+    slot: S05-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f1fec5c1-1b51-4538-8cf2-b224318cb03e.avif
+    asset: f1fec5c1
+    page: background-changer
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fe95fa2f-a444-413e-b979-754dc9b53ba1.avif
+    asset: fe95fa2f
+    page: background-changer
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - pill

@@ -1,0 +1,52 @@
+sheet: hero_chip+mockup-card+tile-d5a780
+group:
+  type: hero
+  chrome: chip+mockup-card+tile
+fields:
+- chrome_items
+answers: hero_chip+mockup-card+tile-d5a780.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1748e499-a099-48ad-9c10-868b5bb8d094.webm
+    asset: 1748e499
+    page: ai-storyboard-generator
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.67
+    motion: 0.1118
+    pace: fast
+    loop: false
+    loop_seam: 0.838
+    camera: static
+    chrome:
+    - chip
+    - mockup-card
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/bb870462-f414-4085-aecc-a554f32179f6.png
+    asset: bb870462
+    page: add-shadow-to-image
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+    - tile

@@ -1,0 +1,5 @@
+2:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: centre}
+    - {kind: button, placement: overlay, anchor: br}
+    - {kind: button, placement: overlay, anchor: br, text: AI Writer}

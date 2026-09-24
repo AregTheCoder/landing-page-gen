@@ -1,0 +1,28 @@
+sheet: hero_button+selection-handles+swatch+tile-4c8c89
+group:
+  type: hero
+  chrome: button+selection-handles+swatch+tile
+fields:
+- chrome_items
+answers: hero_button+selection-handles+swatch+tile-4c8c89.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/95f67986-2a0b-4e3f-998e-fc2d972da313.png
+    asset: 95f67986
+    page: card-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - selection-handles
+    - swatch
+    - tile

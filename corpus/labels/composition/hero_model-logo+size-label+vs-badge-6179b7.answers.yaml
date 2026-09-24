@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: MiniMax H3|Seedance 2.5}
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}
+    - {kind: size-label, placement: beside, anchor: bottom, count: 2, text: 2K|1080p}

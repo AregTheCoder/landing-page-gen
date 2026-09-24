@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl, count: 2}
+    - {kind: mockup-card, placement: beside, anchor: right, text: New Drop Alert!}
+    - {kind: play-button, placement: overlay, anchor: centre}

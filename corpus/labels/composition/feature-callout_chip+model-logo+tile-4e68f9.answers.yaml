@@ -1,0 +1,38 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2, text: Wan 2.7|Kling 3.0}
+    - {kind: tile, placement: beside, anchor: bl, count: 3}
+    - {kind: chip, placement: beside, anchor: br, text: 4K / 60 fps}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: br}
+    - {kind: chip, placement: beside, anchor: bottom, text: '2'}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: chip, placement: beside, anchor: left, text: 16x9}
+    - {kind: model-logo, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: br}
+    - {kind: chip, placement: beside, anchor: bottom, text: '2'}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: br}
+    - {kind: chip, placement: beside, anchor: bottom, text: '2'}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}
+8:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl, text: Runway Aleph 2.0}
+    - {kind: tile, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: bl, text: 4x5}
+10:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: left, count: 2, text: SVG|9:16}
+    - {kind: tile, placement: beside, anchor: bl}

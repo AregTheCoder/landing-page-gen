@@ -1,0 +1,63 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr, text: Gift Certificate}
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: PINK CODE}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: Aa Aa}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: WINTER ACCESSORIES}
+    - {kind: mockup-card, placement: beside, anchor: left, text: BFF}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: CAFE STORYBOARD}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: SCENE 1}
+    - {kind: tile, placement: overlay, anchor: tr}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: centre, text: Top Text / Bottom Text}
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: overlay, anchor: centre}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: BON VOYAGE}
+    - {kind: tile, placement: beside, anchor: left, count: 3, state: {active: 2}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: br, text: sunkissed}
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: tile, placement: overlay, anchor: right, text: Text}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl}
+    - {kind: tile, placement: overlay, anchor: top}
+8:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: Luna & Niall}
+    - {kind: tile, placement: beside, anchor: tl, count: 4, state: {active: 3}}
+9:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr}
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: master your spaghetti}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: Aa}
+10:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: Impressionism}
+    - {kind: mockup-card, placement: beside, anchor: left}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: tile, placement: overlay, anchor: tr}
+11:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tr, text: HISTORIA CHRONICLES}
+    - {kind: mockup-card, placement: beside, anchor: bottom, text: HISTORIA CHRONICLES}
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, text: Aa Aa}
+12:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right, text: EMPLOYEE OF THE MONTH}
+    - {kind: mockup-card, placement: beside, anchor: left, text: All Templates}
+    - {kind: tile, placement: beside, anchor: left, count: 8, state: {active: 4}}

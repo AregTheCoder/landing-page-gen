@@ -1,0 +1,24 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: button, placement: beside, anchor: bl, text: Generate video}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, count: 3}
+    - {kind: button, placement: beside, anchor: br, count: 4}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: button, placement: overlay, anchor: bottom, text: Shop today!}
+4:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: left, count: 4, state: {active: 3}, text: Photos|Text|Sticker|Elements}
+    - {kind: tile, placement: beside, anchor: top}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bottom, text: Generate}
+6:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}

@@ -1,0 +1,30 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: centre}
+4:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+6:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: bl}
+7:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+10:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+11:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tr}
+12:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}

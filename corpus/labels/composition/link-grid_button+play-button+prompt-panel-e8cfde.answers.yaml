@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: prompt-panel, placement: overlay, anchor: br, text: Jellyfish aliens on Mars}
+    - {kind: button, placement: overlay, anchor: br, text: Generate}

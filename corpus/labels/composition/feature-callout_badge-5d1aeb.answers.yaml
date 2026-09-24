@@ -1,0 +1,12 @@
+2:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, count: 3}
+4:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tr, text: 30% OFF}
+5:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tl, count: 4}

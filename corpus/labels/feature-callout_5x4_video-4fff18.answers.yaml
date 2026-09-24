@@ -1,0 +1,154 @@
+1:
+  chrome:
+  - chip
+  - size-label
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: flower bouquet on pink, hands arrange it; speed bar with 1.3x below
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome:
+  - mockup-card
+  - tile
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: blonde bob portrait with video-merge editor panel and add-clip tile
+    overlaid
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome:
+  - tile
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman with teal headphones in forest; UGC ad reference tiles and 16:9
+    chip on top
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: cut-montage
+  camera: static
+4:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman sipping pink drink under blue sky; reverse-video processing then
+    Hurray result
+  family_hint: full-bleed
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman on futuristic silver pod, dark blue set; mute icon then Hurray
+    result
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome:
+  - prompt-panel
+  - button
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: woman on yacht putting on pink sunglasses; UGC ad prompt panel with
+    product on left
+  family_hint: prompt-card
+  confidence: 0.55
+  motion_kind: cut-montage
+  camera: static
+7:
+  chrome:
+  - mockup-card
+  - tile
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: man by blue-curtain window; video-merge editor panel with clip thumbnails
+    and add tile
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: skateboarder mid-trick over city, fisheye; split speed before/after
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+9:
+  chrome:
+  - badge
+  text_in_image: none
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  description: pastel popsicle on sand; filter preset grid appears, then Hurray result
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome:
+  - mockup-card
+  - tile
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: woman on red couch in white tee; video-merge editor timeline with clip
+    thumbnails
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome:
+  - adjust-slider
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: basketball player dribbling in sunlit gym; magenta speed slider below
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome:
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: cinematic couple by Amsterdam canal; Episodes 20/40/80 selector below
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static

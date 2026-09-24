@@ -1,5 +1,9 @@
 1:
-  chrome: [model-logo, vs-badge, chip, tile]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
@@ -9,7 +13,9 @@
   family_hint: vs-two-up
   confidence: 0.8
 2:
-  chrome: [badge, mockup-card]
+  chrome:
+  - badge
+  - mockup-card
   text_in_image: headline
   ui_mockup: app-card
   subject: person
@@ -29,7 +35,8 @@
   family_hint: template-mockup
   confidence: 0.4
 4:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: illustration
@@ -39,7 +46,10 @@
   family_hint: before-after
   confidence: 0.5
 5:
-  chrome: [model-logo, vs-badge, chip]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -49,7 +59,10 @@
   family_hint: vs-two-up
   confidence: 0.85
 6:
-  chrome: [model-logo, vs-badge, chip]
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -79,7 +92,9 @@
   family_hint: before-after
   confidence: 0.5
 9:
-  chrome: [pill, slider]
+  chrome:
+  - compare-handle
+  - pill
   text_in_image: none
   ui_mockup: none
   subject: scene
@@ -89,7 +104,8 @@
   family_hint: before-after
   confidence: 0.9
 10:
-  chrome: [selection-handles]
+  chrome:
+  - selection-handles
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -99,7 +115,8 @@
   family_hint: graphic-collage
   confidence: 0.4
 11:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: animal

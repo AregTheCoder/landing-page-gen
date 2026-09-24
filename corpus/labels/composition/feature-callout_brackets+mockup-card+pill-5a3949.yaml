@@ -1,0 +1,27 @@
+sheet: feature-callout_brackets+mockup-card+pill-5a3949
+group:
+  type: feature-callout
+  chrome: brackets+mockup-card+pill
+fields:
+- chrome_items
+answers: feature-callout_brackets+mockup-card+pill-5a3949.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/eec92ca9-d828-4eee-b56e-26e10bcfc570.png
+    asset: eec92ca9
+    page: ai-background
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - brackets
+    - mockup-card
+    - pill

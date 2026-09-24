@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: compare-handle, placement: overlay, anchor: centre}
+    - {kind: mockup-card, placement: beside, anchor: br}
+    - {kind: button, placement: beside, anchor: br, text: ADD TO BAG}

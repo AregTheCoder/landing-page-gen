@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: bl, count: 3}
+    - {kind: mockup-card, placement: overlay, anchor: br}
+    - {kind: tile, placement: overlay, anchor: br, count: 3, text: Fade in|Zoom out|Spin}
+    - {kind: button, placement: overlay, anchor: right, text: SHOP ONLINE}

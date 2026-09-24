@@ -1,0 +1,34 @@
+sheet: feature-callout_button+model-logo+prompt-panel+tile-381080
+group:
+  type: feature-callout
+  chrome: button+model-logo+prompt-panel+tile
+fields:
+- chrome_items
+answers: feature-callout_button+model-logo+prompt-panel+tile-381080.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/890107ba-6b7e-4e2b-a37b-c31cfe5cca5f.webm
+    asset: 890107ba
+    page: ai-models--sora
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.27
+    motion: 0.0205
+    pace: slow
+    loop: true
+    loop_seam: 0.956
+    camera: static
+    chrome:
+    - button
+    - model-logo
+    - prompt-panel
+    - tile

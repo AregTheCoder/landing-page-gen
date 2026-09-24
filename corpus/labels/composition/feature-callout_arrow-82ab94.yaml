@@ -1,0 +1,111 @@
+sheet: feature-callout_arrow-82ab94
+group:
+  type: feature-callout
+  chrome: arrow
+fields:
+- chrome_items
+answers: feature-callout_arrow-82ab94.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/02ca2771-a079-4c3c-80d3-e7e25329ab32.webm
+    asset: 02ca2771
+    page: ai-models--kling-o1-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    duration: 3.44
+    motion: 0.0051
+    pace: still
+    loop: true
+    loop_seam: 0.99
+    camera: static
+    chrome:
+    - arrow
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2585a025-5031-4ec0-9b1c-d201f967e088.webm
+    asset: 2585a025
+    page: ai-image-extender
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.1161
+    pace: fast
+    loop: false
+    loop_seam: 0.66
+    camera: static
+    chrome:
+    - arrow
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b7575dcb-61a1-41d7-a164-fcaaee00b631.webm
+    asset: b7575dcb
+    page: ai-image-extender
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 4.73
+    motion: 0.1247
+    pace: fast
+    loop: false
+    loop_seam: 0.617
+    camera: static
+    chrome:
+    - arrow
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/1676dd8b-b017-4519-a818-85e855e6edb2.png
+    asset: 1676dd8b
+    page: background-tools
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - arrow
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/978715ce-0dc4-4b99-b5ef-03b1e807f2a0.png
+    asset: 978715ce
+    page: storyboard-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - arrow

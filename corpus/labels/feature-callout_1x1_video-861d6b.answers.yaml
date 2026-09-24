@@ -1,0 +1,132 @@
+1:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: two AI selfie clips compared, woman at a night stadium, MiniMax H3 vs Seedance 2.5 chips
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: [button]
+  text_in_image: headline
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: close-up of glossy SLAY lettering on a woman's chest, a download button appears
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: ambient
+  camera: static
+3:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: object
+  art_style: photo
+  description: compare reel, black car drifting in smoke and a classic Porsche in forest, model chips
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome: [prompt-panel, chip, tile]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: music-generator demo, singer on a red-curtain stage beside a lyrics prompt panel and genre chips
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome: [prompt-panel, chip, model-logo]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: animal
+  art_style: photo
+  description: white horse galloping over glowing embers under a pink sky, video prompt caption and chips
+  family_hint: prompt-card
+  confidence: 0.65
+  motion_kind: subject-motion
+  camera: static
+6:
+  chrome: [prompt-panel, chip, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: music-generator demo, headphoned singer at a studio mic on teal, prompt caption and play button
+  family_hint: prompt-card
+  confidence: 0.65
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: fashion portrait, red-blushed model holding a starfish by the sea, download button, cuts to waves
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static
+8:
+  chrome: [tile, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: anime-cartoon
+  description: anime hero in red flying between fiery skyscrapers, generator tiles down the left
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static
+9:
+  chrome: [button]
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man holding a microphone in a bright room, portrait clip, a download button appears
+  family_hint: full-bleed
+  confidence: 0.75
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome: [tile, chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: compare reel, armored knight and a medieval woman in a dusk field, model tiles
+  family_hint: full-bleed
+  confidence: 0.55
+  motion_kind: camera-move
+  camera: push-in
+11:
+  chrome: [chip, model-logo]
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: compare reel, a tabby cat riding an airplane above the clouds, Seedance vs Veo chips
+  family_hint: full-bleed
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: push-in
+12:
+  chrome: [prompt-panel, chip, button]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: music-generator demo, person seated on a glowing vinyl record on a dark stage, prompt caption and chips
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: camera-move
+  camera: orbit

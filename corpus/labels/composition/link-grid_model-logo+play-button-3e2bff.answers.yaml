@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Wan 2.7}
+    - {kind: play-button, placement: overlay, anchor: centre, count: 5}

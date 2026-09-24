@@ -8,7 +8,8 @@
   family_hint: graphic-collage
   confidence: 0.5
 2:
-  chrome: [model-logo]
+  chrome:
+  - model-logo
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -17,7 +18,8 @@
   family_hint: full-bleed
   confidence: 0.3
 3:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: none
   ui_mockup: none
   subject: product
@@ -26,7 +28,8 @@
   family_hint: template-mockup
   confidence: 0.4
 4:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: none
   ui_mockup: none
   subject: food
@@ -44,7 +47,9 @@
   family_hint: full-bleed
   confidence: 0.5
 6:
-  chrome: [brackets, size-label]
+  chrome:
+  - brackets
+  - size-label
   text_in_image: labels-only
   ui_mockup: editor-canvas
   subject: person
@@ -53,7 +58,8 @@
   family_hint: crop-frame
   confidence: 0.7
 7:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: none
   ui_mockup: none
   subject: multiple
@@ -71,7 +77,9 @@
   family_hint: before-after
   confidence: 0.5
 9:
-  chrome: [chip, button]
+  chrome:
+  - chip
+  - button
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -80,7 +88,9 @@
   family_hint: graphic-collage
   confidence: 0.4
 10:
-  chrome: [size-label, adjust-panel]
+  chrome:
+  - size-label
+  - adjust-panel
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -94,6 +104,7 @@
   ui_mockup: none
   subject: multiple
   art_style: collage
-  description: scrapbook collage of polaroid photos dried flowers and collect memories script
+  description: scrapbook collage of polaroid photos dried flowers and collect memories
+    script
   family_hint: graphic-collage
   confidence: 0.7

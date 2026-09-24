@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tl}
+    - {kind: chip, placement: beside, anchor: top, text: mp3}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: "Influencer naturally reviewing and"}

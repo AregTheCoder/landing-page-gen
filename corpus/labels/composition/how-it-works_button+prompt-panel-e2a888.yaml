@@ -1,0 +1,44 @@
+sheet: how-it-works_button+prompt-panel-e2a888
+group:
+  type: how-it-works
+  chrome: button+prompt-panel
+fields:
+- chrome_items
+answers: how-it-works_button+prompt-panel-e2a888.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/229d8186-db3f-4f2e-a5a2-3afb82cc6288.webp
+    asset: 229d8186
+    page: ai-story-generator
+    slot: S07-m1
+    type: how-it-works
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d7bb7272-85d3-4e8d-9b8d-939bfda4c25c.webp
+    asset: d7bb7272
+    page: animation-maker
+    slot: S04-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - prompt-panel

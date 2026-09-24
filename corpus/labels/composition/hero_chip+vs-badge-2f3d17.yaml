@@ -1,0 +1,32 @@
+sheet: hero_chip+vs-badge-2f3d17
+group:
+  type: hero
+  chrome: chip+vs-badge
+fields:
+- chrome_items
+answers: hero_chip+vs-badge-2f3d17.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f3e723e4-074e-4313-9bdc-ee627b1d79ab.webm
+    asset: f3e723e4
+    page: compare-models--seedance-2-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.04
+    motion: 0.1014
+    pace: fast
+    loop: false
+    loop_seam: 0.878
+    camera: static
+    chrome:
+    - chip
+    - vs-badge

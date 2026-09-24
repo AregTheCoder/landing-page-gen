@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: cursor, placement: overlay, anchor: tr}
+    - {kind: cursor, placement: overlay, anchor: bl}

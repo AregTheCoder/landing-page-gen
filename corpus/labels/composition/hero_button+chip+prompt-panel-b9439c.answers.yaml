@@ -1,0 +1,10 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: left, text: "Nanobanana"}
+    - {kind: button, placement: beside, anchor: bl, text: "Generate"}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: chip, placement: beside, anchor: left, text: "Nanobanana"}
+    - {kind: button, placement: beside, anchor: bl, text: "Generate"}

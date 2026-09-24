@@ -1,0 +1,46 @@
+sheet: feature-callout_badge+button+mockup-card-4f7597
+group:
+  type: feature-callout
+  chrome: badge+button+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_badge+button+mockup-card-4f7597.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b46fa575-410c-4e87-8c8a-dfcfc32a557b.avif
+    asset: b46fa575
+    page: background-changer
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f1a23ccd-9393-4a48-9b10-b1d829bf7e0e.avif
+    asset: f1a23ccd
+    page: batch-photo-editor
+    slot: S12-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - button
+    - mockup-card

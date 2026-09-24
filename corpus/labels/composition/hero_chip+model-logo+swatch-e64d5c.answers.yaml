@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre}
+    - {kind: chip, placement: beside, anchor: tr}
+    - {kind: swatch, placement: beside, anchor: left, count: 5}

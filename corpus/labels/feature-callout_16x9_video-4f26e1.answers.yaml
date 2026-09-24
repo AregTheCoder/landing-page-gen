@@ -1,0 +1,48 @@
+1:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: portrait card of a man in green sweater on blue over black; persona style panel and Picsart end card follow
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome: [mockup-card]
+  text_in_image: none
+  ui_mockup: none
+  subject: object
+  art_style: mixed
+  before_after: false
+  description: near-black opening with a design card sliding in; chat prompt UI then builds a Hoodie On poster, Picsart end card
+  family_hint: prompt-card
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome: [selection-handles]
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: multiple
+  art_style: mixed
+  before_after: false
+  description: dimmed canvas grid of pink portrait cards and black cards with silver 3D stickers, node dots on edges, scrolling sideways
+  family_hint: editor-canvas
+  confidence: 0.5
+  motion_kind: camera-move
+  camera: pan
+4:
+  chrome: [mockup-card]
+  text_in_image: headline
+  ui_mockup: none
+  subject: multiple
+  art_style: mixed
+  before_after: false
+  description: dimmed wall of small ad designs with All-in-one AI headline; cuts to basketball footage and back to the grid
+  family_hint: template-mockup
+  confidence: 0.6
+  motion_kind: cut-montage
+  camera: static

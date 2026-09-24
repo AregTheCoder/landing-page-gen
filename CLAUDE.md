@@ -61,8 +61,26 @@ uv run lp-corpus pool calibrate full-bleed --write [--family-check]  # answers -
 uv run lp-corpus pool index [--from descriptions.jsonl]     # merge a {id, description} JSONL into the entry yamls, then (re)build corpus/pool/_index.sqlite (FTS5 over description+subject, gitignored). Descriptions come from an offline local vision model (no API/spend)
 uv run lp-corpus pool find --need "product on pink seamless, hard shadow" --family full-bleed --aspect 3:4 --state kept -k 5  # rank pool images by text match (bm25) x visual score: the manager's "get the correct image" query
 uv run lp-corpus similar ... --style full-bleed --pool 2 --seed <run>  # + two kept licensed images as p<n>-pool.md; content-matched to the --query via _index.sqlite when it exists, else rotated per run
-uv run lp-compose --describe before-after                # panels of a style family and their generate ratios
+uv run lp-corpus frames <clip.mp4|url> --out strip.png      # a clip's first/middle/last frames side by side + its measured length, pace, loop seam (the worker's and reviewer's video gate; no ffmpeg, Chromium via Playwright)
+uv run lp-corpus motion [--limit N] [--force]                # measure pace/loop/camera-when-static on the video records still lacking them -> attributes.yaml, media.attrs (attrs --force --kinds video re-grabs posters + frames too)
+uv run lp-corpus motion --summary [--write-doc]              # per family, what its labelled clips do; --write-doc sets each family's **Motion:** line in style-families.md
+uv run lp-corpus grammar [--write-doc]                       # page grammar: section order, when image vs video, clip length, motifs, copy themes, context -> decision rules -> corpus/grammar/ (+ picsart-workflows/page-grammar.md); skeleton's `> prior:` lines read it
+uv run lp-corpus similar ... --kind video                    # prefer sections with clips and excerpt them as 3-frame strips (what brief.py asks for a video slot)
+uv run lp-corpus pool search full-bleed --kind video [...]   # Pexels/Pixabay VIDEO search into the same pool (poster hashed/ranked/sheeted); served by `similar --pool N --kind video` as strips
+uv run lp-corpus read [--page SLUG] [--force]            # every corpus image read: OCR lines (macOS Vision, on-device) + pixel layout -> corpus/readings/<id>.json
+uv run lp-corpus storyboard [--page SLUG] [--force]      # every local clip: holds, typed transitions, keyframes read as layouts -> corpus/storyboards/<id>/
+uv run lp-compose --induce                               # a skeleton per corpus composite from its reading -> compose/assets/layouts.yaml (m-<code> layouts)
+uv run lp-compose --replica [FAMILY[/LAYOUT]] --out DIR  # each layout redrawn from its own original, read beside it: the fidelity work list
+uv run lp-compose --probe --out research/probe             # after every template/reader change: the probe set (assets/probe.yaml) redrawn vs the last probe; WORSE lines exit 1, probe.png to look at
+uv run lp-compose --learn-clips [--limit N] --out DIR    # each clip's choreography and learned template replayed against it -> compose/assets/timelines.yaml
+uv run lp-compose --describe before-after                # a family's skeletons: background, panels (+ generate ratios), slots
+uv run lp-compose --skeleton dark-composite --preset bento --out wire.png   # draw a layout's skeleton
+uv run lp-compose --check-blocks sections/S07/composition-S07-m1.yaml sections/S07/blocks-S07-m1.yaml  # the worker's picks vs the bank's rules; binds made-by.yaml
+uv run lp-compose --spec-from-plan sections/S07/composition-S07-m1.yaml --blocks sections/S07/blocks-S07-m1.yaml --image photo=<png> --out compose-S07-m1.yaml
 uv run lp-compose runs/<run>/sections/S07/compose-S07-m1.yaml --out runs/<run>/sections/S07/steps/S07-m1-3-1.png
+uv run lp-compose --describe-timelines                    # the templated callout clips (enhance-reveal, product-bento, prompt-to-result, brand-to-mockup)
+uv run lp-compose --timeline runs/<run>/sections/S10/motion-S10-m1.yaml --image photo=<png> --out steps/S10-m1.webm --poster steps/S10-m1-poster.png  # 0 cr, Chromium WebCodecs VP9
+uv run lp-corpus roles                                    # every labelled chrome block's role vs each template slot, and the corpus evidence per bank block -> corpus/roles/report.md
 uv run lp-flow templates --family template-mockup --device applied-mockup   # gallery templates that fit, from corpus/flow-templates.yaml
 uv run lp-flow check runs/<run>/sections/S07/workflow.yaml                  # does the board wire START -> nodes -> END
 uv run lp-flow sheet runs/<run>/sections/S07/workflow.yaml                  # -> flow.md, the node sheet for the Flow canvas
@@ -115,11 +133,43 @@ the served URL is kept on each element as `data-lp-src`.
   labels (Before/After pills, size labels, chips) come from `lp-compose`,
   never from a model. Every generated slot has a style family
   (`picsart-workflows/style-families.md`).
-- Video: draft on `seedance-2.0-mini`, final on `seedance-2.5`, audio off.
+- A compose template is a skeleton: background (ground + surfaces, never
+  generated), panels (the model's pictures only) and slots (a shape and the
+  categories it accepts). Every chrome item is a block of the bank
+  (`compose/assets/blocks.yaml`): it fills a slot only if its category and
+  shape fit, its hard context holds (`compose/bank.py`), and the worker judges
+  its context is the section's (`blocks-<slot>.yaml`, a `because:` per pick;
+  `picsart-workflows/blocks.md`). An attribution block binds made-by.yaml. On
+  an enhancer/upscale/restoration page the Before is the After degraded by
+  lp-compose, never generated. Layouts are hand-made or measured (`m-<code>`,
+  induced from a corpus composite's reading; opaque names, so a brief never
+  names an original). Type is set from static font weights
+  (`compose/fontbuild.py`), and every composite is read back after drawing
+  (OCR): a string that does not read as given is a `verify:` fault.
+- A templated callout clip (`> motion: timeline <preset>`) is a `kind:
+  timeline` board: still recipe + one `motion` node on `lp-compose
+  --timeline` (0 cr). Everything else is generated:
+- Video: the board is `kind: video` (still recipe + mini draft + final, enforced
+  by `lp-flow check`), draft on `seedance-2.0-mini`, final on `seedance-2.5`
+  at the slot's `> duration:` target (faithful to the original, capped by
+  `budget.video_seconds`), audio off, a `poster:` and `duration_s:` in
+  `result.md`. Clips are judged on their 3-frame strip (`lp-corpus frames`),
+  never on the URL or the worker's note. MP Scene renders
+  (`picsart_media_video_render|export|video_create`) are denied by the credit
+  guard until `hooks/_ledger.RENDER_PRICE` carries a measured price.
 - Attributes are measured, then labelled from the sheets: `attrs` writes only
   what the pixels settle, `sheets` asks for the rest, `labels` validates
   against the enums and drops anything outside them. Never hand-edit
   `corpus/attributes.yaml`. The enums in `attrs.FIELDS`,
   `picsart-workflows/style-families.md` and `tests/test_styles.py` are pinned
   to each other and change together.
+- Picsart's images are standalone generations only where it showcases many
+  options side by side (a scrolling gallery of characters, styles, subjects)
+  and on tutorial thumbnails; elsewhere layered templates, or finished designs
+  on maker pages (`corpus/genmode.py`, `style-families.md` § Generation
+  modes). `brief.py` refuses a family outside the context's modes.
+- The manager's procedure is checked: `lp-inject` runs
+  `.claude/skills/build-landing-page/manager_check.py` (report, kept-from-source,
+  generation mode, precheck, an `accept` review per section) and refuses a run
+  that skipped a step. Trials draw slots with `pick.py`.
 - A rule learned goes into `prd.md`; the decision behind it into `plan.md`.

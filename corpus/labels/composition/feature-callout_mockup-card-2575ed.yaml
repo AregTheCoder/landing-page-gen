@@ -1,0 +1,220 @@
+sheet: feature-callout_mockup-card-2575ed
+group:
+  type: feature-callout
+  chrome: mockup-card
+fields:
+- chrome_items
+answers: feature-callout_mockup-card-2575ed.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39a9c192-3c3e-473d-b801-71c3287a294f.webp
+    asset: 39a9c192
+    page: ai-font-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 6
+    before_after: false
+    chrome:
+    - mockup-card
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5e03eb7e-e652-42e5-9d7e-a34572f246ed.webp
+    asset: 5e03eb7e
+    page: ai-poster-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/82a6a79f-a869-4510-960a-639217e5b675.webp
+    asset: 82a6a79f
+    page: brochure-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: grid
+    panel_count: 6
+    before_after: false
+    chrome:
+    - mockup-card
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/87a28071-ebf2-4291-ab14-a5cad9972e06.webp
+    asset: 87a28071
+    page: youtube-thumbnail-maker
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/97a69d8d-b068-4ae3-bf6d-e83a3160b3b3.webp
+    asset: 97a69d8d
+    page: bookmark-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b7ac5f56-0074-46fd-98ec-767f1621f4f4.webm
+    asset: b7ac5f56
+    page: ai-microdrama-generator
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1199
+    pace: fast
+    loop: false
+    loop_seam: 0.883
+    camera: static
+    chrome:
+    - mockup-card
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bd2c72db-796e-412a-b51a-927cc22faea5.webp
+    asset: bd2c72db
+    page: ai-background
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c9bfc805-a0b3-447a-b7d7-4d8e59683ecf.mp4
+    asset: c9bfc805
+    page: ad-maker
+    slot: S03-m1
+    type: feature-callout
+    size: wide
+    aspect_class: '16:9'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 30.0
+    motion: 0.286
+    pace: fast
+    loop: true
+    loop_seam: 0.995
+    camera: static
+    chrome:
+    - mockup-card
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cde6be49-a843-46ca-8ec0-397cbe762c37.webp
+    asset: cde6be49
+    page: ai-voice-generator
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/cf6ed76f-e26b-4ba1-988b-e3237162af5c.webp
+    asset: cf6ed76f
+    page: virtual-try-on-clothes
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e567c337-e6ab-4f60-9804-9cdaa92e8d83.webp
+    asset: e567c337
+    page: design-localization
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f3e8da73-09a7-4d13-98a4-28c08076dbd6.webp
+    asset: f3e8da73
+    page: virtual-try-on-clothes
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card

@@ -1,0 +1,166 @@
+1:
+  art_style: photo
+  camera: static
+  chrome: []
+  confidence: 0.8
+  description: skateboarder doing a rail trick against blue sky, "Hurray!" appears
+    at the end
+  family_hint: full-bleed
+  motion_kind: subject-motion
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+2:
+  art_style: photo
+  camera: static
+  chrome:
+  - tile
+  - chip
+  confidence: 0.5
+  description: video-merge UI, underwater scene with dolphin thumbnails and an add
+    tile, ends "Hurray!"
+  family_hint: full-bleed
+  motion_kind: ui-demo
+  subject: animal
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+3:
+  art_style: mixed
+  camera: static
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  confidence: 0.7
+  description: text-motion tool, "CREATE BOLDLY" formed from mountain terrain, prompt
+    panel with Generate Motion
+  family_hint: prompt-card
+  motion_kind: ui-demo
+  subject: typography
+  text_in_image: headline
+  ui_mockup: prompt-ui
+4:
+  art_style: photo
+  camera: static
+  chrome:
+  - tile
+  - size-label
+  confidence: 0.6
+  description: marketing video of a man with amber sunglasses on a tarmac, upload
+    and 16:9 controls
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+5:
+  art_style: photo
+  camera: static
+  chrome:
+  - mockup-card
+  confidence: 0.55
+  description: AI microdrama, beach scene of a man filming a woman, named character
+    cast panel on the left
+  family_hint: full-bleed
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+6:
+  art_style: photo
+  camera: static
+  chrome:
+  - tile
+  - chip
+  confidence: 0.5
+  description: video-merge UI, glossy lemon dome dessert becomes a decorated flower
+    cake, ends "Hurray!"
+  family_hint: full-bleed
+  motion_kind: ui-demo
+  subject: food
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+7:
+  art_style: mixed
+  camera: static
+  chrome:
+  - prompt-panel
+  - button
+  - tile
+  confidence: 0.7
+  description: text-motion tool, "Make it iconic" written in desert sand, prompt panel
+    with Generate Motion
+  family_hint: prompt-card
+  motion_kind: ui-demo
+  subject: typography
+  text_in_image: headline
+  ui_mockup: prompt-ui
+8:
+  art_style: photo
+  camera: static
+  chrome:
+  - adjust-slider
+  - pill
+  confidence: 0.6
+  description: video-speed tool, crowd queuing at a modern cafe counter, speed slider
+    and audio toggle
+  family_hint: full-bleed
+  motion_kind: ui-demo
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none
+9:
+  art_style: photo
+  camera: static
+  chrome: []
+  confidence: 0.75
+  description: silver lipstick on misty water, butterflies flutter in, "Hurray!" at
+    the end
+  family_hint: full-bleed
+  motion_kind: subject-motion
+  subject: product
+  text_in_image: labels-only
+  ui_mockup: none
+10:
+  art_style: photo
+  camera: static
+  chrome:
+  - mockup-card
+  - button
+  - tile
+  confidence: 0.6
+  description: product marketing video, woman with a white boucle armchair, product
+    card with a "Make similar" button
+  family_hint: mockup-card
+  motion_kind: cut-montage
+  subject: person
+  text_in_image: body
+  ui_mockup: product-card
+11:
+  art_style: photo
+  camera: static
+  chrome:
+  - adjust-slider
+  - chip
+  confidence: 0.6
+  description: video-speed tool, hands baking with milk, eggs and apples, 2x speed
+    slider and duration stats
+  family_hint: full-bleed
+  motion_kind: ui-demo
+  subject: food
+  text_in_image: labels-only
+  ui_mockup: none
+12:
+  art_style: photo
+  camera: static
+  chrome:
+  - chip
+  - tile
+  confidence: 0.6
+  description: video-upscaler demo, vintage-styled woman resting chin on hand, 4x
+    upscale chip and reference thumbnail
+  family_hint: full-bleed
+  motion_kind: subject-motion
+  subject: person
+  text_in_image: labels-only
+  ui_mockup: none

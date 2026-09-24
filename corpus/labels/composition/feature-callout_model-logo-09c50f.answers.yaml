@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl, text: Sora}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: br, text: GPT Image 1}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bl}

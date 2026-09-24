@@ -1,0 +1,28 @@
+sheet: feature-callout_button+play-button+prompt-panel+tile-079a18
+group:
+  type: feature-callout
+  chrome: button+play-button+prompt-panel+tile
+fields:
+- chrome_items
+answers: feature-callout_button+play-button+prompt-panel+tile-079a18.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ec598b6-1c3e-4818-aeb3-e1e4d13d7014.webp
+    asset: 0ec598b6
+    page: animation-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - play-button
+    - prompt-panel
+    - tile

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: tl}
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: chip, placement: beside, anchor: top, text: paradise_store}

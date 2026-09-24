@@ -1,0 +1,27 @@
+sheet: hero_model-logo+size-label+tile-a7f044
+group:
+  type: hero
+  chrome: model-logo+size-label+tile
+fields:
+- chrome_items
+answers: hero_model-logo+size-label+tile-a7f044.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b0a87ed7-df4b-4f8f-b401-50331c11783d.avif
+    asset: b0a87ed7
+    page: ai-models--gpt-image-1
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - size-label
+    - tile

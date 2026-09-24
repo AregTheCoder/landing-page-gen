@@ -1,0 +1,27 @@
+sheet: link-grid_button+chip+prompt-panel-36789e
+group:
+  type: link-grid
+  chrome: button+chip+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_button+chip+prompt-panel-36789e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/3df4299d-0927-4e95-96b4-3c130a74ac01.webp
+    asset: 3df4299d
+    page: ai-gif-generator
+    slot: S14-m2
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 24
+    n_pages: 24
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - prompt-panel

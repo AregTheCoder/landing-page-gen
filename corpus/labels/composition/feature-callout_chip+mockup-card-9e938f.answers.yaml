@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tr, text: Illustration of sweet land}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: SWEETLAND jelly store}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: tr, text: ARTAFORM interior designer}
+    - {kind: chip, placement: overlay, anchor: bottom, count: 3, state: {active: 2}, text: Aa|Aa|Aa}

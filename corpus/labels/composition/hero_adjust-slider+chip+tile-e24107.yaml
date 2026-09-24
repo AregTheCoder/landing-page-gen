@@ -1,0 +1,33 @@
+sheet: hero_adjust-slider+chip+tile-e24107
+group:
+  type: hero
+  chrome: adjust-slider+chip+tile
+fields:
+- chrome_items
+answers: hero_adjust-slider+chip+tile-e24107.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/07b301e3-2328-403d-9130-8c59f5f9e11d.webm
+    asset: 07b301e3
+    page: video-studio--video-speed
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    duration: 7.93
+    motion: 0.0425
+    pace: medium
+    loop: true
+    loop_seam: 0.962
+    camera: static
+    chrome:
+    - adjust-slider
+    - chip
+    - tile

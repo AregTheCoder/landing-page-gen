@@ -1,0 +1,29 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: overlay, anchor: bl}
+    - {kind: pill, placement: overlay, anchor: bl, text: Wan 2.7}
+    - {kind: chip, placement: overlay, anchor: left, count: 3, text: Image 1|Image 2|Image 3}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Flux 2 Pro|Midjourney}
+    - {kind: chip, placement: beside, anchor: bl, text: '~3 seconds'}
+    - {kind: chip, placement: beside, anchor: br, text: Slower (queue-based)}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Flux 2 Pro|Midjourney}
+    - {kind: chip, placement: beside, anchor: bl, text: Up to 4MP (2048×2048)}
+    - {kind: chip, placement: beside, anchor: br, text: High-res (via upscale)}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Flux 2 Pro|Midjourney}
+    - {kind: chip, placement: beside, anchor: bl, text: 'Product, editorial, realism'}
+    - {kind: chip, placement: beside, anchor: br, text: 'Concept art, creative visuals'}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: Ideogram 3.0 Flash|Flux 2 Pro}
+    - {kind: chip, placement: beside, anchor: bl, count: 2, text: Realistic|2x3}
+    - {kind: chip, placement: beside, anchor: br, count: 2, text: 2k|3x4}

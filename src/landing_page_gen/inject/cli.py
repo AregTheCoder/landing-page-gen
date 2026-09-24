@@ -6,13 +6,16 @@ frontmatter names the `chosen` asset per slot) and slots.json from `lp-corpus
 skeleton`; lp-inject assembles page.md itself. Every element
 is addressed by the data-lp / data-lp-t stamps sectionize wrote into the
 snapshot. Images are centre-cropped to the slot's aspect and downscaled to
-the slot size; videos are copied as they are. A slot whose `chosen` is null
-(dry run) gets a labelled placeholder image."""
+the slot size; videos are copied as they are, given the result's `poster`
+(the accepted still, fitted like an image) and the autoplay-muted-loop
+attributes a landing page expects. A slot whose `chosen` is null (dry run)
+gets a labelled placeholder image."""
 
 import argparse
 import json
 import re
 import shutil
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -56,6 +59,7 @@ def _result_slots(run):
         for sid, s in (fm.get("slots") or {}).items():
             if isinstance(s, dict) and "chosen" in s:
                 out[sid] = {"chosen": s.get("chosen"), "workflow": workflow}
+                out[sid].update({k: s[k] for k in ("poster", "duration_s", "compose") if s.get(k) is not None})  # video slots; a renamed compose spec
     return out
 
 
@@ -72,8 +76,7 @@ def assemble_page_md(run):
         r = results.get(slot.get("id"))
         if r is None or "chosen" in slot:
             return m.group(0)
-        lines = yaml.safe_dump({"chosen": r["chosen"], "workflow": r["workflow"]},
-                               sort_keys=False, allow_unicode=True, width=10000).rstrip()
+        lines = yaml.safe_dump(r, sort_keys=False, allow_unicode=True, width=10000).rstrip()
         return f"```slot\n{block}\n{lines}\n```"
 
     return SLOT_RE.sub(add, skeleton)
@@ -272,6 +275,16 @@ def inject(run, out=None, log=print, localise_css_assets=True):
     gen_dir = out / "media" / "gen"
     gen_dir.mkdir(parents=True, exist_ok=True)
 
+    def bring(value, stem, fit):
+        """Copy a result asset (URL, absolute path, or a path relative to the run —
+        how a composite's result.md names its file) into dist/media/gen/."""
+        src = str(value)
+        if not src.startswith(("http://", "https://")) and not Path(src).is_absolute():
+            src = str(run / src)
+        ext = Path(urllib.parse.urlsplit(src).path).suffix or ".bin"
+        dest = fetch_to(src, gen_dir / f"{stem}{ext}")
+        return fit_image(dest, slot_size(slot)) if fit and slot_size(slot) else dest
+
     report = {"filled": [], "placeholders": [], "kept": [], "texts_changed": 0, "missing": []}
     for slot_id, slot in slots.items():
         el = soup.select_one(f'[data-lp="{slot_id}"]')
@@ -283,13 +296,7 @@ def inject(run, out=None, log=print, localise_css_assets=True):
             continue
         chosen = slot["chosen"]
         if chosen:
-            src = str(chosen)
-            if not src.startswith(("http://", "https://")) and not Path(src).is_absolute():
-                src = str(run / src)  # a composite's result.md names its file relative to the run
-            ext = Path(urllib.parse.urlsplit(src).path).suffix or ".bin"
-            dest = fetch_to(src, gen_dir / f"{slot_id}{ext}")
-            if slot.get("kind") == "image" and slot_size(slot):
-                dest = fit_image(dest, slot_size(slot))
+            dest = bring(chosen, slot_id, fit=slot.get("kind") == "image")
             report["filled"].append(slot_id)
         else:
             dest = placeholder(gen_dir / f"{slot_id}-placeholder.png", slot)
@@ -305,7 +312,12 @@ def inject(run, out=None, log=print, localise_css_assets=True):
             el["src"] = rel
             el.attrs.pop("srcset", None)
             if el.name == "video":
-                el.attrs.pop("poster", None)
+                el.attrs.pop("poster", None)  # the snapshot's poster belongs to the old clip
+                if slot.get("poster"):
+                    poster = bring(slot["poster"], f"{slot_id}-poster", fit=True)
+                    el["poster"] = f"media/gen/{poster.name}"
+                for attr in ("muted", "autoplay", "loop", "playsinline"):
+                    el[attr] = ""
         el = soup.select_one(f'[data-lp="{slot_id}"]')
         el["data-lp-chosen"] = str(chosen) if chosen else "placeholder"
 
@@ -345,6 +357,21 @@ def inject(run, out=None, log=print, localise_css_assets=True):
     return report
 
 
+MANAGER_CHECK = Path(__file__).resolve().parents[3] / ".claude" / "skills" / "build-landing-page" / "manager_check.py"
+
+
+def manager_problems(run):
+    """What `manager_check.py` names for a managed live run (one with a
+    budget.json that is not a dry run); nothing for any other folder."""
+    budget = Path(run) / "budget.json"
+    if not budget.exists() or json.loads(budget.read_text()).get("dry_run") or not MANAGER_CHECK.exists():
+        return []
+    proc = subprocess.run([sys.executable, str(MANAGER_CHECK), str(run)], capture_output=True, text=True)
+    if proc.returncode == 0:
+        return []
+    return [l for l in proc.stdout.splitlines()[:-1] if l.strip()] or [proc.stderr.strip()[-400:]]
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(
         prog="lp-inject",
@@ -356,6 +383,9 @@ def main(argv=None) -> int:
                    help="keep remote stylesheet links instead of downloading and validating them "
                         "(the page then depends on the origin's perishable hashed CSS chunks)")
     a = p.parse_args(argv)
+    problems = manager_problems(a.run)
+    if problems:
+        sys.exit("lp-inject: the manager's procedure is not done (manager_check.py):\n  " + "\n  ".join(problems))
     try:
         report = inject(a.run, a.out, localise_css_assets=a.localise_css)
     except FileNotFoundError as exc:

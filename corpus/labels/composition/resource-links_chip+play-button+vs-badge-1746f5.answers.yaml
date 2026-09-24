@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: Seedance 2.5|Flux 3}
+    - {kind: play-button, placement: overlay, anchor: bl}
+    - {kind: vs-badge, placement: overlay, anchor: centre, text: VS}

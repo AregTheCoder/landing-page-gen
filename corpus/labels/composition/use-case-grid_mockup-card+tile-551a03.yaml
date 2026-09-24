@@ -1,0 +1,26 @@
+sheet: use-case-grid_mockup-card+tile-551a03
+group:
+  type: use-case-grid
+  chrome: mockup-card+tile
+fields:
+- chrome_items
+answers: use-case-grid_mockup-card+tile-551a03.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/2d8d9c5a-f920-4828-949b-b445e4a9c522.webp
+    asset: 2d8d9c5a
+    page: motivation-poster-maker
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile

@@ -1,0 +1,27 @@
+sheet: gallery_adjust-slider+play-button+prompt-panel-99cd94
+group:
+  type: gallery
+  chrome: adjust-slider+play-button+prompt-panel
+fields:
+- chrome_items
+answers: gallery_adjust-slider+play-button+prompt-panel-99cd94.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/bcfdd1ac-555d-4ebd-94a8-0321bb586d99.webp
+    asset: bcfdd1ac
+    page: text-to-video-ai
+    slot: S09-m5
+    type: gallery
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - adjust-slider
+    - play-button
+    - prompt-panel

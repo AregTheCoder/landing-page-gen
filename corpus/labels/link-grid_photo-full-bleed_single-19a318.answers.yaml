@@ -1,14 +1,18 @@
 1:
-  chrome: [selection-handles, brackets]
+  chrome:
+  - selection-handles
+  - brackets
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
   art_style: photo
-  description: seated person in denim on a canvas with crop brackets and a rule-of-thirds grid
+  description: seated person in denim on a canvas with crop brackets and a rule-of-thirds
+    grid
   family_hint: editor-canvas
   confidence: 0.5
 2:
-  chrome: [selection-handles]
+  chrome:
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: person
@@ -26,12 +30,15 @@
   family_hint: graphic-collage
   confidence: 0.5
 4:
-  chrome: [badge, slider]
+  chrome:
+  - adjust-slider
+  - badge
   text_in_image: labels-only
   ui_mockup: none
   subject: product
   art_style: photo
-  description: sneaker shown transparent then on white with numbered badges and a slider
+  description: sneaker shown transparent then on white with numbered badges and a
+    slider
   family_hint: cutout-checkerboard
   confidence: 0.7
 5:
@@ -44,7 +51,9 @@
   family_hint: full-bleed
   confidence: 0.6
 6:
-  chrome: [mockup-card, swatch]
+  chrome:
+  - mockup-card
+  - swatch
   text_in_image: labels-only
   ui_mockup: none
   subject: product
@@ -53,16 +62,21 @@
   family_hint: template-mockup
   confidence: 0.5
 7:
-  chrome: [play-button, mockup-card, badge]
+  chrome:
+  - play-button
+  - mockup-card
+  - badge
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: woman in an orange room with floating cutout thumbnails and a play button
+  description: woman in an orange room with floating cutout thumbnails and a play
+    button
   family_hint: full-bleed
   confidence: 0.4
 8:
-  chrome: [selection-handles]
+  chrome:
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: scene
@@ -76,11 +90,13 @@
   ui_mockup: none
   subject: person
   art_style: photo
-  description: circular cutouts of a woman with one transparent checkerboard disc on gradient
+  description: circular cutouts of a woman with one transparent checkerboard disc
+    on gradient
   family_hint: cutout-checkerboard
   confidence: 0.6
 10:
-  chrome: [selection-handles]
+  chrome:
+  - selection-handles
   text_in_image: none
   ui_mockup: editor-canvas
   subject: product
@@ -89,7 +105,10 @@
   family_hint: editor-canvas
   confidence: 0.4
 11:
-  chrome: [prompt-panel, button, mockup-card]
+  chrome:
+  - prompt-panel
+  - button
+  - mockup-card
   text_in_image: body
   ui_mockup: prompt-ui
   subject: product
@@ -98,11 +117,14 @@
   family_hint: prompt-card
   confidence: 0.5
 12:
-  chrome: [selection-handles, button]
+  chrome:
+  - selection-handles
+  - button
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: food
   art_style: photo
-  description: cake photo with The Sweet Life script text a selection box and an AI Writer button
+  description: cake photo with The Sweet Life script text a selection box and an AI
+    Writer button
   family_hint: editor-canvas
   confidence: 0.5

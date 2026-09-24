@@ -1,0 +1,26 @@
+sheet: feature-callout_brackets+chip-453557
+group:
+  type: feature-callout
+  chrome: brackets+chip
+fields:
+- chrome_items
+answers: feature-callout_brackets+chip-453557.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/5b9be208-6799-44c1-9756-0b5bd56ebb16.png
+    asset: 5b9be208
+    page: watermark-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - brackets
+    - chip

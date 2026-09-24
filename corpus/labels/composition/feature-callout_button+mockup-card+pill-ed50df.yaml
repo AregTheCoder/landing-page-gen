@@ -1,0 +1,33 @@
+sheet: feature-callout_button+mockup-card+pill-ed50df
+group:
+  type: feature-callout
+  chrome: button+mockup-card+pill
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+pill-ed50df.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/576c24ef-87f5-4b95-b6ab-5cc5d48043e8.webm
+    asset: 576c24ef
+    page: persona
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.78
+    motion: 0.0122
+    pace: slow
+    loop: true
+    loop_seam: 0.972
+    camera: static
+    chrome:
+    - button
+    - mockup-card
+    - pill

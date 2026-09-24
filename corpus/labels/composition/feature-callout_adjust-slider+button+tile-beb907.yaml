@@ -1,0 +1,32 @@
+sheet: feature-callout_adjust-slider+button+tile-beb907
+group:
+  type: feature-callout
+  chrome: adjust-slider+button+tile
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+button+tile-beb907.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/e6060d09-afec-43be-93d1-42272c1a295c.webm
+    asset: e6060d09
+    page: audio-to-video
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 2
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.0608
+    pace: medium
+    loop: false
+    loop_seam: 0.89
+    camera: static
+    chrome:
+    - adjust-slider
+    - button
+    - tile

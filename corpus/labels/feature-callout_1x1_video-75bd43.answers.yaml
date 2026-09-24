@@ -1,0 +1,151 @@
+1:
+  chrome:
+  - arrow
+  text_in_image: none
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: three reference thumbs with arrows feeding a stacked three-frame video
+    panel on black
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: party selfie of laughing friends in a rounded panel on black, then
+    enhanced with a checklist wipe
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: transition
+  camera: static
+3:
+  chrome:
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: food
+  art_style: photo
+  before_after: false
+  description: pasta plate photo with checkerboard expand bands and an AI Expand chip,
+    becomes a story post
+  family_hint: crop-frame
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+4:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: upload tile on white, then a seated silver-haired man gets a name-title
+    card and Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+5:
+  chrome: []
+  text_in_image: none
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  before_after: false
+  description: woman in a white dress in a desert garden above a filmstrip timeline,
+    cuts to cactus and shoes
+  family_hint: dark-composite
+  confidence: 0.5
+  motion_kind: cut-montage
+  camera: static
+6:
+  chrome:
+  - chip
+  - model-logo
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: same athlete in a locker room from two video models side by side, model
+    labels below
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+7:
+  chrome:
+  - compare-handle
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: young woman in a denim bucket hat, retouch before/after slider sweeping
+    across her face
+  family_hint: before-after
+  confidence: 0.9
+  motion_kind: transition
+  camera: static
+9:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: upload tile on white, then a fluffy chair poster titled Cloudy Comfort
+    with a Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+10:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: false
+  description: three friends taking a beach selfie in a rounded panel on black, then
+    AI Enhance chip and tool tiles
+  family_hint: dark-composite
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static
+11:
+  chrome: []
+  text_in_image: none
+  ui_mockup: none
+  subject: product
+  art_style: photo
+  before_after: false
+  description: red table lamp on a plain grey tile, background swapped to a red desert
+    with checkerboard and swatches
+  family_hint: outcome-tile
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+12:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: media tile on black, then a tennis-court photo with a prompt card and
+    a Download button
+  family_hint: other
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static

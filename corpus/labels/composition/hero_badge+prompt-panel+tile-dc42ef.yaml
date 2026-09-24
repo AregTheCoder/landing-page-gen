@@ -1,0 +1,27 @@
+sheet: hero_badge+prompt-panel+tile-dc42ef
+group:
+  type: hero
+  chrome: badge+prompt-panel+tile
+fields:
+- chrome_items
+answers: hero_badge+prompt-panel+tile-dc42ef.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f7dd9043-fa02-4f69-8cc3-588cbc8ff458.webp
+    asset: f7dd9043
+    page: ai-product-image-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - badge
+    - prompt-panel
+    - tile

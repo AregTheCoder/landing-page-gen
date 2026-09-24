@@ -1,0 +1,11 @@
+1:
+  chrome: [prompt-panel, chip]
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: person
+  art_style: photo
+  description: cinematic golden-hour clip of a woman in an arched loggia over a city, prompt panel overlaid
+  family_hint: prompt-card
+  confidence: 0.55
+  motion_kind: camera-move
+  camera: push-in

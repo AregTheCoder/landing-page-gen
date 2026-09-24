@@ -1,0 +1,28 @@
+sheet: feature-callout_adjust-panel+compare-handle+cursor+selection-handles-16a523
+group:
+  type: feature-callout
+  chrome: adjust-panel+compare-handle+cursor+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_adjust-panel+compare-handle+cursor+selection-handles-16a523.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/d1da1aae-4bf5-47e7-b66c-6df1d1cd78fb.png
+    asset: d1da1aae
+    page: image-style-transfer
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - compare-handle
+    - cursor
+    - selection-handles

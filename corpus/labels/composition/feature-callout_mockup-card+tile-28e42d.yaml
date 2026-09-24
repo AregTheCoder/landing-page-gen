@@ -1,0 +1,61 @@
+sheet: feature-callout_mockup-card+tile-28e42d
+group:
+  type: feature-callout
+  chrome: mockup-card+tile
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+tile-28e42d.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/cf1d8a46-ceb6-46b5-9a1d-603c4eab2d48.png
+    asset: cf1d8a46
+    page: quote-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/ec048258-73c0-4163-938a-bd0b455fd2bf.png
+    asset: ec048258
+    page: ai-assets-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/eed87235-38d8-4082-8823-f0589c4cf1f6.png
+    asset: eed87235
+    page: facebook-post-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    chrome:
+    - mockup-card
+    - tile

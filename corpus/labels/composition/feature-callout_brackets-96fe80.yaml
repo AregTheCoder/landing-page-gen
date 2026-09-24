@@ -1,0 +1,31 @@
+sheet: feature-callout_brackets-96fe80
+group:
+  type: feature-callout
+  chrome: brackets
+fields:
+- chrome_items
+answers: feature-callout_brackets-96fe80.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0ce6b746-74be-40e5-b082-99ed069e5f38.webm
+    asset: 0ce6b746
+    page: resize-image
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    duration: 11.0
+    motion: 0.1987
+    pace: fast
+    loop: false
+    loop_seam: 0.583
+    camera: static
+    chrome:
+    - brackets

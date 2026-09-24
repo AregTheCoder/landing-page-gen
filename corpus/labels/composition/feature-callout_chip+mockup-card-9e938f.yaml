@@ -1,0 +1,62 @@
+sheet: feature-callout_chip+mockup-card-9e938f
+group:
+  type: feature-callout
+  chrome: chip+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_chip+mockup-card-9e938f.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/a4976270-6b1f-429b-a09f-ff0a49a15fe7.png
+    asset: a4976270
+    page: ai-sticker-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/c37725fd-1f8e-426a-b944-39f9a7305b2a.png
+    asset: c37725fd
+    page: watermark-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/f4642239-b27b-42da-8adc-92db50f7bde4.png
+    asset: f4642239
+    page: label-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - mockup-card

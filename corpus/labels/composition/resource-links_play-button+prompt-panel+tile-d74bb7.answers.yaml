@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: How to add subtitles to videos for free}
+    - {kind: tile, placement: beside, anchor: bl, count: 2}

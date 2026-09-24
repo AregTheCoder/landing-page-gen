@@ -1,0 +1,48 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: A man dances with a flamingo}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: button, placement: beside, anchor: br}
+7:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre, text: Close-up of a}
+    - {kind: button, placement: beside, anchor: centre, text: Generate}
+8:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+9:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre}
+    - {kind: button, placement: beside, anchor: bottom, text: Generate}
+10:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre}
+    - {kind: button, placement: beside, anchor: bottom, text: Generate}
+11:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: Italian film festival poster}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+12:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: centre}
+    - {kind: button, placement: beside, anchor: bottom, text: Generate}

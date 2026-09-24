@@ -1,0 +1,47 @@
+sheet: feature-callout_tile-120723
+group:
+  type: feature-callout
+  chrome: tile
+fields:
+- chrome_items
+answers: feature-callout_tile-120723.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/35f70126-3b02-4bc0-9c16-4cd3e9c4a95d.webm
+    asset: 35f70126
+    page: audio-to-video
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    motion: 0.1414
+    pace: fast
+    loop: false
+    loop_seam: 0.888
+    camera: static
+    chrome:
+    - tile
+  2:
+    src: https://pcdn.picsart.com/cms-uploads/52bc1e66-3fbc-48d5-a098-906463e7fb9d.avif
+    asset: 52bc1e66
+    page: ai-models--recraft-v4-styles
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - tile

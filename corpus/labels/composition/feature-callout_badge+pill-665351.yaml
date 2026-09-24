@@ -1,0 +1,26 @@
+sheet: feature-callout_badge+pill-665351
+group:
+  type: feature-callout
+  chrome: badge+pill
+fields:
+- chrome_items
+answers: feature-callout_badge+pill-665351.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/edff67df-3cb2-4fde-a4ea-d694a2d04cdf.avif
+    asset: edff67df
+    page: image-upscale
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - pill

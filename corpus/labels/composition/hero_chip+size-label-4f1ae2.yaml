@@ -1,0 +1,32 @@
+sheet: hero_chip+size-label-4f1ae2
+group:
+  type: hero
+  chrome: chip+size-label
+fields:
+- chrome_items
+answers: hero_chip+size-label-4f1ae2.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/705277de-0de2-4292-a24c-27f73eae79f0.webm
+    asset: 705277de
+    page: ai-video-upscaler
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: true
+    duration: 4.97
+    motion: 0.0863
+    pace: medium
+    loop: false
+    loop_seam: 0.863
+    camera: static
+    chrome:
+    - chip
+    - size-label

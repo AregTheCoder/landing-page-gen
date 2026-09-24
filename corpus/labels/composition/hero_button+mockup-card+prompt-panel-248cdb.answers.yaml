@@ -1,0 +1,11 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: "Generate ads"}
+    - {kind: mockup-card, placement: beside, anchor: bl, state: {active: 1}, text: "Style inspiration"}
+    - {kind: button, placement: overlay, anchor: bottom, text: "BOOK YOUR APPOINTMENT"}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: "Generate"}
+    - {kind: mockup-card, placement: beside, anchor: right, text: "Bloom Bold"}

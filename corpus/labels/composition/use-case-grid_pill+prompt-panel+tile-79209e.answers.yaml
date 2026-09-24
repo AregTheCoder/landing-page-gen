@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Swap the red car for black...}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Before|After}

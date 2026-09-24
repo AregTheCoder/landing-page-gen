@@ -1,0 +1,33 @@
+sheet: feature-callout_adjust-slider+chip+play-button-feb8e3
+group:
+  type: feature-callout
+  chrome: adjust-slider+chip+play-button
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider+chip+play-button-feb8e3.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f96e5d5a-c692-4e8e-b305-6200b62d1dd0.webm
+    asset: f96e5d5a
+    page: ai-models--flux-3
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.03
+    motion: 0.0157
+    pace: slow
+    loop: true
+    loop_seam: 0.969
+    camera: static
+    chrome:
+    - adjust-slider
+    - chip
+    - play-button

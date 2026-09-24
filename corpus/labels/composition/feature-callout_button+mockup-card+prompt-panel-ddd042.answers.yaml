@@ -1,0 +1,21 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: button, placement: beside, anchor: left, text: Generate ads}
+    - {kind: mockup-card, placement: beside, anchor: bl, text: Style Inspiration}
+2:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: Delicate spring flowers in a field}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: button, placement: overlay, anchor: bottom, text: Get now!}
+    - {kind: mockup-card, placement: beside, anchor: bl}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: tl, text: Selected avatar}
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Generate script}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl, text: A landing page for a fancy restaurant}
+    - {kind: button, placement: beside, anchor: left, text: Generate}
+    - {kind: mockup-card, placement: beside, anchor: bl}

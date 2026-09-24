@@ -1,0 +1,26 @@
+sheet: feature-callout_brackets+pill+selection-handles-792e2e
+group:
+  type: feature-callout
+  chrome: brackets+pill+selection-handles
+fields:
+- chrome_items
+answers: feature-callout_brackets+pill+selection-handles-792e2e.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/fa2a98b6-afcc-47dd-bd12-9e40c965a978.avif
+    asset: fa2a98b6
+    page: batch-photo-editor
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: overlay
+    panel_count: 3
+    before_after: false
+    chrome:
+    - brackets
+    - pill
+    - selection-handles

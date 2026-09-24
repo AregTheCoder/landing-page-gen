@@ -1,0 +1,27 @@
+sheet: feature-callout_button+pill+prompt-panel-d51dee
+group:
+  type: feature-callout
+  chrome: button+pill+prompt-panel
+fields:
+- chrome_items
+answers: feature-callout_button+pill+prompt-panel-d51dee.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/19bdc9aa-b771-4223-89dd-34ce17035142.webp
+    asset: 19bdc9aa
+    page: ai-product-image-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - pill
+    - prompt-panel

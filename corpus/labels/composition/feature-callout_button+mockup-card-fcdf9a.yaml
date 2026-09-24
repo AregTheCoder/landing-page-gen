@@ -1,0 +1,80 @@
+sheet: feature-callout_button+mockup-card-fcdf9a
+group:
+  type: feature-callout
+  chrome: button+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card-fcdf9a.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/9d5b9950-5ec0-4bd4-ac5f-ffac837510c1.png
+    asset: 9d5b9950
+    page: ai-filters
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/ce5825f4-0936-4837-a145-13d90188f3a1.png
+    asset: ce5825f4
+    page: product-ad-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/d5ee5072-a3fd-4373-ba85-a1b7890497fc.png
+    asset: d5ee5072
+    page: ai-background
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/e2cf0e6a-ae57-4e65-88e8-b88b8665e5f0.png
+    asset: e2cf0e6a
+    page: ai-mockup-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card

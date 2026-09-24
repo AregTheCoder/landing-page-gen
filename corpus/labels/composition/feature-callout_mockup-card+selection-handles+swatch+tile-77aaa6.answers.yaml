@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: selection-handles, placement: overlay, anchor: top}
+    - {kind: tile, placement: beside, anchor: left, text: Aa Aa}
+    - {kind: mockup-card, placement: beside, anchor: right, text: Bar Menu}
+    - {kind: swatch, placement: beside, anchor: bottom, count: 4}

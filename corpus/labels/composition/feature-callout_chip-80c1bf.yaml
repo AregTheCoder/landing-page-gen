@@ -1,0 +1,254 @@
+sheet: feature-callout_chip-80c1bf
+group:
+  type: feature-callout
+  chrome: chip
+fields:
+- chrome_items
+answers: feature-callout_chip-80c1bf.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/01be063b-8b1a-4699-83cf-1ff64674050e.webm
+    asset: 01be063b
+    page: ai-models--kling-2-6
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.0
+    motion: 0.0292
+    pace: slow
+    loop: true
+    loop_seam: 0.958
+    camera: static
+    chrome:
+    - chip
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0d1036b0-9282-40aa-94ed-6c3f78ed8f68.webm
+    asset: 0d1036b0
+    page: ai-models--wan-3-0
+    slot: S03-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.01
+    motion: 0.0391
+    pace: slow
+    loop: true
+    loop_seam: 0.928
+    camera: static
+    chrome:
+    - chip
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0e3305b9-c105-4297-8fd1-5ddf962200ea.webm
+    asset: 0e3305b9
+    page: ai-models--happyhorse-1-0
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.03
+    motion: 0.067
+    pace: medium
+    loop: false
+    loop_seam: 0.885
+    camera: static
+    chrome:
+    - chip
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/19374784-8bb5-42b8-ab4e-b9f20108f4b9.webp
+    asset: '19374784'
+    page: design-localization
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1a14a8fe-7c89-49e3-bb73-eb38a3a25979.webp
+    asset: 1a14a8fe
+    page: ai-background
+    slot: S15-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+  6:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1d3c1628-e2a2-40f1-9e87-b177de827945.webm
+    asset: 1d3c1628
+    page: compare-models--seedance-2-vs-runway-gen-4
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1447
+    pace: fast
+    loop: false
+    loop_seam: 0.806
+    camera: static
+    chrome:
+    - chip
+  7:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/23c37d87-8727-4f1d-9aef-b113ae1545b2.webm
+    asset: 23c37d87
+    page: ai-models--wan-2-7
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.97
+    motion: 0.2077
+    pace: fast
+    loop: false
+    loop_seam: 0.766
+    camera: handheld
+    chrome:
+    - chip
+  8:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4b134d14-087a-4338-9261-ee97a600d9a4.webm
+    asset: 4b134d14
+    page: ai-models--google-omni
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 10.0
+    motion: 0.094
+    pace: medium
+    loop: false
+    loop_seam: 0.88
+    camera: pull-back
+    chrome:
+    - chip
+  9:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4fed106c-8154-449c-b70d-4fa3285c3d50.avif
+    asset: 4fed106c
+    page: compare-models--nano-banana-2-vs-flux-2-pro
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 7
+    before_after: false
+    chrome:
+    - chip
+  10:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5009397a-d634-4f63-828f-ae1d362f8ce8.webp
+    asset: 5009397a
+    page: photo-effects
+    slot: S11-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: true
+    chrome:
+    - chip
+  11:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/555fd7e1-5d0e-4873-abca-eb76cdfc2f3b.webm
+    asset: 555fd7e1
+    page: ai-models--hailuo-3
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 6.04
+    motion: 0.1787
+    pace: fast
+    loop: false
+    loop_seam: 0.784
+    camera: push-in
+    chrome:
+    - chip
+  12:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/597c97d3-8048-4601-96cf-e5b0602b283d.avif
+    asset: 597c97d3
+    page: ai-models--flux-kontext-max
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 6
+    n_pages: 6
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip

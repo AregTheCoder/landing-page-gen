@@ -1,0 +1,26 @@
+sheet: how-it-works_button+mockup-card-713912
+group:
+  type: how-it-works
+  chrome: button+mockup-card
+fields:
+- chrome_items
+answers: how-it-works_button+mockup-card-713912.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/7aa7b343-04dd-4788-91d8-0da7414da3c6.png
+    asset: 7aa7b343
+    page: instagram-post-creator
+    slot: S06-m1
+    type: how-it-works
+    size: card
+    aspect_class: '4:5'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card

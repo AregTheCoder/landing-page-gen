@@ -7,6 +7,7 @@ answer that names a value outside an enum is reported and dropped, never
 written: the rule table in `taxonomy` assumes the vocabulary holds."""
 
 import datetime
+import re
 from pathlib import Path
 
 import yaml
@@ -14,6 +15,20 @@ import yaml
 from . import attrs, measure, sheets, styles
 
 ANSWER_SUFFIX = ".answers.yaml"
+
+# The old `slider` value split into two kinds. A before/after divider becomes a
+# `compare-handle`, a tool track an `adjust-slider`; the record's before_after
+# flag or its description settles which. Rewritten in place, idempotently, in
+# both the stored records and the answers files.
+_SLIDER_COMPARE = re.compile(r"before|after|divider|handle|split|wipe|reveal", re.I)
+
+
+def _split_slider(chrome, before_after=False, description=None):
+    """`chrome` with any `slider` replaced by compare-handle or adjust-slider."""
+    if "slider" not in (chrome or []):
+        return chrome
+    target = "compare-handle" if (before_after or (description and _SLIDER_COMPARE.search(description))) else "adjust-slider"
+    return sorted({target if c == "slider" else c for c in chrome})
 
 # Fields whose vocabulary was renamed. `ingest` rewrites any record, answers
 # file or manifest that still names the old field, idempotently, so a stray
@@ -51,6 +66,12 @@ def migrate_record(rec, stats):
             lab = rec.get("labelled")
             if lab:
                 rec["labelled"] = sorted({new_field if f == old_field else f for f in lab})
+    chrome = rec.get("chrome")
+    if chrome and "slider" in chrome:
+        rec["chrome"] = _split_slider(chrome, rec.get("before_after"), rec.get("description"))
+        rec.pop("chrome_items", None)  # re-derived from the split kind
+        stats["migrated"] += 1
+        changed = True
     return changed
 
 
@@ -83,6 +104,12 @@ def migrate_files(out_dir, stats):
                     mapped = _map_value(old_field, answer.pop(old_field), stats, f"{path.name} cell {cell}")
                     if mapped is not None:
                         answer[new_field] = mapped
+            ch = answer.get("chrome")
+            if ch is not None:
+                lst = [v.strip() for v in ch.split(",")] if isinstance(ch, str) else list(ch)
+                if "slider" in lst:
+                    answer["chrome"] = _split_slider(lst, description=answer.get("description"))
+                    touched = True
         if touched:
             path.write_text(_lead_comments(raw) + styles.dump_yaml(data, sort_keys=False, allow_unicode=True))
             stats["migrated"] += 1
@@ -107,6 +134,8 @@ def check(field, value):
             return None, "chrome must be a list"
         bad = [v for v in value if v not in spec]
         return (None, f"chrome: {', '.join(bad)}") if bad else (sorted(set(value)), None)
+    if field == "chrome_items":
+        return _check_items(value)
     if isinstance(spec, tuple):
         return (value, None) if value in spec else (None, f"{field}: {value!r}")
     if spec == "integer":
@@ -124,6 +153,87 @@ def check(field, value):
     return str(value), None
 
 
+def _check_items(value):
+    """(clean chrome_items, error). A list of {kind, placement, anchor?, count?,
+    state?, text?, tool?}; the whole field is dropped on any bad item (a guess about
+    layered geometry costs more than a gap), and defaults are normalised out."""
+    if not isinstance(value, list):
+        return None, "chrome_items must be a list"
+    clean = []
+    for i, it in enumerate(value):
+        if not isinstance(it, dict):
+            return None, f"chrome_items[{i}]: not a mapping"
+        kind = it.get("kind")
+        if kind not in attrs.CHROME_KINDS:
+            return None, f"chrome_items[{i}]: kind {kind!r}"
+        placement = it.get("placement")
+        if placement not in attrs.CHROME_PLACEMENTS:
+            return None, f"chrome_items[{i}]: placement {placement!r}"
+        item = {"kind": kind, "placement": placement}
+        anchor = it.get("anchor")
+        if anchor is not None:
+            if anchor not in attrs.CHROME_ANCHORS:
+                return None, f"chrome_items[{i}]: anchor {anchor!r}"
+            item["anchor"] = anchor
+        count = it.get("count", 1)
+        if isinstance(count, bool) or not isinstance(count, int) or count < 1:
+            return None, f"chrome_items[{i}]: count {count!r}"
+        if count != 1:
+            item["count"] = count
+        state = it.get("state")
+        if isinstance(state, dict) and True in state and "on" not in state:
+            # YAML 1.1 reads a bare `on:` key as the boolean True, so `{on: true}`
+            # arrives as {True: True}; `on` is the vocabulary's only such key
+            state = {("on" if k is True else k): v for k, v in state.items()}
+        if state is not None:
+            if not isinstance(state, dict) or any(k not in attrs.CHROME_STATE_KEYS for k in state):
+                return None, f"chrome_items[{i}]: state {state!r}"
+            if state:
+                item["state"] = dict(state)
+        text = it.get("text")
+        if text is not None:
+            if not isinstance(text, str) or len(text) > 40:
+                return None, f"chrome_items[{i}]: text"
+            item["text"] = text
+        tool = it.get("tool")
+        if tool is not None:
+            if tool not in attrs.CHROME_TOOLS:
+                return None, f"chrome_items[{i}]: tool {tool!r}"
+            item["tool"] = tool
+        clean.append(item)
+    return clean, None
+
+
+# Single-kind assets whose one chrome element's placement is unambiguous, so a
+# coarse `chrome_items` can be derived without a labeller looking. A lone
+# chip/button (placement depends on the picture) and every multi-chrome asset
+# are left for the campaign.
+_BESIDE_ALWAYS = {"tile", "prompt-panel", "mockup-card", "swatch", "model-logo", "vs-badge", "size-label"}
+_OVERLAY_ALWAYS = {"pill", "brackets", "badge", "play-button", "cursor", "selection-handles", "adjust-panel",
+                   "arrow", "adjust-slider", "compare-handle"}
+
+
+def derive_items(rec, stats):
+    """Fill `chrome_items` from `chrome` where it is unambiguous, in place;
+    idempotent, and never marks the field `labelled` (a derived item is not an
+    answered one). Leaves it absent when a labeller must look."""
+    if rec.get("chrome_items") is not None:
+        return
+    chrome = rec.get("chrome")
+    if chrome is None:
+        return  # never-labelled: no bag to derive from
+    if chrome == []:
+        rec["chrome_items"] = []
+        stats["derived"] = stats.get("derived", 0) + 1
+        return
+    if len(chrome) == 1:
+        k = chrome[0]
+        placement = "beside" if k in _BESIDE_ALWAYS else "overlay" if k in _OVERLAY_ALWAYS else None
+        if placement:
+            rec["chrome_items"] = [{"kind": k, "placement": placement}]
+            stats["derived"] = stats.get("derived", 0) + 1
+
+
 def cell_answer(answer):
     """(clean fields, errors) for one cell's block."""
     clean, errors = {}, []
@@ -135,13 +245,22 @@ def cell_answer(answer):
             errors.append(err)
         else:
             clean[field] = ok
+    # the bag and the items must agree: derive the bag from the items, or drop
+    # the items when a hand-answered bag contradicts them.
+    if "chrome_items" in clean:
+        kinds = sorted({it["kind"] for it in clean["chrome_items"]})
+        if "chrome" in clean and sorted(set(clean["chrome"])) != kinds:
+            del clean["chrome_items"]
+            errors.append("chrome_items kinds != chrome")
+        else:
+            clean["chrome"] = kinds
     return clean, errors
 
 
 def ingest(mapping, out_dir=sheets.LABELS_DIR, log=print):
     """Merge every answered sheet into the mapping in place. Returns
     (mapping, stats)."""
-    stats = {"sheets": 0, "answered": 0, "cells": 0, "unknown": 0, "migrated": 0, "errors": []}
+    stats = {"sheets": 0, "answered": 0, "cells": 0, "unknown": 0, "migrated": 0, "derived": 0, "errors": []}
     today = datetime.date.today().isoformat()
     migrate_files(out_dir, stats)
     for rec in mapping.values():
@@ -186,6 +305,9 @@ def ingest(mapping, out_dir=sheets.LABELS_DIR, log=print):
             rec["sheet"] = man.get("sheet", man_path.stem)
             rec["at"] = today
             stats["cells"] += 1
+    # derive the coarse chrome_items last, so a bag answered this run is covered too
+    for rec in mapping.values():
+        derive_items(rec, stats)
     return mapping, stats
 
 
@@ -197,4 +319,7 @@ def coverage(mapping):
     out = {f: round(sum(1 for r in mapping.values() if r.get(f) is not None) / n, 3) for f in fields}
     out["complete"] = round(sum(1 for r in mapping.values()
                                 if all(r.get(f) is not None for f in fields)) / n, 3)
+    videos = [r for r in mapping.values() if r.get("kind") == "video"]
+    for f in attrs.VIDEO_SEMANTIC:  # over the videos only: an image never answers them
+        out[f] = round(sum(1 for r in videos if r.get(f) is not None) / (len(videos) or 1), 3)
     return out

@@ -1,0 +1,89 @@
+sheet: feature-callout_button+mockup-card+tile-aca9f9
+group:
+  type: feature-callout
+  chrome: button+mockup-card+tile
+fields:
+- chrome_items
+answers: feature-callout_button+mockup-card+tile-aca9f9.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/543e0b23-8514-41b4-b5ea-6924c0ed1b1d.webp
+    asset: 543e0b23
+    page: photo-effects
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ec805cba-2f55-4aee-bf5f-54b7f7f96339.webm
+    asset: ec805cba
+    page: ai-marketing-studio
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.1165
+    pace: fast
+    loop: false
+    loop_seam: 0.862
+    camera: static
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/6c4b51a7-9a74-4f5b-b21a-d148e8a6b68e.png
+    asset: 6c4b51a7
+    page: ai-text-font-style
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/9157aa7e-8a82-414a-b51e-d2402dc2018b.png
+    asset: 9157aa7e
+    page: watermark-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile

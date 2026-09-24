@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tl}
+    - {kind: arrow, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: play-button, placement: overlay, anchor: centre}

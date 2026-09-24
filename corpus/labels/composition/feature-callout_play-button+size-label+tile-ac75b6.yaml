@@ -1,0 +1,27 @@
+sheet: feature-callout_play-button+size-label+tile-ac75b6
+group:
+  type: feature-callout
+  chrome: play-button+size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_play-button+size-label+tile-ac75b6.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/39c8ee3b-d0f5-46ca-9ac4-9f0e5cb225b6.avif
+    asset: 39c8ee3b
+    page: photo-editor
+    slot: S12-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - play-button
+    - size-label
+    - tile

@@ -1,0 +1,16 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: GPT Image 1}
+    - {kind: model-logo, placement: beside, anchor: bl}
+2:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: br}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Runway Aleph 2.0}
+    - {kind: model-logo, placement: beside, anchor: bl}
+4:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, text: Recraft 4.1}
+    - {kind: model-logo, placement: beside, anchor: bl}

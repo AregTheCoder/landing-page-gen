@@ -24,6 +24,14 @@ def make_page(pages_dir, slug, render=None):
     return d
 
 
+def own_pictures(page_dir, tag):
+    """Give a fixture page its own hero pictures (every fixture page otherwise shows the same CMS asset,
+    and similar() counts one picture once)."""
+    html = page_dir / "page.html"
+    html.write_text(html.read_text().replace("hero1", f"hero1-{tag}").replace("hero2", f"hero2-{tag}"))
+    return page_dir
+
+
 def hero_render():
     proxy = "/landings-ssr/_next/image/?url=https%3A%2F%2Fcdn-cms-uploads.picsart.com%2Fcms-uploads%2F{}.avif&w=3840&q=75"
     return [
@@ -58,6 +66,30 @@ def test_cdn_url_unwraps_next_image_proxy():
         == ["2:1", "3:1", "16:10", "16:10", "1:1", "3:4", "9:16"]
     assert [sectionize.size_class(*wh) for wh in ((196, 348), (342, 282), (480, 480), (879, 418), (1440, 810), (0, 0))] \
         == ["tile", "card", "card", "panel", "wide", None]
+
+
+def test_sectionize_keeps_the_video_poster(tmp_path):
+    con = db.connect(tmp_path / "c.db")
+    d = make_page(tmp_path / "pages", "comic-book-generator", hero_render())
+    from bs4 import BeautifulSoup
+    poster = "https://pastatic.picsart.com/cms-pastatic/style-poster.png"
+
+    def set_poster(**attrs):
+        soup = BeautifulSoup((d / "page.html").read_text(), "html.parser")
+        video = soup.find("video")
+        for k in ("poster", "data-lp-poster"):
+            video.attrs.pop(k, None)
+        video.attrs.update(attrs)
+        (d / "page.html").write_text(str(soup))
+        con.execute("DELETE FROM media"); con.execute("DELETE FROM sections"); con.execute("DELETE FROM pages")
+        sectionize.sectionize_page(d, con, log=lambda m: None)
+        return {r["kind"]: r["poster"] for r in con.execute("SELECT kind, poster FROM media")}
+
+    localised = set_poster(**{"poster": "media/style-poster-1234abcd.png", "data-lp-poster": poster})
+    assert localised["video"] == poster and localised["image"] is None
+    # a poster still pointing at the site (snapshot not yet localised) is kept as served
+    assert set_poster(poster=poster)["video"] == poster
+    assert set_poster()["video"] is None
 
 
 def test_sectionize_types_roles_and_stamps(tmp_path):
@@ -122,7 +154,9 @@ def test_skeleton_and_slots_json(tmp_path):
     assert text.count("> annotation:") == 5, "one annotation line per generated-role slot"
     assert text.count("> text: TODO") == 5, "one text line per generated-role slot"
     assert text.count("> device: TODO none | reference-thumbs") == 5, "one device line per generated-role slot, after text"
+    assert text.count("> chrome: TODO strings the chrome may say") == 5, "one chrome line per generated-role slot, after device"
     assert text.count("> attrs: none (asset not measured") == 5, "an unmeasured slot says so instead of hiding it"
+    assert text.count("> duration:") == 1 and "> duration: 8  # original 8.4 s" in text, "the video slot names its target length"
     slots = json.loads((out.parent / "slots.json").read_text())
     assert slots["slots"]["S01-m1"]["selector"] == '[data-lp="S01-m1"]'
     assert slots["slots"]["S01-m1"]["style"] is None and slots["slots"]["S01-m1"]["attrs"] is None, "untagged slots say so"
@@ -145,11 +179,15 @@ def test_media_role_size_beats_alt_words():
 
 def test_similar_returns_other_pages_heroes_with_media(tmp_path, monkeypatch):
     con = db.connect(tmp_path / "c.db")
-    for slug in ("comic-book-generator", "manga-maker", "storyboard-generator"):
-        sectionize.sectionize_page(make_page(tmp_path / "pages", slug, hero_render()), con, log=lambda m: None)
+    for slug in ("comic-book-generator", "manga-maker", "storyboard-generator", "comic-strip-maker"):
+        d = make_page(tmp_path / "pages", slug, hero_render())
+        if slug == "storyboard-generator":  # its own pictures; the other siblings share one CMS asset
+            own_pictures(d, "sb")
+        sectionize.sectionize_page(d, con, log=lambda m: None)
     rows = similar.find_similar(con, "hero", "Comic Book Generator turn your story into a comic", k=3, exclude="comic-book-generator")
     assert [r["type"] for r in rows] == ["hero", "hero"]
-    assert {r["slug"] for r in rows} == {"manga-maker", "storyboard-generator"}
+    # manga-maker and comic-strip-maker show the same CMS picture: one of them is an example, not both
+    assert "storyboard-generator" in {r["slug"] for r in rows} and len({r["slug"] for r in rows} & {"manga-maker", "comic-strip-maker"}) == 1
     assert similar.find_similar(con, "pricing", "Pro Ultra", k=3) == []
     # excerpts: media is downloaded and converted; stub the network
     from PIL import Image

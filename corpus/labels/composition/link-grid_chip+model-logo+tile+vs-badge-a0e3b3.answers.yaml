@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: Kling 3.0|Runway}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, state: {on: true}, text: "Multi-Shot: On|Audio: On"}
+    - {kind: tile, placement: beside, anchor: bottom, count: 2}

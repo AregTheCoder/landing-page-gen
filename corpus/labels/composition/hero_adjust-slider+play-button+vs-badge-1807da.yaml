@@ -1,0 +1,33 @@
+sheet: hero_adjust-slider+play-button+vs-badge-1807da
+group:
+  type: hero
+  chrome: adjust-slider+play-button+vs-badge
+fields:
+- chrome_items
+answers: hero_adjust-slider+play-button+vs-badge-1807da.answers.yaml
+cells:
+  1:
+    src: https://pcdn.picsart.com/cms-uploads/4326e534-92b7-4219-8db9-194d6eaf68e1.webm
+    asset: 4326e534
+    page: compare-models--minimax-music-3-vs-elevenlabs-music-v2
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 9.0
+    motion: 0.0828
+    pace: medium
+    loop: false
+    loop_seam: 0.808
+    camera: static
+    chrome:
+    - adjust-slider
+    - play-button
+    - vs-badge

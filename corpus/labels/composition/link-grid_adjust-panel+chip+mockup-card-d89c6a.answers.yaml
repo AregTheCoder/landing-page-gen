@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: adjust-panel, placement: overlay, anchor: br, text: Color palette}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: Logos}
+    - {kind: chip, placement: overlay, anchor: tr}

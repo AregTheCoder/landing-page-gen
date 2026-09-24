@@ -1,0 +1,27 @@
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 3, text: "OLIVE & VINE|GLOWSY|empowify"}
+    - {kind: swatch, placement: beside, anchor: right, count: 9}
+3:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: right}
+    - {kind: swatch, placement: beside, anchor: tl, count: 3}
+4:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: tr, text: "Color palette"}
+    - {kind: mockup-card, placement: overlay, anchor: left, text: "Logos"}
+    - {kind: mockup-card, placement: overlay, anchor: br, text: "blüm"}
+    - {kind: swatch, placement: overlay, anchor: tr, count: 3}
+5:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: tr, text: "moo"}
+    - {kind: swatch, placement: overlay, anchor: bl, count: 3, state: {active: 1}}
+6:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, text: "Project Phoenix"}
+    - {kind: mockup-card, placement: overlay, anchor: bl, text: "Document colors"}
+    - {kind: swatch, placement: overlay, anchor: bl, count: 5}
+7:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: right, text: "BIG BREW"}
+    - {kind: swatch, placement: beside, anchor: left}

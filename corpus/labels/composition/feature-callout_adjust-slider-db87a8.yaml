@@ -1,0 +1,47 @@
+sheet: feature-callout_adjust-slider-db87a8
+group:
+  type: feature-callout
+  chrome: adjust-slider
+fields:
+- chrome_items
+answers: feature-callout_adjust-slider-db87a8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/66dc581c-40de-40b9-8d7f-95162e8f09b0.webm
+    asset: 66dc581c
+    page: video-studio--video-speed
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    motion: 0.0152
+    pace: slow
+    loop: true
+    loop_seam: 0.939
+    camera: static
+    chrome:
+    - adjust-slider
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/84c3fe25-9684-43e9-9fd2-19b067ad2823.png
+    asset: 84c3fe25
+    page: background-tools
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: single
+    panel_count: 4
+    before_after: false
+    chrome:
+    - adjust-slider

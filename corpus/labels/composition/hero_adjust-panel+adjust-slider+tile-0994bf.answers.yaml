@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: tile, placement: overlay, anchor: tl, count: 2}
+    - {kind: adjust-panel, placement: overlay, anchor: br}
+    - {kind: adjust-slider, placement: overlay, anchor: br, count: 3, text: Brightness|Temperature|Saturation}

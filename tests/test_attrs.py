@@ -11,7 +11,7 @@ from PIL import Image
 
 from landing_page_gen.corpus import (attrs, cli, db, label, measure, media, sectionize, sheets, similar,
                                      skeleton, styles, taxonomy)
-from test_corpus import HERO1, fake_download_factory, hero_render, make_page
+from test_corpus import HERO1, fake_download_factory, hero_render, make_page, own_pictures
 
 HERO2 = HERO1.replace("hero1", "hero2")
 VIDEO = "https://cdn-cms-uploads.picsart.com/cms-uploads/style.webm"
@@ -30,25 +30,36 @@ class FakeGrabber:
         Image.new("RGB", (16, 9), "green").save(png, format="PNG")
         return png
 
+    def grab_many(self, src, plan):
+        targets = plan(8.4) if callable(plan) else plan
+        return 8.4, [self.grab(src, png, at) for at, png in targets]
 
-def build(tmp_path, slugs, monkeypatch):
+
+def build(tmp_path, slugs, monkeypatch, own=()):
     monkeypatch.setattr(media, "download", fake_download_factory([]))
     pages = tmp_path / "pages"
     con = db.connect(tmp_path / "c.db")
     for slug in slugs:
         d = make_page(pages, slug, hero_render())
+        if slug in own:
+            own_pictures(d, slug)
         media.localise_page(d, log=lambda m: None)
         sectionize.sectionize_page(d, con, log=lambda m: None)
     return con, pages
 
 
 def test_vocabulary_covers_every_field_and_the_rules_are_total():
-    asked = set(sheets.SEMANTIC) | set(measure.FIELDS)
+    asked = (set(sheets.SEMANTIC) | set(sheets.COMPOSITION) | set(measure.FIELDS)
+             | set(attrs.VIDEO_MEASURED) | set(attrs.VIDEO_SEMANTIC))
     assert asked == set(attrs.FIELDS), "every field is either measured or asked for on a sheet"
     assert set(measure.FIELDS) & set(sheets.SEMANTIC) == set(), "and never both"
+    assert set(attrs.VIDEO_MEASURED) & set(attrs.VIDEO_SEMANTIC) == {"camera"}, "camera: measured when it holds, else asked"
+    sample = {"integer": 1, "number": 1, "boolean": True, "string": "x",
+              "items": [{"kind": attrs.CHROME_KINDS[0], "placement": "beside"}]}
     for name, (values, definition) in attrs.FIELDS.items():
-        assert isinstance(values, tuple) or values in ("integer", "number", "boolean", "string"), name
-        assert definition and label.check(name, next(iter(values)) if isinstance(values, tuple) else 1)[1] is None
+        assert isinstance(values, tuple) or values in sample, name
+        good = next(iter(values)) if isinstance(values, tuple) else sample[values]
+        assert definition and label.check(name, good)[1] is None
     assert set(attrs.ENUMS["family_hint"]) == set(db.STYLES) | {"other"}
     # every ground x layout x art_style combination has an answer or is honestly unresolved
     for g in attrs.ENUMS["ground"]:
@@ -90,6 +101,25 @@ def test_picture_skips_svg_and_grabs_video_frames(tmp_path, monkeypatch):
     assert len(g.calls) == 1, "the frame is cached"
 
 
+def test_frame_for_prefers_the_designer_poster_and_force_refreshes(tmp_path):
+    clip = tmp_path / "pages" / "x" / "media" / "style-abcd1234.webm"
+    clip.parent.mkdir(parents=True)
+    clip.write_bytes(b"webm")
+    poster_url = "https://pastatic.picsart.com/cms-pastatic/style-poster.png"
+    Image.new("RGB", (1600, 900), "blue").save(clip.parent / media.local_name(poster_url))
+    rec = {"src": VIDEO, "local_path": str(clip), "poster": poster_url, "duration": 8.4}
+    frames, g = tmp_path / "frames", FakeGrabber()
+    png = attrs.frame_for(rec, frames, g)
+    assert png == frames / "style-abcd1234.png" and g.calls == [], "the poster stands in; nothing is grabbed"
+    with Image.open(png) as im:
+        assert im.size == (1280, 720), "downscaled like a grabbed frame, never larger"
+    (clip.parent / media.local_name(poster_url)).unlink()
+    assert attrs.frame_for(rec, frames, g) == png and g.calls == [], "cached"
+    attrs.frame_for(rec, frames, g, refresh=True)
+    assert g.calls == [(str(clip), 1.0)], "no poster on disk any more: --force grabs a real 1 s frame"
+    assert attrs.frame_for({"src": VIDEO, "local_path": str(clip)}, frames, g, refresh=True) == png and len(g.calls) == 2
+
+
 def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypatch):
     con, pages = build(tmp_path, ["comic-book-generator"], monkeypatch)
     yml, frames = tmp_path / "attributes.yaml", tmp_path / "frames"
@@ -105,6 +135,10 @@ def test_run_measures_is_resumable_and_apply_survives_reindex(tmp_path, monkeypa
     assert rec["page"] == "comic-book-generator" and rec["n_rows"] == 1 and rec["type"] == "hero"
     assert not any(f in rec for f in sheets.SEMANTIC), "the pixels answer no semantic field"
     assert saved[VIDEO]["kind"] == "video" and saved[VIDEO]["local"].endswith(".png")
+    assert saved[VIDEO]["duration"] == 8.4 and "duration" not in rec, "a video record keeps its length"
+    video = saved[VIDEO]  # five identical green frames: nothing moves, the frame holds, it loops
+    assert video["pace"] == "still" and video["camera"] == "static" and video["loop"] is True and "pace" not in rec
+    assert (frames / "style-video-f0.png").exists() or any(p.name.endswith("-f4.png") for p in frames.iterdir())
     # a pass writes only what it measured, so a labelling merge that lands
     # while it runs survives its final save, and --force keeps the answers
     labelled = dict(mapping[HERO1], subject="person", art_style="photo", labelled=["art_style", "subject"], source="sheet")
@@ -259,6 +293,52 @@ def test_sheets_group_the_pending_assets_and_labels_merge_the_answers(tmp_path):
     assert stats["cells"] == 3, "re-ingesting the same answers is idempotent"
 
 
+def test_composition_sheets_group_by_chrome_combo_and_prefill_the_bag(tmp_path):
+    png = tmp_path / "a.png"
+    Image.new("RGB", (40, 30), "red").save(png)
+    base = {"ground": "black", "layout": "column-main", "panel_count": 2, "before_after": False,
+            "source": "sheet", "type": "feature-callout", "slot": "S06-m1", "size": "card",
+            "aspect_class": "1:1", "kind": "image", "role": "creative", "page_family": "tool",
+            "n_rows": 1, "n_pages": 1, "local": str(png)}
+    mapping = {}
+    for i in range(5):  # the common combo: chrome answered, chrome_items not yet human-labelled
+        mapping[f"https://cdn.x/{i:08x}-aaaa.png"] = dict(base, page=f"p{i}", chrome=["tile", "chip"], labelled=["chrome"])
+    for i in range(5, 7):  # a rarer single-kind combo
+        mapping[f"https://cdn.x/{i:08x}-aaaa.png"] = dict(base, page=f"p{i}", chrome=["pill"], labelled=["chrome"])
+    # excluded: empty bag (nothing to place)
+    mapping["https://cdn.x/ffffff01-bbbb.png"] = dict(base, page="pe1", chrome=[], labelled=["chrome"])
+    # excluded: chrome_items already human-labelled
+    mapping["https://cdn.x/ffffff02-bbbb.png"] = dict(base, page="pe2", chrome=["tile", "chip"],
+        chrome_items=[{"kind": "tile", "placement": "beside"}, {"kind": "chip", "placement": "overlay"}],
+        labelled=["chrome", "chrome_items"])
+    # excluded: chrome never answered at all
+    mapping["https://cdn.x/ffffff03-bbbb.png"] = dict(base, page="pe3")
+
+    built, stats = sheets.build(mapping, tmp_path / "labels", per_sheet=12, thumb=80, columns=4, composition=True)
+    assert stats["pending"] == 7 and stats["sheets"] == 2, "only chrome-answered, items-unlabelled assets"
+    assert built[0]["cells"] == 5 and built[0]["group"] == ("feature-callout", "chip+tile"), "most common combo first"
+    assert built[1]["cells"] == 2 and built[1]["group"] == ("feature-callout", "pill")
+    man = yaml.safe_load((tmp_path / "labels" / f"{built[0]['name']}.yaml").read_text())
+    assert man["fields"] == ["chrome_items"], "the campaign asks only chrome_items"
+    assert man["group"] == {"type": "feature-callout", "chrome": "chip+tile"}
+    assert man["cells"][1]["chrome"] == ["tile", "chip"], "the bag is pre-filled so the labeller only places it"
+    assert "chrome_items:" in sheets.prompt(composition=True) and "placement" in sheets.prompt(composition=True)
+    idx = sheets.write_index(built, tmp_path / "labels", stats, composition=True)
+    assert "| type | chrome | answered |" in (tmp_path / "labels" / "index.md").read_text()
+    assert "Place the chrome" in idx.read_text()
+
+    # a placed answer ingests cleanly: chrome_items becomes labelled, the bag stays the sorted set of kinds
+    answers = {1: {"chrome_items": [{"kind": "tile", "placement": "beside", "count": 2},
+                                    {"kind": "chip", "placement": "overlay", "anchor": "tr", "text": "4K"}]}}
+    (tmp_path / "labels" / man["answers"]).write_text(yaml.safe_dump(answers))
+    merged, _ = label.ingest(mapping, tmp_path / "labels", log=lambda m: None)
+    one = merged[man["cells"][1]["src"]]
+    assert "chrome_items" in one["labelled"] and len(one["chrome_items"]) == 2
+    assert one["chrome"] == ["chip", "tile"], "the bag is derived from the placed kinds"
+    again, stats = sheets.build(merged, tmp_path / "labels", per_sheet=12, thumb=80, columns=4, composition=True)
+    assert stats["pending"] == 6 and again[0]["cells"] == 4, "the freshly-placed cell drops out"
+
+
 def test_rules_table_and_role_fix():
     cases = [
         ({"before_after": True, "ground": "black"}, ("before-after", None)),
@@ -269,16 +349,18 @@ def test_rules_table_and_role_fix():
         ({"ui_mockup": "app-card", "ground": "black", "layout": "split"}, ("mockup-card", None)),
         ({"chrome": ["mockup-card", "tile"], "text_in_image": "headline", "ground": "black"}, ("template-mockup", "black")),
         ({"ui_mockup": "editor-canvas", "type": "link-grid", "ground": "white"}, ("editor-canvas", None)),
-        ({"chrome": ["adjust-panel", "chip", "slider"], "ground": "photo-full-bleed", "layout": "overlay", "art_style": "photo",
+        ({"chrome": ["adjust-panel", "chip", "adjust-slider"], "ground": "photo-full-bleed", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", None)),
-        ({"chrome": ["adjust-panel", "slider"], "ground": "white", "layout": "overlay", "art_style": "photo",
+        ({"chrome": ["adjust-panel", "adjust-slider"], "ground": "white", "layout": "overlay", "art_style": "photo",
           "type": "use-case-grid"}, ("panel-overlay", "white")),
+        ({"chrome": ["compare-handle"], "ground": "photo-full-bleed", "layout": "single", "art_style": "photo",
+          "type": "feature-callout"}, ("before-after", None)),  # a before/after handle, flag unmeasured
         ({"chrome": ["pill", "badge"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("panel-overlay", None)),
         ({"chrome": ["pill"], "ground": "photo-full-bleed", "layout": "single", "panel_count": 1, "art_style": "photo",
           "type": "hero"}, ("full-bleed", None)),
-        ({"chrome": ["slider", "tile"], "ground": "black", "layout": "column-main", "art_style": "photo", "type": "feature-callout"},
-         ("dark-composite", None)),  # a slider alone is not the panel: only overlay layouts or adjust-panel say panel-overlay
+        ({"chrome": ["adjust-slider", "tile"], "ground": "black", "layout": "column-main", "art_style": "photo", "type": "feature-callout"},
+         ("dark-composite", None)),  # an adjust-slider off an overlay layout is not the panel: the tile column says dark-composite
         ({"type": "link-grid", "chrome": ["chip"], "ground": "light-grey", "layout": "stacked"}, ("model-card", None)),
         (DARK_LIGHT, ("dark-composite", "light")),
         ({"ground": "photo-full-bleed", "aspect_class": "9:16", "type": "gallery", "panel_count": 1}, ("cinematic-still", None)),
@@ -318,7 +400,7 @@ def test_report_and_sheets(tmp_path):
 
 
 def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
-    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"], monkeypatch)
+    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"], monkeypatch, own=["manga-maker"])
     con.execute("""UPDATE media SET style = 'dark-composite', attrs = ? WHERE src = ? AND section_id IN
                    (SELECT s.id FROM sections s JOIN pages p ON p.id = s.page_id WHERE p.slug = 'storyboard-generator')""",
                 (json.dumps({"ground": "light-grey", "variant": "light"}), HERO1))
@@ -334,8 +416,9 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
     assert rows == [], "one id in the list is enough to exclude a section"
     local = con.execute("SELECT local_path FROM media WHERE src = ?", (HERO1,)).fetchone()[0]
     suffix = local.rsplit(".", 1)[0].rsplit("-", 1)[-1]
-    assert len(suffix) == 8 and similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=[suffix]) == [], \
-        "the sha1 in the local file name excludes through media.local_path"
+    left = similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=[suffix])
+    assert len(suffix) == 8 and [r["slug"] for r in left] == ["manga-maker"], \
+        "the sha1 in the local file name excludes, through media.local_path, the sections that show it"
     assert len(similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=["nomatch"])) == 2, \
         "an id that matches nothing excludes nothing"
     assert similar.split_style("dark-composite/light") == ("dark-composite", "light")
@@ -344,6 +427,26 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
         assert False
     except ValueError:
         pass
+
+
+def test_similar_kind_prefers_clips_and_excerpts_them_as_strips(tmp_path, monkeypatch):
+    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker"], monkeypatch)
+    q = "A prompt becomes a picture"
+    # the fixture's feature-callout carries the video; the hero only images
+    rows = similar.find_similar(con, "feature-callout", q, k=1, exclude="comic-book-generator", kind="video")
+    assert rows and rows[0]["slug"] == "manga-maker"
+    assert similar.find_similar(con, "hero", q, k=1, exclude="comic-book-generator", kind="video") != [], \
+        "no hero has a clip: the kind pass falls through to images rather than returning nothing"
+    con.execute("UPDATE media SET attrs = ? WHERE kind = 'video'",
+                (json.dumps({"duration": 8.4, "pace": "slow", "loop": True, "camera": "static", "motion_kind": "subject-motion"}),))
+    con.commit()
+    out = tmp_path / "ex"
+    similar.write_examples(con, rows, out, log=lambda m: None, grabber=FakeGrabber(), kind="video")
+    md = next(out.glob("*.md")).read_text()
+    assert "kind: video" in md and "duration: 8.4s, pace: slow, loop: true, camera: static, motion_kind: subject-motion" in md
+    strip = next(out.glob("*.png"))
+    with Image.open(strip) as im:
+        assert im.width == 16 * 3 + 4 * 2 and im.height == 9, "first, middle and last frame side by side"
 
 
 def test_styles_derive_keeps_manual_entries():
@@ -384,3 +487,75 @@ def test_checkpoints_append_a_partial_delta_not_a_full_resave(tmp_path, monkeypa
     assert stats["measured"] == 5, "the seeded record is not re-measured (not a corpus row)"
     assert seed in attrs.load(yml), "the seeded record survives the final save"
     assert not partial.exists()
+
+
+# --- chrome_items schema (layered-template overhaul, slice A) --------------
+
+def test_chrome_items_kinds_pin_the_chrome_enum():
+    assert set(attrs.FIELDS["chrome"][0]) == set(attrs.CHROME_KINDS)
+    assert attrs.FIELDS["chrome_items"][0] == "items"
+
+
+def test_chrome_items_validation_normalises_and_rejects():
+    ok, err = label.check("chrome_items", [{"kind": "option-list", "placement": "beside",
+                                            "anchor": "left", "count": 2, "state": {"active": 1}, "text": "Seedance"}])
+    assert err is None
+    assert ok == [{"kind": "option-list", "placement": "beside", "anchor": "left",
+                   "count": 2, "state": {"active": 1}, "text": "Seedance"}]
+    assert label.check("chrome_items", [{"kind": "tile", "placement": "beside", "count": 1}])[0] == \
+        [{"kind": "tile", "placement": "beside"}], "defaults normalised out"
+    for bad in ([{"kind": "telephone", "placement": "beside"}],
+                [{"kind": "tile", "placement": "under"}],
+                [{"kind": "tile", "placement": "beside", "anchor": "nowhere"}],
+                [{"kind": "tile", "placement": "beside", "count": 0}],
+                [{"kind": "tile", "placement": "beside", "state": {"zoom": 2}}],
+                [{"kind": "tile", "placement": "beside", "text": "x" * 41}],
+                [{"placement": "beside"}], "not-a-list"):
+        assert label.check("chrome_items", bad)[1] is not None, bad
+
+
+def test_chrome_items_state_on_survives_yaml_1_1():
+    # the campaign prompt says `state: {on: true}`; YAML 1.1 loads the bare key `on` as True
+    items = styles.load_yaml("- {kind: toggle, placement: overlay, state: {on: true}}\n")
+    assert items[0]["state"] == {True: True}, "the loader really does this"
+    ok, err = label.check("chrome_items", items)
+    assert err is None and ok == [{"kind": "toggle", "placement": "overlay", "state": {"on": True}}]
+    assert styles.load_yaml(styles.dump_yaml(ok)) == ok, "stored with 'on' quoted, so it round-trips"
+    assert label.check("chrome_items", [{"kind": "toggle", "placement": "overlay", "state": {False: True}}])[1], \
+        "only the `on` key is recovered; other boolean keys are still rejected"
+
+
+def test_cell_answer_reconciles_bag_and_items():
+    clean, errors = label.cell_answer({"chrome_items": [{"kind": "tile", "placement": "beside"},
+                                                        {"kind": "chip", "placement": "overlay"}]})
+    assert clean["chrome"] == ["chip", "tile"] and not errors
+    clean, errors = label.cell_answer({"chrome": ["tile"],
+                                       "chrome_items": [{"kind": "chip", "placement": "overlay"}]})
+    assert "chrome_items" not in clean and any("!=" in e for e in errors)
+
+
+def test_derive_items_fills_only_the_unambiguous_cases():
+    stats = {"derived": 0}
+    empty = {"chrome": []}
+    label.derive_items(empty, stats)
+    assert empty["chrome_items"] == []
+    beside = {"chrome": ["tile"]}
+    label.derive_items(beside, stats)
+    assert beside["chrome_items"] == [{"kind": "tile", "placement": "beside"}]
+    for kind in ("adjust-panel", "compare-handle"):
+        rec = {"chrome": [kind]}
+        label.derive_items(rec, stats)
+        assert rec["chrome_items"] == [{"kind": kind, "placement": "overlay"}]
+    for rec in ({"chrome": ["chip"]}, {"chrome": ["tile", "chip"]}, {}):
+        label.derive_items(rec, stats)
+        assert rec.get("chrome_items") is None
+    assert "labelled" not in beside, "a derived item is not an answered one"
+    assert stats["derived"] == 4  # empty, tile (beside), adjust-panel + compare-handle (overlay)
+
+
+def test_split_slider_maps_by_before_after_and_description():
+    assert label._split_slider(["slider", "tile"], before_after=True) == ["compare-handle", "tile"]
+    assert label._split_slider(["slider"], description="before/after reveal sweep") == ["compare-handle"]
+    assert label._split_slider(["slider"], description="hue saturation adjustment") == ["adjust-slider"]
+    assert label._split_slider(["slider"]) == ["adjust-slider"]  # no signal -> the tool track
+    assert label._split_slider(["tile"]) == ["tile"], "nothing to do without slider"

@@ -1,0 +1,18 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: tr, text: A high-end commercial product shot of}
+    - {kind: button, placement: beside, anchor: tr, text: Generate}
+    - {kind: tile, placement: beside, anchor: bl}
+    - {kind: model-logo, placement: beside, anchor: bl, count: 4, state: {active: 1}}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tr}
+    - {kind: model-logo, placement: beside, anchor: tr, text: Ai}
+    - {kind: prompt-panel, placement: beside, anchor: right, text: "A smooth, cinematic half-circle movement"}
+    - {kind: button, placement: beside, anchor: br, text: Generate}
+3:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: tr}
+    - {kind: model-logo, placement: beside, anchor: tr, text: Ai}
+    - {kind: prompt-panel, placement: beside, anchor: right, text: "A smooth, cinematic half-circle movement"}
+    - {kind: button, placement: beside, anchor: br, text: Generate}

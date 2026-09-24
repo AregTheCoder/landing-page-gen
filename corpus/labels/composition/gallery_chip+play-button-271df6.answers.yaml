@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: chip, placement: beside, anchor: bottom, count: 5, state: {active: 5}, text: "360p|480p|720p|1080p|4k"}

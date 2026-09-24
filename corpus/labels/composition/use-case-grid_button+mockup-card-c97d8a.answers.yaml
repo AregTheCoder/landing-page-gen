@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, text: Pickle}
+    - {kind: button, placement: beside, anchor: bl, count: 2, text: Dance|Animate}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, count: 5}
+    - {kind: button, placement: beside, anchor: bl}

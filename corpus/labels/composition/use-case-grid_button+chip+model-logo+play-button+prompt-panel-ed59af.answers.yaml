@@ -1,0 +1,7 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, count: 3, state: {active: 3}, text: 4s|6s|8s}
+    - {kind: model-logo, placement: beside, anchor: bl}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: play-button, placement: overlay, anchor: centre}

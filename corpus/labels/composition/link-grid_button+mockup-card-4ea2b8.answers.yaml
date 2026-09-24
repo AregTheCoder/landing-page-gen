@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 5}
+    - {kind: button, placement: beside, anchor: right, text: DISCOVER}

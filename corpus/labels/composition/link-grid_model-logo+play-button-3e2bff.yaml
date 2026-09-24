@@ -1,0 +1,26 @@
+sheet: link-grid_model-logo+play-button-3e2bff
+group:
+  type: link-grid
+  chrome: model-logo+play-button
+fields:
+- chrome_items
+answers: link-grid_model-logo+play-button-3e2bff.answers.yaml
+cells:
+  1:
+    src: https://cdnblog.picsart.com/2026/04/wan-2-7-model-integration-hero.png
+    asset: wan-2-7-
+    page: ai-models--wan-2-7
+    slot: S12-m1
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - model-logo
+    - play-button

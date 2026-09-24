@@ -1,0 +1,42 @@
+sheet: link-grid_pill-161b56
+group:
+  type: link-grid
+  chrome: pill
+fields:
+- chrome_items
+answers: link-grid_pill-161b56.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1e4d122b-7dd9-43f9-b2ba-9c2ee6258925.webp?type=webp&to=min&r=640
+    asset: 1e4d122b
+    page: ai-design-tools
+    slot: S06-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 8
+    n_pages: 4
+    ground: solid-colour
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - pill
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/8b7b3b51-ac85-43bd-8ba2-03d18a86c792.webp?type=webp&to=min&r=640
+    asset: 8b7b3b51
+    page: ai-design-tools
+    slot: S07-m7
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - pill

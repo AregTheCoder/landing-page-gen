@@ -1,0 +1,26 @@
+sheet: link-grid_adjust-slider+button-8293a0
+group:
+  type: link-grid
+  chrome: adjust-slider+button
+fields:
+- chrome_items
+answers: link-grid_adjust-slider+button-8293a0.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/8c82161a-f4f8-494c-a57a-f5ab6b0f50be.png
+    asset: 8c82161a
+    page: watermark-photos
+    slot: S10-m7
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-slider
+    - button

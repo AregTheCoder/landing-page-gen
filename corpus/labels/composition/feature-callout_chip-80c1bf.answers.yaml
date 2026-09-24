@@ -1,0 +1,36 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Reference image}
+2:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: "1080p · 30s"}
+3:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "Japanese|Audio: On|1080p"}
+5:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: left, text: Tropical beach with palm trees}
+6:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: Seedance 2.0}
+    - {kind: chip, placement: overlay, anchor: bottom, text: Runway Gen 4}
+7:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: top, text: First frame}
+    - {kind: chip, placement: overlay, anchor: tr, text: Last frame}
+8:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: bl, count: 3, text: "Video|Veo 4|1080p · 16:9 · 8s"}
+9:
+  chrome_items:
+    - {kind: chip, placement: beside, anchor: tl, text: Nano Banana 2}
+    - {kind: chip, placement: beside, anchor: right, text: Flux 2 Pro}
+10:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: br, text: After}
+11:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, text: "1440p · 24fps"}
+12:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bl, count: 4, text: "V4|V4 Vector|V4 Vector Pro|V4 Pro"}

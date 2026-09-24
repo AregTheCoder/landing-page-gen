@@ -1,0 +1,51 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bottom, count: 3, text: "3D Animation|Short (1-2 min)|Roger"}
+    - {kind: button, placement: beside, anchor: br, text: Generate}
+3:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left, text: Enter your text}
+    - {kind: chip, placement: beside, anchor: tl, count: 4, text: "16:9|9:16|Fast|Pro"}
+    - {kind: button, placement: beside, anchor: bl, text: Generate Motion}
+4:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, count: 2, text: "French|Indie"}
+    - {kind: button, placement: beside, anchor: bl}
+    - {kind: button, placement: overlay, anchor: bottom}
+5:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: left}
+    - {kind: chip, placement: beside, anchor: left, text: INSTRUMENTAL ONLY}
+    - {kind: button, placement: beside, anchor: left}
+6:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "GPT Image 2|4:3|1 Image|high"}
+    - {kind: button, placement: beside, anchor: br, text: Enrich}
+8:
+  chrome_items:
+    - {kind: prompt-panel, placement: overlay, anchor: tl}
+    - {kind: button, placement: overlay, anchor: tl, text: Generate}
+    - {kind: chip, placement: overlay, anchor: tr, text: "2"}
+    - {kind: chip, placement: overlay, anchor: tl, text: "1"}
+9:
+  chrome_items:
+    - {kind: prompt-panel, placement: overlay, anchor: tr}
+    - {kind: button, placement: overlay, anchor: tr, text: Generate}
+    - {kind: chip, placement: overlay, anchor: bl, count: 2}
+10:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom}
+    - {kind: chip, placement: overlay, anchor: bl, count: 3, state: {active: 1}, text: "mp3|wav|pcm"}
+    - {kind: chip, placement: overlay, anchor: bl, count: 3, state: {active: 3}, text: "60s|120s|180s"}
+    - {kind: chip, placement: beside, anchor: bl, text: 2 models}
+    - {kind: button, placement: overlay, anchor: tl}
+    - {kind: button, placement: beside, anchor: br}
+11:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: bottom, count: 2}
+    - {kind: chip, placement: beside, anchor: bl, count: 3, state: {active: 1}, text: "mp3|wav|pcm"}
+    - {kind: chip, placement: beside, anchor: br, count: 7, state: {active: 3}, text: "10s|20s|30s|60s|120s|180s|300s"}
+    - {kind: button, placement: beside, anchor: bottom}

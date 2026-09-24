@@ -1,0 +1,29 @@
+sheet: link-grid_button+chip+mockup-card+model-logo+prompt-panel-8458f9
+group:
+  type: link-grid
+  chrome: button+chip+mockup-card+model-logo+prompt-panel
+fields:
+- chrome_items
+answers: link-grid_button+chip+mockup-card+model-logo+prompt-panel-8458f9.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/6c40c418-b0fa-4b99-9e00-66b469d4ccb5.webp?type=webp&to=min&r=640
+    asset: 6c40c418
+    page: ai-models
+    slot: S02-m1
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: mixed
+    layout: column-main
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - chip
+    - mockup-card
+    - model-logo
+    - prompt-panel

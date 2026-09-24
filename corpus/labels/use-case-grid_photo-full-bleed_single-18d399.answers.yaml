@@ -8,16 +8,20 @@
   family_hint: full-bleed
   confidence: 0.9
 2:
-  chrome: [prompt-panel, button]
+  chrome:
+  - prompt-panel
+  - button
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
   art_style: mixed
-  description: a dark quote card with a Generate button and audio waveform beside a city photo
+  description: a dark quote card with a Generate button and audio waveform beside
+    a city photo
   family_hint: prompt-card
   confidence: 0.55
 3:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -35,12 +39,15 @@
   family_hint: full-bleed
   confidence: 0.85
 5:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: body
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a woman at a cafe table with a scene-description caption and a logo tile
+  description: a woman at a cafe table with a scene-description caption and a logo
+    tile
   family_hint: full-bleed
   confidence: 0.35
 6:
@@ -89,12 +96,14 @@
   family_hint: full-bleed
   confidence: 0.8
 11:
-  chrome: [slider]
+  chrome:
+  - compare-handle
   text_in_image: none
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a split before-after of a woman's face for red-eye removal with a divider handle
+  description: a split before-after of a woman's face for red-eye removal with a divider
+    handle
   family_hint: before-after
   confidence: 0.6
 12:

@@ -1,0 +1,32 @@
+sheet: hero_button+tile-31787c
+group:
+  type: hero
+  chrome: button+tile
+fields:
+- chrome_items
+answers: hero_button+tile-31787c.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0b7542cb-32be-42e4-98c3-cbc257716c29.webm
+    asset: 0b7542cb
+    page: ai-agents
+    slot: S01-m3
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: column-main
+    panel_count: 5
+    before_after: false
+    duration: 4.03
+    motion: 0.0137
+    pace: slow
+    loop: true
+    loop_seam: 0.984
+    camera: static
+    chrome:
+    - button
+    - tile

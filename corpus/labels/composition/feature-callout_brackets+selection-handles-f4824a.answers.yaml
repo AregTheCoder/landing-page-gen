@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: centre, count: 3}
+    - {kind: selection-handles, placement: overlay, anchor: centre, count: 3}
+2:
+  chrome_items:
+    - {kind: brackets, placement: overlay, anchor: centre}
+    - {kind: selection-handles, placement: overlay, anchor: centre}

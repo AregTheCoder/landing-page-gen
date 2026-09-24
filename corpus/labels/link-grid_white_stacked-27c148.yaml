@@ -15,6 +15,21 @@ fields:
 answers: link-grid_white_stacked-27c148.answers.yaml
 cells:
   1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif
+    asset: 5a44d378
+    page: ai-models--dall-e-3
+    slot: S12-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 8
+    n_pages: 8
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+  2:
     src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png
     asset: 18256ca7
     page: add-subtitles-to-video
@@ -29,7 +44,7 @@ cells:
     layout: stacked
     panel_count: 2
     before_after: false
-  2:
+  3:
     src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png?type=webp&to=min&r=640
     asset: 18256ca7
     page: ai-design-tools
@@ -44,7 +59,7 @@ cells:
     layout: stacked
     panel_count: 2
     before_after: false
-  3:
+  4:
     src: https://cdn-cms-uploads.picsart.com/cms-uploads/4fab97c5-bafc-46d5-97c2-e741a128e253.webp
     asset: 4fab97c5
     page: invitation-maker
@@ -55,21 +70,6 @@ cells:
     kind: image
     n_rows: 1
     n_pages: 1
-    ground: white
-    layout: stacked
-    panel_count: 2
-    before_after: false
-  4:
-    src: https://cdn-cms-uploads.picsart.com/cms-uploads/5a44d378-3268-438a-8563-30f14cb99573.avif
-    asset: 5a44d378
-    page: ai-models--dall-e-3
-    slot: S12-m8
-    type: link-grid
-    size: card
-    aspect_class: '5:4'
-    kind: image
-    n_rows: 8
-    n_pages: 8
     ground: white
     layout: stacked
     panel_count: 2

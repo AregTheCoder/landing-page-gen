@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: overlay, anchor: bottom}
+    - {kind: play-button, placement: beside, anchor: bottom}
+    - {kind: prompt-panel, placement: overlay, anchor: right, text: A catchy album name about daisies}

@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: left, text: Layers}
+    - {kind: swatch, placement: beside, anchor: left}
+    - {kind: button, placement: beside, anchor: bl, text: Export PNG}

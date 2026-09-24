@@ -1,0 +1,78 @@
+sheet: hero_5x4_video-45c4b2
+group:
+  type: hero
+  ground: '5:4'
+  layout: video
+fields:
+- art_style
+- camera
+- chrome
+- confidence
+- description
+- family_hint
+- motion_kind
+- subject
+- text_in_image
+- ui_mockup
+answers: hero_5x4_video-45c4b2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1748e499-a099-48ad-9c10-868b5bb8d094.webm
+    asset: 1748e499
+    page: ai-storyboard-generator
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 5.67
+    motion: 0.1118
+    pace: fast
+    loop: false
+    loop_seam: 0.838
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/27741fe2-eb98-44c9-9047-e4cd3e9fc687.webm
+    asset: 27741fe2
+    page: video-studio--reverse-video
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 12.03
+    motion: 0.2549
+    pace: fast
+    loop: false
+    loop_seam: 0.79
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/c98dbf41-756c-4224-b16b-6ea77c57d3ba.webm
+    asset: c98dbf41
+    page: ai-marketing-studio--ugc-ads
+    slot: S01-m1
+    type: hero
+    size: panel
+    aspect_class: '5:4'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 8.0
+    motion: 0.1286
+    pace: fast
+    loop: false
+    loop_seam: 0.875

@@ -1,0 +1,34 @@
+sheet: hero_chip+model-logo+tile+vs-badge-62d604
+group:
+  type: hero
+  chrome: chip+model-logo+tile+vs-badge
+fields:
+- chrome_items
+answers: hero_chip+model-logo+tile+vs-badge-62d604.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/d987f9c0-5edb-4c01-af87-6e899b092608.webm
+    asset: d987f9c0
+    page: compare-models--wan-2-7-vs-kling-3-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    duration: 10.0
+    motion: 0.0311
+    pace: slow
+    loop: true
+    loop_seam: 0.989
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - tile
+    - vs-badge

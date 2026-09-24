@@ -1,0 +1,84 @@
+sheet: link-grid_button+mockup-card+tile-4b2458
+group:
+  type: link-grid
+  chrome: button+mockup-card+tile
+fields:
+- chrome_items
+answers: link-grid_button+mockup-card+tile-4b2458.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/18256ca7-8db2-49e1-a7b9-b7ebe0e51354.png?type=webp&to=min&r=640
+    asset: 18256ca7
+    page: ai-design-tools
+    slot: S07-m5
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 6
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/36b35162-61ed-418c-9e0a-104ca15c71ed.webp?type=webp&to=min&r=640
+    asset: 36b35162
+    page: image-tools
+    slot: S07-m3
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b6344625-f048-4a72-ae08-fd73da29c4ff.png
+    asset: b6344625
+    page: ai-product-image-generator
+    slot: S11-m5
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/b6344625-f048-4a72-ae08-fd73da29c4ff.png?type=webp&to=min&r=640
+    asset: b6344625
+    page: design
+    slot: S07-m4
+    type: link-grid
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile

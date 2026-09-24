@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bottom, count: 3, text: "[date]|[time]|[place]"}
+2:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: centre, text: shop now}
+3:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bottom, text: order now}
+4:
+  chrome_items:
+    - {kind: button, placement: beside, anchor: bl, text: Hush}

@@ -1,16 +1,20 @@
 1:
-  chrome: [model-logo, chip]
+  chrome:
+  - model-logo
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: photo
-  description: WAN and Kling model outputs with a column of thumbs and a Free 10 seconds credits bar
+  description: WAN and Kling model outputs with a column of thumbs and a Free 10 seconds
+    credits bar
   family_hint: vs-two-up
   confidence: 0.5
   layout: column-main
   panel_count: 5
 2:
-  chrome: [button]
+  chrome:
+  - button
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -26,24 +30,29 @@
   ui_mockup: none
   subject: typography
   art_style: typography
-  description: a One-Day Barista Workshop poster over brown colour blocks with a speech bubble
+  description: a One-Day Barista Workshop poster over brown colour blocks with a speech
+    bubble
   family_hint: template-mockup
   confidence: 0.55
   layout: single
   panel_count: 1
 4:
-  chrome: [model-logo, chip]
+  chrome:
+  - model-logo
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: multiple
   art_style: photo
-  description: Sora monster render and Veo astronaut labelled panels with a credits bar
+  description: Sora monster render and Veo astronaut labelled panels with a credits
+    bar
   family_hint: vs-two-up
   confidence: 0.6
   layout: two-up
   panel_count: 2
 5:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: person
@@ -54,7 +63,8 @@
   layout: single
   panel_count: 1
 6:
-  chrome: [pill]
+  chrome:
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -65,18 +75,23 @@
   layout: overlay
   panel_count: 1
 7:
-  chrome: [model-logo, chip]
+  chrome:
+  - model-logo
+  - chip
   text_in_image: labels-only
   ui_mockup: none
   subject: food
   art_style: photo
-  description: Kling mousse and Runway matcha labelled food panels with a credits bar
+  description: Kling mousse and Runway matcha labelled food panels with a credits
+    bar
   family_hint: vs-two-up
   confidence: 0.6
   layout: two-up
   panel_count: 2
 8:
-  chrome: [mockup-card, tile]
+  chrome:
+  - mockup-card
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   art_style: mixed
@@ -86,7 +101,11 @@
   layout: overlay
   panel_count: 2
 9:
-  chrome: [swatch, chip, slider, adjust-panel]
+  chrome:
+  - adjust-panel
+  - adjust-slider
+  - chip
+  - swatch
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -97,18 +116,23 @@
   layout: overlay
   panel_count: 1
 10:
-  chrome: [chip, slider]
+  chrome:
+  - adjust-slider
+  - chip
   text_in_image: labels-only
   ui_mockup: product-card
   subject: animal
   art_style: photo
-  description: a dog cutout on checkerboard beside a chewoof dog food package with an fx chip
+  description: a dog cutout on checkerboard beside a chewoof dog food package with
+    an fx chip
   family_hint: cutout-checkerboard
   confidence: 0.4
   layout: split
   panel_count: 2
 11:
-  chrome: [brackets, chip]
+  chrome:
+  - brackets
+  - chip
   text_in_image: headline
   ui_mockup: editor-canvas
   subject: typography
@@ -119,12 +143,14 @@
   layout: overlay
   panel_count: 1
 12:
-  chrome: [slider]
+  chrome:
+  - adjust-slider
   text_in_image: none
   ui_mockup: browser-window
   subject: product
   art_style: photo
-  description: a sneaker cutout on checkerboard in a browser window with sky and city thumbs
+  description: a sneaker cutout on checkerboard in a browser window with sky and city
+    thumbs
   family_hint: cutout-checkerboard
   confidence: 0.5
   layout: single

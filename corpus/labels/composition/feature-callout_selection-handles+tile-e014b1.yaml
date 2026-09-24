@@ -1,0 +1,62 @@
+sheet: feature-callout_selection-handles+tile-e014b1
+group:
+  type: feature-callout
+  chrome: selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_selection-handles+tile-e014b1.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/24e4540f-7ddd-4949-82bc-b7b118095718.avif
+    asset: 24e4540f
+    page: crop-image
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: overlay
+    panel_count: 2
+    before_after: false
+    chrome:
+    - selection-handles
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f5bb2544-70fc-4995-926b-e21e5176f435.avif
+    asset: f5bb2544
+    page: collage-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - selection-handles
+    - tile
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/90e04820-5e3c-44b0-910a-926aa0e1874c.png
+    asset: 90e04820
+    page: timeline-maker
+    slot: S09-m3
+    type: feature-callout
+    size: card
+    aspect_class: '16:10'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - selection-handles
+    - tile

@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: swatch, placement: overlay, anchor: br}
+    - {kind: chip, placement: overlay, anchor: br, text: Balloon Dreams}

@@ -1,0 +1,59 @@
+sheet: link-grid_chip-4ba847
+group:
+  type: link-grid
+  chrome: chip
+fields:
+- chrome_items
+answers: link-grid_chip-4ba847.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/c9d1e981-054c-4a59-8d8c-b01c2abaa69e.png
+    asset: c9d1e981
+    page: brighten-images
+    slot: S10-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/cb4af7ab-416f-4a31-80eb-bbd2410b4fc3.png
+    asset: cb4af7ab
+    page: ai-gif-generator
+    slot: S14-m8
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 12
+    n_pages: 12
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/d22f55d9-88af-4059-ad16-7bf4f2149ce2.png
+    asset: d22f55d9
+    page: book-cover-maker
+    slot: S12-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip

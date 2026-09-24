@@ -1,0 +1,161 @@
+sheet: hero_mockup-card-20f676
+group:
+  type: hero
+  chrome: mockup-card
+fields:
+- chrome_items
+answers: hero_mockup-card-20f676.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/57622864-8048-4eb2-9227-f1b91d8ca6b4.png
+    asset: '57622864'
+    page: quote-poster-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/5855e915-1369-4c1b-b2bd-dff514b2f17e.png
+    asset: 5855e915
+    page: ai-mockup-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/6756514d-48cd-4b1a-88d4-462dc3f1272b.png
+    asset: 6756514d
+    page: t-shirt-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/70405a14-b5c8-4f28-bcd3-978360ee39b7.png
+    asset: 70405a14
+    page: menu-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/72e4d513-6a2b-4b54-987e-37dccef91c8e.png
+    asset: 72e4d513
+    page: youtube-banner-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: gradient
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/9f33d9bf-17a4-4332-9dd5-c1c26281e8eb.png
+    asset: 9f33d9bf
+    page: calendar-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/a0620c56-909b-462a-96ce-e7603e2771db.png
+    asset: a0620c56
+    page: facebook-post-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/af11b8c3-692d-495d-a183-028b917e1d2b.png
+    asset: af11b8c3
+    page: coupon-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/dbb7217a-31ed-421f-902e-791e1c5fde3f.png
+    asset: dbb7217a
+    page: thank-you-card-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card

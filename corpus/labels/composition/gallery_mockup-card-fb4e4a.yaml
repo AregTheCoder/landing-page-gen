@@ -1,0 +1,75 @@
+sheet: gallery_mockup-card-fb4e4a
+group:
+  type: gallery
+  chrome: mockup-card
+fields:
+- chrome_items
+answers: gallery_mockup-card-fb4e4a.answers.yaml
+cells:
+  1:
+    src: https://cdn-basic-content-api.picsart.io/p/0268ce5e-0d36-44b9-aa04-0b14cc530bb6.png
+    asset: 0268ce5e
+    page: calendar-maker
+    slot: S05-m15
+    type: gallery
+    size: tile
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: solid-colour
+    layout: grid
+    panel_count: 3
+    before_after: false
+    chrome:
+    - mockup-card
+  2:
+    src: https://cdn-basic-content-api.picsart.io/p/b8cc1321-45e8-42af-8ccb-70ef6a035ccf.png
+    asset: b8cc1321
+    page: brochure-maker
+    slot: S05-m7
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+  3:
+    src: https://cdn-basic-content-api.picsart.io/p/e12dcda2-16e0-49fa-86d7-04be932ee9c5.png
+    asset: e12dcda2
+    page: thank-you-card-maker
+    slot: S04-m4
+    type: gallery
+    size: tile
+    aspect_class: '3:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: checkerboard
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/07081122-ff58-4489-99f3-3320639cfaf2.png?type=webp&to=min&r=800
+    asset: 07081122
+    page: aura
+    slot: S10-m3
+    type: gallery
+    size: panel
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card

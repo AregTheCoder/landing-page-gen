@@ -1,0 +1,62 @@
+sheet: feature-callout_badge+mockup-card-f30a01
+group:
+  type: feature-callout
+  chrome: badge+mockup-card
+fields:
+- chrome_items
+answers: feature-callout_badge+mockup-card-f30a01.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/b48aee0d-5c93-4a82-9b24-ccaaaa6d9157.png
+    asset: b48aee0d
+    page: ai-assets-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/cf140e97-6c14-4ba8-af30-ed880509aafc.png
+    asset: cf140e97
+    page: brand-identity-generator
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/e67f42df-9478-4b5a-80da-8fa492b1b7f0.png
+    asset: e67f42df
+    page: coupon-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: grid
+    panel_count: 4
+    before_after: false
+    chrome:
+    - badge
+    - mockup-card

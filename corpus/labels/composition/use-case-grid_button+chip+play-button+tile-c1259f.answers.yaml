@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: bottom, count: 2, text: First Frame|Last Frame}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+    - {kind: button, placement: beside, anchor: bl, text: Generate}
+    - {kind: play-button, placement: overlay, anchor: centre}

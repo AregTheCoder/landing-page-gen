@@ -1,0 +1,27 @@
+sheet: use-case-grid_adjust-slider+button+mockup-card-f0f462
+group:
+  type: use-case-grid
+  chrome: adjust-slider+button+mockup-card
+fields:
+- chrome_items
+answers: use-case-grid_adjust-slider+button+mockup-card-f0f462.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/506be643-ce46-42a3-9071-265194c50d95.png
+    asset: 506be643
+    page: background-tools
+    slot: S08-m4
+    type: use-case-grid
+    size: card
+    aspect_class: '3:2'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: overlay
+    panel_count: 3
+    before_after: false
+    chrome:
+    - adjust-slider
+    - button
+    - mockup-card

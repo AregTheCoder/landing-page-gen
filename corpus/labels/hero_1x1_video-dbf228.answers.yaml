@@ -1,0 +1,175 @@
+1:
+  chrome:
+  - button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: pink Start new project button on black, then an AI Writer prompt card
+    generates a Sweet Life cake poster
+  family_hint: prompt-card
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+2:
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: Veo 3.1 vs Kling 3.0 two-up, woman crossing a taxi street beside a
+    perfume bottle in wildflowers, Audio and Multi-Shot chips
+  family_hint: vs-two-up
+  confidence: 0.95
+  motion_kind: subject-motion
+  camera: static
+3:
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: Kling 3.0 vs Runway two-up, hand tossing a tennis ball on blue sky
+    beside a costumed figure in a painted landscape
+  family_hint: vs-two-up
+  confidence: 0.95
+  motion_kind: subject-motion
+  camera: static
+4:
+  chrome:
+  - prompt-panel
+  text_in_image: body
+  ui_mockup: prompt-ui
+  subject: product
+  art_style: photo
+  before_after: false
+  description: lamp reference thumb and interior prompt card over three vertical lamp
+    clips on black, the middle one zooms in
+  family_hint: prompt-card
+  confidence: 0.7
+  motion_kind: camera-move
+  camera: static
+5:
+  chrome:
+  - compare-handle
+  - pill
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  before_after: true
+  description: blurry city selfie of a woman in sunglasses, a Before pill and a slider
+    wipe reveal the sharp After
+  family_hint: before-after
+  confidence: 0.9
+  motion_kind: transition
+  camera: static
+6:
+  chrome:
+  - mockup-card
+  text_in_image: headline
+  ui_mockup: none
+  subject: typography
+  art_style: flat-vector
+  before_after: false
+  description: pink striped Grand Opening invitation on white, a Background Color
+    chip, then a blue SHH poster beside black icon tiles
+  family_hint: template-mockup
+  confidence: 0.6
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome:
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  before_after: false
+  description: bulldog puppy on a stool in a green room card on black with a Remove
+    BG chip, background wipes through checker to pink clouds
+  family_hint: cutout-checkerboard
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: black icon tile on white, then a portrait card of a golden retriever
+    in glasses at a laptop, magenta Download button
+  family_hint: other
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+9:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: 3d-render
+  before_after: false
+  description: pink-haired 3D character in a blue fleece in a neon alley, reference
+    thumbs and a swap tile in a column on black
+  family_hint: dark-composite
+  confidence: 0.6
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: scene
+  art_style: photo
+  before_after: false
+  description: red sports car on a desert mountain road, thumbnail plus mic and swap
+    tiles in a column, car drives past the camera
+  family_hint: dark-composite
+  confidence: 0.55
+  motion_kind: subject-motion
+  camera: pan
+11:
+  chrome:
+  - model-logo
+  - vs-badge
+  - chip
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: multiple
+  art_style: photo
+  before_after: false
+  description: Sora 2 vs Veo 3.1 two-up, strawberry macro collage beside a man leaning
+    from a yellow taxi, Audio and 4K chips
+  family_hint: vs-two-up
+  confidence: 0.95
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome:
+  - tile
+  text_in_image: none
+  ui_mockup: none
+  subject: abstract
+  art_style: flat-vector
+  before_after: false
+  description: white upload tile on black, then crop brackets and 1080 x 1080 chips
+    over a woman on pink gradient, Download button
+  family_hint: crop-frame
+  confidence: 0.7
+  motion_kind: ui-demo
+  camera: static

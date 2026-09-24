@@ -1,0 +1,27 @@
+sheet: hero_button+mockup-card+tile-0ce564
+group:
+  type: hero
+  chrome: button+mockup-card+tile
+fields:
+- chrome_items
+answers: hero_button+mockup-card+tile-0ce564.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/37ae2bfd-261c-4b98-9fa9-5c29f1e59052.png
+    asset: 37ae2bfd
+    page: product-ad-maker
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 3
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - tile

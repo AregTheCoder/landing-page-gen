@@ -1,23 +1,31 @@
 1:
-  chrome: [pill, adjust-panel]
+  chrome:
+  - pill
+  - adjust-panel
   text_in_image: labels-only
   ui_mockup: none
   subject: object
   art_style: photo
-  description: a floral bouquet with a GIF pill and a frames per second control strip below
+  description: a floral bouquet with a GIF pill and a frames per second control strip
+    below
   family_hint: panel-overlay
   confidence: 0.3
 2:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: multiple
   art_style: photo
-  description: a collage grid of embroidered ornaments and a man in patterned outfits with layout tiles
+  description: a collage grid of embroidered ornaments and a man in patterned outfits
+    with layout tiles
   family_hint: graphic-collage
   confidence: 0.4
 3:
-  chrome: [pill, slider, chip]
+  chrome:
+  - adjust-slider
+  - chip
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: animal
@@ -26,16 +34,21 @@
   family_hint: full-bleed
   confidence: 0.5
 4:
-  chrome: [chip, model-logo]
+  chrome:
+  - chip
+  - model-logo
   text_in_image: body
   ui_mockup: none
   subject: person
   art_style: photo
-  description: two skateboarder videos labelled Hailuo 3 and Kling V3 with a prompt caption and model chips
+  description: two skateboarder videos labelled Hailuo 3 and Kling V3 with a prompt
+    caption and model chips
   family_hint: vs-two-up
   confidence: 0.7
 5:
-  chrome: [chip, tile]
+  chrome:
+  - chip
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -44,30 +57,39 @@
   family_hint: cinematic-still
   confidence: 0.4
 6:
-  chrome: [tile]
+  chrome:
+  - tile
   text_in_image: none
   ui_mockup: none
   subject: scene
   art_style: painterly-illustration
-  description: a green line drawing of a kitchen interior over blue with brush and effect tiles
+  description: a green line drawing of a kitchen interior over blue with brush and
+    effect tiles
   family_hint: other
   confidence: 0.3
 7:
-  chrome: [badge, button]
+  chrome:
+  - badge
+  - button
   text_in_image: labels-only
   ui_mockup: product-card
   subject: product
   art_style: photo
-  description: green and navy caps with daisy patches on a checkerboard with check badges and an Add to bag button
+  description: green and navy caps with daisy patches on a checkerboard with check
+    badges and an Add to bag button
   family_hint: cutout-checkerboard
   confidence: 0.65
 8:
-  chrome: [chip, model-logo, tile]
+  chrome:
+  - chip
+  - model-logo
+  - tile
   text_in_image: labels-only
   ui_mockup: none
   subject: person
   art_style: photo
-  description: two men labelled WAN 2.7 and Kling 3.0 with avatar chips and a 4K 60 fps tile
+  description: two men labelled WAN 2.7 and Kling 3.0 with avatar chips and a 4K 60
+    fps tile
   family_hint: vs-two-up
   confidence: 0.7
 9:
@@ -89,7 +111,8 @@
   family_hint: prompt-card
   confidence: 0.4
 11:
-  chrome: [pill]
+  chrome:
+  - pill
   text_in_image: labels-only
   ui_mockup: none
   subject: person
@@ -98,11 +121,13 @@
   family_hint: before-after
   confidence: 0.55
 12:
-  chrome: [chip]
+  chrome:
+  - chip
   text_in_image: body
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a woman with an iced drink with a cinematic prompt caption and Veo 4 chips
+  description: a woman with an iced drink with a cinematic prompt caption and Veo
+    4 chips
   family_hint: prompt-card
   confidence: 0.45

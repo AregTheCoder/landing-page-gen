@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: badge, placement: overlay, anchor: tl}
+    - {kind: compare-handle, placement: overlay, anchor: centre}

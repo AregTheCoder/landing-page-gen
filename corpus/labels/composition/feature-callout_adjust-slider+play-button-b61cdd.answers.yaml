@@ -1,0 +1,4 @@
+1:
+  chrome_items:
+    - {kind: adjust-slider, placement: overlay, anchor: bottom, text: 0:00 /0:05}
+    - {kind: play-button, placement: overlay, anchor: bottom}

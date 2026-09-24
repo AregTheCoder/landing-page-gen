@@ -1,0 +1,140 @@
+sheet: feature-callout_mockup-card+swatch-b580e2
+group:
+  type: feature-callout
+  chrome: mockup-card+swatch
+fields:
+- chrome_items
+answers: feature-callout_mockup-card+swatch-b580e2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/32e24b56-54c0-4cf9-840f-112fb1fbf893.webp
+    asset: 32e24b56
+    page: birthday-card-maker
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 4
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4cc460c2-559c-4b49-9dcb-a357e114adb7.webp
+    asset: 4cc460c2
+    page: brand-kit-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/523a1c47-81c9-4826-b886-d14fbd140c63.webm
+    asset: 523a1c47
+    page: instagram-video-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 18.53
+    motion: 0.0215
+    pace: slow
+    loop: true
+    loop_seam: 0.995
+    camera: static
+    chrome:
+    - mockup-card
+    - swatch
+  4:
+    src: https://pastatic.picsart.com/cms-pastatic/0f03db11-a672-4ffb-b5ea-909d0e55e5fb.png
+    asset: 0f03db11
+    page: brand-identity-generator
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+  5:
+    src: https://pastatic.picsart.com/cms-pastatic/648fdfe3-3e27-49d3-a20e-1c88021c2a88.png
+    asset: 648fdfe3
+    page: svg-editor
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: stacked
+    panel_count: 2
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/913b412f-3933-4900-b1cf-57e8cfe8dd35.png
+    asset: 913b412f
+    page: timeline-maker
+    slot: S09-m2
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/fd0e9cdd-d174-4860-9fba-b8088f7c8217.png
+    asset: fd0e9cdd
+    page: ai-assets-generator
+    slot: S07-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - mockup-card
+    - swatch

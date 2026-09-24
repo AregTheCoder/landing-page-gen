@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: chip, placement: overlay, anchor: tl, count: 3, text: 1|2|3}
+    - {kind: arrow, placement: overlay, anchor: left}
+    - {kind: arrow, placement: overlay, anchor: right}

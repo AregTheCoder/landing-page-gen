@@ -1,0 +1,27 @@
+sheet: link-grid_adjust-panel+mockup-card+swatch-1d6675
+group:
+  type: link-grid
+  chrome: adjust-panel+mockup-card+swatch
+fields:
+- chrome_items
+answers: link-grid_adjust-panel+mockup-card+swatch-1d6675.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/dbebc97c-a7ff-459a-9113-90fdc590d3dc.png
+    asset: dbebc97c
+    page: brand-identity-generator
+    slot: S10-m4
+    type: link-grid
+    size: card
+    aspect_class: '5:4'
+    kind: image
+    n_rows: 3
+    n_pages: 3
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - adjust-panel
+    - mockup-card
+    - swatch

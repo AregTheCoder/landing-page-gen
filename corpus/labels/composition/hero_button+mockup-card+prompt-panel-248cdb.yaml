@@ -1,0 +1,46 @@
+sheet: hero_button+mockup-card+prompt-panel-248cdb
+group:
+  type: hero
+  chrome: button+mockup-card+prompt-panel
+fields:
+- chrome_items
+answers: hero_button+mockup-card+prompt-panel-248cdb.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ca96f63a-6e6a-41fb-938c-86b483c953be.webp
+    asset: ca96f63a
+    page: text-to-ad-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/f3ec9eab-6e44-4ffa-895f-bc4b1d976efb.avif
+    asset: f3ec9eab
+    page: ai-design-generator
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - mockup-card
+    - prompt-panel

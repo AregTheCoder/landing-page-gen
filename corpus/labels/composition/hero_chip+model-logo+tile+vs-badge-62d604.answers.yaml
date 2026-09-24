@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: WAN 2.7|Kling 3.0}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+    - {kind: tile, placement: beside, anchor: left, count: 3}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2}

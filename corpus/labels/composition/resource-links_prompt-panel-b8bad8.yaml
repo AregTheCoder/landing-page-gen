@@ -1,0 +1,25 @@
+sheet: resource-links_prompt-panel-b8bad8
+group:
+  type: resource-links
+  chrome: prompt-panel
+fields:
+- chrome_items
+answers: resource-links_prompt-panel-b8bad8.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/e29a3838-0ace-48ba-a352-8251f4e3ad97.webp
+    asset: e29a3838
+    page: flow
+    slot: S11-m1
+    type: resource-links
+    size: card
+    aspect_class: '16:9'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - prompt-panel

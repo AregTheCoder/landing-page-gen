@@ -1,0 +1,21 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Ideogram}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Meta}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: gettyimages}
+4:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Google}
+5:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Ideogram}
+6:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: MODULARI}
+7:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: centre, text: Mashable}

@@ -1,0 +1,94 @@
+sheet: feature-callout_chip+model-logo+size-label+tile-98c034
+group:
+  type: feature-callout
+  chrome: chip+model-logo+size-label+tile
+fields:
+- chrome_items
+answers: feature-callout_chip+model-logo+size-label+tile-98c034.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/7f72e491-fc40-4ccd-b348-9d0913119310.avif
+    asset: 7f72e491
+    page: ai-models--ideogram-4-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - size-label
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/dbddedcf-0b9f-4eea-8615-364ef37ddecb.avif
+    asset: dbddedcf
+    page: ai-models--grok-imagine
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 2
+    n_pages: 2
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - size-label
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/ee36e3a1-27d8-4d97-80ce-05e1cab37db2.avif
+    asset: ee36e3a1
+    page: ai-models--imagen-4-0
+    slot: S04-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - chip
+    - model-logo
+    - size-label
+    - tile
+  4:
+    src: https://pcdn.picsart.com/cms-uploads/85a80f56-0162-411f-b997-744ec564c402.webm
+    asset: 85a80f56
+    page: ai-models--minimax-h3-max
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    duration: 10.0
+    motion: 0.2075
+    pace: fast
+    loop: false
+    loop_seam: 0.89
+    camera: static
+    chrome:
+    - chip
+    - model-logo
+    - size-label
+    - tile

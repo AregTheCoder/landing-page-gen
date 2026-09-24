@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}
+2:
+  chrome_items:
+    - {kind: tile, placement: beside, anchor: left}
+    - {kind: model-logo, placement: beside, anchor: left}
+3:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: tl}
+    - {kind: tile, placement: beside, anchor: left, count: 2}

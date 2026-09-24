@@ -1,16 +1,21 @@
 1:
-  chrome: [prompt-panel, button, model-logo]
+  chrome:
+  - prompt-panel
+  - button
+  - model-logo
   text_in_image: body
   ui_mockup: prompt-ui
   subject: person
   art_style: photo
-  description: a prompt panel and model list beside a photo of two women in a green field
+  description: a prompt panel and model list beside a photo of two women in a green
+    field
   family_hint: prompt-card
   confidence: 0.8
   layout: column-main
   panel_count: 1
 2:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -21,18 +26,22 @@
   layout: grid
   panel_count: 6
 3:
-  chrome: [chip, slider]
+  chrome:
+  - adjust-slider
+  - chip
   text_in_image: body
   ui_mockup: none
   subject: person
   art_style: photo
-  description: a column of caption chips and a speed slider beside a woman video still with a caption
+  description: a column of caption chips and a speed slider beside a woman video still
+    with a caption
   family_hint: other
   confidence: 0.4
   layout: column-main
   panel_count: 1
 4:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: person
@@ -43,7 +52,9 @@
   layout: stacked
   panel_count: 3
 5:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: labels-only
   ui_mockup: phone-frame
   subject: product
@@ -55,7 +66,9 @@
   layout: column-main
   panel_count: 2
 6:
-  chrome: [tile, mockup-card]
+  chrome:
+  - tile
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: food
@@ -66,19 +79,25 @@
   layout: column-main
   panel_count: 1
 7:
-  chrome: [mockup-card, button]
+  chrome:
+  - mockup-card
+  - button
   text_in_image: labels-only
   ui_mockup: product-card
   subject: product
   art_style: photo
-  description: a colourful sneaker beside a product card showing two sneakers with a buy button
+  description: a colourful sneaker beside a product card showing two sneakers with
+    a buy button
   family_hint: mockup-card
   confidence: 0.6
   ground: light-grey
   layout: overlay
   panel_count: 2
 8:
-  chrome: [mockup-card, button, chip]
+  chrome:
+  - mockup-card
+  - button
+  - chip
   text_in_image: headline
   ui_mockup: none
   subject: product
@@ -89,7 +108,8 @@
   layout: grid
   panel_count: 3
 9:
-  chrome: [mockup-card]
+  chrome:
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: multiple
@@ -100,29 +120,38 @@
   layout: grid
   panel_count: 3
 10:
-  chrome: [badge, selection-handles]
+  chrome:
+  - badge
+  - selection-handles
   text_in_image: none
   ui_mockup: none
   subject: product
   art_style: photo
-  description: a large metallic flower earring photo beside two checked earring variant thumbnails
+  description: a large metallic flower earring photo beside two checked earring variant
+    thumbnails
   family_hint: other
   confidence: 0.4
   layout: column-main
   panel_count: 3
 11:
-  chrome: [tile, mockup-card]
+  chrome:
+  - tile
+  - mockup-card
   text_in_image: headline
   ui_mockup: none
   subject: illustration
   art_style: mixed
-  description: an illustrated art panel beside a purple nineties theme party invitation and a tile
+  description: an illustrated art panel beside a purple nineties theme party invitation
+    and a tile
   family_hint: template-mockup
   confidence: 0.65
   layout: column-main
   panel_count: 2
 12:
-  chrome: [tile, mockup-card, badge]
+  chrome:
+  - tile
+  - mockup-card
+  - badge
   text_in_image: headline
   ui_mockup: none
   subject: scene

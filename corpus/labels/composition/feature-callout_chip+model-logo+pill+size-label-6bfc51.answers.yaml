@@ -1,0 +1,12 @@
+1:
+  chrome_items:
+    - {kind: pill, placement: overlay, anchor: bl, count: 2, text: Kling 3.0|Runway Gen-4}
+    - {kind: model-logo, placement: overlay, anchor: bl, count: 2}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, state: {on: true}, text: On|On}
+    - {kind: size-label, placement: beside, anchor: br, text: '9:16'}
+2:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: bottom, count: 2}
+    - {kind: pill, placement: beside, anchor: bottom, count: 2, text: GPT Image 1.5|Flux 2 Pro}
+    - {kind: size-label, placement: beside, anchor: bottom, count: 2, text: 1024x1536|2k}
+    - {kind: chip, placement: beside, anchor: bottom, count: 2, text: 2x3|3x4}

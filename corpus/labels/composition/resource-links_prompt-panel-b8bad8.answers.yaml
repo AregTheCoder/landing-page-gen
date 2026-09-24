@@ -1,0 +1,5 @@
+1:
+  chrome_items:
+    - {kind: prompt-panel, placement: beside, anchor: top, text: A male model sitting on a cloud}
+    - {kind: prompt-panel, placement: beside, anchor: bl, text: Describe your design...}
+    - {kind: prompt-panel, placement: beside, anchor: br}

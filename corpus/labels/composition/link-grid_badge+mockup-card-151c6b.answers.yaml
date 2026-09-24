@@ -1,0 +1,8 @@
+1:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 4}
+    - {kind: badge, placement: overlay, anchor: tr, text: EXPLORE OFFERS}
+2:
+  chrome_items:
+    - {kind: mockup-card, placement: beside, anchor: centre, count: 2}
+    - {kind: badge, placement: beside, anchor: left, count: 2, state: {on: true}}

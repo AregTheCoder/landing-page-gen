@@ -1,0 +1,223 @@
+sheet: feature-callout_swatch+tile-7b7c69
+group:
+  type: feature-callout
+  chrome: swatch+tile
+fields:
+- chrome_items
+answers: feature-callout_swatch+tile-7b7c69.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/139bfd24-28dd-46fd-a6cc-f37a124849f9.avif
+    asset: 139bfd24
+    page: album-cover-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/1fe89325-ce38-44e3-a1f5-eaabca648c08.webp
+    asset: 1fe89325
+    page: brochure-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  3:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/21cdafd9-b685-4558-94a5-8d5495a624f9.webp
+    asset: 21cdafd9
+    page: motivation-poster-maker
+    slot: S09-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 4
+    n_pages: 4
+    ground: black
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  4:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/4300f508-307f-41cd-b437-e63a10d7b245.webp
+    asset: 4300f508
+    page: bookmark-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: column-main
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  5:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/48191133-1e3e-4560-8945-79ce5bc7f0ad.avif
+    asset: '48191133'
+    page: background-changer
+    slot: S10-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: split
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  6:
+    src: https://pastatic.picsart.com/cms-pastatic/517b85da-c031-478c-82c6-a70c3518c366.png
+    asset: 517b85da
+    page: quote-poster-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  7:
+    src: https://pastatic.picsart.com/cms-pastatic/56f038cf-bdbb-4b69-9a71-736cf9053105.png
+    asset: 56f038cf
+    page: thank-you-card-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  8:
+    src: https://pastatic.picsart.com/cms-pastatic/60eb80c9-ebd8-43b8-b913-4652e06c54fa.png
+    asset: 60eb80c9
+    page: t-shirt-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  9:
+    src: https://pastatic.picsart.com/cms-pastatic/7c5d6f7d-ac11-49dd-8b29-86e7d94d3494.png
+    asset: 7c5d6f7d
+    page: flyer-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  10:
+    src: https://pastatic.picsart.com/cms-pastatic/7fe312b0-aac9-4607-a007-0c4ce625b209.png
+    asset: 7fe312b0
+    page: greeting-card-maker
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: two-up
+    panel_count: 2
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  11:
+    src: https://pastatic.picsart.com/cms-pastatic/8031c225-ae21-421b-ad9c-3a49a40c6c4f.png
+    asset: 8031c225
+    page: christmas-card-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: light-grey
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile
+  12:
+    src: https://pastatic.picsart.com/cms-pastatic/80694dc4-4c3e-4fea-a011-e1a1dfc620ac.png
+    asset: 80694dc4
+    page: t-shirt-maker
+    slot: S08-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    layout: column-main
+    panel_count: 1
+    before_after: false
+    chrome:
+    - swatch
+    - tile

@@ -1,0 +1,17 @@
+1:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: centre, count: 3}
+2:
+  chrome_items:
+    - {kind: arrow, placement: overlay, anchor: left}
+    - {kind: arrow, placement: overlay, anchor: right}
+3:
+  chrome_items:
+    - {kind: arrow, placement: overlay, anchor: top}
+    - {kind: arrow, placement: overlay, anchor: bottom}
+4:
+  chrome_items:
+    - {kind: arrow, placement: beside, anchor: tr}
+5:
+  chrome_items:
+    - {kind: arrow, placement: overlay, anchor: top}

@@ -1,0 +1,50 @@
+sheet: hero_chip+tile-b789c2
+group:
+  type: hero
+  chrome: chip+tile
+fields:
+- chrome_items
+answers: hero_chip+tile-b789c2.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/285af5fd-f72b-4541-9773-078f208ef5c7.webm
+    asset: 285af5fd
+    page: ai-agents
+    slot: S01-m2
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: video
+    n_rows: 1
+    n_pages: 1
+    ground: black
+    layout: stacked
+    panel_count: 4
+    before_after: false
+    duration: 5.03
+    motion: 0.0142
+    pace: slow
+    loop: true
+    loop_seam: 0.967
+    camera: static
+    chrome:
+    - chip
+    - tile
+  2:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/31d368fc-961c-45fd-b414-cd40859be220.avif
+    asset: 31d368fc
+    page: ai-models--imagen-4-0
+    slot: S01-m1
+    type: hero
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+    - tile

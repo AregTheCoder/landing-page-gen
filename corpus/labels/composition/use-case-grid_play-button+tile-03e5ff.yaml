@@ -1,0 +1,26 @@
+sheet: use-case-grid_play-button+tile-03e5ff
+group:
+  type: use-case-grid
+  chrome: play-button+tile
+fields:
+- chrome_items
+answers: use-case-grid_play-button+tile-03e5ff.answers.yaml
+cells:
+  1:
+    src: https://cdn-cms-uploads.picsart.com/cms-uploads/0af91011-2134-453e-89b0-46b84dc82c37.webp
+    asset: 0af91011
+    page: flip-video
+    slot: S08-m1
+    type: use-case-grid
+    size: panel
+    aspect_class: '2:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: mixed
+    layout: split
+    panel_count: 2
+    before_after: true
+    chrome:
+    - play-button
+    - tile

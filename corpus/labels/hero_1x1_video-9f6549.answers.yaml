@@ -1,0 +1,167 @@
+1:
+  chrome:
+  - model-logo
+  - chip
+  - play-button
+  text_in_image: body
+  ui_mockup: none
+  subject: animal
+  art_style: photo
+  description: flower-covered lambs leap through a blue sky, prompt caption and scrubber
+    overlaid
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+2:
+  chrome:
+  - brackets
+  text_in_image: none
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: red-haired woman holding a croissant with yellow face-detection crop
+    brackets over her face
+  family_hint: crop-frame
+  confidence: 0.55
+  motion_kind: ui-demo
+  camera: static
+3:
+  chrome:
+  - button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: couple selfie turns into a heart-decorated printed photo card held
+    in a hand
+  family_hint: full-bleed
+  confidence: 0.4
+  motion_kind: transition
+  camera: static
+4:
+  chrome:
+  - model-logo
+  - vs-badge
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: woman in green dress and pink fur coat, two AI video models compared
+    with VS badges
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+5:
+  chrome:
+  - pill
+  - cursor
+  text_in_image: labels-only
+  ui_mockup: editor-canvas
+  subject: person
+  art_style: photo
+  description: man by a wall with a magenta remove-brush and a Remove tool label,
+    object-removal demo
+  family_hint: before-after
+  confidence: 0.4
+  motion_kind: ui-demo
+  camera: static
+6:
+  chrome:
+  - prompt-panel
+  - mockup-card
+  - button
+  text_in_image: body
+  ui_mockup: app-card
+  subject: product
+  art_style: mixed
+  description: AI agent chat thread building a product grid card of clothing on black
+  family_hint: mockup-card
+  confidence: 0.45
+  motion_kind: ui-demo
+  camera: static
+7:
+  chrome:
+  - prompt-panel
+  text_in_image: headline
+  ui_mockup: none
+  subject: animal
+  art_style: painterly-illustration
+  description: sloth-at-desk meme card with a headline and a teal prompt callout bubble
+  family_hint: template-mockup
+  confidence: 0.5
+  motion_kind: ui-demo
+  camera: static
+8:
+  chrome:
+  - model-logo
+  - vs-badge
+  - size-label
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in sunglasses, MiniMax H3 vs Seedance 2.5 video cards with VS badges
+    and spec chips
+  family_hint: vs-two-up
+  confidence: 0.85
+  motion_kind: subject-motion
+  camera: static
+9:
+  chrome:
+  - button
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: man in yellow shirt sitting by a car curb, upscale clip ending on a
+    Download button
+  family_hint: full-bleed
+  confidence: 0.45
+  motion_kind: subject-motion
+  camera: static
+10:
+  chrome:
+  - model-logo
+  - size-label
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: collage
+  description: person in orange stripes on a crescent moon over a collage sky, model
+    and 768p chips
+  family_hint: graphic-collage
+  confidence: 0.5
+  motion_kind: ambient
+  camera: static
+11:
+  chrome:
+  - adjust-slider
+  - play-button
+  - vs-badge
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: singer on a stage with a glowing sun backdrop, two music models compared
+    with waveform scrubbers
+  family_hint: vs-two-up
+  confidence: 0.7
+  motion_kind: subject-motion
+  camera: static
+12:
+  chrome:
+  - button
+  - model-logo
+  - size-label
+  text_in_image: labels-only
+  ui_mockup: none
+  subject: person
+  art_style: photo
+  description: armored soldier in a purple cape moving through a dusk field, side
+    toolbar with 9:16 and 1080p
+  family_hint: full-bleed
+  confidence: 0.5
+  motion_kind: subject-motion
+  camera: static

@@ -8,7 +8,9 @@ brief.md            written by the manager, read-only
 examples/           corpus excerpts and media, read-only
 workflow.yaml       one Flow board per slot (--- separated), see picsart-workflows/workflow-format.md
 flow.md             the boards as node sheets (`uv run lp-flow sheet workflow.yaml`), what a person would rebuild on the Flow canvas
-compose-<slot>.yaml the lp-compose spec of a composite slot: family, size, one image per panel
+composition-<slot>.yaml the composition plan of a composite slot, written by the manager, read-only: the layout's skeleton, its panels (ratio + keep-clear) and its slots with the bank blocks that may fill each
+blocks-<slot>.yaml  the worker's picks, one block (or none) per slot with its `because:`, checked by `lp-compose --check-blocks` (picsart-workflows/blocks.md)
+compose-<slot>.yaml the lp-compose spec, made by the worker with `lp-compose --spec-from-plan composition-<slot>.yaml --blocks blocks-<slot>.yaml --image <panel>=<path> ... --out compose-<slot>.yaml` (only panel images added; every item is a picked block)
 steps/              every downloaded intermediate and final asset, named <slot>-<step>-<n>.<ext>
 result.md           frontmatter + prose, format below
 review-N.md         written by the reviewer, one per round
@@ -25,9 +27,23 @@ slots:
     local: steps/S03-m1-4-1.png
     pattern: anchored
     board: blank                    # or "template: <title>"
+    plan: composition-S03-m1.yaml   # composite slots only: the plan the compose spec was built from
+    blocks: blocks-S03-m1.yaml      # composite slots only: the worker's block picks
+    compose: compose-S03-m1.yaml    # composite slots only: the spec --spec-from-plan wrote
     nodes: 4
     credits: 17
-    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
+    scores: {fit: 4, composition: 5, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4}
+    workflow_score: {justified: 5, gated: 5, quote_respected: 5, board: 5}
+  S03-m2:                           # a video slot adds two keys
+    chosen: https://.../clip.mp4    # the final clip URL from picsart_job_status
+    local: steps/S03-m2-5-1.mp4
+    poster: steps/S03-m2-3-1.png    # the accepted still (the startFrame); lp-inject ships it as the <video poster>
+    duration_s: 10                  # the clip's measured length (probe_media); the brief names the target
+    pattern: still-to-motion
+    board: blank
+    nodes: 5
+    credits: 90
+    scores: {fit: 4, resemblance: 4, consistency: 5, clean: 5, text: 5, artefacts: 4, geometry: 5, legibility: 4, first_frame: 5, motion: 4, loop: 4}
     workflow_score: {justified: 5, gated: 5, quote_respected: 5, board: 5}
 status: done | blocked
 ---

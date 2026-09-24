@@ -1,0 +1,59 @@
+sheet: feature-callout_chip-7e68aa
+group:
+  type: feature-callout
+  chrome: chip
+fields:
+- chrome_items
+answers: feature-callout_chip-7e68aa.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/4e5049d8-de3c-4e50-b2df-f3e2cf3ec6d4.png
+    asset: 4e5049d8
+    page: product-ad-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: white
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+  2:
+    src: https://pastatic.picsart.com/cms-pastatic/5c40aaf0-2cff-42b7-9b40-83853640badb.png
+    asset: 5c40aaf0
+    page: document-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip
+  3:
+    src: https://pastatic.picsart.com/cms-pastatic/dedd4d22-5e90-4f02-841f-15e436ef9603.png
+    asset: dedd4d22
+    page: ai-video-filters
+    slot: S06-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - chip

@@ -1,0 +1,15 @@
+1:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: button, placement: overlay, anchor: tl, text: Remove}
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+2:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: button, placement: overlay, anchor: tl, text: Remove}
+    - {kind: selection-handles, placement: overlay, anchor: tr}
+3:
+  chrome_items:
+    - {kind: play-button, placement: overlay, anchor: centre}
+    - {kind: button, placement: overlay, anchor: tl, text: Remove}
+    - {kind: selection-handles, placement: overlay, anchor: tr}

@@ -1,0 +1,6 @@
+1:
+  chrome_items:
+    - {kind: model-logo, placement: beside, anchor: top, count: 2, text: Runway Gen 4|Veo 3.1}
+    - {kind: vs-badge, placement: beside, anchor: centre, text: VS}
+    - {kind: chip, placement: beside, anchor: bottom, count: 4, text: "Upload audio|FPS: 120|Audio: On|4K"}
+    - {kind: pill, placement: beside, anchor: bottom, state: {on: true}, text: "On"}

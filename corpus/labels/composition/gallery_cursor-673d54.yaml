@@ -1,0 +1,25 @@
+sheet: gallery_cursor-673d54
+group:
+  type: gallery
+  chrome: cursor
+fields:
+- chrome_items
+answers: gallery_cursor-673d54.answers.yaml
+cells:
+  1:
+    src: https://cdn-template.picsart.com/templates-cdn/996d3100-57ae-406a-a970-e7b390c3952a.jpg
+    asset: 996d3100
+    page: quiz-maker
+    slot: S06-m4
+    type: gallery
+    size: tile
+    aspect_class: '9:16'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - cursor

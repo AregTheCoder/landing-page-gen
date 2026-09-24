@@ -1,0 +1,27 @@
+sheet: feature-callout_button+selection-handles+tile-c260ee
+group:
+  type: feature-callout
+  chrome: button+selection-handles+tile
+fields:
+- chrome_items
+answers: feature-callout_button+selection-handles+tile-c260ee.answers.yaml
+cells:
+  1:
+    src: https://pastatic.picsart.com/cms-pastatic/645533c4-3759-4a39-af27-258f16410f3b.png
+    asset: 645533c4
+    page: whatsapp-sticker-maker
+    slot: S05-m1
+    type: feature-callout
+    size: card
+    aspect_class: '1:1'
+    kind: image
+    n_rows: 1
+    n_pages: 1
+    ground: photo-full-bleed
+    layout: single
+    panel_count: 1
+    before_after: false
+    chrome:
+    - button
+    - selection-handles
+    - tile
