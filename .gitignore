@@ -60,3 +60,6 @@ corpus/readings/
 # Clip storyboards: keyframes, dense samples, readings (rebuilt by `lp-corpus storyboard`)
 corpus/storyboards/
 research/probe/
+
+# the Drive upload's manifest (DATA.md)
+share/
