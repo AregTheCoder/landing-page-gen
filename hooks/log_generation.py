@@ -5,7 +5,11 @@ model, params, every URL in the response, and the credits (quoted directly for
 preflight, taken from the last preflight of the same model for paid calls).
 An async video generate returns no URL; the clip URL arrives in the
 `picsart_job_status` response, so that row is logged too (cost 0) and the
-isolation guard then lets a later extend/edit node wire the clip."""
+isolation guard then lets a later extend/edit node wire the clip.
+
+On PostToolUseFailure a paid call is logged too, `failed: true`, at its quote
+and with no URL, for the record; the cap does not count it (a 403'd enhance
+twice moved the balance by nothing) and the balance check settles the rest."""
 
 import datetime
 import json
@@ -22,20 +26,23 @@ CREDITS_RE = re.compile(r'credits\\*"\s*:\s*(\d+)')
 
 def main():
     data = L.read_hook_input()
-    run = L.current_run()
+    run = L.active_run(data)
     if not run.exists():
         return
     tool_name = data.get("tool_name", "")
     tool = L.short_tool(tool_name)
+    failed = data.get("hook_event_name") == "PostToolUseFailure"
+    if failed and tool in ("picsart_preflight", "picsart_job_status"):
+        return  # a failed quote or poll spends nothing
     tool_input = data.get("tool_input", {})
-    response_text = json.dumps(data.get("tool_response", ""))
+    response_text = json.dumps("" if failed else data.get("tool_response", ""))
     model = L.model_of(tool_name, tool_input)
 
     if tool == "picsart_preflight":
         found = CREDITS_RE.search(response_text)
         credits = int(found.group(1)) if found else None
     else:
-        credits = L.quote_for(L.ledger_rows(run), model, tool)
+        credits = L.quote_for(L.ledger_rows(run), model, tool, tool_input.get("prompt"))
 
     row = {
         "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
@@ -46,6 +53,9 @@ def main():
         "urls": sorted(set(URL_RE.findall(response_text))),
         "quoted_credits": credits,
     }
+    if failed:
+        row["failed"] = True
+        row["error"] = str(data.get("error", ""))[:300]
     with (run / "ledger.jsonl").open("a") as fh:
         fh.write(json.dumps(row) + "\n")
 

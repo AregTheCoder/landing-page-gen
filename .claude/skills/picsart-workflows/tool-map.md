@@ -15,8 +15,8 @@ day, audio off); re-quote before relying on them.
 | Refine with references (i2i) | `picsart_generate` | `gpt-image-2.5-sunburst` | `imageUrls: [<hero or previous step>]` + prompt describing the change | 2 (high) |
 | Targeted edit | `picsart_generate` | `picsart-qwen-image-edit` | `imageUrls: [<input>]`, `prompt` ("remove X", "swap Y", "restyle Z") | 4 |
 | Replace background | `picsart_change_bg` | `recraftv3-replace-bg` | `image`, `prompt` for the new backdrop | 2 |
-| Cutout | `picsart_remove_bg` | `picsart-sod-v8-2` | `image`, `outputFormat: png` | 0 |
-| Upscale / enhance | `picsart_enhance` | `picsart-enhance` (`topaz-upscale-image` for faces) | `image`, `scaleFactor` 2 or 4 | 2 (topaz 3) |
+| Cutout | `picsart_generate` (not `picsart_remove_bg`: it 403s on Drive auto-save like `picsart_enhance`, blind-1-4 2026-09-24) | `picsart-sod-v8-2` as the `model` | `imageUrls: [<step N passed>]`, `saveToDrive: false` | 0 |
+| Upscale / enhance | `picsart_generate` (not `picsart_enhance`: it has no `saveToDrive` and 403s on Drive auto-save, 3 of 3 runs on 2026-09-24) | `picsart-enhance` or `topaz-upscale-image` (faces) as the `model` | `imageUrls: [<step N passed>]`, `saveToDrive: false` | 2 (topaz 3) |
 | Video draft | `picsart_generate` | `seedance-2.0-mini` | `duration` 5, `resolution` 720p, `generateAudio: false`, `async: true` | 10 |
 | Video final (default) | `picsart_generate` | `seedance-2.5` | `duration` 4–30, `resolution` 480p/720p/1080p, `aspectRatio` incl. `adaptive`, `generateAudio: false`, `extra.startFrame` / `extra.endFrame` / `imageUrls` ≤30 | **7 per second at 720p**: 35 (5 s), 70 (10 s), 140 (20 s), 210 (30 s); `endFrame` adds nothing (quoted 2026-09-19); 90 (5 s 1080p) |
 | Video extend | `picsart_generate` | `seedance-2.5-video-extend` (`seedance-2.0-mini-video-extend` as draft) | `videoUrls` (≤10 clips), `prompt`, `duration` 4–30, `resolution`, `aspectRatio: adaptive`, `generateAudio: false` | 25 (5 s 720p), 75 (15 s 720p); mini 10 (5 s 720p) |
@@ -25,6 +25,7 @@ day, audio off); re-quote before relying on them.
 | Reframe / describe video | Media Tools `picsart_media_reframe_video`, `picsart_media_describe_video` | | | not on the paid connector; cost not quoted, check the result |
 | Contact sheet, stills, export | `picsart_media_contact_sheet`, `picsart_media_export`, `picsart_media_probe_media`, `picsart_media_upload` | | | 0 |
 | Composite card: ground, panels, chrome | `lp-compose` (local Pillow) | | `spec` (compose-<slot>.yaml), `--out`; `--describe <family>` lists the panels and their generate ratios | 0 |
+| Templated callout clip | `lp-compose --timeline` (local: Pillow frames, Chromium WebCodecs VP9, WebM) | | `motion-<slot>.yaml` (the brief writes it), `--image <panel>=<path>`, `--out`, `--poster`; `--describe-timelines` lists the presets | 0 |
 | Crop to exact slot size | `lp-inject` (local Pillow) | | | 0 |
 
 Preflight for the editing models takes `params.imageUrls: [<url>]`, not

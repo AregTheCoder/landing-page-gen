@@ -222,6 +222,7 @@ def _composition_prompt():
              "- count (optional, default 1): how many identical copies (three tiles = one entry, count 3).",
              "- state (optional): a map, any of {active: <the row/index the page is about>, on: true|false, value: <number>}.",
              "- text (optional, <=40 chars): the exact label the element shows; `|`-join the strings when count>1.",
+             f"- tool (optional, tiles and icons): the Picsart tool the glyph shows, one of {', '.join(attrs.CHROME_TOOLS)}.",
              "",
              "The set of kinds you place must equal the cell's `chrome:` bag exactly: every bag kind appears",
              "at least once and you name no other kind, or the whole cell is dropped. Repeats go in `count`,",

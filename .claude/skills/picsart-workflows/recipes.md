@@ -36,6 +36,12 @@ improvement (tighter subject, fuller frame, cleaner light).
 | crop-frame | generate(source) → i2i refine(source) → **compose** |
 | before-after | generate(before) → **edit** (after: enhance/change_bg/remove_bg) → **compose** |
 | cutout-checkerboard | generate → **cutout** (remove_bg) → **compose** |
+| any family, `kind: timeline` (a `> motion: timeline` callout clip) | the family's still steps (no compose) → **motion** (`lp-compose --timeline motion-<slot>.yaml`, 0 cr) |
+
+On an enhancer, upscale or restoration page the before-after's generated
+panel is the AFTER (generate → enhance → compose): lp-compose degrades it
+into the Before (`degrade:` in the plan, the page's fault), so the edit step
+is the finishing enhance.
 
 These are the floor. A slot may plan **more** than its row — a second refine, a
 `background` node to place a cutout, a `variation` node for a hero the reviewer

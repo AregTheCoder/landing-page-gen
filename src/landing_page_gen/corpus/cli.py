@@ -214,6 +214,20 @@ def main(argv=None) -> int:
     gr.add_argument("--write-doc", action="store_true", help="also render the readable rules")
     gr.add_argument("--doc", type=Path, default=grammar.DOC)
 
+    ro = sub.add_parser("roles", help="Give every labelled chrome block its role (what it means: tool, attribution, state-label, spec...) and set the counts beside each compose zone -> corpus/roles/report.md")
+    ro.add_argument("--attrs", type=Path, default=attrs.ATTRIBUTES_YAML)
+    ro.add_argument("--out", type=Path, default=Path("corpus/roles"))
+
+    rd = sub.add_parser("read", help="Read every distinct local image: its OCR lines (macOS Vision, on-device) and its layout (ground, cards, pictures, what sits in each) -> corpus/readings/<id>.json")
+    rd.add_argument("--limit", type=int)
+    rd.add_argument("--force", action="store_true", help="re-read assets that already have a reading")
+    rd.add_argument("--page", action="append", help="only this page slug (repeatable)")
+
+    sb = sub.add_parser("storyboard", help="Read every local clip as a storyboard: the states it holds still in (keyframes read with OCR + layout) and the transitions between them -> corpus/storyboards/<id>/")
+    sb.add_argument("--limit", type=int)
+    sb.add_argument("--force", action="store_true", help="rebuild clips that already have a storyboard")
+    sb.add_argument("--page", action="append", help="only this page slug (repeatable)")
+
     sub.add_parser("doctor", help="Verify the corpus conforms to the metastructure (snapshots indexed, assets measured, styles synced, labels in-enum, pool well-formed); exits non-zero on an ERROR")
 
     a = p.parse_args(argv)
@@ -239,6 +253,12 @@ def main(argv=None) -> int:
         return cmd_motion(a)
     if a.cmd == "grammar":
         return cmd_grammar(a)
+    if a.cmd == "read":
+        return cmd_read(a)
+    if a.cmd == "storyboard":
+        return cmd_storyboard(a)
+    if a.cmd == "roles":
+        return cmd_roles(a)
     if a.cmd == "sheets":
         return cmd_sheets(a)
     if a.cmd == "labels":
@@ -651,6 +671,31 @@ def cmd_motion(a):
           f"{n} media rows touched -> {a.attrs}")
     for src in stats["skipped"][:10]:
         print(f"  skipped {src}")
+    return 0
+
+
+def cmd_read(a):
+    from . import readings
+    with db.connect(a.db) as con:
+        n = readings.run(con, limit=a.limit, force=a.force, pages=set(a.page or []) or None)
+    print(f"read: {n['read']} read, {n['kept']} kept, of {n['targets']} images -> {readings.STORE}/")
+    return 0
+
+
+def cmd_storyboard(a):
+    from . import storyboard
+    with db.connect(a.db) as con:
+        n = storyboard.run(con, limit=a.limit, force=a.force, pages=set(a.page or []) or None)
+    print(f"storyboard: {n['built']} built, {n['kept']} kept, of {n['targets']} clips -> {storyboard.STORE}/")
+    return 0
+
+
+def cmd_roles(a):
+    from . import roles
+    text, n = roles.report(attrs.load(a.attrs), styles.load())
+    a.out.mkdir(parents=True, exist_ok=True)
+    (a.out / "report.md").write_text(text)
+    print(f"roles: {n['blocks']} blocks on {n['assets']} assets, {n['residual']} residual -> {a.out / 'report.md'}")
     return 0
 
 

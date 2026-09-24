@@ -1,0 +1,376 @@
+# The chrome block bank. A template (compose/families.py) is only a skeleton:
+# its background (ground + fixed surfaces), its picture panels (what the model
+# makes) and its SLOTS, each with a shape and the categories it accepts. Every
+# piece of chrome comes from here. A block fills a slot only when
+#   1. its category is one the slot accepts,
+#   2. it can draw in the slot's shape,
+#   3. its hard context holds on this page (`requires`, checked by code:
+#      bank.claim_problems), and
+#   4. the worker judges that its soft context (`when`) is this section's,
+#      and says why (`because:` in blocks-<slot>.yaml; the reviewer checks it).
+# Every string and value a block shows is about the picture beside it: an
+# example is that picture's own (numbers the worker chose for the ad it made),
+# a list names where that picture goes. Never an example, name or number from
+# anywhere else, and never a block whose text would read the same beside any
+# picture.
+# A block's `evidence` names the corpus chrome it stands for (`lp-corpus roles`
+# counts it); `draw` gives, per shape, the lp-compose kind and the fields it
+# draws, where `$param` is a pick's parameter (`$tool.icon`: the tool's glyph,
+# `$model.glyph`: the maker's own glyph).
+
+# What each category of block MEANS, and the hard checks every block of it
+# makes unless the block names its own `requires`.
+categories:
+  state-label:
+    means: which state of one picture a panel shows (Before / After, Original / Enhanced)
+    requires: [two-states, state]
+  tool:
+    means: the Picsart tool that made the change the composition shows, as its glyph or its own interface
+    requires: [page-tool]
+  attribution:
+    means: the named model generated the picture; a maker's mark or glyph says the same (the four-point sparkle is Gemini's)
+    requires: [generator]
+  comparison:
+    means: two pictures are compared (two states of one picture, or two models' outputs)
+    requires: [two-pictures]
+  spec:
+    means: a measurable property of the output (x2, 4K, 16:9, 50 photos, GIF)
+    requires: [spec]
+  action:
+    means: the step the reader takes (Generate, Download, Add to bag), or the prompt they type
+    requires: [verb]
+  statement:
+    means: one line of the page copy set as a card (a formula, a key figure, the promise the section makes)
+    requires: [copy]
+  derived:
+    means: content lifted from a panel of this composition (its palette, its font pairing)
+    requires: [panel]
+  context:
+    means: the output shown where it is used (a social post, the channels an ad runs on)
+    requires: [copy]
+  editor:
+    means: editor furniture around a subject (a crop frame, a selection box, a batch check, the pointer)
+    requires: []
+  process:
+    means: the tool at work between the reader's picture and the result (a progress ring, a scan line); a clip's state, rarely a still's
+    requires: []
+
+# Slot shapes: what room a slot gives a block.
+#   tile   a box beside the pictures for one glyph, mark, palette or short label
+#   card   a larger box for rows, a paragraph, a form or a post
+#   bar    a wide strip for a row of chips
+#   text   a text area on a template surface
+#   pill   a capsule, at a panel corner (`at` + `corner`) or in a rect
+#   seam   on the line between two pictures or two states
+#   frame  around a subject on a panel
+#   badge  a small mark at a panel corner
+#   panel  a control panel laid over a picture
+shapes: [tile, card, bar, text, pill, seam, frame, badge, panel]
+
+blocks:
+  # --- state-label -----------------------------------------------------------
+  state-pill:
+    category: state-label
+    means: this panel is the Before (or the After) of the same picture
+    when: the section shows one picture before and after the page's tool (enhance, upscale, restore, change the background)
+    params:
+      text: {from: state, note: "Before / After by the slot's state, or the copy's own pair (Original / Enhanced)"}
+    draw: {pill: {kind: pill, text: $text}}
+    evidence: {kinds: [pill, chip], text: '^(before|after|original|enhanced|old|new)\b'}
+
+  # --- tool ------------------------------------------------------------------
+  tool-tile:
+    category: tool
+    means: the Picsart tool that made the change, its glyph on a tile
+    when: the section shows this tool's result (the page is the tool's page, or the section copy names it)
+    params:
+      tool: {from: tools}
+    draw: {tile: {kind: tile, icon: $tool.icon, tool: $tool}}
+    evidence: {kinds: [tile], role: tool}
+  tool-icon:
+    category: tool
+    means: the Picsart tool, as a bare outline glyph on the ground
+    when: as tool-tile, on a layout that marks the tool without a tile (crop and resize cards)
+    params:
+      tool: {from: tools}
+    draw: {tile: {kind: icon, icon: $tool.icon, tool: $tool}}
+    evidence: {kinds: [tile], role: tool}
+  tool-disc:
+    category: tool
+    means: the Picsart tool, its glyph on a round badge set on the seam of two cards
+    when: the section shows a tool turning one picture into the other (crop, resize)
+    params:
+      tool: {from: tools}
+    draw:
+      seam: {kind: crop-badge, icon: $tool.icon, tool: $tool}
+      badge: {kind: crop-badge, icon: $tool.icon, tool: $tool}
+    evidence: {kinds: [badge, tile], role: tool}
+  tool-pill:
+    category: tool
+    means: the tool named in its own round badge with a label, the tool's page hero mark
+    when: a hero card of a single tool's page (HSL, filters); the name is the tool's, from the copy
+    params:
+      tool: {from: tools}
+      text: {from: copy}
+    requires: [page-tool, copy]
+    draw: {tile: {kind: tool-pill, icon: $tool.icon, tool: $tool, text: $text}}
+    evidence: {kinds: [adjust-panel, tile], role: tool}
+  adjust-panel:
+    category: tool
+    means: the tool's own adjustment panel (title, chips, sliders) over the picture it adjusted
+    when: the page is a colour or adjustment tool (HSL, curves, face editor) and the copy names its controls
+    params:
+      title: {from: copy}
+      sliders: {from: copy, note: "[[name, value], ...]: control names from the copy, the values this picture's adjustment used"}
+      chips: {from: example, default: 8}
+      active: {from: example, default: 1}
+    requires: [copy]
+    draw: {panel: {kind: adjust-panel, title: $title, sliders: $sliders, chips: $chips, active: $active}}
+    evidence: {kinds: [adjust-panel, adjust-slider]}
+  calculator:
+    category: tool
+    means: the page's calculator, its inputs as the page names them and the result an example computes
+    when: "the page is a calculator and the picture is what it calculates (the ad whose returns it shows): the fields are its inputs as the page names them, the values that picture's own worked example, numbers you choose and compute, never a stock or remembered example"
+    params:
+      fields: {from: copy, note: "[[label, value], ...]: each input's label from the page copy and your picture's own example value"}
+      result: {from: copy, note: "[label, value]: the result line's label from the page copy and the value computed from your fields"}
+    requires: [page-tool, copy]
+    draw: {card: {kind: form-card, tool: calculator, fields: $fields, result: $result}}
+    evidence: {kinds: [mockup-card], text: 'calculat|your .* is'}
+
+  # --- attribution -----------------------------------------------------------
+  generator-mark:
+    category: attribution
+    means: the model that generated the picture, its maker's mark on a tile
+    when: the section presents the picture as a model's output, or the layout's column carries the maker mark (model pages, generator pages, the Recraft and Gemini cards)
+    params:
+      model: {from: generator}
+    draw: {tile: {kind: mark-tile, model: $model}}
+    evidence: {kinds: [model-logo, tile], role: attribution}
+  maker-glyph:
+    category: attribution
+    means: the maker's own glyph on a tile; the four-point sparkle is Gemini's, and says the picture is a Gemini model's
+    when: only when the picture is generated on a Gemini model (Nano Banana, Imagen); otherwise use generator-mark
+    params:
+      model: {from: generator}
+    draw: {tile: {kind: tile, icon: $model.glyph}}
+    evidence: {kinds: [tile, model-logo], role: attribution}
+  model-picker:
+    category: attribution
+    means: this model was chosen among its peers; the picture is the ticked model's output
+    when: the section is about choosing a model (model pages, "pick the model" copy)
+    params:
+      active: {from: generator}
+      rows: {from: catalogue, note: "the other rows: same-kind models from other makers, filled from the catalogue"}
+    draw: {card: {kind: list-panel, active_text: $active, rows_text: $rows, rows: 4, active: 1}}
+    evidence: {kinds: [option-list, model-logo], role: attribution}
+  model-pill:
+    category: attribution
+    means: the model's name on a capsule over or under its output
+    when: two models' outputs side by side (compare pages), each pill naming its side's model
+    params:
+      text: {from: generator}
+    draw: {pill: {kind: pill, text: $text}}
+    evidence: {kinds: [pill, chip], role: attribution}
+  generator-toolbar:
+    category: attribution
+    means: the generator's own toolbar, the model and the settings the picture was made with
+    when: a model or generator page showing the prompt the picture came from
+    params:
+      model: {from: generator}
+      ratio: {from: options, default: "4:3"}
+      count: {from: options, default: "1 image"}
+      quality: {from: options, default: high}
+    requires: [generator, options]
+    draw:
+      bar:
+        kind: chip-bar
+        group: false
+        items:
+          - {text: $model, mark: true, caret: true}
+          - {text: $ratio, caret: true}
+          - {text: $count, caret: true}
+          - {text: $quality, caret: true}
+          - {text: Enrich, accent: true}
+    evidence: {kinds: [chip, dropdown], role: attribution}
+
+  # --- comparison ------------------------------------------------------------
+  vs-badge:
+    category: comparison
+    means: the two pictures are compared, one model (or style) against the other
+    when: two outputs of one prompt side by side (compare-models pages)
+    draw: {seam: {kind: round-badge, text: VS}}
+    evidence: {kinds: [vs-badge]}
+  compare-handle:
+    category: comparison
+    means: one picture, degraded left of the divider and clean right of it; drag to compare
+    when: an enhancer, upscaler or restorer shows its result on one picture
+    requires: [two-states]
+    draw: {seam: {kind: compare-handle}}
+    evidence: {kinds: [compare-handle]}
+
+  # --- spec ------------------------------------------------------------------
+  spec-label:
+    category: spec
+    means: a measurable property of the output on a tile (a ratio, a resolution, a format)
+    when: the copy promises that property (4K, x2, 16:9, GIF), or the page's tool always delivers it
+    params:
+      text: {from: copy}
+    draw: {tile: {kind: label, text: $text}}
+    evidence: {kinds: [size-label, chip], role: spec}
+  spec-pill:
+    category: spec
+    means: a measurable property on a capsule (50 photos, GIF, 4K)
+    when: as spec-label, set over a picture's corner
+    params:
+      text: {from: copy}
+    draw: {pill: {kind: pill, text: $text}}
+    evidence: {kinds: [pill, chip], role: spec}
+  options-bar:
+    category: spec
+    means: the settings the generator offers, the one it used highlighted
+    when: a model page showing what the model can be set to (quality, ratios)
+    params:
+      items: {from: options, note: "[{text, active?}, ...]: the model's own options"}
+    requires: [options]
+    draw: {bar: {kind: chip-bar, items: $items}}
+    evidence: {kinds: [chip, tab-row, dropdown], role: spec}
+
+  # --- action ----------------------------------------------------------------
+  cta-button:
+    category: action
+    means: the step the reader takes, as the tool's own button
+    when: the section asks the reader to act and the copy (or the tool's UI) says these words (Generate, Add to bag, Download)
+    params:
+      text: {from: copy}
+    draw: {pill: {kind: pill, text: $text}}
+    evidence: {kinds: [button], role: action}
+  prompt-line:
+    category: action
+    means: the prompt that made the picture, typed into the tool's prompt box
+    when: "a generator page: the picture beside the words that made it"
+    params:
+      text: {from: prompt}
+    requires: [prompt]
+    draw: {text: {kind: text, text: $text, wrap: true}}
+    evidence: {kinds: [prompt-panel]}
+  prompt-card:
+    category: action
+    means: the prompt that made the picture, on its own dark card fading to an ellipsis
+    when: "a model or generator page: the picture beside the words that made it"
+    params:
+      text: {from: prompt}
+    requires: [prompt]
+    draw: {card: {kind: prompt-text, text: $text}}
+    evidence: {kinds: [prompt-panel]}
+
+  # --- statement -------------------------------------------------------------
+  statement:
+    category: statement
+    means: the section's point in its own words, set large on a card (a formula, a key figure, a promise)
+    when: the section copy has one short line that IS its point (a formula, a figure, a promise) and the composition puts it to work on the picture (a formula beside the calculation of this picture's numbers); never a paraphrase, never a line that would read the same beside any picture
+    params:
+      text: {from: copy}
+    draw:
+      card: {kind: statement, text: $text}
+      tile: {kind: statement, text: $text}
+      text: {kind: text, text: $text, wrap: true}
+    evidence: {kinds: [mockup-card, tile], text: '[÷×=]|^\d[\d.,%]*$'}
+
+  # --- derived ---------------------------------------------------------------
+  palette:
+    category: derived
+    means: the picture's own colours, lifted from its panel
+    when: the section is about design, branding or colour (brand kits, posters, cards, templates), where a palette is part of the work
+    params:
+      colours: {from: panel, note: "{from: <panel>, n: 3}; hex colours from `> chrome:` override"}
+    draw:
+      tile: {kind: swatch, colours: $colours}
+      bar: {kind: swatch, colours: $colours}
+    evidence: {kinds: [swatch]}
+  font-pair:
+    category: derived
+    means: the fonts of the design, as an editor's font-pairing tile
+    when: the picture is a design with typography (a card, a poster, a logo, a template)
+    requires: []
+    draw: {tile: {kind: type-tile}}
+    evidence: {kinds: [tile], role: derived}
+
+  # --- context ---------------------------------------------------------------
+  profile-card:
+    category: context
+    means: the output in use, posted as a profile or social post
+    when: the output is a picture people post (a background removed for a profile, an avatar, a social template) and the card shows this picture posted; name and caption from the copy
+    params:
+      name: {from: copy}
+      caption: {from: copy}
+      image: {from: panel}
+    draw: {card: {kind: profile-card, name: $name, caption: $caption, image: $image}}
+    evidence: {kinds: [mockup-card], text: '^@|followers|likes|posted'}
+  channel-list:
+    category: context
+    means: where the output goes, the platforms or channels the copy names, one per row
+    when: the copy names the places the output is used (ad platforms, social networks, stores) and the picture is that output (an ad creative on an ads page, a post on a social page); names only, no logos
+    params:
+      rows: {from: copy, note: "[name, ...]: the places the copy names, where your picture runs"}
+    draw: {card: {kind: list-card, rows: $rows}}
+    evidence: {kinds: [mockup-card, option-list], text: 'ads|instagram|tiktok|facebook|youtube'}
+
+  upload-tile:
+    category: action
+    means: the reader's first step, bringing a picture (or clip) into the tool
+    when: the section shows the tool from the start, the picture going in before the result comes out (a clip's opening state, a how-it-works step)
+    requires: []
+    draw: {tile: {kind: tile, icon: upload}}
+    evidence: {text: '^upload'}
+  track-list:
+    category: tool
+    means: the tool's own picker, the rows the reader chooses from (the tracks of a genre, the voices, the fonts)
+    when: the page's tool offers a catalogue the reader picks from and the section shows the picking (add music to a video, a voice or font picker)
+    params:
+      rows: {from: copy, note: "[[title, line], ...]: the choices as the tool names them; your own picks for the picture you made"}
+    requires: [page-tool, copy]
+    draw: {card: {kind: track-list, rows: $rows}}
+    evidence: {kinds: [option-list], text: 'hip hop|dance|chill|upbeat|track|song'}
+  player-bar:
+    category: context
+    means: the output playing where it is used, the track under the picture it scores
+    when: the output is a clip with sound (music added, a voice-over) and the section shows it playing
+    requires: []
+    draw: {bar: {kind: player-bar}}
+    evidence: {kinds: [waveform]}
+  progress-ring:
+    category: process
+    means: the tool at work, between the reader's picture and the result
+    when: a clip's state between the input and the output (a Generate press and the results arriving)
+    draw: {tile: {kind: icon, icon: spinner}}
+    evidence: {kinds: [spinner]}
+
+  # --- editor ----------------------------------------------------------------
+  crop-brackets:
+    category: editor
+    means: the crop or resize frame on the source picture, optionally with the size it makes
+    when: the page crops or resizes; a label is a size the copy (or the tool) promises
+    params:
+      label: {from: copy, optional: true}
+    requires: [spec]
+    draw: {frame: {kind: brackets, label: $label}}
+    evidence: {kinds: [brackets, crop-grid]}
+  transform-box:
+    category: editor
+    means: an element selected in the editor, ready to move, turn or resize
+    when: the page edits, places or arranges elements (sticker, meme, card and background editors)
+    draw: {frame: {kind: selection-frame}}
+    evidence: {kinds: [selection-handles]}
+  batch-check:
+    category: editor
+    means: a picture ticked in a batch, one of several processed at once
+    when: the page processes several pictures at once (batch editors, sticker packs, background removal in bulk)
+    draw: {badge: {kind: badge}}
+    evidence: {kinds: [badge], role: context}
+  pointer:
+    category: editor
+    means: the reader's pointer at the control it is about to use
+    when: a clip's state where the reader clicks or drags (a button about to be pressed, a handle being moved)
+    draw: {badge: {kind: icon, icon: cursor}, tile: {kind: icon, icon: cursor}}
+    evidence: {kinds: [cursor]}

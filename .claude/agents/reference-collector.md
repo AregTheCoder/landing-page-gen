@@ -2,7 +2,8 @@
 name: reference-collector
 description: Collects external reference photographs (Pexels and Unsplash) that match one Picsart style family's photography, verifies each on its page, names the creators, and writes corpus/references/<family>.yaml. Spawned by /collect-references; makes no paid calls and downloads nothing.
 tools: Read, Glob, Grep, Bash, Write, WebSearch, WebFetch
-model: opus
+model: claude-opus-5-5
+effort: medium
 maxTurns: 60
 ---
 

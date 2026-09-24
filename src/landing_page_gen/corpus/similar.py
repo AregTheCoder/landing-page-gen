@@ -130,15 +130,26 @@ def find_similar(con, type_, query, k=3, exclude=None, need_media=True, style=No
     if fam or attrs or kind:
         scored = sorted(enumerate(rows), key=lambda t: (-_row_score(con, t[1]["id"], fam, attrs, kind), t[0]))
         rows = [r for _, r in scored]
-    out, seen = [], set()
+    out, seen, shown = [], set(), set()
     for r in rows:
         if r["slug"] == exclude or r["slug"] in seen:
             continue
+        lead = _lead_src(con, r["id"])
+        if lead and lead in shown:
+            continue  # sibling pages share one CMS asset: the same picture twice is one example, not two
         seen.add(r["slug"])
+        shown.add(lead)
         out.append(r)
         if len(out) == k:
             break
     return out
+
+
+def _lead_src(con, section_id):
+    """The src of a section's first generated-role picture (what its example shows), or None."""
+    row = con.execute(f"SELECT src FROM media WHERE section_id = ? AND role IN ({','.join('?' * len(db.GENERATED_ROLES))}) "
+                      "ORDER BY id LIMIT 1", (section_id, *db.GENERATED_ROLES)).fetchone()
+    return row["src"] if row else None
 
 
 EXAMPLE_MAX_PX = 480  # long side of an example image: the look reads at this size, tokens do not
@@ -160,6 +171,9 @@ def to_png(path, max_px=EXAMPLE_MAX_PX):
     return png
 
 
+RANGE_CHUNK = 8 << 20  # bytes per answer to an open-ended range request
+
+
 def _ranged_route(path):
     """Serve a local clip to Chromium with byte ranges. `route.fulfill(path=)`
     answers every request with the whole file and no Accept-Ranges, which makes
@@ -172,7 +186,8 @@ def _ranged_route(path):
         m = re.match(r"bytes=(\d+)-(\d*)", route.request.headers.get("range", ""))
         if m:
             a = int(m.group(1))
-            b = int(m.group(2)) if m.group(2) else len(data) - 1
+            # an open range is answered in chunks: one 188 MB body (ad-maker's clip) closed the page
+            b = int(m.group(2)) if m.group(2) else min(len(data), a + RANGE_CHUNK) - 1
             route.fulfill(status=206, body=data[a:b + 1], headers={
                 "Content-Type": mime, "Accept-Ranges": "bytes",
                 "Content-Range": f"bytes {a}-{b}/{len(data)}", "Content-Length": str(b - a + 1)})

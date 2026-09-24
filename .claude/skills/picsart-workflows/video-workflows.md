@@ -9,6 +9,35 @@ two video nodes below and every rule in this file. The Flow gallery's video
 templates (a photo-to-motion pass fanned out into relit variants) fit only
 when the slot is a video; see `flow-boards.md` for the template test.
 
+## Timeline: templated callouts (0 credits)
+
+Many callout clips are not generated motion at all: a composition changes
+state on a static camera (ai-image-enhancer S07, S10, S11 and S13, and their
+twins on --unblur, --unpixelate and video-enhancer). The skeleton's
+`> motion:` line says which kind a slot is: `timeline <preset>` for a
+`ui-demo` or `transition` original at 1:1 on a static camera, `generative`
+for everything else (the recipe below). The poster frame hides a callout's
+chrome, so the preset is often a TODO the manager resolves from the
+original's strip.
+
+| preset | original | length | states |
+|---|---|---|---|
+| `enhance-reveal` | S10 | 4 s | the flawed card; a compare-handle sweep reveals the fix; the Before goes small top left, the After tall right, a checklist ticks in |
+| `product-bento` | S11 | 7 s | a soft product sharpens under the handle; a shop card (name, price, button); the bento with the page's tool tiles |
+| `prompt-to-result` | S13 | 10 s | the result full bleed (a still, or a clip); the prompt types on black; the prompt column with the tool mark (the voice line only when the copy offers audio), the result with a play mark |
+| `brand-to-mockup` | S07 | 6 s | the photo card; the caption types in a selection box and the title sets; the bento with the tool tile and the design applied as a mockup |
+
+The board is `kind: timeline`: the poster family's still recipe, then one
+`node: motion` on `tool: lp-compose` with `timeline: motion-<slot>.yaml`
+(the brief writes the spec; `lp-flow check` enforces both). The worker
+generates only the panels the brief's `## Timeline` table names, then runs
+`lp-compose --timeline`. Every block keeps its category (compose/assets/blocks.yaml):
+the tool tiles show the page's own tools, a checklist row or product string is
+page copy (`> chrome:`), and the Before is the After degraded. The clip is
+judged on its strip like any other (length, pace, loop). A `prompt-to-result`
+whose result is a real clip runs the recipe below for that clip first, and
+the timeline then embeds it.
+
 ## Recipe: still to motion
 
 1. image recipe → accepted still. This is also the `poster:` in `result.md`.
@@ -77,8 +106,10 @@ instead of shipping a shorter clip silently.
   size. Do not judge from the URL. The reviewer reads the same strip.
 - Never run two paid video steps without a gate in between.
 - Text: only the brief's `## Text in image` strings, quoted verbatim and
-  kept static (no animated typography); every prompt ends with ", no other
-  text, no logos or watermarks". Check the words on the strip.
+  kept static (no animated typography in a generated clip); every prompt ends
+  with ", no other text, no logos or watermarks". Check the words on the
+  strip. Typing and ticking text exists only in a timeline, and only with the
+  exact `> chrome:` strings, drawn by lp-compose.
 - `result.md` for a video slot carries `poster:` (the accepted still) and
   `duration_s:` (the measured length) beside `chosen:`; `lp-inject` ships the
   poster and sets `muted autoplay loop playsinline`.

@@ -20,9 +20,10 @@ from .families import EDITOR_CHECKER
 
 LAYERS = {"ground": 0, "card": 10, "panel": 20, "chrome": 30, "overlay": 40, "top": 50}
 CHECKER_CELL = 100
-FONT_PX = {"pill": 52, "button": 56, "label": 110, "brackets": 110, "headline": 96,
+FONT_PX = {"pill": 52, "pill-lg": 88, "button": 56, "label": 110, "brackets": 110, "headline": 96,
            "panel-title": 44, "panel-label": 34, "tool-pill": 64, "list-row": 48,
-           "type-specimen": 112, "prompt": 72, "prompt-md": 62, "prompt-sm": 52, "chip": 44, "chip-lg": 46}  # at REF
+           "type-specimen": 112, "prompt": 72, "prompt-md": 62, "prompt-sm": 52, "chip": 44, "chip-lg": 46,
+           "statement": 48, "list-card": 50, "form-label": 34, "form-value": 34, "form-head": 62, "form-result": 72}  # at REF
 
 
 @dataclass
@@ -32,9 +33,11 @@ class Ctx:
     s: float
     r: int
     panels: dict
+    type: dict = None  # the item's measured type, {font key: {px (REF), weight}}: an induced slot's look
 
     def font(self, key, weight=600):
-        return draw.font(FONT_PX[key] * self.s, weight)
+        over = (self.type or {}).get(key) or {}
+        return draw.font(over.get("px", FONT_PX[key]) * self.s, over.get("weight", weight))
 
 
 @dataclass(frozen=True)
@@ -79,8 +82,10 @@ def _icon(canvas, it, ctx):
 def _pill(canvas, it, ctx):
     if "rect" in it:
         return draw.pill_in(canvas, it["rect"], it["text"], it["style"], ctx.font("button"))
+    px, py = it.get("pad", (40, 22))
     return draw.pill_at(canvas, ctx.panels[it["at"]]["rect"], it["corner"], it["text"], it["style"],
-                        ctx.font("pill"), pad=(round(40 * ctx.s), round(22 * ctx.s)), inset=round(40 * ctx.s))
+                        ctx.font(it.get("font", "pill")), pad=(round(px * ctx.s), round(py * ctx.s)),
+                        inset=round(it.get("inset", 40) * ctx.s))
 
 
 def _label(canvas, it, ctx):
@@ -213,12 +218,15 @@ def _prompt_text(canvas, it, ctx):
     """The model pages' prompt card: the prompt that made the picture, fading
     to an ellipsis (draw.prompt_card)."""
     return draw.prompt_card(canvas, it["rect"], it.get("text", ""), ctx.font(it.get("font", "prompt"), 500),
-                            ctx.r, round(it.get("pad", 56) * ctx.s), max_lines=it.get("max_lines"))
+                            ctx.r, round(it.get("pad", 56) * ctx.s), max_lines=it.get("max_lines"),
+                            fill=_colour(it, "fill", (30, 30, 32)), colour=_colour(it) if it.get("colour") else None)
 
 
 def _mark_tile(canvas, it, ctx):
-    """A tile with the maker's mark of `model` (a model name or maker key)."""
-    return draw.mark_tile(canvas, it["rect"], models.mark(it.get("model")), ctx.r, scale=it.get("scale", 0.46))
+    """A tile with the maker's mark of `model` (a model name or maker key), on
+    the slot's `fill` when it has one."""
+    fill = tuple(it["fill"]) + (255,) if it.get("fill") else (30, 30, 32, 255)
+    return draw.mark_tile(canvas, it["rect"], models.mark(it.get("model")), ctx.r, fill=fill, scale=it.get("scale", 0.46))
 
 
 def _chip_bar(canvas, it, ctx):
@@ -226,7 +234,73 @@ def _chip_bar(canvas, it, ctx):
     keys = [i["text"] if i.get("mark") is True else i.get("mark") for i in it.get("items") or [] if i.get("mark")]
     marks = {k: m for k in keys if k and (m := models.mark(k)) is not None}
     return draw.chip_bar(canvas, it["rect"], it.get("items") or [], ctx.font(it.get("font", "chip"), 500), ctx.r,
-                         group=it.get("group", True), marks=marks)
+                         group=it.get("group", True), marks=marks, palette=it.get("palette"))
+
+
+def _compare_handle(canvas, it, ctx):
+    """The before/after divider of a compare-slider card: a white line down the
+    panel at `split` and a round knob with two arrows at its middle (S14 of
+    ai-image-enhancer, 47 corpus assets)."""
+    x0, y0, x1, y1 = it["rect"] if "rect" in it else ctx.panels[it["at"]]["rect"]  # a rect: the line down its middle
+    x = x0 + (x1 - x0) * it.get("split", 0.5)
+    return draw.compare_handle(canvas, (x, y0, x, y1), round(it.get("knob", 150) * ctx.s),
+                               max(1, round(it.get("stroke", 8) * ctx.s)))
+
+
+def _colour(it, key="colour", default=(255, 255, 255)):
+    c = tuple(it.get(key) or default)
+    return c + (255,) if len(c) == 3 else c
+
+
+def _check_row(canvas, it, ctx):
+    """A checklist line, "Brightness improvement ✓" (S10 of ai-image-enhancer):
+    what the tool did, from the page copy. `tick` 0..1 draws the check."""
+    return draw.check_row(canvas, it["rect"], it.get("text", ""), ctx.font(it.get("font", "chip")), _colour(it),
+                          it.get("tick", 1.0))
+
+
+def _waveform(canvas, it, ctx):
+    return draw.waveform(canvas, it["rect"], _colour(it), it.get("bars", 40))
+
+
+def _play_button(canvas, it, ctx):
+    return draw.play_button(canvas, it["rect"], _colour(it))
+
+
+def _track_list(canvas, it, ctx):
+    """A picker's rows: a play glyph, a title and a line under it (the tool's own list)."""
+    return draw.track_list(canvas, it["rect"], it.get("rows") or [], ctx.font(it.get("font", "list-row"), 700),
+                           ctx.font("chip", 500), ctx.r, row_fill=_colour(it, "fill", (245, 245, 247)),
+                           ink=_colour(it, "colour", (20, 20, 22)))
+
+
+def _player_bar(canvas, it, ctx):
+    """The output playing: a pause disc and its waveform on a bar."""
+    return draw.player_bar(canvas, it["rect"], ctx.r, fill=_colour(it, "fill", (34, 34, 36)), colour=_colour(it))
+
+
+def _card_fill(it):
+    return tuple(it.get("fill") or (0, 0, 0))[:3] + (255,)
+
+
+def _statement(canvas, it, ctx):
+    """A line of the copy set large on a dark card."""
+    return draw.statement(canvas, it["rect"], it.get("text", ""), ctx.font(it.get("font", "statement"), 700), ctx.r,
+                          round(it.get("pad", 56) * ctx.s), fill=_card_fill(it), colour=_colour(it))
+
+
+def _list_card(canvas, it, ctx):
+    """Named rows on a dark card (the channels an output runs on)."""
+    return draw.list_card(canvas, it["rect"], it.get("rows") or [], ctx.font(it.get("font", "list-card"), 700), ctx.r,
+                          round(it.get("pad", 56) * ctx.s), fill=_card_fill(it), colour=_colour(it))
+
+
+def _form_card(canvas, it, ctx):
+    """The page's calculator: labelled fields with example values, the result."""
+    fonts = (ctx.font("form-label", 500), ctx.font("form-value", 500), ctx.font("form-head", 600),
+             ctx.font("form-result", 600))
+    return draw.form_card(canvas, it["rect"], it.get("fields") or [], it.get("result"), fonts, ctx.r,
+                          round(it.get("pad", 56) * ctx.s), fill=_card_fill(it), colour=_colour(it))
 
 
 # Hybrid chrome — kinds too organic or bespoke to template, so a plan item may
@@ -272,4 +346,13 @@ KINDS = {
     "prompt-text": Kind(_prompt_text, text=True),
     "mark-tile": Kind(_mark_tile),
     "chip-bar": Kind(_chip_bar, text=True),
+    "compare-handle": Kind(_compare_handle, layer="overlay", frames=True),
+    "check-row": Kind(_check_row, text=True),
+    "waveform": Kind(_waveform),
+    "track-list": Kind(_track_list, text=True),
+    "player-bar": Kind(_player_bar),
+    "play-button": Kind(_play_button, layer="overlay"),
+    "statement": Kind(_statement, text=True),
+    "list-card": Kind(_list_card, text=True),
+    "form-card": Kind(_form_card, text=True),
 }

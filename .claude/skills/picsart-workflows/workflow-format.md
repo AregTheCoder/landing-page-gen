@@ -109,21 +109,23 @@ A video node carries the video non-negotiables explicitly:
 
 A compose node (composite recipe) is local and free; it is fed by every
 panel node it places. The manager writes the composition plan
-(`composition-<slot>.yaml`: panels + chrome items); the worker turns it into
-the spec with `spec-from-plan` (adding only panel images) and renders that
-spec — it never hand-authors the item list:
+(`composition-<slot>.yaml`: the layout's skeleton, its panels and its slots
+with their candidate blocks); the worker picks a block per slot in
+`blocks-<slot>.yaml` (`blocks.md`), turns plan + picks into the spec with
+`spec-from-plan --blocks` (adding only panel images) and renders that spec —
+it never hand-authors the item list:
 
 ```yaml
   - id: 3
     node: compose
     in: [1, 2]
     tool: lp-compose
-    # first: uv run lp-compose --spec-from-plan composition-S07-m1.yaml \
+    # first: uv run lp-compose --spec-from-plan composition-S07-m1.yaml --blocks blocks-S07-m1.yaml \
     #          --image photo=steps/S07-m1-1-1.png --image thumb-a=steps/S07-m1-2-1.png \
-    #          --out compose-S07-m1.yaml   (adds only image paths; items come from the plan)
+    #          --out compose-S07-m1.yaml   (adds only image paths; items are the picked blocks)
     params: {spec: compose-S07-m1.yaml, out: steps/S07-m1-3-1.png}
     quoted_credits: 0
-    gate: "every plan item present, placed and labelled as the plan says; panels unstretched; subject inside each panel; chrome legible at 480 px; no string twice"
+    gate: "every picked block present, in its slot, saying what the pick gave it; panels unstretched; subject inside each panel; chrome legible at 480 px; no string twice"
     status: pending
     outputs: []              # the local path when done
     passed: null

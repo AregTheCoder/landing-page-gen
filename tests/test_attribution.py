@@ -42,3 +42,13 @@ def test_lp_flow_check_holds_every_generative_node_upstream_of_a_panel_to_its_mo
     assert board.attribution_problems(whole, {"*": {"model": "recraftv4", "because": "page"}})
     cannot = board.attribution_problems(ok, {"*": {"model": "no: midjourney is not on the connector", "because": "page"}})
     assert cannot and "cannot be generated truthfully" in cannot[0]
+
+
+def test_a_prompt_cards_inputs_are_not_the_models_output():
+    from landing_page_gen.compose import plan
+    card = {"family": "prompt-card", "preset": "m-01ff9e", "facts": {"page": "ai-models--sora-2"},
+            "panels": [{"panel": "photo"}, {"panel": "photo-2"}, {"panel": "photo-3"}]}
+    assert plan.claimed_panels(card) == ["photo-3"]  # the result; the reference clip and photo are the user's
+    assert set(plan.made_by(card, None)) == {"photo-3"}
+    other = {"family": "dark-composite", "panels": [{"panel": "photo"}, {"panel": "photo-2"}]}
+    assert plan.claimed_panels(other) == ["photo", "photo-2"]

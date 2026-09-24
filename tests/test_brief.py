@@ -16,6 +16,15 @@ from landing_page_gen.flow import board
 BRIEF_PY = Path(__file__).resolve().parents[1] / ".claude" / "skills" / "build-landing-page" / "brief.py"
 
 
+@pytest.fixture(autouse=True)
+def no_mode_evidence(request, monkeypatch):
+    """The fixtures' sections are not about generation modes: brief them with
+    no corpus evidence (every mode allowed) unless a test asks for the corpus."""
+    if "corpus_modes" not in request.keywords:
+        from landing_page_gen.corpus import genmode
+        monkeypatch.setattr(genmode, "load", lambda *a, **k: {})
+
+
 def load_brief():
     sys.path.insert(0, str(BRIEF_PY.parent))
     spec = importlib.util.spec_from_file_location("brief_mod", BRIEF_PY)
@@ -205,7 +214,7 @@ def test_composition_section_lists_panels_and_keep_clear(tmp_path, brief):
     assert brief.main([str(run), "S04"]) == 0
     text = (run / "sections" / "S04" / "brief.md").read_text()
     assert "## Panels and keep-clear" in text
-    assert "| photo | 4:3 |" in text, "the real panel and its generate ratio, not '1 panel'"
+    assert "| photo | scene | 4:3 |" in text, "the real panel, what it holds and its generate ratio, not '1 panel'"
     kc = text.split("## Panels and keep-clear")[1]
     assert "panel [0.425" in kc, "the adjust panel's keep-clear region, computed not guessed"
     assert "(see below)" in text.split("## Panels")[0], "the slots table points at the panel breakdown"
@@ -226,20 +235,28 @@ def _with_chrome(line, text="none"):
                             f"> text: {text}\n> device: none: adjustment panel over the photo\n> chrome: {line}")
 
 
-def test_chrome_line_labels_every_plan(tmp_path, brief):
+def test_the_plan_is_a_skeleton_and_the_brief_lists_each_slots_candidates(tmp_path, brief):
     import yaml as _yaml
+
+    from landing_page_gen.compose import plan
     run = build_run(tmp_path)
     (run / "skeleton.md").write_text(_with_chrome('"Curves" | "Shadows" | "Midtones" | "Highlights"'))
     assert brief.main([str(run), "S04"]) == 0
     cp = _yaml.safe_load((run / "sections" / "S04" / "composition-S04-m1.yaml").read_text())
-    items = {it["id"]: it for it in cp["items"]}
-    assert items["panel"]["title"] == "Curves" and "tool-pill" not in items, "a callout is a card: the panel alone"
-    assert [s[0] for s in items["panel"]["sliders"]] == ["Shadows", "Midtones", "Highlights"]
+    assert "items" not in cp and [s["id"] for s in cp["slots"]] == ["panel"], "a callout is a card: the panel slot alone"
+    assert [c["block"] for c in cp["slots"][0]["candidates"]] == ["adjust-panel"]
     assert cp["derived_from"]["chrome"].startswith('"Curves"'), "the skeleton line is recorded, so a stale plan shows"
+    text = (run / "sections" / "S04" / "brief.md").read_text()
+    blocks = text.split("## Blocks")[1]
+    assert "slot **panel** (panel; takes tool; required)" in blocks and "**adjust-panel**" in blocks
+    assert "--check-blocks composition-<slot>.yaml blocks-<slot>.yaml" in blocks
+    picks = {"fills": [{"slot": "panel", "block": "adjust-panel", "title": "Curves", "because": "the copy's tool",
+                        "sliders": [["Shadows", 5], ["Midtones", 0], ["Highlights", -8]]}]}
+    assert plan.check_blocks(cp, picks) == [], "a `> chrome:` string may be drawn"
 
 
 @pytest.mark.parametrize("line,text,match", [
-    ("TODO the page strings", "none", "no resolved `> chrome:` line yet; panel-overlay default draws: tool name"),
+    ("TODO the page strings", "none", "no resolved `> chrome:` line yet: the strings the chrome may say"),
     ('"Curves"', '"Curves"', "on both `> text:` and `> chrome:`"),
 ])
 def test_brief_refuses_an_unresolved_or_doubled_chrome_line(tmp_path, brief, line, text, match):
@@ -256,17 +273,17 @@ def test_a_hand_edited_plan_survives_a_re_run_and_a_changed_line_needs_replan(tm
     assert brief.main([str(run), "S04"]) == 0
     path = run / "sections" / "S04" / "composition-S04-m1.yaml"
     cp = _yaml.safe_load(path.read_text())
-    next(it for it in cp["items"] if it["id"] == "panel")["chips"] = 0  # the manager drops the hue chips for Curves
+    cp["slots"][0]["rect"] = [640, 280, 1450, 880]  # the manager moves the panel off the subject
     path.write_text(_yaml.safe_dump(cp, sort_keys=False))
     assert brief.main([str(run), "S04"]) == 0
-    panel = next(it for it in _yaml.safe_load(path.read_text())["items"] if it["id"] == "panel")
-    assert panel["chips"] == 0, "a re-run keeps the hand-edited plan (it used to rewrite it)"
+    assert _yaml.safe_load(path.read_text())["slots"][0]["rect"] == [640, 280, 1450, 880], \
+        "a re-run keeps the hand-edited plan (it used to rewrite it)"
     (run / "skeleton.md").write_text(_with_chrome('"Levels"'))
     with pytest.raises(SystemExit, match="--replan"):
         brief.main([str(run), "S04"])
     assert brief.main([str(run), "S04", "--replan"]) == 0
-    panel = next(it for it in _yaml.safe_load(path.read_text())["items"] if it["id"] == "panel")
-    assert panel["title"] == "Levels" and panel["chips"] == 8, "--replan rebuilds from the new line"
+    fresh = _yaml.safe_load(path.read_text())
+    assert "rect" not in fresh["slots"][0] and fresh["labels"] == ["Levels"], "--replan rebuilds from the new line"
 
 
 def test_render_size_is_the_display_box_at_the_source_resolution(brief):
@@ -274,6 +291,9 @@ def test_render_size_is_the_display_box_at_the_source_resolution(brief):
     assert brief.render_size({"size": "294x196", "natural": "512x288"}) == "432x288", "object-fit crop keeps the box's shape"
     assert brief.render_size({"size": "480x480", "natural": "320x320"}) == "480x480", "never below the display box"
     assert brief.render_size({"size": "480x480"}) == "480x480"
+    five_four = lambda w, h: abs((w / h) / 1.25 - 1) <= 0.02  # noqa: E731
+    assert brief.render_size({"size": "342x282", "natural": "728x600"}, five_four, [(5, 4)]) == "728x582", \
+        "a 5:4 layout in a 342x282 card composes at 5:4; the page trims the rest"
 
 
 def test_only_generated_stills_get_a_composition_plan(tmp_path, brief):
@@ -307,6 +327,63 @@ def test_preset_falls_to_the_variant_the_slot_size_fits(brief):
     assert "3 panels" in table.split("| S07-m2 |")[1], "the 1:1 slot's stacked-square has before, after, result"
     mixed = brief.composition_section("before-after", "none", sizes=[(r["id"], r["size"]) for r in records])
     assert "Slots S07-m1 (default layout):" in mixed and "Slots S07-m2 (stacked-square layout):" in mixed
-    assert mixed.count("| panel | generate at |") == 2 and "| after |" in mixed.split("S07-m2")[1]
+    assert mixed.count("| panel | holds | generate at |") == 2 and "| after |" in mixed.split("S07-m2")[1]
     same = brief.composition_section("before-after", "none", sizes=[("S07-m1", "720x343"), ("S07-m3", "879x418")])
     assert same == brief.composition_section("before-after", "none", "720x343"), "one preset: the one-table brief, unchanged"
+
+
+def test_one_slot_of_a_section_is_briefed_with_its_own_lines():
+    brief = load_brief()
+    block = ("## S09 tutorial-grid\n\n- t1 h2: Guides\n\n"
+             "```slot\nid: S09-m1\nkind: image\n```\n> annotation: TODO\n> device: TODO none | two-up\n\n"
+             "```slot\nid: S09-m2\nkind: image\n```\n> annotation: a desk\n> device: none: a planning desk\n")
+    got = brief.only_slot(block, "S09-m2")
+    assert "S09-m1" not in got and "- t1 h2: Guides" in got
+    assert brief.directives(got)["device"] == "none: a planning desk"  # not the first slot's TODO
+    with pytest.raises(SystemExit):
+        brief.only_slot(block, "S09-m9")
+
+
+def test_a_family_that_is_never_generated_is_refused_at_the_brief():
+    brief = load_brief()
+    assert brief.never_generated(brief.family_block("editor-canvas")[0])
+    assert brief.never_generated(brief.family_block("model-card")[0])
+    assert not brief.never_generated(brief.family_block("full-bleed")[0])
+
+
+def test_a_blind_block_carries_nothing_read_off_the_original():
+    brief = load_brief()
+    block = ("## S09 tutorial-grid\n\n- t1 h2: Guides\n\n"
+             "```slot\nid: S09-m2\nkind: image\nrole: thumbnail\n```\n"
+             "> annotation: an overhead desk\n> style: full-bleed\n> attrs: ground=photo-full-bleed\n"
+             "> prior: style full-bleed 99 %\n> text: none\n> device: none: a desk\n> chrome: none\n")
+    blind = brief.blind_block(block)
+    assert "desk" not in blind and "attrs" not in blind and "> style" not in blind
+    assert "> prior: style full-bleed 99 %" in blind  # corpus-wide advice is context, not the original
+    got = brief.blind_block(block, {"S09-m2": {"style": "full-bleed", "annotation": "a laptop", "text": "none"}})
+    assert brief.directives(got)["annotation"] == "a laptop" and "desk" not in got
+
+
+def test_a_proposal_whose_value_carries_a_colon_still_reads():
+    brief = load_brief()
+    got = brief.read_proposal("style: full-bleed\ndevice: none: one frame of a clip\nannotation: >-\n  a woman\n  at dusk\ntext: none\n")
+    assert got["device"] == "none: one frame of a clip" and got["annotation"] == "a woman at dusk" and got["text"] == "none"
+    assert brief.read_proposal('style: full-bleed\ndevice: "none: quoted"\n')["device"] == "none: quoted"
+
+
+def test_proposal_brief_names_the_families_with_a_layout_at_the_slot_size():
+    """blind-2-4 proposed mockup-card for a 16:10 card; no mockup-card layout takes it."""
+    brief = load_brief()
+    fit = brief.families_that_fit("800x501")
+    assert "mockup-card" not in fit and "prompt-card" in fit and "full-bleed" in fit
+    assert "mockup-card" in brief.families_that_fit("480x480")
+    assert not {"editor-canvas", "model-card"} & set(fit), "never-generated families are not offered"
+
+
+def test_the_proposal_offers_layouts_by_panels_and_slots_never_by_original():
+    """blind-2: three plans fell back to a default layout that could not show the
+    proposed device; the proposal now picks the layout from this menu."""
+    brief = load_brief()
+    menu = brief.layouts_menu("480x480", ["template-mockup", "full-bleed"])
+    assert "`default`: 1 panel" in menu and "`editor`:" in menu and "full-bleed" not in menu
+    assert "original" not in menu and not re.search(r"\b[0-9a-f]{8}\b", menu), "a layout is described, never its source"

@@ -78,6 +78,8 @@ _VIDEO = frozenset({"video"})
 VIDEO_TAIL = [_VIDEO, _VIDEO]
 VIDEO_DRAFT_HINT = "mini"   # seedance-2.0-mini (and its -video-extend) is the draft tier
 VIDEO_MAX_SECONDS = 30      # Seedance's `duration` ceiling; a longer target goes through extend
+DRAFTED_FAMILIES = ("seedance",)      # models with a mini draft tier; another model's clip has none to draft on
+START_IN_IMAGE_URLS = ("sora-2",)     # models that take the start still in imageUrls, not extra.startFrame
 REF_RE = re.compile(r"^<step (\d+) passed>$")
 
 # Human label for a recipe step-set, so `recipe_row` can render a brief's
@@ -90,10 +92,20 @@ _STEP_LABEL = {
 }
 
 
+# A templated callout clip (`> motion: timeline <preset>`, compose/timeline.py)
+# is the poster family's still steps, then one `motion` node on lp-compose that
+# animates them: no Seedance draft or final unless a panel is a clip, and no
+# separate compose step (the timeline is the composition).
+_MOTION = frozenset({"motion"})
+TIMELINE_TAIL = [_MOTION]
+
+
 def recipe_for(family, kind="image"):
     recipe = RECIPES.get(family)
     if not recipe:
         return None
+    if kind == "timeline":
+        return [step for step in recipe if step != _COMPOSE] + TIMELINE_TAIL
     return recipe + VIDEO_TAIL if kind == "video" else recipe
 
 
@@ -117,6 +129,8 @@ def recipe_row(family, kind="image"):
         elif step == _VIDEO:
             parts.append("video draft (mini)" if vids == 0 else "video final")
             vids += 1
+        elif step == _MOTION:
+            parts.append("timeline (lp-compose --timeline)")
         else:
             parts.append(_STEP_LABEL.get(step, "/".join(sorted(step))))
     return " -> ".join(parts)
@@ -135,7 +149,7 @@ NODE_ENGINES = {
     "vectorize": {"picsart_vectorize"},
     "video": {"picsart_generate"},
     "motion": {"picsart_media_export", "picsart_media_apply_scene_template", "picsart_media_patch_scene",
-               "picsart_media_validate_scene", "picsart_media_contact_sheet"},
+               "picsart_media_validate_scene", "picsart_media_contact_sheet", "lp-compose"},
     "compose": {"lp-compose"},
 }
 # Upscale models an `enhance` node may run. `picsart_enhance` is the direct
@@ -143,6 +157,10 @@ NODE_ENGINES = {
 # same upscale engine is reached through `picsart_generate` on one of these
 # models with saveToDrive:false. `lp-flow check` accepts that substitution.
 ENHANCE_MODELS = {"picsart-enhance", "topaz-upscale-image"}
+# The same for a `cutout`: picsart_remove_bg 403s on Drive auto-save too
+# (blind-1-4), and picsart_generate runs its segmenter with saveToDrive:false.
+CUTOUT_MODELS = {"picsart-sod-v8-2"}
+DRIVE_WORKAROUND = {"enhance": ENHANCE_MODELS, "cutout": CUTOUT_MODELS}
 EDIT_MODELS = {"picsart-qwen-image-edit"}
 VIDEO_MODEL_HINT = ("seedance", "kling", "luma", "veo", "omni", "runway", "video")
 
@@ -240,16 +258,21 @@ def video_problems(s, sid, seen, drafted):
         out.append(f"{sid}: video node without generateAudio: false")
     if p.get("async") is not True:
         out.append(f"{sid}: video node without async: true")
-    if p.get("imageUrls"):
+    model = s.get("model") or ""
+    start_in_urls = model.startswith(START_IN_IMAGE_URLS)
+    if p.get("imageUrls") and not start_in_urls:
         out.append(f"{sid}: video node wires imageUrls; references are read for the look, never wired, "
                    f"and the still enters through extra.startFrame")
     if (p.get("duration") or 0) > VIDEO_MAX_SECONDS:
         out.append(f"{sid}: duration {p['duration']} above Seedance's {VIDEO_MAX_SECONDS} s; "
                    f"reach a longer target through an extend node")
-    if VIDEO_DRAFT_HINT not in (s.get("model") or "") and not drafted:
-        out.append(f"{sid}: {s.get('model')} before a {VIDEO_DRAFT_HINT} draft node; always draft first")
+    if model.startswith(DRAFTED_FAMILIES) and VIDEO_DRAFT_HINT not in model and not drafted:
+        out.append(f"{sid}: {model} before a {VIDEO_DRAFT_HINT} draft node; always draft first")
     refs = {"extra.startFrame": extra.get("startFrame"), "extra.endFrame": extra.get("endFrame"),
             "params.videoUrl": p.get("videoUrl")}
+    if start_in_urls:
+        for i, u in enumerate(p.get("imageUrls") or []):
+            refs[f"params.imageUrls[{i}]"] = u  # this model's start still, wired like extra.startFrame
     for i, u in enumerate(p.get("videoUrls") or []):
         refs[f"params.videoUrls[{i}]"] = u
     fed = False
@@ -313,12 +336,14 @@ def attribution_problems(doc, required):
     by_id = {s.get("id"): s for s in steps}
     out = []
 
-    def lineage(s, seen=None):
+    def lineage(s, model, seen=None):
         seen = seen if seen is not None else set()
         if s.get("id") in seen:
             return []
         seen.add(s.get("id"))
-        return [s] + [x for up in s["in"] if up in by_id for x in lineage(by_id[up], seen)]
+        if s["node"] == "video" and s.get("model") == model:
+            return [s]  # the model's own clip is its output; the still it starts from is its input
+        return [s] + [x for up in s["in"] if up in by_id for x in lineage(by_id[up], model, seen)]
 
     for panel, req in (required or {}).items():
         model, because = req.get("model") or "", req.get("because", "")
@@ -332,7 +357,7 @@ def attribution_problems(doc, required):
             if not makers:
                 out.append(f"{slot}: no node marks `panel: {panel}`, which must be {model}'s output ({because})")
                 continue
-            chain = [x for m in makers for x in lineage(m)]
+            chain = [x for m in makers for x in lineage(m, model)]
         for s in chain:
             if s["node"] in GENERATIVE and s.get("model") != model:
                 out.append(f"{slot} node {s.get('id')}: {s['node']} on {s.get('model')}, but {panel if panel != '*' else 'the slot'} "
@@ -363,8 +388,8 @@ def check(doc, required=None):
         # An enhance node run through picsart_generate on an upscale model is the
         # accepted Drive-403 workaround (see ENHANCE_MODELS), not a wrong engine.
         enhance_workaround = (
-            kind == "enhance" and s.get("tool") == "picsart_generate"
-            and s.get("model") in ENHANCE_MODELS
+            kind in DRIVE_WORKAROUND and s.get("tool") == "picsart_generate"
+            and s.get("model") in DRIVE_WORKAROUND[kind]
         )
         if kind not in NODE_ENGINES:
             problems.append(f"{sid}: node kind {kind!r} (one of {', '.join(NODE_ENGINES)})")
@@ -384,6 +409,8 @@ def check(doc, required=None):
         attributed = s.get("model") in {r.get("model") for r in (required or {}).values()}
         if kind == "image" and s.get("model") != PRO_IMAGE and not attributed and not (s.get("reason") or "").strip():
             problems.append(f"{sid}: image node on {s.get('model')} without a reason quoting the copy that names it")
+        if kind == "motion" and s.get("tool") == "lp-compose" and not str(s.get("timeline") or "").endswith(".yaml"):
+            problems.append(f"{sid}: a timeline node names its motion spec (`timeline: motion-<slot>.yaml`, the brief wrote it)")
         if kind == "video":
             problems += video_problems(s, sid, seen, drafted)
             drafted = drafted or VIDEO_DRAFT_HINT in (s.get("model") or "")

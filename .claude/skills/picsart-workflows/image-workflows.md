@@ -138,17 +138,33 @@ Board: START → one `image` node per panel (an `enhance`/`background`/
    `picsart_change_bg` or `picsart_remove_bg` (free; placed `fit: contain`)
    on step 1's URL, never a second generate; the result panel reuses the
    after URL with its own anchor.
-3. build the compose spec from the plan — never hand-author the item list:
-   `uv run lp-compose --spec-from-plan composition-<slot>.yaml --image
-   <panel>=steps/<slot>-<node>-1.png ... --out compose-<slot>.yaml`. You add
-   only the panel image paths; the family, preset, ground and every chrome
-   item come from the plan verbatim (never add, drop, relabel or restate an
-   item — precheck diffs the spec against the plan). Then render and read it:
-   `uv run lp-compose compose-<slot>.yaml --out steps/<slot>-<step>-1.png`,
-   `Read` it → gate: every plan item present, placed and labelled as the plan
-   says; panels unstretched; each subject inside its panel; chrome legible at
-   480 px; no string appearing twice (once in the panel, once as chrome).
-   Costs nothing, no preflight.
+3. fill the skeleton and build the compose spec — never hand-author the item
+   list: pick one bank block per slot in `blocks-<slot>.yaml` (`blocks.md`;
+   before any paid call) and `uv run lp-compose --check-blocks
+   composition-<slot>.yaml blocks-<slot>.yaml`, then `uv run lp-compose
+   --spec-from-plan composition-<slot>.yaml --blocks blocks-<slot>.yaml
+   --image <panel>=steps/<slot>-<node>-1.png ... --out compose-<slot>.yaml`.
+   You add only the panel image paths; the family, preset, ground and every
+   chrome item come from the plan and your picks (never add, drop or edit an
+   item in the spec — precheck diffs it against the picks). Then render and
+   read it: `uv run lp-compose compose-<slot>.yaml --out
+   steps/<slot>-<step>-1.png`, `Read` it → gate: every picked block present,
+   in its slot, saying what the pick gave it; panels unstretched; each subject
+   inside its panel; chrome legible at 480 px; no string appearing twice (once
+   in the panel, once as chrome). Costs nothing, no preflight.
+
+**Every block has a meaning, and a place only where it belongs.** A template
+is a skeleton: its background (ground and fixed surfaces, never generated),
+its panels (the only place a model's pixels go) and its slots, each taking
+one block of the categories it accepts in its shape. The blocks live in the
+bank (`compose/assets/blocks.yaml`), each with its category (state-label,
+tool, attribution, comparison, spec, action, statement, derived, context,
+editor), what it means and *when* it belongs. The brief lists each slot's
+candidates — the blocks whose category, shape and hard context (the page's
+own tool, the generating model's mark, two states for a Before/After, copy
+strings) pass here — and you choose by the soft context: a candidate goes in
+only when its *When* is true of this section, with a `because:`. An optional
+slot nothing belongs in stays empty. `blocks.md` has the rules.
 
 **Hybrid item (rare).** When the plan marks a chrome item `rendered_by: model`
 — a `brush-mask`, `applied-mockup` or `face-box`, chrome too organic or bespoke

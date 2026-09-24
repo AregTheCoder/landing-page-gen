@@ -17,12 +17,13 @@ from pathlib import Path
 import yaml
 from PIL import Image
 
-from landing_page_gen.compose import cli
+from landing_page_gen.compose import cli, plan
 from landing_page_gen.compose.cli import template
 from landing_page_gen.compose.families import FAMILIES
 
 FIXTURE = Path(__file__).parent / "fixtures" / "compose_golden.yaml"
-FONT = Path(cli.draw.__file__).parent / "assets" / "Manrope.ttf"
+# the static weights the renderer sets type with (built from Manrope.ttf by fontbuild.py)
+FONTS = sorted((Path(cli.draw.__file__).parent / "assets").glob("Manrope-*.ttf"))
 BASE_W = 720  # render width; height follows the aspect
 
 
@@ -34,7 +35,8 @@ def cases():
     """Yield {name, family, variant, size, extra} for every family × variant ×
     aspect, then the spec variations the existing tests exercise."""
     for fam in sorted(FAMILIES):
-        for variant in [None, *(FAMILIES[fam].get("variants") or {})]:
+        variants = FAMILIES[fam].get("variants") or {}
+        for variant in [None, *(v for v in variants if not variants[v].get("induced"))]:  # induced: scored by replicas
             tmpl = template(fam, variant)
             for fw, fh in tmpl.get("aspects") or (tmpl["aspect"],):
                 asp = "" if (tmpl.get("aspects") is None) else f"-{fw}x{fh}"
@@ -52,7 +54,11 @@ def cases():
 
 
 def render_sha(tmp_path, case):
-    """Render one case with solid fixture panels and return its pixel sha256."""
+    """Render one case with solid fixture panels and return its pixel sha256.
+    Templates are skeletons, so the chrome is the template's exemplar fill
+    (the blocks its measured original showed, resolved from the bank), with the
+    case's overrides merged by id: the fixture proves the skeleton + bank draw
+    exactly what the filled templates drew."""
     steps = tmp_path / "steps"
     steps.mkdir(exist_ok=True)
     tmpl = template(case["family"], case["variant"])
@@ -61,8 +67,10 @@ def render_sha(tmp_path, case):
         img = steps / f"{name}.png"
         Image.new("RGB", (800, 800), ("red", "blue", "green", "yellow")[i % 4]).save(img)
         panels[name] = {"image": f"steps/{name}.png"}
+    over = case["extra"].get("chrome") or {}
+    chrome = [{**it, **over.get(it["id"], {})} for it in plan.exemplar_items(case["family"], case["variant"])]
     spec = {"slot": "S01-m1", "family": case["family"], "size": case["size"],
-            "panels": panels, **case["extra"]}
+            "panels": panels, **{k: v for k, v in case["extra"].items() if k != "chrome"}, "chrome": chrome}
     if case["variant"]:
         spec["variant"] = case["variant"]
     spec_path = tmp_path / "compose.yaml"
@@ -76,7 +84,7 @@ def render_sha(tmp_path, case):
 
 def stamp():
     return {"pillow": __import__("PIL").__version__,
-            "manrope_sha1": hashlib.sha1(FONT.read_bytes()).hexdigest()}
+            "manrope_sha1": hashlib.sha1(b"".join(f.read_bytes() for f in FONTS)).hexdigest()}
 
 
 def write(tmp_path):

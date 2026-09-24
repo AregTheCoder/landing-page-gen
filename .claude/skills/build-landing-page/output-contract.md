@@ -8,8 +8,9 @@ brief.md            written by the manager, read-only
 examples/           corpus excerpts and media, read-only
 workflow.yaml       one Flow board per slot (--- separated), see picsart-workflows/workflow-format.md
 flow.md             the boards as node sheets (`uv run lp-flow sheet workflow.yaml`), what a person would rebuild on the Flow canvas
-composition-<slot>.yaml the composition plan of a composite slot, written by the manager, read-only: the panels (ratio + keep-clear) and the chrome items
-compose-<slot>.yaml the lp-compose spec, made by the worker with `lp-compose --spec-from-plan composition-<slot>.yaml --image <panel>=<path> ... --out compose-<slot>.yaml` (only panel images added; every item comes from the plan)
+composition-<slot>.yaml the composition plan of a composite slot, written by the manager, read-only: the layout's skeleton, its panels (ratio + keep-clear) and its slots with the bank blocks that may fill each
+blocks-<slot>.yaml  the worker's picks, one block (or none) per slot with its `because:`, checked by `lp-compose --check-blocks` (picsart-workflows/blocks.md)
+compose-<slot>.yaml the lp-compose spec, made by the worker with `lp-compose --spec-from-plan composition-<slot>.yaml --blocks blocks-<slot>.yaml --image <panel>=<path> ... --out compose-<slot>.yaml` (only panel images added; every item is a picked block)
 steps/              every downloaded intermediate and final asset, named <slot>-<step>-<n>.<ext>
 result.md           frontmatter + prose, format below
 review-N.md         written by the reviewer, one per round
@@ -27,6 +28,7 @@ slots:
     pattern: anchored
     board: blank                    # or "template: <title>"
     plan: composition-S03-m1.yaml   # composite slots only: the plan the compose spec was built from
+    blocks: blocks-S03-m1.yaml      # composite slots only: the worker's block picks
     compose: compose-S03-m1.yaml    # composite slots only: the spec --spec-from-plan wrote
     nodes: 4
     credits: 17

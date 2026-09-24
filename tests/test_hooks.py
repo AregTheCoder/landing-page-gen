@@ -106,6 +106,35 @@ def test_logger_records_urls_model_and_quote(tmp_path):
     assert "https://gcdn.picsart.com/out.png" in rows[1]["urls"]
 
 
+def test_a_generate_is_priced_by_its_own_preflight_not_the_models_latest(tmp_path):
+    # random-2: parallel workers on one model; each generate took whichever quote came last
+    run = make_run(tmp_path, run_credits=300)
+    preflight(run, "gpt-image-2.5-sunburst", 2, {"prompt": "a sneaker"})
+    preflight(run, "gpt-image-2.5-sunburst", 1, {"prompt": "a bouquet"})
+    for prompt in ("a sneaker", "a bouquet", "never preflighted"):
+        run_hook("log_generation.py", {
+            "tool_name": GEN, "tool_input": {"model": "gpt-image-2.5-sunburst", "prompt": prompt, "saveToDrive": False},
+            "tool_response": {"results": [{"url": f"https://gcdn.picsart.com/{len(prompt)}.png"}]},
+        }, run)
+    rows = [json.loads(l) for l in (run / "ledger.jsonl").read_text().splitlines()]
+    assert [r["quoted_credits"] for r in rows[2:]] == [2, 1, 1]  # an unmatched prompt keeps the model's latest
+
+
+def test_a_failed_paid_call_is_logged_at_its_quote_with_no_url(tmp_path):
+    # qa-live-3: picsart_enhance answered 403 and the balance still moved 2 credits
+    run = make_run(tmp_path, run_credits=300)
+    preflight(run, "picsart-enhance", 2)
+    for tool in (GEN.replace("picsart_generate", "picsart_enhance"), GEN.replace("picsart_generate", "picsart_preflight")):
+        run_hook("log_generation.py", {"hook_event_name": "PostToolUseFailure", "tool_name": tool,
+                                       "tool_input": {"model": "picsart-enhance"}, "error": "HTTP 403"}, run)
+    rows = [json.loads(l) for l in (run / "ledger.jsonl").read_text().splitlines()]
+    assert len(rows) == 2  # the preflight and the failed enhance; a failed quote spends nothing
+    assert rows[-1]["failed"] and rows[-1]["urls"] == [] and rows[-1]["quoted_credits"] == 2
+    sys.path.insert(0, str(HOOKS))
+    import _ledger as L
+    assert L.spent(rows) == 0  # logged for the record; the cap does not count a call that failed
+
+
 def test_job_status_row_carries_the_clip_url_and_unlocks_it(tmp_path):
     """An async video generate returns no URL; the clip arrives via
     picsart_job_status. Logged at cost 0, it lets a later extend node wire it."""
@@ -166,11 +195,19 @@ def test_check_result_blocks_until_contract_is_met(tmp_path):
 
     out = run_hook("check_result.py", payload, run)
     assert out["decision"] == "block" and "S03" in out["reason"]
+    (section / "proposal-S03-m1.yaml").write_text("style: full-bleed\n")  # a blind run's phase 1 ends here
+    assert run_hook("check_result.py", payload, run) is None
 
     (section / "workflow.yaml").write_text("slot: S03-m1\nsteps: []\nfinal: {url: x}\n")
     (section / "result.md").write_text("---\nchosen: x\nscores: {}\n---\n")
     assert run_hook("check_result.py", payload, run) is None
     assert run_hook("check_result.py", {**payload, "stop_hook_active": True}, run) is None
+    # a worker of another run is checked in its own run, whatever runs/current names
+    other = tmp_path / "runs" / "other"
+    (other / "sections" / "S03").mkdir(parents=True)  # same section id as the finished one in runs/current
+    worker.write_text(json.dumps({"type": "user", "message": {"role": "user", "content": f"Section folder: {other}/sections/S03"}}) + "\n")
+    out = run_hook("check_result.py", payload, run)
+    assert out["decision"] == "block" and "S03" in out["reason"], "checked in its own run, not in runs/current"
 
 
 def test_check_result_falls_back_to_transcript_path(tmp_path):
@@ -180,3 +217,44 @@ def test_check_result_falls_back_to_transcript_path(tmp_path):
     transcript.write_text(json.dumps({"type": "user", "message": {"role": "user", "content": f"Section S05. Work in {run}/sections/S05/."}}) + "\n")
     out = run_hook("check_result.py", {"transcript_path": str(transcript), "stop_hook_active": False}, run)
     assert out["decision"] == "block" and "S05" in out["reason"]
+
+
+def test_parallel_workers_are_logged_and_capped_in_their_own_runs(tmp_path):
+    """Each worker's calls go to the run its first message names, not to
+    runs/current, so several runs build at once (blind-1 ran serially)."""
+    runs = tmp_path / "runs"
+    a, b, current = runs / "trial-1", runs / "trial-2", runs / "other"
+    for r, cap in ((a, 2), (b, 12), (current, 50)):
+        (r / "sections" / "S01").mkdir(parents=True)
+        (r / "budget.json").write_text(json.dumps({"run_credits": cap}))
+    session = tmp_path / "session.jsonl"
+    session.write_text("")
+    (tmp_path / "session" / "subagents").mkdir(parents=True)
+    for aid, r in (("w1", a), ("w2", b)):
+        (tmp_path / "session" / "subagents" / f"agent-{aid}.jsonl").write_text(json.dumps(
+            {"type": "user", "message": {"content": f"Section S01. Work only inside `{r}/sections/S01/`."}}) + "\n")
+    env = {**os.environ, "LP_RUNS_CURRENT": str(current), "LP_RUNS_DIR": str(runs)}
+
+    def hook(name, payload):
+        out = subprocess.run([sys.executable, str(HOOKS / name)], input=json.dumps(payload), capture_output=True,
+                             text=True, env=env, check=True).stdout.strip()
+        return json.loads(out) if out else None
+    call = {"tool_name": GEN, "tool_input": {"model": "gemini-3-pro-image", "prompt": "x", "saveToDrive": False},
+            "transcript_path": str(session)}
+    quote = {"tool_name": GEN.replace("picsart_generate", "picsart_preflight"),
+             "tool_input": {"model": "gemini-3-pro-image", "prompt": "x"}, "tool_response": '{"credits": 5}',
+             "transcript_path": str(session)}
+    for aid in ("w1", "w2"):
+        hook("log_generation.py", {**quote, "agent_id": aid})
+    assert (a / "ledger.jsonl").exists() and (b / "ledger.jsonl").exists() and not (current / "ledger.jsonl").exists()
+    assert decision(hook("credit_guard.py", {**call, "agent_id": "w1"}))[0] == "deny", "5 > trial-1's cap of 2"
+    assert hook("credit_guard.py", {**call, "agent_id": "w2"}) is None, "5 <= trial-2's cap of 12"
+
+
+def test_tools_without_a_drive_switch_are_denied_with_the_generate_route(tmp_path):
+    run = make_run(tmp_path, run_credits=20)
+    for tool, model in (("picsart_enhance", "topaz-upscale-image"), ("picsart_remove_bg", "picsart-sod-v8-2")):
+        out = run_hook("credit_guard.py", {"tool_name": GEN.replace("picsart_generate", tool),
+                                           "tool_input": {"image": "https://gcdn.picsart.com/a.png"}}, run)
+        verdict, reason = decision(out)
+        assert verdict == "deny" and "picsart_generate" in reason and model in reason

@@ -155,7 +155,7 @@ def check(field, value):
 
 def _check_items(value):
     """(clean chrome_items, error). A list of {kind, placement, anchor?, count?,
-    state?, text?}; the whole field is dropped on any bad item (a guess about
+    state?, text?, tool?}; the whole field is dropped on any bad item (a guess about
     layered geometry costs more than a gap), and defaults are normalised out."""
     if not isinstance(value, list):
         return None, "chrome_items must be a list"
@@ -195,6 +195,11 @@ def _check_items(value):
             if not isinstance(text, str) or len(text) > 40:
                 return None, f"chrome_items[{i}]: text"
             item["text"] = text
+        tool = it.get("tool")
+        if tool is not None:
+            if tool not in attrs.CHROME_TOOLS:
+                return None, f"chrome_items[{i}]: tool {tool!r}"
+            item["tool"] = tool
         clean.append(item)
     return clean, None
 

@@ -37,7 +37,7 @@ the corpus anchor.
 | Image (background) | `background` | `picsart_change_bg` | `recraftv3-replace-bg` | new backdrop behind a cutout |
 | Image (enhance) | `enhance` | `picsart_enhance` | `picsart-enhance` / `topaz-upscale-image` | upscale |
 | Video | `video` | `picsart_generate` | `seedance-2.5` (`seedance-2.0-mini` draft) | still to motion, extend, edit |
-| Motion | `motion` | `picsart_media_*` | — | MP Scene compose and render (0 credits measured 2026-09-10) |
+| Motion | `motion` | `picsart_media_*`, or `lp-compose` | — | MP Scene compose and render (0 credits measured 2026-09-10); on `lp-compose` the templated callout clip of a `kind: timeline` board (`timeline: motion-<slot>.yaml`, 0 cr) |
 | Compose | `compose` | `lp-compose` | — | the family's chrome and ground around the panels; Flow has no node for Picsart's own card chrome, this is ours |
 | END | `final:` | — | — | the slot's asset at the slot's size |
 

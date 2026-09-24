@@ -18,6 +18,7 @@ that it wires, then execute. Read only the companion you need:
 | `recipes.md` | before authoring any board: the family's planned, mandatory node pipeline (generate → i2i refine → family edit/compose → finish), enforced by `lp-flow check` from the board's `family:` line |
 | `tool-map.md` | choosing an engine or model for a node, checking cost, connector, params |
 | `image-workflows.md` | the slot is an image: board recipes (direct, anchored, cutout, series, composite, layered), ratio map, prompt rules |
+| `blocks.md` | the slot is a composite: the template is a skeleton, and you pick each slot's chrome block from the bank by its category and context (`blocks-<slot>.yaml`) |
 | `video-workflows.md` | the slot is a video: draft tier, startFrame, audio, extend |
 | `workflow-format.md` | writing or editing `workflow.yaml`; the re-run-as-new-node rule |
 | `evaluation.md` | scoring a gate, the final asset, or a whole board |
@@ -45,7 +46,8 @@ that it wires, then execute. Read only the companion you need:
   string quoted verbatim in the prompt; every generation prompt ends with
   ", no other text, no logos or watermarks". No logos, watermarks or UI,
   ever. Pills, tiles, frames, badges and their labels exist only when
-  `lp-compose` draws them from a family template.
+  `lp-compose` draws them: a bank block the worker picked for a template slot
+  (`blocks.md`), never painted into a panel.
 - Corpus examples and widened neighbours (`examples/*.md`, `origin:
   widened`) are read for the look and never wired into a node: no example,
   stock or widened URL in `imageUrls`, `startFrame` or `image`. The only

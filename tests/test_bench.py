@@ -120,7 +120,9 @@ def test_composition_flags_a_chrome_kind_the_spec_never_draws(tmp_path):
     card(gen / "S07-m1.png", [(0, 0, 0.56, 1)])
     (run / "sections" / "S07").mkdir(parents=True)
     # a model-picker spec draws the list-panel (option-list) but no tile
-    (run / "sections" / "S07" / "compose-S07-m1.yaml").write_text("family: dark-composite\nvariant: model-picker\nsize: 480x480\n")
+    (run / "sections" / "S07" / "compose-S07-m1.yaml").write_text(  # a spec draws its picked blocks, nothing else
+        "family: dark-composite\nvariant: model-picker\nsize: 480x480\n"
+        "chrome:\n- {id: list, kind: list-panel, block: model-picker, active_text: Recraft V4}\n")
     slots = {"page": "p", "sections": {"S07": {"type": "feature-callout"}}, "slots": {
         "S07-m1": {"src": "https://cdn/a.avif", "local": str(orig / "s07.png"), "size": [480, 480],
                    "attrs": {"chrome": ["option-list", "tile"],
@@ -136,6 +138,13 @@ def test_composition_flags_a_chrome_kind_the_spec_never_draws(tmp_path):
     bench.write_md(result, run / "benchmark.md")
     assert "| chrome orig -> gen |" in (run / "benchmark.md").read_text()
     assert "| option-list+tile -> option-list |" in (run / "benchmark.md").read_text()
+    # a spec the worker renamed is found through result.md's compose: field
+    (run / "sections" / "S07" / "compose-S07-m1.yaml").rename(run / "sections" / "S07" / "compose-S07-m1-split.yaml")
+    (run / "sections" / "S07" / "result.md").write_text(
+        "---\nsection: S07\nslots:\n  S07-m1:\n    chosen: x.png\n    compose: compose-S07-m1-split.yaml\n---\n")
+    row = bench.bench(run, tmp_path / "none.yaml")["rows"][0]
+    assert row["composition"]["gen"] == ["option-list"]
+    assert row["gen_family"] == "dark-composite"  # the family the spec drew, not a guess from its pixels
 
 
 def test_every_compose_kind_maps_to_a_corpus_chrome_kind():

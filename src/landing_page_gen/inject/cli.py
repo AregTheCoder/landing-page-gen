@@ -15,6 +15,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -58,7 +59,7 @@ def _result_slots(run):
         for sid, s in (fm.get("slots") or {}).items():
             if isinstance(s, dict) and "chosen" in s:
                 out[sid] = {"chosen": s.get("chosen"), "workflow": workflow}
-                out[sid].update({k: s[k] for k in ("poster", "duration_s") if s.get(k) is not None})  # video slots
+                out[sid].update({k: s[k] for k in ("poster", "duration_s", "compose") if s.get(k) is not None})  # video slots; a renamed compose spec
     return out
 
 
@@ -356,6 +357,21 @@ def inject(run, out=None, log=print, localise_css_assets=True):
     return report
 
 
+MANAGER_CHECK = Path(__file__).resolve().parents[3] / ".claude" / "skills" / "build-landing-page" / "manager_check.py"
+
+
+def manager_problems(run):
+    """What `manager_check.py` names for a managed live run (one with a
+    budget.json that is not a dry run); nothing for any other folder."""
+    budget = Path(run) / "budget.json"
+    if not budget.exists() or json.loads(budget.read_text()).get("dry_run") or not MANAGER_CHECK.exists():
+        return []
+    proc = subprocess.run([sys.executable, str(MANAGER_CHECK), str(run)], capture_output=True, text=True)
+    if proc.returncode == 0:
+        return []
+    return [l for l in proc.stdout.splitlines()[:-1] if l.strip()] or [proc.stderr.strip()[-400:]]
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(
         prog="lp-inject",
@@ -367,6 +383,9 @@ def main(argv=None) -> int:
                    help="keep remote stylesheet links instead of downloading and validating them "
                         "(the page then depends on the origin's perishable hashed CSS chunks)")
     a = p.parse_args(argv)
+    problems = manager_problems(a.run)
+    if problems:
+        sys.exit("lp-inject: the manager's procedure is not done (manager_check.py):\n  " + "\n  ".join(problems))
     try:
         report = inject(a.run, a.out, localise_css_assets=a.localise_css)
     except FileNotFoundError as exc:

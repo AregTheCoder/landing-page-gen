@@ -50,6 +50,17 @@
           }
         ]
       }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "mcp__.*__picsart_(preflight|generate|enhance|remove_bg|change_bg|vectorize|job_status|media_video_render|media_export|media_video_create)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 hooks/log_generation.py"
+          }
+        ]
+      }
     ]
   }
 }

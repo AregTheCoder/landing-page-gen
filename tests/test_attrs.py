@@ -11,7 +11,7 @@ from PIL import Image
 
 from landing_page_gen.corpus import (attrs, cli, db, label, measure, media, sectionize, sheets, similar,
                                      skeleton, styles, taxonomy)
-from test_corpus import HERO1, fake_download_factory, hero_render, make_page
+from test_corpus import HERO1, fake_download_factory, hero_render, make_page, own_pictures
 
 HERO2 = HERO1.replace("hero1", "hero2")
 VIDEO = "https://cdn-cms-uploads.picsart.com/cms-uploads/style.webm"
@@ -35,12 +35,14 @@ class FakeGrabber:
         return 8.4, [self.grab(src, png, at) for at, png in targets]
 
 
-def build(tmp_path, slugs, monkeypatch):
+def build(tmp_path, slugs, monkeypatch, own=()):
     monkeypatch.setattr(media, "download", fake_download_factory([]))
     pages = tmp_path / "pages"
     con = db.connect(tmp_path / "c.db")
     for slug in slugs:
         d = make_page(pages, slug, hero_render())
+        if slug in own:
+            own_pictures(d, slug)
         media.localise_page(d, log=lambda m: None)
         sectionize.sectionize_page(d, con, log=lambda m: None)
     return con, pages
@@ -398,7 +400,7 @@ def test_report_and_sheets(tmp_path):
 
 
 def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
-    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"], monkeypatch)
+    con, _ = build(tmp_path, ["comic-book-generator", "manga-maker", "storyboard-generator"], monkeypatch, own=["manga-maker"])
     con.execute("""UPDATE media SET style = 'dark-composite', attrs = ? WHERE src = ? AND section_id IN
                    (SELECT s.id FROM sections s JOIN pages p ON p.id = s.page_id WHERE p.slug = 'storyboard-generator')""",
                 (json.dumps({"ground": "light-grey", "variant": "light"}), HERO1))
@@ -414,8 +416,9 @@ def test_similar_filters_variant_attrs_and_asset(tmp_path, monkeypatch):
     assert rows == [], "one id in the list is enough to exclude a section"
     local = con.execute("SELECT local_path FROM media WHERE src = ?", (HERO1,)).fetchone()[0]
     suffix = local.rsplit(".", 1)[0].rsplit("-", 1)[-1]
-    assert len(suffix) == 8 and similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=[suffix]) == [], \
-        "the sha1 in the local file name excludes through media.local_path"
+    left = similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=[suffix])
+    assert len(suffix) == 8 and [r["slug"] for r in left] == ["manga-maker"], \
+        "the sha1 in the local file name excludes, through media.local_path, the sections that show it"
     assert len(similar.find_similar(con, "hero", q, k=3, exclude="comic-book-generator", exclude_asset=["nomatch"])) == 2, \
         "an id that matches nothing excludes nothing"
     assert similar.split_style("dark-composite/light") == ("dark-composite", "light")

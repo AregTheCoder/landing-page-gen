@@ -58,6 +58,17 @@ def test_enhance_via_generate_is_accepted_only_for_upscale_models():
     assert any("topaz-upscale-image" in p for p in problems)
 
 
+def test_cutout_via_generate_is_accepted_on_the_segmenter():
+    """picsart_remove_bg 403s on Drive auto-save (blind-1-4): the segmenter runs
+    through picsart_generate with saveToDrive:false, typed a cutout still."""
+    doc = board_of("cutout-checkerboard", ["image", "cutout", "compose"])
+    cut = doc["steps"][1]
+    cut["tool"], cut["model"] = "picsart_generate", "picsart-sod-v8-2"
+    assert board.check(doc) == []
+    cut["model"] = "gpt-image-2.5-sunburst"
+    assert any("cutout node on picsart_generate" in p for p in board.check(doc))
+
+
 def board_of(family, kinds):
     """A minimal wired board of the given node kinds, tagged with a family, so
     the planned-recipe check can be exercised."""
@@ -227,3 +238,41 @@ def test_shipped_catalogue_is_valid():
     for t in ts:
         for key in ("title", "url", "category", "shape", "fits"):
             assert t.get(key) is not None, f"{t.get('title')}: {key} missing"
+
+
+def timeline_board():
+    """A templated callout clip: the poster family's still recipe, then one
+    lp-compose motion node that renders the brief's motion spec."""
+    doc = board_of("full-bleed", ["image", "image", "enhance"])
+    doc["kind"] = "timeline"
+    doc["steps"].append({"id": 4, "node": "motion", "in": [3], "tool": "lp-compose", "timeline": "motion-S01-m1.yaml",
+                         "params": {}, "quoted_credits": 0, "gate": "strip reads the preset", "status": "done"})
+    return doc
+
+
+def test_timeline_recipe_is_the_still_recipe_plus_one_motion_node():
+    assert board.recipe_row("full-bleed", "timeline") == "generate -> i2i refine -> enhance -> timeline (lp-compose --timeline)"
+    assert board.recipe_row("dark-composite", "timeline") == "generate -> i2i refine -> timeline (lp-compose --timeline)"
+    assert board.check(timeline_board()) == []
+    no_spec = timeline_board()
+    no_spec["steps"][-1].pop("timeline")
+    assert any("names its motion spec" in p for p in board.check(no_spec))
+    shallow = timeline_board()
+    shallow["steps"].pop()
+    assert any("plans a motion node" in p for p in board.check(shallow))
+
+
+def test_a_still_from_a_video_models_clip_is_that_models_output():
+    # qa-live-2 S06: the Sora page's result is a frame of a real sora-2 clip that starts from an image-model still
+    doc = board_of("full-bleed", ["image", "image", "enhance"])
+    doc["kind"] = "image"  # a still slot: its one video node is the source of a frame, not the slot's clip
+    clip = video_node(4, "sora-2", 3, extra={}, imageUrls=["<step 3 passed>"])  # sora-2 takes its start still here
+    frame = {"id": 5, "node": "compose", "in": [4], "tool": "lp-compose", "model": "lp-compose", "panel": "photo-3",
+             "params": {}, "quoted_credits": 0, "gate": "the middle frame", "status": "done"}
+    doc["steps"] += [clip, frame]
+    req = {"photo-3": {"model": "sora-2", "because": "the page presents it as Sora 2's output"}}
+    assert board.check(doc, req) == []  # no draft tier to draft on; the start still is the clip's input, not its lineage
+    doc["steps"][3]["params"]["imageUrls"] = ["https://x/still.png"]
+    assert any("literal URL" in p for p in board.check(doc, req))
+    doc["steps"][3]["model"] = "seedance-2.5"  # a Seedance final still drafts first and takes extra.startFrame
+    assert any("before a mini draft node" in p for p in board.check(doc))

@@ -1,12 +1,23 @@
-"""lp-compose: a style-family template plus the worker's panel PNGs becomes
-the composite card. Solid-colour fixture panels make the geometry checkable."""
+"""lp-compose: a style-family skeleton, the worker's panel PNGs and the picked
+blocks become the composite card. Solid-colour fixture panels make the geometry
+checkable; a test's chrome is the template's exemplar (the blocks its measured
+original showed), since a skeleton draws no chrome of its own."""
 
 import pytest
 import yaml
 from PIL import Image
 
-from landing_page_gen.compose import cli, draw, layout
+from landing_page_gen.compose import cli, draw, layout, plan
 from landing_page_gen.compose.families import FAMILIES, RATIOS, nearest_ratio
+
+
+def exemplar_chrome(family, preset, chrome=None):
+    """The template's exemplar blocks as spec chrome, a mapping `chrome`
+    merged into them by id, a list `chrome` appended."""
+    items = plan.exemplar_items(family, preset)
+    if isinstance(chrome, dict):
+        items = [{**it, **chrome.get(it["id"], {})} for it in items]
+    return items + (chrome if isinstance(chrome, list) else [])
 
 
 def write_spec(tmp_path, family="before-after", size="720x720", **extra):
@@ -15,6 +26,7 @@ def write_spec(tmp_path, family="before-after", size="720x720", **extra):
     Image.new("RGB", (400, 800), "red").save(steps / "a.png")
     Image.new("RGB", (400, 800), "blue").save(steps / "b.png")
     panels = {name: {"image": f"steps/{'ab'[i % 2]}.png"} for i, name in enumerate(cli.template(family, extra.get("variant"))["panels"])}
+    extra["chrome"] = exemplar_chrome(family, extra.get("variant"), extra.get("chrome"))
     path = tmp_path / "compose.yaml"
     path.write_text(yaml.safe_dump({"slot": "S07-m1", "family": family, "size": size, "panels": panels, **extra}))
     return path
@@ -58,15 +70,25 @@ def test_compose_before_after_geometry_ground_and_pill(tmp_path):
 
 @pytest.mark.parametrize("family", sorted(FAMILIES))
 def test_every_family_composes_at_slot_size(tmp_path, family):
-    extra = {"chrome": {"headline": {"text": "Pottery classes"}}} if family == "template-mockup" else {}
     fw, fh = FAMILIES[family]["aspect"]
     size = (720, round(720 * fh / fw))
-    layout = cli.resolve(cli.load_spec(write_spec(tmp_path, family, size=f"{size[0]}x{size[1]}", **extra)))
+    layout = cli.resolve(cli.load_spec(write_spec(tmp_path, family, size=f"{size[0]}x{size[1]}")))
     im, drawn = cli.compose(layout)
     assert im.size == size
-    assert set(drawn) == {c["id"] for c in FAMILIES[family]["chrome"]}
-    if FAMILIES[family]["ground"].get("fill") is None:
+    t = FAMILIES[family]
+    assert set(drawn) == {s["id"] for s in t["slots"]} | {s["id"] for s in t["background"]["surfaces"]}
+    if t["background"]["ground"].get("fill") is None:
         assert im.mode == "RGBA" and im.getpixel((0, 0))[3] == 0, "transparent ground keeps its rounded corners"
+
+
+@pytest.mark.parametrize("family", sorted(FAMILIES))
+def test_a_skeleton_with_no_blocks_draws_its_background_and_panels_only(tmp_path, family):
+    fw, fh = FAMILIES[family]["aspect"]
+    spec = write_spec(tmp_path, family, size=f"720x{round(720 * fh / fw)}")
+    spec = rewrite(spec, chrome=[])
+    layout = cli.resolve(cli.load_spec(spec))
+    _, drawn = cli.compose(layout)
+    assert set(drawn) == {s["id"] for s in FAMILIES[family]["background"]["surfaces"]}, "a slot draws only a picked block"
 
 
 def variant_spec(tmp_path, variant, **extra):
@@ -100,7 +122,7 @@ def test_dark_composite_device_variants(tmp_path):
     assert out_rect(layout, "photo")[2] < out_rect(layout, "photo-b")[0]
     assert {nearest_ratio(*(lambda r: (r[2] - r[0], r[3] - r[1]))(p["rect"]))
             for p in cli.template("dark-composite", "reference-thumbs")["panels"].values()} == {"3:4", "1:1"}
-    with pytest.raises(SystemExit, match="dark-composite has no variant 'nope'; one of reference-thumbs, model-picker, two-up"):
+    with pytest.raises(SystemExit, match="dark-composite has no variant 'nope'; one of reference-thumbs, model-picker, two-up, bento"):
         cli.load_spec(rewrite(write_spec(tmp_path, "dark-composite"), variant="nope"))
     with pytest.raises(SystemExit, match="panel 'thumb-a' has no image"):
         cli.load_spec(rewrite(write_spec(tmp_path, "dark-composite"), variant="reference-thumbs"))
@@ -109,14 +131,16 @@ def test_dark_composite_device_variants(tmp_path):
     assert cli.main(["--describe", "dark-composite"]) == 0
 
 
-def test_describe_names_the_variants(capsys):
+def test_describe_names_the_variants_and_their_slots(capsys):
     cli.main(["--describe", "dark-composite"])
     out = capsys.readouterr().out
-    assert "variant reference-thumbs" in out and "panel thumb-a" in out and "list (list-panel, text)" in out
+    assert "variant reference-thumbs" in out and "panel thumb-a" in out and "slot list: card" in out
     assert "variant two-up" in out and "panel photo-b" in out and "generate at 9:16" in out
-    # the manager reads each layout's `> chrome:` slots here, in order
+    # a slot says what it takes, never what it holds; the original's blocks are a record
     model_picker = out.split("variant model-picker")[1].split("variant two-up")[0]
-    assert "page strings, in `> chrome:` order: active row" in model_picker
+    assert "takes attribution, required" in model_picker and "the original (" in model_picker
+    bento = out.split("variant bento")[1]
+    assert "slot card-a: card at (232, 232, 792, 503), takes statement | spec, required" in bento
 
 
 def test_omit_and_override(tmp_path):
@@ -140,7 +164,7 @@ def test_describe_lists_panels_and_generate_ratios(capsys):
     assert "panel source" in out and "panel result" in out
     assert cli.main(["--describe", "panel-overlay"]) == 0
     out2 = capsys.readouterr().out
-    assert "fills the slot" in out2 and "panel (adjust-panel, text)" in out2 and "tool-pill (tool-pill, text)" in out2
+    assert "fills the slot" in out2 and "slot panel: panel" in out2 and "slot tool-pill: tile" in out2
     assert any(f"generate at {r}" in out for r in RATIOS)
     assert nearest_ratio(970, 1600) == "9:16" and nearest_ratio(1180, 1600) == "3:4" and nearest_ratio(600, 630) == "1:1"
 
@@ -220,13 +244,15 @@ def test_unknown_chrome_kind_names_the_registry(tmp_path):
 # --- Wave 4: spec grammar + placement -----------------------------------------
 
 def _variant_spec(tmp_path, family, preset, **extra):
-    """A spec whose panels cover the preset (not just the base family)."""
+    """A spec whose panels cover the preset (not just the base family), its
+    chrome the preset's exemplar blocks (merged with a mapping `chrome`)."""
     steps = tmp_path / "steps"
     steps.mkdir(parents=True, exist_ok=True)
     tmpl = cli.template(family, preset)
     for i, name in enumerate(tmpl["panels"]):
         Image.new("RGB", (400, 400), ("red", "blue", "green")[i % 3]).save(steps / f"{name}.png")
     spec = tmp_path / "s.yaml"
+    extra["chrome"] = exemplar_chrome(family, preset, extra.get("chrome"))
     body = {"family": family, "preset": preset, "size": "720x720",
             "panels": {n: {"image": f"steps/{n}.png"} for n in tmpl["panels"]}, **extra}
     spec.write_text(yaml.safe_dump(body))
@@ -257,22 +283,22 @@ def test_ground_word_overrides_the_family_fill(tmp_path):
     assert cli.resolve(cli.load_spec(clear))["ground"] == {"fill": None}
 
 
-def test_list_form_adds_a_placed_item_and_keeps_the_family(tmp_path):
+def test_a_placed_item_draws_beside_the_picked_blocks(tmp_path):
     spec = _variant_spec(tmp_path, "dark-composite", None, chrome=[
         {"id": "note", "kind": "label", "text": "NEW",
          "place": {"of": "canvas", "anchor": "br", "w": 200, "h": 80, "inset": 40}}])
     out = tmp_path / "steps" / "o.png"
     assert cli.main([str(spec), "--out", str(out)]) == 0
     _, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))
-    assert {"tile-1", "tile-2", "tile-3"} <= set(drawn), "the family's own chrome still draws"
+    assert {"tile-1", "tile-2", "tile-3"} <= set(drawn)
     x0, y0, x1, y1 = drawn["note"]
     assert x0 > 360 and y0 > 360 and x1 <= 720 and y1 <= 720, "the added label sits bottom-right"
 
 
-def test_unknown_override_id_warns_instead_of_silent_noop(tmp_path, capsys):
-    spec = _variant_spec(tmp_path, "dark-composite", None, chrome={"chip": {"text": "1080p"}})
-    cli.resolve(cli.load_spec(spec))
-    assert "chrome 'chip' is not in dark-composite" in capsys.readouterr().err
+def test_an_item_with_no_kind_warns_instead_of_silent_noop(tmp_path, capsys):
+    spec = _variant_spec(tmp_path, "dark-composite", None, chrome=[{"id": "chip", "text": "1080p"}])
+    _, drawn = cli.compose(cli.resolve(cli.load_spec(spec)))
+    assert "chip" not in drawn and "chrome 'chip' has no kind" in capsys.readouterr().err
 
 
 def test_layout_place_math_and_repeat():
@@ -358,8 +384,8 @@ def test_selection_frame_variant_draws_a_square_cornered_box_with_handles(tmp_pa
     spec = _variant_spec(tmp_path, family, "selection-frame")
     layout_ = cli.resolve(cli.load_spec(spec))
     im, drawn = cli.compose(layout_)
-    assert "select" in drawn and {c["id"] for c in cli.template(family, None)["chrome"]} <= set(drawn), \
-        "the family chrome stays; the frame is added"
+    assert "select" in drawn and {c["id"] for c in cli.template(family, None)["slots"]} <= set(drawn), \
+        "the family's slots stay; the frame's slot is added"
     x0, y0, x1, y1 = (round(v) for v in drawn["select"])
     px0, py0, px1, py1 = out_rect(layout_, panel)
     assert px0 <= x0 < x1 <= px1 and py0 <= y0 < y1 <= py1, "the frame sits on its panel"
@@ -387,7 +413,6 @@ def test_editor_trims_the_cutout_so_its_frame_hugs_the_motif(tmp_path):
     # template-mockup /editor: the worker's cut-out motif keeps its wide transparent
     # margins (remove_bg returns the whole canvas); the panel trims it to its pixels, so
     # the selection box anchored to the panel frames the motif, not empty checker
-    from landing_page_gen.compose import plan
     (tmp_path / "steps").mkdir()
     Image.new("RGB", (616, 808), (43, 20, 90)).save(tmp_path / "steps" / "card.png")
     motif = Image.new("RGBA", (1000, 1000), (0, 0, 0, 0))
@@ -395,7 +420,8 @@ def test_editor_trims_the_cutout_so_its_frame_hugs_the_motif(tmp_path):
     motif.save(tmp_path / "steps" / "motif.png")
     p = plan.build("template-mockup", "800x800", preset="editor", slot="S06-m1")
     assert [x["panel"] for x in p["panels"]] == ["photo", "cutout"] and plan.validate(p) == []
-    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "steps/card.png", "cutout": "steps/motif.png"})))
+    picks = {"fills": cli.template("template-mockup", "editor")["exemplar"]["fills"]}
+    (tmp_path / "s.yaml").write_text(yaml.safe_dump(plan.to_spec(p, {"photo": "steps/card.png", "cutout": "steps/motif.png"}, picks)))
     lay = cli.resolve(cli.load_spec(tmp_path / "s.yaml"))
     img, drawn = cli.compose(lay)
     x0, y0, x1, y1 = (v / cli.SS for v in lay["panels"]["cutout"]["rect"])
@@ -407,3 +433,23 @@ def test_editor_trims_the_cutout_so_its_frame_hugs_the_motif(tmp_path):
     assert x0 - 20 < fx0 < x0 and y0 - 20 < fy0 < y0 and x1 < fx1 < x1 + 20 and y1 < fy1 < y1 + 20, \
         "the frame sits just outside the panel"
     assert img.getpixel((round(drawn["checker"][0]) + 4, round(y1 + 20)))[3] < 128, "the light checker is translucent"
+
+
+def test_a_prompt_card_keeps_its_words_inside_a_short_card_with_a_wide_pad():
+    from PIL import Image
+    from landing_page_gen.compose import draw
+    c = Image.new("RGBA", (900, 300), (0, 0, 0, 255))
+    draw.prompt_card(c, (0, 0, 900, 200), "Generate", draw.font(90, 500), 60, 237)  # the induced slot's pad (qa-live-2 S06)
+    assert c.getchannel("R").crop((0, 0, 900, 200)).getextrema()[1] > 200  # white words on the dark card
+
+
+def test_a_measured_pill_shrinks_type_that_would_run_past_its_ends():
+    """blind-2-3: "Create an infographic" at 63 px ran past a 444 px pill and OCR still read it."""
+    from pathlib import Path
+    from PIL import Image, ImageFont
+    from landing_page_gen.compose import draw
+    fnt = ImageFont.truetype(str(Path(draw.__file__).parent / "assets" / "Manrope-600.ttf"), 63)
+    canvas = Image.new("RGBA", (1600, 400), (0, 0, 0, 0))
+    draw.pill_in(canvas, (400, 100, 844, 201), "Create an infographic", "translucent", fnt)
+    alpha = canvas.getchannel("A")
+    assert alpha.crop((0, 0, 398, 400)).getbbox() is None and alpha.crop((846, 0, 1600, 400)).getbbox() is None

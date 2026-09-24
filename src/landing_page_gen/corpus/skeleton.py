@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 import yaml
+from PIL import Image
 
 from . import db, grammar, sectionize
 
@@ -33,6 +34,31 @@ def load_page(con, slug):
         media = con.execute("SELECT * FROM media WHERE section_id = ? ORDER BY id", (s["id"],)).fetchall()
         out.append((s, texts, media))
     return page, out
+
+
+def _source_size(m):
+    """The source's real resolution: the larger of the DOM's natural size (which
+    srcset variant the fetch happened to load) and the local file's pixels (the
+    CDN original). roas-calculator S04 recorded 720x720 while its file is
+    1600x1600, and a composite rendered at 720 lost the dots of its ÷."""
+    best = (m["nat_width"], m["nat_height"]) if m["nat_width"] and m["nat_height"] else None
+    local = m["local_path"]
+    if m["kind"] == "image" and local and Path(local).exists():
+        try:
+            with Image.open(local) as im:
+                w, h = im.size
+            if not best or w * h > best[0] * best[1]:
+                best = (w, h)
+        except OSError:
+            pass
+    return best
+
+
+def _own_layout(m):
+    """(family, layout) induced from this slot's original (`lp-compose --induce`), if any."""
+    from ..compose import families
+    from .attrs import asset_id
+    return families.induced_for(asset_id(m["src"])) if m["src"] else None
 
 
 def render_skeleton(page, sections, g=None, page_family=None):
@@ -81,8 +107,9 @@ def render_skeleton(page, sections, g=None, page_family=None):
                 cls = sectionize.aspect_class(m["width"], m["height"])
                 if cls and cls != m["aspect"]:
                     slot["aspect_class"] = cls
-            if m["nat_width"] and m["nat_height"]:
-                slot["natural"] = f"{m['nat_width']}x{m['nat_height']}"
+            natural = _source_size(m)
+            if natural:
+                slot["natural"] = f"{natural[0]}x{natural[1]}"
             if m["duration"]:
                 slot["duration_s"] = m["duration"]
             slot["src"] = m["src"]
@@ -106,16 +133,53 @@ def render_skeleton(page, sections, g=None, page_family=None):
                 if pl:
                     lines.append(f"> prior: {pl}")
                 lines.append('> text: TODO exact strings the model renders, e.g. "50% OFF" | "Buy now", or none')
-                lines.append("> device: TODO none | reference-thumbs | icon-set | two-up | model-picker | applied-mockup | "
-                             "crop-grid | palette-card | selection-frame | editor, "
+                own = _own_layout(m)
+                lines.append("> device: TODO " + (f"{own[1]} (this slot's own measured layout, style {own[0]}) | " if own else "")
+                             + "none | reference-thumbs | icon-set | two-up | model-picker | bento | "
+                             "applied-mockup | crop-grid | palette-card | selection-frame | editor | pill | compare-slider, "
                              "then a colon and the claim this picture demonstrates")
-                lines.append('> chrome: TODO the page strings its layout draws (`lp-compose --describe <family>` '
-                             'lists them), e.g. "Seedance 2.5", or none')
+                lines.append('> chrome: TODO strings the chrome may say beyond the page copy (the Before | After of a '
+                             'pill pair, a model a picker may tick, hex colours), or none')
                 if m["kind"] == "video":  # the target length: faithful to the original, capped by budget.video_seconds
                     lines.append(f"> duration: {round(m['duration'])}  # original {m['duration']} s" if m["duration"]
                                  else "> duration: TODO seconds (the original's length is unknown)")
+                    lines.append(f"> motion: {motion_line(at, m['width'], m['height'])}")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
+
+
+# a templated callout (a composition changing state on a static camera) is
+# rendered by `lp-compose --timeline`; anything with real camera or subject
+# motion is generated (Seedance). The preset follows the original's chrome.
+TIMELINE_KINDS = ("ui-demo", "transition")
+
+
+def motion_line(at, w=None, h=None):
+    """The skeleton's `> motion:` value for a video slot: `timeline <preset>`
+    when the original is a ui-demo or transition on a static camera at 1:1,
+    else `generative`; a TODO when the clip is not measured."""
+    at = at or {}
+    kind, camera = at.get("motion_kind"), at.get("camera")
+    if not kind:
+        return "TODO timeline <enhance-reveal | product-bento | prompt-to-result | brand-to-mockup> | generative"
+    square = bool(w and h and abs(w / h - 1) <= 0.02)
+    if kind not in TIMELINE_KINDS or camera not in (None, "static") or not square:
+        return f"generative  # {kind}, camera {camera or 'unmeasured'}" + ("" if square else ", not 1:1")
+    # a clip's chrome is labelled on its poster (first) frame, and a callout's
+    # chrome arrives later, so an empty bag says nothing: the manager picks from the strip
+    chrome = set(at.get("chrome") or [])
+    if chrome & {"prompt-panel", "waveform"}:
+        preset = "prompt-to-result"
+    elif "button" in chrome or at.get("ui_mockup") == "product-card":
+        preset = "product-bento"
+    elif chrome & {"mockup-card", "selection-handles"}:
+        preset = "brand-to-mockup"
+    elif chrome & {"compare-handle", "slider"}:
+        preset = "enhance-reveal"
+    else:
+        return (f"timeline TODO enhance-reveal | product-bento | prompt-to-result | brand-to-mockup  # {kind}, "
+                "static camera; pick the one the original's strip shows (lp-compose --describe-timelines)")
+    return f"timeline {preset}  # {kind}, static camera (lp-compose --describe-timelines)"
 
 
 def attrs_line(at):

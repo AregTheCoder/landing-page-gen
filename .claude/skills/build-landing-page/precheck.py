@@ -11,9 +11,11 @@ spec whose `variant:` contradicts the brief's `> device:` line, a Flow board
 that does not wire (`lp-flow check`), a final clip off the brief's target
 duration, a clip URL that never passed through `picsart_job_status` (so the
 ledger cannot own it), extra video renders beyond the board's nodes (the
-orphaned finals that cost live-5 ~190 credits), and a hybrid `rendered_by:
-model` plan item that no node claims (or a node that claims one the plan does
-not mark)."""
+orphaned finals that cost live-5 ~190 credits), a compose spec whose chrome is
+not exactly its plan's picked blocks (or picks that break the bank's rules, or
+a prompt block that is not the opening of the prompt that made the picture),
+and a hybrid `rendered_by: model` plan item that no node claims (or a node that
+claims one the plan does not mark)."""
 import json
 import re
 import sys
@@ -21,7 +23,7 @@ from pathlib import Path
 
 import yaml
 
-from landing_page_gen.compose import cli as compose_cli
+from landing_page_gen.compose import cli as compose_cli, plan as compose_plan
 from landing_page_gen.compose.families import FAMILIES
 from landing_page_gen.flow import board
 
@@ -95,8 +97,8 @@ def check(run, sid):
     # per-prompt bucket, which is the pre-URL behaviour.
     spent_by_url, spent_by_prompt = {}, {}
     for r in rows:
-        if r.get("tool") not in PAID:
-            continue
+        if r.get("tool") not in PAID or r.get("failed"):
+            continue  # a failed call made no output; whether it charged is the balance check's to say
         urls = r.get("urls") or []
         if urls:
             for u in urls:
@@ -146,7 +148,7 @@ def check(run, sid):
         problems.append("flow.md missing (uv run lp-flow sheet workflow.yaml)")
     problems += device_problems(folder)
     problems += composition_problems(folder)
-    problems += label_problems(folder)
+    problems += block_problems(folder)
     problems += hybrid_problems(folder)
     return problems
 
@@ -160,7 +162,7 @@ def device_problems(folder):
     `stacked-square` at 1:1)."""
     brief = folder / "brief.md"
     text = brief.read_text() if brief.exists() else ""
-    m = re.search(r"^> device: ([a-z-]+)", text, re.M)
+    m = re.search(r"^> device: ([a-z0-9-]+)", text, re.M)
     device = m.group(1) if m else None
     head = re.search(r"^# Brief: S\d+ ([\w-]+)", text, re.M)  # the section type
     out = []
@@ -199,9 +201,10 @@ def compose_wiring_problems(doc, folder):
     out = []
     slot = doc.get("slot", "?")
     steps = doc.get("steps") or []
-    for st in steps:
-        if (st.get("node") or board.infer_node(st)) != "compose":
-            continue
+    composes = [st for st in steps if (st.get("node") or board.infer_node(st)) == "compose" and not st.get("superseded")]
+    # only the board's last compose renders the current spec: an earlier one drew a
+    # spec a rework rewrote in place or moved aside (blind-2: round-1 composes)
+    for st in composes[-1:]:
         spec_name = (st.get("params") or {}).get("spec")
         if not spec_name:
             out.append(f"{slot}: compose node {st.get('id')} has no params.spec")
@@ -244,14 +247,24 @@ def composition_problems(folder):
     return out
 
 
-TEXT_FIELDS = ("text", "label", "title", "active_text", "sliders", "colours")
+def _norm(x):
+    return yaml.safe_load(yaml.safe_dump(x, allow_unicode=True))
 
 
-def label_problems(folder):
-    """The strings a compose spec draws are its plan's, exactly (the plan carries
-    the manager's `> chrome:` strings): the worker adds image paths and never
-    relabels, drops or adds a string. An item the spec leaves out would draw the
-    template's string, so it counts as a relabel too."""
+def _slot_prompts(folder, slot):
+    wf = folder / "workflow.yaml"
+    if not wf.exists():
+        return []
+    return [str((st.get("params") or {}).get("prompt") or "") for d in yaml.safe_load_all(wf.read_text())
+            if d and d.get("slot") == slot for st in d.get("steps") or [] if st.get("tool") == "picsart_generate"]
+
+
+def block_problems(folder):
+    """A compose spec's chrome is exactly its plan's picked blocks: the worker
+    picks blocks in blocks-<slot>.yaml (checked against the bank's rules) and
+    `--spec-from-plan --blocks` resolves them; a spec that adds, drops or edits
+    an item, or picks that break a rule, is a problem. A prompt block shows the
+    opening of the prompt of a generate node on its slot's board."""
     out = []
     for spec_path in sorted(folder.glob("compose-*.yaml")):
         spec = yaml.safe_load(spec_path.read_text()) or {}
@@ -259,13 +272,30 @@ def label_problems(folder):
         if not spec.get("plan") or not plan_path.exists():
             continue  # no plan to hold it to; composition_problems reports a missing one
         cp = yaml.safe_load(plan_path.read_text()) or {}
-        planned = {it.get("id"): it for it in cp.get("items") or [] if it.get("rendered_by") != "model"}
-        drawn = compose_cli._chrome_entries(spec)
-        for cid in [*planned, *(c for c in drawn if c not in planned)]:
-            want, got = planned.get(cid) or {}, drawn.get(cid) or {}
-            for key in TEXT_FIELDS:
-                if (key in want or key in got) and want.get(key) != got.get(key):
-                    out.append(f"{spec_path.name}: {cid} {key} is {got.get(key)!r}, the plan's is {want.get(key)!r}")
+        if not cp.get("slots"):
+            continue
+        blocks_path = folder / (spec.get("blocks") or f"blocks-{cp.get('slot')}.yaml")
+        if not blocks_path.exists():
+            out.append(f"{spec_path.name}: no {blocks_path.name}: the worker picks the slot blocks there")
+            continue
+        doc = yaml.safe_load(blocks_path.read_text()) or {}
+        refused = compose_plan.check_blocks(cp, doc)
+        out += [f"{blocks_path.name}: {p}" for p in refused]
+        if refused:
+            continue  # picks that break a rule are not drawn, so there is nothing to compare
+        want = {it["id"]: it for it in _norm(compose_plan.picked_items(cp, doc))}
+        got = {k: v for k, v in _norm(compose_cli._chrome_entries(spec)).items()}
+        for cid in [*want, *(c for c in got if c not in want)]:
+            if want.get(cid) != got.get(cid):
+                what = "missing" if cid not in got else "not a picked block" if cid not in want else "edited"
+                out.append(f"{spec_path.name}: chrome {cid} is {what} (rebuild the spec with --spec-from-plan --blocks)")
+        prompts = [p.casefold() for p in _slot_prompts(folder, cp.get("slot"))]
+        for it in want.values():
+            if it.get("kind") in ("prompt-text", "text") and it.get("category") == "action" and prompts:
+                opening = str(it.get("text") or "").rstrip(".… ").casefold()
+                if opening and not any(p.startswith(opening) for p in prompts):
+                    out.append(f"{blocks_path.name}: {it['id']} shows a prompt no generate node on {cp.get('slot')} "
+                               "starts with; it is the opening of the prompt that made the picture")
     return out
 
 

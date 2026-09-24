@@ -23,6 +23,7 @@ import yaml
 from PIL import Image
 
 from ..compose import cli as compose_cli
+from . import cli as inject_cli
 from ..compose.families import FAMILIES
 from ..corpus import attrs, measure, motion, sectionize, taxonomy
 from ..corpus.similar import FrameGrabber
@@ -44,27 +45,26 @@ PICTURE_MIN_SAT = 0.15   # mean saturation a region needs to count as a picture,
 COMPOSE_KIND = {
     "tile": "tile", "swatch": "swatch", "icon": "tile", "label": "chip", "pill": "pill", "tool-pill": "pill",
     "brackets": "brackets", "crop-badge": "tile", "selection-frame": "selection-handles", "badge": "badge", "card": "mockup-card", "profile-card": "mockup-card",
-    "list-panel": "option-list", "adjust-panel": "adjust-panel", "round-badge": "vs-badge", "type-tile": "tile",
-    "mark-tile": "model-logo", "chip-bar": "chip", "prompt-text": "prompt-panel",
+    "list-panel": "option-list", "track-list": "option-list", "player-bar": "play-button", "adjust-panel": "adjust-panel", "round-badge": "vs-badge", "type-tile": "tile",
+    "mark-tile": "model-logo", "chip-bar": "chip", "prompt-text": "prompt-panel", "compare-handle": "compare-handle",
+    "waveform": "waveform", "play-button": "play-button", "check-row": None,
+    "statement": "mockup-card", "list-card": "mockup-card", "form-card": "mockup-card",
     "text": None, "headline": None, "divider": None, "checker": None,  # the corpus records a checkerboard as a ground, not chrome
 }
 
 
 def drawn_kinds(spec_path):
-    """The set of corpus chrome kinds a compose spec draws: the family/preset
-    template chrome minus omitted ids plus list-form additions, each compose
-    kind mapped through COMPOSE_KIND (text/headline/divider draw no corpus
-    chrome). Reads the spec only — no panel images needed."""
+    """The set of corpus chrome kinds a compose spec draws: the template's
+    background surfaces plus the spec's chrome items (the picked blocks) minus
+    omitted ids, each compose kind mapped through COMPOSE_KIND (text/headline/
+    divider draw no corpus chrome). Reads the spec only — no panel images needed."""
     spec = yaml.safe_load(Path(spec_path).read_text()) or {}
     if spec.get("family") not in FAMILIES:
         return set()
     template = compose_cli.template(spec["family"], compose_cli._preset(spec))
-    entries = compose_cli._chrome_entries(spec)
     omit = set(spec.get("omit") or [])
-    fam_ids = {item["id"] for item in template["chrome"]}
-    kinds = {entries.get(item["id"], {}).get("kind", item["kind"])
-             for item in template["chrome"] if item["id"] not in omit}
-    kinds |= {e["kind"] for eid, e in entries.items() if eid not in fam_ids and "kind" in e}
+    items = [*template["background"]["surfaces"], *compose_cli._chrome_entries(spec).values()]
+    kinds = {it["kind"] for it in items if it["id"] not in omit and "kind" in it}
     return {COMPOSE_KIND.get(k) for k in kinds} - {None}
 
 
@@ -179,6 +179,7 @@ def bench(run, attrs_path=attrs.ATTRIBUTES_YAML):
     run = Path(run)
     meta = json.loads((run / "slots.json").read_text())
     known = attrs.load(attrs_path) if Path(attrs_path).exists() else {}
+    results = inject_cli._result_slots(run)
     rows, skipped = [], []
     files = sorted(p for p in (run / "dist" / "media" / "gen").iterdir() if p.suffix in (".png",) + VIDEO_SUFFIXES)
     with FrameGrabber() as grabber, tempfile.TemporaryDirectory() as tmp:
@@ -205,10 +206,13 @@ def bench(run, attrs_path=attrs.ATTRIBUTES_YAML):
             o, g = stats(orig), stats(gen)
             rec = known.get(s.get("src")) or s.get("attrs")  # the corpus record may carry sheet answers the pixels cannot
             sec = slot.split("-")[0]
-            spec_path = run / "sections" / sec / f"compose-{slot}.yaml"
+            spec_path = run / "sections" / sec / results.get(slot, {}).get("compose", f"compose-{slot}.yaml")
             row = {"slot": slot, "section": sec, "type": typ, "orig": o, "gen": g, "video": video,
                    "composite": spec_path.exists(),
                    "orig_family": family(rec or o, typ, cls), "gen_family": family(g, typ, cls)}
+            drawn = (yaml.safe_load(spec_path.read_text()) or {}).get("family") if spec_path.exists() else None
+            if drawn:  # a composite is the family it was drawn as; its pixels alone read a compare card as unresolved
+                row["gen_family_pixels"], row["gen_family"] = row["gen_family"], drawn
             if row["composite"] and rec and "chrome_items" in (rec.get("labelled") or []):
                 # ground truth of what the modal drew (labelled corpus items) vs
                 # what the spec draws; kinds only in this batch (placement/count
@@ -230,7 +234,8 @@ def write_md(result, path):
              "pic sat = mean HSV saturation; pictures = coloured regions large enough to be a panel (a device "
              "proxy, flagged on composites only); chrome = the corpus kinds the original's labelled composition "
              "carried vs the kinds the compose spec draws (dash when the original has no labelled chrome_items, "
-             "where the pictures proxy stands in). Values are original / generated.", "",
+             "where the pictures proxy stands in); a composite's generated family is the one its compose spec drew. "
+             "Values are original / generated.", "",
              "| slot | section | family orig -> gen | match | ground L | ground sat | coverage | bbox h | pic sat | pictures | chrome orig -> gen |",
              "|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in result["rows"]:

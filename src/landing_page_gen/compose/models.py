@@ -121,6 +121,24 @@ def model_id(slug):
     return f"no: {slug} is not mapped to a connector model; add it to compose/assets/models.yaml (slugs or unavailable)"
 
 
+def model_name(slug):
+    """The catalogue name of the model a page slug names ("nano-banana-pro" ->
+    "Nano Banana Pro"), or None when it has none (unmapped, unavailable)."""
+    return name_for_id(model_id(slug))
+
+
+def name_for_id(mid):
+    """The catalogue name of a connector model id ("gpt-image-2.5-sunburst" ->
+    "GPT Image 2.5 Sunburst"), or None."""
+    return next((m["name"] for m in catalogue()["models"] if m.get("id") == mid), None)
+
+
+def maker_of(name):
+    """The maker key of a model name or a maker key ("Nano Banana Pro" -> gemini)."""
+    m = lookup(name)
+    return maker(m) if m else (name if name and (LOGOS / f"{name}.png").exists() else None)
+
+
 def page_models(page):
     """The models a page presents its pictures as the output of: [x] for
     ai-models--x, [a, b] for compare-models--a-vs-b, [] otherwise (and for the
@@ -144,7 +162,9 @@ def made_by(page, family=None, preset=None, items=(), panels=("*",)):
 
     - ai-models--x: every panel is x's output.
     - compare-models--a-vs-b: a vs-two-up's left is a's, its right b's.
-    - elsewhere, a model picker's panels are its highlighted model's."""
+    - elsewhere, a model picker's panels are its highlighted model's, and any
+      other attribution block (a mark tile, a model chip) makes the panels it
+      names (`for:`, else every panel) that model's output."""
     sides = page_models(page)
     if str(page).startswith("ai-models--") and sides:
         mid = model_id(sides[0])
@@ -153,9 +173,39 @@ def made_by(page, family=None, preset=None, items=(), panels=("*",)):
     if len(sides) == 2 and family == "vs-two-up":
         return {p: {"model": model_id(s), "because": f"the {p} side of {page} is {s}'s output"}
                 for p, s in zip(("left", "right"), sides) if p in panels}
-    if preset == "model-picker":
+    if preset == "model-picker" and any(it.get("kind") == "list-panel" for it in items):
         active = next((it.get("active_text") for it in items if it.get("kind") == "list-panel"), "")
         m = lookup(active) if active else None
         mid = (m or {}).get("id") or f"no: the picker highlights {active!r}, which has no connector id in models.yaml"
         return {p: {"model": mid, "because": f"the model picker ticks {active!r}"} for p in panels if p != "*"}
+    for it in items:
+        name = attributed_model(it)
+        if not name:
+            continue
+        m = lookup(name)
+        mid = (m or {}).get("id") or f"no: the {it.get('kind')} {it.get('id')!r} names {name!r}, which is no model in models.yaml"
+        return {p: {"model": mid, "because": f"the {it.get('kind')} {it.get('id')!r} marks it as {name}'s output"}
+                for p in (it.get("for") or panels) if p != "*"}
     return {}
+
+
+def attributed_model(item):
+    """The model name an attribution block shows, or None (a maker key alone,
+    "gemini", names no model and so attributes nothing)."""
+    from . import bank  # bank reads models; lazy to keep the import graph flat
+    if bank.category_of(item) != "attribution":
+        return None
+    kind = item.get("kind")
+    if kind == "mark-tile":
+        name = item.get("model")
+    elif kind == "chip-bar":
+        name = next((x.get("text") for x in item.get("items") or [] if x.get("mark") is True), None)
+    elif kind == "pill":
+        name = item.get("text")
+    elif kind == "list-panel":
+        name = item.get("active_text")
+    else:
+        return None
+    if not name or (LOGOS / f"{name}.png").exists() and not lookup(name):
+        return None  # empty, or a maker key: a mark with no model claims no model
+    return name

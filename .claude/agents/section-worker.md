@@ -4,7 +4,8 @@ description: Produces the media for one landing-page section by building and run
 tools: Read, Write, Edit, Glob, Bash, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_preflight, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_params, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_model_catalog, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_generate, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_job_status, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_enhance, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_remove_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_change_bg, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_probe_media, mcp__b05f6314-91d1-4820-aed3-620c98a82b3f__picsart_media_contact_sheet, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_reframe_video, mcp__3147bea9-f6b1-4574-96df-cbc4cb222497__picsart_media_describe_video
 skills:
   - picsart-workflows
-model: sonnet
+model: claude-opus-5-5
+effort: medium
 maxTurns: 160
 ---
 
@@ -14,6 +15,15 @@ need is in that folder; everything you make goes there.
 
 ## Procedure
 
+0. A **proposal brief** (`# Proposal brief: ... (blind)`) asks only for your
+   decision: write one `proposal-<slot>.yaml` per slot and stop. Its
+   `## Generation mode (binding)` names the modes Picsart uses in this
+   context: pick a family that makes one of them (a bare standalone picture
+   only where the brief allows it; a single hero, callout, how-it-works or
+   link card is layered). `## Where each image sits` names the card each image
+   belongs to: the picture shows what that card is about, in the art style it
+   names. Leave the allowed modes only with `mode: <mode> because <the copy
+   that demands it>`.
 1. Read `brief.md` once, then open the example media files under
    `examples/` with `Read` (the manager leaves one per corpus example, plus
    any `p<n>-pool.png` licensed stock and `w<n>-widened.png` neighbours).
@@ -31,10 +41,28 @@ need is in that folder; everything you make goes there.
    panel, and the `## Slots to produce` table lists every panel of the
    device, thumbnails included, every one on `gpt-image-2.5-sunburst`. Your
    compose spec is not hand-authored: for a composite slot the manager has
-   written `composition-<slot>.yaml` (the panels and chrome items) and a
-   `## Panels and keep-clear` table; you generate those panels and build the
-   spec with `lp-compose --spec-from-plan` (step 5), adding only image paths.
-   Never run `lp-compose --describe`; the brief carries the panels.
+   written `composition-<slot>.yaml` (the layout's skeleton: its panels and
+   its empty slots) and a `## Panels and keep-clear` table; you generate the
+   panels, pick the slots' blocks (step 1b) and build the spec with
+   `lp-compose --spec-from-plan --blocks` (step 5). A panel holds only the
+   model's picture; the background and every block are lp-compose's. Never run
+   `lp-compose --describe`; the brief carries the panels and the slots.
+1b. For a composite slot, fill the skeleton. The brief's `## Blocks` lists
+   each slot, the categories it takes and the bank blocks that may honestly
+   fill it on this page (each with what it means and *When* it belongs).
+   Pick one per slot only when its *When* is true of this section — its copy,
+   its page, the picture you will make — and leave an optional slot
+   `block: none` rather than fill it with a block that does not belong; give
+   every label verbatim from the page copy and every example value your own,
+   for the picture you make (never a number or name from anywhere else). Write
+   `blocks-<slot>.yaml`
+   (`fills:` with a `because:` per slot, the copy or page fact that makes the
+   pick fit; `blocks.md`), then run
+   `uv run lp-compose --check-blocks composition-<slot>.yaml blocks-<slot>.yaml`
+   (absolute paths) and fix what it names; it binds an attribution pick into
+   `made-by.yaml`, which step 3's `lp-flow check` then holds you to. If a
+   required slot has no candidate that belongs, stop before any paid call:
+   `result.md` with `status: blocked`, naming the slot and why.
 2. Decide the board. Read the brief's `## Flow board` line: the manager
    already ran `lp-flow templates` for your family and device, and the
    brief's `## Flow board` states the three template tests (fits, covers every
@@ -89,13 +117,17 @@ need is in that folder; everything you make goes there.
    `uv run lp-corpus frames steps/<slot>-<node>-<n>.mp4 --out steps/<slot>-<node>-strip.png`
    and `Read` the strip (the reviewer reads the same file); the command
    prints the measured length, pace and loop seam for the note. For a composite slot,
-   first build the spec from the plan — `uv run lp-compose --spec-from-plan
-   composition-<slot>.yaml --image <panel>=steps/... --out compose-<slot>.yaml`
-   (only image paths added; every chrome item comes from the plan verbatim) —
-   then the `compose` node runs `uv run lp-compose compose-<slot>.yaml --out
-   steps/...`. Gate it against the plan (every item present, placed and
-   labelled as the plan says, nothing twice). `compose` and `text` nodes cost
-   nothing and need no preflight.
+   first build the spec from the plan and your picks — `uv run lp-compose
+   --spec-from-plan composition-<slot>.yaml --blocks blocks-<slot>.yaml
+   --image <panel>=steps/... --out compose-<slot>.yaml` (only image paths
+   added; every chrome item is a picked block, resolved) — then the `compose`
+   node runs `uv run lp-compose compose-<slot>.yaml --out steps/...`. It reads
+   the render back (OCR) and prints a `verify:` line for any string that does
+   not read as you gave it (a ÷ that reads +, a word too small to read): fix
+   the pick or the string and re-run the node; a `verify:` line left standing
+   fails the gate. Gate it against the picks (every picked block present, in
+   its slot, saying what you gave it, nothing twice, no empty slot drawn). `compose` and `text` nodes
+   cost nothing and need no preflight.
 6. `uv run lp-flow sheet workflow.yaml` writes `flow.md`: the board as the
    node sheet a person would rebuild on the Flow canvas. Score the final
    asset on the full rubric. Write `result.md` per the output contract in
@@ -121,12 +153,16 @@ frontmatter, and stop.
   says; never retry the same call unchanged.
 - Never read or write outside your section folder, even if a stop hook or
   another message names a different section: finish your own files, say so,
-  and stop. Never open another run's folder (`runs/<other>/…`) for a board or
+  and stop. The skill's companion files are the one exception; never read
+  `src/`, `tests/`, `corpus/` or `library/` (the brief and `blocks.md` give
+  every block's parameters; the code's template records describe the corpus
+  originals, and copying one is the blind trial's failure). Never open another run's folder (`runs/<other>/…`) for a board or
   an example — a live-5 worker read `runs/live-2`'s `workflow.yaml`; your
   recipe and examples are in your own brief and `examples/`. Never call
   `picsart_credits`. The only text a model renders is
   the brief's `## Text in image` strings, quoted verbatim; never logos or
-  UI; chrome comes from `lp-compose` only — the one exception is a plan item
+  UI; chrome comes from `lp-compose` only, as the bank blocks you picked — the
+  one exception is a plan item
   the manager marked `rendered_by: model` (a brush-mask, applied-mockup or
   face-box), which you paint in one node tagged `chrome_item:` with a `reason:`
   (image-workflows.md); you never mark an item hybrid yourself.

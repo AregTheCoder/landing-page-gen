@@ -49,6 +49,10 @@ CHROME_KINDS = (
 CHROME_PLACEMENTS = ("overlay", "beside")
 CHROME_ANCHORS = ("tl", "tr", "bl", "br", "top", "bottom", "left", "right", "centre")
 CHROME_STATE_KEYS = ("active", "on", "value")
+# the Picsart tool a tile or icon shows (compose/assets/roles.yaml `tools:`, pinned by tests/test_roles.py),
+# the one purpose a tile's kind and text leave open
+CHROME_TOOLS = ("enhance", "upscale", "remove-bg", "change-bg", "vectorize", "edit", "generate", "crop", "adjust",
+                "video", "video-enhance", "voice", "calculator", "other", "music")
 
 # field -> (enum values, or a JSON type name; one-line definition the model reads)
 FIELDS = {
@@ -77,7 +81,8 @@ FIELDS = {
                      "the same chrome as a list, one entry per element, each {kind (from the chrome vocabulary), "
                      "placement: overlay (drawn on a picture) | beside (on the ground next to it), optional anchor "
                      "(tl tr bl br top bottom left right centre), optional count (>=1), optional state {active, on, "
-                     "value}, optional text (<=40 chars, `|`-joined when count>1)}; the plain `chrome` bag is the set "
+                     "value}, optional text (<=40 chars, `|`-joined when count>1), optional tool (a tile or icon: the "
+                     "Picsart tool its glyph shows)}; the plain `chrome` bag is the set "
                      "of the kinds here"),
     "text_in_image": (("none", "labels-only", "headline", "body"),
                       "none; labels-only = only short labels on chrome; headline = a designed headline or slogan "

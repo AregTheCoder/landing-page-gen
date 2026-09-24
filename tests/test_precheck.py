@@ -55,6 +55,14 @@ def test_a_failed_step_rerun_with_the_same_prompt_counts_its_ledger_rows_once(tm
     assert precheck.check(run, "S03") == [], "the ledger holds one paid row for this prompt and the record says 5"
 
 
+def test_a_failed_call_the_hook_logged_is_not_spend_the_record_owes(tmp_path):
+    run = make_run(tmp_path)
+    with (run / "ledger.jsonl").open("a") as fh:  # PostToolUseFailure: logged at its quote, no output
+        fh.write(json.dumps({"tool": "picsart_generate", "model": "gpt-image-2.5-sunburst", "failed": True, "urls": [],
+                             "params": {"model": "gpt-image-2.5-sunburst", "prompt": PROMPT}, "quoted_credits": 5}) + "\n")
+    assert precheck.check(run, "S03") == []
+
+
 def test_compose_variant_must_match_the_brief_device(tmp_path):
     run = make_run(tmp_path)
     sec = run / "sections" / "S03"
@@ -151,27 +159,57 @@ def test_composition_spec_must_match_its_plan(tmp_path):
     assert precheck.composition_problems(sec) == []
 
 
-def test_spec_strings_must_be_the_plans(tmp_path):
+def test_spec_chrome_must_be_the_plans_picked_blocks(tmp_path):
     import yaml
 
-    from landing_page_gen.compose import plan
+    from landing_page_gen.compose import plan, roles
     sec = tmp_path / "sections" / "S03"
     sec.mkdir(parents=True)
-    cp = plan.build("dark-composite", "720x720", preset="model-picker", slot="S03-m1", labels=["Seedance 2.5"])
+    facts = roles.facts_for("ai-image-generator", "Pick a model", labels=["Seedance 2.5"],
+                            generator="GPT Image 2.5 Sunburst")
+    cp = plan.build("dark-composite", "720x720", preset="model-picker", slot="S03-m1", facts=facts)
     plan.write_plan(sec / "composition-S03-m1.yaml", cp)
+    picks = {"fills": [{"slot": "list", "block": "model-picker", "because": "the section is about choosing"}]}
+    (sec / "blocks-S03-m1.yaml").write_text(yaml.safe_dump(picks))
 
-    def spec_with(chrome):
+    def spec_with(chrome, blocks="blocks-S03-m1.yaml"):
         spec = {**plan.to_spec(cp, {"photo": "steps/p.png"}), "plan": "composition-S03-m1.yaml", "chrome": chrome}
+        if blocks:
+            spec["blocks"] = blocks
         (sec / "compose-S03-m1.yaml").write_text(yaml.safe_dump(spec, sort_keys=False))
-        return precheck.label_problems(sec)
+        return precheck.block_problems(sec)
 
-    faithful = plan.to_spec(cp, {})["chrome"]
-    assert spec_with(faithful) == [], "spec-from-plan copies every string"
-    relabelled = [{**it, "active_text": "Seedance Pro"} if it["id"] == "list" else it for it in faithful]
-    assert any("'Seedance Pro', the plan's is 'Seedance 2.5'" in p for p in spec_with(relabelled))
-    assert any("list active_text is None" in p for p in spec_with([])), "a dropped item draws the template's string"
+    faithful = plan.to_spec(cp, {}, picks)["chrome"]
+    assert spec_with(faithful) == [], "spec-from-plan --blocks draws exactly the picks"
+    relabelled = [{**it, "active_text": "Seedance 2.5"} if it["id"] == "list" else it for it in faithful]
+    assert any("chrome list is edited" in p for p in spec_with(relabelled))
+    assert any("chrome list is missing" in p for p in spec_with([])), "a dropped block is caught"
     added = faithful + [{"id": "extra", "kind": "label", "rect": [0, 0, 10, 10], "text": "NEW"}]
-    assert any("extra text is 'NEW'" in p for p in spec_with(added))
+    assert any("chrome extra is not a picked block" in p for p in spec_with(added))
+    (sec / "blocks-S03-m1.yaml").unlink()
+    assert any("no blocks-S03-m1.yaml" in p for p in spec_with(faithful))
+    (sec / "blocks-S03-m1.yaml").write_text(yaml.safe_dump({"fills": [{"slot": "list", "block": "palette", "because": "x"}]}))
+    assert any("is a derived block; the slot takes attribution" in p for p in spec_with(faithful))
+
+
+def test_a_prompt_block_is_the_opening_of_the_prompt_that_made_the_picture(tmp_path):
+    import yaml
+
+    from landing_page_gen.compose import plan, roles
+    sec = tmp_path / "sections" / "S05"
+    sec.mkdir(parents=True)
+    cp = plan.build("prompt-card", "720x720", preset="caption", slot="S05-m1",
+                    facts=roles.facts_for("ai-image-generator", "Type a prompt", generator="GPT Image 2.5 Sunburst"))
+    plan.write_plan(sec / "composition-S05-m1.yaml", cp)
+    (sec / "workflow.yaml").write_text(yaml.safe_dump({"slot": "S05-m1", "steps": [
+        {"id": 1, "tool": "picsart_generate", "params": {"prompt": "A ceramic teapot on linen, soft window light"}}]}))
+    for text, ok in (("A ceramic teapot on linen…", True), ("A glass teapot", False)):
+        picks = {"fills": [{"slot": "prompt", "block": "prompt-card", "text": text, "because": "the prompt"}]}
+        (sec / "blocks-S05-m1.yaml").write_text(yaml.safe_dump(picks, allow_unicode=True))
+        spec = {**plan.to_spec(cp, {"photo": "p.png", "applied": "a.png"}, picks), "plan": "composition-S05-m1.yaml",
+                "blocks": "blocks-S05-m1.yaml"}
+        (sec / "compose-S05-m1.yaml").write_text(yaml.safe_dump(spec, allow_unicode=True))
+        assert (precheck.block_problems(sec) == []) is ok, text
 
 
 def test_credits_reconcile_by_url_not_prompt(tmp_path):
@@ -227,6 +265,9 @@ def test_compose_node_wiring_against_its_spec(tmp_path):
     assert precheck.compose_wiring_problems(doc, tmp_path) == []
     doc["steps"][2]["in"] = [1]  # not fed by panel node 2
     assert any("not fed by node 2" in p for p in precheck.compose_wiring_problems(doc, tmp_path))
+    doc["steps"][2]["superseded"] = True  # it rendered an earlier spec, rewritten in place since
+    assert precheck.compose_wiring_problems(doc, tmp_path) == []
+    doc["steps"][2].pop("superseded")
     doc["steps"][2]["in"] = [1, 2]
     (tmp_path / "compose-S03-m1.yaml").write_text("family: prompt-card\nsize: 720x720\npanels: {}\n")
     assert any("!= board family" in p for p in precheck.compose_wiring_problems(doc, tmp_path))

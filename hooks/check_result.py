@@ -22,6 +22,8 @@ SECTION_RE = re.compile(r"(?:/sections/|\bSection )(S\d+)\b")
 
 
 def missing_in(folder):
+    if list(folder.glob("proposal-*.yaml")) and not (folder / "workflow.yaml").exists():
+        return []  # a blind run's phase 1: the proposal is the whole deliverable, the board comes in phase 2
     problems = []
     for name, keys in REQUIRED.items():
         path = folder / name
@@ -60,16 +62,33 @@ def assigned_section(transcript):
     return sids[0] if sids else None
 
 
+FOLDER_RE = re.compile(r"(/\S*?/runs/[^/\s`'\"]+)/sections/(S\d+)\b")
+
+
+def assigned_folder(transcript):
+    """The section folder the worker was given by path (`.../runs/<run>/sections/Sxx`),
+    so a worker of another run is checked in its own run, not in runs/current."""
+    if not transcript.exists():
+        return None
+    m = FOLDER_RE.search(first_user_message(transcript))
+    return Path(m.group(1)) / "sections" / m.group(2) if m else None
+
+
 def main():
     data = L.read_hook_input()
     if data.get("stop_hook_active"):
         return
     transcript = Path(data.get("agent_transcript_path") or data.get("transcript_path", ""))
     sid = assigned_section(transcript)
-    run = L.current_run()
-    if not sid or not run.exists():
+    folder = assigned_folder(transcript)
+    if folder is None:
+        run = L.current_run()
+        if not sid or not run.exists():
+            return
+        folder = run / "sections" / sid
+    elif not folder.parent.parent.exists():
         return
-    problems = missing_in(run / "sections" / sid)
+    problems = missing_in(folder)
     if problems:
         print(json.dumps({
             "decision": "block",

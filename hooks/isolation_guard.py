@@ -39,7 +39,7 @@ def normalize(url):
 
 def main():
     data = L.read_hook_input()
-    run = L.current_run()
+    run = L.active_run(data)
     if not run.exists():
         return
 

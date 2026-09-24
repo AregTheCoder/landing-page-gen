@@ -26,7 +26,23 @@ output size, description, tags, the node `shape` in words and `fits`
 not recorded. Skip this step when the file is under two weeks old and the
 page's families are covered.
 
+## The procedure is checked
+
+Every step below is required, in every mode (full page, `--slot`, blind,
+trial). `lp-inject` runs `manager_check.py` on a live run and refuses to inject
+until it is clean: `report.md` with the start balance, no generated slot the
+procedure keeps from source, every family in a generation mode its context
+allows, a clean precheck and an `accept` review per section. blind-1 skipped
+the report, the review and the kept-from-source rule, and nothing stopped it.
+A trial draws its slots with `pick.py` (§1.0), never by hand.
+
 ## 1. Set up the run
+
+0. A trial of random slots: `uv run python .claude/skills/build-landing-page/pick.py
+   --prefix <name> --n 5 --cap <credits per run> --seed <n>` draws one slot per
+   page and per section type from what the procedure lets us generate and sets
+   up each run folder (skeleton, slots.json, budget.json, shared-context.md) and
+   `runs/<name>-plan.json`. Then do 1.1-1.2 and §2-§6 per run.
 
 1. `<run>` = the skeleton's folder. Create `<run>/sections/`, write
    `<run>/budget.json` from the skeleton frontmatter `budget.run_credits`
@@ -59,6 +75,23 @@ page's families are covered.
    number. A TODO duration (the original's length unknown) is left for
    `brief.py`, which takes the prior's median length; `brief.py` turns it into the brief's `## Video` section and
    asks `similar` for clips (`--kind video`, excerpted as 3-frame strips).
+   A video slot's `> motion:` line says how it is made: `timeline <preset>`
+   (a templated callout on a static camera, rendered by `lp-compose
+   --timeline` for 0 credits; `lp-compose --describe-timelines`) or
+   `generative` (the Seedance recipe). A `timeline TODO ...` is yours: open
+   the original's strip (`corpus/frames/<id>-strip.png`) and pick the preset
+   whose states it shows, or write `generative` when the picture itself
+   moves. Its `> chrome:` line carries the preset's strings (the checklist
+   rows, the product name | price | button, the prompt, the title | caption),
+   each from the section copy.
+3b. **Generation mode.** Picsart uses a bare standalone generation only where
+   it showcases many options side by side (a scrolling gallery of different
+   characters, styles or subjects) and on tutorial thumbnails; everywhere else
+   its images are layered templates, or finished designs on maker pages
+   (`style-families.md` § Vocabulary → Generation modes, measured by `corpus/genmode.py`).
+   `brief.py` states the allowed modes in every brief and refuses a family of
+   another mode; to leave them, write `> mode: <mode> because <the copy that
+   demands it>` under the slot and list it under "Manager decisions".
 4. A `> style:` is yours to decide when it reads TODO, and also when its
    `> attrs:` line says `chrome=unanswered` and the slot's row in the
    `## Slot classes` table lists any chrome family (dark-composite,
@@ -123,8 +156,21 @@ page's families are covered.
    nobody was asked to look). Write `> device: <id>: <claim>` back into
    `skeleton.md` (the claim in one clause, e.g. "references in, style-locked
    output out") and list it under "Manager decisions". `reference-thumbs`,
-   `model-picker` and `two-up` are `lp-compose` variants of `dark-composite`
-   (`uv run lp-compose --describe dark-composite` lists their panels);
+   `model-picker`, `two-up` and `bento` are `lp-compose` variants of
+   `dark-composite` (`uv run lp-compose --describe dark-composite` lists their
+   panels and slots; `--skeleton dark-composite --preset bento --out x.png`
+   draws one). A layout is a skeleton: choose the one whose slots this page
+   can fill with blocks that belong (`picsart-workflows/blocks.md`). When
+   the TODO names `m-<code>` it is this slot's own measured layout (induced
+   from the original's reading by `lp-compose --induce`: its panels, cards and
+   pills where the original has them, each with its measured fill, radius and
+   type); prefer it when the section's copy can fill its slots, since it is
+   the structure the page already had, and set `> style:` to the family it
+   names. A
+   dark-composite section on a page with no image tool whose copy carries a
+   formula or key line, the channels the output runs on, or the page's own
+   calculator -> `bento` (three cards around the picture), never the tile
+   column with a borrowed tool;
    `icon-set` and `applied-mockup` are written into the `photo` annotation
    itself (a 3x3 grid of matching icons; the mark on a sign) and use the
    plain template. Four devices are compose variants of one family each and are
@@ -139,29 +185,28 @@ page's families are covered.
    copy invites customising every part of a template (its elements, fonts,
    colours, photos), or whose examples show the design pulled apart into a
    cut-out motif, a type tile and a swatch bar -> `editor` (the swatch colours
-   go on `> chrome:`; the worker adds the motif as a `cutout` panel). Never name `stacked-square`:
-   a 1:1 before-after slot gets it from its size. The model-picker list card carries blank rows and the
-   page's own model short name on the active row (`> chrome: "Recraft V4"`,
-   step 8), never a competitor's name or mark.
+   go on `> chrome:`; the worker adds the motif as a `cutout` panel). On a
+   before-after section whose two 1:1 slots are one picture before and after
+   (the enhancer heroes) -> `pill`, with `> chrome: "Before" | "After"` (one
+   state per slot, in slot order); the Before slot is then made from the
+   After, never generated. Never name `stacked-square` or `compare-slider`:
+   a 1:1 before-after slot gets the first and a 16:10 gallery card the second from its size. A
+   model-picker ticks the model that generates the picture (the page's own on
+   a model page); name another only on `> chrome:` when the copy presents it.
 8. A `> chrome:` still reading TODO is decided after step 7, for a slot whose
-   family `lp-compose` draws. `uv run lp-compose --describe <family>` lists,
-   under each layout, the page strings it draws in order: the model-picker's
-   active row; the adjust panel's tool name and three sliders (a hero's tool
-   pill takes the tool name alone); the crop frame's label (x2, a size) or the crop-grid ratio;
-   the resolution chip; a prompt and its button; the palette's colours. Take
-   each from this section's copy and nothing else
-   (the tool's short name, the page's own model short name, a ratio or format
-   the copy names, the page's colours as hex); never a competitor's name,
-   never the HTML copy beside the image, never a string on the `> text:` line.
-   Write them in that order, e.g.
-   `> chrome: "Curves" | "Shadows" | "Midtones" | "Highlights"`; a string left
-   off the end keeps the layout's own (Before, After, VS, Generate), and `none`
-   keeps them all. `brief.py` writes the strings into every composition plan
-   it builds, and refuses a TODO on a layout that draws page strings and a
-   string on both lines. To change a string, edit the `> chrome:` line and
-   re-run `brief.py --replan`; never a label in `composition-<slot>.yaml`,
-   which must match the line it was built from. List the strings under "Manager
-   decisions".
+   family `lp-compose` draws. The layout's slots are empty until the worker
+   fills them from the bank, and the worker takes every string from the page
+   copy; this line lists only what the chrome may say beyond the copy: the
+   Before | After of a `pill` pair (in slot order), a model a picker may tick
+   that the page presents, the page's colours as hex for a palette. Most slots
+   need none, so `> chrome: none` is the common answer. Never a competitor's
+   name, never a string on the `> text:` line (brief.py refuses a string on
+   both lines). To change it, edit the line and re-run `brief.py --replan`;
+   never a slot in `composition-<slot>.yaml`, which must match the line it was
+   built from (moving a slot's `rect` off the subject is the one hand edit).
+   `brief.py` refuses a layout whose required slot no bank block can honestly
+   fill on this page and names the layouts of the family that can. List the
+   strings under "Manager decisions".
 
 ## 2. Write one brief per section
 
@@ -172,8 +217,50 @@ example excerpts or the references yourself:
 
 ```
 uv run python .claude/skills/build-landing-page/brief.py <run> <Sxx> \
-    [--pool N --seed <run>] [--widen N] [--replan]
+    [--pool N --seed <run>] [--widen N] [--replan] [--slot Sxx-mN]   # --slot: one slot of the section, its own lines
 ```
+
+**Blind mode (`--blind`).** No line read off the original reaches the worker:
+not its measured `> attrs:`, not its labelled `> style:`, not the manager's
+`> annotation:`/`> device:`/`> text:`/`> chrome:`. Phase 1 writes a proposal
+brief (page and section copy, slot geometry, the page grammar, the families'
+**Use** lines, examples from other pages, shared context); the worker writes
+`proposal-<slot>.yaml` (style, device, annotation, text, chrome, because) and
+stops. Re-run `brief.py --blind` for the full brief built from the proposal
+(no layout check: it reads the original), then the worker builds as usual.
+The manager only reads the proposal for rule faults (a never-generated family,
+a string the family's Text line forbids), never against the original. A
+proposal `brief.py --blind` refuses (a family outside the allowed generation
+modes) goes back to the same worker: "Re-propose <slot>: <brief.py's message>".
+The proposal brief also lists, per slot, the families with a layout at its
+size and those layouts by their panels and slots (`## Layouts for <slot>`); the
+proposal names its layout first on the device line, so the plan is built on
+the layout that shows the device (blind-2: three plans fell back to a default
+that could not show a set, a stack or a prompt box). It carries the text rules
+and the enforced cap (`budget.json`). Both blind briefs carry `## Where each image sits` (the card heading and card
+text each image belongs to, from the page snapshot) and `## Generation mode`.
+
+**The manager adds nothing to a brief by message.** The spawn and the
+phase-2 message are fixed: "Section <Sxx>. Work only inside
+`<absolute run path>/sections/<Sxx>/`. Read `brief.md` first." The absolute
+path is what the hooks read: each worker's calls are capped and logged in the
+run its first message names (`hooks/_ledger.active_run`), so the runs of a
+trial build in parallel; `runs/current` only covers calls made outside a worker. (blind phase 2: "Your full
+brief is written. Build from `brief.md`."). No description, recipe, model,
+cap or panel instruction goes in a message: when the brief is wrong, fix its
+source (a skeleton line, the plan, `brief.py`) and re-run `brief.py`. blind-1's
+build messages restated a plan the brief contradicted and overrode its cap.
+
+**Layout check (before any worker starts).** `brief.py` measures each slot's
+layout against the slot's own original (`compose/fitcheck.py`: panel count,
+boxes, the share of the canvas the pictures fill, aspect), prints a
+`brief.py: Sxx Sxx-mN (<layout>): ...` line per warning, puts them in the
+brief's `## Layout check` and draws `layout-check-<slot>.png` (original |
+skeleton). Open the sheet and resolve every warning before spawning: change
+the `> style:`/`> device:` line (a warning names the slot's own measured layout
+when one exists), split a section whose slots are different devices, or note
+in the report why the warning stands. Both layout faults the live runs paid
+for would have been caught here.
 
 `brief.py` fills `brief-template.md` from the skeleton and the corpus: the
 section block (verbatim, minus `src:/local:/alt:`), the family's
@@ -268,6 +355,10 @@ has already looked. Keep your own context for coordination.
 
 ## 6. Assemble
 
+0. `uv run python .claude/skills/build-landing-page/manager_check.py <run>`
+   must print `procedure followed`; `lp-inject` runs it too and refuses
+   otherwise. Fix what it names (write the report, spawn the missing review,
+   restyle or block the slot); never inject around it.
 1. `uv run lp-inject <run>` — it reads the skeleton and each
    `sections/<Sxx>/result.md` frontmatter (the worker's `chosen` asset and
    `workflow` per slot) and assembles `<run>/page.md` itself, kept-from-source
