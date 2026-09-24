@@ -1,6 +1,6 @@
 # Data
 
-The code is in git; the image data is not (≈22 GB, 63,500 files: scraped
+The code is in git; the image data is not (≈22 GB, 63,800 files: scraped
 page media and licensed stock photos cannot go on a public repo). It is shared
 as a Google Drive folder, `landing-page-gen-data`, with the same layout as this
 repo, so dropping its folders into a clone restores everything.
@@ -30,6 +30,7 @@ Drive folder: _link added when shared_ (private; viewers by invitation).
 | `corpus/readings/` | 20 MB | every image read: OCR lines and pixel layout | `lp-corpus read` |
 | `corpus/corpus.db`, `attributes.yaml`, `styles.yaml`, `grammar/`, `references/`, `roles/` | 50 MB | the indexed corpus, measured and labelled attributes, style families, page grammar, reference photographers | `lp-corpus sectionize`, `attrs`, `labels`, `grammar` |
 | `library/` | 190 MB | a browsable view of the corpus: page dossiers, assets by model, art style and structure, a sidecar per asset | `lp-corpus organise` |
+| `research/` | 122 MB | studies behind the decisions: template reviews and audits, the probe renders (`lp-compose --probe`), style-gap and context-gap sheets, scrape and Flow notes; the write-ups are also in git, the sheets only here | the studies (their `README`/report per folder) |
 | `runs/` | 2.3 GB | 45 runs: skeletons, briefs, boards, every generated step, reviews, reports, ledgers (every paid call and its URL) | the runs themselves (paid) |
 
 ## Terms
